@@ -427,3 +427,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## 政策 cookie 画板内状态
 
 [独立组件与实跑记录](policy-cookie-prototype-walkthrough.md)对应既有两张政策画板；关闭不增加导航历史。`coverage.json` 的 `figma.component_state_mappings` 单独记录内部状态及源稿哈希，避免把状态变体算成新全屏画板。
+
+## 首页日期与返回状态增量
+
+[日期与返回回放记录](home-date-prototype-walkthrough.md)补齐8个控件并修改Week5 Home为按历史返回。Monday→Tuesday及五条入口往返、既有功能区Calendar/Search回归已通过记录路径；当前76个Frame、2个内部状态、118个控件。直接起点与其它来源底部Home、其它日期和连续滚动仍未实现，整体保持未完成。

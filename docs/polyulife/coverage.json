@@ -17099,6 +17099,604 @@
         "A-TERMS-BACK"
       ],
       "source": "Computer Use Figma editing and actual Present replay; initial failure, independent-component repair, source-aware Back and image-rendering limitation."
+    },
+    {
+      "id": "E-HOME-DATE-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-monday-start.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:59:14.220Z",
+      "sha256": "87b48cfc313df8f59fa8ebbc8ccdebfdf71be47ac9a5947416800255550ec1e2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-monday-start.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周一首页起点; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-tuesday-selected.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:59:26.619Z",
+      "sha256": "4945092892569223897990f3555dd881164f0acf4dbc61fdace5388c1c846258",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [
+        "A-HOME-DATE-TUE"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-tuesday-selected.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 点击 Tuesday，显示29/Today; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-myclass-week.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:59:38.815Z",
+      "sha256": "cb5503ab02401268343c15ea33029084f02dba70089dad1893bb6c6631d9a818",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-WEEK"
+      ],
+      "action_ids": [
+        "A-HOME-MYCLASS"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-myclass-week.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. My Class打开Week5; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-week-return-tuesday.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:59:51.192Z",
+      "sha256": "4945092892569223897990f3555dd881164f0acf4dbc61fdace5388c1c846258",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [
+        "A-CALENDAR-WEEK-HOME"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-week-return-tuesday.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Week5 Home返回周二; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-bottom-calendar-week.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:03:01.018Z",
+      "sha256": "cb5503ab02401268343c15ea33029084f02dba70089dad1893bb6c6631d9a818",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-WEEK"
+      ],
+      "action_ids": [
+        "A-HOME-EP002"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-bottom-calendar-week.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 底部Calendar打开Week5; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-bottom-calendar-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:03:07.100Z",
+      "sha256": "4945092892569223897990f3555dd881164f0acf4dbc61fdace5388c1c846258",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [
+        "A-CALENDAR-WEEK-HOME"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-bottom-calendar-return.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Week5 Home再次返回周二; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-menu.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:03:13.659Z",
+      "sha256": "4d93c962ff2a1bb88a90733351b37bd3dc5f057cfd7168a7dc308a755cda72b5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-HOME-MENU"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-menu.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Menu打开完整DEMO抽屉; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-menu-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:03:21.264Z",
+      "sha256": "4945092892569223897990f3555dd881164f0acf4dbc61fdace5388c1c846258",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [
+        "A-DRAWER-CLOSE"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-menu-return.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 抽屉外侧关闭返回周二; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-search.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:03:27.119Z",
+      "sha256": "32a33874e001fe34067c204bba7906a7b6b754de27ec4dc46635490d590d918c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MORE-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-SEARCH"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-search.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Search打开空搜索; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-search-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:03:36.973Z",
+      "sha256": "4945092892569223897990f3555dd881164f0acf4dbc61fdace5388c1c846258",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [
+        "A-HOME-SEARCH-BACK"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-search-return.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Search Back返回周二; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-notification.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:03:43.685Z",
+      "sha256": "7f28dcc857fa9c073bec1562544e5c1cbde5436f5acbfa16d5dfd12bfae5490e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-EP003"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-notification.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Notification打开空态; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-notification-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:03:55.483Z",
+      "sha256": "4945092892569223897990f3555dd881164f0acf4dbc61fdace5388c1c846258",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [
+        "A-NOTIFICATION-HOME"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-notification-return.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Notification Home返回周二; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-return-regression-features-start.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:04:20.830Z",
+      "sha256": "22306c33bc54c14ef712d39cb1ff3cc69815bf486ae6e0ad661b2a9f7ab6066d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-return-regression-features-start.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 回归起点：既有首页功能区; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-return-regression-features-week.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:04:28.167Z",
+      "sha256": "786bb148e18542a63c5e0da23492487a5eab024611ed33a95d2cf67a41e439f0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-WEEK"
+      ],
+      "action_ids": [
+        "A-HOME-EP002"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-return-regression-features-week.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 功能区Calendar打开Week5; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-return-regression-features-week-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:04:35.453Z",
+      "sha256": "22306c33bc54c14ef712d39cb1ff3cc69815bf486ae6e0ad661b2a9f7ab6066d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-CALENDAR-WEEK-HOME"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-return-regression-features-week-return.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Week5 Home返回功能区原样例; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-return-regression-features-search.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:04:42.879Z",
+      "sha256": "4b5101a5c09ce1c6ac77170e8da25433416d5d2f11fdd5a78308fc45f82eac15",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MORE-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-SEARCH"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-return-regression-features-search.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 功能区Search打开空搜索; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-return-regression-features-search-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:04:53.243Z",
+      "sha256": "22306c33bc54c14ef712d39cb1ff3cc69815bf486ae6e0ad661b2a9f7ab6066d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-HOME-SEARCH-BACK"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-return-regression-features-search-return.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Search Back返回功能区原样例; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-date-final-flow-context.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:06:21.404Z",
+      "sha256": "57d3f9bf79fc9085a3ec303a6bc80f9a5857533d31018b0c4cd6993b166317c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-date-final-flow-context.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 新流程说明保存并在Present读回; prototype evidence only, not native observation."
+    },
+    {
+      "id": "E-HOME-DATE-PROTOTYPE-TRACE",
+      "type": "interaction_trace",
+      "path": "home-date-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON",
+        "S-HOME-SCHEDULE-TUE",
+        "S-CALENDAR-WEEK",
+        "S-DRAWER",
+        "S-MORE-SEARCH-EMPTY",
+        "S-NOTIFICATION-EMPTY",
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-HOME-DATE-TUE",
+        "A-HOME-MYCLASS",
+        "A-CALENDAR-WEEK-HOME",
+        "A-HOME-EP002",
+        "A-HOME-MENU",
+        "A-DRAWER-CLOSE",
+        "A-HOME-SEARCH",
+        "A-HOME-SEARCH-BACK",
+        "A-HOME-EP003",
+        "A-NOTIFICATION-HOME"
+      ],
+      "source": "Computer Use Figma editing and Present replay; Home date, scoped source-preserving returns and existing-feature regression. Native capture recheck still reported Mac locked."
     }
   ],
   "findings": [
@@ -20448,15 +21046,18 @@
             970
           ],
           "frame_size_independently_verified": true,
-          "prototype_capture": null
+          "prototype_capture": [
+            1280,
+            720
+          ]
         },
         "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
         "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "status": "partial",
+          "summary": "Monday to Tuesday and scoped returns replayed; DEMO data, static samples, typography and unresolved image stability remain.",
           "evidence_ids": [
-            "E-FIGMA-STUDY-TRACE"
+            "E-HOME-DATE-PROTOTYPE-TRACE"
           ],
           "deviation_ids": [
             "D-STUDY-DEMO-CONTENT",
@@ -20464,10 +21065,14 @@
             "D-STUDY-STATIC-INPUT"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
-        "connection_status": "not_wired",
-        "prototype_run_ids": []
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ]
       },
       {
         "state_id": "S-HOME-SCHEDULE-TUE",
@@ -20493,15 +21098,18 @@
             970
           ],
           "frame_size_independently_verified": true,
-          "prototype_capture": null
+          "prototype_capture": [
+            1280,
+            720
+          ]
         },
         "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
         "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "status": "partial",
+          "summary": "Monday to Tuesday and scoped returns replayed; DEMO data, static samples, typography and unresolved image stability remain.",
           "evidence_ids": [
-            "E-FIGMA-STUDY-TRACE"
+            "E-HOME-DATE-PROTOTYPE-TRACE"
           ],
           "deviation_ids": [
             "D-STUDY-DEMO-CONTENT",
@@ -20509,10 +21117,14 @@
             "D-STUDY-STATIC-INPUT"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
-        "connection_status": "not_wired",
-        "prototype_run_ids": []
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ]
       },
       {
         "state_id": "S-HOME",
@@ -22802,21 +23414,38 @@
         "connection_id": "C-CALENDAR-WEEK-HOME",
         "action_id": "A-CALENDAR-WEEK-HOME",
         "source_node_id": "70:973",
-        "target_node_id": "67:820",
+        "target_node_id": null,
         "trigger_node_id": "70:1045",
         "trigger_node_name": "NavHome",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "behavior": "Back",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
         "configured_at": "2026-09-28T18:43:05.089Z",
-        "implementation_status": "targeted_entry_return_passed",
+        "implementation_status": "passed_for_recorded_home_entries",
         "prototype_run_ids": [
-          "PROTO-HOME-CALENDAR-WEEK-FIX"
+          "PROTO-HOME-CALENDAR-WEEK-FIX",
+          "PROTO-HOME-DATE-RETURN-001",
+          "PROTO-HOME-RETURN-REGRESSION-001"
         ],
-        "source_fidelity": "Native Week5 bottom Home returns to Home; prototype returns fixed Home features position with synthetic data.",
+        "source_fidelity": "Native Week5 Home returned Tuesday. History Back now preserves tested Tuesday and features entry; other-source/direct-start semantics unimplemented.",
         "deviation_ids": [
           "D-STUDY-DEMO-CONTENT",
-          "D-STUDY-STATIC-INPUT"
+          "D-STUDY-STATIC-INPUT",
+          "D-HOME-RETURN-HISTORY"
+        ],
+        "previous_configuration": {
+          "target_node_id": "67:820",
+          "behavior": "Navigate to",
+          "prototype_run_ids": [
+            "PROTO-HOME-CALENDAR-WEEK-FIX"
+          ]
+        },
+        "tested_target_node_ids": [
+          "67:694",
+          "67:820"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
         ]
       },
       {
@@ -23388,7 +24017,8 @@
         "revision_id": "FIGMA-MENU-V2",
         "implementation_status": "tested",
         "prototype_run_ids": [
-          "PROTO-MENU-V2-001"
+          "PROTO-MENU-V2-001",
+          "PROTO-HOME-DATE-RETURN-001"
         ],
         "deviation_ids": [
           "D-MENU-FIDELITY"
@@ -23396,7 +24026,8 @@
         "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
         "tested_target_node_ids": [
           "42:1617",
-          "67:820"
+          "67:820",
+          "67:694"
         ]
       },
       {
@@ -23589,6 +24220,230 @@
           "D-POLICY-WORDMARK-RENDER"
         ],
         "source_fidelity": "Same-page dismissal; no navigation-history entry. Only observed first viewport, scroll remains unimplemented."
+      },
+      {
+        "connection_id": "C-HOME-DATE-67-587",
+        "action_id": "A-HOME-DATE-TUE",
+        "source_node_id": "67:569",
+        "target_node_id": "67:694",
+        "trigger_node_id": "67:587",
+        "trigger_node_name": "DateTuesday",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-DATE-67-728",
+        "action_id": "A-HOME-MYCLASS",
+        "source_node_id": "67:694",
+        "target_node_id": "70:973",
+        "trigger_node_id": "67:728",
+        "trigger_node_name": "MyClassCalendar",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-DATE-67-790",
+        "action_id": "A-HOME-MENU",
+        "source_node_id": "67:694",
+        "target_node_id": "75:1669",
+        "trigger_node_id": "67:790",
+        "trigger_node_name": "Menu",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-DATE-67-792",
+        "action_id": "A-HOME-SEARCH",
+        "source_node_id": "67:694",
+        "target_node_id": "42:1716",
+        "trigger_node_id": "67:792",
+        "trigger_node_name": "Search",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-DATE-67-804",
+        "action_id": "A-HOME-EP002",
+        "source_node_id": "67:694",
+        "target_node_id": "70:973",
+        "trigger_node_id": "67:804",
+        "trigger_node_name": "NavCalendar",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-DATE-67-813",
+        "action_id": "A-HOME-EP003",
+        "source_node_id": "67:694",
+        "target_node_id": "42:1617",
+        "trigger_node_id": "67:813",
+        "trigger_node_name": "NavNotification",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-DATE-42-1720",
+        "action_id": "A-HOME-SEARCH-BACK",
+        "source_node_id": "42:1716",
+        "target_node_id": null,
+        "trigger_node_id": "42:1720",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001",
+          "PROTO-HOME-RETURN-REGRESSION-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ],
+        "tested_target_node_ids": [
+          "67:694",
+          "67:820"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-DATE-42-1640",
+        "action_id": "A-NOTIFICATION-HOME",
+        "source_node_id": "42:1617",
+        "target_node_id": null,
+        "trigger_node_id": "42:1640",
+        "trigger_node_name": "NavHome",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ],
+        "tested_target_node_ids": [
+          "67:694"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -24144,14 +24999,15 @@
           "S-HOME"
         ],
         "original_behavior": "Public decorative preview strip used in Home reconstruction.",
-        "current_implementation": "Initially visible, missing after Courses/QR returns, then restored on standalone Blank Back at18:31:16.276 with crop identical to initial. Root cause unresolved. Latest Week5 Home return also visibly restores the preview, but no root cause or stability fix established.",
+        "current_implementation": "Initially visible, missing after Courses/QR returns, then restored on standalone Blank Back at18:31:16.276 with crop identical to initial. Root cause unresolved. Latest Week5 Home return also visibly restores the preview, but no root cause or stability fix established. Home date batch shows decorative strip on recorded returns; no stability fix established.",
         "impact": "Home visual acceptance remains failed; similar symptom to unresolved Food/VA artifacts does not establish shared cause or native App defect.",
         "next_step": "Investigate source/render/import path and reverify repeated Home returns after fix.",
         "evidence_ids": [
           "E-FIGMA-STUDY-TRACE",
           "E-FIGMA-HOME-DEMO",
           "E-FIGMA-HOME-IMAGE-MISSING",
-          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE",
+          "E-HOME-DATE-PROTOTYPE-TRACE"
         ]
       },
       {
@@ -24181,14 +25037,15 @@
           "S-CALENDAR-ACAD-EMPTY"
         ],
         "original_behavior": "18:36:18 native Home bottom Calendar opens Week5 personal timetable; public header crop and route trace confirm it.",
-        "current_implementation": "Home NavCalendar67:935 now targets Week5 DEMO70:973; NavHome70:1045 returns Home67:820. Both actually replayed after correction.",
+        "current_implementation": "Home Calendar and Tuesday My Class target Week5 DEMO70:973; NavHome70:1045 now Back, tested to Tuesday67:694 and features67:820. See D-HOME-RETURN-HISTORY for unsupported source stacks.",
         "impact": "Original source-target mismatch repaired for recorded Week5 entry; synthetic body and incomplete week interactions remain explicit.",
         "next_step": "Continue week/date behavior and full application coverage; do not reuse old Sep28 Home target.",
         "evidence_ids": [
           "E-HOME-ENTRY-RECHECK-TRACE",
           "E-FIGMA-HOME-TO-CALENDAR",
           "E-FIGMA-CALENDAR-WEEK-FIX",
-          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE",
+          "E-HOME-DATE-PROTOTYPE-TRACE"
         ],
         "resolved_at": "2026-09-28T18:44:36.057Z"
       },
@@ -24282,6 +25139,25 @@
           "E-POLICY-COOKIE-P-10",
           "E-POLICY-COOKIE-P-13",
           "E-POLICY-COOKIE-P-16"
+        ]
+      },
+      {
+        "id": "D-HOME-RETURN-HISTORY",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "status": "open",
+        "affected_state_ids": [
+          "S-HOME-SCHEDULE-TUE",
+          "S-CALENDAR-WEEK",
+          "S-NOTIFICATION-EMPTY",
+          "S-MORE-SEARCH-EMPTY"
+        ],
+        "original_behavior": "Recorded native Home Tuesday entries return to the same selected date.",
+        "current_implementation": "Week and Notification Home use history Back; tested Tuesday returns and Week/Search features regression pass.",
+        "impact": "Only tested Home entry stacks implemented; direct-start and other-source bottom Home semantics unimplemented.",
+        "next_step": "Observe remaining source stacks and implement persistent Home destination/state without overgeneralizing Back.",
+        "evidence_ids": [
+          "E-HOME-ENTRY-RECHECK-TRACE",
+          "E-HOME-DATE-PROTOTYPE-TRACE"
         ]
       }
     ],
@@ -26910,6 +27786,209 @@
           "Repeat-entry native cookie persistence unobserved while Mac locked.",
           "Agent replay is not human evaluation."
         ]
+      },
+      {
+        "id": "PROTO-HOME-DATE-RETURN-001",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "started_at": "2026-09-28T20:59:14.220Z",
+        "ended_at": "2026-09-28T21:03:55.483Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1",
+        "start_node_id": "67:569",
+        "flow_name": "Home · Dates, agenda and return state",
+        "status": "partial",
+        "navigation_status": "passed_for_recorded_home_entries",
+        "visual_status": "partial_existing_render_and_fidelity_limits",
+        "scope": "Monday to Tuesday and return paths",
+        "steps": [
+          {
+            "at": "2026-09-28T20:59:14.220Z",
+            "description": "周一首页起点",
+            "evidence_ids": [
+              "E-HOME-DATE-P-01"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:59:26.619Z",
+            "description": "点击 Tuesday，显示29/Today",
+            "evidence_ids": [
+              "E-HOME-DATE-P-02"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:59:38.815Z",
+            "description": "My Class打开Week5",
+            "evidence_ids": [
+              "E-HOME-DATE-P-03"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:59:51.192Z",
+            "description": "Week5 Home返回周二",
+            "evidence_ids": [
+              "E-HOME-DATE-P-04"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:03:01.018Z",
+            "description": "底部Calendar打开Week5",
+            "evidence_ids": [
+              "E-HOME-DATE-P-05"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:03:07.100Z",
+            "description": "Week5 Home再次返回周二",
+            "evidence_ids": [
+              "E-HOME-DATE-P-06"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:03:13.659Z",
+            "description": "Menu打开完整DEMO抽屉",
+            "evidence_ids": [
+              "E-HOME-DATE-P-07"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:03:21.264Z",
+            "description": "抽屉外侧关闭返回周二",
+            "evidence_ids": [
+              "E-HOME-DATE-P-08"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:03:27.119Z",
+            "description": "Search打开空搜索",
+            "evidence_ids": [
+              "E-HOME-DATE-P-09"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:03:36.973Z",
+            "description": "Search Back返回周二",
+            "evidence_ids": [
+              "E-HOME-DATE-P-10"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:03:43.685Z",
+            "description": "Notification打开空态",
+            "evidence_ids": [
+              "E-HOME-DATE-P-11"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:03:55.483Z",
+            "description": "Notification Home返回周二",
+            "evidence_ids": [
+              "E-HOME-DATE-P-12"
+            ],
+            "outcome": "recorded"
+          }
+        ],
+        "evidence_ids": [
+          "E-HOME-DATE-P-01",
+          "E-HOME-DATE-P-02",
+          "E-HOME-DATE-P-03",
+          "E-HOME-DATE-P-04",
+          "E-HOME-DATE-P-05",
+          "E-HOME-DATE-P-06",
+          "E-HOME-DATE-P-07",
+          "E-HOME-DATE-P-08",
+          "E-HOME-DATE-P-09",
+          "E-HOME-DATE-P-10",
+          "E-HOME-DATE-P-11",
+          "E-HOME-DATE-P-12",
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "limitations": [
+          "Other weekdays, continuous Home scrolling, card details, search input/results and Week picker unfinished.",
+          "Week/Notification Home uses history Back only for tested Home entries; direct starts and other source stacks unimplemented.",
+          "All agenda content synthetic DEMO; approximate typography/geometry and drawer caller background remain.",
+          "Decorative images visible in this replay; pre-existing intermittent rendering defect remains open.",
+          "Agent replay is not human Maze evaluation."
+        ]
+      },
+      {
+        "id": "PROTO-HOME-RETURN-REGRESSION-001",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "started_at": "2026-09-28T21:04:20.830Z",
+        "ended_at": "2026-09-28T21:04:53.243Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1",
+        "start_node_id": "67:820",
+        "flow_name": "Home · Study, Courses and Campus QR",
+        "status": "partial",
+        "navigation_status": "passed_for_recorded_home_entries",
+        "visual_status": "partial_existing_render_and_fidelity_limits",
+        "scope": "Existing Home features Calendar and Search return regression",
+        "steps": [
+          {
+            "at": "2026-09-28T21:04:20.830Z",
+            "description": "回归起点：既有首页功能区",
+            "evidence_ids": [
+              "E-HOME-DATE-P-13"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:04:28.167Z",
+            "description": "功能区Calendar打开Week5",
+            "evidence_ids": [
+              "E-HOME-DATE-P-14"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:04:35.453Z",
+            "description": "Week5 Home返回功能区原样例",
+            "evidence_ids": [
+              "E-HOME-DATE-P-15"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:04:42.879Z",
+            "description": "功能区Search打开空搜索",
+            "evidence_ids": [
+              "E-HOME-DATE-P-16"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:04:53.243Z",
+            "description": "Search Back返回功能区原样例",
+            "evidence_ids": [
+              "E-HOME-DATE-P-17"
+            ],
+            "outcome": "recorded"
+          }
+        ],
+        "evidence_ids": [
+          "E-HOME-DATE-P-13",
+          "E-HOME-DATE-P-14",
+          "E-HOME-DATE-P-15",
+          "E-HOME-DATE-P-16",
+          "E-HOME-DATE-P-17",
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "limitations": [
+          "Other weekdays, continuous Home scrolling, card details, search input/results and Week picker unfinished.",
+          "Week/Notification Home uses history Back only for tested Home entries; direct starts and other source stacks unimplemented.",
+          "All agenda content synthetic DEMO; approximate typography/geometry and drawer caller background remain.",
+          "Decorative images visible in this replay; pre-existing intermittent rendering defect remains open.",
+          "Agent replay is not human Maze evaluation."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -26989,7 +28068,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "76 current mapped frames / 108 controls. Menu route replay added; full app and visual acceptance remain not verified.",
+    "verification_summary": "76 mapped frames / 2 internal component states / 118 controls. Home date and return sample replayed; full app and visual acceptance remain not verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -27366,7 +28445,7 @@
       "assistant_hero_return": "failed_unresolved",
       "calendar_thirteen_connection_sample": "passed",
       "all_calendar_interactions": "not_run",
-      "notification_search_prototypes": "empty_notification_and_empty_search_entry_observed_other_states_and_controls_not_run",
+      "notification_search_prototypes": "recorded_home_entries_and_returns_passed_other_states_and_input_unimplemented",
       "batch11_import_mapping": "verified",
       "batch11_prototypes": "food_sample_run_visual_failed_six_menu_policy_frames_not_run",
       "food_prototype": "navigation_passed_visual_failed",
@@ -27382,13 +28461,14 @@
       "home_study_twenty_two_controls": "navigation_passed_visual_failed",
       "home_preview_image": "failed_unresolved",
       "courses_login_cjk": "repaired_and_reverified",
-      "home_monday_tuesday": "not_run",
+      "home_monday_tuesday": "date_and_recorded_return_paths_passed_full_home_incomplete",
       "study_blank": "standalone_back_passed_no_incoming_search",
       "home_calendar_source_fidelity": "corrected_to_week_five_and_reverified",
       "menu_drawer_entry": "observed_internal_controls_not_run",
       "home_calendar_week_roundtrip": "passed",
       "mainmap_twelve_frames_twenty_controls": "navigation_passed_visual_partial",
-      "mainmap_initial_png_replacement": "two_clinics_returns_visible_other_images_open"
+      "mainmap_initial_png_replacement": "two_clinics_returns_visible_other_images_open",
+      "home_calendar_search_return_regression": "passed_from_features_and_tuesday_samples"
     },
     "additional_imports": [
       {
@@ -28089,10 +29169,11 @@
         "status": "imported_mapped",
         "page": "01 · Observed UI",
         "node_id": "67:569",
-        "prototype_status": "not_run",
-        "connection_status": "not_wired",
+        "prototype_status": "navigation_sample_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
         "evidence_ids": [
-          "E-FIGMA-STUDY-TRACE"
+          "E-FIGMA-STUDY-TRACE",
+          "E-HOME-DATE-PROTOTYPE-TRACE"
         ]
       },
       {
@@ -28101,10 +29182,11 @@
         "status": "imported_mapped",
         "page": "01 · Observed UI",
         "node_id": "67:694",
-        "prototype_status": "not_run",
-        "connection_status": "not_wired",
+        "prototype_status": "navigation_sample_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
         "evidence_ids": [
-          "E-FIGMA-STUDY-TRACE"
+          "E-FIGMA-STUDY-TRACE",
+          "E-HOME-DATE-PROTOTYPE-TRACE"
         ]
       },
       {
@@ -28345,7 +29427,8 @@
         "tested_run_ids": [
           "PROTO-HOME-STUDY-V2-001",
           "PROTO-STUDY-CJK-RECHECK",
-          "PROTO-HOME-CALENDAR-WEEK-FIX"
+          "PROTO-HOME-CALENDAR-WEEK-FIX",
+          "PROTO-HOME-RETURN-REGRESSION-001"
         ],
         "scope": "23 currently configured controls navigation checked across original22 sample plus new Week5 Home return. Calendar target corrected to native Week5 and replayed; Home decorative image remains intermittent, login CJK repaired. Synthetic/source-state/loading limits remain."
       },
@@ -28367,9 +29450,18 @@
           "PROTO-MENU-V2-001"
         ],
         "scope": "15 menu controls; initial emergency configuration failure corrected, navigation replay passed; visual/interaction gaps remain."
+      },
+      {
+        "name": "Home · Dates, agenda and return state",
+        "start_node_id": "67:569",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1",
+        "tested_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "scope": "Monday to Tuesday, My Class/Calendar/Menu/Search/Notification and caller-preserving returns passed in recorded sample. Full Home remains incomplete."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-28T19:47:30.623Z",
+    "latest_prototype_run_cutoff": "2026-09-28T21:04:53.243Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -28392,9 +29484,9 @@
       "boundary": "Flow 1 resolved to current Available node12:105, not the archived original draft. Naming verification does not create a new navigation run."
     },
     "latest_context_evidence_ids": [
-      "E-FIGMA-MENU-FINAL"
+      "E-HOME-DATE-P-18"
     ],
-    "latest_context_verified_at": "2026-09-28T19:56:00.753Z",
+    "latest_context_verified_at": "2026-09-28T21:06:21.404Z",
     "component_state_mappings": [
       {
         "state_id": "S-PRIVACY-NO-COOKIE",
@@ -28839,6 +29931,17 @@
       ],
       "resolution": "Readable native screenshot resumed at 15:45:15 UTC; subsequent Weather Back and Assistant navigation succeeded.",
       "resolved_at": "2026-09-28T15:45:15.426Z"
+    },
+    {
+      "id": "B-MAC-LOCKED-HOME-DATE",
+      "status": "open",
+      "description": "Current native Computer Use recheck still reports Mac locked after user recovery message; no new native state obtained.",
+      "missing_dependency": "Manual unlock of the Mac hosting Codex and native app",
+      "affected_scope": "Further native UI observation; Figma editing remains available.",
+      "next_step": "Recheck native UI after user unlock; retain existing observations separately.",
+      "evidence_ids": [
+        "E-HOME-DATE-PROTOTYPE-TRACE"
+      ]
     }
   ],
   "closure_reviews": [
