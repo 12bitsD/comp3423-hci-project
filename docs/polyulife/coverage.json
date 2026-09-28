@@ -1,0 +1,3977 @@
+{
+  "schema_version": "1.0",
+  "project": "PolyULife full application observation and Figma reconstruction",
+  "objective": "Use Computer Use to observe and analyse every PolyULife interaction, then reproduce the complete application as a clickable Figma prototype.",
+  "scope": {
+    "discovery_mode": "expand_from_observed_interfaces_until_all_discovered_entries_are_checked",
+    "feature_limit": null,
+    "external_destinations": "Record the app entry, handoff and observed destination. Record any unresolved boundary explicitly.",
+    "completion_status": "not_verified",
+    "completion_evidence_ids": []
+  },
+  "historical_context": {
+    "description": "Earlier work reported successful installation, application launch and homepage AX reading. This is context for revalidation, not evidence of current screen visibility, screenshots or business-flow completion.",
+    "source": "../research/ios-computer-use.md",
+    "current_session_verified": true,
+    "current_session_verification_note": "Current Computer Use observation and readable screenshots confirm Home navigation and Room Finder; this does not verify all application interactions."
+  },
+  "sessions": [
+    {
+      "id": "SESSION-20260928-ROOM",
+      "started_at": "2026-09-28T13:43:16.242Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone app running on Mac, observed through Computer Use",
+        "app_name": "PolyULife / polyuLife",
+        "app_version_last_known": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "os_version": null,
+        "login_state": "Existing signed-in session; credentials and personal content omitted",
+        "capture_recovery": "Window capture failed during early inspection; user restored capture, and readable Room screenshots resumed at 13:50:53 UTC."
+      },
+      "starting_state_id": "S-HOME",
+      "evidence_ids": [
+        "E-HOME",
+        "E-EMPTY",
+        "E-PQ",
+        "E-PQNONE",
+        "E-PQB",
+        "E-PQBNONE",
+        "E-TUE",
+        "E-CLEARED",
+        "E-EMPTYQUERY",
+        "E-SUGGESTION",
+        "E-ALL",
+        "E-AVAILABLE",
+        "E-SLOT",
+        "E-PREVIEWLOAD",
+        "E-PREVIEWTOP",
+        "E-MENU",
+        "E-PHOTO1",
+        "E-PHOTO2",
+        "E-RETURN",
+        "E-DATESCROLL",
+        "E-DATEDRAG",
+        "E-SUNTRANSITION",
+        "E-SUNEMPTY",
+        "E-SUNALL",
+        "E-SUNSCROLLED",
+        "E-SUNSCROLLED2",
+        "E-MAP",
+        "E-MAPZOOM",
+        "E-MAPOUT",
+        "E-MAPDRAG",
+        "E-ROOM-TRACE"
+      ],
+      "documented_through": "2026-09-28T14:07:49.772Z"
+    },
+    {
+      "id": "SESSION-20260928-MORE",
+      "started_at": "2026-09-28T14:08:33.459Z",
+      "documented_through": "2026-09-28T14:18:02.037Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone app on Mac, controlled with Computer Use",
+        "app_name": "PolyULife / polyuLife",
+        "app_version_last_known": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "os_version": null,
+        "login_state": "Existing signed-in session; personal details omitted"
+      },
+      "starting_state_id": "S-HOME",
+      "evidence_ids": [
+        "E-MORE",
+        "E-WEATHER",
+        "E-WEATHER-EXPANDED",
+        "E-WEATHER-RETURN",
+        "E-WEATHER-WEB"
+      ]
+    }
+  ],
+  "entry_points": [
+    {
+      "id": "EP001",
+      "label": "Home",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": "historical_homepage_ax",
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP001"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP002",
+      "label": "Calendar",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": "historical_homepage_ax",
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP002"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP003",
+      "label": "Notification",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": "historical_homepage_ax",
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP003"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP004",
+      "label": "More",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": "historical_homepage_ax",
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP004"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP005",
+      "label": "Room",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": "historical_homepage_ax",
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP006",
+      "label": "Food",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": "historical_homepage_ax",
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP006"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP007",
+      "label": "Map",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": null,
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP007"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP008",
+      "label": "Apps",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": null,
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP008"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP009",
+      "label": "Study progress",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": null,
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP009"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP010",
+      "label": "My Courses",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": null,
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP010"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP011",
+      "label": "QR icon",
+      "source_type": "current_home_navigation_screenshot",
+      "historical_source_type": null,
+      "source_state_id": "S-HOME",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-EP011"
+      ],
+      "current_evidence_ids": [
+        "E-HOME"
+      ],
+      "verification_boundary": "Navigation-region crop confirms the entry is visible; it does not prove the destination or complete Home screen."
+    },
+    {
+      "id": "EP012",
+      "label": "Virtual Assistant",
+      "source_type": "current_more_screenshot",
+      "source_state_id": "S-MORE",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-MORE-ASSISTANT"
+      ],
+      "current_evidence_ids": [
+        "E-MORE"
+      ],
+      "verification_boundary": "Current viewport visibility; complete More list has not been reviewed."
+    },
+    {
+      "id": "EP013",
+      "label": "Bad Weather Arrangements",
+      "source_type": "current_more_screenshot",
+      "source_state_id": "S-MORE",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-MORE-WEATHER"
+      ],
+      "current_evidence_ids": [
+        "E-MORE"
+      ],
+      "verification_boundary": "Current viewport visibility; complete More list has not been reviewed."
+    }
+  ],
+  "states": [
+    {
+      "id": "S-HOME",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Home navigation region",
+      "description": "Visible module entries and bottom navigation only; personal and course sections excluded.",
+      "visible_scope": "Cropped navigation region",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-HOME"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-HOME-ROOM",
+        "A-HOME-EP001",
+        "A-HOME-EP002",
+        "A-HOME-EP003",
+        "A-HOME-EP004",
+        "A-HOME-EP006",
+        "A-HOME-EP007",
+        "A-HOME-EP008",
+        "A-HOME-EP009",
+        "A-HOME-EP010",
+        "A-HOME-EP011"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-EMPTY",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "Initial room field and date strip; no successful result yet.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-EMPTY"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PQ-INPUT"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-PQ",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "PQ604 entered.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-PQ"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PQ-SEARCH"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-PQNONE",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "PQ604 query shows No room found.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-PQNONE"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PQB-INPUT"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-PQB",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "PQ604B entered.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-PQB"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PQB-SEARCH"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-PQBNONE",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "PQ604B query shows No room found.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-PQBNONE"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-DATE-TUE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-TUE",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "Tue 29-Sep selected while no-result message remains.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-TUE"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-CLEAR"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-CLEARED",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "Room field cleared; previous No room found result remains.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-CLEARED"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-EMPTY-SEARCH"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-EMPTYQUERY",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "Submitting an empty room query restores the initial prompt/state.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-EMPTYQUERY"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PREFIX",
+        "A-ROOM-OTHER-QUERY"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-SUGGESTION",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "A prefix exposes AG206 suggestion.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-SUGGESTION"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-SUGGESTION"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-ALL",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "AG206 on 29-Sep (Tue), ALL selected; green and red time slots visible.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-ALL"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-AVAILABLE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-AVAILABLE",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "Available selected; six green time slots displayed.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-AVAILABLE"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-SLOT",
+        "A-ROOM-PREVIEW"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-PREVIEWLOAD",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Search embedded browser",
+      "description": "Preview opened; content not yet loaded.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-PREVIEWLOAD"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-PREVIEWTOP",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Search embedded browser",
+      "description": "Official webpage header and introductory content loaded.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-PREVIEWTOP"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PREVIEW-MENU",
+        "A-ROOM-PREVIEW-SCROLL",
+        "A-ROOM-PREVIEW-RELOAD",
+        "A-ROOM-PREVIEW-BROWSER-BACK",
+        "A-ROOM-PREVIEW-BROWSER-FORWARD"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-MENU",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Search menu",
+      "description": "Open in system browser, Share via..., Copy link, Cancel.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-MENU"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PREVIEW-CANCEL",
+        "A-ROOM-PREVIEW-OPEN-SYSTEM",
+        "A-ROOM-PREVIEW-SHARE",
+        "A-ROOM-PREVIEW-COPY"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-PHOTO1",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Search — AG206",
+      "description": "Scrolled to AG206 room heading and first observed classroom photograph.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-PHOTO1"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PREVIEW-NEXT",
+        "A-ROOM-PREVIEW-PDF"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-PHOTO2",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Search — AG206",
+      "description": "Next carousel control displays a different classroom photograph.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-PHOTO2"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-PREVIEW-CLOSE",
+        "A-ROOM-PREVIEW-PREV"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-RETURN",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "Closing Preview returns to AG206, Tue 29-Sep, with Available still selected.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-RETURN"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-DATE-SCROLL",
+        "A-ROOM-DATE-DRAG"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-DATEDRAG",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "Dragging date strip left exposes Sun 04-Oct.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-DATEDRAG"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-DATE-SUN",
+        "A-ROOM-OTHER-DATES"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-SUNTRANSITION",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder transitional state",
+      "description": "Sun 04-Oct selected while previous 29-Sep results are temporarily still visible; later update confirmed.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-SUNTRANSITION"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-SUNEMPTY",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "04-Oct (Sun), Available selected, No available room / Please search another room.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-SUNEMPTY"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-SUN-ALL"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-SUNALL",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "04-Oct (Sun), ALL selected; visible time slots are red/unavailable.",
+      "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
+      "preconditions": "Existing signed-in application session",
+      "screenshot_evidence_ids": [
+        "E-SUNALL"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-SCROLL-LIST"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete control and boundary-state coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-SUNSCROLLED",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "Sun 04-Oct, ALL; lower list section shows approximately 14:30–21:30, with the last row clipped. A second scroll did not establish a further visible change.",
+      "visible_scope": "Captured app content viewport; map/list extent is not fully reviewed",
+      "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
+      "screenshot_evidence_ids": [
+        "E-SUNSCROLLED",
+        "E-SUNSCROLLED2"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-LIST-BOTTOM",
+        "A-ROOM-MAP-PIN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full Room interaction coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-MAP",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "AG206 map",
+      "description": "Location pin opens a 3D campus map. Google Maps and a slider are exposed in AX; external handoff is not tested.",
+      "visible_scope": "Captured app content viewport; map/list extent is not fully reviewed",
+      "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
+      "screenshot_evidence_ids": [
+        "E-MAP"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-MAP-CONTROLS",
+        "A-ROOM-MAP-INCREMENT"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full Room interaction coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-MAPZOOM",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "AG206 map",
+      "description": "Slider Increment visibly zoomed the map.",
+      "visible_scope": "Captured app content viewport; map/list extent is not fully reviewed",
+      "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
+      "screenshot_evidence_ids": [
+        "E-MAPZOOM"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-MAP-DECREMENT"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full Room interaction coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-MAPOUT",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "AG206 map",
+      "description": "Slider Decrement visibly zoomed out again.",
+      "visible_scope": "Captured app content viewport; map/list extent is not fully reviewed",
+      "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
+      "screenshot_evidence_ids": [
+        "E-MAPOUT"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-MAP-DRAG",
+        "A-ROOM-MAP-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full Room interaction coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-MAPRETURN",
+      "session_id": "SESSION-20260928-ROOM",
+      "title": "Room Finder",
+      "description": "After map Back, AX confirms Room Finder retains Sun 04-Oct and ALL. No distinct return screenshot is stored.",
+      "visible_scope": "AX-confirmed return; separate screenshot pending",
+      "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
+      "screenshot_evidence_ids": [],
+      "ax_evidence_ids": [
+        "E-ROOM-TRACE"
+      ],
+      "action_ids": [
+        "A-ROOM-HOME-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full Room interaction coverage remains pending."
+      ]
+    },
+    {
+      "id": "S-MORE",
+      "session_id": "SESSION-20260928-MORE",
+      "title": "More",
+      "description": "Current viewport shows Virtual Assistant and Bad Weather Arrangements, each tagged Study Info; menu and search icons visible. Complete list/scroll range not checked.",
+      "visible_scope": "Captured current viewport; not complete list or page coverage",
+      "preconditions": "Existing signed-in app; More reached through bottom navigation",
+      "screenshot_evidence_ids": [
+        "E-MORE"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-MORE-WEATHER",
+        "A-MORE-ASSISTANT",
+        "A-MORE-MENU",
+        "A-MORE-SEARCH",
+        "A-MORE-TAG",
+        "A-MORE-SCROLL"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "See more-walkthrough.md and pending actions; no complete module coverage claimed."
+      ]
+    },
+    {
+      "id": "S-WEATHER",
+      "session_id": "SESSION-20260928-MORE",
+      "title": "Bad Weather Arrangements",
+      "description": "Article detail with weather hero image, expand control, title, question-mark icon and linked body text.",
+      "visible_scope": "Captured current viewport; not complete list or page coverage",
+      "preconditions": "Existing signed-in app; More reached through bottom navigation",
+      "screenshot_evidence_ids": [
+        "E-WEATHER",
+        "E-WEATHER-RETURN"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-WEATHER-EXPAND",
+        "A-WEATHER-LINK",
+        "A-WEATHER-QUESTION",
+        "A-WEATHER-ARTICLE-SCROLL",
+        "A-WEATHER-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "See more-walkthrough.md and pending actions; no complete module coverage claimed."
+      ]
+    },
+    {
+      "id": "S-WEATHER-EXPANDED",
+      "session_id": "SESSION-20260928-MORE",
+      "title": "Weather hero image overlay",
+      "description": "Weather image expanded; X close control visible.",
+      "visible_scope": "Captured current viewport; not complete list or page coverage",
+      "preconditions": "Existing signed-in app; More reached through bottom navigation",
+      "screenshot_evidence_ids": [
+        "E-WEATHER-EXPANDED"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-WEATHER-CLOSE-IMAGE",
+        "A-WEATHER-IMAGE-GESTURES"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "See more-walkthrough.md and pending actions; no complete module coverage claimed."
+      ]
+    },
+    {
+      "id": "S-WEATHER-WEB",
+      "session_id": "SESSION-20260928-MORE",
+      "title": "Class/Exam Arrangements During Bad Weather",
+      "description": "Embedded browser loads the official Academic Registry webpage and shows a cookie notice; deeper page interactions remain untested.",
+      "visible_scope": "Captured current viewport; not complete list or page coverage",
+      "preconditions": "Existing signed-in app; More reached through bottom navigation",
+      "screenshot_evidence_ids": [
+        "E-WEATHER-WEB"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-WEATHER-COOKIE",
+        "A-WEATHER-WEB-CONTENT",
+        "A-WEATHER-WEB-BROWSER",
+        "A-WEATHER-WEB-CLOSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "See more-walkthrough.md and pending actions; no complete module coverage claimed."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": "A-HOME-ROOM",
+      "from_state_id": "S-HOME",
+      "control": "Room module",
+      "input_summary": "Open Room Finder",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:45:20.437Z",
+          "observed_feedback": "Room Finder controls visible",
+          "target_state_id": "S-EMPTY",
+          "evidence_ids": [
+            "E-HOME",
+            "E-EMPTY"
+          ]
+        }
+      ],
+      "target_state_id": "S-EMPTY",
+      "evidence_ids": [
+        "E-HOME",
+        "E-EMPTY"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PQ-INPUT",
+      "from_state_id": "S-EMPTY",
+      "control": "Room input",
+      "input_summary": "PQ604",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:45:55.584Z",
+          "observed_feedback": "Room field contains PQ604; readable post-recovery confirmation retained",
+          "target_state_id": "S-PQ",
+          "evidence_ids": [
+            "E-PQ"
+          ]
+        }
+      ],
+      "target_state_id": "S-PQ",
+      "evidence_ids": [
+        "E-PQ"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PQ-SEARCH",
+      "from_state_id": "S-PQ",
+      "control": "Search",
+      "input_summary": "Query PQ604",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:51:08.227Z",
+          "observed_feedback": "No room found; this does not establish whether the room should exist in this data source",
+          "target_state_id": "S-PQNONE",
+          "evidence_ids": [
+            "E-PQNONE"
+          ]
+        }
+      ],
+      "target_state_id": "S-PQNONE",
+      "evidence_ids": [
+        "E-PQNONE"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PQB-INPUT",
+      "from_state_id": "S-PQNONE",
+      "control": "Room input",
+      "input_summary": "PQ604B",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:52:03.758Z",
+          "observed_feedback": "Room field contains PQ604B",
+          "target_state_id": "S-PQB",
+          "evidence_ids": [
+            "E-PQB"
+          ]
+        }
+      ],
+      "target_state_id": "S-PQB",
+      "evidence_ids": [
+        "E-PQB"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PQB-SEARCH",
+      "from_state_id": "S-PQB",
+      "control": "Search",
+      "input_summary": "Query PQ604B",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:52:16.043Z",
+          "observed_feedback": "No room found",
+          "target_state_id": "S-PQBNONE",
+          "evidence_ids": [
+            "E-PQBNONE"
+          ]
+        }
+      ],
+      "target_state_id": "S-PQBNONE",
+      "evidence_ids": [
+        "E-PQBNONE"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-DATE-TUE",
+      "from_state_id": "S-PQBNONE",
+      "control": "Tue 29-Sep date",
+      "input_summary": "Select date",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:53:51.591Z",
+          "observed_feedback": "Tue selected; no-result message remains",
+          "target_state_id": "S-TUE",
+          "evidence_ids": [
+            "E-TUE"
+          ]
+        }
+      ],
+      "target_state_id": "S-TUE",
+      "evidence_ids": [
+        "E-TUE"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-CLEAR",
+      "from_state_id": "S-TUE",
+      "control": "Clear input",
+      "input_summary": "Clear room number",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:55:05.388Z",
+          "observed_feedback": "Empty field retains the earlier No room found result",
+          "target_state_id": "S-CLEARED",
+          "evidence_ids": [
+            "E-CLEARED"
+          ]
+        }
+      ],
+      "target_state_id": "S-CLEARED",
+      "evidence_ids": [
+        "E-CLEARED"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-EMPTY-SEARCH",
+      "from_state_id": "S-CLEARED",
+      "control": "Search",
+      "input_summary": "Submit empty query",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:55:20.580Z",
+          "observed_feedback": "Initial query prompt/state returns",
+          "target_state_id": "S-EMPTYQUERY",
+          "evidence_ids": [
+            "E-EMPTYQUERY"
+          ]
+        }
+      ],
+      "target_state_id": "S-EMPTYQUERY",
+      "evidence_ids": [
+        "E-EMPTYQUERY"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PREFIX",
+      "from_state_id": "S-EMPTYQUERY",
+      "control": "Room input",
+      "input_summary": "A",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:55:56.105Z",
+          "observed_feedback": "AG206 appears as a suggestion",
+          "target_state_id": "S-SUGGESTION",
+          "evidence_ids": [
+            "E-SUGGESTION"
+          ]
+        }
+      ],
+      "target_state_id": "S-SUGGESTION",
+      "evidence_ids": [
+        "E-SUGGESTION"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-SUGGESTION",
+      "from_state_id": "S-SUGGESTION",
+      "control": "AG206 suggestion",
+      "input_summary": "Choose suggested room",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:56:09.836Z",
+          "observed_feedback": "AG206 result with 29-Sep time slots displayed",
+          "target_state_id": "S-ALL",
+          "evidence_ids": [
+            "E-SUGGESTION",
+            "E-ALL"
+          ]
+        }
+      ],
+      "target_state_id": "S-ALL",
+      "evidence_ids": [
+        "E-SUGGESTION",
+        "E-ALL"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-AVAILABLE",
+      "from_state_id": "S-ALL",
+      "control": "Available filter",
+      "input_summary": "Select Available",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:56:51.674Z",
+          "observed_feedback": "Six green slots shown: 08:30–09:00, 09:00–09:30, 11:30–12:00, 12:00–12:30, 21:30–22:00, 22:00–22:30",
+          "target_state_id": "S-AVAILABLE",
+          "evidence_ids": [
+            "E-AVAILABLE"
+          ]
+        }
+      ],
+      "target_state_id": "S-AVAILABLE",
+      "evidence_ids": [
+        "E-AVAILABLE"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-SLOT",
+      "from_state_id": "S-AVAILABLE",
+      "control": "Visible green time-slot card",
+      "input_summary": "Click one slot",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:57:23.356Z",
+          "observed_feedback": "No visible change after this one attempt; cannot infer every slot is interactive or broken",
+          "target_state_id": "S-AVAILABLE",
+          "evidence_ids": [
+            "E-AVAILABLE",
+            "E-SLOT"
+          ]
+        }
+      ],
+      "target_state_id": "S-AVAILABLE",
+      "evidence_ids": [
+        "E-AVAILABLE",
+        "E-SLOT"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PREVIEW",
+      "from_state_id": "S-AVAILABLE",
+      "control": "Preview",
+      "input_summary": "Open room preview",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:57:37.966Z",
+          "observed_feedback": "Embedded Room Search browser opens then loads an official webpage",
+          "target_state_id": "S-PREVIEWTOP",
+          "evidence_ids": [
+            "E-PREVIEWLOAD",
+            "E-PREVIEWTOP"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEWTOP",
+      "evidence_ids": [
+        "E-PREVIEWLOAD",
+        "E-PREVIEWTOP"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PREVIEW-MENU",
+      "from_state_id": "S-PREVIEWTOP",
+      "control": "More / ellipsis",
+      "input_summary": "Open menu",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:58:25.297Z",
+          "observed_feedback": "Four menu options visible",
+          "target_state_id": "S-MENU",
+          "evidence_ids": [
+            "E-MENU"
+          ]
+        }
+      ],
+      "target_state_id": "S-MENU",
+      "evidence_ids": [
+        "E-MENU"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PREVIEW-CANCEL",
+      "from_state_id": "S-MENU",
+      "control": "Cancel",
+      "input_summary": "Dismiss menu",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:58:41.478Z",
+          "observed_feedback": "Returns to embedded webpage; subsequent content scroll confirmed",
+          "target_state_id": "S-PREVIEWTOP",
+          "evidence_ids": [
+            "E-MENU",
+            "E-PHOTO1"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEWTOP",
+      "evidence_ids": [
+        "E-MENU",
+        "E-PHOTO1"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PREVIEW-SCROLL",
+      "from_state_id": "S-PREVIEWTOP",
+      "control": "Web content",
+      "input_summary": "Scroll down",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:59:04.743Z",
+          "observed_feedback": "AG206 heading and classroom photograph become visible",
+          "target_state_id": "S-PHOTO1",
+          "evidence_ids": [
+            "E-PHOTO1"
+          ]
+        }
+      ],
+      "target_state_id": "S-PHOTO1",
+      "evidence_ids": [
+        "E-PHOTO1"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PREVIEW-NEXT",
+      "from_state_id": "S-PHOTO1",
+      "control": "Next carousel arrow",
+      "input_summary": "Next photograph",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:59:31.823Z",
+          "observed_feedback": "Classroom photograph changes",
+          "target_state_id": "S-PHOTO2",
+          "evidence_ids": [
+            "E-PHOTO1",
+            "E-PHOTO2"
+          ]
+        }
+      ],
+      "target_state_id": "S-PHOTO2",
+      "evidence_ids": [
+        "E-PHOTO1",
+        "E-PHOTO2"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PREVIEW-CLOSE",
+      "from_state_id": "S-PHOTO2",
+      "control": "Close / X",
+      "input_summary": "Close embedded browser",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T13:59:48.737Z",
+          "observed_feedback": "Room Finder returns with room, date and Available selection retained",
+          "target_state_id": "S-RETURN",
+          "evidence_ids": [
+            "E-RETURN"
+          ]
+        }
+      ],
+      "target_state_id": "S-RETURN",
+      "evidence_ids": [
+        "E-RETURN"
+      ],
+      "return_path": "Verified Preview close -> Room Finder; full Home return not yet recorded here.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-DATE-SCROLL",
+      "from_state_id": "S-RETURN",
+      "control": "Date strip",
+      "input_summary": "Horizontal scroll attempt",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:00:34.212Z",
+          "observed_feedback": "No relevant date-strip change was established; next action used a drag",
+          "target_state_id": "S-RETURN",
+          "evidence_ids": [
+            "E-DATESCROLL"
+          ]
+        }
+      ],
+      "target_state_id": "S-RETURN",
+      "evidence_ids": [
+        "E-DATESCROLL"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-DATE-DRAG",
+      "from_state_id": "S-RETURN",
+      "control": "Date strip",
+      "input_summary": "Drag left",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:00:52.336Z",
+          "observed_feedback": "Sun 04-Oct becomes visible",
+          "target_state_id": "S-DATEDRAG",
+          "evidence_ids": [
+            "E-DATEDRAG"
+          ]
+        }
+      ],
+      "target_state_id": "S-DATEDRAG",
+      "evidence_ids": [
+        "E-DATEDRAG"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-DATE-SUN",
+      "from_state_id": "S-DATEDRAG",
+      "control": "Sun 04-Oct",
+      "input_summary": "Select date; observe subsequent result without Search",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:01:15.709Z",
+          "observed_feedback": "Selection changes first; later async result updates to 04-Oct and No available room without another search",
+          "target_state_id": "S-SUNEMPTY",
+          "evidence_ids": [
+            "E-SUNTRANSITION",
+            "E-SUNEMPTY"
+          ]
+        }
+      ],
+      "target_state_id": "S-SUNEMPTY",
+      "evidence_ids": [
+        "E-SUNTRANSITION",
+        "E-SUNEMPTY"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-SUN-ALL",
+      "from_state_id": "S-SUNEMPTY",
+      "control": "ALL filter",
+      "input_summary": "Select ALL",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:02:51.155Z",
+          "observed_feedback": "Visible slots become red/unavailable while 04-Oct remains selected",
+          "target_state_id": "S-SUNALL",
+          "evidence_ids": [
+            "E-SUNALL"
+          ]
+        }
+      ],
+      "target_state_id": "S-SUNALL",
+      "evidence_ids": [
+        "E-SUNALL"
+      ],
+      "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-HOME-EP001",
+      "from_state_id": "S-HOME",
+      "control": "Home",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-HOME-EP002",
+      "from_state_id": "S-HOME",
+      "control": "Calendar",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-HOME-EP003",
+      "from_state_id": "S-HOME",
+      "control": "Notification",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-HOME-EP004",
+      "from_state_id": "S-HOME",
+      "control": "More bottom tab",
+      "input_summary": "More bottom tab",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:08:33.459Z",
+          "observed_feedback": "More current viewport shows two cards.",
+          "target_state_id": "S-MORE",
+          "evidence_ids": [
+            "E-MORE"
+          ]
+        }
+      ],
+      "target_state_id": "S-MORE",
+      "evidence_ids": [
+        "E-MORE"
+      ],
+      "return_path": "Image X -> article confirmed; webpage close -> article and article Back -> More are not independently confirmed in this record.",
+      "authorization": "Ordinary navigation and observation in authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-HOME-EP006",
+      "from_state_id": "S-HOME",
+      "control": "Food",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-HOME-EP007",
+      "from_state_id": "S-HOME",
+      "control": "Map",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-HOME-EP008",
+      "from_state_id": "S-HOME",
+      "control": "Apps",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-HOME-EP009",
+      "from_state_id": "S-HOME",
+      "control": "Study progress",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-HOME-EP010",
+      "from_state_id": "S-HOME",
+      "control": "My Courses",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-HOME-EP011",
+      "from_state_id": "S-HOME",
+      "control": "QR icon",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+    },
+    {
+      "id": "A-ROOM-PREVIEW-OPEN-SYSTEM",
+      "from_state_id": "S-MENU",
+      "control": "Open in system browser",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Destination/handoff not attempted."
+    },
+    {
+      "id": "A-ROOM-PREVIEW-SHARE",
+      "from_state_id": "S-MENU",
+      "control": "Share via...",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Share sheet not inspected; no content has been shared."
+    },
+    {
+      "id": "A-ROOM-PREVIEW-COPY",
+      "from_state_id": "S-MENU",
+      "control": "Copy link",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Clipboard feedback not tested."
+    },
+    {
+      "id": "A-ROOM-PREVIEW-PREV",
+      "from_state_id": "S-PHOTO2",
+      "control": "Previous carousel arrow",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Previous direction and carousel endpoints not tested."
+    },
+    {
+      "id": "A-ROOM-PREVIEW-RELOAD",
+      "from_state_id": "S-PREVIEWTOP",
+      "control": "Reload",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Visible embedded browser control not tested."
+    },
+    {
+      "id": "A-ROOM-PREVIEW-BROWSER-BACK",
+      "from_state_id": "S-PREVIEWTOP",
+      "control": "Browser back",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Enabled/disabled state and navigation history not tested."
+    },
+    {
+      "id": "A-ROOM-PREVIEW-BROWSER-FORWARD",
+      "from_state_id": "S-PREVIEWTOP",
+      "control": "Browser forward",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Enabled/disabled state and navigation history not tested."
+    },
+    {
+      "id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-DATEDRAG",
+      "control": "Other dates and date-strip bounds",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Date range limits and every remaining date not tested."
+    },
+    {
+      "id": "A-ROOM-OTHER-QUERY",
+      "from_state_id": "S-EMPTYQUERY",
+      "control": "Room query variants",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Case, whitespace, invalid symbols, other room matches and no-network state not tested."
+    },
+    {
+      "id": "A-ROOM-LIST-BOTTOM",
+      "from_state_id": "S-SUNSCROLLED",
+      "control": "Time-slot vertical scroll",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "A real downward scroll showed lower slots and a repeat showed no change; clipped final row means the true list end is not established."
+    },
+    {
+      "id": "A-ROOM-MAP-CONTROLS",
+      "from_state_id": "S-MAP",
+      "control": "Google Maps handoff, map range and remaining map controls",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "blockers": [],
+      "pending_reason": "Map entry, zoom and Back have been observed separately; Google Maps handoff, zoom bounds and reliable pan remain untested."
+    },
+    {
+      "id": "A-ROOM-SCROLL-LIST",
+      "from_state_id": "S-SUNALL",
+      "control": "Scroll time-slot list down",
+      "input_summary": "Scroll time-slot list down",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:03:21.264Z",
+          "observed_feedback": "Lower times became visible; second scroll at 14:03:39 did not reveal more. Last row is clipped, so actual list end remains unverified.",
+          "target_state_id": "S-SUNSCROLLED",
+          "evidence_ids": [
+            "E-SUNSCROLLED",
+            "E-SUNSCROLLED2"
+          ]
+        }
+      ],
+      "target_state_id": "S-SUNSCROLLED",
+      "evidence_ids": [
+        "E-SUNSCROLLED",
+        "E-SUNSCROLLED2"
+      ],
+      "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-MAP-PIN",
+      "from_state_id": "S-SUNSCROLLED",
+      "control": "AG206 location pin",
+      "input_summary": "AG206 location pin",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:04:22.278Z",
+          "observed_feedback": "Opens AG206 campus map.",
+          "target_state_id": "S-MAP",
+          "evidence_ids": [
+            "E-MAP"
+          ]
+        }
+      ],
+      "target_state_id": "S-MAP",
+      "evidence_ids": [
+        "E-MAP"
+      ],
+      "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-MAP-INCREMENT",
+      "from_state_id": "S-MAP",
+      "control": "Slider Increment",
+      "input_summary": "Slider Increment",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:06:33.239Z",
+          "observed_feedback": "Map visibly zooms in.",
+          "target_state_id": "S-MAPZOOM",
+          "evidence_ids": [
+            "E-MAP",
+            "E-MAPZOOM"
+          ]
+        }
+      ],
+      "target_state_id": "S-MAPZOOM",
+      "evidence_ids": [
+        "E-MAP",
+        "E-MAPZOOM"
+      ],
+      "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-MAP-DECREMENT",
+      "from_state_id": "S-MAPZOOM",
+      "control": "Slider Decrement",
+      "input_summary": "Slider Decrement",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:06:51.184Z",
+          "observed_feedback": "Map visibly zooms out.",
+          "target_state_id": "S-MAPOUT",
+          "evidence_ids": [
+            "E-MAPZOOM",
+            "E-MAPOUT"
+          ]
+        }
+      ],
+      "target_state_id": "S-MAPOUT",
+      "evidence_ids": [
+        "E-MAPZOOM",
+        "E-MAPOUT"
+      ],
+      "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-MAP-DRAG",
+      "from_state_id": "S-MAPOUT",
+      "control": "Drag map surface",
+      "input_summary": "Drag map surface",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:07:07.210Z",
+          "observed_feedback": "No obvious pan established; do not mark the drag as a successful pan.",
+          "target_state_id": "S-MAPOUT",
+          "evidence_ids": [
+            "E-MAPOUT",
+            "E-MAPDRAG"
+          ]
+        }
+      ],
+      "target_state_id": "S-MAPOUT",
+      "evidence_ids": [
+        "E-MAPOUT",
+        "E-MAPDRAG"
+      ],
+      "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-MAP-BACK",
+      "from_state_id": "S-MAPOUT",
+      "control": "Back",
+      "input_summary": "Back",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:07:29.674Z",
+          "observed_feedback": "AX confirms Room Finder with Sun 04-Oct and ALL retained.",
+          "target_state_id": "S-MAPRETURN",
+          "evidence_ids": [
+            "E-ROOM-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-MAPRETURN",
+      "evidence_ids": [
+        "E-ROOM-TRACE"
+      ],
+      "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-HOME-BACK",
+      "from_state_id": "S-MAPRETURN",
+      "control": "Back",
+      "input_summary": "Back",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:07:49.772Z",
+          "observed_feedback": "AX confirms return to Home.",
+          "target_state_id": "S-HOME",
+          "evidence_ids": [
+            "E-ROOM-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-HOME",
+      "evidence_ids": [
+        "E-ROOM-TRACE"
+      ],
+      "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
+      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-PREVIEW-PDF",
+      "from_state_id": "S-PHOTO1",
+      "control": "Preview page PDF link",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Review the actual link and ordinary navigation target before opening",
+      "blockers": [],
+      "pending_reason": "PDF link reported by the active Computer Use observer; opening and destination have not been checked."
+    },
+    {
+      "id": "A-MORE-WEATHER",
+      "from_state_id": "S-MORE",
+      "control": "Bad Weather Arrangements card",
+      "input_summary": "Bad Weather Arrangements card",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:11:25.910Z",
+          "observed_feedback": "Article detail opens.",
+          "target_state_id": "S-WEATHER",
+          "evidence_ids": [
+            "E-WEATHER"
+          ]
+        }
+      ],
+      "target_state_id": "S-WEATHER",
+      "evidence_ids": [
+        "E-WEATHER"
+      ],
+      "return_path": "Image X -> article confirmed; webpage close -> article and article Back -> More are not independently confirmed in this record.",
+      "authorization": "Ordinary navigation and observation in authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-WEATHER-EXPAND",
+      "from_state_id": "S-WEATHER",
+      "control": "Hero expand icon",
+      "input_summary": "Hero expand icon",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:16:04.494Z",
+          "observed_feedback": "Image overlay with X opens.",
+          "target_state_id": "S-WEATHER-EXPANDED",
+          "evidence_ids": [
+            "E-WEATHER-EXPANDED"
+          ]
+        }
+      ],
+      "target_state_id": "S-WEATHER-EXPANDED",
+      "evidence_ids": [
+        "E-WEATHER-EXPANDED"
+      ],
+      "return_path": "Image X -> article confirmed; webpage close -> article and article Back -> More are not independently confirmed in this record.",
+      "authorization": "Ordinary navigation and observation in authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-WEATHER-CLOSE-IMAGE",
+      "from_state_id": "S-WEATHER-EXPANDED",
+      "control": "X close",
+      "input_summary": "X close",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:16:23.086Z",
+          "observed_feedback": "Article detail restores.",
+          "target_state_id": "S-WEATHER",
+          "evidence_ids": [
+            "E-WEATHER-RETURN"
+          ]
+        }
+      ],
+      "target_state_id": "S-WEATHER",
+      "evidence_ids": [
+        "E-WEATHER-RETURN"
+      ],
+      "return_path": "Image X -> article confirmed; webpage close -> article and article Back -> More are not independently confirmed in this record.",
+      "authorization": "Ordinary navigation and observation in authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-WEATHER-LINK",
+      "from_state_id": "S-WEATHER",
+      "control": "Arrangements during Bad Weather for Classes/Examinations link",
+      "input_summary": "Arrangements during Bad Weather for Classes/Examinations link",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T14:16:40.367Z",
+          "observed_feedback": "Embedded browser loads https://www.polyu.edu.hk/ar/arrangements-during-bad-weather/ with official page heading and cookie notice, confirmed at 14:18:02 UTC.",
+          "target_state_id": "S-WEATHER-WEB",
+          "evidence_ids": [
+            "E-WEATHER-WEB"
+          ]
+        }
+      ],
+      "target_state_id": "S-WEATHER-WEB",
+      "evidence_ids": [
+        "E-WEATHER-WEB"
+      ],
+      "return_path": "Image X -> article confirmed; webpage close -> article and article Back -> More are not independently confirmed in this record.",
+      "authorization": "Ordinary navigation and observation in authorised HCI scope",
+      "blockers": []
+    },
+    {
+      "id": "A-MORE-ASSISTANT",
+      "from_state_id": "S-MORE",
+      "control": "Virtual Assistant",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Entry visible; destination not opened."
+    },
+    {
+      "id": "A-MORE-MENU",
+      "from_state_id": "S-MORE",
+      "control": "Top menu icon",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Menu content not inspected."
+    },
+    {
+      "id": "A-MORE-SEARCH",
+      "from_state_id": "S-MORE",
+      "control": "Search icon",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Search behavior not inspected."
+    },
+    {
+      "id": "A-MORE-TAG",
+      "from_state_id": "S-MORE",
+      "control": "Study Info label",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Whether label is interactive is unknown."
+    },
+    {
+      "id": "A-MORE-SCROLL",
+      "from_state_id": "S-MORE",
+      "control": "List scrolling",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Current screenshot is not proof that only two entries exist; complete scroll range not tested."
+    },
+    {
+      "id": "A-WEATHER-QUESTION",
+      "from_state_id": "S-WEATHER",
+      "control": "Question-mark icon",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Meaning and response untested; do not infer help/error semantics."
+    },
+    {
+      "id": "A-WEATHER-ARTICLE-SCROLL",
+      "from_state_id": "S-WEATHER",
+      "control": "Article scrolling",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Full article extent and any lower controls untested."
+    },
+    {
+      "id": "A-WEATHER-BACK",
+      "from_state_id": "S-WEATHER",
+      "control": "Back to More",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Independent result and retained More state not verified."
+    },
+    {
+      "id": "A-WEATHER-IMAGE-GESTURES",
+      "from_state_id": "S-WEATHER-EXPANDED",
+      "control": "Image gestures",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Only expand and X close tested; pan/zoom/swipe not inferred."
+    },
+    {
+      "id": "A-WEATHER-COOKIE",
+      "from_state_id": "S-WEATHER-WEB",
+      "control": "Cookie close / privacy link",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Cookie notice visible; controls and resulting page state not tested."
+    },
+    {
+      "id": "A-WEATHER-WEB-CONTENT",
+      "from_state_id": "S-WEATHER-WEB",
+      "control": "Official page content and navigation",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Page loaded, but content sections, menus/search/share/links and scroll boundaries not tested."
+    },
+    {
+      "id": "A-WEATHER-WEB-BROWSER",
+      "from_state_id": "S-WEATHER-WEB",
+      "control": "Embedded browser menu, back, forward, reload",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Controls visible; individual functions not tested."
+    },
+    {
+      "id": "A-WEATHER-WEB-CLOSE",
+      "from_state_id": "S-WEATHER-WEB",
+      "control": "Close embedded webpage",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Determine actual control function before any external message or business submission",
+      "blockers": [
+        "B-MAC-LOCKED"
+      ],
+      "pending_reason": "Close action was attempted later, but this record has no independently verified return result."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-HOME",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/home-134424-navigation-only.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:44:24.305Z",
+      "sha256": "781e5e7485f15981bc99161d9914007a787dbd26b30e30b2e40347f25f95319a",
+      "dimensions": [
+        1068,
+        718
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "redaction": "Navigation-only crop excludes personal/course sections; cannot stand in for full Home screen.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-EMPTY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-134522-empty.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:45:22.288Z",
+      "sha256": "ff0750f52f034ace55ce3e61eadc739dd8cb75ee65eac27380f09d05a9a2155c",
+      "dimensions": [
+        1060,
+        1898
+      ],
+      "state_ids": [
+        "S-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-PQ",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135053-pq604-input.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:50:53.189Z",
+      "sha256": "0117b7a17475725cb7917e88d838d4b92997d5199b4974e03cd26d96556304fa",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-PQ"
+      ],
+      "action_ids": [
+        "A-ROOM-PQ-INPUT"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-PQNONE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135149-pq604-no-room.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:51:49.652Z",
+      "sha256": "9d72f23baa1c5662ef49b84e0ab23b5540323e9354b235391d895f5684ef653e",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-PQNONE"
+      ],
+      "action_ids": [
+        "A-ROOM-PQ-SEARCH"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-PQB",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135252-pq604b-input.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:52:52.462Z",
+      "sha256": "8b907c402181c5e9f4f13663faca84b4268f599329e7f36a8c5e4750fa158e5b",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-PQB"
+      ],
+      "action_ids": [
+        "A-ROOM-PQB-INPUT"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-PQBNONE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135331-pq604b-no-room.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:53:31.198Z",
+      "sha256": "ac3838fbceceaea5815e2cd6767fe017e23cc11d9689b68c34dd5075bf98508e",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-PQBNONE"
+      ],
+      "action_ids": [
+        "A-ROOM-PQB-SEARCH"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-TUE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135352-next-date.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:53:52.372Z",
+      "sha256": "9ec8fcbfc20496cd4d4b39c2afb05566787ccc6c52d750c1c6ed237e244350e9",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-TUE"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-TUE"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-CLEARED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135506-input-cleared.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:55:06.339Z",
+      "sha256": "8c6469717e6468b330ae6bdec863c90c871db5b4e39b84e2ca85632368b88ee8",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-CLEARED"
+      ],
+      "action_ids": [
+        "A-ROOM-CLEAR"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-EMPTYQUERY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135521-empty-query.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:55:21.564Z",
+      "sha256": "3def4c88bc82b83c064edbe2f294886ecb960e5a06097de0183f44a680aa5c5f",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [
+        "A-ROOM-EMPTY-SEARCH"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-SUGGESTION",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135612-a-suggestion.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:56:12.052Z",
+      "sha256": "1d891aa234be2bbc20b1187ac680a9669786958301280cfdb2cd1dc3368adf0b",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-SUGGESTION"
+      ],
+      "action_ids": [
+        "A-ROOM-PREFIX",
+        "A-ROOM-SUGGESTION"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-ALL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135628-ag206-all.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:56:28.179Z",
+      "sha256": "0aa98fd7a1b68b4fd58a2e556eeb5ae78b4901c15180b688dc30198056e09e55",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-SUGGESTION"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-AVAILABLE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135653-ag206-available.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:56:53.040Z",
+      "sha256": "2b23b92eb240b4d2f2714da14fd3bc8cce657a04765536202884214537545f76",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-AVAILABLE",
+        "A-ROOM-SLOT"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-SLOT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-135724-available-slot.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:57:24.555Z",
+      "sha256": "2f6ecd520dcc787dc9185a0a7e8c7b1da58bd80b8a437a82d446b750d392709a",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [
+        "A-ROOM-SLOT"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-PREVIEWLOAD",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-135751-loading.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:57:51.459Z",
+      "sha256": "107200eadcd14a90227c28f1bc88c2515c4727c2b1717e07a2d17192dfd3416c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-PREVIEWLOAD"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-PREVIEWTOP",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-135826-top.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:58:26.275Z",
+      "sha256": "3e2c2dbb3cb443dde618ae6b0142d1841d96124709f5a05e96951cb238510c75",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-MENU",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-135842-more-menu.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:58:42.869Z",
+      "sha256": "a5473449cf412103c8984b4f594b0d3d63ccb12f48c3e9650425ee64ebf89c13",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MENU"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-MENU",
+        "A-ROOM-PREVIEW-CANCEL"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-PHOTO1",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-135905-ag206-photo-1.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:59:05.566Z",
+      "sha256": "26b3f417748f27f4ee50acbec259c18c7d69ae1807491aa7f700ffab8c47d2ae",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-PHOTO1"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-CANCEL",
+        "A-ROOM-PREVIEW-SCROLL",
+        "A-ROOM-PREVIEW-NEXT"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-PHOTO2",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-135932-ag206-photo-2.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T13:59:32.877Z",
+      "sha256": "0b4123705c5d6a5aea0969eff27e515030c9f11c123123c4748e92f23f2e1bbf",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-PHOTO2"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-NEXT"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-RETURN",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-140021-preview-return-available.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:00:21.101Z",
+      "sha256": "0d2b94b078fff23779fdb487c3493dde949cc13d2feb81747eaaebdd3720cab2",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-RETURN"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-CLOSE"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-DATESCROLL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-140035-date-row.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:00:35.418Z",
+      "sha256": "cef2ddff9aeb3f66249dcda8ebcd9566097f6af0a85b4edf34e4578409cde2bf",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [
+        "A-ROOM-DATE-SCROLL"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-DATEDRAG",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-140053-date-row-scrolled.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:00:53.532Z",
+      "sha256": "7c650b3d57fc608de36ce804e7720dfd408bb3ab11cd0b694e6ffb8fb372fb1a",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-DATEDRAG"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-DRAG"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-SUNTRANSITION",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-140117-sun-selected-old-result.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:01:17.021Z",
+      "sha256": "458db32ea17fe1e158b9f8d7a846210e1fba5e75c51f6d2c72d27c88cc1bec01",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-SUNTRANSITION"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-SUN"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-SUNEMPTY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-140214-sun-no-available-room.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:02:14.227Z",
+      "sha256": "b409d717a7d577a386d639aebb9408b92d70b1049819afd44bee391fdb355c3c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-SUNEMPTY"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-SUN"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-SUNALL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-140253-sun-all-unavailable.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:02:53.959Z",
+      "sha256": "4322311ff2f5630c4c24af05801b24605dc4a6ab4df9e458d96439e21ac56688",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-SUNALL"
+      ],
+      "action_ids": [
+        "A-ROOM-SUN-ALL"
+      ],
+      "redaction": "Reviewed app-content crop; unrelated desktop and window chrome excluded.",
+      "source": "Computer Use screenshot captured in the current observation session; extracted from its tool image output."
+    },
+    {
+      "id": "E-SUNSCROLLED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-140323-sun-all-scrolled.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:03:23.789Z",
+      "sha256": "badce4284dbab5eb570c9a1563025247a76e621781111bf7e055a3ef375e735c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-SUNSCROLLED"
+      ],
+      "action_ids": [
+        "A-ROOM-SCROLL-LIST"
+      ],
+      "redaction": "Reviewed app-content crop; map shows public campus/building information, not a personal account or location marker.",
+      "source": "Computer Use screenshot captured in this observation session."
+    },
+    {
+      "id": "E-SUNSCROLLED2",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-140341-sun-all-scrolled.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:03:41.847Z",
+      "sha256": "18aa6d3031700e9ad2aac4a3de0bcffa410f66ef24386926e786230e80e07460",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-SUNSCROLLED"
+      ],
+      "action_ids": [
+        "A-ROOM-SCROLL-LIST"
+      ],
+      "redaction": "Reviewed app-content crop; map shows public campus/building information, not a personal account or location marker.",
+      "source": "Computer Use screenshot captured in this observation session."
+    },
+    {
+      "id": "E-MAP",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-map-140441-ag206-campus.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:04:41.704Z",
+      "sha256": "a25a845e96d8d61b6285b6038089563c3e01d3a369a7685adb89eacdfdf5f781",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MAP"
+      ],
+      "action_ids": [
+        "A-ROOM-MAP-PIN",
+        "A-ROOM-MAP-INCREMENT"
+      ],
+      "redaction": "Reviewed app-content crop; map shows public campus/building information, not a personal account or location marker.",
+      "source": "Computer Use screenshot captured in this observation session."
+    },
+    {
+      "id": "E-MAPZOOM",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-map-140635-ag206-zoomed.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:06:35.213Z",
+      "sha256": "cafcaba22104e0c56ebc048d3cb231622639f72cdcf6d8a93cdd2db8c938942c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MAPZOOM"
+      ],
+      "action_ids": [
+        "A-ROOM-MAP-INCREMENT",
+        "A-ROOM-MAP-DECREMENT"
+      ],
+      "redaction": "Reviewed app-content crop; map shows public campus/building information, not a personal account or location marker.",
+      "source": "Computer Use screenshot captured in this observation session."
+    },
+    {
+      "id": "E-MAPOUT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-map-140652-ag206-campus.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:06:52.560Z",
+      "sha256": "e55381b234f4a8f4a2066796e18ca8629d35e8f222e9ba779c5dfdaaa81dde62",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MAPOUT"
+      ],
+      "action_ids": [
+        "A-ROOM-MAP-DECREMENT",
+        "A-ROOM-MAP-DRAG"
+      ],
+      "redaction": "Reviewed app-content crop; map shows public campus/building information, not a personal account or location marker.",
+      "source": "Computer Use screenshot captured in this observation session."
+    },
+    {
+      "id": "E-MAPDRAG",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-map-140707-ag206-campus.png",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:07:07.791Z",
+      "sha256": "984aafaf8b4eb2045b11542b9aea479bd621f4c6e986bfab06fcba54681c1090",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [
+        "A-ROOM-MAP-DRAG"
+      ],
+      "redaction": "Reviewed app-content crop; map shows public campus/building information, not a personal account or location marker.",
+      "source": "Computer Use screenshot captured in this observation session."
+    },
+    {
+      "id": "E-ROOM-TRACE",
+      "type": "observation_record",
+      "path": "room-walkthrough.md",
+      "session_id": "SESSION-20260928-ROOM",
+      "captured_at": "2026-09-28T14:07:49.772Z",
+      "state_ids": [
+        "S-MAPRETURN"
+      ],
+      "action_ids": [
+        "A-ROOM-MAP-BACK",
+        "A-ROOM-HOME-BACK"
+      ],
+      "redaction": "Only action timing and non-personal navigation feedback are summarised; raw AX and personal Home details omitted.",
+      "source": "Current session Computer Use actions and returned AX state. Exact return action timestamps are in the walkthrough; no screenshot is claimed for these two returns."
+    },
+    {
+      "id": "E-MORE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/more-140835-two-cards.png",
+      "session_id": "SESSION-20260928-MORE",
+      "captured_at": "2026-09-28T14:08:35.273Z",
+      "sha256": "7f0fe40a1da9b95c10e033ca24eb5073e105f2c9122a43ba19fc88e94735d859",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MORE"
+      ],
+      "action_ids": [
+        "A-HOME-EP004"
+      ],
+      "redaction": "Reviewed app-content crop of public More/weather information; no personal account content.",
+      "source": "Current-session Computer Use screenshot, extracted from tool output and checked against source pixels."
+    },
+    {
+      "id": "E-WEATHER",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/weather-141156-detail.png",
+      "session_id": "SESSION-20260928-MORE",
+      "captured_at": "2026-09-28T14:11:56.574Z",
+      "sha256": "b48eaf85922d1ba6371cc5363bdde56bcf50c07cafeb46033dc6a992994ced40",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-WEATHER"
+      ],
+      "action_ids": [
+        "A-MORE-WEATHER"
+      ],
+      "redaction": "Reviewed app-content crop of public More/weather information; no personal account content.",
+      "source": "Current-session Computer Use screenshot, extracted from tool output and checked against source pixels."
+    },
+    {
+      "id": "E-WEATHER-EXPANDED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/weather-141605-hero-expanded.png",
+      "session_id": "SESSION-20260928-MORE",
+      "captured_at": "2026-09-28T14:16:05.235Z",
+      "sha256": "84961770b7260919913c8c50e6678d73a8dffcacb6d2c2241b60cf97de12d4c1",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-WEATHER-EXPANDED"
+      ],
+      "action_ids": [
+        "A-WEATHER-EXPAND"
+      ],
+      "redaction": "Reviewed app-content crop of public More/weather information; no personal account content.",
+      "source": "Current-session Computer Use screenshot, extracted from tool output and checked against source pixels."
+    },
+    {
+      "id": "E-WEATHER-RETURN",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/weather-141641-hero-return.png",
+      "session_id": "SESSION-20260928-MORE",
+      "captured_at": "2026-09-28T14:16:41.547Z",
+      "sha256": "6e86c1a6ac43d19c49041401c99fad7bb0c497b61d1cd92d07565dcc856fa789",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-WEATHER"
+      ],
+      "action_ids": [
+        "A-WEATHER-CLOSE-IMAGE"
+      ],
+      "redaction": "Reviewed app-content crop of public More/weather information; no personal account content.",
+      "source": "Current-session Computer Use screenshot, extracted from tool output and checked against source pixels."
+    },
+    {
+      "id": "E-WEATHER-WEB",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/weather-141802-official-web-cookie.png",
+      "session_id": "SESSION-20260928-MORE",
+      "captured_at": "2026-09-28T14:18:02.037Z",
+      "sha256": "c817301e828f68fe686691edbdde414fcf77fc64f3e29d31d15660980b3f3e9d",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-WEATHER-WEB"
+      ],
+      "action_ids": [
+        "A-WEATHER-LINK"
+      ],
+      "redaction": "Reviewed app-content crop of public More/weather information; no personal account content.",
+      "source": "Current-session Computer Use screenshot, extracted from tool output and checked against source pixels."
+    },
+    {
+      "id": "E-FIGMA-PROGRESS",
+      "type": "observation_record",
+      "path": "figma-spec.md",
+      "session_id": null,
+      "captured_at": "2026-09-28T14:37:56.546Z",
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Only public project filename, canonical file URL, source screenshot names, request summary and processing status; account identity and unrelated projects omitted.",
+      "source": "Current-session browser Computer Use: real Design editor title, attachment upload, sent native Agents prompt and returned Processing state."
+    },
+    {
+      "id": "E-MORE-TRACE",
+      "type": "observation_record",
+      "path": "more-walkthrough.md",
+      "session_id": "SESSION-20260928-MORE",
+      "captured_at": "2026-09-28T14:36:37.931Z",
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Only non-personal action/result summaries and tool environment blocker retained.",
+      "source": "Current-session Computer Use calls and outputs; Mac lock message is recorded as an environment blocker."
+    },
+    {
+      "id": "E-FIGMA-FRAME-CREDITS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-145434-frame-properties-and-credits.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T14:54:34.900Z",
+      "sha256": "41bee9c283d836227e062fd5a5db16230cab83719887d0e93a774e9ed3300620",
+      "dimensions": [
+        635,
+        645
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public Figma project/prototype content crop; editor account controls excluded.",
+      "source": "Browser Computer Use; captured real editor/prototype, not generated evidence.",
+      "limitation": "Only captured viewport; not proof of complete source-app reconstruction."
+    },
+    {
+      "id": "E-FIGMA-SUGGEST",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-present-145546-room-suggest-a.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T14:55:46.721Z",
+      "sha256": "b4f368117ec2ebf1fdf70b5439e47478cbe65d4e26bef55e1807a8101edf8942",
+      "dimensions": [
+        576,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public Figma project/prototype content crop; editor account controls excluded.",
+      "source": "Browser Computer Use; captured real editor/prototype, not generated evidence.",
+      "limitation": "Only captured viewport; not proof of complete source-app reconstruction."
+    },
+    {
+      "id": "E-FIGMA-ALL-TRANSITION",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-present-145602-suggest-to-all-transition.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T14:56:02.186Z",
+      "sha256": "5a67a6afe237b83131ce9b43e097f576aea8250a2dd312b01f5145f393a25d48",
+      "dimensions": [
+        576,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public Figma project/prototype content crop; editor account controls excluded.",
+      "source": "Browser Computer Use; captured real editor/prototype, not generated evidence.",
+      "limitation": "Animation transition only; not a settled visual comparison."
+    },
+    {
+      "id": "E-FIGMA-ALL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-present-145617-room-all.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T14:56:17.887Z",
+      "sha256": "93eb05bae433d48256546f410d928bcf9996b236939232120044767dd152981c",
+      "dimensions": [
+        576,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public Figma project/prototype content crop; editor account controls excluded.",
+      "source": "Browser Computer Use; captured real editor/prototype, not generated evidence.",
+      "limitation": "Only captured viewport; not proof of complete source-app reconstruction."
+    },
+    {
+      "id": "E-FIGMA-AVAILABLE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-present-145645-room-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T14:56:45.456Z",
+      "sha256": "d5278084f2ae39b7f97ff68ad3ebe64a8e7daf826e264736286e99284583bcde",
+      "dimensions": [
+        576,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public Figma project/prototype content crop; editor account controls excluded.",
+      "source": "Browser Computer Use; captured real editor/prototype, not generated evidence.",
+      "limitation": "Only captured viewport; not proof of complete source-app reconstruction."
+    },
+    {
+      "id": "E-FIGMA-COMPONENTS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-150013-native-components-and-frame-properties.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T15:00:13.550Z",
+      "sha256": "d893de3a491f1289bcdfe7850265ee53d4fc64c8f0cab25876c53c4da37c6675",
+      "dimensions": [
+        1280,
+        670
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public Figma project/prototype content crop; editor account controls excluded.",
+      "source": "Browser Computer Use; captured real editor/prototype, not generated evidence.",
+      "limitation": "Only captured viewport; not proof of complete source-app reconstruction."
+    },
+    {
+      "id": "E-FIGMA-FRAME-LIST",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-150121-four-frame-layer-list.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T15:01:21.478Z",
+      "sha256": "b17d16ba9cf9315b06442769e6813a955fcb9658f3839be7e4f7f1e8915aa029",
+      "dimensions": [
+        1280,
+        670
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public Figma project/prototype content crop; editor account controls excluded.",
+      "source": "Browser Computer Use; captured real editor/prototype, not generated evidence.",
+      "limitation": "Only captured viewport; not proof of complete source-app reconstruction."
+    },
+    {
+      "id": "E-FIGMA-VALIDATION-TRACE",
+      "type": "observation_record",
+      "path": "figma-spec.md",
+      "session_id": null,
+      "captured_at": "2026-09-28T15:03:27.040Z",
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Only project node IDs, edit properties, action timestamps and non-personal outcomes retained.",
+      "source": "Current-session real Figma editor and prototype URL/AX observations. Includes final Available -> ALL return URL and title Text property inspection; no separate screenshot claimed for those steps."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-ROOM-EMPTY-QUERY",
+      "kind": "hypothesis",
+      "observed_fact": "Clearing the room field left No room found visible; submitting the empty query returned to the initial state.",
+      "state_ids": [
+        "S-CLEARED",
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [
+        "A-ROOM-CLEAR",
+        "A-ROOM-EMPTY-SEARCH"
+      ],
+      "evidence_ids": [
+        "E-CLEARED",
+        "E-EMPTYQUERY"
+      ],
+      "hypothesis": "A user may read the stale result as belonging to the empty field. No participant confusion has been measured.",
+      "principle": "Visibility of system status: distinguish the submitted query from the editable query.",
+      "suggestion": "Evaluate explicit submitted-query context or clearing the result when the input is cleared.",
+      "requires_validation": [
+        "Confirm intended query semantics",
+        "Observe real users performing clear-and-retry"
+      ]
+    },
+    {
+      "id": "F-ROOM-SLOT-AFFORDANCE",
+      "kind": "hypothesis",
+      "observed_fact": "One click on a green available time-slot card produced no visible change.",
+      "state_ids": [
+        "S-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-SLOT"
+      ],
+      "evidence_ids": [
+        "E-AVAILABLE",
+        "E-SLOT"
+      ],
+      "hypothesis": "Card styling may imply selectable details to some users; this is not evidence of a broken booking feature.",
+      "principle": "Affordance and feedback: appearance should communicate whether the item is informational or actionable.",
+      "suggestion": "If informational, evaluate a clearly labelled availability table; if actionable, verify expected action and feedback first.",
+      "requires_validation": [
+        "Test a second slot with reliable hit target",
+        "Confirm product intent",
+        "Ask real participants what they expect"
+      ]
+    },
+    {
+      "id": "F-ROOM-PREVIEW-CONTEXT",
+      "kind": "hypothesis",
+      "observed_fact": "Preview loaded a webpage near its top; a downward scroll revealed Room: AG206 and its photographs. Closing Preview retained the Room filter.",
+      "state_ids": [
+        "S-PREVIEWTOP",
+        "S-PHOTO1",
+        "S-RETURN"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW",
+        "A-ROOM-PREVIEW-SCROLL",
+        "A-ROOM-PREVIEW-CLOSE"
+      ],
+      "evidence_ids": [
+        "E-PREVIEWTOP",
+        "E-PHOTO1",
+        "E-RETURN"
+      ],
+      "hypothesis": "Unrelated page header/intro may add effort before users reach the selected room; actual user cost is unmeasured.",
+      "principle": "Match between system and user goal; continuity of context on return.",
+      "suggestion": "Evaluate a direct room-content anchor while retaining room/date/filter context on return.",
+      "requires_validation": [
+        "Repeat to see whether initial scroll position is stable",
+        "Verify room content below the photograph",
+        "Measure with real participants"
+      ]
+    },
+    {
+      "id": "F-ROOM-DATE-ASYNC",
+      "kind": "observed_transition",
+      "observed_fact": "After Sun selection a screenshot briefly showed the old 29-Sep result; a later observation showed 04-Oct with No available room, without another Search click.",
+      "state_ids": [
+        "S-SUNTRANSITION",
+        "S-SUNEMPTY"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-SUN"
+      ],
+      "evidence_ids": [
+        "E-SUNTRANSITION",
+        "E-SUNEMPTY"
+      ],
+      "hypothesis": null,
+      "principle": "Visibility of system status during asynchronous updates.",
+      "suggestion": "Represent both the observed transition and settled state; do not label the transient mismatch as a confirmed defect.",
+      "requires_validation": [
+        "Repeat the change with captured loading feedback before drawing latency or usability conclusions"
+      ]
+    },
+    {
+      "id": "F-WEATHER-WEB-CONTEXT",
+      "kind": "hypothesis",
+      "observed_fact": "A text link in the weather article opens the official Academic Registry website in an embedded browser, with a cookie notice.",
+      "state_ids": [
+        "S-WEATHER",
+        "S-WEATHER-WEB"
+      ],
+      "action_ids": [
+        "A-WEATHER-LINK"
+      ],
+      "evidence_ids": [
+        "E-WEATHER",
+        "E-WEATHER-WEB"
+      ],
+      "hypothesis": "The transition may require users to recognise a different website context; no participant confusion has been observed.",
+      "principle": "Consistency and visibility of system status across an embedded web handoff.",
+      "suggestion": "Preserve a clear webpage context and verify a reliable close/return path in the prototype.",
+      "requires_validation": [
+        "Inspect the actual close feedback and cookie controls",
+        "Observe real users locating the policy and returning"
+      ]
+    },
+    {
+      "id": "F-WEATHER-IMAGE-RETURN",
+      "kind": "observed_behavior",
+      "observed_fact": "Hero expand opens an image overlay; X restores the weather article.",
+      "state_ids": [
+        "S-WEATHER",
+        "S-WEATHER-EXPANDED"
+      ],
+      "action_ids": [
+        "A-WEATHER-EXPAND",
+        "A-WEATHER-CLOSE-IMAGE"
+      ],
+      "evidence_ids": [
+        "E-WEATHER-EXPANDED",
+        "E-WEATHER-RETURN"
+      ],
+      "hypothesis": null,
+      "principle": "User control and freedom through a reversible overlay.",
+      "suggestion": "Reproduce both expand and close; a static enlarged image does not reproduce this flow.",
+      "requires_validation": [
+        "Inspect any other image gestures separately"
+      ]
+    }
+  ],
+  "figma": {
+    "file_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/",
+    "state_node_mappings": [
+      {
+        "state_id": "S-SUGGESTION",
+        "node_id": "2:50",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=2-50",
+        "node_name": "room-suggest-a",
+        "node_type": "Frame",
+        "page": "Page 1",
+        "section": "Room Finder",
+        "source_evidence_ids": [
+          "E-SUGGESTION"
+        ],
+        "prototype_evidence_ids": [
+          "E-FIGMA-SUGGEST"
+        ],
+        "viewport": {
+          "source_app_crop": [
+            576,
+            970
+          ],
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": "Viewport crop may clip frame height; preserve raw scale before comparing."
+        },
+        "native_editability": "Inspected native auto-layout frame and title Text 2:55.",
+        "visual_review": {
+          "status": "failed",
+          "evidence_ids": [
+            "E-SUGGESTION",
+            "E-FIGMA-SUGGEST"
+          ],
+          "deviation_ids": [
+            "D-ROOM-HEADER-SCALE",
+            "D-ROOM-DATE-BORDER",
+            "D-ROOM-SEARCH-DECORATION",
+            "D-ROOM-BACKGROUND"
+          ]
+        }
+      },
+      {
+        "state_id": "S-ALL",
+        "node_id": "2:98",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=2-98",
+        "node_name": "room-all",
+        "node_type": "Frame",
+        "page": "Page 1",
+        "section": "Room Finder",
+        "source_evidence_ids": [
+          "E-ALL"
+        ],
+        "prototype_evidence_ids": [
+          "E-FIGMA-ALL"
+        ],
+        "viewport": {
+          "source_app_crop": [
+            576,
+            970
+          ],
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": "Viewport crop may clip frame height; preserve raw scale before comparing."
+        },
+        "native_editability": "Frame/layer presence and prototype state confirmed; child editability pending.",
+        "visual_review": {
+          "status": "failed",
+          "evidence_ids": [
+            "E-ALL",
+            "E-FIGMA-ALL"
+          ],
+          "deviation_ids": [
+            "D-ROOM-HEADER-SCALE",
+            "D-ROOM-DATE-BORDER",
+            "D-ROOM-SEARCH-DECORATION",
+            "D-ROOM-BACKGROUND",
+            "D-ROOM-SLOT-ORDER"
+          ]
+        }
+      },
+      {
+        "state_id": "S-AVAILABLE",
+        "node_id": "2:211",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=2-211",
+        "node_name": "room-available",
+        "node_type": "Frame",
+        "page": "Page 1",
+        "section": "Room Finder",
+        "source_evidence_ids": [
+          "E-AVAILABLE"
+        ],
+        "prototype_evidence_ids": [
+          "E-FIGMA-AVAILABLE"
+        ],
+        "viewport": {
+          "source_app_crop": [
+            576,
+            970
+          ],
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": "Viewport crop may clip frame height; preserve raw scale before comparing."
+        },
+        "native_editability": "Frame/layer presence and prototype state confirmed; child editability pending.",
+        "visual_review": {
+          "status": "failed",
+          "evidence_ids": [
+            "E-AVAILABLE",
+            "E-FIGMA-AVAILABLE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-HEADER-SCALE",
+            "D-ROOM-DATE-BORDER",
+            "D-ROOM-SEARCH-DECORATION",
+            "D-ROOM-BACKGROUND",
+            "D-ROOM-SLOT-ORDER"
+          ]
+        }
+      }
+    ],
+    "action_connection_mappings": [
+      {
+        "action_id": "A-ROOM-SUGGESTION",
+        "source_node_id": "2:50",
+        "target_node_id": "2:98",
+        "trigger": "click AG206 suggestion",
+        "behavior": "navigate to",
+        "transition": "Observed animation; exact configured transition not inspected",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-ROOM-001"
+        ],
+        "source_fidelity": "Observed same room/date suggestion path."
+      },
+      {
+        "action_id": "A-ROOM-AVAILABLE",
+        "source_node_id": "2:98",
+        "target_node_id": "2:211",
+        "trigger": "click Available",
+        "behavior": "navigate to",
+        "transition": "Configured transition not inspected",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-ROOM-001"
+        ],
+        "source_fidelity": "Observed same room/date filter path; layout remains wrong."
+      },
+      {
+        "action_id": "A-ROOM-SUN-ALL",
+        "source_node_id": "2:211",
+        "target_node_id": "2:98",
+        "trigger": "click ALL",
+        "behavior": "navigate to",
+        "transition": "Configured transition not inspected",
+        "implementation_status": "tested_with_source_state_deviation",
+        "prototype_run_ids": [
+          "PROTO-ROOM-001"
+        ],
+        "source_fidelity": "Source action uses Sun 04-Oct empty Available -> ALL; prototype uses Tue 29-Sep populated Available -> ALL. Same-date source action needs revalidation.",
+        "deviation_ids": [
+          "D-ROOM-ALL-RETURN-SOURCE"
+        ]
+      }
+    ],
+    "reconstruction_deviations": [
+      {
+        "id": "D-ROOM-HEADER-SCALE",
+        "status": "open",
+        "affected_state_ids": [
+          "S-SUGGESTION",
+          "S-ALL",
+          "S-AVAILABLE"
+        ],
+        "original_behavior": "Source header is about 100 px high in a 576-px-wide crop; original text/controls have larger proportions.",
+        "current_implementation": "Generated header is about 60 px high; title Text independently inspected as Inter Bold 18px, and other controls also appear small.",
+        "impact": "Visual hierarchy and spacing differ from source.",
+        "next_step": "Measure and correct native geometry/typography at the same scale, then compare again.",
+        "evidence_ids": [
+          "E-SUGGESTION",
+          "E-FIGMA-SUGGEST",
+          "E-FIGMA-VALIDATION-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-DATE-BORDER",
+        "status": "open",
+        "affected_state_ids": [
+          "S-SUGGESTION",
+          "S-ALL",
+          "S-AVAILABLE"
+        ],
+        "original_behavior": "Unselected dates lack the outlined rounded card treatment.",
+        "current_implementation": "Generated dates have added rounded borders.",
+        "impact": "Incorrect control styling.",
+        "next_step": "Remove unsupported date borders and match source selection styling.",
+        "evidence_ids": [
+          "E-SUGGESTION",
+          "E-FIGMA-SUGGEST"
+        ]
+      },
+      {
+        "id": "D-ROOM-SEARCH-DECORATION",
+        "status": "open",
+        "affected_state_ids": [
+          "S-SUGGESTION",
+          "S-ALL",
+          "S-AVAILABLE"
+        ],
+        "original_behavior": "Source input/control arrangement does not have the added leading magnifier or the generated blurred clear appearance.",
+        "current_implementation": "Extra leading magnifier and incorrect clear icon appearance.",
+        "impact": "Additional visual elements and inaccurate interaction affordance.",
+        "next_step": "Separate actual UI from Computer Use cursor/highlight artifacts and reconstruct only real controls.",
+        "evidence_ids": [
+          "E-SUGGESTION",
+          "E-FIGMA-SUGGEST",
+          "E-ALL",
+          "E-FIGMA-ALL"
+        ]
+      },
+      {
+        "id": "D-ROOM-SLOT-ORDER",
+        "status": "open",
+        "affected_state_ids": [
+          "S-ALL",
+          "S-AVAILABLE"
+        ],
+        "original_behavior": "Source slots progress left-to-right by row. Available first two rows: 08:30/09:00, then 11:30/12:00. ALL first row:08:30/09:00.",
+        "current_implementation": "Generated Available first two rows:08:30/11:30, then 09:00/12:00. Generated ALL first row:08:30/12:30, indicating column-order layout.",
+        "impact": "Spatial order misrepresents the source time sequence.",
+        "next_step": "Correct ordering in both result frames and rerun Present.",
+        "evidence_ids": [
+          "E-ALL",
+          "E-AVAILABLE",
+          "E-FIGMA-ALL",
+          "E-FIGMA-AVAILABLE"
+        ]
+      },
+      {
+        "id": "D-ROOM-BACKGROUND",
+        "status": "open",
+        "affected_state_ids": [
+          "S-SUGGESTION",
+          "S-ALL",
+          "S-AVAILABLE"
+        ],
+        "original_behavior": "Source page background is white.",
+        "current_implementation": "Generated large content regions use gray-white.",
+        "impact": "Incorrect background and contrast hierarchy.",
+        "next_step": "Match source fills at page/container/card levels.",
+        "evidence_ids": [
+          "E-SUGGESTION",
+          "E-FIGMA-SUGGEST",
+          "E-AVAILABLE",
+          "E-FIGMA-AVAILABLE"
+        ]
+      },
+      {
+        "id": "D-ROOM-ALL-RETURN-SOURCE",
+        "status": "open",
+        "affected_state_ids": [
+          "S-AVAILABLE",
+          "S-ALL"
+        ],
+        "original_behavior": "Actual observed ALL return was on Sun 04-Oct after an empty Available result.",
+        "current_implementation": "Prototype ALL return is on Tue 29-Sep after populated Available result.",
+        "impact": "Prototype connection works but its exact data-state transition is not yet source-verified.",
+        "next_step": "Observe exact Tue populated Available -> ALL transition when Mac is unlocked; preserve existing source observations.",
+        "evidence_ids": [
+          "E-SUNEMPTY",
+          "E-SUNALL",
+          "E-FIGMA-VALIDATION-TRACE"
+        ]
+      }
+    ],
+    "prototype_runs": [
+      {
+        "id": "PROTO-ROOM-001",
+        "started_at": "2026-09-28T14:55:46.721Z",
+        "ended_at": "2026-09-28T14:57:32.135Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=2-50&starting-point-node-id=2%3A50",
+        "start_node_id": "2:50",
+        "status": "passed",
+        "scope": "Only the following three click connections; not full application or visual acceptance.",
+        "steps": [
+          {
+            "at": "2026-09-28T14:56:02.186Z",
+            "action": "Click AG206 suggestion",
+            "expected_node_id": "2:98",
+            "actual_node_id": "2:98",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-VALIDATION-TRACE",
+              "E-FIGMA-ALL"
+            ]
+          },
+          {
+            "at": "2026-09-28T14:56:31.883Z",
+            "action": "Click Available",
+            "expected_node_id": "2:211",
+            "actual_node_id": "2:211",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-VALIDATION-TRACE",
+              "E-FIGMA-AVAILABLE"
+            ]
+          },
+          {
+            "at": "2026-09-28T14:57:32.135Z",
+            "action": "Click ALL",
+            "expected_node_id": "2:98",
+            "actual_node_id": "2:98",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-VALIDATION-TRACE"
+            ],
+            "evidence_boundary": "Verified by prototype URL/AX; no independent settled return screenshot was captured."
+          }
+        ],
+        "limitations": [
+          "Typing/search/date/Preview/map/back not wired or verified here",
+          "Visual review failed",
+          "Exact App date/data state for return ALL mapping remains to be re-observed"
+        ]
+      }
+    ],
+    "verification_status": "failed",
+    "file_name": "PolyULife — Observed UI & Interaction Atlas",
+    "file_type": "Figma Design",
+    "delivery_route": "Browser Computer Use controlling Figma Design and its native Agents panel",
+    "connector_status": "Figma plugin connection not confirmed; current browser route works without that confirmation",
+    "file_verified_at": "2026-09-28T14:28:04.139Z",
+    "page_limit": 3,
+    "organization": "Use sections within the current page first; remain at no more than three pages.",
+    "generation_requests": [
+      {
+        "id": "FIGMA-ROOM-001",
+        "submitted_at": "2026-09-28T14:37:16.326Z",
+        "last_observed_at": "2026-09-28T14:43:17.704Z",
+        "last_observed_status": "completed_report_with_daily_credit_limit",
+        "source_evidence_ids": [
+          "E-EMPTYQUERY",
+          "E-SUGGESTION",
+          "E-ALL",
+          "E-AVAILABLE"
+        ],
+        "requested_frames": [
+          {
+            "state_id": "S-EMPTYQUERY",
+            "requested_frame_name": "ROOM-EMPTY"
+          },
+          {
+            "state_id": "S-SUGGESTION",
+            "requested_frame_name": "ROOM-SUGGEST-A"
+          },
+          {
+            "state_id": "S-ALL",
+            "requested_frame_name": "ROOM-ALL"
+          },
+          {
+            "state_id": "S-AVAILABLE",
+            "requested_frame_name": "ROOM-AVAILABLE"
+          }
+        ],
+        "requested_frame_size": [
+          576,
+          970
+        ],
+        "requested_connection_action_ids": [
+          "A-ROOM-SUGGESTION",
+          "A-ROOM-AVAILABLE"
+        ],
+        "requested_additional_connection": "ALL filter from the Available frame back to ALL; require mapping to a matching observed action before calling that connection verified.",
+        "requested_components": [
+          "header/back",
+          "day selector",
+          "room search field",
+          "filter tabs",
+          "time slot",
+          "availability legend"
+        ],
+        "result_verified": false,
+        "result_node_ids": [
+          "2:50",
+          "2:98",
+          "2:211"
+        ],
+        "evidence_ids": [
+          "E-FIGMA-PROGRESS",
+          "E-FIGMA-FRAME-CREDITS",
+          "E-FIGMA-FRAME-LIST",
+          "E-FIGMA-COMPONENTS",
+          "E-FIGMA-VALIDATION-TRACE"
+        ],
+        "reported_output_counts": {
+          "frames": 4,
+          "components": 7,
+          "prototype_connections": 3
+        },
+        "verification_boundary": "Generated layer structure and three prototype links independently checked in part; visual fidelity failed. The generator report is not full acceptance."
+      }
+    ],
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=2-50&starting-point-node-id=2%3A50",
+    "verification_summary": "Three tested prototype connections work; fidelity review failed and most full-app states/actions are not reconstructed. Existing first-generation design remains a draft.",
+    "latest_verified_cutoff": "2026-09-28T15:03:27.040Z",
+    "native_editability_checks": [
+      {
+        "id": "NATIVE-ROOM-SUGGEST-001",
+        "checked_at": "2026-09-28T15:03:27.040Z",
+        "state_id": "S-SUGGESTION",
+        "frame_node_id": "2:50",
+        "frame_properties": {
+          "width": 576,
+          "height": 970,
+          "auto_layout": true
+        },
+        "child_layers_observed": [
+          "Header",
+          "DaySelector",
+          "SearchRowContainer",
+          "Line",
+          "EmptyState"
+        ],
+        "text_node": {
+          "node_id": "2:55",
+          "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=2-55",
+          "node_type": "Text",
+          "font_family": "Inter",
+          "font_style": "Bold",
+          "font_size_px": 18,
+          "width": 111,
+          "height": 22
+        },
+        "status": "passed_for_inspected_frame_and_title_text",
+        "limitation": "Other frames, every child and all seven components are not fully verified; inspection did not modify the design.",
+        "evidence_ids": [
+          "E-FIGMA-FRAME-CREDITS",
+          "E-FIGMA-VALIDATION-TRACE"
+        ]
+      }
+    ],
+    "generation_limit": {
+      "status": "daily_credits_exhausted",
+      "first_observed_at": "2026-09-28T14:42:36.019Z",
+      "scope": "Further native Agents prompts on free Starter plan; does not block manual editing or current-file inspection",
+      "paid_upgrade_performed": false,
+      "evidence_ids": [
+        "E-FIGMA-FRAME-CREDITS"
+      ],
+      "alternative_route": "Root has verified ordinary SVG paste creates native Frame/Vector/Text, inspected probe Text 12:5, and removed probe Frame12:2; faithful SVG source preparation is now in progress. This is preparation for actual Figma work, not a substitute deliverable."
+    }
+  },
+  "discovery_queue": [
+    {
+      "id": "Q-EP001",
+      "entry_point_id": "EP001",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "in_progress",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP002",
+      "entry_point_id": "EP002",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP003",
+      "entry_point_id": "EP003",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP004",
+      "entry_point_id": "EP004",
+      "reason": "More viewport and weather branch observed; menu/search, Virtual Assistant and complete list remain pending.",
+      "status": "in_progress",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP005",
+      "entry_point_id": "EP005",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "in_progress",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP006",
+      "entry_point_id": "EP006",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP007",
+      "entry_point_id": "EP007",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP008",
+      "entry_point_id": "EP008",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP009",
+      "entry_point_id": "EP009",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP010",
+      "entry_point_id": "EP010",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-EP011",
+      "entry_point_id": "EP011",
+      "reason": "Inspect complete destination, controls and boundaries; a visible entry is not full functional coverage.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-ROOM-REMAINING",
+      "state_ids": [
+        "S-MENU",
+        "S-PHOTO2",
+        "S-SUNALL"
+      ],
+      "reason": "Complete pending Room actions, Preview content/PDF and browser menu branches, list/date bounds, and remaining AG206 map controls/handoff.",
+      "status": "in_progress",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-HOME-REST",
+      "state_ids": [
+        "S-HOME"
+      ],
+      "reason": "Inspect the rest of Home without publishing personal account or course data; this record only has a navigation crop.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-FIGMA-CONNECTION",
+      "reason": "A Figma plugin connection is no longer a prerequisite for this work: the real Design file is open and its native Agents panel accepted a request through browser Computer Use. Plugin connection itself remains unconfirmed.",
+      "status": "resolved",
+      "resolution_refs": [
+        "E-FIGMA-PROGRESS"
+      ]
+    },
+    {
+      "id": "Q-MORE-REMAINING",
+      "entry_point_id": "EP004",
+      "state_ids": [
+        "S-MORE",
+        "S-WEATHER",
+        "S-WEATHER-EXPANDED",
+        "S-WEATHER-WEB"
+      ],
+      "reason": "Complete pending More/weather controls, full list/page ranges and verified return paths after Mac unlock.",
+      "status": "pending",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-FIGMA-GENERATION",
+      "reason": "Initial output exists. Correct recorded visual deviations, inspect all native layers/components, reconstruct remaining states and run all corresponding interactions; no regeneration duplicate needed.",
+      "status": "in_progress",
+      "resolution_refs": []
+    },
+    {
+      "id": "Q-FIGMA-ROOM-FIDELITY",
+      "state_ids": [
+        "S-EMPTYQUERY",
+        "S-SUGGESTION",
+        "S-ALL",
+        "S-AVAILABLE"
+      ],
+      "reason": "Repair the draft with the verified native SVG import/manual editing route, then rewire and revalidate. Daily Agents credits are limited, not a total Figma blocker.",
+      "status": "in_progress",
+      "resolution_refs": []
+    }
+  ],
+  "blockers": [
+    {
+      "id": "B-CAPTURE-RECOVERY",
+      "status": "resolved",
+      "description": "Computer Use window capture failed during early Room inspection.",
+      "missing_dependency": null,
+      "resolution": "User restored capture; readable screenshots resumed.",
+      "evidence_ids": [
+        "E-PQ",
+        "E-PQNONE"
+      ],
+      "next_step": null
+    },
+    {
+      "id": "B-FIGMA-CONNECTION",
+      "status": "resolved_by_alternative_route",
+      "description": "Figma plugin connection itself remains unconfirmed, but browser Computer Use opened a real Design file and submitted a native Agents request.",
+      "missing_dependency": null,
+      "next_step": "Verify actual generated layers and native prototype behavior.",
+      "evidence_ids": [
+        "E-FIGMA-PROGRESS"
+      ],
+      "resolution": "Current Design editor route proceeds independently of the plugin."
+    },
+    {
+      "id": "B-MAC-LOCKED",
+      "status": "open",
+      "description": "At 14:36:37 UTC Computer Use reported that the Mac is locked and automatic unlock failed. This is an environment condition, not an app defect.",
+      "missing_dependency": "User unlocks the Mac; confirm current app state afterward.",
+      "affected_scope": "Further native PolyULife Computer Use inspection; browser Figma work remains available.",
+      "next_step": "Resume pending app actions after actual unlock is observed; meanwhile verify the existing Figma request.",
+      "evidence_ids": [
+        "E-MORE-TRACE"
+      ]
+    }
+  ],
+  "closure_reviews": [
+    {
+      "id": "R-ROOM-PARTIAL",
+      "session_id": "SESSION-20260928-ROOM",
+      "status": "partial",
+      "state_ids": [
+        "S-MENU",
+        "S-PHOTO1",
+        "S-PHOTO2",
+        "S-RETURN",
+        "S-DATEDRAG",
+        "S-SUNEMPTY",
+        "S-SUNALL",
+        "S-SUNSCROLLED",
+        "S-MAP",
+        "S-MAPZOOM",
+        "S-MAPOUT",
+        "S-MAPRETURN",
+        "S-HOME"
+      ],
+      "checked_scope": "Preview menu visibility and Cancel, one carousel Next, close preservation, date-strip drag, Sunday async result and Available -> ALL. Also: lower list scroll without verified end; AG206 location pin, slider Increment/Decrement, one inconclusive map drag, map Back preserving Sun+ALL, then Home Back.",
+      "newly_discovered_entries": [
+        "AG206 location-pin map branch",
+        "Preview external browser/share/copy actions"
+      ],
+      "remaining_scope": "Pending actions remain; complete Room, Home and all-app closure not established.",
+      "evidence_ids": [
+        "E-MENU",
+        "E-PHOTO1",
+        "E-PHOTO2",
+        "E-RETURN",
+        "E-DATEDRAG",
+        "E-SUNEMPTY",
+        "E-SUNALL",
+        "E-SUNSCROLLED",
+        "E-MAP",
+        "E-MAPZOOM",
+        "E-MAPOUT",
+        "E-ROOM-TRACE"
+      ]
+    },
+    {
+      "id": "R-MORE-PARTIAL",
+      "session_id": "SESSION-20260928-MORE",
+      "status": "partial",
+      "state_ids": [
+        "S-MORE",
+        "S-WEATHER",
+        "S-WEATHER-EXPANDED",
+        "S-WEATHER-WEB"
+      ],
+      "checked_scope": "More current viewport, weather article entry, hero expand/X close, official website link load.",
+      "newly_discovered_entries": [
+        "Virtual Assistant",
+        "More menu/search",
+        "Weather question-mark icon",
+        "Official website/cookie/browser controls"
+      ],
+      "remaining_scope": "Complete list, other entries, browser/page controls and return paths remain unverified.",
+      "evidence_ids": [
+        "E-MORE",
+        "E-WEATHER",
+        "E-WEATHER-EXPANDED",
+        "E-WEATHER-RETURN",
+        "E-WEATHER-WEB"
+      ]
+    }
+  ]
+}
