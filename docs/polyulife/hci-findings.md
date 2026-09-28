@@ -1,13 +1,13 @@
 # PolyULife HCI 发现与待验证假设
 
-整理日期：2026-09-29。当前分析覆盖已有 Room Finder、More、天气安排、Virtual Assistant、Calendar、Notification、侧边菜单、Food与Apps的部分走查证据，**不是全应用评估结果，也不是已验证的改版效果**。实际 App 证据截至 2026-09-28 17:17:44 UTC（香港时间 2026-09-29 01:17:44）。各模块的已测路径和未测边界分别记录，不由页面数量推定功能覆盖率。
+整理日期：2026-09-29。当前分析覆盖已有 Room Finder、More、天气安排、Virtual Assistant、Calendar、Notification、侧边菜单、Food、Apps、Study progress、My Courses、主Map、QR及Home的部分走查证据，**不是全应用评估结果，也不是已验证的改版效果**。实际 App 证据截至 2026-09-28 17:44:00 UTC（香港时间 2026-09-29 01:44:00）。各模块的已测路径和未测边界分别记录，不由页面数量推定功能覆盖率。
 
 ## 证据范围和使用方式
 
 - 来源：[Room 实际走查](room-walkthrough.md)、[More 与 Virtual Assistant 实际走查](more-walkthrough.md)、[覆盖记录](coverage.json)、[截图清单及哈希](../../evidence/2026-09-28-full-audit/manifest.json)。本分析独立复核了下文引用的 Room 状态以及 Virtual Assistant 头图前后、Disclaimer、Welcome、空白网页和图片展开截图；其它动作事实引用走查记录。
 - 会话：`SESSION-20260928-ROOM`，2026-09-28 13:43–14:07 UTC，即香港时间 21:43–22:07。iPhone App 安装在 Mac 上运行，沿用既有登录状态；App 3.0.0 是历史已确认版本，Room 会话内未重新读取，后续菜单图已确认 3.0.0；系统版本未登记。
 - 补充会话：`SESSION-20260928-MORE` 与 `SESSION-20260928-ASSISTANT`，实际动作记录延伸至 15:50:13 UTC；相同 Mac/Computer Use 环境。当前无连续加载计时或真人任务数据。
-- 后续记录：[Calendar 与 Notification](calendar-notification-walkthrough.md)、[菜单与设置](menu-settings-walkthrough.md)、[Food](food-walkthrough.md)、[Apps](apps-walkthrough.md)。这些状态已独立保留截图和动作引用；菜单公开截图重新确认 App 3.0.0。下面只新增有直接证据支持的候选问题，不要求每个模块一定找出缺陷。
+- 后续记录：[Calendar 与 Notification](calendar-notification-walkthrough.md)、[菜单与设置](menu-settings-walkthrough.md)、[Food](food-walkthrough.md)、[Apps](apps-walkthrough.md)、[Home/Study/My Courses/Map/QR](home-study-map-walkthrough.md)。这些状态已独立保留截图和动作引用；菜单公开截图重新确认 App 3.0.0。下面只新增有直接证据支持的候选问题，不要求每个模块一定找出缺陷。
 - 界面截图证明采集瞬间的可见内容；动作因果与返回路径结合覆盖记录确认。两张截图之间的间隔不是加载耗时，Agent 的动作与等待不是人类使用指标。
 - 以下按“事实 → 问题假设 → 反证和边界 → 原则 → 建议 → 待验证”记录。原则属于分析框架，建议属于待比较的设计方案；它们都不是已观察到的 App 行为。
 - 课程要求见[项目简述](../project-brief.md)。本页不虚构参与者、成功率、耗时、满意度或 Maze 数据，也不把研究主题数量当作已确认主要功能数量。
@@ -148,3 +148,11 @@ Calendar 公共假期详情返回保留 September 26；Food 的配图 X 返回�
 **建议与验证。** 比较保留当前分类名称/选中提示的方案；让真人在拖动分类栏后判断当前类别，再观察是否需要回找标签。在真实iPhone复核触控、反向拖动及重复筛选。原状复现应保留已观察行为，不能把候选优化写成原App现状。
 
 Apps的VRS详情、内嵌网页关闭和保留Campus返回已通过；网页到达空NetID登录页，没有输入凭证或提交访客申请。这个边界只说明本次需要登录，不能概括为所有服务重复登录或SSO故障。
+
+## Study、课程、主地图、QR 与周选择器的证据边界
+
+[本批走查](home-study-map-walkthrough.md)新增公开目录、六个主地图类别、设施详情/返回、长名称展开/收起和Home日期等事实。主地图点击Water Stations会与Toilets叠加选择，取消Toilets后只剩饮水站；详情返回保留筛选，一次列表滚动显示后续条目。这些是实际行为，不据此新增缺陷。
+
+Study目录搜索控件被点击并尝试输入后出现空白；输入是否被接收、是否提交及空白原因均未确认。地图两次拖动、列表把手拖动和书店标记点击没有确认新结果。周选择器滚轮能显出13，但标题在展开和收起后仍为Week5，没有成功应用其它周。后续应先复查控件定位、输入/提交方式及真实iPhone表现，再判断用户影响；不能仅凭Agent操作标题或一次无变化就诊断App错误。
+
+My Courses Open最终显示App内嵌的空Blackboard登录页，没有证据证明成功交接Chrome；QR显示已确认，但没有扫描、解码或门禁验收。私人成绩、课程、进度、日程、身份和二维码都不属于公开分析素材：共享截图仅保留通用结构或完全遮盖，原型使用明确的合成资料。本批没有新增真人测试结果，候选问题总数保持10项。

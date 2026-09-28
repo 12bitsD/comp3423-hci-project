@@ -42,6 +42,10 @@ All 的 AX 中包含 18 项服务条目；初始截图只显示前几张卡片�
 - VRS 登录、错误反馈、登录帮助及账号相关链接；本次未输入凭证，也未提交访客申请。
 - VRS 网页顶部菜单、底部导航/刷新与其它网页状态，详情的更多内容边界。
 - 分类栏反向拖动、重复切换及不同分类滚动位置是否保留、网络错误或空结果等边界状态。
-- Apps 的 Back 返回 Home 尚未执行；前置 Food 返回 Home 与 Apps 自身返回是两条不同动作。
+- Apps 的 Back 返回 Home 已在后续17:30:46独立执行；见下方补测。完整列表及其它服务返回仍待检查。
 
-最后状态为 `S-APPS-ALL`。本页属于部分原生界面覆盖，未建立 Apps 的 Figma 重建或交互验收；全应用完成状态仍为 `not_verified`。Study 分类也不等同于 Home 的 Study progress 模块，My Courses、Home 主 Map、QR 等范围仍需独立观察。
+本段17:17:44截止时的状态为 `S-APPS-ALL`。11张Apps SVG重建源码随后导入Figma，12个连接的导航样例已实跑，首次中文缺字修复后通过定向复验；其它范围仍未验收，见 [Figma记录](figma-spec.md)。全应用完成状态仍为 `not_verified`。Study分类与Home的Study progress是独立模块。
+
+## 后续Home返回补测
+
+17:30:30重新观察确认仍为Apps All；17:30:46点击Apps Back，17:30:48结果确认返回Home。个人Home截图不公开，只保留脱敏动作记录。后续Study progress、My Courses、Home主Map、QR和Home日期分别有独立观察，见 [Home/Study/Map走查](home-study-map-walkthrough.md)。这项补测关闭Apps→Home这一动作缺口，不改变其它服务、完整列表和Figma尚未验收的边界。

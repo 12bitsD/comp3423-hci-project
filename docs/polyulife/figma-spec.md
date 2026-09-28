@@ -247,6 +247,80 @@ Food配置了四个真正的 **Back** 动作：图片X `50:2234`、Search Back `
 
 第一版的 Processing、失败视觉检查和三条连接通过均保留为历史记录。继续工作应使用上方 Room V2 的当前节点，不能以旧节点的检查结果代替新节点验收。
 
+## Apps：11帧导入、12个连接与中文修复复验
+
+[Apps · Categories and VRS 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=61-2&t=Ohxzpdr7gRXrVgsv-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=61%3A2&show-proto-sidebar=1)已在独立tab16按Fit width and height实跑；完整帧显示为357×601。11张576×970源码已确认原生Frame/Group/Text层级、节点和位置。首次12个连接导航通过，但All/Study的LEARN中文及登录页中文缺字，首次run保留failed；修复四个Text字体后，三个受影响状态和相关路径已重新观察通过。全像素、全Apps交互仍未验收。
+
+| State | SVG source | Figma node | Canvas |
+| --- | --- | --- | --- |
+| `S-APPS-ALL` | [apps-all.svg](../../design/polyulife/apps-all.svg) | [61:2](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-2) | 0, 13200 |
+| `S-APPS-CAMPUS` | [apps-campus.svg](../../design/polyulife/apps-campus.svg) | [61:135](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-135) | 700, 13200 |
+| `S-APPS-STUDY` | [apps-study.svg](../../design/polyulife/apps-study.svg) | [61:215](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-215) | 1400, 13200 |
+| `S-APPS-IT-TIPS` | [apps-it-tips.svg](../../design/polyulife/apps-it-tips.svg) | [61:344](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-344) | 2100, 13200 |
+| `S-APPS-HEALTH` | [apps-health.svg](../../design/polyulife/apps-health.svg) | [61:475](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-475) | 0, 14400 |
+| `S-APPS-WELLNESS` | [apps-wellness.svg](../../design/polyulife/apps-wellness.svg) | [61:585](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-585) | 700, 14400 |
+| `S-APPS-JOB` | [apps-job.svg](../../design/polyulife/apps-job.svg) | [61:663](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-663) | 1400, 14400 |
+| `S-APPS-JOB-BAR-LEFT` | [apps-job-category-left.svg](../../design/polyulife/apps-job-category-left.svg) | [61:721](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-721) | 2100, 14400 |
+| `S-APPS-VRS-DETAIL` | [apps-vrs-detail.svg](../../design/polyulife/apps-vrs-detail.svg) | [61:778](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-778) | 0, 15600 |
+| `S-APPS-VRS-WEB-LOADING` | [apps-vrs-web-loading.svg](../../design/polyulife/apps-vrs-web-loading.svg) | [61:805](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-805) | 700, 15600 |
+| `S-APPS-VRS-LOGIN` | [apps-vrs-web-login.svg](../../design/polyulife/apps-vrs-web-login.svg) | [61:843](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=61-843) | 1400, 15600 |
+
+
+Figma标签`S-APPS-IT`、`S-APPS-JOB-CATEGORIES-LEFT`、`S-APPS-VRS-WEB-LOGIN`分别映射到上表既有状态ID。Health曾被临时误命名，按实际服务分组修正并核对。
+
+| 执行时间（UTC） | 热点 | 转换 | 结果 |
+| --- | --- | --- | --- |
+| 18:01:51 | CategoryCampus `61:109` | `61:2 → 61:135` | 通过 |
+| 18:02:03 | ServiceMenuVRS `61:155` | `61:135 → 61:778` | 通过 |
+| 18:02:16 | OpenVRS `61:791` | `61:778 → 61:843` | 通过，跳过加载帧 |
+| 18:02:55，18:05后确认 | CloseWeb `61:855` | `61:843 → 61:778` | 点击后工具中断；重新连接后的URL和截图确认返回 |
+| 18:05:45 | Back `61:799` | `61:778 → 61:135` | 通过，固定返回Campus |
+| 18:06:00 | CategoryStudy `61:192` | `61:135 → 61:215` | 通过 |
+| 18:08:52 | CategoryITTips `61:324` | `61:215 → 61:344` | 通过 |
+| 18:08:58 | CategoryHealth `61:458` | `61:344 → 61:475` | 通过 |
+| 18:09:06 | CategoryWellness `61:568` | `61:475 → 61:585` | 通过 |
+| 18:09:14 | CategoryJob `61:649` | `61:585 → 61:663` | 通过 |
+| 18:09:22 | CategoryBar `61:688`，On drag | `61:663 → 61:721` | 通过，一个固定拖动样例 |
+| 18:09:29 | CategoryAll `61:749` | `61:721 → 61:2` | 通过 |
+
+运行截图：[Campus](../../evidence/2026-09-28-full-audit/figma-v2-present-180152-apps-campus.png)、[VRS详情](../../evidence/2026-09-28-full-audit/figma-v2-present-180203-apps-vrs-detail.png)、[IT Tips](../../evidence/2026-09-28-full-audit/figma-v2-present-180852-apps-it-tips.png)、[Health](../../evidence/2026-09-28-full-audit/figma-v2-present-180859-apps-health.png)、[Wellness](../../evidence/2026-09-28-full-audit/figma-v2-present-180906-apps-wellness.png)、[Job](../../evidence/2026-09-28-full-audit/figma-v2-present-180914-apps-job.png)、[拖动后](../../evidence/2026-09-28-full-audit/figma-v2-present-180922-apps-job-category-bar-dragged.png)。返回详情/Campus/All与先前状态裁片相同，复用原图；动作时间和URL分别保留。
+
+### 中文缺字修复
+
+首次 [All](../../evidence/2026-09-28-full-audit/figma-v2-present-180104-apps-all-cjk-missing.png)、[Study](../../evidence/2026-09-28-full-audit/figma-v2-present-180600-apps-study-cjk-missing.png)、[Login](../../evidence/2026-09-28-full-audit/figma-v2-present-180217-apps-vrs-login-cjk-missing.png)实际存在缺字；这是Figma字体复现问题，不是PolyULife缺陷。编辑器将All标题Text `61:54`和Study标题Text `61:223`设为Noto Sans TC，登录按钮 `61:873`和网页标题 `61:857`设为Noto Sans SC。相同定向字体改动已同步到 [生成脚本](../../design/scripts/build_apps_svg.py)及SVG，台账hash记录更新后源码；没有重新创建frame或热点。
+
+修复后的 [All：18:11:11](../../evidence/2026-09-28-full-audit/figma-v2-present-181111-apps-all-cjk-fixed.png)、[Study：18:13:53](../../evidence/2026-09-28-full-audit/figma-v2-present-181353-apps-study-cjk-fixed.png)、[Login：18:14:46](../../evidence/2026-09-28-full-audit/figma-v2-present-181446-apps-vrs-login-cjk-fixed.png)均显示先前缺失中文。复验重走All→Campus→Study，再通过Figma Restart进入All→Campus→详情→Login→X返回详情，截止`2026-09-28T18:15:07.103Z`。一次Restart鼠标点击未跳转，随后Enter执行成功，只记测试重置。独立修复run通过只关闭这些缺字，字体指标/图标近似和其它视觉范围仍待查。
+
+12个热点覆盖10个运行帧；加载帧`61:805`导入但未连线、未运行。原生Open先加载再到登录，这里直接进入稳定空登录；未模拟加载时延、登录、网页控制或其它服务。CategoryBar的On drag跳转到一个固定状态，不支持任意滚动，也未限制为原生向右距离。各分类间只连已记录顺序；Apps→Home尚未接线，原生后续返回已有独立证据。
+
+VRS加载标识为公开加载截图的53×54局部，登录字标复用已有公开PolyU素材；其它卡片、分类、文字和按钮是可编辑重建，没有整页截图背景。字体修复不代表全部画面逐像素验收。此前VA和Food的图片消失问题仍保持未解决。
+
+## Study / Courses / QR / Home：13个待导入源码（本批截止快照）
+
+[生成脚本](../../design/scripts/build_study_svg.py)提供以下13个576×970可编辑SVG。源码检查与离线渲染已完成；截至本次Apps文档快照，还没有登记Figma节点、连接或运行验收。后续导入单独批次记录。本地源码累计62个，本批已映射Figma49帧。
+
+| State | SVG source |
+| --- | --- |
+| `S-STUDY-COMPLETED` | [study-completed-demo.svg](../../design/polyulife/study-completed-demo.svg) |
+| `S-STUDY-COMPLETED-EXPANDED` | [study-completed-demo-expanded.svg](../../design/polyulife/study-completed-demo-expanded.svg) |
+| `S-STUDY-REQUIREMENTS` | [study-requirements.svg](../../design/polyulife/study-requirements.svg) |
+| `S-STUDY-OFFERINGS` | [study-subjects-public.svg](../../design/polyulife/study-subjects-public.svg) |
+| `S-STUDY-BLANK` | [study-blank-unresolved.svg](../../design/polyulife/study-blank-unresolved.svg) |
+| `S-COURSES-CANVAS` | [courses-canvas-demo.svg](../../design/polyulife/courses-canvas-demo.svg) |
+| `S-COURSES-CANVAS-EXPANDED` | [courses-canvas-demo-expanded.svg](../../design/polyulife/courses-canvas-demo-expanded.svg) |
+| `S-COURSES-BLACKBOARD` | [courses-blackboard-demo.svg](../../design/polyulife/courses-blackboard-demo.svg) |
+| `S-COURSES-BB-LOGIN` | [courses-blackboard-login.svg](../../design/polyulife/courses-blackboard-login.svg) |
+| `S-QR-DISPLAY` | [qr-demo.svg](../../design/polyulife/qr-demo.svg) |
+| `S-HOME-SCHEDULE-MON` | [home-demo-top.svg](../../design/polyulife/home-demo-top.svg) |
+| `S-HOME-SCHEDULE-TUE` | [home-demo-tuesday.svg](../../design/polyulife/home-demo-tuesday.svg) |
+| `S-HOME` | [home-demo-scrolled.svg](../../design/polyulife/home-demo-scrolled.svg) |
+
+
+Completed、My Courses与Home的课程、学分、列表数量、时间地点和考试均为显式DEMO合成资料；个人原图只用于几何参考，没有私人像素嵌入。公共标题裁片不能证明课程正文内容。QR为画叉的`DEMO / No QR code / Cannot be scanned`占位，无编码payload或二维码定位结构；条形比例也是示例，不解释为有效期。公共Requirements/Subjects和空Blackboard登录分别保留已观察状态。
+
+Study空白只叫“未解决的空白结果”，不能重命名无结果/错误；Study空白Back及Blackboard登录Back的实际返回均为Home。Home顶部/滚动位置是静态样例，不证明任意滚动。尚未测的标签反向、其它入口和数据结果不能伪造为已验证交互。
+
+
 ## 文件组织
 
 当前免费计划最多三个工作页。现有 `00 · Archive — initial AI draft`（原 `Page 1`）保存旧草稿，`01 · Observed UI` 保存当前复现；后续优先在当前页面增加 **sections**，整个文件保持不超过三个工作页。下表为当前组织和预留位置：
@@ -258,6 +332,8 @@ Food配置了四个真正的 **Back** 动作：图片X `50:2234`、Search Back `
 | 第三个工作页（预留） | 确有需要时分出共享组件或分析，创建前先核对实际页数 |
 
 旧页的 `Flow 1` 已改名为 `Archive · Initial AI draft — not validated`；页面和流程改名已通过实际编辑器确认，原节点ID与历史三条导航记录保持不变。这里的“not validated”说明其视觉/整体状态，没有抹掉已有的局部点击证据。
+
+后续Present侧栏出现另一个`Flow 1`，实际点击定位到当前Available `12:105`，并非归档草稿。现已改名`Room · Available slots reference`，说明它是历史可用时段的直接参考入口，完整查询使用`Room Finder · A → AG206`，不提供实时预约数据。[18:17:36上下文截图](../../evidence/2026-09-28-full-audit/figma-v2-present-181736-room-reference-flow-renamed-account-redacted.png)确认新名称，账户头像已遮盖。此命名核验不新增原型导航通过记录。
 
 [17:24:56最终编辑器截图](../../evidence/2026-09-28-full-audit/figma-v2-editor-172456-observed-ui-pages-calendar-connections-account-redacted.png)确认Archive/Observed UI页名、可见图层及Calendar选中帧与连线；右上账户头像已显式遮盖。这是编辑器结构证据，不能替代全部节点清点或Present运行。
 
