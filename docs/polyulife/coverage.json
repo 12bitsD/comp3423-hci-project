@@ -326,6 +326,29 @@
         "E-HOME-SCHEDULE-RETURN",
         "E-HOME-STUDY-MAP-TRACE"
       ]
+    },
+    {
+      "id": "SESSION-20260928-HOME-ENTRY-RECHECK",
+      "started_at": "2026-09-28T18:35:22.014Z",
+      "documented_through": "2026-09-28T18:37:26.319Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App via Computer Use; current Wrapper identity reconnected and actual Home screenshot verified",
+        "app_version_last_known": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "os_version": null,
+        "login_state": "Existing signed-in session; private personal bodies withheld, no login or data changes"
+      },
+      "starting_state_id": "S-HOME-SCHEDULE-TUE",
+      "evidence_ids": [
+        "E-HOME-NOTIFICATION-ENTRY",
+        "E-HOME-SEARCH-ENTRY",
+        "E-HOME-SEARCH-RETURN",
+        "E-HOME-DRAWER-ENTRY",
+        "E-HOME-DRAWER-CLOSED",
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ]
     }
   ],
   "entry_points": [
@@ -358,7 +381,7 @@
       "current_evidence_ids": [
         "E-HOME"
       ],
-      "verification_boundary": "Destination reached through observed bottom navigation; original Home-origin action and complete destination coverage remain separate."
+      "verification_boundary": "Home bottom Calendar observed to Week5; corresponding prototype source target corrected and roundtrip tested. Complete Calendar interactions remain pending."
     },
     {
       "id": "EP003",
@@ -374,7 +397,7 @@
       "current_evidence_ids": [
         "E-HOME"
       ],
-      "verification_boundary": "Destination reached through observed bottom navigation; original Home-origin action and complete destination coverage remain separate."
+      "verification_boundary": "Home Notification empty entry and Home return observed; nonempty notifications and other controls/data states pending."
     },
     {
       "id": "EP004",
@@ -607,6 +630,34 @@
         "E-DRAWER"
       ],
       "verification_boundary": "Only recorded destination/return actions are confirmed; presence does not prove every control was exercised."
+    },
+    {
+      "id": "EP020",
+      "label": "Home Search",
+      "source_type": "current_native_home_header_action_and_destination",
+      "source_state_id": "S-HOME-SCHEDULE-TUE",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-SEARCH"
+      ],
+      "current_evidence_ids": [
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ],
+      "verification_boundary": "Actual Home source entry now tested; privacy-safe destination screenshots and return trace provided. Complete header/target functionality unverified."
+    },
+    {
+      "id": "EP021",
+      "label": "Home Menu",
+      "source_type": "current_native_home_header_action_and_destination",
+      "source_state_id": "S-HOME-SCHEDULE-TUE",
+      "status": "confirmed_visible",
+      "action_ids": [
+        "A-HOME-MENU"
+      ],
+      "current_evidence_ids": [
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ],
+      "verification_boundary": "Actual Home source entry now tested; privacy-safe destination screenshots and return trace provided. Complete header/target functionality unverified."
     }
   ],
   "states": [
@@ -1672,16 +1723,19 @@
       "visible_scope": "Only the recorded viewport/controls; private content excluded and complete module coverage not established",
       "preconditions": "Existing signed-in app; Calendar then Notification navigation",
       "screenshot_evidence_ids": [
-        "E-NOTIFICATION-EMPTY"
+        "E-NOTIFICATION-EMPTY",
+        "E-HOME-NOTIFICATION-ENTRY"
       ],
       "ax_evidence_ids": [
-        "E-NOTIFICATION-TRACE"
+        "E-NOTIFICATION-TRACE",
+        "E-HOME-ENTRY-RECHECK-TRACE"
       ],
       "action_ids": [
         "A-NOTIFICATION-SEARCH",
         "A-NOTIFICATION-MENU",
         "A-NOTIFICATION-EMPTY-CONTROL",
-        "A-NOTIFICATION-MORE"
+        "A-NOTIFICATION-MORE",
+        "A-NOTIFICATION-HOME"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -1743,13 +1797,16 @@
       "visible_scope": "Recorded current viewport/crop only; private values removed",
       "preconditions": "Existing signed-in session; More then drawer navigation",
       "screenshot_evidence_ids": [
-        "E-MORE-SEARCH-EMPTY"
+        "E-MORE-SEARCH-EMPTY",
+        "E-HOME-SEARCH-ENTRY"
       ],
       "ax_evidence_ids": [
-        "E-MORE-SEARCH-TRACE"
+        "E-MORE-SEARCH-TRACE",
+        "E-HOME-ENTRY-RECHECK-TRACE"
       ],
       "action_ids": [
-        "A-MORE-QUERY-WEATHER"
+        "A-MORE-QUERY-WEATHER",
+        "A-HOME-SEARCH-BACK"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -1807,10 +1864,12 @@
       "visible_scope": "Recorded current viewport/crop only; private values removed",
       "preconditions": "Existing signed-in session; More then drawer navigation",
       "screenshot_evidence_ids": [
-        "E-DRAWER"
+        "E-DRAWER",
+        "E-HOME-DRAWER-ENTRY"
       ],
       "ax_evidence_ids": [
-        "E-MENU-TRACE"
+        "E-MENU-TRACE",
+        "E-HOME-ENTRY-RECHECK-TRACE"
       ],
       "action_ids": [
         "A-DRAWER-SETTINGS",
@@ -3031,15 +3090,22 @@
       "preconditions": "Existing app session; follow actual Home/Study/Courses/Map/QR navigation in home-study-map-walkthrough.md",
       "screenshot_evidence_ids": [
         "E-HOME-SCHEDULE-TUE",
-        "E-HOME-SCHEDULE-RETURN"
+        "E-HOME-SCHEDULE-RETURN",
+        "E-HOME-SEARCH-RETURN",
+        "E-HOME-DRAWER-CLOSED"
       ],
       "ax_evidence_ids": [
-        "E-HOME-STUDY-MAP-TRACE"
+        "E-HOME-STUDY-MAP-TRACE",
+        "E-HOME-ENTRY-RECHECK-TRACE"
       ],
       "action_ids": [
         "A-HOME-MYCLASS",
         "A-HOME-OTHER-DATES",
-        "A-HOME-CLASS-EXAM-DETAIL"
+        "A-HOME-CLASS-EXAM-DETAIL",
+        "A-HOME-EP003",
+        "A-HOME-EP002",
+        "A-HOME-SEARCH",
+        "A-HOME-MENU"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -3630,29 +3696,55 @@
       "id": "A-HOME-EP002",
       "from_state_id": "S-HOME",
       "control": "Calendar",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "input_summary": "Home bottom Calendar",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T18:36:18.312Z",
+          "from_state_id": "S-HOME-SCHEDULE-TUE",
+          "observed_feedback": "Opens actual Week 5 timetable, not fixed Sep28 academic-empty month. Native source contradicts current Figma Home Calendar target; new18:36:21.486 header crop is pixel-identical to prior E-CALENDAR-WEEK-HEADER, which is reused with original capture time. Private timetable withheld.",
+          "target_state_id": "S-CALENDAR-WEEK",
+          "evidence_ids": [
+            "E-CALENDAR-WEEK-HEADER",
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-CALENDAR-WEEK",
+      "evidence_ids": [
+        "E-CALENDAR-WEEK-HEADER",
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ],
       "return_path": null,
       "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
-      "blockers": [],
-      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+      "blockers": []
     },
     {
       "id": "A-HOME-EP003",
       "from_state_id": "S-HOME",
       "control": "Notification",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "input_summary": "Home bottom Notification",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T18:35:48.541Z",
+          "from_state_id": "S-HOME-SCHEDULE-TUE",
+          "observed_feedback": "Native Home -> empty My Notification confirmed; no personal notification content.",
+          "target_state_id": "S-NOTIFICATION-EMPTY",
+          "evidence_ids": [
+            "E-HOME-NOTIFICATION-ENTRY",
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTIFICATION-EMPTY",
+      "evidence_ids": [
+        "E-HOME-NOTIFICATION-ENTRY",
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ],
       "return_path": null,
       "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
-      "blockers": [],
-      "pending_reason": "Visible navigation entry; destination and its complete interactions not yet documented in this Room snapshot."
+      "blockers": []
     },
     {
       "id": "A-HOME-EP004",
@@ -5999,7 +6091,7 @@
       "id": "A-DRAWER-CLOSE",
       "from_state_id": "S-DRAWER",
       "control": "Outside drawer overlay",
-      "input_summary": "Outside drawer overlay",
+      "input_summary": "Click right-side overlay [532,178]",
       "status": "observed",
       "executions": [
         {
@@ -6018,15 +6110,31 @@
           "evidence_ids": [
             "E-MENU-TRACE"
           ]
+        },
+        {
+          "at": "2026-09-28T18:37:23.535Z",
+          "from_state_id": "S-DRAWER",
+          "observed_feedback": "Drawer dismisses to Home. Prior More-origin dismissal is retained separately; source/return context matters.",
+          "target_state_id": "S-HOME-SCHEDULE-TUE",
+          "evidence_ids": [
+            "E-HOME-DRAWER-CLOSED",
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
         }
       ],
-      "target_state_id": "S-MORE",
+      "target_state_id": null,
       "evidence_ids": [
-        "E-MENU-TRACE"
+        "E-MENU-TRACE",
+        "E-HOME-DRAWER-CLOSED",
+        "E-HOME-ENTRY-RECHECK-TRACE"
       ],
       "return_path": null,
       "authorization": "Ordinary read-only/reversible navigation and search in authorised HCI scope",
-      "blockers": []
+      "blockers": [],
+      "target_state_ids": [
+        "S-MORE",
+        "S-HOME-SCHEDULE-TUE"
+      ]
     },
     {
       "id": "A-MORE-HOME",
@@ -8331,7 +8439,7 @@
       "id": "A-CALENDAR-WEEK-HOME",
       "from_state_id": "S-CALENDAR-WEEK",
       "control": "Bottom Home",
-      "input_summary": "Bottom Home",
+      "input_summary": "Bottom Home [57,1060]",
       "status": "observed",
       "executions": [
         {
@@ -8343,12 +8451,23 @@
             "E-HOME-SCHEDULE-RETURN",
             "E-HOME-STUDY-MAP-TRACE"
           ]
+        },
+        {
+          "at": "2026-09-28T18:36:38.895Z",
+          "from_state_id": "S-CALENDAR-WEEK",
+          "observed_feedback": "First action in shared call returns Home before subsequent Search click; no invented individual sub-action timestamp.",
+          "target_state_id": "S-HOME-SCHEDULE-TUE",
+          "evidence_ids": [
+            "E-HOME-SCHEDULE-RETURN",
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
         }
       ],
       "target_state_id": "S-HOME-SCHEDULE-TUE",
       "evidence_ids": [
         "E-HOME-SCHEDULE-RETURN",
-        "E-HOME-STUDY-MAP-TRACE"
+        "E-HOME-STUDY-MAP-TRACE",
+        "E-HOME-ENTRY-RECHECK-TRACE"
       ],
       "return_path": "See home-study-map-walkthrough.md for actual return path",
       "authorization": "Ordinary reversible observation/navigation in authorised HCI scope; no credentials, calls or business submission",
@@ -8591,6 +8710,114 @@
       "authorization": "Determine actual operation scope for credentials, device capabilities or business effects; ordinary navigation remains in scope",
       "blockers": [],
       "pending_reason": "Click and wheel attempts did not apply another week; verify targeting/commit mechanism and real iPhone behavior."
+    },
+    {
+      "id": "A-NOTIFICATION-HOME",
+      "from_state_id": "S-NOTIFICATION-EMPTY",
+      "control": "Bottom Home",
+      "input_summary": "Bottom Home",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T18:36:02.372Z",
+          "from_state_id": "S-NOTIFICATION-EMPTY",
+          "observed_feedback": "Returns to Home date/agenda structure; private contents excluded.",
+          "target_state_id": "S-HOME-SCHEDULE-TUE",
+          "evidence_ids": [
+            "E-HOME-SCHEDULE-RETURN",
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-HOME-SCHEDULE-TUE",
+      "evidence_ids": [
+        "E-HOME-SCHEDULE-RETURN",
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ],
+      "return_path": "Home entry/return recheck in home-study-map-walkthrough.md",
+      "authorization": "Ordinary reversible navigation only; no credentials, personal data mutation or business submission",
+      "blockers": []
+    },
+    {
+      "id": "A-HOME-SEARCH",
+      "from_state_id": "S-HOME-SCHEDULE-TUE",
+      "control": "Home top Search [529,178]",
+      "input_summary": "Home top Search [529,178]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T18:36:38.895Z",
+          "from_state_id": "S-HOME-SCHEDULE-TUE",
+          "observed_feedback": "Second action in shared call opens empty Search; no query entered.",
+          "target_state_id": "S-MORE-SEARCH-EMPTY",
+          "evidence_ids": [
+            "E-HOME-SEARCH-ENTRY",
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-MORE-SEARCH-EMPTY",
+      "evidence_ids": [
+        "E-HOME-SEARCH-ENTRY",
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ],
+      "return_path": "Home entry/return recheck in home-study-map-walkthrough.md",
+      "authorization": "Ordinary reversible navigation only; no credentials, personal data mutation or business submission",
+      "blockers": []
+    },
+    {
+      "id": "A-HOME-SEARCH-BACK",
+      "from_state_id": "S-MORE-SEARCH-EMPTY",
+      "control": "Search Back [32,178]",
+      "input_summary": "Search Back [32,178]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T18:36:55.409Z",
+          "from_state_id": "S-MORE-SEARCH-EMPTY",
+          "observed_feedback": "Returns to Home. Search state reused from prior More path, return is entry-dependent.",
+          "target_state_id": "S-HOME-SCHEDULE-TUE",
+          "evidence_ids": [
+            "E-HOME-SEARCH-RETURN",
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-HOME-SCHEDULE-TUE",
+      "evidence_ids": [
+        "E-HOME-SEARCH-RETURN",
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ],
+      "return_path": "Home entry/return recheck in home-study-map-walkthrough.md",
+      "authorization": "Ordinary reversible navigation only; no credentials, personal data mutation or business submission",
+      "blockers": []
+    },
+    {
+      "id": "A-HOME-MENU",
+      "from_state_id": "S-HOME-SCHEDULE-TUE",
+      "control": "Home menu [42,178]",
+      "input_summary": "Home menu [42,178]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T18:37:09.741Z",
+          "from_state_id": "S-HOME-SCHEDULE-TUE",
+          "observed_feedback": "Opens same drawer controls; personal account header omitted from public crop.",
+          "target_state_id": "S-DRAWER",
+          "evidence_ids": [
+            "E-HOME-DRAWER-ENTRY",
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-DRAWER",
+      "evidence_ids": [
+        "E-HOME-DRAWER-ENTRY",
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ],
+      "return_path": "Home entry/return recheck in home-study-map-walkthrough.md",
+      "authorization": "Ordinary reversible navigation only; no credentials, personal data mutation or business submission",
+      "blockers": []
     }
   ],
   "evidence": [
@@ -12922,6 +13149,558 @@
       ],
       "redaction": "Public service/node/connection facts and empty form only; no raw account context.",
       "source": "Current-session actual Figma import, editor configuration, Present URL/AX and privacy-reviewed screenshots. Interrupted CloseWeb immediate result distinguished from later confirmation."
+    },
+    {
+      "id": "E-FIGMA-HOME-DEMO",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182725-home-demo-with-decoration.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:27:25.912Z",
+      "sha256": "d2eba3ac8f4ef74759d38959672aa068eba74d3260d2ca61692c9b31b66bb3ae",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-STUDY-COMPLETED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182746-study-completed-demo.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:27:46.898Z",
+      "sha256": "b0a6828572c08461927b4cd3407bf06881c4126c5335d34a3f3fb47fff0f8d91",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-STUDY-COMPLETED"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-STUDY-EXPANDED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182755-study-completed-expanded-demo.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:27:55.906Z",
+      "sha256": "7a443147a34347dc3e4da7225aca651324e272904bb725925d2aeaeab70c7fc2",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-STUDY-COMPLETED-EXPANDED"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-STUDY-REQUIREMENTS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182814-study-requirements.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:28:14.165Z",
+      "sha256": "c8f6a8df9bcd084fad371d4f6be3049a9750c761244ff766c5faa6177b6cf59c",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-STUDY-REQUIREMENTS"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-STUDY-OFFERINGS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182821-study-offerings.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:28:21.507Z",
+      "sha256": "36cc855080ee2a4560be51b2e749c36caa527c1e9db6322335527b4d450c77fc",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-STUDY-OFFERINGS"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-COURSES-CANVAS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182831-courses-canvas-demo.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:28:31.100Z",
+      "sha256": "56bd3797257259ccd75f7f87307daef043fd488483ad124d304fc3a14404522f",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-COURSES-CANVAS"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-COURSES-EXPANDED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182842-courses-canvas-expanded-demo.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:28:42.499Z",
+      "sha256": "45e7460dddd1c75a44d6e537101bc25ba11a11e35ebe0f58112f9ded6743b020",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-COURSES-CANVAS-EXPANDED"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-COURSES-BLACKBOARD",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182901-courses-blackboard-demo.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:29:01.407Z",
+      "sha256": "7e317dda6ee6098c52ba7dab816fd4fb28a516215f617367c6f06ef93fe99667",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-COURSES-BLACKBOARD"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-COURSES-LOGIN-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182909-courses-login-cjk-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:29:09.824Z",
+      "sha256": "4aacec0f6a1ef6eb3a4e62ccd04c7ae872a07cd65c9deba7c5588455c02be15b",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-COURSES-BB-LOGIN"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-HOME-IMAGE-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182923-home-return-decoration-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:29:23.263Z",
+      "sha256": "7f915d95cf50544caa23a75cb1e2a7822614f83ee9821190847597f95b6ec31f",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-QR-DEMO",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-182935-campus-qr-demo-placeholder.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:29:35.078Z",
+      "sha256": "626b8b1740a270429d35496c1c3b3fa916ee5f40a2b80f08bfaa2a5f71a9f9e7",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-QR-DISPLAY"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-STUDY-BLANK",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183105-study-blank.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:31:05.587Z",
+      "sha256": "a423b4921dfb2736ac382a3f74a492b39bd6add259570e485ce898347e2f536e",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-STUDY-BLANK"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-COURSES-LOGIN-FIXED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183359-courses-login-cjk-fixed.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:33:59.719Z",
+      "sha256": "a5fafba32201a16c786ae157a24d002723c1471ff92f99cb6251b2108fb67717",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-COURSES-BB-LOGIN"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-HOME-TO-FOOD",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183012-output04-home-to-food.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:30:12.055Z",
+      "sha256": "5cc20bd8dc91fdf01395e1b7e964c70ceeb26d0f2acbaef22017a7f7b7dcc508",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-HOME-TO-ROOM",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183012-output05-home-to-room.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:30:12.055Z",
+      "sha256": "d5f646f587bd06b77f9041c687e4aeecc2db07cd4f606f63b842d2d45fe5018a",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-HOME-TO-MORE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183023-output03-home-to-more.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:30:23.919Z",
+      "sha256": "90e615c950b1fd9a0a57dac129496e8f54416c7703b1c8d11276ca3da25baa79",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-MORE"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-HOME-TO-NOTIFICATION",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183023-output04-home-to-notification.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:30:23.919Z",
+      "sha256": "ed2ad1a79075950f301c30b4c1c79c649c966037b8fbb70ceda0d7389bef3b8f",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-HOME-TO-CALENDAR",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183023-output05-home-to-calendar.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:30:23.919Z",
+      "sha256": "49c50757512f2232961bc853b88d69dce7bee5afcf4b9c95297922ee28fcba3a",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-HOME-TO-SEARCH",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183036-output03-home-to-search.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:30:36.012Z",
+      "sha256": "cd18a3db2a1e4f6d6001ea2861b76da518527a76b5aba94bdebe82bb05ea6772",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-MORE-SEARCH-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-HOME-TO-DRAWER",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-183036-output04-home-to-drawer.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:30:36.012Z",
+      "sha256": "fd564582fb64c0e4429697f2c46336db761b566b26ed9aad6a5b7969e674c52f",
+      "dimensions": [
+        457,
+        601
+      ],
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "redaction": "Actual prototype-frame crop; all coursework, schedules and identity visibly DEMO synthetic; QR is non-scannable placeholder. Public service/empty form content only.",
+      "source": "Actual Figma Present Computer Use screenshot; reconstructed DEMO content is not native App evidence."
+    },
+    {
+      "id": "E-FIGMA-STUDY-TRACE",
+      "type": "observation_record",
+      "path": "figma-spec.md",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:33:59.719Z",
+      "state_ids": [
+        "S-STUDY-COMPLETED",
+        "S-STUDY-COMPLETED-EXPANDED",
+        "S-STUDY-REQUIREMENTS",
+        "S-STUDY-OFFERINGS",
+        "S-STUDY-BLANK",
+        "S-COURSES-CANVAS",
+        "S-COURSES-CANVAS-EXPANDED",
+        "S-COURSES-BLACKBOARD",
+        "S-COURSES-BB-LOGIN",
+        "S-QR-DISPLAY",
+        "S-HOME-SCHEDULE-MON",
+        "S-HOME-SCHEDULE-TUE",
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "redaction": "Public node/control facts and DEMO model descriptions; no real coursework or QR payload.",
+      "source": "Actual current-session Figma import/configuration/Present observations, with native source differences preserved."
+    },
+    {
+      "id": "E-HOME-NOTIFICATION-ENTRY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/notification-183550-home-entry-empty.png",
+      "session_id": "SESSION-20260928-HOME-ENTRY-RECHECK",
+      "captured_at": "2026-09-28T18:35:50.828Z",
+      "sha256": "aec7e39165dc1aca9c7b6695d0b30caadb000224fc439936a25f24114c58b627",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": "Generic public controls/header crop only; private Home, timetable, identity and counts excluded.",
+      "source": "Actual native PolyULife Computer Use screenshot; private body pixels excluded as stated."
+    },
+    {
+      "id": "E-HOME-SEARCH-ENTRY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/home-search-183641-empty.png",
+      "session_id": "SESSION-20260928-HOME-ENTRY-RECHECK",
+      "captured_at": "2026-09-28T18:36:41.479Z",
+      "sha256": "5ef48fb04ecee9c824d5868bbf100242394c4c09b48d450423863956e92636d4",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MORE-SEARCH-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": "Generic public controls/header crop only; private Home, timetable, identity and counts excluded.",
+      "source": "Actual native PolyULife Computer Use screenshot; private body pixels excluded as stated."
+    },
+    {
+      "id": "E-HOME-SEARCH-RETURN",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/home-183657-search-return-event-panel-only.png",
+      "session_id": "SESSION-20260928-HOME-ENTRY-RECHECK",
+      "captured_at": "2026-09-28T18:36:57.924Z",
+      "sha256": "2877486297bce4ec1d91e001fa07a7a43c2d7546e5a8da608fee01e30a1e349c",
+      "dimensions": [
+        576,
+        234
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": "Generic public controls/header crop only; private Home, timetable, identity and counts excluded.",
+      "source": "Actual native PolyULife Computer Use screenshot; private body pixels excluded as stated."
+    },
+    {
+      "id": "E-HOME-DRAWER-ENTRY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/drawer-183710-home-entry-menu-items-only.png",
+      "session_id": "SESSION-20260928-HOME-ENTRY-RECHECK",
+      "captured_at": "2026-09-28T18:37:10.690Z",
+      "sha256": "d6777fcd404e038e9c80579d7049009705574a8c56cc1493712e0c8ad813e6d9",
+      "dimensions": [
+        489,
+        642
+      ],
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "redaction": "Generic public controls/header crop only; private Home, timetable, identity and counts excluded.",
+      "source": "Actual native PolyULife Computer Use screenshot; private body pixels excluded as stated."
+    },
+    {
+      "id": "E-HOME-DRAWER-CLOSED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/home-183726-drawer-closed-event-panel-only.png",
+      "session_id": "SESSION-20260928-HOME-ENTRY-RECHECK",
+      "captured_at": "2026-09-28T18:37:26.319Z",
+      "sha256": "856c3538fac5c940a7be7476356268d5e5bf5aa61a379d58600fb1f509a50be7",
+      "dimensions": [
+        576,
+        234
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": "Generic public controls/header crop only; private Home, timetable, identity and counts excluded.",
+      "source": "Actual native PolyULife Computer Use screenshot; private body pixels excluded as stated."
+    },
+    {
+      "id": "E-HOME-ENTRY-RECHECK-TRACE",
+      "type": "observation_record",
+      "path": "home-study-map-walkthrough.md",
+      "session_id": "SESSION-20260928-HOME-ENTRY-RECHECK",
+      "captured_at": "2026-09-28T18:37:26.319Z",
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE",
+        "S-NOTIFICATION-EMPTY",
+        "S-CALENDAR-WEEK",
+        "S-MORE-SEARCH-EMPTY",
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-HOME-EP003",
+        "A-NOTIFICATION-HOME",
+        "A-HOME-EP002",
+        "A-CALENDAR-WEEK-HOME",
+        "A-HOME-SEARCH",
+        "A-HOME-SEARCH-BACK",
+        "A-HOME-MENU",
+        "A-DRAWER-CLOSE"
+      ],
+      "redaction": "Only generic route and control summaries; no real course schedules, counts, account names or identifiers.",
+      "source": "Current native Computer Use action/result pairs after reconnecting actual runtime Wrapper path; valid Home screenshot obtained before navigation."
+    },
+    {
+      "id": "E-FIGMA-CALENDAR-WEEK-FIX",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-184410-home-calendar-week-five-demo.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:44:10.478Z",
+      "sha256": "24bc88b8c68405c24966b677797e8b6b61d04f5723e57610259cdba2e1339eac",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [
+        "S-CALENDAR-WEEK"
+      ],
+      "action_ids": [],
+      "redaction": "Prototype contains only explicit DEMO synthetic timetable blocks, codes, rooms, times and layout; no private coursework or identity.",
+      "source": "Actual Figma Present Computer Use screenshot of reconstructed source-derived header/grid with synthetic body."
+    },
+    {
+      "id": "E-FIGMA-HOME-FLOW-CONTEXT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-present-184410-home-calendar-fixed-context-account-redacted.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:44:10.478Z",
+      "sha256": "257f0e78346128e09e69ca9c549b33d45f3b1f13ddeb17ab8210de7ff695c021",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Full Present/browser context; account avatar explicitly black-masked. All timetable body values are synthetic DEMO. Shows updated flow description.",
+      "source": "Actual Figma Present Computer Use screenshot of reconstructed source-derived header/grid with synthetic body."
+    },
+    {
+      "id": "E-FIGMA-CALENDAR-WEEK-FIX-TRACE",
+      "type": "observation_record",
+      "path": "figma-spec.md",
+      "session_id": null,
+      "captured_at": "2026-09-28T18:44:36.057Z",
+      "state_ids": [
+        "S-HOME",
+        "S-CALENDAR-WEEK"
+      ],
+      "action_ids": [
+        "A-HOME-EP002",
+        "A-CALENDAR-WEEK-HOME"
+      ],
+      "redaction": "Public route/node facts and explicitly synthetic timetable; private native content excluded.",
+      "source": "Actual import/configuration/Present after independent native Home Calendar recheck. Home return crop may reuse initial public frame where pixel-identical."
     }
   ],
   "findings": [
@@ -13622,7 +14401,7 @@
         "native_editability": "Imported SVG frames and names/positions confirmed in real Figma; detailed child-level editing not individually checked.",
         "visual_review": {
           "status": "not_run",
-          "summary": "Imported/mapped only; visual and interaction acceptance remain pending.",
+          "summary": "Entered through Home in Present; public crop/static sample inspected, internal controls and full-fidelity acceptance remain unverified.",
           "evidence_ids": [
             "E-MORE-SEARCH-EMPTY",
             "E-NOTIFICATION-SEARCH-EMPTY",
@@ -13632,12 +14411,18 @@
             "D-BATCH18-UNTESTED"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
+        "prototype_evidence_ids": [
+          "E-FIGMA-HOME-TO-SEARCH",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "entry_sample_observed_internal_controls_not_run",
         "also_represents_state_ids": [
           "S-NOTIFICATION-SEARCH-EMPTY"
         ],
-        "context_boundary": "Shared appearance only; More and Notification return contexts still require distinct wiring/validation."
+        "context_boundary": "Shared appearance only; More and Notification return contexts still require distinct wiring/validation.",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
       },
       {
         "state_id": "S-NOTIFICATION-EMPTY",
@@ -13668,7 +14453,7 @@
         "native_editability": "Imported SVG frames and names/positions confirmed in real Figma; detailed child-level editing not individually checked.",
         "visual_review": {
           "status": "not_run",
-          "summary": "Imported/mapped only; visual and interaction acceptance remain pending.",
+          "summary": "Entered through Home in Present; public crop/static sample inspected, internal controls and full-fidelity acceptance remain unverified.",
           "evidence_ids": [
             "E-NOTIFICATION-EMPTY",
             "E-FIGMA-BATCH18-TRACE"
@@ -13677,8 +14462,14 @@
             "D-BATCH18-UNTESTED"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run"
+        "prototype_evidence_ids": [
+          "E-FIGMA-HOME-TO-NOTIFICATION",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "entry_sample_observed_internal_controls_not_run",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
       },
       {
         "state_id": "S-CALENDAR-HISTORY",
@@ -14419,7 +15210,7 @@
         "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
         "visual_review": {
           "status": "not_run",
-          "summary": "Import and position confirmed; visual/prototype acceptance not inferred.",
+          "summary": "Entered through Home in Present; public crop/static sample inspected, internal controls and full-fidelity acceptance remain unverified.",
           "evidence_ids": [
             "E-DRAWER",
             "E-FIGMA-BATCH11-TRACE"
@@ -14429,9 +15220,15 @@
             "D-BATCH11-PRIVACY-CROP-BOUNDARIES"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
-        "connection_status": "not_wired_at_import_cutoff"
+        "prototype_evidence_ids": [
+          "E-FIGMA-HOME-TO-DRAWER",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "entry_sample_observed_internal_controls_not_run",
+        "connection_status": "not_wired_at_import_cutoff",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
       },
       {
         "state_id": "S-SETTINGS",
@@ -15656,6 +16453,760 @@
             "source_sync": "Matching targeted font change regenerated in build_apps_svg.py/source SVG; mapping hash records this updated source."
           }
         ]
+      },
+      {
+        "state_id": "S-STUDY-COMPLETED",
+        "node_id": "67:2",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-2",
+        "node_name": "[S-STUDY-COMPLETED] Completed — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-STUDY-COMPLETED",
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/study-completed-demo.svg",
+        "design_source_sha256": "e21eabc673ac2298897a394418848478b5d5cfa41380ea62f763f5dd35d3bd4f",
+        "canvas_position": [
+          0,
+          16800
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-STUDY-COMPLETED",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-STUDY-COMPLETED",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-STUDY-COMPLETED-EXPANDED",
+        "node_id": "67:71",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-71",
+        "node_name": "[S-STUDY-COMPLETED-EXPANDED] Completed expanded — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/study-completed-demo-expanded.svg",
+        "design_source_sha256": "8be185a09a97648df2d628eaefd37d0b9d8dc9a318d2d8003c8dc990aa1c6cae",
+        "canvas_position": [
+          700,
+          16800
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-STUDY-EXPANDED",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-STUDY-EXPANDED",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-STUDY-REQUIREMENTS",
+        "node_id": "67:141",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-141",
+        "node_name": "[S-STUDY-REQUIREMENTS] Requirements",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-STUDY-REQUIREMENTS"
+        ],
+        "design_source_path": "../../design/polyulife/study-requirements.svg",
+        "design_source_sha256": "da04e4777fb39e35e0d299bf7b2ba203a6c78f64d6afe55cfe8abf348261a5ca",
+        "canvas_position": [
+          1400,
+          16800
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-STUDY-REQUIREMENTS",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-STUDY-REQUIREMENTS",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-STUDY-OFFERINGS",
+        "node_id": "67:188",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-188",
+        "node_name": "[S-STUDY-OFFERINGS] Public Subjects on Offer",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-STUDY-OFFERINGS"
+        ],
+        "design_source_path": "../../design/polyulife/study-subjects-public.svg",
+        "design_source_sha256": "f5150bbaf72df0e11bff9d04c5ba823d01c4914740df45b29d6e9dfbaa14d92c",
+        "canvas_position": [
+          2100,
+          16800
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-STUDY-OFFERINGS",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-STUDY-OFFERINGS",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-STUDY-BLANK",
+        "node_id": "67:259",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-259",
+        "node_name": "[S-STUDY-BLANK] Blank content — outcome unresolved",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-STUDY-BLANK"
+        ],
+        "design_source_path": "../../design/polyulife/study-blank-unresolved.svg",
+        "design_source_sha256": "1aa5cb55709fed31d24a5a4939e1431ac9a73310aa826e8a20337e96cb2b43cf",
+        "canvas_position": [
+          0,
+          18000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-STUDY-BLANK",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-STUDY-BLANK",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-COURSES-CANVAS",
+        "node_id": "67:271",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-271",
+        "node_name": "[S-COURSES-CANVAS] Canvas — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-COURSES-CANVAS",
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/courses-canvas-demo.svg",
+        "design_source_sha256": "f6f7ceba4029f0a8b608d911e6645cc7bf5c8199ba05f2918688ea7251bb53e3",
+        "canvas_position": [
+          700,
+          18000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-COURSES-CANVAS",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-COURSES-CANVAS",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-STUDY-CJK-RECHECK"
+        ]
+      },
+      {
+        "state_id": "S-COURSES-CANVAS-EXPANDED",
+        "node_id": "67:360",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-360",
+        "node_name": "[S-COURSES-CANVAS-EXPANDED] Canvas expanded — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/courses-canvas-demo-expanded.svg",
+        "design_source_sha256": "ecb6bcb6686fc5a15831bfa7f3c070b9c74df06c70442fd0ad94475b42050c98",
+        "canvas_position": [
+          1400,
+          18000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-COURSES-EXPANDED",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-COURSES-EXPANDED",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-COURSES-BLACKBOARD",
+        "node_id": "67:450",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-450",
+        "node_name": "[S-COURSES-BLACKBOARD] Blackboard — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-COURSES-BLACKBOARD",
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/courses-blackboard-demo.svg",
+        "design_source_sha256": "c85815faa5c2d28ffd98938c8ed633e1d7cac192f679f80254b6175a08941977",
+        "canvas_position": [
+          2100,
+          18000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-COURSES-BLACKBOARD",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-COURSES-BLACKBOARD",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-STUDY-CJK-RECHECK"
+        ]
+      },
+      {
+        "state_id": "S-COURSES-BB-LOGIN",
+        "node_id": "67:485",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-485",
+        "node_name": "[S-COURSES-BB-LOGIN] Blackboard login — empty fields",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-COURSES-BB-LOGIN"
+        ],
+        "design_source_path": "../../design/polyulife/courses-blackboard-login.svg",
+        "design_source_sha256": "bd4d2f2afa80167e699cdf50330a7837c6c61fe8ac916af22ddc39173d7c5c48",
+        "canvas_position": [
+          0,
+          19200
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-COURSES-LOGIN-MISSING",
+            "E-FIGMA-COURSES-LOGIN-FIXED",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT",
+            "D-COURSES-LOGIN-CJK"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-COURSES-LOGIN-MISSING",
+          "E-FIGMA-COURSES-LOGIN-FIXED",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-STUDY-CJK-RECHECK"
+        ],
+        "post_import_edits": [
+          {
+            "node_id": "67:500",
+            "property": "font_family",
+            "value": "Noto Sans SC",
+            "at": "2026-09-28T18:31:15.610Z",
+            "verified_at": "2026-09-28T18:33:59.719Z",
+            "source_sync": "Matching targeted generator/SVG font change regenerated; current source hash recorded."
+          }
+        ]
+      },
+      {
+        "state_id": "S-QR-DISPLAY",
+        "node_id": "67:513",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-513",
+        "node_name": "[S-QR-DISPLAY] Campus QR — non-scannable DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-QR-DISPLAY",
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/qr-demo.svg",
+        "design_source_sha256": "ab464d3f70e4b216d43923db60e422359a8cfaa0767249d61dd60f2483ae8601",
+        "canvas_position": [
+          700,
+          19200
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-QR-DEMO",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-QR-DEMO",
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-HOME-SCHEDULE-MON",
+        "node_id": "67:569",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569",
+        "node_name": "[S-HOME-SCHEDULE-MON] Home Monday — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-HOME-SCHEDULE-MON",
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/home-demo-top.svg",
+        "design_source_sha256": "ba22f2f5a54b3ad99d44533ef8dc7b730a0299f45bbd08729e3305a0db133dcd",
+        "canvas_position": [
+          1400,
+          19200
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": null
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [],
+        "prototype_status": "not_run",
+        "connection_status": "not_wired",
+        "prototype_run_ids": []
+      },
+      {
+        "state_id": "S-HOME-SCHEDULE-TUE",
+        "node_id": "67:694",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-694",
+        "node_name": "[S-HOME-SCHEDULE-TUE] Home Tuesday — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-HOME-SCHEDULE-TUE",
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/home-demo-tuesday.svg",
+        "design_source_sha256": "82bc3e2bd6d26805cb6cfbd11bd8f17a93dea0bc07ccf2a3297d9c156dcb98b8",
+        "canvas_position": [
+          2100,
+          19200
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": null
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        "prototype_evidence_ids": [],
+        "prototype_status": "not_run",
+        "connection_status": "not_wired",
+        "prototype_run_ids": []
+      },
+      {
+        "state_id": "S-HOME",
+        "node_id": "67:820",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820",
+        "node_name": "[S-HOME] Home features — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-HOME",
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/home-demo-scrolled.svg",
+        "design_source_sha256": "a530807f33d0d7056cd5329fc9909d2627ae40aeecb9250cedfbba45dfbe4676",
+        "canvas_position": [
+          0,
+          20400
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native Frame/Group/Text layers, names/positions and used control layers inspected; no full screenshot background.",
+        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Navigation sample passed; Home decorative image disappears on returns and remains unresolved. Blackboard login missing glyph repaired with Noto Sans SC and live recheck. DEMO data/source fidelity and approximate fonts/icons remain explicit.",
+          "evidence_ids": [
+            "E-FIGMA-HOME-DEMO",
+            "E-FIGMA-HOME-IMAGE-MISSING",
+            "E-FIGMA-STUDY-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT",
+            "D-HOME-PREVIEW-IMAGE",
+            "D-HOME-CALENDAR-TARGET"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-HOME-DEMO",
+          "E-FIGMA-HOME-IMAGE-MISSING",
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+        ],
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-STUDY-CJK-RECHECK",
+          "PROTO-HOME-CALENDAR-WEEK-FIX"
+        ]
+      },
+      {
+        "state_id": "S-CALENDAR-WEEK",
+        "node_id": "70:973",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-973",
+        "node_name": "[S-CALENDAR-WEEK] Week 5 — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "source_evidence_ids": [
+          "E-CALENDAR-WEEK-HEADER",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-week-demo.svg",
+        "design_source_sha256": "34083521102bda81fb40ea7828088a4ae2a11ab248baf3328891a581c667e187",
+        "canvas_position": [
+          700,
+          20400
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported text/vector week header, grid, two synthetic class blocks and named native navigation groups; no raster or private course pixels.",
+        "content_policy": "Header/week/day geometry source-derived; all class counts, codes, labels, placement, durations and rooms wholly synthetic and visibly DEMO. No private course fidelity claimed.",
+        "visual_review": {
+          "status": "not_run",
+          "summary": "Targeted entry/return and DEMO visibility checked; full exact native geometry/body fidelity and week/day interactions not accepted.",
+          "evidence_ids": [
+            "E-FIGMA-CALENDAR-WEEK-FIX",
+            "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+          ],
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-CALENDAR-TARGET"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-CALENDAR-WEEK-FIX",
+          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+        ],
+        "prototype_status": "targeted_entry_return_passed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-HOME-CALENDAR-WEEK-FIX"
+        ]
       }
     ],
     "action_connection_mappings": [
@@ -16662,6 +18213,537 @@
           "D-APPS-STATIC-SAMPLE",
           "D-APPS-CJK-TEXT"
         ]
+      },
+      {
+        "connection_id": "C-HOME-STUDY",
+        "action_id": "A-HOME-EP009",
+        "source_node_id": "67:820",
+        "target_node_id": "67:2",
+        "trigger_node_id": "67:898",
+        "trigger_node_name": "FeatureStudyProgress",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:20:53.103Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-COURSES",
+        "action_id": "A-HOME-EP010",
+        "source_node_id": "67:820",
+        "target_node_id": "67:271",
+        "trigger_node_id": "67:904",
+        "trigger_node_name": "FeatureMyCourses",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:20:53.103Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-STUDY-CJK-RECHECK"
+        ],
+        "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-APPS",
+        "action_id": "A-HOME-EP008",
+        "source_node_id": "67:820",
+        "target_node_id": "61:2",
+        "trigger_node_id": "67:890",
+        "trigger_node_name": "FeatureApps",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:21:07.237Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-FOOD",
+        "action_id": "A-HOME-EP006",
+        "source_node_id": "67:820",
+        "target_node_id": "50:1911",
+        "trigger_node_id": "67:885",
+        "trigger_node_name": "FeatureFood",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:21:07.237Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-ROOM",
+        "action_id": "A-HOME-ROOM",
+        "source_node_id": "67:820",
+        "target_node_id": "12:198",
+        "trigger_node_id": "67:878",
+        "trigger_node_name": "FeatureRoom",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:21:07.237Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Native Home->Room initially showed different Room state; prototype enters later observed cleared empty query12:198.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-STUDY-EXPAND",
+        "action_id": "A-STUDY-TITLE-EXPAND",
+        "source_node_id": "67:2",
+        "target_node_id": "67:71",
+        "trigger_node_id": "67:29",
+        "trigger_node_name": "CompletedSubject2NameToggle",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:21:48.861Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-STUDY-REQUIREMENTS",
+        "action_id": "A-STUDY-REQUIREMENTS",
+        "source_node_id": "67:2",
+        "target_node_id": "67:141",
+        "trigger_node_id": "67:11",
+        "trigger_node_name": "TabRequirements",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:21:59.753Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-STUDY-COLLAPSE",
+        "action_id": "A-STUDY-TITLE-COLLAPSE",
+        "source_node_id": "67:71",
+        "target_node_id": "67:2",
+        "trigger_node_id": "67:99",
+        "trigger_node_name": "CompletedSubject2NameToggle",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:22:34.010Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-STUDY-OFFERINGS",
+        "action_id": "A-STUDY-OFFERINGS",
+        "source_node_id": "67:141",
+        "target_node_id": "67:188",
+        "trigger_node_id": "67:157",
+        "trigger_node_name": "RequirementCARA",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:22:48.363Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-COURSES-EXPAND",
+        "action_id": "A-COURSES-TITLE-EXPAND",
+        "source_node_id": "67:271",
+        "target_node_id": "67:360",
+        "trigger_node_id": "67:292",
+        "trigger_node_name": "CanvasCourse1NameToggle",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:23:12.067Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-COURSES-BLACKBOARD",
+        "action_id": "A-COURSES-BLACKBOARD",
+        "source_node_id": "67:271",
+        "target_node_id": "67:450",
+        "trigger_node_id": "67:280",
+        "trigger_node_name": "TabBlackboard",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:23:23.857Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-STUDY-CJK-RECHECK"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-COURSES-COLLAPSE",
+        "action_id": "A-COURSES-TITLE-COLLAPSE",
+        "source_node_id": "67:360",
+        "target_node_id": "67:271",
+        "trigger_node_id": "67:382",
+        "trigger_node_name": "CanvasCourse1NameToggle",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:23:38.970Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-COURSES-LOGIN",
+        "action_id": "A-COURSES-BB-OPEN",
+        "source_node_id": "67:450",
+        "target_node_id": "67:485",
+        "trigger_node_id": "67:465",
+        "trigger_node_name": "BlackboardCourse1Open",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:23:52.024Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-STUDY-CJK-RECHECK"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-COURSES-LOGIN-BACK",
+        "action_id": "A-COURSES-LOGIN-BACK",
+        "source_node_id": "67:485",
+        "target_node_id": "67:820",
+        "trigger_node_id": "67:507",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:24:03.160Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native return to Home, represented by fixed Home features scroll-position sample.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-STUDY-BLANK-BACK",
+        "action_id": "A-STUDY-BLANK-BACK",
+        "source_node_id": "67:259",
+        "target_node_id": "67:820",
+        "trigger_node_id": "67:264",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:24:15.652Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed blank Back->Home; independent frame entry only, no search input simulation.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-QR-HOME",
+        "action_id": "A-QR-HOME",
+        "source_node_id": "67:513",
+        "target_node_id": "67:820",
+        "trigger_node_id": "67:551",
+        "trigger_node_name": "NavHome",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:24:28.036Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-QR",
+        "action_id": "A-HOME-EP011",
+        "source_node_id": "67:820",
+        "target_node_id": "67:513",
+        "trigger_node_id": "67:938",
+        "trigger_node_name": "NavQR",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:25:43.945Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Skips native loading and uses explicitly non-scannable QR placeholder.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-MORE",
+        "action_id": "A-HOME-EP004",
+        "source_node_id": "67:820",
+        "target_node_id": "12:435",
+        "trigger_node_id": "67:946",
+        "trigger_node_name": "NavMore",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:25:43.945Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-NOTIFICATION",
+        "action_id": "A-HOME-EP003",
+        "source_node_id": "67:820",
+        "target_node_id": "42:1617",
+        "trigger_node_id": "67:944",
+        "trigger_node_name": "NavNotification",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:25:43.945Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Later native Home->empty Notification independently confirmed; return Home also observed. Other notification content/controls unverified.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-CALENDAR",
+        "action_id": "A-HOME-EP002",
+        "source_node_id": "67:820",
+        "target_node_id": "70:973",
+        "trigger_node_id": "67:935",
+        "trigger_node_name": "NavCalendar",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:42:46.997Z",
+        "implementation_status": "targeted_source_correction_passed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-HOME-CALENDAR-WEEK-FIX"
+        ],
+        "source_fidelity": "Native Home Calendar recheck opens Week5; current prototype target corrected to70:973 with explicit synthetic private body. Complete week interactions remain unimplemented.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT",
+          "D-HOME-CALENDAR-TARGET"
+        ],
+        "source_validation_status": "passed_for_observed_week_five_entry",
+        "source_evidence_ids": [
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "historical_targets": [
+          {
+            "target_node_id": "42:165",
+            "configured_at": "2026-09-28T18:25:43.945Z",
+            "navigation_test_run_id": "PROTO-HOME-STUDY-V2-001",
+            "source_validation": "Later native recheck established Week5 mismatch; retained only as history."
+          }
+        ]
+      },
+      {
+        "connection_id": "C-HOME-SEARCH",
+        "action_id": "A-HOME-SEARCH",
+        "source_node_id": "67:820",
+        "target_node_id": "42:1716",
+        "trigger_node_id": "67:923",
+        "trigger_node_name": "Search",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:26:15.129Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Later native Home Search->empty Search independently confirmed; Figma uses existing empty Search frame.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ]
+      },
+      {
+        "connection_id": "C-HOME-MENU",
+        "action_id": "A-HOME-MENU",
+        "source_node_id": "67:820",
+        "target_node_id": "50:1846",
+        "trigger_node_id": "67:921",
+        "trigger_node_name": "Menu",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:26:15.129Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Later native Home menu->drawer independently confirmed; Figma remains public drawer crop, not full private composition.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ]
+      },
+      {
+        "connection_id": "C-CALENDAR-WEEK-HOME",
+        "action_id": "A-CALENDAR-WEEK-HOME",
+        "source_node_id": "70:973",
+        "target_node_id": "67:820",
+        "trigger_node_id": "70:1045",
+        "trigger_node_name": "NavHome",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:43:05.089Z",
+        "implementation_status": "targeted_entry_return_passed",
+        "prototype_run_ids": [
+          "PROTO-HOME-CALENDAR-WEEK-FIX"
+        ],
+        "source_fidelity": "Native Week5 bottom Home returns to Home; prototype returns fixed Home features position with synthetic data.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -17138,6 +19220,132 @@
           "E-FIGMA-APPS-LOGIN-FIXED",
           "E-FIGMA-APPS-TRACE"
         ]
+      },
+      {
+        "id": "D-STUDY-DEMO-CONTENT",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "status": "open",
+        "affected_state_ids": [
+          "S-STUDY-COMPLETED",
+          "S-STUDY-COMPLETED-EXPANDED",
+          "S-STUDY-REQUIREMENTS",
+          "S-STUDY-OFFERINGS",
+          "S-STUDY-BLANK",
+          "S-COURSES-CANVAS",
+          "S-COURSES-CANVAS-EXPANDED",
+          "S-COURSES-BLACKBOARD",
+          "S-COURSES-BB-LOGIN",
+          "S-QR-DISPLAY",
+          "S-HOME"
+        ],
+        "original_behavior": "Native enrolled/completed subjects, timetable and identity are private; public screenshots contain headers/controls only.",
+        "current_implementation": "Explicit DEMO data replaces private bodies, counts/credits/times/rooms; QR crossed placeholder has no encoded payload or finder pattern. Public catalogue/login copied as observed.",
+        "impact": "Public evidence supports general structure and actions, not precise private text or statistics; no real QR behavior, access validity or course-service operation.",
+        "next_step": "Keep synthetic provenance explicit and verify structure without publishing private data.",
+        "evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-FIGMA-STUDY-TRACE"
+        ]
+      },
+      {
+        "id": "D-HOME-SAMPLE-ENTRY",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "status": "open",
+        "affected_state_ids": [
+          "S-HOME"
+        ],
+        "original_behavior": "Observed Home module entries lead to current native states; Calendar/Notification native examples began from More/Calendar, Search/Menu from More.",
+        "current_implementation": "Home Calendar corrected to actual Week5 landing with synthetic body; Notification/Search/Menu Home routes independently verified. Room still enters later cleared empty-query sample; Study/Courses/QR skip native loading.",
+        "impact": "Calendar destination correction passed; remaining sample-state, geometry, loading and arbitrary behavior differences remain open.",
+        "next_step": "Verify source entry independently; never retroactively promote native action status from Figma playback.",
+        "evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-FIGMA-STUDY-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE",
+          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+        ]
+      },
+      {
+        "id": "D-STUDY-STATIC-INPUT",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "status": "open",
+        "affected_state_ids": [
+          "S-STUDY-COMPLETED",
+          "S-STUDY-COMPLETED-EXPANDED",
+          "S-STUDY-REQUIREMENTS",
+          "S-STUDY-OFFERINGS",
+          "S-STUDY-BLANK",
+          "S-COURSES-CANVAS",
+          "S-COURSES-CANVAS-EXPANDED",
+          "S-COURSES-BLACKBOARD",
+          "S-COURSES-BB-LOGIN",
+          "S-QR-DISPLAY",
+          "S-HOME"
+        ],
+        "original_behavior": "Native subject/courses expand-collapse, tabs, catalogue input-attempt blank and returns; Home date/scroll and QR device boundaries observed.",
+        "current_implementation": "Static source-derived/DEMO frames, 22 fixed hotspots. Blank only independent reference with Back; no incoming search or free input. HomeMon/Tue remain unconnected/not_run.",
+        "impact": "No arbitrary scrolling/search, course authentication, other categories, data states or QR device behaviors. Unimplemented controls remain visible.",
+        "next_step": "Continue native evidence and state/connection coverage without inventing success.",
+        "evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-FIGMA-STUDY-TRACE"
+        ]
+      },
+      {
+        "id": "D-HOME-PREVIEW-IMAGE",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "status": "open",
+        "affected_state_ids": [
+          "S-HOME"
+        ],
+        "original_behavior": "Public decorative preview strip used in Home reconstruction.",
+        "current_implementation": "Initially visible, missing after Courses/QR returns, then restored on standalone Blank Back at18:31:16.276 with crop identical to initial. Root cause unresolved. Latest Week5 Home return also visibly restores the preview, but no root cause or stability fix established.",
+        "impact": "Home visual acceptance remains failed; similar symptom to unresolved Food/VA artifacts does not establish shared cause or native App defect.",
+        "next_step": "Investigate source/render/import path and reverify repeated Home returns after fix.",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-HOME-DEMO",
+          "E-FIGMA-HOME-IMAGE-MISSING",
+          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+        ]
+      },
+      {
+        "id": "D-COURSES-LOGIN-CJK",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "status": "resolved_for_observed_label",
+        "affected_state_ids": [
+          "S-COURSES-BB-LOGIN"
+        ],
+        "original_behavior": "Native red button has complete Chinese login label.",
+        "current_implementation": "Initial Figma lost one glyph; Text67:500 changed Noto Sans SC and matching source regenerated. Latest Present shows full label.",
+        "impact": "Missing-glyph defect repaired; exact font metrics and complete visual fidelity remain unclaimed.",
+        "next_step": "Preserve font choice and verify subsequent imports.",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-COURSES-LOGIN-MISSING",
+          "E-FIGMA-COURSES-LOGIN-FIXED"
+        ]
+      },
+      {
+        "id": "D-HOME-CALENDAR-TARGET",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "status": "resolved_for_observed_entry",
+        "affected_state_ids": [
+          "S-HOME",
+          "S-CALENDAR-WEEK",
+          "S-CALENDAR-ACAD-EMPTY"
+        ],
+        "original_behavior": "18:36:18 native Home bottom Calendar opens Week5 personal timetable; public header crop and route trace confirm it.",
+        "current_implementation": "Home NavCalendar67:935 now targets Week5 DEMO70:973; NavHome70:1045 returns Home67:820. Both actually replayed after correction.",
+        "impact": "Original source-target mismatch repaired for recorded Week5 entry; synthetic body and incomplete week interactions remain explicit.",
+        "next_step": "Continue week/date behavior and full application coverage; do not reuse old Sep28 Home target.",
+        "evidence_ids": [
+          "E-HOME-ENTRY-RECHECK-TRACE",
+          "E-FIGMA-HOME-TO-CALENDAR",
+          "E-FIGMA-CALENDAR-WEEK-FIX",
+          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+        ],
+        "resolved_at": "2026-09-28T18:44:36.057Z"
       }
     ],
     "prototype_runs": [
@@ -18453,6 +20661,559 @@
           "Only typography changed; twelve-edge sequence is evidenced by preceding run, selected category/VRS edges rechecked here.",
           "No assertion of pixel-perfect typography, arbitrary scrolling or all Apps functionality."
         ]
+      },
+      {
+        "id": "PROTO-HOME-STUDY-V2-001",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "started_at": "2026-09-28T18:27:25.715Z",
+        "ended_at": "2026-09-28T18:33:26.855Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1",
+        "start_node_id": "67:820",
+        "flow_name": "Home · Study, Courses and Campus QR",
+        "status": "failed",
+        "navigation_status": "passed_for_twenty_two_configured_controls",
+        "visual_status": "failed_home_raster_disappearance_and_initial_login_cjk",
+        "scope": "22 newly configured controls, including 11 new frames and entry into existing sample frames. Two Home top/date frames not_run. Overall visual status remains failed due Home decorative preview image disappearance.",
+        "environment": "Independent tab16, Fit width and height, full frame crop357x601; actual DEMO coursework and non-scannable QR.",
+        "steps": [
+          {
+            "at": "2026-09-28T18:27:46.591Z",
+            "connection_id": "C-HOME-STUDY",
+            "action_id": "A-HOME-EP009",
+            "source_node_id": "67:820",
+            "expected_node_id": "67:2",
+            "actual_node_id": "67:2",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-STUDY-COMPLETED"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:27:55.350Z",
+            "connection_id": "C-STUDY-EXPAND",
+            "action_id": "A-STUDY-TITLE-EXPAND",
+            "source_node_id": "67:2",
+            "expected_node_id": "67:71",
+            "actual_node_id": "67:71",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-STUDY-EXPANDED"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:28:04.101Z",
+            "connection_id": "C-STUDY-COLLAPSE",
+            "action_id": "A-STUDY-TITLE-COLLAPSE",
+            "source_node_id": "67:71",
+            "expected_node_id": "67:2",
+            "actual_node_id": "67:2",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-STUDY-COMPLETED"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:28:13.727Z",
+            "connection_id": "C-STUDY-REQUIREMENTS",
+            "action_id": "A-STUDY-REQUIREMENTS",
+            "source_node_id": "67:2",
+            "expected_node_id": "67:141",
+            "actual_node_id": "67:141",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-STUDY-REQUIREMENTS"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:28:21.143Z",
+            "connection_id": "C-STUDY-OFFERINGS",
+            "action_id": "A-STUDY-OFFERINGS",
+            "source_node_id": "67:141",
+            "expected_node_id": "67:188",
+            "actual_node_id": "67:188",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-STUDY-OFFERINGS"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:28:30.540Z",
+            "connection_id": "C-HOME-COURSES",
+            "action_id": "A-HOME-EP010",
+            "source_node_id": "67:820",
+            "expected_node_id": "67:271",
+            "actual_node_id": "67:271",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-COURSES-CANVAS"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:28:42.136Z",
+            "connection_id": "C-COURSES-EXPAND",
+            "action_id": "A-COURSES-TITLE-EXPAND",
+            "source_node_id": "67:271",
+            "expected_node_id": "67:360",
+            "actual_node_id": "67:360",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-COURSES-EXPANDED"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:28:51.199Z",
+            "connection_id": "C-COURSES-COLLAPSE",
+            "action_id": "A-COURSES-TITLE-COLLAPSE",
+            "source_node_id": "67:360",
+            "expected_node_id": "67:271",
+            "actual_node_id": "67:271",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-COURSES-CANVAS"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:29:01.116Z",
+            "connection_id": "C-COURSES-BLACKBOARD",
+            "action_id": "A-COURSES-BLACKBOARD",
+            "source_node_id": "67:271",
+            "expected_node_id": "67:450",
+            "actual_node_id": "67:450",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-COURSES-BLACKBOARD"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:29:09.531Z",
+            "connection_id": "C-COURSES-LOGIN",
+            "action_id": "A-COURSES-BB-OPEN",
+            "source_node_id": "67:450",
+            "expected_node_id": "67:485",
+            "actual_node_id": "67:485",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-COURSES-LOGIN-MISSING"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:29:22.955Z",
+            "connection_id": "C-COURSES-LOGIN-BACK",
+            "action_id": "A-COURSES-LOGIN-BACK",
+            "source_node_id": "67:485",
+            "expected_node_id": "67:820",
+            "actual_node_id": "67:820",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-DEMO"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:29:34.648Z",
+            "connection_id": "C-HOME-QR",
+            "action_id": "A-HOME-EP011",
+            "source_node_id": "67:820",
+            "expected_node_id": "67:513",
+            "actual_node_id": "67:513",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-QR-DEMO"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:29:44.040Z",
+            "connection_id": "C-QR-HOME",
+            "action_id": "A-QR-HOME",
+            "source_node_id": "67:513",
+            "expected_node_id": "67:820",
+            "actual_node_id": "67:820",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-DEMO"
+            ],
+            "evidence_boundary": "Actual Present screenshot and recorded URL/AX; repeated visual states may reuse earlier screenshots. Batched entry calls preserve shared call start time, not fabricated individual click timestamps."
+          },
+          {
+            "at": "2026-09-28T18:30:10.874Z",
+            "connection_id": "C-HOME-APPS",
+            "action_id": "A-HOME-EP008",
+            "source_node_id": "67:820",
+            "expected_node_id": "61:2",
+            "actual_node_id": "61:2",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ],
+            "evidence_boundary": "Helper call screenshots establish destination while immediate URLs sometimes lagged; separate later URL rechecks confirm Food/Room/More/Calendar/Search. Starts share the original batched call time."
+          },
+          {
+            "at": "2026-09-28T18:30:10.874Z",
+            "connection_id": "C-HOME-FOOD",
+            "action_id": "A-HOME-EP006",
+            "source_node_id": "67:820",
+            "expected_node_id": "50:1911",
+            "actual_node_id": "50:1911",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-TO-FOOD"
+            ],
+            "evidence_boundary": "Helper call screenshots establish destination while immediate URLs sometimes lagged; separate later URL rechecks confirm Food/Room/More/Calendar/Search. Starts share the original batched call time."
+          },
+          {
+            "at": "2026-09-28T18:30:10.874Z",
+            "connection_id": "C-HOME-ROOM",
+            "action_id": "A-HOME-ROOM",
+            "source_node_id": "67:820",
+            "expected_node_id": "12:198",
+            "actual_node_id": "12:198",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-TO-ROOM"
+            ],
+            "evidence_boundary": "Helper call screenshots establish destination while immediate URLs sometimes lagged; separate later URL rechecks confirm Food/Room/More/Calendar/Search. Starts share the original batched call time."
+          },
+          {
+            "at": "2026-09-28T18:30:22.514Z",
+            "connection_id": "C-HOME-MORE",
+            "action_id": "A-HOME-EP004",
+            "source_node_id": "67:820",
+            "expected_node_id": "12:435",
+            "actual_node_id": "12:435",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-TO-MORE"
+            ],
+            "evidence_boundary": "Helper call screenshots establish destination while immediate URLs sometimes lagged; separate later URL rechecks confirm Food/Room/More/Calendar/Search. Starts share the original batched call time."
+          },
+          {
+            "at": "2026-09-28T18:30:22.514Z",
+            "connection_id": "C-HOME-NOTIFICATION",
+            "action_id": "A-HOME-EP003",
+            "source_node_id": "67:820",
+            "expected_node_id": "42:1617",
+            "actual_node_id": "42:1617",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-TO-NOTIFICATION"
+            ],
+            "evidence_boundary": "Helper call screenshots establish destination while immediate URLs sometimes lagged; separate later URL rechecks confirm Food/Room/More/Calendar/Search. Starts share the original batched call time."
+          },
+          {
+            "at": "2026-09-28T18:30:22.514Z",
+            "connection_id": "C-HOME-CALENDAR",
+            "action_id": "A-HOME-EP002",
+            "source_node_id": "67:820",
+            "expected_node_id": "42:165",
+            "actual_node_id": "42:165",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-TO-CALENDAR"
+            ],
+            "evidence_boundary": "Helper call screenshots establish destination while immediate URLs sometimes lagged; separate later URL rechecks confirm Food/Room/More/Calendar/Search. Starts share the original batched call time."
+          },
+          {
+            "at": "2026-09-28T18:30:35.129Z",
+            "connection_id": "C-HOME-SEARCH",
+            "action_id": "A-MORE-SEARCH",
+            "source_node_id": "67:820",
+            "expected_node_id": "42:1716",
+            "actual_node_id": "42:1716",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-TO-SEARCH"
+            ],
+            "evidence_boundary": "Helper call screenshots establish destination while immediate URLs sometimes lagged; separate later URL rechecks confirm Food/Room/More/Calendar/Search. Starts share the original batched call time."
+          },
+          {
+            "at": "2026-09-28T18:30:35.129Z",
+            "connection_id": "C-HOME-MENU",
+            "action_id": "A-MORE-MENU",
+            "source_node_id": "67:820",
+            "expected_node_id": "50:1846",
+            "actual_node_id": "50:1846",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-TO-DRAWER"
+            ],
+            "evidence_boundary": "Helper call screenshots establish destination while immediate URLs sometimes lagged; separate later URL rechecks confirm Food/Room/More/Calendar/Search. Starts share the original batched call time."
+          },
+          {
+            "at": "2026-09-28T18:31:15.610Z",
+            "connection_id": "C-STUDY-BLANK-BACK",
+            "action_id": "A-STUDY-BLANK-BACK",
+            "source_node_id": "67:259",
+            "expected_node_id": "67:820",
+            "actual_node_id": "67:820",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-HOME-DEMO"
+            ],
+            "evidence_boundary": "Standalone URL entry to blank frame, then Back to Home. No search input or route into blank was implemented."
+          }
+        ],
+        "url_rechecks": [
+          {
+            "at": "2026-09-28T18:32:21.879Z",
+            "connection_id": "C-HOME-FOOD",
+            "actual_node_id": "50:1911",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:32:44.511Z",
+            "connection_id": "C-HOME-ROOM",
+            "actual_node_id": "12:198",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:33:04.962Z",
+            "connection_id": "C-HOME-MORE",
+            "actual_node_id": "12:435",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:33:13.747Z",
+            "connection_id": "C-HOME-CALENDAR",
+            "actual_node_id": "42:165",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:33:26.489Z",
+            "connection_id": "C-HOME-SEARCH",
+            "actual_node_id": "42:1716",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          }
+        ],
+        "test_resets": [
+          {
+            "at": "2026-09-28T18:28:30.540Z",
+            "action": "Figma Restart before My Courses",
+            "actual_node_id": "67:820",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:30:10.874Z",
+            "action": "Helper restarts between independent Home entries",
+            "actual_node_id": "67:820",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:30:49.454Z",
+            "action": "Direct URL entry to standalone blank frame",
+            "actual_node_id": "67:259",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          }
+        ],
+        "limitations": [
+          "DEMO subjects, credits, identities and schedules are synthetic and do not establish private native content.",
+          "Home Calendar/Notification source route and Home Search/Menu source differ from actual native observed entry states.",
+          "Home Room starts at later cleared empty-query sample rather than observed initial Room state.",
+          "Study/Courses/QR loading omitted; QR is not usable.",
+          "Blank has no incoming search connection; no search success claimed.",
+          "Home Monday/Tuesday frames have no wiring/run; arbitrary scrolling and other controls unimplemented."
+        ],
+        "visual_rechecks": [
+          {
+            "at": "2026-09-28T18:27:25.912Z",
+            "state_id": "S-HOME",
+            "observation": "Home preview strip visible initially.",
+            "result": "initial_render",
+            "evidence_ids": [
+              "E-FIGMA-HOME-DEMO"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:29:23.263Z",
+            "state_id": "S-HOME",
+            "observation": "Home preview strip absent after Blackboard login Back; QR Home return repeats identical missing image.",
+            "result": "failed",
+            "evidence_ids": [
+              "E-FIGMA-HOME-IMAGE-MISSING"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:31:16.276Z",
+            "state_id": "S-HOME",
+            "observation": "Standalone Blank Back returns with preview strip restored; public crop pixel-identical to initial Home. No root cause established.",
+            "result": "temporary_recovery",
+            "evidence_ids": [
+              "E-FIGMA-HOME-DEMO",
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          }
+        ],
+        "later_native_source_review": {
+          "reviewed_at": "2026-09-28T18:37:26.319Z",
+          "result": "Home Calendar target mismatch confirmed; Home Notification/Search/Menu routes independently observed.",
+          "evidence_ids": [
+            "E-HOME-ENTRY-RECHECK-TRACE"
+          ]
+        }
+      },
+      {
+        "id": "PROTO-STUDY-CJK-RECHECK",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "started_at": "2026-09-28T18:31:15.610Z",
+        "ended_at": "2026-09-28T18:33:59.719Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1",
+        "start_node_id": "67:820",
+        "flow_name": "Home · Study, Courses and Campus QR",
+        "status": "passed",
+        "navigation_status": "passed_for_rechecked_courses_login_path",
+        "visual_status": "passed_for_login_button_cjk_only",
+        "scope": "Text67:500 set Noto Sans SC, matching generator/source updated; Present login button now shows both characters. Home missing decorative image remains unresolved and full visual pass not claimed.",
+        "steps": [
+          {
+            "at": "2026-09-28T18:33:38.264Z",
+            "connection_id": "C-HOME-COURSES",
+            "action_id": "A-HOME-EP010",
+            "source_node_id": "67:820",
+            "expected_node_id": "67:271",
+            "actual_node_id": "67:271",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:33:50.865Z",
+            "connection_id": "C-COURSES-BLACKBOARD",
+            "action_id": "A-COURSES-BLACKBOARD",
+            "source_node_id": "67:271",
+            "expected_node_id": "67:450",
+            "actual_node_id": "67:450",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:33:59.421Z",
+            "connection_id": "C-COURSES-LOGIN",
+            "action_id": "A-COURSES-BB-OPEN",
+            "source_node_id": "67:450",
+            "expected_node_id": "67:485",
+            "actual_node_id": "67:485",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-STUDY-TRACE",
+              "E-FIGMA-COURSES-LOGIN-FIXED"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PROTO-HOME-CALENDAR-WEEK-FIX",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "started_at": "2026-09-28T18:43:57.535Z",
+        "ended_at": "2026-09-28T18:44:36.057Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1",
+        "start_node_id": "67:820",
+        "flow_name": "Home · Study, Courses and Campus QR",
+        "status": "passed",
+        "navigation_status": "passed_for_corrected_calendar_entry_and_home_return",
+        "visual_status": "passed_for_week_header_and_explicit_demo_scope",
+        "scope": "Correct source target after native recheck: Home67:820->Week570:973->Home67:820. Full timetable content is synthetic; week/date selectors unimplemented.",
+        "steps": [
+          {
+            "at": "2026-09-28T18:44:10.128Z",
+            "connection_id": "C-HOME-CALENDAR",
+            "action_id": "A-HOME-EP002",
+            "source_node_id": "67:820",
+            "expected_node_id": "70:973",
+            "actual_node_id": "70:973",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-CALENDAR-WEEK-FIX",
+              "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T18:44:35.729Z",
+            "connection_id": "C-CALENDAR-WEEK-HOME",
+            "action_id": "A-CALENDAR-WEEK-HOME",
+            "source_node_id": "70:973",
+            "expected_node_id": "67:820",
+            "actual_node_id": "67:820",
+            "result": "passed",
+            "evidence_ids": [
+              "E-FIGMA-HOME-DEMO",
+              "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+            ],
+            "evidence_boundary": "Home decoration visible again; reviewed return crop equals initial Home image. Prior missing/recovery problem remains unresolved."
+          }
+        ],
+        "test_resets": [
+          {
+            "at": "2026-09-28T18:43:57.535Z",
+            "action": "Figma Restart to Home after reload",
+            "actual_node_id": "67:820",
+            "evidence_ids": [
+              "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+            ]
+          }
+        ],
+        "limitations": [
+          "Only corrected navigation and explicit DEMO week composition checked.",
+          "No arbitrary week/date selection, timetable actions or private body fidelity.",
+          "Home image happened to be visible this return; intermittent disappearance still open."
+        ],
+        "context_evidence_ids": [
+          "E-FIGMA-HOME-FLOW-CONTEXT"
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -18532,8 +21293,8 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "49 imported frames and 51 current trigger connections mapped. Room four-step, Weather four-step, Calendar thirteen-connection and Apps twelve-control navigation samples passed. Apps missing CJK glyphs repaired and affected text states reverified. Assistant and Food image disappearance remains unresolved. Four Notification/Search, six Menu/Settings/Policy, Food panned map and Apps loading frame remain not_run; full application incomplete.",
-    "latest_verified_cutoff": "2026-09-28T18:15:07.103Z",
+    "verification_summary": "63 imported frames and74 trigger controls mapped. Home/Study/Courses/QR original22-control navigation sample passed; Calendar target corrected to actual Week5 and new Home return tested. Apps/Courses CJK glyph fixes reverified. Home/VA/Food image instability remains unresolved; full application incomplete.",
+    "latest_verified_cutoff": "2026-09-28T18:44:36.057Z",
     "native_editability_checks": [
       {
         "id": "NATIVE-ROOM-SUGGEST-001",
@@ -18610,6 +21371,34 @@
           "E-FIGMA-APPS-TRACE"
         ],
         "limitation": "Editor verifies eleven frame identities, geometry and native structure; does not establish every layer edit or full visual/interaction fidelity."
+      },
+      {
+        "id": "NATIVE-STUDY13-IMPORT",
+        "checked_at": "2026-09-28T18:19:02.917Z",
+        "state_ids": [
+          "S-STUDY-COMPLETED",
+          "S-STUDY-COMPLETED-EXPANDED",
+          "S-STUDY-REQUIREMENTS",
+          "S-STUDY-OFFERINGS",
+          "S-STUDY-BLANK",
+          "S-COURSES-CANVAS",
+          "S-COURSES-CANVAS-EXPANDED",
+          "S-COURSES-BLACKBOARD",
+          "S-COURSES-BB-LOGIN",
+          "S-QR-DISPLAY",
+          "S-HOME-SCHEDULE-MON",
+          "S-HOME-SCHEDULE-TUE",
+          "S-HOME"
+        ],
+        "frame_properties": {
+          "width": 576,
+          "height": 970
+        },
+        "status": "passed_for_native_import_structure",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE"
+        ],
+        "limitation": "All13 named and positioned; used nested native text/control layers inspected. Not every layer edit, full pixel fidelity or every state/interaction checked."
       }
     ],
     "generation_limit": {
@@ -18824,7 +21613,7 @@
       "assistant_hero_return": "failed_unresolved",
       "calendar_thirteen_connection_sample": "passed",
       "all_calendar_interactions": "not_run",
-      "notification_search_prototypes": "not_run",
+      "notification_search_prototypes": "empty_notification_and_empty_search_entry_observed_other_states_and_controls_not_run",
       "batch11_import_mapping": "verified",
       "batch11_prototypes": "food_sample_run_visual_failed_six_menu_policy_frames_not_run",
       "food_prototype": "navigation_passed_visual_failed",
@@ -18835,7 +21624,16 @@
       "apps_twelve_connection_sample": "passed",
       "apps_cjk_text": "repaired_and_reverified_for_four_text_nodes",
       "apps_loading": "not_run",
-      "all_apps_interactions": "not_run"
+      "all_apps_interactions": "not_run",
+      "study13_import_mapping": "verified",
+      "home_study_twenty_two_controls": "navigation_passed_visual_failed",
+      "home_preview_image": "failed_unresolved",
+      "courses_login_cjk": "repaired_and_reverified",
+      "home_monday_tuesday": "not_run",
+      "study_blank": "standalone_back_passed_no_incoming_search",
+      "home_calendar_source_fidelity": "corrected_to_week_five_and_reverified",
+      "menu_drawer_entry": "observed_internal_controls_not_run",
+      "home_calendar_week_roundtrip": "passed"
     },
     "additional_imports": [
       {
@@ -18902,9 +21700,11 @@
         "status": "imported_mapped",
         "page": "01 · Observed UI",
         "node_id": "42:1716",
-        "prototype_status": "not_run",
+        "prototype_status": "entry_sample_observed_internal_controls_not_run",
         "evidence_ids": [
-          "E-FIGMA-BATCH18-TRACE"
+          "E-FIGMA-BATCH18-TRACE",
+          "E-FIGMA-HOME-TO-SEARCH",
+          "E-FIGMA-STUDY-TRACE"
         ]
       },
       {
@@ -18913,9 +21713,11 @@
         "status": "imported_mapped",
         "page": "01 · Observed UI",
         "node_id": "42:1617",
-        "prototype_status": "not_run",
+        "prototype_status": "entry_sample_observed_internal_controls_not_run",
         "evidence_ids": [
-          "E-FIGMA-BATCH18-TRACE"
+          "E-FIGMA-BATCH18-TRACE",
+          "E-FIGMA-HOME-TO-NOTIFICATION",
+          "E-FIGMA-STUDY-TRACE"
         ]
       },
       {
@@ -19092,10 +21894,12 @@
         "status": "imported_mapped",
         "page": "01 · Observed UI",
         "node_id": "50:1846",
-        "prototype_status": "not_run",
+        "prototype_status": "entry_sample_observed_internal_controls_not_run",
         "connection_status": "not_wired_at_import_cutoff",
         "evidence_ids": [
-          "E-FIGMA-BATCH11-TRACE"
+          "E-FIGMA-BATCH11-TRACE",
+          "E-FIGMA-HOME-TO-DRAWER",
+          "E-FIGMA-STUDY-TRACE"
         ]
       },
       {
@@ -19392,6 +22196,188 @@
           "E-FIGMA-APPS-LOGIN-MISSING",
           "E-FIGMA-APPS-LOGIN-FIXED"
         ]
+      },
+      {
+        "path": "../../design/polyulife/study-completed-demo.svg",
+        "frame_name": "[S-STUDY-COMPLETED] Completed — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:2",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-STUDY-COMPLETED"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/study-completed-demo-expanded.svg",
+        "frame_name": "[S-STUDY-COMPLETED-EXPANDED] Completed expanded — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:71",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-STUDY-EXPANDED"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/study-requirements.svg",
+        "frame_name": "[S-STUDY-REQUIREMENTS] Requirements",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:141",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-STUDY-REQUIREMENTS"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/study-subjects-public.svg",
+        "frame_name": "[S-STUDY-OFFERINGS] Public Subjects on Offer",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:188",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-STUDY-OFFERINGS"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/study-blank-unresolved.svg",
+        "frame_name": "[S-STUDY-BLANK] Blank content — outcome unresolved",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:259",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-STUDY-BLANK"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/courses-canvas-demo.svg",
+        "frame_name": "[S-COURSES-CANVAS] Canvas — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:271",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-COURSES-CANVAS"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/courses-canvas-demo-expanded.svg",
+        "frame_name": "[S-COURSES-CANVAS-EXPANDED] Canvas expanded — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:360",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-COURSES-EXPANDED"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/courses-blackboard-demo.svg",
+        "frame_name": "[S-COURSES-BLACKBOARD] Blackboard — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:450",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-COURSES-BLACKBOARD"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/courses-blackboard-login.svg",
+        "frame_name": "[S-COURSES-BB-LOGIN] Blackboard login — empty fields",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:485",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-COURSES-LOGIN-MISSING",
+          "E-FIGMA-COURSES-LOGIN-FIXED"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/qr-demo.svg",
+        "frame_name": "[S-QR-DISPLAY] Campus QR — non-scannable DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:513",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-QR-DEMO"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/home-demo-top.svg",
+        "frame_name": "[S-HOME-SCHEDULE-MON] Home Monday — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:569",
+        "prototype_status": "not_run",
+        "connection_status": "not_wired",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/home-demo-tuesday.svg",
+        "frame_name": "[S-HOME-SCHEDULE-TUE] Home Tuesday — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:694",
+        "prototype_status": "not_run",
+        "connection_status": "not_wired",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/home-demo-scrolled.svg",
+        "frame_name": "[S-HOME] Home features — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "67:820",
+        "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-HOME-DEMO",
+          "E-FIGMA-HOME-IMAGE-MISSING"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/calendar-week-demo.svg",
+        "frame_name": "[S-CALENDAR-WEEK] Week 5 — DEMO",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:973",
+        "prototype_status": "targeted_entry_return_passed",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-FIGMA-CALENDAR-WEEK-FIX",
+          "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+        ]
       }
     ],
     "flows": [
@@ -19440,9 +22426,20 @@
           "PROTO-APPS-V2-CJK-RECHECK"
         ],
         "scope": "Twelve configured controls pass scoped navigation. Initial CJK missing glyphs repaired and three affected states reverified; static/loading/other-control limits remain."
+      },
+      {
+        "name": "Home · Study, Courses and Campus QR",
+        "start_node_id": "67:820",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1",
+        "tested_run_ids": [
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-STUDY-CJK-RECHECK",
+          "PROTO-HOME-CALENDAR-WEEK-FIX"
+        ],
+        "scope": "23 currently configured controls navigation checked across original22 sample plus new Week5 Home return. Calendar target corrected to native Week5 and replayed; Home decorative image remains intermittent, login CJK repaired. Synthetic/source-state/loading limits remain."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-28T18:15:07.103Z",
+    "latest_prototype_run_cutoff": "2026-09-28T18:44:36.057Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -19450,171 +22447,7 @@
       "E-FIGMA-EDITOR-FINAL"
     ],
     "latest_editor_verified_at": "2026-09-28T17:24:56.067Z",
-    "unimported_design_sources": [
-      {
-        "state_id": "S-STUDY-COMPLETED",
-        "design_source_path": "../../design/polyulife/study-completed-demo.svg",
-        "design_source_sha256": "e21eabc673ac2298897a394418848478b5d5cfa41380ea62f763f5dd35d3bd4f",
-        "source_evidence_ids": [
-          "E-STUDY-COMPLETED",
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-STUDY-COMPLETED-EXPANDED",
-        "design_source_path": "../../design/polyulife/study-completed-demo-expanded.svg",
-        "design_source_sha256": "8be185a09a97648df2d628eaefd37d0b9d8dc9a318d2d8003c8dc990aa1c6cae",
-        "source_evidence_ids": [
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-STUDY-REQUIREMENTS",
-        "design_source_path": "../../design/polyulife/study-requirements.svg",
-        "design_source_sha256": "da04e4777fb39e35e0d299bf7b2ba203a6c78f64d6afe55cfe8abf348261a5ca",
-        "source_evidence_ids": [
-          "E-STUDY-REQUIREMENTS"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-STUDY-OFFERINGS",
-        "design_source_path": "../../design/polyulife/study-subjects-public.svg",
-        "design_source_sha256": "f5150bbaf72df0e11bff9d04c5ba823d01c4914740df45b29d6e9dfbaa14d92c",
-        "source_evidence_ids": [
-          "E-STUDY-OFFERINGS"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-STUDY-BLANK",
-        "design_source_path": "../../design/polyulife/study-blank-unresolved.svg",
-        "design_source_sha256": "1aa5cb55709fed31d24a5a4939e1431ac9a73310aa826e8a20337e96cb2b43cf",
-        "source_evidence_ids": [
-          "E-STUDY-BLANK"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-COURSES-CANVAS",
-        "design_source_path": "../../design/polyulife/courses-canvas-demo.svg",
-        "design_source_sha256": "f6f7ceba4029f0a8b608d911e6645cc7bf5c8199ba05f2918688ea7251bb53e3",
-        "source_evidence_ids": [
-          "E-COURSES-CANVAS",
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-COURSES-CANVAS-EXPANDED",
-        "design_source_path": "../../design/polyulife/courses-canvas-demo-expanded.svg",
-        "design_source_sha256": "ecb6bcb6686fc5a15831bfa7f3c070b9c74df06c70442fd0ad94475b42050c98",
-        "source_evidence_ids": [
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-COURSES-BLACKBOARD",
-        "design_source_path": "../../design/polyulife/courses-blackboard-demo.svg",
-        "design_source_sha256": "c85815faa5c2d28ffd98938c8ed633e1d7cac192f679f80254b6175a08941977",
-        "source_evidence_ids": [
-          "E-COURSES-BLACKBOARD",
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-COURSES-BB-LOGIN",
-        "design_source_path": "../../design/polyulife/courses-blackboard-login.svg",
-        "design_source_sha256": "28ea3a2d1f5a7d9e9ca64a52c8b0d31f3eeb9eeea4edbf09602aea6739447131",
-        "source_evidence_ids": [
-          "E-COURSES-BB-LOGIN"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-QR-DISPLAY",
-        "design_source_path": "../../design/polyulife/qr-demo.svg",
-        "design_source_sha256": "ab464d3f70e4b216d43923db60e422359a8cfaa0767249d61dd60f2483ae8601",
-        "source_evidence_ids": [
-          "E-QR-DISPLAY",
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-HOME-SCHEDULE-MON",
-        "design_source_path": "../../design/polyulife/home-demo-top.svg",
-        "design_source_sha256": "ba22f2f5a54b3ad99d44533ef8dc7b730a0299f45bbd08729e3305a0db133dcd",
-        "source_evidence_ids": [
-          "E-HOME-SCHEDULE-MON",
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-HOME-SCHEDULE-TUE",
-        "design_source_path": "../../design/polyulife/home-demo-tuesday.svg",
-        "design_source_sha256": "82bc3e2bd6d26805cb6cfbd11bd8f17a93dea0bc07ccf2a3297d9c156dcb98b8",
-        "source_evidence_ids": [
-          "E-HOME-SCHEDULE-TUE",
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      },
-      {
-        "state_id": "S-HOME",
-        "design_source_path": "../../design/polyulife/home-demo-scrolled.svg",
-        "design_source_sha256": "a530807f33d0d7056cd5329fc9909d2627ae40aeecb9250cedfbba45dfbe4676",
-        "source_evidence_ids": [
-          "E-HOME",
-          "E-HOME-STUDY-MAP-TRACE"
-        ],
-        "status": "not_imported",
-        "node_id": null,
-        "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
-        "validation": "Local XML, unique IDs, dimensions, native text, deterministic generation and rendered review completed by design-source agent; Figma import/editability/connections/Present unverified."
-      }
-    ],
+    "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
       "current_name": "Room · Available slots reference",
@@ -19629,9 +22462,9 @@
       "boundary": "Flow 1 resolved to current Available node12:105, not the archived original draft. Naming verification does not create a new navigation run."
     },
     "latest_context_evidence_ids": [
-      "E-FIGMA-ROOM-REFERENCE-FLOW"
+      "E-FIGMA-HOME-FLOW-CONTEXT"
     ],
-    "latest_context_verified_at": "2026-09-28T18:17:36.047Z"
+    "latest_context_verified_at": "2026-09-28T18:44:10.478Z"
   },
   "discovery_queue": [
     {
@@ -19644,16 +22477,21 @@
     {
       "id": "Q-EP002",
       "entry_point_id": "EP002",
-      "reason": "Partial destination flows observed; complete controls, data states and boundaries remain pending.",
+      "reason": "Native Home Calendar Week5 entry observed; prototype target corrected and roundtrip reverified. Other weeks, dates, timetable interactions and full coverage remain incomplete.",
       "status": "in_progress",
-      "resolution_refs": []
+      "resolution_refs": [
+        "E-HOME-ENTRY-RECHECK-TRACE",
+        "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+      ]
     },
     {
       "id": "Q-EP003",
       "entry_point_id": "EP003",
-      "reason": "Partial destination flows observed; complete controls, data states and boundaries remain pending.",
+      "reason": "Home Notification empty entry and Home return observed; nonempty notifications and other controls/data states pending.",
       "status": "in_progress",
-      "resolution_refs": []
+      "resolution_refs": [
+        "E-HOME-ENTRY-RECHECK-TRACE"
+      ]
     },
     {
       "id": "Q-EP004",
@@ -19934,6 +22772,23 @@
       "status": "in_progress",
       "resolution_refs": [
         "E-HOME-STUDY-MAP-TRACE"
+      ]
+    },
+    {
+      "id": "Q-HOME-ENTRY-RECHECK",
+      "entry_point_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE",
+        "S-CALENDAR-WEEK",
+        "S-NOTIFICATION-EMPTY",
+        "S-MORE-SEARCH-EMPTY",
+        "S-DRAWER"
+      ],
+      "reason": "Four native Home entries/returns observed; Figma Calendar target corrected to Week5 synthetic sample and roundtrip reverified. Full source-state retention and remaining target controls still pending.",
+      "status": "in_progress",
+      "resolution_refs": [
+        "E-HOME-ENTRY-RECHECK-TRACE",
+        "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
       ]
     }
   ],
@@ -20404,6 +23259,38 @@
         "E-HOME-SCHEDULE-RETURN"
       ],
       "remaining_scope": "Private data withheld; all modules retain untested controls and boundaries. Blank search, map input outcomes and week application remain inconclusive. QR physical use/authenticated services unverified. No new Figma runtime coverage."
+    },
+    {
+      "id": "R-HOME-ENTRY-RECHECK",
+      "session_id": "SESSION-20260928-HOME-ENTRY-RECHECK",
+      "status": "partial",
+      "reviewed_at": "2026-09-28T18:37:26.319Z",
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE",
+        "S-CALENDAR-WEEK",
+        "S-NOTIFICATION-EMPTY",
+        "S-MORE-SEARCH-EMPTY",
+        "S-DRAWER"
+      ],
+      "checked_scope": "Home->Notification->Home; Home->Calendar Week5->Home; Home->Search empty->Back Home; Home->drawer->overlay dismissal Home.",
+      "newly_discovered_actions": [
+        "A-NOTIFICATION-HOME",
+        "A-HOME-SEARCH",
+        "A-HOME-SEARCH-BACK",
+        "A-HOME-MENU"
+      ],
+      "evidence_ids": [
+        "E-HOME-ENTRY-RECHECK-TRACE",
+        "E-HOME-NOTIFICATION-ENTRY",
+        "E-HOME-SEARCH-ENTRY",
+        "E-HOME-SEARCH-RETURN",
+        "E-HOME-DRAWER-ENTRY",
+        "E-HOME-DRAWER-CLOSED"
+      ],
+      "remaining_scope": "Later Figma correction resolves the recorded Home Calendar target mismatch; full controls, source-state retention, private/credential/device boundaries and all-app closure remain unverified.",
+      "later_figma_resolution_evidence_ids": [
+        "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+      ]
     }
   ]
 }

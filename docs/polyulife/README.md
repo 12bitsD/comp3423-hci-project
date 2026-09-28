@@ -17,7 +17,7 @@
 
 [首页导航局部截图](../../evidence/2026-09-28-full-audit/home-134424-navigation-only.png)已确认 Map、Room、Food、Apps、Study progress、My Courses，以及底部 Home、Calendar、QR 图标、Notification、More 可见。首页完整内容和各目的页分别登记，入口可见不等于流程通过。实际动作、状态和未完成项见 [coverage.json](coverage.json)，截图清单见 [manifest.json](../../evidence/2026-09-28-full-audit/manifest.json)。
 
-原生 App 记录截至 **2026-09-28 17:44:00 UTC**（香港时间 2026-09-29 01:44:00），已有 114 个状态、253 个动作记录。161 个 `observed` 表示真实尝试或反馈被记录，也包括未建立成功结果的工具定位尝试；不等于所有动作通过，仍有 92 个 `not_attempted` 动作。
+原生 App 记录截至 **2026-09-28 18:37:26 UTC**（香港时间 2026-09-29 02:37:26），已有 114 个状态、257 个动作记录。167 个 `observed` 表示真实尝试或反馈被记录，也包括未建立成功结果的工具定位尝试；不等于所有动作通过，仍有 90 个 `not_attempted` 动作。
 
 - [More、天气与 Virtual Assistant](more-walkthrough.md)：天气图片展开/关闭和返回 More；虚拟助手详情、Disclaimer、Welcome 与返回；聊天输入仍未通过，没有发送消息。
 - [Calendar 与 Notification](calendar-notification-walkthrough.md)：校历筛选、公共事件详情/返回、视图切换、月份、通知空态、搜索与清除。个人课表不公开。
@@ -27,7 +27,9 @@
 
 - [Study progress、My Courses、主 Map、QR 与 Home](home-study-map-walkthrough.md)：长名称展开/收起、Requirements公开目录、Canvas/Blackboard和空登录页返回、六个地图类别及多选/设施详情/返回、饮水站列表滚动、QR显示与Home返回、Home日期/My Class周历及选择器尝试。个人课程和日程不公开；二维码与身份整块遮盖。
 
-Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。公共证据累计211张截图/裁片；本地62个SVG源码中49个已有Figma映射，13个Study/Courses/QR/Home源码在本批快照中待导入。
+Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。Home的Notification、Calendar、Search、Menu及各自返回已补测；底部Calendar实际落在Week5。本地63个SVG源码均已登记Figma映射，个人课程和日程使用明确的DEMO资料，二维码不可扫描。
+
+共享证据累计238张实际截图/脱敏裁片，文件哈希和尺寸已校验；私人原始图不提交。截图数量不作为覆盖率或成功率。
 
 真实 [Figma Design 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)已新增 `01 · Observed UI`：四张 576×970 Room SVG 设计源码已导入为原生可编辑图层，并建立[当前 Room 样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1)。独立标签页已复验 **A 样例 → AG206 → Available → ALL** 四步。旧草稿已置于 `00 · Archive — initial AI draft`（原 `Page 1`），其三条旧连接记录保留为历史。
 
@@ -39,7 +41,9 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 
 [Food 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=50-1911&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A1911&show-proto-sidebar=1)的 **11个连接控件**已实测导航，包括图片/搜索/详情/地图四个按历史返回的Back。详情→搜索→原详情→营业时间列表的栈已复现；直接详情入口和返回也已独立复测。列表/详情的图片仍出现重复缺失与恢复，因此 **Food导航样例通过、整体视觉未通过**。未展开列表的原生详情入口及加载态差异保持待核实，地图平移帧尚未接入。
 
-截至 Figma 运行记录 **2026-09-28 18:15:07 UTC**，`01 · Observed UI` 已核实 **49个 Frame、51个连接控件**：Room 4、More/天气 3、Virtual Assistant 4、Calendar 10、Notification/Search 4、Menu/Settings/Profile 4、Policies 2、Food 7、Apps 11。四张Notification/Search、六张菜单/设置/政策、一张Food平移地图和一张Apps加载帧仍为`not_run`；其余样例按flow分别验收，VA与Food的缺图问题保持open。Apps的12个连接导航通过，首次中文缺字修复后，All/Study/Login三个状态及相关路径已定向复验。菜单/紧急提示是局部裁片，Profile为带DEMO标记的合成资料；具体边界见 [Figma 节点与验证记录](figma-spec.md)。自由输入、其它日期、清空、Preview、地图、滚动及其余状态尚未全部连接，不能称 Room 或全应用完成。Agents 免费每日额度用尽后没有付费；普通 SVG 导入和手动连线继续可用，总页数控制在三页以内。
+截至 Figma 运行记录 **2026-09-28 18:44:36 UTC**，`01 · Observed UI` 已核实 **63个Frame、74个连接控件**。Home/Study/Courses/QR本批22个连接样例已实跑；后补原生证据发现Home Calendar原先目标不符，现已改为Week5 DEMO，并验证Calendar往返两步，新增一个返回控件。Apps/Courses的中文缺字已修复并定向复验。Home装饰图仍有消失/恢复，VA和Food的缺图问题也保持open，不能称整体视觉通过。
+
+Home Monday/Tuesday、Apps加载、Food平移地图仍未运行；Notification/Search仅通知空态与搜索空态进入过，菜单仅抽屉进入过，其余相应帧和内部控件仍待检查。菜单/紧急提示使用局部裁片，个人页面使用合成资料；具体边界见 [Figma节点与验证记录](figma-spec.md)。自由输入、其它日期、清空、Preview、地图、滚动及其余状态尚未全部连接，不能称Room或全应用完成。Agents免费每日额度用尽后没有付费；普通SVG导入和手动连线继续可用，总页数控制在三页以内。
 
 早期捕获问题及 14:36:37 UTC 的 Mac 锁屏已经恢复：15:45:15 UTC 起重新取得真实 App 截图，随后多条原生导航成功。旧锁屏记录保留为环境历史，不作为当前阻碍或 PolyULife 缺陷。全应用覆盖与原型完成仍未获验证。
 

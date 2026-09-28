@@ -295,30 +295,70 @@ Figma标签`S-APPS-IT`、`S-APPS-JOB-CATEGORIES-LEFT`、`S-APPS-VRS-WEB-LOGIN`�
 
 VRS加载标识为公开加载截图的53×54局部，登录字标复用已有公开PolyU素材；其它卡片、分类、文字和按钮是可编辑重建，没有整页截图背景。字体修复不代表全部画面逐像素验收。此前VA和Food的图片消失问题仍保持未解决。
 
-## Study / Courses / QR / Home：13个待导入源码（本批截止快照）
+## Home / Study / Courses / QR：13帧与22个连接样例
 
-[生成脚本](../../design/scripts/build_study_svg.py)提供以下13个576×970可编辑SVG。源码检查与离线渲染已完成；截至本次Apps文档快照，还没有登记Figma节点、连接或运行验收。后续导入单独批次记录。本地源码累计62个，本批已映射Figma49帧。
+[Home · Study, Courses and Campus QR 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1)已从Home实际播放。13个576×970 SVG已导入为原生可编辑Frame/Group/Text，源码由 [生成脚本](../../design/scripts/build_study_svg.py)维护。后补的Week5修正版另增一帧及返回控件，当前累计63帧、74个连接控件。本批原22个新热点均有导航反馈，Calendar目标偏差也已按原生证据修正并复验；**Home装饰图消失/恢复仍未解决**，整体视觉不能记通过。
 
-| State | SVG source |
-| --- | --- |
-| `S-STUDY-COMPLETED` | [study-completed-demo.svg](../../design/polyulife/study-completed-demo.svg) |
-| `S-STUDY-COMPLETED-EXPANDED` | [study-completed-demo-expanded.svg](../../design/polyulife/study-completed-demo-expanded.svg) |
-| `S-STUDY-REQUIREMENTS` | [study-requirements.svg](../../design/polyulife/study-requirements.svg) |
-| `S-STUDY-OFFERINGS` | [study-subjects-public.svg](../../design/polyulife/study-subjects-public.svg) |
-| `S-STUDY-BLANK` | [study-blank-unresolved.svg](../../design/polyulife/study-blank-unresolved.svg) |
-| `S-COURSES-CANVAS` | [courses-canvas-demo.svg](../../design/polyulife/courses-canvas-demo.svg) |
-| `S-COURSES-CANVAS-EXPANDED` | [courses-canvas-demo-expanded.svg](../../design/polyulife/courses-canvas-demo-expanded.svg) |
-| `S-COURSES-BLACKBOARD` | [courses-blackboard-demo.svg](../../design/polyulife/courses-blackboard-demo.svg) |
-| `S-COURSES-BB-LOGIN` | [courses-blackboard-login.svg](../../design/polyulife/courses-blackboard-login.svg) |
-| `S-QR-DISPLAY` | [qr-demo.svg](../../design/polyulife/qr-demo.svg) |
-| `S-HOME-SCHEDULE-MON` | [home-demo-top.svg](../../design/polyulife/home-demo-top.svg) |
-| `S-HOME-SCHEDULE-TUE` | [home-demo-tuesday.svg](../../design/polyulife/home-demo-tuesday.svg) |
-| `S-HOME` | [home-demo-scrolled.svg](../../design/polyulife/home-demo-scrolled.svg) |
+| State | SVG source | Figma node | Canvas |
+| --- | --- | --- | --- |
+| `S-STUDY-COMPLETED` | [study-completed-demo.svg](../../design/polyulife/study-completed-demo.svg) | [67:2](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-2) | 0, 16800 |
+| `S-STUDY-COMPLETED-EXPANDED` | [study-completed-demo-expanded.svg](../../design/polyulife/study-completed-demo-expanded.svg) | [67:71](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-71) | 700, 16800 |
+| `S-STUDY-REQUIREMENTS` | [study-requirements.svg](../../design/polyulife/study-requirements.svg) | [67:141](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-141) | 1400, 16800 |
+| `S-STUDY-OFFERINGS` | [study-subjects-public.svg](../../design/polyulife/study-subjects-public.svg) | [67:188](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-188) | 2100, 16800 |
+| `S-STUDY-BLANK` | [study-blank-unresolved.svg](../../design/polyulife/study-blank-unresolved.svg) | [67:259](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-259) | 0, 18000 |
+| `S-COURSES-CANVAS` | [courses-canvas-demo.svg](../../design/polyulife/courses-canvas-demo.svg) | [67:271](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-271) | 700, 18000 |
+| `S-COURSES-CANVAS-EXPANDED` | [courses-canvas-demo-expanded.svg](../../design/polyulife/courses-canvas-demo-expanded.svg) | [67:360](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-360) | 1400, 18000 |
+| `S-COURSES-BLACKBOARD` | [courses-blackboard-demo.svg](../../design/polyulife/courses-blackboard-demo.svg) | [67:450](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-450) | 2100, 18000 |
+| `S-COURSES-BB-LOGIN` | [courses-blackboard-login.svg](../../design/polyulife/courses-blackboard-login.svg) | [67:485](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-485) | 0, 19200 |
+| `S-QR-DISPLAY` | [qr-demo.svg](../../design/polyulife/qr-demo.svg) | [67:513](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-513) | 700, 19200 |
+| `S-HOME-SCHEDULE-MON` | [home-demo-top.svg](../../design/polyulife/home-demo-top.svg) | [67:569](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569) | 1400, 19200 |
+| `S-HOME-SCHEDULE-TUE` | [home-demo-tuesday.svg](../../design/polyulife/home-demo-tuesday.svg) | [67:694](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-694) | 2100, 19200 |
+| `S-HOME` | [home-demo-scrolled.svg](../../design/polyulife/home-demo-scrolled.svg) | [67:820](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820) | 0, 20400 |
 
 
-Completed、My Courses与Home的课程、学分、列表数量、时间地点和考试均为显式DEMO合成资料；个人原图只用于几何参考，没有私人像素嵌入。公共标题裁片不能证明课程正文内容。QR为画叉的`DEMO / No QR code / Cannot be scanned`占位，无编码payload或二维码定位结构；条形比例也是示例，不解释为有效期。公共Requirements/Subjects和空Blackboard登录分别保留已观察状态。
+Home顶部Monday/Tuesday两帧未连线、未运行。Blank没有搜索入边，仅以独立URL起点检查Back；不把无法确认的原生搜索输入写成成功搜索。其余11个新帧已在本批Present出现，原型窗口内完整帧通常为357×601。跨模块Drawer采用先前局部裁片，实际显示为457×601；不能冒称全高原始手机布局。
 
-Study空白只叫“未解决的空白结果”，不能重命名无结果/错误；Study空白Back及Blackboard登录Back的实际返回均为Home。Home顶部/滚动位置是静态样例，不证明任意滚动。尚未测的标签反向、其它入口和数据结果不能伪造为已验证交互。
+| 热点（均为67前缀） | 实际目标 | 已测范围 |
+| --- | --- | --- |
+| Home FeatureStudyProgress `898` | Completed `67:2` | 进入、名称展开/收起、Requirements和公开目录 |
+| Completed toggle `29` / Expanded toggle `99` | `67:71` / `67:2` | 以DEMO长名称复现双向切换 |
+| TabRequirements `11` / RequirementCARA `157` | `67:141` / `67:188` | 一项公开类别目录 |
+| Home FeatureMyCourses `904` | Canvas `67:271` | 进入、名称展开/收起、切Blackboard |
+| Canvas toggle `292` / Expanded toggle `382` | `67:360` / `67:271` | 以DEMO课程复现双向切换 |
+| TabBlackboard `280` / Blackboard Open `465` | `67:450` / `67:485` | 到达空登录表单，没有真实登录 |
+| Blackboard login Back `507` | Home `67:820` | 按原生实际目标返回Home |
+| Blank Back `264` | Home `67:820` | 独立Blank起点返回，没有模拟目录搜索 |
+| Home NavQR `938` / QR NavHome `551` | `67:513` / `67:820` | 不可扫描的DEMO占位及返回 |
+| Home Apps `890` / Food `885` / Room `878` | `61:2` / `50:1911` / `12:198` | 进入已有样例，未重测模块全部内部控件 |
+| Home More `946` / Notification `944` | `12:435` / `42:1617` | 进入已有More/通知空态 |
+| Home Calendar `935` | 当前`70:973`（先前`42:165`） | 先前目标偏差保留历史；Week5修正后复验通过 |
+| Home Search `923` / Menu `921` | `42:1716` / `50:1846` | 进入搜索空态/公开菜单裁片；内部控件尚未完整运行 |
+
+18:27:46–18:28:21实跑Home→Completed→展开→收起→Requirements→公开科目目录。通过Figma Restart重置后，18:28:30–18:29:23实跑Home→Canvas→展开→收起→Blackboard→空登录→Back Home；18:29:34–18:29:44实跑QR往返。随后八个跨模块入口分别从Home重置测试，Blank另以独立URL起点检查Back。这些Restart和URL导航属于测试设置，不能代替App内返回。完整每步时间、热点和证据见`coverage.json`。
+
+18:30批量入口调用的截图已显示对应目的页，部分立即读取的URL仍为先前节点；后续分步重查确认Food `50:1911`、Room `12:198`、More `12:435`、Calendar `42:165`、Search `42:1716`。这类观察时序差异不作为确定的连接失败，也不把旧URL当成目标成功的证明。
+
+### 中文修复与Home图片不稳定
+
+[Blackboard首次登录](../../evidence/2026-09-28-full-audit/figma-v2-present-182909-courses-login-cjk-missing.png)红按钮缺少一个中文字。将Text `67:500`改为Noto Sans SC，并同步脚本与SVG后，重新走Home→Canvas→Blackboard→Open；[18:33:59修复画面](../../evidence/2026-09-28-full-audit/figma-v2-present-183359-courses-login-cjk-fixed.png)显示完整“登录”。此定向复验通过只关闭缺字缺陷，不包含登录提交，也不消除其它视觉问题。
+
+[Home初始](../../evidence/2026-09-28-full-audit/figma-v2-present-182725-home-demo-with-decoration.png)有公开素材重建的装饰预览条，[课程返回Home](../../evidence/2026-09-28-full-audit/figma-v2-present-182923-home-return-decoration-missing.png)中该图缺失，QR返回重复缺失；18:31:16从Blank返回后的裁片又与初始图逐像素相同。记录为消失/恢复不稳定，根因尚未确认，不能称修复成功，也不能因症状相近就断言与VA/Food同根因或归为原App缺陷。
+
+### 后补原生来源核查：Calendar目标已修正
+
+18:35–18:37重新通过Computer Use操作真实Home后，Notification、Search、Menu入口分别到达此前同类空态/抽屉，原生来源缺口已补充。**Home底部Calendar实际进入Week5周课表；Figma原先却跳到Sep28的Acad空月历 `42:165`。**该按钮“能导航”与“复现正确”是两项结论，首次run保留这项来源偏差历史。实际步骤见 [原生后补核查](home-study-map-walkthrough.md#后补核查home四个入口与返回)。
+
+随后用 [calendar-week-demo.svg](../../design/polyulife/calendar-week-demo.svg)和 [生成脚本](../../design/scripts/build_week_svg.py)重建纯文字/矢量周历，导入节点 [70:973](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-973)，位置700,20400，尺寸576×970。两个课表块的数量、位置、时长、代码和教室全部是显式DEMO合成值；只沿用公共标题/日期和已观察网格结构，未复制私人课程正文。
+
+Home NavCalendar `67:935`现改连`70:973`，新周历NavHome `70:1045`返回`67:820`。18:44:10实际进入Week5，18:44:35实际返回Home，URL与截图均确认，结果截止`2026-09-28T18:44:36.057Z`。`D-HOME-CALENDAR-TARGET`因此记为已解决的限定入口偏差；旧run中的Sep28目标不被改写。此复验不证明周/日期选择和课程控件已经实现，返回时Home装饰图虽恢复可见，历史图片不稳定仍保持open。
+
+证据：[实际Week5演示画面](../../evidence/2026-09-28-full-audit/figma-v2-present-184410-home-calendar-week-five-demo.png)、[包含修正后流程说明的上下文](../../evidence/2026-09-28-full-audit/figma-v2-present-184410-home-calendar-fixed-context-account-redacted.png)。后者账户头像已整块遮盖。18:44:36返回Home裁片与此前初始Home逐像素相同，复用原文件而保留新动作时间。
+
+### 资料与样例边界
+
+Completed、My Courses与Home的课程、学分、数量、日程、时间地点和考试均为显式DEMO合成资料；没有私人源像素嵌入。公共标题裁片不能证明私人课程正文的内容或完全视觉一致。QR是画叉的`DEMO / No QR code / Cannot be scanned`占位，无编码payload或二维码定位结构，条形比例也无有效期语义。公共Requirements/Subjects与空Blackboard登录保留已观察结构。
+
+Home Room进入的是后续清空查询样例，区别于最初原生Home→Room的状态；Study/Courses/QR跳过了原生加载。Home/课程是静态滚动位置与有限数据样例，没有任意滚动、自由输入、登录、其它目录分类、反向标签或真实二维码能力。各原生待测项继续保留；Figma测试不改变原生观察状态，更不替代真人Maze评估。
 
 
 ## 文件组织

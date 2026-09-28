@@ -84,4 +84,20 @@ App 版本沿用同日已观察的 3.0.0；本段未重新做版本验收，macO
 
 主 Map 的叠加筛选与返回保留、长名称展开/收起、各入口加载后的稳定状态是当前观察事实；本批不强行增加缺陷数量。Study 输入后空白、周选择器未应用、地图手势/标记未见变化均作为待复核结果。需要重新确认输入目标、状态和设备差异后，才判断是否构成用户问题。
 
-本批没有新增已导入 Figma 节点或 Present 验收。个人页面的重建必须采用合成资料并明确标记，不能把脱敏裁片之外的正文宣称为公共视觉证据。全部模块仍有未尝试动作，`coverage.json` 的全应用完成状态维持 `not_verified`；Agent 走查不替代真人 Maze 评估。
+原生17:44批次之后，13个Home/Study/Courses/QR设计帧已导入，并对22个连接进行原型走查，见 [Figma记录](figma-spec.md)。个人页面重建采用明确标记的合成资料，不能把脱敏裁片之外的正文宣称为公共视觉证据。全部模块仍有未尝试动作，`coverage.json` 的全应用完成状态维持 `not_verified`；Agent 走查不替代真人 Maze 评估。
+
+## 后补核查：Home四个入口与返回
+
+2026-09-28 18:35:22–18:37:26 UTC（香港时间2026-09-29 02:35:22–02:37:26）重新连接当前实际Wrapper运行路径并取得真实Home截图；常规安装路径或bundle发现不单独作为成功证明。当前为Tuesday Home，继续已有登录会话。个人日程与身份仍不公开，没有修改资料或输入凭证。
+
+| 动作开始时间（UTC） | 实际操作与结果 | 证据 |
+| --- | --- | --- |
+| 18:35:48 | Home底部Notification → My Notification空态 | [Home进入通知](../../evidence/2026-09-28-full-audit/notification-183550-home-entry-empty.png) |
+| 18:36:02 | Notification底部Home → Home | 新截图的公共日期区域与 [此前Home裁片](../../evidence/2026-09-28-full-audit/home-174400-return-event-panel-only.png)逐像素相同，复用文件，实际新采集时间为18:36:05.987 |
+| 18:36:18 | Home底部Calendar → **Week5周课表** | 新18:36:21.486截图标题裁片与 [此前Week5标题](../../evidence/2026-09-28-full-audit/calendar-174154-week-five-header-only.png)逐像素相同。课程正文不公开；这不是Sep28 Acad空月历 |
+| 18:36:38 | 同一调用中先点Calendar底部Home，再点Home右上Search | [空Search](../../evidence/2026-09-28-full-audit/home-search-183641-empty.png)；两个子动作共用调用开始时间，不编造独立时间戳 |
+| 18:36:55 | Search Back → Home | [返回日期裁片](../../evidence/2026-09-28-full-audit/home-183657-search-return-event-panel-only.png) |
+| 18:37:09 | Home左上Menu → 抽屉 | [菜单项裁片](../../evidence/2026-09-28-full-audit/drawer-183710-home-entry-menu-items-only.png)；个人账户头部和右侧背景全部排除 |
+| 18:37:23 | 点击抽屉右侧遮罩 → Home | [关闭后日期裁片](../../evidence/2026-09-28-full-audit/home-183726-drawer-closed-event-panel-only.png)；结果截止18:37:26.319 |
+
+四个Home入口已独立补测，复用已存在的状态，返回目标按真实起点记录。先前More进入Search/抽屉的返回，不能替代这里Home的返回。原Figma Home Calendar指向Sep28 Acad空月历，与这次实际Week5落点冲突；随后已用合成Week5重建、改线，并于18:44:36之前实际复验往返通过，见 [Figma修正记录](figma-spec.md)。旧偏差及修复前测试保留为历史。其它入口能到达相同空态/菜单不证明其中所有控制或数据边界已完整覆盖。

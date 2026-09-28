@@ -48,3 +48,5 @@
 ## 后续Home入口与周选择器补测
 
 2026-09-28 17:41:52 UTC，从Home的My Class右侧入口到达Week5周历。随后打开选择器，点击下一周位置未确认变化；滚轮可见值移至13时标题仍为Week5，收起后也仍为Week5。17:43:58点击底部Home返回，结果截止17:44:00.905。见 [详细步骤及隐私裁片](home-study-map-walkthrough.md#home-日期my-class-与周选择器)。这补充了真实输入尝试，不证明已成功切换周；个人课程内容继续不公开，周选择与其余边界保持未完成。
+
+18:36:18另从Home底部Calendar实际进入Week5，标题裁片与前次Week5相同；Notification、Search、菜单的Home入口及返回也已独立补测。原型原先固定月历落点因此被纠正为Week5 DEMO，18:44:36前完成往返复验，见 [来源核查](home-study-map-walkthrough.md#后补核查home四个入口与返回)及 [Figma记录](figma-spec.md)。此修复不改变原生切周尚未成功的边界。

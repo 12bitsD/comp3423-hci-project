@@ -17,7 +17,8 @@ EVIDENCE = ROOT / "evidence/2026-09-28-full-audit"
 
 def text(x, y, value, size=22, weight=400, color="#171717", anchor=None):
     align = f' text-anchor="{anchor}"' if anchor else ''
-    return f'<text x="{x}" y="{y}" fill="{color}" font-family="sans-serif" font-size="{size}" font-weight="{weight}"{align}>{escape(value)}</text>'
+    font = 'Noto Sans SC' if value == '登录' else 'sans-serif'
+    return f'<text x="{x}" y="{y}" fill="{color}" font-family="{font}" font-size="{size}" font-weight="{weight}"{align}>{escape(value)}</text>'
 
 
 def rect(x, y, w, h, fill, rx=0, stroke=None, sw=1):
