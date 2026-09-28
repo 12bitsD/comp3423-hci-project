@@ -1,0 +1,26 @@
+.DS_Store
+._*
+Thumbs.db
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+token*.json
+
+# Private originals and participant identity mapping
+/private/
+/evidence/raw/
+/evidence/private/
+**/private/
+**/raw/
+
+# Local caches and transient files
+.cache/
+__pycache__/
+*.pyc
+*.tmp
+~$*

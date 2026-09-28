@@ -1,0 +1,4 @@
+interface:
+  display_name: "PolyULife 界面分析"
+  short_description: "通过 Computer Use 打开 PolyULife，观察真实界面并记录 HCI 分析证据"
+  default_prompt: "使用 $polyulife-ui-analysis 打开 PolyULife，观察我指定的流程，结合截图记录事实、HCI 问题假设和待验证改进。"
