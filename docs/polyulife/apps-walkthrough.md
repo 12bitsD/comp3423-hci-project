@@ -53,3 +53,5 @@ All 的 AX 中包含 18 项服务条目；初始截图只显示前几张卡片�
 ## 后续原型返回改造
 
 [Apps分类与返回回放](apps-return-prototype-walkthrough.md)记录Home来源保留、分类同层切换和VRS嵌套关闭。本段引用的是Figma验证，没有新增原生App观察；原有实测记录保持不变。
+
+后续更新：[可见分类互跳验证](apps-category-prototype-walkthrough.md)已新增并回放33个连接；本页的固定链限制作为历史记录保留。

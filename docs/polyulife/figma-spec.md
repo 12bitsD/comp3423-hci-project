@@ -439,3 +439,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Apps 分类与逐层返回增量
 
 [Apps返回回放记录](apps-return-prototype-walkthrough.md)修改16个既有控件、补7个分类Back，当前138个配置控件。Home打开Apps覆盖层，分类切换不累积导航历史，VRS详情/登录各关闭一层。周二完整分类链、周一七个分类状态直接Back、历史Home往返已回放并保留来源与滚动位置。任意分类互跳与独立Apps退出未验证；新增分类Back的原生逐项来源仍待补查。39张Present证据与[配置读回](../../design/polyulife/apps-overlay-layout.json)已归档。
+
+## Apps 可见分类互跳更新
+
+[分类互跳回放](apps-category-prototype-walkthrough.md)新增33条Swap overlay并逐条实跑，当前171个配置控件。54步路线后VRS逐层返回和Monday首页滚动位置保留通过。原生记录没有增加；源分类组合、完整横向条/列表和独立退出仍待验证。配置及说明见[配置读回](../../design/polyulife/apps-category-connections.json)。
