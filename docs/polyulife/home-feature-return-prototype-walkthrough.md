@@ -72,3 +72,5 @@ Tuesday Food入口再次出现地图和店铺图片全部缺失，文字和卡�
 | 2026-09-28T22:42:31.142Z | Home description saved and read back after reload; direct-return-only and visual failure limits visible | [E-HOME-FEATURE-P-38](../../evidence/2026-09-28-full-audit/figma-home-feature-description.png) |
 
 本批38张实际Present截图仅遮盖账号区域后转PNG，哈希/尺寸/遮盖像素校验通过；原始JPEG位于忽略目录。Home说明已在Present重载后读回。Agent回放不替代原生观察或Maze真人评估。
+
+后续更新：[Study/Courses返回栈](study-courses-return-prototype-walkthrough.md)将这两个模块的样例内部路径改为overlay并验证三个Home来源；上文历史Back配置保留作历史。其它模块内部绕行仍待完成。

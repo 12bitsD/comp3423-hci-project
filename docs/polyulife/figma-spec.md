@@ -447,3 +447,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Home功能入口与直接返回更新
 
 [十入口回放](home-feature-return-prototype-walkthrough.md)确认五个模块初始页Back原先未连接，现补接history Back。Monday/Tuesday共十组直接往返通过并保留滚动位置，当前176个配置控件。内部绕行和独立起点未完成；Tuesday Food缺图复现，视觉保持未通过。原生记录未增加。
+
+## Study/Courses返回栈更新
+
+[返回栈回放](study-courses-return-prototype-walkthrough.md)更新17个控件并新增5个外层Back，当前181个配置控件。三个Home来源的六条样例链路及Tuesday八个外层出口通过，12次返回保留原Home滚动区域。中间状态原生出口仍为推断；列表、搜索、逆向页签、blank来源和其它模块内部绕行未完成。

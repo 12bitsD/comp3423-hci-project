@@ -1,0 +1,310 @@
+{
+  "revision": "FIGMA-STUDY-COURSES-STACK",
+  "edits": [
+    {
+      "trigger": "113:84",
+      "source": "67:569",
+      "target": "67:2",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-STUDY-COMPLETED] Completed — DEMO\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "113:39",
+      "source": "67:694",
+      "target": "67:2",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-STUDY-COMPLETED] Completed — DEMO\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:898",
+      "source": "67:820",
+      "target": "67:2",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-STUDY-COMPLETED] Completed — DEMO\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "113:90",
+      "source": "67:569",
+      "target": "67:271",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-COURSES-CANVAS] Canvas — DEMO\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "113:45",
+      "source": "67:694",
+      "target": "67:271",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-COURSES-CANVAS] Canvas — DEMO\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:904",
+      "source": "67:820",
+      "target": "67:271",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-COURSES-CANVAS] Canvas — DEMO\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:29",
+      "source": "67:2",
+      "target": "67:71",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-STUDY-COMPLETED-EXPANDED] Completed expanded — DEMO\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:99",
+      "source": "67:71",
+      "target": "67:2",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-STUDY-COMPLETED] Completed — DEMO\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:11",
+      "source": "67:2",
+      "target": "67:141",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-STUDY-REQUIREMENTS] Requirements\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:157",
+      "source": "67:141",
+      "target": "67:188",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-STUDY-OFFERINGS] Public Subjects on Offer\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:292",
+      "source": "67:271",
+      "target": "67:360",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-COURSES-CANVAS-EXPANDED] Canvas expanded — DEMO\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:382",
+      "source": "67:360",
+      "target": "67:271",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-COURSES-CANVAS] Canvas — DEMO\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:280",
+      "source": "67:271",
+      "target": "67:450",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-COURSES-BLACKBOARD] Blackboard — DEMO\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:465",
+      "source": "67:450",
+      "target": "67:485",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-COURSES-BB-LOGIN] Blackboard login — empty fields\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:507",
+      "source": "67:485",
+      "target": null,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 10 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:351",
+      "source": "67:271",
+      "target": null,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 11 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "trigger": "67:62",
+      "source": "67:2",
+      "target": null,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 12 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:71",
+      "trigger": "67:132",
+      "target": null,
+      "action": "Close overlay",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 13 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:141",
+      "trigger": "67:182",
+      "target": null,
+      "action": "Close overlay",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 14 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:188",
+      "trigger": "67:253",
+      "target": null,
+      "action": "Close overlay",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 15 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:360",
+      "trigger": "67:441",
+      "target": null,
+      "action": "Close overlay",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 16 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:450",
+      "trigger": "67:476",
+      "target": null,
+      "action": "Close overlay",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 17 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    }
+  ],
+  "flow_descriptions": {
+    "67:569": "Observed Monday / Tuesday Home sample with continuous scrolling and synthetic DEMO agenda. Study and Courses sample detours now preserve the Home caller and scroll: title expansion/collapse, Requirements to Offerings, Canvas to Blackboard to empty login. Both chains replayed from Monday, Tuesday and legacy Home; all eight outer exits replayed from Tuesday. Exact native middle-state Back behavior remains inferred. Map, Room and Food direct returns passed previously; their deeper detours remain incomplete. Food images disappeared again, so visual acceptance is not passed. Lists, reverse tabs, search, other services, Home dates/cards/week picker/sheet and Study blank remain incomplete. Prototype replay adds no native observations and is not human evaluation.",
+    "67:820": "Observed UI reconstruction with synthetic DEMO coursework, schedules and identity; QR is a non-scannable placeholder. Study and Courses sample detours preserve the Home caller: title expansion/collapse, Requirements to Offerings, Canvas to Blackboard to empty login. Both chains replayed from legacy, Monday and Tuesday Home. Middle-state outer Back behavior is a prototype generalization awaiting native verification. Loading is skipped. Calendar enters Week 5 with synthetic data. Lists, reverse tabs, search, login submission, bookings, other module detours and unobserved links remain incomplete. Study blank is an independent unresolved reference. Agent replay is separate from native observation and human testing."
+  },
+  "pixel_comparisons": [
+    {
+      "file": "figma-study-stack-tue-study-return.jpg",
+      "baseline": "figma-study-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-tue-courses-return.jpg",
+      "baseline": "figma-study-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-tue-completed-exit-return.jpg",
+      "baseline": "figma-study-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-tue-expanded-exit-return.jpg",
+      "baseline": "figma-study-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-tue-requirements-exit-return.jpg",
+      "baseline": "figma-study-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-tue-canvas-exit-return.jpg",
+      "baseline": "figma-study-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-tue-canvas-expanded-exit-return.jpg",
+      "baseline": "figma-study-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-tue-blackboard-exit-return.jpg",
+      "baseline": "figma-study-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-mon-study-chain-return.jpg",
+      "baseline": "figma-study-stack-mon-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-mon-courses-chain-return.jpg",
+      "baseline": "figma-study-stack-mon-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-legacy-study-chain-return.jpg",
+      "baseline": "figma-study-stack-legacy-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "figma-study-stack-legacy-courses-chain-return.jpg",
+      "baseline": "figma-study-stack-legacy-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    }
+  ],
+  "limitations": [
+    "Only existing Study/Courses sample paths were replayed. Reverse tabs, full lists, other course rows, search and standalone module starts remain incomplete.",
+    "Five new middle-state outer Back controls are prototype generalizations; exact native middle-state exits remain unobserved. Existing Completed/Canvas Back are also generalized; empty Blackboard login -> Home has native evidence.",
+    "Study blank remains an independent unresolved reference with its previous fixed Home return. No Offerings search -> blank connection was invented; Offerings inner Back remains unconnected.",
+    "Loading is skipped and personal coursework/schedules are synthetic DEMO. Prototype geometry is not full native fidelity.",
+    "Map/Room/Food deeper detours and outstanding image defects remain unresolved.",
+    "Native Computer Use still reports Mac locked after user recovery message; no new native evidence in this batch."
+  ]
+}
