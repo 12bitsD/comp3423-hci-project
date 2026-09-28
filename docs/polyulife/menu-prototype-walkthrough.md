@@ -57,7 +57,7 @@
 
 ## 仍未完成
 
-- **导航样例通过，视觉只部分通过。** Privacy/Terms 文本在右边界仍裁切，字体与换行需要修复；本轮新观察到的 cookie Close、正文滚动和 Terms 加载状态尚未接入原型。
+- **导航样例通过，视觉只部分通过。** Privacy/Terms 的初始视口右侧裁切已在后续字体修复中消除（见下）；字体仍为近似。新观察到的 cookie Close、正文滚动和 Terms 加载状态尚未接入原型。
 - 抽屉的来源背景使用灰色条，尚未重建真实内容覆盖效果。Emergency 以独立 frame 展示，尚未实现原生 sheet overlay 的位置和背景。Mac General 图标近似，只有关闭路径，没有实现其它标签页或偏好变更。
 - Location 无反馈属于原生观察中的未确认结果；没有编造权限页。无标签开关、Log Out、Call 都不提供伪造的成功结果。
 - 旧菜单裁片保留在画布历史参考中；完整应用仍是 `not_verified`。其它模块未尝试动作、图片缺失与输入/滚动边界继续沿用台账。
@@ -65,3 +65,15 @@
 源文件：[完整 DEMO 抽屉](../../design/polyulife/drawer-full-demo.svg)、[Mac General](../../design/polyulife/mac-general.svg)、[生成脚本](../../design/scripts/build_menu_svg.py)。共享 screenshot 与设计稿分别索引，设计稿不替代原生证据。
 
 [19:56:00 最终菜单流程上下文](../../evidence/2026-09-28-full-audit/figma-menu-195600-02.png)确认流程名称、DEMO 抽屉和可见的未完成范围说明；额外自动起点 Flow 1 已移除。
+
+
+## 政策页字体修复复验（2026-09-29 本地时间）
+
+通过 Computer Use 在 Figma 编辑器中只选择 `VisiblePolicyText` 和 `CookieNotice` 的文本子层，将导入后实际显示的 Inter 改为可用的 Roboto。正文保持 21.7 px，cookie 保持 20.3 px；Terms 的 Website Contents 仍为粗体。没有改变文案、字号、控件位置或原型连接。同步修改两个 SVG 中相同文本层的字体声明。
+
+- [Privacy 实际 Present 截图](../../evidence/2026-09-28-full-audit/figma-privacy-typography.png)：正文及 cookie 首行右侧完整显示。
+- [Terms 实际 Present 截图](../../evidence/2026-09-28-full-audit/figma-terms-typography.png)：正文、粗体小标题及 cookie 首行右侧完整显示。
+
+两张图均是 Figma 重建结果的实际浏览器截图，完整保留 1280×720 视口；画面没有账号栏或私人字段，因此无需遮挡。它们不作为原生应用证据。Roboto 是近似字体，并未识别出原生网页确切字体；底部 cookie 内容仍按初始视口高度截断，关闭和滚动交互仍未实现。
+
+本轮尝试恢复原生观察时 Computer Use 仍返回 Mac 锁屏，因此没有新增原生状态或已观察动作。完整应用仍为 `not_verified`。

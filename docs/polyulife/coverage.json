@@ -16437,6 +16437,50 @@
         "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-56-00-753Z-02-d6378fd91aba.jpg"
       },
       "source": "Actual Present screenshot after flow name and explicit limitations description saved/read back."
+    },
+    {
+      "id": "E-FIGMA-PRIVACY-TYPOGRAPHY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-privacy-typography.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:06:31.526780+00:00",
+      "sha256": "f710a926d3cd1c432bb23a8cf261162656595cd53e9bda9f30e08157f1dae601",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PRIVACY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-privacy-typography.jpg"
+      },
+      "source": "Actual Figma Present screenshot after changing only VisiblePolicyText and CookieNotice text to Roboto. Public policy content, no account chrome or personal fields; full viewport retained. This is reconstruction verification, not native app evidence."
+    },
+    {
+      "id": "E-FIGMA-TERMS-TYPOGRAPHY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-terms-typography.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:08:28.995806+00:00",
+      "sha256": "c4f5097cb7c4788c7bbdf41ead67857c76b9b973d80a1774263cb511359482f1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-terms-typography.jpg"
+      },
+      "source": "Actual Figma Present screenshot after changing only VisiblePolicyText and CookieNotice text to Roboto. Public policy content, no account chrome or personal fields; full viewport retained. This is reconstruction verification, not native app evidence."
     }
   ],
   "findings": [
@@ -18118,7 +18162,7 @@
           "E-PRIVACY"
         ],
         "design_source_path": "../../design/polyulife/privacy-policy.svg",
-        "design_source_sha256": "0f6df496b157868ddc2341f810be8d37811db8abc8aba8ff870fc0a70baf4daf",
+        "design_source_sha256": "718e3f313461da7bb0ad3203e96e4fe76869b2cbaec78cb544259dd9603fb541",
         "canvas_position": [
           0,
           9600
@@ -18131,13 +18175,13 @@
           "frame_size_independently_verified": false,
           "source_geometry": "Size read from imported SVG source; this batch has not had independent per-frame property verification."
         },
-        "content_policy": "Editable reconstruction of the public first viewport from privacy-policy-160223-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. Page content below the screenshot and cookie behavior were not observed and are not invented. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype.",
-        "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
+        "content_policy": "Editable reconstruction of the public first viewport from privacy-policy-160223-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. This source reconstructs the initial viewport only. Later native cookie dismissal and scrolled viewports are recorded in menu-settings-walkthrough.md; these states are not yet implemented here. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype. Body and cookie text use Roboto as an explicit approximation; the exact native font remains unidentified.",
+        "native_editability": "Body and CookieNotice text children selected and font family edited in actual Figma UI; body 21.7 px, cookie 20.3 px. Terms mixed regular/bold styles retained and visually confirmed.",
         "visual_review": {
-          "status": "failed",
-          "summary": "Menu sample actually viewed and replayed. Policy text clipping remains; see menu-prototype-walkthrough.md.",
+          "status": "partial",
+          "summary": "Initial viewport body and cookie horizontal clipping repaired and verified in actual Present. Approximate typography, cookie dismissal, loading and continuous scroll remain open.",
           "evidence_ids": [
-            "E-FIGMA-MENU-TRACE"
+            "E-FIGMA-PRIVACY-TYPOGRAPHY"
           ],
           "deviation_ids": [
             "D-MENU-FIDELITY"
@@ -18165,7 +18209,7 @@
           "E-TERMS"
         ],
         "design_source_path": "../../design/polyulife/terms-of-use.svg",
-        "design_source_sha256": "6bf93e9a1e5250dcac701f60be5920980540fc48866a5444c0ecde2760c9e09c",
+        "design_source_sha256": "e505b5ab5d65fad59096ef106c0854d69987ede074af111a220c297ba0b7cbca",
         "canvas_position": [
           700,
           9600
@@ -18178,13 +18222,13 @@
           "frame_size_independently_verified": false,
           "source_geometry": "Size read from imported SVG source; this batch has not had independent per-frame property verification."
         },
-        "content_policy": "Editable reconstruction of the public first viewport from terms-of-use-160331-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. Page content below the screenshot and cookie behavior were not observed and are not invented. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype.",
-        "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
+        "content_policy": "Editable reconstruction of the public first viewport from terms-of-use-160331-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. This source reconstructs the initial viewport only. Later native cookie dismissal and scrolled viewports are recorded in menu-settings-walkthrough.md; these states are not yet implemented here. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype. Body and cookie text use Roboto as an explicit approximation; the exact native font remains unidentified.",
+        "native_editability": "Body and CookieNotice text children selected and font family edited in actual Figma UI; body 21.7 px, cookie 20.3 px. Terms mixed regular/bold styles retained and visually confirmed.",
         "visual_review": {
-          "status": "failed",
-          "summary": "Menu sample actually viewed and replayed. Policy text clipping remains; see menu-prototype-walkthrough.md.",
+          "status": "partial",
+          "summary": "Initial viewport body and cookie horizontal clipping repaired and verified in actual Present. Approximate typography, cookie dismissal, loading and continuous scroll remain open.",
           "evidence_ids": [
-            "E-FIGMA-MENU-TRACE"
+            "E-FIGMA-TERMS-TYPOGRAPHY"
           ],
           "deviation_ids": [
             "D-MENU-FIDELITY"
@@ -23527,12 +23571,14 @@
           "S-TERMS"
         ],
         "original_behavior": "Drawer overlays caller content; emergency is a native sheet; policy text wraps inside embedded page and supports cookie Close/body scroll. Push opens a separate Mac General window.",
-        "current_implementation": "Full DEMO drawer has neutral grey caller strip and uses Back. Emergency is a standalone frame. Mac General approximate with only Close. Policy initial view has right-edge text clipping and lacks cookie/scroll branches.",
+        "current_implementation": "Full DEMO drawer has neutral grey caller strip and uses Back. Emergency is a standalone frame. Mac General approximate with only Close. Policy initial viewport horizontal text clipping repaired with approximate Roboto font; cookie/scroll/loading branches remain absent.",
         "impact": "Navigation samples pass but full-fidelity visual and interaction acceptance remains incomplete.",
-        "next_step": "Implement faithful overlay and policy wrapping/cookie/scroll states; keep consequential controls unexecuted.",
+        "next_step": "Implement faithful overlays and observed cookie/loading/continuous-scroll behavior; retain approximate-font limitation and keep consequential controls unexecuted.",
         "evidence_ids": [
           "E-FIGMA-MENU-TRACE",
-          "E-MENU-RECHECK-TRACE"
+          "E-MENU-RECHECK-TRACE",
+          "E-FIGMA-PRIVACY-TYPOGRAPHY",
+          "E-FIGMA-TERMS-TYPOGRAPHY"
         ]
       }
     ],
