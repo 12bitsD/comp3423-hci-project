@@ -2,7 +2,7 @@
 
 本仓库记录 COMP3423 小组项目的研究、界面证据、设计决策与评估过程。当前**暂定 PolyULife 为研究对象，并行收集 Web 备选**；选题、具体功能和分工仍由小组讨论确认。
 
-协作入口为私有仓库 [12bitsD/comp3423-hci-project](https://github.com/12bitsD/comp3423-hci-project)。用 GitHub Issues 记录任务和待讨论问题，Pull Request 审阅改动，仓库文件保存研究材料与重要决策。
+协作入口为公开仓库 [12bitsD/comp3423-hci-project](https://github.com/12bitsD/comp3423-hci-project)，任何人都可以读取和克隆。用 GitHub Issues 记录任务和待讨论问题，Pull Request 审阅改动，仓库文件保存研究材料与重要决策。
 
 ## 当前进展
 
@@ -22,11 +22,11 @@
 | 可复用的应用操作与 HCI 分析流程 | [PolyULife skill](.agents/skills/polyulife-ui-analysis/SKILL.md) |
 | 新机器安装、权限配置和验收 | [安装与配置](.agents/skills/polyulife-ui-analysis/references/setup.md) |
 | 截图、步骤记录和隐私处理约定 | [证据目录说明](evidence/README.md) |
-| 获取访问权限、分支与 PR 协作 | [协作说明](CONTRIBUTING.md) |
+| 克隆仓库、写入权限与 PR 协作 | [协作说明](CONTRIBUTING.md) |
 
 ## 在 Codex 中使用嵌入的 skill
 
-1. 获得仓库访问权限后克隆 `https://github.com/12bitsD/comp3423-hci-project.git`，在 Codex 中将仓库根目录打开为项目。
+1. 克隆 `https://github.com/12bitsD/comp3423-hci-project.git`，在 Codex 中将仓库根目录打开为项目；读取和克隆无需协作者邀请。
 2. 本仓库已包含 `.agents/skills/polyulife-ui-analysis/`，无需依赖某位组员的全局 skill。首次运行先按 [安装与配置](.agents/skills/polyulife-ui-analysis/references/setup.md) 完成 Mac 应用和 Computer Use 配置。
 3. 在项目聊天中输入：
 
@@ -36,10 +36,10 @@
 
 ## 协作方式
 
-- 将 GitHub 用户名或个人主页 URL 提供给仓库 owner `12bitsD`，接受协作者邀请后访问和克隆私有仓库；不需要 Google 邮箱。
+- 仓库公开可读、可克隆。需要直接推送工作分支的组员，将 GitHub 用户名或个人主页 URL 提供给仓库 owner `12bitsD`，接受协作者邀请后获得写入权限；不需要 Google 邮箱。尚无写入权限时可通过 fork 和 PR 提交改动。
 - 工作分支使用 `feat/` 前缀，例如 `feat/room-enquiry-analysis`。按一次可复查的研究或修改提交，发起 Pull Request 并注明证据和未完成项。
 - 一次流程分析至少记录运行环境、起点、实际动作、页面反馈及证据位置。已观察与未观察的内容分别标注，具体格式见 [证据约定](evidence/README.md)。
-- 仓库只提交适合团队共享的材料。不要上传账号密码、令牌、原始个人截图、二维码、未经脱敏的参与者资料或会议录音；本地原始材料放在被忽略的目录中。
+- 仓库只提交适合公开的材料。不要上传账号密码、令牌、原始个人截图、二维码、未经脱敏的参与者资料或会议录音；本地原始材料放在被忽略的目录中。
 - Agent 走查用于整理证据与提出设计假设。课程要求的真人参与和 Maze 评估按 [项目简述](docs/project-brief.md) 执行。
 
 当前任务：[Room 查询 Computer Use 取证 #1](https://github.com/12bitsD/comp3423-hci-project/issues/1)、[收集 Web 备选 #2](https://github.com/12bitsD/comp3423-hci-project/issues/2)。任务认领和讨论在 Issues 中进行，达成的决定更新 [决策记录](docs/decisions.md)。完整步骤见 [协作说明](CONTRIBUTING.md)。
