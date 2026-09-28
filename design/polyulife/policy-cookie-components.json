@@ -1,0 +1,84 @@
+{
+  "revision_id": "FIGMA-POLICY-COOKIE-V2",
+  "component_states": [
+    {
+      "state_id": "S-PRIVACY-NO-COOKIE",
+      "parent_frame_node_id": "50:2058",
+      "instance_node_id": "98:7",
+      "component_set_node_id": "93:3",
+      "default_variant_node_id": "93:2",
+      "target_variant": {
+        "property": "Property 1",
+        "value": "Dismissed"
+      },
+      "close_trigger_master_node_id": "50:1904",
+      "instance_position": [
+        43,
+        902.5
+      ],
+      "instance_dimensions": [
+        499,
+        100
+      ],
+      "revealed_fragment_position": [
+        65,
+        903
+      ],
+      "design_source_path": "../../design/polyulife/privacy-policy-no-cookie.svg",
+      "design_source_sha256": "6a39e8eac1ea72ae662bc32ef14451c19e79595dd20fbc01d1f8e88b58c809cb",
+      "source_evidence_ids": [
+        "E-MENU-N-18"
+      ],
+      "prototype_evidence_ids": [
+        "E-POLICY-COOKIE-P-14",
+        "E-POLICY-COOKIE-TRACE"
+      ],
+      "prototype_run_ids": [
+        "PROTO-POLICY-COOKIE-V2-001"
+      ],
+      "verification_status": "cookie_dismissal_and_back_passed_scroll_unimplemented",
+      "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover."
+    },
+    {
+      "state_id": "S-TERMS-NO-COOKIE",
+      "parent_frame_node_id": "50:1862",
+      "instance_node_id": "95:2",
+      "component_set_node_id": "102:12",
+      "default_variant_node_id": "102:13",
+      "target_variant": {
+        "property": "Property 1",
+        "value": "Dismissed",
+        "node_id": "102:19"
+      },
+      "close_trigger_master_node_id": "102:17",
+      "instance_position": [
+        43,
+        902.5
+      ],
+      "instance_dimensions": [
+        499,
+        100
+      ],
+      "revealed_fragment_position": [
+        65,
+        902.5
+      ],
+      "design_source_path": "../../design/polyulife/terms-of-use-no-cookie.svg",
+      "design_source_sha256": "22929a83708264304bff368e752aa3900e1fc2811b790d118de86d7638abca4c",
+      "source_evidence_ids": [
+        "E-MENU-N-23"
+      ],
+      "prototype_evidence_ids": [
+        "E-POLICY-COOKIE-P-17",
+        "E-POLICY-COOKIE-TRACE"
+      ],
+      "prototype_run_ids": [
+        "PROTO-POLICY-COOKIE-V2-001"
+      ],
+      "verification_status": "cookie_dismissal_and_back_passed_scroll_unimplemented",
+      "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover."
+    }
+  ],
+  "implementation": "Independent main component sets for Privacy and Terms, each Default -> Dismissed. Dismissed hides all content children without navigating. Existing screen Back retains caller history.",
+  "remaining": "Full scrolling, Terms loading, repeat-entry native persistence and wordmark stability unverified."
+}

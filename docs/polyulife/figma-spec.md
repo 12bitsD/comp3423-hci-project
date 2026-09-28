@@ -422,4 +422,8 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 
 ## 菜单与 Mac 设置交接增量
 
-[菜单原型记录](menu-prototype-walkthrough.md)将完整 DEMO 抽屉替换当前菜单映射，并新增 Mac General 窗口。15 个菜单控件已在 Present 回放（包含1个现有连接改目标），当前76个映射画板、108个交互控件。导航样例通过；政策文字裁切、cookie/滚动分支和弹层背景仍未完成。
+[菜单原型记录](menu-prototype-walkthrough.md)将完整 DEMO 抽屉替换当前菜单映射，并新增 Mac General 窗口。15 个菜单控件已在 Present 回放（包含1个现有连接改目标），该菜单批次为76个映射画板、108个交互控件；后续政策 cookie 增量为110个控件，另有2个画板内状态。政策文字裁切和 cookie 关闭已修复，滚动、加载、弹层背景及标志图片稳定性仍未完成。
+
+## 政策 cookie 画板内状态
+
+[独立组件与实跑记录](policy-cookie-prototype-walkthrough.md)对应既有两张政策画板；关闭不增加导航历史。`coverage.json` 的 `figma.component_state_mappings` 单独记录内部状态及源稿哈希，避免把状态变体算成新全屏画板。

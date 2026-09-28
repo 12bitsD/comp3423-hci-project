@@ -16481,6 +16481,624 @@
         "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-terms-typography.jpg"
       },
       "source": "Actual Figma Present screenshot after changing only VisiblePolicyText and CookieNotice text to Roboto. Public policy content, no account chrome or personal fields; full viewport retained. This is reconstruction verification, not native app evidence."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-drawer-start.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:28:08.676Z",
+      "sha256": "a94b8b1c7dc5cd8d2a83955d47e35d4f925b88632dd92c2a341a047866ebe1e0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-drawer-start.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 通知页打开抽屉; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-privacy-visible.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:28:16.256Z",
+      "sha256": "3d5a49d814d5d970078c50026e7151cdf9544ac8c4c6cc3557c78473361b70ff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PRIVACY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-privacy-visible.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Privacy 提示可见; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-privacy-dismissed.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:28:25.292Z",
+      "sha256": "fca664601622336ae2830baf49080757aaa5033115d7708eeb7e5da02f5e98d7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PRIVACY-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-privacy-dismissed.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Privacy 关闭提示并露出第二段; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-privacy-back.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:28:34.326Z",
+      "sha256": "a94b8b1c7dc5cd8d2a83955d47e35d4f925b88632dd92c2a341a047866ebe1e0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-privacy-back.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Privacy Back 回抽屉; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-terms-visible.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:28:43.278Z",
+      "sha256": "546a873d2d59364010a5d7b1cc4c0a2b3e1ff939cfcf1332f80f3290a9234582",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-terms-visible.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 失败：Privacy 关闭后 Terms 提示也消失; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-restarted.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:29:17.442Z",
+      "sha256": "546a873d2d59364010a5d7b1cc4c0a2b3e1ff939cfcf1332f80f3290a9234582",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-restarted.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Restart 首次点击未生效，仍在 Terms; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-restart-confirmed.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:29:30.032Z",
+      "sha256": "a173a0e385ca29f0d8259f3c573ae3cd3425fdce78c6c38b8a8504d362c209dc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-restart-confirmed.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 按 Enter 激活 Restart，回通知页; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-replay-privacy-visible.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:29:50.257Z",
+      "sha256": "aa3f8d0ac302ee5cfc29f78c868c552826e7f580bc3ef121c861d852674acb18",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PRIVACY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-replay-privacy-visible.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 重启复验：Privacy 提示可见，但学校标志缺失; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-replay-privacy-dismissed.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:30:00.680Z",
+      "sha256": "89637a6ece34cbb31bf76725198e55edd12249b58785af2e66a7a402ff9fa337",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PRIVACY-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-replay-privacy-dismissed.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 重启复验：Privacy 关闭，学校标志仍缺失; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-replay-terms-visible.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:30:20.161Z",
+      "sha256": "e7079126640b5c9007326161eb352b9871dea04469412e483040778165a64599",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-replay-terms-visible.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 重启复验失败：Terms 提示仍被串联关闭，学校标志缺失; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-start.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:33:52.050Z",
+      "sha256": "f5486516852b825805a4058196310947283ee36cd665533b8abc47634e1f627c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-start.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 独立组件修复后重启：转场暂空; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-start-loaded.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:34:00.250Z",
+      "sha256": "a173a0e385ca29f0d8259f3c573ae3cd3425fdce78c6c38b8a8504d362c209dc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-start-loaded.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 加载完成：通知页; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-privacy-visible.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:34:20.981Z",
+      "sha256": "3d5a49d814d5d970078c50026e7151cdf9544ac8c4c6cc3557c78473361b70ff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PRIVACY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-privacy-visible.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 独立组件：Privacy 提示可见; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-privacy-dismissed.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:34:30.206Z",
+      "sha256": "fca664601622336ae2830baf49080757aaa5033115d7708eeb7e5da02f5e98d7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PRIVACY-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-privacy-dismissed.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 独立组件：Privacy 关闭成功; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-privacy-back.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:34:42.324Z",
+      "sha256": "a94b8b1c7dc5cd8d2a83955d47e35d4f925b88632dd92c2a341a047866ebe1e0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-privacy-back.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 独立组件：Privacy Back 直接回抽屉; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-terms-visible.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:34:51.203Z",
+      "sha256": "b77edd3e8b0d4fc31ad033451d652b11553165f3550be58a6080ea537a52ef48",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-terms-visible.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 独立组件：Terms 提示独立显示; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-terms-dismissed.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:35:00.396Z",
+      "sha256": "546a873d2d59364010a5d7b1cc4c0a2b3e1ff939cfcf1332f80f3290a9234582",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-terms-dismissed.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 独立组件：Terms 关闭成功; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-terms-back.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:35:08.840Z",
+      "sha256": "a94b8b1c7dc5cd8d2a83955d47e35d4f925b88632dd92c2a341a047866ebe1e0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-terms-back.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 独立组件：Terms Back 直接回抽屉; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-independent-notification-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:35:21.202Z",
+      "sha256": "a173a0e385ca29f0d8259f3c573ae3cd3425fdce78c6c38b8a8504d362c209dc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-independent-notification-return.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 关闭抽屉返回通知来源; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-P-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-policy-cookie-final-context.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T20:37:31.887Z",
+      "sha256": "942c2c6a362bcfa93f5e780d7d57afd907c3168cf62decbd932b565ae7505cba",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-policy-cookie-final-context.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 更新后的流程说明保存并在 Present 读回; prototype evidence only, not native app observation."
+    },
+    {
+      "id": "E-POLICY-COOKIE-TRACE",
+      "type": "interaction_trace",
+      "path": "policy-cookie-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY",
+        "S-PRIVACY-NO-COOKIE",
+        "S-TERMS",
+        "S-TERMS-NO-COOKIE",
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-PRIVACY-COOKIE-CLOSE",
+        "A-TERMS-COOKIE-CLOSE",
+        "A-PRIVACY-BACK",
+        "A-TERMS-BACK"
+      ],
+      "source": "Computer Use Figma editing and actual Present replay; initial failure, independent-component repair, source-aware Back and image-rendering limitation."
     }
   ],
   "findings": [
@@ -18162,7 +18780,7 @@
           "E-PRIVACY"
         ],
         "design_source_path": "../../design/polyulife/privacy-policy.svg",
-        "design_source_sha256": "718e3f313461da7bb0ad3203e96e4fe76869b2cbaec78cb544259dd9603fb541",
+        "design_source_sha256": "6608c09031d6cf9215671ec5eb76412e11b90f5016a172e443468373cec56fe8",
         "canvas_position": [
           0,
           9600
@@ -18175,25 +18793,29 @@
           "frame_size_independently_verified": false,
           "source_geometry": "Size read from imported SVG source; this batch has not had independent per-frame property verification."
         },
-        "content_policy": "Editable reconstruction of the public first viewport from privacy-policy-160223-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. This source reconstructs the initial viewport only. Later native cookie dismissal and scrolled viewports are recorded in menu-settings-walkthrough.md; these states are not yet implemented here. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype. Body and cookie text use Roboto as an explicit approximation; the exact native font remains unidentified.",
+        "content_policy": "Editable reconstruction of the public first viewport from privacy-policy-160223-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. This source reconstructs the initial viewport only. Later native cookie dismissal and scrolled viewports are recorded in menu-settings-walkthrough.md; cookie dismissal is now implemented with independent per-policy components; scrolled and loading states are not yet implemented. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype. Body and cookie text use Roboto as an explicit approximation; the exact native font remains unidentified. Only the paragraph fragments exposed in the recorded no-cookie viewport are added. Full policy contents are not inferred.",
         "native_editability": "Body and CookieNotice text children selected and font family edited in actual Figma UI; body 21.7 px, cookie 20.3 px. Terms mixed regular/bold styles retained and visually confirmed.",
         "visual_review": {
           "status": "partial",
-          "summary": "Initial viewport body and cookie horizontal clipping repaired and verified in actual Present. Approximate typography, cookie dismissal, loading and continuous scroll remain open.",
+          "summary": "Initial and cookie-dismissed viewport checked; approximate typography and geometry. University wordmark disappeared in a restarted replay, later reloaded images are not proof of stability.",
           "evidence_ids": [
-            "E-FIGMA-PRIVACY-TYPOGRAPHY"
+            "E-POLICY-COOKIE-P-14",
+            "E-POLICY-COOKIE-TRACE"
           ],
           "deviation_ids": [
-            "D-MENU-FIDELITY"
+            "D-MENU-FIDELITY",
+            "D-POLICY-WORDMARK-RENDER"
           ]
         },
         "prototype_evidence_ids": [
-          "E-FIGMA-MENU-TRACE"
+          "E-FIGMA-MENU-TRACE",
+          "E-POLICY-COOKIE-TRACE"
         ],
         "prototype_status": "navigation_passed_visual_partial",
         "connection_status": "recorded_menu_controls_configured_and_replayed",
         "prototype_run_ids": [
-          "PROTO-MENU-V2-001"
+          "PROTO-MENU-V2-001",
+          "PROTO-POLICY-COOKIE-V2-001"
         ]
       },
       {
@@ -18209,7 +18831,7 @@
           "E-TERMS"
         ],
         "design_source_path": "../../design/polyulife/terms-of-use.svg",
-        "design_source_sha256": "e505b5ab5d65fad59096ef106c0854d69987ede074af111a220c297ba0b7cbca",
+        "design_source_sha256": "4a7401ee7c55b102b90e38b70b7e2a0ec35a437fb2eb5c1e7a0f7999235eb8db",
         "canvas_position": [
           700,
           9600
@@ -18222,25 +18844,29 @@
           "frame_size_independently_verified": false,
           "source_geometry": "Size read from imported SVG source; this batch has not had independent per-frame property verification."
         },
-        "content_policy": "Editable reconstruction of the public first viewport from terms-of-use-160331-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. This source reconstructs the initial viewport only. Later native cookie dismissal and scrolled viewports are recorded in menu-settings-walkthrough.md; these states are not yet implemented here. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype. Body and cookie text use Roboto as an explicit approximation; the exact native font remains unidentified.",
+        "content_policy": "Editable reconstruction of the public first viewport from terms-of-use-160331-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. This source reconstructs the initial viewport only. Later native cookie dismissal and scrolled viewports are recorded in menu-settings-walkthrough.md; cookie dismissal is now implemented with independent per-policy components; scrolled and loading states are not yet implemented. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype. Body and cookie text use Roboto as an explicit approximation; the exact native font remains unidentified. Only the paragraph fragments exposed in the recorded no-cookie viewport are added. Full policy contents are not inferred.",
         "native_editability": "Body and CookieNotice text children selected and font family edited in actual Figma UI; body 21.7 px, cookie 20.3 px. Terms mixed regular/bold styles retained and visually confirmed.",
         "visual_review": {
           "status": "partial",
-          "summary": "Initial viewport body and cookie horizontal clipping repaired and verified in actual Present. Approximate typography, cookie dismissal, loading and continuous scroll remain open.",
+          "summary": "Initial and cookie-dismissed viewport checked; approximate typography and geometry. University wordmark disappeared in a restarted replay, later reloaded images are not proof of stability.",
           "evidence_ids": [
-            "E-FIGMA-TERMS-TYPOGRAPHY"
+            "E-POLICY-COOKIE-P-17",
+            "E-POLICY-COOKIE-TRACE"
           ],
           "deviation_ids": [
-            "D-MENU-FIDELITY"
+            "D-MENU-FIDELITY",
+            "D-POLICY-WORDMARK-RENDER"
           ]
         },
         "prototype_evidence_ids": [
-          "E-FIGMA-MENU-TRACE"
+          "E-FIGMA-MENU-TRACE",
+          "E-POLICY-COOKIE-TRACE"
         ],
         "prototype_status": "navigation_passed_visual_partial",
         "connection_status": "recorded_menu_controls_configured_and_replayed",
         "prototype_run_ids": [
-          "PROTO-MENU-V2-001"
+          "PROTO-MENU-V2-001",
+          "PROTO-POLICY-COOKIE-V2-001"
         ]
       },
       {
@@ -22860,7 +23486,8 @@
         "revision_id": "FIGMA-MENU-V2",
         "implementation_status": "tested",
         "prototype_run_ids": [
-          "PROTO-MENU-V2-001"
+          "PROTO-MENU-V2-001",
+          "PROTO-POLICY-COOKIE-V2-001"
         ],
         "deviation_ids": [
           "D-MENU-FIDELITY"
@@ -22868,6 +23495,10 @@
         "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
         "tested_target_node_ids": [
           "75:1669"
+        ],
+        "tested_source_state_ids": [
+          "S-PRIVACY",
+          "S-PRIVACY-NO-COOKIE"
         ]
       },
       {
@@ -22880,7 +23511,8 @@
         "revision_id": "FIGMA-MENU-V2",
         "implementation_status": "tested",
         "prototype_run_ids": [
-          "PROTO-MENU-V2-001"
+          "PROTO-MENU-V2-001",
+          "PROTO-POLICY-COOKIE-V2-001"
         ],
         "deviation_ids": [
           "D-MENU-FIDELITY"
@@ -22888,6 +23520,10 @@
         "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
         "tested_target_node_ids": [
           "75:1669"
+        ],
+        "tested_source_state_ids": [
+          "S-TERMS",
+          "S-TERMS-NO-COOKIE"
         ]
       },
       {
@@ -22909,6 +23545,50 @@
         "tested_target_node_ids": [
           "75:1669"
         ]
+      },
+      {
+        "action_id": "A-PRIVACY-COOKIE-CLOSE",
+        "source_node_id": "50:2058",
+        "target_node_id": "50:2058",
+        "source_state_id": "S-PRIVACY",
+        "target_state_id": "S-PRIVACY-NO-COOKIE",
+        "trigger_node_id": "50:1904",
+        "trigger_instance_node_id": "98:7",
+        "trigger": "On click",
+        "behavior": "Change to Dismissed",
+        "component_set_node_id": "93:3",
+        "revision_id": "FIGMA-POLICY-COOKIE-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-POLICY-COOKIE-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY",
+          "D-POLICY-WORDMARK-RENDER"
+        ],
+        "source_fidelity": "Same-page dismissal; no navigation-history entry. Only observed first viewport, scroll remains unimplemented."
+      },
+      {
+        "action_id": "A-TERMS-COOKIE-CLOSE",
+        "source_node_id": "50:1862",
+        "target_node_id": "50:1862",
+        "source_state_id": "S-TERMS",
+        "target_state_id": "S-TERMS-NO-COOKIE",
+        "trigger_node_id": "102:17",
+        "trigger_instance_node_id": "95:2",
+        "trigger": "On click",
+        "behavior": "Change to Dismissed",
+        "component_set_node_id": "102:12",
+        "revision_id": "FIGMA-POLICY-COOKIE-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-POLICY-COOKIE-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY",
+          "D-POLICY-WORDMARK-RENDER"
+        ],
+        "source_fidelity": "Same-page dismissal; no navigation-history entry. Only observed first viewport, scroll remains unimplemented."
       }
     ],
     "reconstruction_deviations": [
@@ -23571,14 +24251,37 @@
           "S-TERMS"
         ],
         "original_behavior": "Drawer overlays caller content; emergency is a native sheet; policy text wraps inside embedded page and supports cookie Close/body scroll. Push opens a separate Mac General window.",
-        "current_implementation": "Full DEMO drawer has neutral grey caller strip and uses Back. Emergency is a standalone frame. Mac General approximate with only Close. Policy initial viewport horizontal text clipping repaired with approximate Roboto font; cookie/scroll/loading branches remain absent.",
+        "current_implementation": "Neutral caller strip and standalone emergency frame remain approximate. Mac General has only Close. Policy typography clipping repaired and independent cookie-close states replayed, with source-aware Back. Policy scrolling/loading remain absent; font and geometry are approximate.",
         "impact": "Navigation samples pass but full-fidelity visual and interaction acceptance remains incomplete.",
-        "next_step": "Implement faithful overlays and observed cookie/loading/continuous-scroll behavior; retain approximate-font limitation and keep consequential controls unexecuted.",
+        "next_step": "Implement faithful overlays, continuous policy scrolling and loading states; verify repeated-entry cookie persistence natively when unlocked.",
         "evidence_ids": [
           "E-FIGMA-MENU-TRACE",
           "E-MENU-RECHECK-TRACE",
           "E-FIGMA-PRIVACY-TYPOGRAPHY",
-          "E-FIGMA-TERMS-TYPOGRAPHY"
+          "E-FIGMA-TERMS-TYPOGRAPHY",
+          "E-POLICY-COOKIE-TRACE"
+        ]
+      },
+      {
+        "id": "D-POLICY-WORDMARK-RENDER",
+        "revision_id": "FIGMA-POLICY-COOKIE-V2",
+        "status": "open",
+        "affected_state_ids": [
+          "S-PRIVACY",
+          "S-PRIVACY-NO-COOKIE",
+          "S-TERMS",
+          "S-TERMS-NO-COOKIE"
+        ],
+        "original_behavior": "University wordmark visible in recorded native policy viewports.",
+        "current_implementation": "Raster wordmark appeared initially, disappeared from Privacy and Terms during restarted shared-component replay, and appeared again after editor changes and prototype reload.",
+        "impact": "Visual fidelity and asset-rendering stability are not accepted.",
+        "next_step": "Repair/replace imported wordmark assets and replay restart/return paths; do not equate one successful reload with global stability.",
+        "evidence_ids": [
+          "E-POLICY-COOKIE-P-08",
+          "E-POLICY-COOKIE-P-09",
+          "E-POLICY-COOKIE-P-10",
+          "E-POLICY-COOKIE-P-13",
+          "E-POLICY-COOKIE-P-16"
         ]
       }
     ],
@@ -25988,6 +26691,225 @@
           "Neutral drawer backdrop; standalone emergency instead of overlay; approximate Mac preference iconography.",
           "Location response inconclusive, third toggle semantics unknown, no calls/logout/preferences mutations."
         ]
+      },
+      {
+        "id": "PROTO-POLICY-COOKIE-V1-001",
+        "revision_id": "FIGMA-POLICY-COOKIE-V1",
+        "started_at": "2026-09-28T20:28:08.676Z",
+        "ended_at": "2026-09-28T20:30:20.161Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=42-1617&starting-point-node-id=42%3A1617&show-proto-sidebar=1",
+        "start_node_id": "42:1617",
+        "flow_name": "Menu · Profile, Settings and Mac handoff",
+        "status": "failed",
+        "navigation_status": "failed_cross_policy_component_state",
+        "visual_status": "partial_intermittent_wordmark_missing",
+        "scope": "Notification menu -> Privacy -> cookie Close -> Back -> Terms -> cookie Close -> Back -> dismiss menu to Notification. V1 fails independent Terms initial state; V2 separates component masters and passes this scoped chain.",
+        "steps": [
+          {
+            "at": "2026-09-28T20:28:08.676Z",
+            "description": "通知页打开抽屉",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-01"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:28:16.256Z",
+            "description": "Privacy 提示可见",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-02"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:28:25.292Z",
+            "description": "Privacy 关闭提示并露出第二段",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-03"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:28:34.326Z",
+            "description": "Privacy Back 回抽屉",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-04"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:28:43.278Z",
+            "description": "失败：Privacy 关闭后 Terms 提示也消失",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-05"
+            ],
+            "outcome": "failed"
+          },
+          {
+            "at": "2026-09-28T20:29:17.442Z",
+            "description": "Restart 首次点击未生效，仍在 Terms",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-06"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:29:30.032Z",
+            "description": "按 Enter 激活 Restart，回通知页",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-07"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:29:50.257Z",
+            "description": "重启复验：Privacy 提示可见，但学校标志缺失",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-08"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:30:00.680Z",
+            "description": "重启复验：Privacy 关闭，学校标志仍缺失",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-09"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:30:20.161Z",
+            "description": "重启复验失败：Terms 提示仍被串联关闭，学校标志缺失",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-10"
+            ],
+            "outcome": "failed"
+          }
+        ],
+        "evidence_ids": [
+          "E-POLICY-COOKIE-P-01",
+          "E-POLICY-COOKIE-P-02",
+          "E-POLICY-COOKIE-P-03",
+          "E-POLICY-COOKIE-P-04",
+          "E-POLICY-COOKIE-P-05",
+          "E-POLICY-COOKIE-P-06",
+          "E-POLICY-COOKIE-P-07",
+          "E-POLICY-COOKIE-P-08",
+          "E-POLICY-COOKIE-P-09",
+          "E-POLICY-COOKIE-P-10",
+          "E-POLICY-COOKIE-TRACE"
+        ],
+        "limitations": [
+          "No full continuous scroll or Terms loading behavior implemented.",
+          "Approximate fonts/geometry; wordmark stability unresolved.",
+          "Repeat-entry native cookie persistence unobserved while Mac locked.",
+          "Agent replay is not human evaluation."
+        ]
+      },
+      {
+        "id": "PROTO-POLICY-COOKIE-V2-001",
+        "revision_id": "FIGMA-POLICY-COOKIE-V2",
+        "started_at": "2026-09-28T20:33:52.050Z",
+        "ended_at": "2026-09-28T20:35:21.202Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=42-1617&starting-point-node-id=42%3A1617&show-proto-sidebar=1",
+        "start_node_id": "42:1617",
+        "flow_name": "Menu · Profile, Settings and Mac handoff",
+        "status": "partial",
+        "navigation_status": "passed_cookie_dismiss_and_caller_return",
+        "visual_status": "partial_intermittent_wordmark_missing",
+        "scope": "Notification menu -> Privacy -> cookie Close -> Back -> Terms -> cookie Close -> Back -> dismiss menu to Notification. V1 fails independent Terms initial state; V2 separates component masters and passes this scoped chain.",
+        "steps": [
+          {
+            "at": "2026-09-28T20:33:52.050Z",
+            "description": "独立组件修复后重启：转场暂空",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-11"
+            ],
+            "outcome": "transient_loading"
+          },
+          {
+            "at": "2026-09-28T20:34:00.250Z",
+            "description": "加载完成：通知页",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-12"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:34:20.981Z",
+            "description": "独立组件：Privacy 提示可见",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-13"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:34:30.206Z",
+            "description": "独立组件：Privacy 关闭成功",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-14"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:34:42.324Z",
+            "description": "独立组件：Privacy Back 直接回抽屉",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-15"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:34:51.203Z",
+            "description": "独立组件：Terms 提示独立显示",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-16"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:35:00.396Z",
+            "description": "独立组件：Terms 关闭成功",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-17"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:35:08.840Z",
+            "description": "独立组件：Terms Back 直接回抽屉",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-18"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T20:35:21.202Z",
+            "description": "关闭抽屉返回通知来源",
+            "evidence_ids": [
+              "E-POLICY-COOKIE-P-19"
+            ],
+            "outcome": "recorded"
+          }
+        ],
+        "evidence_ids": [
+          "E-POLICY-COOKIE-P-11",
+          "E-POLICY-COOKIE-P-12",
+          "E-POLICY-COOKIE-P-13",
+          "E-POLICY-COOKIE-P-14",
+          "E-POLICY-COOKIE-P-15",
+          "E-POLICY-COOKIE-P-16",
+          "E-POLICY-COOKIE-P-17",
+          "E-POLICY-COOKIE-P-18",
+          "E-POLICY-COOKIE-P-19",
+          "E-POLICY-COOKIE-TRACE"
+        ],
+        "limitations": [
+          "No full continuous scroll or Terms loading behavior implemented.",
+          "Approximate fonts/geometry; wordmark stability unresolved.",
+          "Repeat-entry native cookie persistence unobserved while Mac locked.",
+          "Agent replay is not human evaluation."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -27472,7 +28394,86 @@
     "latest_context_evidence_ids": [
       "E-FIGMA-MENU-FINAL"
     ],
-    "latest_context_verified_at": "2026-09-28T19:56:00.753Z"
+    "latest_context_verified_at": "2026-09-28T19:56:00.753Z",
+    "component_state_mappings": [
+      {
+        "state_id": "S-PRIVACY-NO-COOKIE",
+        "parent_frame_node_id": "50:2058",
+        "instance_node_id": "98:7",
+        "component_set_node_id": "93:3",
+        "default_variant_node_id": "93:2",
+        "target_variant": {
+          "property": "Property 1",
+          "value": "Dismissed"
+        },
+        "close_trigger_master_node_id": "50:1904",
+        "instance_position": [
+          43,
+          902.5
+        ],
+        "instance_dimensions": [
+          499,
+          100
+        ],
+        "revealed_fragment_position": [
+          65,
+          903
+        ],
+        "design_source_path": "../../design/polyulife/privacy-policy-no-cookie.svg",
+        "design_source_sha256": "6a39e8eac1ea72ae662bc32ef14451c19e79595dd20fbc01d1f8e88b58c809cb",
+        "source_evidence_ids": [
+          "E-MENU-N-18"
+        ],
+        "prototype_evidence_ids": [
+          "E-POLICY-COOKIE-P-14",
+          "E-POLICY-COOKIE-TRACE"
+        ],
+        "prototype_run_ids": [
+          "PROTO-POLICY-COOKIE-V2-001"
+        ],
+        "verification_status": "cookie_dismissal_and_back_passed_scroll_unimplemented",
+        "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover."
+      },
+      {
+        "state_id": "S-TERMS-NO-COOKIE",
+        "parent_frame_node_id": "50:1862",
+        "instance_node_id": "95:2",
+        "component_set_node_id": "102:12",
+        "default_variant_node_id": "102:13",
+        "target_variant": {
+          "property": "Property 1",
+          "value": "Dismissed",
+          "node_id": "102:19"
+        },
+        "close_trigger_master_node_id": "102:17",
+        "instance_position": [
+          43,
+          902.5
+        ],
+        "instance_dimensions": [
+          499,
+          100
+        ],
+        "revealed_fragment_position": [
+          65,
+          902.5
+        ],
+        "design_source_path": "../../design/polyulife/terms-of-use-no-cookie.svg",
+        "design_source_sha256": "22929a83708264304bff368e752aa3900e1fc2811b790d118de86d7638abca4c",
+        "source_evidence_ids": [
+          "E-MENU-N-23"
+        ],
+        "prototype_evidence_ids": [
+          "E-POLICY-COOKIE-P-17",
+          "E-POLICY-COOKIE-TRACE"
+        ],
+        "prototype_run_ids": [
+          "PROTO-POLICY-COOKIE-V2-001"
+        ],
+        "verification_status": "cookie_dismissal_and_back_passed_scroll_unimplemented",
+        "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover."
+      }
+    ]
   },
   "discovery_queue": [
     {
