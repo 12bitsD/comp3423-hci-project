@@ -9,21 +9,37 @@
 3. 按下方流程发现、记录和复查。准备建立 Figma 页面、组件或连接时读 [figma-spec.md](figma-spec.md)。
 4. 新会话先核对实际 App 页面、版本和工具连接，再恢复台账。台账中的历史观察不能替代本次状态确认。
 
-## 当前进度（2026-09-28）
+## 当前进度（2026-09-29）
 
 已通过 Computer Use 完成一轮 [Room Finder 实际走查](room-walkthrough.md)：输入与无结果、AG206 联想查询、ALL/Available 筛选、Preview 网页与照片轮播、日期异步更新、AG206 地图缩放以及返回 Home 的基本路径。Room 其它分支和边界仍在发现队列，不能称为全部交互已覆盖。
 
 [HCI 候选问题](hci-findings.md) 将观察事实、相反证据、问题假设、设计建议与真人待验证事项分开记录；这些建议不会覆盖原应用复现。
 
-[首页导航局部截图](../../evidence/2026-09-28-full-audit/home-134424-navigation-only.png)已确认 Map、Room、Food、Apps、Study progress、My Courses，以及底部 Home、Calendar、QR 图标、Notification、More 可见。它只覆盖导航区域；其它目的页面和首页剩余内容仍须分别观察。实际动作、状态和未完成项见 [coverage.json](coverage.json)，截图清单见 [manifest.json](../../evidence/2026-09-28-full-audit/manifest.json)。
+[首页导航局部截图](../../evidence/2026-09-28-full-audit/home-134424-navigation-only.png)已确认 Map、Room、Food、Apps、Study progress、My Courses，以及底部 Home、Calendar、QR 图标、Notification、More 可见。首页完整内容和各目的页分别登记，入口可见不等于流程通过。实际动作、状态和未完成项见 [coverage.json](coverage.json)，截图清单见 [manifest.json](../../evidence/2026-09-28-full-audit/manifest.json)。
 
-More 已观察 Virtual Assistant 和 Bad Weather Arrangements 两张卡片；后者已进入详情，并走查头图放大/关闭与学校天气安排网页跳转。具体状态、截图和未检查分支见 [More 与天气安排走查](more-walkthrough.md)。两张卡片不代表完整 More 列表，Virtual Assistant 尚未进入。
+原生 App 记录截至 **2026-09-28 17:17:44 UTC**（香港时间 2026-09-29 01:17:44），已有 87 个状态、201 个动作记录。120 个 `observed` 表示真实尝试或反馈被记录，也包括未建立成功结果的工具定位尝试；不等于所有动作通过，仍有 81 个 `not_attempted` 动作。
 
-真实 [Figma Design 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)已有首批 Room 页面，[原型入口](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=2-50&starting-point-node-id=2%3A50)的三条连接已实际点击验证：AG206 联想 → ALL → Available → ALL。生成报告列出四帧、七组件；三状态节点与一帧 576×970 Auto layout 属性已核对；该帧五个子图层和标题原生 Text 2:55 也已检查，其余 frame 与全部组件仍待逐项检查。
+- [More、天气与 Virtual Assistant](more-walkthrough.md)：天气图片展开/关闭和返回 More；虚拟助手详情、Disclaimer、Welcome 与返回；聊天输入仍未通过，没有发送消息。
+- [Calendar 与 Notification](calendar-notification-walkthrough.md)：校历筛选、公共事件详情/返回、视图切换、月份、通知空态、搜索与清除。个人课表不公开。
+- [侧边菜单与 Settings](menu-settings-walkthrough.md)：只读设置/Profile、紧急提示关闭、隐私/条款加载与返回。没有切换设置、呼叫或退出登录。
+- [Food](food-walkthrough.md)：VA210 营业时间、标签搜索、地点详情、图片展开/关闭、全屏地图平移/返回；详情→Search→原详情→列表的返回栈、列表面板展开/滚动、H Café营业时间和Online Order外链提示关闭。外站未打开，其它地点和完整边界仍待查。
+- [Apps](apps-walkthrough.md)：All及六个分类、VRS详情→内嵌网页→空NetID登录页→X→详情Back并保留Campus，以及拖动分类栏后Job保持选中，再点击All。未输入凭证；其它服务、完整列表和登录后内容待查，Apps尚未制作Figma。
 
-**视觉尚未通过**：标题和控件比例、日期边框、搜索装饰、Available 时段顺序、背景存在已记录偏差，详见 [Figma 当前状态与修复清单](figma-spec.md)。Agents 免费每日额度已用尽，没有付费；现有编辑器仍可继续核验与修改，普通 SVG 粘贴生成原生图层的替代路线已通过小型实验，忠实设计源码正在准备。免费计划继续按最多三个页面、页面内 sections 组织。
+Study progress、My Courses、Home 的主 Map、QR 和 Home 深层内容仍待观察；已访问模块也保留未测控件和边界。Apps中的Study分类不等于Home的Study progress。
 
-本轮早期捕获故障曾由用户恢复；14:36:37 UTC 工具再次明确报告 Mac 锁屏，当前实际 App 走查等待用户解锁。浏览器中的 Figma 仍可继续处理。锁屏属于环境阻碍，不作为 PolyULife 缺陷；全应用覆盖与原型完成均未获验证。
+真实 [Figma Design 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)已新增 `01 · Observed UI`：四张 576×970 Room SVG 设计源码已导入为原生可编辑图层，并建立[当前 Room 样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1)。独立标签页已复验 **A 样例 → AG206 → Available → ALL** 四步。旧草稿已置于 `00 · Archive — initial AI draft`（原 `Page 1`），其三条旧连接记录保留为历史。
+
+另一条[天气样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-435&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A435&show-proto-sidebar=1)已在独立标签页实跑 **More → 天气详情 → 图片展开 → 详情 → More** 四步。原生 App 天气返回也有独立证据；天气正文链接前排版仍稍挤，视觉保持近似，未称逐像素一致。
+
+同一 More 原型的 Virtual Assistant 分支已跑通七条导航和“点免责声明正文不跳转”的负向检查；但从 Welcome 关闭网页返回详情后，头图重复变空白，重载恢复后再次重走仍复现。因此 **VA 导航样例通过，视觉验收未通过**，问题保持未解决；不把它归为原 App 的缺陷。具体步骤、图像证据和来源状态差异见 [Figma 验证记录](figma-spec.md)。
+
+[Calendar 公共校历原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=42-165&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=42%3A165&show-proto-sidebar=1)已实跑 **13条连接、10张固定状态**，包含公共假期详情与返回、列表/历史、月份切换、Acad/All/None筛选选择和Acad Apply。分支间的 Figma Restart 只记为测试重置。其它日期、周视图、Hide History、All/None Apply与筛选关闭等尚未全部接入；筛选背景合成和整卡热点相对原生省略号的范围差异已保留。
+
+[Food 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=50-1911&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A1911&show-proto-sidebar=1)的 **11个连接控件**已实测导航，包括图片/搜索/详情/地图四个按历史返回的Back。详情→搜索→原详情→营业时间列表的栈已复现；直接详情入口和返回也已独立复测。列表/详情的图片仍出现重复缺失与恢复，因此 **Food导航样例通过、整体视觉未通过**。未展开列表的原生详情入口及加载态差异保持待核实，地图平移帧尚未接入。
+
+截至 Figma 运行记录 **2026-09-28 17:11:57 UTC**，`01 · Observed UI` 已核实 **38个 Frame、39个连接控件**：Room 4、More/天气 3、Virtual Assistant 4、Calendar 10、Notification/Search 4、Menu/Settings/Profile 4、Policies 2、Food 7。四张Notification/Search、六张菜单/设置/政策和一张Food平移地图仍为`not_run`；其余样例按flow分别验收，VA与Food的缺图问题保持open。菜单/紧急提示是局部裁片，Profile为带DEMO标记的合成资料；具体边界见 [Figma 节点与验证记录](figma-spec.md)。自由输入、其它日期、清空、Preview、地图、滚动及其余状态尚未全部连接，不能称 Room 或全应用完成。Agents 免费每日额度用尽后没有付费；普通 SVG 导入和手动连线继续可用，总页数控制在三页以内。
+
+早期捕获问题及 14:36:37 UTC 的 Mac 锁屏已经恢复：15:45:15 UTC 起重新取得真实 App 截图，随后多条原生导航成功。旧锁屏记录保留为环境历史，不作为当前阻碍或 PolyULife 缺陷。全应用覆盖与原型完成仍未获验证。
 
 ## 观察循环
 

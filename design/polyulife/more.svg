@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="970" viewBox="0 0 576 970" fill="none">
+  <title>More — Observed cards</title>
+  <desc>Editable reconstruction from more-140835-two-cards.png. Native sans-serif text; vector icons and font are approximations. Cursor and hover glow omitted. QR is a decorative navigation icon, not an encoded personal QR code.</desc>
+  <rect id="ScreenBackground" width="576" height="970" fill="#FFFFFF" />
+  <g id="Header">
+    <rect x="0.5" y="0.5" width="575" height="99" fill="#FFFFFF" stroke="#E1E1E1" />
+    <path d="M0 99.5H576" stroke="#A0A0A0" />
+    <g id="Menu">
+      <path d="M25 52.5H58M25 65H58M25 77.5H58" stroke="#101010" stroke-width="3.3" stroke-linecap="round" />
+    </g>
+    <text x="288" y="75" fill="#101010" font-family="sans-serif" font-size="25" font-weight="700" text-anchor="middle">More</text>
+    <g id="Search">
+      <circle cx="527" cy="64" r="12.5" stroke="#101010" stroke-width="3.5" />
+      <path d="M536 73L542 79" stroke="#101010" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+  </g>
+  <g id="MoreAssistantCard">
+    <rect x="0" y="100" width="576" height="167" fill="#FFFFFF" />
+    <text x="15" y="147" fill="#101010" font-family="sans-serif" font-size="22.5" font-weight="700">Virtual Assistant</text>
+    <text x="15" y="175" fill="#303030" font-family="sans-serif" font-size="21.5" font-weight="400">As your Virtual Assistant, here to help you find the</text>
+    <text x="15" y="202" fill="#303030" font-family="sans-serif" font-size="21.5" font-weight="400">information you need...</text>
+    <path d="M543 132L550 139L543 146" stroke="#B7B7B7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <g id="AssistantCategory">
+      <rect x="15.5" y="217" width="98" height="27" rx="13.5" fill="#EDF9FF" stroke="#777D7F" stroke-width="1" />
+      <text x="64.5" y="237" fill="#101010" font-family="sans-serif" font-size="17" font-weight="400" text-anchor="middle">Study Info</text>
+    </g>
+    <path d="M0 267.5H576" stroke="#CDCDCD" />
+  </g>
+  <g id="MoreWeatherCard">
+    <rect x="0" y="268" width="576" height="104" fill="#FFFFFF" />
+    <text x="15" y="314" fill="#101010" font-family="sans-serif" font-size="22.5" font-weight="700">Bad Weather Arrangements</text>
+    <path d="M543 300L550 307L543 314" stroke="#B7B7B7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <g id="WeatherCategory">
+      <rect x="15.5" y="329" width="98" height="27" rx="13.5" fill="#EDF9FF" stroke="#777D7F" stroke-width="1" />
+      <text x="64.5" y="349" fill="#101010" font-family="sans-serif" font-size="17" font-weight="400" text-anchor="middle">Study Info</text>
+    </g>
+  </g>
+  <g id="BottomNavigation">
+    <rect x="0" y="899" width="576" height="71" fill="#FFFFFF" />
+    <g id="NavHome">
+      <path d="M44.5 944L57.5 934L70.5 944V962H61.5V950H53.5V962H44.5Z" stroke="#9FB0BA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="NavCalendar">
+      <rect x="161" y="937" width="24" height="25" stroke="#9FB0BA" stroke-width="3.5" />
+      <path d="M166 933V940M181 933V940M161 945H185M167 950H178M167 956H178" stroke="#9FB0BA" stroke-width="3.5" stroke-linecap="square" />
+    </g>
+    <g id="NavQR">
+      <circle cx="288.5" cy="949.5" r="49.5" fill="#54B39F" />
+      <path d="M271 932H281V942H271ZM296 932H306V942H296ZM271 956H281V966H271Z" fill="#FFFFFF" />
+      <path d="M274.5 935.5H277.5V938.5H274.5ZM299.5 935.5H302.5V938.5H299.5ZM274.5 959.5H277.5V962.5H274.5Z" fill="#54B39F" />
+      <path d="M285 932H289V938H285ZM286 943H290V947H286ZM273 946H279V951H273ZM282 949H289V954H282ZM290 951H295V957H290ZM300 946H306V950H300ZM297 953H302V957H297ZM304 953H307V963H304ZM286 960H290V966H286ZM295 961H300V966H295Z" fill="#FFFFFF" />
+    </g>
+    <g id="NavNotification">
+      <path d="M390 935.5H417.5V956.5H407L399.5 963V956.5H390Z" stroke="#9FB0BA" stroke-width="3.5" stroke-linejoin="round" />
+    </g>
+    <g id="NavMore">
+      <rect x="500" y="934" width="35" height="30" rx="2" stroke="#929D96" stroke-width="3.5" />
+      <path d="M507 967H528" stroke="#929D96" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>

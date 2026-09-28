@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="970" viewBox="0 0 576 970" fill="none"><title>My Notification — Empty</title><desc>Editable reconstruction from notification-155603-empty.png. No account or notification content. Native text/vectors; font and icons approximate, cursor/hover removed; selected Notification marker retained.</desc><rect id="ScreenBackground" width="576" height="970" fill="#FFFFFF"/><g xmlns="http://www.w3.org/2000/svg" id="Header">
+    <rect x="0.5" y="0.5" width="575" height="99" fill="#FFFFFF" stroke="#E1E1E1" />
+    <path d="M0 99.5H576" stroke="#A0A0A0" />
+    <g id="Menu">
+      <path d="M25 52.5H58M25 65H58M25 77.5H58" stroke="#101010" stroke-width="3.3" stroke-linecap="round" />
+    </g>
+    <text x="288" y="75" fill="#101010" font-family="sans-serif" font-size="25" font-weight="700" text-anchor="middle">My Notification</text>
+    <g id="Search">
+      <circle cx="527" cy="64" r="12.5" stroke="#101010" stroke-width="3.5" />
+      <path d="M536 73L542 79" stroke="#101010" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+  </g>
+  <g id="NotificationEmpty"><g id="InboxIcon"><path d="M258 217H311Q316 217 318 224L322 246V272Q322 280 314 280H254Q247 280 247 272V248L253 224Q254 217 258 217Z" stroke="#31917D" stroke-width="6" stroke-linejoin="round"/><path d="M248 252H273Q275 264 285 264Q295 264 298 252H322" stroke="#31917D" stroke-width="6" stroke-linejoin="round"/></g><text x="288" y="346" fill="#575757" font-family="sans-serif" font-size="32" font-weight="700" text-anchor="middle">No new notification</text><text x="288" y="398" fill="#555555" font-family="sans-serif" font-size="27" font-weight="400" text-anchor="middle">Please come back later</text><g id="DecorativeWaves"><path d="M0 537L43 510H114C150 510 173 541 210 538C237 536 252 510 283 510H396C425 528 437 538 465 538C494 538 512 522 540 510H576V920H0Z" fill="#FCEDE7"/><path d="M0 552C55 550 88 534 115 510H163C201 531 212 548 247 532C277 518 289 521 313 530C348 546 365 553 397 546C434 538 465 566 498 577C531 588 552 580 576 559V920H0Z" fill="#E7F19B"/><path d="M0 536C53 536 84 554 115 575C142 593 158 580 185 570C221 551 234 584 269 604C304 627 326 601 360 584C396 564 415 580 446 603C473 621 496 635 517 615C544 592 562 565 576 540V920H0Z" fill="#EBF8FF"/></g></g><g xmlns="http://www.w3.org/2000/svg" id="BottomNavigation">
+    <rect x="0" y="920" width="576" height="50" fill="#FFFFFF" />
+    <g id="NavHome">
+      <path d="M44.5 944L57.5 934L70.5 944V962H61.5V950H53.5V962H44.5Z" stroke="#9FB0BA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="NavCalendar">
+      <rect x="161" y="937" width="24" height="25" stroke="#9FB0BA" stroke-width="3.5" />
+      <path d="M166 933V940M181 933V940M161 945H185M167 950H178M167 956H178" stroke="#9FB0BA" stroke-width="3.5" stroke-linecap="square" />
+    </g>
+    <g id="NavQR">
+      <circle cx="288.5" cy="949.5" r="49.5" fill="#54B39F" />
+      <path d="M271 932H281V942H271ZM296 932H306V942H296ZM271 956H281V966H271Z" fill="#FFFFFF" />
+      <path d="M274.5 935.5H277.5V938.5H274.5ZM299.5 935.5H302.5V938.5H299.5ZM274.5 959.5H277.5V962.5H274.5Z" fill="#54B39F" />
+      <path d="M285 932H289V938H285ZM286 943H290V947H286ZM273 946H279V951H273ZM282 949H289V954H282ZM290 951H295V957H290ZM300 946H306V950H300ZM297 953H302V957H297ZM304 953H307V963H304ZM286 960H290V966H286ZM295 961H300V966H295Z" fill="#FFFFFF" />
+    </g>
+    <g id="NavNotification">
+      <circle cx="395" cy="942" r="18" fill="#F2F9B4" /><path d="M390 935.5H417.5V956.5H407L399.5 963V956.5H390Z" stroke="#414141" stroke-width="3.5" stroke-linejoin="round" />
+    </g>
+    <g id="NavMore">
+      <rect x="500" y="934" width="35" height="30" rx="2" stroke="#929D96" stroke-width="3.5" />
+      <path d="M507 967H528" stroke="#929D96" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>
