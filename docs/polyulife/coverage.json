@@ -25627,6 +25627,745 @@
       ],
       "action_ids": [],
       "source": "31 control readbacks; full Tuesday sample path, all ten Tuesday outer exits, Monday/legacy nested and Bookstores exits; standalone failure and repeated image loss retained. No new native observation."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-toilets-first.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:43:09.899465+00:00",
+      "sha256": "ddb2e58e210f9f531bf3c18b00185e583f84982f920fd48be69f4beee531721b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-TOILETS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-toilets-first.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; toilets-first; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-home-after-first.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:43:17.699433+00:00",
+      "sha256": "47868e551a2589c33003679b6983459e83cb5d39e1e987d44ac76acb33eb7490",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-home-after-first.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; home-after-first; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-toilets-second.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:43:29.787875+00:00",
+      "sha256": "8d327fddfa289d3653b3957d74adbd13c14a73e0a4de9fbf971a509594a7f541",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-TOILETS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-toilets-second.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; toilets-second; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-toilets-third.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:43:30.518505+00:00",
+      "sha256": "8d327fddfa289d3653b3957d74adbd13c14a73e0a4de9fbf971a509594a7f541",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-TOILETS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-toilets-third.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; toilets-third; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-home-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:46:49.292Z",
+      "sha256": "6cfbf80b60efc3934c7d068ddbb68e3e325ad0337bcca26a3965aaa2375a2ffc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-home-baseline.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; home-baseline; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-toilets.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:46:49.790Z",
+      "sha256": "6a6fbec0fe3ab9dd8b0dcc8df431f7b052a7b4452c9061da04f3a3066e60d971",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-TOILETS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-toilets.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-toilets; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-combined.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:46:57.606Z",
+      "sha256": "c819b3fd583d5ebb9095b895d7531359e529f1b5e03d1bceae8110e60ac51457",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-TOILETS-WATER"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-combined.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-combined; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-water.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:46:57.878Z",
+      "sha256": "4a140633212b96ea053126e2e50f09e333acaf8f12839adc93f75309a329d0bd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-WATER"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-water.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-water; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-water-scrolled.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:47:09.634Z",
+      "sha256": "06be83c174aa390f99f0a48824da82b083d83d55818dc58ba23ae8eb4bf2e16b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-WATER-SCROLLED"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-water-scrolled.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-water-scrolled; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-clinics.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:47:10.171Z",
+      "sha256": "e4d2af3a07c1f4aee849b6be94d1a7f98e2d88b7a461874109acc8cdfd0a8540",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-CLINICS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-clinics.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-clinics; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-banks.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:47:30.952Z",
+      "sha256": "5745ddfaafd20daa6f668bfd0534d96944a06cc5ab03d37bfda5b75b48eebd80",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-BANKS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-banks.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-banks; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-aeds.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:47:31.454Z",
+      "sha256": "5c1f16dfbe3a26f7e377e2a42dfdfec09a64e81645a021de8c866e2dca59936d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-AEDS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-aeds.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-aeds; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-bookstores.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:47:42.319Z",
+      "sha256": "66572065379e3bedaadb17b895212480d0600c56c86028a482a8842a932ff6a1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-BOOKSTORES"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-bookstores.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-bookstores; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass1-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:47:42.581Z",
+      "sha256": "6cfbf80b60efc3934c7d068ddbb68e3e325ad0337bcca26a3965aaa2375a2ffc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass1-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass1-return; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-toilets.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:47:54.172Z",
+      "sha256": "15e831c6b62bdf4172e867a08bf984c49299c73cb39b5c56aba53e135839c8a5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-TOILETS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-toilets.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-toilets; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-combined.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:47:54.433Z",
+      "sha256": "0d9ecc6e373080e16fbde1866bc65f4068bac2a52060b403493d5e70e9420535",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-TOILETS-WATER"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-combined.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-combined; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-water.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:48:05.907Z",
+      "sha256": "aa7ede972b4dbdd4188ef7b4603087d8cddc28f38983a84a43d05ce7fa01cc7f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-WATER"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-water.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-water; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-water-scrolled.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:48:06.243Z",
+      "sha256": "b729b7778774a26fc6a3813c9f0aeea87ec12d10fad165e20f160029a67630ca",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-WATER-SCROLLED"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-water-scrolled.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-water-scrolled; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-clinics.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:48:18.375Z",
+      "sha256": "02bc2e757e2e0ddf9e00a4258780490c2aae673c0cd2ffb0c57144ea73be4743",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-CLINICS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-clinics.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-clinics; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-banks.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:48:19.158Z",
+      "sha256": "1496418d200048fe16f70c5cc1c2a84c92f3a7a9e81032530c4776f3a96f4863",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-BANKS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-banks.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-banks; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-aeds.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:48:30.501Z",
+      "sha256": "d8f842f2977b7ce95b4b72925ae493d69889f63be70d261fc8f001a50ce2d54b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-AEDS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-aeds.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-aeds; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-bookstores.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:48:31.002Z",
+      "sha256": "8ee49ec308217eefd26bce5677c0328bf64fc14237b35f54c2bc346bf1d927b1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MAINMAP-BOOKSTORES"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-bookstores.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-bookstores; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-pass2-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:48:45.033Z",
+      "sha256": "6cfbf80b60efc3934c7d068ddbb68e3e325ad0337bcca26a3965aaa2375a2ffc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-pass2-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; pass2-return; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/map-png-home-description.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T23:50:58.718Z",
+      "sha256": "a1e32ed4ebe3efb4290c9ef594ebde01b3143d2759502d6bb3272eab5757ef1c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/map-png-home-description.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; home-description; not native evidence."
+    },
+    {
+      "id": "E-MAP-PNG-REENTRY-TRACE",
+      "type": "interaction_trace",
+      "path": "map-image-repair-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-MAINMAP-TOILETS",
+        "S-HOME-SCHEDULE-MON",
+        "S-MAINMAP-TOILETS-WATER",
+        "S-MAINMAP-WATER",
+        "S-MAINMAP-WATER-SCROLLED",
+        "S-MAINMAP-CLINICS",
+        "S-MAINMAP-BANKS",
+        "S-MAINMAP-AEDS",
+        "S-MAINMAP-BOOKSTORES"
+      ],
+      "action_ids": [],
+      "source": "Eight PNG replacements through Figma UI, two complete Monday Home sample circuits and initial Toilets reentry experiment; historical image failures retained."
     }
   ],
   "findings": [
@@ -29354,6 +30093,16 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
+        ],
+        "figma_post_import_edits": [
+          {
+            "revision_id": "FIGMA-MAP-PNG-REENTRY",
+            "kind": "image_fill_reupload",
+            "record_path": "../../design/polyulife/map-image-repair.json",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -29406,6 +30155,16 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
+        ],
+        "figma_post_import_edits": [
+          {
+            "revision_id": "FIGMA-MAP-PNG-REENTRY",
+            "kind": "image_fill_reupload",
+            "record_path": "../../design/polyulife/map-image-repair.json",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -29458,6 +30217,16 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
+        ],
+        "figma_post_import_edits": [
+          {
+            "revision_id": "FIGMA-MAP-PNG-REENTRY",
+            "kind": "image_fill_reupload",
+            "record_path": "../../design/polyulife/map-image-repair.json",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -29510,6 +30279,16 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
+        ],
+        "figma_post_import_edits": [
+          {
+            "revision_id": "FIGMA-MAP-PNG-REENTRY",
+            "kind": "image_fill_reupload",
+            "record_path": "../../design/polyulife/map-image-repair.json",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -29562,6 +30341,16 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
+        ],
+        "figma_post_import_edits": [
+          {
+            "revision_id": "FIGMA-MAP-PNG-REENTRY",
+            "kind": "image_fill_reupload",
+            "record_path": "../../design/polyulife/map-image-repair.json",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -29614,6 +30403,16 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
+        ],
+        "figma_post_import_edits": [
+          {
+            "revision_id": "FIGMA-MAP-PNG-REENTRY",
+            "kind": "image_fill_reupload",
+            "record_path": "../../design/polyulife/map-image-repair.json",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -29666,6 +30465,16 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
+        ],
+        "figma_post_import_edits": [
+          {
+            "revision_id": "FIGMA-MAP-PNG-REENTRY",
+            "kind": "image_fill_reupload",
+            "record_path": "../../design/polyulife/map-image-repair.json",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -29718,6 +30527,16 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
+        ],
+        "figma_post_import_edits": [
+          {
+            "revision_id": "FIGMA-MAP-PNG-REENTRY",
+            "kind": "image_fill_reupload",
+            "record_path": "../../design/polyulife/map-image-repair.json",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -37241,17 +38060,17 @@
       },
       {
         "id": "D-MAINMAP-IMAGES",
-        "revision_id": "FIGMA-MAINMAP-V2",
-        "status": "open",
+        "revision_id": "FIGMA-MAP-PNG-REENTRY",
+        "status": "partially_resolved",
         "affected_state_ids": [
           "S-MAINMAP-INITIAL",
           "S-MAINMAP-TOILETS",
           "S-HOME"
         ],
         "original_behavior": "Recorded native map images are visible.",
-        "current_implementation": "Present sometimes shows blank imported image regions. Initial Image70:1068 directly reuploaded as PNG and visible on two Clinics returns; Toilets and Home still unresolved.",
+        "current_implementation": "Eight filtered-state image fills re-uploaded through Figma Image > Upload from computer using existing PNG assets, retaining geometry and controls. Fill UI readback gained thumbnails and imageShouldColorManage=true; cause not established.",
         "impact": "Navigation succeeds but visual reproduction unstable. Cause is not confirmed as app behavior, rendering, caching or import defect.",
-        "next_step": "Apply and validate supported image replacement to affected layers, including independent reload/repeated transitions.",
+        "next_step": "Check remaining Home/Food imagery, other callers and long-session stability; do not infer global visual acceptance.",
         "evidence_ids": [
           "E-MAP-INITIAL-IMAGE-MISSING",
           "E-MAP-TOILETS-RETURN-IMAGE-MISSING",
@@ -37269,9 +38088,46 @@
           "E-MAP-STACK-P-46",
           "E-MAP-STACK-P-48",
           "E-MAP-STACK-P-51",
-          "E-MAP-STACK-P-53"
+          "E-MAP-STACK-P-53",
+          "E-MAP-PNG-REENTRY-TRACE"
         ],
-        "latest_recheck": "First Tuesday sample chain showed map imagery. Subsequent exits/reentries lost maps in Toilets, combined, Water, scrolled Water, Clinics, Banks, AEDs and Bookstores samples. Navigation remained usable; visual acceptance failed."
+        "latest_recheck": "Toilets shown in three consecutive Home entries. After all eight replacements and Present reload, two consecutive Monday Home circuits showed Toilets, combined, Water, scrolled Water, Clinics, Banks, AEDs and Bookstores imagery. Both final Home returns pixel-equal to baseline.",
+        "implementation_history": [
+          {
+            "id": "D-MAINMAP-IMAGES",
+            "revision_id": "FIGMA-MAINMAP-V2",
+            "status": "open",
+            "affected_state_ids": [
+              "S-MAINMAP-INITIAL",
+              "S-MAINMAP-TOILETS",
+              "S-HOME"
+            ],
+            "original_behavior": "Recorded native map images are visible.",
+            "current_implementation": "Present sometimes shows blank imported image regions. Initial Image70:1068 directly reuploaded as PNG and visible on two Clinics returns; Toilets and Home still unresolved.",
+            "impact": "Navigation succeeds but visual reproduction unstable. Cause is not confirmed as app behavior, rendering, caching or import defect.",
+            "next_step": "Apply and validate supported image replacement to affected layers, including independent reload/repeated transitions.",
+            "evidence_ids": [
+              "E-MAP-INITIAL-IMAGE-MISSING",
+              "E-MAP-TOILETS-RETURN-IMAGE-MISSING",
+              "E-MAP-HOME-RETURN-DECORATION-MISSING",
+              "E-MAP-PNG-REPLACEMENT-SECOND-RETURN-CONTEXT",
+              "E-FIGMA-MAINMAP-TRACE",
+              "E-MAP-STACK-P-25",
+              "E-MAP-STACK-P-27",
+              "E-MAP-STACK-P-29",
+              "E-MAP-STACK-P-31",
+              "E-MAP-STACK-P-33",
+              "E-MAP-STACK-P-37",
+              "E-MAP-STACK-P-39",
+              "E-MAP-STACK-P-43",
+              "E-MAP-STACK-P-46",
+              "E-MAP-STACK-P-48",
+              "E-MAP-STACK-P-51",
+              "E-MAP-STACK-P-53"
+            ],
+            "latest_recheck": "First Tuesday sample chain showed map imagery. Subsequent exits/reentries lost maps in Toilets, combined, Water, scrolled Water, Clinics, Banks, AEDs and Bookstores samples. Navigation remained usable; visual acceptance failed."
+          }
+        ]
       },
       {
         "id": "D-MENU-FIDELITY",
@@ -43814,6 +44670,294 @@
           "Room/Food deeper detours, other module inputs and existing visual deviations remain unresolved.",
           "Mac locked; no new native evidence. Agent replay is not human evaluation."
         ]
+      },
+      {
+        "id": "PROTO-MAP-PNG-REENTRY-001",
+        "revision_id": "FIGMA-MAP-PNG-REENTRY",
+        "started_at": "2026-09-28T23:43:09.899465+00:00",
+        "ended_at": "2026-09-28T23:50:58.718Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1",
+        "start_node_id": "67:569",
+        "flow_name": "Map PNG replacement and repeated sample entry",
+        "status": "partial",
+        "navigation_status": "two_monday_sample_circuits_passed",
+        "visual_status": "eight_filtered_map_images_visible_in_two_circuits",
+        "steps": [
+          {
+            "at": "2026-09-28T23:43:09.899465+00:00",
+            "description": "toilets-first",
+            "state_id": "S-MAINMAP-TOILETS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-01"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-toilets-first.png"
+          },
+          {
+            "at": "2026-09-28T23:43:17.699433+00:00",
+            "description": "home-after-first",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-02"
+            ],
+            "outcome": "recorded",
+            "file": "map-png-home-after-first.png"
+          },
+          {
+            "at": "2026-09-28T23:43:29.787875+00:00",
+            "description": "toilets-second",
+            "state_id": "S-MAINMAP-TOILETS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-03"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-toilets-second.png"
+          },
+          {
+            "at": "2026-09-28T23:43:30.518505+00:00",
+            "description": "toilets-third",
+            "state_id": "S-MAINMAP-TOILETS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-04"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-toilets-third.png"
+          },
+          {
+            "at": "2026-09-28T23:46:49.292Z",
+            "description": "home-baseline",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-05"
+            ],
+            "outcome": "recorded",
+            "file": "map-png-home-baseline.png"
+          },
+          {
+            "at": "2026-09-28T23:46:49.790Z",
+            "description": "pass1-toilets",
+            "state_id": "S-MAINMAP-TOILETS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-06"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass1-toilets.png"
+          },
+          {
+            "at": "2026-09-28T23:46:57.606Z",
+            "description": "pass1-combined",
+            "state_id": "S-MAINMAP-TOILETS-WATER",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-07"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass1-combined.png"
+          },
+          {
+            "at": "2026-09-28T23:46:57.878Z",
+            "description": "pass1-water",
+            "state_id": "S-MAINMAP-WATER",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-08"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass1-water.png"
+          },
+          {
+            "at": "2026-09-28T23:47:09.634Z",
+            "description": "pass1-water-scrolled",
+            "state_id": "S-MAINMAP-WATER-SCROLLED",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-09"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass1-water-scrolled.png"
+          },
+          {
+            "at": "2026-09-28T23:47:10.171Z",
+            "description": "pass1-clinics",
+            "state_id": "S-MAINMAP-CLINICS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-10"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass1-clinics.png"
+          },
+          {
+            "at": "2026-09-28T23:47:30.952Z",
+            "description": "pass1-banks",
+            "state_id": "S-MAINMAP-BANKS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-11"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass1-banks.png"
+          },
+          {
+            "at": "2026-09-28T23:47:31.454Z",
+            "description": "pass1-aeds",
+            "state_id": "S-MAINMAP-AEDS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-12"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass1-aeds.png"
+          },
+          {
+            "at": "2026-09-28T23:47:42.319Z",
+            "description": "pass1-bookstores",
+            "state_id": "S-MAINMAP-BOOKSTORES",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-13"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass1-bookstores.png"
+          },
+          {
+            "at": "2026-09-28T23:47:42.581Z",
+            "description": "pass1-return",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-14"
+            ],
+            "outcome": "recorded",
+            "file": "map-png-pass1-return.png"
+          },
+          {
+            "at": "2026-09-28T23:47:54.172Z",
+            "description": "pass2-toilets",
+            "state_id": "S-MAINMAP-TOILETS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-15"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass2-toilets.png"
+          },
+          {
+            "at": "2026-09-28T23:47:54.433Z",
+            "description": "pass2-combined",
+            "state_id": "S-MAINMAP-TOILETS-WATER",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-16"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass2-combined.png"
+          },
+          {
+            "at": "2026-09-28T23:48:05.907Z",
+            "description": "pass2-water",
+            "state_id": "S-MAINMAP-WATER",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-17"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass2-water.png"
+          },
+          {
+            "at": "2026-09-28T23:48:06.243Z",
+            "description": "pass2-water-scrolled",
+            "state_id": "S-MAINMAP-WATER-SCROLLED",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-18"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass2-water-scrolled.png"
+          },
+          {
+            "at": "2026-09-28T23:48:18.375Z",
+            "description": "pass2-clinics",
+            "state_id": "S-MAINMAP-CLINICS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-19"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass2-clinics.png"
+          },
+          {
+            "at": "2026-09-28T23:48:19.158Z",
+            "description": "pass2-banks",
+            "state_id": "S-MAINMAP-BANKS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-20"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass2-banks.png"
+          },
+          {
+            "at": "2026-09-28T23:48:30.501Z",
+            "description": "pass2-aeds",
+            "state_id": "S-MAINMAP-AEDS",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-21"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass2-aeds.png"
+          },
+          {
+            "at": "2026-09-28T23:48:31.002Z",
+            "description": "pass2-bookstores",
+            "state_id": "S-MAINMAP-BOOKSTORES",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-22"
+            ],
+            "outcome": "map_visible",
+            "file": "map-png-pass2-bookstores.png"
+          },
+          {
+            "at": "2026-09-28T23:48:45.033Z",
+            "description": "pass2-return",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-23"
+            ],
+            "outcome": "recorded",
+            "file": "map-png-pass2-return.png"
+          },
+          {
+            "at": "2026-09-28T23:50:58.718Z",
+            "description": "home-description",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "evidence_ids": [
+              "E-MAP-PNG-REENTRY-24"
+            ],
+            "outcome": "recorded",
+            "file": "map-png-home-description.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-MAP-PNG-REENTRY-01",
+          "E-MAP-PNG-REENTRY-02",
+          "E-MAP-PNG-REENTRY-03",
+          "E-MAP-PNG-REENTRY-04",
+          "E-MAP-PNG-REENTRY-05",
+          "E-MAP-PNG-REENTRY-06",
+          "E-MAP-PNG-REENTRY-07",
+          "E-MAP-PNG-REENTRY-08",
+          "E-MAP-PNG-REENTRY-09",
+          "E-MAP-PNG-REENTRY-10",
+          "E-MAP-PNG-REENTRY-11",
+          "E-MAP-PNG-REENTRY-12",
+          "E-MAP-PNG-REENTRY-13",
+          "E-MAP-PNG-REENTRY-14",
+          "E-MAP-PNG-REENTRY-15",
+          "E-MAP-PNG-REENTRY-16",
+          "E-MAP-PNG-REENTRY-17",
+          "E-MAP-PNG-REENTRY-18",
+          "E-MAP-PNG-REENTRY-19",
+          "E-MAP-PNG-REENTRY-20",
+          "E-MAP-PNG-REENTRY-21",
+          "E-MAP-PNG-REENTRY-22",
+          "E-MAP-PNG-REENTRY-23",
+          "E-MAP-PNG-REENTRY-24",
+          "E-MAP-PNG-REENTRY-TRACE"
+        ],
+        "limitations": [
+          "Eight existing filtered map image fills only; no new navigation or native actions.",
+          "Two full sample circuits from Monday Home, plus initial Toilets three-entry experiment. Tuesday, legacy, standalone and long-session stability not retested in this image batch.",
+          "Home decoration/Food imagery and other visual deviations remain unresolved; no full visual acceptance.",
+          "Standalone Map Back still incomplete; full lists, other combinations, free map movement, inputs and exact inferred native exits remain unverified.",
+          "Computer Use still reported Mac locked. Agent replay is not native observation or human Maze testing."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -43893,7 +45037,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "76 mapped frames / 2 internal states / 189 configured controls / 2 vertical scroll regions. Map Tuesday full sample chain, ten outer exits and Monday/legacy nested+Bookstores returns passed; standalone exit and repeated-entry image rendering failed. Full application remains unverified.",
+    "verification_summary": "76 mapped frames / 2 internal states / 189 configured controls / 2 vertical scroll regions. Eight filtered map PNG fills now visible in two consecutive Monday sample circuits; standalone exit and other imagery/untested interactions remain incomplete. Full application remains unverified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -44300,7 +45444,8 @@
       "apps_visible_cross_category_switching": "all_33_added_controls_replayed_in_54_step_route_prototype_only",
       "home_copied_feature_entries": "all_ten_replayed_direct_returns_passed_visual_food_failed",
       "study_courses_caller_returns": "six_source_module_chains_eight_tuesday_exits_passed_native_middle_state_returns_inferred",
-      "map_caller_returns": "tuesday_ten_outer_exits_monday_legacy_nested_bookstores_passed_standalone_failed"
+      "map_caller_returns": "tuesday_ten_outer_exits_monday_legacy_nested_bookstores_passed_standalone_failed",
+      "map_png_reentry": "eight_filtered_states_two_monday_circuits_visible_other_contexts_unverified"
     },
     "additional_imports": [
       {
@@ -45272,7 +46417,7 @@
           "PROTO-STUDY-COURSES-STACK-001",
           "PROTO-MAP-CALLER-STACK-001"
         ],
-        "scope": "Observed UI reconstruction with synthetic DEMO coursework, schedules and identity; QR is a non-scannable placeholder. Study and Courses sample detours preserve the Home caller: title expansion/collapse, Requirements to Offerings, Canvas to Blackboard to empty login. Both chains replayed from legacy, Monday and Tuesday Home. Middle-state outer Back behavior is a prototype generalization awaiting native verification. Map sample detours now preserve the Home caller. All ten Map outer exits were replayed from Tuesday, with nested-detail and Bookstores returns also checked from Monday and legacy Home. Eight added filtered-state exits are native generalizations. Map images still disappear on repeated entry. Loading is skipped. Calendar enters Week 5 with synthetic data. Lists, reverse tabs, search, login submission, bookings, other module detours and unobserved links remain incomplete. Study blank is an independent unresolved reference. Agent replay is separate from native observation and human testing."
+        "scope": "Observed UI reconstruction with synthetic DEMO coursework, schedules and identity; QR is a non-scannable placeholder. Study and Courses sample detours preserve the Home caller: title expansion/collapse, Requirements to Offerings, Canvas to Blackboard to empty login. Both chains replayed from legacy, Monday and Tuesday Home. Middle-state outer Back behavior is a prototype generalization awaiting native verification. Map sample detours now preserve the Home caller. All ten Map outer exits were replayed from Tuesday, with nested-detail and Bookstores returns also checked from Monday and legacy Home. Eight added filtered-state exits are native generalizations. Eight filtered-state map fills were re-uploaded as PNG; two consecutive Monday Home circuits showed all eight maps. Legacy/Tue contexts and long-session image stability were not retested in this image batch. Loading is skipped. Calendar enters Week 5 with synthetic data. Lists, reverse tabs, search, login submission, bookings, other module detours and unobserved links remain incomplete. Study blank is an independent unresolved reference. Agent replay is separate from native observation and human testing."
       },
       {
         "name": "Map · Facilities and category filters",
@@ -45283,7 +46428,7 @@
           "PROTO-MAINMAP-PNG-RECHECK",
           "PROTO-MAP-CALLER-STACK-001"
         ],
-        "scope": "For Map navigation and Home returns, start a Home flow and open Map. This direct Map start is a reference without a Home caller; its outer Back does not exit to Home. From Home, observed sample filters preserve the caller, facility detail and full map close one layer at a time. All ten outer Map exits replayed from Tuesday; Monday/legacy nested and Bookstores returns also passed. Eight filtered-state exits are prototype generalizations awaiting exact native checks. Repeated entry loses map images; visual acceptance remains failed. Category/list drags are discrete samples, not free scrolling. Other combinations, facilities, live pan/zoom, location and backend behavior remain incomplete. Agent replay is not human evaluation."
+        "scope": "For Map navigation and Home returns, start a Home flow and open Map. This direct Map start is a reference without a Home caller; its outer Back does not exit to Home. From Home, observed sample filters preserve the caller, facility detail and full map close one layer at a time. All ten outer Map exits replayed from Tuesday; Monday/legacy nested and Bookstores returns also passed. Eight filtered-state exits are prototype generalizations awaiting exact native checks. Eight filtered-state image fills were re-uploaded as PNG. Two consecutive Monday Home circuits showed all eight maps; other contexts and long-session image stability remain unverified. Category/list drags are discrete samples, not free scrolling. Other combinations, facilities, live pan/zoom, location and backend behavior remain incomplete. Agent replay is not human evaluation."
       },
       {
         "name": "Menu · Profile, Settings and Mac handoff",
@@ -45307,10 +46452,10 @@
           "PROTO-STUDY-COURSES-STACK-001",
           "PROTO-MAP-CALLER-STACK-001"
         ],
-        "scope": "Observed Monday / Tuesday Home sample with continuous scrolling and synthetic DEMO agenda. Study and Courses sample detours now preserve the Home caller and scroll: title expansion/collapse, Requirements to Offerings, Canvas to Blackboard to empty login. Both chains replayed from Monday, Tuesday and legacy Home; all eight outer exits replayed from Tuesday. Exact native middle-state Back behavior remains inferred. Map sample filters and nested detail returns now preserve Home; Tuesday all ten Map outer exits and Monday/legacy nested and Bookstores exits were replayed. Eight added filtered-state exits remain native generalizations. Room/Food deeper detours remain incomplete. Map and Food images disappeared again, so visual acceptance is not passed. Lists, reverse tabs, search, other services, Home dates/cards/week picker/sheet and Study blank remain incomplete. Prototype replay adds no native observations and is not human evaluation."
+        "scope": "Observed Monday / Tuesday Home sample with continuous scrolling and synthetic DEMO agenda. Study/Courses and Map sample detours preserve tested Home callers and scroll. Exact native middle-state Back behavior remains inferred. Map: eight filtered-state image fills re-uploaded as PNG; two consecutive Monday Home sample circuits showed all eight maps. Other map contexts and long-session stability remain unverified; standalone Map exit remains incomplete. Room/Food deeper detours and Food imagery remain incomplete. Lists, reverse tabs, search, other services, Home dates/cards/week picker/sheet and Study blank remain incomplete. Prototype replay adds no native observations and is not human evaluation."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-28T23:33:06.503Z",
+    "latest_prototype_run_cutoff": "2026-09-28T23:50:58.718Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -45333,9 +46478,9 @@
       "boundary": "Flow 1 resolved to current Available node12:105, not the archived original draft. Naming verification does not create a new navigation run."
     },
     "latest_context_evidence_ids": [
-      "E-MAP-STACK-P-59"
+      "E-MAP-PNG-REENTRY-24"
     ],
-    "latest_context_verified_at": "2026-09-28T23:33:06.503Z",
+    "latest_context_verified_at": "2026-09-28T23:50:58.718Z",
     "component_state_mappings": [
       {
         "state_id": "S-PRIVACY-NO-COOKIE",

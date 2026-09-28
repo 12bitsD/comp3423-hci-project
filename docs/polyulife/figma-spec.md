@@ -455,3 +455,5 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Map返回栈更新
 
 [Map回放](map-return-prototype-walkthrough.md)更新23个控件、新增8个外层Back，当前189个配置控件。Home来源样例返回和详情逐层关闭通过，8个新增来源的原生行为仍待核。独立Map起点退出无效及重复进入缺图明确失败，完整地图行为未完成。
+
+后续：[Map底图重新上传与复测](map-image-repair-walkthrough.md)在两轮Monday路径显示8个筛选页底图。此前失败记录保留；这不证明所有图片或完整应用已通过。

@@ -126,3 +126,5 @@
 | 2026-09-28T23:32:26.097Z | Standalone Map scope description persisted after reload | recorded | [E-MAP-STACK-P-57](../../evidence/2026-09-28-full-audit/figma-map-stack-map-description.png) |
 | 2026-09-28T23:32:52.944Z | Legacy flow Map scope persisted | recorded | [E-MAP-STACK-P-58](../../evidence/2026-09-28-full-audit/figma-map-stack-legacy-description.png) |
 | 2026-09-28T23:33:06.503Z | Dates flow Map scope persisted | recorded | [E-MAP-STACK-P-59](../../evidence/2026-09-28-full-audit/figma-map-stack-dates-description.png) |
+
+后续：[Map底图重新上传与复测](map-image-repair-walkthrough.md)在两轮Monday路径显示8个筛选页底图。此前失败记录保留；这不证明所有图片或完整应用已通过。
