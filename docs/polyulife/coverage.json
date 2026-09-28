@@ -349,6 +349,25 @@
         "E-HOME-DRAWER-CLOSED",
         "E-HOME-ENTRY-RECHECK-TRACE"
       ]
+    },
+    {
+      "id": "SESSION-20260928-MAP-STRIP",
+      "started_at": "2026-09-28T18:46:10.057Z",
+      "documented_through": "2026-09-28T18:49:42.628Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone app via mcp__cua_repl, existing Wrapper binding",
+        "app_version_last_known": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "login_state": "Existing authenticated session; public map only"
+      },
+      "starting_state_id": "S-MAINMAP-INITIAL",
+      "evidence_ids": [
+        "E-MAINMAP-STRIP-TRACE",
+        "E-NATIVE-MAP-CATEGORIES-RIGHT",
+        "E-NATIVE-MAP-CATEGORIES-LEFT-RETURN"
+      ]
     }
   ],
   "entry_points": [
@@ -2784,7 +2803,8 @@
         "A-MAINMAP-BANKS",
         "A-MAINMAP-AEDS",
         "A-MAINMAP-BOOKSTORES",
-        "A-MAINMAP-CATEGORY-COMBINATIONS"
+        "A-MAINMAP-CATEGORY-COMBINATIONS",
+        "A-MAINMAP-STRIP-RIGHT"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -3132,6 +3152,28 @@
       "discovery_checked": false,
       "remaining_uncertainties": [
         "See home-study-map-walkthrough.md for remaining branches, boundaries and inconclusive tool actions."
+      ]
+    },
+    {
+      "id": "S-MAINMAP-RIGHT",
+      "session_id": "SESSION-20260928-MAP-STRIP",
+      "title": "Map with right categories exposed and none selected",
+      "description": "Horizontal strip drag reveals Clinics, Banks, AEDs and Bookstores; no category selection and no results sheet. Map geography unchanged.",
+      "visible_scope": "Full public Map viewport",
+      "preconditions": "Main Map no category selected; drag top strip left.",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-MAP-CATEGORIES-RIGHT",
+        "E-NATIVE-MAP-RIGHT-RECHECK"
+      ],
+      "ax_evidence_ids": [
+        "E-MAINMAP-STRIP-TRACE"
+      ],
+      "action_ids": [
+        "A-MAINMAP-STRIP-LEFT"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "All category combinations and direction/boundary behavior not fully explored."
       ]
     }
   ],
@@ -8818,6 +8860,60 @@
       "return_path": "Home entry/return recheck in home-study-map-walkthrough.md",
       "authorization": "Ordinary reversible navigation only; no credentials, personal data mutation or business submission",
       "blockers": []
+    },
+    {
+      "id": "A-MAINMAP-STRIP-RIGHT",
+      "from_state_id": "S-MAINMAP-INITIAL",
+      "control": "Drag category strip [475,244] to [80,244]",
+      "input_summary": "Drag category strip [475,244] to [80,244]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T18:46:28.089Z",
+          "from_state_id": "S-MAINMAP-INITIAL",
+          "observed_feedback": "Visible category strip changes position while selection remains empty and map unchanged.",
+          "target_state_id": "S-MAINMAP-RIGHT",
+          "evidence_ids": [
+            "E-NATIVE-MAP-CATEGORIES-RIGHT",
+            "E-MAINMAP-STRIP-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-MAINMAP-RIGHT",
+      "evidence_ids": [
+        "E-NATIVE-MAP-CATEGORIES-RIGHT",
+        "E-MAINMAP-STRIP-TRACE"
+      ],
+      "return_path": "Opposite direction strip drag",
+      "authorization": "Ordinary reversible UI navigation in authorised research scope",
+      "blockers": []
+    },
+    {
+      "id": "A-MAINMAP-STRIP-LEFT",
+      "from_state_id": "S-MAINMAP-RIGHT",
+      "control": "Drag category strip [86,245] to [480,245]",
+      "input_summary": "Drag category strip [86,245] to [480,245]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T18:49:42.628Z",
+          "from_state_id": "S-MAINMAP-RIGHT",
+          "observed_feedback": "Visible category strip changes position while selection remains empty and map unchanged.",
+          "target_state_id": "S-MAINMAP-INITIAL",
+          "evidence_ids": [
+            "E-NATIVE-MAP-CATEGORIES-LEFT-RETURN",
+            "E-MAINMAP-STRIP-TRACE"
+          ]
+        }
+      ],
+      "target_state_id": "S-MAINMAP-INITIAL",
+      "evidence_ids": [
+        "E-NATIVE-MAP-CATEGORIES-LEFT-RETURN",
+        "E-MAINMAP-STRIP-TRACE"
+      ],
+      "return_path": "Opposite direction strip drag",
+      "authorization": "Ordinary reversible UI navigation in authorised research scope",
+      "blockers": []
     }
   ],
   "evidence": [
@@ -13701,6 +13797,828 @@
       ],
       "redaction": "Public route/node facts and explicitly synthetic timetable; private native content excluded.",
       "source": "Actual import/configuration/Present after independent native Home Calendar recheck. Home return crop may reuse initial public frame where pixel-identical."
+    },
+    {
+      "id": "E-NATIVE-MAP-INITIAL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/184610-native-map-initial.png",
+      "session_id": "SESSION-20260928-MAP-STRIP",
+      "captured_at": "2026-09-28T18:46:10.057Z",
+      "sha256": "c63cd4c8655cb4044761ba4f23109fce06b0a69b64f628e2d0612666a03845fb",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Native window chrome removed; public map only.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-NATIVE-MAP-CATEGORIES-RIGHT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/184628-native-map-categories-right.png",
+      "session_id": "SESSION-20260928-MAP-STRIP",
+      "captured_at": "2026-09-28T18:46:28.089Z",
+      "sha256": "6098c0864050a53d85ee5020a31884e67f79b0931c3d4eb28c452606e2349029",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Native window chrome removed; public map only.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-NATIVE-MAP-RIGHT-RECHECK",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/184933-native-map-right-recheck.png",
+      "session_id": "SESSION-20260928-MAP-STRIP",
+      "captured_at": "2026-09-28T18:49:33.995Z",
+      "sha256": "b77a11db0ffda3efb5268325c5af5eed06bf1337b9efd34d790dddaa1c304da1",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Native window chrome removed; public map only.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-NATIVE-MAP-CATEGORIES-LEFT-RETURN",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/184942-native-map-categories-left-return.png",
+      "session_id": "SESSION-20260928-MAP-STRIP",
+      "captured_at": "2026-09-28T18:49:42.628Z",
+      "sha256": "a438369ae783359507c782fc084de605d57a2b188929ec6611588d1d10148010",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Native window chrome removed; public map only.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-INITIAL-IMAGE-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190032-map-initial-image-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:00:32.186Z",
+      "sha256": "16833f3d172198941e4b9c9aad88a3183f85e78fec00b845230c8c0e9b2527be",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-INITIAL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190041-map-initial.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:00:41.414Z",
+      "sha256": "70b9825e98a0db23d86ceffee961b4af729fef952239f7eb8f80d40821311cb7",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-TOILETS-IMAGE-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190053-map-toilets-image-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:00:53.588Z",
+      "sha256": "7a3496f616a2c35ade53b5e0100dcbc34757bc6a511c3e8eefda6587b6cc0cb1",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-TOILETS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190102-map-toilets.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:01:02.539Z",
+      "sha256": "bfd3818d59b551263ef79f790f6a7b4c65cf3534d451cd136a3fc2140304f189",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-DETAIL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190112-map-detail.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:01:12.360Z",
+      "sha256": "ecb14a3a50fc20ba29ab22b4df8dd90f7e7f16835ab64b241b76adb06e4dc7fb",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-EXPANDED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190132-map-expanded.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:01:32.467Z",
+      "sha256": "5ccf35c031ad39f3abc6686a447b6507880586966a1dbe19750badeca9844b6a",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-DETAIL-RETURN",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190141-map-detail-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:01:41.948Z",
+      "sha256": "ecb14a3a50fc20ba29ab22b4df8dd90f7e7f16835ab64b241b76adb06e4dc7fb",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-TOILETS-RETURN-IMAGE-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190151-map-toilets-return-image-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:01:51.117Z",
+      "sha256": "7a3496f616a2c35ade53b5e0100dcbc34757bc6a511c3e8eefda6587b6cc0cb1",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-TOILETS-WATER",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190202-map-toilets-water.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:02:02.922Z",
+      "sha256": "5c13dd38cc21631ae0281ef505e913abeab8d078fa4fbba6908feb2746f1f838",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-WATER",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190212-map-water.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:02:12.769Z",
+      "sha256": "605cd64da8cc52ebb43ba24627a1245c1cacec1fbfb4e5f179edfb07584ab51d",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-WATER-SCROLLED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190222-map-water-scrolled.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:02:22.259Z",
+      "sha256": "09691852bca6800eff5ea00514fe8d0ff59b9888dff53f86d8983e621b8c321e",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-CLEARED-IMAGE-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190233-map-cleared-image-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:02:33.357Z",
+      "sha256": "16833f3d172198941e4b9c9aad88a3183f85e78fec00b845230c8c0e9b2527be",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-CLINICS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190245-map-clinics.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:02:45.598Z",
+      "sha256": "e54a7d68bb8fce871ef05aa1b78b79071e13fa9fbe931cc8949a6b5589138077",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-CLINICS-CLEARED-IMAGE-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190256-map-clinics-cleared-image-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:02:56.975Z",
+      "sha256": "16833f3d172198941e4b9c9aad88a3183f85e78fec00b845230c8c0e9b2527be",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-CATEGORIES-RIGHT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190310-map-categories-right.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:03:10.378Z",
+      "sha256": "613a11e790fe1b39a0d6891837749614e56c5e24f10345af9d86f4310dea7bda",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-CATEGORIES-LEFT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190319-map-categories-left.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:03:19.824Z",
+      "sha256": "70b9825e98a0db23d86ceffee961b4af729fef952239f7eb8f80d40821311cb7",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-RIGHT-RETURN",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190332-map-right-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:03:32.554Z",
+      "sha256": "613a11e790fe1b39a0d6891837749614e56c5e24f10345af9d86f4310dea7bda",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-BANKS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190343-map-banks.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:03:43.250Z",
+      "sha256": "98227e8646e753fbad9aaf807d5a8f74784ee40ed6e35f49455aeb0e570013be",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-BANKS-CLEARED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190353-map-banks-cleared.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:03:53.218Z",
+      "sha256": "613a11e790fe1b39a0d6891837749614e56c5e24f10345af9d86f4310dea7bda",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-AEDS",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190403-map-aeds.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:04:03.654Z",
+      "sha256": "56ce41e5d23d853beb3412171e6cf7c7d05595d64950b8530669a653ff3a8a44",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-AEDS-CLEARED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190412-map-aeds-cleared.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:04:12.705Z",
+      "sha256": "613a11e790fe1b39a0d6891837749614e56c5e24f10345af9d86f4310dea7bda",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-BOOKSTORES",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190422-map-bookstores.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:04:22.352Z",
+      "sha256": "10147f35b0f009d3a89ddb2aeed68659b1918c707718c32bdc64e126786c64e0",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-HOME-RETURN-DECORATION-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190433-map-home-return-decoration-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:04:33.442Z",
+      "sha256": "7f915d95cf50544caa23a75cb1e2a7822614f83ee9821190847597f95b6ec31f",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-FLOW-CONTEXT-IMAGE-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190447-map-flow-context-image-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:04:47.302Z",
+      "sha256": "0b5fafceda5e89ac83cee66114cf03b8592efa4c47ac3d8c5ebdcbd8e90f1d1a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": null,
+        "opaque_mask": [
+          1017,
+          0,
+          1075,
+          49
+        ]
+      }
+    },
+    {
+      "id": "E-MAP-FLOW-CONTEXT-IMAGE-STILL-MISSING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190457-map-flow-context-image-still-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:04:57.400Z",
+      "sha256": "0b5fafceda5e89ac83cee66114cf03b8592efa4c47ac3d8c5ebdcbd8e90f1d1a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": null,
+        "opaque_mask": [
+          1017,
+          0,
+          1075,
+          49
+        ]
+      }
+    },
+    {
+      "id": "E-MAP-FILL-EXPERIMENT-WRONG-SHADER",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-190651-map-fill-experiment-wrong-shader.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:06:51.154Z",
+      "sha256": "09f5347cd78c75d87264158361698e6ba76bd8037c9a4b4f9cc8718753da9ea5",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-PNG-REPLACEMENT-FIRST-RETURN",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-191041-map-png-replacement-first-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:10:41.710Z",
+      "sha256": "70b9825e98a0db23d86ceffee961b4af729fef952239f7eb8f80d40821311cb7",
+      "dimensions": [
+        357,
+        601
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": [
+          581,
+          60,
+          938,
+          661
+        ],
+        "opaque_mask": null
+      }
+    },
+    {
+      "id": "E-MAP-PNG-REPLACEMENT-SECOND-RETURN-CONTEXT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-v2-191240-map-png-replacement-second-return-context.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:12:40.541Z",
+      "sha256": "9aaf6426d16d1ecfc5d8709021b148693dfe9226f490118d609069794be0ea17",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Prototype crop removes account chrome; synthetic Home contents only. Full context screenshots mask avatar rectangle.",
+      "source": "Actual Computer Use screenshot; no regenerated evidence pixels.",
+      "processing": {
+        "crop": null,
+        "opaque_mask": [
+          1017,
+          0,
+          1075,
+          49
+        ]
+      }
+    },
+    {
+      "id": "E-MAINMAP-STRIP-TRACE",
+      "type": "observation_record",
+      "path": "map-prototype-walkthrough.md",
+      "session_id": "SESSION-20260928-MAP-STRIP",
+      "captured_at": "2026-09-28T18:49:42.628Z",
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public route facts only, no private app body or identity.",
+      "source": "Actual native and Figma Computer Use actions, plus their emitted screenshots/URLs."
+    },
+    {
+      "id": "E-FIGMA-MAINMAP-TRACE",
+      "type": "observation_record",
+      "path": "map-prototype-walkthrough.md",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:12:40.541Z",
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public route facts only, no private app body or identity.",
+      "source": "Actual native and Figma Computer Use actions, plus their emitted screenshots/URLs."
     }
   ],
   "findings": [
@@ -17207,6 +18125,640 @@
         "prototype_run_ids": [
           "PROTO-HOME-CALENDAR-WEEK-FIX"
         ]
+      },
+      {
+        "state_id": "S-MAINMAP-INITIAL",
+        "node_id": "70:1064",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1064",
+        "node_name": "[S-MAINMAP-INITIAL] Map — no category",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-INITIAL",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-initial.svg",
+        "design_source_sha256": "01605a6a3be212031552049e74527d0b9f924e4a76a32ca4dc5dfbcf46723577",
+        "canvas_position": [
+          0,
+          21600
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-INITIAL",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-INITIAL",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "post_import_edits": [
+          {
+            "node_id": "70:1068",
+            "edit": "Direct PNG image upload using Figma Color picker; Fill mode; public mainmap-initial-geography.png; geometry unchanged (0,154,576,816).",
+            "evidence_ids": [
+              "E-MAP-PNG-REPLACEMENT-FIRST-RETURN",
+              "E-MAP-PNG-REPLACEMENT-SECOND-RETURN-CONTEXT"
+            ]
+          }
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-RIGHT",
+        "node_id": "70:1097",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1097",
+        "node_name": "[S-MAINMAP-RIGHT] Map — categories right",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-NATIVE-MAP-CATEGORIES-RIGHT",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-initial-right.svg",
+        "design_source_sha256": "0c060bb497304f731ce9a92d012702dea28fa79da095b08b10004dde5216d9e4",
+        "canvas_position": [
+          700,
+          21600
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-CATEGORIES-RIGHT",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-CATEGORIES-RIGHT",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-TOILETS",
+        "node_id": "70:1130",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1130",
+        "node_name": "[S-MAINMAP-TOILETS] Map — Toilets",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-TOILETS",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-toilets.svg",
+        "design_source_sha256": "c32093782bbe9175b0b50b4178b6775e3b0d8334ff45ce77e393500bf8f692d5",
+        "canvas_position": [
+          1400,
+          21600
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-TOILETS",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-TOILETS",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-TOILETS-WATER",
+        "node_id": "70:1200",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1200",
+        "node_name": "[S-MAINMAP-TOILETS-WATER] Map — Toilets + Water",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-COMBINED",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-combined.svg",
+        "design_source_sha256": "21b64049b6ffa86affd441b19434f7cc30b4180f6823c50e63c85aaa09d119b7",
+        "canvas_position": [
+          2100,
+          21600
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-TOILETS-WATER",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-TOILETS-WATER",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-WATER",
+        "node_id": "70:1270",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1270",
+        "node_name": "[S-MAINMAP-WATER] Map — Water Stations",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-WATER",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-water.svg",
+        "design_source_sha256": "c8fe12357d9c53aa04210e58e5022176b924bd3246fcb1faa7bcd7519c1e9329",
+        "canvas_position": [
+          0,
+          22800
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-WATER",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-WATER",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-WATER-SCROLLED",
+        "node_id": "70:1339",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1339",
+        "node_name": "[S-MAINMAP-WATER-SCROLLED] Map — Water list scrolled",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-LIST-SCROLL",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-water-scrolled.svg",
+        "design_source_sha256": "a0708d42c8cd858f79c6b07631db0d23c0bf9464a024496f3e3bb25cc05655ed",
+        "canvas_position": [
+          700,
+          22800
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-WATER-SCROLLED",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-WATER-SCROLLED",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-CLINICS",
+        "node_id": "70:1396",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1396",
+        "node_name": "[S-MAINMAP-CLINICS] Map — Clinics",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-CLINICS",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-clinics.svg",
+        "design_source_sha256": "c9377c8e3dee59bbe6af6b3f0a96caf15429355bce59369f4f07cbd12605edec",
+        "canvas_position": [
+          1400,
+          22800
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-CLINICS",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-CLINICS",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-BANKS",
+        "node_id": "70:1456",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1456",
+        "node_name": "[S-MAINMAP-BANKS] Map — Banks",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-BANKS",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-banks.svg",
+        "design_source_sha256": "ebbc33910b48c93de6f627dfa4ceec1b678c7ec042355ba732ecfba0eadc6239",
+        "canvas_position": [
+          2100,
+          22800
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-BANKS",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-BANKS",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-AEDS",
+        "node_id": "70:1505",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1505",
+        "node_name": "[S-MAINMAP-AEDS] Map — AEDs",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-AEDS",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-aeds.svg",
+        "design_source_sha256": "4d8d90721ec7dc2f8764eae24384c8aedb76004191f7e588aee1daa128fd64b0",
+        "canvas_position": [
+          0,
+          24000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-AEDS",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-AEDS",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-BOOKSTORES",
+        "node_id": "70:1565",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1565",
+        "node_name": "[S-MAINMAP-BOOKSTORES] Map — Bookstores",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-BOOKSTORES",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-bookstores.svg",
+        "design_source_sha256": "c5f332c051102de1710bfcee1d07a74622e6bc66bd35af3f6b305baab1b0868a",
+        "canvas_position": [
+          700,
+          24000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-BOOKSTORES",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-BOOKSTORES",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-DETAIL",
+        "node_id": "70:1614",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1614",
+        "node_name": "[S-MAINMAP-DETAIL] Toilet Core C — Detail",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-DETAIL",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-detail.svg",
+        "design_source_sha256": "8189c60250e6b973c6feeaf472db8cd1f11ca9d85e5741e67f263035d544aa9b",
+        "canvas_position": [
+          1400,
+          24000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-DETAIL",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-DETAIL",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
+      },
+      {
+        "state_id": "S-MAINMAP-FULL",
+        "node_id": "70:1635",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1635",
+        "node_name": "[S-MAINMAP-FULL] Toilet Core C — Expanded map",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "source_evidence_ids": [
+          "E-MAINMAP-FULL",
+          "E-MAINMAP-STRIP-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mainmap-full.svg",
+        "design_source_sha256": "c57be2a512d586339e5d8167d36254d9c7031028b894329bf7668e551ff7833f",
+        "canvas_position": [
+          2100,
+          24000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": false,
+          "prototype_capture": [
+            357,
+            601
+          ]
+        },
+        "native_editability": "Imported native text, vectors and named groups for headers, filters and facility rows; geography and map labels/pins remain public raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All 12 states actually viewed. Fonts/icons/strip backdrop approximate source. Main initial and Toilets return images intermittently missing; initial image directly reuploaded with limited successful return checks.",
+          "evidence_ids": [
+            "E-MAP-EXPANDED",
+            "E-FIGMA-MAINMAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MAINMAP-STATIC",
+            "D-MAINMAP-IMAGES"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-MAP-EXPANDED",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ]
       }
     ],
     "action_connection_mappings": [
@@ -18744,6 +20296,446 @@
           "D-STUDY-DEMO-CONTENT",
           "D-STUDY-STATIC-INPUT"
         ]
+      },
+      {
+        "connection_id": "C-MAINMAP-01",
+        "action_id": "A-MAINMAP-TOILETS",
+        "source_node_id": "70:1064",
+        "target_node_id": "70:1130",
+        "trigger_node_id": "70:1071",
+        "trigger_node_name": "FilterToilets",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-02",
+        "action_id": "A-MAINMAP-CLINICS",
+        "source_node_id": "70:1064",
+        "target_node_id": "70:1396",
+        "trigger_node_id": "70:1080",
+        "trigger_node_name": "FilterClinics",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-03",
+        "action_id": "A-MAINMAP-STRIP-RIGHT",
+        "source_node_id": "70:1064",
+        "target_node_id": "70:1097",
+        "trigger_node_id": "70:1069",
+        "trigger_node_name": "CategoryStrip",
+        "trigger": "On drag",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-04",
+        "action_id": "A-MAINMAP-STRIP-LEFT",
+        "source_node_id": "70:1097",
+        "target_node_id": "70:1064",
+        "trigger_node_id": "70:1102",
+        "trigger_node_name": "CategoryStrip",
+        "trigger": "On drag",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-05",
+        "action_id": "A-MAINMAP-BANKS",
+        "source_node_id": "70:1097",
+        "target_node_id": "70:1456",
+        "trigger_node_id": "70:1109",
+        "trigger_node_name": "FilterBanks",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-06",
+        "action_id": "A-MAINMAP-AEDS",
+        "source_node_id": "70:1097",
+        "target_node_id": "70:1505",
+        "trigger_node_id": "70:1113",
+        "trigger_node_name": "FilterAEDs",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-07",
+        "action_id": "A-MAINMAP-BOOKSTORES",
+        "source_node_id": "70:1097",
+        "target_node_id": "70:1565",
+        "trigger_node_id": "70:1118",
+        "trigger_node_name": "FilterBookstores",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-08",
+        "action_id": "A-MAINMAP-WATER",
+        "source_node_id": "70:1130",
+        "target_node_id": "70:1200",
+        "trigger_node_id": "70:1142",
+        "trigger_node_name": "FilterWaterStations",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-09",
+        "action_id": "A-MAINMAP-DETAIL",
+        "source_node_id": "70:1130",
+        "target_node_id": "70:1614",
+        "trigger_node_id": "70:1167",
+        "trigger_node_name": "Facility1Detail",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-10",
+        "action_id": "A-MAINMAP-TOILETS",
+        "source_node_id": "70:1200",
+        "target_node_id": "70:1270",
+        "trigger_node_id": "70:1207",
+        "trigger_node_name": "FilterToilets",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-11",
+        "action_id": "A-MAINMAP-LIST-SCROLL",
+        "source_node_id": "70:1270",
+        "target_node_id": "70:1339",
+        "trigger_node_id": "70:1295",
+        "trigger_node_name": "ResultsList",
+        "trigger": "On drag",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-12",
+        "action_id": "A-MAINMAP-WATER",
+        "source_node_id": "70:1339",
+        "target_node_id": "70:1064",
+        "trigger_node_id": "70:1351",
+        "trigger_node_name": "FilterWaterStations",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-13",
+        "action_id": "A-MAINMAP-EXPAND",
+        "source_node_id": "70:1614",
+        "target_node_id": "70:1635",
+        "trigger_node_id": "70:1624",
+        "trigger_node_name": "ExpandMap",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-14",
+        "action_id": "A-MAINMAP-DETAIL-BACK",
+        "source_node_id": "70:1614",
+        "target_node_id": "70:1130",
+        "trigger_node_id": "70:1629",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-15",
+        "action_id": "A-MAINMAP-FULL-BACK",
+        "source_node_id": "70:1635",
+        "target_node_id": "70:1614",
+        "trigger_node_id": "70:1642",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-16",
+        "action_id": "A-MAINMAP-CLINICS",
+        "source_node_id": "70:1396",
+        "target_node_id": "70:1064",
+        "trigger_node_id": "70:1412",
+        "trigger_node_name": "FilterClinics",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-17",
+        "action_id": "A-MAINMAP-BANKS",
+        "source_node_id": "70:1456",
+        "target_node_id": "70:1097",
+        "trigger_node_id": "70:1468",
+        "trigger_node_name": "FilterBanks",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-18",
+        "action_id": "A-MAINMAP-AEDS",
+        "source_node_id": "70:1505",
+        "target_node_id": "70:1097",
+        "trigger_node_id": "70:1521",
+        "trigger_node_name": "FilterAEDs",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-19",
+        "action_id": "A-MAINMAP-HOME-BACK",
+        "source_node_id": "70:1565",
+        "target_node_id": "67:820",
+        "trigger_node_id": "70:1608",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "connection_id": "C-MAINMAP-20",
+        "action_id": "A-HOME-EP007",
+        "source_node_id": "67:820",
+        "target_node_id": "70:1064",
+        "trigger_node_id": "67:872",
+        "trigger_node_name": "FeatureMap",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "configured_at": null,
+        "implementation_status": "navigation_passed_visual_partial",
+        "prototype_run_ids": [
+          "PROTO-MAINMAP-V2-001"
+        ],
+        "source_fidelity": "Recorded native sample only. Drag simulates discrete view transition, not free scrolling or direction-sensitive gestures. Fixed map geography and sampled facility lists.",
+        "deviation_ids": [
+          "D-MAINMAP-STATIC",
+          "D-MAINMAP-IMAGES"
+        ],
+        "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
       }
     ],
     "reconstruction_deviations": [
@@ -19346,6 +21338,53 @@
           "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
         ],
         "resolved_at": "2026-09-28T18:44:36.057Z"
+      },
+      {
+        "id": "D-MAINMAP-STATIC",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "status": "open",
+        "affected_state_ids": [
+          "S-MAINMAP-INITIAL",
+          "S-MAINMAP-RIGHT",
+          "S-MAINMAP-TOILETS",
+          "S-MAINMAP-TOILETS-WATER",
+          "S-MAINMAP-WATER",
+          "S-MAINMAP-WATER-SCROLLED",
+          "S-MAINMAP-CLINICS",
+          "S-MAINMAP-BANKS",
+          "S-MAINMAP-AEDS",
+          "S-MAINMAP-BOOKSTORES",
+          "S-MAINMAP-DETAIL",
+          "S-MAINMAP-FULL"
+        ],
+        "original_behavior": "Native geographical map with filter chips, facility list and scrollable category/list regions.",
+        "current_implementation": "Editable controls/text around raster public geography; neutral backdrop behind chips, simplified icons. Drag swaps fixed frames. Only Core C detail and sampled rows. Category deselection resets to fixed initial map view.",
+        "impact": "Not continuous scrolling, live map manipulation, full-data coverage or pixel-identical reconstruction.",
+        "next_step": "Continue native boundaries and editable continuous scroll implementation.",
+        "evidence_ids": [
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "id": "D-MAINMAP-IMAGES",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "status": "open",
+        "affected_state_ids": [
+          "S-MAINMAP-INITIAL",
+          "S-MAINMAP-TOILETS",
+          "S-HOME"
+        ],
+        "original_behavior": "Recorded native map images are visible.",
+        "current_implementation": "Present sometimes shows blank imported image regions. Initial Image70:1068 directly reuploaded as PNG and visible on two Clinics returns; Toilets and Home still unresolved.",
+        "impact": "Navigation succeeds but visual reproduction unstable. Cause is not confirmed as app behavior, rendering, caching or import defect.",
+        "next_step": "Apply and validate supported image replacement to affected layers, including independent reload/repeated transitions.",
+        "evidence_ids": [
+          "E-MAP-INITIAL-IMAGE-MISSING",
+          "E-MAP-TOILETS-RETURN-IMAGE-MISSING",
+          "E-MAP-HOME-RETURN-DECORATION-MISSING",
+          "E-MAP-PNG-REPLACEMENT-SECOND-RETURN-CONTEXT",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
       }
     ],
     "prototype_runs": [
@@ -21214,6 +23253,343 @@
         "context_evidence_ids": [
           "E-FIGMA-HOME-FLOW-CONTEXT"
         ]
+      },
+      {
+        "id": "PROTO-MAINMAP-V2-001",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "started_at": "2026-09-28T19:00:32.186Z",
+        "ended_at": "2026-09-28T19:04:57.400Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1064&scaling=scale-down&content-scaling=fixed&starting-point-node-id=70%3A1064&show-proto-sidebar=1",
+        "start_node_id": "67:820",
+        "flow_name": "Home to Map; Map · Facilities and category filters",
+        "status": "failed",
+        "navigation_status": "passed_for_20_controls",
+        "visual_status": "failed_intermittent_map_and_home_images",
+        "scope": "Home entry; six categories; Toilets+Water; detail/full/back; sampled later Water rows; category strip left/right; Bookstores back Home. All configured controls actually replayed.",
+        "steps": [
+          {
+            "at": "2026-09-28T19:00:32.186Z",
+            "connection_id": "C-MAINMAP-20",
+            "action_id": "A-HOME-EP007",
+            "source_node_id": "67:820",
+            "expected_node_id": "70:1064",
+            "actual_node_id": "70:1064",
+            "result": "navigation_passed",
+            "visual_status": "failed_image_missing",
+            "evidence_ids": [
+              "E-MAP-INITIAL-IMAGE-MISSING",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:01:02.539Z",
+            "connection_id": "C-MAINMAP-01",
+            "action_id": "A-MAINMAP-TOILETS",
+            "source_node_id": "70:1064",
+            "expected_node_id": "70:1130",
+            "actual_node_id": "70:1130",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-TOILETS",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:01:12.360Z",
+            "connection_id": "C-MAINMAP-09",
+            "action_id": "A-MAINMAP-DETAIL",
+            "source_node_id": "70:1130",
+            "expected_node_id": "70:1614",
+            "actual_node_id": "70:1614",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-DETAIL",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:01:32.467Z",
+            "connection_id": "C-MAINMAP-13",
+            "action_id": "A-MAINMAP-EXPAND",
+            "source_node_id": "70:1614",
+            "expected_node_id": "70:1635",
+            "actual_node_id": "70:1635",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-EXPANDED",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:01:41.948Z",
+            "connection_id": "C-MAINMAP-15",
+            "action_id": "A-MAINMAP-FULL-BACK",
+            "source_node_id": "70:1635",
+            "expected_node_id": "70:1614",
+            "actual_node_id": "70:1614",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-DETAIL-RETURN",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:01:51.117Z",
+            "connection_id": "C-MAINMAP-14",
+            "action_id": "A-MAINMAP-DETAIL-BACK",
+            "source_node_id": "70:1614",
+            "expected_node_id": "70:1130",
+            "actual_node_id": "70:1130",
+            "result": "navigation_passed",
+            "visual_status": "failed_image_missing",
+            "evidence_ids": [
+              "E-MAP-TOILETS-RETURN-IMAGE-MISSING",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:02:02.922Z",
+            "connection_id": "C-MAINMAP-08",
+            "action_id": "A-MAINMAP-WATER",
+            "source_node_id": "70:1130",
+            "expected_node_id": "70:1200",
+            "actual_node_id": "70:1200",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-TOILETS-WATER",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:02:12.769Z",
+            "connection_id": "C-MAINMAP-10",
+            "action_id": "A-MAINMAP-TOILETS",
+            "source_node_id": "70:1200",
+            "expected_node_id": "70:1270",
+            "actual_node_id": "70:1270",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-WATER",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:02:22.259Z",
+            "connection_id": "C-MAINMAP-11",
+            "action_id": "A-MAINMAP-LIST-SCROLL",
+            "source_node_id": "70:1270",
+            "expected_node_id": "70:1339",
+            "actual_node_id": "70:1339",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-WATER-SCROLLED",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:02:33.357Z",
+            "connection_id": "C-MAINMAP-12",
+            "action_id": "A-MAINMAP-WATER",
+            "source_node_id": "70:1339",
+            "expected_node_id": "70:1064",
+            "actual_node_id": "70:1064",
+            "result": "navigation_passed",
+            "visual_status": "failed_image_missing",
+            "evidence_ids": [
+              "E-MAP-CLEARED-IMAGE-MISSING",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:02:45.598Z",
+            "connection_id": "C-MAINMAP-02",
+            "action_id": "A-MAINMAP-CLINICS",
+            "source_node_id": "70:1064",
+            "expected_node_id": "70:1396",
+            "actual_node_id": "70:1396",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-CLINICS",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:02:56.975Z",
+            "connection_id": "C-MAINMAP-16",
+            "action_id": "A-MAINMAP-CLINICS",
+            "source_node_id": "70:1396",
+            "expected_node_id": "70:1064",
+            "actual_node_id": "70:1064",
+            "result": "navigation_passed",
+            "visual_status": "failed_image_missing",
+            "evidence_ids": [
+              "E-MAP-CLINICS-CLEARED-IMAGE-MISSING",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:03:10.378Z",
+            "connection_id": "C-MAINMAP-03",
+            "action_id": "A-MAINMAP-STRIP-RIGHT",
+            "source_node_id": "70:1064",
+            "expected_node_id": "70:1097",
+            "actual_node_id": "70:1097",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-CATEGORIES-RIGHT",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:03:19.824Z",
+            "connection_id": "C-MAINMAP-04",
+            "action_id": "A-MAINMAP-STRIP-LEFT",
+            "source_node_id": "70:1097",
+            "expected_node_id": "70:1064",
+            "actual_node_id": "70:1064",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-CATEGORIES-LEFT",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:03:32.554Z",
+            "connection_id": "C-MAINMAP-03",
+            "action_id": "A-MAINMAP-STRIP-RIGHT",
+            "source_node_id": "70:1064",
+            "expected_node_id": "70:1097",
+            "actual_node_id": "70:1097",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-RIGHT-RETURN",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:03:43.250Z",
+            "connection_id": "C-MAINMAP-05",
+            "action_id": "A-MAINMAP-BANKS",
+            "source_node_id": "70:1097",
+            "expected_node_id": "70:1456",
+            "actual_node_id": "70:1456",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-BANKS",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:03:53.218Z",
+            "connection_id": "C-MAINMAP-17",
+            "action_id": "A-MAINMAP-BANKS",
+            "source_node_id": "70:1456",
+            "expected_node_id": "70:1097",
+            "actual_node_id": "70:1097",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-BANKS-CLEARED",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:04:03.654Z",
+            "connection_id": "C-MAINMAP-06",
+            "action_id": "A-MAINMAP-AEDS",
+            "source_node_id": "70:1097",
+            "expected_node_id": "70:1505",
+            "actual_node_id": "70:1505",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-AEDS",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:04:12.705Z",
+            "connection_id": "C-MAINMAP-18",
+            "action_id": "A-MAINMAP-AEDS",
+            "source_node_id": "70:1505",
+            "expected_node_id": "70:1097",
+            "actual_node_id": "70:1097",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-AEDS-CLEARED",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:04:22.352Z",
+            "connection_id": "C-MAINMAP-07",
+            "action_id": "A-MAINMAP-BOOKSTORES",
+            "source_node_id": "70:1097",
+            "expected_node_id": "70:1565",
+            "actual_node_id": "70:1565",
+            "result": "navigation_passed",
+            "visual_status": "visible_sample_checked",
+            "evidence_ids": [
+              "E-MAP-BOOKSTORES",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          },
+          {
+            "at": "2026-09-28T19:04:33.442Z",
+            "connection_id": "C-MAINMAP-19",
+            "action_id": "A-MAINMAP-HOME-BACK",
+            "source_node_id": "70:1565",
+            "expected_node_id": "67:820",
+            "actual_node_id": "67:820",
+            "result": "navigation_passed",
+            "visual_status": "failed_image_missing",
+            "evidence_ids": [
+              "E-MAP-HOME-RETURN-DECORATION-MISSING",
+              "E-FIGMA-MAINMAP-TRACE"
+            ]
+          }
+        ],
+        "limitations": [
+          "Discrete On drag transitions do not reproduce continuous native scrolling or direction constraints.",
+          "No live map controls, geolocation, arbitrary details, full list or remaining combinations.",
+          "Initial/Toilets/Home images missing on recorded returns; later initial-only PNG replacement does not repair entire sample."
+        ]
+      },
+      {
+        "id": "PROTO-MAINMAP-PNG-RECHECK",
+        "revision_id": "FIGMA-MAINMAP-V2",
+        "started_at": "2026-09-28T19:09:14.101Z",
+        "ended_at": "2026-09-28T19:12:40.541Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1064&scaling=scale-down&content-scaling=fixed&starting-point-node-id=70%3A1064&show-proto-sidebar=1",
+        "start_node_id": "70:1064",
+        "flow_name": "Map · Facilities and category filters",
+        "status": "passed",
+        "navigation_status": "passed_two_clinics_return_samples",
+        "visual_status": "initial_map_visible_on_two_recorded_returns",
+        "scope": "Initial Image70:1068 reuploaded from public PNG using Figma image picker, Fill mode and unchanged geometry. Two Clinics->initial returns show map. During earlier UI experiment Shader was inadvertently selected; restored to Image and replaced with actual PNG before checks.",
+        "steps": [],
+        "evidence_ids": [
+          "E-MAP-PNG-REPLACEMENT-FIRST-RETURN",
+          "E-MAP-PNG-REPLACEMENT-SECOND-RETURN-CONTEXT",
+          "E-FIGMA-MAINMAP-TRACE"
+        ],
+        "limitations": [
+          "Only initial image repaired; other SVG image layers and earlier failures remain open.",
+          "Two successful samples do not establish global image stability or root cause."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -21293,8 +23669,8 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "63 imported frames and74 trigger controls mapped. Home/Study/Courses/QR original22-control navigation sample passed; Calendar target corrected to actual Week5 and new Home return tested. Apps/Courses CJK glyph fixes reverified. Home/VA/Food image instability remains unresolved; full application incomplete.",
-    "latest_verified_cutoff": "2026-09-28T18:44:36.057Z",
+    "verification_summary": "75 imported frames and 94 trigger controls mapped. Main Map 12 frames/20 controls actually replayed; navigation passed, initial/Toilets/Home image gaps recorded. Initial-only PNG replacement passed two return samples. Full application and remaining image defects incomplete.",
+    "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
         "id": "NATIVE-ROOM-SUGGEST-001",
@@ -21633,7 +24009,9 @@
       "study_blank": "standalone_back_passed_no_incoming_search",
       "home_calendar_source_fidelity": "corrected_to_week_five_and_reverified",
       "menu_drawer_entry": "observed_internal_controls_not_run",
-      "home_calendar_week_roundtrip": "passed"
+      "home_calendar_week_roundtrip": "passed",
+      "mainmap_twelve_frames_twenty_controls": "navigation_passed_visual_partial",
+      "mainmap_initial_png_replacement": "two_clinics_returns_visible_other_images_open"
     },
     "additional_imports": [
       {
@@ -22378,6 +24756,162 @@
           "E-FIGMA-CALENDAR-WEEK-FIX",
           "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
         ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-initial.svg",
+        "frame_name": "[S-MAINMAP-INITIAL] Map — no category",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1064",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-INITIAL",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-initial-right.svg",
+        "frame_name": "[S-MAINMAP-RIGHT] Map — categories right",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1097",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-CATEGORIES-RIGHT",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-toilets.svg",
+        "frame_name": "[S-MAINMAP-TOILETS] Map — Toilets",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1130",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-TOILETS",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-combined.svg",
+        "frame_name": "[S-MAINMAP-TOILETS-WATER] Map — Toilets + Water",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1200",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-TOILETS-WATER",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-water.svg",
+        "frame_name": "[S-MAINMAP-WATER] Map — Water Stations",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1270",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-WATER",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-water-scrolled.svg",
+        "frame_name": "[S-MAINMAP-WATER-SCROLLED] Map — Water list scrolled",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1339",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-WATER-SCROLLED",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-clinics.svg",
+        "frame_name": "[S-MAINMAP-CLINICS] Map — Clinics",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1396",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-CLINICS",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-banks.svg",
+        "frame_name": "[S-MAINMAP-BANKS] Map — Banks",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1456",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-BANKS",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-aeds.svg",
+        "frame_name": "[S-MAINMAP-AEDS] Map — AEDs",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1505",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-AEDS",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-bookstores.svg",
+        "frame_name": "[S-MAINMAP-BOOKSTORES] Map — Bookstores",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1565",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-BOOKSTORES",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-detail.svg",
+        "frame_name": "[S-MAINMAP-DETAIL] Toilet Core C — Detail",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1614",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-DETAIL",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "path": "../../design/polyulife/mainmap-full.svg",
+        "frame_name": "[S-MAINMAP-FULL] Toilet Core C — Expanded map",
+        "status": "imported_mapped",
+        "page": "01 · Observed UI",
+        "node_id": "70:1635",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_tested_for_recorded_sample",
+        "evidence_ids": [
+          "E-MAP-EXPANDED",
+          "E-FIGMA-MAINMAP-TRACE"
+        ]
       }
     ],
     "flows": [
@@ -22437,9 +24971,19 @@
           "PROTO-HOME-CALENDAR-WEEK-FIX"
         ],
         "scope": "23 currently configured controls navigation checked across original22 sample plus new Week5 Home return. Calendar target corrected to native Week5 and replayed; Home decorative image remains intermittent, login CJK repaired. Synthetic/source-state/loading limits remain."
+      },
+      {
+        "name": "Map · Facilities and category filters",
+        "start_node_id": "70:1064",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1064&scaling=scale-down&content-scaling=fixed&starting-point-node-id=70%3A1064&show-proto-sidebar=1",
+        "tested_run_ids": [
+          "PROTO-MAINMAP-V2-001",
+          "PROTO-MAINMAP-PNG-RECHECK"
+        ],
+        "scope": "20 controls replayed including Home entry, category strip, sampled multiselect/list/detail; navigation passed, image defects partly unresolved."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-28T18:44:36.057Z",
+    "latest_prototype_run_cutoff": "2026-09-28T19:12:40.541Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -23291,6 +25835,25 @@
       "later_figma_resolution_evidence_ids": [
         "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
       ]
+    },
+    {
+      "id": "R-MAINMAP-STRIP",
+      "session_id": "SESSION-20260928-MAP-STRIP",
+      "status": "partial",
+      "reviewed_at": "2026-09-28T18:49:42.628Z",
+      "state_ids": [
+        "S-MAINMAP-INITIAL",
+        "S-MAINMAP-RIGHT"
+      ],
+      "checked_scope": "Category strip horizontal left/right navigation with no category selected.",
+      "newly_discovered_actions": [
+        "A-MAINMAP-STRIP-RIGHT",
+        "A-MAINMAP-STRIP-LEFT"
+      ],
+      "evidence_ids": [
+        "E-MAINMAP-STRIP-TRACE"
+      ],
+      "remaining_scope": "Complete category combinations, native list bounds and unobserved controls remain pending."
     }
   ]
 }

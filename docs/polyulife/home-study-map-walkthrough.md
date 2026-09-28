@@ -101,3 +101,5 @@ App 版本沿用同日已观察的 3.0.0；本段未重新做版本验收，macO
 | 18:37:23 | 点击抽屉右侧遮罩 → Home | [关闭后日期裁片](../../evidence/2026-09-28-full-audit/home-183726-drawer-closed-event-panel-only.png)；结果截止18:37:26.319 |
 
 四个Home入口已独立补测，复用已存在的状态，返回目标按真实起点记录。先前More进入Search/抽屉的返回，不能替代这里Home的返回。原Figma Home Calendar指向Sep28 Acad空月历，与这次实际Week5落点冲突；随后已用合成Week5重建、改线，并于18:44:36之前实际复验往返通过，见 [Figma修正记录](figma-spec.md)。旧偏差及修复前测试保留为历史。其它入口能到达相同空态/菜单不证明其中所有控制或数据边界已完整覆盖。
+
+主地图分类栏新增无选择的横向滑动与反向返回证据；12帧/20控件原型已回放，详见[地图增量](map-prototype-walkthrough.md)。

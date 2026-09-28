@@ -297,7 +297,7 @@ VRS加载标识为公开加载截图的53×54局部，登录字标复用已有�
 
 ## Home / Study / Courses / QR：13帧与22个连接样例
 
-[Home · Study, Courses and Campus QR 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1)已从Home实际播放。13个576×970 SVG已导入为原生可编辑Frame/Group/Text，源码由 [生成脚本](../../design/scripts/build_study_svg.py)维护。后补的Week5修正版另增一帧及返回控件，当前累计63帧、74个连接控件。本批原22个新热点均有导航反馈，Calendar目标偏差也已按原生证据修正并复验；**Home装饰图消失/恢复仍未解决**，整体视觉不能记通过。
+[Home · Study, Courses and Campus QR 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1)已从Home实际播放。13个576×970 SVG已导入为原生可编辑Frame/Group/Text，源码由 [生成脚本](../../design/scripts/build_study_svg.py)维护。后补的Week5修正版另增一帧及返回控件，该批截止时累计63帧、74个连接控件（地图增量后为75帧/94控件）。本批原22个新热点均有导航反馈，Calendar目标偏差也已按原生证据修正并复验；**Home装饰图消失/恢复仍未解决**，整体视觉不能记通过。
 
 | State | SVG source | Figma node | Canvas |
 | --- | --- | --- | --- |
@@ -415,3 +415,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 5. 将节点和动作映射与全应用台账逐条比对。任何尚未观察、缺截图、缺节点、缺连线、未复验或仍有阻碍的项均保持未完成；全应用完成判定见 [README](README.md#完成判定)。
 
 交付包含真实 Figma 文件及原型链接、状态/动作映射、证据索引、HCI 分析及明确的剩余缺口。Agent 对原型的走查是功能验证记录；课程真人可用性评估另按 [项目说明](../project-brief.md) 执行。
+
+## 校园地图增量
+
+[地图原型与分类栏补测](map-prototype-walkthrough.md)记录12个新增可编辑Frame、20个实际回放控件、图片缺失和初始底图定向修复。当前总计75个映射画板、94个交互控件；完整应用仍未通过。
