@@ -368,6 +368,48 @@
         "E-NATIVE-MAP-CATEGORIES-RIGHT",
         "E-NATIVE-MAP-CATEGORIES-LEFT-RETURN"
       ]
+    },
+    {
+      "id": "SESSION-20260928-MENU-RECHECK",
+      "started_at": "2026-09-28T19:21:55.895Z",
+      "documented_through": "2026-09-28T19:30:21.952Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone app, actual UI via mcp__cua_repl",
+        "app_version_last_known": "3.0.0",
+        "app_version_reverified_in_this_record": true,
+        "login_state": "Existing signed-in session; no credentials entered or settings changed"
+      },
+      "starting_state_id": "S-SETTINGS",
+      "evidence_ids": [
+        "E-MENU-N-01",
+        "E-MENU-N-02",
+        "E-MENU-N-03",
+        "E-MENU-N-04",
+        "E-MENU-N-05",
+        "E-MENU-N-06",
+        "E-MENU-N-07",
+        "E-MENU-N-08",
+        "E-MENU-N-09",
+        "E-MENU-N-10",
+        "E-MENU-N-11",
+        "E-MENU-N-12",
+        "E-MENU-N-13",
+        "E-MENU-N-14",
+        "E-MENU-N-15",
+        "E-MENU-N-16",
+        "E-MENU-N-17",
+        "E-MENU-N-18",
+        "E-MENU-N-19",
+        "E-MENU-N-20",
+        "E-MENU-N-21",
+        "E-MENU-N-22",
+        "E-MENU-N-23",
+        "E-MENU-N-24",
+        "E-MENU-N-25",
+        "E-MENU-RECHECK-TRACE"
+      ]
     }
   ],
   "entry_points": [
@@ -1743,7 +1785,10 @@
       "preconditions": "Existing signed-in app; Calendar then Notification navigation",
       "screenshot_evidence_ids": [
         "E-NOTIFICATION-EMPTY",
-        "E-HOME-NOTIFICATION-ENTRY"
+        "E-HOME-NOTIFICATION-ENTRY",
+        "E-MENU-N-11",
+        "E-MENU-N-14",
+        "E-MENU-N-25"
       ],
       "ax_evidence_ids": [
         "E-NOTIFICATION-TRACE",
@@ -1884,7 +1929,10 @@
       "preconditions": "Existing signed-in session; More then drawer navigation",
       "screenshot_evidence_ids": [
         "E-DRAWER",
-        "E-HOME-DRAWER-ENTRY"
+        "E-HOME-DRAWER-ENTRY",
+        "E-MENU-N-08",
+        "E-MENU-N-12",
+        "E-MENU-N-20"
       ],
       "ax_evidence_ids": [
         "E-MENU-TRACE",
@@ -1912,7 +1960,8 @@
       "visible_scope": "Recorded current viewport/crop only; private values removed",
       "preconditions": "Existing signed-in session; More then drawer navigation",
       "screenshot_evidence_ids": [
-        "E-SETTINGS"
+        "E-SETTINGS",
+        "E-MENU-N-05"
       ],
       "ax_evidence_ids": [
         "E-MENU-TRACE"
@@ -1965,7 +2014,8 @@
       ],
       "action_ids": [
         "A-PRIVACY-BACK",
-        "A-PRIVACY-WEB-BOUNDARY"
+        "A-PRIVACY-WEB-BOUNDARY",
+        "A-PRIVACY-COOKIE-CLOSE"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -1987,7 +2037,8 @@
       ],
       "action_ids": [
         "A-TERMS-BACK",
-        "A-TERMS-WEB-BOUNDARY"
+        "A-TERMS-WEB-BOUNDARY",
+        "A-TERMS-COOKIE-CLOSE"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -2002,14 +2053,16 @@
       "visible_scope": "Recorded current viewport/crop only; private values removed",
       "preconditions": "Existing signed-in session; More then drawer navigation",
       "screenshot_evidence_ids": [
-        "E-PROFILE-REDACTED"
+        "E-PROFILE-REDACTED",
+        "E-MENU-N-16"
       ],
       "ax_evidence_ids": [
         "E-MENU-TRACE"
       ],
       "action_ids": [
         "A-PROFILE-BACK",
-        "A-PROFILE-OTHER"
+        "A-PROFILE-OTHER",
+        "A-PROFILE-SCROLL"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -3174,6 +3227,127 @@
       "discovery_checked": false,
       "remaining_uncertainties": [
         "All category combinations and direction/boundary behavior not fully explored."
+      ]
+    },
+    {
+      "id": "S-SETTINGS-MAC-GENERAL",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "title": "Mac General preferences",
+      "description": "Push Notification arrow opens the PolyULife Mac General preferences window: Window Size Smaller / Larger (default selected), tabs General / Touch Alternatives / System. It is not an iPhone notification permission page. No preference changed.",
+      "visible_scope": "Recorded screenshot only; full module not established",
+      "preconditions": "Existing signed-in Mac session; ordinary navigation",
+      "screenshot_evidence_ids": [
+        "E-MENU-N-04",
+        "E-MENU-N-06"
+      ],
+      "ax_evidence_ids": [
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "action_ids": [
+        "A-MAC-GENERAL-CLOSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Platform differences, remaining controls and full app scope remain unverified."
+      ]
+    },
+    {
+      "id": "S-PRIVACY-NO-COOKIE",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "title": "Privacy Policy, cookie banner closed",
+      "description": "Cookie Close dismisses the banner and reveals the underlying body.",
+      "visible_scope": "Recorded screenshot only; full module not established",
+      "preconditions": "Existing signed-in Mac session; ordinary navigation",
+      "screenshot_evidence_ids": [
+        "E-MENU-N-18"
+      ],
+      "ax_evidence_ids": [
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "action_ids": [
+        "A-PRIVACY-SCROLL"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Platform differences, remaining controls and full app scope remain unverified."
+      ]
+    },
+    {
+      "id": "S-PRIVACY-SCROLLED",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "title": "Privacy Policy scrolled",
+      "description": "A down scroll exposes paragraphs 4/5 while App header/back remains visible.",
+      "visible_scope": "Recorded screenshot only; full module not established",
+      "preconditions": "Existing signed-in Mac session; ordinary navigation",
+      "screenshot_evidence_ids": [
+        "E-MENU-N-19"
+      ],
+      "ax_evidence_ids": [
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Platform differences, remaining controls and full app scope remain unverified."
+      ]
+    },
+    {
+      "id": "S-TERMS-LOADING",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "title": "Terms loading",
+      "description": "PolyU logo loading overlay appears before the Terms body loads.",
+      "visible_scope": "Recorded screenshot only; full module not established",
+      "preconditions": "Existing signed-in Mac session; ordinary navigation",
+      "screenshot_evidence_ids": [
+        "E-MENU-N-21"
+      ],
+      "ax_evidence_ids": [
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Platform differences, remaining controls and full app scope remain unverified."
+      ]
+    },
+    {
+      "id": "S-TERMS-NO-COOKIE",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "title": "Terms, cookie banner closed",
+      "description": "Terms shows its own cookie banner after Privacy Close; closing it reveals the body.",
+      "visible_scope": "Recorded screenshot only; full module not established",
+      "preconditions": "Existing signed-in Mac session; ordinary navigation",
+      "screenshot_evidence_ids": [
+        "E-MENU-N-23"
+      ],
+      "ax_evidence_ids": [
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "action_ids": [
+        "A-TERMS-SCROLL"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Platform differences, remaining controls and full app scope remain unverified."
+      ]
+    },
+    {
+      "id": "S-TERMS-SCROLLED",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "title": "Terms scrolled",
+      "description": "A down scroll exposes section 3 with App header/back still visible.",
+      "visible_scope": "Recorded screenshot only; full module not established",
+      "preconditions": "Existing signed-in Mac session; ordinary navigation",
+      "screenshot_evidence_ids": [
+        "E-MENU-N-24"
+      ],
+      "ax_evidence_ids": [
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Platform differences, remaining controls and full app scope remain unverified."
       ]
     }
   ],
@@ -5746,29 +5920,57 @@
       "id": "A-NOTIFICATION-MENU",
       "from_state_id": "S-NOTIFICATION-EMPTY",
       "control": "Menu",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "input_summary": "Top menu [42,179]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:25:37.094Z",
+          "from_state_id": "S-NOTIFICATION-EMPTY",
+          "observed_feedback": "Drawer opens over Notification.",
+          "target_state_id": "S-DRAWER",
+          "evidence_ids": [
+            "E-MENU-N-12",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        }
+      ],
+      "target_state_id": "S-DRAWER",
+      "evidence_ids": [
+        "E-MENU-N-12",
+        "E-MENU-RECHECK-TRACE"
+      ],
       "return_path": null,
       "authorization": "Determine function and data scope before consequential actions",
-      "blockers": [],
-      "pending_reason": "This entry has not been tested from Notification."
+      "blockers": []
     },
     {
       "id": "A-NOTIFICATION-EMPTY-CONTROL",
       "from_state_id": "S-NOTIFICATION-EMPTY",
       "control": "Empty-state icon/control",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "input_summary": "Empty inbox icon [282,365]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:25:24.064Z",
+          "from_state_id": "S-NOTIFICATION-EMPTY",
+          "observed_feedback": "Empty notification view remains; no new feedback.",
+          "target_state_id": "S-NOTIFICATION-EMPTY",
+          "evidence_ids": [
+            "E-MENU-N-11",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "inconclusive_no_visible_change"
+        }
+      ],
+      "target_state_id": "S-NOTIFICATION-EMPTY",
+      "evidence_ids": [
+        "E-MENU-N-11",
+        "E-MENU-RECHECK-TRACE"
+      ],
       "return_path": null,
       "authorization": "Determine function and data scope before consequential actions",
-      "blockers": [],
-      "pending_reason": "AX button exists; its function is untested."
+      "blockers": []
     },
     {
       "id": "A-NOTIFICATION-SUCCESS",
@@ -5917,7 +6119,7 @@
       "id": "A-SETTINGS-BACK",
       "from_state_id": "S-SETTINGS",
       "control": "Back",
-      "input_summary": "Back",
+      "input_summary": "Back [31,177]",
       "status": "observed",
       "executions": [
         {
@@ -5927,11 +6129,24 @@
           "evidence_ids": [
             "E-MENU-TRACE"
           ]
+        },
+        {
+          "at": "2026-09-28T19:24:23.079Z",
+          "from_state_id": "S-SETTINGS",
+          "observed_feedback": "Drawer restored; identity redacted in shared image.",
+          "target_state_id": "S-DRAWER",
+          "evidence_ids": [
+            "E-MENU-N-08",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
         }
       ],
       "target_state_id": "S-DRAWER",
       "evidence_ids": [
-        "E-MENU-TRACE"
+        "E-MENU-TRACE",
+        "E-MENU-N-08",
+        "E-MENU-RECHECK-TRACE"
       ],
       "return_path": null,
       "authorization": "Ordinary read-only/reversible navigation and search in authorised HCI scope",
@@ -6023,11 +6238,24 @@
           "evidence_ids": [
             "E-MENU-TRACE"
           ]
+        },
+        {
+          "at": "2026-09-28T19:29:40.088Z",
+          "from_state_id": "S-PRIVACY-SCROLLED",
+          "observed_feedback": "Returns from scrolled embedded policy to drawer.",
+          "target_state_id": "S-DRAWER",
+          "evidence_ids": [
+            "E-MENU-N-20",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
         }
       ],
       "target_state_id": "S-DRAWER",
       "evidence_ids": [
-        "E-MENU-TRACE"
+        "E-MENU-TRACE",
+        "E-MENU-N-20",
+        "E-MENU-RECHECK-TRACE"
       ],
       "return_path": null,
       "authorization": "Ordinary read-only/reversible navigation and search in authorised HCI scope",
@@ -6133,7 +6361,7 @@
       "id": "A-DRAWER-CLOSE",
       "from_state_id": "S-DRAWER",
       "control": "Outside drawer overlay",
-      "input_summary": "Click right-side overlay [532,178]",
+      "input_summary": "Terms App Back then outside overlay",
       "status": "observed",
       "executions": [
         {
@@ -6162,20 +6390,46 @@
             "E-HOME-DRAWER-CLOSED",
             "E-HOME-ENTRY-RECHECK-TRACE"
           ]
+        },
+        {
+          "at": "2026-09-28T19:28:35.325Z",
+          "from_state_id": "S-DRAWER",
+          "observed_feedback": "Returns to Notification; source state preserved.",
+          "target_state_id": "S-NOTIFICATION-EMPTY",
+          "evidence_ids": [
+            "E-MENU-N-14",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        },
+        {
+          "at": "2026-09-28T19:30:21.952Z",
+          "from_state_id": "S-DRAWER",
+          "observed_feedback": "After Terms scrolled -> Back restores drawer in AX; outside dismissal restores Notification in screenshot.",
+          "target_state_id": "S-NOTIFICATION-EMPTY",
+          "evidence_ids": [
+            "E-MENU-N-25",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
         }
       ],
       "target_state_id": null,
       "evidence_ids": [
         "E-MENU-TRACE",
         "E-HOME-DRAWER-CLOSED",
-        "E-HOME-ENTRY-RECHECK-TRACE"
+        "E-HOME-ENTRY-RECHECK-TRACE",
+        "E-MENU-N-14",
+        "E-MENU-RECHECK-TRACE",
+        "E-MENU-N-25"
       ],
       "return_path": null,
       "authorization": "Ordinary read-only/reversible navigation and search in authorised HCI scope",
       "blockers": [],
       "target_state_ids": [
         "S-MORE",
-        "S-HOME-SCHEDULE-TUE"
+        "S-HOME-SCHEDULE-TUE",
+        "S-NOTIFICATION-EMPTY"
       ]
     },
     {
@@ -6206,29 +6460,81 @@
       "id": "A-SETTINGS-LOCATION",
       "from_state_id": "S-SETTINGS",
       "control": "Location Service row",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
+      "input_summary": "Location whole row AX14",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:22:08.172Z",
+          "from_state_id": "S-SETTINGS",
+          "observed_feedback": "Settings remains visible; no visible handoff.",
+          "target_state_id": null,
+          "evidence_ids": [
+            "E-MENU-N-02",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "inconclusive_no_visible_change"
+        },
+        {
+          "at": "2026-09-28T19:22:46.102Z",
+          "from_state_id": "S-SETTINGS",
+          "observed_feedback": "Whole-row attempt also leaves Settings visible; destination remains unknown.",
+          "target_state_id": null,
+          "evidence_ids": [
+            "E-MENU-N-03",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "inconclusive_no_visible_change"
+        }
+      ],
       "target_state_id": null,
-      "evidence_ids": [],
+      "evidence_ids": [
+        "E-MENU-N-02",
+        "E-MENU-RECHECK-TRACE",
+        "E-MENU-N-03"
+      ],
       "return_path": null,
       "authorization": "Observe scope does not imply permission to place calls, log out or change settings/data; check actual requested action.",
-      "blockers": [],
-      "pending_reason": "OFF and guidance observed; settings handoff not tested."
+      "blockers": []
     },
     {
       "id": "A-SETTINGS-PUSH",
       "from_state_id": "S-SETTINGS",
       "control": "Push Notification row",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "input_summary": "Push arrow [535,440]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:22:58.600Z",
+          "from_state_id": "S-SETTINGS",
+          "observed_feedback": "Mac General preferences opens. Independently repeated; no notification permission page or setting change.",
+          "target_state_id": "S-SETTINGS-MAC-GENERAL",
+          "evidence_ids": [
+            "E-MENU-N-04",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        },
+        {
+          "at": "2026-09-28T19:23:49.083Z",
+          "from_state_id": "S-SETTINGS",
+          "observed_feedback": "Mac General preferences opens. Independently repeated; no notification permission page or setting change.",
+          "target_state_id": "S-SETTINGS-MAC-GENERAL",
+          "evidence_ids": [
+            "E-MENU-N-06",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        }
+      ],
+      "target_state_id": "S-SETTINGS-MAC-GENERAL",
+      "evidence_ids": [
+        "E-MENU-N-04",
+        "E-MENU-RECHECK-TRACE",
+        "E-MENU-N-06"
+      ],
       "return_path": null,
       "authorization": "Observe scope does not imply permission to place calls, log out or change settings/data; check actual requested action.",
-      "blockers": [],
-      "pending_reason": "OFF and guidance observed; notification settings not changed."
+      "blockers": []
     },
     {
       "id": "A-SETTINGS-UNLABELED",
@@ -6284,7 +6590,7 @@
       "return_path": null,
       "authorization": "Observe scope does not imply permission to place calls, log out or change settings/data; check actual requested action.",
       "blockers": [],
-      "pending_reason": "Only read-only structure and Back observed; no editing or exhaustive scroll inspection."
+      "pending_reason": "One downward scroll now recorded separately; editing/value mutation and exhaustive reachability remain unverified."
     },
     {
       "id": "A-PRIVACY-WEB-BOUNDARY",
@@ -6298,7 +6604,7 @@
       "return_path": null,
       "authorization": "Observe scope does not imply permission to place calls, log out or change settings/data; check actual requested action.",
       "blockers": [],
-      "pending_reason": "Cookie controls, current-page scrolling and links remain untested; full school website is not automatically in app scope."
+      "pending_reason": "Cookie Close and one body scroll now observed as separate actions; Accept, full body bounds, site search/menu and outgoing links remain untested."
     },
     {
       "id": "A-TERMS-WEB-BOUNDARY",
@@ -6312,7 +6618,7 @@
       "return_path": null,
       "authorization": "Observe scope does not imply permission to place calls, log out or change settings/data; check actual requested action.",
       "blockers": [],
-      "pending_reason": "Cookie controls, current-page scrolling and links remain untested; full school website is not automatically in app scope."
+      "pending_reason": "Cookie Close and one body scroll now observed as separate actions; Accept, full body bounds, site search/menu and outgoing links remain untested."
     },
     {
       "id": "A-MORE-SEARCH-SUCCESS",
@@ -8913,6 +9219,174 @@
       ],
       "return_path": "Opposite direction strip drag",
       "authorization": "Ordinary reversible UI navigation in authorised research scope",
+      "blockers": []
+    },
+    {
+      "id": "A-MAC-GENERAL-CLOSE",
+      "from_state_id": "S-SETTINGS-MAC-GENERAL",
+      "control": "Window Close AX9",
+      "input_summary": "Window Close AX9",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:23:27.251Z",
+          "from_state_id": "S-SETTINGS-MAC-GENERAL",
+          "observed_feedback": "Returns to App Settings.",
+          "target_state_id": "S-SETTINGS",
+          "evidence_ids": [
+            "E-MENU-N-05",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        }
+      ],
+      "target_state_id": "S-SETTINGS",
+      "evidence_ids": [
+        "E-MENU-N-05",
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible read-only navigation. No calls, logout, preference changes or business submissions.",
+      "blockers": []
+    },
+    {
+      "id": "A-PROFILE-SCROLL",
+      "from_state_id": "S-PROFILE",
+      "control": "Down scroll [451,814]",
+      "input_summary": "Down scroll [451,814]",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:29:03.185Z",
+          "from_state_id": "S-PROFILE",
+          "observed_feedback": "Same visible fields remain; this one scroll reveals no additional fields or editing affordance.",
+          "target_state_id": "S-PROFILE",
+          "evidence_ids": [
+            "E-MENU-N-16",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed_no_additional_content"
+        }
+      ],
+      "target_state_id": "S-PROFILE",
+      "evidence_ids": [
+        "E-MENU-N-16",
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible read-only navigation. No calls, logout, preference changes or business submissions.",
+      "blockers": []
+    },
+    {
+      "id": "A-PRIVACY-COOKIE-CLOSE",
+      "from_state_id": "S-PRIVACY",
+      "control": "Cookie banner Close",
+      "input_summary": "Cookie banner Close",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:29:25.010Z",
+          "from_state_id": "S-PRIVACY",
+          "observed_feedback": "Cookie banner disappears; body remains.",
+          "target_state_id": "S-PRIVACY-NO-COOKIE",
+          "evidence_ids": [
+            "E-MENU-N-18",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        }
+      ],
+      "target_state_id": "S-PRIVACY-NO-COOKIE",
+      "evidence_ids": [
+        "E-MENU-N-18",
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible read-only navigation. No calls, logout, preference changes or business submissions.",
+      "blockers": []
+    },
+    {
+      "id": "A-PRIVACY-SCROLL",
+      "from_state_id": "S-PRIVACY-NO-COOKIE",
+      "control": "Down scroll in embedded body",
+      "input_summary": "Down scroll in embedded body",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:29:32.663Z",
+          "from_state_id": "S-PRIVACY-NO-COOKIE",
+          "observed_feedback": "Body scrolls while App return header stays visible.",
+          "target_state_id": "S-PRIVACY-SCROLLED",
+          "evidence_ids": [
+            "E-MENU-N-19",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        }
+      ],
+      "target_state_id": "S-PRIVACY-SCROLLED",
+      "evidence_ids": [
+        "E-MENU-N-19",
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible read-only navigation. No calls, logout, preference changes or business submissions.",
+      "blockers": []
+    },
+    {
+      "id": "A-TERMS-COOKIE-CLOSE",
+      "from_state_id": "S-TERMS",
+      "control": "Cookie banner Close",
+      "input_summary": "Cookie banner Close",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:30:03.907Z",
+          "from_state_id": "S-TERMS",
+          "observed_feedback": "Cookie banner disappears; body remains.",
+          "target_state_id": "S-TERMS-NO-COOKIE",
+          "evidence_ids": [
+            "E-MENU-N-23",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        }
+      ],
+      "target_state_id": "S-TERMS-NO-COOKIE",
+      "evidence_ids": [
+        "E-MENU-N-23",
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible read-only navigation. No calls, logout, preference changes or business submissions.",
+      "blockers": []
+    },
+    {
+      "id": "A-TERMS-SCROLL",
+      "from_state_id": "S-TERMS-NO-COOKIE",
+      "control": "Down scroll in embedded body",
+      "input_summary": "Down scroll in embedded body",
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-28T19:30:10.972Z",
+          "from_state_id": "S-TERMS-NO-COOKIE",
+          "observed_feedback": "Body scrolls while App return header stays visible.",
+          "target_state_id": "S-TERMS-SCROLLED",
+          "evidence_ids": [
+            "E-MENU-N-24",
+            "E-MENU-RECHECK-TRACE"
+          ],
+          "outcome": "observed"
+        }
+      ],
+      "target_state_id": "S-TERMS-SCROLLED",
+      "evidence_ids": [
+        "E-MENU-N-24",
+        "E-MENU-RECHECK-TRACE"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible read-only navigation. No calls, logout, preference changes or business submissions.",
       "blockers": []
     }
   ],
@@ -14619,6 +15093,1350 @@
       "action_ids": [],
       "redaction": "Public route facts only, no private app body or identity.",
       "source": "Actual native and Figma Computer Use actions, plus their emitted screenshots/URLs."
+    },
+    {
+      "id": "E-MENU-N-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192155-settings-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:21:55.895Z",
+      "sha256": "11c7a56be3fd15790363b4a5e4e447fef6854cfd3740fa02a8083860b89d911b",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-21-55-895Z-01-4ea7b89aab9f.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 重新观察设置页和系统设置入口"
+    },
+    {
+      "id": "E-MENU-N-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192208-location-arrow-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:22:08.172Z",
+      "sha256": "7c8594feb895cff31f9ca8c78ef923bfb2e5046643858f4f48bfcecdc979b199",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-22-08-172Z-01-ca61c85f2465.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 观察定位服务行的点击反馈"
+    },
+    {
+      "id": "E-MENU-N-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192246-location-row-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:22:46.102Z",
+      "sha256": "f1b42bf175c66870c827c7c2c636bad789b3b8f3ba3a2c253415636f3262cd11",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-22-46-102Z-01-0f6e8115dfbd.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 用整行元素复核定位服务入口"
+    },
+    {
+      "id": "E-MENU-N-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192258-mac-general-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:22:58.600Z",
+      "sha256": "9a351310c2c0cff06847764e0cb6675693350aef124ebcf08fdae113fab17eb1",
+      "dimensions": [
+        1382,
+        320
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-22-58-600Z-01-cac0476496f1.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 观察通知设置行的跳转反馈"
+    },
+    {
+      "id": "E-MENU-N-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192327-mac-general-closed-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:23:27.251Z",
+      "sha256": "3cab798bedb8f4966962de0b8330f19ff76ee3db66dca6276c84593dbd90c3b3",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-23-27-251Z-01-e604a525f443.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 关闭应用偏好窗口返回设置页"
+    },
+    {
+      "id": "E-MENU-N-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192349-mac-general-repeat-02.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:23:49.083Z",
+      "sha256": "9a351310c2c0cff06847764e0cb6675693350aef124ebcf08fdae113fab17eb1",
+      "dimensions": [
+        1382,
+        320
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-23-49-083Z-02-cac0476496f1.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 保存通知设置独立跳转证据"
+    },
+    {
+      "id": "E-MENU-N-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192423-settings-back-drawer-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:24:23.079Z",
+      "sha256": "5bff974a815e74ff6a2b71ed704c7988f804153869167506b5ace83f593cc72c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          [
+            0,
+            100,
+            489,
+            355
+          ],
+          [
+            490,
+            100,
+            575,
+            969
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-24-23-079Z-01-231f5e64e6aa.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 核对定位入口结果并返回抽屉"
+    },
+    {
+      "id": "E-MENU-N-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192423-settings-back-drawer-02.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:24:23.079Z",
+      "sha256": "788430b09d369e01bab575d4c432bf90476360e334eb0df0894dc4325179b63c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          [
+            0,
+            100,
+            489,
+            355
+          ],
+          [
+            490,
+            100,
+            575,
+            969
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-24-23-079Z-02-eec6b4af4047.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 核对定位入口结果并返回抽屉"
+    },
+    {
+      "id": "E-MENU-N-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192435-emergency-02.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:24:35.018Z",
+      "sha256": "f1ee90e0f41fe58f3d1b043711f85242f13b9269e716e15de98320e2a50b9b30",
+      "dimensions": [
+        520,
+        462
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-24-35-018Z-02-cf68582bce61.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 确认紧急联系弹窗的安全关闭路径"
+    },
+    {
+      "id": "E-MENU-N-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192510-notification-02.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:25:10.981Z",
+      "sha256": "09880c0ec2338f3af2a84d9893eb42269287ff485afefb21085a7df5be98e657",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-25-10-981Z-02-567f309a1a7d.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 检查通知空态可操作元素"
+    },
+    {
+      "id": "E-MENU-N-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192524-notification-icon-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:25:24.064Z",
+      "sha256": "722a8d3e40684388005064de22c32abb3bef57549138398a251a58360f7aa085",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-25-24-064Z-01-1a4fadec4906.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 测试通知空态图标是否有反馈"
+    },
+    {
+      "id": "E-MENU-N-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192537-notification-drawer-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:25:37.094Z",
+      "sha256": "9488f3a9d81a1d3a74cfcca1f6eed095f286c0399485e59a69038ccf49030171",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          [
+            0,
+            100,
+            489,
+            355
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-25-37-094Z-01-f04277e39c64.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 验证通知页打开菜单"
+    },
+    {
+      "id": "E-MENU-N-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192824-drawer-restored-02.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:28:24.619Z",
+      "sha256": "aaf8e4ae99f018f92a2d5b88f6108ba8b46489653c5199159f58cb5355d5c179",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          [
+            0,
+            100,
+            489,
+            355
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-28-24-619Z-02-7599cadf3cde.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 验证恢复后的 PolyULife 实际画面"
+    },
+    {
+      "id": "E-MENU-N-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192835-notification-drawer-closed-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:28:35.325Z",
+      "sha256": "63c25e33b3beb44d7036bbf788643e17756489d571e2ec28c734da54e522b99d",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-28-35-325Z-01-5344ecdadd7a.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 关闭通知页菜单并验证保留原页面"
+    },
+    {
+      "id": "E-MENU-N-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192856-profile-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:28:56.599Z",
+      "sha256": "5d24dc9ebcb66eb2e9f0ddc1aa5ddf1273757b037ce5222e2079f673597f3c57",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          [
+            0,
+            100,
+            575,
+            284
+          ],
+          [
+            30,
+            360,
+            540,
+            418
+          ],
+          [
+            30,
+            500,
+            540,
+            555
+          ],
+          [
+            30,
+            636,
+            540,
+            692
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-28-56-599Z-01-cea61f9371a4.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 观察 Profile 只读结构与可见控件"
+    },
+    {
+      "id": "E-MENU-N-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192903-profile-scroll-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:29:03.185Z",
+      "sha256": "9dc347adf9a41c2f1e7e7607d7014e06a22200a85447f19ee0aa5823507255e1",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          [
+            0,
+            100,
+            575,
+            284
+          ],
+          [
+            30,
+            360,
+            540,
+            418
+          ],
+          [
+            30,
+            500,
+            540,
+            555
+          ],
+          [
+            30,
+            636,
+            540,
+            692
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-29-03-185Z-01-7297b2bd8351.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 验证 Profile 下滚是否出现新增字段或编辑入口"
+    },
+    {
+      "id": "E-MENU-N-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192917-privacy-cookie-02.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:29:17.857Z",
+      "sha256": "7c7c909c0f9094db7e7ca483d705dae4e64e0f2f160c49f0e650f8693eb82979",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-29-17-857Z-02-eed9fa17ec28.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 读取加载完成的隐私政策与 cookie 横幅"
+    },
+    {
+      "id": "E-MENU-N-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192925-privacy-no-cookie-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:29:25.010Z",
+      "sha256": "b04ffa57c16fe204ba8227e6b0b0fd49851e5a1f70e7e5a6424d2e1d84be46bc",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-29-25-010Z-01-8ba470677724.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 关闭隐私政策 cookie 横幅后的阅读状态"
+    },
+    {
+      "id": "E-MENU-N-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192932-privacy-scrolled-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:29:32.663Z",
+      "sha256": "14ad8cb87adf5ad7630f7142d99120edaee599450cf9a6ced81b90d10eb44fef",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-29-32-663Z-01-b5d485edd585.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 观察隐私政策正文滚动与固定 App 返回栏"
+    },
+    {
+      "id": "E-MENU-N-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192940-privacy-back-drawer-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:29:40.088Z",
+      "sha256": "e398d7851570ce99b32bfc7a7d8bb918418da06469ffbd75ab32f20286f4d760",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          [
+            0,
+            100,
+            489,
+            355
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-29-40-088Z-01-9a69e907a69c.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 隐私政策滚动后返回抽屉"
+    },
+    {
+      "id": "E-MENU-N-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192948-terms-loading-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:29:48.011Z",
+      "sha256": "501c2625545504fd6ee0a8a81a2e08e2eed7e13743140db71de62401c2a80ae4",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-29-48-011Z-01-334a51e162b1.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 观察使用条款加载状态"
+    },
+    {
+      "id": "E-MENU-N-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-192955-terms-cookie-02.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:29:55.434Z",
+      "sha256": "518ec194d7ef2181ea1984d84dc2e288df99cac8967a2fe7f09194c1841670c8",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-29-55-434Z-02-d392a9717a26.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 观察使用条款页面是否继承 cookie 关闭状态"
+    },
+    {
+      "id": "E-MENU-N-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-193003-terms-no-cookie-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:30:03.907Z",
+      "sha256": "e450af07ba4f064c50e4639f162a1e7960d3e1b099a22abcd13a21acaf311f4a",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-30-03-907Z-01-04ff3d3839e5.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 关闭使用条款 cookie 横幅"
+    },
+    {
+      "id": "E-MENU-N-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-193010-terms-scrolled-01.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:30:10.972Z",
+      "sha256": "93f0951a4b611bc9fca8804e3179408aa7972e6a88b34b1f26c956b0049e7eec",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-30-10-972Z-01-b93b7fac361d.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 观察使用条款正文滚动后的状态"
+    },
+    {
+      "id": "E-MENU-N-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/native-menu-193021-terms-drawer-notification-return-02.png",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:30:21.952Z",
+      "sha256": "d9a50538c1ab31e1ea77a6db503bbb8ce06484ae8ca6eeafbdf31cf88ce7f696",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-30-21-952Z-02-2f8d7bbf58a5.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 完成条款返回并检查 Figma 编辑器状态"
+    },
+    {
+      "id": "E-MENU-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194204-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:42:04.085Z",
+      "sha256": "2365cb82a1c7d7d8a621eabf22bce780d9b45bc179e7f685fc626ce912f55a1c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-42-04-085Z-01-53a98c693e03.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：通知空态起点"
+    },
+    {
+      "id": "E-MENU-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194214-02.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:42:14.284Z",
+      "sha256": "86d39c69888002601fa9b29ced687c2148ca3c73f24af7aeab652cfedbfe27c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-42-14-284Z-02-0b7cbbeb0c02.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：通知页打开完整抽屉"
+    },
+    {
+      "id": "E-MENU-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194222-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:42:22.891Z",
+      "sha256": "7c432feb8cc826d571611a7ad8e8a96f9d8de0d2b6ab4a2767cd93ff3555f2a6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-42-22-891Z-01-f5ae8039fe64.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：抽屉进入 Settings"
+    },
+    {
+      "id": "E-MENU-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194231-02.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:42:31.497Z",
+      "sha256": "876b8a9cc2d53c042e77aa71d11b813310cefdbab89fe1488a988efc1a959dd9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-42-31-497Z-02-7681d3572f3f.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：Push Notification 进入 Mac General"
+    },
+    {
+      "id": "E-MENU-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194238-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:42:38.862Z",
+      "sha256": "7c432feb8cc826d571611a7ad8e8a96f9d8de0d2b6ab4a2767cd93ff3555f2a6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-42-38-862Z-01-f5ae8039fe64.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：关闭 Mac General 返回 Settings"
+    },
+    {
+      "id": "E-MENU-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194251-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:42:51.362Z",
+      "sha256": "86d39c69888002601fa9b29ced687c2148ca3c73f24af7aeab652cfedbfe27c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-42-51-362Z-01-0b7cbbeb0c02.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：Settings 返回抽屉"
+    },
+    {
+      "id": "E-MENU-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194300-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:43:00.246Z",
+      "sha256": "0183b31b01490461286b37005b306e38e8aace78ab39cb2f275ab140fefd285e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-43-00-246Z-01-5dfd13c050c0.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：Profile DEMO"
+    },
+    {
+      "id": "E-MENU-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194307-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:43:07.620Z",
+      "sha256": "86d39c69888002601fa9b29ced687c2148ca3c73f24af7aeab652cfedbfe27c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-43-07-620Z-01-0b7cbbeb0c02.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：Profile 返回"
+    },
+    {
+      "id": "E-MENU-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194315-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:43:15.658Z",
+      "sha256": "b40cf21f90d718bb1587b47a36efc52f4bfa9613048417a9229b16dfa2980ec9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-43-15-658Z-01-1c7779bf144d.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：紧急联系提示"
+    },
+    {
+      "id": "E-MENU-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194543-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:45:43.659Z",
+      "sha256": "cad5bb6aa6a035ea093d8e882072b2da501f41672f1d9148f09707f0fcb85731",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-45-43-659Z-01-e9bf04e61330.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 修正后回放：打开紧急联系提示"
+    },
+    {
+      "id": "E-MENU-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194557-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:45:57.491Z",
+      "sha256": "86d39c69888002601fa9b29ced687c2148ca3c73f24af7aeab652cfedbfe27c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-45-57-491Z-01-0b7cbbeb0c02.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 修正后回放：仅 Close 返回抽屉"
+    },
+    {
+      "id": "E-MENU-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194609-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:46:09.026Z",
+      "sha256": "1f6f584a8b42249117ab22471ffba9eb7ce471e4c51892753fbc761593fe53a9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-46-09-026Z-01-9a63dd10a03f.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：隐私政策"
+    },
+    {
+      "id": "E-MENU-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194620-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:46:20.182Z",
+      "sha256": "86d39c69888002601fa9b29ced687c2148ca3c73f24af7aeab652cfedbfe27c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-46-20-182Z-01-0b7cbbeb0c02.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：隐私政策返回"
+    },
+    {
+      "id": "E-MENU-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194627-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:46:27.524Z",
+      "sha256": "a30d9a9e6a0c8736b01488d08464eb459cd02cf07473a15252405e8f9fa13df9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-46-27-524Z-01-645fb913415a.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：使用条款"
+    },
+    {
+      "id": "E-MENU-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194638-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:46:38.622Z",
+      "sha256": "86d39c69888002601fa9b29ced687c2148ca3c73f24af7aeab652cfedbfe27c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-46-38-622Z-01-0b7cbbeb0c02.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：使用条款返回"
+    },
+    {
+      "id": "E-MENU-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194648-02.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:46:48.115Z",
+      "sha256": "2365cb82a1c7d7d8a621eabf22bce780d9b45bc179e7f685fc626ce912f55a1c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-46-48-115Z-02-53a98c693e03.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单原型回放：多次子页往返后关闭菜单回通知页"
+    },
+    {
+      "id": "E-MENU-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194659-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:46:59.678Z",
+      "sha256": "de14c8eded2a7a072b0d910ac82a29472ef199b9b56e3df770622b26c8573af2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-46-59-678Z-01-6ef12f68c42b.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单回放：从 Home 流程验证另一来源"
+    },
+    {
+      "id": "E-MENU-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194710-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:47:10.877Z",
+      "sha256": "1a43d26bf96248d48ea759dbe402f52376ad6bf600be9b75b8ed81e2b619492e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-47-10-877Z-01-06b22a8ef454.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 等待 Home 流程渲染后的菜单起点"
+    },
+    {
+      "id": "E-MENU-P-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194721-01.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:47:21.506Z",
+      "sha256": "54e3f1ba301cad593a0751af40158d196d6182505490e92a953ab46a439c03f1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-47-21-506Z-01-4f9e713861c6.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单回放：Home 打开完整抽屉"
+    },
+    {
+      "id": "E-MENU-P-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-194730-02.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:47:30.623Z",
+      "sha256": "13c89ace0f73f3c2bf5fac14dfd2e700791aeca049265bfa03e47550899baf0e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-47-30-623Z-02-c7502f1c12cc.jpg"
+      },
+      "source": "Actual Computer Use screenshot; 菜单回放：关闭抽屉回到 Home"
+    },
+    {
+      "id": "E-MENU-RECHECK-TRACE",
+      "type": "observation_record",
+      "path": "menu-settings-walkthrough.md",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "captured_at": "2026-09-28T19:30:21.952Z",
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public navigation facts; real identity and private coursework excluded."
+    },
+    {
+      "id": "E-FIGMA-MENU-TRACE",
+      "type": "observation_record",
+      "path": "menu-prototype-walkthrough.md",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:47:30.623Z",
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Public navigation facts; real identity and private coursework excluded."
+    },
+    {
+      "id": "E-FIGMA-MENU-FINAL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-menu-195600-02.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T19:56:00.753Z",
+      "sha256": "fb3ba326e45542c0f0ba3f2525683618e0a80e9487c8826dbdd7e6221706072a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-NOTIFICATION-MENU"
+      ],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T19-56-00-753Z-02-d6378fd91aba.jpg"
+      },
+      "source": "Actual Present screenshot after flow name and explicit limitations description saved/read back."
     }
   ],
   "findings": [
@@ -15370,24 +17188,26 @@
         },
         "native_editability": "Imported SVG frames and names/positions confirmed in real Figma; detailed child-level editing not individually checked.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Entered through Home in Present; public crop/static sample inspected, internal controls and full-fidelity acceptance remain unverified.",
+          "status": "partial",
+          "summary": "Menu sample actually viewed and replayed. Policy text clipping remains; see menu-prototype-walkthrough.md.",
           "evidence_ids": [
-            "E-NOTIFICATION-EMPTY",
-            "E-FIGMA-BATCH18-TRACE"
+            "E-FIGMA-MENU-TRACE"
           ],
           "deviation_ids": [
-            "D-BATCH18-UNTESTED"
+            "D-MENU-FIDELITY"
           ]
         },
         "prototype_evidence_ids": [
           "E-FIGMA-HOME-TO-NOTIFICATION",
-          "E-FIGMA-STUDY-TRACE"
+          "E-FIGMA-STUDY-TRACE",
+          "E-FIGMA-MENU-TRACE"
         ],
-        "prototype_status": "entry_sample_observed_internal_controls_not_run",
+        "prototype_status": "navigation_passed_visual_partial",
         "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001"
-        ]
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-MENU-V2-001"
+        ],
+        "connection_status": "recorded_menu_controls_configured_and_replayed"
       },
       {
         "state_id": "S-CALENDAR-HISTORY",
@@ -16100,52 +17920,48 @@
       },
       {
         "state_id": "S-DRAWER",
-        "node_id": "50:1846",
-        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=50-1846",
-        "node_name": "[S-DRAWER] Menu items — public crop",
+        "node_id": "75:1669",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=75-1669",
+        "node_name": "[S-DRAWER] Full menu — DEMO",
         "node_type": "Frame",
         "page": "01 · Observed UI",
-        "revision_id": "FIGMA-OBSERVED-BATCH11",
+        "revision_id": "FIGMA-MENU-V2",
         "figma_label_alias": "S-DRAWER",
         "source_evidence_ids": [
-          "E-DRAWER"
+          "E-MENU-RECHECK-TRACE"
         ],
-        "design_source_path": "../../design/polyulife/drawer-menu-items.svg",
-        "design_source_sha256": "f5b81c9dd1e57735ddeccec5faf2211362d9a9ccf0f2da9044d983f733ae7fa4",
+        "design_source_path": "../../design/polyulife/drawer-full-demo.svg",
+        "design_source_sha256": "a7e7e9624ae39dee385d165d89a3457da9ad7114023517405841253253c2eb16",
         "canvas_position": [
           0,
-          8400
+          25500
         ],
         "viewport": {
           "frame_size": [
-            489,
-            642
+            576,
+            970
           ],
-          "frame_size_independently_verified": false,
-          "source_geometry": "Size read from imported SVG source; this batch has not had independent per-frame property verification."
+          "frame_size_independently_verified": true
         },
-        "content_policy": "Editable reconstruction of drawer-155955-menu-items-only.png, a 489 by 642 privacy-safe crop. Only visible public menu items and version are reconstructed. Original account header is excluded; no complete drawer layout implied. Log Out and Emergency Contact are visible affordances only, not executed business actions.",
-        "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
+        "content_policy": "Synthetic DEMO identity only. Public interface content. No original personal data.",
+        "native_editability": "Imported editable text/vector shapes and named groups; actual control connections selected in native editor.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Entered through Home in Present; public crop/static sample inspected, internal controls and full-fidelity acceptance remain unverified.",
+          "status": "partial",
+          "summary": "Actual Present checks; documented geometry/font/platform deviations remain.",
           "evidence_ids": [
-            "E-DRAWER",
-            "E-FIGMA-BATCH11-TRACE"
+            "E-FIGMA-MENU-TRACE"
           ],
           "deviation_ids": [
-            "D-BATCH11-UNTESTED",
-            "D-BATCH11-PRIVACY-CROP-BOUNDARIES"
+            "D-MENU-FIDELITY"
           ]
         },
         "prototype_evidence_ids": [
-          "E-FIGMA-HOME-TO-DRAWER",
-          "E-FIGMA-STUDY-TRACE"
+          "E-FIGMA-MENU-TRACE"
         ],
-        "prototype_status": "entry_sample_observed_internal_controls_not_run",
-        "connection_status": "not_wired_at_import_cutoff",
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_replayed",
         "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001"
+          "PROTO-MENU-V2-001"
         ]
       },
       {
@@ -16177,19 +17993,23 @@
         "content_policy": "Editable reconstruction from settings-160011-initial.png. Location Service and Push Notification show OFF. The third row visibly has an unlabelled off toggle; no label or outcome invented. Native text/vector shapes. Cursor and hover omitted.",
         "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Import and position confirmed; visual/prototype acceptance not inferred.",
+          "status": "partial",
+          "summary": "Menu sample actually viewed and replayed. Policy text clipping remains; see menu-prototype-walkthrough.md.",
           "evidence_ids": [
-            "E-SETTINGS",
-            "E-FIGMA-BATCH11-TRACE"
+            "E-FIGMA-MENU-TRACE"
           ],
           "deviation_ids": [
-            "D-BATCH11-UNTESTED"
+            "D-MENU-FIDELITY"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
-        "connection_status": "not_wired_at_import_cutoff"
+        "prototype_evidence_ids": [
+          "E-FIGMA-MENU-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "recorded_menu_controls_configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ]
       },
       {
         "state_id": "S-EMERGENCY",
@@ -16220,20 +18040,23 @@
         "content_policy": "Editable reconstruction from emergency-160129-public-contact-dialog.png, a 520 by 462 public dialog crop. This is a standalone dialog, not a complete app screen. Material blur replaced by neutral gray vector fills. Phone label is observed public contact text; no call was initiated. Cursor and hover omitted.",
         "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Import and position confirmed; visual/prototype acceptance not inferred.",
+          "status": "partial",
+          "summary": "Menu sample actually viewed and replayed. Policy text clipping remains; see menu-prototype-walkthrough.md.",
           "evidence_ids": [
-            "E-EMERGENCY",
-            "E-FIGMA-BATCH11-TRACE"
+            "E-FIGMA-MENU-TRACE"
           ],
           "deviation_ids": [
-            "D-BATCH11-UNTESTED",
-            "D-BATCH11-PRIVACY-CROP-BOUNDARIES"
+            "D-MENU-FIDELITY"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
-        "connection_status": "not_wired_at_import_cutoff"
+        "prototype_evidence_ids": [
+          "E-FIGMA-MENU-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "recorded_menu_controls_configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ]
       },
       {
         "state_id": "S-PROFILE",
@@ -16264,20 +18087,23 @@
         "content_policy": "SYNTHETIC DEMO DATA. Visible structure reconstructed from profile-160405-fields-redacted.png. All original profile values and avatar were redacted before use. Student Example, 00000000A, student@example.edu and Example Department are explicit placeholders; generic vector avatar is synthetic. Added demo label identifies this as a prototype, not raw evidence. Cursor and hover omitted.",
         "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Import and position confirmed; visual/prototype acceptance not inferred.",
+          "status": "partial",
+          "summary": "Menu sample actually viewed and replayed. Policy text clipping remains; see menu-prototype-walkthrough.md.",
           "evidence_ids": [
-            "E-PROFILE-REDACTED",
-            "E-FIGMA-BATCH11-TRACE"
+            "E-FIGMA-MENU-TRACE"
           ],
           "deviation_ids": [
-            "D-BATCH11-UNTESTED",
-            "D-BATCH11-PRIVACY-CROP-BOUNDARIES"
+            "D-MENU-FIDELITY"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
-        "connection_status": "not_wired_at_import_cutoff"
+        "prototype_evidence_ids": [
+          "E-FIGMA-MENU-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "recorded_menu_controls_configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ]
       },
       {
         "state_id": "S-PRIVACY",
@@ -16308,20 +18134,23 @@
         "content_policy": "Editable reconstruction of the public first viewport from privacy-policy-160223-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. Page content below the screenshot and cookie behavior were not observed and are not invented. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype.",
         "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Import and position confirmed; visual/prototype acceptance not inferred.",
+          "status": "failed",
+          "summary": "Menu sample actually viewed and replayed. Policy text clipping remains; see menu-prototype-walkthrough.md.",
           "evidence_ids": [
-            "E-PRIVACY",
-            "E-FIGMA-BATCH11-TRACE"
+            "E-FIGMA-MENU-TRACE"
           ],
           "deviation_ids": [
-            "D-BATCH11-UNTESTED",
-            "D-BATCH11-PRIVACY-CROP-BOUNDARIES"
+            "D-MENU-FIDELITY"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
-        "connection_status": "not_wired_at_import_cutoff"
+        "prototype_evidence_ids": [
+          "E-FIGMA-MENU-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "recorded_menu_controls_configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ]
       },
       {
         "state_id": "S-TERMS",
@@ -16352,20 +18181,23 @@
         "content_policy": "Editable reconstruction of the public first viewport from terms-of-use-160331-loaded.png. This is an embedded PolyU public website inside the app. University wordmark only is a genuine raster crop (64,168,310,217); headings, visible body text, banner, web icons, scrollbar, cookie notice and app Back are editable native elements. Page content below the screenshot and cookie behavior were not observed and are not invented. Font, banner facets and icons are manual approximations. Pointer and hover omitted. This visual source alone does not establish working web controls or scroll behavior in the Figma prototype.",
         "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
         "visual_review": {
-          "status": "not_run",
-          "summary": "Import and position confirmed; visual/prototype acceptance not inferred.",
+          "status": "failed",
+          "summary": "Menu sample actually viewed and replayed. Policy text clipping remains; see menu-prototype-walkthrough.md.",
           "evidence_ids": [
-            "E-TERMS",
-            "E-FIGMA-BATCH11-TRACE"
+            "E-FIGMA-MENU-TRACE"
           ],
           "deviation_ids": [
-            "D-BATCH11-UNTESTED",
-            "D-BATCH11-PRIVACY-CROP-BOUNDARIES"
+            "D-MENU-FIDELITY"
           ]
         },
-        "prototype_evidence_ids": [],
-        "prototype_status": "not_run",
-        "connection_status": "not_wired_at_import_cutoff"
+        "prototype_evidence_ids": [
+          "E-FIGMA-MENU-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "recorded_menu_controls_configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ]
       },
       {
         "state_id": "S-FOOD-LIST",
@@ -18759,6 +20591,51 @@
         "prototype_run_ids": [
           "PROTO-MAINMAP-V2-001"
         ]
+      },
+      {
+        "state_id": "S-SETTINGS-MAC-GENERAL",
+        "node_id": "75:1710",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=75-1710",
+        "node_name": "[S-SETTINGS-MAC-GENERAL] Mac General",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-MENU-V2",
+        "source_evidence_ids": [
+          "E-MENU-RECHECK-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/mac-general.svg",
+        "design_source_sha256": "6dea8c5e3498f9f710a2d9d8c6aa605aeaaed3dbb32886cb86c5080b9c098a92",
+        "canvas_position": [
+          700,
+          25500
+        ],
+        "viewport": {
+          "frame_size": [
+            1382,
+            320
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported editable text/vector shapes and named groups; actual control connections selected in native editor.",
+        "content_policy": "Synthetic DEMO identity only. Public interface content. No original personal data.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Actual Present checks; documented geometry/font/platform deviations remain.",
+          "evidence_ids": [
+            "E-FIGMA-MENU-TRACE"
+          ],
+          "deviation_ids": [
+            "D-MENU-FIDELITY"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-FIGMA-MENU-TRACE"
+        ],
+        "prototype_status": "navigation_passed_visual_partial",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ]
       }
     ],
     "action_connection_mappings": [
@@ -20252,31 +22129,6 @@
         ]
       },
       {
-        "connection_id": "C-HOME-MENU",
-        "action_id": "A-HOME-MENU",
-        "source_node_id": "67:820",
-        "target_node_id": "50:1846",
-        "trigger_node_id": "67:921",
-        "trigger_node_name": "Menu",
-        "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-HOME-STUDY-V2",
-        "configured_at": "2026-09-28T18:26:15.129Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
-        "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001"
-        ],
-        "source_fidelity": "Later native Home menu->drawer independently confirmed; Figma remains public drawer crop, not full private composition.",
-        "deviation_ids": [
-          "D-STUDY-DEMO-CONTENT",
-          "D-HOME-SAMPLE-ENTRY",
-          "D-STUDY-STATIC-INPUT"
-        ],
-        "source_evidence_ids": [
-          "E-HOME-ENTRY-RECHECK-TRACE"
-        ]
-      },
-      {
         "connection_id": "C-CALENDAR-WEEK-HOME",
         "action_id": "A-CALENDAR-WEEK-HOME",
         "source_node_id": "70:973",
@@ -20736,6 +22588,283 @@
           "D-MAINMAP-IMAGES"
         ],
         "configuration_evidence": "Actual editor control and target were read back before the 19:00 UTC Present run; exact per-control time not indexed."
+      },
+      {
+        "action_id": "A-NOTIFICATION-MENU",
+        "source_node_id": "42:1617",
+        "target_node_id": "75:1669",
+        "trigger_node_id": "42:1622",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      {
+        "action_id": "A-HOME-MENU",
+        "source_node_id": "67:820",
+        "target_node_id": "75:1669",
+        "trigger_node_id": "67:921",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      {
+        "action_id": "A-DRAWER-SETTINGS",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:1794",
+        "trigger_node_id": "75:1684",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      {
+        "action_id": "A-DRAWER-PROFILE",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:1818",
+        "trigger_node_id": "75:1680",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      {
+        "action_id": "A-DRAWER-EMERGENCY",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:1778",
+        "trigger_node_id": "75:1688",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      {
+        "action_id": "A-DRAWER-PRIVACY",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:2058",
+        "trigger_node_id": "75:1696",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      {
+        "action_id": "A-DRAWER-TERMS",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:1862",
+        "trigger_node_id": "75:1700",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      {
+        "action_id": "A-DRAWER-CLOSE",
+        "source_node_id": "75:1669",
+        "target_node_id": null,
+        "trigger_node_id": "75:1671",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "42:1617",
+          "67:820"
+        ]
+      },
+      {
+        "action_id": "A-SETTINGS-PUSH",
+        "source_node_id": "50:1794",
+        "target_node_id": "75:1710",
+        "trigger_node_id": "50:1808",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      {
+        "action_id": "A-MAC-GENERAL-CLOSE",
+        "source_node_id": "75:1710",
+        "target_node_id": null,
+        "trigger_node_id": "75:1712",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "50:1794"
+        ]
+      },
+      {
+        "action_id": "A-SETTINGS-BACK",
+        "source_node_id": "50:1794",
+        "target_node_id": null,
+        "trigger_node_id": "50:1798",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ]
+      },
+      {
+        "action_id": "A-PROFILE-BACK",
+        "source_node_id": "50:1818",
+        "target_node_id": null,
+        "trigger_node_id": "50:1822",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ]
+      },
+      {
+        "action_id": "A-PRIVACY-BACK",
+        "source_node_id": "50:2058",
+        "target_node_id": null,
+        "trigger_node_id": "50:2104",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ]
+      },
+      {
+        "action_id": "A-TERMS-BACK",
+        "source_node_id": "50:1862",
+        "target_node_id": null,
+        "trigger_node_id": "50:1908",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ]
+      },
+      {
+        "action_id": "A-EMERGENCY-CLOSE",
+        "source_node_id": "50:1778",
+        "target_node_id": null,
+        "trigger_node_id": "50:1791",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -21384,6 +23513,26 @@
           "E-MAP-HOME-RETURN-DECORATION-MISSING",
           "E-MAP-PNG-REPLACEMENT-SECOND-RETURN-CONTEXT",
           "E-FIGMA-MAINMAP-TRACE"
+        ]
+      },
+      {
+        "id": "D-MENU-FIDELITY",
+        "revision_id": "FIGMA-MENU-V2",
+        "status": "open",
+        "affected_state_ids": [
+          "S-DRAWER",
+          "S-EMERGENCY",
+          "S-SETTINGS-MAC-GENERAL",
+          "S-PRIVACY",
+          "S-TERMS"
+        ],
+        "original_behavior": "Drawer overlays caller content; emergency is a native sheet; policy text wraps inside embedded page and supports cookie Close/body scroll. Push opens a separate Mac General window.",
+        "current_implementation": "Full DEMO drawer has neutral grey caller strip and uses Back. Emergency is a standalone frame. Mac General approximate with only Close. Policy initial view has right-edge text clipping and lacks cookie/scroll branches.",
+        "impact": "Navigation samples pass but full-fidelity visual and interaction acceptance remains incomplete.",
+        "next_step": "Implement faithful overlay and policy wrapping/cookie/scroll states; keep consequential controls unexecuted.",
+        "evidence_ids": [
+          "E-FIGMA-MENU-TRACE",
+          "E-MENU-RECHECK-TRACE"
         ]
       }
     ],
@@ -23590,6 +25739,209 @@
           "Only initial image repaired; other SVG image layers and earlier failures remain open.",
           "Two successful samples do not establish global image stability or root cause."
         ]
+      },
+      {
+        "id": "PROTO-MENU-V2-001",
+        "revision_id": "FIGMA-MENU-V2",
+        "started_at": "2026-09-28T19:42:04.085Z",
+        "ended_at": "2026-09-28T19:47:30.623Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=42-1617&scaling=scale-down&content-scaling=fixed&starting-point-node-id=42%3A1617&show-proto-sidebar=1",
+        "start_node_id": "42:1617",
+        "flow_name": "Menu · Profile, Settings and Mac handoff",
+        "status": "partial",
+        "navigation_status": "passed_after_emergency_connection_repair",
+        "visual_status": "partial_policy_text_clipping",
+        "scope": "15 distinct controls; Notification->drawer->Settings->Mac General->close->Settings->Back; Profile/Privacy/Terms/Emergency visits and Back; drawer dismisses to original Notification; separate Home menu and dismissal.",
+        "steps": [
+          {
+            "at": "2026-09-28T19:42:04.085Z",
+            "description": "菜单原型回放：通知空态起点",
+            "evidence_ids": [
+              "E-MENU-P-01"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:42:14.284Z",
+            "description": "菜单原型回放：通知页打开完整抽屉",
+            "evidence_ids": [
+              "E-MENU-P-02"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:42:22.891Z",
+            "description": "菜单原型回放：抽屉进入 Settings",
+            "evidence_ids": [
+              "E-MENU-P-03"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:42:31.497Z",
+            "description": "菜单原型回放：Push Notification 进入 Mac General",
+            "evidence_ids": [
+              "E-MENU-P-04"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:42:38.862Z",
+            "description": "菜单原型回放：关闭 Mac General 返回 Settings",
+            "evidence_ids": [
+              "E-MENU-P-05"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:42:51.362Z",
+            "description": "菜单原型回放：Settings 返回抽屉",
+            "evidence_ids": [
+              "E-MENU-P-06"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:43:00.246Z",
+            "description": "菜单原型回放：Profile DEMO",
+            "evidence_ids": [
+              "E-MENU-P-07"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:43:07.620Z",
+            "description": "菜单原型回放：Profile 返回",
+            "evidence_ids": [
+              "E-MENU-P-08"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:43:15.658Z",
+            "description": "菜单原型回放：紧急联系提示",
+            "evidence_ids": [
+              "E-MENU-P-09"
+            ],
+            "outcome": "failed_initial_emergency_click"
+          },
+          {
+            "at": "2026-09-28T19:45:43.659Z",
+            "description": "修正后回放：打开紧急联系提示",
+            "evidence_ids": [
+              "E-MENU-P-10"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:45:57.491Z",
+            "description": "修正后回放：仅 Close 返回抽屉",
+            "evidence_ids": [
+              "E-MENU-P-11"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:46:09.026Z",
+            "description": "菜单原型回放：隐私政策",
+            "evidence_ids": [
+              "E-MENU-P-12"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:46:20.182Z",
+            "description": "菜单原型回放：隐私政策返回",
+            "evidence_ids": [
+              "E-MENU-P-13"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:46:27.524Z",
+            "description": "菜单原型回放：使用条款",
+            "evidence_ids": [
+              "E-MENU-P-14"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:46:38.622Z",
+            "description": "菜单原型回放：使用条款返回",
+            "evidence_ids": [
+              "E-MENU-P-15"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:46:48.115Z",
+            "description": "菜单原型回放：多次子页往返后关闭菜单回通知页",
+            "evidence_ids": [
+              "E-MENU-P-16"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:46:59.678Z",
+            "description": "菜单回放：从 Home 流程验证另一来源",
+            "evidence_ids": [
+              "E-MENU-P-17"
+            ],
+            "outcome": "transient_loading"
+          },
+          {
+            "at": "2026-09-28T19:47:10.877Z",
+            "description": "等待 Home 流程渲染后的菜单起点",
+            "evidence_ids": [
+              "E-MENU-P-18"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:47:21.506Z",
+            "description": "菜单回放：Home 打开完整抽屉",
+            "evidence_ids": [
+              "E-MENU-P-19"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T19:47:30.623Z",
+            "description": "菜单回放：关闭抽屉回到 Home",
+            "evidence_ids": [
+              "E-MENU-P-20"
+            ],
+            "outcome": "recorded"
+          }
+        ],
+        "evidence_ids": [
+          "E-MENU-P-01",
+          "E-MENU-P-02",
+          "E-MENU-P-03",
+          "E-MENU-P-04",
+          "E-MENU-P-05",
+          "E-MENU-P-06",
+          "E-MENU-P-07",
+          "E-MENU-P-08",
+          "E-MENU-P-09",
+          "E-MENU-P-10",
+          "E-MENU-P-11",
+          "E-MENU-P-12",
+          "E-MENU-P-13",
+          "E-MENU-P-14",
+          "E-MENU-P-15",
+          "E-MENU-P-16",
+          "E-MENU-P-17",
+          "E-MENU-P-18",
+          "E-MENU-P-19",
+          "E-MENU-P-20",
+          "E-FIGMA-MENU-TRACE"
+        ],
+        "limitations": [
+          "Policy text clipping; cookie-close and scrolling are observed natively but not yet implemented.",
+          "Neutral drawer backdrop; standalone emergency instead of overlay; approximate Mac preference iconography.",
+          "Location response inconclusive, third toggle semantics unknown, no calls/logout/preferences mutations."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -23669,7 +26021,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "75 imported frames and 94 trigger controls mapped. Main Map 12 frames/20 controls actually replayed; navigation passed, initial/Toilets/Home image gaps recorded. Initial-only PNG replacement passed two return samples. Full application and remaining image defects incomplete.",
+    "verification_summary": "76 current mapped frames / 108 controls. Menu route replay added; full app and visual acceptance remain not verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -23972,9 +26324,66 @@
         "visual_review_status": "failed",
         "page_name_at_capture": "Page 1",
         "flow_name": "Archive · Initial AI draft — not validated"
+      },
+      {
+        "id": "FIGMA-DRAWER-CROP-HISTORICAL",
+        "status": "retained_historical_reference",
+        "description": "Original public-items-only crop remains on canvas as historical reference; current Home and Notification menu targets use full DEMO drawer.",
+        "state_node_mappings": [
+          {
+            "state_id": "S-DRAWER",
+            "node_id": "50:1846",
+            "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=50-1846",
+            "node_name": "[S-DRAWER] Menu items — public crop",
+            "node_type": "Frame",
+            "page": "01 · Observed UI",
+            "revision_id": "FIGMA-OBSERVED-BATCH11",
+            "figma_label_alias": "S-DRAWER",
+            "source_evidence_ids": [
+              "E-DRAWER"
+            ],
+            "design_source_path": "../../design/polyulife/drawer-menu-items.svg",
+            "design_source_sha256": "f5b81c9dd1e57735ddeccec5faf2211362d9a9ccf0f2da9044d983f733ae7fa4",
+            "canvas_position": [
+              0,
+              8400
+            ],
+            "viewport": {
+              "frame_size": [
+                489,
+                642
+              ],
+              "frame_size_independently_verified": false,
+              "source_geometry": "Size read from imported SVG source; this batch has not had independent per-frame property verification."
+            },
+            "content_policy": "Editable reconstruction of drawer-155955-menu-items-only.png, a 489 by 642 privacy-safe crop. Only visible public menu items and version are reconstructed. Original account header is excluded; no complete drawer layout implied. Log Out and Emergency Contact are visible affordances only, not executed business actions.",
+            "native_editability": "Actual imported native SVG frame names and node URLs confirmed; detailed child editing not individually tested.",
+            "visual_review": {
+              "status": "not_run",
+              "summary": "Entered through Home in Present; public crop/static sample inspected, internal controls and full-fidelity acceptance remain unverified.",
+              "evidence_ids": [
+                "E-DRAWER",
+                "E-FIGMA-BATCH11-TRACE"
+              ],
+              "deviation_ids": [
+                "D-BATCH11-UNTESTED",
+                "D-BATCH11-PRIVACY-CROP-BOUNDARIES"
+              ]
+            },
+            "prototype_evidence_ids": [
+              "E-FIGMA-HOME-TO-DRAWER",
+              "E-FIGMA-STUDY-TRACE"
+            ],
+            "prototype_status": "entry_sample_observed_internal_controls_not_run",
+            "connection_status": "not_wired_at_import_cutoff",
+            "prototype_run_ids": [
+              "PROTO-HOME-STUDY-V2-001"
+            ]
+          }
+        ]
       }
     ],
-    "current_revision": "FIGMA-OBSERVED-V2",
+    "current_revision": "FIGMA-MENU-V2",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -24981,9 +27390,18 @@
           "PROTO-MAINMAP-PNG-RECHECK"
         ],
         "scope": "20 controls replayed including Home entry, category strip, sampled multiselect/list/detail; navigation passed, image defects partly unresolved."
+      },
+      {
+        "name": "Menu · Profile, Settings and Mac handoff",
+        "start_node_id": "42:1617",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=42-1617&scaling=scale-down&content-scaling=fixed&starting-point-node-id=42%3A1617&show-proto-sidebar=1",
+        "tested_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "scope": "15 menu controls; initial emergency configuration failure corrected, navigation replay passed; visual/interaction gaps remain."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-28T19:12:40.541Z",
+    "latest_prototype_run_cutoff": "2026-09-28T19:47:30.623Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -25006,9 +27424,9 @@
       "boundary": "Flow 1 resolved to current Available node12:105, not the archived original draft. Naming verification does not create a new navigation run."
     },
     "latest_context_evidence_ids": [
-      "E-FIGMA-HOME-FLOW-CONTEXT"
+      "E-FIGMA-MENU-FINAL"
     ],
-    "latest_context_verified_at": "2026-09-28T18:44:10.478Z"
+    "latest_context_verified_at": "2026-09-28T19:56:00.753Z"
   },
   "discovery_queue": [
     {
@@ -25854,6 +28272,35 @@
         "E-MAINMAP-STRIP-TRACE"
       ],
       "remaining_scope": "Complete category combinations, native list bounds and unobserved controls remain pending."
+    },
+    {
+      "id": "R-MENU-RECHECK",
+      "session_id": "SESSION-20260928-MENU-RECHECK",
+      "status": "partial",
+      "reviewed_at": "2026-09-28T19:30:21.952Z",
+      "state_ids": [
+        "S-DRAWER",
+        "S-SETTINGS",
+        "S-SETTINGS-MAC-GENERAL",
+        "S-NOTIFICATION-EMPTY",
+        "S-PROFILE",
+        "S-PRIVACY",
+        "S-TERMS"
+      ],
+      "checked_scope": "Native settings handoff, source-aware drawer dismissal, Profile scroll and embedded policy cookie/scroll; Figma menu navigation replay.",
+      "newly_discovered_actions": [
+        "A-MAC-GENERAL-CLOSE",
+        "A-PROFILE-SCROLL",
+        "A-PRIVACY-COOKIE-CLOSE",
+        "A-PRIVACY-SCROLL",
+        "A-TERMS-COOKIE-CLOSE",
+        "A-TERMS-SCROLL"
+      ],
+      "evidence_ids": [
+        "E-MENU-RECHECK-TRACE",
+        "E-FIGMA-MENU-TRACE"
+      ],
+      "remaining_scope": "Full app incomplete; platform, policy reconstruction, unattempted actions and image defects remain open."
     }
   ]
 }

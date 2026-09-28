@@ -17,7 +17,7 @@
 
 [首页导航局部截图](../../evidence/2026-09-28-full-audit/home-134424-navigation-only.png)已确认 Map、Room、Food、Apps、Study progress、My Courses，以及底部 Home、Calendar、QR 图标、Notification、More 可见。首页完整内容和各目的页分别登记，入口可见不等于流程通过。实际动作、状态和未完成项见 [coverage.json](coverage.json)，截图清单见 [manifest.json](../../evidence/2026-09-28-full-audit/manifest.json)。
 
-原生 App 记录截至 **2026-09-28 18:49:42 UTC**（香港时间 2026-09-29 02:49:42），已有 115 个状态、259 个动作记录。169 个 `observed` 表示真实尝试或反馈被记录，也包括未建立成功结果的工具定位尝试；不等于所有动作通过，仍有 90 个 `not_attempted` 动作。
+原生 App 记录截至 **2026-09-28 19:30:21 UTC**（香港时间 2026-09-29 03:30:21），已有 121 个状态、265 个动作记录。179 个 `observed` 表示真实尝试或反馈被记录，也包括未建立成功结果的工具定位尝试；不等于所有动作通过，仍有 86 个 `not_attempted` 动作。
 
 - [More、天气与 Virtual Assistant](more-walkthrough.md)：天气图片展开/关闭和返回 More；虚拟助手详情、Disclaimer、Welcome 与返回；聊天输入仍未通过，没有发送消息。
 - [Calendar 与 Notification](calendar-notification-walkthrough.md)：校历筛选、公共事件详情/返回、视图切换、月份、通知空态、搜索与清除。个人课表不公开。
@@ -27,9 +27,9 @@
 
 - [Study progress、My Courses、主 Map、QR 与 Home](home-study-map-walkthrough.md)：长名称展开/收起、Requirements公开目录、Canvas/Blackboard和空登录页返回、六个地图类别及多选/设施详情/返回、饮水站列表滚动、QR显示与Home返回、Home日期/My Class周历及选择器尝试。个人课程和日程不公开；二维码与身份整块遮盖。
 
-Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。Home的Notification、Calendar、Search、Menu及各自返回已补测；底部Calendar实际落在Week5。本地75个SVG源码均已登记Figma映射，个人课程和日程使用明确的DEMO资料，二维码不可扫描。
+Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。Home的Notification、Calendar、Search、Menu及各自返回已补测；底部Calendar实际落在Week5。当前76个画板已登记Figma映射（另保留旧菜单裁片等历史源码），个人课程和日程使用明确的DEMO资料，二维码不可扫描。
 
-共享证据累计270张实际截图/脱敏裁片，文件哈希和尺寸已校验；私人原始图不提交。截图数量不作为覆盖率或成功率。
+共享证据累计316张实际截图/脱敏裁片，文件哈希和尺寸已校验；私人原始图不提交。截图数量不作为覆盖率或成功率。
 
 真实 [Figma Design 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)已新增 `01 · Observed UI`：四张 576×970 Room SVG 设计源码已导入为原生可编辑图层，并建立[当前 Room 样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1)。独立标签页已复验 **A 样例 → AG206 → Available → ALL** 四步。旧草稿已置于 `00 · Archive — initial AI draft`（原 `Page 1`），其三条旧连接记录保留为历史。
 
@@ -41,7 +41,7 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 
 [Food 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=50-1911&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A1911&show-proto-sidebar=1)的 **11个连接控件**已实测导航，包括图片/搜索/详情/地图四个按历史返回的Back。详情→搜索→原详情→营业时间列表的栈已复现；直接详情入口和返回也已独立复测。列表/详情的图片仍出现重复缺失与恢复，因此 **Food导航样例通过、整体视觉未通过**。未展开列表的原生详情入口及加载态差异保持待核实，地图平移帧尚未接入。
 
-截至 Figma 运行记录 **2026-09-28 19:12:40 UTC**，`01 · Observed UI` 已核实 **75个Frame、94个连接控件**。Home/Study/Courses/QR本批22个连接样例已实跑；后补原生证据发现Home Calendar原先目标不符，现已改为Week5 DEMO，并验证Calendar往返两步，新增一个返回控件。Apps/Courses的中文缺字已修复并定向复验。Home装饰图仍有消失/恢复，VA和Food的缺图问题也保持open，不能称整体视觉通过。
+截至菜单批次，`01 · Observed UI` 当前映射 **76个Frame、108个连接控件**；新增菜单15个控件已回放，导航通过、视觉仍有缺口。Home/Study/Courses/QR本批22个连接样例已实跑；后补原生证据发现Home Calendar原先目标不符，现已改为Week5 DEMO，并验证Calendar往返两步，新增一个返回控件。Apps/Courses的中文缺字已修复并定向复验。Home装饰图仍有消失/恢复，VA和Food的缺图问题也保持open，不能称整体视觉通过。
 
 Home Monday/Tuesday、Apps加载、Food平移地图仍未运行；Notification/Search仅通知空态与搜索空态进入过，菜单仅抽屉进入过，其余相应帧和内部控件仍待检查。菜单/紧急提示使用局部裁片，个人页面使用合成资料；具体边界见 [Figma节点与验证记录](figma-spec.md)。自由输入、其它日期、清空、Preview、地图、滚动及其余状态尚未全部连接，不能称Room或全应用完成。Agents免费每日额度用尽后没有付费；普通SVG导入和手动连线继续可用，总页数控制在三页以内。
 
@@ -95,4 +95,8 @@ Home Monday/Tuesday、Apps加载、Food平移地图仍未运行；Notification/S
 
 完整交付仍受实际可观测性约束：未登录分支、特殊账号权限、硬件能力或不能安全触发的业务状态一旦发现，必须在台账中保持明确缺口。先完成可执行部分、持续补齐缺口；未经验证的部分不标为全应用完成。Mac 观察与原型不能替代手机触控体验或课程要求的真人 Maze 测试。
 
-校园地图新增12帧、20控件，当前总计75帧/94连接；导航样本逐条通过，图片显示仍有未解决项，详见[地图原型回放与分类栏补测](map-prototype-walkthrough.md)。初始底图直接PNG替换后两次返回可见，不能据此关闭其他图片问题。
+校园地图新增12帧、20控件，地图批次截止时总计75帧/94连接；导航样本逐条通过，图片显示仍有未解决项，详见[地图原型回放与分类栏补测](map-prototype-walkthrough.md)。初始底图直接PNG替换后两次返回可见，不能据此关闭其他图片问题。
+
+## 菜单与设置增量
+
+[菜单原型记录](menu-prototype-walkthrough.md)：完整 DEMO 抽屉、Mac General 交接、15 个菜单控件已实际回放，当前76个映射画板、108个控件。通知页与Home的菜单关闭分别回到来源页。政策文字裁切、cookie/滚动状态及弹层背景仍未完成；全应用目标保持 `not_verified`。
