@@ -29,7 +29,7 @@
 
 Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。Home的Notification、Calendar、Search、Menu及各自返回已补测；底部Calendar实际落在Week5。当前76个画板已登记Figma映射（另保留旧菜单裁片等历史源码），个人课程和日程使用明确的DEMO资料，二维码不可扫描。
 
-共享证据累计481张实际截图/脱敏裁片，文件哈希和尺寸已校验；私人原始图不提交。截图数量不作为覆盖率或成功率。
+共享证据累计519张实际截图/脱敏裁片，文件哈希和尺寸已校验；私人原始图不提交。截图数量不作为覆盖率或成功率。
 
 真实 [Figma Design 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)已新增 `01 · Observed UI`：四张 576×970 Room SVG 设计源码已导入为原生可编辑图层，并建立[当前 Room 样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1)。独立标签页已复验 **A 样例 → AG206 → Available → ALL** 四步。旧草稿已置于 `00 · Archive — initial AI draft`（原 `Page 1`），其三条旧连接记录保留为历史。
 
@@ -41,7 +41,7 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 
 [Food 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=50-1911&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A1911&show-proto-sidebar=1)的 **11个连接控件**已实测导航，包括图片/搜索/详情/地图四个按历史返回的Back。详情→搜索→原详情→营业时间列表的栈已复现；直接详情入口和返回也已独立复测。列表/详情的图片仍出现重复缺失与恢复，因此 **Food导航样例通过、整体视觉未通过**。未展开列表的原生详情入口及加载态差异保持待核实，地图平移帧尚未接入。
 
-截至Apps可见分类互跳批次，`01 · Observed UI` 当前映射 **76个Frame、2个画板内状态、171个配置控件，另有2个垂直滚动区域**；其中连续滚动批次复制的10个功能入口实例尚未回放；新增菜单15个控件已回放，导航通过、视觉仍有缺口。Home/Study/Courses/QR此前22个连接样例已实跑；后补原生证据发现Home Calendar原先目标不符，现已改为Week5 DEMO，并验证Calendar往返两步，新增一个返回控件。Apps/Courses的中文缺字已修复并定向复验。Home装饰图仍有消失/恢复，VA和Food的缺图问题也保持open，不能称整体视觉通过。
+截至Home功能入口返回批次，`01 · Observed UI` 当前映射 **76个Frame、2个画板内状态、176个配置控件，另有2个垂直滚动区域**；其中连续滚动批次复制的10个功能入口实例已逐一回放，五个模块初始页Back已补接并验证Monday/Tuesday直接返回；模块内部绕行仍未完成；新增菜单15个控件已回放，导航通过、视觉仍有缺口。Home/Study/Courses/QR此前22个连接样例已实跑；后补原生证据发现Home Calendar原先目标不符，现已改为Week5 DEMO，并验证Calendar往返两步，新增一个返回控件。Apps/Courses的中文缺字已修复并定向复验。Home装饰图仍有消失/恢复，VA和Food的缺图问题也保持open，不能称整体视觉通过。
 
 [Home日期与返回](home-date-prototype-walkthrough.md)已验证Monday→Tuesday，以及My Class、Calendar、Menu、Search、Notification往返保留周二；既有功能区Calendar/Search返回已回归通过。Week/Notification Home当前使用Back，只覆盖实测Home来源，其它来源与直接起点行为未实现。[Home连续滚动](home-scroll-prototype-walkthrough.md)已在Monday/Tuesday两页实现并回放日期区与功能区之间的移动、中间位置和反向滚动；原生完整滚动边界未验证，范围由两段样例推导。[Apps返回栈](apps-return-prototype-walkthrough.md)已将分类改成同层切换，详情与登录逐层关闭；Tuesday完整分类/VRS链、Monday七个分类状态各自Back及历史Home往返均保留来源与滚动位置。[可见分类互跳](apps-category-prototype-walkthrough.md)已新增并实跑33个连接，VRS与Monday原滚动位置回归通过；完整分类条滚动、原生来源组合行为与独立Apps起点退出仍未完成；七个新增分类Back为基于已观察Apps返回行为的原型推广，未新增原生验证。Apps加载、Food平移地图及Home其它日期仍未运行；搜索输入/结果等内部控件仍待查。菜单已使用完整DEMO抽屉，紧急提示背景等仍有缺口，个人页面使用合成资料；具体边界见 [Figma节点与验证记录](figma-spec.md)。自由输入、其它日期、清空、Preview、地图、滚动及其余状态尚未全部连接，不能称Room或全应用完成。Agents免费每日额度用尽后没有付费；普通SVG导入和手动连线继续可用，总页数控制在三页以内。
 
@@ -102,3 +102,5 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 [菜单原型记录](menu-prototype-walkthrough.md)：完整 DEMO 抽屉、Mac General 交接、15 个菜单控件已实际回放，当前76个映射画板、110个控件，另登记2个画板内 cookie 关闭状态。通知页与Home的菜单关闭分别回到来源页。政策初始文字裁切与 cookie 关闭已修复并回放；滚动、加载、弹层背景及标志图片稳定性仍未完成；全应用目标保持 `not_verified`。
 
 [政策 cookie 原型复验](policy-cookie-prototype-walkthrough.md)：记录共享组件串联失败、独立组件修复，以及关闭提示后保持菜单返回路径的实测证据。
+
+[Home十个入口与直接返回](home-feature-return-prototype-walkthrough.md)：十组直接往返和首页像素比较通过；Tuesday Food缺图复现，视觉仍未通过。

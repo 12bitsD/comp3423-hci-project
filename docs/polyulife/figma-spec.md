@@ -443,3 +443,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Apps 可见分类互跳更新
 
 [分类互跳回放](apps-category-prototype-walkthrough.md)新增33条Swap overlay并逐条实跑，当前171个配置控件。54步路线后VRS逐层返回和Monday首页滚动位置保留通过。原生记录没有增加；源分类组合、完整横向条/列表和独立退出仍待验证。配置及说明见[配置读回](../../design/polyulife/apps-category-connections.json)。
+
+## Home功能入口与直接返回更新
+
+[十入口回放](home-feature-return-prototype-walkthrough.md)确认五个模块初始页Back原先未连接，现补接history Back。Monday/Tuesday共十组直接往返通过并保留滚动位置，当前176个配置控件。内部绕行和独立起点未完成；Tuesday Food缺图复现，视觉保持未通过。原生记录未增加。
