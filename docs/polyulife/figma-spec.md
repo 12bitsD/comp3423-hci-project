@@ -431,3 +431,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## 首页日期与返回状态增量
 
 [日期与返回回放记录](home-date-prototype-walkthrough.md)补齐8个控件并修改Week5 Home为按历史返回。Monday→Tuesday及五条入口往返、既有功能区Calendar/Search回归已通过记录路径；当前76个Frame、2个内部状态、118个控件。直接起点与其它来源底部Home、其它日期和连续滚动仍未实现，整体保持未完成。
+
+## 首页连续滚动增量
+
+[连续滚动与Apps返回](home-scroll-prototype-walkthrough.md)将Monday/Tuesday既有正文转换成2个垂直滚动区域，并复制12个功能入口实例、补1个Apps返回。日期区至功能区的连续/反向/中间滚动和Apps直接往返通过；新复制的其它10个入口实例仅配置已读回、尚未回放。当前76个映射Frame、131个配置控件，完整原生滚动边界及Apps分类绕行返回仍未实现或验证。

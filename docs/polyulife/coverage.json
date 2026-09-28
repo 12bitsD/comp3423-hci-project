@@ -17697,6 +17697,656 @@
         "A-NOTIFICATION-HOME"
       ],
       "source": "Computer Use Figma editing and Present replay; Home date, scoped source-preserving returns and existing-feature regression. Native capture recheck still reported Mac locked."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-tuesday-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:18:33.815Z",
+      "sha256": "8c4c78a5ff5cf71bd3da03905100fb9ad65a65a2f05c2e697231789042929a2f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-tuesday-top.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周二顶部，恢复内容原尺寸后; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-tuesday-first.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:18:42.551Z",
+      "sha256": "632995ee2b2c6cbb44f1cb8c7455b9fadcc6d31c97be4a29e3fc6882fca7f5ae",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-tuesday-first.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周二连续下滚至功能区; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-tuesday-middle.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:19:06.381Z",
+      "sha256": "ff018ee9ae0733b722789b28261746e98e391642d100a802599bfdc9de15a4cf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-tuesday-middle.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周二反向滚至中间位置; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-tuesday-restored-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:19:20.771Z",
+      "sha256": "8c4c78a5ff5cf71bd3da03905100fb9ad65a65a2f05c2e697231789042929a2f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-tuesday-restored-top.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周二滚回顶部; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-monday-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:20:33.789Z",
+      "sha256": "abb706bd2f75d6a43b4670367fb8d4c5ba4f77f26aa6517de4e5db36ebd033d0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-monday-top.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Restart后的暂态黑屏; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-monday-loaded.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:20:43.855Z",
+      "sha256": "efd6a33cb5c09e49d1e5b8b1e80eec39f8ca6e0c717572f9dec1023f73575217",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-monday-loaded.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周一加载完成; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-monday-middle.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:20:53.160Z",
+      "sha256": "fba49ffee8e08fe4f13a4126b24bd39ffd81878ee749a584538fa498180e8189",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-monday-middle.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周一中间滚动位置; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-monday-features.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:21:03.480Z",
+      "sha256": "15e0fd2146546198efceaac05343636891b928b04c7674ff0d1701e63b6993f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-monday-features.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周一连续滚至功能区; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-monday-apps-entry.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:21:27.212Z",
+      "sha256": "2f38bf5b79ae24bfa348bf558df476b1f1a3522f4e1cad1bb89cc0cd46a4db2c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-APPS-ALL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-monday-apps-entry.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周一功能区进入Apps; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-monday-apps-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:21:39.442Z",
+      "sha256": "9b92ff469fe7414e977b15040a5080279afcee34523c138de798324a9d8ec3f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-APPS-ALL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-monday-apps-return.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 失败：Apps Back未接线，点击后仍在Apps; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-apps-return-connected.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:25:43.834Z",
+      "sha256": "15e0fd2146546198efceaac05343636891b928b04c7674ff0d1701e63b6993f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-apps-return-connected.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 补线后Apps Back回周一，保留滚动位置; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-monday-return-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:26:30.957Z",
+      "sha256": "efd6a33cb5c09e49d1e5b8b1e80eec39f8ca6e0c717572f9dec1023f73575217",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-monday-return-top.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周一返回后滚回顶部; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-date-change-regression.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:26:39.979Z",
+      "sha256": "8c4c78a5ff5cf71bd3da03905100fb9ad65a65a2f05c2e697231789042929a2f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-date-change-regression.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 回归：Monday日期切到Tuesday; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-myclass-regression.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:26:49.022Z",
+      "sha256": "53603079f4c130311903152bc030d9a04a41ba08f8167639f95a8f0c52d44a94",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-WEEK"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-myclass-regression.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 回归：My Class打开Week5; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-myclass-return-regression.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:26:58.402Z",
+      "sha256": "8c4c78a5ff5cf71bd3da03905100fb9ad65a65a2f05c2e697231789042929a2f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-myclass-return-regression.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 回归：Week5 Home回周二顶部; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-tuesday-apps-start.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:27:08.352Z",
+      "sha256": "632995ee2b2c6cbb44f1cb8c7455b9fadcc6d31c97be4a29e3fc6882fca7f5ae",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-tuesday-apps-start.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周二滚至功能区准备Apps回放; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-tuesday-apps-entry.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:27:17.705Z",
+      "sha256": "2f38bf5b79ae24bfa348bf558df476b1f1a3522f4e1cad1bb89cc0cd46a4db2c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-APPS-ALL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-tuesday-apps-entry.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 周二功能区进入Apps; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-tuesday-apps-back.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:27:28.130Z",
+      "sha256": "632995ee2b2c6cbb44f1cb8c7455b9fadcc6d31c97be4a29e3fc6882fca7f5ae",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-tuesday-apps-back.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. Apps Back回周二并保留滚动位置; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-final-context.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:28:00.492Z",
+      "sha256": "632995ee2b2c6cbb44f1cb8c7455b9fadcc6d31c97be4a29e3fc6882fca7f5ae",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-final-context.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 说明已保存但Present仍显示缓存旧说明; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-description-reloaded.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:29:15.050Z",
+      "sha256": "3ffbfca0b79a863e111831a1ed13edf54927ab97f46df76115878813022a86d1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-description-reloaded.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 重载后新说明可见; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-P-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/figma-home-scroll-final-features-context.png",
+      "session_id": null,
+      "captured_at": "2026-09-28T21:29:26.592Z",
+      "sha256": "8fc38effd668c6c7434f538574254082e678138c01d97f27faed46fa194bd003",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/figma-home-scroll-final-features-context.jpg"
+      },
+      "source": "Actual Figma Present screenshot via Computer Use. 最新说明下滚到功能区; not native observation."
+    },
+    {
+      "id": "E-HOME-SCROLL-PROTOTYPE-TRACE",
+      "type": "interaction_trace",
+      "path": "home-scroll-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE",
+        "S-HOME-SCHEDULE-MON",
+        "S-APPS-ALL",
+        "S-CALENDAR-WEEK"
+      ],
+      "action_ids": [
+        "A-HOME-SCHEDULE-SCROLL",
+        "A-HOME-DATE-TUE",
+        "A-HOME-MYCLASS",
+        "A-APPS-HOME-BACK",
+        "A-HOME-EP008"
+      ],
+      "source": "Computer Use Figma scroll-frame conversion and actual Present replay; no native observations while Mac remained locked."
     }
   ],
   "findings": [
@@ -21029,13 +21679,13 @@
         "node_name": "[S-HOME-SCHEDULE-MON] Home Monday — DEMO",
         "node_type": "Frame",
         "page": "01 · Observed UI",
-        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
         "source_evidence_ids": [
           "E-HOME-SCHEDULE-MON",
           "E-HOME-STUDY-MAP-TRACE"
         ],
-        "design_source_path": "../../design/polyulife/home-demo-top.svg",
-        "design_source_sha256": "ba22f2f5a54b3ad99d44533ef8dc7b730a0299f45bbd08729e3305a0db133dcd",
+        "design_source_path": "../../design/polyulife/home-demo-monday-scroll.svg",
+        "design_source_sha256": "994ec8cc0526cbcf6253cc62af41e957028ad6e043441cc6e93574c34bfc8978",
         "canvas_position": [
           1400,
           19200
@@ -21055,9 +21705,10 @@
         "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
         "visual_review": {
           "status": "partial",
-          "summary": "Monday to Tuesday and scoped returns replayed; DEMO data, static samples, typography and unresolved image stability remain.",
+          "summary": "Continuous date-to-features scrolling and intermediate/reverse positions replayed; body children use Top constraints. Native total extent, DEMO fidelity and image stability remain unverified.",
           "evidence_ids": [
-            "E-HOME-DATE-PROTOTYPE-TRACE"
+            "E-HOME-DATE-PROTOTYPE-TRACE",
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
           ],
           "deviation_ids": [
             "D-STUDY-DEMO-CONTENT",
@@ -21066,12 +21717,21 @@
           ]
         },
         "prototype_evidence_ids": [
-          "E-HOME-DATE-PROTOTYPE-TRACE"
+          "E-HOME-DATE-PROTOTYPE-TRACE",
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
         ],
         "prototype_status": "navigation_sample_passed_visual_partial",
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
-          "PROTO-HOME-DATE-RETURN-001"
+          "PROTO-HOME-DATE-RETURN-001",
+          "PROTO-HOME-CONTINUOUS-SCROLL-001"
+        ],
+        "previous_design_sources": [
+          {
+            "path": "../../design/polyulife/home-demo-top.svg",
+            "sha256": "ba22f2f5a54b3ad99d44533ef8dc7b730a0299f45bbd08729e3305a0db133dcd",
+            "note": "Historical fixed-position source before continuous-scroll conversion."
+          }
         ]
       },
       {
@@ -21081,13 +21741,13 @@
         "node_name": "[S-HOME-SCHEDULE-TUE] Home Tuesday — DEMO",
         "node_type": "Frame",
         "page": "01 · Observed UI",
-        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
         "source_evidence_ids": [
           "E-HOME-SCHEDULE-TUE",
           "E-HOME-STUDY-MAP-TRACE"
         ],
-        "design_source_path": "../../design/polyulife/home-demo-tuesday.svg",
-        "design_source_sha256": "82bc3e2bd6d26805cb6cfbd11bd8f17a93dea0bc07ccf2a3297d9c156dcb98b8",
+        "design_source_path": "../../design/polyulife/home-demo-tuesday-scroll.svg",
+        "design_source_sha256": "d7d8c31f6d17e179a6b46c48086b8c688ef2ec59625799cd856b2aee0681221b",
         "canvas_position": [
           2100,
           19200
@@ -21107,9 +21767,10 @@
         "content_policy": "DEMO synthetic personal fields/geometry where applicable; QR is non-scannable crossed placeholder. Public catalogue and empty official login only. Header-only evidence does not prove private body fidelity.",
         "visual_review": {
           "status": "partial",
-          "summary": "Monday to Tuesday and scoped returns replayed; DEMO data, static samples, typography and unresolved image stability remain.",
+          "summary": "Continuous date-to-features scrolling and intermediate/reverse positions replayed; body children use Top constraints. Native total extent, DEMO fidelity and image stability remain unverified.",
           "evidence_ids": [
-            "E-HOME-DATE-PROTOTYPE-TRACE"
+            "E-HOME-DATE-PROTOTYPE-TRACE",
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
           ],
           "deviation_ids": [
             "D-STUDY-DEMO-CONTENT",
@@ -21118,12 +21779,21 @@
           ]
         },
         "prototype_evidence_ids": [
-          "E-HOME-DATE-PROTOTYPE-TRACE"
+          "E-HOME-DATE-PROTOTYPE-TRACE",
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
         ],
         "prototype_status": "navigation_sample_passed_visual_partial",
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
-          "PROTO-HOME-DATE-RETURN-001"
+          "PROTO-HOME-DATE-RETURN-001",
+          "PROTO-HOME-CONTINUOUS-SCROLL-001"
+        ],
+        "previous_design_sources": [
+          {
+            "path": "../../design/polyulife/home-demo-tuesday.svg",
+            "sha256": "82bc3e2bd6d26805cb6cfbd11bd8f17a93dea0bc07ccf2a3297d9c156dcb98b8",
+            "note": "Historical fixed-position source before continuous-scroll conversion."
+          }
         ]
       },
       {
@@ -24444,6 +25114,327 @@
         "tested_target_node_ids": [
           "67:694"
         ]
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-90",
+        "action_id": "A-HOME-EP010",
+        "source_node_id": "67:569",
+        "target_node_id": "67:271",
+        "trigger_node_id": "113:90",
+        "trigger_node_name": "FeatureMyCourses",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-84",
+        "action_id": "A-HOME-EP009",
+        "source_node_id": "67:569",
+        "target_node_id": "67:2",
+        "trigger_node_id": "113:84",
+        "trigger_node_name": "FeatureStudyProgress",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-76",
+        "action_id": "A-HOME-EP008",
+        "source_node_id": "67:569",
+        "target_node_id": "61:2",
+        "trigger_node_id": "113:76",
+        "trigger_node_name": "FeatureApps",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "tested_direct_entry",
+        "prototype_run_ids": [
+          "PROTO-HOME-CONTINUOUS-SCROLL-001"
+        ],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-71",
+        "action_id": "A-HOME-EP006",
+        "source_node_id": "67:569",
+        "target_node_id": "50:1911",
+        "trigger_node_id": "113:71",
+        "trigger_node_name": "FeatureFood",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-64",
+        "action_id": "A-HOME-ROOM",
+        "source_node_id": "67:569",
+        "target_node_id": "12:198",
+        "trigger_node_id": "113:64",
+        "trigger_node_name": "FeatureRoom",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-58",
+        "action_id": "A-HOME-EP007",
+        "source_node_id": "67:569",
+        "target_node_id": "70:1064",
+        "trigger_node_id": "113:58",
+        "trigger_node_name": "FeatureMap",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-45",
+        "action_id": "A-HOME-EP010",
+        "source_node_id": "67:694",
+        "target_node_id": "67:271",
+        "trigger_node_id": "113:45",
+        "trigger_node_name": "FeatureMyCourses",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-39",
+        "action_id": "A-HOME-EP009",
+        "source_node_id": "67:694",
+        "target_node_id": "67:2",
+        "trigger_node_id": "113:39",
+        "trigger_node_name": "FeatureStudyProgress",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-31",
+        "action_id": "A-HOME-EP008",
+        "source_node_id": "67:694",
+        "target_node_id": "61:2",
+        "trigger_node_id": "113:31",
+        "trigger_node_name": "FeatureApps",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "tested_direct_entry",
+        "prototype_run_ids": [
+          "PROTO-HOME-CONTINUOUS-SCROLL-001"
+        ],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-26",
+        "action_id": "A-HOME-EP006",
+        "source_node_id": "67:694",
+        "target_node_id": "50:1911",
+        "trigger_node_id": "113:26",
+        "trigger_node_name": "FeatureFood",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-19",
+        "action_id": "A-HOME-ROOM",
+        "source_node_id": "67:694",
+        "target_node_id": "12:198",
+        "trigger_node_id": "113:19",
+        "trigger_node_name": "FeatureRoom",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-HOME-SCROLL-113-13",
+        "action_id": "A-HOME-EP007",
+        "source_node_id": "67:694",
+        "target_node_id": "70:1064",
+        "trigger_node_id": "113:13",
+        "trigger_node_name": "FeatureMap",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "configured_copied_not_run",
+        "prototype_run_ids": [],
+        "configuration_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-SCROLL-EXTENT",
+          "D-HOME-SAMPLE-ENTRY"
+        ],
+        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+      },
+      {
+        "connection_id": "C-APPS-HOME-DIRECT-BACK",
+        "action_id": "A-APPS-HOME-BACK",
+        "source_node_id": "61:2",
+        "target_node_id": null,
+        "trigger_node_id": "61:129",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "implementation_status": "tested_for_direct_home_entry_only",
+        "prototype_run_ids": [
+          "PROTO-HOME-CONTINUOUS-SCROLL-001"
+        ],
+        "tested_target_node_ids": [
+          "67:569",
+          "67:694"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-APPS-HOME-HISTORY"
+        ],
+        "source_fidelity": "Native Apps Back returns Home. Prototype now preserves direct Home caller and scroll; category detours are not implemented."
       }
     ],
     "reconstruction_deviations": [
@@ -25158,6 +26149,41 @@
         "evidence_ids": [
           "E-HOME-ENTRY-RECHECK-TRACE",
           "E-HOME-DATE-PROTOTYPE-TRACE"
+        ]
+      },
+      {
+        "id": "D-HOME-SCROLL-EXTENT",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "status": "open",
+        "affected_state_ids": [
+          "S-HOME-SCHEDULE-MON",
+          "S-HOME-SCHEDULE-TUE"
+        ],
+        "original_behavior": "Native Home was observed at features and scrolled up to date/agenda. Full boundaries were not checked.",
+        "current_implementation": "Two existing roots now have 576x735 vertical frames at0,100, content to1187 and inferred352 range. Feature copies extend existing content by353 units.",
+        "impact": "Continuous movement supported between known samples; spacing/range remain inferred, not a claim about unobserved native endpoint.",
+        "next_step": "Unlock native app, inspect full extent/intermediate positions/sheet expansion and compare geometry.",
+        "evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ]
+      },
+      {
+        "id": "D-APPS-HOME-HISTORY",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "status": "open",
+        "affected_state_ids": [
+          "S-APPS-ALL",
+          "S-HOME-SCHEDULE-MON",
+          "S-HOME-SCHEDULE-TUE"
+        ],
+        "original_behavior": "Native Apps Back returned Home after category exploration.",
+        "current_implementation": "All Back61:129 was unconnected; now uses history Back. Direct Monday/Tuesday Home entry returns preserve caller and scroll.",
+        "impact": "Apps category navigation currently adds frame history; its detours/other-category Back and direct-start behavior are not covered.",
+        "next_step": "Implement Apps category state without polluting return history or preserve explicit Home caller and scroll across all categories.",
+        "evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE",
+          "E-HOME-STUDY-MAP-TRACE"
         ]
       }
     ],
@@ -27989,6 +29015,220 @@
           "Decorative images visible in this replay; pre-existing intermittent rendering defect remains open.",
           "Agent replay is not human Maze evaluation."
         ]
+      },
+      {
+        "id": "PROTO-HOME-CONTINUOUS-SCROLL-001",
+        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+        "started_at": "2026-09-28T21:18:33.815Z",
+        "ended_at": "2026-09-28T21:29:26.592Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1",
+        "start_node_id": "67:694",
+        "flow_name": "Home · Dates, agenda and return state",
+        "status": "partial",
+        "navigation_status": "scroll_and_direct_apps_returns_passed_after_back_wiring",
+        "visual_status": "partial_synthetic_extent_and_existing_image_limits",
+        "scope": "Monday/Tuesday continuous scroll between date and features samples; reverse/intermediate positions; Apps direct-entry returns preserve caller and scroll; date/My Class regression.",
+        "steps": [
+          {
+            "at": "2026-09-28T21:18:33.815Z",
+            "description": "周二顶部，恢复内容原尺寸后",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-01"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:18:42.551Z",
+            "description": "周二连续下滚至功能区",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-02"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:19:06.381Z",
+            "description": "周二反向滚至中间位置",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-03"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:19:20.771Z",
+            "description": "周二滚回顶部",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-04"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:20:33.789Z",
+            "description": "Restart后的暂态黑屏",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-05"
+            ],
+            "outcome": "transient_loading"
+          },
+          {
+            "at": "2026-09-28T21:20:43.855Z",
+            "description": "周一加载完成",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-06"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:20:53.160Z",
+            "description": "周一中间滚动位置",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-07"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:21:03.480Z",
+            "description": "周一连续滚至功能区",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-08"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:21:27.212Z",
+            "description": "周一功能区进入Apps",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-09"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:21:39.442Z",
+            "description": "失败：Apps Back未接线，点击后仍在Apps",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-10"
+            ],
+            "outcome": "failed_unconnected"
+          },
+          {
+            "at": "2026-09-28T21:25:43.834Z",
+            "description": "补线后Apps Back回周一，保留滚动位置",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-11"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:26:30.957Z",
+            "description": "周一返回后滚回顶部",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-12"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:26:39.979Z",
+            "description": "回归：Monday日期切到Tuesday",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-13"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:26:49.022Z",
+            "description": "回归：My Class打开Week5",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-14"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:26:58.402Z",
+            "description": "回归：Week5 Home回周二顶部",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-15"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:27:08.352Z",
+            "description": "周二滚至功能区准备Apps回放",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-16"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:27:17.705Z",
+            "description": "周二功能区进入Apps",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-17"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:27:28.130Z",
+            "description": "Apps Back回周二并保留滚动位置",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-18"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:28:00.492Z",
+            "description": "说明已保存但Present仍显示缓存旧说明",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-19"
+            ],
+            "outcome": "stale_description"
+          },
+          {
+            "at": "2026-09-28T21:29:15.050Z",
+            "description": "重载后新说明可见",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-20"
+            ],
+            "outcome": "recorded"
+          },
+          {
+            "at": "2026-09-28T21:29:26.592Z",
+            "description": "最新说明下滚到功能区",
+            "evidence_ids": [
+              "E-HOME-SCROLL-P-21"
+            ],
+            "outcome": "recorded"
+          }
+        ],
+        "evidence_ids": [
+          "E-HOME-SCROLL-P-01",
+          "E-HOME-SCROLL-P-02",
+          "E-HOME-SCROLL-P-03",
+          "E-HOME-SCROLL-P-04",
+          "E-HOME-SCROLL-P-05",
+          "E-HOME-SCROLL-P-06",
+          "E-HOME-SCROLL-P-07",
+          "E-HOME-SCROLL-P-08",
+          "E-HOME-SCROLL-P-09",
+          "E-HOME-SCROLL-P-10",
+          "E-HOME-SCROLL-P-11",
+          "E-HOME-SCROLL-P-12",
+          "E-HOME-SCROLL-P-13",
+          "E-HOME-SCROLL-P-14",
+          "E-HOME-SCROLL-P-15",
+          "E-HOME-SCROLL-P-16",
+          "E-HOME-SCROLL-P-17",
+          "E-HOME-SCROLL-P-18",
+          "E-HOME-SCROLL-P-19",
+          "E-HOME-SCROLL-P-20",
+          "E-HOME-SCROLL-P-21",
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "limitations": [
+          "Native complete scroll extent unverified; range inferred from two samples.",
+          "Only Apps among the newly copied feature instances replayed; other ten instances configured but not run.",
+          "Apps Back only covers direct Home entries. Category detours and standalone start semantics unimplemented.",
+          "All personal agenda synthetic DEMO; other dates/cards/search/week picker/sheet expansion incomplete.",
+          "No image-stability fix; agent replay does not replace human testing."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -28068,7 +29308,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "76 mapped frames / 2 internal component states / 118 controls. Home date and return sample replayed; full app and visual acceptance remain not verified.",
+    "verification_summary": "76 mapped frames / 2 internal component states / 131 configured controls / 2 vertical scroll regions. Ten newly copied feature instances not replayed; full app and visual acceptance remain not verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -28468,7 +29708,9 @@
       "home_calendar_week_roundtrip": "passed",
       "mainmap_twelve_frames_twenty_controls": "navigation_passed_visual_partial",
       "mainmap_initial_png_replacement": "two_clinics_returns_visible_other_images_open",
-      "home_calendar_search_return_regression": "passed_from_features_and_tuesday_samples"
+      "home_calendar_search_return_regression": "passed_from_features_and_tuesday_samples",
+      "home_continuous_scroll": "passed_between_two_sample_positions_native_total_extent_unverified",
+      "apps_direct_home_return": "passed_for_monday_tuesday_scroll_sources_category_detours_unimplemented"
     },
     "additional_imports": [
       {
@@ -29164,7 +30406,7 @@
         ]
       },
       {
-        "path": "../../design/polyulife/home-demo-top.svg",
+        "path": "../../design/polyulife/home-demo-monday-scroll.svg",
         "frame_name": "[S-HOME-SCHEDULE-MON] Home Monday — DEMO",
         "status": "imported_mapped",
         "page": "01 · Observed UI",
@@ -29173,11 +30415,13 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "evidence_ids": [
           "E-FIGMA-STUDY-TRACE",
-          "E-HOME-DATE-PROTOTYPE-TRACE"
-        ]
+          "E-HOME-DATE-PROTOTYPE-TRACE",
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "previous_fixed_source_path": "../../design/polyulife/home-demo-top.svg"
       },
       {
-        "path": "../../design/polyulife/home-demo-tuesday.svg",
+        "path": "../../design/polyulife/home-demo-tuesday-scroll.svg",
         "frame_name": "[S-HOME-SCHEDULE-TUE] Home Tuesday — DEMO",
         "status": "imported_mapped",
         "page": "01 · Observed UI",
@@ -29186,8 +30430,10 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "evidence_ids": [
           "E-FIGMA-STUDY-TRACE",
-          "E-HOME-DATE-PROTOTYPE-TRACE"
-        ]
+          "E-HOME-DATE-PROTOTYPE-TRACE",
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "previous_fixed_source_path": "../../design/polyulife/home-demo-tuesday.svg"
       },
       {
         "path": "../../design/polyulife/home-demo-scrolled.svg",
@@ -29456,12 +30702,13 @@
         "start_node_id": "67:569",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1",
         "tested_run_ids": [
-          "PROTO-HOME-DATE-RETURN-001"
+          "PROTO-HOME-DATE-RETURN-001",
+          "PROTO-HOME-CONTINUOUS-SCROLL-001"
         ],
-        "scope": "Monday to Tuesday, My Class/Calendar/Menu/Search/Notification and caller-preserving returns passed in recorded sample. Full Home remains incomplete."
+        "scope": "Monday/Tuesday continuous date-to-features scroll and direct Apps returns passed; date/My Class regression passed. Inferred extent and remaining module/source stacks incomplete."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-28T21:04:53.243Z",
+    "latest_prototype_run_cutoff": "2026-09-28T21:29:26.592Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -29484,9 +30731,9 @@
       "boundary": "Flow 1 resolved to current Available node12:105, not the archived original draft. Naming verification does not create a new navigation run."
     },
     "latest_context_evidence_ids": [
-      "E-HOME-DATE-P-18"
+      "E-HOME-SCROLL-P-21"
     ],
-    "latest_context_verified_at": "2026-09-28T21:06:21.404Z",
+    "latest_context_verified_at": "2026-09-28T21:29:26.592Z",
     "component_state_mappings": [
       {
         "state_id": "S-PRIVACY-NO-COOKIE",
@@ -29564,6 +30811,98 @@
         ],
         "verification_status": "cookie_dismissal_and_back_passed_scroll_unimplemented",
         "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover."
+      }
+    ],
+    "scroll_region_mappings": [
+      {
+        "state_id": "S-HOME-SCHEDULE-MON",
+        "root_node_id": "67:569",
+        "viewport_node_id": "67:654",
+        "viewport_name": "HomeScrollViewport",
+        "position": [
+          0,
+          100
+        ],
+        "dimensions": [
+          576,
+          735
+        ],
+        "overflow": "Vertical",
+        "clip_content": true,
+        "features_node_id": "113:57",
+        "features_position": [
+          78,
+          909
+        ],
+        "features_dimensions": [
+          454,
+          178
+        ],
+        "vertical_constraints": "Top",
+        "inferred_range": [
+          0,
+          352
+        ],
+        "native_complete_extent_verified": false,
+        "action_ids": [
+          "A-HOME-SCHEDULE-SCROLL"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "prototype_run_ids": [
+          "PROTO-HOME-CONTINUOUS-SCROLL-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/home-demo-monday-scroll.svg",
+        "design_source_sha256": "994ec8cc0526cbcf6253cc62af41e957028ad6e043441cc6e93574c34bfc8978"
+      },
+      {
+        "state_id": "S-HOME-SCHEDULE-TUE",
+        "root_node_id": "67:694",
+        "viewport_node_id": "67:780",
+        "viewport_name": "HomeScrollViewport",
+        "position": [
+          0,
+          100
+        ],
+        "dimensions": [
+          576,
+          735
+        ],
+        "overflow": "Vertical",
+        "clip_content": true,
+        "features_node_id": "113:12",
+        "features_position": [
+          78,
+          909
+        ],
+        "features_dimensions": [
+          454,
+          178
+        ],
+        "vertical_constraints": "Top",
+        "inferred_range": [
+          0,
+          352
+        ],
+        "native_complete_extent_verified": false,
+        "action_ids": [
+          "A-HOME-SCHEDULE-SCROLL"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "prototype_run_ids": [
+          "PROTO-HOME-CONTINUOUS-SCROLL-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-SCROLL-PROTOTYPE-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/home-demo-tuesday-scroll.svg",
+        "design_source_sha256": "d7d8c31f6d17e179a6b46c48086b8c688ef2ec59625799cd856b2aee0681221b"
       }
     ]
   },
@@ -29941,7 +31280,8 @@
       "next_step": "Recheck native UI after user unlock; retain existing observations separately.",
       "evidence_ids": [
         "E-HOME-DATE-PROTOTYPE-TRACE"
-      ]
+      ],
+      "last_recheck_note": "Rechecked at start of continuous-scroll batch: native tool still reported Mac locked; independent Figma work proceeded."
     }
   ],
   "closure_reviews": [

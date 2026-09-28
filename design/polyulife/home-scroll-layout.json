@@ -1,0 +1,63 @@
+{
+  "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+  "root_size": [
+    576,
+    970
+  ],
+  "viewport": {
+    "position": [
+      0,
+      100
+    ],
+    "size": [
+      576,
+      735
+    ],
+    "clip_content": true,
+    "overflow": "Vertical"
+  },
+  "children_vertical_constraint": "Top",
+  "features_in_viewport": {
+    "position": [
+      78,
+      909
+    ],
+    "size": [
+      454,
+      178
+    ]
+  },
+  "inferred_scroll_range": [
+    0,
+    352
+  ],
+  "native_full_extent_verified": false,
+  "fixed_outside_viewport": [
+    "Header",
+    "BottomSheet",
+    "BottomNavigation"
+  ],
+  "frames": [
+    {
+      "day": "Monday",
+      "root_node_id": "67:569",
+      "viewport_node_id": "67:654",
+      "features_node_id": "113:57",
+      "source": "home-demo-monday-scroll.svg"
+    },
+    {
+      "day": "Tuesday",
+      "root_node_id": "67:694",
+      "viewport_node_id": "67:780",
+      "features_node_id": "113:12",
+      "source": "home-demo-tuesday-scroll.svg"
+    }
+  ],
+  "limitations": [
+    "Range and spacing derived from two samples, not a newly observed native endpoint.",
+    "Private agenda content is synthetic, with approximate geometry.",
+    "Feature links copied from existing Home sample; only Apps direct-entry returns replayed in this batch.",
+    "Apps Back is history Back for direct Home entries only; category detours are not covered.",
+    "Other source returns and native full application remain incomplete."
+  ]
+}
