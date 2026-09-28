@@ -434,4 +434,8 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 
 ## 首页连续滚动增量
 
-[连续滚动与Apps返回](home-scroll-prototype-walkthrough.md)将Monday/Tuesday既有正文转换成2个垂直滚动区域，并复制12个功能入口实例、补1个Apps返回。日期区至功能区的连续/反向/中间滚动和Apps直接往返通过；新复制的其它10个入口实例仅配置已读回、尚未回放。当前76个映射Frame、131个配置控件，完整原生滚动边界及Apps分类绕行返回仍未实现或验证。
+[连续滚动与Apps返回](home-scroll-prototype-walkthrough.md)将Monday/Tuesday既有正文转换成2个垂直滚动区域，并复制12个功能入口实例、补1个Apps返回。日期区至功能区的连续/反向/中间滚动和Apps直接往返通过；新复制的其它10个入口实例仅配置已读回、尚未回放。该连续滚动批次为76个映射Frame、131个配置控件；当时尚未实现的Apps分类绕行返回见下方增量，完整原生滚动边界仍未验证。
+
+## Apps 分类与逐层返回增量
+
+[Apps返回回放记录](apps-return-prototype-walkthrough.md)修改16个既有控件、补7个分类Back，当前138个配置控件。Home打开Apps覆盖层，分类切换不累积导航历史，VRS详情/登录各关闭一层。周二完整分类链、周一七个分类状态直接Back、历史Home往返已回放并保留来源与滚动位置。任意分类互跳与独立Apps退出未验证；新增分类Back的原生逐项来源仍待补查。39张Present证据与[配置读回](../../design/polyulife/apps-overlay-layout.json)已归档。

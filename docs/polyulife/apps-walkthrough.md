@@ -49,3 +49,7 @@ All 的 AX 中包含 18 项服务条目；初始截图只显示前几张卡片�
 ## 后续Home返回补测
 
 17:30:30重新观察确认仍为Apps All；17:30:46点击Apps Back，17:30:48结果确认返回Home。个人Home截图不公开，只保留脱敏动作记录。后续Study progress、My Courses、Home主Map、QR和Home日期分别有独立观察，见 [Home/Study/Map走查](home-study-map-walkthrough.md)。这项补测关闭Apps→Home这一动作缺口，不改变其它服务、完整列表和Figma尚未验收的边界。
+
+## 后续原型返回改造
+
+[Apps分类与返回回放](apps-return-prototype-walkthrough.md)记录Home来源保留、分类同层切换和VRS嵌套关闭。本段引用的是Figma验证，没有新增原生App观察；原有实测记录保持不变。

@@ -1,0 +1,214 @@
+{
+  "revision": "FIGMA-APPS-OVERLAY-RETURN",
+  "scope": "Home-launched recorded Apps sample, not a new native observation",
+  "edits": [
+    {
+      "node": "113:31",
+      "action": "Open overlay",
+      "target": "61:2",
+      "source_node_id": "67:694",
+      "target_node_id": "61:2",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:129",
+      "action": "Close overlay",
+      "source_node_id": "61:2",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:109",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:2",
+      "target_node_id": "61:135",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:192",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:135",
+      "target_node_id": "61:215",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:324",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:215",
+      "target_node_id": "61:344",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:458",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:344",
+      "target_node_id": "61:475",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:568",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:475",
+      "target_node_id": "61:585",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:649",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-JOB] Apps — Job\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:585",
+      "target_node_id": "61:663",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:688",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On drag\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-JOB-CATEGORIES-LEFT] Apps — Job, categories at left\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Smart animate\n  - generic: Easing\n  - button \"Ease out\":\n    - generic: Ease out\n  - generic: Duration\n  - generic \"Easing duration\":\n    - textbox \"Easing duration\": 300ms\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:663",
+      "target_node_id": "61:721",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:749",
+      "action": "Swap overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-ALL] Apps — All\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:721",
+      "target_node_id": "61:2",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:155",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-VRS-DETAIL] Visitor Registration System\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:135",
+      "target_node_id": "61:778",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:791",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-VRS-WEB-LOGIN] VRS — Empty login\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "61:778",
+      "target_node_id": "61:843",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:855",
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:843",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:799",
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:778",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "113:76",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-ALL] Apps — All\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "67:569",
+      "target_node_id": "61:2",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "67:890",
+      "action": "Open overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-APPS-ALL] Apps — All\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert",
+      "source_node_id": "67:820",
+      "target_node_id": "61:2",
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:209",
+      "action": "Close overlay",
+      "new_control": true,
+      "source_node": "61:135",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:135",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:338",
+      "source_node": "61:215",
+      "new_control": true,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:215",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:469",
+      "source_node": "61:344",
+      "new_control": true,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:344",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:579",
+      "source_node": "61:475",
+      "new_control": true,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:475",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:657",
+      "source_node": "61:585",
+      "new_control": true,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:585",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:715",
+      "source_node": "61:663",
+      "new_control": true,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 8 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:663",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    },
+    {
+      "node": "61:772",
+      "source_node": "61:721",
+      "new_control": true,
+      "action": "Close overlay",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 9 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert",
+      "source_node_id": "61:721",
+      "target_node_id": null,
+      "prototype_run_id": "PROTO-APPS-OVERLAY-RETURN-001"
+    }
+  ],
+  "limitations": [
+    "Category switching follows the configured recorded chain, not arbitrary visible tabs; list scrolling and other services remain incomplete.",
+    "Home-launched flows are required; standalone Apps has no Home caller and its exit semantics are not verified.",
+    "Seven added category Back controls generalize the observed Apps Back behavior; their individual native source states were not newly checked.",
+    "Loading is skipped; native totals unchanged; visual fidelity and full application remain not_verified.",
+    "Other ten copied Home feature instances remain configured but not replayed; human evaluation remains separate."
+  ],
+  "flow_descriptions": {
+    "home": "Observed sample: Monday 28 -> Tuesday 29 (Today), with continuous Home scrolling and synthetic DEMO agenda. Apps launched from Home preserves its caller and scroll through the recorded All -> Campus -> Study -> IT Tips -> Health -> Wellness -> Job -> All chain; VRS detail and empty login close one layer at a time. All seven category-state Back buttons were replayed from Monday Home. Direct Monday/Tuesday and legacy Home returns passed. Arbitrary category switching, service links beyond the VRS sample, other module returns and full native scroll extent remain incomplete. Week/Menu/Search/Notification returns cover recorded Home entries only. Other dates, card details, search input/results, Week picker, sheet expansion, drawer background and intermittent images remain unresolved. Agent replay is not native observation or human usability testing.",
+    "apps": "Standalone Apps reference. For the tested interactive Apps journey and correct return behavior, launch Apps from a Home flow. The Home-launched implementation uses one category overlay, nested VRS detail and empty-login overlays, and one-layer close actions. Tested: All -> Campus -> VRS detail -> empty login -> detail -> Campus -> Study -> IT Tips -> Health -> Wellness -> Job -> category-strip drag -> All -> original Home; category Back buttons also return directly to Home. Standalone start has no Home caller and its exit semantics are not verified. Category switching only follows the recorded chain; arbitrary tabs/scrolling and other service links remain unimplemented. Loading is a static reference skipped in playback. No credentials or login submission. Agent replay is separate from native observation and human testing."
+  }
+}

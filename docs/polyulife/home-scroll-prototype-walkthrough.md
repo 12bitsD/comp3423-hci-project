@@ -2,6 +2,8 @@
 
 2026-09-29（本地时间；下表UTC）。原生Computer Use再次报告Mac锁定，无新增原生观察。基于[既有Home取证](home-study-map-walkthrough.md)与合成DEMO内容，改造现有Figma Monday67:569、Tuesday67:694；完整应用保持 `not_verified`。
 
+本页保留连续滚动批次的历史状态；后续Apps分类与返回修复见[Apps返回栈](apps-return-prototype-walkthrough.md)。
+
 ## 改动和依据
 
 既有原生证据显示首页功能区及向上滚到日期区的动作。原型现在用真实垂直滚动区域连接这两段内容，而非用点击切换固定滚动截图。中间位置、反向滚动和固定导航都在Present实际验证。此结果只证明原型滚动，不证明新原生状态；原生全列表末端、其它日期、卡片详情和底部面板展开尚未确认。
