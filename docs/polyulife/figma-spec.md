@@ -451,3 +451,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Study/Courses返回栈更新
 
 [返回栈回放](study-courses-return-prototype-walkthrough.md)更新17个控件并新增5个外层Back，当前181个配置控件。三个Home来源的六条样例链路及Tuesday八个外层出口通过，12次返回保留原Home滚动区域。中间状态原生出口仍为推断；列表、搜索、逆向页签、blank来源和其它模块内部绕行未完成。
+
+## Map返回栈更新
+
+[Map回放](map-return-prototype-walkthrough.md)更新23个控件、新增8个外层Back，当前189个配置控件。Home来源样例返回和详情逐层关闭通过，8个新增来源的原生行为仍待核。独立Map起点退出无效及重复进入缺图明确失败，完整地图行为未完成。

@@ -1,0 +1,480 @@
+{
+  "revision": "FIGMA-MAP-CALLER-STACK",
+  "edits": [
+    {
+      "source": "70:1064",
+      "trigger": "70:1071",
+      "target": "70:1130",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-TOILETS] Map — Toilets\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1064",
+      "trigger": "70:1080",
+      "target": "70:1396",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-CLINICS] Map — Clinics\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1064",
+      "trigger": "70:1069",
+      "target": "70:1097",
+      "action": "Swap overlay",
+      "event": "On drag",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On drag\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-RIGHT] Map — categories right\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Smart animate\n  - generic: Easing\n  - button \"Ease out\":\n    - generic: Ease out\n  - generic: Duration\n  - generic \"Easing duration\":\n    - textbox \"Easing duration\": 300ms\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1097",
+      "trigger": "70:1102",
+      "target": "70:1064",
+      "action": "Swap overlay",
+      "event": "On drag",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On drag\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-INITIAL] Map — no category\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Smart animate\n  - generic: Easing\n  - button \"Ease out\":\n    - generic: Ease out\n  - generic: Duration\n  - generic \"Easing duration\":\n    - textbox \"Easing duration\": 300ms\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1097",
+      "trigger": "70:1109",
+      "target": "70:1456",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-BANKS] Map — Banks\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1097",
+      "trigger": "70:1113",
+      "target": "70:1505",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-AEDS] Map — AEDs\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1097",
+      "trigger": "70:1118",
+      "target": "70:1565",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-BOOKSTORES] Map — Bookstores\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1130",
+      "trigger": "70:1142",
+      "target": "70:1200",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-TOILETS-WATER] Map — Toilets + Water\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1130",
+      "trigger": "70:1167",
+      "target": "70:1614",
+      "action": "Open overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-DETAIL] Toilet Core C — Detail\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1200",
+      "trigger": "70:1207",
+      "target": "70:1270",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-WATER] Map — Water Stations\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1270",
+      "trigger": "70:1295",
+      "target": "70:1339",
+      "action": "Swap overlay",
+      "event": "On drag",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On drag\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-WATER-SCROLLED] Map — Water list scrolled\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Smart animate\n  - generic: Easing\n  - button \"Ease out\":\n    - generic: Ease out\n  - generic: Duration\n  - generic \"Easing duration\":\n    - textbox \"Easing duration\": 300ms\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1339",
+      "trigger": "70:1351",
+      "target": "70:1064",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-INITIAL] Map — no category\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1614",
+      "trigger": "70:1624",
+      "target": "70:1635",
+      "action": "Open overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-FULL] Toilet Core C — Expanded map\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1614",
+      "trigger": "70:1629",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 18 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1635",
+      "trigger": "70:1642",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 19 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1396",
+      "trigger": "70:1412",
+      "target": "70:1064",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-INITIAL] Map — no category\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1456",
+      "trigger": "70:1468",
+      "target": "70:1097",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-RIGHT] Map — categories right\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1505",
+      "trigger": "70:1521",
+      "target": "70:1097",
+      "action": "Swap overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-RIGHT] Map — categories right\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1565",
+      "trigger": "70:1608",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 20 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:820",
+      "trigger": "67:872",
+      "target": "70:1064",
+      "action": "Open overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-INITIAL] Map — no category\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:569",
+      "trigger": "113:58",
+      "target": "70:1064",
+      "action": "Open overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-INITIAL] Map — no category\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:694",
+      "trigger": "113:13",
+      "target": "70:1064",
+      "action": "Open overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Open overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\":\n    - generic: \"[S-MAINMAP-INITIAL] Map — no category\"\n  - generic: Position\n  - listbox \"Position\"\n  - generic: Centered\n  - checkbox \"Close when clicking outside\"\n  - generic: Close when clicking outside\n  - checkbox \"Background\"\n  - generic: Background\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1064",
+      "trigger": "70:1091",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 21 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1130",
+      "trigger": "70:1194",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 22 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1097",
+      "trigger": "70:1124",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 23 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1200",
+      "trigger": "70:1264",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 24 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1270",
+      "trigger": "70:1333",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 25 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1339",
+      "trigger": "70:1390",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 26 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1396",
+      "trigger": "70:1450",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 27 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1456",
+      "trigger": "70:1499",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 28 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1505",
+      "trigger": "70:1559",
+      "target": null,
+      "action": "Close overlay",
+      "event": "On click",
+      "new_control": true,
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 29 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Close overlay\n- status\n- alert\n- alert"
+    }
+  ],
+  "flow_descriptions": {
+    "67:569": "Observed Monday / Tuesday Home sample with continuous scrolling and synthetic DEMO agenda. Study and Courses sample detours now preserve the Home caller and scroll: title expansion/collapse, Requirements to Offerings, Canvas to Blackboard to empty login. Both chains replayed from Monday, Tuesday and legacy Home; all eight outer exits replayed from Tuesday. Exact native middle-state Back behavior remains inferred. Map sample filters and nested detail returns now preserve Home; Tuesday all ten Map outer exits and Monday/legacy nested and Bookstores exits were replayed. Eight added filtered-state exits remain native generalizations. Room/Food deeper detours remain incomplete. Map and Food images disappeared again, so visual acceptance is not passed. Lists, reverse tabs, search, other services, Home dates/cards/week picker/sheet and Study blank remain incomplete. Prototype replay adds no native observations and is not human evaluation.",
+    "67:820": "Observed UI reconstruction with synthetic DEMO coursework, schedules and identity; QR is a non-scannable placeholder. Study and Courses sample detours preserve the Home caller: title expansion/collapse, Requirements to Offerings, Canvas to Blackboard to empty login. Both chains replayed from legacy, Monday and Tuesday Home. Middle-state outer Back behavior is a prototype generalization awaiting native verification. Map sample detours now preserve the Home caller. All ten Map outer exits were replayed from Tuesday, with nested-detail and Bookstores returns also checked from Monday and legacy Home. Eight added filtered-state exits are native generalizations. Map images still disappear on repeated entry. Loading is skipped. Calendar enters Week 5 with synthetic data. Lists, reverse tabs, search, login submission, bookings, other module detours and unobserved links remain incomplete. Study blank is an independent unresolved reference. Agent replay is separate from native observation and human testing.",
+    "70:1064": "For Map navigation and Home returns, start a Home flow and open Map. This direct Map start is a reference without a Home caller; its outer Back does not exit to Home. From Home, observed sample filters preserve the caller, facility detail and full map close one layer at a time. All ten outer Map exits replayed from Tuesday; Monday/legacy nested and Bookstores returns also passed. Eight filtered-state exits are prototype generalizations awaiting exact native checks. Repeated entry loses map images; visual acceptance remains failed. Category/list drags are discrete samples, not free scrolling. Other combinations, facilities, live pan/zoom, location and backend behavior remain incomplete. Agent replay is not human evaluation."
+  },
+  "pixel_comparisons": [
+    {
+      "file": "figma-map-stack-tue-bookstores-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-initial-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-toilets-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-combined-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-water-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-scrolled-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-clinics-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-right-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-banks-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-aeds-exit-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-mon-nested-return.jpg",
+      "baseline": "figma-map-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "additional_actual_tuesday_return_after_failed_setup"
+    },
+    {
+      "file": "figma-map-stack-mon-fixed-nested-return.jpg",
+      "baseline": "figma-map-stack-mon-fixed-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-mon-fixed-bookstores-return.jpg",
+      "baseline": "figma-map-stack-mon-fixed-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-legacy-nested-return.jpg",
+      "baseline": "figma-map-stack-legacy-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-legacy-bookstores-return.jpg",
+      "baseline": "figma-map-stack-legacy-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "home_return"
+    },
+    {
+      "file": "figma-map-stack-tue-full-back.jpg",
+      "baseline": "figma-map-stack-tue-detail.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "nested_detail_return"
+    },
+    {
+      "file": "figma-map-stack-tue-detail-back.jpg",
+      "baseline": "figma-map-stack-tue-toilets.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "kind": "nested_filter_return"
+    }
+  ],
+  "limitations": [
+    "Only existing Map sample paths, ten outer exits and nested Core C returns were tested. Full lists, other facilities, arbitrary category combinations, continuous scrolling and live map gestures remain incomplete.",
+    "Eight new filtered-state outer exits are prototype generalizations from observed Bookstores -> Home; exact native sources not independently observed.",
+    "Standalone Map start lacks a Home caller: initial Back has no effect. Overlay conversion also removes the previous fixed Bookstores -> legacy Home fallback for standalone usage. Use Home flow for complete tested return path; standalone remains a recorded regression.",
+    "Map images disappeared on repeated filter entry; visual acceptance failed. Home date labels remain incomplete: Monday setup click did not navigate, actual Tuesday source retained and recorded before Restart.",
+    "Room/Food deeper detours, other module inputs and existing visual deviations remain unresolved.",
+    "Mac locked; no new native evidence. Agent replay is not human evaluation."
+  ]
+}
