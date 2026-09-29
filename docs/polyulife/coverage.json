@@ -28382,6 +28382,893 @@
       ],
       "action_ids": [],
       "source": "15 existing controls updated, 1 new hours exit. Three pixel-equal Home returns, repeated-detail nested navigation; image defects and standalone failures retained."
+    },
+    {
+      "id": "E-FOOD-PNG-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-tue-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:47:26.634Z",
+      "sha256": "668c6b6f1cc56f46a27a7a824a5c3f26b7ab1923b207c96a58cbddd2195ed5db",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-tue-top.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Tuesday Home selected before consecutive Food image checks; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-home-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:47:37.476Z",
+      "sha256": "d50dc94790d7f877fca8f5e9be11294ddfaf7812713c9fe791bea4c94373d76b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-home-baseline.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Tuesday Home features baseline for two returns; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-list.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:47:49.942Z",
+      "sha256": "2ad411969d48931b0aa8303a692c5779dddd8a23f6ff29052cd84f6750505d22",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-list.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 Food list map and logos; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-hours.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:48:02.121Z",
+      "sha256": "12a7e28faad18035ba35d6f93838cd3c14f6a96b9985c1f66da8d50c70ca1914",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-hours.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 expanded hours map and visible logos; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-origin.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:48:14.291Z",
+      "sha256": "ac5a93f281c031f9cd38a156fe8ae322e8ebc5ce60adba2e49b10c2b7ba4bd4f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-origin.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 original detail hero and map; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-search.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:48:27.184Z",
+      "sha256": "0424f87a0f683aa8a496a6eb36dec847e358a9c750caadcd253ae27cef0afbff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-TAG-RESULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-search.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 tag opens Search; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-result.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:48:37.848Z",
+      "sha256": "cfc283c84c68071a521ea198ff85a5143e45fa80428839af2c04a475e7abb692",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-result.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 repeated result detail hero and map; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-image.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:48:49.125Z",
+      "sha256": "607e84b257724f304313df8052c06e32e7580a358dd09605941e35045f331bbc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-IMAGE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-image.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 expanded venue artwork visible; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-image-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:48:59.760Z",
+      "sha256": "cfc283c84c68071a521ea198ff85a5143e45fa80428839af2c04a475e7abb692",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-image-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 image close retains detail imagery; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-map.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:49:13.423Z",
+      "sha256": "615391e5850235c97e23c80ccd47d56b489f365eb2eb4a0daae0bc4f78d86bdf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-map.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 expanded campus map visible; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-map-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:49:26.886Z",
+      "sha256": "cfc283c84c68071a521ea198ff85a5143e45fa80428839af2c04a475e7abb692",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-map-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 map Back retains result detail imagery; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-search-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:49:38.217Z",
+      "sha256": "0424f87a0f683aa8a496a6eb36dec847e358a9c750caadcd253ae27cef0afbff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-TAG-RESULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-search-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 detail Back to Search; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-origin-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:49:51.575Z",
+      "sha256": "ac5a93f281c031f9cd38a156fe8ae322e8ebc5ce60adba2e49b10c2b7ba4bd4f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-origin-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 Search Back to original detail with imagery; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-hours-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:50:02.912Z",
+      "sha256": "e88268302dee7ab51baca40fe78eb7c489cd8d59d998c67d8b3a1621b4662d43",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-hours-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 hours-list return retains map and logos; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r1-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:50:13.582Z",
+      "sha256": "d50dc94790d7f877fca8f5e9be11294ddfaf7812713c9fe791bea4c94373d76b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r1-home-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 1 returns to original Tuesday Home; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-list.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:50:31.835Z",
+      "sha256": "e0822164f7397330996bb872b2f2dc87693b9ef59a1d8b9d993af3d10b22e137",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-list.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 repeated Food entry map and logos visible; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-hours.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:50:45.991Z",
+      "sha256": "e88268302dee7ab51baca40fe78eb7c489cd8d59d998c67d8b3a1621b4662d43",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-hours.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 expanded hours map and visible logos; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-origin.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:50:58.762Z",
+      "sha256": "ac5a93f281c031f9cd38a156fe8ae322e8ebc5ce60adba2e49b10c2b7ba4bd4f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-origin.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 original detail hero and map; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-search.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:51:09.231Z",
+      "sha256": "0424f87a0f683aa8a496a6eb36dec847e358a9c750caadcd253ae27cef0afbff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-TAG-RESULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-search.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 tag Search; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-result.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:51:24.602Z",
+      "sha256": "cfc283c84c68071a521ea198ff85a5143e45fa80428839af2c04a475e7abb692",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-result.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 result detail images visible; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-image.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:51:41.533Z",
+      "sha256": "607e84b257724f304313df8052c06e32e7580a358dd09605941e35045f331bbc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-IMAGE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-image.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 expanded image visible; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-image-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:51:55.035Z",
+      "sha256": "cfc283c84c68071a521ea198ff85a5143e45fa80428839af2c04a475e7abb692",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-image-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 image close retains detail imagery; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-map.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:52:08.275Z",
+      "sha256": "4de2603ad1aab72c3415aa85902c5b6c797388367c662be99528eb544266e2b1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-map.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 expanded campus map visible; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-map-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:52:22.503Z",
+      "sha256": "cfc283c84c68071a521ea198ff85a5143e45fa80428839af2c04a475e7abb692",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-map-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 map Back retains detail images; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-search-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:52:34.098Z",
+      "sha256": "0424f87a0f683aa8a496a6eb36dec847e358a9c750caadcd253ae27cef0afbff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-TAG-RESULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-search-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 detail Back to Search; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-origin-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:52:46.125Z",
+      "sha256": "ac5a93f281c031f9cd38a156fe8ae322e8ebc5ce60adba2e49b10c2b7ba4bd4f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-origin-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 Search Back retains original detail images; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-hours-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:53:04.117Z",
+      "sha256": "e88268302dee7ab51baca40fe78eb7c489cd8d59d998c67d8b3a1621b4662d43",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-hours-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 final hours-list retains map and visible logos; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-r2-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:53:19.559Z",
+      "sha256": "d50dc94790d7f877fca8f5e9be11294ddfaf7812713c9fe791bea4c94373d76b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-r2-home-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Round 2 returns to original Tuesday Home; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-P-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-png-description-readback.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:55:43.571Z",
+      "sha256": "8d819e2a60e16e2b6bc68a97e3a9e7671d009e8af27c94616c0daf5f2d7a51c1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-png-description-readback.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Reloaded Tuesday Home with updated image verification scope; no extra Food circuit; not native evidence."
+    },
+    {
+      "id": "E-FOOD-PNG-TRACE",
+      "type": "interaction_trace",
+      "path": "food-image-repair-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE",
+        "S-FOOD-LIST",
+        "S-FOOD-HOURS",
+        "S-FOOD-DETAIL",
+        "S-FOOD-TAG-RESULT",
+        "S-FOOD-IMAGE",
+        "S-FOOD-MAP"
+      ],
+      "action_ids": [],
+      "source": "14 existing PNG fills re-uploaded via Figma UI; two consecutive Tuesday nested circuits rendered observed imagery, two Home returns pixel-equal. Other contexts unverified."
     }
   ],
   "findings": [
@@ -30198,13 +31085,26 @@
         },
         "prototype_evidence_ids": [
           "E-FIGMA-FOOD-LIST",
-          "E-FIGMA-FOOD-TRACE"
+          "E-FIGMA-FOOD-TRACE",
+          "E-FOOD-PNG-TRACE"
         ],
         "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-FOOD-V2-001"
-        ]
+        ],
+        "image_fill_repair": {
+          "revision_id": "FIGMA-FOOD-PNG-REENTRY",
+          "edit_record": "../../design/polyulife/food-image-repair.json",
+          "validation": "two_consecutive_tuesday_nested_circuits_visible",
+          "limitations": [
+            "14 existing fills across five playable Food frames; same image content/scale/transform. No added navigation.",
+            "Two consecutive Tuesday Home nested sample circuits only. Monday/legacy, direct unexpanded-list detail, standalone entry and long-session stability were not retested after replacement.",
+            "Hours frame fourth logo extends below the existing frame boundary; fill configuration updated but full runtime visibility not established. Panned map remains an unwired reference and was not modified.",
+            "Image thumbnail/color-management fields changed after PNG upload; no experiment isolates a root cause. Full visual fidelity remains unverified.",
+            "Standalone Food/Map/Room exits, full Food lists/venues/tags/maps and broader application remain incomplete. Native Mac still locked; no new native or human evidence."
+          ]
+        }
       },
       {
         "state_id": "S-FOOD-HOURS",
@@ -30254,13 +31154,26 @@
         "prototype_evidence_ids": [
           "E-FIGMA-FOOD-HOURS",
           "E-FIGMA-FOOD-LIST-MISSING",
-          "E-FIGMA-FOOD-TRACE"
+          "E-FIGMA-FOOD-TRACE",
+          "E-FOOD-PNG-TRACE"
         ],
         "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-FOOD-V2-001"
-        ]
+        ],
+        "image_fill_repair": {
+          "revision_id": "FIGMA-FOOD-PNG-REENTRY",
+          "edit_record": "../../design/polyulife/food-image-repair.json",
+          "validation": "two_consecutive_tuesday_nested_circuits_visible",
+          "limitations": [
+            "14 existing fills across five playable Food frames; same image content/scale/transform. No added navigation.",
+            "Two consecutive Tuesday Home nested sample circuits only. Monday/legacy, direct unexpanded-list detail, standalone entry and long-session stability were not retested after replacement.",
+            "Hours frame fourth logo extends below the existing frame boundary; fill configuration updated but full runtime visibility not established. Panned map remains an unwired reference and was not modified.",
+            "Image thumbnail/color-management fields changed after PNG upload; no experiment isolates a root cause. Full visual fidelity remains unverified.",
+            "Standalone Food/Map/Room exits, full Food lists/venues/tags/maps and broader application remain incomplete. Native Mac still locked; no new native or human evidence."
+          ]
+        }
       },
       {
         "state_id": "S-FOOD-DETAIL",
@@ -30314,13 +31227,26 @@
           "E-FIGMA-FOOD-DETAIL-MISSING",
           "E-FIGMA-FOOD-DETAIL-RESTORED",
           "E-FIGMA-FOOD-DETAIL-RESIZED",
-          "E-FIGMA-FOOD-TRACE"
+          "E-FIGMA-FOOD-TRACE",
+          "E-FOOD-PNG-TRACE"
         ],
         "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-FOOD-V2-001"
-        ]
+        ],
+        "image_fill_repair": {
+          "revision_id": "FIGMA-FOOD-PNG-REENTRY",
+          "edit_record": "../../design/polyulife/food-image-repair.json",
+          "validation": "two_consecutive_tuesday_nested_circuits_visible",
+          "limitations": [
+            "14 existing fills across five playable Food frames; same image content/scale/transform. No added navigation.",
+            "Two consecutive Tuesday Home nested sample circuits only. Monday/legacy, direct unexpanded-list detail, standalone entry and long-session stability were not retested after replacement.",
+            "Hours frame fourth logo extends below the existing frame boundary; fill configuration updated but full runtime visibility not established. Panned map remains an unwired reference and was not modified.",
+            "Image thumbnail/color-management fields changed after PNG upload; no experiment isolates a root cause. Full visual fidelity remains unverified.",
+            "Standalone Food/Map/Room exits, full Food lists/venues/tags/maps and broader application remain incomplete. Native Mac still locked; no new native or human evidence."
+          ]
+        }
       },
       {
         "state_id": "S-FOOD-TAG-RESULT",
@@ -30422,13 +31348,26 @@
         },
         "prototype_evidence_ids": [
           "E-FIGMA-FOOD-IMAGE",
-          "E-FIGMA-FOOD-TRACE"
+          "E-FIGMA-FOOD-TRACE",
+          "E-FOOD-PNG-TRACE"
         ],
         "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-FOOD-V2-001"
-        ]
+        ],
+        "image_fill_repair": {
+          "revision_id": "FIGMA-FOOD-PNG-REENTRY",
+          "edit_record": "../../design/polyulife/food-image-repair.json",
+          "validation": "two_consecutive_tuesday_nested_circuits_visible",
+          "limitations": [
+            "14 existing fills across five playable Food frames; same image content/scale/transform. No added navigation.",
+            "Two consecutive Tuesday Home nested sample circuits only. Monday/legacy, direct unexpanded-list detail, standalone entry and long-session stability were not retested after replacement.",
+            "Hours frame fourth logo extends below the existing frame boundary; fill configuration updated but full runtime visibility not established. Panned map remains an unwired reference and was not modified.",
+            "Image thumbnail/color-management fields changed after PNG upload; no experiment isolates a root cause. Full visual fidelity remains unverified.",
+            "Standalone Food/Map/Room exits, full Food lists/venues/tags/maps and broader application remain incomplete. Native Mac still locked; no new native or human evidence."
+          ]
+        }
       },
       {
         "state_id": "S-FOOD-MAP",
@@ -30477,13 +31416,26 @@
         },
         "prototype_evidence_ids": [
           "E-FIGMA-FOOD-MAP",
-          "E-FIGMA-FOOD-TRACE"
+          "E-FIGMA-FOOD-TRACE",
+          "E-FOOD-PNG-TRACE"
         ],
         "prototype_status": "navigation_sample_passed_visual_acceptance_failed",
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-FOOD-V2-001"
-        ]
+        ],
+        "image_fill_repair": {
+          "revision_id": "FIGMA-FOOD-PNG-REENTRY",
+          "edit_record": "../../design/polyulife/food-image-repair.json",
+          "validation": "two_consecutive_tuesday_nested_circuits_visible",
+          "limitations": [
+            "14 existing fills across five playable Food frames; same image content/scale/transform. No added navigation.",
+            "Two consecutive Tuesday Home nested sample circuits only. Monday/legacy, direct unexpanded-list detail, standalone entry and long-session stability were not retested after replacement.",
+            "Hours frame fourth logo extends below the existing frame boundary; fill configuration updated but full runtime visibility not established. Panned map remains an unwired reference and was not modified.",
+            "Image thumbnail/color-management fields changed after PNG upload; no experiment isolates a root cause. Full visual fidelity remains unverified.",
+            "Standalone Food/Map/Room exits, full Food lists/venues/tags/maps and broader application remain incomplete. Native Mac still locked; no new native or human evidence."
+          ]
+        }
       },
       {
         "state_id": "S-FOOD-MAP-PANNED",
@@ -40669,16 +41621,16 @@
       },
       {
         "id": "D-FOOD-IMAGE-RENDER",
-        "revision_id": "FIGMA-FOOD-V2",
-        "status": "open",
+        "revision_id": "FIGMA-FOOD-PNG-REENTRY",
+        "status": "partially_resolved",
         "affected_state_ids": [
           "S-FOOD-HOURS",
           "S-FOOD-DETAIL"
         ],
         "original_behavior": "Native source and return screenshots contain venue artwork and public map images.",
-        "current_implementation": "Figma initially renders images. Nested Back to hours-list temporarily loses map/thumbnails; direct detail loses hero/map across repeated captures. Later viewport-changed captures recover images but final stable-tab direct entry loses them again.",
-        "impact": "Correct node navigation does not provide stable visual reproduction; overall Food visual acceptance fails.",
-        "next_step": "Investigate imported raster rendering and rerun exact nested/direct flows. Preserve original imagery; do not attribute failure to native PolyULife or assume a proven Figma engine cause.",
+        "current_implementation": "14 existing PNG image fills re-uploaded via UI, retaining same content hashes, scale and transforms. Two consecutive Tuesday Home nested Food circuits showed visible list/hours logos and map, detail hero/map, expanded image/map and return imagery.",
+        "impact": "Tested Tuesday sample imagery now renders; other callers, direct path, standalone, long-session stability and complete visual fidelity remain unverified.",
+        "next_step": "Validate remaining contexts during full Food reconstruction, add remaining observed states and lists; do not infer a proven root cause.",
         "evidence_ids": [
           "E-FIGMA-FOOD-HOURS",
           "E-FIGMA-FOOD-DETAIL",
@@ -40687,9 +41639,36 @@
           "E-FIGMA-FOOD-DETAIL-RESTORED",
           "E-FIGMA-FOOD-TRACE",
           "E-HOME-FEATURE-P-31",
-          "E-FOOD-STACK-TRACE"
+          "E-FOOD-STACK-TRACE",
+          "E-FOOD-PNG-TRACE"
         ],
-        "latest_recheck": "Food caller-stack batch: Monday image/map detours rendered; Tuesday and legacy repeat entry lost map/logos/hero. Tuesday hours return and final reload restored images without image changes. Navigation passed separately; cause and visual stability unverified."
+        "latest_recheck": "Two Tuesday circuits passed after image re-upload; previous missing-image captures retained.",
+        "implementation_history": [
+          {
+            "id": "D-FOOD-IMAGE-RENDER",
+            "revision_id": "FIGMA-FOOD-V2",
+            "status": "open",
+            "affected_state_ids": [
+              "S-FOOD-HOURS",
+              "S-FOOD-DETAIL"
+            ],
+            "original_behavior": "Native source and return screenshots contain venue artwork and public map images.",
+            "current_implementation": "Figma initially renders images. Nested Back to hours-list temporarily loses map/thumbnails; direct detail loses hero/map across repeated captures. Later viewport-changed captures recover images but final stable-tab direct entry loses them again.",
+            "impact": "Correct node navigation does not provide stable visual reproduction; overall Food visual acceptance fails.",
+            "next_step": "Investigate imported raster rendering and rerun exact nested/direct flows. Preserve original imagery; do not attribute failure to native PolyULife or assume a proven Figma engine cause.",
+            "evidence_ids": [
+              "E-FIGMA-FOOD-HOURS",
+              "E-FIGMA-FOOD-DETAIL",
+              "E-FIGMA-FOOD-LIST-MISSING",
+              "E-FIGMA-FOOD-DETAIL-MISSING",
+              "E-FIGMA-FOOD-DETAIL-RESTORED",
+              "E-FIGMA-FOOD-TRACE",
+              "E-HOME-FEATURE-P-31",
+              "E-FOOD-STACK-TRACE"
+            ],
+            "latest_recheck": "Food caller-stack batch: Monday image/map detours rendered; Tuesday and legacy repeat entry lost map/logos/hero. Tuesday hours return and final reload restored images without image changes. Navigation passed separately; cause and visual stability unverified."
+          }
+        ]
       },
       {
         "id": "D-FOOD-SOURCE-STATE-SAMPLING",
@@ -48750,6 +49729,349 @@
           "Standalone list and hours Back have no visible effect without a Home caller.",
           "Native Computer Use still reports Mac locked after user restoration report. No new native observation or human evaluation; complete application remains not_verified."
         ]
+      },
+      {
+        "id": "PROTO-FOOD-PNG-REENTRY-001",
+        "revision_id": "FIGMA-FOOD-PNG-REENTRY",
+        "started_at": "2026-09-29T00:47:26.634Z",
+        "ended_at": "2026-09-29T00:55:43.571Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1",
+        "start_node_id": "67:694",
+        "flow_name": "Food image reentry after PNG re-upload",
+        "status": "partial",
+        "navigation_status": "two_tuesday_nested_circuits_passed",
+        "visual_status": "observed_sample_imagery_visible_two_rounds_other_contexts_unverified",
+        "steps": [
+          {
+            "at": "2026-09-29T00:47:26.634Z",
+            "description": "Tuesday Home selected before consecutive Food image checks",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-01"
+            ],
+            "outcome": "recorded",
+            "file": "food-png-tue-top.png"
+          },
+          {
+            "at": "2026-09-29T00:47:37.476Z",
+            "description": "Tuesday Home features baseline for two returns",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-02"
+            ],
+            "outcome": "recorded",
+            "file": "food-png-home-baseline.png"
+          },
+          {
+            "at": "2026-09-29T00:47:49.942Z",
+            "description": "Round 1 Food list map and logos",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-03"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-list.png"
+          },
+          {
+            "at": "2026-09-29T00:48:02.121Z",
+            "description": "Round 1 expanded hours map and visible logos",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-04"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-hours.png"
+          },
+          {
+            "at": "2026-09-29T00:48:14.291Z",
+            "description": "Round 1 original detail hero and map",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-05"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-origin.png"
+          },
+          {
+            "at": "2026-09-29T00:48:27.184Z",
+            "description": "Round 1 tag opens Search",
+            "state_id": "S-FOOD-TAG-RESULT",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-06"
+            ],
+            "outcome": "recorded",
+            "file": "food-png-r1-search.png"
+          },
+          {
+            "at": "2026-09-29T00:48:37.848Z",
+            "description": "Round 1 repeated result detail hero and map",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-07"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-result.png"
+          },
+          {
+            "at": "2026-09-29T00:48:49.125Z",
+            "description": "Round 1 expanded venue artwork visible",
+            "state_id": "S-FOOD-IMAGE",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-08"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-image.png"
+          },
+          {
+            "at": "2026-09-29T00:48:59.760Z",
+            "description": "Round 1 image close retains detail imagery",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-09"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-image-return.png"
+          },
+          {
+            "at": "2026-09-29T00:49:13.423Z",
+            "description": "Round 1 expanded campus map visible",
+            "state_id": "S-FOOD-MAP",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-10"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-map.png"
+          },
+          {
+            "at": "2026-09-29T00:49:26.886Z",
+            "description": "Round 1 map Back retains result detail imagery",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-11"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-map-return.png"
+          },
+          {
+            "at": "2026-09-29T00:49:38.217Z",
+            "description": "Round 1 detail Back to Search",
+            "state_id": "S-FOOD-TAG-RESULT",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-12"
+            ],
+            "outcome": "recorded",
+            "file": "food-png-r1-search-return.png"
+          },
+          {
+            "at": "2026-09-29T00:49:51.575Z",
+            "description": "Round 1 Search Back to original detail with imagery",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-13"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-origin-return.png"
+          },
+          {
+            "at": "2026-09-29T00:50:02.912Z",
+            "description": "Round 1 hours-list return retains map and logos",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-14"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r1-hours-return.png"
+          },
+          {
+            "at": "2026-09-29T00:50:13.582Z",
+            "description": "Round 1 returns to original Tuesday Home",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-15"
+            ],
+            "outcome": "home_return_pixel_equal",
+            "file": "food-png-r1-home-return.png"
+          },
+          {
+            "at": "2026-09-29T00:50:31.835Z",
+            "description": "Round 2 repeated Food entry map and logos visible",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-16"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-list.png"
+          },
+          {
+            "at": "2026-09-29T00:50:45.991Z",
+            "description": "Round 2 expanded hours map and visible logos",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-17"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-hours.png"
+          },
+          {
+            "at": "2026-09-29T00:50:58.762Z",
+            "description": "Round 2 original detail hero and map",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-18"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-origin.png"
+          },
+          {
+            "at": "2026-09-29T00:51:09.231Z",
+            "description": "Round 2 tag Search",
+            "state_id": "S-FOOD-TAG-RESULT",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-19"
+            ],
+            "outcome": "recorded",
+            "file": "food-png-r2-search.png"
+          },
+          {
+            "at": "2026-09-29T00:51:24.602Z",
+            "description": "Round 2 result detail images visible",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-20"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-result.png"
+          },
+          {
+            "at": "2026-09-29T00:51:41.533Z",
+            "description": "Round 2 expanded image visible",
+            "state_id": "S-FOOD-IMAGE",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-21"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-image.png"
+          },
+          {
+            "at": "2026-09-29T00:51:55.035Z",
+            "description": "Round 2 image close retains detail imagery",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-22"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-image-return.png"
+          },
+          {
+            "at": "2026-09-29T00:52:08.275Z",
+            "description": "Round 2 expanded campus map visible",
+            "state_id": "S-FOOD-MAP",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-23"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-map.png"
+          },
+          {
+            "at": "2026-09-29T00:52:22.503Z",
+            "description": "Round 2 map Back retains detail images",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-24"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-map-return.png"
+          },
+          {
+            "at": "2026-09-29T00:52:34.098Z",
+            "description": "Round 2 detail Back to Search",
+            "state_id": "S-FOOD-TAG-RESULT",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-25"
+            ],
+            "outcome": "recorded",
+            "file": "food-png-r2-search-return.png"
+          },
+          {
+            "at": "2026-09-29T00:52:46.125Z",
+            "description": "Round 2 Search Back retains original detail images",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-26"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-origin-return.png"
+          },
+          {
+            "at": "2026-09-29T00:53:04.117Z",
+            "description": "Round 2 final hours-list retains map and visible logos",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-27"
+            ],
+            "outcome": "observed_imagery_visible",
+            "file": "food-png-r2-hours-return.png"
+          },
+          {
+            "at": "2026-09-29T00:53:19.559Z",
+            "description": "Round 2 returns to original Tuesday Home",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-28"
+            ],
+            "outcome": "home_return_pixel_equal",
+            "file": "food-png-r2-home-return.png"
+          },
+          {
+            "at": "2026-09-29T00:55:43.571Z",
+            "description": "Reloaded Tuesday Home with updated image verification scope; no extra Food circuit",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-FOOD-PNG-P-29"
+            ],
+            "outcome": "recorded",
+            "file": "food-png-description-readback.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-FOOD-PNG-P-01",
+          "E-FOOD-PNG-P-02",
+          "E-FOOD-PNG-P-03",
+          "E-FOOD-PNG-P-04",
+          "E-FOOD-PNG-P-05",
+          "E-FOOD-PNG-P-06",
+          "E-FOOD-PNG-P-07",
+          "E-FOOD-PNG-P-08",
+          "E-FOOD-PNG-P-09",
+          "E-FOOD-PNG-P-10",
+          "E-FOOD-PNG-P-11",
+          "E-FOOD-PNG-P-12",
+          "E-FOOD-PNG-P-13",
+          "E-FOOD-PNG-P-14",
+          "E-FOOD-PNG-P-15",
+          "E-FOOD-PNG-P-16",
+          "E-FOOD-PNG-P-17",
+          "E-FOOD-PNG-P-18",
+          "E-FOOD-PNG-P-19",
+          "E-FOOD-PNG-P-20",
+          "E-FOOD-PNG-P-21",
+          "E-FOOD-PNG-P-22",
+          "E-FOOD-PNG-P-23",
+          "E-FOOD-PNG-P-24",
+          "E-FOOD-PNG-P-25",
+          "E-FOOD-PNG-P-26",
+          "E-FOOD-PNG-P-27",
+          "E-FOOD-PNG-P-28",
+          "E-FOOD-PNG-P-29",
+          "E-FOOD-PNG-TRACE"
+        ],
+        "limitations": [
+          "14 existing fills across five playable Food frames; same image content/scale/transform. No added navigation.",
+          "Two consecutive Tuesday Home nested sample circuits only. Monday/legacy, direct unexpanded-list detail, standalone entry and long-session stability were not retested after replacement.",
+          "Hours frame fourth logo extends below the existing frame boundary; fill configuration updated but full runtime visibility not established. Panned map remains an unwired reference and was not modified.",
+          "Image thumbnail/color-management fields changed after PNG upload; no experiment isolates a root cause. Full visual fidelity remains unverified.",
+          "Standalone Food/Map/Room exits, full Food lists/venues/tags/maps and broader application remain incomplete. Native Mac still locked; no new native or human evidence."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -48829,7 +50151,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "76 mapped frames / 2 internal states / 193 configured controls / 2 vertical scroll regions. Food sample nested navigation now preserves three tested Home callers. Image instability and standalone Map/Room/Food exits remain open; full scope incomplete.",
+    "verification_summary": "76 mapped frames / 2 internal states / 193 configured controls / 2 vertical scroll regions. Food sample callers preserved. Fourteen Food fills re-uploaded; two consecutive Tuesday nested circuits rendered expected visible imagery. Other image contexts, standalone exits and full scope remain incomplete.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -49239,7 +50561,8 @@
       "map_caller_returns": "tuesday_ten_outer_exits_monday_legacy_nested_bookstores_passed_standalone_failed",
       "map_png_reentry": "eight_filtered_states_two_monday_circuits_visible_other_contexts_unverified",
       "room_caller_returns": "monday_legacy_loops_and_four_tuesday_exits_passed_standalone_failed",
-      "food_caller_returns": "three_home_returns_pixel_equal_nested_stack_passed_standalone_failed_images_unstable"
+      "food_caller_returns": "three_home_returns_pixel_equal_nested_stack_passed_standalone_failed_images_unstable",
+      "food_image_reentry": "two_tuesday_nested_circuits_visible_after_14_png_reuploads_other_contexts_unverified"
     },
     "additional_imports": [
       {
@@ -50264,7 +51587,7 @@
         "scope": "Reference for the captured Tuesday AG206 Available sample. Use Home -> Room -> key A -> AG206 -> Available for tested caller-preserving navigation. This standalone starting point has no Home caller; Close overlay is not an accepted exit here. Dates, arbitrary text input, Preview, slot interactions and full list coverage remain incomplete. Available-to-All uses an inferred same-date sample and is not the separately observed Sunday action. Agent replay is not native or human testing."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-29T00:31:21.683Z",
+    "latest_prototype_run_cutoff": "2026-09-29T00:55:43.571Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -50287,9 +51610,9 @@
       "boundary": "Flow 1 resolved to current Available node12:105, not the archived original draft. Naming verification does not create a new navigation run."
     },
     "latest_context_evidence_ids": [
-      "E-FOOD-STACK-P-39"
+      "E-FOOD-PNG-P-29"
     ],
-    "latest_context_verified_at": "2026-09-29T00:31:21.683Z",
+    "latest_context_verified_at": "2026-09-29T00:55:43.571Z",
     "component_state_mappings": [
       {
         "state_id": "S-PRIVACY-NO-COOKIE",

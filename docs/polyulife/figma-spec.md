@@ -461,3 +461,5 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 后续：[Room返回栈](room-return-prototype-walkthrough.md)更新8个控件、补3个外层出口，三个Home来源的既有样例返回通过；独立Room退出和未实现交互仍保留。
 
 后续：[Food返回栈](food-return-prototype-walkthrough.md)更新15个控件、补1个外层出口，三个Home来源的既有样例返回通过；图片不稳定、独立Food退出和完整范围仍未完成。
+
+后续：[Food图片重新上传与复测](food-image-repair-walkthrough.md)更新14项填充，连续两轮Tuesday深层路径所见图片可见。图片问题部分解决，其它上下文和完整范围仍待验证。

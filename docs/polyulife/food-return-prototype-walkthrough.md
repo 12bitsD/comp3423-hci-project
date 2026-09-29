@@ -67,3 +67,5 @@ Monday 图片、地图可见；Tuesday 和 legacy 重复进入出现地图、log
 | Standalone opening hours still expands | recorded; Map and logos blank | [E-FOOD-STACK-P-37](../../evidence/2026-09-28-full-audit/food-stack-standalone-hours.png) |
 | Standalone hours Back has no visible effect; expanded hours remain, no Home caller | failed_no_home_caller; Map and logos blank | [E-FOOD-STACK-P-38](../../evidence/2026-09-28-full-audit/food-stack-standalone-hours-back-list.png) |
 | Reloaded standalone Food with updated scope description, not a navigation test | recorded | [E-FOOD-STACK-P-39](../../evidence/2026-09-28-full-audit/food-stack-description-readback.png) |
+
+后续：[Food图片重新上传与复测](food-image-repair-walkthrough.md)更新14项填充，连续两轮Tuesday深层路径所见图片可见。图片问题部分解决，其它上下文和完整范围仍待验证。
