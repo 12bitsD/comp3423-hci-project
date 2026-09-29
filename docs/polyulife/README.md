@@ -27,9 +27,9 @@
 
 - [Study progress、My Courses、主 Map、QR 与 Home](home-study-map-walkthrough.md)：长名称展开/收起、Requirements公开目录、Canvas/Blackboard和空登录页返回、六个地图类别及多选/设施详情/返回、饮水站列表滚动、QR显示与Home返回、Home日期/My Class周历及选择器尝试。个人课程和日程不公开；二维码与身份整块遮盖。
 
-Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。Home的Notification、Calendar、Search、Menu及各自返回已补测；底部Calendar实际落在Week5。当前83个画板已登记Figma映射（另保留旧菜单裁片等历史源码），个人课程和日程使用明确的DEMO资料，二维码不可扫描。
+Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。Home的Notification、Calendar、Search、Menu及各自返回已补测；底部Calendar实际落在Week5。当前86个画板已登记Figma映射（另保留旧菜单裁片等历史源码），个人课程和日程使用明确的DEMO资料，二维码不可扫描。
 
-共享证据累计796张实际截图/脱敏裁片，文件哈希和尺寸已校验；私人原始图不提交。截图数量不作为覆盖率或成功率。
+共享证据累计820张实际截图/脱敏裁片，文件哈希和尺寸已校验；私人原始图不提交。截图数量不作为覆盖率或成功率。
 
 真实 [Figma Design 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)已新增 `01 · Observed UI`：四张 576×970 Room SVG 设计源码已导入为原生可编辑图层，并建立[当前 Room 样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1)。独立标签页已复验 **A 样例 → AG206 → Available → ALL** 四步。旧草稿已置于 `00 · Archive — initial AI draft`（原 `Page 1`），其三条旧连接记录保留为历史。
 
@@ -41,7 +41,7 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 
 [Food 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=50-1911&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A1911&show-proto-sidebar=1)的 **11个连接控件**已实测导航，包括图片/搜索/详情/地图四个按历史返回的Back。详情→搜索→原详情→营业时间列表的栈已复现；直接详情入口和返回也已独立复测。列表/详情的图片仍出现重复缺失与恢复，因此 **Food导航样例通过、整体视觉未通过**。未展开列表的原生详情入口及加载态差异保持待核实，地图平移帧尚未接入。
 
-截至Room Preview批次，`01 · Observed UI` 当前映射 **83个Frame、3个画板内组件状态、210个配置控件，另有3个垂直滚动区域**；其中连续滚动批次复制的10个功能入口实例已逐一回放，五个模块初始页Back已补接并验证Monday/Tuesday直接返回；Study/Courses既有内部路径现已验证保留三个Home来源，Map既有样例内部绕行也已验证；Room/Food内部绕行及未实现分支仍待完成；新增菜单15个控件已回放，导航通过、视觉仍有缺口。Home/Study/Courses/QR此前22个连接样例已实跑；后补原生证据发现Home Calendar原先目标不符，现已改为Week5 DEMO，并验证Calendar往返两步，新增一个返回控件。Apps/Courses的中文缺字已修复并定向复验。Home装饰图仍有消失/恢复，VA和Food的缺图问题也保持open，不能称整体视觉通过。
+截至Room Sunday批次，`01 · Observed UI` 当前映射 **86个Frame、3个画板内组件状态、217个配置控件，另有4个垂直和1个水平滚动区域**；其中连续滚动批次复制的10个功能入口实例已逐一回放，五个模块初始页Back已补接并验证Monday/Tuesday直接返回；Study/Courses既有内部路径现已验证保留三个Home来源，Map既有样例内部绕行也已验证；Room/Food内部绕行及未实现分支仍待完成；新增菜单15个控件已回放，导航通过、视觉仍有缺口。Home/Study/Courses/QR此前22个连接样例已实跑；后补原生证据发现Home Calendar原先目标不符，现已改为Week5 DEMO，并验证Calendar往返两步，新增一个返回控件。Apps/Courses的中文缺字已修复并定向复验。Home装饰图仍有消失/恢复，VA和Food的缺图问题也保持open，不能称整体视觉通过。
 
 [Home日期与返回](home-date-prototype-walkthrough.md)已验证Monday→Tuesday，以及My Class、Calendar、Menu、Search、Notification往返保留周二；既有功能区Calendar/Search返回已回归通过。Week/Notification Home当前使用Back，只覆盖实测Home来源，其它来源与直接起点行为未实现。[Home连续滚动](home-scroll-prototype-walkthrough.md)已在Monday/Tuesday两页实现并回放日期区与功能区之间的移动、中间位置和反向滚动；原生完整滚动边界未验证，范围由两段样例推导。[Apps返回栈](apps-return-prototype-walkthrough.md)已将分类改成同层切换，详情与登录逐层关闭；Tuesday完整分类/VRS链、Monday七个分类状态各自Back及历史Home往返均保留来源与滚动位置。[可见分类互跳](apps-category-prototype-walkthrough.md)已新增并实跑33个连接，VRS与Monday原滚动位置回归通过；完整分类条滚动、原生来源组合行为与独立Apps起点退出仍未完成；七个新增分类Back为基于已观察Apps返回行为的原型推广，未新增原生验证。Apps加载、Food平移地图及Home其它日期仍未运行；搜索输入/结果等内部控件仍待查。菜单已使用完整DEMO抽屉，紧急提示背景等仍有缺口，个人页面使用合成资料；具体边界见 [Figma节点与验证记录](figma-spec.md)。自由输入、其它日期、清空、Preview、地图、滚动及其余状态尚未全部连接，不能称Room或全应用完成。Agents免费每日额度用尽后没有付费；普通SVG导入和手动连线继续可用，总页数控制在三页以内。
 
@@ -120,3 +120,5 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 [Food H Café原型](food-hcafe-prototype-walkthrough.md)：新增4个已观察视口、11个控件。修复提示框内部误关闭，四侧遮罩关闭及三种Tuesday Home返回已复测；连续列表、其它来源、收起与外站Open未完成。
 
 [Room Preview原型](room-preview-prototype-walkthrough.md)：新增3个Frame、1个照片组件状态、6个控件和1个竖向滚动区域。菜单取消、照片Next、四次Available及Tuesday Home返回已验证；完整网页、原生重开语义和完整视觉验收未完成。
+
+[Room Sunday原型](room-sunday-prototype-walkthrough.md)：新增3个Frame、7个控件，Available日期条及Sunday ALL列表可连续滚动。过渡/空态/ALL与三个推断出口通过Tuesday来源样例回放，完整日期和列表边界、地图及查询仍未完成。9项像素比较中7项相等，2项日期基线差异保留。

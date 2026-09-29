@@ -471,3 +471,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Room Preview增量
 
 [实现与回放](room-preview-prototype-walkthrough.md)新增3个Frame、1个内部组件状态、6个控件及1个竖向滚动区域；累计83个映射Frame、3个组件状态、210个配置控件和3个竖向滚动区域。观察范围内网页/照片切换、菜单取消与Tuesday返回通过样例回放，原生重开规则、完整网页和全应用覆盖仍未验证。
+
+## Room日期与Sunday增量
+
+[实现与回放](room-sunday-prototype-walkthrough.md)新增3个Frame、7个连接，Available日期条改为水平滚动，Sunday ALL有已观察范围内连续竖向滚动。累计86个映射Frame、217个配置控件、4个垂直和1个水平滚动区域。过渡延时仅演示，三个出口及反向筛选为原型推断；完整日期、列表、地图与查询仍未完成。
