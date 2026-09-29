@@ -128,3 +128,5 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 [三个地图画面及剩余连接/回放步骤](room-map-work-in-progress.md)已保存，尚未计入正式覆盖统计；没有新增原生观察或回放通过记录。
 
 [2026-09-29 Room原生补查](room-recheck-20260929.md)：新增16张公开截图，确认地图返回的列表位置、无匹配查询及清空/再搜索反馈。地图WIP现有六个连接，Present仍未通过。最新原生124状态/265动作（181 observed、84 not_attempted），正式Figma统计不变。
+
+[Room查询源码准备](room-query-source-preparation.md)：新增五个有原生截图依据的可编辑SVG及本地渲染对照，尚未导入Figma；正式覆盖统计不变。

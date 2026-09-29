@@ -1,0 +1,87 @@
+{
+  "status": "source_only_not_imported",
+  "frames": [
+    {
+      "file": "room-query-ag206-suggestion.svg",
+      "state_id": "S-ROOM-QUERY-AG206",
+      "figma_node_id": null,
+      "status": "source_only_not_imported",
+      "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-02-query-filled.png",
+      "source_evidence_sha256": "efe2ad397f5579e0bd43e8fb971cfe6051b5f02352ad732a1c557494a21343b3",
+      "sha256": "571c835e8ab3a3fa3b077eadeb2c4f59042ec29b0532a85c85c9596263ff5716",
+      "dimensions": [
+        576,
+        970
+      ]
+    },
+    {
+      "file": "room-query-dirty-results.svg",
+      "state_id": "S-ROOM-QUERY-DIRTY",
+      "figma_node_id": null,
+      "status": "source_only_not_imported",
+      "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-12-unmatched-query.png",
+      "source_evidence_sha256": "8616b107d3a480613a044aa2c89daf96cc707b439ca748c591fa8cb987f7c52b",
+      "sha256": "7e7dfe1718186000764417b2b04f6fa290121216db2f8b8ff469d6b6b4df732d",
+      "dimensions": [
+        576,
+        970
+      ]
+    },
+    {
+      "file": "room-query-no-result.svg",
+      "state_id": "S-ROOM-QUERY-NONE",
+      "figma_node_id": null,
+      "status": "source_only_not_imported",
+      "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-13-unmatched-search.png",
+      "source_evidence_sha256": "0af2c59f17539d9595eb36cdbbb83b2f74732d0e20678d51b3f1d68be575f028",
+      "sha256": "87ead7dca21eb1afd22021dd8a7ab2189811e18030f081c97cf74ffe7b5d9b20",
+      "dimensions": [
+        576,
+        970
+      ]
+    },
+    {
+      "file": "room-query-cleared-stale.svg",
+      "state_id": "S-CLEARED",
+      "figma_node_id": null,
+      "status": "source_only_not_imported",
+      "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-15-cleared-stale-empty.png",
+      "source_evidence_sha256": "6c8a97806fc0b68781a9c6002d91aee8eac4fc27c4ace479b81f0d7f2552931c",
+      "sha256": "c67631183980eebeac191cacf84919f0a5e0bf162faeef1f9a9a6eca7af26418",
+      "dimensions": [
+        576,
+        970
+      ]
+    },
+    {
+      "file": "room-query-empty-sunday.svg",
+      "state_id": "S-EMPTYQUERY",
+      "figma_node_id": null,
+      "status": "source_only_not_imported",
+      "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-16-empty-search.png",
+      "source_evidence_sha256": "74d2d49e9783c4c30516e3f45ba1aba7f27fce8381e4cca020c4f62399d339c3",
+      "sha256": "a6821dc8bd44c035b783015fde6904ae49fb5042bd0157564b1feda3e9eb8426",
+      "dimensions": [
+        576,
+        970
+      ]
+    }
+  ],
+  "native_reference": "docs/polyulife/room-recheck-20260929.json",
+  "remaining": [
+    "Import via Figma UI and verify native layers",
+    "Connect observed query/clear/search transitions with explicit input limitations",
+    "Replay from correct date context",
+    "Compare rendered geometry and text against native evidence"
+  ],
+  "local_render_review": {
+    "renderer": "resvg-py0.5.0; local system fonts",
+    "comparison_path": "assets/room-query-source-comparison.png",
+    "sha256": "5ec5a0aeddd8a6e8fed743d76ad3188ceedaf1fe120d6fd3c15472ba7bf511d1",
+    "dimensions": [
+      1440,
+      1010
+    ],
+    "result": "Five sources render; titles, selected dates, query/clear/result distinctions and list offset visually checked side by side. Font weight/metrics, exact icon shapes and scrollbar remain deviations. Not a Figma render or prototype test."
+  }
+}

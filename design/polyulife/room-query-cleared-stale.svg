@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="970" viewBox="0 0 576 970" fill="none">
+  <title>Room query — cleared-stale</title>
+  <desc>Editable source from native room-recheck-15-cleared-stale-empty.png. Fixed observed date and input; not yet imported into Figma. Fonts and icons approximate. Cursor and macOS input fringe omitted. No live availability, free input, delay or unobserved query behavior is implemented. Dirty-results uses a fixed observed list offset; true list end and scrollbar fidelity unverified.</desc>
+  <defs>
+    <clipPath id="DatesViewport">
+      <rect x="30" y="100" width="516" height="84" />
+    </clipPath>
+  </defs>
+  <rect id="ScreenBackground" width="576" height="970" fill="#FFFFFF" />
+  <rect id="EmptyBackground" x="0" y="272" width="576" height="698" fill="#F4F4F4" />
+  <g id="Header">
+    <rect x="0.5" y="0.5" width="575" height="99" fill="#FFFFFF" stroke="#E1E1E1" />
+    <path id="Back" d="M34.5 57.5L27 65L34.5 72.5" stroke="#202020" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="288" y="75.5" fill="#080808" font-family="sans-serif" font-size="27" text-anchor="middle">Room Finder</text>
+  </g>
+  <g id="DatesObserved20260929" clip-path="url(#DatesViewport)"><g id="Date-Today"><rect x="-110" y="112" width="80" height="67" rx="9" fill="#FFFFFF" /><text x="-70" y="140" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">Today</text><text x="-70" y="163" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">29-Sep</text></g><g id="Date-Wed"><rect x="-17" y="112" width="80" height="67" rx="9" fill="#FFFFFF" /><text x="23" y="140" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">Wed</text><text x="23" y="163" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">30-Sep</text></g><g id="Date-Thu"><rect x="77" y="112" width="80" height="67" rx="9" fill="#FFFFFF" /><text x="117" y="140" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">Thu</text><text x="117" y="163" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">01-Oct</text></g><g id="Date-Fri"><rect x="170" y="112" width="80" height="67" rx="9" fill="#FFFFFF" /><text x="210" y="140" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">Fri</text><text x="210" y="163" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">02-Oct</text></g><g id="Date-Sat"><rect x="263" y="112" width="80" height="67" rx="9" fill="#FFFFFF" /><text x="303" y="140" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">Sat</text><text x="303" y="163" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">03-Oct</text></g><g id="Date-Sun"><rect x="357" y="112" width="80" height="67" rx="9" fill="#54B39F" /><text x="397" y="140" fill="#FFFFFF" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="600">Sun</text><text x="397" y="163" fill="#FFFFFF" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="600">04-Oct</text></g><g id="Date-Mon"><rect x="450" y="112" width="80" height="67" rx="9" fill="#FFFFFF" /><text x="490" y="140" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">Mon</text><text x="490" y="163" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">05-Oct</text></g></g><g id="Search">
+    <text x="31" y="228" fill="#090909" font-family="sans-serif" font-size="22">Room</text>
+    <rect id="RoomInput" x="105.5" y="192" width="348" height="63" rx="9" fill="#FFFFFF" stroke="#DCDCDC" stroke-width="1.5" />
+    <g id="SearchButton">
+      <rect x="477" y="191.5" width="69" height="64" rx="10" fill="#54B39F" />
+      <circle cx="509.5" cy="221.5" r="9" stroke="#FFFFFF" stroke-width="3.5" />
+      <path d="M516.1 228.1L522.2 234.2" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+    <path d="M0 271.5H576" stroke="#D5D5DA" stroke-width="1.4" />
+  <g id="ClearInput"><rect x="402" y="201" width="44" height="44" fill="#FFFFFF" fill-opacity="0.001" /><path d="M416 216L432 232M432 216L416 232" stroke="#9CAFB9" stroke-width="3" /></g><path id="ObservedCaret" d="M122 207V239" stroke="#1684EC" stroke-width="2" /></g>
+  <g id="NoRoomFound"><path d="M270 411L306 447M306 411L270 447" stroke="#319987" stroke-width="9" stroke-linecap="round" /><text x="288" y="498" fill="#575757" font-family="sans-serif" font-size="25" text-anchor="middle" font-weight="600">No room found</text><text x="288" y="530" fill="#9CAFB9" font-family="sans-serif" font-size="23" text-anchor="middle" font-weight="500">Please search another room.</text></g></svg>
