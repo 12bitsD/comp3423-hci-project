@@ -1,0 +1,225 @@
+{
+  "revision": "FIGMA-ROOM-CALLER-STACK",
+  "edits": [
+    {
+      "source": "67:569",
+      "trigger": "113:64",
+      "event": "On click",
+      "action": "Open overlay",
+      "target": "12:198",
+      "new_control": false,
+      "ui_readback": []
+    },
+    {
+      "source": "67:694",
+      "trigger": "113:19",
+      "action": "Open overlay",
+      "target": "12:198",
+      "new_control": false,
+      "ui_readback": [
+        "291 combo box (collapsed) Trigger, Value: On click, ID: :r8f:, Secondary Actions: Expand",
+        "297 combo box (collapsed) Action, Value: Open overlay, ID: :r8i:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Destination, Value: [S-EMPTYQUERY] Room — Empty, ID: :r8m:, Secondary Actions: Expand",
+        "353 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r97:",
+        "354 checkbox (settable, integer) Description: Background, Value: 0, ID: :r98:",
+        "The focused UI element is 297 combo box (collapsed) Action, Value: Open overlay, ID: :r8i:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:820",
+      "trigger": "67:878",
+      "action": "Open overlay",
+      "target": "12:198",
+      "new_control": false,
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8f:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Open overlay, ID: :r8i:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-EMPTYQUERY] Room — Empty, ID: :r8m:, Secondary Actions: Expand",
+        "318 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r97:",
+        "319 checkbox (settable, integer) Description: Background, Value: 0, ID: :r98:",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Open overlay, ID: :r8i:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "12:198",
+      "trigger": "12:198",
+      "action": "Swap overlay",
+      "target": "12:380",
+      "new_control": false,
+      "ui_readback": [
+        "306 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r87:, Secondary Actions: Expand",
+        "313 combo box (collapsed) Action, Value: Swap overlay, ID: :r8a:, Secondary Actions: Expand",
+        "318 combo box (collapsed) Destination, Value: [S-SUGGESTION] Room — Suggestion, ID: :r8e:, Secondary Actions: Expand",
+        "The focused UI element is 313 combo box (collapsed) Action, Value: Swap overlay, ID: :r8a:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "12:380",
+      "trigger": "12:421",
+      "action": "Swap overlay",
+      "target": "12:243",
+      "new_control": false,
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8c:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Swap overlay, ID: :r8f:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-ALL] Room — All, ID: :r8j:, Secondary Actions: Expand",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Swap overlay, ID: :r8f:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "12:243",
+      "trigger": "12:301",
+      "action": "Swap overlay",
+      "target": "12:105",
+      "new_control": false,
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8c:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Swap overlay, ID: :r8f:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-AVAILABLE] Room — Available, ID: :r8j:, Secondary Actions: Expand",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Swap overlay, ID: :r8f:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "12:105",
+      "trigger": "12:160",
+      "action": "Swap overlay",
+      "target": "12:243",
+      "new_control": false,
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8c:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Swap overlay, ID: :r8f:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-ALL] Room — All, ID: :r8j:, Secondary Actions: Expand",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Swap overlay, ID: :r8f:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "12:198",
+      "trigger": "12:203",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": false,
+      "ui_readback": [
+        "297 combo box (collapsed) Trigger, Value: On click, ID: :r87:, Secondary Actions: Expand",
+        "303 combo box (collapsed) Action, Value: Close overlay, ID: :r8a:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8a:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "12:380",
+      "trigger": "12:385",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": true,
+      "ui_readback": [
+        "349 combo box (collapsed) Trigger, Value: On click, ID: :rar:, Secondary Actions: Expand",
+        "355 combo box (collapsed) Action, Value: Close overlay, ID: :rau:, Secondary Actions: Expand",
+        "The focused UI element is 355 combo box (collapsed) Action, Value: Close overlay, ID: :rau:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "12:243",
+      "trigger": "12:247",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": true,
+      "ui_readback": [
+        "325 combo box (collapsed) Trigger, Value: On click, ID: :rad:, Secondary Actions: Expand",
+        "331 combo box (collapsed) Action, Value: Close overlay, ID: :rag:, Secondary Actions: Expand",
+        "The focused UI element is 331 combo box (collapsed) Action, Value: Close overlay, ID: :rag:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "12:105",
+      "trigger": "12:109",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": true,
+      "ui_readback": [
+        "313 combo box (collapsed) Trigger, Value: On click, ID: :rac:, Secondary Actions: Expand",
+        "319 combo box (collapsed) Action, Value: Close overlay, ID: :raf:, Secondary Actions: Expand",
+        "The focused UI element is 319 combo box (collapsed) Action, Value: Close overlay, ID: :raf:, Secondary Actions: Expand"
+      ]
+    }
+  ],
+  "flow_descriptions": {
+    "12:198": "For tested Home returns, start Home and open Room. Existing sample: press A with canvas focused, choose AG206, toggle All/Available. From Monday and legacy Home the full sample loop returns to its caller; all four Room outer exits tested from Tuesday. Three new exits are prototype generalizations awaiting exact native checks. Direct Room start has no Home caller: Available Back does nothing. Date/data are fixed Tuesday samples; free input, clear/search, other dates, Preview, full result scrolling and native boundaries remain incomplete. The Tuesday Available-to-All connection must not be treated as the observed Sunday action. Agent replay is not native observation or human testing.",
+    "12:105": "Reference for the captured Tuesday AG206 Available sample. Use Home -> Room -> key A -> AG206 -> Available for tested caller-preserving navigation. This standalone starting point has no Home caller; Close overlay is not an accepted exit here. Dates, arbitrary text input, Preview, slot interactions and full list coverage remain incomplete. Available-to-All uses an inferred same-date sample and is not the separately observed Sunday action. Agent replay is not native or human testing.",
+    "67:569": "Observed Monday / Tuesday Home sample with continuous scrolling and synthetic DEMO agenda. Study/Courses, Map and Room existing sample detours preserve tested Home callers and scroll. Room full sample loop tested from Monday and legacy; four outer exits tested from Tuesday. Exact new middle-state Back behavior remains inferred. Room dates/input are fixed samples, with Preview and full results incomplete. Eight map image fills were re-uploaded; two consecutive Monday circuits showed all eight maps. Other image contexts and long-session stability remain unverified. Standalone Map/Room exits and Food deeper detours remain incomplete. Lists, search, other services, Home dates/cards/week picker/sheet and Study blank remain incomplete. Agent replay adds no native observations and is not human evaluation.",
+    "67:820": "Observed reconstruction with synthetic DEMO coursework, schedules and identity; QR is non-scannable. Study/Courses, Map and Room sample detours preserve tested Home callers. Room key A -> AG206 -> Available -> All -> Back was replayed from legacy and Monday; all four outer exits from Tuesday. New Room middle-state exits are inferred, and dates/input/Preview/full results remain incomplete. Eight map image fills passed two Monday circuits; other image contexts remain unverified. Standalone Map/Room exits, Food deeper detours, Home dates/cards/week picker/sheet, lists, reverse tabs, search, login submission, bookings and unobserved links remain incomplete. Study blank is an independent unresolved reference. Agent replay is separate from native observation and human testing."
+  },
+  "pixel_comparisons": [
+    {
+      "file": "room-stack-mon-full-home-return.jpg",
+      "baseline": "room-stack-mon-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "room-stack-tue-empty-home-return.jpg",
+      "baseline": "room-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "room-stack-tue-suggest-home-return.jpg",
+      "baseline": "room-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "room-stack-tue-all-home-return.jpg",
+      "baseline": "room-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "room-stack-tue-available-home-return.jpg",
+      "baseline": "room-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "file": "room-stack-legacy-full-home-return.jpg",
+      "baseline": "room-stack-legacy-ready-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    }
+  ],
+  "limitations": [
+    "Only four existing Room sample states and fixed A -> AG206 input; no free text, other dates, Preview or full result list.",
+    "Three new outer exits are prototype generalizations of observed Room -> Home, not independently native-observed source states.",
+    "Tuesday Available -> All had been associated with a Sunday action; current mapping now action_id=null and explicitly inferred. Historical mapping retained.",
+    "Standalone Available Back does nothing. Direct Room startup is a reference; use Home flow for caller-preserving exit.",
+    "Food detours and broader full application/visual coverage remain incomplete. Mac locked; no new native evidence or human evaluation."
+  ]
+}

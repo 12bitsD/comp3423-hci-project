@@ -10,13 +10,16 @@
 
 **iPhone App on Apple Silicon Mac → Computer Use 连接真实窗口 → 观察画面/控件 → 执行动作并确认反馈。**
 
-无需先搭建 Xcode 或 iOS Simulator。本次已验证的是安装、运行和首页 AX 读取；PolyULife 窗口截图、Room 查询的“点击 → 反馈 → 返回”闭环尚待实测。用户已确认接入链路可用，后续分析仍逐项记录实测结果。
+无需先搭建 Xcode 或 iOS Simulator。现已取得真实窗口截图，并走通 Room 查询、筛选、Preview、教室地图和返回首页的流程；More 中的恶劣天气详情及网页入口也已有取证。全部功能的覆盖与边界检查仍在进行，详见 [观察台账](docs/polyulife/README.md)。
+
+已建立 [PolyULife Figma 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)，正在依照实测截图制作原应用复现。文件存在不代表全应用复现完成；可编辑节点、交互连线和 Present 运行结果逐项登记于台账。
 
 ## 从哪里开始
 
 | 内容 | 入口 |
 | --- | --- |
 | 课程交付、截止时间与待确认事项 | [项目简述](docs/project-brief.md) |
+| 全应用观察覆盖、真实截图与 Figma 复现进度 | [PolyULife 观察台账](docs/polyulife/README.md) |
 | 选题和工具路线的决策记录 | [决策记录](docs/decisions.md) |
 | 为什么选 Mac 路线、备选方案和下一轮验收 | [接入研究](docs/research/ios-computer-use.md) |
 | 可复用的应用操作与 HCI 分析流程 | [PolyULife skill](.agents/skills/polyulife-ui-analysis/SKILL.md) |

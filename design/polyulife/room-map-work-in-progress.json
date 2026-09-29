@@ -1,0 +1,82 @@
+{
+  "status": "work_in_progress_not_replayed",
+  "recorded_at": "2026-09-29T03:11:16.131005+00:00",
+  "frames": [
+    {
+      "file": "room-map-initial.svg",
+      "name": "[S-MAP] AG206 — observed map",
+      "node": "338:19",
+      "x": 0,
+      "y": 36000
+    },
+    {
+      "file": "room-map-zoomed.svg",
+      "name": "[S-MAPZOOM] AG206 — observed zoom in",
+      "node": "339:30",
+      "x": 700,
+      "y": 36000
+    },
+    {
+      "file": "room-map-out.svg",
+      "name": "[S-MAPOUT] AG206 — observed zoom out",
+      "node": "339:41",
+      "x": 1400,
+      "y": 36000
+    }
+  ],
+  "configured_controls": [
+    {
+      "source": "339:41",
+      "trigger": "339:47",
+      "name": "Back",
+      "event": "On click",
+      "behavior": "Close overlay",
+      "target": null,
+      "action_id": "A-ROOM-MAP-BACK"
+    },
+    {
+      "source": "339:30",
+      "trigger": "339:36",
+      "name": "Back",
+      "event": "On click",
+      "behavior": "Close overlay",
+      "target": null,
+      "action_id": null
+    },
+    {
+      "source": "339:30",
+      "trigger": "339:30",
+      "name": "Observed zoom decrement",
+      "event": "Key (↓)",
+      "behavior": "Swap overlay",
+      "target": "339:41",
+      "action_id": "A-ROOM-MAP-DECREMENT",
+      "input_proxy": "ArrowDown substitutes native AX Slider Decrement; not observed native keyboard behavior"
+    }
+  ],
+  "pending": [
+    "Initial map Back close overlay",
+    "Initial map ArrowUp swap to 339:30; native AX Increment input proxy",
+    "Sunday ALL 327:202 Location open overlay 338:19",
+    "Remove auto-created Flow 3 after inbound wiring",
+    "Initial map fill upload attempt did not complete; inspect image in actual Present before deciding whether retry is needed",
+    "Replay Sunday scrolled list → map → zoom in → zoom out → Sunday ALL → Home",
+    "Archive replay evidence and integrate verified mappings into coverage.json"
+  ],
+  "editor_evidence": {
+    "path": "assets/room-map-editor-checkpoint.png",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "sha256": "05c37fa290f2e15837ea7f246bf593d9ec63e870225111a123b79fbe5bf7f796",
+    "redaction": "Editor avatar area [1000,0,1121,50) masked; screenshot is an editor configuration checkpoint, not a prototype run."
+  },
+  "canonical_coverage_unchanged": true,
+  "limitations": [
+    "Raster geography and captured cursor retained",
+    "No free pan, live data, exact native slider, Google Maps handoff or zoom limits",
+    "ArrowDown is a prototype proxy; native keyboard support not observed",
+    "Browser click targeting inconsistent with observed state; layer selection and file chooser attempts failed; fresh background tab permits configuration readback but full replay not completed"
+  ]
+}

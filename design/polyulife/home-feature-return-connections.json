@@ -1,0 +1,155 @@
+{
+  "revision": "FIGMA-HOME-FEATURE-RETURN",
+  "edits": [
+    {
+      "source": "67:271",
+      "trigger": "67:351",
+      "action": "Back",
+      "readback": ":\n  - generic: Interaction\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Back\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "67:2",
+      "trigger": "67:62",
+      "action": "Back",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Back\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "50:1911",
+      "trigger": "50:2010",
+      "action": "Back",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 9 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Back\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "70:1064",
+      "trigger": "70:1091",
+      "action": "Back",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Back\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "12:198",
+      "trigger": "12:203",
+      "action": "Back",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 10 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\" [active]:\n    - generic: Back\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    }
+  ],
+  "flow_description": "Observed Monday / Tuesday Home sample with continuous scrolling and synthetic DEMO agenda. All ten copied Map, Room, Food, Study progress and My Courses entries were replayed from both dates. Five added Back controls preserve caller and scroll on direct return; internal detours and standalone exits remain incomplete. Tuesday Food images disappeared again, so visual acceptance is not passed. Apps visible category switching and nested VRS returns were tested separately. Native category combinations, full strip/list scrolling, other services, Home dates/cards/search/week picker/sheet and image fidelity remain unresolved. Prototype source combinations and synthetic layout do not add native observations. Agent replay is not human evaluation.",
+  "pixel_comparisons": [
+    {
+      "day": "mon",
+      "module": "map",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "mon",
+      "module": "room",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "mon",
+      "module": "food",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "mon",
+      "module": "study",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "mon",
+      "module": "courses",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "tue",
+      "module": "map",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "tue",
+      "module": "room",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "tue",
+      "module": "food",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "tue",
+      "module": "study",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    },
+    {
+      "day": "tue",
+      "module": "courses",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true
+    }
+  ],
+  "limitations": [
+    "Only direct Home -> module initial sample -> Home returns were repaired and replayed. Internal detours, other module states and standalone exits remain incomplete.",
+    "History Back does not guarantee module exit after intra-module Navigate-to transitions; caller-preserving module state handling is still required.",
+    "Room enters the existing later cleared empty-query Tuesday sample; this is not a newly faithful native initial state. Study/Courses use synthetic DEMO and skip loading.",
+    "Food map and venue images disappeared on Tuesday entry; visual acceptance remains failed.",
+    "Native Mac remains locked; no native actions or states were newly observed."
+  ]
+}

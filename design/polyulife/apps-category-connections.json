@@ -1,0 +1,697 @@
+{
+  "revision": "FIGMA-APPS-CROSS-CATEGORY",
+  "edits": [
+    {
+      "source": "61:2",
+      "trigger": "61:112",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:2",
+      "trigger": "61:115",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:2",
+      "trigger": "61:118",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:2",
+      "trigger": "61:121",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:185",
+      "name": "CategoryAll",
+      "destination": "61:2",
+      "targetLabel": "[S-APPS-ALL] Apps — All",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-ALL] Apps — All\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:195",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:198",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:201",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:314",
+      "name": "CategoryAll",
+      "destination": "61:2",
+      "targetLabel": "[S-APPS-ALL] Apps — All",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-ALL] Apps — All\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:317",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:327",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:330",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:448",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:451",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:461",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:555",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:558",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:561",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:571",
+      "name": "CategoryJob",
+      "destination": "61:663",
+      "targetLabel": "[S-APPS-JOB] Apps — Job",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-JOB] Apps — Job\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "trigger": "61:633",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "trigger": "61:636",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "trigger": "61:639",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "trigger": "61:642",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:691",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:694",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:697",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:700",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:703",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:752",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:755",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:758",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:761",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:764",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    }
+  ],
+  "replay_route": [
+    {
+      "source": "61:2",
+      "trigger": "61:112",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:314",
+      "name": "CategoryAll",
+      "destination": "61:2",
+      "targetLabel": "[S-APPS-ALL] Apps — All",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-ALL] Apps — All\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:2",
+      "trigger": "61:115",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:448",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:185",
+      "name": "CategoryAll",
+      "destination": "61:2",
+      "targetLabel": "[S-APPS-ALL] Apps — All",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-ALL] Apps — All\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:2",
+      "trigger": "61:118",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:555",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:195",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:451",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:317",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:198",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:558",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:327",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:561",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:461",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "trigger": "61:633",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:201",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "trigger": "61:636",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:330",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "trigger": "61:639",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:461",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "trigger": "61:642",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:571",
+      "name": "CategoryJob",
+      "destination": "61:663",
+      "targetLabel": "[S-APPS-JOB] Apps — Job",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-JOB] Apps — Job\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:691",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:185",
+      "name": "CategoryAll",
+      "destination": "61:2",
+      "targetLabel": "[S-APPS-ALL] Apps — All",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-ALL] Apps — All\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:2",
+      "trigger": "61:121",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "name": "CategoryJob",
+      "destination": "61:663"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:694",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:327",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:571",
+      "name": "CategoryJob",
+      "destination": "61:663",
+      "targetLabel": "[S-APPS-JOB] Apps — Job",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-JOB] Apps — Job\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:697",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:461",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "name": "CategoryJob",
+      "destination": "61:663"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:700",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:571",
+      "name": "CategoryJob",
+      "destination": "61:663",
+      "targetLabel": "[S-APPS-JOB] Apps — Job",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-JOB] Apps — Job\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "trigger": "61:703",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 6 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "name": "CategoryJob",
+      "destination": "61:663"
+    },
+    {
+      "source": "61:663",
+      "name": "DragLeft",
+      "destination": "61:721"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:752",
+      "name": "CategoryCampus",
+      "destination": "61:135",
+      "targetLabel": "[S-APPS-CAMPUS] Apps — Campus",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-CAMPUS] Apps — Campus\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:135",
+      "trigger": "61:198",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 3 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:571",
+      "name": "CategoryJob",
+      "destination": "61:663",
+      "targetLabel": "[S-APPS-JOB] Apps — Job",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-JOB] Apps — Job\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "name": "DragLeft",
+      "destination": "61:721"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:755",
+      "name": "CategoryStudy",
+      "destination": "61:215",
+      "targetLabel": "[S-APPS-STUDY] Apps — Study",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-STUDY] Apps — Study\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:215",
+      "trigger": "61:327",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 4 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:571",
+      "name": "CategoryJob",
+      "destination": "61:663",
+      "targetLabel": "[S-APPS-JOB] Apps — Job",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-JOB] Apps — Job\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "name": "DragLeft",
+      "destination": "61:721"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:758",
+      "name": "CategoryITTips",
+      "destination": "61:344",
+      "targetLabel": "[S-APPS-IT] Apps — IT Tips",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-IT] Apps — IT Tips\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:344",
+      "trigger": "61:461",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 5 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:585",
+      "name": "CategoryJob",
+      "destination": "61:663"
+    },
+    {
+      "source": "61:663",
+      "name": "DragLeft",
+      "destination": "61:721"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:761",
+      "name": "CategoryHealth",
+      "destination": "61:475",
+      "targetLabel": "[S-APPS-HEALTH] Apps — Health",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-HEALTH] Apps — Health\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:475",
+      "trigger": "61:571",
+      "name": "CategoryJob",
+      "destination": "61:663",
+      "targetLabel": "[S-APPS-JOB] Apps — Job",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 2 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-JOB] Apps — Job\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    },
+    {
+      "source": "61:663",
+      "name": "DragLeft",
+      "destination": "61:721"
+    },
+    {
+      "source": "61:721",
+      "trigger": "61:764",
+      "name": "CategoryWellness",
+      "destination": "61:585",
+      "targetLabel": "[S-APPS-WELLNESS] Apps — Wellness",
+      "readback": ":\n  - generic: Interaction\n  - button \"Select 7 matching interactions\":\n  - button \"Create action\":\n  - button \"Close\":\n  - generic: Trigger\n  - generic: Trigger\n  - combobox \"Trigger\":\n    - generic: On click\n  - generic: Action\n  - generic: Action\n  - combobox \"Action\":\n    - generic: Swap overlay\n  - generic: Overlay\n  - generic: Destination\n  - combobox \"Destination\" [active]:\n    - generic: \"[S-APPS-WELLNESS] Apps — Wellness\"\n  - generic: Animation\n  - generic: Animation\n  - combobox \"Animation\":\n    - generic: Instant\n  - button \"State\":\n    - generic: State\n- status\n- alert\n- alert"
+    }
+  ],
+  "flow_descriptions": {
+    "home": "Observed Monday / Tuesday Home sample with continuous scrolling and synthetic DEMO agenda. Home-launched Apps preserves its caller and scroll. All currently visible non-selected category labels are wired: 33 additional Swap overlay controls were individually replayed beyond the original fixed chain. Nested VRS login/detail returns and final Monday Home scroll regression passed. These source-category combinations generalize observed destinations; native combinations, strip recentering and scroll retention were not newly checked. Full horizontal strip scrolling, lists, other services, standalone Apps exit and other module returns remain incomplete. Other Home dates, cards, search, week picker, sheet and image fidelity remain unresolved. Agent replay is not native observation or human evaluation.",
+    "apps": "Apps reference with observed category destinations and VRS detail / empty login. All currently visible non-selected category labels are wired; 33 additional Swap overlay controls individually replayed beyond the original fixed chain. Enter Apps from Home to test caller and scroll retention; VRS closes one layer at a time. Cross-category source combinations are prototype generalizations, not newly observed native actions; native strip recentering and retention remain unverified. Full horizontal strip scrolling, list scrolling and other services remain incomplete. Standalone Apps has no Home caller; its exit semantics are unverified. No login submission. Agent replay is not human evaluation."
+  },
+  "limitations": [
+    "Source-category combinations generalize observed destinations; native combinations, strip recentering and scroll retention were not newly checked.",
+    "All currently visible non-selected category labels are wired; fully clipped IT All is not wired. Some frames lack all seven labels.",
+    "Full horizontal strip scrolling, list scrolling, other services and standalone Apps exit remain incomplete.",
+    "No new native actions; existing visual defects and ten copied Home feature entry replays remain open."
+  ],
+  "home_return_pixel_comparison": {
+    "region": [
+      581,
+      60,
+      938,
+      661
+    ],
+    "equal": true,
+    "before": "figma-apps-cross-home-start.jpg",
+    "after": "figma-apps-cross-return-home.jpg"
+  }
+}

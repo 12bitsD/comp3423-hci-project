@@ -1,0 +1,371 @@
+{
+  "revision": "FIGMA-FOOD-CALLER-STACK",
+  "edits": [
+    {
+      "source": "67:569",
+      "trigger": "113:71",
+      "action": "Open overlay",
+      "target": "50:1911",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8i:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Open overlay, ID: :r8l:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-FOOD-LIST] Food, ID: :r8p:, Secondary Actions: Expand",
+        "318 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r9a:",
+        "319 checkbox (settable, integer) Description: Background, Value: 0, ID: :r9b:",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Open overlay, ID: :r8l:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:694",
+      "trigger": "113:26",
+      "action": "Open overlay",
+      "target": "50:1911",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "297 combo box (collapsed) Trigger, Value: On click, ID: :r8i:, Secondary Actions: Expand",
+        "303 combo box (collapsed) Action, Value: Open overlay, ID: :r8l:, Secondary Actions: Expand",
+        "308 combo box (collapsed) Destination, Value: [S-FOOD-LIST] Food, ID: :r8p:, Secondary Actions: Expand",
+        "319 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r9a:",
+        "320 checkbox (settable, integer) Description: Background, Value: 0, ID: :r9b:",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8l:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:820",
+      "trigger": "67:885",
+      "action": "Open overlay",
+      "target": "50:1911",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8i:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Open overlay, ID: :r8l:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-FOOD-LIST] Food, ID: :r8p:, Secondary Actions: Expand",
+        "318 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r9a:",
+        "319 checkbox (settable, integer) Description: Background, Value: 0, ID: :r9b:",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Open overlay, ID: :r8l:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:1911",
+      "trigger": "50:1928",
+      "action": "Swap overlay",
+      "target": "50:2124",
+      "new_control": false,
+      "overlay_options": [],
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r7u:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Swap overlay, ID: :r81:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-FOOD-HOURS] Food — opening hours, ID: :r85:, Secondary Actions: Expand",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Swap overlay, ID: :r81:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:1911",
+      "trigger": "50:1934",
+      "action": "Open overlay",
+      "target": "50:2013",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "297 combo box (collapsed) Trigger, Value: On click, ID: :r85:, Secondary Actions: Expand",
+        "303 combo box (collapsed) Action, Value: Open overlay, ID: :r88:, Secondary Actions: Expand",
+        "308 combo box (collapsed) Destination, Value: [S-FOOD-DETAIL] VA210 Vending Machine, ID: :r8c:, Secondary Actions: Expand",
+        "319 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r8t:",
+        "320 checkbox (settable, integer) Description: Background, Value: 0, ID: :r8u:",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r88:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2124",
+      "trigger": "50:2151",
+      "action": "Open overlay",
+      "target": "50:2013",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "297 combo box (collapsed) Trigger, Value: On click, ID: :r85:, Secondary Actions: Expand",
+        "303 combo box (collapsed) Action, Value: Open overlay, ID: :r88:, Secondary Actions: Expand",
+        "308 combo box (collapsed) Destination, Value: [S-FOOD-DETAIL] VA210 Vending Machine, ID: :r8c:, Secondary Actions: Expand",
+        "319 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r8t:",
+        "320 checkbox (settable, integer) Description: Background, Value: 0, ID: :r8u:",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r88:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2013",
+      "trigger": "50:2020",
+      "action": "Open overlay",
+      "target": "50:2230",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8d:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Open overlay, ID: :r8g:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-FOOD-IMAGE] Food — image, ID: :r8k:, Secondary Actions: Expand",
+        "318 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r95:",
+        "319 checkbox (settable, integer) Description: Background, Value: 0, ID: :r96:",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Open overlay, ID: :r8g:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2013",
+      "trigger": "50:2036",
+      "action": "Open overlay",
+      "target": "50:2107",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r80:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Open overlay, ID: :r83:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-FOOD-TAG] Search — Chinese Soup, ID: :r87:, Secondary Actions: Expand",
+        "318 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r8o:",
+        "319 checkbox (settable, integer) Description: Background, Value: 0, ID: :r8p:",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Open overlay, ID: :r83:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2107",
+      "trigger": "50:2121",
+      "action": "Open overlay",
+      "target": "50:2013",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-FOOD-DETAIL] VA210 Vending Machine, ID: :r8u:, Secondary Actions: Expand",
+        "318 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r9f:",
+        "319 checkbox (settable, integer) Description: Background, Value: 0, ID: :r9g:",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2013",
+      "trigger": "50:2050",
+      "action": "Open overlay",
+      "target": "50:2246",
+      "new_control": false,
+      "overlay_options": [
+        "  - generic: Centered",
+        "  - checkbox \"Close when clicking outside\"",
+        "  - generic: Close when clicking outside",
+        "  - checkbox \"Background\""
+      ],
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8f:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Open overlay, ID: :r8i:, Secondary Actions: Expand",
+        "307 combo box (collapsed) Destination, Value: [S-FOOD-MAP] Food — map, ID: :r8m:, Secondary Actions: Expand",
+        "318 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :r97:",
+        "319 checkbox (settable, integer) Description: Background, Value: 0, ID: :r98:",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Open overlay, ID: :r8i:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2230",
+      "trigger": "50:2234",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": false,
+      "overlay_options": [],
+      "ui_readback": [
+        "296 combo box (collapsed) Trigger, Value: On click, ID: :r8d:, Secondary Actions: Expand",
+        "302 combo box (collapsed) Action, Value: Close overlay, ID: :r8g:, Secondary Actions: Expand",
+        "The focused UI element is 302 combo box (collapsed) Action, Value: Close overlay, ID: :r8g:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2246",
+      "trigger": "50:2264",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": false,
+      "overlay_options": [],
+      "ui_readback": [
+        "297 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+        "303 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2107",
+      "trigger": "50:2111",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": false,
+      "overlay_options": [],
+      "ui_readback": [
+        "297 combo box (collapsed) Trigger, Value: On click, ID: :r8i:, Secondary Actions: Expand",
+        "303 combo box (collapsed) Action, Value: Close overlay, ID: :r8l:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8l:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2013",
+      "trigger": "50:2055",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": false,
+      "overlay_options": [],
+      "ui_readback": [
+        "297 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+        "303 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:1911",
+      "trigger": "50:2010",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": false,
+      "overlay_options": [],
+      "ui_readback": [
+        "297 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+        "303 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "50:2124",
+      "trigger": "50:2227",
+      "action": "Close overlay",
+      "target": null,
+      "new_control": true,
+      "ui_readback": [
+        "405 combo box (collapsed) Trigger, Value: On click, ID: :rap:, Secondary Actions: Expand",
+        "411 combo box (collapsed) Action, Value: Close overlay, ID: :ras:, Secondary Actions: Expand",
+        "The focused UI element is 411 combo box (collapsed) Action, Value: Close overlay, ID: :ras:, Secondary Actions: Expand"
+      ]
+    }
+  ],
+  "flow_descriptions": {
+    "50:1911": "VA210 sample navigation preserves tested Home callers. Monday image/map detours and Tuesday/legacy detail -> Chinese Soup -> result detail -> layered Back paths passed. Expanded hours remain on return. Raster images still disappear intermittently, so visual fidelity is unverified. Standalone list and hours Back do nothing without a Home caller; start from a Home flow. Other venues, H Cafe, tags, full lists/maps and ordering remain incomplete. New hours-to-Home exit is inferred from another native venue exit. Agent replay is not native observation or human evaluation.",
+    "67:569": "Observed Monday/Tuesday Home samples with scrolling and synthetic DEMO agenda. Study/Courses, Map, Room and Food sample detours preserve tested Home callers. Food layered returns passed through detail, Chinese Soup results and repeated detail, retaining expanded hours. Food raster images still disappear intermittently. Room uses fixed A -> AG206; dates, input, Preview and full results incomplete. Eight Map image fills passed two Monday circuits; other contexts unverified. Standalone Map/Room/Food exits remain incomplete. Lists, other services, Home dates/cards/week picker/sheet and Study blank incomplete. New Room and Food outer exits include inferred behavior. Agent replay adds no native observations and is not human evaluation.",
+    "67:820": "Observed reconstruction with synthetic DEMO coursework, schedules and identity; QR is non-scannable. Study/Courses, Map, Room and Food sample detours preserve tested Home callers. Food Chinese Soup repeated-detail navigation returns through Search, original detail and expanded-hours list to this Home. Food images intermittently blank. Room input/dates/Preview/full results incomplete; new Room/Food outer exits include inferred behavior. Eight map image fills passed two Monday circuits; other contexts unverified. Standalone Map/Room/Food exits, Home dates/cards/week picker/sheet, lists, reverse tabs, search, bookings and unobserved links remain incomplete. Study blank is unresolved. Agent replay is separate from native observation and human testing."
+  },
+  "pixel_comparisons": [
+    {
+      "file": "food-stack-mon-home-return.jpg",
+      "baseline": "food-stack-mon-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "interpretation": "Home return preserved"
+    },
+    {
+      "file": "food-stack-tue-home-return.jpg",
+      "baseline": "food-stack-tue-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "interpretation": "Home return preserved"
+    },
+    {
+      "file": "food-stack-legacy-home-return.jpg",
+      "baseline": "food-stack-legacy-baseline.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "interpretation": "Home return preserved"
+    },
+    {
+      "file": "food-stack-tue-back-hours.jpg",
+      "baseline": "food-stack-tue-hours.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": false,
+      "interpretation": "Hours remain expanded but map/logos reappeared, so not pixel-equal"
+    },
+    {
+      "file": "food-stack-legacy-back-hours.jpg",
+      "baseline": "food-stack-legacy-hours.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "interpretation": "Hours remain expanded; missing images not accepted"
+    },
+    {
+      "file": "food-stack-standalone-hours-back-list.jpg",
+      "baseline": "food-stack-standalone-hours.jpg",
+      "region": [
+        581,
+        60,
+        938,
+        661
+      ],
+      "equal": true,
+      "interpretation": "No change after standalone Back (failure)"
+    }
+  ],
+  "limitations": [
+    "Only existing VA210/Chinese Soup sample navigation tested, not other venues, H Cafe, full lists/maps or loading states.",
+    "Unexpanded-list detail entry and outer list exits retain source-fidelity caveats. New first-venue hours outer exit is inferred from observed H Cafe -> Home, action_id=null.",
+    "Monday imagery visible; Tuesday and legacy repeat entries intermittently blank. Tuesday hours-return and final reload restore imagery without a repair; cause unproven, D-FOOD-IMAGE-RENDER remains open.",
+    "Standalone list and hours Back have no visible effect without a Home caller.",
+    "Native Computer Use still reports Mac locked after user restoration report. No new native observation or human evaluation; complete application remains not_verified."
+  ]
+}

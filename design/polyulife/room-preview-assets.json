@@ -1,0 +1,67 @@
+{
+  "page": "https://www.polyu.edu.hk/learningspaces/AG206/",
+  "observed_via": "Computer Use browser UI, independent public webpage; not a new native app session",
+  "assets": [
+    {
+      "file": "room-preview-photo-two.png",
+      "url": "https://www.polyu.edu.hk/learningspaces/images/classroom/AG206/1.jpg",
+      "source_sha256": "9357d735a7ffadc03e494324e980da8fc5ffb98886ec90e0d62c4af7a3bf9ce2",
+      "sha256": "70b50c7c5faaef1c56302caaca3ee0898f9a63cc9222104d22ee2866035d5b8c",
+      "dimensions": [
+        1052,
+        789
+      ],
+      "transform": "resize to 1052x789; PNG encoding"
+    },
+    {
+      "file": "room-preview-photo-one.png",
+      "url": "https://www.polyu.edu.hk/learningspaces/images/classroom/AG206/3.jpg",
+      "source_sha256": "89ffac532aca37dec59b30ac3c113e5ef3cc3ddae23ce22d617f6f9d21fff36f",
+      "sha256": "3c2d01cd1cecddc24acab5e3fb0c2c61255c43df9a2720c529cb8ab1d3b589c2",
+      "dimensions": [
+        1052,
+        789
+      ],
+      "transform": "resize to 1052x789; PNG encoding"
+    },
+    {
+      "file": "room-preview-banner.png",
+      "url": "https://www.polyu.edu.hk/learningspaces//images/banner_subpage.png",
+      "source_sha256": "ffce1f2aa1aa4216e45c6185ef40bdd92d8a701dd46007339c58bf94f1fabe7b",
+      "sha256": "587ce8da4bd26490c6be642c7c63b6a759de620ee8cd6c83fcab6b32a35d0ce6",
+      "dimensions": [
+        1280,
+        240
+      ],
+      "transform": "PNG encoding; original dimensions"
+    },
+    {
+      "file": "room-preview-wordmark.png",
+      "url": "https://www.polyu.edu.hk/learningspaces/assets/img/fact-logo-2x.png",
+      "source_sha256": "dd0960140ccfe926900b74d87bed484045fb13fce23deb7dcdec00775c8f5de3",
+      "sha256": "49eccc52e96da99f29258457b55f70b973882c455425d9de82864943d3a89f6b",
+      "dimensions": [
+        492,
+        96
+      ],
+      "transform": "PNG encoding; original dimensions"
+    }
+  ],
+  "note": "Visual inspection of exported bytes: official image 3 matches native PHOTO1; official image 1 matches native PHOTO2. Browser carousel can auto-advance and AX label timing differs; no native sequence/timing inferred. Native source screenshots determine app layout.",
+  "native_sample_asset": {
+    "file": "room-preview-loading-mark.png",
+    "source_evidence_id": "E-PREVIEWLOAD",
+    "crop": [
+      265,
+      538,
+      314,
+      584
+    ],
+    "dimensions": [
+      49,
+      46
+    ],
+    "sha256": "120c6e120459f07b8409286510931a4a396ef6e05d55cfe3a1eaae9f8608c96c",
+    "note": "Static mark crop, not animation timing."
+  }
+}
