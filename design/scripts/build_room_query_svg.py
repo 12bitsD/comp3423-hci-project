@@ -1,7 +1,7 @@
 """Build editable Room query states from the 2026-09-29 native recheck.
 
-The manifest records separately observed Figma imports and editor connections.
-It does not imply successful Present replay or visual acceptance.
+The manifest separates native source evidence from recorded Figma sample replays.
+Sample navigation does not establish full visual acceptance or application coverage.
 """
 from pathlib import Path
 import copy
@@ -78,6 +78,7 @@ def no_result(root):
 empty = ET.parse(DESIGN/'room-empty.svg').getroot()
 rows = [
     ('ag206-suggestion', 'S-ROOM-QUERY-AG206', '02-query-filled', False, 'AG206', False, True),
+    ('today-all', 'S-ALL', '04-today-all', False, 'AG206', False, False),
     ('dirty-results', 'S-ROOM-QUERY-DIRTY', '12-unmatched-query', True, 'ZZZZ9999', True, True),
     ('no-result', 'S-ROOM-QUERY-NONE', '13-unmatched-search', True, 'ZZZZ9999', False, False),
     ('focused-no-result', 'S-ROOM-QUERY-NONE', '14-clear-query', True, 'ZZZZ9999', True, True),
@@ -86,6 +87,7 @@ rows = [
 ]
 figma_node_ids = {
     'ag206-suggestion': '381:265',
+    'today-all': '396:19',
     'dirty-results': '381:72',
     'no-result': '381:19',
     'focused-no-result': '383:19',
@@ -94,9 +96,20 @@ figma_node_ids = {
 }
 manifest = []
 for label, state, evidence, sunday, value, focus, clear in rows:
-    root = ET.parse(DESIGN/'room-sunday-all.svg').getroot() if label == 'dirty-results' else copy.deepcopy(empty)
+    root = (ET.parse(DESIGN/'room-sunday-all.svg').getroot() if label == 'dirty-results'
+            else ET.parse(DESIGN/'room-all.svg').getroot() if label == 'today-all'
+            else copy.deepcopy(empty))
     replace_dates(root, sunday)
     input_value(root, value, focus, clear)
+    if label == 'today-all':
+        result_date = find(root, 'ResultDate')
+        for icon_part in list(result_date)[:-1]:
+            icon_part.set('transform', 'translate(-18,0)')
+        result_date_label = result_date.find(tag('text'))
+        result_date_label.text = '29-Sep (Today)'
+        result_date_label.set('x', '426')
+        result_date_label.set('text-anchor', 'start')
+        result_date_label.set('font-size', '15')
     if label in ['no-result', 'focused-no-result', 'cleared-stale']:
         no_result(root)
     if label == 'ag206-suggestion':
@@ -127,16 +140,28 @@ for label, state, evidence, sunday, value, focus, clear in rows:
     path = DESIGN/('room-query-' + label + '.svg')
     ET.ElementTree(root).write(path, encoding='unicode')
     src = ROOT/'evidence/2026-09-28-full-audit'/('room-recheck-'+evidence+'.png')
-    manifest.append({'file':path.name, 'state_id':state, 'figma_node_id':figma_node_ids[label],
-                     'status':'imported_editor_verified_present_not_replayed',
+    figma_node_id = figma_node_ids.get(label)
+    manifest.append({'file':path.name, 'state_id':state, 'figma_node_id':figma_node_id,
+                     'status':'sample_present_replayed_partial_fidelity',
                      'source_evidence_path':str(src.relative_to(ROOT)),
                      'source_evidence_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),
                      'sha256':hashlib.sha256(path.read_bytes()).hexdigest(), 'dimensions':[576,970]})
-(DESIGN/'room-query-sources.json').write_text(json.dumps({'status':'figma_imported_present_not_replayed',
+(DESIGN/'room-query-sources.json').write_text(json.dumps({'status':'figma_query_samples_replayed_full_scope_incomplete',
     'frames':manifest, 'native_reference':'docs/polyulife/room-recheck-20260929.json',
     'figma_file_url':'https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/',
     'figma_page_id':'12:104',
+    'coverage_ledger_status':'checkpoint_pending_canonical_coverage_archive; native observations unchanged',
+    'prototype_replay_evidence_manifest':'evidence/2026-09-30-room-query-replay/manifest.json',
+    'prototype_replays':[
+        {'id':'PROTO-ROOM-QUERY-AG206-001','flow_name':'Room · AG206 suggestion to Today ALL',
+         'start_node_id':'381:265','observed_node_sequence':['381:265','396:19'],
+         'result':'sample_navigation_passed; Today 29-Sep sample only'},
+        {'id':'PROTO-ROOM-QUERY-UNMATCHED-001','flow_name':'Room · unmatched search, clear, retry',
+         'start_node_id':'381:72','observed_node_sequence':['381:72','381:19','383:19','381:327','381:383'],
+         'result':'sample_navigation_passed; static query text and click/focus proxy only'}],
     'connections_editor_verified':[
+        {'source_node_id':'381:323', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'396:19',
+         'native_evidence':'E-ROOM-RECHECK-03', 'prototype_run_id':'PROTO-ROOM-QUERY-AG206-001'},
         {'source_node_id':'381:113', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:19', 'native_evidence':'E-ROOM-RECHECK-13'},
         {'source_node_id':'381:60', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'383:19', 'native_evidence':'E-ROOM-RECHECK-14'},
         {'source_node_id':'383:67', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:327', 'native_evidence':'E-ROOM-RECHECK-15'},
@@ -147,10 +172,10 @@ for label, state, evidence, sunday, value, focus, clear in rows:
         'comparison_path':'assets/room-query-source-comparison.png',
         'sha256':'5ec5a0aeddd8a6e8fed743d76ad3188ceedaf1fe120d6fd3c15472ba7bf511d1',
         'dimensions':[1440,1010],
-        'result':'Five initial sources rendered and compared side by side with native evidence. Focused no-result source rendered separately. Font weight/metrics, exact icon shapes and scrollbar remain deviations. Not a Figma render or prototype test.'
+        'result':'Five initial sources rendered and compared side by side with native evidence. Focused no-result and Today ALL sources rendered separately. Font weight/metrics, exact icon shapes and scrollbar remain deviations. This review predates the separately recorded Figma Present replay.'
     },
-    'remaining':['Create a replayable starting point for the isolated query sequence',
-                 'Present replay from correct date context',
-                 'Compare Figma render and transitions with native evidence',
-                 'Implement real text input and remaining query branches']},ensure_ascii=False,indent=2)+'\n')
-print('Built six editable Room query SVG sources; Figma mapping is tracked separately.')
+    'remaining':['Implement real text input, suggestion timing, other query strings and branches',
+                 'Observe and reproduce remaining dates, availability cases and return paths',
+                 'Compare native and Figma typography/icons and full bounds beyond these samples',
+                 'Complete the rest of PolyULife; current Room query samples do not establish full application coverage']},ensure_ascii=False,indent=2)+'\n')
+print('Built seven editable Room query SVG sources; Figma mapping is tracked separately.')

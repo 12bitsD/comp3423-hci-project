@@ -1,31 +1,30 @@
-# Room 查询状态：源码与 Figma 导入检查点
+# Room 查询：9月29日样例的 Figma 回放
 
-2026-09-30。以[9月29日原生复查](room-recheck-20260929.md)为依据，六个576×970可编辑SVG已通过Computer Use导入[Figma文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)的`01 · Observed UI`页面（12:104）。Figma编辑器已读回Frame、文字/矢量图层和四条原型连接；独立Present回放尚未成功，因此这批仍不计入正式覆盖台账的已验证画板、控件或运行数量。
+2026-09-30。根据[原生补查](room-recheck-20260929.md)的已脱敏截图，七个576×970可编辑画板已通过Computer Use导入[Figma文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)的`01 · Observed UI`页面（12:104）。这批为固定日期、房间号和结果数据的**样例回放**；并非可输入任意文字的搜索实现，也不证明完整PolyULife已覆盖。
 
-| 源码 | 真实状态与证据 | 需要表达的行为 |
-| --- | --- | --- |
-| [AG206联想](../../design/polyulife/room-query-ag206-suggestion.svg) | S-ROOM-QUERY-AG206 / E-ROOM-RECHECK-02 | 完整房间号、一个联想项及原始提示并存 |
-| [修改输入后旧结果](../../design/polyulife/room-query-dirty-results.svg) | S-ROOM-QUERY-DIRTY / E-ROOM-RECHECK-12 | ZZZZ9999与旧AG206列表并存，Sunday/ALL及已观察滚动位置保留 |
-| [无匹配结果](../../design/polyulife/room-query-no-result.svg) | S-ROOM-QUERY-NONE / E-ROOM-RECHECK-13 | 点击搜索后出现No room found |
-| [无匹配结果聚焦](../../design/polyulife/room-query-focused-no-result.svg) | S-ROOM-QUERY-NONE / E-ROOM-RECHECK-14 | 点击输入框，查询内容保持、光标出现；清空图标形状参照相邻聚焦态推断 |
-| [清空后的旧空态](../../design/polyulife/room-query-cleared-stale.svg) | S-CLEARED的Sunday上下文 / E-ROOM-RECHECK-15 | 输入为空、光标可见，No room found尚未消失 |
-| [空查询恢复提示](../../design/polyulife/room-query-empty-sunday.svg) | S-EMPTYQUERY的Sunday上下文 / E-ROOM-RECHECK-16 | 再次搜索后恢复初始提示，Sunday仍选中 |
+| 可编辑源码 | 原生状态与依据 | Figma节点 | 本次回放角色 |
+| --- | --- | --- | --- |
+| [AG206联想](../../design/polyulife/room-query-ag206-suggestion.svg) | S-ROOM-QUERY-AG206 / E-ROOM-RECHECK-02 | 381:265 | Today 29-Sep，联想项可点 |
+| [Today ALL](../../design/polyulife/room-query-today-all.svg) | S-ALL的29-Sep上下文 / E-ROOM-RECHECK-04 | 396:19 | 选择AG206后的正确日期与时段 |
+| [改输入后旧结果](../../design/polyulife/room-query-dirty-results.svg) | S-ROOM-QUERY-DIRTY / E-ROOM-RECHECK-12 | 381:72 | ZZZZ9999与旧AG206 Sunday列表并存 |
+| [无匹配](../../design/polyulife/room-query-no-result.svg) | S-ROOM-QUERY-NONE / E-ROOM-RECHECK-13 | 381:19 | 点击搜索后的No room found |
+| [聚焦无匹配](../../design/polyulife/room-query-focused-no-result.svg) | S-ROOM-QUERY-NONE / E-ROOM-RECHECK-14 | 383:19 | 查询保持、光标出现；清空图标形状参照相邻聚焦态推断 |
+| [清空后旧空态](../../design/polyulife/room-query-cleared-stale.svg) | S-CLEARED的Sunday上下文 / E-ROOM-RECHECK-15 | 381:327 | 输入为空但No room found尚未消失 |
+| [空查询恢复](../../design/polyulife/room-query-empty-sunday.svg) | S-EMPTYQUERY的Sunday上下文 / E-ROOM-RECHECK-16 | 381:383 | 再次搜索后恢复提示、Sunday仍选中 |
 
-本批保留9月29日实际日期条：Today29-Sep、Wed30-Sep至Mon05-Oct。不会把历史9月28日原型的日期含义覆盖掉；导入时须用清楚的日期/上下文别名。后两张复用已有原生状态ID，不制造新的观察计数。
+两条独立的Figma Flow通过Present实际回放：
 
-源码保留独立Header、SearchButton、ClearInput、AG206Suggestion、NoRoomFound等图层。dirty-results列表是固定已观察偏移，不提供连续滚动或实时可用性。输入目前是静态文本，尚未实现任意字符串或真实键盘；Figma的点击跳转只是观察到的查询路径代理，不能当作原生输入实现。
+1. **Room · AG206 suggestion to Today ALL**：`381:265`的AG206Suggestion `381:323`点击后到`396:19`。这对应原生选择联想项的结果；E-ROOM-RECHECK-04是稳定结果截图，并非额外一次选择执行。
+2. **Room · unmatched search, clear, retry**：`381:72` SearchButton `381:113`→`381:19` RoomInput `381:60`→`383:19` ClearInput `383:67`→`381:327` SearchButton `381:369`→`381:383`。四个目的节点均在Present URL和稳定画面中核对。点击输入框只是聚焦状态代理；原生E14包括一次未成功的清空定位尝试，不能宣称该点击等同原生成功动作。
 
-六个实际Frame节点分别为AG206联想`381:265`、修改后旧结果`381:72`、无匹配`381:19`、聚焦无匹配`383:19`、清空后旧空态`381:327`、空查询恢复`381:383`。编辑器读回四条On click → Navigate to：旧结果SearchButton`381:113`→无匹配、无匹配RoomInput`381:60`→聚焦、聚焦ClearInput`383:67`→清空后旧空态、清空后SearchButton`381:369`→空查询恢复。对应E-ROOM-RECHECK-13至16。Present仍从旧默认Flow启动，未能进入这条孤立路径；未建立可回放起点前，不声称交互测试通过。
+此前导入的Frame及少量控件在Figma图层中处于隐藏状态，导致画布与Present看似缺页、缺搜索按钮或输入框边框。本次逐个恢复了七个Frame的显示，并在`381:72`恢复SearchButton、在`381:19`恢复RoomInput；之后重新回放了样例。操作后的稳定画面见[七张公开截图与哈希](../../evidence/2026-09-30-room-query-replay/manifest.json)。公开图仅裁出合成的Room原型画面，排除Figma账户区；浏览器原图保留在Git忽略目录。
 
-本地使用resvg-py0.5.0渲染并逐列与截图对照：最初五张的结构、日期、查询/空态区别和列表行位置已检查；新增聚焦无匹配源码也已单独渲染检查。字体宽度/字重、图标、滚动指示条仍有差异，未做Figma视觉验收。下图上排为最初五张源码渲染，下排为真实截图；光标光晕和窗口输入边缘未复制进源码。
+![Figma两条Room查询路径的七个画面](../../evidence/2026-09-30-room-query-replay/contact-sheet.png)
 
-![源码与真实截图对照](../../design/polyulife/assets/room-query-source-comparison.png)
+日期条按9月29日的真实样例固定：Today29-Sep、Wed30-Sep至Mon05-Oct；不覆盖历史9月28日原型的日期含义。dirty-results列表使用固定的已观察偏移，不是连续滚动；查询文字是静态样例，不支持任意输入、等待联想或实时可用性。字体宽度/字重、图标与滚动指示条仍有差异。聚焦无匹配态的清空图标在E14中被指针遮挡，形状为相邻聚焦状态的推断。`ClearInput`之后保留旧空态，再次搜索才恢复提示；这一区别已在样例中回放。
 
-## 接力步骤
+本地resvg对最初五个源码做过逐列比对，[对照图](../../design/polyulife/assets/room-query-source-comparison.png)只包含当时的五张；聚焦无匹配和Today ALL另行渲染检查。Present截图验证本次两条**导航样例**，尚未验证全部视觉细节、自由输入、其他日期/房间、所有Back出口和完整App。
 
-1. 为孤立的查询路径建立可回放起点，在Present中逐步验证四条连接和视觉状态。
-2. AG206联想属于Today上下文。选择结果不能直接跳到Sunday结果；需准备对应Today状态或保留为单独待连路径。
-3. 继续实现实际输入和其他查询分支；ZZZZ9999样例不代表全部异常输入覆盖。
-4. 实际Present回放和视觉比较后，才更新正式覆盖台账。地图WIP另见[地图检查点](room-map-work-in-progress.md)。
+[生成器](../../design/scripts/build_room_query_svg.py) · [来源及Figma节点清单](../../design/polyulife/room-query-sources.json)
 
-[生成器](../../design/scripts/build_room_query_svg.py) · [来源、哈希及本地渲染记录](../../design/polyulife/room-query-sources.json)
+本次先提交回放检查点。上述七个画板、五条连接和两次样例运行尚待归入正式 `coverage.json` 台账；台账现有数量暂不调整，原生观察次数保持不变。

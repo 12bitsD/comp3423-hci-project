@@ -1,11 +1,11 @@
 {
-  "status": "figma_imported_present_not_replayed",
+  "status": "figma_query_samples_replayed_full_scope_incomplete",
   "frames": [
     {
       "file": "room-query-ag206-suggestion.svg",
       "state_id": "S-ROOM-QUERY-AG206",
       "figma_node_id": "381:265",
-      "status": "imported_editor_verified_present_not_replayed",
+      "status": "sample_present_replayed_partial_fidelity",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-02-query-filled.png",
       "source_evidence_sha256": "efe2ad397f5579e0bd43e8fb971cfe6051b5f02352ad732a1c557494a21343b3",
       "sha256": "152c943e731d976bd7e32222bd11a776b561ef5d692bc18933efbfce2d820742",
@@ -15,10 +15,23 @@
       ]
     },
     {
+      "file": "room-query-today-all.svg",
+      "state_id": "S-ALL",
+      "figma_node_id": "396:19",
+      "status": "sample_present_replayed_partial_fidelity",
+      "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-04-today-all.png",
+      "source_evidence_sha256": "849a96fe58a3854f17a61eaf1367748018b6026d2aa01a3d6ff856add5337b43",
+      "sha256": "31c50709cab9dd9a98aa7ff25bd8cf78fd4c4906c2fc7545e7d5f6e8a5acf100",
+      "dimensions": [
+        576,
+        970
+      ]
+    },
+    {
       "file": "room-query-dirty-results.svg",
       "state_id": "S-ROOM-QUERY-DIRTY",
       "figma_node_id": "381:72",
-      "status": "imported_editor_verified_present_not_replayed",
+      "status": "sample_present_replayed_partial_fidelity",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-12-unmatched-query.png",
       "source_evidence_sha256": "8616b107d3a480613a044aa2c89daf96cc707b439ca748c591fa8cb987f7c52b",
       "sha256": "31e5934da193ef07872c812bdb945d0f7cf3dffc5832b82a65e62ec40ec9b480",
@@ -31,7 +44,7 @@
       "file": "room-query-no-result.svg",
       "state_id": "S-ROOM-QUERY-NONE",
       "figma_node_id": "381:19",
-      "status": "imported_editor_verified_present_not_replayed",
+      "status": "sample_present_replayed_partial_fidelity",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-13-unmatched-search.png",
       "source_evidence_sha256": "0af2c59f17539d9595eb36cdbbb83b2f74732d0e20678d51b3f1d68be575f028",
       "sha256": "38bf2550e11a5ea524c34ecbba16ee434170d09cb6f1d131da3b2411bc161e2f",
@@ -44,7 +57,7 @@
       "file": "room-query-focused-no-result.svg",
       "state_id": "S-ROOM-QUERY-NONE",
       "figma_node_id": "383:19",
-      "status": "imported_editor_verified_present_not_replayed",
+      "status": "sample_present_replayed_partial_fidelity",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-14-clear-query.png",
       "source_evidence_sha256": "3123e11decd885eddd9cd596d872d53ed1aac181c60ca8b44b21e066f03887e8",
       "sha256": "8e6a13790f6b7067f144545c971aea4bb9dd9b031dad125d78e7a9d04f7b25a7",
@@ -57,7 +70,7 @@
       "file": "room-query-cleared-stale.svg",
       "state_id": "S-CLEARED",
       "figma_node_id": "381:327",
-      "status": "imported_editor_verified_present_not_replayed",
+      "status": "sample_present_replayed_partial_fidelity",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-15-cleared-stale-empty.png",
       "source_evidence_sha256": "6c8a97806fc0b68781a9c6002d91aee8eac4fc27c4ace479b81f0d7f2552931c",
       "sha256": "f828f8ad5680a336bbe9e72a3933d30e2e2fca4c18e9553b77ab9111ecbc471e",
@@ -70,7 +83,7 @@
       "file": "room-query-empty-sunday.svg",
       "state_id": "S-EMPTYQUERY",
       "figma_node_id": "381:383",
-      "status": "imported_editor_verified_present_not_replayed",
+      "status": "sample_present_replayed_partial_fidelity",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-16-empty-search.png",
       "source_evidence_sha256": "74d2d49e9783c4c30516e3f45ba1aba7f27fce8381e4cca020c4f62399d339c3",
       "sha256": "327cb313a085fc207ee859c9073fc2d273374d2dcbedfe3602cb1550f611f1bd",
@@ -83,7 +96,42 @@
   "native_reference": "docs/polyulife/room-recheck-20260929.json",
   "figma_file_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/",
   "figma_page_id": "12:104",
+  "coverage_ledger_status": "checkpoint_pending_canonical_coverage_archive; native observations unchanged",
+  "prototype_replay_evidence_manifest": "evidence/2026-09-30-room-query-replay/manifest.json",
+  "prototype_replays": [
+    {
+      "id": "PROTO-ROOM-QUERY-AG206-001",
+      "flow_name": "Room · AG206 suggestion to Today ALL",
+      "start_node_id": "381:265",
+      "observed_node_sequence": [
+        "381:265",
+        "396:19"
+      ],
+      "result": "sample_navigation_passed; Today 29-Sep sample only"
+    },
+    {
+      "id": "PROTO-ROOM-QUERY-UNMATCHED-001",
+      "flow_name": "Room · unmatched search, clear, retry",
+      "start_node_id": "381:72",
+      "observed_node_sequence": [
+        "381:72",
+        "381:19",
+        "383:19",
+        "381:327",
+        "381:383"
+      ],
+      "result": "sample_navigation_passed; static query text and click/focus proxy only"
+    }
+  ],
   "connections_editor_verified": [
+    {
+      "source_node_id": "381:323",
+      "trigger": "On click",
+      "action": "Navigate to",
+      "destination_node_id": "396:19",
+      "native_evidence": "E-ROOM-RECHECK-03",
+      "prototype_run_id": "PROTO-ROOM-QUERY-AG206-001"
+    },
     {
       "source_node_id": "381:113",
       "trigger": "On click",
@@ -121,12 +169,12 @@
       1440,
       1010
     ],
-    "result": "Five initial sources rendered and compared side by side with native evidence. Focused no-result source rendered separately. Font weight/metrics, exact icon shapes and scrollbar remain deviations. Not a Figma render or prototype test."
+    "result": "Five initial sources rendered and compared side by side with native evidence. Focused no-result and Today ALL sources rendered separately. Font weight/metrics, exact icon shapes and scrollbar remain deviations. This review predates the separately recorded Figma Present replay."
   },
   "remaining": [
-    "Create a replayable starting point for the isolated query sequence",
-    "Present replay from correct date context",
-    "Compare Figma render and transitions with native evidence",
-    "Implement real text input and remaining query branches"
+    "Implement real text input, suggestion timing, other query strings and branches",
+    "Observe and reproduce remaining dates, availability cases and return paths",
+    "Compare native and Figma typography/icons and full bounds beyond these samples",
+    "Complete the rest of PolyULife; current Room query samples do not establish full application coverage"
   ]
 }

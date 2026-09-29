@@ -129,4 +129,4 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 
 [2026-09-29 Room原生补查](room-recheck-20260929.md)：新增16张公开截图，确认地图返回的列表位置、无匹配查询及清空/再搜索反馈。地图WIP现有六个连接，Present仍未通过。最新原生124状态/265动作（181 observed、84 not_attempted），正式Figma统计不变。
 
-[Room查询Figma检查点](room-query-source-preparation.md)：六个有原生截图依据的可编辑SVG已通过Computer Use导入Figma，四条查询/聚焦/清空/再搜索连接在编辑器中读回。Present仍从旧Flow启动，独立回放和Figma视觉验收未通过；正式覆盖统计不变。
+[Room查询Figma样例回放](room-query-source-preparation.md)：七个有原生截图依据的可编辑SVG已导入Figma。AG206联想→Today ALL及无匹配搜索→聚焦→清空→再搜索两条Flow已在Present回放并保存七张公开截图；静态输入、其余日期/房间、完整视觉和整App覆盖仍未验证。
