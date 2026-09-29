@@ -463,3 +463,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 后续：[Food返回栈](food-return-prototype-walkthrough.md)更新15个控件、补1个外层出口，三个Home来源的既有样例返回通过；图片不稳定、独立Food退出和完整范围仍未完成。
 
 后续：[Food图片重新上传与复测](food-image-repair-walkthrough.md)更新14项填充，连续两轮Tuesday深层路径所见图片可见。图片问题部分解决，其它上下文和完整范围仍待验证。
+
+## Food展开列表与H Café增量
+
+[本批实现与回放](food-hcafe-prototype-walkthrough.md)新增4个Frame、11个控件，累计80个映射Frame、204个配置控件。离散拖动只覆盖两个已观察视口；外链提示四侧关闭、正文不关闭和三个Tuesday Home返回已验证。完整连续列表、其它来源、收起和外站Open未完成。
