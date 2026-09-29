@@ -11,7 +11,7 @@
 
 ## 当前进度（2026-09-30）
 
-Room查询和AG206地图样例已归入正式台账：**96个Figma画板、3个画板内组件状态、228个配置控件、5个滚动区域及36次原型运行**（包括失败记录）。查询新增七个日期/聚焦变体、五条连接和两条实际Present回放，见 [查询回放](room-query-source-preparation.md)；地图新增三个部分可编辑画板、六个控件及失败/修复后运行，见 [地图回放](room-map-prototype-walkthrough.md)。原生仍为124个状态、265个动作（181 observed、84 not_attempted）；变体和原型回放不增加原生观察数量。全应用完成状态保持 `not_verified`。
+Room查询和AG206地图样例已归入正式台账：**96个Figma画板、3个画板内组件状态、228个配置控件、5个滚动区域及36次原型运行**（包括失败记录）。查询新增七个日期/聚焦变体、五条连接和两条实际Present回放，见 [查询回放](room-query-source-preparation.md)；地图新增三个部分可编辑画板、六个控件及失败/修复后运行，见 [地图回放](room-map-prototype-walkthrough.md)。新增[七日选择、筛选保持与列表边界的原生实测](room-dates-20260930.md)后，当前原生为132个状态、268个动作（185 observed、83 not_attempted）。本批19张截图和新增状态尚未完成Figma映射；变体和原型回放不增加原生观察数量。全应用完成状态保持 `not_verified`。
 
 已通过 Computer Use 完成一轮 [Room Finder 实际走查](room-walkthrough.md)：输入与无结果、AG206 联想查询、ALL/Available 筛选、Preview 网页与照片轮播、日期异步更新、AG206 地图缩放以及返回 Home 的基本路径。Room 其它分支和边界仍在发现队列，不能称为全部交互已覆盖。
 
@@ -19,7 +19,7 @@ Room查询和AG206地图样例已归入正式台账：**96个Figma画板、3个�
 
 [首页导航局部截图](../../evidence/2026-09-28-full-audit/home-134424-navigation-only.png)已确认 Map、Room、Food、Apps、Study progress、My Courses，以及底部 Home、Calendar、QR 图标、Notification、More 可见。首页完整内容和各目的页分别登记，入口可见不等于流程通过。实际动作、状态和未完成项见 [coverage.json](coverage.json)，截图清单见 [manifest.json](../../evidence/2026-09-28-full-audit/manifest.json)。
 
-原生 App 已包含 [2026-09-29 Room补查](room-recheck-20260929.md)，已有124个状态、265个动作记录。181个 `observed` 表示真实尝试或反馈被记录，也包括未建立成功结果的工具定位尝试；不等于所有动作通过，仍有84个 `not_attempted` 动作。
+原生 App 已包含 [2026-09-29 Room补查](room-recheck-20260929.md)及[2026-09-30七日选择](room-dates-20260930.md)，已有132个状态、268个动作记录。185个 `observed` 表示真实尝试或反馈被记录，也包括未建立成功结果的工具定位尝试；不等于所有动作通过，仍有83个 `not_attempted` 动作。
 
 - [More、天气与 Virtual Assistant](more-walkthrough.md)：天气图片展开/关闭和返回 More；虚拟助手详情、Disclaimer、Welcome 与返回；聊天输入仍未通过，没有发送消息。
 - [Calendar 与 Notification](calendar-notification-walkthrough.md)：校历筛选、公共事件详情/返回、视图切换、月份、通知空态、搜索与清除。个人课表不公开。
@@ -31,7 +31,7 @@ Room查询和AG206地图样例已归入正式台账：**96个Figma画板、3个�
 
 Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。Home的Notification、Calendar、Search、Menu及各自返回已补测；底部Calendar实际落在Week5。当前96个画板已登记Figma映射（另保留旧检查点和菜单裁片等历史源码），个人课程和日程使用明确的DEMO资料，二维码不可扫描。
 
-三份公开清单合计870个PNG文件（主清单836、查询回放8、地图回放26，含拼图），文件哈希和尺寸已校验；私人原始图不提交。图片数量不作为覆盖率或成功率。
+四份公开清单合计890个PNG文件（主清单836、查询回放8、地图回放26、七日选择20，含拼图），文件哈希和尺寸已校验；私人原始图不提交。图片数量不作为覆盖率或成功率。
 
 真实 [Figma Design 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)已新增 `01 · Observed UI`：四张 576×970 Room SVG 设计源码已导入为原生可编辑图层，并建立[当前 Room 样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1)。独立标签页已复验 **A 样例 → AG206 → Available → ALL** 四步。旧草稿已置于 `00 · Archive — initial AI draft`（原 `Page 1`），其三条旧连接记录保留为历史。
 
@@ -47,7 +47,7 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 
 [Home日期与返回](home-date-prototype-walkthrough.md)已验证Monday→Tuesday，以及My Class、Calendar、Menu、Search、Notification往返保留周二；既有功能区Calendar/Search返回已回归通过。Week/Notification Home当前使用Back，只覆盖实测Home来源，其它来源与直接起点行为未实现。[Home连续滚动](home-scroll-prototype-walkthrough.md)已在Monday/Tuesday两页实现并回放日期区与功能区之间的移动、中间位置和反向滚动；原生完整滚动边界未验证，范围由两段样例推导。[Apps返回栈](apps-return-prototype-walkthrough.md)已将分类改成同层切换，详情与登录逐层关闭；Tuesday完整分类/VRS链、Monday七个分类状态各自Back及历史Home往返均保留来源与滚动位置。[可见分类互跳](apps-category-prototype-walkthrough.md)已新增并实跑33个连接，VRS与Monday原滚动位置回归通过；完整分类条滚动、原生来源组合行为与独立Apps起点退出仍未完成；七个新增分类Back为基于已观察Apps返回行为的原型推广，未新增原生验证。Apps加载、Food平移地图及Home其它日期仍未运行；搜索输入/结果等内部控件仍待查。菜单已使用完整DEMO抽屉，紧急提示背景等仍有缺口，个人页面使用合成资料；具体边界见 [Figma节点与验证记录](figma-spec.md)。自由输入、其它日期、清空、Preview、地图、滚动及其余状态尚未全部连接，不能称Room或全应用完成。Agents免费每日额度用尽后没有付费；普通SVG导入和手动连线继续可用，总页数控制在三页以内。
 
-早期捕获问题及 14:36:37 UTC 的 Mac 锁屏已经恢复：15:45:15 UTC 起重新取得真实 App 截图，随后多条原生导航成功。旧锁屏记录保留为环境历史。2026-09-29首页日期批次重新检查时，Computer Use再次提示Mac锁定，用户回复恢复后仍未取得新原生状态；该环境阻碍单独登记为B-MAC-LOCKED-HOME-DATE，不归为PolyULife缺陷。Figma独立工作继续；全应用覆盖与原型完成仍未获验证。
+早期捕获问题及 14:36:37 UTC 的 Mac 锁屏已经恢复：15:45:15 UTC 起重新取得真实 App 截图，随后多条原生导航成功。旧锁屏记录保留为环境历史。2026-09-29首页日期批次重新检查时，Computer Use再次提示Mac锁定，用户回复恢复后仍未取得新原生状态；该环境阻碍单独登记为B-MAC-LOCKED-HOME-DATE，不归为PolyULife缺陷。2026-09-30通过全屏切换及退出恢复正常原生截图并完成Room实测，该阻碍已标为resolved，历史根因仍未知。Figma独立工作继续；全应用覆盖与原型完成仍未获验证。
 
 ## 观察循环
 
@@ -136,3 +136,5 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 2026-09-30连接复查：原生AX仍可读取首页，但截图仅返回倾斜缩略图，Window菜单选择当前窗口后仍未恢复正常图像；原因未确认，未新增原生状态或动作。Figma编辑器可读取本批七个画板，已有样例归档继续推进。
 
 [AG206地图样例回放](room-map-prototype-walkthrough.md)：Tuesday Home→Sunday ALL下滚→Location→放大代理→缩小代理→Back→Home已实际走通，初始/放大Back亦已验证。25张裁片保留一次初始底图重入缺失；重传同一PNG后初始地图三次重入可见。11个像素检查8等、3不等，五个列表返回及Home返回全部相等。地图仍为截图素材和方向键代理，完整可编辑地图、自由平移、真实缩放边界及外部交接未完成。
+
+[2026-09-30 Room七日实测](room-dates-20260930.md)：19张原生脱敏截图确认七日选择、筛选保持、日期条反向拖动、Today列表末行与反向返回。当前原生132状态/268动作，Figma仍96画板/228控件/36次运行；新增日期状态等待复现。全应用保持 `not_verified`。

@@ -442,6 +442,52 @@
         "E-ROOM-RECHECK-15",
         "E-ROOM-RECHECK-16"
       ]
+    },
+    {
+      "id": "SESSION-20260930-ROOM-DATES",
+      "started_at": "2026-09-29T20:01:59.588Z",
+      "documented_through": "2026-09-29T20:07:38.470Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone app; native UI via mcp__cua_repl",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "app_version_basis": "3.0.0 observed in live Home AX; archived step AX diffs do not contain a version line",
+        "login_state": "Existing signed-in session; credentials/settings unchanged",
+        "capture_size": [
+          576,
+          1082
+        ],
+        "room_crop_size": [
+          576,
+          1026
+        ],
+        "window_recovery": "AX full screen button thenctrl+super+f restored normal screenshot; root cause unknown"
+      },
+      "starting_state_id": "S-HOME",
+      "evidence_ids": [
+        "E-ROOM-DATES-00",
+        "E-ROOM-DATES-01",
+        "E-ROOM-DATES-02",
+        "E-ROOM-DATES-03",
+        "E-ROOM-DATES-04",
+        "E-ROOM-DATES-05",
+        "E-ROOM-DATES-06",
+        "E-ROOM-DATES-07",
+        "E-ROOM-DATES-08",
+        "E-ROOM-DATES-09",
+        "E-ROOM-DATES-10",
+        "E-ROOM-DATES-11",
+        "E-ROOM-DATES-12",
+        "E-ROOM-DATES-13",
+        "E-ROOM-DATES-14",
+        "E-ROOM-DATES-15",
+        "E-ROOM-DATES-16",
+        "E-ROOM-DATES-17",
+        "E-ROOM-DATES-18",
+        "E-ROOM-DATES-TRACE"
+      ]
     }
   ],
   "entry_points": [
@@ -762,7 +808,8 @@
       "visible_scope": "Cropped navigation region",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-HOME"
+        "E-HOME",
+        "E-ROOM-DATES-18"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -793,7 +840,8 @@
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
         "E-EMPTY",
-        "E-ROOM-RECHECK-01"
+        "E-ROOM-RECHECK-01",
+        "E-ROOM-DATES-00"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -970,12 +1018,17 @@
       "screenshot_evidence_ids": [
         "E-ALL",
         "E-ROOM-RECHECK-03",
-        "E-ROOM-RECHECK-04"
+        "E-ROOM-RECHECK-04",
+        "E-ROOM-DATES-02",
+        "E-ROOM-DATES-14",
+        "E-ROOM-DATES-17"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
         "A-ROOM-AVAILABLE",
-        "A-ROOM-DATE-SUN"
+        "A-ROOM-DATE-SUN",
+        "A-ROOM-SCROLL-LIST",
+        "A-ROOM-HOME-BACK"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -990,12 +1043,16 @@
       "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-AVAILABLE"
+        "E-AVAILABLE",
+        "E-ROOM-DATES-03",
+        "E-ROOM-DATES-13"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
         "A-ROOM-SLOT",
-        "A-ROOM-PREVIEW"
+        "A-ROOM-PREVIEW",
+        "A-ROOM-OTHER-DATES",
+        "A-ROOM-TODAY-ALL"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -1169,11 +1226,13 @@
       "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-SUNEMPTY"
+        "E-SUNEMPTY",
+        "E-ROOM-DATES-09"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
-        "A-ROOM-SUN-ALL"
+        "A-ROOM-SUN-ALL",
+        "A-ROOM-OTHER-DATES"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -3407,7 +3466,8 @@
       "visible_scope": "Observed 576x970 app content after removing112px macOS/window area",
       "preconditions": "Existing signed-in session; ordinary room query only",
       "screenshot_evidence_ids": [
-        "E-ROOM-RECHECK-02"
+        "E-ROOM-RECHECK-02",
+        "E-ROOM-DATES-01"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -3456,6 +3516,162 @@
       "remaining_uncertainties": [
         "Other inputs, dates, network states and native phone interaction remain unverified."
       ]
+    },
+    {
+      "id": "S-ROOM-DATE-THU-AVAILABLE",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "title": "Room Finder",
+      "description": "Thu01-Oct selected; Available retained, settled No available room. Brief selected-new-date/old-result view appeared before settling; not a saved timing measurement.",
+      "visible_scope": "576x1026 Room app crop after56px current window decoration removed",
+      "preconditions": "Existing signed-in session; AG206 historical September30 query/date sample",
+      "screenshot_evidence_ids": [
+        "E-ROOM-DATES-04"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-THU-ALL"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-DATE-THU-ALL",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "title": "Room Finder",
+      "description": "ALL retainsThu01-Oct and shows observed unavailable rows; complete list bounds not yet checked.",
+      "visible_scope": "576x1026 Room app crop after56px current window decoration removed",
+      "preconditions": "Existing signed-in session; AG206 historical September30 query/date sample",
+      "screenshot_evidence_ids": [
+        "E-ROOM-DATES-05"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-DATE-FRI-ALL",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "title": "Room Finder",
+      "description": "Fri02-Oct selected whileALL retained. Visible08:30-12:30 green; later visible slots red.",
+      "visible_scope": "576x1026 Room app crop after56px current window decoration removed",
+      "preconditions": "Existing signed-in session; AG206 historical September30 query/date sample",
+      "screenshot_evidence_ids": [
+        "E-ROOM-DATES-06"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-AVAILABLE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-DATE-FRI-AVAILABLE",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "title": "Room Finder",
+      "description": "Available retainsFri02-Oct: observed08:30 through12:30 half-hour slots plus21:30-22:00 and22:00-22:30.",
+      "visible_scope": "576x1026 Room app crop after56px current window decoration removed",
+      "preconditions": "Existing signed-in session; AG206 historical September30 query/date sample",
+      "screenshot_evidence_ids": [
+        "E-ROOM-DATES-07"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-DATE-SAT-AVAILABLE",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "title": "Room Finder",
+      "description": "Sat03-Oct selected; Available retained; six12:30-15:30 half-hour slots visible.",
+      "visible_scope": "576x1026 Room app crop after56px current window decoration removed",
+      "preconditions": "Existing signed-in session; AG206 historical September30 query/date sample",
+      "screenshot_evidence_ids": [
+        "E-ROOM-DATES-08"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-DATE-MON-AVAILABLE",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "title": "Room Finder",
+      "description": "Mon05-Oct selected; strip shifts to exposeTue06-Oct; Available retains four slots11:30-12:00,12:00-12:30,21:30-22:00,22:00-22:30.",
+      "visible_scope": "576x1026 Room app crop after56px current window decoration removed",
+      "preconditions": "Existing signed-in session; AG206 historical September30 query/date sample",
+      "screenshot_evidence_ids": [
+        "E-ROOM-DATES-10"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "title": "Room Finder",
+      "description": "Tue06-Oct selected; six slots08:30-09:00,09:00-09:30,11:30-12:00,12:00-12:30,21:30-22:00,22:00-22:30.",
+      "visible_scope": "576x1026 Room app crop after56px current window decoration removed",
+      "preconditions": "Existing signed-in session; AG206 historical September30 query/date sample",
+      "screenshot_evidence_ids": [
+        "E-ROOM-DATES-11",
+        "E-ROOM-DATES-12"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-DATE-DRAG",
+        "A-ROOM-OTHER-DATES"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "title": "Room Finder",
+      "description": "List scroll reveals finalcomplete21:30-22:00 and22:00-22:30 row; priorrow14:00-14:30 partlyclippedat top.",
+      "visible_scope": "576x1026 Room app crop after56px current window decoration removed",
+      "preconditions": "Existing signed-in session; AG206 historical September30 query/date sample",
+      "screenshot_evidence_ids": [
+        "E-ROOM-DATES-15",
+        "E-ROOM-DATES-16"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-LIST-BOTTOM",
+        "A-ROOM-LIST-REVERSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
+      ]
     }
   ],
   "actions": [
@@ -3484,13 +3700,24 @@
           "evidence_ids": [
             "E-ROOM-RECHECK-01"
           ]
+        },
+        {
+          "at": "2026-09-29T20:01:59.588Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-HOME",
+          "observed_feedback": "Native full-screen entry then exit restored regular screenshots. Room entered through fresh AX Home Room. Today30-Sep; current window decoration differs from older112px crop.",
+          "target_state_id": "S-EMPTY",
+          "evidence_ids": [
+            "E-ROOM-DATES-00"
+          ]
         }
       ],
       "target_state_id": "S-EMPTY",
       "evidence_ids": [
         "E-HOME",
         "E-EMPTY",
-        "E-ROOM-RECHECK-01"
+        "E-ROOM-RECHECK-01",
+        "E-ROOM-DATES-00"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -3746,6 +3973,16 @@
           "evidence_ids": [
             "E-ROOM-RECHECK-03"
           ]
+        },
+        {
+          "at": "2026-09-29T20:02:46.174Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-QUERY-AG206",
+          "observed_feedback": "Coordinate-selected visible AG206 suggestion; stable30-Sep Today ALL results, differs from historical29-Sep availability.",
+          "target_state_id": "S-ALL",
+          "evidence_ids": [
+            "E-ROOM-DATES-02"
+          ]
         }
       ],
       "target_state_id": "S-ALL",
@@ -3753,7 +3990,8 @@
         "E-SUGGESTION",
         "E-ALL",
         "E-ROOM-RECHECK-03",
-        "E-ROOM-RECHECK-04"
+        "E-ROOM-RECHECK-04",
+        "E-ROOM-DATES-02"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -3773,11 +4011,33 @@
           "evidence_ids": [
             "E-AVAILABLE"
           ]
+        },
+        {
+          "at": "2026-09-29T20:03:12.188Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ALL",
+          "observed_feedback": "Native Today30-Sep available slots:11:30-12:00,14:00-14:30,21:30-22:00,22:00-22:30.",
+          "target_state_id": "S-AVAILABLE",
+          "evidence_ids": [
+            "E-ROOM-DATES-03"
+          ]
+        },
+        {
+          "at": "2026-09-29T20:04:56.193Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-FRI-ALL",
+          "observed_feedback": "Available retainsFri02-Oct: observed08:30 through12:30 half-hour slots plus21:30-22:00 and22:00-22:30.",
+          "target_state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+          "evidence_ids": [
+            "E-ROOM-DATES-07"
+          ]
         }
       ],
       "target_state_id": "S-AVAILABLE",
       "evidence_ids": [
-        "E-AVAILABLE"
+        "E-AVAILABLE",
+        "E-ROOM-DATES-03",
+        "E-ROOM-DATES-07"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -3997,11 +4257,22 @@
           "evidence_ids": [
             "E-DATEDRAG"
           ]
+        },
+        {
+          "at": "2026-09-29T20:06:08.034Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+          "observed_feedback": "Reverse strip drag revealsToday30-Sep while selectedTue06-Oct becomes offscreen; result remains06-Oct andAvailable. No selection change.",
+          "target_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+          "evidence_ids": [
+            "E-ROOM-DATES-12"
+          ]
         }
       ],
       "target_state_id": "S-DATEDRAG",
       "evidence_ids": [
-        "E-DATEDRAG"
+        "E-DATEDRAG",
+        "E-ROOM-DATES-12"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -4455,14 +4726,93 @@
       "from_state_id": "S-DATEDRAG",
       "control": "Other dates and date-strip bounds",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-29T20:04:02.647Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-AVAILABLE",
+          "observed_feedback": "Thu01-Oct selected; Available retained, settled No available room. Brief selected-new-date/old-result view appeared before settling; not a saved timing measurement.",
+          "target_state_id": "S-ROOM-DATE-THU-AVAILABLE",
+          "evidence_ids": [
+            "E-ROOM-DATES-04"
+          ]
+        },
+        {
+          "at": "2026-09-29T20:04:44.213Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-THU-ALL",
+          "observed_feedback": "Fri02-Oct selected whileALL retained. Visible08:30-12:30 green; later visible slots red.",
+          "target_state_id": "S-ROOM-DATE-FRI-ALL",
+          "evidence_ids": [
+            "E-ROOM-DATES-06"
+          ]
+        },
+        {
+          "at": "2026-09-29T20:05:10.936Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+          "observed_feedback": "Sat03-Oct selected; Available retained; six12:30-15:30 half-hour slots visible.",
+          "target_state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+          "evidence_ids": [
+            "E-ROOM-DATES-08"
+          ]
+        },
+        {
+          "at": "2026-09-29T20:05:21.103Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+          "observed_feedback": "Sun04-Oct selected; Available retained; No available room, date strip remains30-Sep context.",
+          "target_state_id": "S-SUNEMPTY",
+          "evidence_ids": [
+            "E-ROOM-DATES-09"
+          ]
+        },
+        {
+          "at": "2026-09-29T20:05:32.028Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-SUNEMPTY",
+          "observed_feedback": "Mon05-Oct selected; strip shifts to exposeTue06-Oct; Available retains four slots11:30-12:00,12:00-12:30,21:30-22:00,22:00-22:30.",
+          "target_state_id": "S-ROOM-DATE-MON-AVAILABLE",
+          "evidence_ids": [
+            "E-ROOM-DATES-10"
+          ]
+        },
+        {
+          "at": "2026-09-29T20:05:58.335Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-MON-AVAILABLE",
+          "observed_feedback": "Tue06-Oct selected; six slots08:30-09:00,09:00-09:30,11:30-12:00,12:00-12:30,21:30-22:00,22:00-22:30.",
+          "target_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+          "evidence_ids": [
+            "E-ROOM-DATES-11"
+          ]
+        },
+        {
+          "at": "2026-09-29T20:06:21.572Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+          "observed_feedback": "SelectToday30-Sep restoresfour available slots; selecteddate andfilterconfirmed.",
+          "target_state_id": "S-AVAILABLE",
+          "evidence_ids": [
+            "E-ROOM-DATES-13"
+          ]
+        }
+      ],
       "target_state_id": null,
-      "evidence_ids": [],
+      "evidence_ids": [
+        "E-ROOM-DATES-04",
+        "E-ROOM-DATES-06",
+        "E-ROOM-DATES-08",
+        "E-ROOM-DATES-09",
+        "E-ROOM-DATES-10",
+        "E-ROOM-DATES-11",
+        "E-ROOM-DATES-13"
+      ],
       "return_path": null,
       "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
       "blockers": [],
-      "pending_reason": "Date range limits and every remaining date not tested."
+      "pending_reason": "Seven September30 date controls now selected; full date/filter combinations, future rolling windows and all room/date bounds remain unverified."
     },
     {
       "id": "A-ROOM-OTHER-QUERY",
@@ -4500,13 +4850,24 @@
           "evidence_ids": [
             "E-ROOM-RECHECK-13"
           ]
+        },
+        {
+          "at": "2026-09-29T20:02:16.795Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-EMPTY",
+          "observed_feedback": "AX setValue AG206; visible suggestion. Input proxy method documented.",
+          "target_state_id": "S-ROOM-QUERY-AG206",
+          "evidence_ids": [
+            "E-ROOM-DATES-01"
+          ]
         }
       ],
       "target_state_id": null,
       "evidence_ids": [
         "E-ROOM-RECHECK-02",
         "E-ROOM-RECHECK-12",
-        "E-ROOM-RECHECK-13"
+        "E-ROOM-RECHECK-13",
+        "E-ROOM-DATES-01"
       ],
       "return_path": null,
       "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
@@ -4530,11 +4891,22 @@
           "evidence_ids": [
             "E-ROOM-RECHECK-11"
           ]
+        },
+        {
+          "at": "2026-09-29T20:07:10.547Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+          "observed_feedback": "Furtherdownscrollmakesnovisiblerowprogress; final22:00-22:30fullyvisible. ScopedTodayboundssampleonly.",
+          "target_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+          "evidence_ids": [
+            "E-ROOM-DATES-16"
+          ]
         }
       ],
       "target_state_id": null,
       "evidence_ids": [
-        "E-ROOM-RECHECK-11"
+        "E-ROOM-RECHECK-11",
+        "E-ROOM-DATES-16"
       ],
       "return_path": null,
       "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
@@ -4581,13 +4953,24 @@
           "evidence_ids": [
             "E-ROOM-RECHECK-06"
           ]
+        },
+        {
+          "at": "2026-09-29T20:06:57.488Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ALL",
+          "observed_feedback": "List scroll reveals finalcomplete21:30-22:00 and22:00-22:30 row; priorrow14:00-14:30 partlyclippedat top.",
+          "target_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+          "evidence_ids": [
+            "E-ROOM-DATES-15"
+          ]
         }
       ],
       "target_state_id": "S-SUNSCROLLED",
       "evidence_ids": [
         "E-SUNSCROLLED",
         "E-SUNSCROLLED2",
-        "E-ROOM-RECHECK-06"
+        "E-ROOM-RECHECK-06",
+        "E-ROOM-DATES-15"
       ],
       "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -4777,11 +5160,22 @@
           "evidence_ids": [
             "E-ROOM-TRACE"
           ]
+        },
+        {
+          "at": "2026-09-29T20:07:38.470Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ALL",
+          "observed_feedback": "NativeRoomBackreturnsHome. Publicevidencewillretainnavigationcroponly; identity/schedulewithheld.",
+          "target_state_id": "S-HOME",
+          "evidence_ids": [
+            "E-ROOM-DATES-18"
+          ]
         }
       ],
       "target_state_id": "S-HOME",
       "evidence_ids": [
-        "E-ROOM-TRACE"
+        "E-ROOM-TRACE",
+        "E-ROOM-DATES-18"
       ],
       "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -9666,6 +10060,84 @@
       ],
       "return_path": null,
       "authorization": "Ordinary reversible read-only navigation. No calls, logout, preference changes or business submissions.",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-THU-ALL",
+      "from_state_id": "S-ROOM-DATE-THU-AVAILABLE",
+      "control": "ALL filter on Thursday",
+      "input_summary": null,
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-29T20:04:30.246Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-THU-AVAILABLE",
+          "observed_feedback": "ALL retainsThu01-Oct and shows observed unavailable rows; complete list bounds not yet checked.",
+          "target_state_id": "S-ROOM-DATE-THU-ALL",
+          "evidence_ids": [
+            "E-ROOM-DATES-05"
+          ]
+        }
+      ],
+      "target_state_id": "S-ROOM-DATE-THU-ALL",
+      "evidence_ids": [
+        "E-ROOM-DATES-05"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only Room analysis and reversible navigation",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-TODAY-ALL",
+      "from_state_id": "S-AVAILABLE",
+      "control": "ALL filter after returning to Today",
+      "input_summary": null,
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-29T20:06:26.638Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-AVAILABLE",
+          "observed_feedback": "ALL afterreturnretainsToday30-Sep.",
+          "target_state_id": "S-ALL",
+          "evidence_ids": [
+            "E-ROOM-DATES-14"
+          ]
+        }
+      ],
+      "target_state_id": "S-ALL",
+      "evidence_ids": [
+        "E-ROOM-DATES-14"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only Room analysis and reversible navigation",
+      "blockers": []
+    },
+    {
+      "id": "A-ROOM-LIST-REVERSE",
+      "from_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "control": "Scroll Today ALL list back upward",
+      "input_summary": null,
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-29T20:07:25.880Z",
+          "session_id": "SESSION-20260930-ROOM-DATES",
+          "from_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+          "observed_feedback": "Upwardscrollrestores08:30topwithToday/ALL retained.",
+          "target_state_id": "S-ALL",
+          "evidence_ids": [
+            "E-ROOM-DATES-17"
+          ]
+        }
+      ],
+      "target_state_id": "S-ALL",
+      "evidence_ids": [
+        "E-ROOM-DATES-17"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only Room analysis and reversible navigation",
       "blockers": []
     }
   ],
@@ -33364,6 +33836,423 @@
       ],
       "action_ids": [],
       "source": "Actual Figma Present replay of six map controls from Tuesday Home. Initial-image failure retained; same PNG uploaded and three initial reentries visible. 25 captures / 11 comparisons (8 equal,3 unequal). No native executions added."
+    },
+    {
+      "id": "E-ROOM-DATES-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/00-empty-today.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:01:59.588Z",
+      "sha256": "d76c4db8b896670e87a3aea0dc1992bb8962bac74b25c1cadca39a4965e90a9a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/01-ag206-suggestion.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:02:16.795Z",
+      "sha256": "b5d5f31435173ef50dce2cd4b19518e15af55eafee0c3b7eaf2a75703c6a928b",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-AG206"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-QUERY"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/02-today-all.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:02:46.174Z",
+      "sha256": "8b6466c004226592f214a1d3235d55887514370e0a7777479bb64a077cd48a7e",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-SUGGESTION"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/03-today-available.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:03:12.188Z",
+      "sha256": "6be98b3e4ac0df7959c3a181c4e8168bee67b5aafe4141b6fd60e03ff44e045a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-AVAILABLE"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/04-thursday-available.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:04:02.647Z",
+      "sha256": "44a5901571155a40861ba71c9bd24f0190cd00a56626955758d702748011a82c",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-THU-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/05-thursday-all.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:04:30.246Z",
+      "sha256": "5fbf355a2d7a10f64ecfcc649648974f8a7a7a896d40b7eef9f973db44c99926",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-THU-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-THU-ALL"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/06-friday-all.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:04:44.213Z",
+      "sha256": "81fe4ed31fafa8caf5a7b5ed1d80216b83c322e1dffb0fbc598c6dba0dd15f6a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-FRI-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/07-friday-available.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:04:56.193Z",
+      "sha256": "a741a4442a2ab4a54efaa8662d8613ac66be50ac8ec0e02505c326bcda062b04",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-FRI-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-AVAILABLE"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/08-saturday-available.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:05:10.936Z",
+      "sha256": "1cc2774abd38589afb203855b274724ea5f38f3c7f5b8ee0035f5caf370152f9",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-SAT-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/09-sunday-available.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:05:21.103Z",
+      "sha256": "dd10da740feec6e0d13723f7d84e310245f9b07ba0d1124eaeb2ac2e8da3fa5b",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-SUNEMPTY"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/10-monday-available.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:05:32.028Z",
+      "sha256": "a6fc501bab1717cb36eb3579beab2c4354ba060c4f21f9ebd8c237848fd17883",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-MON-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/11-tuesday-available.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:05:58.335Z",
+      "sha256": "593809f06832c0e1dffa0ad404b9b5d7f0d81ed7fe5b12a4ae11629d04bc3fba",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TUE-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/12-date-strip-reversed.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:06:08.034Z",
+      "sha256": "1c6da98492a955ea7bb8f485582f6937ec4ed50694b4e439214156a8aff8c560",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TUE-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-DRAG"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/13-today-available-return.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:06:21.572Z",
+      "sha256": "530fcf9680321b68e5634b440d9456ba30d4f0658614f23dd246b21bb248d1d6",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/14-today-all-return.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:06:26.638Z",
+      "sha256": "dca3d6cdb7a4deecc11f6e97a5cfe51b436b1be312f13bceb219678f9490ea82",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-TODAY-ALL"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/15-today-all-bottom.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:06:57.488Z",
+      "sha256": "ab4feb7f2ee7fe4e37984c04fd6a087ed95e21ff5d524ff4709a57df40ed380f",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TODAY-BOTTOM"
+      ],
+      "action_ids": [
+        "A-ROOM-SCROLL-LIST"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/16-today-all-bottom-recheck.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:07:10.547Z",
+      "sha256": "ff5cf0b3f4dffb1a40c68bc3272b411d462d89612e5f8a63d09f3a1f0bbc064b",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TODAY-BOTTOM"
+      ],
+      "action_ids": [
+        "A-ROOM-LIST-BOTTOM"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/17-today-all-top-return.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:07:25.880Z",
+      "sha256": "cf32a2e66b1151887e001ea41d1bd0a89b6d2239d82fd99c37443207180fa03a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-LIST-REVERSE"
+      ],
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates/18-home-return-navigation.png",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "captured_at": "2026-09-29T20:07:38.470Z",
+      "sha256": "6d4975f434f38d53ddb5667c072f9dd74a70d33d2c7bf412303c38f8c0391d16",
+      "dimensions": [
+        576,
+        102
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-ROOM-HOME-BACK"
+      ],
+      "redaction": "Home bottom navigation only; all identity and schedule content excluded.",
+      "source": "Native PolyULife screenshot through Computer Use. Raw capture and AX remain ignored."
+    },
+    {
+      "id": "E-ROOM-DATES-TRACE",
+      "type": "interaction_trace",
+      "path": "room-dates-20260930.md",
+      "session_id": "SESSION-20260930-ROOM-DATES",
+      "state_ids": [
+        "S-EMPTY",
+        "S-ROOM-QUERY-AG206",
+        "S-ALL",
+        "S-AVAILABLE",
+        "S-ROOM-DATE-THU-AVAILABLE",
+        "S-ROOM-DATE-THU-ALL",
+        "S-ROOM-DATE-FRI-ALL",
+        "S-ROOM-DATE-FRI-AVAILABLE",
+        "S-ROOM-DATE-SAT-AVAILABLE",
+        "S-SUNEMPTY",
+        "S-ROOM-DATE-MON-AVAILABLE",
+        "S-ROOM-DATE-TUE-AVAILABLE",
+        "S-ROOM-DATE-TODAY-BOTTOM",
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM",
+        "A-ROOM-OTHER-QUERY",
+        "A-ROOM-SUGGESTION",
+        "A-ROOM-AVAILABLE",
+        "A-ROOM-OTHER-DATES",
+        "A-ROOM-THU-ALL",
+        "A-ROOM-DATE-DRAG",
+        "A-ROOM-TODAY-ALL",
+        "A-ROOM-SCROLL-LIST",
+        "A-ROOM-LIST-BOTTOM",
+        "A-ROOM-LIST-REVERSE",
+        "A-ROOM-HOME-BACK"
+      ],
+      "source": "Nineteen actual native captures after window recovery; seven date selections, filtering, reverse date drag, Today list bottom/reverse and Home return. Not Figma replay or human evaluation."
     }
   ],
   "findings": [
@@ -59893,11 +60782,12 @@
         "S-PHOTO2",
         "S-SUNALL"
       ],
-      "reason": "Complete pending Room actions, Preview content/PDF and browser menu branches, list/date bounds, and remaining AG206 map controls/handoff. September29 query samples now reconstructed and replayed; arbitrary input, remaining dates/returns/map and full fidelity still pending. AG206 map zoom-pair and all three Back controls now sampled from Tuesday Home; remaining native map controls/zoom bounds/external handoff unverified.",
+      "reason": "Complete pending Room actions, Preview content/PDF and browser menu branches, list/date bounds, and remaining AG206 map controls/handoff. September29 query samples now reconstructed and replayed; arbitrary input, remaining dates/returns/map and full fidelity still pending. AG206 map zoom-pair and all three Back controls now sampled from Tuesday Home; remaining native map controls/zoom bounds/external handoff unverified. September30 seven-date/filter-preservation and Today complete last row/reverse now observed; complete combinations and other room/list/map/Preview bounds remain pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-ROOM-QUERY-PROTO-TRACE",
-        "E-ROOM-MAP-PROTO-TRACE"
+        "E-ROOM-MAP-PROTO-TRACE",
+        "E-ROOM-DATES-TRACE"
       ]
     },
     {
@@ -60090,6 +60980,24 @@
         "E-HOME-ENTRY-RECHECK-TRACE",
         "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
       ]
+    },
+    {
+      "id": "Q-FIGMA-ROOM-DATES-20260930",
+      "state_ids": [
+        "S-ROOM-DATE-THU-AVAILABLE",
+        "S-ROOM-DATE-THU-ALL",
+        "S-ROOM-DATE-FRI-ALL",
+        "S-ROOM-DATE-FRI-AVAILABLE",
+        "S-ROOM-DATE-SAT-AVAILABLE",
+        "S-ROOM-DATE-MON-AVAILABLE",
+        "S-ROOM-DATE-TUE-AVAILABLE",
+        "S-ROOM-DATE-TODAY-BOTTOM"
+      ],
+      "reason": "Reconstruct newly observedSeptember30 date/filter/list variants in576x1026. Existing historical Room prototypes do not implement these new current samples.",
+      "status": "in_progress",
+      "resolution_refs": [
+        "E-ROOM-DATES-TRACE"
+      ]
     }
   ],
   "blockers": [
@@ -60133,7 +61041,7 @@
     },
     {
       "id": "B-MAC-LOCKED-HOME-DATE",
-      "status": "open",
+      "status": "resolved",
       "description": "Current native Computer Use recheck still reports Mac locked after user recovery message; no new native state obtained.",
       "missing_dependency": "Manual unlock of the Mac hosting Codex and native app",
       "affected_scope": "Further native UI observation; Figma editing remains available.",
@@ -60142,7 +61050,12 @@
         "E-HOME-DATE-PROTOTYPE-TRACE",
         "E-APPS-STACK-PROTOTYPE-TRACE"
       ],
-      "last_recheck_note": "After the latest user recovery reply, native getAXStateAndScreenshot again returned Mac locked; manual unlock requested. Independent Apps Figma editing/replay continued."
+      "last_recheck_note": "After the latest user recovery reply, native getAXStateAndScreenshot again returned Mac locked; manual unlock requested. Independent Apps Figma editing/replay continued.",
+      "resolved_by": "Current normal native Room screenshots and navigation after fullscreen/exit; does not establish historical root cause.",
+      "resolution_evidence_ids": [
+        "E-ROOM-DATES-TRACE",
+        "E-ROOM-DATES-00"
+      ]
     }
   ],
   "closure_reviews": [
