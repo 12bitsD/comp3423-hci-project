@@ -52,16 +52,40 @@
       "target": "339:41",
       "action_id": "A-ROOM-MAP-DECREMENT",
       "input_proxy": "ArrowDown substitutes native AX Slider Decrement; not observed native keyboard behavior"
+    },
+    {
+      "source": "338:19",
+      "trigger": "338:19",
+      "name": "Observed zoom increment",
+      "event": "Key (↑)",
+      "behavior": "Swap overlay",
+      "target": "339:30",
+      "action_id": "A-ROOM-MAP-INCREMENT",
+      "input_proxy": "ArrowUp substitutes native AX Slider Increment; not observed native keyboard behavior"
+    },
+    {
+      "source": "338:19",
+      "trigger": "338:25",
+      "name": "Initial map Back",
+      "event": "On click",
+      "behavior": "Close overlay",
+      "target": null,
+      "action_id": null
+    },
+    {
+      "source": "327:202",
+      "trigger": "327:251",
+      "name": "Sunday ALL location pin",
+      "event": "On click",
+      "behavior": "Open overlay",
+      "target": "338:19",
+      "action_id": "A-ROOM-MAP-PIN"
     }
   ],
   "pending": [
-    "Initial map Back close overlay",
-    "Initial map ArrowUp swap to 339:30; native AX Increment input proxy",
-    "Sunday ALL 327:202 Location open overlay 338:19",
-    "Remove auto-created Flow 3 after inbound wiring",
-    "Initial map fill upload attempt did not complete; inspect image in actual Present before deciding whether retry is needed",
-    "Replay Sunday scrolled list → map → zoom in → zoom out → Sunday ALL → Home",
-    "Archive replay evidence and integrate verified mappings into coverage.json"
+    "Verify initial map image fill in Present; prior extra upload failed",
+    "Replay all six configured controls from Tuesday Home; current attempts failed at Room entry amid viewport/input inconsistency",
+    "Archive successful replay and integrate mappings into coverage.json"
   ],
   "editor_evidence": {
     "path": "assets/room-map-editor-checkpoint.png",
@@ -78,5 +102,8 @@
     "No free pan, live data, exact native slider, Google Maps handoff or zoom limits",
     "ArrowDown is a prototype proxy; native keyboard support not observed",
     "Browser click targeting inconsistent with observed state; layer selection and file chooser attempts failed; fresh background tab permits configuration readback but full replay not completed"
-  ]
+  ],
+  "flow_cleanup": "339:30 temporary Flow 3 removed via UI, readback Add flow starting point; initial338:19 has no flow after incoming connection.",
+  "native_return_update": "SESSION-20260929-ROOM-RECHECK now confirms Sunday ALL list offset retained after map zoom pair and Back.",
+  "replay_status": "attempted_not_passed"
 }

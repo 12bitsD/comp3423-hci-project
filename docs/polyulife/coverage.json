@@ -410,6 +410,38 @@
         "E-MENU-N-25",
         "E-MENU-RECHECK-TRACE"
       ]
+    },
+    {
+      "id": "SESSION-20260929-ROOM-RECHECK",
+      "started_at": "2026-09-29T03:13:58.286Z",
+      "documented_through": "2026-09-29T03:20:03.953Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone app; actual UI via mcp__cua_repl",
+        "app_version_last_known": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "login_state": "Existing signed-in session; no credentials/settings changed"
+      },
+      "starting_state_id": "S-HOME",
+      "evidence_ids": [
+        "E-ROOM-RECHECK-01",
+        "E-ROOM-RECHECK-02",
+        "E-ROOM-RECHECK-03",
+        "E-ROOM-RECHECK-04",
+        "E-ROOM-RECHECK-05",
+        "E-ROOM-RECHECK-06",
+        "E-ROOM-RECHECK-07",
+        "E-ROOM-RECHECK-08",
+        "E-ROOM-RECHECK-09",
+        "E-ROOM-RECHECK-10",
+        "E-ROOM-RECHECK-11",
+        "E-ROOM-RECHECK-12",
+        "E-ROOM-RECHECK-13",
+        "E-ROOM-RECHECK-14",
+        "E-ROOM-RECHECK-15",
+        "E-ROOM-RECHECK-16"
+      ]
     }
   ],
   "entry_points": [
@@ -760,11 +792,13 @@
       "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-EMPTY"
+        "E-EMPTY",
+        "E-ROOM-RECHECK-01"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
-        "A-ROOM-PQ-INPUT"
+        "A-ROOM-PQ-INPUT",
+        "A-ROOM-OTHER-QUERY"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -874,7 +908,8 @@
       "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-CLEARED"
+        "E-CLEARED",
+        "E-ROOM-RECHECK-15"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -893,7 +928,8 @@
       "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-EMPTYQUERY"
+        "E-EMPTYQUERY",
+        "E-ROOM-RECHECK-16"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -932,11 +968,14 @@
       "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-ALL"
+        "E-ALL",
+        "E-ROOM-RECHECK-03",
+        "E-ROOM-RECHECK-04"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
-        "A-ROOM-AVAILABLE"
+        "A-ROOM-AVAILABLE",
+        "A-ROOM-DATE-SUN"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -1149,7 +1188,8 @@
       "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-SUNALL"
+        "E-SUNALL",
+        "E-ROOM-RECHECK-05"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -1169,7 +1209,8 @@
       "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
       "screenshot_evidence_ids": [
         "E-SUNSCROLLED",
-        "E-SUNSCROLLED2"
+        "E-SUNSCROLLED2",
+        "E-ROOM-RECHECK-06"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -1189,7 +1230,8 @@
       "visible_scope": "Captured app content viewport; map/list extent is not fully reviewed",
       "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
       "screenshot_evidence_ids": [
-        "E-MAP"
+        "E-MAP",
+        "E-ROOM-RECHECK-07"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -1209,7 +1251,8 @@
       "visible_scope": "Captured app content viewport; map/list extent is not fully reviewed",
       "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
       "screenshot_evidence_ids": [
-        "E-MAPZOOM"
+        "E-MAPZOOM",
+        "E-ROOM-RECHECK-08"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -1228,7 +1271,8 @@
       "visible_scope": "Captured app content viewport; map/list extent is not fully reviewed",
       "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
       "screenshot_evidence_ids": [
-        "E-MAPOUT"
+        "E-MAPOUT",
+        "E-ROOM-RECHECK-09"
       ],
       "ax_evidence_ids": [],
       "action_ids": [
@@ -1244,15 +1288,20 @@
       "id": "S-MAPRETURN",
       "session_id": "SESSION-20260928-ROOM",
       "title": "Room Finder",
-      "description": "After map Back, AX confirms Room Finder retains Sun 04-Oct and ALL. No distinct return screenshot is stored.",
-      "visible_scope": "AX-confirmed return; separate screenshot pending",
+      "description": "After map Back, Sun04-Oct and ALL are retained. The2026-09-29 recheck screenshot additionally confirms the same visible list offset after one AX Increment/Decrement pair.",
+      "visible_scope": "AX and2026-09-29 screenshot-confirmed return; first complete visible row14:30, next row beneath21:30 remains clipped. Full-screen pixel identity and other return contexts not verified.",
       "preconditions": "Existing signed-in session; AG206 result on Sun 04-Oct with ALL selected",
-      "screenshot_evidence_ids": [],
+      "screenshot_evidence_ids": [
+        "E-ROOM-RECHECK-10",
+        "E-ROOM-RECHECK-11"
+      ],
       "ax_evidence_ids": [
         "E-ROOM-TRACE"
       ],
       "action_ids": [
-        "A-ROOM-HOME-BACK"
+        "A-ROOM-HOME-BACK",
+        "A-ROOM-LIST-BOTTOM",
+        "A-ROOM-OTHER-QUERY"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -3349,6 +3398,64 @@
       "remaining_uncertainties": [
         "Platform differences, remaining controls and full app scope remain unverified."
       ]
+    },
+    {
+      "id": "S-ROOM-QUERY-AG206",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "title": "Room Finder",
+      "description": "AG206 entered using AX setValue; matching suggestion visible, initial instructions still displayed.",
+      "visible_scope": "Observed 576x970 app content after removing112px macOS/window area",
+      "preconditions": "Existing signed-in session; ordinary room query only",
+      "screenshot_evidence_ids": [
+        "E-ROOM-RECHECK-02"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-SUGGESTION"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Other inputs, dates, network states and native phone interaction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-QUERY-DIRTY",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "title": "Room Finder",
+      "description": "ZZZZ9999 entered while prior AG206 Sunday ALL results and list offset remain visible before Search.",
+      "visible_scope": "Observed 576x970 app content after removing112px macOS/window area",
+      "preconditions": "Existing signed-in session; ordinary room query only",
+      "screenshot_evidence_ids": [
+        "E-ROOM-RECHECK-12"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-OTHER-QUERY"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Other inputs, dates, network states and native phone interaction remain unverified."
+      ]
+    },
+    {
+      "id": "S-ROOM-QUERY-NONE",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "title": "Room Finder",
+      "description": "Searching ZZZZ9999 on Sunday produces No room found / Please search another room.",
+      "visible_scope": "Observed 576x970 app content after removing112px macOS/window area",
+      "preconditions": "Existing signed-in session; ordinary room query only",
+      "screenshot_evidence_ids": [
+        "E-ROOM-RECHECK-13",
+        "E-ROOM-RECHECK-14"
+      ],
+      "ax_evidence_ids": [],
+      "action_ids": [
+        "A-ROOM-CLEAR"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Other inputs, dates, network states and native phone interaction remain unverified."
+      ]
     }
   ],
   "actions": [
@@ -3367,12 +3474,23 @@
             "E-HOME",
             "E-EMPTY"
           ]
+        },
+        {
+          "at": "2026-09-29T03:13:58.286Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-HOME",
+          "observed_feedback": "Room reopened from Home with Today29-Sep and empty query.",
+          "target_state_id": "S-EMPTY",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-01"
+          ]
         }
       ],
       "target_state_id": "S-EMPTY",
       "evidence_ids": [
         "E-HOME",
-        "E-EMPTY"
+        "E-EMPTY",
+        "E-ROOM-RECHECK-01"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -3512,11 +3630,33 @@
           "evidence_ids": [
             "E-CLEARED"
           ]
+        },
+        {
+          "at": "2026-09-29T03:19:19.348Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-ROOM-QUERY-NONE",
+          "observed_feedback": "Coordinate clear attempt after dismissing text context menu leaves query unchanged; targeting/focus failure retained.",
+          "target_state_id": "S-ROOM-QUERY-NONE",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-14"
+          ]
+        },
+        {
+          "at": "2026-09-29T03:20:02.691Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-ROOM-QUERY-NONE",
+          "observed_feedback": "Fresh AX clear element click succeeds: field empty; prior No room found body remains; Sun stays selected.",
+          "target_state_id": "S-CLEARED",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-15"
+          ]
         }
       ],
       "target_state_id": "S-CLEARED",
       "evidence_ids": [
-        "E-CLEARED"
+        "E-CLEARED",
+        "E-ROOM-RECHECK-14",
+        "E-ROOM-RECHECK-15"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -3536,11 +3676,22 @@
           "evidence_ids": [
             "E-EMPTYQUERY"
           ]
+        },
+        {
+          "at": "2026-09-29T03:20:03.953Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-CLEARED",
+          "observed_feedback": "Search with empty input restores Find an available classroom / Enter room number to begin search; Sun remains selected.",
+          "target_state_id": "S-EMPTYQUERY",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-16"
+          ]
         }
       ],
       "target_state_id": "S-EMPTYQUERY",
       "evidence_ids": [
-        "E-EMPTYQUERY"
+        "E-EMPTYQUERY",
+        "E-ROOM-RECHECK-16"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -3585,12 +3736,24 @@
             "E-SUGGESTION",
             "E-ALL"
           ]
+        },
+        {
+          "at": "2026-09-29T03:15:42.569Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-ROOM-QUERY-AG206",
+          "observed_feedback": "AX suggestion click did not dismiss popup; coordinate correction selected AG206. Saved screenshot has already settled to ALL results, not a loading frame.",
+          "target_state_id": "S-ALL",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-03"
+          ]
         }
       ],
       "target_state_id": "S-ALL",
       "evidence_ids": [
         "E-SUGGESTION",
-        "E-ALL"
+        "E-ALL",
+        "E-ROOM-RECHECK-03",
+        "E-ROOM-RECHECK-04"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -3859,12 +4022,23 @@
             "E-SUNTRANSITION",
             "E-SUNEMPTY"
           ]
+        },
+        {
+          "at": "2026-09-29T03:16:36.525Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-ALL",
+          "observed_feedback": "Direct Today ALL→Sun keeps ALL. Date strip automatically shifts to show Sun and Mon.",
+          "target_state_id": "S-SUNALL",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-05"
+          ]
         }
       ],
       "target_state_id": "S-SUNEMPTY",
       "evidence_ids": [
         "E-SUNTRANSITION",
-        "E-SUNEMPTY"
+        "E-SUNEMPTY",
+        "E-ROOM-RECHECK-05"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -4295,28 +4469,78 @@
       "from_state_id": "S-EMPTYQUERY",
       "control": "Room query variants",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-29T03:14:48.413Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-EMPTY",
+          "observed_feedback": "Plain click/typeText had no visible effect; AX setValue AG206 succeeded. Saved screenshot shows AG206 suggestion and initial instructions. Input method difference retained.",
+          "target_state_id": "S-ROOM-QUERY-AG206",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-02"
+          ]
+        },
+        {
+          "at": "2026-09-29T03:18:36.162Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-MAPRETURN",
+          "observed_feedback": "AX setValue ZZZZ9999 changes input while old AG206 Sunday ALL scrolled results remain.",
+          "target_state_id": "S-ROOM-QUERY-DIRTY",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-12"
+          ]
+        },
+        {
+          "at": "2026-09-29T03:18:48.842Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-ROOM-QUERY-DIRTY",
+          "observed_feedback": "Explicit Search with ZZZZ9999 replaces old result with No room found / Please search another room.",
+          "target_state_id": "S-ROOM-QUERY-NONE",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-13"
+          ]
+        }
+      ],
       "target_state_id": null,
-      "evidence_ids": [],
+      "evidence_ids": [
+        "E-ROOM-RECHECK-02",
+        "E-ROOM-RECHECK-12",
+        "E-ROOM-RECHECK-13"
+      ],
       "return_path": null,
       "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
       "blockers": [],
-      "pending_reason": "Case, whitespace, invalid symbols, other room matches and no-network state not tested."
+      "pending_reason": "AG206 full query and ZZZZ9999 observed using AX setValue; case, whitespace, symbols, other room matches and network states remain untested.",
+      "coverage_status": "partial"
     },
     {
       "id": "A-ROOM-LIST-BOTTOM",
       "from_state_id": "S-SUNSCROLLED",
       "control": "Time-slot vertical scroll",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-29T03:18:19.130Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-MAPRETURN",
+          "observed_feedback": "Additional downward scroll made no visible list progress. Last row remains clipped; true list end still unverified.",
+          "target_state_id": "S-MAPRETURN",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-11"
+          ]
+        }
+      ],
       "target_state_id": null,
-      "evidence_ids": [],
+      "evidence_ids": [
+        "E-ROOM-RECHECK-11"
+      ],
       "return_path": null,
       "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
       "blockers": [],
-      "pending_reason": "A real downward scroll showed lower slots and a repeat showed no change; clipped final row means the true list end is not established."
+      "pending_reason": "Attempt observed again with no list progress and clipped final row. True end remains unverified.",
+      "coverage_status": "partial"
     },
     {
       "id": "A-ROOM-MAP-CONTROLS",
@@ -4347,12 +4571,23 @@
             "E-SUNSCROLLED",
             "E-SUNSCROLLED2"
           ]
+        },
+        {
+          "at": "2026-09-29T03:16:57.665Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-SUNALL",
+          "observed_feedback": "List scrolled: clipped preceding row then14:30 onward, final visible complete label21:00–21:30, next row clipped.",
+          "target_state_id": "S-SUNSCROLLED",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-06"
+          ]
         }
       ],
       "target_state_id": "S-SUNSCROLLED",
       "evidence_ids": [
         "E-SUNSCROLLED",
-        "E-SUNSCROLLED2"
+        "E-SUNSCROLLED2",
+        "E-ROOM-RECHECK-06"
       ],
       "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -4372,11 +4607,22 @@
           "evidence_ids": [
             "E-MAP"
           ]
+        },
+        {
+          "at": "2026-09-29T03:17:23.918Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-SUNSCROLLED",
+          "observed_feedback": "Initial UI briefly showed logo loading; saved screenshot is settled map, not proof of the loading layout.",
+          "target_state_id": "S-MAP",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-07"
+          ]
         }
       ],
       "target_state_id": "S-MAP",
       "evidence_ids": [
-        "E-MAP"
+        "E-MAP",
+        "E-ROOM-RECHECK-07"
       ],
       "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -4397,12 +4643,23 @@
             "E-MAP",
             "E-MAPZOOM"
           ]
+        },
+        {
+          "at": "2026-09-29T03:17:45.264Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-MAP",
+          "observed_feedback": "Native AX slider Increment once; zoomed campus map visible.",
+          "target_state_id": "S-MAPZOOM",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-08"
+          ]
         }
       ],
       "target_state_id": "S-MAPZOOM",
       "evidence_ids": [
         "E-MAP",
-        "E-MAPZOOM"
+        "E-MAPZOOM",
+        "E-ROOM-RECHECK-08"
       ],
       "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -4423,12 +4680,23 @@
             "E-MAPZOOM",
             "E-MAPOUT"
           ]
+        },
+        {
+          "at": "2026-09-29T03:17:46.800Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-MAPZOOM",
+          "observed_feedback": "Native AX slider Decrement once; campus map visible.",
+          "target_state_id": "S-MAPOUT",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-09"
+          ]
         }
       ],
       "target_state_id": "S-MAPOUT",
       "evidence_ids": [
         "E-MAPZOOM",
-        "E-MAPOUT"
+        "E-MAPOUT",
+        "E-ROOM-RECHECK-09"
       ],
       "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
@@ -4474,13 +4742,24 @@
           "evidence_ids": [
             "E-ROOM-TRACE"
           ]
+        },
+        {
+          "at": "2026-09-29T03:18:15.276Z",
+          "session_id": "SESSION-20260929-ROOM-RECHECK",
+          "from_state_id": "S-MAPOUT",
+          "observed_feedback": "Back preserves Sunday, ALL and list position with the same14:30 first complete row. This scoped native return now confirms scroll retention.",
+          "target_state_id": "S-MAPRETURN",
+          "evidence_ids": [
+            "E-ROOM-RECHECK-10"
+          ]
         }
       ],
       "target_state_id": "S-MAPRETURN",
       "evidence_ids": [
-        "E-ROOM-TRACE"
+        "E-ROOM-TRACE",
+        "E-ROOM-RECHECK-10"
       ],
-      "return_path": "Verified map Back -> Room Finder -> Home using current-session AX observations.",
+      "return_path": "2026-09-29 recheck confirms Sun/ALL and list offset retained after one AX Increment/Decrement pair. Separate historical Home return remains documented.",
       "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
       "blockers": []
     },
@@ -31862,6 +32141,326 @@
       ],
       "action_ids": [],
       "source": "Three Sunday frames plus actual horizontal date and vertical list viewports; 24 Present captures and nine pixel comparisons including two non-equal date checks."
+    },
+    {
+      "id": "E-ROOM-RECHECK-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-01-empty.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:13:58.286Z",
+      "sha256": "96bd30cbf94686ec2215a0a1f9be4bf07eb7475151d699a8460fb2daf0049f4e",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-02-query-filled.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:14:48.413Z",
+      "sha256": "efe2ad397f5579e0bd43e8fb971cfe6051b5f02352ad732a1c557494a21343b3",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-AG206"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-QUERY"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-03-selection.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:15:42.569Z",
+      "sha256": "d9b9d2b711a72265e00f77b2753649b732cf25d9771979b269c4e89ab1ddc061",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-SUGGESTION"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-04-today-all.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:16:10.648Z",
+      "sha256": "849a96fe58a3854f17a61eaf1367748018b6026d2aa01a3d6ff856add5337b43",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-SUGGESTION"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-05-sunday-all.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:16:36.525Z",
+      "sha256": "269a5fd5a2eb696f5296477318ebbb9d9fd2c201267b7ce81e1bb4433fd46bec",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-SUNALL"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-SUN"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-06-list-before-map.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:16:57.665Z",
+      "sha256": "2c5309f291e05c2950412550d1e3ba2f8340ac53c1142d52374dd28bb647862c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-SUNSCROLLED"
+      ],
+      "action_ids": [
+        "A-ROOM-SCROLL-LIST"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-07-map-opening.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:17:23.918Z",
+      "sha256": "e82f4bebb182060f8fa3b9311591c4462355a0be51360d29faaad79b56188792",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MAP"
+      ],
+      "action_ids": [
+        "A-ROOM-MAP-PIN"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-08-map-increment.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:17:45.264Z",
+      "sha256": "a72abb895cb50245cec6a39ca663282621638c0699f5cb3b075eff3bbdb2e43a",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MAPZOOM"
+      ],
+      "action_ids": [
+        "A-ROOM-MAP-INCREMENT"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-09-map-decrement.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:17:46.800Z",
+      "sha256": "a8297e87bb7c0af7487286ca7fde4c914a38282cbc02729f5e2340192405b307",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MAPOUT"
+      ],
+      "action_ids": [
+        "A-ROOM-MAP-DECREMENT"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-10-map-return.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:18:15.276Z",
+      "sha256": "4047a5ece5140d7f6f4a379bb6f4e649e55bea8721100c12097c64e38efc64fe",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MAPRETURN"
+      ],
+      "action_ids": [
+        "A-ROOM-MAP-BACK"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-11-list-further-down.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:18:19.130Z",
+      "sha256": "4749a61239affc81a9dcf5e4f5d166f993fa78e3777940b6d2fb38f279df99a9",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-MAPRETURN"
+      ],
+      "action_ids": [
+        "A-ROOM-LIST-BOTTOM"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-12-unmatched-query.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:18:36.162Z",
+      "sha256": "8616b107d3a480613a044aa2c89daf96cc707b439ca748c591fa8cb987f7c52b",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-DIRTY"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-QUERY"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-13-unmatched-search.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:18:48.842Z",
+      "sha256": "0af2c59f17539d9595eb36cdbbb83b2f74732d0e20678d51b3f1d68be575f028",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-NONE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-QUERY"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-14-clear-query.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:19:19.348Z",
+      "sha256": "3123e11decd885eddd9cd596d872d53ed1aac181c60ca8b44b21e066f03887e8",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-NONE"
+      ],
+      "action_ids": [
+        "A-ROOM-CLEAR"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-15-cleared-stale-empty.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:20:02.691Z",
+      "sha256": "6c8a97806fc0b68781a9c6002d91aee8eac4fc27c4ace479b81f0d7f2552931c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-CLEARED"
+      ],
+      "action_ids": [
+        "A-ROOM-CLEAR"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-RECHECK-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-recheck-16-empty-search.png",
+      "session_id": "SESSION-20260929-ROOM-RECHECK",
+      "captured_at": "2026-09-29T03:20:03.953Z",
+      "sha256": "74d2d49e9783c4c30516e3f45ba1aba7f27fce8381e4cca020c4f62399d339c3",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [
+        "A-ROOM-EMPTY-SEARCH"
+      ],
+      "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
+      "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
     }
   ],
   "findings": [
