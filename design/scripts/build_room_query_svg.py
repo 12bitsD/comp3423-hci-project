@@ -1,5 +1,7 @@
 """Build editable Room query states from the 2026-09-29 native recheck.
-No Figma import, prototype connection, or visual acceptance is implied.
+
+The manifest records separately observed Figma imports and editor connections.
+It does not imply successful Present replay or visual acceptance.
 """
 from pathlib import Path
 import copy
@@ -78,15 +80,24 @@ rows = [
     ('ag206-suggestion', 'S-ROOM-QUERY-AG206', '02-query-filled', False, 'AG206', False, True),
     ('dirty-results', 'S-ROOM-QUERY-DIRTY', '12-unmatched-query', True, 'ZZZZ9999', True, True),
     ('no-result', 'S-ROOM-QUERY-NONE', '13-unmatched-search', True, 'ZZZZ9999', False, False),
+    ('focused-no-result', 'S-ROOM-QUERY-NONE', '14-clear-query', True, 'ZZZZ9999', True, True),
     ('cleared-stale', 'S-CLEARED', '15-cleared-stale-empty', True, '', True, True),
     ('empty-sunday', 'S-EMPTYQUERY', '16-empty-search', True, '', False, False),
 ]
+figma_node_ids = {
+    'ag206-suggestion': '381:265',
+    'dirty-results': '381:72',
+    'no-result': '381:19',
+    'focused-no-result': '383:19',
+    'cleared-stale': '381:327',
+    'empty-sunday': '381:383',
+}
 manifest = []
 for label, state, evidence, sunday, value, focus, clear in rows:
     root = ET.parse(DESIGN/'room-sunday-all.svg').getroot() if label == 'dirty-results' else copy.deepcopy(empty)
     replace_dates(root, sunday)
     input_value(root, value, focus, clear)
-    if label in ['no-result', 'cleared-stale']:
+    if label in ['no-result', 'focused-no-result', 'cleared-stale']:
         no_result(root)
     if label == 'ag206-suggestion':
         g = node('g', id='AG206Suggestion')
@@ -108,18 +119,38 @@ for label, state, evidence, sunday, value, focus, clear in rows:
     root.find(tag('title')).text = 'Room query — ' + label
     root.find(tag('desc')).text = (
         'Editable source from native room-recheck-' + evidence + '.png. Fixed observed date and input; '
-        'not yet imported into Figma. Fonts and icons approximate. Cursor and macOS input fringe omitted. '
+        'Fonts and icons approximate. Cursor and macOS input fringe omitted. '
         'No live availability, free input, delay or unobserved query behavior is implemented. '
-        'Dirty-results uses a fixed observed list offset; true list end and scrollbar fidelity unverified.')
+        'Dirty-results uses a fixed observed list offset; true list end and scrollbar fidelity unverified. '
+        'For focused-no-result, the clear icon shape is inferred from the adjacent focused input states; '
+        'the E14 screenshot confirms caret and unchanged query but its pointer obscures the icon.')
     path = DESIGN/('room-query-' + label + '.svg')
     ET.ElementTree(root).write(path, encoding='unicode')
     src = ROOT/'evidence/2026-09-28-full-audit'/('room-recheck-'+evidence+'.png')
-    manifest.append({'file':path.name, 'state_id':state, 'figma_node_id':None,
-                     'status':'source_only_not_imported', 'source_evidence_path':str(src.relative_to(ROOT)),
+    manifest.append({'file':path.name, 'state_id':state, 'figma_node_id':figma_node_ids[label],
+                     'status':'imported_editor_verified_present_not_replayed',
+                     'source_evidence_path':str(src.relative_to(ROOT)),
                      'source_evidence_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),
                      'sha256':hashlib.sha256(path.read_bytes()).hexdigest(), 'dimensions':[576,970]})
-(DESIGN/'room-query-sources.json').write_text(json.dumps({'status':'source_only_not_imported',
+(DESIGN/'room-query-sources.json').write_text(json.dumps({'status':'figma_imported_present_not_replayed',
     'frames':manifest, 'native_reference':'docs/polyulife/room-recheck-20260929.json',
-    'remaining':['Import via Figma UI and verify native layers', 'Connect observed query/clear/search transitions with explicit input limitations',
-                 'Replay from correct date context', 'Compare rendered geometry and text against native evidence']},ensure_ascii=False,indent=2)+'\n')
-print('Built five editable Room query SVG sources; no Figma coverage increment.')
+    'figma_file_url':'https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/',
+    'figma_page_id':'12:104',
+    'connections_editor_verified':[
+        {'source_node_id':'381:113', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:19', 'native_evidence':'E-ROOM-RECHECK-13'},
+        {'source_node_id':'381:60', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'383:19', 'native_evidence':'E-ROOM-RECHECK-14'},
+        {'source_node_id':'383:67', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:327', 'native_evidence':'E-ROOM-RECHECK-15'},
+        {'source_node_id':'381:369', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:383', 'native_evidence':'E-ROOM-RECHECK-16'},
+    ],
+    'local_render_review':{
+        'renderer':'resvg-py0.5.0; local system fonts',
+        'comparison_path':'assets/room-query-source-comparison.png',
+        'sha256':'5ec5a0aeddd8a6e8fed743d76ad3188ceedaf1fe120d6fd3c15472ba7bf511d1',
+        'dimensions':[1440,1010],
+        'result':'Five initial sources rendered and compared side by side with native evidence. Focused no-result source rendered separately. Font weight/metrics, exact icon shapes and scrollbar remain deviations. Not a Figma render or prototype test.'
+    },
+    'remaining':['Create a replayable starting point for the isolated query sequence',
+                 'Present replay from correct date context',
+                 'Compare Figma render and transitions with native evidence',
+                 'Implement real text input and remaining query branches']},ensure_ascii=False,indent=2)+'\n')
+print('Built six editable Room query SVG sources; Figma mapping is tracked separately.')

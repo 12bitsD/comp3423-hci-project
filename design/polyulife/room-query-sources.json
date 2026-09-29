@@ -1,14 +1,14 @@
 {
-  "status": "source_only_not_imported",
+  "status": "figma_imported_present_not_replayed",
   "frames": [
     {
       "file": "room-query-ag206-suggestion.svg",
       "state_id": "S-ROOM-QUERY-AG206",
-      "figma_node_id": null,
-      "status": "source_only_not_imported",
+      "figma_node_id": "381:265",
+      "status": "imported_editor_verified_present_not_replayed",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-02-query-filled.png",
       "source_evidence_sha256": "efe2ad397f5579e0bd43e8fb971cfe6051b5f02352ad732a1c557494a21343b3",
-      "sha256": "571c835e8ab3a3fa3b077eadeb2c4f59042ec29b0532a85c85c9596263ff5716",
+      "sha256": "152c943e731d976bd7e32222bd11a776b561ef5d692bc18933efbfce2d820742",
       "dimensions": [
         576,
         970
@@ -17,11 +17,11 @@
     {
       "file": "room-query-dirty-results.svg",
       "state_id": "S-ROOM-QUERY-DIRTY",
-      "figma_node_id": null,
-      "status": "source_only_not_imported",
+      "figma_node_id": "381:72",
+      "status": "imported_editor_verified_present_not_replayed",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-12-unmatched-query.png",
       "source_evidence_sha256": "8616b107d3a480613a044aa2c89daf96cc707b439ca748c591fa8cb987f7c52b",
-      "sha256": "7e7dfe1718186000764417b2b04f6fa290121216db2f8b8ff469d6b6b4df732d",
+      "sha256": "31e5934da193ef07872c812bdb945d0f7cf3dffc5832b82a65e62ec40ec9b480",
       "dimensions": [
         576,
         970
@@ -30,11 +30,24 @@
     {
       "file": "room-query-no-result.svg",
       "state_id": "S-ROOM-QUERY-NONE",
-      "figma_node_id": null,
-      "status": "source_only_not_imported",
+      "figma_node_id": "381:19",
+      "status": "imported_editor_verified_present_not_replayed",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-13-unmatched-search.png",
       "source_evidence_sha256": "0af2c59f17539d9595eb36cdbbb83b2f74732d0e20678d51b3f1d68be575f028",
-      "sha256": "87ead7dca21eb1afd22021dd8a7ab2189811e18030f081c97cf74ffe7b5d9b20",
+      "sha256": "38bf2550e11a5ea524c34ecbba16ee434170d09cb6f1d131da3b2411bc161e2f",
+      "dimensions": [
+        576,
+        970
+      ]
+    },
+    {
+      "file": "room-query-focused-no-result.svg",
+      "state_id": "S-ROOM-QUERY-NONE",
+      "figma_node_id": "383:19",
+      "status": "imported_editor_verified_present_not_replayed",
+      "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-14-clear-query.png",
+      "source_evidence_sha256": "3123e11decd885eddd9cd596d872d53ed1aac181c60ca8b44b21e066f03887e8",
+      "sha256": "8e6a13790f6b7067f144545c971aea4bb9dd9b031dad125d78e7a9d04f7b25a7",
       "dimensions": [
         576,
         970
@@ -43,11 +56,11 @@
     {
       "file": "room-query-cleared-stale.svg",
       "state_id": "S-CLEARED",
-      "figma_node_id": null,
-      "status": "source_only_not_imported",
+      "figma_node_id": "381:327",
+      "status": "imported_editor_verified_present_not_replayed",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-15-cleared-stale-empty.png",
       "source_evidence_sha256": "6c8a97806fc0b68781a9c6002d91aee8eac4fc27c4ace479b81f0d7f2552931c",
-      "sha256": "c67631183980eebeac191cacf84919f0a5e0bf162faeef1f9a9a6eca7af26418",
+      "sha256": "f828f8ad5680a336bbe9e72a3933d30e2e2fca4c18e9553b77ab9111ecbc471e",
       "dimensions": [
         576,
         970
@@ -56,11 +69,11 @@
     {
       "file": "room-query-empty-sunday.svg",
       "state_id": "S-EMPTYQUERY",
-      "figma_node_id": null,
-      "status": "source_only_not_imported",
+      "figma_node_id": "381:383",
+      "status": "imported_editor_verified_present_not_replayed",
       "source_evidence_path": "evidence/2026-09-28-full-audit/room-recheck-16-empty-search.png",
       "source_evidence_sha256": "74d2d49e9783c4c30516e3f45ba1aba7f27fce8381e4cca020c4f62399d339c3",
-      "sha256": "a6821dc8bd44c035b783015fde6904ae49fb5042bd0157564b1feda3e9eb8426",
+      "sha256": "327cb313a085fc207ee859c9073fc2d273374d2dcbedfe3602cb1550f611f1bd",
       "dimensions": [
         576,
         970
@@ -68,11 +81,37 @@
     }
   ],
   "native_reference": "docs/polyulife/room-recheck-20260929.json",
-  "remaining": [
-    "Import via Figma UI and verify native layers",
-    "Connect observed query/clear/search transitions with explicit input limitations",
-    "Replay from correct date context",
-    "Compare rendered geometry and text against native evidence"
+  "figma_file_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/",
+  "figma_page_id": "12:104",
+  "connections_editor_verified": [
+    {
+      "source_node_id": "381:113",
+      "trigger": "On click",
+      "action": "Navigate to",
+      "destination_node_id": "381:19",
+      "native_evidence": "E-ROOM-RECHECK-13"
+    },
+    {
+      "source_node_id": "381:60",
+      "trigger": "On click",
+      "action": "Navigate to",
+      "destination_node_id": "383:19",
+      "native_evidence": "E-ROOM-RECHECK-14"
+    },
+    {
+      "source_node_id": "383:67",
+      "trigger": "On click",
+      "action": "Navigate to",
+      "destination_node_id": "381:327",
+      "native_evidence": "E-ROOM-RECHECK-15"
+    },
+    {
+      "source_node_id": "381:369",
+      "trigger": "On click",
+      "action": "Navigate to",
+      "destination_node_id": "381:383",
+      "native_evidence": "E-ROOM-RECHECK-16"
+    }
   ],
   "local_render_review": {
     "renderer": "resvg-py0.5.0; local system fonts",
@@ -82,6 +121,12 @@
       1440,
       1010
     ],
-    "result": "Five sources render; titles, selected dates, query/clear/result distinctions and list offset visually checked side by side. Font weight/metrics, exact icon shapes and scrollbar remain deviations. Not a Figma render or prototype test."
-  }
+    "result": "Five initial sources rendered and compared side by side with native evidence. Focused no-result source rendered separately. Font weight/metrics, exact icon shapes and scrollbar remain deviations. Not a Figma render or prototype test."
+  },
+  "remaining": [
+    "Create a replayable starting point for the isolated query sequence",
+    "Present replay from correct date context",
+    "Compare Figma render and transitions with native evidence",
+    "Implement real text input and remaining query branches"
+  ]
 }

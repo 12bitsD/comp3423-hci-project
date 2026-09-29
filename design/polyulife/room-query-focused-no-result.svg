@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="576" height="970" viewBox="0 0 576 970" fill="none">
-  <title>Room query — no-result</title>
-  <desc>Editable source from native room-recheck-13-unmatched-search.png. Fixed observed date and input; Fonts and icons approximate. Cursor and macOS input fringe omitted. No live availability, free input, delay or unobserved query behavior is implemented. Dirty-results uses a fixed observed list offset; true list end and scrollbar fidelity unverified. For focused-no-result, the clear icon shape is inferred from the adjacent focused input states; the E14 screenshot confirms caret and unchanged query but its pointer obscures the icon.</desc>
+  <title>Room query — focused-no-result</title>
+  <desc>Editable source from native room-recheck-14-clear-query.png. Fixed observed date and input; Fonts and icons approximate. Cursor and macOS input fringe omitted. No live availability, free input, delay or unobserved query behavior is implemented. Dirty-results uses a fixed observed list offset; true list end and scrollbar fidelity unverified. For focused-no-result, the clear icon shape is inferred from the adjacent focused input states; the E14 screenshot confirms caret and unchanged query but its pointer obscures the icon.</desc>
   <defs>
     <clipPath id="DatesViewport">
       <rect x="30" y="100" width="516" height="84" />
@@ -22,5 +22,5 @@
       <path d="M516.1 228.1L522.2 234.2" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
     </g>
     <path d="M0 271.5H576" stroke="#D5D5DA" stroke-width="1.4" />
-  <text x="122" y="233" fill="#090909" font-family="sans-serif" font-size="22" text-anchor="start" id="RoomInputValue">ZZZZ9999</text></g>
+  <text x="122" y="233" fill="#090909" font-family="sans-serif" font-size="22" text-anchor="start" id="RoomInputValue">ZZZZ9999</text><g id="ClearInput"><rect x="402" y="201" width="44" height="44" fill="#FFFFFF" fill-opacity="0.001" /><path d="M416 216L432 232M432 216L416 232" stroke="#9CAFB9" stroke-width="3" /></g><path id="ObservedCaret" d="M234 207V239" stroke="#1684EC" stroke-width="2" /></g>
   <g id="NoRoomFound"><path d="M270 411L306 447M306 411L270 447" stroke="#319987" stroke-width="9" stroke-linecap="round" /><text x="288" y="498" fill="#575757" font-family="sans-serif" font-size="25" text-anchor="middle" font-weight="600">No room found</text><text x="288" y="530" fill="#9CAFB9" font-family="sans-serif" font-size="23" text-anchor="middle" font-weight="500">Please search another room.</text></g></svg>

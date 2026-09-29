@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="576" height="970" viewBox="0 0 576 970" fill="none">
   <title>Room query — dirty-results</title>
-  <desc>Editable source from native room-recheck-12-unmatched-query.png. Fixed observed date and input; not yet imported into Figma. Fonts and icons approximate. Cursor and macOS input fringe omitted. No live availability, free input, delay or unobserved query behavior is implemented. Dirty-results uses a fixed observed list offset; true list end and scrollbar fidelity unverified.</desc>
+  <desc>Editable source from native room-recheck-12-unmatched-query.png. Fixed observed date and input; Fonts and icons approximate. Cursor and macOS input fringe omitted. No live availability, free input, delay or unobserved query behavior is implemented. Dirty-results uses a fixed observed list offset; true list end and scrollbar fidelity unverified. For focused-no-result, the clear icon shape is inferred from the adjacent focused input states; the E14 screenshot confirms caret and unchanged query but its pointer obscures the icon.</desc>
   <defs><clipPath id="DatesViewport"><rect x="30" y="100" width="516" height="84" /></clipPath><clipPath id="SundayDatesClip"><rect x="0" y="0" width="516" height="84" fill="#FFF" /></clipPath><clipPath id="ObservedListViewport"><rect x="26" y="426" width="524" height="544" /></clipPath></defs>
   <rect id="ScreenBackground" width="576" height="970" fill="#FFFFFF" />
   <g id="Header">
