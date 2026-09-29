@@ -27,4 +27,4 @@
 
 [生成器](../../design/scripts/build_room_query_svg.py) · [来源及Figma节点清单](../../design/polyulife/room-query-sources.json)
 
-本次先提交回放检查点。上述七个画板、五条连接和两次样例运行尚待归入正式 `coverage.json` 台账；台账现有数量暂不调整，原生观察次数保持不变。
+七个画板、五条连接、两次样例运行及八条证据引用现已归入 [coverage.json](coverage.json)，修订为 `FIGMA-ROOM-QUERY-20260929-V1`。日期与聚焦差异通过 `context_variant` 表达；原生状态和动作保持124／265，不把Figma回放计为原生执行。查询批次归档时Figma映射为93个画板、222个连接及34次运行；后续地图增量见 [地图回放](room-map-prototype-walkthrough.md)，最新总数见 [README](README.md)。完整应用与自由输入仍未验证。

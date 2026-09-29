@@ -32461,6 +32461,909 @@
       ],
       "redaction": "Crop top112px macOS/window area. Room/map content inspected; no personal identity or schedule retained. Cursor artifact retained.",
       "source": "Native PolyULife Computer Use screenshot; raw AX and uncropped image remain ignored."
+    },
+    {
+      "id": "E-ROOM-QUERY-P-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-query-replay/00-ag206-suggestion.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:29:01.539805+00:00",
+      "sha256": "0f71245115274acdc3a03c9b614ddf8f502b2a371db5bad1ddbd26f6b08e5bb8",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-AG206"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-query-replay/"
+      },
+      "source": "Actual Figma Present screenshot through Computer Use; not a native PolyULife observation."
+    },
+    {
+      "id": "E-ROOM-QUERY-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-query-replay/01-today-all.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:28:31.103459+00:00",
+      "sha256": "55fdf406b04aa2f80cdd8d2301813e2d9c12d4bfc082598e8febe802bc45efae",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-query-replay/"
+      },
+      "source": "Actual Figma Present screenshot through Computer Use; not a native PolyULife observation."
+    },
+    {
+      "id": "E-ROOM-QUERY-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-query-replay/02-dirty.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:28:13.162060+00:00",
+      "sha256": "d4304fc0a418402ebb68d6c6fbcaa153e5b680931a418bb41605fbaa2a7bffef",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-DIRTY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-query-replay/"
+      },
+      "source": "Actual Figma Present screenshot through Computer Use; not a native PolyULife observation."
+    },
+    {
+      "id": "E-ROOM-QUERY-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-query-replay/03-no-result.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:28:13.464661+00:00",
+      "sha256": "003a6523a87e3a5904e8af1347d7e382bfd74a36412870bfe25d2a6fa7ada5c0",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-NONE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-query-replay/"
+      },
+      "source": "Actual Figma Present screenshot through Computer Use; not a native PolyULife observation."
+    },
+    {
+      "id": "E-ROOM-QUERY-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-query-replay/04-focused.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:28:13.824582+00:00",
+      "sha256": "33c510402e37e176d618e187d19dd4288907de1f3da7a5a1e58ed3d247511c26",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-ROOM-QUERY-NONE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-query-replay/"
+      },
+      "source": "Actual Figma Present screenshot through Computer Use; not a native PolyULife observation."
+    },
+    {
+      "id": "E-ROOM-QUERY-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-query-replay/05-cleared-stale.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:28:14.172233+00:00",
+      "sha256": "b874bd6dc95b66d0c0c272e7cef4e03f0fcc900dbec9e69eb8ed37d52c215c86",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-CLEARED"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-query-replay/"
+      },
+      "source": "Actual Figma Present screenshot through Computer Use; not a native PolyULife observation."
+    },
+    {
+      "id": "E-ROOM-QUERY-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-query-replay/06-empty-sunday.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:28:14.484745+00:00",
+      "sha256": "0a16af7cc5af3b5d948db990471e80fadd030d40038e99fdd1926711d667a27d",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-query-replay/"
+      },
+      "source": "Actual Figma Present screenshot through Computer Use; not a native PolyULife observation."
+    },
+    {
+      "id": "E-ROOM-QUERY-PROTO-TRACE",
+      "type": "interaction_trace",
+      "path": "room-query-source-preparation.md",
+      "session_id": null,
+      "state_ids": [
+        "S-ROOM-QUERY-AG206",
+        "S-ALL",
+        "S-ROOM-QUERY-DIRTY",
+        "S-ROOM-QUERY-NONE",
+        "S-CLEARED",
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [],
+      "source": "Two actual Figma Present navigation samples through Computer Use, five links and seven public captures. Click/focus is a prototype proxy; no native executions or human evaluation added."
+    },
+    {
+      "id": "E-ROOM-MAP-P-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/00-home-feature-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:48:26.207Z",
+      "sha256": "fb7d925b9096dfae860a6bc8d6be7e8662a637220da0d1177eede66f0e7c55ff",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/01-room-empty.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:48:34.666Z",
+      "sha256": "0549ee18297f6d190c82a720fe5d7fdb0f84e80558bb60ec05905a5b7790d951",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/02-a-suggestion.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:48:42.066Z",
+      "sha256": "d69bf2b128c71ee553d9fbb8d4b536d41dee4fee52e23bc10123c2ebd0ede848",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-SUGGESTION"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/03-tuesday-all.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:48:48.634Z",
+      "sha256": "675b2b1fb92ee3d06ee0c2c386c185b0ca6f47f0d6c42fca1ba4ae64d2c3dc8e",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/04-tuesday-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:48:54.790Z",
+      "sha256": "c7a713b06a7c8f1f03e86ed3683306efefd0a83af8640abb28dcfc1215208fb4",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-AVAILABLE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/05-date-strip-shifted.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:49:00.949Z",
+      "sha256": "9ff9c27b6353f863d49d46725807618ef15f1295cc16ce0003ce48b23d56196c",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-DATEDRAG"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/06-sunday-empty.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:49:13.779Z",
+      "sha256": "1285eff61a9480778e3765292484d7a9f1d82c54ea8ac63a7a48ec3eec10f889",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-SUNEMPTY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/07-sunday-all-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:49:20.439Z",
+      "sha256": "b365bea6c4fdca84c5ca15dca83ed13c307eb701bd8c9b8d5a2ff3a7fd4627be",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-SUNALL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/08-sunday-scrolled-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:49:27.715Z",
+      "sha256": "7258cce8d2ee078b854796d86387d7e94c864aa657124a909eb16f44e581f3af",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-SUNSCROLLED"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/09-map-initial.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:49:36.734Z",
+      "sha256": "42ed3d06d04f7e01446fad90770234ac0b74e99f103019d1b6cd035d745f5bf8",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/10-map-zoomed.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:49:43.670Z",
+      "sha256": "bdb1e09940320cc60d47342b1242130e19b79f5bca1de23b6cf9a08d8f9e54e4",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPZOOM"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/11-map-out.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:49:51.044Z",
+      "sha256": "946e475fbff9795fabf062142bf58b5462ff7b80432e36b4681f1d1258a3bd6d",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPOUT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/12-map-list-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:49:57.572Z",
+      "sha256": "7258cce8d2ee078b854796d86387d7e94c864aa657124a909eb16f44e581f3af",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPRETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/13-initial-reentry-image-missing.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:50:04.178Z",
+      "sha256": "063addccae01b52d61e34e93327ee2e5ba42d40e87c5ba1bd1cb5bfbea56a5a2",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/14-initial-back-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:50:13.111Z",
+      "sha256": "7258cce8d2ee078b854796d86387d7e94c864aa657124a909eb16f44e581f3af",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPRETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/15-initial-after-reupload.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:51:24.476Z",
+      "sha256": "42ed3d06d04f7e01446fad90770234ac0b74e99f103019d1b6cd035d745f5bf8",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/16-initial-back-after-reupload.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:51:24.779Z",
+      "sha256": "7258cce8d2ee078b854796d86387d7e94c864aa657124a909eb16f44e581f3af",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPRETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/17-initial-second-reentry.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:51:35.888Z",
+      "sha256": "42ed3d06d04f7e01446fad90770234ac0b74e99f103019d1b6cd035d745f5bf8",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/18-zoomed-reentry.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:51:36.230Z",
+      "sha256": "96ea9102c58f66f1d8eea98dd9fd8dd47b8786cbf7675dbd9cc4807c870905db",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPZOOM"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/19-zoomed-back-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:51:48.415Z",
+      "sha256": "7258cce8d2ee078b854796d86387d7e94c864aa657124a909eb16f44e581f3af",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPRETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/20-final-initial.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:51:48.718Z",
+      "sha256": "33a82d2ff1a933b42dedecba3f46765ef5a549a3442adbeff7e50bf87273c519",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/21-final-zoomed.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:51:49.112Z",
+      "sha256": "96ea9102c58f66f1d8eea98dd9fd8dd47b8786cbf7675dbd9cc4807c870905db",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPZOOM"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/22-final-out.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:52:00.803Z",
+      "sha256": "12d4db1dd641818f452a4cde2d4e033cc27f40498d1d96a443be1ab37b861f5f",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPOUT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/23-final-map-list-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:52:01.085Z",
+      "sha256": "7258cce8d2ee078b854796d86387d7e94c864aa657124a909eb16f44e581f3af",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-MAPRETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-P-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-map-replay/24-home-feature-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T19:52:11.349Z",
+      "sha256": "fb7d925b9096dfae860a6bc8d6be7e8662a637220da0d1177eede66f0e7c55ff",
+      "dimensions": [
+        356,
+        601
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          581,
+          60,
+          937,
+          661
+        ],
+        "opaque_masks": [],
+        "raw_file_ignored": "evidence/raw/2026-09-30-room-map-replay/"
+      },
+      "source": "Figma Present through Computer Use; not native app evidence"
+    },
+    {
+      "id": "E-ROOM-MAP-PROTO-TRACE",
+      "type": "interaction_trace",
+      "path": "room-map-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE",
+        "S-EMPTYQUERY",
+        "S-SUGGESTION",
+        "S-ALL",
+        "S-AVAILABLE",
+        "S-DATEDRAG",
+        "S-SUNEMPTY",
+        "S-SUNALL",
+        "S-SUNSCROLLED",
+        "S-MAP",
+        "S-MAPZOOM",
+        "S-MAPOUT",
+        "S-MAPRETURN"
+      ],
+      "action_ids": [],
+      "source": "Actual Figma Present replay of six map controls from Tuesday Home. Initial-image failure retained; same PNG uploaded and three initial reentries visible. 25 captures / 11 comparisons (8 equal,3 unequal). No native executions added."
     }
   ],
   "findings": [
@@ -37305,6 +38208,531 @@
         "connection_status": "configured_and_replayed",
         "prototype_run_ids": [
           "PROTO-ROOM-SUNDAY-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-QUERY-AG206",
+        "context_variant": "20260929-today-full-query",
+        "node_id": "381:265",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=381-265",
+        "node_name": "[S-ROOM-QUERY-AG206] Room — AG206 suggestion",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-02"
+        ],
+        "design_source_path": "../../design/polyulife/room-query-ag206-suggestion.svg",
+        "design_source_sha256": "152c943e731d976bd7e32222bd11a776b561ef5d692bc18933efbfce2d820742",
+        "canvas_position": [
+          0,
+          37500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture_dimensions": [
+            356,
+            601
+          ]
+        },
+        "native_editability": "SVG imported as native editable Frame/Text/Vector/groups through Figma UI; used control layers inspected. All child edits not independently exercised.",
+        "content_policy": "Historical September 29 public room sample; static data, no personal identity or live availability.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible Present sample and date/query/feedback differences checked. Typography, icon and scrollbar fidelity remain partial.",
+          "evidence_ids": [
+            "E-ROOM-QUERY-P-00",
+            "E-ROOM-QUERY-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-QUERY-VISUAL"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-00",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-AG206-001"
+        ]
+      },
+      {
+        "state_id": "S-ALL",
+        "context_variant": "20260929-today-all",
+        "node_id": "396:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=396-19",
+        "node_name": "[S-ROOM-TODAY-ALL-20260929] Room — AG206, Today ALL",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-04"
+        ],
+        "design_source_path": "../../design/polyulife/room-query-today-all.svg",
+        "design_source_sha256": "31c50709cab9dd9a98aa7ff25bd8cf78fd4c4906c2fc7545e7d5f6e8a5acf100",
+        "canvas_position": [
+          4200,
+          37500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture_dimensions": [
+            356,
+            601
+          ]
+        },
+        "native_editability": "SVG imported as native editable Frame/Text/Vector/groups through Figma UI; used control layers inspected. All child edits not independently exercised.",
+        "content_policy": "Historical September 29 public room sample; static data, no personal identity or live availability.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible Present sample and date/query/feedback differences checked. Typography, icon and scrollbar fidelity remain partial.",
+          "evidence_ids": [
+            "E-ROOM-QUERY-P-01",
+            "E-ROOM-QUERY-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-QUERY-VISUAL"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-01",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-AG206-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-QUERY-DIRTY",
+        "context_variant": "20260929-sunday-stale-results",
+        "node_id": "381:72",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=381-72",
+        "node_name": "[S-ROOM-QUERY-DIRTY] Room — edited query, stale AG206 result",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-12"
+        ],
+        "design_source_path": "../../design/polyulife/room-query-dirty-results.svg",
+        "design_source_sha256": "31e5934da193ef07872c812bdb945d0f7cf3dffc5832b82a65e62ec40ec9b480",
+        "canvas_position": [
+          700,
+          37500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture_dimensions": [
+            356,
+            601
+          ]
+        },
+        "native_editability": "SVG imported as native editable Frame/Text/Vector/groups through Figma UI; used control layers inspected. All child edits not independently exercised.",
+        "content_policy": "Historical September 29 public room sample; static data, no personal identity or live availability.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible Present sample and date/query/feedback differences checked. Typography, icon and scrollbar fidelity remain partial.",
+          "evidence_ids": [
+            "E-ROOM-QUERY-P-02",
+            "E-ROOM-QUERY-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-QUERY-VISUAL"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-02",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-QUERY-NONE",
+        "context_variant": "20260929-sunday-unfocused",
+        "node_id": "381:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=381-19",
+        "node_name": "[S-ROOM-QUERY-NONE] Room — no matching result",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-13"
+        ],
+        "design_source_path": "../../design/polyulife/room-query-no-result.svg",
+        "design_source_sha256": "38bf2550e11a5ea524c34ecbba16ee434170d09cb6f1d131da3b2411bc161e2f",
+        "canvas_position": [
+          1400,
+          37500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture_dimensions": [
+            356,
+            601
+          ]
+        },
+        "native_editability": "SVG imported as native editable Frame/Text/Vector/groups through Figma UI; used control layers inspected. All child edits not independently exercised.",
+        "content_policy": "Historical September 29 public room sample; static data, no personal identity or live availability.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible Present sample and date/query/feedback differences checked. Typography, icon and scrollbar fidelity remain partial.",
+          "evidence_ids": [
+            "E-ROOM-QUERY-P-03",
+            "E-ROOM-QUERY-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-QUERY-VISUAL"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-03",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-QUERY-NONE",
+        "context_variant": "20260929-sunday-focused",
+        "node_id": "383:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=383-19",
+        "node_name": "[S-ROOM-QUERY-NONE:FOCUS] Room — focused unmatched query",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-14"
+        ],
+        "design_source_path": "../../design/polyulife/room-query-focused-no-result.svg",
+        "design_source_sha256": "8e6a13790f6b7067f144545c971aea4bb9dd9b031dad125d78e7a9d04f7b25a7",
+        "canvas_position": [
+          2100,
+          37500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture_dimensions": [
+            356,
+            601
+          ]
+        },
+        "native_editability": "SVG imported as native editable Frame/Text/Vector/groups through Figma UI; used control layers inspected. All child edits not independently exercised.",
+        "content_policy": "Historical September 29 public room sample; static data, no personal identity or live availability.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible Present sample and date/query/feedback differences checked. Typography, icon and scrollbar fidelity remain partial.",
+          "evidence_ids": [
+            "E-ROOM-QUERY-P-04",
+            "E-ROOM-QUERY-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-QUERY-VISUAL"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-04",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ]
+      },
+      {
+        "state_id": "S-CLEARED",
+        "context_variant": "20260929-sunday-cleared-stale",
+        "node_id": "381:327",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=381-327",
+        "node_name": "[S-ROOM-QUERY-CLEARED-STALE] Room — cleared input, stale no-result",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-15"
+        ],
+        "design_source_path": "../../design/polyulife/room-query-cleared-stale.svg",
+        "design_source_sha256": "f828f8ad5680a336bbe9e72a3933d30e2e2fca4c18e9553b77ab9111ecbc471e",
+        "canvas_position": [
+          2800,
+          37500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture_dimensions": [
+            356,
+            601
+          ]
+        },
+        "native_editability": "SVG imported as native editable Frame/Text/Vector/groups through Figma UI; used control layers inspected. All child edits not independently exercised.",
+        "content_policy": "Historical September 29 public room sample; static data, no personal identity or live availability.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible Present sample and date/query/feedback differences checked. Typography, icon and scrollbar fidelity remain partial.",
+          "evidence_ids": [
+            "E-ROOM-QUERY-P-05",
+            "E-ROOM-QUERY-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-QUERY-VISUAL"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-05",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ]
+      },
+      {
+        "state_id": "S-EMPTYQUERY",
+        "context_variant": "20260929-sunday-empty",
+        "node_id": "381:383",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=381-383",
+        "node_name": "[S-ROOM-QUERY-EMPTY-SUNDAY] Room — empty search, Sunday retained",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-16"
+        ],
+        "design_source_path": "../../design/polyulife/room-query-empty-sunday.svg",
+        "design_source_sha256": "327cb313a085fc207ee859c9073fc2d273374d2dcbedfe3602cb1550f611f1bd",
+        "canvas_position": [
+          3500,
+          37500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "prototype_capture_dimensions": [
+            356,
+            601
+          ]
+        },
+        "native_editability": "SVG imported as native editable Frame/Text/Vector/groups through Figma UI; used control layers inspected. All child edits not independently exercised.",
+        "content_policy": "Historical September 29 public room sample; static data, no personal identity or live availability.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible Present sample and date/query/feedback differences checked. Typography, icon and scrollbar fidelity remain partial.",
+          "evidence_ids": [
+            "E-ROOM-QUERY-P-06",
+            "E-ROOM-QUERY-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-QUERY-VISUAL"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-06",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "replayed_destination_no_outgoing_control",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ]
+      },
+      {
+        "state_id": "S-MAP",
+        "node_id": "338:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=338-19",
+        "node_name": "[S-MAP] AG206 — observed map",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "source_evidence_ids": [
+          "E-MAP"
+        ],
+        "design_source_path": "../../design/polyulife/room-map-initial.svg",
+        "design_source_sha256": "ea30bf318aefb659e1f16c591cd41f66e059977e24acd0631ba1291dc74d20f0",
+        "canvas_position": [
+          0,
+          36000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Header/title/Back editable; geography, labels, pins and cursor remain one raster crop. Not a fully editable or live map.",
+        "content_policy": "Public campus geography cropped from native observed screenshots; captured cursor/halo retained. No user position or personal data.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All three map images visible on replay. Initial reentry blank retained then same PNG uploaded; three later initial entries visible. Three map-region pixel comparisons differ; no full fidelity claim.",
+          "evidence_ids": [
+            "E-ROOM-MAP-P-09",
+            "E-ROOM-MAP-P-13",
+            "E-ROOM-MAP-P-15",
+            "E-ROOM-MAP-P-17",
+            "E-ROOM-MAP-P-20",
+            "E-ROOM-MAP-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-MAP-RASTER-PROXY",
+            "D-ROOM-MAP-IMAGE-REENTRY"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-P-09",
+          "E-ROOM-MAP-P-13",
+          "E-ROOM-MAP-P-15",
+          "E-ROOM-MAP-P-17",
+          "E-ROOM-MAP-P-20",
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_navigation_passed_visual_partial",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-001",
+          "PROTO-ROOM-MAP-RECHECK-001"
+        ]
+      },
+      {
+        "state_id": "S-MAPZOOM",
+        "node_id": "339:30",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=339-30",
+        "node_name": "[S-MAPZOOM] AG206 — observed zoom in",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "source_evidence_ids": [
+          "E-MAPZOOM"
+        ],
+        "design_source_path": "../../design/polyulife/room-map-zoomed.svg",
+        "design_source_sha256": "c5aac6a43a8e7d3c8e40181472d454c0bf59e067e15e70580ad6177e991b8b58",
+        "canvas_position": [
+          700,
+          36000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Header/title/Back editable; geography, labels, pins and cursor remain one raster crop. Not a fully editable or live map.",
+        "content_policy": "Public campus geography cropped from native observed screenshots; captured cursor/halo retained. No user position or personal data.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All three map images visible on replay. Initial reentry blank retained then same PNG uploaded; three later initial entries visible. Three map-region pixel comparisons differ; no full fidelity claim.",
+          "evidence_ids": [
+            "E-ROOM-MAP-P-10",
+            "E-ROOM-MAP-P-18",
+            "E-ROOM-MAP-P-21",
+            "E-ROOM-MAP-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-MAP-RASTER-PROXY",
+            "D-ROOM-MAP-IMAGE-REENTRY"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-P-10",
+          "E-ROOM-MAP-P-18",
+          "E-ROOM-MAP-P-21",
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_navigation_passed_visual_partial",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-001",
+          "PROTO-ROOM-MAP-RECHECK-001"
+        ]
+      },
+      {
+        "state_id": "S-MAPOUT",
+        "node_id": "339:41",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=339-41",
+        "node_name": "[S-MAPOUT] AG206 — observed zoom out",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "source_evidence_ids": [
+          "E-MAPOUT"
+        ],
+        "design_source_path": "../../design/polyulife/room-map-out.svg",
+        "design_source_sha256": "af9ba9fbf95185bde1b647d1b6f6c7e94b2e9b8dab3812f23a9d959437023098",
+        "canvas_position": [
+          1400,
+          36000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Header/title/Back editable; geography, labels, pins and cursor remain one raster crop. Not a fully editable or live map.",
+        "content_policy": "Public campus geography cropped from native observed screenshots; captured cursor/halo retained. No user position or personal data.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "All three map images visible on replay. Initial reentry blank retained then same PNG uploaded; three later initial entries visible. Three map-region pixel comparisons differ; no full fidelity claim.",
+          "evidence_ids": [
+            "E-ROOM-MAP-P-11",
+            "E-ROOM-MAP-P-22",
+            "E-ROOM-MAP-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-MAP-RASTER-PROXY",
+            "D-ROOM-MAP-IMAGE-REENTRY"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-P-11",
+          "E-ROOM-MAP-P-22",
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_navigation_passed_visual_partial",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-001",
+          "PROTO-ROOM-MAP-RECHECK-001"
         ]
       }
     ],
@@ -45560,6 +46988,347 @@
         "tested_target_node_ids": [
           "67:694"
         ]
+      },
+      {
+        "connection_id": "C-ROOM-QUERY-01",
+        "action_id": "A-ROOM-SUGGESTION",
+        "source_node_id": "381:265",
+        "trigger_node_id": "381:323",
+        "trigger_node_name": "AG206Suggestion",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "396:19",
+        "animation": "Instant",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-AG206-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-03"
+        ],
+        "source_fidelity": "Observed AG206 suggestion selection; stable native result is E-ROOM-RECHECK-04.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-00",
+          "E-ROOM-QUERY-P-01",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-QUERY-STATIC",
+          "D-ROOM-QUERY-VISUAL"
+        ],
+        "tested_target_node_ids": [
+          "396:19"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-QUERY-02",
+        "action_id": "A-ROOM-OTHER-QUERY",
+        "source_node_id": "381:72",
+        "trigger_node_id": "381:113",
+        "trigger_node_name": "SearchButton",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "381:19",
+        "animation": "Instant",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-13"
+        ],
+        "source_fidelity": "Observed fixed unmatched-query search outcome; input editing is static in Figma.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-02",
+          "E-ROOM-QUERY-P-03",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-QUERY-STATIC",
+          "D-ROOM-QUERY-VISUAL"
+        ],
+        "tested_target_node_ids": [
+          "381:19"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-QUERY-03",
+        "action_id": null,
+        "source_node_id": "381:19",
+        "trigger_node_id": "381:60",
+        "trigger_node_name": "RoomInput",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "383:19",
+        "animation": "Instant",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-14"
+        ],
+        "source_fidelity": "Prototype click/focus proxy. Native E14 includes an unsuccessful clear-coordinate attempt; this link is not a native successful focus execution.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-03",
+          "E-ROOM-QUERY-P-04",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-QUERY-STATIC",
+          "D-ROOM-QUERY-VISUAL"
+        ],
+        "tested_target_node_ids": [
+          "383:19"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-QUERY-04",
+        "action_id": "A-ROOM-CLEAR",
+        "source_node_id": "383:19",
+        "trigger_node_id": "383:67",
+        "trigger_node_name": "ClearInput",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "381:327",
+        "animation": "Instant",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-15"
+        ],
+        "source_fidelity": "Observed clear retains old No room found feedback; focused clear icon shape inferred from adjacent source.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-04",
+          "E-ROOM-QUERY-P-05",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-QUERY-STATIC",
+          "D-ROOM-QUERY-VISUAL"
+        ],
+        "tested_target_node_ids": [
+          "381:327"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-QUERY-05",
+        "action_id": "A-ROOM-EMPTY-SEARCH",
+        "source_node_id": "381:327",
+        "trigger_node_id": "381:369",
+        "trigger_node_name": "SearchButton",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "381:383",
+        "animation": "Instant",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-16"
+        ],
+        "source_fidelity": "Observed empty search restores initial instructions while Sunday remains selected.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-QUERY-P-05",
+          "E-ROOM-QUERY-P-06",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-QUERY-STATIC",
+          "D-ROOM-QUERY-VISUAL"
+        ],
+        "tested_target_node_ids": [
+          "381:383"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-MAP-01",
+        "action_id": "A-ROOM-MAP-BACK",
+        "source_node_id": "339:41",
+        "trigger_node_id": "339:47",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-001",
+          "PROTO-ROOM-MAP-RECHECK-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-10"
+        ],
+        "source_fidelity": "Native return sample",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-MAP-RASTER-PROXY",
+          "D-ROOM-MAP-IMAGE-REENTRY"
+        ],
+        "tested_target_node_ids": [
+          "327:202"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-MAP-02",
+        "action_id": null,
+        "source_node_id": "339:30",
+        "trigger_node_id": "339:36",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-RECHECK-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-TRACE"
+        ],
+        "source_fidelity": "Prototype inferred exit; exact native execution unobserved",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-MAP-RASTER-PROXY",
+          "D-ROOM-MAP-IMAGE-REENTRY"
+        ],
+        "tested_target_node_ids": [
+          "327:202"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-MAP-03",
+        "action_id": "A-ROOM-MAP-DECREMENT",
+        "source_node_id": "339:30",
+        "trigger_node_id": "339:30",
+        "trigger_node_name": "Observed zoom decrement",
+        "trigger": "Key (↓)",
+        "behavior": "Swap overlay",
+        "target_node_id": "339:41",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-001",
+          "PROTO-ROOM-MAP-RECHECK-001"
+        ],
+        "source_evidence_ids": [
+          "E-MAPZOOM",
+          "E-MAPOUT"
+        ],
+        "source_fidelity": "ArrowDown substitutes native AX Slider Decrement; not observed native keyboard behavior",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-MAP-RASTER-PROXY",
+          "D-ROOM-MAP-IMAGE-REENTRY"
+        ],
+        "tested_target_node_ids": [
+          "339:41"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-MAP-04",
+        "action_id": "A-ROOM-MAP-INCREMENT",
+        "source_node_id": "338:19",
+        "trigger_node_id": "338:19",
+        "trigger_node_name": "Observed zoom increment",
+        "trigger": "Key (↑)",
+        "behavior": "Swap overlay",
+        "target_node_id": "339:30",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-001",
+          "PROTO-ROOM-MAP-RECHECK-001"
+        ],
+        "source_evidence_ids": [
+          "E-MAP",
+          "E-MAPZOOM"
+        ],
+        "source_fidelity": "ArrowUp substitutes native AX Slider Increment; not observed native keyboard behavior",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-MAP-RASTER-PROXY",
+          "D-ROOM-MAP-IMAGE-REENTRY"
+        ],
+        "tested_target_node_ids": [
+          "339:30"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-MAP-05",
+        "action_id": null,
+        "source_node_id": "338:19",
+        "trigger_node_id": "338:25",
+        "trigger_node_name": "Initial map Back",
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-001",
+          "PROTO-ROOM-MAP-RECHECK-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-TRACE"
+        ],
+        "source_fidelity": "Prototype inferred exit; exact native execution unobserved",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-MAP-RASTER-PROXY",
+          "D-ROOM-MAP-IMAGE-REENTRY"
+        ],
+        "tested_target_node_ids": [
+          "327:202"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-MAP-06",
+        "action_id": "A-ROOM-MAP-PIN",
+        "source_node_id": "327:202",
+        "trigger_node_id": "327:251",
+        "trigger_node_name": "Sunday ALL location pin",
+        "trigger": "On click",
+        "behavior": "Open overlay",
+        "target_node_id": "338:19",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-MAP-001",
+          "PROTO-ROOM-MAP-RECHECK-001"
+        ],
+        "source_evidence_ids": [
+          "E-MAP"
+        ],
+        "source_fidelity": "Native location-pin entry sample",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-MAP-RASTER-PROXY",
+          "D-ROOM-MAP-IMAGE-REENTRY"
+        ],
+        "tested_target_node_ids": [
+          "338:19"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -46798,6 +48567,82 @@
         "next_step": "Observe missing native cases and verify broader fidelity.",
         "evidence_ids": [
           "E-ROOM-SUNDAY-PROTO-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-QUERY-STATIC",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "status": "open",
+        "affected_state_ids": [
+          "S-ROOM-QUERY-AG206",
+          "S-ALL",
+          "S-ROOM-QUERY-DIRTY",
+          "S-ROOM-QUERY-NONE",
+          "S-CLEARED",
+          "S-EMPTYQUERY"
+        ],
+        "original_behavior": "Native query editing, suggestion selection, search, focus and clear use real input and retained date/filter context.",
+        "current_implementation": "Figma fixes AG206/ZZZZ9999 strings and historical dates. Five click links demonstrate two samples; focus is a click proxy and dirty list is a fixed observed offset.",
+        "impact": "Does not reproduce arbitrary input, query timing, complete dates, continuous list range, live availability or all Back paths.",
+        "next_step": "Observe remaining query/date/return cases and implement editable-input equivalents with explicit prototype limitations.",
+        "evidence_ids": [
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-QUERY-VISUAL",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "status": "open",
+        "affected_state_ids": [
+          "S-ROOM-QUERY-AG206",
+          "S-ALL",
+          "S-ROOM-QUERY-DIRTY",
+          "S-ROOM-QUERY-NONE",
+          "S-CLEARED",
+          "S-EMPTYQUERY"
+        ],
+        "original_behavior": "Native source screenshots establish the seven observed dated/focused views.",
+        "current_implementation": "Native editable SVG shapes/text are imported. Font metrics, icon shapes and scrollbar differ. E14 clear icon is obscured; its shape comes from adjacent focused states. Hidden imported frames/controls were restored before replay.",
+        "impact": "Sample content/navigation is verified, complete visual equivalence remains unverified.",
+        "next_step": "Compare remaining typography/icons/scrollbar against native evidence and preserve unreproduced differences.",
+        "evidence_ids": [
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-MAP-RASTER-PROXY",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "status": "open",
+        "affected_state_ids": [
+          "S-MAP",
+          "S-MAPZOOM",
+          "S-MAPOUT",
+          "S-MAPRETURN"
+        ],
+        "original_behavior": "Native campus map supports observed AX slider Increment/Decrement and one Back route. Full gesture/boundary/external behavior remains unresolved.",
+        "current_implementation": "Three static geographic PNG crops with editable headers/Back; ArrowUp/Down substitute observed AX zoom pair. Initial and zoom Back are inferred exits.",
+        "impact": "No live map, editable map labels, free pan, exact slider, zoom bounds or Google Maps handoff; not complete map reproduction.",
+        "next_step": "Observe missing map controls and reproduce interactive/editable equivalents with clear source boundaries.",
+        "evidence_ids": [
+          "E-ROOM-MAP-PROTO-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-MAP-IMAGE-REENTRY",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "status": "open",
+        "affected_state_ids": [
+          "S-MAP",
+          "S-MAPZOOM",
+          "S-MAPOUT",
+          "S-MAPRETURN"
+        ],
+        "original_behavior": "Native screenshots establish map geography states; they do not establish any native image failure.",
+        "current_implementation": "Figma initial map reentry became blank. Same PNG uploaded to338:22; three later initial entries visible. Three of11 prototype crop comparisons remain non-equal in map region.",
+        "impact": "Prior visual failure is retained. Current sampled images render; broader reentry/color/pixel stability not proven.",
+        "next_step": "Check additional caller/reload contexts and native/Figma pixel fidelity; do not infer root cause from current record.",
+        "evidence_ids": [
+          "E-ROOM-MAP-PROTO-TRACE"
         ]
       }
     ],
@@ -55521,6 +57366,469 @@
           "Date reversal restores visible start labels but differs from first Available capture within the date region. Preview return equals the later stable date baseline. Fonts/icons and full fidelity remain unverified.",
           "Native Computer Use still returned Mac locked this goal turn; no native actions, states or human evaluation added."
         ]
+      },
+      {
+        "id": "PROTO-ROOM-QUERY-AG206-001",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=381-265&starting-point-node-id=381%3A265&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&show-proto-sidebar=1",
+        "start_node_id": "381:265",
+        "flow_name": "Room · AG206 suggestion to Today ALL",
+        "status": "partial",
+        "navigation_status": "suggestion_to_correct_today_sample_passed",
+        "visual_status": "partial",
+        "capture_window_utc": [
+          "2026-09-29T19:28:31.103459+00:00",
+          "2026-09-29T19:29:01.539805+00:00"
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "captured_at": "2026-09-29T19:29:01.539805+00:00",
+            "description": "[S-ROOM-QUERY-AG206] Room — AG206 suggestion",
+            "state_id": "S-ROOM-QUERY-AG206",
+            "node_id": "381:265",
+            "evidence_ids": [
+              "E-ROOM-QUERY-P-00"
+            ],
+            "outcome": "stable_visible_sample_and_destination_url_confirmed",
+            "file": "00-ag206-suggestion.png"
+          },
+          {
+            "order": 2,
+            "captured_at": "2026-09-29T19:28:31.103459+00:00",
+            "description": "[S-ROOM-TODAY-ALL-20260929] Room — AG206, Today ALL",
+            "state_id": "S-ALL",
+            "node_id": "396:19",
+            "evidence_ids": [
+              "E-ROOM-QUERY-P-01"
+            ],
+            "outcome": "stable_visible_sample_and_destination_url_confirmed",
+            "file": "01-today-all.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-ROOM-QUERY-P-00",
+          "E-ROOM-QUERY-P-01",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "limitations": [
+          "Only two fixed dated/query samples; no arbitrary typing, dynamic suggestions, live availability, all dates/rooms, continuous dirty list scrolling or complete Back paths.",
+          "Fonts/icons/scrollbar remain approximate; focused clear icon shape is inferred from adjacent native states.",
+          "Present navigation is prototype verification, not native app observation or human usability evidence.",
+          "Capture timestamps identify screenshot files, not action timing. AG206 start image was recaptured after the result image; no latency or click-sequence timing is inferred."
+        ]
+      },
+      {
+        "id": "PROTO-ROOM-QUERY-UNMATCHED-001",
+        "revision_id": "FIGMA-ROOM-QUERY-20260929-V1",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=381-72&starting-point-node-id=381%3A72&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&show-proto-sidebar=1",
+        "start_node_id": "381:72",
+        "flow_name": "Room · unmatched search, clear, retry",
+        "status": "partial",
+        "navigation_status": "five_links_across_two_samples_passed",
+        "visual_status": "partial",
+        "capture_window_utc": [
+          "2026-09-29T19:28:13.162060+00:00",
+          "2026-09-29T19:28:14.484745+00:00"
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "captured_at": "2026-09-29T19:28:13.162060+00:00",
+            "description": "[S-ROOM-QUERY-DIRTY] Room — edited query, stale AG206 result",
+            "state_id": "S-ROOM-QUERY-DIRTY",
+            "node_id": "381:72",
+            "evidence_ids": [
+              "E-ROOM-QUERY-P-02"
+            ],
+            "outcome": "stable_visible_sample_and_destination_url_confirmed",
+            "file": "02-dirty.png"
+          },
+          {
+            "order": 2,
+            "captured_at": "2026-09-29T19:28:13.464661+00:00",
+            "description": "[S-ROOM-QUERY-NONE] Room — no matching result",
+            "state_id": "S-ROOM-QUERY-NONE",
+            "node_id": "381:19",
+            "evidence_ids": [
+              "E-ROOM-QUERY-P-03"
+            ],
+            "outcome": "stable_visible_sample_and_destination_url_confirmed",
+            "file": "03-no-result.png"
+          },
+          {
+            "order": 3,
+            "captured_at": "2026-09-29T19:28:13.824582+00:00",
+            "description": "[S-ROOM-QUERY-NONE:FOCUS] Room — focused unmatched query",
+            "state_id": "S-ROOM-QUERY-NONE",
+            "node_id": "383:19",
+            "evidence_ids": [
+              "E-ROOM-QUERY-P-04"
+            ],
+            "outcome": "stable_visible_sample_and_destination_url_confirmed",
+            "file": "04-focused.png"
+          },
+          {
+            "order": 4,
+            "captured_at": "2026-09-29T19:28:14.172233+00:00",
+            "description": "[S-ROOM-QUERY-CLEARED-STALE] Room — cleared input, stale no-result",
+            "state_id": "S-CLEARED",
+            "node_id": "381:327",
+            "evidence_ids": [
+              "E-ROOM-QUERY-P-05"
+            ],
+            "outcome": "stable_visible_sample_and_destination_url_confirmed",
+            "file": "05-cleared-stale.png"
+          },
+          {
+            "order": 5,
+            "captured_at": "2026-09-29T19:28:14.484745+00:00",
+            "description": "[S-ROOM-QUERY-EMPTY-SUNDAY] Room — empty search, Sunday retained",
+            "state_id": "S-EMPTYQUERY",
+            "node_id": "381:383",
+            "evidence_ids": [
+              "E-ROOM-QUERY-P-06"
+            ],
+            "outcome": "stable_visible_sample_and_destination_url_confirmed",
+            "file": "06-empty-sunday.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-ROOM-QUERY-P-02",
+          "E-ROOM-QUERY-P-03",
+          "E-ROOM-QUERY-P-04",
+          "E-ROOM-QUERY-P-05",
+          "E-ROOM-QUERY-P-06",
+          "E-ROOM-QUERY-PROTO-TRACE"
+        ],
+        "limitations": [
+          "Only two fixed dated/query samples; no arbitrary typing, dynamic suggestions, live availability, all dates/rooms, continuous dirty list scrolling or complete Back paths.",
+          "Fonts/icons/scrollbar remain approximate; focused clear icon shape is inferred from adjacent native states.",
+          "Present navigation is prototype verification, not native app observation or human usability evidence.",
+          "Capture timestamps identify screenshot files, not action timing. AG206 start image was recaptured after the result image; no latency or click-sequence timing is inferred.",
+          "Input click/focus link has action_id null; native E14 was not a successful native clear or focus execution."
+        ]
+      },
+      {
+        "id": "PROTO-ROOM-MAP-001",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "started_at": "2026-09-29T19:48:26.207Z",
+        "ended_at": "2026-09-29T19:50:13.111Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-694&starting-point-node-id=67%3A694&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&show-proto-sidebar=1",
+        "start_node_id": "67:694",
+        "flow_name": "Room map from Tuesday Home — initial image failure",
+        "status": "failed",
+        "navigation_status": "sample_passed",
+        "visual_status": "initial_reentry_image_missing",
+        "steps": [
+          {
+            "at": "2026-09-29T19:48:26.207Z",
+            "description": "00-home-feature-baseline",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-00"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "00-home-feature-baseline.png"
+          },
+          {
+            "at": "2026-09-29T19:48:34.666Z",
+            "description": "01-room-empty",
+            "state_id": "S-EMPTYQUERY",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-01"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "01-room-empty.png"
+          },
+          {
+            "at": "2026-09-29T19:48:42.066Z",
+            "description": "02-a-suggestion",
+            "state_id": "S-SUGGESTION",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-02"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "02-a-suggestion.png"
+          },
+          {
+            "at": "2026-09-29T19:48:48.634Z",
+            "description": "03-tuesday-all",
+            "state_id": "S-ALL",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-03"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "03-tuesday-all.png"
+          },
+          {
+            "at": "2026-09-29T19:48:54.790Z",
+            "description": "04-tuesday-available",
+            "state_id": "S-AVAILABLE",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-04"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "04-tuesday-available.png"
+          },
+          {
+            "at": "2026-09-29T19:49:00.949Z",
+            "description": "05-date-strip-shifted",
+            "state_id": "S-DATEDRAG",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-05"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "05-date-strip-shifted.png"
+          },
+          {
+            "at": "2026-09-29T19:49:13.779Z",
+            "description": "06-sunday-empty",
+            "state_id": "S-SUNEMPTY",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-06"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "06-sunday-empty.png"
+          },
+          {
+            "at": "2026-09-29T19:49:20.439Z",
+            "description": "07-sunday-all-top",
+            "state_id": "S-SUNALL",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-07"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "07-sunday-all-top.png"
+          },
+          {
+            "at": "2026-09-29T19:49:27.715Z",
+            "description": "08-sunday-scrolled-baseline",
+            "state_id": "S-SUNSCROLLED",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-08"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "08-sunday-scrolled-baseline.png"
+          },
+          {
+            "at": "2026-09-29T19:49:36.734Z",
+            "description": "09-map-initial",
+            "state_id": "S-MAP",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-09"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "09-map-initial.png"
+          },
+          {
+            "at": "2026-09-29T19:49:43.670Z",
+            "description": "10-map-zoomed",
+            "state_id": "S-MAPZOOM",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-10"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "10-map-zoomed.png"
+          },
+          {
+            "at": "2026-09-29T19:49:51.044Z",
+            "description": "11-map-out",
+            "state_id": "S-MAPOUT",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-11"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "11-map-out.png"
+          },
+          {
+            "at": "2026-09-29T19:49:57.572Z",
+            "description": "12-map-list-return",
+            "state_id": "S-MAPRETURN",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-12"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "12-map-list-return.png"
+          },
+          {
+            "at": "2026-09-29T19:50:04.178Z",
+            "description": "13-initial-reentry-image-missing",
+            "state_id": "S-MAP",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-13"
+            ],
+            "outcome": "initial_image_missing",
+            "file": "13-initial-reentry-image-missing.png"
+          },
+          {
+            "at": "2026-09-29T19:50:13.111Z",
+            "description": "14-initial-back-return",
+            "state_id": "S-MAPRETURN",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-14"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "14-initial-back-return.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-ROOM-MAP-P-00",
+          "E-ROOM-MAP-P-01",
+          "E-ROOM-MAP-P-02",
+          "E-ROOM-MAP-P-03",
+          "E-ROOM-MAP-P-04",
+          "E-ROOM-MAP-P-05",
+          "E-ROOM-MAP-P-06",
+          "E-ROOM-MAP-P-07",
+          "E-ROOM-MAP-P-08",
+          "E-ROOM-MAP-P-09",
+          "E-ROOM-MAP-P-10",
+          "E-ROOM-MAP-P-11",
+          "E-ROOM-MAP-P-12",
+          "E-ROOM-MAP-P-13",
+          "E-ROOM-MAP-P-14",
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-09-30-room-map-replay/manifest.json",
+        "limitations": [
+          "Static raster geography; only native observed zoom pair. Arrow keys are input proxies, not observed native key behavior.",
+          "Initial and zoom Back are prototype inferred exits. Only Tuesday caller and Sunday scrolled list tested.",
+          "Five list returns and Home return pixel equal; three map comparisons differ. No full native/Figma fidelity, all callers, live map, pan, zoom bounds, external handoff or human evaluation."
+        ]
+      },
+      {
+        "id": "PROTO-ROOM-MAP-RECHECK-001",
+        "revision_id": "FIGMA-ROOM-MAP-V1",
+        "started_at": "2026-09-29T19:51:24.476Z",
+        "ended_at": "2026-09-29T19:52:11.349Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-694&starting-point-node-id=67%3A694&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&show-proto-sidebar=1",
+        "start_node_id": "327:202",
+        "flow_name": "Room map from Tuesday Home — after PNG upload",
+        "status": "partial",
+        "navigation_status": "sample_passed",
+        "visual_status": "three_initial_reentries_visible_map_pixel_differences_retained",
+        "steps": [
+          {
+            "at": "2026-09-29T19:51:24.476Z",
+            "description": "15-initial-after-reupload",
+            "state_id": "S-MAP",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-15"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "15-initial-after-reupload.png"
+          },
+          {
+            "at": "2026-09-29T19:51:24.779Z",
+            "description": "16-initial-back-after-reupload",
+            "state_id": "S-MAPRETURN",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-16"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "16-initial-back-after-reupload.png"
+          },
+          {
+            "at": "2026-09-29T19:51:35.888Z",
+            "description": "17-initial-second-reentry",
+            "state_id": "S-MAP",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-17"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "17-initial-second-reentry.png"
+          },
+          {
+            "at": "2026-09-29T19:51:36.230Z",
+            "description": "18-zoomed-reentry",
+            "state_id": "S-MAPZOOM",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-18"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "18-zoomed-reentry.png"
+          },
+          {
+            "at": "2026-09-29T19:51:48.415Z",
+            "description": "19-zoomed-back-return",
+            "state_id": "S-MAPRETURN",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-19"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "19-zoomed-back-return.png"
+          },
+          {
+            "at": "2026-09-29T19:51:48.718Z",
+            "description": "20-final-initial",
+            "state_id": "S-MAP",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-20"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "20-final-initial.png"
+          },
+          {
+            "at": "2026-09-29T19:51:49.112Z",
+            "description": "21-final-zoomed",
+            "state_id": "S-MAPZOOM",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-21"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "21-final-zoomed.png"
+          },
+          {
+            "at": "2026-09-29T19:52:00.803Z",
+            "description": "22-final-out",
+            "state_id": "S-MAPOUT",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-22"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "22-final-out.png"
+          },
+          {
+            "at": "2026-09-29T19:52:01.085Z",
+            "description": "23-final-map-list-return",
+            "state_id": "S-MAPRETURN",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-23"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "23-final-map-list-return.png"
+          },
+          {
+            "at": "2026-09-29T19:52:11.349Z",
+            "description": "24-home-feature-return",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-ROOM-MAP-P-24"
+            ],
+            "outcome": "visible_sample_recorded",
+            "file": "24-home-feature-return.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-ROOM-MAP-P-15",
+          "E-ROOM-MAP-P-16",
+          "E-ROOM-MAP-P-17",
+          "E-ROOM-MAP-P-18",
+          "E-ROOM-MAP-P-19",
+          "E-ROOM-MAP-P-20",
+          "E-ROOM-MAP-P-21",
+          "E-ROOM-MAP-P-22",
+          "E-ROOM-MAP-P-23",
+          "E-ROOM-MAP-P-24",
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-09-30-room-map-replay/manifest.json",
+        "limitations": [
+          "Static raster geography; only native observed zoom pair. Arrow keys are input proxies, not observed native key behavior.",
+          "Initial and zoom Back are prototype inferred exits. Only Tuesday caller and Sunday scrolled list tested.",
+          "Five list returns and Home return pixel equal; three map comparisons differ. No full native/Figma fidelity, all callers, live map, pan, zoom bounds, external handoff or human evaluation."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -55530,7 +57838,7 @@
     "connector_status": "Figma plugin connection not confirmed; current browser route works without that confirmation",
     "file_verified_at": "2026-09-28T14:28:04.139Z",
     "page_limit": 3,
-    "organization": "00 · Archive — initial AI draft (formerly Page 1) retains historical draft; 01 · Observed UI has 38 current source-derived frames arranged by module. Use sections and keep total pages <=3.",
+    "organization": "00 · Archive — initial AI draft retains historical draft; 01 · Observed UI contains96 formally mapped current frames, including partially editable raster maps. Use existing pages and keep total pages <=3.",
     "generation_requests": [
       {
         "id": "FIGMA-ROOM-001",
@@ -55600,7 +57908,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "86 mapped frames / 3 internal component states / 217 configured controls / 5 scroll regions (4 vertical,1 horizontal). Room Sunday transition, observed list scroll, three Tuesday Home exits and Preview regression sampled. Native full scope and complete visual fidelity remain unverified.",
+    "verification_summary": "96 mapped frames / 3 internal component states / 228 configured controls / 5 scroll regions (4 vertical,1 horizontal) / 36 prototype runs. Room query two fixed samples archived. AG206 map six controls replayed; initial image failure retained, same PNG reuploaded and sampled reentry/returns verified. Full native scope, complete editability and visual fidelity remain unverified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -55962,7 +58270,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-MENU-V2",
+    "current_revision": "FIGMA-ROOM-MAP-V1",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -56014,7 +58322,10 @@
       "food_image_reentry": "two_tuesday_nested_circuits_visible_after_14_png_reuploads_other_contexts_unverified",
       "food_hcafe": "tuesday_observed_viewport_chain_passed_after_prompt_fix_continuous_list_unimplemented",
       "room_preview": "tuesday_sample_passed_observed_range_only_native_reopen_unverified",
-      "room_sunday": "tuesday_sample_passed_full_date_and_list_bounds_unverified"
+      "room_sunday": "tuesday_sample_passed_full_date_and_list_bounds_unverified",
+      "room_query": "two_fixed_samples_five_links_replayed_full_input_and_scope_incomplete",
+      "room_query_import_visibility": "seven_frame_visibility_and_two_hidden_controls_restored_before_sample_replay",
+      "room_map": "six_controls_tuesday_sample_replayed_initial_image_repaired_full_map_fidelity_incomplete"
     },
     "additional_imports": [
       {
@@ -57042,9 +59353,27 @@
         ],
         "entry_role": "preexisting_ui_reference_added_to_registry",
         "scope": "Reference start for observed Tuesday availability. For tested Home returns, enter Room through Home Dates instead. Available date strip scrolls across seven observed dates; only Sunday selection is connected, followed by a sampled asynchronous transition and Sunday empty/ALL states. Sunday list scroll covers only native observed rows and a clipped next-row fragment; true bounds remain unknown. Preview supports observed-range webpage, menu/Cancel and one photo Next. Three Sunday exits and reverse filter are inferred prototype controls. Standalone has no Home caller; complete Room, other dates/queries/map and visual fidelity remain unfinished. Demo timing is not native timing; Agent replay is not human evaluation."
+      },
+      {
+        "name": "Room · AG206 suggestion to Today ALL",
+        "start_node_id": "381:265",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=381-265&starting-point-node-id=381%3A265&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&show-proto-sidebar=1",
+        "tested_run_ids": [
+          "PROTO-ROOM-QUERY-AG206-001"
+        ],
+        "scope": "Two independently UI-created query flow starts, actually replayed in Present. Fixed September 29 sample; full PolyULife interaction and visual coverage incomplete."
+      },
+      {
+        "name": "Room · unmatched search, clear, retry",
+        "start_node_id": "381:72",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=381-72&starting-point-node-id=381%3A72&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&show-proto-sidebar=1",
+        "tested_run_ids": [
+          "PROTO-ROOM-QUERY-UNMATCHED-001"
+        ],
+        "scope": "Two independently UI-created query flow starts, actually replayed in Present. Fixed September 29 sample; full PolyULife interaction and visual coverage incomplete."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-29T02:32:31.240Z",
+    "latest_prototype_run_cutoff": "2026-09-29T19:52:11.349Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -57415,6 +59744,20 @@
           "E-ROOM-PREVIEW-PROTO-TRACE"
         ],
         "note": "Close overlay reveals existing Available with AG206/Tue29 and caller stack retained; no duplicate frame."
+      },
+      {
+        "state_id": "S-MAPRETURN",
+        "reused_state_id": "S-SUNALL",
+        "node_id": "327:202",
+        "source_evidence_ids": [
+          "E-ROOM-RECHECK-10"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-MAP-P-12",
+          "E-ROOM-MAP-P-23",
+          "E-ROOM-MAP-PROTO-TRACE"
+        ],
+        "note": "Close map overlay reveals the existing Sunday ALL scrolled viewport; five returns pixel equal to baseline. No duplicate full frame."
       }
     ]
   },
@@ -57550,9 +59893,12 @@
         "S-PHOTO2",
         "S-SUNALL"
       ],
-      "reason": "Complete pending Room actions, Preview content/PDF and browser menu branches, list/date bounds, and remaining AG206 map controls/handoff.",
+      "reason": "Complete pending Room actions, Preview content/PDF and browser menu branches, list/date bounds, and remaining AG206 map controls/handoff. September29 query samples now reconstructed and replayed; arbitrary input, remaining dates/returns/map and full fidelity still pending. AG206 map zoom-pair and all three Back controls now sampled from Tuesday Home; remaining native map controls/zoom bounds/external handoff unverified.",
       "status": "in_progress",
-      "resolution_refs": []
+      "resolution_refs": [
+        "E-ROOM-QUERY-PROTO-TRACE",
+        "E-ROOM-MAP-PROTO-TRACE"
+      ]
     },
     {
       "id": "Q-HOME-REST",
@@ -57604,9 +59950,11 @@
         "S-ALL",
         "S-AVAILABLE"
       ],
-      "reason": "Source-derived native SVG nodes replaced faulty geometry/order. Preserve explicit glyph/vector approximation and finite sample limitations; complete broader fidelity and interaction verification.",
+      "reason": "Source-derived native SVG nodes replaced faulty geometry/order. Preserve explicit glyph/vector approximation and finite sample limitations; complete broader fidelity and interaction verification. September29 query samples now reconstructed and replayed; arbitrary input, remaining dates/returns/map and full fidelity still pending.",
       "status": "in_progress",
-      "resolution_refs": []
+      "resolution_refs": [
+        "E-ROOM-QUERY-PROTO-TRACE"
+      ]
     },
     {
       "id": "Q-CALENDAR-REMAINING",

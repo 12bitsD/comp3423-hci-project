@@ -381,9 +381,10 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 
 ## 从状态到节点
 
-每个 `state` 对应一个可定位的 Figma frame、overlay 或 component variant。节点命名使用 `[state_id] 实际页面/状态名`，名称来自观察记录。`state_node_mappings` 记录：
+每个 `state` 对应可定位的 Figma frame、overlay 或 component variant。同一原生状态可有不同日期、数据或聚焦上下文；额外画板使用明确的 `context_variant`，并引用与该状态对应的原生证据，不新增原生观察次数。节点命名使用 `[state_id] 实际页面/状态名`，名称来自观察记录。`state_node_mappings` 记录：
 
 - `state_id`、`node_id`、`node_url`、Figma 工作页及节点类型。
+- `context_variant`（可选）：同一原生状态的日期、数据或聚焦变体。`node_id` 必须唯一，`(state_id, context_variant)` 必须唯一；没有变体字段的历史基础画板每个状态最多一个。画板数量与原生状态数量分别统计。
 - `source_evidence_ids`：真实截图和辅助 AX 引用。
 - `viewport`：截图内容区域尺寸、缩放及 Figma frame 尺寸；窗口装饰与应用内容边界分开记录。
 - `content_policy`：真实界面中的个人字段在共享版替换为明确的示例值；保留文案长度、层级和交互作用。
@@ -415,6 +416,8 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 5. 将节点和动作映射与全应用台账逐条比对。任何尚未观察、缺截图、缺节点、缺连线、未复验或仍有阻碍的项均保持未完成；全应用完成判定见 [README](README.md#完成判定)。
 
 交付包含真实 Figma 文件及原型链接、状态/动作映射、证据索引、HCI 分析及明确的剩余缺口。Agent 对原型的走查是功能验证记录；课程真人可用性评估另按 [项目说明](../project-brief.md) 执行。
+
+[台账校验脚本](../../design/scripts/validate_polyulife_records.py)检查引用、文件哈希、PNG尺寸、SVG结构及节点/上下文唯一性；此结构检查不证明全应用完成或全部视觉保真。
 
 ## 校园地图增量
 

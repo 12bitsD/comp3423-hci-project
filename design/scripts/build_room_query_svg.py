@@ -150,7 +150,7 @@ for label, state, evidence, sunday, value, focus, clear in rows:
     'frames':manifest, 'native_reference':'docs/polyulife/room-recheck-20260929.json',
     'figma_file_url':'https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/',
     'figma_page_id':'12:104',
-    'coverage_ledger_status':'checkpoint_pending_canonical_coverage_archive; native observations unchanged',
+    'coverage_ledger_status':'archived_in_docs/polyulife/coverage.json; native observations unchanged',
     'prototype_replay_evidence_manifest':'evidence/2026-09-30-room-query-replay/manifest.json',
     'prototype_replays':[
         {'id':'PROTO-ROOM-QUERY-AG206-001','flow_name':'Room · AG206 suggestion to Today ALL',
@@ -162,10 +162,10 @@ for label, state, evidence, sunday, value, focus, clear in rows:
     'connections_editor_verified':[
         {'source_node_id':'381:323', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'396:19',
          'native_evidence':'E-ROOM-RECHECK-03', 'prototype_run_id':'PROTO-ROOM-QUERY-AG206-001'},
-        {'source_node_id':'381:113', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:19', 'native_evidence':'E-ROOM-RECHECK-13'},
-        {'source_node_id':'381:60', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'383:19', 'native_evidence':'E-ROOM-RECHECK-14'},
-        {'source_node_id':'383:67', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:327', 'native_evidence':'E-ROOM-RECHECK-15'},
-        {'source_node_id':'381:369', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:383', 'native_evidence':'E-ROOM-RECHECK-16'},
+        {'source_node_id':'381:113', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:19', 'native_evidence':'E-ROOM-RECHECK-13', 'prototype_run_id':'PROTO-ROOM-QUERY-UNMATCHED-001'},
+        {'source_node_id':'381:60', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'383:19', 'native_evidence':'E-ROOM-RECHECK-14', 'prototype_run_id':'PROTO-ROOM-QUERY-UNMATCHED-001', 'native_action_id':None, 'fidelity':'click/focus proxy; native E14 was an unsuccessful clear-coordinate attempt'},
+        {'source_node_id':'383:67', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:327', 'native_evidence':'E-ROOM-RECHECK-15', 'prototype_run_id':'PROTO-ROOM-QUERY-UNMATCHED-001'},
+        {'source_node_id':'381:369', 'trigger':'On click', 'action':'Navigate to', 'destination_node_id':'381:383', 'native_evidence':'E-ROOM-RECHECK-16', 'prototype_run_id':'PROTO-ROOM-QUERY-UNMATCHED-001'},
     ],
     'local_render_review':{
         'renderer':'resvg-py0.5.0; local system fonts',

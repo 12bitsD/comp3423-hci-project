@@ -1,5 +1,5 @@
 {
-  "status": "work_in_progress_not_replayed",
+  "status": "sample_replayed_visual_partial_canonical_archive_complete",
   "recorded_at": "2026-09-29T03:11:16.131005+00:00",
   "frames": [
     {
@@ -83,9 +83,8 @@
     }
   ],
   "pending": [
-    "Verify initial map image fill in Present; prior extra upload failed",
-    "Replay all six configured controls from Tuesday Home; current attempts failed at Room entry amid viewport/input inconsistency",
-    "Archive successful replay and integrate mappings into coverage.json"
+    "Implement remaining map editability/input and full native controls/bounds/handoff",
+    "Observe/replay other callers and native/Figma full visual fidelity"
   ],
   "editor_evidence": {
     "path": "assets/room-map-editor-checkpoint.png",
@@ -96,7 +95,7 @@
     "sha256": "05c37fa290f2e15837ea7f246bf593d9ec63e870225111a123b79fbe5bf7f796",
     "redaction": "Editor avatar area [1000,0,1121,50) masked; screenshot is an editor configuration checkpoint, not a prototype run."
   },
-  "canonical_coverage_unchanged": true,
+  "canonical_coverage_unchanged": false,
   "limitations": [
     "Raster geography and captured cursor retained",
     "No free pan, live data, exact native slider, Google Maps handoff or zoom limits",
@@ -105,5 +104,26 @@
   ],
   "flow_cleanup": "339:30 temporary Flow 3 removed via UI, readback Add flow starting point; initial338:19 has no flow after incoming connection.",
   "native_return_update": "SESSION-20260929-ROOM-RECHECK now confirms Sunday ALL list offset retained after map zoom pair and Back.",
-  "replay_status": "attempted_not_passed"
+  "replay_status": "six_controls_replayed_initial_failure_retained_then_png_reuploaded",
+  "prototype_run_ids": [
+    "PROTO-ROOM-MAP-001",
+    "PROTO-ROOM-MAP-RECHECK-001"
+  ],
+  "public_evidence_manifest": "evidence/2026-09-30-room-map-replay/manifest.json",
+  "walkthrough": "docs/polyulife/room-map-prototype-walkthrough.md",
+  "current_image_repair": {
+    "image_node_id": "338:22",
+    "asset": "assets/room-map-initial-geography.png",
+    "asset_sha256": "adf3abc08c6d05b326189aaa8036ffbc4d94c93ffb18760c51f6a6867fdabce3",
+    "readback_dimensions": [
+      576,
+      870
+    ],
+    "readback_image_should_color_manage": true,
+    "post_upload_initial_entry_capture_indices": [
+      15,
+      17,
+      20
+    ]
+  }
 }
