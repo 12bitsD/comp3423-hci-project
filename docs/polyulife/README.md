@@ -122,3 +122,7 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 [Room Preview原型](room-preview-prototype-walkthrough.md)：新增3个Frame、1个照片组件状态、6个控件和1个竖向滚动区域。菜单取消、照片Next、四次Available及Tuesday Home返回已验证；完整网页、原生重开语义和完整视觉验收未完成。
 
 [Room Sunday原型](room-sunday-prototype-walkthrough.md)：新增3个Frame、7个控件，Available日期条及Sunday ALL列表可连续滚动。过渡/空态/ALL与三个推断出口通过Tuesday来源样例回放，完整日期和列表边界、地图及查询仍未完成。9项像素比较中7项相等，2项日期基线差异保留。
+
+### AG206 地图制作中的检查点
+
+[三个地图画面及剩余连接/回放步骤](room-map-work-in-progress.md)已保存，尚未计入正式覆盖统计；没有新增原生观察或回放通过记录。

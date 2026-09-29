@@ -1,0 +1,59 @@
+{
+  "assets": [
+    {
+      "file": "room-map-initial-geography.png",
+      "source": "evidence/2026-09-28-full-audit/room-map-140441-ag206-campus.png",
+      "source_evidence_id": "E-MAP",
+      "source_sha256": "a25a845e96d8d61b6285b6038089563c3e01d3a369a7685adb89eacdfdf5f781",
+      "crop": [
+        0,
+        100,
+        576,
+        970
+      ],
+      "dimensions": [
+        576,
+        870
+      ],
+      "sha256": "adf3abc08c6d05b326189aaa8036ffbc4d94c93ffb18760c51f6a6867fdabce3",
+      "transformation": "Crop only; captured cursor and transient map labels deliberately retained, no invented pixel repair."
+    },
+    {
+      "file": "room-map-zoomed-geography.png",
+      "source": "evidence/2026-09-28-full-audit/room-map-140635-ag206-zoomed.png",
+      "source_evidence_id": "E-MAPZOOM",
+      "source_sha256": "cafcaba22104e0c56ebc048d3cb231622639f72cdcf6d8a93cdd2db8c938942c",
+      "crop": [
+        0,
+        100,
+        576,
+        970
+      ],
+      "dimensions": [
+        576,
+        870
+      ],
+      "sha256": "17d81e2be66426bd9d8874cc644816c635bfe32c76d2620e711bede86a50892d",
+      "transformation": "Crop only; captured cursor and transient map labels deliberately retained, no invented pixel repair."
+    },
+    {
+      "file": "room-map-out-geography.png",
+      "source": "evidence/2026-09-28-full-audit/room-map-140652-ag206-campus.png",
+      "source_evidence_id": "E-MAPOUT",
+      "source_sha256": "e55381b234f4a8f4a2066796e18ca8629d35e8f222e9ba779c5dfdaaa81dde62",
+      "crop": [
+        0,
+        100,
+        576,
+        970
+      ],
+      "dimensions": [
+        576,
+        870
+      ],
+      "sha256": "14130980c51730d9786b4aaaf0d47dd434a9977e15bf9acc77a641298e53e3ac",
+      "transformation": "Crop only; captured cursor and transient map labels deliberately retained, no invented pixel repair."
+    }
+  ],
+  "scope": "Reviewed public campus map, no personal account or user-position marker. Cursor/halo remains a known reconstruction deviation."
+}
