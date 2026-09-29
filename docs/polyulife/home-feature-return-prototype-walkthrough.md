@@ -76,3 +76,5 @@ Tuesday Food入口再次出现地图和店铺图片全部缺失，文字和卡�
 后续更新：[Study/Courses返回栈](study-courses-return-prototype-walkthrough.md)将这两个模块的样例内部路径改为overlay并验证三个Home来源；上文历史Back配置保留作历史。其它模块内部绕行仍待完成。
 
 后续更新：[Map返回栈](map-return-prototype-walkthrough.md)已保留三个Home来源并补8个筛选外层出口。独立Map启动退出及重复进入缺图仍未解决；上文连接配置保留作历史。
+
+后续：[Room返回栈](room-return-prototype-walkthrough.md)更新8个控件、补3个外层出口，三个Home来源的既有样例返回通过；独立Room退出和未实现交互仍保留。
