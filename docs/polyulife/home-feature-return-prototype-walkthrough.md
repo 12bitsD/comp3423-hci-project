@@ -78,3 +78,5 @@ Tuesday Food入口再次出现地图和店铺图片全部缺失，文字和卡�
 后续更新：[Map返回栈](map-return-prototype-walkthrough.md)已保留三个Home来源并补8个筛选外层出口。独立Map启动退出及重复进入缺图仍未解决；上文连接配置保留作历史。
 
 后续：[Room返回栈](room-return-prototype-walkthrough.md)更新8个控件、补3个外层出口，三个Home来源的既有样例返回通过；独立Room退出和未实现交互仍保留。
+
+后续：[Food返回栈](food-return-prototype-walkthrough.md)更新15个控件、补1个外层出口，三个Home来源的既有样例返回通过；图片不稳定、独立Food退出和完整范围仍未完成。

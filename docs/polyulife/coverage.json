@@ -27193,6 +27193,1195 @@
       ],
       "action_ids": [],
       "source": "8 existing control changes, 3 new outer exits; Monday/legacy full sample loops and four Tuesday exits, six pixel-equal Home returns; standalone exit failure retained."
+    },
+    {
+      "id": "E-FOOD-STACK-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:20:11.867Z",
+      "sha256": "1f6365f11dd4bb30a8c5bcf9297265730ff9dfe1d033b03c9a9135069443766d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-baseline.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Monday Home feature-area baseline; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-list.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:20:12.134Z",
+      "sha256": "0c229b632623fa584667f32fcd9c87b483e8f5f5859ef0ecaf613f0bbc5ac56f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-list.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Monday Home opens Food list; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-detail.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:20:24.243Z",
+      "sha256": "4edf59df25edf6f15bb849fcd7a6844131d822583db42d1558964bc675b63f00",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-detail.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Open VA210 directly from unexpanded list; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-image.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:20:38.815Z",
+      "sha256": "9501d0400c65705676c1b167236add00ddb87287df5db951366762fb3ca0cda1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-IMAGE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-image.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Expand image from direct-list detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-image-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:20:52.901Z",
+      "sha256": "4edf59df25edf6f15bb849fcd7a6844131d822583db42d1558964bc675b63f00",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-image-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Image X restores source detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-map.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:20:53.171Z",
+      "sha256": "8156e194ab0ad56704f0755126d25ddca0817978e8ae6773e9e6c977a336588b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-map.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Expand map from same detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-map-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:06.837Z",
+      "sha256": "4edf59df25edf6f15bb849fcd7a6844131d822583db42d1558964bc675b63f00",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-map-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Map Back restores original detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-detail-return-list.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:07.104Z",
+      "sha256": "0c229b632623fa584667f32fcd9c87b483e8f5f5859ef0ecaf613f0bbc5ac56f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-detail-return-list.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Detail Back restores unexpanded list; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-mon-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:07.375Z",
+      "sha256": "1f6365f11dd4bb30a8c5bcf9297265730ff9dfe1d033b03c9a9135069443766d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-mon-home-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Food list Back restores Monday Home; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:24.029Z",
+      "sha256": "8848d84012c27cfb4371f3d4e7a8614142e41602c82eea4137f240979a811603",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-top.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Confirmed Tuesday Home source; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:24.307Z",
+      "sha256": "7fe26a8a6738a8a1a615026d82d7d8a9772feaa1d916d29a8b88f302474f2abd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-baseline.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Tuesday feature-area baseline; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-list.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:24.576Z",
+      "sha256": "292dc79cea356eb3935195f751a5e6612074662a664aaca8dc40cd1953e23371",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-list.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Tuesday Food entry; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-hours.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:37.486Z",
+      "sha256": "551f4403dc7a2cddfbcc510823e7345aaf4937c33d03af0632a80064ef40b0d7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-hours.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Expand first venue opening hours; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-origin-detail.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:56.051Z",
+      "sha256": "2b164dab5f748e2199290adb0d19b46673d3dee99c9f7c3291a661106f76c50d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-origin-detail.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Details opened from expanded-hours list; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-tag.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:21:56.323Z",
+      "sha256": "bd5110355c16095a7fdb302b311fad0b5fa47ac516bcbec92004c118ab5eb48c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-TAG-RESULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-tag.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Chinese Soup search opened from source detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-result-detail.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:22:07.381Z",
+      "sha256": "a2a3aa72f0fd56e30c49dbae9abc335e140508388a2687125b12133a08d667b4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-result-detail.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Search result opens same detail above Search; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-nested-image.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:22:23.430Z",
+      "sha256": "efc0e608b8f75a49ef5f2e8d98a77a7e6c1081961737de4584ffc32bf2b0cb92",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-IMAGE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-nested-image.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Image opened from search-result detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-nested-image-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:22:23.696Z",
+      "sha256": "a2a3aa72f0fd56e30c49dbae9abc335e140508388a2687125b12133a08d667b4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-nested-image-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Image close restores search-result detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-nested-map.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:22:40.762Z",
+      "sha256": "8e81b8fbc02c4ddd9f5f5989852665b9d117268e738dea2ff279b46c8bcc98bd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-MAP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-nested-map.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Map opened from search-result detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-nested-map-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:22:41.033Z",
+      "sha256": "a2a3aa72f0fd56e30c49dbae9abc335e140508388a2687125b12133a08d667b4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-nested-map-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Map Back restores search-result detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-detail-back-search.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:22:55.380Z",
+      "sha256": "bd5110355c16095a7fdb302b311fad0b5fa47ac516bcbec92004c118ab5eb48c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-TAG-RESULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-detail-back-search.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Search-result detail Back restores Search; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-search-back-origin.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:22:55.643Z",
+      "sha256": "2b164dab5f748e2199290adb0d19b46673d3dee99c9f7c3291a661106f76c50d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-search-back-origin.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Search Back restores original tag-source detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-back-hours.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:26:25.951Z",
+      "sha256": "564cb56ac23d5a928efa815f87e5cf80ab294939110f804b7cf6fa01b17de54f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-back-hours.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Original detail Back returns to expanded-hours list; map and logos visible again on return (earlier entry had missing imagery); not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-tue-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:26:41.571Z",
+      "sha256": "7fe26a8a6738a8a1a615026d82d7d8a9772feaa1d916d29a8b88f302474f2abd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-tue-home-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Expanded-hours Back returns to Tuesday Home features; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:27:10.724Z",
+      "sha256": "7eedc5654a39b3f354f5ece9206d34fd0534331221d6487f17df535aaaf065d8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-baseline.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Legacy Home baseline before Food; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-list.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:27:11.033Z",
+      "sha256": "2fc435f6b0e73a4f4bc04b764f7d90810d4f52d11f813e7bc1ddc5a7e6d23462",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-list.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Legacy Home opens Food list; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-hours.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:27:19.813Z",
+      "sha256": "b2378dbb9f0778896b4095472dda55481bcbc84d3251aa49cc1fee2e444fa3e7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-hours.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Opening hours expanded from legacy Home caller; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-origin-detail.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:27:28.193Z",
+      "sha256": "938851b838c620957d7877568e13e231c4e7d8a3bf8bfd42d15a4f3cc3159c86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-origin-detail.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Expanded-hours entry opens original VA210 detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-tag.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:27:36.829Z",
+      "sha256": "48d254b95961ad30e7ae6ce5a2273ca1c7fcc207c33e2d5bd8a3ca8efc62507e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-TAG-RESULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-tag.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Original detail opens Chinese Soup tag results; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-result-detail.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:27:47.585Z",
+      "sha256": "938851b838c620957d7877568e13e231c4e7d8a3bf8bfd42d15a4f3cc3159c86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-result-detail.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Chinese Soup result opens second instance of VA210 detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-31",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-detail-back-search.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:27:55.977Z",
+      "sha256": "48d254b95961ad30e7ae6ce5a2273ca1c7fcc207c33e2d5bd8a3ca8efc62507e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-TAG-RESULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-detail-back-search.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Result detail Back returns to Search; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-32",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-search-back-origin.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:28:05.070Z",
+      "sha256": "938851b838c620957d7877568e13e231c4e7d8a3bf8bfd42d15a4f3cc3159c86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-search-back-origin.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Search Back returns to original detail; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-33",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-back-hours.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:28:16.552Z",
+      "sha256": "b2378dbb9f0778896b4095472dda55481bcbc84d3251aa49cc1fee2e444fa3e7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-back-hours.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Original detail returns to expanded-hours list; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-34",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-legacy-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:28:31.101Z",
+      "sha256": "a13d17e30d344cceb32744c4e59226c26af5d33bb39151e8ccde604a6d43afb7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-legacy-home-return.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Food hours outer Back returns to legacy Home caller; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-35",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-standalone-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:28:49.921Z",
+      "sha256": "c6b2b35036295936d57070a3120f3ff2c3adee9cca11b09ac4d0417fa227d01a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-standalone-baseline.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Standalone Food starts at list; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-36",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-standalone-back-noop.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:28:59.957Z",
+      "sha256": "8dad338b30f6765561c7fb1edcdbcdfcbc488c2568dcaa272db43715b4839d37",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-standalone-back-noop.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Standalone list Back has no effect without Home caller; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-37",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-standalone-hours.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:29:10.800Z",
+      "sha256": "9897f416f6acec559d5699024110e11375c5b7e6b1d868e2d3c263f8a72f2ce9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-standalone-hours.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Standalone opening hours still expands; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-38",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-standalone-hours-back-list.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:29:21.294Z",
+      "sha256": "9897f416f6acec559d5699024110e11375c5b7e6b1d868e2d3c263f8a72f2ce9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-HOURS"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-standalone-hours-back-list.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Standalone hours Back has no visible effect; expanded hours remain, no Home caller; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-P-39",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/food-stack-description-readback.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T00:31:21.683Z",
+      "sha256": "de285293c39ed182f69bdbf7605c4cd46f67414419d052d56b974526d0e9146c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-LIST"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/food-stack-description-readback.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use. Reloaded standalone Food with updated scope description, not a navigation test; not native evidence."
+    },
+    {
+      "id": "E-FOOD-STACK-TRACE",
+      "type": "interaction_trace",
+      "path": "food-return-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON",
+        "S-FOOD-LIST",
+        "S-FOOD-DETAIL",
+        "S-FOOD-IMAGE",
+        "S-FOOD-MAP",
+        "S-HOME-SCHEDULE-TUE",
+        "S-FOOD-HOURS",
+        "S-FOOD-TAG-RESULT",
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "15 existing controls updated, 1 new hours exit. Three pixel-equal Home returns, repeated-detail nested navigation; image defects and standalone failures retained."
     }
   ],
   "findings": [
@@ -32122,17 +33311,46 @@
         "trigger_node_id": "50:1928",
         "trigger_node_name": "OpeningHours1",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Swap overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T16:58:21.586Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-HOURS",
+            "action_id": "A-FOOD-HOURS-EXPAND",
+            "source_node_id": "50:1911",
+            "target_node_id": "50:2124",
+            "trigger_node_id": "50:1928",
+            "trigger_node_name": "OpeningHours1",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T16:58:21.586Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
         ]
       },
       {
@@ -32143,18 +33361,53 @@
         "trigger_node_id": "50:1934",
         "trigger_node_name": "VenueMenu1",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T16:58:21.586Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Prototype unexpanded-list ellipsis entry passed; native exact entry was observed from hours-expanded list only. Unexpanded native start remains unverified.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
-        ]
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-DIRECT-DETAIL",
+            "action_id": "A-FOOD-DETAIL",
+            "source_node_id": "50:1911",
+            "target_node_id": "50:2013",
+            "trigger_node_id": "50:1934",
+            "trigger_node_name": "VenueMenu1",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T16:58:21.586Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Prototype unexpanded-list ellipsis entry passed; native exact entry was observed from hours-expanded list only. Unexpanded native start remains unverified.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-FOOD-HOURS-DETAIL",
@@ -32164,18 +33417,53 @@
         "trigger_node_id": "50:2151",
         "trigger_node_name": "VenueMenu1",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T16:58:51.903Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
-        ]
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-HOURS-DETAIL",
+            "action_id": "A-FOOD-DETAIL",
+            "source_node_id": "50:2124",
+            "target_node_id": "50:2013",
+            "trigger_node_id": "50:2151",
+            "trigger_node_name": "VenueMenu1",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T16:58:51.903Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-FOOD-IMAGE",
@@ -32185,18 +33473,53 @@
         "trigger_node_id": "50:2020",
         "trigger_node_name": "ExpandImage",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T16:59:05.332Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
-        ]
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-IMAGE",
+            "action_id": "A-FOOD-IMAGE-EXPAND",
+            "source_node_id": "50:2013",
+            "target_node_id": "50:2230",
+            "trigger_node_id": "50:2020",
+            "trigger_node_name": "ExpandImage",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T16:59:05.332Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-FOOD-TAG",
@@ -32206,18 +33529,53 @@
         "trigger_node_id": "50:2036",
         "trigger_node_name": "TagDetail0",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T16:59:20.576Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
-        ]
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-TAG",
+            "action_id": "A-FOOD-TAG",
+            "source_node_id": "50:2013",
+            "target_node_id": "50:2107",
+            "trigger_node_id": "50:2036",
+            "trigger_node_name": "TagDetail0",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T16:59:20.576Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-FOOD-IMAGE-BACK",
@@ -32227,21 +33585,54 @@
         "trigger_node_id": "50:2234",
         "trigger_node_name": "CloseImage",
         "trigger": "On click",
-        "behavior": "Back",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Close overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T17:00:42.445Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
         ],
-        "target_rule": "Previous prototype history entry; target is deliberately not fixed.",
+        "target_rule": "Close the current overlay and reveal its caller; standalone outer frame may have no caller.",
         "tested_target_node_ids": [
           "50:2013"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-IMAGE-BACK",
+            "action_id": "A-FOOD-IMAGE-CLOSE",
+            "source_node_id": "50:2230",
+            "target_node_id": null,
+            "trigger_node_id": "50:2234",
+            "trigger_node_name": "CloseImage",
+            "trigger": "On click",
+            "behavior": "Back",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T17:00:42.445Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ],
+            "target_rule": "Previous prototype history entry; target is deliberately not fixed.",
+            "tested_target_node_ids": [
+              "50:2013"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
         ]
       },
       {
@@ -32252,18 +33643,53 @@
         "trigger_node_id": "50:2121",
         "trigger_node_name": "SearchResult",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T16:59:20.576Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Native result first entered detail with map loading; prototype navigates directly to settled detail and omits this intermediate loading state.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
-        ]
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-RESULT",
+            "action_id": "A-FOOD-RESULT",
+            "source_node_id": "50:2107",
+            "target_node_id": "50:2013",
+            "trigger_node_id": "50:2121",
+            "trigger_node_name": "SearchResult",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T16:59:20.576Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Native result first entered detail with map loading; prototype navigates directly to settled detail and omits this intermediate loading state.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-FOOD-SEARCH-BACK",
@@ -32273,21 +33699,54 @@
         "trigger_node_id": "50:2111",
         "trigger_node_name": "Back",
         "trigger": "On click",
-        "behavior": "Back",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Close overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T17:00:42.445Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
         ],
-        "target_rule": "Previous prototype history entry; target is deliberately not fixed.",
+        "target_rule": "Close the current overlay and reveal its caller; standalone outer frame may have no caller.",
         "tested_target_node_ids": [
           "50:2013"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-SEARCH-BACK",
+            "action_id": "A-FOOD-SEARCH-BACK",
+            "source_node_id": "50:2107",
+            "target_node_id": null,
+            "trigger_node_id": "50:2111",
+            "trigger_node_name": "Back",
+            "trigger": "On click",
+            "behavior": "Back",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T17:00:42.445Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ],
+            "target_rule": "Previous prototype history entry; target is deliberately not fixed.",
+            "tested_target_node_ids": [
+              "50:2013"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
         ]
       },
       {
@@ -32298,23 +33757,58 @@
         "trigger_node_id": "50:2055",
         "trigger_node_name": "Back",
         "trigger": "On click",
-        "behavior": "Back",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Close overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T17:00:25.353Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
         ],
-        "target_rule": "Previous prototype history entry; target is deliberately not fixed.",
+        "target_rule": "Close the current overlay and reveal its caller; standalone outer frame may have no caller.",
         "tested_target_node_ids": [
           "50:2107",
           "50:2124",
           "50:1911"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-DETAIL-BACK",
+            "action_id": "A-FOOD-DETAIL-BACK",
+            "source_node_id": "50:2013",
+            "target_node_id": null,
+            "trigger_node_id": "50:2055",
+            "trigger_node_name": "Back",
+            "trigger": "On click",
+            "behavior": "Back",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T17:00:25.353Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ],
+            "target_rule": "Previous prototype history entry; target is deliberately not fixed.",
+            "tested_target_node_ids": [
+              "50:2107",
+              "50:2124",
+              "50:1911"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
         ]
       },
       {
@@ -32325,18 +33819,53 @@
         "trigger_node_id": "50:2050",
         "trigger_node_name": "ExpandMap",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T17:01:12.828Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
-        ]
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-MAP",
+            "action_id": "A-FOOD-MAP-EXPAND",
+            "source_node_id": "50:2013",
+            "target_node_id": "50:2246",
+            "trigger_node_id": "50:2050",
+            "trigger_node_name": "ExpandMap",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T17:01:12.828Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-FOOD-MAP-BACK",
@@ -32346,21 +33875,54 @@
         "trigger_node_id": "50:2264",
         "trigger_node_name": "Back",
         "trigger": "On click",
-        "behavior": "Back",
-        "revision_id": "FIGMA-FOOD-V2",
+        "behavior": "Close overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T17:01:55.489Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
         "deviation_ids": [
           "D-FOOD-SOURCE-STATE-SAMPLING",
-          "D-FOOD-IMAGE-RENDER"
+          "D-FOOD-IMAGE-RENDER",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT"
         ],
-        "target_rule": "Previous prototype history entry; target is deliberately not fixed.",
+        "target_rule": "Close the current overlay and reveal its caller; standalone outer frame may have no caller.",
         "tested_target_node_ids": [
           "50:2013"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-FOOD-MAP-BACK",
+            "action_id": "A-FOOD-MAP-BACK",
+            "source_node_id": "50:2246",
+            "target_node_id": null,
+            "trigger_node_id": "50:2264",
+            "trigger_node_name": "Back",
+            "trigger": "On click",
+            "behavior": "Back",
+            "revision_id": "FIGMA-FOOD-V2",
+            "configured_at": "2026-09-28T17:01:55.489Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-FOOD-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+            "deviation_ids": [
+              "D-FOOD-SOURCE-STATE-SAMPLING",
+              "D-FOOD-IMAGE-RENDER"
+            ],
+            "target_rule": "Previous prototype history entry; target is deliberately not fixed.",
+            "tested_target_node_ids": [
+              "50:2013"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
         ]
       },
       {
@@ -33199,19 +34761,56 @@
         "trigger_node_id": "67:885",
         "trigger_node_name": "FeatureFood",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "configured_at": "2026-09-28T18:21:07.237Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001"
+          "PROTO-HOME-STUDY-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
         "deviation_ids": [
           "D-STUDY-DEMO-CONTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-STUDY-STATIC-INPUT"
-        ]
+          "D-STUDY-STATIC-INPUT",
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT",
+          "D-FOOD-IMAGE-RENDER"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-HOME-FOOD",
+            "action_id": "A-HOME-EP006",
+            "source_node_id": "67:820",
+            "target_node_id": "50:1911",
+            "trigger_node_id": "67:885",
+            "trigger_node_name": "FeatureFood",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-HOME-STUDY-V2",
+            "configured_at": "2026-09-28T18:21:07.237Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-HOME-STUDY-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+            "deviation_ids": [
+              "D-STUDY-DEMO-CONTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-STUDY-STATIC-INPUT"
+            ]
+          }
+        ],
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-HOME-ROOM",
@@ -35868,11 +37467,12 @@
         "trigger_node_id": "113:71",
         "trigger_node_name": "FeatureFood",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
-        "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-HOME-FEATURE-RETURN-001"
+          "PROTO-HOME-FEATURE-RETURN-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "configuration_evidence_ids": [
           "E-HOME-SCROLL-PROTOTYPE-TRACE"
@@ -35883,7 +37483,9 @@
         "deviation_ids": [
           "D-HOME-SCROLL-EXTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT",
+          "D-FOOD-IMAGE-RENDER"
         ],
         "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
         "configuration_history": [
@@ -35910,11 +37512,48 @@
               "D-HOME-SAMPLE-ENTRY"
             ],
             "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+          },
+          {
+            "connection_id": "C-HOME-SCROLL-113-71",
+            "action_id": "A-HOME-EP006",
+            "source_node_id": "67:569",
+            "target_node_id": "50:1911",
+            "trigger_node_id": "113:71",
+            "trigger_node_name": "FeatureFood",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+            "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+            "prototype_run_ids": [
+              "PROTO-HOME-FEATURE-RETURN-001"
+            ],
+            "configuration_evidence_ids": [
+              "E-HOME-SCROLL-PROTOTYPE-TRACE"
+            ],
+            "source_evidence_ids": [
+              "E-HOME-STUDY-MAP-TRACE"
+            ],
+            "deviation_ids": [
+              "D-HOME-SCROLL-EXTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-HOME-MODULE-RETURN"
+            ],
+            "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+            "prototype_evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE"
+            ]
           }
         ],
         "prototype_evidence_ids": [
-          "E-HOME-FEATURE-PROTOTYPE-TRACE"
-        ]
+          "E-HOME-FEATURE-PROTOTYPE-TRACE",
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-HOME-SCROLL-113-64",
@@ -36369,11 +38008,12 @@
         "trigger_node_id": "113:26",
         "trigger_node_name": "FeatureFood",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
-        "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-HOME-FEATURE-RETURN-001"
+          "PROTO-HOME-FEATURE-RETURN-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "configuration_evidence_ids": [
           "E-HOME-SCROLL-PROTOTYPE-TRACE"
@@ -36384,7 +38024,9 @@
         "deviation_ids": [
           "D-HOME-SCROLL-EXTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT",
+          "D-FOOD-IMAGE-RENDER"
         ],
         "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
         "configuration_history": [
@@ -36411,11 +38053,48 @@
               "D-HOME-SAMPLE-ENTRY"
             ],
             "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+          },
+          {
+            "connection_id": "C-HOME-SCROLL-113-26",
+            "action_id": "A-HOME-EP006",
+            "source_node_id": "67:694",
+            "target_node_id": "50:1911",
+            "trigger_node_id": "113:26",
+            "trigger_node_name": "FeatureFood",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+            "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+            "prototype_run_ids": [
+              "PROTO-HOME-FEATURE-RETURN-001"
+            ],
+            "configuration_evidence_ids": [
+              "E-HOME-SCROLL-PROTOTYPE-TRACE"
+            ],
+            "source_evidence_ids": [
+              "E-HOME-STUDY-MAP-TRACE"
+            ],
+            "deviation_ids": [
+              "D-HOME-SCROLL-EXTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-HOME-MODULE-RETURN"
+            ],
+            "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+            "prototype_evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE"
+            ]
           }
         ],
         "prototype_evidence_ids": [
-          "E-HOME-FEATURE-PROTOTYPE-TRACE"
-        ]
+          "E-HOME-FEATURE-PROTOTYPE-TRACE",
+          "E-FOOD-STACK-TRACE"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-HOME-SCROLL-113-19",
@@ -37935,26 +39614,61 @@
         "trigger_node_id": "50:2010",
         "trigger_node_name": "Back",
         "trigger": "On click",
-        "behavior": "Back",
-        "revision_id": "FIGMA-HOME-FEATURE-RETURN",
-        "implementation_status": "tested_direct_home_return_only",
+        "behavior": "Close overlay",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
         "prototype_run_ids": [
-          "PROTO-HOME-FEATURE-RETURN-001"
+          "PROTO-HOME-FEATURE-RETURN-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
         "tested_target_node_ids": [
-          "67:569",
-          "67:694"
+          "67:569"
         ],
         "source_evidence_ids": [
           "E-APPS-TRACE"
         ],
         "prototype_evidence_ids": [
-          "E-HOME-FEATURE-PROTOTYPE-TRACE"
+          "E-HOME-FEATURE-PROTOTYPE-TRACE",
+          "E-FOOD-STACK-TRACE"
         ],
         "deviation_ids": [
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT",
+          "D-FOOD-IMAGE-RENDER"
         ],
-        "source_fidelity": "Prototype generalization of observed module-to-Home exits. Exact initial-frame source was not newly observed natively; only direct Home entry/Back replayed. Intra-module detours and standalone exits incomplete."
+        "source_fidelity": "Prototype generalization of native H Cafe list -> Home; direct initial-list native exit unverified. Current Monday detail detour returns through unexpanded list to Home; historical direct-return evidence retained.",
+        "configuration_history": [
+          {
+            "connection_id": "C-HOME-MODULE-BACK-50-2010",
+            "action_id": "A-FOOD-HOME-BACK",
+            "source_node_id": "50:1911",
+            "target_node_id": null,
+            "trigger_node_id": "50:2010",
+            "trigger_node_name": "Back",
+            "trigger": "On click",
+            "behavior": "Back",
+            "revision_id": "FIGMA-HOME-FEATURE-RETURN",
+            "implementation_status": "tested_direct_home_return_only",
+            "prototype_run_ids": [
+              "PROTO-HOME-FEATURE-RETURN-001"
+            ],
+            "tested_target_node_ids": [
+              "67:569",
+              "67:694"
+            ],
+            "source_evidence_ids": [
+              "E-APPS-TRACE"
+            ],
+            "prototype_evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE"
+            ],
+            "deviation_ids": [
+              "D-HOME-MODULE-RETURN"
+            ],
+            "source_fidelity": "Prototype generalization of observed module-to-Home exits. Exact initial-frame source was not newly observed natively; only direct Home entry/Back replayed. Intra-module detours and standalone exits incomplete."
+          }
+        ],
+        "target_rule": "Close the current overlay and reveal its caller; standalone outer frame may have no caller."
       },
       {
         "connection_id": "C-HOME-MODULE-BACK-70-1091",
@@ -38558,6 +40272,38 @@
         "tested_target_node_ids": [
           "67:694"
         ]
+      },
+      {
+        "connection_id": "C-FOOD-HOURS-HOME-INFERRED",
+        "action_id": null,
+        "source_node_id": "50:2124",
+        "trigger_node_id": "50:2227",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "prototype_run_ids": [
+          "PROTO-FOOD-CALLER-STACK-001"
+        ],
+        "source_evidence_ids": [
+          "E-APPS-TRACE"
+        ],
+        "source_fidelity": "Prototype generalization of observed H Cafe hours-list -> Home exit. Exact VA210 hours source exit not independently observed.",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
+        "implementation_status": "home_sample_passed_standalone_incomplete_visual_acceptance_failed",
+        "prototype_evidence_ids": [
+          "E-FOOD-STACK-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-MODULE-RETURN",
+          "D-FOOD-STANDALONE-EXIT",
+          "D-FOOD-IMAGE-RENDER"
+        ],
+        "target_rule": "Close the current overlay and reveal its caller; standalone outer frame may have no caller.",
+        "tested_target_node_ids": [
+          "67:694",
+          "67:820"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -38940,9 +40686,10 @@
           "E-FIGMA-FOOD-DETAIL-MISSING",
           "E-FIGMA-FOOD-DETAIL-RESTORED",
           "E-FIGMA-FOOD-TRACE",
-          "E-HOME-FEATURE-P-31"
+          "E-HOME-FEATURE-P-31",
+          "E-FOOD-STACK-TRACE"
         ],
-        "latest_recheck": "Tuesday Home entry again displayed Food text and cards but no map or venue images. Navigation return passed; visual defect remains open."
+        "latest_recheck": "Food caller-stack batch: Monday image/map detours rendered; Tuesday and legacy repeat entry lost map/logos/hero. Tuesday hours return and final reload restored images without image changes. Navigation passed separately; cause and visual stability unverified."
       },
       {
         "id": "D-FOOD-SOURCE-STATE-SAMPLING",
@@ -39435,7 +41182,7 @@
       },
       {
         "id": "D-HOME-MODULE-RETURN",
-        "revision_id": "FIGMA-ROOM-CALLER-STACK",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
         "status": "partially_resolved",
         "affected_state_ids": [
           "S-HOME-SCHEDULE-MON",
@@ -39447,9 +41194,9 @@
           "S-COURSES-CANVAS"
         ],
         "original_behavior": "Native module exits return Home in observed samples, sometimes after deeper exploration. Exact direct initial-state returns are not all individually observed.",
-        "current_implementation": "Study/Courses/Map and existing Room sample detours preserve tested Home callers. Room: three Open entries, four Swap switches, four Close exits. Monday/legacy loops and four Tuesday exits passed; Food deeper detours remain incomplete.",
-        "impact": "Sampled Study/Courses/Map detours preserve original Home and scroll. New middle-state exits remain inferred; Room/Food deeper detours and standalone starts remain incomplete. Map repeated entry loses images.",
-        "next_step": "Complete Food caller-preserving detours, full module behavior and exact native exits; resolve standalone entry handling.",
+        "current_implementation": "Study/Courses/Map/Room and existing Food sample detours preserve tested Home callers. Food nested detail -> Search -> same detail unwinds correctly and retains expanded hours. Three Food Home returns pixel-equal.",
+        "impact": "Tested sample Home returns pass; inferred source exits, standalone starts, full module behavior and unstable imagery prevent full acceptance.",
+        "next_step": "Complete full module behavior and exact native exits; resolve standalone navigation and image stability.",
         "evidence_ids": [
           "E-HOME-FEATURE-PROTOTYPE-TRACE",
           "E-HOME-STUDY-MAP-TRACE",
@@ -39457,7 +41204,8 @@
           "E-APPS-TRACE",
           "E-STUDY-STACK-PROTOTYPE-TRACE",
           "E-MAP-STACK-PROTOTYPE-TRACE",
-          "E-ROOM-STACK-TRACE"
+          "E-ROOM-STACK-TRACE",
+          "E-FOOD-STACK-TRACE"
         ],
         "implementation_history": [
           {
@@ -39534,6 +41282,33 @@
               "E-STUDY-STACK-PROTOTYPE-TRACE",
               "E-MAP-STACK-PROTOTYPE-TRACE"
             ]
+          },
+          {
+            "id": "D-HOME-MODULE-RETURN",
+            "revision_id": "FIGMA-ROOM-CALLER-STACK",
+            "status": "partially_resolved",
+            "affected_state_ids": [
+              "S-HOME-SCHEDULE-MON",
+              "S-HOME-SCHEDULE-TUE",
+              "S-MAINMAP-INITIAL",
+              "S-EMPTYQUERY",
+              "S-FOOD-LIST",
+              "S-STUDY-COMPLETED",
+              "S-COURSES-CANVAS"
+            ],
+            "original_behavior": "Native module exits return Home in observed samples, sometimes after deeper exploration. Exact direct initial-state returns are not all individually observed.",
+            "current_implementation": "Study/Courses/Map and existing Room sample detours preserve tested Home callers. Room: three Open entries, four Swap switches, four Close exits. Monday/legacy loops and four Tuesday exits passed; Food deeper detours remain incomplete.",
+            "impact": "Sampled Study/Courses/Map detours preserve original Home and scroll. New middle-state exits remain inferred; Room/Food deeper detours and standalone starts remain incomplete. Map repeated entry loses images.",
+            "next_step": "Complete Food caller-preserving detours, full module behavior and exact native exits; resolve standalone entry handling.",
+            "evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE",
+              "E-HOME-STUDY-MAP-TRACE",
+              "E-ROOM-TRACE",
+              "E-APPS-TRACE",
+              "E-STUDY-STACK-PROTOTYPE-TRACE",
+              "E-MAP-STACK-PROTOTYPE-TRACE",
+              "E-ROOM-STACK-TRACE"
+            ]
           }
         ]
       },
@@ -39581,6 +41356,22 @@
         "evidence_ids": [
           "E-ROOM-STACK-TRACE",
           "E-ROOM-STACK-P-26"
+        ]
+      },
+      {
+        "id": "D-FOOD-STANDALONE-EXIT",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
+        "status": "open",
+        "affected_state_ids": [
+          "S-FOOD-LIST",
+          "S-FOOD-HOURS"
+        ],
+        "original_behavior": "Native Food enters from Home and exits to Home in observed H Cafe sample. Standalone is a prototype reference.",
+        "current_implementation": "Standalone Food list Back does nothing. Hours expands, but its Back also leaves the same expanded list; pixel comparison equal.",
+        "impact": "Standalone flow cannot be accepted as full application navigation.",
+        "next_step": "Provide Home-based launch or caller-aware standalone exits without breaking tested Home returns.",
+        "evidence_ids": [
+          "E-FOOD-STACK-TRACE"
         ]
       }
     ],
@@ -46488,6 +48279,477 @@
           "Standalone Available Back does nothing. Direct Room startup is a reference; use Home flow for caller-preserving exit.",
           "Food detours and broader full application/visual coverage remain incomplete. Mac locked; no new native evidence or human evaluation."
         ]
+      },
+      {
+        "id": "PROTO-FOOD-CALLER-STACK-001",
+        "revision_id": "FIGMA-FOOD-CALLER-STACK",
+        "started_at": "2026-09-29T00:20:11.867Z",
+        "ended_at": "2026-09-29T00:31:21.683Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1",
+        "start_node_id": "67:569",
+        "flow_name": "Food caller-preserving nested sample navigation",
+        "status": "partial",
+        "navigation_status": "home_sample_returns_passed_standalone_exit_failed_visual_acceptance_failed",
+        "steps": [
+          {
+            "at": "2026-09-29T00:20:11.867Z",
+            "description": "Monday Home feature-area baseline",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-01"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-mon-baseline.png"
+          },
+          {
+            "at": "2026-09-29T00:20:12.134Z",
+            "description": "Monday Home opens Food list",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-02"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-mon-list.png"
+          },
+          {
+            "at": "2026-09-29T00:20:24.243Z",
+            "description": "Open VA210 directly from unexpanded list",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-03"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-mon-detail.png"
+          },
+          {
+            "at": "2026-09-29T00:20:38.815Z",
+            "description": "Expand image from direct-list detail",
+            "state_id": "S-FOOD-IMAGE",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-04"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-mon-image.png"
+          },
+          {
+            "at": "2026-09-29T00:20:52.901Z",
+            "description": "Image X restores source detail",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-05"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-mon-image-return.png"
+          },
+          {
+            "at": "2026-09-29T00:20:53.171Z",
+            "description": "Expand map from same detail",
+            "state_id": "S-FOOD-MAP",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-06"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-mon-map.png"
+          },
+          {
+            "at": "2026-09-29T00:21:06.837Z",
+            "description": "Map Back restores original detail",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-07"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-mon-map-return.png"
+          },
+          {
+            "at": "2026-09-29T00:21:07.104Z",
+            "description": "Detail Back restores unexpanded list",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-08"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-mon-detail-return-list.png"
+          },
+          {
+            "at": "2026-09-29T00:21:07.375Z",
+            "description": "Food list Back restores Monday Home",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-09"
+            ],
+            "outcome": "return_pixel_equal",
+            "file": "food-stack-mon-home-return.png"
+          },
+          {
+            "at": "2026-09-29T00:21:24.029Z",
+            "description": "Confirmed Tuesday Home source",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-10"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-top.png"
+          },
+          {
+            "at": "2026-09-29T00:21:24.307Z",
+            "description": "Tuesday feature-area baseline",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-11"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-baseline.png"
+          },
+          {
+            "at": "2026-09-29T00:21:24.576Z",
+            "description": "Tuesday Food entry",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-12"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-list.png",
+            "visual_issue": "Map and list logos missing on repeat Food entry"
+          },
+          {
+            "at": "2026-09-29T00:21:37.486Z",
+            "description": "Expand first venue opening hours",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-13"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-hours.png",
+            "visual_issue": "Map and logos missing"
+          },
+          {
+            "at": "2026-09-29T00:21:56.051Z",
+            "description": "Details opened from expanded-hours list",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-14"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-origin-detail.png",
+            "visual_issue": "Hero and mini-map images missing"
+          },
+          {
+            "at": "2026-09-29T00:21:56.323Z",
+            "description": "Chinese Soup search opened from source detail",
+            "state_id": "S-FOOD-TAG-RESULT",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-15"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-tag.png"
+          },
+          {
+            "at": "2026-09-29T00:22:07.381Z",
+            "description": "Search result opens same detail above Search",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-16"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-result-detail.png",
+            "visual_issue": "Hero and mini-map missing"
+          },
+          {
+            "at": "2026-09-29T00:22:23.430Z",
+            "description": "Image opened from search-result detail",
+            "state_id": "S-FOOD-IMAGE",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-17"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-nested-image.png",
+            "visual_issue": "Expanded image missing"
+          },
+          {
+            "at": "2026-09-29T00:22:23.696Z",
+            "description": "Image close restores search-result detail",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-18"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-nested-image-return.png",
+            "visual_issue": "Hero and mini-map remain missing"
+          },
+          {
+            "at": "2026-09-29T00:22:40.762Z",
+            "description": "Map opened from search-result detail",
+            "state_id": "S-FOOD-MAP",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-19"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-nested-map.png",
+            "visual_issue": "Full map geography missing"
+          },
+          {
+            "at": "2026-09-29T00:22:41.033Z",
+            "description": "Map Back restores search-result detail",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-20"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-nested-map-return.png",
+            "visual_issue": "Hero and mini-map missing"
+          },
+          {
+            "at": "2026-09-29T00:22:55.380Z",
+            "description": "Search-result detail Back restores Search",
+            "state_id": "S-FOOD-TAG-RESULT",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-21"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-detail-back-search.png"
+          },
+          {
+            "at": "2026-09-29T00:22:55.643Z",
+            "description": "Search Back restores original tag-source detail",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-22"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-search-back-origin.png",
+            "visual_issue": "Hero and miniature map blank on Tuesday repeat entry."
+          },
+          {
+            "at": "2026-09-29T00:26:25.951Z",
+            "description": "Original detail Back returns to expanded-hours list; map and logos visible again on return (earlier entry had missing imagery)",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-23"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-tue-back-hours.png"
+          },
+          {
+            "at": "2026-09-29T00:26:41.571Z",
+            "description": "Expanded-hours Back returns to Tuesday Home features",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-24"
+            ],
+            "outcome": "return_pixel_equal",
+            "file": "food-stack-tue-home-return.png"
+          },
+          {
+            "at": "2026-09-29T00:27:10.724Z",
+            "description": "Legacy Home baseline before Food",
+            "state_id": "S-HOME",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-25"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-baseline.png"
+          },
+          {
+            "at": "2026-09-29T00:27:11.033Z",
+            "description": "Legacy Home opens Food list",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-26"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-list.png",
+            "visual_issue": "Map and logos blank on entry"
+          },
+          {
+            "at": "2026-09-29T00:27:19.813Z",
+            "description": "Opening hours expanded from legacy Home caller",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-27"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-hours.png",
+            "visual_issue": "Map and logos blank"
+          },
+          {
+            "at": "2026-09-29T00:27:28.193Z",
+            "description": "Expanded-hours entry opens original VA210 detail",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-28"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-origin-detail.png",
+            "visual_issue": "Hero and miniature map blank"
+          },
+          {
+            "at": "2026-09-29T00:27:36.829Z",
+            "description": "Original detail opens Chinese Soup tag results",
+            "state_id": "S-FOOD-TAG-RESULT",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-29"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-tag.png"
+          },
+          {
+            "at": "2026-09-29T00:27:47.585Z",
+            "description": "Chinese Soup result opens second instance of VA210 detail",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-30"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-result-detail.png",
+            "visual_issue": "Hero and miniature map blank"
+          },
+          {
+            "at": "2026-09-29T00:27:55.977Z",
+            "description": "Result detail Back returns to Search",
+            "state_id": "S-FOOD-TAG-RESULT",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-31"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-detail-back-search.png"
+          },
+          {
+            "at": "2026-09-29T00:28:05.070Z",
+            "description": "Search Back returns to original detail",
+            "state_id": "S-FOOD-DETAIL",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-32"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-search-back-origin.png",
+            "visual_issue": "Hero and miniature map blank"
+          },
+          {
+            "at": "2026-09-29T00:28:16.552Z",
+            "description": "Original detail returns to expanded-hours list",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-33"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-legacy-back-hours.png",
+            "visual_issue": "Map and logos blank"
+          },
+          {
+            "at": "2026-09-29T00:28:31.101Z",
+            "description": "Food hours outer Back returns to legacy Home caller",
+            "state_id": "S-HOME",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-34"
+            ],
+            "outcome": "return_pixel_equal",
+            "file": "food-stack-legacy-home-return.png"
+          },
+          {
+            "at": "2026-09-29T00:28:49.921Z",
+            "description": "Standalone Food starts at list",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-35"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-standalone-baseline.png",
+            "visual_issue": "Map and logos blank"
+          },
+          {
+            "at": "2026-09-29T00:28:59.957Z",
+            "description": "Standalone list Back has no effect without Home caller",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-36"
+            ],
+            "outcome": "failed_no_home_caller",
+            "file": "food-stack-standalone-back-noop.png",
+            "visual_issue": "Map and logos blank"
+          },
+          {
+            "at": "2026-09-29T00:29:10.800Z",
+            "description": "Standalone opening hours still expands",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-37"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-standalone-hours.png",
+            "visual_issue": "Map and logos blank"
+          },
+          {
+            "at": "2026-09-29T00:29:21.294Z",
+            "description": "Standalone hours Back has no visible effect; expanded hours remain, no Home caller",
+            "state_id": "S-FOOD-HOURS",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-38"
+            ],
+            "outcome": "failed_no_home_caller",
+            "file": "food-stack-standalone-hours-back-list.png",
+            "visual_issue": "Map and logos blank"
+          },
+          {
+            "at": "2026-09-29T00:31:21.683Z",
+            "description": "Reloaded standalone Food with updated scope description, not a navigation test",
+            "state_id": "S-FOOD-LIST",
+            "evidence_ids": [
+              "E-FOOD-STACK-P-39"
+            ],
+            "outcome": "recorded",
+            "file": "food-stack-description-readback.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-FOOD-STACK-P-01",
+          "E-FOOD-STACK-P-02",
+          "E-FOOD-STACK-P-03",
+          "E-FOOD-STACK-P-04",
+          "E-FOOD-STACK-P-05",
+          "E-FOOD-STACK-P-06",
+          "E-FOOD-STACK-P-07",
+          "E-FOOD-STACK-P-08",
+          "E-FOOD-STACK-P-09",
+          "E-FOOD-STACK-P-10",
+          "E-FOOD-STACK-P-11",
+          "E-FOOD-STACK-P-12",
+          "E-FOOD-STACK-P-13",
+          "E-FOOD-STACK-P-14",
+          "E-FOOD-STACK-P-15",
+          "E-FOOD-STACK-P-16",
+          "E-FOOD-STACK-P-17",
+          "E-FOOD-STACK-P-18",
+          "E-FOOD-STACK-P-19",
+          "E-FOOD-STACK-P-20",
+          "E-FOOD-STACK-P-21",
+          "E-FOOD-STACK-P-22",
+          "E-FOOD-STACK-P-23",
+          "E-FOOD-STACK-P-24",
+          "E-FOOD-STACK-P-25",
+          "E-FOOD-STACK-P-26",
+          "E-FOOD-STACK-P-27",
+          "E-FOOD-STACK-P-28",
+          "E-FOOD-STACK-P-29",
+          "E-FOOD-STACK-P-30",
+          "E-FOOD-STACK-P-31",
+          "E-FOOD-STACK-P-32",
+          "E-FOOD-STACK-P-33",
+          "E-FOOD-STACK-P-34",
+          "E-FOOD-STACK-P-35",
+          "E-FOOD-STACK-P-36",
+          "E-FOOD-STACK-P-37",
+          "E-FOOD-STACK-P-38",
+          "E-FOOD-STACK-P-39",
+          "E-FOOD-STACK-TRACE"
+        ],
+        "limitations": [
+          "Only existing VA210/Chinese Soup sample navigation tested, not other venues, H Cafe, full lists/maps or loading states.",
+          "Unexpanded-list detail entry and outer list exits retain source-fidelity caveats. New first-venue hours outer exit is inferred from observed H Cafe -> Home, action_id=null.",
+          "Monday imagery visible; Tuesday and legacy repeat entries intermittently blank. Tuesday hours-return and final reload restore imagery without a repair; cause unproven, D-FOOD-IMAGE-RENDER remains open.",
+          "Standalone list and hours Back have no visible effect without a Home caller.",
+          "Native Computer Use still reports Mac locked after user restoration report. No new native observation or human evaluation; complete application remains not_verified."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -46567,7 +48829,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "76 mapped frames / 2 internal states / 192 configured controls / 2 vertical scroll regions. Existing Room sample detours now preserve three Home callers; six Home returns pixel-equal. Standalone Room/Map exits, Food detours and full scope remain incomplete.",
+    "verification_summary": "76 mapped frames / 2 internal states / 193 configured controls / 2 vertical scroll regions. Food sample nested navigation now preserves three tested Home callers. Image instability and standalone Map/Room/Food exits remain open; full scope incomplete.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -46976,7 +49238,8 @@
       "study_courses_caller_returns": "six_source_module_chains_eight_tuesday_exits_passed_native_middle_state_returns_inferred",
       "map_caller_returns": "tuesday_ten_outer_exits_monday_legacy_nested_bookstores_passed_standalone_failed",
       "map_png_reentry": "eight_filtered_states_two_monday_circuits_visible_other_contexts_unverified",
-      "room_caller_returns": "monday_legacy_loops_and_four_tuesday_exits_passed_standalone_failed"
+      "room_caller_returns": "monday_legacy_loops_and_four_tuesday_exits_passed_standalone_failed",
+      "food_caller_returns": "three_home_returns_pixel_equal_nested_stack_passed_standalone_failed_images_unstable"
     },
     "additional_imports": [
       {
@@ -47920,9 +50183,10 @@
         "start_node_id": "50:1911",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=50-1911&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A1911&show-proto-sidebar=1",
         "tested_run_ids": [
-          "PROTO-FOOD-V2-001"
+          "PROTO-FOOD-V2-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
-        "scope": "Eleven configured navigation controls passed recorded paths, including four history Back controls; overall Food visual status failed unresolved."
+        "scope": "VA210 sample navigation preserves tested Home callers. Monday image/map detours and Tuesday/legacy detail -> Chinese Soup -> result detail -> layered Back paths passed. Expanded hours remain on return. Raster images still disappear intermittently, so visual fidelity is unverified. Standalone list and hours Back do nothing without a Home caller; start from a Home flow. Other venues, H Cafe, tags, full lists/maps and ordering remain incomplete. New hours-to-Home exit is inferred from another native venue exit. Agent replay is not native observation or human evaluation."
       },
       {
         "name": "Apps · Categories and VRS",
@@ -47949,9 +50213,10 @@
           "PROTO-APPS-OVERLAY-RETURN-001",
           "PROTO-STUDY-COURSES-STACK-001",
           "PROTO-MAP-CALLER-STACK-001",
-          "PROTO-ROOM-CALLER-STACK-001"
+          "PROTO-ROOM-CALLER-STACK-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
-        "scope": "Observed reconstruction with synthetic DEMO coursework, schedules and identity; QR is non-scannable. Study/Courses, Map and Room sample detours preserve tested Home callers. Room key A -> AG206 -> Available -> All -> Back was replayed from legacy and Monday; all four outer exits from Tuesday. New Room middle-state exits are inferred, and dates/input/Preview/full results remain incomplete. Eight map image fills passed two Monday circuits; other image contexts remain unverified. Standalone Map/Room exits, Food deeper detours, Home dates/cards/week picker/sheet, lists, reverse tabs, search, login submission, bookings and unobserved links remain incomplete. Study blank is an independent unresolved reference. Agent replay is separate from native observation and human testing."
+        "scope": "Observed reconstruction with synthetic DEMO coursework, schedules and identity; QR is non-scannable. Study/Courses, Map, Room and Food sample detours preserve tested Home callers. Food Chinese Soup repeated-detail navigation returns through Search, original detail and expanded-hours list to this Home. Food images intermittently blank. Room input/dates/Preview/full results incomplete; new Room/Food outer exits include inferred behavior. Eight map image fills passed two Monday circuits; other contexts unverified. Standalone Map/Room/Food exits, Home dates/cards/week picker/sheet, lists, reverse tabs, search, bookings and unobserved links remain incomplete. Study blank is unresolved. Agent replay is separate from native observation and human testing."
       },
       {
         "name": "Map · Facilities and category filters",
@@ -47985,9 +50250,10 @@
           "PROTO-HOME-FEATURE-RETURN-001",
           "PROTO-STUDY-COURSES-STACK-001",
           "PROTO-MAP-CALLER-STACK-001",
-          "PROTO-ROOM-CALLER-STACK-001"
+          "PROTO-ROOM-CALLER-STACK-001",
+          "PROTO-FOOD-CALLER-STACK-001"
         ],
-        "scope": "Observed Monday / Tuesday Home sample with continuous scrolling and synthetic DEMO agenda. Study/Courses, Map and Room existing sample detours preserve tested Home callers and scroll. Room full sample loop tested from Monday and legacy; four outer exits tested from Tuesday. Exact new middle-state Back behavior remains inferred. Room dates/input are fixed samples, with Preview and full results incomplete. Eight map image fills were re-uploaded; two consecutive Monday circuits showed all eight maps. Other image contexts and long-session stability remain unverified. Standalone Map/Room exits and Food deeper detours remain incomplete. Lists, search, other services, Home dates/cards/week picker/sheet and Study blank remain incomplete. Agent replay adds no native observations and is not human evaluation."
+        "scope": "Observed Monday/Tuesday Home samples with scrolling and synthetic DEMO agenda. Study/Courses, Map, Room and Food sample detours preserve tested Home callers. Food layered returns passed through detail, Chinese Soup results and repeated detail, retaining expanded hours. Food raster images still disappear intermittently. Room uses fixed A -> AG206; dates, input, Preview and full results incomplete. Eight Map image fills passed two Monday circuits; other contexts unverified. Standalone Map/Room/Food exits remain incomplete. Lists, other services, Home dates/cards/week picker/sheet and Study blank incomplete. New Room and Food outer exits include inferred behavior. Agent replay adds no native observations and is not human evaluation."
       },
       {
         "name": "Room · Available slots reference",
@@ -47998,7 +50264,7 @@
         "scope": "Reference for the captured Tuesday AG206 Available sample. Use Home -> Room -> key A -> AG206 -> Available for tested caller-preserving navigation. This standalone starting point has no Home caller; Close overlay is not an accepted exit here. Dates, arbitrary text input, Preview, slot interactions and full list coverage remain incomplete. Available-to-All uses an inferred same-date sample and is not the separately observed Sunday action. Agent replay is not native or human testing."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-29T00:08:29.735Z",
+    "latest_prototype_run_cutoff": "2026-09-29T00:31:21.683Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -48021,9 +50287,9 @@
       "boundary": "Flow 1 resolved to current Available node12:105, not the archived original draft. Naming verification does not create a new navigation run."
     },
     "latest_context_evidence_ids": [
-      "E-ROOM-STACK-P-27"
+      "E-FOOD-STACK-P-39"
     ],
-    "latest_context_verified_at": "2026-09-29T00:08:29.735Z",
+    "latest_context_verified_at": "2026-09-29T00:31:21.683Z",
     "component_state_mappings": [
       {
         "state_id": "S-PRIVACY-NO-COOKIE",

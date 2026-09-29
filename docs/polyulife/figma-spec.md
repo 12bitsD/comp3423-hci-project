@@ -459,3 +459,5 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 后续：[Map底图重新上传与复测](map-image-repair-walkthrough.md)在两轮Monday路径显示8个筛选页底图。此前失败记录保留；这不证明所有图片或完整应用已通过。
 
 后续：[Room返回栈](room-return-prototype-walkthrough.md)更新8个控件、补3个外层出口，三个Home来源的既有样例返回通过；独立Room退出和未实现交互仍保留。
+
+后续：[Food返回栈](food-return-prototype-walkthrough.md)更新15个控件、补1个外层出口，三个Home来源的既有样例返回通过；图片不稳定、独立Food退出和完整范围仍未完成。
