@@ -467,3 +467,7 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Food展开列表与H Café增量
 
 [本批实现与回放](food-hcafe-prototype-walkthrough.md)新增4个Frame、11个控件，累计80个映射Frame、204个配置控件。离散拖动只覆盖两个已观察视口；外链提示四侧关闭、正文不关闭和三个Tuesday Home返回已验证。完整连续列表、其它来源、收起和外站Open未完成。
+
+## Room Preview增量
+
+[实现与回放](room-preview-prototype-walkthrough.md)新增3个Frame、1个内部组件状态、6个控件及1个竖向滚动区域；累计83个映射Frame、3个组件状态、210个配置控件和3个竖向滚动区域。观察范围内网页/照片切换、菜单取消与Tuesday返回通过样例回放，原生重开规则、完整网页和全应用覆盖仍未验证。

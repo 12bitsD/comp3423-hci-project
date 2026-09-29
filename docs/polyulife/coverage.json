@@ -30126,6 +30126,1002 @@
       ],
       "action_ids": [],
       "source": "Four observed Food viewports rebuilt in editable Figma layers; 11 final controls. Prototype interior-click bug preserved, fixed using four outside hit regions, then replayed."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-01-home-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:52:41.560Z",
+      "sha256": "2d7991830f752c26b41dc633cba16957bc6e8864ee53206597320cd29b07c99e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-01-home-baseline.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 01-home-baseline. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-02-room-entry.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:52:41.836Z",
+      "sha256": "46f159fecef2da06a943cd2ac169010c186adad82639fac327e5fe6a92d9707b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-02-room-entry.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 02-room-entry. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-03-suggestion.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:52:54.189Z",
+      "sha256": "8e7c1ea0b5a8fe988334d5a174e4cd873c4371e490a7b77e9d533d5eadb00126",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-SUGGESTION"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-03-suggestion.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 03-suggestion. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-04-all.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:53:09.081Z",
+      "sha256": "2edc7c7e28cbb82372e89b5eff5add60b3e1f1ac668487c60b63a39b2b7acd26",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-04-all.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 04-all. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-05-available-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:56:54.926Z",
+      "sha256": "858ffe1e4dd91dc85d62ef2861732fe6f8cee02b1d8e2057b49d676da75ae39c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-AVAILABLE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-05-available-baseline.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 05-available-baseline. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-06-preview-entry.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:56:55.189Z",
+      "sha256": "ee60a598843282aa729b37acea2b9397e864d51f6d1e4af6f36771d6409334fd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWLOAD"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-06-preview-entry.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 06-preview-entry. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-07-preview-loaded.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:57:00.966Z",
+      "sha256": "cf544e58e332b0446199a4fd73239c506165e424dc7a46c67fb168dfcaebe2f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-07-preview-loaded.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 07-preview-loaded. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-08-menu.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:57:08.839Z",
+      "sha256": "31e0590fe7c49a400c92c0243a14816d242e8657ed2497118a1ccf42c4f94fd8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MENU"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-08-menu.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 08-menu. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-09-menu-cancel.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:57:19.091Z",
+      "sha256": "cf544e58e332b0446199a4fd73239c506165e424dc7a46c67fb168dfcaebe2f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-09-menu-cancel.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 09-menu-cancel. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-10-scroll-partial.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:57:19.352Z",
+      "sha256": "40c68898d00f3cd64c0068dd3f772ce080b2adc3e16499de7015b5b4caad6525",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PHOTO1"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-10-scroll-partial.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 10-scroll-partial. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-11-photo-two.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:57:30.649Z",
+      "sha256": "675ad8809ed7c67a39f913c58ed9e3719e0ce210023df26e6b54ea759cacaa39",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PHOTO2"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-11-photo-two.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 11-photo-two. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-12-return-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:57:30.916Z",
+      "sha256": "858ffe1e4dd91dc85d62ef2861732fe6f8cee02b1d8e2057b49d676da75ae39c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-RETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-12-return-available.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 12-return-available. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-13-return-home.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:57:31.181Z",
+      "sha256": "2d7991830f752c26b41dc633cba16957bc6e8864ee53206597320cd29b07c99e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-13-return-home.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 13-return-home. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-14-reenter-loading.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:58:13.956Z",
+      "sha256": "e4fd206e55f5fd04e40d12bace86366451c154bac8fd18aaf896086c502887d6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWLOAD"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-14-reenter-loading.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 14-reenter-loading. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-15-reenter-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:58:23.885Z",
+      "sha256": "a3e7dce29f51bfc645e6b0ee115b5c83080040ed68fad0d6ca96d5fb6ea53f8c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PHOTO2"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-15-reenter-top.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 15-reenter-top. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-16-intermediate-scroll.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:58:24.162Z",
+      "sha256": "a3e7dce29f51bfc645e6b0ee115b5c83080040ed68fad0d6ca96d5fb6ea53f8c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PHOTO2"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-16-intermediate-scroll.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 16-intermediate-scroll. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-17-reverse-intermediate.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:58:40.218Z",
+      "sha256": "60754e799031b01c5ef85994696152ebc8cce2dd0b011805657586f280b19411",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-17-reverse-intermediate.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 17-reverse-intermediate. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-18-scrolled-menu.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:58:40.470Z",
+      "sha256": "8a460cfa5b2e112e00391b9638d29328e6483889e808d67f93c3fdf862bfb0c8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MENU"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-18-scrolled-menu.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 18-scrolled-menu. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-19-scrolled-cancel.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:58:40.745Z",
+      "sha256": "60754e799031b01c5ef85994696152ebc8cce2dd0b011805657586f280b19411",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-19-scrolled-cancel.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 19-scrolled-cancel. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-20-reverse-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:59:08.617Z",
+      "sha256": "9516bd0734cbe07bf51826b51d9edaf5b3758317032eaebb74d7393697dce91c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-20-reverse-top.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 20-reverse-top. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-21-second-return-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:59:08.884Z",
+      "sha256": "858ffe1e4dd91dc85d62ef2861732fe6f8cee02b1d8e2057b49d676da75ae39c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-RETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-21-second-return-available.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 21-second-return-available. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-22-second-return-home.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T01:59:09.113Z",
+      "sha256": "2d7991830f752c26b41dc633cba16957bc6e8864ee53206597320cd29b07c99e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-22-second-return-home.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 22-second-return-home. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-23-fixed-entry.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:01:22.407Z",
+      "sha256": "e4fd206e55f5fd04e40d12bace86366451c154bac8fd18aaf896086c502887d6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWLOAD"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-23-fixed-entry.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 23-fixed-entry. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-24-fixed-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:01:35.165Z",
+      "sha256": "cf544e58e332b0446199a4fd73239c506165e424dc7a46c67fb168dfcaebe2f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-24-fixed-top.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 24-fixed-top. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-25-fixed-body.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:01:35.438Z",
+      "sha256": "213d36ea5e0f1e30bbd942f4f3395ae2d332a2494b73ddbe48d396c7c20a963a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-25-fixed-body.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 25-fixed-body. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-26-fixed-reverse-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:01:49.615Z",
+      "sha256": "cf544e58e332b0446199a4fd73239c506165e424dc7a46c67fb168dfcaebe2f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-26-fixed-reverse-top.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 26-fixed-reverse-top. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-27-fixed-return-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:01:49.885Z",
+      "sha256": "858ffe1e4dd91dc85d62ef2861732fe6f8cee02b1d8e2057b49d676da75ae39c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-RETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-27-fixed-return-available.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 27-fixed-return-available. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-28-fixed-return-home.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:01:50.152Z",
+      "sha256": "2d7991830f752c26b41dc633cba16957bc6e8864ee53206597320cd29b07c99e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-28-fixed-return-home.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 28-fixed-return-home. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-29-loading-fixed.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:04:30.263Z",
+      "sha256": "26b297222a14d9647b66722ff38421de2dafee1fc8966cda652cc35b68581a7c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWLOAD"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-29-loading-fixed.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 29-loading-fixed. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-30-final-top.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:04:42.318Z",
+      "sha256": "e5d47e7259af23360ab7391cd8a8f493abaa8bb8a1c5bd3724a3c876310e4afb",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-30-final-top.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 30-final-top. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-31",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-31-final-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:04:42.593Z",
+      "sha256": "858ffe1e4dd91dc85d62ef2861732fe6f8cee02b1d8e2057b49d676da75ae39c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-RETURN"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-31-final-available.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 31-final-available. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-P-32",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-proto-32-final-home.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T02:04:42.864Z",
+      "sha256": "2d7991830f752c26b41dc633cba16957bc6e8864ee53206597320cd29b07c99e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop": null,
+        "opaque_masks": [
+          [
+            1017,
+            0,
+            1075,
+            49
+          ]
+        ],
+        "fill": "#242424",
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/room-preview-proto-32-final-home.jpg"
+      },
+      "source": "Actual Figma Present via Computer Use; 32-final-home. State IDs locate source context; not new native evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-WEB-SOURCE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-28-full-audit/room-preview-official-web-source.png",
+      "session_id": null,
+      "captured_at": null,
+      "sha256": "811a90b0406058fc20d651ec2b3c369e654ce72aec0774510f83ac9ecd5a5acd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Supplemental public official webpage via Computer Use browser UI. https://www.polyu.edu.hk/learningspaces/AG206/ . Exact capture time not retained; acquired in this reconstruction batch. Not native app evidence."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-PROTO-TRACE",
+      "type": "interaction_trace",
+      "path": "room-preview-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE",
+        "S-EMPTYQUERY",
+        "S-SUGGESTION",
+        "S-ALL",
+        "S-AVAILABLE",
+        "S-PREVIEWLOAD",
+        "S-PREVIEWTOP",
+        "S-MENU",
+        "S-PHOTO1",
+        "S-PHOTO2",
+        "S-RETURN"
+      ],
+      "action_ids": [],
+      "source": "Figma observed-range webpage scrolling, nested menu and carousel reconstruction. 32 Present screenshots, repairs and pixel comparisons; no native execution."
     }
   ],
   "findings": [
@@ -34692,6 +35688,144 @@
         "connection_status": "configured_and_replayed",
         "prototype_run_ids": [
           "PROTO-FOOD-HCAFE-001"
+        ]
+      },
+      {
+        "state_id": "S-PREVIEWTOP",
+        "node_id": "310:12",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=310-12",
+        "node_name": "[S-PREVIEWTOP] Room Preview — public webpage",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "source_evidence_ids": [
+          "E-PREVIEWTOP"
+        ],
+        "design_source_path": "../../design/polyulife/room-preview-top.svg",
+        "design_source_sha256": "73f38acf1c07781ef940c0fee9a70c8ce9df91d46d1a8b8d52a24bb6c19397bf",
+        "canvas_position": [
+          0,
+          33000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Editable text/vectors; five raster public photos/wordmarks/loading mark. WebScrollContent converted to vertical clipped frame and placeholder replaced with carousel instance in Figma UI.",
+        "content_policy": "Public webpage content and public native screenshots; no personal schedule or identity.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "32 replay samples include loading, top, scroll, menu, photos, failures and repaired views. Fonts approximate.",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-PREVIEW-EXTENT",
+            "D-ROOM-PREVIEW-ASSETS"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ]
+      },
+      {
+        "state_id": "S-PREVIEWLOAD",
+        "node_id": "312:95",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=312-95",
+        "node_name": "[S-PREVIEWLOAD] Room Preview — loading",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "source_evidence_ids": [
+          "E-PREVIEWLOAD"
+        ],
+        "design_source_path": "../../design/polyulife/room-preview-loading.svg",
+        "design_source_sha256": "fa527babfad308f1f87ae9cbca3ab3c5171f843da54a2decb1772ad81dcd0efb",
+        "canvas_position": [
+          700,
+          33000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Editable text/vectors; five raster public photos/wordmarks/loading mark. WebScrollContent converted to vertical clipped frame and placeholder replaced with carousel instance in Figma UI.",
+        "content_policy": "Public webpage content and public native screenshots; no personal schedule or identity.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "32 replay samples include loading, top, scroll, menu, photos, failures and repaired views. Fonts approximate.",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-PREVIEW-EXTENT",
+            "D-ROOM-PREVIEW-ASSETS"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ]
+      },
+      {
+        "state_id": "S-MENU",
+        "node_id": "312:153",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=312-153",
+        "node_name": "[S-MENU] Room Preview — browser menu",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "source_evidence_ids": [
+          "E-MENU"
+        ],
+        "design_source_path": "../../design/polyulife/room-preview-menu.svg",
+        "design_source_sha256": "a48e4311cb42edd178184764d7728a9aa9c4dc163058dd29ae901bc3e1891589",
+        "canvas_position": [
+          1400,
+          33000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Editable text/vectors; five raster public photos/wordmarks/loading mark. WebScrollContent converted to vertical clipped frame and placeholder replaced with carousel instance in Figma UI.",
+        "content_policy": "Public webpage content and public native screenshots; no personal schedule or identity.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "32 replay samples include loading, top, scroll, menu, photos, failures and repaired views. Fonts approximate.",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-PREVIEW-EXTENT",
+            "D-ROOM-PREVIEW-ASSETS"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_passed_full_scope_incomplete",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
         ]
       }
     ],
@@ -42597,6 +43731,166 @@
           "D-FOOD-STANDALONE-EXIT"
         ],
         "tested_target_node_ids": []
+      },
+      {
+        "connection_id": "C-ROOM-PREVIEW-01",
+        "action_id": "A-ROOM-PREVIEW-CLOSE",
+        "source_node_id": "310:12",
+        "trigger_node_id": "310:70",
+        "trigger_node_name": "ClosePreview",
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-TRACE"
+        ],
+        "source_fidelity": "Observed sample destination; timer, expanded close/menu availability and repeat-open persistence are implementation choices, not new native observations.",
+        "implementation_status": "tuesday_sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-PREVIEW-EXTENT",
+          "D-ROOM-PREVIEW-REOPEN"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-PREVIEW-02",
+        "action_id": "A-ROOM-PREVIEW-MENU",
+        "source_node_id": "310:12",
+        "trigger_node_id": "310:74",
+        "trigger_node_name": "MoreMenu",
+        "trigger": "On click",
+        "behavior": "Open overlay",
+        "target_node_id": "312:153",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-TRACE"
+        ],
+        "source_fidelity": "Observed sample destination; timer, expanded close/menu availability and repeat-open persistence are implementation choices, not new native observations.",
+        "implementation_status": "tuesday_sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-PREVIEW-EXTENT",
+          "D-ROOM-PREVIEW-REOPEN"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-PREVIEW-03",
+        "action_id": "A-ROOM-PREVIEW-CANCEL",
+        "source_node_id": "312:153",
+        "trigger_node_id": "312:243",
+        "trigger_node_name": "CancelMenu",
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-TRACE"
+        ],
+        "source_fidelity": "Observed sample destination; timer, expanded close/menu availability and repeat-open persistence are implementation choices, not new native observations.",
+        "implementation_status": "tuesday_sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-PREVIEW-EXTENT",
+          "D-ROOM-PREVIEW-REOPEN"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-PREVIEW-04",
+        "action_id": "A-ROOM-PREVIEW",
+        "source_node_id": "312:95",
+        "trigger_node_id": "312:95",
+        "trigger_node_name": "Loading transition",
+        "trigger": "After delay",
+        "behavior": "Swap overlay",
+        "target_node_id": "310:12",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-TRACE"
+        ],
+        "source_fidelity": "Observed sample destination; timer, expanded close/menu availability and repeat-open persistence are implementation choices, not new native observations.",
+        "implementation_status": "tuesday_sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-PREVIEW-EXTENT",
+          "D-ROOM-PREVIEW-REOPEN"
+        ],
+        "delay_ms": 800,
+        "timing_basis": "Figma demonstration delay; not measured native latency"
+      },
+      {
+        "connection_id": "C-ROOM-PREVIEW-05",
+        "action_id": "A-ROOM-PREVIEW",
+        "source_node_id": "12:105",
+        "trigger_node_id": "12:149",
+        "trigger_node_name": "Preview",
+        "trigger": "On click",
+        "behavior": "Open overlay",
+        "target_node_id": "312:95",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-TRACE"
+        ],
+        "source_fidelity": "Observed sample destination; timer, expanded close/menu availability and repeat-open persistence are implementation choices, not new native observations.",
+        "implementation_status": "tuesday_sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-PREVIEW-EXTENT",
+          "D-ROOM-PREVIEW-REOPEN"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-PREVIEW-06",
+        "action_id": "A-ROOM-PREVIEW-NEXT",
+        "source_node_id": "310:12",
+        "trigger_node_id": "312:252",
+        "trigger_node_name": "NextPhoto",
+        "trigger": "On click",
+        "behavior": "Change to",
+        "target_node_id": "310:12",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-TRACE"
+        ],
+        "source_fidelity": "Observed sample destination; timer, expanded close/menu availability and repeat-open persistence are implementation choices, not new native observations.",
+        "implementation_status": "tuesday_sample_replayed_full_scope_incomplete",
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-PREVIEW-EXTENT",
+          "D-ROOM-PREVIEW-REOPEN"
+        ],
+        "component_set_node_id": "312:257",
+        "target_variant_node_id": "312:258"
       }
     ],
     "reconstruction_deviations": [
@@ -43727,6 +45021,57 @@
           "E-FOOD-HCAFE-P-14",
           "E-FOOD-HCAFE-P-16",
           "E-FOOD-HCAFE-PROTO-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-PREVIEW-EXTENT",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "status": "open",
+        "affected_state_ids": [
+          "S-PREVIEWTOP",
+          "S-PREVIEWLOAD",
+          "S-PHOTO2"
+        ],
+        "original_behavior": "Source screenshots show observed page states; repeat-open and complete boundaries not established.",
+        "current_implementation": "Continuous body stops at last native observed photo viewport, not official page end.",
+        "impact": "Full web content and native scroll boundary unverified.",
+        "next_step": "Observe missing native behavior and verify broader playback coverage.",
+        "evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-PREVIEW-REOPEN",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "status": "open",
+        "affected_state_ids": [
+          "S-PREVIEWTOP",
+          "S-PREVIEWLOAD",
+          "S-PHOTO2"
+        ],
+        "original_behavior": "Source screenshots show observed page states; repeat-open and complete boundaries not established.",
+        "current_implementation": "Figma reopens at retained scroll and second photo; native reset semantics unknown.",
+        "impact": "Repeat open may differ from native app.",
+        "next_step": "Observe missing native behavior and verify broader playback coverage.",
+        "evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-PREVIEW-ASSETS",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "status": "resolved_in_tested_sample",
+        "affected_state_ids": [
+          "S-PREVIEWTOP",
+          "S-PREVIEWLOAD",
+          "S-PHOTO2"
+        ],
+        "original_behavior": "Source screenshots show observed page states; repeat-open and complete boundaries not established.",
+        "current_implementation": "Imported image fills were visible initially but blank on some subsequent views. Banner, wordmark and loading mark reuploaded; sampled replay passed.",
+        "impact": "Long-session stability and full visual fidelity remain unverified.",
+        "next_step": "Observe missing native behavior and verify broader playback coverage.",
+        "evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
         ]
       }
     ],
@@ -51781,6 +53126,384 @@
           "Only Tuesday caller was tested for this new chain. Standalone and other callers remain unverified. Fonts/icons approximate; no full visual acceptance.",
           "Native Mac still reported locked after user recovery reply. No new native states, actions or human evaluation."
         ]
+      },
+      {
+        "id": "PROTO-ROOM-PREVIEW-001",
+        "revision_id": "FIGMA-ROOM-PREVIEW-V1",
+        "started_at": "2026-09-29T01:52:41.560Z",
+        "ended_at": "2026-09-29T02:04:42.864Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-694&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569",
+        "start_node_id": "67:694",
+        "flow_name": "Room Preview observed web range and carousel",
+        "status": "partial",
+        "navigation_status": "tuesday_sample_passed_reopen_retention_requires_native_verification",
+        "visual_status": "sample_rendered_after_image_and_text_repairs_full_fidelity_unverified",
+        "steps": [
+          {
+            "at": "2026-09-29T01:52:41.560Z",
+            "description": "01-home-baseline",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-01"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-01-home-baseline.png"
+          },
+          {
+            "at": "2026-09-29T01:52:41.836Z",
+            "description": "02-room-entry",
+            "state_id": "S-EMPTYQUERY",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-02"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-02-room-entry.png"
+          },
+          {
+            "at": "2026-09-29T01:52:54.189Z",
+            "description": "03-suggestion",
+            "state_id": "S-SUGGESTION",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-03"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-03-suggestion.png"
+          },
+          {
+            "at": "2026-09-29T01:53:09.081Z",
+            "description": "04-all",
+            "state_id": "S-ALL",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-04"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-04-all.png"
+          },
+          {
+            "at": "2026-09-29T01:56:54.926Z",
+            "description": "05-available-baseline",
+            "state_id": "S-AVAILABLE",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-05"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-05-available-baseline.png"
+          },
+          {
+            "at": "2026-09-29T01:56:55.189Z",
+            "description": "06-preview-entry",
+            "state_id": "S-PREVIEWLOAD",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-06"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-06-preview-entry.png"
+          },
+          {
+            "at": "2026-09-29T01:57:00.966Z",
+            "description": "07-preview-loaded",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-07"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-07-preview-loaded.png"
+          },
+          {
+            "at": "2026-09-29T01:57:08.839Z",
+            "description": "08-menu",
+            "state_id": "S-MENU",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-08"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-08-menu.png"
+          },
+          {
+            "at": "2026-09-29T01:57:19.091Z",
+            "description": "09-menu-cancel",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-09"
+            ],
+            "outcome": "menu_cancel_preserved_underlying_view_pixel_equal",
+            "file": "room-preview-proto-09-menu-cancel.png"
+          },
+          {
+            "at": "2026-09-29T01:57:19.352Z",
+            "description": "10-scroll-partial",
+            "state_id": "S-PHOTO1",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-10"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-10-scroll-partial.png"
+          },
+          {
+            "at": "2026-09-29T01:57:30.649Z",
+            "description": "11-photo-two",
+            "state_id": "S-PHOTO2",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-11"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-11-photo-two.png"
+          },
+          {
+            "at": "2026-09-29T01:57:30.916Z",
+            "description": "12-return-available",
+            "state_id": "S-RETURN",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-12"
+            ],
+            "outcome": "available_return_pixel_equal",
+            "file": "room-preview-proto-12-return-available.png"
+          },
+          {
+            "at": "2026-09-29T01:57:31.181Z",
+            "description": "13-return-home",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-13"
+            ],
+            "outcome": "home_return_pixel_equal",
+            "file": "room-preview-proto-13-return-home.png"
+          },
+          {
+            "at": "2026-09-29T01:58:13.956Z",
+            "description": "14-reenter-loading",
+            "state_id": "S-PREVIEWLOAD",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-14"
+            ],
+            "outcome": "loading_mark_blank_before_reupload",
+            "file": "room-preview-proto-14-reenter-loading.png"
+          },
+          {
+            "at": "2026-09-29T01:58:23.885Z",
+            "description": "15-reenter-top",
+            "state_id": "S-PHOTO2",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-15"
+            ],
+            "outcome": "reopen_retains_photo_two_and_scroll_native_semantics_unverified",
+            "file": "room-preview-proto-15-reenter-top.png"
+          },
+          {
+            "at": "2026-09-29T01:58:24.162Z",
+            "description": "16-intermediate-scroll",
+            "state_id": "S-PHOTO2",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-16"
+            ],
+            "outcome": "reopen_retains_photo_two_and_scroll_native_semantics_unverified",
+            "file": "room-preview-proto-16-intermediate-scroll.png"
+          },
+          {
+            "at": "2026-09-29T01:58:40.218Z",
+            "description": "17-reverse-intermediate",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-17"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-17-reverse-intermediate.png"
+          },
+          {
+            "at": "2026-09-29T01:58:40.470Z",
+            "description": "18-scrolled-menu",
+            "state_id": "S-MENU",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-18"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-18-scrolled-menu.png"
+          },
+          {
+            "at": "2026-09-29T01:58:40.745Z",
+            "description": "19-scrolled-cancel",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-19"
+            ],
+            "outcome": "menu_cancel_preserved_underlying_view_pixel_equal",
+            "file": "room-preview-proto-19-scrolled-cancel.png"
+          },
+          {
+            "at": "2026-09-29T01:59:08.617Z",
+            "description": "20-reverse-top",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-20"
+            ],
+            "outcome": "banner_and_wordmark_blank_before_reupload",
+            "file": "room-preview-proto-20-reverse-top.png"
+          },
+          {
+            "at": "2026-09-29T01:59:08.884Z",
+            "description": "21-second-return-available",
+            "state_id": "S-RETURN",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-21"
+            ],
+            "outcome": "available_return_pixel_equal",
+            "file": "room-preview-proto-21-second-return-available.png"
+          },
+          {
+            "at": "2026-09-29T01:59:09.113Z",
+            "description": "22-second-return-home",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-22"
+            ],
+            "outcome": "home_return_pixel_equal",
+            "file": "room-preview-proto-22-second-return-home.png"
+          },
+          {
+            "at": "2026-09-29T02:01:22.407Z",
+            "description": "23-fixed-entry",
+            "state_id": "S-PREVIEWLOAD",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-23"
+            ],
+            "outcome": "loading_mark_blank_before_reupload",
+            "file": "room-preview-proto-23-fixed-entry.png"
+          },
+          {
+            "at": "2026-09-29T02:01:35.165Z",
+            "description": "24-fixed-top",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-24"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-24-fixed-top.png"
+          },
+          {
+            "at": "2026-09-29T02:01:35.438Z",
+            "description": "25-fixed-body",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-25"
+            ],
+            "outcome": "two_clipped_lines_and_hotline_spacing_fixed",
+            "file": "room-preview-proto-25-fixed-body.png"
+          },
+          {
+            "at": "2026-09-29T02:01:49.615Z",
+            "description": "26-fixed-reverse-top",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-26"
+            ],
+            "outcome": "reverse_scroll_top_pixel_equal_after_reupload",
+            "file": "room-preview-proto-26-fixed-reverse-top.png"
+          },
+          {
+            "at": "2026-09-29T02:01:49.885Z",
+            "description": "27-fixed-return-available",
+            "state_id": "S-RETURN",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-27"
+            ],
+            "outcome": "available_return_pixel_equal",
+            "file": "room-preview-proto-27-fixed-return-available.png"
+          },
+          {
+            "at": "2026-09-29T02:01:50.152Z",
+            "description": "28-fixed-return-home",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-28"
+            ],
+            "outcome": "home_return_pixel_equal",
+            "file": "room-preview-proto-28-fixed-return-home.png"
+          },
+          {
+            "at": "2026-09-29T02:04:30.263Z",
+            "description": "29-loading-fixed",
+            "state_id": "S-PREVIEWLOAD",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-29"
+            ],
+            "outcome": "loading_mark_visible_after_reupload",
+            "file": "room-preview-proto-29-loading-fixed.png"
+          },
+          {
+            "at": "2026-09-29T02:04:42.318Z",
+            "description": "30-final-top",
+            "state_id": "S-PREVIEWTOP",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-30"
+            ],
+            "outcome": "recorded",
+            "file": "room-preview-proto-30-final-top.png"
+          },
+          {
+            "at": "2026-09-29T02:04:42.593Z",
+            "description": "31-final-available",
+            "state_id": "S-RETURN",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-31"
+            ],
+            "outcome": "available_return_pixel_equal",
+            "file": "room-preview-proto-31-final-available.png"
+          },
+          {
+            "at": "2026-09-29T02:04:42.864Z",
+            "description": "32-final-home",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "evidence_ids": [
+              "E-ROOM-PREVIEW-P-32"
+            ],
+            "outcome": "home_return_pixel_equal",
+            "file": "room-preview-proto-32-final-home.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-ROOM-PREVIEW-P-01",
+          "E-ROOM-PREVIEW-P-02",
+          "E-ROOM-PREVIEW-P-03",
+          "E-ROOM-PREVIEW-P-04",
+          "E-ROOM-PREVIEW-P-05",
+          "E-ROOM-PREVIEW-P-06",
+          "E-ROOM-PREVIEW-P-07",
+          "E-ROOM-PREVIEW-P-08",
+          "E-ROOM-PREVIEW-P-09",
+          "E-ROOM-PREVIEW-P-10",
+          "E-ROOM-PREVIEW-P-11",
+          "E-ROOM-PREVIEW-P-12",
+          "E-ROOM-PREVIEW-P-13",
+          "E-ROOM-PREVIEW-P-14",
+          "E-ROOM-PREVIEW-P-15",
+          "E-ROOM-PREVIEW-P-16",
+          "E-ROOM-PREVIEW-P-17",
+          "E-ROOM-PREVIEW-P-18",
+          "E-ROOM-PREVIEW-P-19",
+          "E-ROOM-PREVIEW-P-20",
+          "E-ROOM-PREVIEW-P-21",
+          "E-ROOM-PREVIEW-P-22",
+          "E-ROOM-PREVIEW-P-23",
+          "E-ROOM-PREVIEW-P-24",
+          "E-ROOM-PREVIEW-P-25",
+          "E-ROOM-PREVIEW-P-26",
+          "E-ROOM-PREVIEW-P-27",
+          "E-ROOM-PREVIEW-P-28",
+          "E-ROOM-PREVIEW-P-29",
+          "E-ROOM-PREVIEW-P-30",
+          "E-ROOM-PREVIEW-P-31",
+          "E-ROOM-PREVIEW-P-32",
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "limitations": [
+          "Only the native observed upper webpage range is reconstructed. Content is intentionally bounded at the last observed photo viewport; the full lower webpage, PDF and true native scroll boundaries remain unknown.",
+          "One native Next transition is represented by two component variants. Previous, further Next, autoplay and native carousel boundary behavior remain unimplemented/unverified. Public web autoplay timing is not native evidence.",
+          "800ms After delay is a Figma demonstration parameter, not measured latency. Loading mark is a static sampled raster, not a reconstructed animation; loading-stage X/menu are not wired.",
+          "Reopening Preview retains Figma scroll/photo state. Native reopen/reset semantics were not observed. Only Tuesday Home caller was tested for this branch; standalone and other callers remain unverified.",
+          "Browser refresh/back/forward and menu system-browser/share/copy are inert. Closing at top or intermediate scroll generalizes the native close from PHOTO2.",
+          "Imported Arial rendered as Inter. Two long lines reduced to 24px and hotline x corrected; other fonts/icons approximate. Initial missing banner/wordmark/loading-mark captures retained; uploaded fills passed the sampled replay only.",
+          "Mac still returned locked after recovery reply. No new native states/actions or human evaluation. Entire app remains not_verified."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -51860,7 +53583,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "80 mapped frames / 2 internal states / 204 configured controls / 2 vertical scroll regions. Food expanded sheet/H Cafe/notice Tuesday sample passed after dialog-hit repair; 3 Home exits pixel equal. Discrete list, full app and visuals remain incomplete.",
+    "verification_summary": "83 mapped frames / 3 internal component states / 210 configured controls / 3 vertical scroll regions. Room Preview observed-range scrolling, one photo transition, nested menu and Tuesday return samples passed after image/text repairs. Reopen semantics, full native coverage and visual fidelity unverified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -52272,7 +53995,8 @@
       "room_caller_returns": "monday_legacy_loops_and_four_tuesday_exits_passed_standalone_failed",
       "food_caller_returns": "three_home_returns_pixel_equal_nested_stack_passed_standalone_failed_images_unstable",
       "food_image_reentry": "two_tuesday_nested_circuits_visible_after_14_png_reuploads_other_contexts_unverified",
-      "food_hcafe": "tuesday_observed_viewport_chain_passed_after_prompt_fix_continuous_list_unimplemented"
+      "food_hcafe": "tuesday_observed_viewport_chain_passed_after_prompt_fix_continuous_list_unimplemented",
+      "room_preview": "tuesday_sample_passed_observed_range_only_native_reopen_unverified"
     },
     "additional_imports": [
       {
@@ -53188,9 +54912,10 @@
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
         "tested_run_ids": [
           "PROTO-ROOM-V2-002",
-          "PROTO-ROOM-CALLER-STACK-001"
+          "PROTO-ROOM-CALLER-STACK-001",
+          "PROTO-ROOM-PREVIEW-001"
         ],
-        "scope": "For tested Home returns, start Home and open Room. Existing sample: press A with canvas focused, choose AG206, toggle All/Available. From Monday and legacy Home the full sample loop returns to its caller; all four Room outer exits tested from Tuesday. Three new exits are prototype generalizations awaiting exact native checks. Direct Room start has no Home caller: Available Back does nothing. Date/data are fixed Tuesday samples; free input, clear/search, other dates, Preview, full result scrolling and native boundaries remain incomplete. The Tuesday Available-to-All connection must not be treated as the observed Sunday action. Agent replay is not native observation or human testing."
+        "scope": "Start from Home Dates for caller-preserving Room replay. Press A with canvas focused, choose AG206, then Available. Preview opens a loading sample (800ms demo delay, not native latency), Room Search webpage, menu/Cancel, continuous scrolling over the observed range, and one Next photo transition. Close returns to Available with AG206/Tue29 retained; Room Back returns to Tuesday Home. Repeat Preview retains scroll/photo state in Figma; native reopen semantics remain unverified. Public website images supplement native screenshot layout, and native photo order is based on native captures. The complete lower webpage, Previous/further Next, browser actions, full result scrolling, free input, other dates and full visual fidelity remain incomplete. Independent Room start has no Home caller. Tuesday Available-to-All is not the observed Sunday action. Agent replay is not native observation or human evaluation."
       },
       {
         "name": "More · Weather and Assistant",
@@ -53298,7 +55023,7 @@
         "scope": "Reference for the captured Tuesday AG206 Available sample. Use Home -> Room -> key A -> AG206 -> Available for tested caller-preserving navigation. This standalone starting point has no Home caller; Close overlay is not an accepted exit here. Dates, arbitrary text input, Preview, slot interactions and full list coverage remain incomplete. Available-to-All uses an inferred same-date sample and is not the separately observed Sunday action. Agent replay is not native or human testing."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-29T01:23:16.083Z",
+    "latest_prototype_run_cutoff": "2026-09-29T02:04:42.864Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -53321,9 +55046,9 @@
       "boundary": "Flow 1 resolved to current Available node12:105, not the archived original draft. Naming verification does not create a new navigation run."
     },
     "latest_context_evidence_ids": [
-      "E-FOOD-HCAFE-P-28"
+      "E-ROOM-PREVIEW-P-32"
     ],
-    "latest_context_verified_at": "2026-09-29T01:23:16.083Z",
+    "latest_context_verified_at": "2026-09-29T02:04:42.864Z",
     "component_state_mappings": [
       {
         "state_id": "S-PRIVACY-NO-COOKIE",
@@ -53401,6 +55126,41 @@
         ],
         "verification_status": "cookie_dismissal_and_back_passed_scroll_unimplemented",
         "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover."
+      },
+      {
+        "state_id": "S-PHOTO2",
+        "parent_frame_node_id": "310:12",
+        "instance_node_id": "314:12",
+        "component_set_node_id": "312:257",
+        "default_variant_node_id": "312:256",
+        "target_variant": {
+          "property": "Property 1",
+          "value": "Second",
+          "node_id": "312:258"
+        },
+        "next_trigger_master_node_id": "312:252",
+        "instance_position": [
+          18,
+          1389
+        ],
+        "instance_dimensions": [
+          526,
+          394.5
+        ],
+        "design_source_path": "../../design/polyulife/room-preview-photo-2.svg",
+        "design_source_sha256": "e93eb7d40571cf9f31af2e210b9feac1697345af3626fb56413fce776237c9df",
+        "source_evidence_ids": [
+          "E-PHOTO2"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-P-11",
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ],
+        "verification_status": "one_next_transition_passed_native_reset_and_bounds_unverified",
+        "note": "Internal component state, not another full screen. First variant corresponds to S-PHOTO1 within scroll region."
       }
     ],
     "scroll_region_mappings": [
@@ -53493,6 +55253,61 @@
         ],
         "design_source_path": "../../design/polyulife/home-demo-tuesday-scroll.svg",
         "design_source_sha256": "d7d8c31f6d17e179a6b46c48086b8c688ef2ec59625799cd856b2aee0681221b"
+      },
+      {
+        "state_id": "S-PREVIEWTOP",
+        "observed_scroll_state_ids": [
+          "S-PHOTO1"
+        ],
+        "root_node_id": "310:12",
+        "viewport_node_id": "310:14",
+        "viewport_name": "WebScrollContent",
+        "position": [
+          8,
+          152
+        ],
+        "dimensions": [
+          561,
+          726
+        ],
+        "overflow": "Vertical",
+        "clip_content": true,
+        "vertical_constraints": "Top",
+        "inferred_range": [
+          0,
+          1083
+        ],
+        "native_complete_extent_verified": false,
+        "action_ids": [
+          "A-ROOM-PREVIEW-SCROLL"
+        ],
+        "source_evidence_ids": [
+          "E-PREVIEWTOP",
+          "E-PHOTO1"
+        ],
+        "prototype_run_ids": [
+          "PROTO-ROOM-PREVIEW-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/room-preview-top.svg",
+        "design_source_sha256": "73f38acf1c07781ef940c0fee9a70c8ce9df91d46d1a8b8d52a24bb6c19397bf"
+      }
+    ],
+    "state_alias_mappings": [
+      {
+        "state_id": "S-RETURN",
+        "reused_state_id": "S-AVAILABLE",
+        "node_id": "12:105",
+        "source_evidence_ids": [
+          "E-RETURN"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-PREVIEW-P-12",
+          "E-ROOM-PREVIEW-PROTO-TRACE"
+        ],
+        "note": "Close overlay reveals existing Available with AG206/Tue29 and caller stack retained; no duplicate frame."
       }
     ]
   },
