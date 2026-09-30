@@ -1,0 +1,573 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-saturday-initial.png",
+      "sha256": "b3b6618c7b2f800fb4a1e37557379e169f39fed4ce247780872561a976d26f23",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:41:37.045Z",
+      "description": "Saturday selected at native observed left strip; six slots.",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "01-saturday-right.png",
+      "sha256": "e62a66ae8d63c61b1783c8398cffd1d005f41d3d5d4a5a522906f43068e9bd13",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:41:37.637Z",
+      "description": "Saturday strip right; result remains03Oct Available.",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "02-sunday-at-shifted-button.png",
+      "sha256": "f74ef00dbf241b32f8bda5f54a02cea2efd220fdab26f7d0fed5a92ff252705b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:41:46.319Z",
+      "description": "Click visible Sunday646,145 after real Saturday horizontal scroll.",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "03-sunday-intermediate.png",
+      "sha256": "8e4ac08e60c9ef70d673ea95c1a47c77d9899f0d91d182d3ae0e89ea0ec2e3c9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:41:57.796Z",
+      "description": "Small wheel step produces intermediate strip; Sunday empty result retained.",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "04-sunday-intermediate-stable.png",
+      "sha256": "8e4ac08e60c9ef70d673ea95c1a47c77d9899f0d91d182d3ae0e89ea0ec2e3c9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:41:58.097Z",
+      "description": "No input; intermediate persists.",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "05-sunday-right.png",
+      "sha256": "de7bb73f9c535c838229b78b784314fa91adcc190bd1212600245a7b36f74aae",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:41:58.637Z",
+      "description": "Right position makes Monday visible700,145.",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "06-monday-at-shifted-button.png",
+      "sha256": "10ceff29cf249dbe47bfc671a1497e75fed860f52cf552b3fe47bebc32352b8a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:42:08.737Z",
+      "description": "Visible Monday700,145 correctly hits after true Sunday scroll; initial142px applied.",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "07-monday-left.png",
+      "sha256": "7eec51a8a6c1aa0a49427aed3c3e43cd6bc254efa49cf3ab8829ed52c4a5610a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:42:09.354Z",
+      "description": "Reverse Monday strip to left;05Oct four slots unchanged.",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "08-monday-right-return.png",
+      "sha256": "10ceff29cf249dbe47bfc671a1497e75fed860f52cf552b3fe47bebc32352b8a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:42:09.967Z",
+      "description": "Return to right strip; Monday remains selected.",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "09-monday-right-stable.png",
+      "sha256": "10ceff29cf249dbe47bfc671a1497e75fed860f52cf552b3fe47bebc32352b8a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:42:22.490Z",
+      "description": "No input after right scroll; stable rendering before Tuesday click.",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "10-tuesday.png",
+      "sha256": "64a01dc8720de8725bcaa169bb82984d286b5984edf88ba8f05ec7bb3a7c4a90",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:42:53.194Z",
+      "description": "Monday visible Tuesday button routes to original continuous Tuesday state.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "11-tuesday-left.png",
+      "sha256": "2c2f8eb010293cef14c9be2a1b350e7f0a76de6466769c9848bfea8058c33d6a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:42:53.608Z",
+      "description": "Tuesday reverse to Today visible.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "12-today-return.png",
+      "sha256": "4ac0d5121788c0241dddcd9cc865208e587764222e7b8872b867b122960cf54d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:42:54.217Z",
+      "description": "Today returns with four historical available slots.",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "13-thursday-regression.png",
+      "sha256": "6fde64438a0ddc92fb073934bcaddc875f92b6d34de1e6ebcd9c3735641f291e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:44:38.999Z",
+      "description": "Existing Today→Thursday link before full incoming path.",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "14-thursday-all-regression.png",
+      "sha256": "faf6811ad2dc31ea8c4eafd214cdc02fe42cffd72707eb7ac5c719851849c9a2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:44:39.494Z",
+      "description": "Existing Thursday ALL.",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "15-friday-all-regression.png",
+      "sha256": "57a673b8bf8b903eaacf73a4921adbfd2e5e2e96c953c7f7c857cdab284981c8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:44:46.567Z",
+      "description": "Existing Thursday→Friday ALL.",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "16-friday-available-regression.png",
+      "sha256": "24c31979ca5eec88fddb02b38cc72d270ce6650fd031644acc5377e1a2236467",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:44:46.964Z",
+      "description": "Existing Friday Available.",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "17-saturday-from-friday.png",
+      "sha256": "b3b6618c7b2f800fb4a1e37557379e169f39fed4ce247780872561a976d26f23",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:44:58.514Z",
+      "description": "Existing incoming Friday→Saturday reaches new horizontal context and resets left position.",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "18-saturday-intermediate.png",
+      "sha256": "4e15a170717c66a03d6d09602173b5fc2d24f15080cc61fee8221b75129f2b5b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:44:58.890Z",
+      "description": "Saturday intermediate wheel position preserves03Oct six slots.",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "19-saturday-left-return.png",
+      "sha256": "b3b6618c7b2f800fb4a1e37557379e169f39fed4ce247780872561a976d26f23",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:44:59.339Z",
+      "description": "Saturday returns to native observed left position.",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "20-sunday-unshifted-click.png",
+      "sha256": "f74ef00dbf241b32f8bda5f54a02cea2efd220fdab26f7d0fed5a92ff252705b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:45:06.830Z",
+      "description": "Visible Sunday730,145 also works at left strip.",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "21-monday-unshifted-click.png",
+      "sha256": "10ceff29cf249dbe47bfc671a1497e75fed860f52cf552b3fe47bebc32352b8a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:45:18.798Z",
+      "description": "Visible Monday782,145 works at Sunday left strip.",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "22-tuesday-second.png",
+      "sha256": "64a01dc8720de8725bcaa169bb82984d286b5984edf88ba8f05ec7bb3a7c4a90",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:45:19.401Z",
+      "description": "Monday→Tuesday second path.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "23-tuesday-left-second.png",
+      "sha256": "2c2f8eb010293cef14c9be2a1b350e7f0a76de6466769c9848bfea8058c33d6a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:45:20.021Z",
+      "description": "Tuesday left second path.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "24-today-second.png",
+      "sha256": "4ac0d5121788c0241dddcd9cc865208e587764222e7b8872b867b122960cf54d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:45:20.530Z",
+      "description": "Today second path after full incoming sequence.",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask account avatar half-open[1017,0,1075,49]; historical public Room data."
+    },
+    {
+      "file": "init-saturday-available.png",
+      "sha256": "6ee0fda10439cf4288f0465fb3f98a65adc9ceca0dc9086b20e2a6ac2ec7fe2d",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T00:40:59.602758+00:00",
+      "timestamp_basis": "Local screenshot file write time",
+      "redaction": "Mask account avatar half-open[390,0,447,49]."
+    },
+    {
+      "file": "init-sunday-available.png",
+      "sha256": "7fb8a58b8280507eacd63c7552c8232926ca4076e2fd0925af8515b35b7acef6",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T00:40:42.937018+00:00",
+      "timestamp_basis": "Local screenshot file write time",
+      "redaction": "Mask account avatar half-open[390,0,447,49]."
+    },
+    {
+      "file": "init-monday-available.png",
+      "sha256": "7e13a11a34ffff18373a52971d53895bf3cfe16ca582a579ecb8d9dcd7704ed3",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T00:40:03.228022+00:00",
+      "timestamp_basis": "Local screenshot file write time",
+      "redaction": "Mask account avatar half-open[390,0,447,49]."
+    },
+    {
+      "file": "viewport-monday-available.png",
+      "sha256": "8020864d4c51eaf6a12eb9b00f129bbc607ac5941ea0029421d64028239bb5b6",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T00:43:43.112746+00:00",
+      "timestamp_basis": "Local screenshot file write time",
+      "redaction": "Mask account avatar half-open[390,0,447,49]."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "039769a44ed9507d42429065f4180ed33e35d0e3e1c283fc5058f184dbb0992f",
+    "dimensions": [
+      1352,
+      1254
+    ]
+  },
+  "app_crop_xyxy": [
+    470,
+    60,
+    808,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "00-saturday-initial.png",
+      "comparison": "01-saturday-right.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "00-saturday-initial.png",
+      "comparison": "17-saturday-from-friday.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "00-saturday-initial.png",
+      "comparison": "18-saturday-intermediate.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "00-saturday-initial.png",
+      "comparison": "19-saturday-left-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "02-sunday-at-shifted-button.png",
+      "comparison": "03-sunday-intermediate.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "03-sunday-intermediate.png",
+      "comparison": "04-sunday-intermediate-stable.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "02-sunday-at-shifted-button.png",
+      "comparison": "05-sunday-right.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "02-sunday-at-shifted-button.png",
+      "comparison": "20-sunday-unshifted-click.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "06-monday-at-shifted-button.png",
+      "comparison": "07-monday-left.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "06-monday-at-shifted-button.png",
+      "comparison": "09-monday-right-stable.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "06-monday-at-shifted-button.png",
+      "comparison": "21-monday-unshifted-click.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "12-today-return.png",
+      "comparison": "24-today-second.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native full visual fidelity/human evaluation claim."
+    }
+  ],
+  "scope": "Three additional continuous date contexts, moved button hit samples and regression. Other contexts/full application not complete."
+}

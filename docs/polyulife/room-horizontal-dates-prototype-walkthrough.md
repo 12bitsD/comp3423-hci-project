@@ -1,5 +1,7 @@
 # Room：Tuesday 连续日期条与 Today 返回
 
+> 后续[三个日期上下文回放](room-date-contexts-prototype-walkthrough.md)补了Saturday/Sunday/Monday连续日期条，并实跑原失败位置的点击；本页保留该版本的失败与范围记录。
+
 2026-09-30，通过 Computer Use 将 Tuesday 画板中的有限拖动跳转替换为真正的横向滚动区域，连接新日期条的 Today 点击，并完成原型回放。本批没有新增原生观察或真人评价。原生来源为[七日选择记录](room-dates-20260930.md)的 E-ROOM-DATES-11、12、13。
 
 [Monday 起点样例](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-1019&starting-point-node-id=412%3A1019&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=0) · [实际连接和素材哈希](../../design/polyulife/room-horizontal-dates-connections.json) · [公开截图与比较清单](../../evidence/2026-09-30-room-horizontal-dates/manifest.json)

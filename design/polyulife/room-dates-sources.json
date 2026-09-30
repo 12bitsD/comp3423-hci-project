@@ -161,7 +161,7 @@
       "list_offset": 0
     },
     {
-      "file": "room-dates-saturday-available.svg",
+      "file": "room-dates-saturday-available-horizontal.svg",
       "state_id": "S-ROOM-DATE-SAT-AVAILABLE",
       "context_variant": "20260930-saturday-available",
       "source_evidence_ids": [
@@ -173,21 +173,28 @@
       "source_evidence_sha256": [
         "1cc2774abd38589afb203855b274724ea5f38f3c7f5b8ee0035f5caf370152f9"
       ],
-      "sha256": "d8301bb404551ee43e1696444206a9d6168b9e76348b0d0955698345117300d1",
+      "sha256": "5e2f6e93b2abd7f6ef65e5f71733e42971e9a63a974346b6c40a433e6c9dc3ad",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:827",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "saturday-available",
       "date": "03-Oct",
       "filter": "available",
       "date_strip_offset": 0,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-saturday-available.svg",
+          "sha256": "d8301bb404551ee43e1696444206a9d6168b9e76348b0d0955698345117300d1",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
-      "file": "room-dates-sunday-available.svg",
+      "file": "room-dates-sunday-available-horizontal.svg",
       "state_id": "S-SUNEMPTY",
       "context_variant": "20260930-sunday-available",
       "source_evidence_ids": [
@@ -199,21 +206,28 @@
       "source_evidence_sha256": [
         "dd10da740feec6e0d13723f7d84e310245f9b07ba0d1124eaeb2ac2e8da3fa5b"
       ],
-      "sha256": "a6276e7d4947d5c24d6c92b120e632e1aee6aa425aaa4c69c7bf16cee6d6c6d9",
+      "sha256": "0e213cdc24abb1891938f361e201aee63858a7d683830a387024682a7d366739",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:936",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "sunday-available",
       "date": "04-Oct",
       "filter": "available",
       "date_strip_offset": 0,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-sunday-available.svg",
+          "sha256": "a6276e7d4947d5c24d6c92b120e632e1aee6aa425aaa4c69c7bf16cee6d6c6d9",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
-      "file": "room-dates-monday-available.svg",
+      "file": "room-dates-monday-available-horizontal.svg",
       "state_id": "S-ROOM-DATE-MON-AVAILABLE",
       "context_variant": "20260930-monday-available",
       "source_evidence_ids": [
@@ -225,18 +239,25 @@
       "source_evidence_sha256": [
         "a6fc501bab1717cb36eb3579beab2c4354ba060c4f21f9ebd8c237848fd17883"
       ],
-      "sha256": "992a1eb9c2a71ce38457f9a19b6b8ff21a981acf83bc552818968f3ac5ee130d",
+      "sha256": "3072b28eba9efb91b93bdba906c3533c85bd556067cdd64c37943d78e27ee295",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:1019",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "monday-available",
       "date": "05-Oct",
       "filter": "available",
       "date_strip_offset": -142,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-monday-available.svg",
+          "sha256": "992a1eb9c2a71ce38457f9a19b6b8ff21a981acf83bc552818968f3ac5ee130d",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
       "file": "room-dates-tuesday-horizontal.svg",

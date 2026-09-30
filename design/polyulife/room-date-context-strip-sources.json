@@ -1,0 +1,197 @@
+{
+  "contexts": [
+    {
+      "label": "today-all",
+      "root_node_id": "412:19",
+      "strip_file": "room-dates-today-all-strip.svg",
+      "strip_sha256": "21d8ded1751105b32f197dd944db40dcacb6b4d7a7f397e4c482d38bc3c4a23e",
+      "full_source_file": "room-dates-today-all-horizontal.svg",
+      "full_source_sha256": "073ca3a57a21db9d3e7f7aa347d5e419d1318b8df1652e8b1eec91b9e1a5e295",
+      "initial_offset": 0,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-02",
+        "E-ROOM-DATES-15"
+      ],
+      "status": "prepared_not_imported"
+    },
+    {
+      "label": "today-available",
+      "root_node_id": "412:216",
+      "strip_file": "room-dates-today-available-strip.svg",
+      "strip_sha256": "b59969df9ac7a585cae4c365a90f9a36f4ac2a7d0027105dfa95906f6b9567e8",
+      "full_source_file": "room-dates-today-available-horizontal.svg",
+      "full_source_sha256": "acea56582075649c9b3df52fefd098328cf8777eb1d44a015a752c9834fba9ed",
+      "initial_offset": 0,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-03"
+      ],
+      "status": "prepared_not_imported"
+    },
+    {
+      "label": "thursday-available",
+      "root_node_id": "412:317",
+      "strip_file": "room-dates-thursday-available-strip.svg",
+      "strip_sha256": "f0a8dd7f1bf3ce211e51a5b133db3fbd0a34377133c8cc382ca115743ae48590",
+      "full_source_file": "room-dates-thursday-available-horizontal.svg",
+      "full_source_sha256": "1ce8deceb27c922a9bdbe010910b7e43a88e62a8adbf87cb20c087a651d26d4e",
+      "initial_offset": 0,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-04"
+      ],
+      "status": "prepared_not_imported"
+    },
+    {
+      "label": "thursday-all",
+      "root_node_id": "412:400",
+      "strip_file": "room-dates-thursday-all-strip.svg",
+      "strip_sha256": "b5fbda5bddd50ffd5f6e914ee69df56cd60ce73ac21ad65aba4b76faa7ac2436",
+      "full_source_file": "room-dates-thursday-all-horizontal.svg",
+      "full_source_sha256": "1ddfcd48dee62ebcce7988a2f872321b6640f50939d3741d63f2509728e56b4d",
+      "initial_offset": 0,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-05"
+      ],
+      "status": "prepared_not_imported"
+    },
+    {
+      "label": "friday-all",
+      "root_node_id": "412:551",
+      "strip_file": "room-dates-friday-all-strip.svg",
+      "strip_sha256": "ad36e89535dabcff0f3469efe8f63188708c918d7de16cba6ec828333e573ebb",
+      "full_source_file": "room-dates-friday-all-horizontal.svg",
+      "full_source_sha256": "b1add094aec220eaa1e176a30029cae5ca800f9fedddc3090f83b4caed34a349",
+      "initial_offset": 0,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-06"
+      ],
+      "status": "prepared_not_imported"
+    },
+    {
+      "label": "friday-available",
+      "root_node_id": "412:702",
+      "strip_file": "room-dates-friday-available-strip.svg",
+      "strip_sha256": "80ba8c9cd81eb6bab3dff68573bf14ab1a971625b06830cc33d456789380f0fb",
+      "full_source_file": "room-dates-friday-available-horizontal.svg",
+      "full_source_sha256": "6acfdc6a5f9b0cfed9ad223fc07d717c9e57a709afef753b65a3de54295df23a",
+      "initial_offset": 0,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-07"
+      ],
+      "status": "prepared_not_imported"
+    },
+    {
+      "label": "saturday-available",
+      "root_node_id": "412:827",
+      "strip_file": "room-dates-saturday-available-strip.svg",
+      "strip_sha256": "cddb52c945e6097ec0cda85016401efaa43e0de611b36d6fa7fdeee74e270fd5",
+      "full_source_file": "room-dates-saturday-available-horizontal.svg",
+      "full_source_sha256": "5e2f6e93b2abd7f6ef65e5f71733e42971e9a63a974346b6c40a433e6c9dc3ad",
+      "initial_offset": 0,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-08"
+      ],
+      "status": "imported_configured_sample_replayed_partial_fidelity",
+      "actual_edit": {
+        "label": "saturday-available",
+        "root_node_id": "412:827",
+        "viewport_node_id": "439:19",
+        "content_node_id": "439:21",
+        "trigger_node_id": "439:38",
+        "next_day": "Sun",
+        "target_node_id": "412:936",
+        "replaced_connection_id": "C-ROOM-DATES-07",
+        "overflow": "Horizontal",
+        "position": [
+          30,
+          100
+        ],
+        "size": [
+          516,
+          84
+        ],
+        "content_width": 658,
+        "initial_offset": 0,
+        "initializer_status": "configured_1ms_instant_scroll_to",
+        "at": "2026-09-30T00:34:13.848Z",
+        "initializer_readback_at": "2026-09-30T00:41:00.020Z"
+      }
+    },
+    {
+      "label": "sunday-available",
+      "root_node_id": "412:936",
+      "strip_file": "room-dates-sunday-available-strip.svg",
+      "strip_sha256": "714deec35046f47edad33e784be94720c17228ecbde3ce0482f17ce75bbdd19e",
+      "full_source_file": "room-dates-sunday-available-horizontal.svg",
+      "full_source_sha256": "0e213cdc24abb1891938f361e201aee63858a7d683830a387024682a7d366739",
+      "initial_offset": 0,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-09"
+      ],
+      "status": "imported_configured_sample_replayed_partial_fidelity",
+      "actual_edit": {
+        "label": "sunday-available",
+        "root_node_id": "412:936",
+        "old_group_node_id": "412:944",
+        "viewport_node_id": "440:19",
+        "content_node_id": "440:21",
+        "overflow": "Horizontal",
+        "position": [
+          30,
+          100
+        ],
+        "size": [
+          516,
+          84
+        ],
+        "content_width": 658,
+        "initial_offset": 0,
+        "initializer_status": "configured_1ms_instant_scroll_to",
+        "at": "2026-09-30T00:36:23.835Z",
+        "trigger_node_id": "440:42",
+        "next_day": "Mon",
+        "target_node_id": "412:1019",
+        "replaced_connection_id": "C-ROOM-DATES-08",
+        "initializer_readback_at": "2026-09-30T00:40:43.402Z"
+      }
+    },
+    {
+      "label": "monday-available",
+      "root_node_id": "412:1019",
+      "strip_file": "room-dates-monday-available-strip.svg",
+      "strip_sha256": "fa3a4ca51629b02c3269ec744bd4b50dc2ddbaed0b07a39fc0c988cf2d1ad227",
+      "full_source_file": "room-dates-monday-available-horizontal.svg",
+      "full_source_sha256": "3072b28eba9efb91b93bdba906c3533c85bd556067cdd64c37943d78e27ee295",
+      "initial_offset": 142,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-10"
+      ],
+      "status": "imported_configured_sample_replayed_partial_fidelity",
+      "actual_edit": {
+        "label": "monday-available",
+        "root_node_id": "412:1019",
+        "old_group_node_id": "412:1027",
+        "viewport_node_id": "441:19",
+        "content_node_id": "441:21",
+        "overflow": "Horizontal",
+        "position": [
+          30,
+          100
+        ],
+        "size": [
+          516,
+          84
+        ],
+        "content_width": 658,
+        "initial_offset": 142,
+        "initializer_status": "configured_1ms_instant_scroll_to",
+        "at": "2026-09-30T00:37:22.409Z",
+        "trigger_node_id": "441:46",
+        "next_day": "Tue",
+        "target_node_id": "412:1120",
+        "replaced_connection_id": "C-ROOM-DATES-09",
+        "initializer_readback_at": "2026-09-30T00:40:03.728Z"
+      }
+    }
+  ],
+  "scope_completion": "not_verified"
+}
