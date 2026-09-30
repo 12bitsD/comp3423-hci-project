@@ -11,6 +11,8 @@
 
 ## 当前进度（2026-09-30）
 
+最新批次见 [Preview 原生控件补查](room-preview-controls-20260930.md)和[登录画板与 Copy 关闭回放](room-preview-controls-prototype-walkthrough.md)：当前原生 **135状态/268动作（193 observed、75 not_attempted）**，Figma **109映射画板/245配置控件/40次运行**，另有3个画板内组件状态和10个滚动区域。九份公开清单合计1000个PNG文件，含拼图；图片数不表示覆盖率。认证画板仅孤立渲染，Copy仅关闭菜单，完整认证、指南、剪贴板和分享语义仍未完成。以下较早批次的统计保留为历史快照。
+
 Room查询和AG206地图样例已归入正式台账：**108个Figma画板、3个画板内组件状态、244个配置控件、10个滚动区域及39次原型运行**（包括失败记录）。查询新增七个日期/聚焦变体、五条连接和两条实际Present回放，见 [查询回放](room-query-source-preparation.md)；地图新增三个部分可编辑画板、六个控件及失败/修复后运行，见 [地图回放](room-map-prototype-walkthrough.md)。新增[七日选择、筛选保持与列表边界的原生实测](room-dates-20260930.md)后，当前原生为132个状态、268个动作（185 observed、83 not_attempted）。本批12张日期/筛选变体已导入、12个控件与Today连续列表已实跑，见[七日原型回放](room-dates-prototype-walkthrough.md)；Tuesday 已替换为连续横向滚动，并完成两次 Today 返回，见[连续日期条回放](room-horizontal-dates-prototype-walkthrough.md)；Saturday、Sunday、Monday也已补为连续条并实跑移动后按钮命中，见[三个日期上下文回放](room-date-contexts-prototype-walkthrough.md)；其余六个准备中的上下文、Home和其它交接待完成。变体和原型回放不增加原生观察数量。全应用完成状态保持 `not_verified`。
 
 已通过 Computer Use 完成一轮 [Room Finder 实际走查](room-walkthrough.md)：输入与无结果、AG206 联想查询、ALL/Available 筛选、Preview 网页与照片轮播、日期异步更新、AG206 地图缩放以及返回 Home 的基本路径。Room 其它分支和边界仍在发现队列，不能称为全部交互已覆盖。

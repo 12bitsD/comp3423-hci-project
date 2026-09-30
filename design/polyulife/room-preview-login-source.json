@@ -1,0 +1,33 @@
+{
+  "status": "imported_isolated_render_confirmed_unwired",
+  "state_id": "S-PREVIEW-LOGIN",
+  "frame_dimensions": [
+    576,
+    1024
+  ],
+  "source_evidence_id": "E-ROOM-PREVIEW-CONTROLS-10",
+  "source_file": "../../evidence/2026-09-30-room-preview-controls/14-login-boundary.png",
+  "source_sha256": "22632b8fc8e02ced6a07f8d0acd14c1f6730fd603deafc302efbd42b00d9f99d",
+  "file": "room-preview-login.svg",
+  "sha256": "5a676a252b1107b9ab6af9059d70ebca97dcfed82a50710f456de8c92a8bf56d",
+  "wordmark_file": "assets/room-preview-login-wordmark.png",
+  "wordmark_sha256": "63999e5d623ff8b3c07c6b8aeab085f293088a888285b094d9a9dbbeeb650b69",
+  "wordmark_crop_xyxy": [
+    46,
+    211,
+    437,
+    292
+  ],
+  "limitations": [
+    "Editable reconstruction approximates typography/icons; wordmark raster from observed public login.",
+    "Placeholder fields and Login/ForgotPassword/More/Close/Reload not connected; no credentials submitted.",
+    "Browser Back observed against current AX-only page; historical public Preview layout return is not yet integrated with this new context.",
+    "Fullscreen-derived1024px source, not guaranteed real phone geometry."
+  ],
+  "figma_node_id": "452:19",
+  "canvas_position": [
+    0,
+    43000
+  ],
+  "prototype_run_id": "PROTO-PREVIEW-CONTROLS-20260930"
+}

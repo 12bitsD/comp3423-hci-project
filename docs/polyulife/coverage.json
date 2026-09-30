@@ -488,6 +488,52 @@
         "E-ROOM-DATES-18",
         "E-ROOM-DATES-TRACE"
       ]
+    },
+    {
+      "id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "started_at": "2026-09-30T00:53:08.568Z",
+      "documented_through": "2026-09-30T01:06:40.594Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone app; mcp__cua_repl native Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": true,
+        "app_version_basis": "Private Home AX hash and safe version statement in public AX excerpt",
+        "login_state": "Existing signed-in app; external PDF authentication boundary not submitted",
+        "capture_size": [
+          3024,
+          1898
+        ],
+        "room_crop_size": [
+          576,
+          1024
+        ],
+        "window_recovery": "Same native handle responsive. Fullscreen needed for readable app canvas; normal/zoom screenshots remained104x194 or128x238 thumbnail. Fullscreen exited at end; normal capture not recovered."
+      },
+      "starting_state_id": "S-HOME",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-00",
+        "E-ROOM-PREVIEW-CONTROLS-01",
+        "E-ROOM-PREVIEW-CONTROLS-02",
+        "E-ROOM-PREVIEW-CONTROLS-03",
+        "E-ROOM-PREVIEW-CONTROLS-04",
+        "E-ROOM-PREVIEW-CONTROLS-05",
+        "E-ROOM-PREVIEW-CONTROLS-06",
+        "E-ROOM-PREVIEW-CONTROLS-07",
+        "E-ROOM-PREVIEW-CONTROLS-08",
+        "E-ROOM-PREVIEW-CONTROLS-09",
+        "E-ROOM-PREVIEW-CONTROLS-10",
+        "E-ROOM-PREVIEW-CONTROLS-11",
+        "E-ROOM-PREVIEW-CONTROLS-12",
+        "E-ROOM-PREVIEW-CONTROLS-13",
+        "E-ROOM-PREVIEW-CONTROLS-14",
+        "E-ROOM-PREVIEW-CONTROLS-15",
+        "E-ROOM-PREVIEW-CONTROLS-16",
+        "E-ROOM-PREVIEW-CONTROLS-17",
+        "E-ROOM-PREVIEW-CONTROLS-TRACE",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ]
     }
   ],
   "entry_points": [
@@ -841,9 +887,12 @@
       "screenshot_evidence_ids": [
         "E-EMPTY",
         "E-ROOM-RECHECK-01",
-        "E-ROOM-DATES-00"
+        "E-ROOM-DATES-00",
+        "E-ROOM-PREVIEW-CONTROLS-00"
       ],
-      "ax_evidence_ids": [],
+      "ax_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "action_ids": [
         "A-ROOM-PQ-INPUT",
         "A-ROOM-OTHER-QUERY"
@@ -1021,14 +1070,20 @@
         "E-ROOM-RECHECK-04",
         "E-ROOM-DATES-02",
         "E-ROOM-DATES-14",
-        "E-ROOM-DATES-17"
+        "E-ROOM-DATES-17",
+        "E-ROOM-PREVIEW-CONTROLS-01",
+        "E-ROOM-PREVIEW-CONTROLS-13",
+        "E-ROOM-PREVIEW-CONTROLS-17"
       ],
-      "ax_evidence_ids": [],
+      "ax_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "action_ids": [
         "A-ROOM-AVAILABLE",
         "A-ROOM-DATE-SUN",
         "A-ROOM-SCROLL-LIST",
-        "A-ROOM-HOME-BACK"
+        "A-ROOM-HOME-BACK",
+        "A-ROOM-PREVIEW"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -1107,9 +1162,12 @@
       "visible_scope": "Captured app content viewport; not a guarantee of complete scroll extent",
       "preconditions": "Existing signed-in application session",
       "screenshot_evidence_ids": [
-        "E-MENU"
+        "E-MENU",
+        "E-ROOM-PREVIEW-CONTROLS-04"
       ],
-      "ax_evidence_ids": [],
+      "ax_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "action_ids": [
         "A-ROOM-PREVIEW-CANCEL",
         "A-ROOM-PREVIEW-OPEN-SYSTEM",
@@ -3672,6 +3730,82 @@
       "remaining_uncertainties": [
         "Full date/filter/room combinations, real phone behavior, loading/network data and complete Figma reproduction remain unverified."
       ]
+    },
+    {
+      "id": "S-PREVIEW-AX-ONLY",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "title": "Embedded Preview AX with blank/capture loading surface",
+      "description": "Preview from ALL opens wrapper. Source screenshot is blank web area; saved full AX already contains AG206 webpage and disabled history controls. No visual loaded-page claim.",
+      "visible_scope": "576x1024 documented crop from fullscreen3024x1898; blank screenshot does not prove native page rendered or failed",
+      "preconditions": "Existing app login; public AG206 Preview; no web credentials entered",
+      "screenshot_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-02",
+        "E-ROOM-PREVIEW-CONTROLS-03",
+        "E-ROOM-PREVIEW-CONTROLS-05",
+        "E-ROOM-PREVIEW-CONTROLS-06",
+        "E-ROOM-PREVIEW-CONTROLS-07",
+        "E-ROOM-PREVIEW-CONTROLS-08",
+        "E-ROOM-PREVIEW-CONTROLS-09",
+        "E-ROOM-PREVIEW-CONTROLS-11",
+        "E-ROOM-PREVIEW-CONTROLS-14",
+        "E-ROOM-PREVIEW-CONTROLS-15",
+        "E-ROOM-PREVIEW-CONTROLS-16"
+      ],
+      "ax_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-MENU",
+        "A-ROOM-PREVIEW-RELOAD",
+        "A-ROOM-PREVIEW-PDF",
+        "A-ROOM-PREVIEW-BROWSER-FORWARD",
+        "A-ROOM-PREVIEW-PREV",
+        "A-ROOM-PREVIEW-NEXT",
+        "A-ROOM-PREVIEW-CLOSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Normal window visual capture, web rendering and full control/caller fidelity remain unverified."
+      ]
+    },
+    {
+      "id": "S-PREVIEW-LOGIN",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "title": "PolyU authentication boundary",
+      "description": "PolyU login is visible in screenshot; AX Sign in with your NetID and NetPassword, empty placeholder fields. Back enabled, Forward disabled. No credentials entered.",
+      "visible_scope": "576x1024 documented crop from fullscreen3024x1898; blank screenshot does not prove native page rendered or failed",
+      "preconditions": "Existing app login; public AG206 Preview; no web credentials entered",
+      "screenshot_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-10",
+        "E-ROOM-PREVIEW-CONTROLS-12"
+      ],
+      "ax_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-BROWSER-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Normal window visual capture, web rendering and full control/caller fidelity remain unverified."
+      ]
+    },
+    {
+      "id": "S-PREVIEW-SYSTEM",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "title": "Room Search in Google Chrome",
+      "description": "Live native Chrome AX confirms official AG206 page after system-browser handoff. Follow-up capture interrupted; no public screenshot exists.",
+      "visible_scope": "Live AX only; archive contains safe derived title/URL",
+      "preconditions": "Open in system browser from Preview menu",
+      "screenshot_evidence_ids": [],
+      "ax_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Independent screenshot and closing handoff tab not archived."
+      ]
     }
   ],
   "actions": [
@@ -3710,6 +3844,17 @@
           "evidence_ids": [
             "E-ROOM-DATES-00"
           ]
+        },
+        {
+          "at": "2026-09-30T00:53:08.568Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-HOME",
+          "observed_feedback": "Home Room opens initial Today30-Sep empty field.",
+          "target_state_id": "S-EMPTY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-00",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
         }
       ],
       "target_state_id": "S-EMPTY",
@@ -3717,10 +3862,12 @@
         "E-HOME",
         "E-EMPTY",
         "E-ROOM-RECHECK-01",
-        "E-ROOM-DATES-00"
+        "E-ROOM-DATES-00",
+        "E-ROOM-PREVIEW-CONTROLS-00",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
-      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": []
     },
     {
@@ -4084,15 +4231,40 @@
             "E-PREVIEWLOAD",
             "E-PREVIEWTOP"
           ]
+        },
+        {
+          "at": "2026-09-30T00:58:35.732Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-ALL",
+          "observed_feedback": "Preview from ALL opens wrapper. Source screenshot is blank web area; saved full AX already contains AG206 webpage and disabled history controls. No visual loaded-page claim.",
+          "target_state_id": "S-PREVIEW-AX-ONLY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-02",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        },
+        {
+          "at": "2026-09-30T01:05:24.035Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-ALL",
+          "observed_feedback": "Agent reopens Preview: Room Search and both history buttons disabled. Loading mark visible in screenshot; final page rendering not verified.",
+          "target_state_id": "S-PREVIEW-AX-ONLY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-14",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
         }
       ],
       "target_state_id": "S-PREVIEWTOP",
       "evidence_ids": [
         "E-PREVIEWLOAD",
-        "E-PREVIEWTOP"
+        "E-PREVIEWTOP",
+        "E-ROOM-PREVIEW-CONTROLS-02",
+        "E-ROOM-PREVIEW-CONTROLS-AX",
+        "E-ROOM-PREVIEW-CONTROLS-14"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
-      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": []
     },
     {
@@ -4109,14 +4281,27 @@
           "evidence_ids": [
             "E-MENU"
           ]
+        },
+        {
+          "at": "2026-09-30T00:58:51.331Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-PREVIEW-AX-ONLY",
+          "observed_feedback": "More opens menu from embedded Preview.",
+          "target_state_id": "S-MENU",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-04",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
         }
       ],
       "target_state_id": "S-MENU",
       "evidence_ids": [
-        "E-MENU"
+        "E-MENU",
+        "E-ROOM-PREVIEW-CONTROLS-04",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
-      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": []
     },
     {
@@ -4184,15 +4369,28 @@
             "E-PHOTO1",
             "E-PHOTO2"
           ]
+        },
+        {
+          "at": "2026-09-30T01:06:23.563Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-PREVIEW-AX-ONLY",
+          "observed_feedback": "Next button click changed AX Slide 1 to Slide 3. Screenshot remains blank; exact photo order/autoplay/endpoints not proven.",
+          "target_state_id": "S-PREVIEW-AX-ONLY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-16",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
         }
       ],
       "target_state_id": "S-PHOTO2",
       "evidence_ids": [
         "E-PHOTO1",
-        "E-PHOTO2"
+        "E-PHOTO2",
+        "E-ROOM-PREVIEW-CONTROLS-16",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
       ],
       "return_path": "Return by the observed Room back/Preview close path where applicable; this individual path is not independently replayed.",
-      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": []
     },
     {
@@ -4209,14 +4407,27 @@
           "evidence_ids": [
             "E-RETURN"
           ]
+        },
+        {
+          "at": "2026-09-30T01:06:40.594Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-PREVIEW-AX-ONLY",
+          "observed_feedback": "Agent X closes Preview; screenshot confirms AG206, Today30-Sep and ALL retained.",
+          "target_state_id": "S-ALL",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-17",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
         }
       ],
       "target_state_id": "S-RETURN",
       "evidence_ids": [
-        "E-RETURN"
+        "E-RETURN",
+        "E-ROOM-PREVIEW-CONTROLS-17",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
       ],
       "return_path": "Verified Preview close -> Room Finder; full Home return not yet recorded here.",
-      "authorization": "Ordinary navigation/query/observation in the authorised HCI scope",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": []
     },
     {
@@ -4628,98 +4839,219 @@
       "from_state_id": "S-MENU",
       "control": "Open in system browser",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-30T01:00:32.051Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-MENU",
+          "observed_feedback": "Menu dismisses. Subsequent live native Chrome handle reports Room Search at polyu.edu.hk/learningspaces/AG206/. Handoff proven by live AX; follow-up browser capture interrupted by user interaction and not archived.",
+          "target_state_id": "S-PREVIEW-SYSTEM",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-08",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEW-SYSTEM",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-08",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "return_path": null,
-      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
-      "pending_reason": "Destination/handoff not attempted."
+      "pending_reason": "Live native Chrome AX handoff confirmed; follow-up capture interrupted by user interaction. Destination private browser chrome excluded."
     },
     {
       "id": "A-ROOM-PREVIEW-SHARE",
       "from_state_id": "S-MENU",
       "control": "Share via...",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-30T00:59:22.776Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-MENU",
+          "observed_feedback": "Share via click dismisses menu; neither a share sheet nor recipients appear in sampled AX/screenshot. No sharing submitted; share capability unresolved.",
+          "target_state_id": "S-PREVIEW-AX-ONLY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-06",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEW-AX-ONLY",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-06",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "return_path": null,
-      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
-      "pending_reason": "Share sheet not inspected; no content has been shared."
+      "pending_reason": "Executed scoped sample; unresolved details listed in remaining_uncertainties.",
+      "remaining_uncertainties": [
+        "Share via click dismisses menu; neither a share sheet nor recipients appear in sampled AX/screenshot. No sharing submitted; share capability unresolved.",
+        "Full success semantics, complete bounds and visual fidelity remain unverified."
+      ]
     },
     {
       "id": "A-ROOM-PREVIEW-COPY",
       "from_state_id": "S-MENU",
       "control": "Copy link",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-30T00:58:57.622Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-MENU",
+          "observed_feedback": "Copy link click dismisses menu. No visible copied toast in sampled screenshot and clipboard content not read or validated.",
+          "target_state_id": "S-PREVIEW-AX-ONLY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-05",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEW-AX-ONLY",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-05",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "return_path": null,
-      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
-      "pending_reason": "Clipboard feedback not tested."
+      "pending_reason": "Executed scoped sample; unresolved details listed in remaining_uncertainties.",
+      "remaining_uncertainties": [
+        "Copy link click dismisses menu. No visible copied toast in sampled screenshot and clipboard content not read or validated.",
+        "Full success semantics, complete bounds and visual fidelity remain unverified."
+      ]
     },
     {
       "id": "A-ROOM-PREVIEW-PREV",
       "from_state_id": "S-PHOTO2",
       "control": "Previous carousel arrow",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-30T01:06:06.277Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-PREVIEW-AX-ONLY",
+          "observed_feedback": "Previous button click changed AX Slide 3 to Slide 1. Screenshot remains blank; exact one-step sequence/autoplay/visual identity/endpoints unknown. Earlier scroll failed noWindowsAvailable; same handle revalidated before click.",
+          "target_state_id": "S-PREVIEW-AX-ONLY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-15",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEW-AX-ONLY",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-15",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "return_path": null,
-      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
-      "pending_reason": "Previous direction and carousel endpoints not tested."
+      "pending_reason": "Executed scoped sample; unresolved details listed in remaining_uncertainties.",
+      "remaining_uncertainties": [
+        "Previous button click changed AX Slide 3 to Slide 1. Screenshot remains blank; exact one-step sequence/autoplay/visual identity/endpoints unknown. Earlier scroll failed noWindowsAvailable; same handle revalidated before click.",
+        "Full success semantics, complete bounds and visual fidelity remain unverified."
+      ]
     },
     {
       "id": "A-ROOM-PREVIEW-RELOAD",
       "from_state_id": "S-PREVIEWTOP",
       "control": "Reload",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-30T00:59:54.010Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-PREVIEW-AX-ONLY",
+          "observed_feedback": "Reload reconstructs AG206 webpage AX; source screenshot remains blank. Not proof of visual recovery or measured latency.",
+          "target_state_id": "S-PREVIEW-AX-ONLY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-07",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEW-AX-ONLY",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-07",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "return_path": null,
-      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
-      "pending_reason": "Visible embedded browser control not tested."
+      "pending_reason": "Executed scoped sample; unresolved details listed in remaining_uncertainties.",
+      "remaining_uncertainties": [
+        "Reload reconstructs AG206 webpage AX; source screenshot remains blank. Not proof of visual recovery or measured latency.",
+        "Full success semantics, complete bounds and visual fidelity remain unverified."
+      ]
     },
     {
       "id": "A-ROOM-PREVIEW-BROWSER-BACK",
       "from_state_id": "S-PREVIEWTOP",
       "control": "Browser back",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-30T01:04:15.363Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-PREVIEW-LOGIN",
+          "observed_feedback": "Back returns Room Search AX, with Back disabled and Forward enabled. Sampled web screenshot is blank.",
+          "target_state_id": "S-PREVIEW-AX-ONLY",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-11",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEW-AX-ONLY",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-11",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "return_path": null,
-      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
-      "pending_reason": "Enabled/disabled state and navigation history not tested."
+      "pending_reason": "One login/page history pair tested; additional histories, disabled click and page rendering remain unverified."
     },
     {
       "id": "A-ROOM-PREVIEW-BROWSER-FORWARD",
       "from_state_id": "S-PREVIEWTOP",
       "control": "Browser forward",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-30T01:04:26.808Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-PREVIEW-AX-ONLY",
+          "observed_feedback": "Forward returns login AX, Back enabled and Forward disabled. Sampled webpage is blank; this does not prove the visual login rendered in this sample.",
+          "target_state_id": "S-PREVIEW-LOGIN",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-12",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEW-LOGIN",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-12",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "return_path": null,
-      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
-      "pending_reason": "Enabled/disabled state and navigation history not tested."
+      "pending_reason": "One login/page history pair tested; additional histories, disabled click and page rendering remain unverified."
     },
     {
       "id": "A-ROOM-OTHER-DATES",
@@ -4860,17 +5192,30 @@
           "evidence_ids": [
             "E-ROOM-DATES-01"
           ]
+        },
+        {
+          "at": "2026-09-30T00:58:22.894Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-EMPTY",
+          "observed_feedback": "Entered AG206 via setValue/Search then focused retyping; eventual screenshot confirms Today30-Sep ALL. Early AX still initial; invalid stale index attempted once, corrected using fresh AX.",
+          "target_state_id": "S-ALL",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-01",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
         }
       ],
-      "target_state_id": null,
+      "target_state_id": "S-ALL",
       "evidence_ids": [
         "E-ROOM-RECHECK-02",
         "E-ROOM-RECHECK-12",
         "E-ROOM-RECHECK-13",
-        "E-ROOM-DATES-01"
+        "E-ROOM-DATES-01",
+        "E-ROOM-PREVIEW-CONTROLS-01",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
       ],
       "return_path": null,
-      "authorization": "Evaluate the actual action when attempted; do not execute real sharing/business submissions from this placeholder",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
       "pending_reason": "AG206 full query and ZZZZ9999 observed using AX setValue; case, whitespace, symbols, other room matches and network states remain untested.",
       "coverage_status": "partial"
@@ -5186,14 +5531,35 @@
       "from_state_id": "S-PHOTO1",
       "control": "Preview page PDF link",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-09-30T01:02:53.771Z",
+          "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+          "from_state_id": "S-PREVIEW-AX-ONLY",
+          "observed_feedback": "Actual AX AirMedia_Manual.pdf link clicked. Immediate sample still AG206. Subsequent login boundary proves navigation reached authentication, not readable PDF.",
+          "target_state_id": "S-PREVIEW-LOGIN",
+          "evidence_ids": [
+            "E-ROOM-PREVIEW-CONTROLS-09",
+            "E-ROOM-PREVIEW-CONTROLS-10",
+            "E-ROOM-PREVIEW-CONTROLS-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-PREVIEW-LOGIN",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-09",
+        "E-ROOM-PREVIEW-CONTROLS-10",
+        "E-ROOM-PREVIEW-CONTROLS-AX"
+      ],
       "return_path": null,
-      "authorization": "Review the actual link and ordinary navigation target before opening",
+      "authorization": "Ordinary reversible navigation, public link opening and sheet inspection; no credentials or sharing submitted",
       "blockers": [],
-      "pending_reason": "PDF link reported by the active Computer Use observer; opening and destination have not been checked."
+      "pending_reason": "Executed scoped sample; unresolved details listed in remaining_uncertainties.",
+      "remaining_uncertainties": [
+        "Actual AX AirMedia_Manual.pdf link clicked. Immediate sample still AG206. Subsequent login boundary proves navigation reached authentication, not readable PDF.",
+        "Full success semantics, complete bounds and visual fidelity remain unverified."
+      ]
     },
     {
       "id": "A-MORE-WEATHER",
@@ -35839,6 +36205,629 @@
         "A-ROOM-AVAILABLE"
       ],
       "source": "Three observed date contexts reconstructed; all25 sampled node URLs match; native handle recheck failed with timeout before any page observed."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/01-room-empty.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T00:53:08.568Z",
+      "sha256": "be9b29e694f01e48f0e3cf3691c7cd2d25328d8197424ad82cefb97f1f7e9f5f",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/02-room-all.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T00:58:22.894Z",
+      "sha256": "22acd55e1b0e3d946c5ad81f1beaceb5308f9969673f7d889b93a3d89bb8354e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-QUERY"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/03-preview-opening.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T00:58:35.732Z",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/04-preview-top.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T00:58:43.641Z",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/05-preview-menu.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T00:58:51.331Z",
+      "sha256": "d646b5da679af68e726b50e122af0e80a991481dd52a709a16b3b2776d3fe140",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-MENU"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-MENU"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/06-copy-link-feedback.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T00:58:57.622Z",
+      "sha256": "b714e87432b2d6cb61355da435121f74e20d6bb6b076d9c911d5d702109c48c3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-COPY"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/07-share-inspection.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T00:59:22.776Z",
+      "sha256": "b714e87432b2d6cb61355da435121f74e20d6bb6b076d9c911d5d702109c48c3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-SHARE"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/08-preview-reload.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T00:59:54.010Z",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-RELOAD"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/09-open-system-result.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:00:32.051Z",
+      "sha256": "b714e87432b2d6cb61355da435121f74e20d6bb6b076d9c911d5d702109c48c3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-OPEN-SYSTEM"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/11-preview-pdf.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:02:53.771Z",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-PDF"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/14-login-boundary.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:04:03.665Z",
+      "sha256": "22632b8fc8e02ced6a07f8d0acd14c1f6730fd603deafc302efbd42b00d9f99d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-LOGIN"
+      ],
+      "action_ids": [],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/15-browser-back.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:04:15.363Z",
+      "sha256": "f8839f390b53e9c8b58c0b3569fe979a3a176bceddd6e0cd67592f295b9b1510",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-BROWSER-BACK"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/16-browser-forward.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:04:26.808Z",
+      "sha256": "9838edcc2083aabe9ff03059d23127319142ff825fcf6f734053815db183b6ef",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-LOGIN"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-BROWSER-FORWARD"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/17-room-after-external-change.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:05:08.119Z",
+      "sha256": "22acd55e1b0e3d946c5ad81f1beaceb5308f9969673f7d889b93a3d89bb8354e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/18-preview-reopen.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:05:24.035Z",
+      "sha256": "5675be8e152d1947660daa31d1c0c6cf69c2a6fd3c2c794086ae19dd98f88a42",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/20-photo-previous-attempt.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:06:06.277Z",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-PREV"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/21-photo-next-current.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:06:23.563Z",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-NEXT"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-preview-controls/22-preview-close-room.png",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "captured_at": "2026-09-30T01:06:40.594Z",
+      "sha256": "576e863d219ac4429a74df4aabdb84efd14c75e337d30075c6dc2c3b1f7ca913",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-CLOSE"
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text.",
+      "source": "Actual native PolyULife through Computer Use, fullscreen crop/resize documented. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-AX",
+      "type": "ax_excerpt",
+      "path": "room-preview-controls-20260930-ax.json",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "state_ids": [
+        "S-EMPTY",
+        "S-ALL",
+        "S-PREVIEW-AX-ONLY",
+        "S-MENU",
+        "S-PREVIEW-LOGIN",
+        "S-PREVIEW-SYSTEM"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM",
+        "A-ROOM-OTHER-QUERY",
+        "A-ROOM-PREVIEW",
+        "A-ROOM-PREVIEW-MENU",
+        "A-ROOM-PREVIEW-COPY",
+        "A-ROOM-PREVIEW-SHARE",
+        "A-ROOM-PREVIEW-RELOAD",
+        "A-ROOM-PREVIEW-OPEN-SYSTEM",
+        "A-ROOM-PREVIEW-PDF",
+        "A-ROOM-PREVIEW-BROWSER-BACK",
+        "A-ROOM-PREVIEW-BROWSER-FORWARD",
+        "A-ROOM-PREVIEW-PREV",
+        "A-ROOM-PREVIEW-NEXT",
+        "A-ROOM-PREVIEW-CLOSE"
+      ],
+      "source": "Safe exact control lines from ignored native AX captures plus explicitly derived live Chrome title/URL; no auth parameters or private Home content."
+    },
+    {
+      "id": "E-ROOM-PREVIEW-CONTROLS-TRACE",
+      "type": "interaction_trace",
+      "path": "room-preview-controls-20260930.md",
+      "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+      "state_ids": [
+        "S-EMPTY",
+        "S-ALL",
+        "S-PREVIEW-AX-ONLY",
+        "S-MENU",
+        "S-PREVIEW-LOGIN",
+        "S-PREVIEW-SYSTEM"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM",
+        "A-ROOM-OTHER-QUERY",
+        "A-ROOM-PREVIEW",
+        "A-ROOM-PREVIEW-MENU",
+        "A-ROOM-PREVIEW-COPY",
+        "A-ROOM-PREVIEW-SHARE",
+        "A-ROOM-PREVIEW-RELOAD",
+        "A-ROOM-PREVIEW-OPEN-SYSTEM",
+        "A-ROOM-PREVIEW-PDF",
+        "A-ROOM-PREVIEW-BROWSER-BACK",
+        "A-ROOM-PREVIEW-BROWSER-FORWARD",
+        "A-ROOM-PREVIEW-PREV",
+        "A-ROOM-PREVIEW-NEXT",
+        "A-ROOM-PREVIEW-CLOSE"
+      ],
+      "source": "Actual native navigation and evidence limitations; no Figma or human evaluation claims."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/01-auth-imported.png",
+      "sha256": "a889f1377b8ff1116e57d653c8732437290cd226989cf0fa8d5305c1d48f765c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:17:10.651559+00:00",
+      "session_id": null,
+      "state_ids": [
+        "S-PREVIEW-LOGIN"
+      ],
+      "action_ids": [],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/02-auth-stable.png",
+      "sha256": "7b9b59ada21eed89ffc78f507eae4d6bb1b0af500df30ccce386d10ec91bb062",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:17:34.592031+00:00",
+      "session_id": null,
+      "state_ids": [
+        "S-PREVIEW-LOGIN"
+      ],
+      "action_ids": [],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/03-auth-visible-restored.png",
+      "sha256": "3b8a3a0addb91f55b5c34812f86c88742604d7d6b1a1d195cc6d1029d9b6f6ec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:18:39.341033+00:00",
+      "session_id": null,
+      "state_ids": [
+        "S-PREVIEW-LOGIN"
+      ],
+      "action_ids": [],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/04-copy-configuration.png",
+      "sha256": "7be6a4c7c850c79dec5a53be01d380291c7e0ee9fca27a23849a76d4fa213c0a",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at": "2026-09-30T01:22:49.549516+00:00",
+      "session_id": null,
+      "state_ids": [
+        "S-MENU"
+      ],
+      "action_ids": [],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[390, 0, 447, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/05-preview-baseline.png",
+      "sha256": "76c4bcdf04321a396703427317abbbb87d4b3a197d4c0f8101d39081f1a06840",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:23:12.107712+00:00",
+      "session_id": null,
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/06-menu-open.png",
+      "sha256": "fe59393d659abb0929c3f2eb385fd08a797038de458532d810ee1ef471341366",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:23:25.848Z",
+      "session_id": null,
+      "state_ids": [
+        "S-MENU"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-MENU"
+      ],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/07-copy-dismissed.png",
+      "sha256": "76c4bcdf04321a396703427317abbbb87d4b3a197d4c0f8101d39081f1a06840",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:23:33.126Z",
+      "session_id": null,
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-COPY"
+      ],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/08-preview-scrolled.png",
+      "sha256": "9b23da6e51cb7136c6747ef77ae7a4405a9d1abe71c4e94c3fceda0be04084b1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:23:41.609Z",
+      "session_id": null,
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-SCROLL"
+      ],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/09-menu-scrolled.png",
+      "sha256": "73d57b73d6bc8914fef91ca475c7075ee6e8830d2e6d2527ac05fc47411d4cbe",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:23:50.509Z",
+      "session_id": null,
+      "state_ids": [
+        "S-MENU"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-MENU"
+      ],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-preview-prototype-controls/10-copy-scrolled-return.png",
+      "sha256": "9b23da6e51cb7136c6747ef77ae7a4405a9d1abe71c4e94c3fceda0be04084b1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at": "2026-09-30T01:23:50.913Z",
+      "session_id": null,
+      "state_ids": [
+        "S-PREVIEWTOP"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-COPY"
+      ],
+      "source": "Actual Figma UI via Computer Use. Auth source from native screenshot14; menu uses historical observed page. Not native or human evaluation.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "id": "E-PREVIEW-CONTROLS-PROTO-TRACE",
+      "type": "interaction_trace",
+      "path": "room-preview-controls-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-PREVIEW-LOGIN",
+        "S-PREVIEWTOP",
+        "S-MENU"
+      ],
+      "action_ids": [
+        "A-ROOM-PREVIEW-COPY",
+        "A-ROOM-PREVIEW-MENU",
+        "A-ROOM-PREVIEW-SCROLL"
+      ],
+      "source": "Isolated imported auth render and separate Copy link menu dismissal replay; source control semantics partial."
     }
   ],
   "findings": [
@@ -40532,7 +41521,7 @@
         "content_policy": "Public webpage content and public native screenshots; no personal schedule or identity.",
         "visual_review": {
           "status": "partial",
-          "summary": "32 replay samples include loading, top, scroll, menu, photos, failures and repaired views. Fonts approximate.",
+          "summary": "32 replay samples include loading, top, scroll, menu, photos, failures and repaired views. Fonts approximate. Copy text close-overlay added and replayed; actual clipboard/full-row target pending.",
           "evidence_ids": [
             "E-ROOM-PREVIEW-PROTO-TRACE"
           ],
@@ -40542,12 +41531,14 @@
           ]
         },
         "prototype_evidence_ids": [
-          "E-ROOM-PREVIEW-PROTO-TRACE"
+          "E-ROOM-PREVIEW-PROTO-TRACE",
+          "E-PREVIEW-CONTROLS-PROTO-TRACE"
         ],
         "prototype_status": "sample_passed_full_scope_incomplete",
         "connection_status": "configured_and_replayed",
         "prototype_run_ids": [
-          "PROTO-ROOM-PREVIEW-001"
+          "PROTO-ROOM-PREVIEW-001",
+          "PROTO-PREVIEW-CONTROLS-20260930"
         ]
       },
       {
@@ -41837,6 +42828,53 @@
         "prototype_status": "not_run_reference_only",
         "connection_status": "unwired_reference",
         "prototype_run_ids": []
+      },
+      {
+        "state_id": "S-PREVIEW-LOGIN",
+        "node_id": "452:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=452-19",
+        "node_name": "[S-PREVIEW-LOGIN] Room Preview — authentication boundary",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PREVIEW-CONTROLS-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-PREVIEW-CONTROLS-10"
+        ],
+        "design_source_path": "../../design/polyulife/room-preview-login.svg",
+        "design_source_sha256": "5a676a252b1107b9ab6af9059d70ebca97dcfed82a50710f456de8c92a8bf56d",
+        "canvas_position": [
+          0,
+          43000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Editable text, rectangles and vector controls; public institutional wordmark raster crop. Fields remain empty static placeholders.",
+        "content_policy": "Public login UI only; no credentials or private auth URL parameters.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Initial loading capture, hidden content failure and restored actual render preserved. Wordmark and empty form visible in final sample; typography/icons approximate.",
+          "evidence_ids": [
+            "E-PREVIEW-CONTROLS-P-02",
+            "E-PREVIEW-CONTROLS-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-PREVIEW-CONTROLS-PARTIAL"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-PREVIEW-CONTROLS-P-02",
+          "E-PREVIEW-CONTROLS-PROTO-TRACE"
+        ],
+        "prototype_status": "isolated_render_confirmed_interactions_not_wired",
+        "connection_status": "not_configured",
+        "prototype_run_ids": [
+          "PROTO-PREVIEW-CONTROLS-20260930"
+        ]
       }
     ],
     "action_connection_mappings": [
@@ -50887,6 +51925,31 @@
           "D-ROOM-DATE-CONTEXTS-FIDELITY"
         ],
         "implementation_status": "configured_and_sample_replayed"
+      },
+      {
+        "connection_id": "C-PREVIEW-COPY-DISMISS-20260930",
+        "action_id": "A-ROOM-PREVIEW-COPY",
+        "source_node_id": "312:153",
+        "trigger_node_id": "312:242",
+        "trigger_node_name": "Copy link",
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "revision_id": "FIGMA-PREVIEW-CONTROLS-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-PREVIEW-CONTROLS-05"
+        ],
+        "source_fidelity": "Native menu dismissal feedback only. Figma does not write clipboard; text hit target smaller than full menu row.",
+        "prototype_run_ids": [
+          "PROTO-PREVIEW-CONTROLS-20260930"
+        ],
+        "prototype_evidence_ids": [
+          "E-PREVIEW-CONTROLS-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-PREVIEW-CONTROLS-PARTIAL"
+        ],
+        "implementation_status": "sample_replayed_partial_semantics"
       }
     ],
     "reconstruction_deviations": [
@@ -52045,12 +53108,13 @@
           "S-PREVIEWLOAD",
           "S-PHOTO2"
         ],
-        "original_behavior": "Source screenshots show observed page states; repeat-open and complete boundaries not established.",
+        "original_behavior": "September30 reopen after externally closed Preview resets native browser history buttons; page/photo scroll reset not visually confirmed.",
         "current_implementation": "Figma reopens at retained scroll and second photo; native reset semantics unknown.",
         "impact": "Repeat open may differ from native app.",
-        "next_step": "Observe missing native behavior and verify broader playback coverage.",
+        "next_step": "Observe native scroll/photo reset with readable web capture, then align existing Figma retained state.",
         "evidence_ids": [
-          "E-ROOM-PREVIEW-PROTO-TRACE"
+          "E-ROOM-PREVIEW-PROTO-TRACE",
+          "E-ROOM-PREVIEW-CONTROLS-TRACE"
         ]
       },
       {
@@ -52269,6 +53333,24 @@
         "evidence_ids": [
           "E-ROOM-DATE-CONTEXTS-TRACE",
           "E-ROOM-HORIZONTAL-TRACE"
+        ]
+      },
+      {
+        "id": "D-PREVIEW-CONTROLS-PARTIAL",
+        "revision_id": "FIGMA-PREVIEW-CONTROLS-20260930",
+        "status": "open",
+        "affected_state_ids": [
+          "S-PREVIEW-LOGIN",
+          "S-MENU",
+          "S-PREVIEWTOP"
+        ],
+        "original_behavior": "Current native login screenshot readable; Copy closes menu but clipboard content unverified. Native history pair confirmed through AX, webpage rendering partial.",
+        "current_implementation": "Authentication frame452:19 imported and visible after restored hidden group. Empty fields/submit/navigation inert. Copy text312:242 closes overlay; clipboard not implemented.",
+        "impact": "One static observed boundary and one menu feedback move reproduction forward, but do not implement PDF history, actual copy/share, complete form or current caller. Copy hit target currently text only; entire row hit area not reconstructed. Typography/icons approximate; fullscreen geometry separate from historical970px Preview.",
+        "next_step": "Recover native public webpage visuals, inspect lower PDF link layout and share/clipboard feedback, integrate authentication/history and matching Today caller; then broaden replay.",
+        "evidence_ids": [
+          "E-ROOM-PREVIEW-CONTROLS-TRACE",
+          "E-PREVIEW-CONTROLS-PROTO-TRACE"
         ]
       }
     ],
@@ -62513,6 +63595,181 @@
           "Public historical data; complete date/filter/caller and visual fidelity remain incomplete.",
           "Transient layer visibility/multi-selection mistakes restored before replay; old native failures not reclassified as app defects."
         ]
+      },
+      {
+        "id": "PROTO-PREVIEW-CONTROLS-20260930",
+        "revision_id": "FIGMA-PREVIEW-CONTROLS-20260930",
+        "start_node_id": "452:19",
+        "started_at": "2026-09-30T01:17:10.651559+00:00",
+        "ended_at": "2026-09-30T01:23:50.913Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=452-19&starting-point-node-id=452%3A19&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Isolated auth render and separate Preview menu copy sample",
+        "status": "partial",
+        "navigation_status": "Auth is isolated/static. Separate310:12 entry opens menu and Copy closes overlay twice. Not one continuous authentication flow.",
+        "visual_status": "Initial blank/loading and hidden-group failure retained; restored auth content visible. Two prototype return crop checks equal; complete native visual fidelity unverified.",
+        "steps": [
+          {
+            "at": "2026-09-30T01:17:10.651559+00:00",
+            "description": "01-auth-imported: Initial prototype capture was Figma loading screen, no auth rendered.",
+            "state_id": "S-PREVIEW-LOGIN",
+            "action_id": null,
+            "source_node_id": "452:19",
+            "actual_node_id": "452:19",
+            "outcome": "failed_visual",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-00"
+            ],
+            "file": "01-auth-imported.png",
+            "prototype_url": null
+          },
+          {
+            "at": "2026-09-30T01:17:34.592031+00:00",
+            "description": "02-auth-stable: Header appeared but LoginWebContent accidentally hidden during layer inspection; failed visual sample preserved.",
+            "state_id": "S-PREVIEW-LOGIN",
+            "action_id": null,
+            "source_node_id": "452:19",
+            "actual_node_id": "452:19",
+            "outcome": "failed_visual",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-01"
+            ],
+            "file": "02-auth-stable.png",
+            "prototype_url": null
+          },
+          {
+            "at": "2026-09-30T01:18:39.341033+00:00",
+            "description": "03-auth-visible-restored: Restored LoginWebContent using Show toggle, then actual prototype renders wordmark, empty fields and login prompt.",
+            "state_id": "S-PREVIEW-LOGIN",
+            "action_id": null,
+            "source_node_id": "452:19",
+            "actual_node_id": "452:19",
+            "outcome": "sample_confirmed",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-02"
+            ],
+            "file": "03-auth-visible-restored.png",
+            "prototype_url": null
+          },
+          {
+            "at": "2026-09-30T01:22:49.549516+00:00",
+            "description": "04-copy-configuration: Actual editor On click/Close overlay configuration on Copy link text312:242.",
+            "state_id": "S-MENU",
+            "action_id": null,
+            "source_node_id": "312:153",
+            "actual_node_id": "312:242",
+            "outcome": "configuration_readback",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-03"
+            ],
+            "file": "04-copy-configuration.png",
+            "prototype_url": null
+          },
+          {
+            "at": "2026-09-30T01:23:12.107712+00:00",
+            "description": "05-preview-baseline: Historical public Preview root310:12 at top, separate entry from isolated authentication render.",
+            "state_id": "S-PREVIEWTOP",
+            "action_id": null,
+            "source_node_id": "310:12",
+            "actual_node_id": "310:12",
+            "outcome": "sample_confirmed",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-04"
+            ],
+            "file": "05-preview-baseline.png",
+            "prototype_url": null
+          },
+          {
+            "at": "2026-09-30T01:23:25.848Z",
+            "description": "06-menu-open: Actual More opens existing menu overlay.",
+            "state_id": "S-MENU",
+            "action_id": "A-ROOM-PREVIEW-MENU",
+            "source_node_id": "310:12",
+            "actual_node_id": "310:12",
+            "outcome": "sample_confirmed",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-05"
+            ],
+            "file": "06-menu-open.png",
+            "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=310-12&starting-point-node-id=310%3A12&scaling=scale-down&content-scaling=fixed"
+          },
+          {
+            "at": "2026-09-30T01:23:33.126Z",
+            "description": "07-copy-dismissed: Copy link text closes menu overlay; prototype does not write clipboard.",
+            "state_id": "S-PREVIEWTOP",
+            "action_id": "A-ROOM-PREVIEW-COPY",
+            "source_node_id": "310:12",
+            "actual_node_id": "310:12",
+            "outcome": "sample_confirmed",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-06"
+            ],
+            "file": "07-copy-dismissed.png",
+            "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=310-12&starting-point-node-id=310%3A12&scaling=scale-down&content-scaling=fixed"
+          },
+          {
+            "at": "2026-09-30T01:23:41.609Z",
+            "description": "08-preview-scrolled: Actual prototype vertical scroll to intermediate content.",
+            "state_id": "S-PREVIEWTOP",
+            "action_id": "A-ROOM-PREVIEW-SCROLL",
+            "source_node_id": "310:12",
+            "actual_node_id": "310:12",
+            "outcome": "sample_confirmed",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-07"
+            ],
+            "file": "08-preview-scrolled.png",
+            "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=310-12&starting-point-node-id=310%3A12&scaling=scale-down&content-scaling=fixed"
+          },
+          {
+            "at": "2026-09-30T01:23:50.509Z",
+            "description": "09-menu-scrolled: Menu open over intermediate scroll.",
+            "state_id": "S-MENU",
+            "action_id": "A-ROOM-PREVIEW-MENU",
+            "source_node_id": "310:12",
+            "actual_node_id": "310:12",
+            "outcome": "sample_confirmed",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-08"
+            ],
+            "file": "09-menu-scrolled.png",
+            "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=310-12&starting-point-node-id=310%3A12&scaling=scale-down&content-scaling=fixed"
+          },
+          {
+            "at": "2026-09-30T01:23:50.913Z",
+            "description": "10-copy-scrolled-return: Copy link closes menu while preserving prototype intermediate scroll; clipboard not simulated.",
+            "state_id": "S-PREVIEWTOP",
+            "action_id": "A-ROOM-PREVIEW-COPY",
+            "source_node_id": "310:12",
+            "actual_node_id": "310:12",
+            "outcome": "sample_confirmed",
+            "evidence_ids": [
+              "E-PREVIEW-CONTROLS-P-09"
+            ],
+            "file": "10-copy-scrolled-return.png",
+            "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=310-12&starting-point-node-id=310%3A12&scaling=scale-down&content-scaling=fixed"
+          }
+        ],
+        "evidence_ids": [
+          "E-PREVIEW-CONTROLS-P-00",
+          "E-PREVIEW-CONTROLS-P-01",
+          "E-PREVIEW-CONTROLS-P-02",
+          "E-PREVIEW-CONTROLS-P-03",
+          "E-PREVIEW-CONTROLS-P-04",
+          "E-PREVIEW-CONTROLS-P-05",
+          "E-PREVIEW-CONTROLS-P-06",
+          "E-PREVIEW-CONTROLS-P-07",
+          "E-PREVIEW-CONTROLS-P-08",
+          "E-PREVIEW-CONTROLS-P-09",
+          "E-PREVIEW-CONTROLS-PROTO-TRACE"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-09-30-preview-prototype-controls/manifest.json",
+        "limitations": [
+          "No login interactions, caller, PDF/history integration.",
+          "Copy only closes menu; no clipboard success claim. Share/system-link not implemented.",
+          "Current native blank webpage captures cannot prove photo visuals or exact order. Historical prototype page remains based on older visual evidence.",
+          "Editor visibility mistake restored; not an App failure.",
+          "Native/full app and human evaluation unverified."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -63039,7 +64296,8 @@
       "room_map": "six_controls_tuesday_sample_replayed_initial_image_repaired_full_map_fidelity_incomplete",
       "room_dates_20260930": "twelve_controls_and_continuous_today_list_replayed_date_drag_proxy_and_full_context_gaps_open",
       "room_horizontal_dates": "tuesday_continuous_intermediate_both_ends_reentry_two_today_returns_confirmed_other_static_context_mismatches_retained",
-      "room_date_contexts": "three_continuous_bars_and_shifted_unshifted_buttons_sampled_geometry_and_remaining_contexts_open"
+      "room_date_contexts": "three_continuous_bars_and_shifted_unshifted_buttons_sampled_geometry_and_remaining_contexts_open",
+      "room_preview_controls": "copy_menu_feedback_replayed_isolated_auth_render_confirmed_full_semantics_incomplete"
     },
     "additional_imports": [
       {
@@ -64098,16 +65356,13 @@
         "scope": "Historical dates/filter sample; Saturday/Sunday/Monday/Tuesday true horizontal bars, Today vertical list. Other contexts/callers/full app pending."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-30T00:45:20.530Z",
+    "latest_prototype_run_cutoff": "2026-09-30T01:23:50.913Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-ROOM-DATE-CONTEXTS-P-25",
-      "E-ROOM-DATE-CONTEXTS-P-26",
-      "E-ROOM-DATE-CONTEXTS-P-27",
-      "E-ROOM-DATE-CONTEXTS-P-28",
-      "E-ROOM-DATE-CONTEXTS-TRACE"
+      "E-PREVIEW-CONTROLS-P-03",
+      "E-PREVIEW-CONTROLS-PROTO-TRACE"
     ],
     "latest_editor_verified_at": null,
     "unimported_design_sources": [],
@@ -65050,12 +66305,13 @@
         "S-PHOTO2",
         "S-SUNALL"
       ],
-      "reason": "Complete pending Room actions, Preview content/PDF and browser menu branches, list/date bounds, and remaining AG206 map controls/handoff. September29 query samples now reconstructed and replayed; arbitrary input, remaining dates/returns/map and full fidelity still pending. AG206 map zoom-pair and all three Back controls now sampled from Tuesday Home; remaining native map controls/zoom bounds/external handoff unverified. September30 seven-date/filter-preservation and Today complete last row/reverse now observed; complete combinations and other room/list/map/Preview bounds remain pending.",
+      "reason": "Complete pending Room actions, Preview content/PDF and browser menu branches, list/date bounds, and remaining AG206 map controls/handoff. September29 query samples now reconstructed and replayed; arbitrary input, remaining dates/returns/map and full fidelity still pending. AG206 map zoom-pair and all three Back controls now sampled from Tuesday Home; remaining native map controls/zoom bounds/external handoff unverified. September30 seven-date/filter-preservation and Today complete last row/reverse now observed; complete combinations and other room/list/map/Preview bounds remain pending. Preview copy/share menu dismissal, system handoff, reload AX, PDF authentication boundary and history pair sampled. Clipboard, actual share sheet, photo visual order/autoplay and full page rendering remain pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-ROOM-QUERY-PROTO-TRACE",
         "E-ROOM-MAP-PROTO-TRACE",
-        "E-ROOM-DATES-TRACE"
+        "E-ROOM-DATES-TRACE",
+        "E-ROOM-PREVIEW-CONTROLS-TRACE"
       ]
     },
     {
@@ -65269,6 +66525,19 @@
         "E-ROOM-HORIZONTAL-TRACE",
         "E-ROOM-DATE-CONTEXTS-TRACE"
       ]
+    },
+    {
+      "id": "Q-FIGMA-PREVIEW-CONTROLS-20260930",
+      "state_ids": [
+        "S-PREVIEW-LOGIN",
+        "S-PREVIEW-AX-ONLY"
+      ],
+      "reason": "Isolated readable authentication frame imported and Copy dismissal replayed. Full auth/history/caller/PDF/form/copy/share semantics still pending.",
+      "status": "in_progress",
+      "resolution_refs": [
+        "E-ROOM-PREVIEW-CONTROLS-TRACE",
+        "E-PREVIEW-CONTROLS-PROTO-TRACE"
+      ]
     }
   ],
   "blockers": [
@@ -65330,13 +66599,30 @@
     },
     {
       "id": "B-POLYU-NATIVE-TIMEOUT-20260930",
-      "status": "open",
+      "status": "resolved",
       "description": "Same native handle AX/screenshot reads timed out; app inventory still reports PolyULife running. Screenshot-only request returned AppleEvent timeout; bundle lookup returns installed/runtime ambiguity with same current runtime path. No new native page confirmed.",
       "missing_dependency": "Responsive native Computer Use application/window connection; exact cause unknown",
       "affected_scope": "Further native observations only; browser Figma work proceeds.",
       "next_step": "Recheck same running handle/current identity on next native observation opportunity; do not restart app solely from timeout.",
       "evidence_ids": [
         "E-ROOM-DATE-CONTEXTS-TRACE"
+      ],
+      "resolved_by": "Same native handle now provides Room AX and fullscreen screenshots. Historical root cause unknown; normal-window capture and blank web surface limitations remain.",
+      "resolution_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-TRACE",
+        "E-ROOM-PREVIEW-CONTROLS-01"
+      ]
+    },
+    {
+      "id": "B-PREVIEW-VISUAL-CAPTURE-20260930",
+      "status": "open",
+      "description": "Official Room webpage AX and control feedback readable, but captured web region blank except loading sample. Login screenshot14 rendered. Normal/zoom window capture thumbnail only.",
+      "affected_scope": "Current webpage photo/layout visual proof and native normal-window replay",
+      "next_step": "Recheck actual native rendering/capture while preserving app session; do not infer app business failure or use browser research as native screenshot proof.",
+      "evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-TRACE",
+        "E-ROOM-PREVIEW-CONTROLS-03",
+        "E-ROOM-PREVIEW-CONTROLS-10"
       ]
     }
   ],

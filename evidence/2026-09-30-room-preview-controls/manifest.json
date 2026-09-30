@@ -1,0 +1,483 @@
+{
+  "kind": "native_app_observation",
+  "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+  "images": [
+    {
+      "file": "01-room-empty.png",
+      "sha256": "be9b29e694f01e48f0e3cf3691c7cd2d25328d8197424ad82cefb97f1f7e9f5f",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T00:53:08.568Z",
+      "source_file": "01-room-empty.png",
+      "source_sha256": "75b2e5a2301ad04bd126243e9060310763789a70f50476c30a8533f39146c30f",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "02-room-all.png",
+      "sha256": "22acd55e1b0e3d946c5ad81f1beaceb5308f9969673f7d889b93a3d89bb8354e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T00:58:22.894Z",
+      "source_file": "02-room-all.png",
+      "source_sha256": "8f9464a33fd4b9df4ee8d317aba48b66ab8b61be7d48dafd4f46a81925aeb1dc",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "03-preview-opening.png",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T00:58:35.732Z",
+      "source_file": "03-preview-opening.png",
+      "source_sha256": "8ab5ef0fc2e967c2062543bf0573646623c10520dd68f1499170bbe559edbf0f",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "04-preview-top.png",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T00:58:43.641Z",
+      "source_file": "04-preview-top.png",
+      "source_sha256": "8ab5ef0fc2e967c2062543bf0573646623c10520dd68f1499170bbe559edbf0f",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "05-preview-menu.png",
+      "sha256": "d646b5da679af68e726b50e122af0e80a991481dd52a709a16b3b2776d3fe140",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T00:58:51.331Z",
+      "source_file": "05-preview-menu.png",
+      "source_sha256": "a63742f1afa39d4a7af347072a25071f96883185f6c508829159287713667a83",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "06-copy-link-feedback.png",
+      "sha256": "b714e87432b2d6cb61355da435121f74e20d6bb6b076d9c911d5d702109c48c3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T00:58:57.622Z",
+      "source_file": "06-copy-link-feedback.png",
+      "source_sha256": "920170a29f0805d36517144a1d42d0a41868ea415bbc0d0ca905f3adfe32f67c",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "07-share-inspection.png",
+      "sha256": "b714e87432b2d6cb61355da435121f74e20d6bb6b076d9c911d5d702109c48c3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T00:59:22.776Z",
+      "source_file": "07-share-inspection.png",
+      "source_sha256": "920170a29f0805d36517144a1d42d0a41868ea415bbc0d0ca905f3adfe32f67c",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "08-preview-reload.png",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T00:59:54.010Z",
+      "source_file": "08-preview-reload.png",
+      "source_sha256": "8ab5ef0fc2e967c2062543bf0573646623c10520dd68f1499170bbe559edbf0f",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "09-open-system-result.png",
+      "sha256": "b714e87432b2d6cb61355da435121f74e20d6bb6b076d9c911d5d702109c48c3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:00:32.051Z",
+      "source_file": "09-open-system-result.png",
+      "source_sha256": "920170a29f0805d36517144a1d42d0a41868ea415bbc0d0ca905f3adfe32f67c",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "11-preview-pdf.png",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:02:53.771Z",
+      "source_file": "11-preview-pdf.png",
+      "source_sha256": "8ab5ef0fc2e967c2062543bf0573646623c10520dd68f1499170bbe559edbf0f",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "14-login-boundary.png",
+      "sha256": "22632b8fc8e02ced6a07f8d0acd14c1f6730fd603deafc302efbd42b00d9f99d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:04:03.665Z",
+      "source_file": "14-login-boundary.png",
+      "source_sha256": "535268c9a671aed8729cf6f2301e4a03a585246974cce395b73161722d790f34",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "15-browser-back.png",
+      "sha256": "f8839f390b53e9c8b58c0b3569fe979a3a176bceddd6e0cd67592f295b9b1510",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:04:15.363Z",
+      "source_file": "15-browser-back.png",
+      "source_sha256": "2253967a0e26f266b1d8d1f7c248a5af83991cbc157403a9d02ed3ddbe74f5e4",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "16-browser-forward.png",
+      "sha256": "9838edcc2083aabe9ff03059d23127319142ff825fcf6f734053815db183b6ef",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:04:26.808Z",
+      "source_file": "16-browser-forward.png",
+      "source_sha256": "9279fe2f505ddbbc5a8b902cb2b2527cd716be6d66b4be699a4873724ed9832a",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "17-room-after-external-change.png",
+      "sha256": "22acd55e1b0e3d946c5ad81f1beaceb5308f9969673f7d889b93a3d89bb8354e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:05:08.119Z",
+      "source_file": "17-room-after-external-change.png",
+      "source_sha256": "8f9464a33fd4b9df4ee8d317aba48b66ab8b61be7d48dafd4f46a81925aeb1dc",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "18-preview-reopen.png",
+      "sha256": "5675be8e152d1947660daa31d1c0c6cf69c2a6fd3c2c794086ae19dd98f88a42",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:05:24.035Z",
+      "source_file": "18-preview-reopen.png",
+      "source_sha256": "c9ebcc9d5b0a8e3bd73489cd537122f3599c7a2929b50d9c48701902402df00a",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "20-photo-previous-attempt.png",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:06:06.277Z",
+      "source_file": "20-photo-previous-attempt.png",
+      "source_sha256": "8ab5ef0fc2e967c2062543bf0573646623c10520dd68f1499170bbe559edbf0f",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "21-photo-next-current.png",
+      "sha256": "4551f9cbe36fd2c8558e8bde403329100f478da73e185c712a2b8da162458a8c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:06:23.563Z",
+      "source_file": "21-photo-next-current.png",
+      "source_sha256": "8ab5ef0fc2e967c2062543bf0573646623c10520dd68f1499170bbe559edbf0f",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    },
+    {
+      "file": "22-preview-close-room.png",
+      "sha256": "576e863d219ac4429a74df4aabdb84efd14c75e337d30075c6dc2c3b1f7ca913",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-09-30T01:06:40.594Z",
+      "source_file": "22-preview-close-room.png",
+      "source_sha256": "a4061d7302a68fa57f9c719b614f760b290758dd21f7793ad92658aa98580815",
+      "source_dimensions": [
+        3024,
+        1898
+      ],
+      "crop_xyxy": [
+        978,
+        0,
+        2046,
+        1898
+      ],
+      "resize_to": [
+        576,
+        1024
+      ],
+      "redaction": "App-only fullscreen crop removes black sidebars; no identity, credentials, QR or browser tabs. Public auth URL parameters excluded from text."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "e164fb3495688a80c0864273953329f3dc09d3f4ccd01ed0e080177e4969e08c",
+    "dimensions": [
+      1152,
+      2710
+    ]
+  },
+  "scope": "Native Preview controls and authentication boundary; partial proof. Raw browser/Home/auth URL records private. No prototype or human metrics."
+}
