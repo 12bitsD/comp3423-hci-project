@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "state_id": "S-FOOD-DETAIL-LOADING",
+      "source_evidence_ids": [
+        "E-FOOD-DETAIL-LOADING"
+      ],
+      "native_path": "../../evidence/2026-09-28-full-audit/food-160725-vending-detail-map-loading.png",
+      "base_svg": "food-detail.svg",
+      "base_sha256": "c7d84f3db191749fee57299f3298ce3eecffdc082e3de13a26dc4e0944364248",
+      "output": "food-detail-loading.svg",
+      "output_sha256": "8fbde5c058248b97a9b126bec17a19e1dd5936f112851489dcf70b4e602438a6",
+      "loading_mark": {
+        "file": "assets/food-detail-loading-mark.png",
+        "sha256": "6097961e376f3b44e006c5b9575492ee050b93ab9d4e03cb6ad6537dcb5d0fb0",
+        "dimensions": [
+          62,
+          59
+        ],
+        "source": "food-160725-vending-detail-map-loading.png",
+        "source_sha256": "dfb1f5246ef912cbd5e55be2c7d218b77f12434b88ca2bf22c452683718a06de",
+        "crop_xyxy": [
+          257,
+          671,
+          319,
+          730
+        ]
+      }
+    },
+    {
+      "state_id": "S-FOOD-MAP-LOADING",
+      "source_evidence_ids": [
+        "E-FOOD-MAP-LOADING"
+      ],
+      "native_path": "../../evidence/2026-09-28-full-audit/food-161013-full-map-loading.png",
+      "base_svg": "food-map.svg",
+      "base_sha256": "5f19345d3dd7bc3b7ce62583bda5fd58faebe89c58eea62490c04f315e3237cb",
+      "output": "food-map-loading.svg",
+      "output_sha256": "1674940253af997647670478399f085b3dd004977e26d49b08b9fef81c82ccbf",
+      "loading_mark": {
+        "file": "assets/food-map-loading-mark.png",
+        "sha256": "a0352f0c7dd751bbdf1a7f465b8f46999e0cbc6f8ff37c3561d1d70827b35585",
+        "dimensions": [
+          56,
+          52
+        ],
+        "source": "food-161013-full-map-loading.png",
+        "source_sha256": "23c14a028d60d71e209abe68122bd799f551a8f3d919b9fa1d0a5ca76308acc9",
+        "crop_xyxy": [
+          261,
+          101,
+          317,
+          153
+        ]
+      }
+    }
+  ],
+  "frame_size": [
+    576,
+    970
+  ],
+  "limits": [
+    "Static captured loading marks, not live animation.",
+    "Approximate fonts/icons; no measured native loading duration.",
+    "Early exits/expand controls while loading not natively verified."
+  ]
+}

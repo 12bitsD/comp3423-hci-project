@@ -1,0 +1,34 @@
+{
+  "revision_id": "FIGMA-FOOD-MARK-20261001",
+  "root_node_id": "633:19",
+  "image_node_id": "633:54",
+  "source_png": "assets/food-detail-loading-mark.png",
+  "source_sha256": "6097961e376f3b44e006c5b9575492ee050b93ab9d4e03cb6ad6537dcb5d0fb0",
+  "geometry": {
+    "x": 257,
+    "y": 671,
+    "width": 62,
+    "height": 59,
+    "scale_mode": "STRETCH",
+    "transform": "identity"
+  },
+  "operation": "Same PNG reuploaded through native Figma image dialog; no root/connection/control change.",
+  "observed_fill_changes": [
+    "imageThumbnail added",
+    "imageShouldColorManage false→true"
+  ],
+  "cause": "Not isolated; changed UI fields do not establish causal mechanism.",
+  "failure_evidence_ids": [
+    "E-FOOD-LOADING-SCREEN-24"
+  ],
+  "repair_evidence_ids": [
+    "E-FOOD-MARK-TRACE",
+    "E-FOOD-MARK-SCREEN-01",
+    "E-FOOD-MARK-SCREEN-02"
+  ],
+  "prototype_run_ids": [
+    "PROTO-FOOD-MARK-DIRECT-FIRST-001",
+    "PROTO-FOOD-MARK-DIRECT-SECOND-001"
+  ],
+  "scope_completion": "not_verified"
+}

@@ -1,5 +1,9 @@
 # Figma 复现与证据对应约定
 
+最新[Food加载校徽重传](food-loading-mark-repair-walkthrough.md)保留直接重入缺图并完成相同PNG重传，两次连续直接路径有图。当前134画板、305控件、75次原型运行，全应用 `not_verified`。下方批次数值为历史快照。
+
+最新[Food加载态接入](food-loading-prototype-walkthrough.md)补2画板、新增2延时控件、替换3入口；展开营业时间/原型直接列表与嵌套地图返回已保存。当前134画板、305控件、73次原型运行，全应用 `not_verified`。下方批次数字为历史快照。
+
 最新[Terms加载接入](terms-loading-prototype-walkthrough.md)补1画板、新增1/替换2控件；保留历史栈失败并以覆盖层修复，通知与Tuesday Home返回样例通过。当前132画板、303控件、71次原型运行，全应用 `not_verified`。下方旧批次数字为历史快照。
 
 最新[筛选恢复](calendar-filter-resume-prototype-walkthrough.md)完成Monday Home恢复、Tuesday循环及Flow3清理；[Assistant中间状态接入](assistant-transient-prototype-walkthrough.md)导入三帧、替换两个入口、新增三个控件，主链路和独立Blank关闭已回放。累计131画板、302控件、68次运行，演示延时/原型推广及未验证输入保持明确，全应用 `not_verified`。以下准备阶段/批次统计为历史快照。
