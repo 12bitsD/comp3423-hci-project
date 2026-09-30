@@ -11,6 +11,8 @@
 
 ## 当前进度（2026-09-30）
 
+最新[Home图片填充回归](home-image-repair-prototype-walkthrough.md)重传Monday/Tuesday公开照片素材，六个保存的Calendar返回均保留照片；九项比较五项相等、四项底部局部差异，长期稳定性和完整保真仍开放。累计121画板、282控件、59次原型运行，全应用 `not_verified`。
+
 最新[Calendar模式循环](calendar-modes-prototype-walkthrough.md)接入公共月/事件/历史三个上下文和八条控件，保留Monday/Tuesday调用者。Monday底部Calendar漏接失败已修复并回放，Home缺图仍开放。累计121画板、282控件、56次运行，全应用仍 `not_verified`。以下统计为历史批次快照。
 
 最新[Calendar周选择器回放](calendar-week-picker-prototype-walkthrough.md)补入展开/滚轮13两个状态和四条控件；收起仍Week5，拖动仅代理原生滚动。Tuesday Home返回的底部缺图失败保留。累计118画板、274控件、53次运行，全应用仍 `not_verified`。以下统计为历史批次快照。

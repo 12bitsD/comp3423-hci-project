@@ -1,0 +1,436 @@
+{
+  "kind": "figma_prototype_image_repair_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-monday-before-blank.png",
+      "sha256": "4c5dab307d693d19a83578ac2368ab350cdd1bd1ea80f9ea5215fe1756f26006",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:01.436Z",
+      "description": "Prior Calendar return; bottom preview absent.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-monday-image-reuploaded.png",
+      "sha256": "a0d26f635eb42f9bfa5dd4870a14ae4d09e8402d69013f136425cd749bdb1405",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:20.876Z",
+      "description": "Monday image selected after upload; geometry preserved.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-monday-reloaded-baseline.png",
+      "sha256": "271bb4ba178df09b9fbf73463e549887cd16370f1599727fc347291de8144384",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:23.606Z",
+      "description": "Reload captured Figma loading screen; not a Home baseline.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "04-monday-loaded-baseline.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:35.838Z",
+      "description": "Monday loaded with preview image visible.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "05-monday-week.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:36.243Z",
+      "description": "Calendar Week entered from Monday.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "06-monday-week-return.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:36.646Z",
+      "description": "Monday returned from Week after upload.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "07-monday-month.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:46.774Z",
+      "description": "Month overlay reached from Week picker.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "08-monday-history.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:47.450Z",
+      "description": "Events then History reached.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "09-monday-history-return.png",
+      "sha256": "1760c5b43637cb7b237a3e71a9496d8345f301bf0706087b7329350d41312b40",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:02:47.695Z",
+      "description": "Monday direct History Home exit: photo visible, localized pixel differences remain.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "10-tuesday-image-reuploaded.png",
+      "sha256": "f9995b2c0e4c34967f29de1d95548acacaadb23a43e61dba53487e0eead919c5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:03:27.334Z",
+      "description": "Tuesday existing image fill reuploaded.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "11-tuesday-target-miss.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:03:46.136Z",
+      "description": "Click x635 stayed Monday and showed hotspot feedback; no successful Tuesday transition.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "12-tuesday-baseline.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:03:46.541Z",
+      "description": "Retarget to visible T at x644.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "13-tuesday-week.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:03:58.944Z",
+      "description": "Calendar Week entered from Tuesday.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "14-tuesday-week-return.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:03:59.267Z",
+      "description": "Tuesday Week return after upload.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "15-tuesday-month.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:00.104Z",
+      "description": "Month from Tuesday.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "16-tuesday-history.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:00.796Z",
+      "description": "History from Tuesday.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "17-tuesday-history-return.png",
+      "sha256": "06911b1f5cf156699da3c00771b174c891eeebd472040a2446cde5baf9573cc0",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:01.014Z",
+      "description": "Tuesday direct History Home exit: photo visible, localized pixel differences remain.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "18-tuesday-cycle-history.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:16.669Z",
+      "description": "Second Tuesday mode circuit reached History.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "19-tuesday-cycle-week.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:17.074Z",
+      "description": "History closes overlay to Week.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "20-tuesday-cycle-home.png",
+      "sha256": "06911b1f5cf156699da3c00771b174c891eeebd472040a2446cde5baf9573cc0",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:17.480Z",
+      "description": "Tuesday full cycle return: photo visible, localized pixel differences remain.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "21-monday-reentry.png",
+      "sha256": "78f48aba1d8e0f2040922d4a1e75ed29bfa98ca715cb1d66f7210ae34fa94f58",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:17.784Z",
+      "description": "Attempt Tuesday→Monday at x606 stayed Tuesday with hotspot feedback; reverse date not configured in this scope.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "22-monday-second-session-baseline.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:56.743Z",
+      "description": "Monday reopened directly; preview visible.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "23-monday-second-session-history.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:58.257Z",
+      "description": "Second Monday session mode circuit reached History.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "24-monday-second-session-week.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:58.559Z",
+      "description": "History closes overlay to Week.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "25-monday-second-session-home.png",
+      "sha256": "1760c5b43637cb7b237a3e71a9496d8345f301bf0706087b7329350d41312b40",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:04:58.937Z",
+      "description": "Monday full cycle return: photo visible, localized pixel differences remain.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "3e4d812de544892a2a518d06527dbb9189eb001b0c7466f1d1426ebc135ce8ca",
+    "dimensions": [
+      1143,
+      1998
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "04-monday-loaded-baseline.png",
+      "comparison": "06-monday-week-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "04-monday-loaded-baseline.png",
+      "comparison": "09-monday-history-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        588,
+        358,
+        613
+      ],
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "04-monday-loaded-baseline.png",
+      "comparison": "22-monday-second-session-baseline.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "22-monday-second-session-baseline.png",
+      "comparison": "25-monday-second-session-home.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        588,
+        358,
+        613
+      ],
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "12-tuesday-baseline.png",
+      "comparison": "14-tuesday-week-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "12-tuesday-baseline.png",
+      "comparison": "17-tuesday-history-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        588,
+        358,
+        613
+      ],
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "12-tuesday-baseline.png",
+      "comparison": "20-tuesday-cycle-home.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        588,
+        358,
+        613
+      ],
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "13-tuesday-week.png",
+      "comparison": "19-tuesday-cycle-week.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "05-monday-week.png",
+      "comparison": "24-monday-second-session-week.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    }
+  ],
+  "scope": "Two existing Home image fills reuploaded; Monday/Tuesday Week and History exits plus repeated full mode circuits sampled. Loading and targeting failures retained. No new native actions.",
+  "result": "All six saved Home return samples retain photo. Five of nine pixel comparisons equal; four localized bottom-region differences remain, so full visual equality is not passed."
+}
