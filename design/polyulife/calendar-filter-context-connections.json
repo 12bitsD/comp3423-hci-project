@@ -1,0 +1,227 @@
+{
+  "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+  "connections": [
+    {
+      "source_node_id": "604:405",
+      "trigger_node_id": "604:585",
+      "target_node_id": "604:19",
+      "trigger_name": "AcadCalendar",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-SELECT-ACAD",
+      "configured_at": "2026-09-30T15:36:24.751Z",
+      "connection_id": "C-CALENDAR-FILTER-CONTEXT-01",
+      "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+      "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-ACAD"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-FILTER-CONTEXT-TRACE",
+        "E-CALENDAR-FILTER-CONTEXT-SCREEN-04"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-FILTER-CONTEXT"
+      ]
+    },
+    {
+      "source_node_id": "604:405",
+      "trigger_node_id": "604:569",
+      "target_node_id": "596:335",
+      "trigger_name": "CloseFilter",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": null,
+      "configured_at": "2026-09-30T15:36:28.216Z",
+      "connection_id": "C-CALENDAR-FILTER-CONTEXT-02",
+      "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+      "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-FILTER-CONTEXT-TRACE",
+        "E-CALENDAR-FILTER-CONTEXT-SCREEN-05"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-FILTER-CONTEXT"
+      ],
+      "source_generalization": "Inferred prototype X recovery to already applied academic-only Sep28. Native X/cancellation semantics unverified."
+    },
+    {
+      "source_node_id": "604:208",
+      "trigger_node_id": "604:376",
+      "target_node_id": "604:405",
+      "trigger_name": "SelectAll",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-DESELECT-ALL",
+      "configured_at": "2026-09-30T15:36:51.162Z",
+      "connection_id": "C-CALENDAR-FILTER-CONTEXT-03",
+      "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+      "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-NONE"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-FILTER-CONTEXT-TRACE",
+        "E-CALENDAR-FILTER-CONTEXT-SCREEN-06"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-FILTER-CONTEXT"
+      ]
+    },
+    {
+      "source_node_id": "604:208",
+      "trigger_node_id": "604:372",
+      "target_node_id": "596:335",
+      "trigger_name": "CloseFilter",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": null,
+      "configured_at": "2026-09-30T15:36:54.789Z",
+      "connection_id": "C-CALENDAR-FILTER-CONTEXT-04",
+      "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+      "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-FILTER-CONTEXT-TRACE",
+        "E-CALENDAR-FILTER-CONTEXT-SCREEN-07"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-FILTER-CONTEXT"
+      ],
+      "source_generalization": "Inferred prototype X recovery to already applied academic-only Sep28. Native X/cancellation semantics unverified."
+    },
+    {
+      "source_node_id": "604:19",
+      "trigger_node_id": "604:187",
+      "target_node_id": "604:208",
+      "trigger_name": "SelectAll",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-RESTORE-ALL",
+      "configured_at": "2026-09-30T15:37:43.061Z",
+      "connection_id": "C-CALENDAR-FILTER-CONTEXT-05",
+      "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+      "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-TRACE",
+        "E-CALENDAR-FILTER-ALL"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-FILTER-CONTEXT-TRACE",
+        "E-CALENDAR-FILTER-CONTEXT-SCREEN-08"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-FILTER-CONTEXT"
+      ]
+    },
+    {
+      "source_node_id": "604:19",
+      "trigger_node_id": "604:204",
+      "target_node_id": "596:335",
+      "trigger_name": "Apply",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-APPLY-ACAD",
+      "configured_at": "2026-09-30T15:37:46.716Z",
+      "connection_id": "C-CALENDAR-FILTER-CONTEXT-06",
+      "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+      "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-ACAD-EMPTY"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-FILTER-CONTEXT-TRACE",
+        "E-CALENDAR-FILTER-CONTEXT-SCREEN-09"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-FILTER-CONTEXT"
+      ]
+    },
+    {
+      "source_node_id": "604:19",
+      "trigger_node_id": "604:183",
+      "target_node_id": "596:335",
+      "trigger_name": "CloseFilter",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": null,
+      "configured_at": "2026-09-30T15:37:50.362Z",
+      "connection_id": "C-CALENDAR-FILTER-CONTEXT-07",
+      "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+      "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-FILTER-CONTEXT-TRACE",
+        "E-CALENDAR-FILTER-CONTEXT-SCREEN-10"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-FILTER-CONTEXT"
+      ],
+      "source_generalization": "Inferred prototype X recovery to already applied academic-only Sep28. Native X/cancellation semantics unverified."
+    },
+    {
+      "source_node_id": "596:335",
+      "trigger_node_id": "596:448",
+      "target_node_id": "604:19",
+      "trigger_name": "Filter",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-FILTER-REOPEN",
+      "configured_at": "2026-09-30T15:38:15.956Z",
+      "connection_id": "C-CALENDAR-FILTER-CONTEXT-08",
+      "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+      "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-PERSIST"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-FILTER-CONTEXT-TRACE",
+        "E-CALENDAR-FILTER-CONTEXT-SCREEN-11"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-FILTER-CONTEXT"
+      ]
+    }
+  ],
+  "scope_completion": "not_verified",
+  "native_arrays_unchanged": true,
+  "caller_preservation": "Swap same overlay above Week; native architecture unverified. Monday sample only; Home return and Tuesday pending.",
+  "unconfigured_controls": [
+    "All Apply",
+    "None Apply",
+    "individual Class/Exam/Payment toggles"
+  ]
+}

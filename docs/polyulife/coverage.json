@@ -43834,6 +43834,561 @@
       ],
       "action_ids": [],
       "source": "Computer Use fixed observed date circuit, three frames/seven controls, both callers and recovery exits; thirteen equal/two Home local pixel differences, editor selection attempts distinguished. Native arrays unchanged."
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/01-acad-imported.png",
+      "sha256": "2c35ce5c1d762afbf0c4d8279059f891eb08e9ce74c79ba924c3b9dc186e91d3",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:35:17.507Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Public filter context imported; native persisted background.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/02-all-imported.png",
+      "sha256": "750aa1594c58d6497facaeb26d7ca2a19ddf368e0ae32f529430fc4375c59a33",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:35:19.949Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Public filter context imported; panel composited over academic-only background.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/03-none-imported.png",
+      "sha256": "333bded647f145bf73502d9207f0af5157a70298dada99979efcf07a15432dcc",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:35:22.384Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Public filter context imported; panel composited over academic-only background.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/04-none-academic-configured.png",
+      "sha256": "b2601f047d005bb8f371e6def5d2e4eade8e6acf00fc1d1aba377e138ac78e68",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:36:24.782Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Configured AcadCalendar Swap overlay → [CAL-FILTER:ACAD] Sep28 academic — retained caller (observed action)",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/05-none-close-proxy.png",
+      "sha256": "540012a129178f6e4452dec303e4a212c133f4107b0a62395e3404c3d4e4b4c2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:36:28.236Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Configured CloseFilter Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller (prototype recovery, native semantics unverified)",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/06-all-deselect-configured.png",
+      "sha256": "25513e24e47f9cac18ac203e0ae01b79569b4a6e0e8f8d225a942fce480fa24d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:36:51.203Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Configured SelectAll Swap overlay → [CAL-FILTER:NONE] No categories draft — composite (observed action)",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/07-all-close-proxy.png",
+      "sha256": "d98b72be940f71ba573f284e5a26745094d7238e511c0a5e04d5c0d4944c1165",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:36:54.826Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Configured CloseFilter Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller (prototype recovery, native semantics unverified)",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/08-acad-all-configured.png",
+      "sha256": "a8c9e5341fcf0df225810f1a7b983ff10edab3994bffa0d8c0852f0c2196957d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:37:43.102Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Configured SelectAll Swap overlay → [CAL-FILTER:ALL] Select all draft — composite (observed action)",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/09-acad-apply-configured.png",
+      "sha256": "df641ef0d838b618fad162930f559f986c4b76384541c0247d8eae038d4be402",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:37:46.738Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Configured Apply Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller (observed action)",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/10-acad-close-proxy.png",
+      "sha256": "487bce9cf8f0afdc381e6745bbfcf99b501df23ac6addd8ed185c82b706f3e07",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:37:50.404Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Configured CloseFilter Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller (prototype recovery, native semantics unverified)",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/11-sep28-filter-reopen.png",
+      "sha256": "b3e191ab521e00d3f84d2d81c047cb87bf74dfa177ecb2ffae3f3ae865dbfad8",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:38:15.968Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor saved capture. Configured Filter Swap overlay → [CAL-FILTER:ACAD] Sep28 academic — retained caller (observed action)",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/12-monday-home-baseline.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:39:25.887Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Monday current Home baseline; saved pixels govern image status.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/13-monday-sep28-baseline.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:39:27.275Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Sep28 academic-only no-event baseline.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/14-monday-academic-open.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:39:27.536Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Filter reopens persisted academic-only selection.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/15-monday-all.png",
+      "sha256": "79c7c821dffc5f5744923be582b79c53426fbd6ef68d4a8223bdbc2f9b61041b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:42:26.010Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Select All draft selection.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/16-monday-none.png",
+      "sha256": "150e75405b2988bc8a417d1c08b746cd3a32ee33b0cd1ae85039680e793b9dbb",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:42:32.448Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Deselect All draft.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/17-none-apply-unconfigured.png",
+      "sha256": "e47e83fd26b9dda5b5293c33a8c63f4f01a13b1ffb9b037424d9efc681e47857",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:42:38.366Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Prototype attempt only: None Apply is deliberately unconfigured; no native conclusion.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/18-none-x-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:42:44.400Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. None X inferred prototype recovery.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/19-acad-reopen.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:42:53.488Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Reopen academic-only draft.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/20-all-reopen.png",
+      "sha256": "79c7c821dffc5f5744923be582b79c53426fbd6ef68d4a8223bdbc2f9b61041b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:42:53.750Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Select all draft again.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/21-all-apply-unconfigured.png",
+      "sha256": "fdce1113a884e37cba7d388043fe0f3f82e7f2447ffd112b89023fa8aa9e7100",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:42:53.964Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Prototype attempt only: All Apply unconfigured; private default result not reconstructed.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/22-all-x-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:02.965Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. All X inferred recovery.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/23-acad-before-x.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:03.222Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Academic-only remains entry selection.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/24-acad-x-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:03.490Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Academic X inferred recovery.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/25-acad-loop-start.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:13.401Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Start academic apply sample.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/26-all-loop.png",
+      "sha256": "79c7c821dffc5f5744923be582b79c53426fbd6ef68d4a8223bdbc2f9b61041b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:13.636Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. All draft.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/27-none-loop.png",
+      "sha256": "150e75405b2988bc8a417d1c08b746cd3a32ee33b0cd1ae85039680e793b9dbb",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:13.899Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. None draft.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/28-acad-selected.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:14.164Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. None to academic-only checkbox.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/29-acad-applied-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:25.578Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Academic Apply returns Sep28 no event.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-SCREEN-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-calendar-filters/30-acad-persisted.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T15:43:25.843Z",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype saved capture. Reopen retains academic-only prototype state.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-CALENDAR-FILTER-CONTEXT-TRACE",
+      "type": "interaction_trace",
+      "path": "calendar-filter-context-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD",
+        "S-CALENDAR-FILTER-ALL",
+        "S-CALENDAR-FILTER-NONE",
+        "S-CALENDAR-ACAD-EMPTY",
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Computer Use three filter frames/eight controls, Monday selection/apply/reopen sample only; screenshots interrupted after saved30. No new native observations."
     }
   ],
   "findings": [
@@ -50774,6 +51329,153 @@
         "prototype_run_ids": [
           "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
           "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+        ]
+      },
+      {
+        "state_id": "S-CALENDAR-FILTER-ACAD",
+        "context_variant": "20260930-home-week-overlay-filters",
+        "node_id": "604:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=604-19",
+        "node_name": "[CAL-FILTER:ACAD] Sep28 academic — retained caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-PERSIST"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-filter-acad-context.svg",
+        "design_source_sha256": "fc8fc0d76db26ca8dc93c955d4e9fe9c222272172ef6e39b23f7c7248699b8ad",
+        "canvas_position": [
+          0,
+          55000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "clip_content": true
+        },
+        "context": "Home/Week academic-only applied background with draft selection; historical standalone mapping remains separate.",
+        "native_editability": "Editable approximate public filter/calendar vectors and text.",
+        "content_policy": "Public fixed calendar data; Home/Week personal content synthetic DEMO.",
+        "full_native_background_verified": true,
+        "composite_background": false,
+        "visual_review": {
+          "status": "partial",
+          "summary": "Persisted academic panel has public full native screenshot; vector geometry remains approximate.",
+          "evidence_ids": [
+            "E-CALENDAR-FILTER-CONTEXT-TRACE"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-FILTER-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE"
+        ],
+        "prototype_status": "monday_filter_sampled_other_contexts_open",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ]
+      },
+      {
+        "state_id": "S-CALENDAR-FILTER-ALL",
+        "context_variant": "20260930-home-week-overlay-filters",
+        "node_id": "604:208",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=604-208",
+        "node_name": "[CAL-FILTER:ALL] Select all draft — composite",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-ALL"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-filter-all-context.svg",
+        "design_source_sha256": "fe4c622da59887e88097c69b52daa6e766d8764e71aa0d976eb39ae60282fb55",
+        "canvas_position": [
+          700,
+          55000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "clip_content": true
+        },
+        "context": "Home/Week academic-only applied background with draft selection; historical standalone mapping remains separate.",
+        "native_editability": "Editable approximate public filter/calendar vectors and text.",
+        "content_policy": "Public fixed calendar data; Home/Week personal content synthetic DEMO.",
+        "full_native_background_verified": false,
+        "composite_background": true,
+        "visual_review": {
+          "status": "partial",
+          "summary": "All/None panel-only source composited onto academic-only public background.",
+          "evidence_ids": [
+            "E-CALENDAR-FILTER-CONTEXT-TRACE"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-FILTER-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE"
+        ],
+        "prototype_status": "monday_filter_sampled_other_contexts_open",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ]
+      },
+      {
+        "state_id": "S-CALENDAR-FILTER-NONE",
+        "context_variant": "20260930-home-week-overlay-filters",
+        "node_id": "604:405",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=604-405",
+        "node_name": "[CAL-FILTER:NONE] No categories draft — composite",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-NONE"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-filter-none-context.svg",
+        "design_source_sha256": "055cf57884d5f4f67869f1fa14247bb68670df00ba0db89dd3d00e18d349089f",
+        "canvas_position": [
+          1400,
+          55000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "clip_content": true
+        },
+        "context": "Home/Week academic-only applied background with draft selection; historical standalone mapping remains separate.",
+        "native_editability": "Editable approximate public filter/calendar vectors and text.",
+        "content_policy": "Public fixed calendar data; Home/Week personal content synthetic DEMO.",
+        "full_native_background_verified": false,
+        "composite_background": true,
+        "visual_review": {
+          "status": "partial",
+          "summary": "All/None panel-only source composited onto academic-only public background.",
+          "evidence_ids": [
+            "E-CALENDAR-FILTER-CONTEXT-TRACE"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-FILTER-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE"
+        ],
+        "prototype_status": "monday_filter_sampled_other_contexts_open",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
         ]
       }
     ],
@@ -61202,6 +61904,220 @@
         "deviation_ids": [
           "D-CALENDAR-DATE-CONTEXT"
         ]
+      },
+      {
+        "source_node_id": "604:405",
+        "trigger_node_id": "604:585",
+        "target_node_id": "604:19",
+        "trigger_name": "AcadCalendar",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "animation": "Instant",
+        "action_id": "A-CALENDAR-SELECT-ACAD",
+        "configured_at": "2026-09-30T15:36:24.751Z",
+        "connection_id": "C-CALENDAR-FILTER-CONTEXT-01",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ],
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-ACAD"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-04"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-FILTER-CONTEXT"
+        ]
+      },
+      {
+        "source_node_id": "604:405",
+        "trigger_node_id": "604:569",
+        "target_node_id": "596:335",
+        "trigger_name": "CloseFilter",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "animation": "Instant",
+        "action_id": null,
+        "configured_at": "2026-09-30T15:36:28.216Z",
+        "connection_id": "C-CALENDAR-FILTER-CONTEXT-02",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ],
+        "source_evidence_ids": [],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-05"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-FILTER-CONTEXT"
+        ],
+        "source_generalization": "Inferred prototype X recovery to already applied academic-only Sep28. Native X/cancellation semantics unverified."
+      },
+      {
+        "source_node_id": "604:208",
+        "trigger_node_id": "604:376",
+        "target_node_id": "604:405",
+        "trigger_name": "SelectAll",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "animation": "Instant",
+        "action_id": "A-CALENDAR-DESELECT-ALL",
+        "configured_at": "2026-09-30T15:36:51.162Z",
+        "connection_id": "C-CALENDAR-FILTER-CONTEXT-03",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ],
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-NONE"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-06"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-FILTER-CONTEXT"
+        ]
+      },
+      {
+        "source_node_id": "604:208",
+        "trigger_node_id": "604:372",
+        "target_node_id": "596:335",
+        "trigger_name": "CloseFilter",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "animation": "Instant",
+        "action_id": null,
+        "configured_at": "2026-09-30T15:36:54.789Z",
+        "connection_id": "C-CALENDAR-FILTER-CONTEXT-04",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ],
+        "source_evidence_ids": [],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-07"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-FILTER-CONTEXT"
+        ],
+        "source_generalization": "Inferred prototype X recovery to already applied academic-only Sep28. Native X/cancellation semantics unverified."
+      },
+      {
+        "source_node_id": "604:19",
+        "trigger_node_id": "604:187",
+        "target_node_id": "604:208",
+        "trigger_name": "SelectAll",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "animation": "Instant",
+        "action_id": "A-CALENDAR-RESTORE-ALL",
+        "configured_at": "2026-09-30T15:37:43.061Z",
+        "connection_id": "C-CALENDAR-FILTER-CONTEXT-05",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ],
+        "source_evidence_ids": [
+          "E-CALENDAR-TRACE",
+          "E-CALENDAR-FILTER-ALL"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-08"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-FILTER-CONTEXT"
+        ]
+      },
+      {
+        "source_node_id": "604:19",
+        "trigger_node_id": "604:204",
+        "target_node_id": "596:335",
+        "trigger_name": "Apply",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "animation": "Instant",
+        "action_id": "A-CALENDAR-APPLY-ACAD",
+        "configured_at": "2026-09-30T15:37:46.716Z",
+        "connection_id": "C-CALENDAR-FILTER-CONTEXT-06",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ],
+        "source_evidence_ids": [
+          "E-CALENDAR-ACAD-EMPTY"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-09"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-FILTER-CONTEXT"
+        ]
+      },
+      {
+        "source_node_id": "604:19",
+        "trigger_node_id": "604:183",
+        "target_node_id": "596:335",
+        "trigger_name": "CloseFilter",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "animation": "Instant",
+        "action_id": null,
+        "configured_at": "2026-09-30T15:37:50.362Z",
+        "connection_id": "C-CALENDAR-FILTER-CONTEXT-07",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ],
+        "source_evidence_ids": [],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-10"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-FILTER-CONTEXT"
+        ],
+        "source_generalization": "Inferred prototype X recovery to already applied academic-only Sep28. Native X/cancellation semantics unverified."
+      },
+      {
+        "source_node_id": "596:335",
+        "trigger_node_id": "596:448",
+        "target_node_id": "604:19",
+        "trigger_name": "Filter",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "animation": "Instant",
+        "action_id": "A-CALENDAR-FILTER-REOPEN",
+        "configured_at": "2026-09-30T15:38:15.956Z",
+        "connection_id": "C-CALENDAR-FILTER-CONTEXT-08",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "implementation_status": "configured_and_monday_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001"
+        ],
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-PERSIST"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-11"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-FILTER-CONTEXT"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -62914,6 +63830,33 @@
         "next_step": "Observe unresolved native controls and integrate confirmed date/filter combinations; inspect Home local differences.",
         "evidence_ids": [
           "E-CALENDAR-DATE-CONTEXT-TRACE"
+        ],
+        "follow_ups": [
+          {
+            "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+            "summary": "Academic filter reopening, selection circuit and Apply integrated; incomplete filters, other callers and capture recovery remain open.",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-TRACE"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D-CALENDAR-FILTER-CONTEXT",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "status": "open",
+        "affected_state_ids": [
+          "S-CALENDAR-FILTER-ACAD",
+          "S-CALENDAR-FILTER-ALL",
+          "S-CALENDAR-FILTER-NONE",
+          "S-CALENDAR-ACAD-EMPTY"
+        ],
+        "original_behavior": "Academic/all/none draft selections, academic Apply and persisted reopening have existing native evidence; X and None Apply unobserved.",
+        "current_implementation": "Three approximate panels/eight controls integrated; five native-mapped transitions and three inferred X recoveries sampled from Monday.",
+        "impact": "Composite backgrounds and unconfigured Apply/toggles limit fidelity; final Home return, Tuesday caller and flow-root checks still pending after screenshot failure.",
+        "next_step": "Resume from fresh visible UI, verify current state and Home/Tuesday, then observe native X/remaining filter controls.",
+        "evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-TRACE"
         ]
       }
     ],
@@ -77683,6 +78626,276 @@
           "Three date Home exits are prototype generalizations, action_id null.",
           "Home local pixel differences remain; no native fidelity, live data or human evaluation."
         ]
+      },
+      {
+        "id": "PROTO-CALENDAR-FILTER-CONTEXT-MONDAY-001",
+        "revision_id": "FIGMA-CALENDAR-FILTER-CONTEXT-20260930",
+        "start_node_id": "67:569",
+        "started_at": "2026-09-30T15:39:25.887Z",
+        "ended_at": "2026-09-30T15:43:25.843Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-973&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Calendar · Academic filter with retained caller",
+        "status": "partial",
+        "navigation_status": "Five native-mapped transitions and three inferred X exits sampled. Academic Apply/reopen confirmed in saved prototype images; final Home return not verified after capture interruption.",
+        "visual_status": "Approximate editable filter panels; All/None are composites. Public saved samples only.",
+        "steps": [
+          {
+            "at": "2026-09-30T15:39:25.887Z",
+            "description": "Monday current Home baseline; saved pixels govern image status.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "action_id": null,
+            "visible_node_id": "67:569",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-12"
+            ],
+            "file": "12-monday-home-baseline.png"
+          },
+          {
+            "at": "2026-09-30T15:39:27.275Z",
+            "description": "Sep28 academic-only no-event baseline.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "action_id": null,
+            "visible_node_id": "596:335",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-13"
+            ],
+            "file": "13-monday-sep28-baseline.png"
+          },
+          {
+            "at": "2026-09-30T15:39:27.536Z",
+            "description": "Filter reopens persisted academic-only selection.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "action_id": null,
+            "visible_node_id": "604:19",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-14"
+            ],
+            "file": "14-monday-academic-open.png"
+          },
+          {
+            "at": "2026-09-30T15:42:26.010Z",
+            "description": "Select All draft selection.",
+            "state_id": "S-CALENDAR-FILTER-ALL",
+            "action_id": null,
+            "visible_node_id": "604:208",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-15"
+            ],
+            "file": "15-monday-all.png"
+          },
+          {
+            "at": "2026-09-30T15:42:32.448Z",
+            "description": "Deselect All draft.",
+            "state_id": "S-CALENDAR-FILTER-NONE",
+            "action_id": null,
+            "visible_node_id": "604:405",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-16"
+            ],
+            "file": "16-monday-none.png"
+          },
+          {
+            "at": "2026-09-30T15:42:38.366Z",
+            "description": "Prototype attempt only: None Apply is deliberately unconfigured; no native conclusion.",
+            "state_id": "S-CALENDAR-FILTER-NONE",
+            "action_id": null,
+            "visible_node_id": "604:405",
+            "outcome": "unconfigured_prototype_gap",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-17"
+            ],
+            "file": "17-none-apply-unconfigured.png"
+          },
+          {
+            "at": "2026-09-30T15:42:44.400Z",
+            "description": "None X inferred prototype recovery.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "action_id": null,
+            "visible_node_id": "596:335",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-18"
+            ],
+            "file": "18-none-x-empty.png"
+          },
+          {
+            "at": "2026-09-30T15:42:53.488Z",
+            "description": "Reopen academic-only draft.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "action_id": null,
+            "visible_node_id": "604:19",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-19"
+            ],
+            "file": "19-acad-reopen.png"
+          },
+          {
+            "at": "2026-09-30T15:42:53.750Z",
+            "description": "Select all draft again.",
+            "state_id": "S-CALENDAR-FILTER-ALL",
+            "action_id": null,
+            "visible_node_id": "604:208",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-20"
+            ],
+            "file": "20-all-reopen.png"
+          },
+          {
+            "at": "2026-09-30T15:42:53.964Z",
+            "description": "Prototype attempt only: All Apply unconfigured; private default result not reconstructed.",
+            "state_id": "S-CALENDAR-FILTER-ALL",
+            "action_id": null,
+            "visible_node_id": "604:208",
+            "outcome": "unconfigured_prototype_gap",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-21"
+            ],
+            "file": "21-all-apply-unconfigured.png"
+          },
+          {
+            "at": "2026-09-30T15:43:02.965Z",
+            "description": "All X inferred recovery.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "action_id": null,
+            "visible_node_id": "596:335",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-22"
+            ],
+            "file": "22-all-x-empty.png"
+          },
+          {
+            "at": "2026-09-30T15:43:03.222Z",
+            "description": "Academic-only remains entry selection.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "action_id": null,
+            "visible_node_id": "604:19",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-23"
+            ],
+            "file": "23-acad-before-x.png"
+          },
+          {
+            "at": "2026-09-30T15:43:03.490Z",
+            "description": "Academic X inferred recovery.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "action_id": null,
+            "visible_node_id": "596:335",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-24"
+            ],
+            "file": "24-acad-x-empty.png"
+          },
+          {
+            "at": "2026-09-30T15:43:13.401Z",
+            "description": "Start academic apply sample.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "action_id": null,
+            "visible_node_id": "604:19",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-25"
+            ],
+            "file": "25-acad-loop-start.png"
+          },
+          {
+            "at": "2026-09-30T15:43:13.636Z",
+            "description": "All draft.",
+            "state_id": "S-CALENDAR-FILTER-ALL",
+            "action_id": null,
+            "visible_node_id": "604:208",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-26"
+            ],
+            "file": "26-all-loop.png"
+          },
+          {
+            "at": "2026-09-30T15:43:13.899Z",
+            "description": "None draft.",
+            "state_id": "S-CALENDAR-FILTER-NONE",
+            "action_id": null,
+            "visible_node_id": "604:405",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-27"
+            ],
+            "file": "27-none-loop.png"
+          },
+          {
+            "at": "2026-09-30T15:43:14.164Z",
+            "description": "None to academic-only checkbox.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "action_id": null,
+            "visible_node_id": "604:19",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-28"
+            ],
+            "file": "28-acad-selected.png"
+          },
+          {
+            "at": "2026-09-30T15:43:25.578Z",
+            "description": "Academic Apply returns Sep28 no event.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "action_id": null,
+            "visible_node_id": "596:335",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-29"
+            ],
+            "file": "29-acad-applied-empty.png"
+          },
+          {
+            "at": "2026-09-30T15:43:25.843Z",
+            "description": "Reopen retains academic-only prototype state.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "action_id": null,
+            "visible_node_id": "604:19",
+            "outcome": "visible_sample_recorded",
+            "evidence_ids": [
+              "E-CALENDAR-FILTER-CONTEXT-SCREEN-30"
+            ],
+            "file": "30-acad-persisted.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-12",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-13",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-14",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-15",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-16",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-17",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-18",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-19",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-20",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-21",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-22",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-23",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-24",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-25",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-26",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-27",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-28",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-29",
+          "E-CALENDAR-FILTER-CONTEXT-SCREEN-30",
+          "E-CALENDAR-FILTER-CONTEXT-TRACE"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-09-30-calendar-filters/manifest.json",
+        "limitations": [
+          "Only Monday caller sampled; Tuesday and final Home return remain pending.",
+          "All/None backgrounds composite; X semantics inferred; All/None Apply and individual Class/Exam/Payment toggles unconfigured.",
+          "No new native observations or human evaluation; screenshot acquisition later failed."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -77762,7 +78975,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "125 mapped frames / 3 internal component states / 291 configured controls / 16 scroll regions / 63 prototype runs. Fixed observed date circuit and both Home callers sampled; thirteen of fifteen pixel checks equal, two Home local differences retained. Full scope/fidelity not verified.",
+    "verification_summary": "128 mapped frames / 3 internal component states / 299 configured controls / 16 scroll regions / 64 prototype runs. Calendar filter Monday sample through academic Apply/reopen; three X recoveries inferred, composite backgrounds and remaining controls/open callers not verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -78221,7 +79434,8 @@
       "calendar_modes": "four_observed_mode_transitions_and_two_home_callers_sampled_monday_missing_entry_repaired_home_image_failure_preserved_full_scope_open",
       "home_image_reupload": "six_saved_home_returns_photo_visible_five_of_nine_pixel_checks_equal_four_localized_differences_full_stability_open",
       "calendar_detail_context": "fixed_sep26_detail_three_entries_month_returns_and_two_home_callers_sampled_full_scope_open",
-      "calendar_date_context": "four_observed_date_edges_three_frames_and_two_callers_with_three_recovery_exits_each_sampled_full_scope_open"
+      "calendar_date_context": "four_observed_date_edges_three_frames_and_two_callers_with_three_recovery_exits_each_sampled_full_scope_open",
+      "calendar_filter_context": "three_frames_eight_controls_monday_sample_only_other_contexts_pending"
     },
     "additional_imports": [
       {
@@ -79298,26 +80512,24 @@
         "scope": "Ten main historical dated contexts with continuous horizontal bars and Today vertical list; two route samples. Complete date/filter/caller/full App scope pending."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-30T15:24:26.237Z",
+    "latest_prototype_run_cutoff": "2026-09-30T15:43:25.843Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-01",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-02",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-03",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-04",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-05",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-06",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-07",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-08",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-09",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-10",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-41",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-43",
-      "E-CALENDAR-DATE-CONTEXT-SCREEN-44"
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-01",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-02",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-03",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-04",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-05",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-06",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-07",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-08",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-09",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-10",
+      "E-CALENDAR-FILTER-CONTEXT-SCREEN-11"
     ],
-    "latest_editor_verified_at": "2026-09-30T15:27:19.243Z",
+    "latest_editor_verified_at": "2026-09-30T15:38:15.968Z",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",

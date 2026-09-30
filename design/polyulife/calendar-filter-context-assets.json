@@ -1,0 +1,32 @@
+[
+  {
+    "selection": "acad",
+    "source_svg": "calendar-filter-acad.svg",
+    "source_sha256": "48d33fbefa501a43b8a51c1d17d711ffab7ad629e6d6f02d53d49a9659cec6bc",
+    "source_evidence_id": "E-CALENDAR-FILTER-PERSIST",
+    "output": "calendar-filter-acad-context.svg",
+    "output_sha256": "fc8fc0d76db26ca8dc93c955d4e9fe9c222272172ef6e39b23f7c7248699b8ad",
+    "scope": "Persisted academic panel or composite public selection sample; approximate text/vector.",
+    "full_native_background_verified": true
+  },
+  {
+    "selection": "all",
+    "source_svg": "calendar-filter-all.svg",
+    "source_sha256": "8b4d0d757a1aa21ae1bebbe2ea050279988f9c0342c58ebc4e2e46c5f5aca684",
+    "source_evidence_id": "E-CALENDAR-FILTER-ALL",
+    "output": "calendar-filter-all-context.svg",
+    "output_sha256": "fe4c622da59887e88097c69b52daa6e766d8764e71aa0d976eb39ae60282fb55",
+    "scope": "Persisted academic panel or composite public selection sample; approximate text/vector.",
+    "full_native_background_verified": false
+  },
+  {
+    "selection": "none",
+    "source_svg": "calendar-filter-none.svg",
+    "source_sha256": "41297e453476af10487f9960dee87a2a6ff48e1f716733cdb088232c2c0a33f2",
+    "source_evidence_id": "E-CALENDAR-FILTER-NONE",
+    "output": "calendar-filter-none-context.svg",
+    "output_sha256": "055cf57884d5f4f67869f1fa14247bb68670df00ba0db89dd3d00e18d349089f",
+    "scope": "Persisted academic panel or composite public selection sample; approximate text/vector.",
+    "full_native_background_verified": false
+  }
+]
