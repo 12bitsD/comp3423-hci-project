@@ -11,6 +11,8 @@
 
 ## 当前进度（2026-09-30）
 
+最新[六个剩余日期栏回放](room-remaining-date-bars-prototype-walkthrough.md)已归档：十个主要历史日期上下文均为连续横向滚动，两个完整七日样例路径及移动后的 Thu/Fri/Sat 按钮已回放。当前 Figma **109映射画板/251配置控件/41次运行**，另有3个画板内组件状态和16个滚动区域（5垂直、11水平）。本批82个公开PNG加入后，十份清单合计1082个PNG；36项原型比较30等、6项日期回弹差异保留。原生仍为135状态/268动作（193 observed、75 not_attempted），全应用、其它日期组合/调用者和完整视觉仍未验证。下方统计保留为历史快照。
+
 最新批次见 [Preview 原生控件补查](room-preview-controls-20260930.md)和[登录画板与 Copy 关闭回放](room-preview-controls-prototype-walkthrough.md)：当前原生 **135状态/268动作（193 observed、75 not_attempted）**，Figma **109映射画板/245配置控件/40次运行**，另有3个画板内组件状态和10个滚动区域。九份公开清单合计1000个PNG文件，含拼图；图片数不表示覆盖率。认证画板仅孤立渲染，Copy仅关闭菜单，完整认证、指南、剪贴板和分享语义仍未完成。以下较早批次的统计保留为历史快照。
 
 Room查询和AG206地图样例已归入正式台账：**108个Figma画板、3个画板内组件状态、244个配置控件、10个滚动区域及39次原型运行**（包括失败记录）。查询新增七个日期/聚焦变体、五条连接和两条实际Present回放，见 [查询回放](room-query-source-preparation.md)；地图新增三个部分可编辑画板、六个控件及失败/修复后运行，见 [地图回放](room-map-prototype-walkthrough.md)。新增[七日选择、筛选保持与列表边界的原生实测](room-dates-20260930.md)后，当前原生为132个状态、268个动作（185 observed、83 not_attempted）。本批12张日期/筛选变体已导入、12个控件与Today连续列表已实跑，见[七日原型回放](room-dates-prototype-walkthrough.md)；Tuesday 已替换为连续横向滚动，并完成两次 Today 返回，见[连续日期条回放](room-horizontal-dates-prototype-walkthrough.md)；Saturday、Sunday、Monday也已补为连续条并实跑移动后按钮命中，见[三个日期上下文回放](room-date-contexts-prototype-walkthrough.md)；其余六个准备中的上下文、Home和其它交接待完成。变体和原型回放不增加原生观察数量。全应用完成状态保持 `not_verified`。

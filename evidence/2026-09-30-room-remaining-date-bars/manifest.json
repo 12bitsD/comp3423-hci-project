@@ -1,0 +1,1659 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-today-all.png",
+      "sha256": "819af059a3cd5d6d5805ad54477911f432a2435205f1b069b8f435da7b06b3cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T08:52:20.698Z",
+      "description": "Start at dated Today ALL; current Present state",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "02-today-all-right.png",
+      "sha256": "6aed6c6c999243d232c3a1fdc85bf1d754f6b7ee0aca3752593f030aa0686fb5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T08:52:27.667Z",
+      "description": "Drag date strip toward final dates",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "03-today-all-fresh.png",
+      "sha256": "819af059a3cd5d6d5805ad54477911f432a2435205f1b069b8f435da7b06b3cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:00:52.829Z",
+      "description": "Fresh Present at Today ALL after browser recovery",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "04-today-all-right-fresh.png",
+      "sha256": "a4a499661b50eae80f61e67f608f64ea6f7fd91687ecf40e38091ce44d1337b8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:00:53.199Z",
+      "description": "Date strip drag to later dates; results remain Today ALL",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "05-today-all-middle.png",
+      "sha256": "d7d1eddbdab48b4e4c388c2f84ea9f495b8b42a4cdc0356f3a5fbf2f1bfcb267",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:01.696Z",
+      "description": "Reverse partially to an intermediate date position; attempted intermediate drag captured near-edge rebound; stable intermediate is separately evidenced by wheel/recheck pairs.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "06-today-all-left.png",
+      "sha256": "ec4f2f4e754fe56c6804e244fc4ca83b70f23d9615d8e5ef5bd3c5b536dffdfd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:02.201Z",
+      "description": "Reverse to first dates",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "07-today-available.png",
+      "sha256": "f92e8c45fd759a7b22065b0bfec1c28ac4df03a1d40051efcf1d7642d9380baf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:02.604Z",
+      "description": "Existing Available filter from Today ALL",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "08-today-available-right.png",
+      "sha256": "e8773d4fcd37e9782dff167012df8aa89aae8de0e96b08a6bb8bd0fe46ca9f56",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:10.199Z",
+      "description": "Shift dates without changing Available result",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "09-today-available-middle.png",
+      "sha256": "00827d88955b0e86172a7e81a61d045a2a927f000fcc13cee6207df3b87a5ffa",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:10.604Z",
+      "description": "Intermediate position; attempted intermediate drag captured near-edge rebound; stable intermediate is separately evidenced by wheel/recheck pairs.",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "10-today-available-left.png",
+      "sha256": "e29c9eca9c4cbfeb1e11106bb30a9461ab70d1f1901c67fb753cee2312da8b7e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:11.007Z",
+      "description": "Return first dates",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "11-thursday-available.png",
+      "sha256": "2ad4d034b98b40dbb6f03de1874f68f8765cfc6f381634d483fc2569e1cd5de8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:11.241Z",
+      "description": "Rewired Thu button enters Thursday Available",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "12-thursday-available-right.png",
+      "sha256": "f77876af8f6e0f9d61af36cf720c70d96c65f3885152a231d173875ff633e541",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:19.090Z",
+      "description": "Shift dates while Thursday empty result remains",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "13-thursday-available-middle.png",
+      "sha256": "2085584fd50df9c74464fe78440185d44967688cbb81d0acb91047685c2089cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:19.462Z",
+      "description": "Intermediate position; attempted intermediate drag captured near-edge rebound; stable intermediate is separately evidenced by wheel/recheck pairs.",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "14-thursday-available-left.png",
+      "sha256": "fc113cc0ded1470c4d515c74688bb9fe1d8f4916cb3b1e512fcd8626fdc58ef2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:19.876Z",
+      "description": "Return first dates",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "15-thursday-all.png",
+      "sha256": "3793f35835eceb90e73539456c93f6249287bf01552ef9cec4ae4bb0ed1cb80e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:20.182Z",
+      "description": "Existing ALL filter enters Thursday ALL",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "16-thursday-all-right.png",
+      "sha256": "ecdbd4c1ab5ba8ecf09e22d6ba6455c0dac81a9a60bbd17de29fa3a544f05461",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:29.968Z",
+      "description": "Shift dates while Thursday ALL result remains",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "17-thursday-all-middle.png",
+      "sha256": "904bdefa16931d753752eff10c80eced2d04febbf639149f1a217961281afa03",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:30.290Z",
+      "description": "Intermediate position; attempted intermediate drag captured near-edge rebound; stable intermediate is separately evidenced by wheel/recheck pairs.",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "18-thursday-all-left.png",
+      "sha256": "f6cb2feef76186777ec67e8fac0e49504ae46eafc175eeab199d72a676f18b73",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:30.794Z",
+      "description": "Return first dates",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "19-friday-all.png",
+      "sha256": "1a5e4b7a04c850ec09e14f6efcb3fa4546aee55017c06be9a9291e46b0717a37",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:31.096Z",
+      "description": "Rewired Fri date enters restored Friday ALL root",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "20-friday-all-right.png",
+      "sha256": "eff663c7859c6ca814c3ca0f7867294fde45b659f83ac2e5c775be79a7ac8f02",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:40.493Z",
+      "description": "Shift dates without changing Friday ALL result",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "21-friday-all-middle.png",
+      "sha256": "c3ae88f1729ef1fbe365f14a863a3c06a90e42472deba4df51695028fb431136",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:40.998Z",
+      "description": "Intermediate position; attempted intermediate drag captured near-edge rebound; stable intermediate is separately evidenced by wheel/recheck pairs.",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "22-friday-all-left.png",
+      "sha256": "998da4dc8172d3905c47cb6da09cfae0ea7a6e4e276f35f6e75d113ecc721354",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:41.402Z",
+      "description": "Return first dates",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "23-friday-available.png",
+      "sha256": "12b8b1eae18a08207ba222543ba83772be0bb1c8a9e1d47be78634d00b787032",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:41.705Z",
+      "description": "Existing Available filter still works after root undo/restoration",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "24-friday-available-right.png",
+      "sha256": "7ef10b81913b42ce25ddda3232a143c9fad070d024dffb94cec3c9c354a8bdb5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:51.101Z",
+      "description": "Shift dates while Friday Available result remains",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "25-friday-available-middle.png",
+      "sha256": "7cd9a8d96a6e3a894d0cb66d19e58dd1583454006d745122f463997ad5e57dc6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:51.533Z",
+      "description": "Intermediate position; attempted intermediate drag captured near-edge rebound; stable intermediate is separately evidenced by wheel/recheck pairs.",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "26-friday-available-left.png",
+      "sha256": "050dd0213dacd5fe548e1e0ccf265f6c4c1d9388db19af535b2f1f7dd149a644",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:51.950Z",
+      "description": "Return first dates",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "27-saturday-available.png",
+      "sha256": "b3b6618c7b2f800fb4a1e37557379e169f39fed4ce247780872561a976d26f23",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:01:52.313Z",
+      "description": "Rewired Sat button enters Saturday Available",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "28-sunday-available.png",
+      "sha256": "f74ef00dbf241b32f8bda5f54a02cea2efd220fdab26f7d0fed5a92ff252705b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:00.798Z",
+      "description": "Existing Sun date connection in continuous dated route",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "29-monday-available.png",
+      "sha256": "10ceff29cf249dbe47bfc671a1497e75fed860f52cf552b3fe47bebc32352b8a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:06.079Z",
+      "description": "Existing Mon date connection; initializer displays later dates",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "30-tuesday-available.png",
+      "sha256": "64a01dc8720de8725bcaa169bb82984d286b5984edf88ba8f05ec7bb3a7c4a90",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:10.534Z",
+      "description": "Existing Tue connection from shifted Monday dates",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "31-tuesday-reversed.png",
+      "sha256": "46e1c9f6715d080b0defa2a8768f2afd5af8520f3e245468eabf0e66720150b3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:17.880Z",
+      "description": "Reverse Tuesday date strip to reveal Today",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "32-today-return.png",
+      "sha256": "f92e8c45fd759a7b22065b0bfec1c28ac4df03a1d40051efcf1d7642d9380baf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:18.107Z",
+      "description": "Existing Today return enters Today Available after full dated route",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "33-today-all-return.png",
+      "sha256": "819af059a3cd5d6d5805ad54477911f432a2435205f1b069b8f435da7b06b3cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:46.306Z",
+      "description": "Existing ALL filter completes dated cycle",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "34-today-all-bottom.png",
+      "sha256": "7d194a7141d613de4a1855c3fe2f5795c349cd0b6befa58028f52a8121c30ecb",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:46.708Z",
+      "description": "Regression: existing vertical slots list reaches observed last rows",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "35-today-all-top-reverse.png",
+      "sha256": "819af059a3cd5d6d5805ad54477911f432a2435205f1b069b8f435da7b06b3cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:58.031Z",
+      "description": "Vertical list returns to top",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "36-today-all-leave-shifted.png",
+      "sha256": "b12316366fc0710a45014ef729828da003402ce598b81650b3aee09016a2c659",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:58.434Z",
+      "description": "Leave Today ALL while dates shifted",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "37-today-available-reentry.png",
+      "sha256": "f92e8c45fd759a7b22065b0bfec1c28ac4df03a1d40051efcf1d7642d9380baf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:58.725Z",
+      "description": "Reenter Today Available",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "38-today-available-leave-shifted.png",
+      "sha256": "d2562c525e32502b0cf4883afae991315ba7cab141083a546af62001c4ab1362",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:59.112Z",
+      "description": "Leave Today Available while dates shifted",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "39-today-all-reentry-initialized.png",
+      "sha256": "819af059a3cd5d6d5805ad54477911f432a2435205f1b069b8f435da7b06b3cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:02:59.540Z",
+      "description": "Reenter Today ALL from shifted source; initial date position restored",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "40-today-available-reentry-initialized.png",
+      "sha256": "f92e8c45fd759a7b22065b0bfec1c28ac4df03a1d40051efcf1d7642d9380baf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:08.027Z",
+      "description": "Return from shifted previous visit; initial Today position restored",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "41-today-available-moved-thu.png",
+      "sha256": "e266eb9e53c13718d257e390c271fe82dbaf0b055f25b6ee74c0814b53516568",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:08.528Z",
+      "description": "Move Thu control before clicking; partial date offset",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "42-today-available-wheel-middle.png",
+      "sha256": "74fbff0a01e19da76c119f284b558d7ceeba0847960def58602871b36a194c09",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:32.670Z",
+      "description": "Small horizontal wheel step after drag; inspect actual position",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "43-today-available-middle-held.png",
+      "sha256": "74fbff0a01e19da76c119f284b558d7ceeba0847960def58602871b36a194c09",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:50.554Z",
+      "description": "No-input recheck of small-wheel intermediate position",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "44-thursday-via-moved-thu.png",
+      "sha256": "2ad4d034b98b40dbb6f03de1874f68f8765cfc6f381634d483fc2569e1cd5de8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:50.856Z",
+      "description": "Moved Thu button at current visual position enters Thursday",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "45-thursday-available-wheel-middle.png",
+      "sha256": "0d068d78b4a4a478791744ebe0da74a1d482ffc97807ad408514df1665c04f69",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:51.170Z",
+      "description": "Small wheel step from initial Thursday dates",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "46-thursday-available-middle-held.png",
+      "sha256": "0d068d78b4a4a478791744ebe0da74a1d482ffc97807ad408514df1665c04f69",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:58.651Z",
+      "description": "No-input recheck",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "47-thursday-all-reentry.png",
+      "sha256": "3793f35835eceb90e73539456c93f6249287bf01552ef9cec4ae4bb0ed1cb80e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:59.056Z",
+      "description": "Reenter Thursday ALL from shifted dates",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "48-thursday-all-wheel-middle.png",
+      "sha256": "e2c31f238527fcfac5cb0e785c61b2330389eb06f6ee2cee5faabff9dbc63a3c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:03:59.359Z",
+      "description": "Small wheel step exposes moved Fri control",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "49-thursday-all-middle-held.png",
+      "sha256": "e2c31f238527fcfac5cb0e785c61b2330389eb06f6ee2cee5faabff9dbc63a3c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:07.689Z",
+      "description": "No-input recheck",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "50-friday-via-moved-fri.png",
+      "sha256": "1a5e4b7a04c850ec09e14f6efcb3fa4546aee55017c06be9a9291e46b0717a37",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:07.889Z",
+      "description": "Moved Fri button enters Friday ALL",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "51-friday-all-wheel-middle.png",
+      "sha256": "5ee57b184f883a4c284e99a740aaa7e943f9fd5899258f9e5e3ee1f3997da0af",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:08.132Z",
+      "description": "Small wheel step on restored Friday ALL",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "52-friday-all-middle-held.png",
+      "sha256": "5ee57b184f883a4c284e99a740aaa7e943f9fd5899258f9e5e3ee1f3997da0af",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:16.435Z",
+      "description": "No-input recheck",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "53-friday-available-reentry.png",
+      "sha256": "12b8b1eae18a08207ba222543ba83772be0bb1c8a9e1d47be78634d00b787032",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:16.839Z",
+      "description": "Reenter Friday Available from shifted dates",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "54-friday-available-wheel-middle.png",
+      "sha256": "ebfb378c769d252f5d900853c725308453adbfe7a5d0be472b685df9de769fff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:17.251Z",
+      "description": "Small wheel step moves Sat control",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "55-friday-available-middle-held.png",
+      "sha256": "ebfb378c769d252f5d900853c725308453adbfe7a5d0be472b685df9de769fff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:32.213Z",
+      "description": "No-input recheck",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "56-saturday-via-moved-sat.png",
+      "sha256": "b3b6618c7b2f800fb4a1e37557379e169f39fed4ce247780872561a976d26f23",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:32.415Z",
+      "description": "Moved Sat control enters Saturday",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "57-sunday-second-route.png",
+      "sha256": "f74ef00dbf241b32f8bda5f54a02cea2efd220fdab26f7d0fed5a92ff252705b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:32.738Z",
+      "description": "Second route Sunday",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "58-monday-second-route.png",
+      "sha256": "10ceff29cf249dbe47bfc671a1497e75fed860f52cf552b3fe47bebc32352b8a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:33.023Z",
+      "description": "Second route Monday",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "59-tuesday-second-route.png",
+      "sha256": "64a01dc8720de8725bcaa169bb82984d286b5984edf88ba8f05ec7bb3a7c4a90",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:33.348Z",
+      "description": "Second route Tuesday",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "60-tuesday-second-reverse.png",
+      "sha256": "d6232f53a2ff63b538fe757d84c437fb9de185b4a2ad6f12704068de360ddbf4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:33.829Z",
+      "description": "Reverse Tuesday dates",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "61-today-second-return.png",
+      "sha256": "f92e8c45fd759a7b22065b0bfec1c28ac4df03a1d40051efcf1d7642d9380baf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:34.233Z",
+      "description": "Second route Today return",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "62-today-all-second-return.png",
+      "sha256": "819af059a3cd5d6d5805ad54477911f432a2435205f1b069b8f435da7b06b3cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:34.638Z",
+      "description": "Second route ALL return",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "63-today-all-wheel-middle.png",
+      "sha256": "54483267bb650b1a20341974fb7d7bd5476b15f93f1326ca9b96d84ce65876e7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:35.052Z",
+      "description": "Small wheel step creates Today ALL intermediate position",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "64-today-all-middle-held.png",
+      "sha256": "54483267bb650b1a20341974fb7d7bd5476b15f93f1326ca9b96d84ce65876e7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:44.857Z",
+      "description": "No-input recheck",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "65-today-all-left-final.png",
+      "sha256": "819af059a3cd5d6d5805ad54477911f432a2435205f1b069b8f435da7b06b3cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:04:45.272Z",
+      "description": "Return left after stable intermediate position",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "redaction": "Mask half-open [1017,0,1075,49]; historical public AG206 availability."
+    },
+    {
+      "file": "friday-all-viewport.png",
+      "sha256": "240c0259a0b5d7b7b848e9ed9dd60601913f8c83b3754492faeabe35cf2ad098",
+      "dimensions": [
+        676,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T06:03:04.590058+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [438, 0, 495, 49]"
+    },
+    {
+      "file": "friday-all-wrong-root.png",
+      "sha256": "d8227b650b82a3ec973ac1d9fd8b47cd269e3e84d69cfb86fd96878132b56379",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:46:18.823636+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Recorded incorrect whole-root replacement, subsequently undone; not final screen or native App failure.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "friday-available-viewport.png",
+      "sha256": "9f257a66c0b86e0081261f8c401d6a2194864984c50f911340c8f0046f00bd37",
+      "dimensions": [
+        676,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T08:51:09.836517+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [438, 0, 495, 49]"
+    },
+    {
+      "file": "init-friday-all.png",
+      "sha256": "4ba8bd30886fd6027d0a6e56cd3807b8114484cb76b6cb9976c91cb780f65c34",
+      "dimensions": [
+        676,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T06:04:14.789153+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [438, 0, 495, 49]"
+    },
+    {
+      "file": "init-friday-available.png",
+      "sha256": "80790277900a66a6590a6cf1773a1e546892da85d62cced3a73aba10a0966ff5",
+      "dimensions": [
+        676,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T08:51:30.647348+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [438, 0, 495, 49]"
+    },
+    {
+      "file": "init-thursday-all.png",
+      "sha256": "23083c0c7b35af9a51ab86b7896a75768f6fd3ef85761039cd04987a05a3670c",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:44:39.169517+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "init-thursday-available.png",
+      "sha256": "1c1b2e6492803f54ea6a4dfb8c92ce16d3d9d39f6bc531facb9d5eeb5bc8ec98",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:44:03.417241+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "init-today-all.png",
+      "sha256": "9be0874effc9068006e768e5f28275a8e6904b7cf36b43e40207fe663d6c0ee5",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:38:35.854103+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "init-today-available.png",
+      "sha256": "5d70e0274e754485e21da433c3fbe6d7f7290caff3309f43ce95103471b1956a",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:41:24.534974+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "thursday-all-viewport.png",
+      "sha256": "8e677a5340ca2a9baf1d3a554c9212dff76eff911b6c9b4e10396834546e83f3",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:44:34.072241+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "thursday-available-viewport.png",
+      "sha256": "f2225ef63f4442dbec7a5e20554dbf7c63e47b9cf43a6a9536ec296c0f418b4c",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:43:58.118843+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "today-all-viewport.png",
+      "sha256": "8482292719a7e6b55210a04eacab23a29bbf909ef7cf532b59487f740184bfef",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:37:47.256150+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "today-available-viewport.png",
+      "sha256": "154da06e84d2dc67a62f3a9a95168ec4df0801fe3208c6175a6cd379c85b3d7d",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:40:54.227023+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "wire-friday-available.png",
+      "sha256": "3c6a453f00304c7b7708a726fb9fe6b91c755d27a138cc23b221abbde0b416db",
+      "dimensions": [
+        676,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T08:52:08.044440+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [438, 0, 495, 49]"
+    },
+    {
+      "file": "wire-thursday-all.png",
+      "sha256": "68754ecdcbeefa290026fea2e5b9b08c46ab0b3cadd057ccc4ae24d915984ad1",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:44:45.538742+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    },
+    {
+      "file": "wire-today-available.png",
+      "sha256": "5aef853909cd96c5ebb40107e503e5625b31a5e1be3132bcbe7cf2dfdf5e97ca",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:42:43.639687+00:00",
+      "timestamp_basis": "Screenshot local write time",
+      "description": "Actual Figma editor configuration screenshot.",
+      "redaction": "Mask account avatar half-open [390, 0, 447, 49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "c1a26e8c4f32e20cc22460f579d7c90e6434072119ab906e39be08bd7abaf9b6",
+    "dimensions": [
+      1352,
+      1881
+    ]
+  },
+  "app_crop_xyxy": [
+    470,
+    60,
+    808,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "03-today-all-fresh.png",
+      "comparison": "04-today-all-right-fresh.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Date movement preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "03-today-all-fresh.png",
+      "comparison": "06-today-all-left.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        9,
+        51,
+        322,
+        117
+      ],
+      "reason": "Reverse drag return sample; rebound differences retained",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "03-today-all-fresh.png",
+      "comparison": "63-today-all-wheel-middle.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Stable wheel intermediate preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "63-today-all-wheel-middle.png",
+      "comparison": "64-today-all-middle-held.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "No-input intermediate position recheck",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "07-today-available.png",
+      "comparison": "08-today-available-right.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Date movement preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "07-today-available.png",
+      "comparison": "10-today-available-left.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        9,
+        51,
+        322,
+        117
+      ],
+      "reason": "Reverse drag return sample; rebound differences retained",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "07-today-available.png",
+      "comparison": "42-today-available-wheel-middle.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Stable wheel intermediate preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "42-today-available-wheel-middle.png",
+      "comparison": "43-today-available-middle-held.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "No-input intermediate position recheck",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "11-thursday-available.png",
+      "comparison": "12-thursday-available-right.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Date movement preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "11-thursday-available.png",
+      "comparison": "14-thursday-available-left.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        51,
+        322,
+        117
+      ],
+      "reason": "Reverse drag return sample; rebound differences retained",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "11-thursday-available.png",
+      "comparison": "45-thursday-available-wheel-middle.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Stable wheel intermediate preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "45-thursday-available-wheel-middle.png",
+      "comparison": "46-thursday-available-middle-held.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "No-input intermediate position recheck",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "15-thursday-all.png",
+      "comparison": "16-thursday-all-right.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Date movement preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "15-thursday-all.png",
+      "comparison": "18-thursday-all-left.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        51,
+        322,
+        117
+      ],
+      "reason": "Reverse drag return sample; rebound differences retained",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "15-thursday-all.png",
+      "comparison": "48-thursday-all-wheel-middle.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Stable wheel intermediate preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "48-thursday-all-wheel-middle.png",
+      "comparison": "49-thursday-all-middle-held.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "No-input intermediate position recheck",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "19-friday-all.png",
+      "comparison": "20-friday-all-right.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Date movement preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "19-friday-all.png",
+      "comparison": "22-friday-all-left.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        51,
+        322,
+        117
+      ],
+      "reason": "Reverse drag return sample; rebound differences retained",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "19-friday-all.png",
+      "comparison": "51-friday-all-wheel-middle.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Stable wheel intermediate preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "51-friday-all-wheel-middle.png",
+      "comparison": "52-friday-all-middle-held.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "No-input intermediate position recheck",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "23-friday-available.png",
+      "comparison": "24-friday-available-right.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Date movement preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "23-friday-available.png",
+      "comparison": "26-friday-available-left.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        51,
+        322,
+        117
+      ],
+      "reason": "Reverse drag return sample; rebound differences retained",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "23-friday-available.png",
+      "comparison": "54-friday-available-wheel-middle.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Stable wheel intermediate preserves result area",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "54-friday-available-wheel-middle.png",
+      "comparison": "55-friday-available-middle-held.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "No-input intermediate position recheck",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "07-today-available.png",
+      "comparison": "32-today-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "07-today-available.png",
+      "comparison": "40-today-available-reentry-initialized.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "07-today-available.png",
+      "comparison": "61-today-second-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "03-today-all-fresh.png",
+      "comparison": "33-today-all-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "03-today-all-fresh.png",
+      "comparison": "35-today-all-top-reverse.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "03-today-all-fresh.png",
+      "comparison": "39-today-all-reentry-initialized.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "03-today-all-fresh.png",
+      "comparison": "62-today-all-second-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "03-today-all-fresh.png",
+      "comparison": "65-today-all-left-final.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "11-thursday-available.png",
+      "comparison": "44-thursday-via-moved-thu.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "15-thursday-all.png",
+      "comparison": "47-thursday-all-reentry.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "19-friday-all.png",
+      "comparison": "50-friday-via-moved-fri.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    },
+    {
+      "baseline": "23-friday-available.png",
+      "comparison": "53-friday-available-reentry.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Route return or frame reentry sample",
+      "scope": "Prototype-to-prototype; does not prove native pixel fidelity or human usability."
+    }
+  ],
+  "scope": "Six remaining dated continuous bars, two dated route samples, shifted control clicks, stable intermediate/reentry and Today vertical regression. Full application not complete."
+}

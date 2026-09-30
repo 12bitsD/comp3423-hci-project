@@ -2,7 +2,7 @@
   "status": "twelve_frames_imported_sample_replayed_full_scope_incomplete",
   "frames": [
     {
-      "file": "room-dates-today-all.svg",
+      "file": "room-dates-today-all-horizontal.svg",
       "state_id": "S-ALL",
       "context_variant": "20260930-today-all",
       "source_evidence_ids": [
@@ -17,21 +17,28 @@
         "8b6466c004226592f214a1d3235d55887514370e0a7777479bb64a077cd48a7e",
         "ab4feb7f2ee7fe4e37984c04fd6a087ed95e21ff5d524ff4709a57df40ed380f"
       ],
-      "sha256": "36ffb76265478a53841a21d2d221dd588310c312a1c0d02edb2f105e04352cdd",
+      "sha256": "073ca3a57a21db9d3e7f7aa347d5e419d1318b8df1652e8b1eec91b9e1a5e295",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:19",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "today-all",
       "date": "30-Sep",
       "filter": "all",
       "date_strip_offset": 0,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-today-all.svg",
+          "sha256": "36ffb76265478a53841a21d2d221dd588310c312a1c0d02edb2f105e04352cdd",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
-      "file": "room-dates-today-available.svg",
+      "file": "room-dates-today-available-horizontal.svg",
       "state_id": "S-AVAILABLE",
       "context_variant": "20260930-today-available",
       "source_evidence_ids": [
@@ -43,21 +50,28 @@
       "source_evidence_sha256": [
         "6be98b3e4ac0df7959c3a181c4e8168bee67b5aafe4141b6fd60e03ff44e045a"
       ],
-      "sha256": "ea10b19ff4b8a6800f98324c08ba4ba1f831a83768751c5608f44c3e3d4f78b7",
+      "sha256": "acea56582075649c9b3df52fefd098328cf8777eb1d44a015a752c9834fba9ed",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:216",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "today-available",
       "date": "30-Sep",
       "filter": "available",
       "date_strip_offset": 0,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-today-available.svg",
+          "sha256": "ea10b19ff4b8a6800f98324c08ba4ba1f831a83768751c5608f44c3e3d4f78b7",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
-      "file": "room-dates-thursday-available.svg",
+      "file": "room-dates-thursday-available-horizontal.svg",
       "state_id": "S-ROOM-DATE-THU-AVAILABLE",
       "context_variant": "20260930-thursday-available",
       "source_evidence_ids": [
@@ -69,21 +83,28 @@
       "source_evidence_sha256": [
         "44a5901571155a40861ba71c9bd24f0190cd00a56626955758d702748011a82c"
       ],
-      "sha256": "20e8900d1400281f1d4a179b7930093414d52b6436dc97d6248cdfde7d81cbcf",
+      "sha256": "1ce8deceb27c922a9bdbe010910b7e43a88e62a8adbf87cb20c087a651d26d4e",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:317",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "thursday-available",
       "date": "01-Oct",
       "filter": "available",
       "date_strip_offset": 0,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-thursday-available.svg",
+          "sha256": "20e8900d1400281f1d4a179b7930093414d52b6436dc97d6248cdfde7d81cbcf",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
-      "file": "room-dates-thursday-all.svg",
+      "file": "room-dates-thursday-all-horizontal.svg",
       "state_id": "S-ROOM-DATE-THU-ALL",
       "context_variant": "20260930-thursday-all",
       "source_evidence_ids": [
@@ -95,21 +116,28 @@
       "source_evidence_sha256": [
         "5fbf355a2d7a10f64ecfcc649648974f8a7a7a896d40b7eef9f973db44c99926"
       ],
-      "sha256": "0a26c909f24fe64d262ffc52c4b983cce120f794b21b114c9c7d0bf1521bac35",
+      "sha256": "1ddfcd48dee62ebcce7988a2f872321b6640f50939d3741d63f2509728e56b4d",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:400",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "thursday-all",
       "date": "01-Oct",
       "filter": "all",
       "date_strip_offset": 0,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-thursday-all.svg",
+          "sha256": "0a26c909f24fe64d262ffc52c4b983cce120f794b21b114c9c7d0bf1521bac35",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
-      "file": "room-dates-friday-all.svg",
+      "file": "room-dates-friday-all-horizontal.svg",
       "state_id": "S-ROOM-DATE-FRI-ALL",
       "context_variant": "20260930-friday-all",
       "source_evidence_ids": [
@@ -121,21 +149,28 @@
       "source_evidence_sha256": [
         "81fe4ed31fafa8caf5a7b5ed1d80216b83c322e1dffb0fbc598c6dba0dd15f6a"
       ],
-      "sha256": "6bd4157fc807a0e8ead46b914b1ad20679600a7e217f57f2e84bd671b2873d53",
+      "sha256": "b1add094aec220eaa1e176a30029cae5ca800f9fedddc3090f83b4caed34a349",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:551",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "friday-all",
       "date": "02-Oct",
       "filter": "all",
       "date_strip_offset": 0,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-friday-all.svg",
+          "sha256": "6bd4157fc807a0e8ead46b914b1ad20679600a7e217f57f2e84bd671b2873d53",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
-      "file": "room-dates-friday-available.svg",
+      "file": "room-dates-friday-available-horizontal.svg",
       "state_id": "S-ROOM-DATE-FRI-AVAILABLE",
       "context_variant": "20260930-friday-available",
       "source_evidence_ids": [
@@ -147,18 +182,25 @@
       "source_evidence_sha256": [
         "a741a4442a2ab4a54efaa8662d8613ac66be50ac8ec0e02505c326bcda062b04"
       ],
-      "sha256": "c24cf45c24f7a8b2db87ee34d295d4f9f7e97641f6afbd99b146afbe5c667546",
+      "sha256": "6acfdc6a5f9b0cfed9ad223fc07d717c9e57a709afef753b65a3de54295df23a",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:702",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_context_sample_replayed_partial_fidelity",
       "label": "friday-available",
       "date": "02-Oct",
       "filter": "available",
       "date_strip_offset": 0,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-friday-available.svg",
+          "sha256": "c24cf45c24f7a8b2db87ee34d295d4f9f7e97641f6afbd99b146afbe5c667546",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
       "file": "room-dates-saturday-available-horizontal.svg",
