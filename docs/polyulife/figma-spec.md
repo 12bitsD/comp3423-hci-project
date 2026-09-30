@@ -1,5 +1,7 @@
 # Figma 复现与证据对应约定
 
+最新[Calendar模式循环](calendar-modes-prototype-walkthrough.md)接入公共月/事件/历史三个上下文和八条控件，保留Monday/Tuesday调用者。Monday底部Calendar漏接失败已修复并回放，Home缺图仍开放。累计121画板、282控件、56次运行，全应用仍 `not_verified`。以下统计为历史批次快照。
+
 最新[Calendar周选择器回放](calendar-week-picker-prototype-walkthrough.md)补入展开/滚轮13两个状态和四条控件；收起仍Week5，拖动仅代理原生滚动。Tuesday Home返回的底部缺图失败保留。累计118画板、274控件、53次运行，全应用仍 `not_verified`。以下统计为历史批次快照。
 
 最新[天气官方网页回放](weather-web-prototype-walkthrough.md)新增既有原生状态的一个网页画板和两条控件。入口与原型返回已回放，工具瞬时缺图（留存图已恢复）、原PNG重传及两轮复验保留；累计116画板、270控件、51次运行。网页关闭原生结果、Cookie/浏览器控制、完整滚动与可编辑保真仍待补。全应用为 `not_verified`；以下统计是历史批次快照。
