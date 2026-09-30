@@ -1,0 +1,280 @@
+{
+  "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+  "frames": [
+    {
+      "state_id": "S-PRIVACY-SCROLLED",
+      "node_id": "655:19",
+      "name": "[S-PRIVACY-SCROLLED] Privacy — observed viewport",
+      "file": "privacy-scrolled.svg",
+      "x": 0,
+      "y": 63000
+    },
+    {
+      "state_id": "S-TERMS-SCROLLED",
+      "node_id": "655:62",
+      "name": "[S-TERMS-SCROLLED] Terms — observed viewport",
+      "file": "terms-scrolled.svg",
+      "x": 700,
+      "y": 63000
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "655:62",
+      "trigger_node_id": "655:96",
+      "action_id": null,
+      "behavior": "Close overlay",
+      "trigger": "On click",
+      "target_node_id": null,
+      "configured_at": "2026-09-30T17:19:31.878Z",
+      "readback": [
+        "\t\t\t\t\t\t617 combo box (collapsed) Trigger, Value: On click, ID: :rfh:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t623 combo box (collapsed) Action, Value: Close overlay, ID: :rfk:, Secondary Actions: Expand",
+        "The focused UI element is 623 combo box (collapsed) Action, Value: Close overlay, ID: :rfk:, Secondary Actions: Expand"
+      ],
+      "limits": "Return from Terms scrolled is a prototype generalization; initial native Terms Back observed.",
+      "connection_id": "C-POLICY-SCROLL-01",
+      "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+      "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-POLICY-SCROLL-HOME-001",
+        "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+        "PROTO-POLICY-TERMS-REENTRY-001",
+        "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-POLICY-SCROLL-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-MENU-N-24"
+      ],
+      "deviation_ids": [
+        "D-POLICY-SCROLL-LIMITS",
+        "D-POLICY-WORDMARK-RENDER"
+      ],
+      "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+    },
+    {
+      "source_node_id": "655:19",
+      "trigger_node_id": "655:57",
+      "action_id": "A-PRIVACY-BACK",
+      "behavior": "Close overlay",
+      "trigger": "On click",
+      "target_node_id": null,
+      "configured_at": "2026-09-30T17:19:59.549Z",
+      "readback": [
+        "\t\t\t\t\t\t654 combo box (collapsed) Trigger, Value: On click, ID: :rgg:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t660 combo box (collapsed) Action, Value: Close overlay, ID: :rgj:, Secondary Actions: Expand",
+        "The focused UI element is 660 combo box (collapsed) Action, Value: Close overlay, ID: :rgj:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-POLICY-SCROLL-02",
+      "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+      "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-POLICY-SCROLL-HOME-001",
+        "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+        "PROTO-POLICY-TERMS-REENTRY-001",
+        "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-POLICY-SCROLL-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-MENU-N-19"
+      ],
+      "deviation_ids": [
+        "D-POLICY-SCROLL-LIMITS",
+        "D-POLICY-WORDMARK-RENDER"
+      ],
+      "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+    },
+    {
+      "source_node_id": "50:1862",
+      "trigger_node_id": "50:1862",
+      "action_id": "A-TERMS-SCROLL",
+      "target_node_id": "655:62",
+      "trigger": "Key/Gamepad",
+      "key": "Down",
+      "behavior": "Swap overlay",
+      "configured_at": "2026-09-30T17:20:37.651Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t381 row (selected) Key (↓) [S-TERMS-SCROLLED] Terms — observed viewport Remove key (↓) interaction",
+        "\t\t\t\t\t\t\t\t\t\t383 pop up button (expanded) Key (↓) [S-TERMS-SCROLLED] Terms — observed viewport, Secondary Actions: Collapse",
+        "\t\t\t\t\t\t\t\t\t\t\t384 text Key (↓)",
+        "\t\t\t\t\t\t420 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r86:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t426 combo box (collapsed) Action, Value: Swap overlay, ID: :r89:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t435 combo box (collapsed) Destination, Value: [S-TERMS-SCROLLED] Terms — observed viewport, ID: :r8p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t440 combo box (collapsed) Animation, Value: Instant, ID: :r96:, Secondary Actions: Expand",
+        "The focused UI element is 440 combo box (collapsed) Animation, Value: Instant, ID: :r96:, Secondary Actions: Expand"
+      ],
+      "limits": "Down is a prototype input proxy, not native keyboard observation; available on initial root regardless of cookie variant. Intended sequence closes cookie first. No continuous scroll or reverse implemented.",
+      "connection_id": "C-POLICY-SCROLL-03",
+      "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+      "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-POLICY-SCROLL-HOME-001",
+        "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+        "PROTO-POLICY-TERMS-REENTRY-001",
+        "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-POLICY-SCROLL-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-MENU-N-24"
+      ],
+      "deviation_ids": [
+        "D-POLICY-SCROLL-LIMITS",
+        "D-POLICY-WORDMARK-RENDER"
+      ],
+      "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+    },
+    {
+      "source_node_id": "50:2058",
+      "trigger_node_id": "50:2058",
+      "action_id": "A-PRIVACY-SCROLL",
+      "target_node_id": "655:19",
+      "trigger": "Key/Gamepad",
+      "key": "Down",
+      "behavior": "Swap overlay",
+      "configured_at": "2026-09-30T17:20:57.819Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t381 row (selected) Key (↓) [S-PRIVACY-SCROLLED] Privacy — observed viewport Remove key (↓) interaction",
+        "\t\t\t\t\t\t\t\t\t\t383 pop up button (expanded) Key (↓) [S-PRIVACY-SCROLLED] Privacy — observed viewport, Secondary Actions: Collapse",
+        "\t\t\t\t\t\t\t\t\t\t\t384 text Key (↓)",
+        "\t\t\t\t\t\t420 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r86:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t426 combo box (collapsed) Action, Value: Swap overlay, ID: :r89:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t435 combo box (collapsed) Destination, Value: [S-PRIVACY-SCROLLED] Privacy — observed viewport, ID: :r8p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t440 combo box (collapsed) Animation, Value: Instant, ID: :r96:, Secondary Actions: Expand",
+        "The focused UI element is 440 combo box (collapsed) Animation, Value: Instant, ID: :r96:, Secondary Actions: Expand"
+      ],
+      "limits": "Down is a prototype proxy available regardless of cookie variant; intended sequence closes cookie first. No continuous scroll or reverse implemented.",
+      "connection_id": "C-POLICY-SCROLL-04",
+      "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+      "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-POLICY-SCROLL-HOME-001",
+        "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+        "PROTO-POLICY-TERMS-REENTRY-001",
+        "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-POLICY-SCROLL-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-MENU-N-19"
+      ],
+      "deviation_ids": [
+        "D-POLICY-SCROLL-LIMITS",
+        "D-POLICY-WORDMARK-RENDER"
+      ],
+      "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+    },
+    {
+      "source_node_id": "50:2058",
+      "trigger_node_id": "50:2104",
+      "target_node_id": null,
+      "action_id": "A-PRIVACY-BACK",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:21:31.674Z",
+      "readback": [
+        "\t\t\t\t\t\t302 combo box (collapsed) Trigger, Value: On click, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t308 combo box (collapsed) Action, Value: Close overlay, ID: :r8t:, Secondary Actions: Expand",
+        "The focused UI element is 308 combo box (collapsed) Action, Value: Close overlay, ID: :r8t:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-POLICY-SCROLL-05",
+      "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+      "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-POLICY-SCROLL-HOME-001",
+        "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+        "PROTO-POLICY-TERMS-REENTRY-001",
+        "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-POLICY-SCROLL-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-MENU-N-19"
+      ],
+      "deviation_ids": [
+        "D-POLICY-SCROLL-LIMITS",
+        "D-POLICY-WORDMARK-RENDER"
+      ],
+      "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+    },
+    {
+      "source_node_id": "75:1669",
+      "trigger_node_id": "75:1696",
+      "target_node_id": "50:2058",
+      "action_id": "A-DRAWER-PRIVACY",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:22:01.026Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r88:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-PRIVACY] Privacy Policy, ID: :r8f:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :r8o:, Secondary Actions: Expand",
+        "The focused UI element is 307 combo box (collapsed) Action, Value: Open overlay, ID: :r8b:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-POLICY-SCROLL-06",
+      "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+      "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-POLICY-SCROLL-HOME-001",
+        "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+        "PROTO-POLICY-TERMS-REENTRY-001",
+        "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-POLICY-SCROLL-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-MENU-N-19"
+      ],
+      "deviation_ids": [
+        "D-POLICY-SCROLL-LIMITS",
+        "D-POLICY-WORDMARK-RENDER"
+      ],
+      "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+    }
+  ],
+  "image_reuploads": [
+    {
+      "node_id": "50:2065",
+      "frame_node_id": "50:2058",
+      "asset": "assets/polyu-web-wordmark.png",
+      "at": "2026-09-30T17:23:56.166Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t321 stepper (settable, integer) Description: X-position, Value: 64",
+        "\t\t\t\t\t\t\t\t\t322 stepper (settable, integer) Description: Y-position, Value: 168",
+        "\t\t\t\t\t\t\t\t\t\t349 text field (settable) Description: Width, Value: 246",
+        "\t\t\t\t\t\t\t\t\t\t352 text field (settable) Description: Height, Value: 49",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t657 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":28,\"1\":168,\"2\":93,\"3\":119,\"4\":49,\"5\":234,\"6\":252,\"7\":62,\"8\":140,\"9\":250,\"10\":6,\"11\":167,\"12\":234,\"13\":112,\"14\":8,\"15\":164,\"16\":97,\"17\":37,\"18\":244,\"19\":112},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":28,\"1\":168,\"2\":93,\"3\":119,\"4\":49,\"5\":234,\"6\":252,\"7\":62,\"8\":140,\"9\":250,\"10\":6,\"11\":167,\"12\":234,\"13\":112,\"14\":8,\"15\":164,\"16\":97,\"17\":37,\"18\":244,\"19\":112},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":true,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":246,\"originalImageHeight\":49,\"thumbHash\":{},\"altText\":\"\"}"
+      ],
+      "asset_sha256": "57e42390d68ff59e8c35e40ae139e554a31d6c6798e150b9dc79c77508a48377"
+    },
+    {
+      "node_id": "621:34",
+      "frame_node_id": "621:20",
+      "asset": "assets/terms-loading-mark.png",
+      "at": "2026-09-30T17:25:37.016Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t321 stepper (settable, integer) Description: X-position, Value: 261",
+        "\t\t\t\t\t\t\t\t\t322 stepper (settable, integer) Description: Y-position, Value: 486",
+        "\t\t\t\t\t\t\t\t\t\t349 text field (settable) Description: Width, Value: 56",
+        "\t\t\t\t\t\t\t\t\t\t352 text field (settable) Description: Height, Value: 56",
+        "\t\t\t\t\t\t\t\t\t\t\t\t\t467 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":203,\"1\":181,\"2\":77,\"3\":137,\"4\":178,\"5\":249,\"6\":47,\"7\":29,\"8\":38,\"9\":173,\"10\":182,\"11\":214,\"12\":219,\"13\":159,\"14\":51,\"15\":78,\"16\":163,\"17\":82,\"18\":139,\"19\":47},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":203,\"1\":181,\"2\":77,\"3\":137,\"4\":178,\"5\":249,\"6\":47,\"7\":29,\"8\":38,\"9\":173,\"10\":182,\"11\":214,\"12\":219,\"13\":159,\"14\":51,\"15\":78,\"16\":163,\"17\":82,\"18\":139,\"19\":47},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":true,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":56,\"originalImageHeight\":56,\"thumbHash\":{},\"altText\":\"\"}"
+      ],
+      "asset_sha256": "2246d582a3bde5f5e35a6b503339376c5c671ef82406328c0f8c220e15bc32ef"
+    }
+  ],
+  "limits": [
+    "No continuous scrolling; root keyboard proxies are available regardless of cookie variant.",
+    "Terms scrolled return is generalized; native architecture and repeated-entry persistence not established."
+  ]
+}

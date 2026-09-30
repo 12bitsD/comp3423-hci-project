@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[政策滚动视口回放](policy-scrolled-prototype-walkthrough.md)补2画板、4代理/返回控件，替换Privacy入口/初始返回。31张实际截图保留Privacy校名与Terms加载校徽缺图及同PNG重传复验；当前139画板、312控件、86次运行。↓仅跳到已观察有限视口，连续/反向滚动和完整正文未实现，全应用 `not_verified`。下方数字为历史快照。
+
 最新[Study/Courses/QR加载回放](account-loading-prototype-walkthrough.md)补3画板、3延时控件并替换7入口和QR返回；三种Home来源有限样例、QR缺图/重传/覆盖层复验已保存。当前137画板、308控件、82次运行，全应用 `not_verified`。以下旧批次统计为历史快照。
 
 2026-10-01新增[Study/Courses/QR加载页检查点](account-loading-work-in-progress.md)：三个SVG及Figma导入截图已保存，图标填充修正保留前后证据；连线和Present回放尚未完成，暂不计入正式统计。当前仍134映射画板、305控件、75次运行，全应用 `not_verified`。

@@ -1,0 +1,639 @@
+{
+  "kind": "finite_policy_scrolled_prototype",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-home-drawer.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:13.497Z",
+      "description": "Home opens drawer before policy replay.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "01-privacy-visible.png",
+      "sha256": "845835a13b6cc353e3f182e95856825a1a11e1f87a666ca285be3969516cbf9d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:21.212Z",
+      "description": "Privacy entry displays initial policy and cookie banner.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-privacy-dismissed.png",
+      "sha256": "f06e73f1accfa9d7feb2ee6a93c5f9bb20bf6cfe6394f652ba4d7c2f918f4d60",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:30.444Z",
+      "description": "Close cookie before using scroll proxy.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-privacy-scrolled.png",
+      "sha256": "c9682333d5ba0d803e89b8ea144cf4b6e4cc991b3f1990d43f926a8befdfc4e2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:30.695Z",
+      "description": "Down proxy displays observed finite viewport.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "04-privacy-drawer-return.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:30.976Z",
+      "description": "Privacy scrolled Back closes overlay directly to drawer.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "05-terms-entry.png",
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:38.652Z",
+      "description": "First Terms entry shows loading mark; not settled content.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "06-terms-visible.png",
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:38.711Z",
+      "description": "Capture labelled visible originally still shows loading; corrected after saved-pixel inspection.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "07-terms-settled.png",
+      "sha256": "b6a8ee50a5edf4c623ddde66645ff91edeb452dc4d37773ebd5c481c930d2fd6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:48.737Z",
+      "description": "Terms after demo timer.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "08-terms-dismissed.png",
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:49.041Z",
+      "description": "Close Terms cookie before proxy.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "09-terms-scrolled.png",
+      "sha256": "d03c756e4eee087b86e35f1852359e421e9ab25ec996027a712cbf2930153394",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:49.343Z",
+      "description": "Down proxy opens observed Terms finite viewport.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "10-terms-drawer-return.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:49.614Z",
+      "description": "Terms scrolled Close overlay returns drawer.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "11-privacy-reentry.png",
+      "sha256": "411979822465de9a0940d01690db08dc06892c579c4aefa6e0b7cb55d5533b18",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:22:59.808Z",
+      "description": "Reentry retains dismissed cookie in this prototype session, but public wordmark disappears; failure preserved.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "12-privacy-initial-back.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:23:00.113Z",
+      "description": "Initial Privacy Back now Close overlay; regression return.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "13-home-return.png",
+      "sha256": "c1ab1ddc8594f698ccdff75485adec8c259cbcd9092a756c320dc0c543c3866c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:23:00.411Z",
+      "description": "Close drawer to original Home caller.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "14-privacy-after-image-reupload.png",
+      "sha256": "f06e73f1accfa9d7feb2ee6a93c5f9bb20bf6cfe6394f652ba4d7c2f918f4d60",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:23:56.621Z",
+      "description": "Same PNG reuploaded; reentry and wordmark inspected.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "15-privacy-scrolled-recheck.png",
+      "sha256": "c9682333d5ba0d803e89b8ea144cf4b6e4cc991b3f1990d43f926a8befdfc4e2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:08.764Z",
+      "description": "Second Privacy proxy sample after image reupload.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "16-privacy-drawer-recheck.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:09.034Z",
+      "description": "Second scrolled Privacy Back.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "17-privacy-image-second-entry.png",
+      "sha256": "f06e73f1accfa9d7feb2ee6a93c5f9bb20bf6cfe6394f652ba4d7c2f918f4d60",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:09.344Z",
+      "description": "Consecutive reentry after same PNG reupload; finite visual check.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "18-privacy-initial-back-recheck.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:09.597Z",
+      "description": "Second initial Back closes to drawer.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "19-terms-reentry-transition.png",
+      "sha256": "76d82240c403e33880079fb5d689089df3676f48865748741c3506ef10ffc4ef",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:17.705Z",
+      "description": "Terms second entry loading card has no mark; saved-pixel failure preserved.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "20-terms-reentry-settled.png",
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:28.879Z",
+      "description": "Terms reentry after timer; inspect wordmark and independent dismissed state.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "21-terms-scrolled-recheck.png",
+      "sha256": "d03c756e4eee087b86e35f1852359e421e9ab25ec996027a712cbf2930153394",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:29.128Z",
+      "description": "Second Terms finite proxy.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "22-terms-drawer-recheck.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:29.389Z",
+      "description": "Second Terms scrolled return.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "23-home-final.png",
+      "sha256": "c1ab1ddc8594f698ccdff75485adec8c259cbcd9092a756c320dc0c543c3866c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:24:29.630Z",
+      "description": "Drawer closes to Home after second Terms run.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "24-terms-reupload-loading.png",
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:25:37.471Z",
+      "description": "Same Terms loading PNG reupload; first subsequent entry.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "25-terms-reupload-settled.png",
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:25:49.710Z",
+      "description": "Settled Terms after loading-image reupload.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "26-terms-reupload-drawer.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:25:49.989Z",
+      "description": "Initial Terms Back returns caller.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "27-terms-reupload-second-loading.png",
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:25:50.239Z",
+      "description": "Second consecutive entry after same PNG reupload.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "28-terms-reupload-second-settled.png",
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:30:55.123Z",
+      "description": "Second settled Terms after mark reupload.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "29-terms-reupload-second-drawer.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:30:55.389Z",
+      "description": "Second initial Terms Back after mark reupload.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "30-home-delivery.png",
+      "sha256": "c1ab1ddc8594f698ccdff75485adec8c259cbcd9092a756c320dc0c543c3866c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T17:30:55.633Z",
+      "description": "Final caller restored after finite repair tests.",
+      "source": "Actual Computer Use Figma Present screenshot",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "41d60a834ed99caee84c30d0c8842c95781ac9de04178781ba26e9cbf7e38262",
+    "dimensions": [
+      1143,
+      2664
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "00-home-drawer.png",
+      "comparison": "04-privacy-drawer-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "00-home-drawer.png",
+      "comparison": "10-terms-drawer-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "00-home-drawer.png",
+      "comparison": "12-privacy-initial-back.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "00-home-drawer.png",
+      "comparison": "16-privacy-drawer-recheck.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "00-home-drawer.png",
+      "comparison": "18-privacy-initial-back-recheck.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "00-home-drawer.png",
+      "comparison": "22-terms-drawer-recheck.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "03-privacy-scrolled.png",
+      "comparison": "15-privacy-scrolled-recheck.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "09-terms-scrolled.png",
+      "comparison": "21-terms-scrolled-recheck.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "13-home-return.png",
+      "comparison": "23-home-final.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "11-privacy-reentry.png",
+      "comparison": "14-privacy-after-image-reupload.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        29,
+        99,
+        206,
+        149
+      ],
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "14-privacy-after-image-reupload.png",
+      "comparison": "17-privacy-image-second-entry.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "19-terms-reentry-transition.png",
+      "comparison": "24-terms-reupload-loading.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        171,
+        307,
+        214,
+        357
+      ],
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "24-terms-reupload-loading.png",
+      "comparison": "27-terms-reupload-second-loading.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "20-terms-reentry-settled.png",
+      "comparison": "25-terms-reupload-settled.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "25-terms-reupload-settled.png",
+      "comparison": "28-terms-reupload-second-settled.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "00-home-drawer.png",
+      "comparison": "26-terms-reupload-drawer.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "00-home-drawer.png",
+      "comparison": "29-terms-reupload-second-drawer.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    },
+    {
+      "baseline": "23-home-final.png",
+      "comparison": "30-home-delivery.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; not native fidelity or complete coverage."
+    }
+  ],
+  "scope": "31 finite Present captures; existing native sources only. Keyboard proxy, not continuous scroll. All failures preserved."
+}

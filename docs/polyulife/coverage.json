@@ -47852,6 +47852,588 @@
       ],
       "action_ids": [],
       "source": "Actual Computer Use imports, readback, seven finite Present runs including two image failures and overlay follow-up; no new native observations."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/00-home-drawer.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:13.497Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Home opens drawer before policy replay."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/01-privacy-visible.png",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY"
+      ],
+      "action_ids": [
+        "A-DRAWER-PRIVACY"
+      ],
+      "sha256": "845835a13b6cc353e3f182e95856825a1a11e1f87a666ca285be3969516cbf9d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:21.212Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Privacy entry displays initial policy and cookie banner."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/02-privacy-dismissed.png",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY-NO-COOKIE"
+      ],
+      "action_ids": [
+        "A-PRIVACY-COOKIE-CLOSE"
+      ],
+      "sha256": "f06e73f1accfa9d7feb2ee6a93c5f9bb20bf6cfe6394f652ba4d7c2f918f4d60",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:30.444Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Close cookie before using scroll proxy."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/03-privacy-scrolled.png",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY-SCROLLED"
+      ],
+      "action_ids": [
+        "A-PRIVACY-SCROLL"
+      ],
+      "sha256": "c9682333d5ba0d803e89b8ea144cf4b6e4cc991b3f1990d43f926a8befdfc4e2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:30.695Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Down proxy displays observed finite viewport."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/04-privacy-drawer-return.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-PRIVACY-BACK"
+      ],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:30.976Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Privacy scrolled Back closes overlay directly to drawer."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/05-terms-entry.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [
+        "A-DRAWER-TERMS"
+      ],
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:38.652Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. First Terms entry shows loading mark; not settled content."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/06-terms-visible.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:38.711Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Capture labelled visible originally still shows loading; corrected after saved-pixel inspection."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/07-terms-settled.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "sha256": "b6a8ee50a5edf4c623ddde66645ff91edeb452dc4d37773ebd5c481c930d2fd6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:48.737Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Terms after demo timer."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/08-terms-dismissed.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [
+        "A-TERMS-COOKIE-CLOSE"
+      ],
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:49.041Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Close Terms cookie before proxy."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/09-terms-scrolled.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-SCROLLED"
+      ],
+      "action_ids": [
+        "A-TERMS-SCROLL"
+      ],
+      "sha256": "d03c756e4eee087b86e35f1852359e421e9ab25ec996027a712cbf2930153394",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:49.343Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Down proxy opens observed Terms finite viewport."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/10-terms-drawer-return.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:49.614Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Terms scrolled Close overlay returns drawer."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/11-privacy-reentry.png",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY-NO-COOKIE"
+      ],
+      "action_ids": [
+        "A-DRAWER-PRIVACY"
+      ],
+      "sha256": "411979822465de9a0940d01690db08dc06892c579c4aefa6e0b7cb55d5533b18",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:22:59.808Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Reentry retains dismissed cookie in this prototype session, but public wordmark disappears; failure preserved."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/12-privacy-initial-back.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-PRIVACY-BACK"
+      ],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:23:00.113Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Initial Privacy Back now Close overlay; regression return."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/13-home-return.png",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "sha256": "c1ab1ddc8594f698ccdff75485adec8c259cbcd9092a756c320dc0c543c3866c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:23:00.411Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Close drawer to original Home caller."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/14-privacy-after-image-reupload.png",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "sha256": "f06e73f1accfa9d7feb2ee6a93c5f9bb20bf6cfe6394f652ba4d7c2f918f4d60",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:23:56.621Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Same PNG reuploaded; reentry and wordmark inspected."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/15-privacy-scrolled-recheck.png",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY-SCROLLED"
+      ],
+      "action_ids": [
+        "A-PRIVACY-SCROLL"
+      ],
+      "sha256": "c9682333d5ba0d803e89b8ea144cf4b6e4cc991b3f1990d43f926a8befdfc4e2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:08.764Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Second Privacy proxy sample after image reupload."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/16-privacy-drawer-recheck.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-PRIVACY-BACK"
+      ],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:09.034Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Second scrolled Privacy Back."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/17-privacy-image-second-entry.png",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "sha256": "f06e73f1accfa9d7feb2ee6a93c5f9bb20bf6cfe6394f652ba4d7c2f918f4d60",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:09.344Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Consecutive reentry after same PNG reupload; finite visual check."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/18-privacy-initial-back-recheck.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-PRIVACY-BACK"
+      ],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:09.597Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Second initial Back closes to drawer."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/19-terms-reentry-transition.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [
+        "A-DRAWER-TERMS"
+      ],
+      "sha256": "76d82240c403e33880079fb5d689089df3676f48865748741c3506ef10ffc4ef",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:17.705Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Terms second entry loading card has no mark; saved-pixel failure preserved."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/20-terms-reentry-settled.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:28.879Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Terms reentry after timer; inspect wordmark and independent dismissed state."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/21-terms-scrolled-recheck.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-SCROLLED"
+      ],
+      "action_ids": [
+        "A-TERMS-SCROLL"
+      ],
+      "sha256": "d03c756e4eee087b86e35f1852359e421e9ab25ec996027a712cbf2930153394",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:29.128Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Second Terms finite proxy."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/22-terms-drawer-recheck.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:29.389Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Second Terms scrolled return."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/23-home-final.png",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "sha256": "c1ab1ddc8594f698ccdff75485adec8c259cbcd9092a756c320dc0c543c3866c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:24:29.630Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Drawer closes to Home after second Terms run."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/24-terms-reupload-loading.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [
+        "A-DRAWER-TERMS"
+      ],
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:25:37.471Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Same Terms loading PNG reupload; first subsequent entry."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/25-terms-reupload-settled.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:25:49.710Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Settled Terms after loading-image reupload."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/26-terms-reupload-drawer.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-TERMS-BACK"
+      ],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:25:49.989Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Initial Terms Back returns caller."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/27-terms-reupload-second-loading.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [
+        "A-DRAWER-TERMS"
+      ],
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:25:50.239Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Second consecutive entry after same PNG reupload."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/28-terms-reupload-second-settled.png",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:30:55.123Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Second settled Terms after mark reupload."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/29-terms-reupload-second-drawer.png",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [
+        "A-TERMS-BACK"
+      ],
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:30:55.389Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Second initial Terms Back after mark reupload."
+    },
+    {
+      "id": "E-POLICY-SCROLL-SCREEN-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-policy-scroll/30-home-delivery.png",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "sha256": "c1ab1ddc8594f698ccdff75485adec8c259cbcd9092a756c320dc0c543c3866c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:30:55.633Z",
+      "source": "Actual Computer Use Figma Present; no native execution added. Final caller restored after finite repair tests."
+    },
+    {
+      "id": "E-POLICY-SCROLL-TRACE",
+      "type": "interaction_trace",
+      "path": "policy-scrolled-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-PRIVACY",
+        "S-PRIVACY-NO-COOKIE",
+        "S-PRIVACY-SCROLLED",
+        "S-TERMS",
+        "S-TERMS-NO-COOKIE",
+        "S-TERMS-SCROLLED",
+        "S-TERMS-LOADING",
+        "S-DRAWER",
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Four finite Present runs including two image failures and same-PNG repair; no new native observation."
     }
   ],
   "findings": [
@@ -55431,6 +56013,104 @@
         ],
         "prototype_status": "finite_loading_progression_samples_recorded",
         "connection_status": "configured_and_sample_replayed"
+      },
+      {
+        "state_id": "S-PRIVACY-SCROLLED",
+        "node_id": "655:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=655-19",
+        "node_name": "[S-PRIVACY-SCROLLED] Privacy — observed viewport",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "source_evidence_ids": [
+          "E-MENU-N-19"
+        ],
+        "design_source_path": "../../design/polyulife/privacy-scrolled.svg",
+        "design_source_sha256": "fe7a4b533109e4d7bd36777abde856ab4b2721b2e56b83efe7ec87319cb97f90",
+        "viewport": {
+          "source_app_crop": [
+            576,
+            970
+          ],
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "position": [
+            0,
+            63000
+          ]
+        },
+        "native_editability": "SVG import produces native text/vector/group layers. Root dimensions and visible structure read back; detailed per-text acceptance not performed.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible legible text transcribed, approximate font/geometry; clipped edge fragments incomplete. Not a complete or continuous policy document.",
+          "deviation_ids": [
+            "D-POLICY-SCROLL-LIMITS"
+          ],
+          "evidence_ids": [
+            "E-POLICY-SCROLL-TRACE",
+            "E-MENU-N-19"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-POLICY-SCROLL-SCREEN-03"
+        ],
+        "prototype_run_ids": [
+          "PROTO-POLICY-SCROLL-HOME-001",
+          "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+          "PROTO-POLICY-TERMS-REENTRY-001"
+        ]
+      },
+      {
+        "state_id": "S-TERMS-SCROLLED",
+        "node_id": "655:62",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=655-62",
+        "node_name": "[S-TERMS-SCROLLED] Terms — observed viewport",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "source_evidence_ids": [
+          "E-MENU-N-24"
+        ],
+        "design_source_path": "../../design/polyulife/terms-scrolled.svg",
+        "design_source_sha256": "8b3ed4bec4c9614fe4ec120f4773a1185991a8a89c2ae276197a44d6992f56a3",
+        "viewport": {
+          "source_app_crop": [
+            576,
+            970
+          ],
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "position": [
+            700,
+            63000
+          ]
+        },
+        "native_editability": "SVG import produces native text/vector/group layers. Root dimensions and visible structure read back; detailed per-text acceptance not performed.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Visible legible text transcribed, approximate font/geometry; clipped edge fragments incomplete. Not a complete or continuous policy document.",
+          "deviation_ids": [
+            "D-POLICY-SCROLL-LIMITS"
+          ],
+          "evidence_ids": [
+            "E-POLICY-SCROLL-TRACE",
+            "E-MENU-N-24"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-POLICY-SCROLL-SCREEN-09"
+        ],
+        "prototype_run_ids": [
+          "PROTO-POLICY-SCROLL-HOME-001",
+          "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+          "PROTO-POLICY-TERMS-REENTRY-001"
+        ]
       }
     ],
     "action_connection_mappings": [
@@ -59522,21 +60202,41 @@
         "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
       },
       {
-        "action_id": "A-DRAWER-PRIVACY",
         "source_node_id": "75:1669",
-        "target_node_id": "50:2058",
         "trigger_node_id": "75:1696",
+        "target_node_id": "50:2058",
+        "action_id": "A-DRAWER-PRIVACY",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-MENU-V2",
-        "implementation_status": "tested",
+        "behavior": "Open overlay",
+        "operation": "replace_behavior",
+        "configured_at": "2026-09-30T17:22:01.026Z",
+        "readback": [
+          "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r88:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8b:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-PRIVACY] Privacy Policy, ID: :r8f:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :r8o:, Secondary Actions: Expand",
+          "The focused UI element is 307 combo box (collapsed) Action, Value: Open overlay, ID: :r8b:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-POLICY-SCROLL-06",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-MENU-V2-001"
+          "PROTO-POLICY-SCROLL-HOME-001",
+          "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+          "PROTO-POLICY-TERMS-REENTRY-001",
+          "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-POLICY-SCROLL-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-N-19"
         ],
         "deviation_ids": [
-          "D-MENU-FIDELITY"
+          "D-POLICY-SCROLL-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
         ],
-        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+        "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
       },
       {
         "action_id": "A-DRAWER-CLOSE",
@@ -59639,29 +60339,39 @@
         ]
       },
       {
-        "action_id": "A-PRIVACY-BACK",
         "source_node_id": "50:2058",
-        "target_node_id": null,
         "trigger_node_id": "50:2104",
+        "target_node_id": null,
+        "action_id": "A-PRIVACY-BACK",
         "trigger": "On click",
-        "behavior": "Back",
-        "revision_id": "FIGMA-MENU-V2",
-        "implementation_status": "tested",
+        "behavior": "Close overlay",
+        "operation": "replace_behavior",
+        "configured_at": "2026-09-30T17:21:31.674Z",
+        "readback": [
+          "\t\t\t\t\t\t302 combo box (collapsed) Trigger, Value: On click, ID: :r8q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t308 combo box (collapsed) Action, Value: Close overlay, ID: :r8t:, Secondary Actions: Expand",
+          "The focused UI element is 308 combo box (collapsed) Action, Value: Close overlay, ID: :r8t:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-POLICY-SCROLL-05",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-MENU-V2-001",
-          "PROTO-POLICY-COOKIE-V2-001"
+          "PROTO-POLICY-SCROLL-HOME-001",
+          "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+          "PROTO-POLICY-TERMS-REENTRY-001",
+          "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-POLICY-SCROLL-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-N-19"
         ],
         "deviation_ids": [
-          "D-MENU-FIDELITY"
+          "D-POLICY-SCROLL-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
         ],
-        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
-        "tested_target_node_ids": [
-          "75:1669"
-        ],
-        "tested_source_state_ids": [
-          "S-PRIVACY",
-          "S-PRIVACY-NO-COOKIE"
-        ]
+        "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
       },
       {
         "action_id": "A-EMERGENCY-CLOSE",
@@ -67136,6 +67846,157 @@
         "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "delay_ms": 800,
         "timing_policy": "Demo proxy; not measured native latency."
+      },
+      {
+        "source_node_id": "655:62",
+        "trigger_node_id": "655:96",
+        "action_id": null,
+        "behavior": "Close overlay",
+        "trigger": "On click",
+        "target_node_id": null,
+        "configured_at": "2026-09-30T17:19:31.878Z",
+        "readback": [
+          "\t\t\t\t\t\t617 combo box (collapsed) Trigger, Value: On click, ID: :rfh:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t623 combo box (collapsed) Action, Value: Close overlay, ID: :rfk:, Secondary Actions: Expand",
+          "The focused UI element is 623 combo box (collapsed) Action, Value: Close overlay, ID: :rfk:, Secondary Actions: Expand"
+        ],
+        "limits": "Return from Terms scrolled is a prototype generalization; initial native Terms Back observed.",
+        "connection_id": "C-POLICY-SCROLL-01",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-POLICY-SCROLL-HOME-001",
+          "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+          "PROTO-POLICY-TERMS-REENTRY-001",
+          "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-POLICY-SCROLL-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-N-24"
+        ],
+        "deviation_ids": [
+          "D-POLICY-SCROLL-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
+        ],
+        "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+      },
+      {
+        "source_node_id": "655:19",
+        "trigger_node_id": "655:57",
+        "action_id": "A-PRIVACY-BACK",
+        "behavior": "Close overlay",
+        "trigger": "On click",
+        "target_node_id": null,
+        "configured_at": "2026-09-30T17:19:59.549Z",
+        "readback": [
+          "\t\t\t\t\t\t654 combo box (collapsed) Trigger, Value: On click, ID: :rgg:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t660 combo box (collapsed) Action, Value: Close overlay, ID: :rgj:, Secondary Actions: Expand",
+          "The focused UI element is 660 combo box (collapsed) Action, Value: Close overlay, ID: :rgj:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-POLICY-SCROLL-02",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-POLICY-SCROLL-HOME-001",
+          "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+          "PROTO-POLICY-TERMS-REENTRY-001",
+          "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-POLICY-SCROLL-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-N-19"
+        ],
+        "deviation_ids": [
+          "D-POLICY-SCROLL-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
+        ],
+        "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+      },
+      {
+        "source_node_id": "50:1862",
+        "trigger_node_id": "50:1862",
+        "action_id": "A-TERMS-SCROLL",
+        "target_node_id": "655:62",
+        "trigger": "Key/Gamepad",
+        "key": "Down",
+        "behavior": "Swap overlay",
+        "configured_at": "2026-09-30T17:20:37.651Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t381 row (selected) Key (↓) [S-TERMS-SCROLLED] Terms — observed viewport Remove key (↓) interaction",
+          "\t\t\t\t\t\t\t\t\t\t383 pop up button (expanded) Key (↓) [S-TERMS-SCROLLED] Terms — observed viewport, Secondary Actions: Collapse",
+          "\t\t\t\t\t\t\t\t\t\t\t384 text Key (↓)",
+          "\t\t\t\t\t\t420 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r86:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t426 combo box (collapsed) Action, Value: Swap overlay, ID: :r89:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t435 combo box (collapsed) Destination, Value: [S-TERMS-SCROLLED] Terms — observed viewport, ID: :r8p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t440 combo box (collapsed) Animation, Value: Instant, ID: :r96:, Secondary Actions: Expand",
+          "The focused UI element is 440 combo box (collapsed) Animation, Value: Instant, ID: :r96:, Secondary Actions: Expand"
+        ],
+        "limits": "Down is a prototype input proxy, not native keyboard observation; available on initial root regardless of cookie variant. Intended sequence closes cookie first. No continuous scroll or reverse implemented.",
+        "connection_id": "C-POLICY-SCROLL-03",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-POLICY-SCROLL-HOME-001",
+          "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+          "PROTO-POLICY-TERMS-REENTRY-001",
+          "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-POLICY-SCROLL-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-N-24"
+        ],
+        "deviation_ids": [
+          "D-POLICY-SCROLL-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
+        ],
+        "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
+      },
+      {
+        "source_node_id": "50:2058",
+        "trigger_node_id": "50:2058",
+        "action_id": "A-PRIVACY-SCROLL",
+        "target_node_id": "655:19",
+        "trigger": "Key/Gamepad",
+        "key": "Down",
+        "behavior": "Swap overlay",
+        "configured_at": "2026-09-30T17:20:57.819Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t381 row (selected) Key (↓) [S-PRIVACY-SCROLLED] Privacy — observed viewport Remove key (↓) interaction",
+          "\t\t\t\t\t\t\t\t\t\t383 pop up button (expanded) Key (↓) [S-PRIVACY-SCROLLED] Privacy — observed viewport, Secondary Actions: Collapse",
+          "\t\t\t\t\t\t\t\t\t\t\t384 text Key (↓)",
+          "\t\t\t\t\t\t420 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r86:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t426 combo box (collapsed) Action, Value: Swap overlay, ID: :r89:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t435 combo box (collapsed) Destination, Value: [S-PRIVACY-SCROLLED] Privacy — observed viewport, ID: :r8p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t440 combo box (collapsed) Animation, Value: Instant, ID: :r96:, Secondary Actions: Expand",
+          "The focused UI element is 440 combo box (collapsed) Animation, Value: Instant, ID: :r96:, Secondary Actions: Expand"
+        ],
+        "limits": "Down is a prototype proxy available regardless of cookie variant; intended sequence closes cookie first. No continuous scroll or reverse implemented.",
+        "connection_id": "C-POLICY-SCROLL-04",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "implementation_status": "configured_finite_proxy_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-POLICY-SCROLL-HOME-001",
+          "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+          "PROTO-POLICY-TERMS-REENTRY-001",
+          "PROTO-POLICY-TERMS-MARK-REUPLOAD-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-POLICY-SCROLL-TRACE"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-N-19"
+        ],
+        "deviation_ids": [
+          "D-POLICY-SCROLL-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
+        ],
+        "source_fidelity": "Observed finite viewport/back semantics; keyboard proxy and overlay architecture are Figma implementation. Terms scrolled Back generalized from initial Back only."
       }
     ],
     "reconstruction_deviations": [
@@ -67993,6 +68854,22 @@
           "E-POLICY-COOKIE-P-10",
           "E-POLICY-COOKIE-P-13",
           "E-POLICY-COOKIE-P-16"
+        ],
+        "followups": [
+          {
+            "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+            "status": "partially_resolved",
+            "description": "Privacy missing on11; same PNG reupload retains geometry/STRETCH, imageShouldColorManage becomes true;14/17 two finite reentries visible. Terms wordmark20/25/28 visible, loading mark19 missing then same PNG reupload24/27 visible. No root cause or global stability conclusion.",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-TRACE",
+              "E-POLICY-SCROLL-SCREEN-11",
+              "E-POLICY-SCROLL-SCREEN-14",
+              "E-POLICY-SCROLL-SCREEN-17",
+              "E-POLICY-SCROLL-SCREEN-19",
+              "E-POLICY-SCROLL-SCREEN-24",
+              "E-POLICY-SCROLL-SCREEN-27"
+            ]
+          }
         ]
       },
       {
@@ -69024,6 +69901,24 @@
         "next_step": "Implement and verify remaining QR global navigation and caller contexts from native evidence; do not erase prior failures.",
         "evidence_ids": [
           "E-ACCOUNT-LOADING-TRACE"
+        ]
+      },
+      {
+        "id": "D-POLICY-SCROLL-LIMITS",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "status": "open",
+        "affected_state_ids": [
+          "S-PRIVACY-SCROLLED",
+          "S-TERMS-SCROLLED"
+        ],
+        "original_behavior": "Native wheel scroll moves from no-cookie to captured scrolled viewport; full middle/bounds not observed.",
+        "current_implementation": "Root Down key Swap overlay to two fixed editable observed viewports. Available regardless of cookie; intended sequence closes cookie first. Back closes overlay to drawer.",
+        "impact": "Finite forward samples only; no continuous/reverse scroll, clickable policy links or full text. Terms scrolled Back is prototype generalization. Clipped edge fragments incomplete.",
+        "next_step": "Reconnect native app; capture continuous policy traversal, boundaries, reverse/repeated-entry behavior and visible outgoing controls.",
+        "evidence_ids": [
+          "E-POLICY-SCROLL-TRACE",
+          "E-MENU-N-19",
+          "E-MENU-N-24"
         ]
       }
     ],
@@ -86010,6 +86905,505 @@
           "DEMO private body and non-scannable QR; no real personal contents.",
           "Early loading cancel/Back, other callers and complete visual fidelity unverified."
         ]
+      },
+      {
+        "id": "PROTO-POLICY-SCROLL-HOME-001",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "start_node_id": "67:820",
+        "started_at": "2026-09-30T17:22:13.497Z",
+        "ended_at": "2026-09-30T17:23:00.411Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Policy scroll · finite observed viewports",
+        "status": "failed_visual",
+        "navigation_status": "Both finite keyboard proxies and caller returns pass; Privacy reentry wordmark missing.",
+        "visual_status": "Finite sample only; approximate typography/geometry, clipped text fragments and full native fidelity remain incomplete.",
+        "steps": [
+          {
+            "file": "00-home-drawer.png",
+            "at": "2026-09-30T17:22:13.497Z",
+            "state_id": "S-DRAWER",
+            "description": "Home opens drawer before policy replay.",
+            "visible_node_id": "75:1669",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-00"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "01-privacy-visible.png",
+            "at": "2026-09-30T17:22:21.212Z",
+            "state_id": "S-PRIVACY",
+            "description": "Privacy entry displays initial policy and cookie banner.",
+            "visible_node_id": "50:2058",
+            "action_id": "A-DRAWER-PRIVACY",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-01"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "02-privacy-dismissed.png",
+            "at": "2026-09-30T17:22:30.444Z",
+            "state_id": "S-PRIVACY-NO-COOKIE",
+            "description": "Close cookie before using scroll proxy.",
+            "visible_node_id": "50:2058",
+            "action_id": "A-PRIVACY-COOKIE-CLOSE",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-02"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "03-privacy-scrolled.png",
+            "at": "2026-09-30T17:22:30.695Z",
+            "state_id": "S-PRIVACY-SCROLLED",
+            "description": "Down proxy displays observed finite viewport.",
+            "visible_node_id": "655:19",
+            "action_id": "A-PRIVACY-SCROLL",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-03"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "04-privacy-drawer-return.png",
+            "at": "2026-09-30T17:22:30.976Z",
+            "state_id": "S-DRAWER",
+            "description": "Privacy scrolled Back closes overlay directly to drawer.",
+            "visible_node_id": "75:1669",
+            "action_id": "A-PRIVACY-BACK",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-04"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "05-terms-entry.png",
+            "at": "2026-09-30T17:22:38.652Z",
+            "state_id": "S-TERMS-LOADING",
+            "description": "First Terms entry shows loading mark; not settled content.",
+            "visible_node_id": "621:20",
+            "action_id": "A-DRAWER-TERMS",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-05"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "06-terms-visible.png",
+            "at": "2026-09-30T17:22:38.711Z",
+            "state_id": "S-TERMS-LOADING",
+            "description": "Capture labelled visible originally still shows loading; corrected after saved-pixel inspection.",
+            "visible_node_id": "621:20",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-06"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "07-terms-settled.png",
+            "at": "2026-09-30T17:22:48.737Z",
+            "state_id": "S-TERMS",
+            "description": "Terms after demo timer.",
+            "visible_node_id": "50:1862",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-07"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "08-terms-dismissed.png",
+            "at": "2026-09-30T17:22:49.041Z",
+            "state_id": "S-TERMS-NO-COOKIE",
+            "description": "Close Terms cookie before proxy.",
+            "visible_node_id": "50:1862",
+            "action_id": "A-TERMS-COOKIE-CLOSE",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-08"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "09-terms-scrolled.png",
+            "at": "2026-09-30T17:22:49.343Z",
+            "state_id": "S-TERMS-SCROLLED",
+            "description": "Down proxy opens observed Terms finite viewport.",
+            "visible_node_id": "655:62",
+            "action_id": "A-TERMS-SCROLL",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-09"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "10-terms-drawer-return.png",
+            "at": "2026-09-30T17:22:49.614Z",
+            "state_id": "S-DRAWER",
+            "description": "Terms scrolled Close overlay returns drawer.",
+            "visible_node_id": "75:1669",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-10"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "11-privacy-reentry.png",
+            "at": "2026-09-30T17:22:59.808Z",
+            "state_id": "S-PRIVACY-NO-COOKIE",
+            "description": "Reentry retains dismissed cookie in this prototype session, but public wordmark disappears; failure preserved.",
+            "visible_node_id": "50:2058",
+            "action_id": "A-DRAWER-PRIVACY",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-11"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "12-privacy-initial-back.png",
+            "at": "2026-09-30T17:23:00.113Z",
+            "state_id": "S-DRAWER",
+            "description": "Initial Privacy Back now Close overlay; regression return.",
+            "visible_node_id": "75:1669",
+            "action_id": "A-PRIVACY-BACK",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-12"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "13-home-return.png",
+            "at": "2026-09-30T17:23:00.411Z",
+            "state_id": "S-HOME",
+            "description": "Close drawer to original Home caller.",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-13"
+            ],
+            "outcome": "finite_saved_sample"
+          }
+        ],
+        "evidence_ids": [
+          "E-POLICY-SCROLL-SCREEN-00",
+          "E-POLICY-SCROLL-SCREEN-01",
+          "E-POLICY-SCROLL-SCREEN-02",
+          "E-POLICY-SCROLL-SCREEN-03",
+          "E-POLICY-SCROLL-SCREEN-04",
+          "E-POLICY-SCROLL-SCREEN-05",
+          "E-POLICY-SCROLL-SCREEN-06",
+          "E-POLICY-SCROLL-SCREEN-07",
+          "E-POLICY-SCROLL-SCREEN-08",
+          "E-POLICY-SCROLL-SCREEN-09",
+          "E-POLICY-SCROLL-SCREEN-10",
+          "E-POLICY-SCROLL-SCREEN-11",
+          "E-POLICY-SCROLL-SCREEN-12",
+          "E-POLICY-SCROLL-SCREEN-13"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-policy-scroll/manifest.json",
+        "limitations": [
+          "Down is a prototype input proxy available before cookie dismissal too.",
+          "Intermediate text, scroll offset/bounds and reverse scrolling not implemented.",
+          "DEMO identity; this is not human evaluation.",
+          "Cookie persistence is a prototype session result, native repeated-entry behavior unknown.",
+          "Continuation runs start from preceding caller state; not independent resets."
+        ]
+      },
+      {
+        "id": "PROTO-POLICY-PRIVACY-REUPLOAD-001",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "start_node_id": "67:820",
+        "started_at": "2026-09-30T17:23:56.621Z",
+        "ended_at": "2026-09-30T17:24:09.597Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Policy scroll · finite observed viewports",
+        "status": "partial",
+        "navigation_status": "Same PNG reupload; two entries retain wordmark and initial/scrolled exits restore drawer.",
+        "visual_status": "Finite sample only; approximate typography/geometry, clipped text fragments and full native fidelity remain incomplete.",
+        "steps": [
+          {
+            "file": "14-privacy-after-image-reupload.png",
+            "at": "2026-09-30T17:23:56.621Z",
+            "state_id": "S-PRIVACY-NO-COOKIE",
+            "description": "Same PNG reuploaded; reentry and wordmark inspected.",
+            "visible_node_id": "50:2058",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-14"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "15-privacy-scrolled-recheck.png",
+            "at": "2026-09-30T17:24:08.764Z",
+            "state_id": "S-PRIVACY-SCROLLED",
+            "description": "Second Privacy proxy sample after image reupload.",
+            "visible_node_id": "655:19",
+            "action_id": "A-PRIVACY-SCROLL",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-15"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "16-privacy-drawer-recheck.png",
+            "at": "2026-09-30T17:24:09.034Z",
+            "state_id": "S-DRAWER",
+            "description": "Second scrolled Privacy Back.",
+            "visible_node_id": "75:1669",
+            "action_id": "A-PRIVACY-BACK",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-16"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "17-privacy-image-second-entry.png",
+            "at": "2026-09-30T17:24:09.344Z",
+            "state_id": "S-PRIVACY-NO-COOKIE",
+            "description": "Consecutive reentry after same PNG reupload; finite visual check.",
+            "visible_node_id": "50:2058",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-17"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "18-privacy-initial-back-recheck.png",
+            "at": "2026-09-30T17:24:09.597Z",
+            "state_id": "S-DRAWER",
+            "description": "Second initial Back closes to drawer.",
+            "visible_node_id": "75:1669",
+            "action_id": "A-PRIVACY-BACK",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-18"
+            ],
+            "outcome": "finite_saved_sample"
+          }
+        ],
+        "evidence_ids": [
+          "E-POLICY-SCROLL-SCREEN-14",
+          "E-POLICY-SCROLL-SCREEN-15",
+          "E-POLICY-SCROLL-SCREEN-16",
+          "E-POLICY-SCROLL-SCREEN-17",
+          "E-POLICY-SCROLL-SCREEN-18"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-policy-scroll/manifest.json",
+        "limitations": [
+          "Down is a prototype input proxy available before cookie dismissal too.",
+          "Intermediate text, scroll offset/bounds and reverse scrolling not implemented.",
+          "DEMO identity; this is not human evaluation.",
+          "Cookie persistence is a prototype session result, native repeated-entry behavior unknown.",
+          "Continuation runs start from preceding caller state; not independent resets."
+        ]
+      },
+      {
+        "id": "PROTO-POLICY-TERMS-REENTRY-001",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "start_node_id": "67:820",
+        "started_at": "2026-09-30T17:24:17.705Z",
+        "ended_at": "2026-09-30T17:24:29.630Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Policy scroll · finite observed viewports",
+        "status": "failed_visual",
+        "navigation_status": "Terms finite proxy returns pass, loading mark missing on reentry.",
+        "visual_status": "Finite sample only; approximate typography/geometry, clipped text fragments and full native fidelity remain incomplete.",
+        "steps": [
+          {
+            "file": "19-terms-reentry-transition.png",
+            "at": "2026-09-30T17:24:17.705Z",
+            "state_id": "S-TERMS-LOADING",
+            "description": "Terms second entry loading card has no mark; saved-pixel failure preserved.",
+            "visible_node_id": "621:20",
+            "action_id": "A-DRAWER-TERMS",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-19"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "20-terms-reentry-settled.png",
+            "at": "2026-09-30T17:24:28.879Z",
+            "state_id": "S-TERMS-NO-COOKIE",
+            "description": "Terms reentry after timer; inspect wordmark and independent dismissed state.",
+            "visible_node_id": "50:1862",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-20"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "21-terms-scrolled-recheck.png",
+            "at": "2026-09-30T17:24:29.128Z",
+            "state_id": "S-TERMS-SCROLLED",
+            "description": "Second Terms finite proxy.",
+            "visible_node_id": "655:62",
+            "action_id": "A-TERMS-SCROLL",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-21"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "22-terms-drawer-recheck.png",
+            "at": "2026-09-30T17:24:29.389Z",
+            "state_id": "S-DRAWER",
+            "description": "Second Terms scrolled return.",
+            "visible_node_id": "75:1669",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-22"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "23-home-final.png",
+            "at": "2026-09-30T17:24:29.630Z",
+            "state_id": "S-HOME",
+            "description": "Drawer closes to Home after second Terms run.",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-23"
+            ],
+            "outcome": "finite_saved_sample"
+          }
+        ],
+        "evidence_ids": [
+          "E-POLICY-SCROLL-SCREEN-19",
+          "E-POLICY-SCROLL-SCREEN-20",
+          "E-POLICY-SCROLL-SCREEN-21",
+          "E-POLICY-SCROLL-SCREEN-22",
+          "E-POLICY-SCROLL-SCREEN-23"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-policy-scroll/manifest.json",
+        "limitations": [
+          "Down is a prototype input proxy available before cookie dismissal too.",
+          "Intermediate text, scroll offset/bounds and reverse scrolling not implemented.",
+          "DEMO identity; this is not human evaluation.",
+          "Cookie persistence is a prototype session result, native repeated-entry behavior unknown.",
+          "Continuation runs start from preceding caller state; not independent resets."
+        ]
+      },
+      {
+        "id": "PROTO-POLICY-TERMS-MARK-REUPLOAD-001",
+        "revision_id": "FIGMA-POLICY-SCROLL-20261001",
+        "start_node_id": "67:820",
+        "started_at": "2026-09-30T17:25:37.471Z",
+        "ended_at": "2026-09-30T17:30:55.633Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Policy scroll · finite observed viewports",
+        "status": "partial",
+        "navigation_status": "Same PNG loading mark visible on two consecutive entries; settled policy and initial Back return. Long-session stability unverified.",
+        "visual_status": "Finite sample only; approximate typography/geometry, clipped text fragments and full native fidelity remain incomplete.",
+        "steps": [
+          {
+            "file": "24-terms-reupload-loading.png",
+            "at": "2026-09-30T17:25:37.471Z",
+            "state_id": "S-TERMS-LOADING",
+            "description": "Same Terms loading PNG reupload; first subsequent entry.",
+            "visible_node_id": "621:20",
+            "action_id": "A-DRAWER-TERMS",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-24"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "25-terms-reupload-settled.png",
+            "at": "2026-09-30T17:25:49.710Z",
+            "state_id": "S-TERMS-NO-COOKIE",
+            "description": "Settled Terms after loading-image reupload.",
+            "visible_node_id": "50:1862",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-25"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "26-terms-reupload-drawer.png",
+            "at": "2026-09-30T17:25:49.989Z",
+            "state_id": "S-DRAWER",
+            "description": "Initial Terms Back returns caller.",
+            "visible_node_id": "75:1669",
+            "action_id": "A-TERMS-BACK",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-26"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "27-terms-reupload-second-loading.png",
+            "at": "2026-09-30T17:25:50.239Z",
+            "state_id": "S-TERMS-LOADING",
+            "description": "Second consecutive entry after same PNG reupload.",
+            "visible_node_id": "621:20",
+            "action_id": "A-DRAWER-TERMS",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-27"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "28-terms-reupload-second-settled.png",
+            "at": "2026-09-30T17:30:55.123Z",
+            "state_id": "S-TERMS-NO-COOKIE",
+            "description": "Second settled Terms after mark reupload.",
+            "visible_node_id": "50:1862",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-28"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "29-terms-reupload-second-drawer.png",
+            "at": "2026-09-30T17:30:55.389Z",
+            "state_id": "S-DRAWER",
+            "description": "Second initial Terms Back after mark reupload.",
+            "visible_node_id": "75:1669",
+            "action_id": "A-TERMS-BACK",
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-29"
+            ],
+            "outcome": "finite_saved_sample"
+          },
+          {
+            "file": "30-home-delivery.png",
+            "at": "2026-09-30T17:30:55.633Z",
+            "state_id": "S-HOME",
+            "description": "Final caller restored after finite repair tests.",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-POLICY-SCROLL-SCREEN-30"
+            ],
+            "outcome": "finite_saved_sample"
+          }
+        ],
+        "evidence_ids": [
+          "E-POLICY-SCROLL-SCREEN-24",
+          "E-POLICY-SCROLL-SCREEN-25",
+          "E-POLICY-SCROLL-SCREEN-26",
+          "E-POLICY-SCROLL-SCREEN-27",
+          "E-POLICY-SCROLL-SCREEN-28",
+          "E-POLICY-SCROLL-SCREEN-29",
+          "E-POLICY-SCROLL-SCREEN-30"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-policy-scroll/manifest.json",
+        "limitations": [
+          "Down is a prototype input proxy available before cookie dismissal too.",
+          "Intermediate text, scroll offset/bounds and reverse scrolling not implemented.",
+          "DEMO identity; this is not human evaluation.",
+          "Cookie persistence is a prototype session result, native repeated-entry behavior unknown.",
+          "Continuation runs start from preceding caller state; not independent resets."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -86089,7 +87483,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "137 mapped frames / 3 internal component states / 308 configured controls / 16 scroll regions / 82 prototype runs. Study/Courses/QR observed generic loading integrated; caller returns sampled, QR Navigate photo failures preserved, overlay sample improves. Complete application and visual fidelity not_verified.",
+    "verification_summary": "139 mapped frames / 3 internal component states / 312 configured controls / 16 scroll regions / 86 prototype runs. Policy finite scrolled viewports integrated, input proxies explicit. Privacy wordmark and Terms loading-mark failures and same-PNG repairs preserved. Complete application/visual fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -86554,7 +87948,8 @@
       "terms_loading": "observed_loading_imported_overlay_stack_repair_two_callers_sampled_full_scope_open",
       "food_loading": "two_observed_loading_frames_imported_two_delays_three_entries_replaced_hours_direct_samples_full_scope_open",
       "food_loading_mark": "same_png_reupload_two_consecutive_direct_samples_mark_visible_broader_stability_open",
-      "account_loading": "three_loading_roots_three_timers_seven_entries_qr_exit_recorded_finite_home_samples_qr_visual_failures_retained"
+      "account_loading": "three_loading_roots_three_timers_seven_entries_qr_exit_recorded_finite_home_samples_qr_visual_failures_retained",
+      "policy_scrolled_finite_samples": "two_keyboard_proxies_and_returns_replayed_continuous_scroll_incomplete"
     },
     "additional_imports": [
       {
@@ -87631,7 +89026,7 @@
         "scope": "Ten main historical dated contexts with continuous horizontal bars and Today vertical list; two route samples. Complete date/filter/caller/full App scope pending."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-30T17:04:02.349Z",
+    "latest_prototype_run_cutoff": "2026-09-30T17:30:55.633Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -89743,6 +91138,52 @@
             "D-STUDY-STATIC-INPUT"
           ]
         }
+      },
+      {
+        "action_id": "A-PRIVACY-BACK",
+        "source_node_id": "50:2058",
+        "target_node_id": null,
+        "trigger_node_id": "50:2104",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001",
+          "PROTO-POLICY-COOKIE-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ],
+        "tested_source_state_ids": [
+          "S-PRIVACY",
+          "S-PRIVACY-NO-COOKIE"
+        ],
+        "superseded_by": "C-POLICY-SCROLL-05",
+        "superseded_reason": "Overlay caller preservation for policy finite scroll states."
+      },
+      {
+        "action_id": "A-DRAWER-PRIVACY",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:2058",
+        "trigger_node_id": "75:1696",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "superseded_by": "C-POLICY-SCROLL-06",
+        "superseded_reason": "Overlay caller preservation for policy finite scroll states."
       }
     ],
     "source_preparation_imports": [

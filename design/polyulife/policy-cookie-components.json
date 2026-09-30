@@ -37,7 +37,8 @@
         "PROTO-POLICY-COOKIE-V2-001"
       ],
       "verification_status": "cookie_dismissal_and_back_passed_scroll_unimplemented",
-      "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover."
+      "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover.",
+      "subsequent_scrolled_proxy_revision": "FIGMA-POLICY-SCROLL-20261001"
     },
     {
       "state_id": "S-TERMS-NO-COOKIE",
@@ -76,9 +77,10 @@
         "PROTO-POLICY-COOKIE-V2-001"
       ],
       "verification_status": "cookie_dismissal_and_back_passed_scroll_unimplemented",
-      "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover."
+      "note": "A component state within an existing frame, not a new full-screen frame. Independent component identity prevents cross-policy cookie-state carryover.",
+      "subsequent_scrolled_proxy_revision": "FIGMA-POLICY-SCROLL-20261001"
     }
   ],
   "implementation": "Independent main component sets for Privacy and Terms, each Default -> Dismissed. Dismissed hides all content children without navigating. Existing screen Back retains caller history.",
-  "remaining": "Full scrolling, Terms loading, repeat-entry native persistence and wordmark stability unverified."
+  "remaining": "Full continuous/reverse scrolling, complete body, web controls and native repeat-entry persistence remain unverified. Terms loading now integrated; see terms-loading-connections.json. Finite scrolled proxies added separately, not native wheel implementation."
 }
