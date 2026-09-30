@@ -1,0 +1,77 @@
+{
+  "kind": "assistant_transient_source_preparation",
+  "status": "prepared_not_imported_not_replayed",
+  "records": [
+    {
+      "state_id": "S-ASSISTANT-BEFORE-HERO",
+      "source_evidence_ids": [
+        "E-ASSISTANT-BEFORE-HERO"
+      ],
+      "native_screenshot": "../../evidence/2026-09-28-full-audit/virtual-assistant-154604-before-hero.png",
+      "native_screenshot_sha256": "dba65d9e0ab6f02d9d01b1ef543c21da12c4d53563cf0e3c6fcb2b0a60dcc3fe",
+      "base_svg": "virtual-assistant-detail.svg",
+      "base_svg_sha256": "6e2fccc3dac2de3ab2c3d789778d9f934451bf87812c28e2b2eddaade202f778",
+      "output": "virtual-assistant-before-hero.svg",
+      "output_sha256": "8157e8c363ba4f28112ed9f01549636507887e9f13803a9b1ccb836515772bd0",
+      "frame_size": [
+        576,
+        970
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "details": "Article position before hero appears; no invented reserved image space or spinner."
+    },
+    {
+      "state_id": "S-ASSISTANT-WEB-LOADING",
+      "source_evidence_ids": [
+        "E-ASSISTANT-WEB-LOADING"
+      ],
+      "native_screenshot": "../../evidence/2026-09-28-full-audit/virtual-assistant-154628-web-loading.png",
+      "native_screenshot_sha256": "f6c758e9e9b8567def2979ffdbbfbf5fabc3c5492e83d6dff584363e96d00ac9",
+      "base_svg": "virtual-assistant-welcome.svg",
+      "base_svg_sha256": "8f1de850c4b528ac68ed989f4ae6ce82bbe0453aa182d38b474ffd066b00cf18",
+      "output": "virtual-assistant-web-loading.svg",
+      "output_sha256": "701f302c82405238149803e64ab51debca5b32f4fc4dedd3f3e3fdb9b8c828dc",
+      "frame_size": [
+        576,
+        970
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "details": "Intermediate loading source, no duration established."
+    },
+    {
+      "state_id": "S-ASSISTANT-WEB-BLANK",
+      "source_evidence_ids": [
+        "E-ASSISTANT-WEB-BLANK"
+      ],
+      "native_screenshot": "../../evidence/2026-09-28-full-audit/virtual-assistant-154746-web-blank.png",
+      "native_screenshot_sha256": "6b8c3cf08bcffbbb70a47b336c86aef03ba000531853cbf7dcf35674a75c048b",
+      "base_svg": "virtual-assistant-welcome.svg",
+      "base_svg_sha256": "8f1de850c4b528ac68ed989f4ae6ce82bbe0453aa182d38b474ffd066b00cf18",
+      "output": "virtual-assistant-web-blank.svg",
+      "output_sha256": "10f04ed16cb3dedabe4287d48b90ab044e394a3ce395af049ba30e41e9ac8adc",
+      "frame_size": [
+        576,
+        970
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "details": "Unresolved blank reference; close source confirmed via native AX only; causal trigger not modeled."
+    }
+  ],
+  "loading_mark": {
+    "file": "assets/virtual-assistant-loading-mark.png",
+    "sha256": "63cf7e916a8c2093b1eec3c70aa5b6bb2d2bb7f8032c1a04adcbfcb0df5e2d87",
+    "dimensions": [
+      56,
+      58
+    ],
+    "source_evidence_id": "E-ASSISTANT-WEB-LOADING",
+    "source_sha256": "f6c758e9e9b8567def2979ffdbbfbf5fabc3c5492e83d6dff584363e96d00ac9",
+    "crop_xyxy": [
+      261,
+      533,
+      317,
+      591
+    ],
+    "scope": "Static native public loading artwork only; no spinner timing inferred."
+  }
+}

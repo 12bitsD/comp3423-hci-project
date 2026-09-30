@@ -1,5 +1,7 @@
 # Figma 复现与证据对应约定
 
+最新[Assistant中间状态素材](assistant-transient-source-preparation.md)补齐BeforeHero/WebLoading/WebBlank三份可编辑SVG及本地渲染；尚未导入或连线。当前截图/点击反馈和原生Wrapper连接未恢复，Figma仍128画板、299控件、64次运行，全应用 `not_verified`。
+
 最新[Calendar筛选上下文检查点](calendar-filter-context-prototype-walkthrough.md)补入三个画板、八条控件，Monday选择循环、学术日历Apply和重开已回放。All/None背景为组合，三个X出口为推断；截图采集在留存30后中断，Home返回、Tuesday和Flow根检查待续。累计128画板、299控件、64次回放，全应用 `not_verified`。
 
 最新[Calendar日期上下文](calendar-date-context-prototype-walkthrough.md)新增三张日期画板、七条控件，按已观察语义连接Sep26→Oct1→Sep1→Sep28→Sep26，两种Home调用者及各三个恢复出口实际回放。十五项比较十三项相等、两个Home局部差异保留。累计125画板、291控件、63次回放，全应用仍 `not_verified`。
