@@ -11,7 +11,7 @@
 
 ## 当前进度（2026-09-30）
 
-Room查询和AG206地图样例已归入正式台账：**108个Figma画板、3个画板内组件状态、240个配置控件、6个滚动区域及37次原型运行**（包括失败记录）。查询新增七个日期/聚焦变体、五条连接和两条实际Present回放，见 [查询回放](room-query-source-preparation.md)；地图新增三个部分可编辑画板、六个控件及失败/修复后运行，见 [地图回放](room-map-prototype-walkthrough.md)。新增[七日选择、筛选保持与列表边界的原生实测](room-dates-20260930.md)后，当前原生为132个状态、268个动作（185 observed、83 not_attempted）。本批12张日期/筛选变体已导入、12个控件与Today连续列表已实跑，见[七日原型回放](room-dates-prototype-walkthrough.md)；日期条仍为拖动代理，Home和其它交接待完成。变体和原型回放不增加原生观察数量。全应用完成状态保持 `not_verified`。
+Room查询和AG206地图样例已归入正式台账：**108个Figma画板、3个画板内组件状态、241个配置控件、7个滚动区域及38次原型运行**（包括失败记录）。查询新增七个日期/聚焦变体、五条连接和两条实际Present回放，见 [查询回放](room-query-source-preparation.md)；地图新增三个部分可编辑画板、六个控件及失败/修复后运行，见 [地图回放](room-map-prototype-walkthrough.md)。新增[七日选择、筛选保持与列表边界的原生实测](room-dates-20260930.md)后，当前原生为132个状态、268个动作（185 observed、83 not_attempted）。本批12张日期/筛选变体已导入、12个控件与Today连续列表已实跑，见[七日原型回放](room-dates-prototype-walkthrough.md)；Tuesday 已替换为连续横向滚动，并完成两次 Today 返回，见[连续日期条回放](room-horizontal-dates-prototype-walkthrough.md)；其它日期条命中差异、Home和其它交接待完成。变体和原型回放不增加原生观察数量。全应用完成状态保持 `not_verified`。
 
 已通过 Computer Use 完成一轮 [Room Finder 实际走查](room-walkthrough.md)：输入与无结果、AG206 联想查询、ALL/Available 筛选、Preview 网页与照片轮播、日期异步更新、AG206 地图缩放以及返回 Home 的基本路径。Room 其它分支和边界仍在发现队列，不能称为全部交互已覆盖。
 
@@ -31,7 +31,7 @@ Room查询和AG206地图样例已归入正式台账：**108个Figma画板、3个
 
 Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选择器应用新周数尚未确认成功；所有模块仍保留未测控件与边界。Apps中的Study分类与Home的Study progress分别记录。Home的Notification、Calendar、Search、Menu及各自返回已补测；底部Calendar实际落在Week5。当前108个画板已登记Figma映射（另保留旧检查点和菜单裁片等历史源码），个人课程和日程使用明确的DEMO资料，二维码不可扫描。
 
-五份公开清单合计910个PNG文件（主清单836、查询回放8、地图回放26、七日选择20、七日原型20，含拼图），文件哈希和尺寸已校验；私人原始图不提交。图片数量不作为覆盖率或成功率。
+六份公开清单合计940个PNG文件（主清单836、查询回放8、地图回放26、七日选择20、七日原型20、连续日期条30，含拼图），文件哈希和尺寸已校验；私人原始图不提交。图片数量不作为覆盖率或成功率。
 
 真实 [Figma Design 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)已新增 `01 · Observed UI`：四张 576×970 Room SVG 设计源码已导入为原生可编辑图层，并建立[当前 Room 样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1)。独立标签页已复验 **A 样例 → AG206 → Available → ALL** 四步。旧草稿已置于 `00 · Archive — initial AI draft`（原 `Page 1`），其三条旧连接记录保留为历史。
 

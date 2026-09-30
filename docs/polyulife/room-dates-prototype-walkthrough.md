@@ -1,5 +1,7 @@
 # Room：September30 日期、筛选与连续列表原型
 
+> 本页保留此前有限拖动版本的历史回放。Tuesday 的旧拖动连接已由[连续日期条与 Today 返回](room-horizontal-dates-prototype-walkthrough.md)替代；下方数量和有限代理描述对应此前版本。
+
 2026-09-30，在现有 Figma 文件的 `01 · Observed UI` 页面，通过 Computer Use 导入12张可编辑 SVG、配置12个控件及1个垂直滚动区域，并在 Present 中按原生实测顺序回放。来源为[七日原生观察](room-dates-20260930.md)；本页是原型回放，不增加原生执行记录，也不替代手机或真人评价。旧日期画板和失败记录保留。
 
 [打开本批流程](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=412-19&scaling=scale-down&content-scaling=fixed&starting-point-node-id=412%3A19&show-proto-sidebar=1) · [源码与来源哈希](../../design/polyulife/room-dates-sources.json) · [实际节点、控件及视口配置](../../design/polyulife/room-dates-connections.json) · [截图、像素检查及脱敏清单](../../evidence/2026-09-30-room-dates-prototype/manifest.json)

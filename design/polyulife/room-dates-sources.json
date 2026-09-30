@@ -239,7 +239,7 @@
       "list_offset": 0
     },
     {
-      "file": "room-dates-tuesday-available.svg",
+      "file": "room-dates-tuesday-horizontal.svg",
       "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
       "context_variant": "20260930-tuesday-available",
       "source_evidence_ids": [
@@ -251,18 +251,25 @@
       "source_evidence_sha256": [
         "593809f06832c0e1dffa0ad404b9b5d7f0d81ed7fe5b12a4ae11629d04bc3fba"
       ],
-      "sha256": "d3fa9d208332dca10921611206a2ad5e4a73dbfcc2daaadda6ba99b9d10c589a",
+      "sha256": "64470417819e33c747a1aedcbae1f1b8895cbcfd04274a8f521b5352b0ced271",
       "dimensions": [
         576,
         1026
       ],
       "figma_node_id": "412:1120",
-      "status": "sample_replayed_partial_fidelity",
+      "status": "horizontal_viewport_and_today_return_sample_replayed",
       "label": "tuesday-available",
       "date": "06-Oct",
       "filter": "available",
       "date_strip_offset": -142,
-      "list_offset": 0
+      "list_offset": 0,
+      "source_history": [
+        {
+          "file": "room-dates-tuesday-available.svg",
+          "sha256": "d3fa9d208332dca10921611206a2ad5e4a73dbfcc2daaadda6ba99b9d10c589a",
+          "revision_id": "FIGMA-ROOM-DATES-20260930"
+        }
+      ]
     },
     {
       "file": "room-dates-tuesday-reversed.svg",
