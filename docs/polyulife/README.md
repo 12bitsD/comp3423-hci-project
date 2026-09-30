@@ -11,6 +11,8 @@
 
 ## 当前进度（2026-09-30）
 
+最新[天气官方网页回放](weather-web-prototype-walkthrough.md)新增既有原生状态的一个网页画板和两条控件。入口与原型返回已回放，工具瞬时缺图（留存图已恢复）、原PNG重传及两轮复验保留；累计116画板、270控件、51次运行。网页关闭原生结果、Cookie/浏览器控制、完整滚动与可编辑保真仍待补。全应用为 `not_verified`；以下统计是历史批次快照。
+
 最新[Food地图平移与返回](food-map-pan-prototype-walkthrough.md)补接既有地图两条控件，Tuesday Home的一次平移及逐层返回已回放，保留标题点击未跳转的尝试。累计115画板、268控件、48次运行；离散地图及300ms动画属于原型代理，完整应用保持 `not_verified`。
 
 最新[More / Notification 搜索回放](search-callers-prototype-walkthrough.md)新增六个可编辑搜索上下文、十五条连接与四次运行记录；Return错连的失败和修复保留，两个入口的固定查询及返回样例已回放。W/R是输入代理，任意查询、原生新分支与完整视觉仍待验证。正式归档总计115画面、266控件、47次原型运行；全应用保持 `not_verified`。

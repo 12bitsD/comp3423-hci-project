@@ -1,5 +1,7 @@
 # Figma 复现与证据对应约定
 
+最新[天气官方网页回放](weather-web-prototype-walkthrough.md)新增既有原生状态的一个网页画板和两条控件。入口与原型返回已回放，工具瞬时缺图（留存图已恢复）、原PNG重传及两轮复验保留；累计116画板、270控件、51次运行。网页关闭原生结果、Cookie/浏览器控制、完整滚动与可编辑保真仍待补。全应用为 `not_verified`；以下统计是历史批次快照。
+
 2026-09-30最新[Food地图平移与返回](food-map-pan-prototype-walkthrough.md)在既有画板50:2246/50:2267补接MapViewport拖动与平移Back；一个Tuesday来源链路已回放，累计115画板、268控件、48次运行。地理内容为截图裁片，On drag与300ms动画为离散原型，完整范围仍为 `not_verified`。以下批次数字保留为历史快照。
 
 2026-09-30最新批次见[Preview登录边界与复制反馈](room-preview-controls-prototype-walkthrough.md)：画板452:19为576×1024、位置0,43000，校徽来自公开原生截图，表单及导航未连线；Copy文字312:242为On click→Close overlay，顶部和滚动后均已回放。当前109个映射画板、245个配置控件、40次运行。完整认证/指南/调用者和实际剪贴板语义尚未完成，全应用保持 `not_verified`。本页后续较早批次数字为历史快照。

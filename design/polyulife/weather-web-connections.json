@@ -1,0 +1,84 @@
+{
+  "revision_id": "FIGMA-WEATHER-WEB-20260930",
+  "connections": [
+    {
+      "source_node_id": "12:480",
+      "trigger_node_id": "12:500",
+      "trigger_node_name": "WeatherWebLink",
+      "target_node_id": "551:20",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "animation": "Instant",
+      "action_id": "A-WEATHER-LINK",
+      "connection_id": "C-WEATHER-WEB-LINK",
+      "revision_id": "FIGMA-WEATHER-WEB-20260930",
+      "configured_at": "2026-09-30T14:17:05.975Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-WEATHER-WEB-FIRST-001",
+        "PROTO-WEATHER-WEB-IMAGE-REPAIR-001"
+      ],
+      "source_evidence_ids": [
+        "E-WEATHER-WEB"
+      ],
+      "prototype_evidence_ids": [
+        "E-WEATHER-WEB-PROTO-TRACE",
+        "E-WEATHER-WEB-PROTO-SCREEN-02"
+      ],
+      "deviation_ids": [
+        "D-WEATHER-WEB-STATIC",
+        "D-WEATHER-WEB-IMAGE-REENTRY"
+      ]
+    },
+    {
+      "source_node_id": "551:20",
+      "trigger_node_id": "551:31",
+      "trigger_node_name": "CloseWeatherWeb",
+      "target_node_id": null,
+      "tested_target_node_ids": [
+        "12:480"
+      ],
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "action_id": null,
+      "source_generalization": "Native A-WEATHER-WEB-CLOSE remains not_attempted; closure is prototype recovery only.",
+      "connection_id": "C-WEATHER-WEB-CLOSE-PROXY",
+      "revision_id": "FIGMA-WEATHER-WEB-20260930",
+      "configured_at": "2026-09-30T14:18:20.312Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-WEATHER-WEB-FIRST-001",
+        "PROTO-WEATHER-WEB-IMAGE-REPAIR-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-WEATHER-WEB-PROTO-TRACE",
+        "E-WEATHER-WEB-PROTO-SCREEN-03"
+      ],
+      "deviation_ids": [
+        "D-WEATHER-WEB-STATIC",
+        "D-WEATHER-WEB-IMAGE-REENTRY"
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "text_node_id": "551:68",
+      "change": "First Cookie line23px to22px, imported Inter fallback, approximate geometry",
+      "evidence_id": "E-WEATHER-WEB-PROTO-SCREEN-09"
+    },
+    {
+      "image_node_id": "551:42",
+      "asset": "weather-web-wordmark.png",
+      "evidence_id": "E-WEATHER-WEB-PROTO-SCREEN-11"
+    },
+    {
+      "image_node_id": "551:58",
+      "asset": "weather-web-banner.png",
+      "evidence_id": "E-WEATHER-WEB-PROTO-SCREEN-12"
+    }
+  ],
+  "native_close_status": "not_attempted",
+  "scope_completion": "not_verified",
+  "image_transient_note": "Immediately preceding Computer Use tool image showed missing wordmark/banner; saved10 screenshot already restored both. Filename retained. This saved file is recovery evidence, not proof of sustained missing images or repair causality."
+}
