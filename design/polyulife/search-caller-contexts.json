@@ -22,7 +22,7 @@
         970
       ],
       "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
-      "status": "imported_configuration_partial_replay_pending",
+      "status": "imported_configured_sample_replayed_full_fidelity_pending",
       "node_id": "527:19",
       "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-19"
     },
@@ -47,7 +47,7 @@
         970
       ],
       "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
-      "status": "imported_configuration_partial_replay_pending",
+      "status": "imported_configured_sample_replayed_full_fidelity_pending",
       "node_id": "527:34",
       "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-34"
     },
@@ -72,7 +72,7 @@
         970
       ],
       "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
-      "status": "imported_configuration_partial_replay_pending",
+      "status": "imported_configured_sample_replayed_full_fidelity_pending",
       "node_id": "527:65",
       "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-65"
     },
@@ -97,7 +97,7 @@
         970
       ],
       "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
-      "status": "imported_configuration_partial_replay_pending",
+      "status": "imported_configured_sample_replayed_full_fidelity_pending",
       "node_id": "527:96",
       "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-96"
     },
@@ -122,18 +122,43 @@
         970
       ],
       "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
-      "status": "imported_configuration_partial_replay_pending",
+      "status": "imported_configured_sample_replayed_full_fidelity_pending",
       "node_id": "527:111",
       "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-111"
+    },
+    {
+      "label": "notification-submitted",
+      "name": "[SEARCH-NOTIFICATION-SUBMITTED] Search — weather after Return",
+      "state_id": "S-NOTIFICATION-SEARCH-NONE",
+      "context_variant": "notification-weather-after-return-caller-overlay",
+      "source_file": "search-context-notification-submitted.svg",
+      "source_sha256": "b864e5fa57a8e989a0701ed0db593205f56196d38559b468fe7b0a45baa87ead",
+      "base_design_file": "search-context-notification-weather.svg",
+      "native_source_evidence_ids": [
+        "E-NOTIFICATION-SUBMIT"
+      ],
+      "native_screenshot_sha256": "7d0a03f7a360706128f6f79f0e61694c37874b8de75631823b75fa160c15d376",
+      "position": [
+        3500,
+        47000
+      ],
+      "dimensions": [
+        576,
+        970
+      ],
+      "node_id": "538:20",
+      "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=538-20",
+      "source_scope": "Actual Figma duplicate of527:111 with unchanged visual content; self Swap overlay disabled, so identical submitted context implements observed Return result. Repeated Return and copied Clear/Back contexts are prototype generalizations.",
+      "status": "imported_configured_sample_replayed_full_fidelity_pending"
     }
   ],
   "scope_completion": "not_verified",
   "checkpoint": {
-    "configured_connections": 7,
-    "planned_connections": 12,
-    "prototype_replay": "not_attempted",
-    "coverage_integration": "pending",
+    "configured_connections": 15,
+    "planned_connections": 15,
+    "prototype_replay": "sample_replayed_with_failed_attempt_preserved",
+    "coverage_integration": "archived",
     "native_observations_added": 0,
-    "notes": "Checkpoint requested before the remaining Notification controls and end-to-end replay. Existing coverage totals remain the archived baseline."
+    "notes": "Original five-frame/seven-connection checkpoint retained in Git history. Corrected misplaced Enter; identical submitted context plus three repeated/copied controls added. Full application remains unverified."
   }
 }

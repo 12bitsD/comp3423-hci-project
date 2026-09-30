@@ -1,6 +1,6 @@
 {
   "revision_id": "FIGMA-SEARCH-CALLERS-20260930",
-  "status": "partial_checkpoint",
+  "status": "configured_sample_replayed_full_scope_open",
   "connections": [
     {
       "connection_id": "C-SEARCH-MORE-ENTRY",
@@ -11,9 +11,7 @@
       "behavior": "Open overlay",
       "target_node_id": "527:19",
       "action_id": "A-MORE-SEARCH",
-      "at": "2026-09-30T09:56:07.339Z",
-      "verification": "editor_configuration_readback_only",
-      "prototype_replay": "not_attempted"
+      "at": "2026-09-30T09:56:07.339Z"
     },
     {
       "connection_id": "C-SEARCH-MORE-W",
@@ -26,9 +24,7 @@
       "target_node_id": "527:34",
       "action_id": "A-MORE-QUERY-WEATHER",
       "input_proxy": true,
-      "at": "2026-09-30T09:58:10.242Z",
-      "verification": "editor_configuration_readback_only",
-      "prototype_replay": "not_attempted"
+      "at": "2026-09-30T09:58:10.242Z"
     },
     {
       "connection_id": "C-SEARCH-MORE-R",
@@ -42,9 +38,7 @@
       "destination_name": "[SEARCH-MORE-ROOM] Search — more-room",
       "action_id": "A-MORE-QUERY-ROOM",
       "input_proxy": true,
-      "at": "2026-09-30T09:59:25.506Z",
-      "verification": "editor_configuration_readback_only",
-      "prototype_replay": "not_attempted"
+      "at": "2026-09-30T09:59:25.506Z"
     },
     {
       "connection_id": "C-SEARCH-MORE-ROOM-BACK",
@@ -55,9 +49,7 @@
       "behavior": "Close overlay",
       "target_node_id": null,
       "action_id": "A-MORE-SEARCH-BACK",
-      "at": "2026-09-30T10:00:33.345Z",
-      "verification": "editor_configuration_readback_only",
-      "prototype_replay": "not_attempted"
+      "at": "2026-09-30T10:00:33.345Z"
     },
     {
       "connection_id": "C-SEARCH-MORE-EMPTY-BACK",
@@ -69,9 +61,7 @@
       "target_node_id": null,
       "action_id": null,
       "source_generalization": true,
-      "at": "2026-09-30T10:04:36.082Z",
-      "verification": "editor_configuration_readback_only",
-      "prototype_replay": "not_attempted"
+      "at": "2026-09-30T10:04:36.082Z"
     },
     {
       "connection_id": "C-SEARCH-MORE-WEATHER-BACK",
@@ -83,9 +73,7 @@
       "target_node_id": null,
       "action_id": null,
       "source_generalization": true,
-      "at": "2026-09-30T10:04:50.439Z",
-      "verification": "editor_configuration_readback_only",
-      "prototype_replay": "not_attempted"
+      "at": "2026-09-30T10:04:50.439Z"
     },
     {
       "connection_id": "C-SEARCH-NOTIFICATION-ENTRY",
@@ -97,9 +85,123 @@
       "target_node_id": "527:96",
       "destination_name": "[SEARCH-NOTIFICATION-EMPTY] Search — notification-empty",
       "action_id": "A-NOTIFICATION-SEARCH",
-      "at": "2026-09-30T10:08:51.374Z",
-      "verification": "editor_configuration_readback_only",
-      "prototype_replay": "not_attempted"
+      "at": "2026-09-30T10:08:51.374Z"
+    },
+    {
+      "connection_id": "C-SEARCH-NOTIFICATION-W",
+      "source_node_id": "527:96",
+      "trigger_node_id": "527:96",
+      "trigger_node_name": "Root fixed query input proxy",
+      "trigger": "Key/Gamepad",
+      "key": "w",
+      "behavior": "Swap overlay",
+      "target_node_id": "527:111",
+      "destination_name": "[SEARCH-NOTIFICATION-WEATHER] Search — notification-weather",
+      "action_id": "A-NOTIFICATION-QUERY",
+      "input_proxy": true,
+      "at": "2026-09-30T10:14:29.484Z"
+    },
+    {
+      "connection_id": "C-SEARCH-NOTIFICATION-RETURN",
+      "source_node_id": "527:111",
+      "trigger_node_id": "527:111",
+      "trigger_node_name": "Root Return on fixed weather query",
+      "trigger": "Key/Gamepad",
+      "key": "Return",
+      "behavior": "Swap overlay",
+      "target_node_id": "538:20",
+      "destination_name": "[SEARCH-NOTIFICATION-SUBMITTED] Search — weather after Return",
+      "action_id": "A-NOTIFICATION-SUBMIT",
+      "at": "2026-09-30T10:22:09.955Z",
+      "repair": "Misplaced Enter removed from empty; self-target disallowed, identical submitted context duplicate used."
+    },
+    {
+      "connection_id": "C-SEARCH-NOTIFICATION-CLEAR",
+      "source_node_id": "527:111",
+      "trigger_node_id": "527:124",
+      "trigger_node_name": "ClearSearch",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "527:96",
+      "destination_name": "[SEARCH-NOTIFICATION-EMPTY] Search — notification-empty",
+      "action_id": "A-NOTIFICATION-CLEAR",
+      "at": "2026-09-30T10:15:01.363Z"
+    },
+    {
+      "connection_id": "C-SEARCH-NOTIFICATION-WEATHER-BACK",
+      "source_node_id": "527:111",
+      "trigger_node_id": "527:115",
+      "trigger_node_name": "Back",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "action_id": null,
+      "source_generalization": true,
+      "at": "2026-09-30T10:15:15.014Z"
+    },
+    {
+      "connection_id": "C-SEARCH-NOTIFICATION-EMPTY-BACK",
+      "source_node_id": "527:96",
+      "trigger_node_id": "527:100",
+      "trigger_node_name": "Back",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "action_id": "A-NOTIFICATION-SEARCH-BACK",
+      "at": "2026-09-30T10:16:05.412Z"
+    },
+    {
+      "connection_id": "C-SEARCH-NOTIFICATION-REPEAT-RETURN",
+      "source_node_id": "538:20",
+      "trigger_node_id": "538:20",
+      "trigger_node_name": "Root repeated Return",
+      "trigger": "Key/Gamepad",
+      "key": "Return",
+      "behavior": "Swap overlay",
+      "target_node_id": "527:111",
+      "destination_name": "[SEARCH-NOTIFICATION-WEATHER] Search — notification-weather",
+      "action_id": null,
+      "source_generalization": true,
+      "at": "2026-09-30T10:22:57.183Z"
+    },
+    {
+      "connection_id": "C-SEARCH-NOTIFICATION-SUBMITTED-CLEAR",
+      "source_node_id": "538:20",
+      "trigger_node_id": "538:33",
+      "trigger_node_name": "ClearSearch",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "527:96",
+      "action_id": null,
+      "source_generalization": true,
+      "copied_from": "C-SEARCH-NOTIFICATION-CLEAR",
+      "at": "2026-09-30T10:23:26.372Z"
+    },
+    {
+      "connection_id": "C-SEARCH-NOTIFICATION-SUBMITTED-BACK",
+      "source_node_id": "538:20",
+      "trigger_node_id": "538:24",
+      "trigger_node_name": "Back",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "action_id": null,
+      "source_generalization": true,
+      "copied_from": "C-SEARCH-NOTIFICATION-WEATHER-BACK",
+      "at": "2026-09-30T10:23:41.728Z"
+    }
+  ],
+  "repair_history": [
+    {
+      "failed_source_node_id": "527:96",
+      "intended_source_node_id": "527:111",
+      "failed_configuration_removed": true,
+      "self_destination_disabled": true,
+      "repaired_source_node_id": "527:111",
+      "repaired_target_node_id": "538:20",
+      "failure_evidence_file": "28-notification-return-wrong-menu.png",
+      "configuration_evidence_file": "32-corrected-return-editor.png",
+      "failure_scope": "Figma wiring/selection error; not native App behavior."
     }
   ],
   "scope_completion": "not_verified"

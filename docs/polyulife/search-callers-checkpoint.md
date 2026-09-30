@@ -1,4 +1,6 @@
-# Search caller reconstruction checkpoint — 2026-09-30
+# Historical Search checkpoint — 2026-09-30
+
+后续状态：本页保留提交5c7ea57的七连接阶段。十五条配置、六个画面及回放/失败修复现已归档，当前以[回放记录](search-callers-prototype-walkthrough.md)和coverage.json为准。
 
 本次提交保存 More 与 Notification 两个搜索入口的未完成原型，供团队和后续 Agent 接力。原生证据沿用现有走查；本批没有新增原生观察，也尚未进行 Present 回放。全应用完成状态仍为 `not_verified`。
 
