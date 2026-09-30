@@ -34253,6 +34253,408 @@
         "A-ROOM-HOME-BACK"
       ],
       "source": "Nineteen actual native captures after window recovery; seven date selections, filtering, reverse date drag, Today list bottom/reverse and Home return. Not Figma replay or human evaluation."
+    },
+    {
+      "id": "E-ROOM-DATES-P-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/00-today-all.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:01.854Z",
+      "sha256": "d58e9897a9f97eaad50933d0d099adc74bebb5378a11be107edf5cfc4edca657",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/01-today-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:02.157Z",
+      "sha256": "3281089989c256587f5bf6e1d443877c2778bc1c49011e6e65492fa8ebde6553",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-AVAILABLE"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/02-thursday-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:02.564Z",
+      "sha256": "6fde64438a0ddc92fb073934bcaddc875f92b6d34de1e6ebcd9c3735641f291e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-THU-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/03-thursday-stable.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:37.760Z",
+      "sha256": "6fde64438a0ddc92fb073934bcaddc875f92b6d34de1e6ebcd9c3735641f291e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-THU-AVAILABLE"
+      ],
+      "action_ids": [],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/04-thursday-all.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:38.275Z",
+      "sha256": "faf6811ad2dc31ea8c4eafd214cdc02fe42cffd72707eb7ac5c719851849c9a2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-THU-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-THU-ALL"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/05-friday-all.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:38.877Z",
+      "sha256": "57a673b8bf8b903eaacf73a4921adbfd2e5e2e96c953c7f7c857cdab284981c8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-FRI-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/06-friday-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:39.486Z",
+      "sha256": "24c31979ca5eec88fddb02b38cc72d270ce6650fd031644acc5377e1a2236467",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-FRI-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-AVAILABLE"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/07-saturday-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:40.096Z",
+      "sha256": "af4733efa7a8f0f20b1176414bbe733d06b44aee8f8d9da7be10c043a15ddbea",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-SAT-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/08-sunday-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:40.399Z",
+      "sha256": "256b5d8ca2ea79bf46d9e6dd6bd89796c952e8acbd3a51e10c0c64193bdb4b7d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-SUNEMPTY"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/09-monday-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:50.573Z",
+      "sha256": "f65c329dc8b2fe95c2882eb9e17bbb0358dc94042e1eea007df2ef811a515dcc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-MON-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/10-tuesday-available.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:51.024Z",
+      "sha256": "0172290ba6152b2bf71f4cefad7b8bfb45518c1a700b8768e44932db078aa8e3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TUE-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/11-tuesday-strip-reversed.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:30:51.694Z",
+      "sha256": "d82edb370220ab34db33abeba94914ec48dcbfb40f182f073981146f3335641f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TUE-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-DRAG"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/12-tuesday-reversed-stable.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:31:08.156Z",
+      "sha256": "d82edb370220ab34db33abeba94914ec48dcbfb40f182f073981146f3335641f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TUE-AVAILABLE"
+      ],
+      "action_ids": [],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/13-today-available-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:31:08.660Z",
+      "sha256": "4ac0d5121788c0241dddcd9cc865208e587764222e7b8872b867b122960cf54d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-AVAILABLE"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/14-today-all-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:31:09.170Z",
+      "sha256": "90cfd057a49a557e04af56bb65e2e6e22a7db805cb1733af646efbc018d6e5ec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-TODAY-ALL"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/15-today-all-bottom.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:31:09.787Z",
+      "sha256": "052b5d619c50fcda16292cd13e72ba836c1a587952f200439a3a5bc77a6e3a0c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TODAY-BOTTOM"
+      ],
+      "action_ids": [
+        "A-ROOM-SCROLL-LIST"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/16-today-all-bottom-recheck.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:31:19.295Z",
+      "sha256": "052b5d619c50fcda16292cd13e72ba836c1a587952f200439a3a5bc77a6e3a0c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ROOM-DATE-TODAY-BOTTOM"
+      ],
+      "action_ids": [
+        "A-ROOM-LIST-BOTTOM"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/17-today-all-top-return.png",
+      "session_id": null,
+      "captured_at": "2026-09-29T21:31:19.958Z",
+      "sha256": "90cfd057a49a557e04af56bb65e2e6e22a7db805cb1733af646efbc018d6e5ec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-LIST-REVERSE"
+      ],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-P-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-09-30-room-dates-prototype/18-editor-vertical-viewport.png",
+      "session_id": null,
+      "captured_at": null,
+      "sha256": "8ae585ed6741509e6d8f83f0aee44fb92bb7534eeb2daaa6c0fa8eb0bed18fd0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [],
+      "source": "Figma prototype/editor through Computer Use, not a native execution or human evaluation.",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only."
+    },
+    {
+      "id": "E-ROOM-DATES-PROTO-TRACE",
+      "type": "interaction_trace",
+      "path": "room-dates-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-ALL",
+        "S-AVAILABLE",
+        "S-ROOM-DATE-THU-AVAILABLE",
+        "S-ROOM-DATE-THU-ALL",
+        "S-ROOM-DATE-FRI-ALL",
+        "S-ROOM-DATE-FRI-AVAILABLE",
+        "S-ROOM-DATE-SAT-AVAILABLE",
+        "S-SUNEMPTY",
+        "S-ROOM-DATE-MON-AVAILABLE",
+        "S-ROOM-DATE-TUE-AVAILABLE",
+        "S-ROOM-DATE-TODAY-BOTTOM"
+      ],
+      "action_ids": [
+        "A-ROOM-OTHER-DATES",
+        "A-ROOM-AVAILABLE",
+        "A-ROOM-THU-ALL",
+        "A-ROOM-TODAY-ALL",
+        "A-ROOM-DATE-DRAG",
+        "A-ROOM-SCROLL-LIST",
+        "A-ROOM-LIST-BOTTOM",
+        "A-ROOM-LIST-REVERSE"
+      ],
+      "source": "Actual twelve frame imports, twelve configured controls, one native-derived Today continuous list and eighteen Present captures. Full application not verified."
     }
   ],
   "findings": [
@@ -39623,6 +40025,594 @@
           "PROTO-ROOM-MAP-001",
           "PROTO-ROOM-MAP-RECHECK-001"
         ]
+      },
+      {
+        "state_id": "S-ALL",
+        "context_variant": "20260930-today-all",
+        "node_id": "412:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-19",
+        "node_name": "[D30:today-all] Room — 30-Sep · all",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-02",
+          "E-ROOM-DATES-15"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-today-all.svg",
+        "design_source_sha256": "36ffb76265478a53841a21d2d221dd588310c312a1c0d02edb2f105e04352cdd",
+        "canvas_position": [
+          0,
+          39000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-00",
+            "E-ROOM-DATES-P-14",
+            "E-ROOM-DATES-P-15",
+            "E-ROOM-DATES-P-16",
+            "E-ROOM-DATES-P-17",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-00",
+          "E-ROOM-DATES-P-14",
+          "E-ROOM-DATES-P-15",
+          "E-ROOM-DATES-P-16",
+          "E-ROOM-DATES-P-17",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-AVAILABLE",
+        "context_variant": "20260930-today-available",
+        "node_id": "412:216",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-216",
+        "node_name": "[D30:today-available] Room — 30-Sep · available",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-03"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-today-available.svg",
+        "design_source_sha256": "ea10b19ff4b8a6800f98324c08ba4ba1f831a83768751c5608f44c3e3d4f78b7",
+        "canvas_position": [
+          700,
+          39000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-01",
+            "E-ROOM-DATES-P-13",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-01",
+          "E-ROOM-DATES-P-13",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-THU-AVAILABLE",
+        "context_variant": "20260930-thursday-available",
+        "node_id": "412:317",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-317",
+        "node_name": "[D30:thursday-available] Room — 01-Oct · available",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-04"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-thursday-available.svg",
+        "design_source_sha256": "20e8900d1400281f1d4a179b7930093414d52b6436dc97d6248cdfde7d81cbcf",
+        "canvas_position": [
+          1400,
+          39000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-02",
+            "E-ROOM-DATES-P-03",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-02",
+          "E-ROOM-DATES-P-03",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-THU-ALL",
+        "context_variant": "20260930-thursday-all",
+        "node_id": "412:400",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-400",
+        "node_name": "[D30:thursday-all] Room — 01-Oct · all",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-05"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-thursday-all.svg",
+        "design_source_sha256": "0a26c909f24fe64d262ffc52c4b983cce120f794b21b114c9c7d0bf1521bac35",
+        "canvas_position": [
+          2100,
+          39000
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-04",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-04",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-FRI-ALL",
+        "context_variant": "20260930-friday-all",
+        "node_id": "412:551",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-551",
+        "node_name": "[D30:friday-all] Room — 02-Oct · all",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-06"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-friday-all.svg",
+        "design_source_sha256": "6bd4157fc807a0e8ead46b914b1ad20679600a7e217f57f2e84bd671b2873d53",
+        "canvas_position": [
+          0,
+          40300
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-05",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-05",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+        "context_variant": "20260930-friday-available",
+        "node_id": "412:702",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-702",
+        "node_name": "[D30:friday-available] Room — 02-Oct · available",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-07"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-friday-available.svg",
+        "design_source_sha256": "c24cf45c24f7a8b2db87ee34d295d4f9f7e97641f6afbd99b146afbe5c667546",
+        "canvas_position": [
+          700,
+          40300
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-06",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-06",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+        "context_variant": "20260930-saturday-available",
+        "node_id": "412:827",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-827",
+        "node_name": "[D30:saturday-available] Room — 03-Oct · available",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-08"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-saturday-available.svg",
+        "design_source_sha256": "d8301bb404551ee43e1696444206a9d6168b9e76348b0d0955698345117300d1",
+        "canvas_position": [
+          1400,
+          40300
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-07",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-07",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-SUNEMPTY",
+        "context_variant": "20260930-sunday-available",
+        "node_id": "412:936",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-936",
+        "node_name": "[D30:sunday-available] Room — 04-Oct · available",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-09"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-sunday-available.svg",
+        "design_source_sha256": "a6276e7d4947d5c24d6c92b120e632e1aee6aa425aaa4c69c7bf16cee6d6c6d9",
+        "canvas_position": [
+          2100,
+          40300
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-08",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-08",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-MON-AVAILABLE",
+        "context_variant": "20260930-monday-available",
+        "node_id": "412:1019",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-1019",
+        "node_name": "[D30:monday-available] Room — 05-Oct · available",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-10"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-monday-available.svg",
+        "design_source_sha256": "992a1eb9c2a71ce38457f9a19b6b8ff21a981acf83bc552818968f3ac5ee130d",
+        "canvas_position": [
+          0,
+          41600
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-09",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-09",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+        "context_variant": "20260930-tuesday-available",
+        "node_id": "412:1120",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-1120",
+        "node_name": "[D30:tuesday-available] Room — 06-Oct · available",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-11"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-tuesday-available.svg",
+        "design_source_sha256": "d3fa9d208332dca10921611206a2ad5e4a73dbfcc2daaadda6ba99b9d10c589a",
+        "canvas_position": [
+          700,
+          41600
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-10",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-10",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+        "context_variant": "20260930-tuesday-reversed",
+        "node_id": "412:1229",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-1229",
+        "node_name": "[D30:tuesday-reversed] Room — 06-Oct · available",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-12"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-tuesday-reversed.svg",
+        "design_source_sha256": "a5be5ac7219b8bc6b3e76474e199b81d5fb26ebb0368a8fc5bdd6e9a97789372",
+        "canvas_position": [
+          1400,
+          41600
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-P-11",
+            "E-ROOM-DATES-P-12",
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-11",
+          "E-ROOM-DATES-P-12",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "sample_replayed_partial_fidelity",
+        "connection_status": "configured_and_replayed",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ]
+      },
+      {
+        "state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+        "context_variant": "20260930-today-bottom",
+        "node_id": "412:1338",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-1338",
+        "node_name": "[D30:today-bottom] Room — 30-Sep · all",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-02",
+          "E-ROOM-DATES-15"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-today-bottom.svg",
+        "design_source_sha256": "9931b580fa0b3828db0bfa49ef52d3d809399c52e0041e63fe095f3b304170e6",
+        "canvas_position": [
+          2100,
+          41600
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            1026
+          ],
+          "frame_size_independently_verified": true
+        },
+        "native_editability": "Imported SVG native Text/Vector/Group structure; title/date/filter/slot text and controls editable. Today ALL viewport separately configured through Figma UI. Not every child edit verified.",
+        "content_policy": "Public historical AG206 availability only, no identity; cursor omitted; fonts/icons/colors approximate.",
+        "visual_review": {
+          "status": "imported_reference_not_run",
+          "summary": "Observed stable sample contents reviewed in Present; full native pixel fidelity unverified. Today bottom standalone reference was imported but not replayed; actual bottom reached inside Today ALL.",
+          "evidence_ids": [
+            "E-ROOM-DATES-PROTO-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ROOM-DATES-FINITE-CONTEXT"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "prototype_status": "not_run_reference_only",
+        "connection_status": "unwired_reference",
+        "prototype_run_ids": []
       }
     ],
     "action_connection_mappings": [
@@ -48218,6 +49208,342 @@
         "tested_target_node_ids": [
           "338:19"
         ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-01",
+        "action_id": "A-ROOM-OTHER-DATES",
+        "source_node_id": "412:216",
+        "trigger_node_id": "412:232",
+        "trigger_node_name": "Date-Thu",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:317",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-04"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-02",
+        "action_id": "A-ROOM-AVAILABLE",
+        "source_node_id": "412:19",
+        "trigger_node_id": "412:88",
+        "trigger_node_name": "Filter-Available",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:216",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-03"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-03",
+        "action_id": "A-ROOM-THU-ALL",
+        "source_node_id": "412:317",
+        "trigger_node_id": "412:383",
+        "trigger_node_name": "Filter-All",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:400",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-05"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-04",
+        "action_id": "A-ROOM-OTHER-DATES",
+        "source_node_id": "412:400",
+        "trigger_node_id": "412:420",
+        "trigger_node_name": "Date-Fri",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:551",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-06"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-05",
+        "action_id": "A-ROOM-AVAILABLE",
+        "source_node_id": "412:551",
+        "trigger_node_id": "412:620",
+        "trigger_node_name": "Filter-Available",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:702",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-07"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-06",
+        "action_id": "A-ROOM-OTHER-DATES",
+        "source_node_id": "412:702",
+        "trigger_node_id": "412:726",
+        "trigger_node_name": "Date-Sat",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:827",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-08"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-07",
+        "action_id": "A-ROOM-OTHER-DATES",
+        "source_node_id": "412:827",
+        "trigger_node_id": "412:855",
+        "trigger_node_name": "Date-Sun",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:936",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-09"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-08",
+        "action_id": "A-ROOM-OTHER-DATES",
+        "source_node_id": "412:936",
+        "trigger_node_id": "412:968",
+        "trigger_node_name": "Date-Mon",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:1019",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-10"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-09",
+        "action_id": "A-ROOM-OTHER-DATES",
+        "source_node_id": "412:1019",
+        "trigger_node_id": "412:1055",
+        "trigger_node_name": "Date-Tue",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:1120",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-11"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-10",
+        "action_id": "A-ROOM-OTHER-DATES",
+        "source_node_id": "412:1229",
+        "trigger_node_id": "412:1241",
+        "trigger_node_name": "Date-Today",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:216",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-13"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-11",
+        "action_id": "A-ROOM-TODAY-ALL",
+        "source_node_id": "412:216",
+        "trigger_node_id": "412:282",
+        "trigger_node_name": "Filter-All",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "412:19",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Instant",
+        "duration_ms": 0,
+        "easing": null,
+        "source_evidence_ids": [
+          "E-ROOM-DATES-14"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
+      },
+      {
+        "connection_id": "C-ROOM-DATES-12",
+        "action_id": "A-ROOM-DATE-DRAG",
+        "source_node_id": "412:1120",
+        "trigger_node_id": "412:1131",
+        "trigger_node_name": "DatesObserved20260930",
+        "trigger": "On drag",
+        "behavior": "Navigate to",
+        "target_node_id": "412:1229",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "animation": "Smart animate",
+        "duration_ms": 300,
+        "easing": "Ease out",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-12"
+        ],
+        "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+        "implementation_status": "sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "deviation_ids": [
+          "D-ROOM-DATES-FINITE-CONTEXT"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -49532,6 +50858,32 @@
         "next_step": "Check additional caller/reload contexts and native/Figma pixel fidelity; do not infer root cause from current record.",
         "evidence_ids": [
           "E-ROOM-MAP-PROTO-TRACE"
+        ]
+      },
+      {
+        "id": "D-ROOM-DATES-FINITE-CONTEXT",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "status": "open",
+        "affected_state_ids": [
+          "S-ALL",
+          "S-AVAILABLE",
+          "S-ROOM-DATE-THU-AVAILABLE",
+          "S-ROOM-DATE-THU-ALL",
+          "S-ROOM-DATE-FRI-ALL",
+          "S-ROOM-DATE-FRI-AVAILABLE",
+          "S-ROOM-DATE-SAT-AVAILABLE",
+          "S-SUNEMPTY",
+          "S-ROOM-DATE-MON-AVAILABLE",
+          "S-ROOM-DATE-TUE-AVAILABLE",
+          "S-ROOM-DATE-TODAY-BOTTOM"
+        ],
+        "original_behavior": "Native September30 seven date choices preserve filter; date strip reverses without changing result; Today ALL reaches complete last row and reverses.",
+        "current_implementation": "Twelve editable fixed historical snapshots. Eleven click Navigate to controls and one drag Navigate to proxy (default Smart animate300ms Ease out). Today ALL524x600 viewport has996px observed content and396px inferred range. Dates bar is not continuous; drag accepts any direction. Standalone flow omits Home return/query/map/Preview integration and incomplete date/filter combinations. Thursday/Friday ALL only observed viewport, not native full list.",
+        "impact": "Sample demonstrates recorded stable states and Today continuous scrolling. Full Room input/loading/return contexts and exact font/icon/color fidelity remain incomplete. Two Tuesday crop comparisons differ near their top-right edge; no root cause or native defect inferred.",
+        "next_step": "Implement continuous horizontal date strip with selected state persistence, all observed callers/Home return, new query/Preview/map integration and remaining date/filter samples. Review native/Figma geometry, icons/fonts/colors and differences.",
+        "evidence_ids": [
+          "E-ROOM-DATES-TRACE",
+          "E-ROOM-DATES-PROTO-TRACE"
         ]
       }
     ],
@@ -58718,6 +60070,282 @@
           "Initial and zoom Back are prototype inferred exits. Only Tuesday caller and Sunday scrolled list tested.",
           "Five list returns and Home return pixel equal; three map comparisons differ. No full native/Figma fidelity, all callers, live map, pan, zoom bounds, external handoff or human evaluation."
         ]
+      },
+      {
+        "id": "PROTO-ROOM-DATES-001",
+        "revision_id": "FIGMA-ROOM-DATES-20260930",
+        "started_at": "2026-09-29T21:30:01.854Z",
+        "ended_at": "2026-09-29T21:31:19.958Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=412-19&t=yYV5tPpqU0PM5oQD-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=412%3A19&show-proto-sidebar=1",
+        "start_node_id": "412:19",
+        "flow_name": "Room · September30 dates and filters",
+        "status": "partial",
+        "navigation_status": "all_twelve_controls_replayed_early_url_sample_mismatch_retained_then_confirmed",
+        "visual_status": "stable_sample_reviewed_four_crop_checks_equal_two_non_equal_full_native_fidelity_unverified",
+        "steps": [
+          {
+            "at": "2026-09-29T21:30:01.854Z",
+            "description": "00-today-all: Flow entry; full 576x1026 frame fitted.",
+            "state_id": "S-ALL",
+            "action_id": null,
+            "source_node_id": "412:19",
+            "actual_node_id": "412:19",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-00"
+            ],
+            "outcome": "node_confirmed",
+            "file": "00-today-all.png"
+          },
+          {
+            "at": "2026-09-29T21:30:02.157Z",
+            "description": "01-today-available: Four observed Today available slots.",
+            "state_id": "S-AVAILABLE",
+            "action_id": "A-ROOM-AVAILABLE",
+            "source_node_id": "412:216",
+            "actual_node_id": "412:216",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-01"
+            ],
+            "outcome": "node_confirmed",
+            "file": "01-today-available.png"
+          },
+          {
+            "at": "2026-09-29T21:30:02.564Z",
+            "description": "02-thursday-available: Thursday selected; Available retained; empty results.",
+            "state_id": "S-ROOM-DATE-THU-AVAILABLE",
+            "action_id": "A-ROOM-OTHER-DATES",
+            "source_node_id": "412:317",
+            "actual_node_id": "412:216",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-02"
+            ],
+            "outcome": "early_url_sampling_mismatch_later_confirmed_without_new_click",
+            "file": "02-thursday-available.png"
+          },
+          {
+            "at": "2026-09-29T21:30:37.760Z",
+            "description": "03-thursday-stable: No additional click; Thursday Available visible after early URL sampling mismatch.",
+            "state_id": "S-ROOM-DATE-THU-AVAILABLE",
+            "action_id": null,
+            "source_node_id": "412:317",
+            "actual_node_id": "412:317",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-03"
+            ],
+            "outcome": "node_confirmed",
+            "file": "03-thursday-stable.png"
+          },
+          {
+            "at": "2026-09-29T21:30:38.275Z",
+            "description": "04-thursday-all: Thursday retained; ALL selected.",
+            "state_id": "S-ROOM-DATE-THU-ALL",
+            "action_id": "A-ROOM-THU-ALL",
+            "source_node_id": "412:400",
+            "actual_node_id": "412:400",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-04"
+            ],
+            "outcome": "node_confirmed",
+            "file": "04-thursday-all.png"
+          },
+          {
+            "at": "2026-09-29T21:30:38.877Z",
+            "description": "05-friday-all: Friday selected; ALL retained.",
+            "state_id": "S-ROOM-DATE-FRI-ALL",
+            "action_id": "A-ROOM-OTHER-DATES",
+            "source_node_id": "412:551",
+            "actual_node_id": "412:551",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-05"
+            ],
+            "outcome": "node_confirmed",
+            "file": "05-friday-all.png"
+          },
+          {
+            "at": "2026-09-29T21:30:39.486Z",
+            "description": "06-friday-available: Ten available slots.",
+            "state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+            "action_id": "A-ROOM-AVAILABLE",
+            "source_node_id": "412:702",
+            "actual_node_id": "412:702",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-06"
+            ],
+            "outcome": "node_confirmed",
+            "file": "06-friday-available.png"
+          },
+          {
+            "at": "2026-09-29T21:30:40.096Z",
+            "description": "07-saturday-available: Saturday selected; six available slots.",
+            "state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+            "action_id": "A-ROOM-OTHER-DATES",
+            "source_node_id": "412:827",
+            "actual_node_id": "412:827",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-07"
+            ],
+            "outcome": "node_confirmed",
+            "file": "07-saturday-available.png"
+          },
+          {
+            "at": "2026-09-29T21:30:40.399Z",
+            "description": "08-sunday-available: Sunday selected; Available retained; empty.",
+            "state_id": "S-SUNEMPTY",
+            "action_id": "A-ROOM-OTHER-DATES",
+            "source_node_id": "412:936",
+            "actual_node_id": "412:936",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-08"
+            ],
+            "outcome": "node_confirmed",
+            "file": "08-sunday-available.png"
+          },
+          {
+            "at": "2026-09-29T21:30:50.573Z",
+            "description": "09-monday-available: Monday selected; Available retained; shifted strip exposes Tuesday.",
+            "state_id": "S-ROOM-DATE-MON-AVAILABLE",
+            "action_id": "A-ROOM-OTHER-DATES",
+            "source_node_id": "412:1019",
+            "actual_node_id": "412:1019",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-09"
+            ],
+            "outcome": "node_confirmed",
+            "file": "09-monday-available.png"
+          },
+          {
+            "at": "2026-09-29T21:30:51.024Z",
+            "description": "10-tuesday-available: Tuesday selected; six observed available slots.",
+            "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+            "action_id": "A-ROOM-OTHER-DATES",
+            "source_node_id": "412:1120",
+            "actual_node_id": "412:1120",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-10"
+            ],
+            "outcome": "node_confirmed",
+            "file": "10-tuesday-available.png"
+          },
+          {
+            "at": "2026-09-29T21:30:51.694Z",
+            "description": "11-tuesday-strip-reversed: Right drag snapshot proxy restores Today button while result/filter remain Tuesday Available.",
+            "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+            "action_id": "A-ROOM-DATE-DRAG",
+            "source_node_id": "412:1229",
+            "actual_node_id": "412:1229",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-11"
+            ],
+            "outcome": "node_confirmed",
+            "file": "11-tuesday-strip-reversed.png"
+          },
+          {
+            "at": "2026-09-29T21:31:08.156Z",
+            "description": "12-tuesday-reversed-stable: Stable recheck after default Smart animate drag transition; same Tuesday result.",
+            "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+            "action_id": null,
+            "source_node_id": "412:1229",
+            "actual_node_id": "412:1229",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-12"
+            ],
+            "outcome": "node_confirmed",
+            "file": "12-tuesday-reversed-stable.png"
+          },
+          {
+            "at": "2026-09-29T21:31:08.660Z",
+            "description": "13-today-available-return: Today selected; four slots restored.",
+            "state_id": "S-AVAILABLE",
+            "action_id": "A-ROOM-OTHER-DATES",
+            "source_node_id": "412:216",
+            "actual_node_id": "412:216",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-13"
+            ],
+            "outcome": "node_confirmed",
+            "file": "13-today-available-return.png"
+          },
+          {
+            "at": "2026-09-29T21:31:09.170Z",
+            "description": "14-today-all-return: Today retained; ALL selected.",
+            "state_id": "S-ALL",
+            "action_id": "A-ROOM-TODAY-ALL",
+            "source_node_id": "412:19",
+            "actual_node_id": "412:19",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-14"
+            ],
+            "outcome": "node_confirmed",
+            "file": "14-today-all-return.png"
+          },
+          {
+            "at": "2026-09-29T21:31:09.787Z",
+            "description": "15-today-all-bottom: Continuous list reaches full 21:30-22:00 and22:00-22:30 final row.",
+            "state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+            "action_id": "A-ROOM-SCROLL-LIST",
+            "source_node_id": "412:19",
+            "actual_node_id": "412:19",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-15"
+            ],
+            "outcome": "node_confirmed",
+            "file": "15-today-all-bottom.png"
+          },
+          {
+            "at": "2026-09-29T21:31:19.295Z",
+            "description": "16-today-all-bottom-recheck: Further down scroll shows same complete final row.",
+            "state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+            "action_id": "A-ROOM-LIST-BOTTOM",
+            "source_node_id": "412:19",
+            "actual_node_id": "412:19",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-16"
+            ],
+            "outcome": "node_confirmed",
+            "file": "16-today-all-bottom-recheck.png"
+          },
+          {
+            "at": "2026-09-29T21:31:19.958Z",
+            "description": "17-today-all-top-return: Reverse scroll returns to08:30 top.",
+            "state_id": "S-ALL",
+            "action_id": "A-ROOM-LIST-REVERSE",
+            "source_node_id": "412:19",
+            "actual_node_id": "412:19",
+            "evidence_ids": [
+              "E-ROOM-DATES-P-17"
+            ],
+            "outcome": "node_confirmed",
+            "file": "17-today-all-top-return.png"
+          }
+        ],
+        "evidence_ids": [
+          "E-ROOM-DATES-P-00",
+          "E-ROOM-DATES-P-01",
+          "E-ROOM-DATES-P-02",
+          "E-ROOM-DATES-P-03",
+          "E-ROOM-DATES-P-04",
+          "E-ROOM-DATES-P-05",
+          "E-ROOM-DATES-P-06",
+          "E-ROOM-DATES-P-07",
+          "E-ROOM-DATES-P-08",
+          "E-ROOM-DATES-P-09",
+          "E-ROOM-DATES-P-10",
+          "E-ROOM-DATES-P-11",
+          "E-ROOM-DATES-P-12",
+          "E-ROOM-DATES-P-13",
+          "E-ROOM-DATES-P-14",
+          "E-ROOM-DATES-P-15",
+          "E-ROOM-DATES-P-16",
+          "E-ROOM-DATES-P-17",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-09-30-room-dates-prototype/manifest.json",
+        "limitations": [
+          "Historical fixed input/data; new1026px Room context not integrated with Home/query/Preview/map callers.",
+          "Finite any-direction drag proxy; Figma default Smart animate300ms is not native timing.",
+          "Thursday/Friday ALL partial viewport; complete combinations and all app states/interaction paths not verified.",
+          "Two Tuesday crop differences retained, no root cause claimed; native pixel fidelity and human/phone evaluation not established."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -58903,6 +60531,33 @@
           "E-FIGMA-STUDY-TRACE"
         ],
         "limitation": "All13 named and positioned; used nested native text/control layers inspected. Not every layer edit, full pixel fidelity or every state/interaction checked."
+      },
+      {
+        "id": "NATIVE-ROOM-DATES-IMPORT",
+        "checked_at": "2026-09-29T20:21:06.131Z",
+        "state_ids": [
+          "S-ALL",
+          "S-AVAILABLE",
+          "S-ROOM-DATE-THU-AVAILABLE",
+          "S-ROOM-DATE-THU-ALL",
+          "S-ROOM-DATE-FRI-ALL",
+          "S-ROOM-DATE-FRI-AVAILABLE",
+          "S-ROOM-DATE-SAT-AVAILABLE",
+          "S-SUNEMPTY",
+          "S-ROOM-DATE-MON-AVAILABLE",
+          "S-ROOM-DATE-TUE-AVAILABLE",
+          "S-ROOM-DATE-TODAY-BOTTOM"
+        ],
+        "frame_properties": {
+          "width": 576,
+          "height": 1026
+        },
+        "status": "verified_native_frame_import_and_selected_controls",
+        "evidence_ids": [
+          "E-ROOM-DATES-P-18",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "limitation": "Twelve root names/positions/dimensions read through UI; twelve controls configured; not every child editing or full pixel fidelity."
       }
     ],
     "generation_limit": {
@@ -59214,7 +60869,8 @@
       "room_sunday": "tuesday_sample_passed_full_date_and_list_bounds_unverified",
       "room_query": "two_fixed_samples_five_links_replayed_full_input_and_scope_incomplete",
       "room_query_import_visibility": "seven_frame_visibility_and_two_hidden_controls_restored_before_sample_replay",
-      "room_map": "six_controls_tuesday_sample_replayed_initial_image_repaired_full_map_fidelity_incomplete"
+      "room_map": "six_controls_tuesday_sample_replayed_initial_image_repaired_full_map_fidelity_incomplete",
+      "room_dates_20260930": "twelve_controls_and_continuous_today_list_replayed_date_drag_proxy_and_full_context_gaps_open"
     },
     "additional_imports": [
       {
@@ -60260,16 +61916,26 @@
           "PROTO-ROOM-QUERY-UNMATCHED-001"
         ],
         "scope": "Two independently UI-created query flow starts, actually replayed in Present. Fixed September 29 sample; full PolyULife interaction and visual coverage incomplete."
+      },
+      {
+        "name": "Room · September30 dates and filters",
+        "start_node_id": "412:19",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=412-19&t=yYV5tPpqU0PM5oQD-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=412%3A19&show-proto-sidebar=1",
+        "tested_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "scope": "Standalone observed September30 dates and filters plus Today continuous list. Home return and complete Room/application remain incomplete. Automatic redundant Flow3 removed through UI."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-29T19:52:11.349Z",
+    "latest_prototype_run_cutoff": "2026-09-29T21:31:19.958Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-FIGMA-EDITOR-FINAL"
+      "E-ROOM-DATES-P-18",
+      "E-ROOM-DATES-PROTO-TRACE"
     ],
-    "latest_editor_verified_at": "2026-09-28T17:24:56.067Z",
+    "latest_editor_verified_at": null,
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
@@ -60618,6 +62284,57 @@
         ],
         "design_source_path": "../../design/polyulife/room-sunday-all.svg",
         "design_source_sha256": "2b54406b34401bda9a9914680d943e685a9725ec66944adfd91a48b7d5314288"
+      },
+      {
+        "state_id": "S-ALL",
+        "context_variant": "20260930-today-all",
+        "observed_scroll_state_ids": [
+          "S-ROOM-DATE-TODAY-BOTTOM"
+        ],
+        "root_node_id": "412:19",
+        "viewport_node_id": "419:31",
+        "viewport_name": "TodaySlotsViewport",
+        "position": [
+          26,
+          426
+        ],
+        "dimensions": [
+          524,
+          600
+        ],
+        "overflow": "Vertical",
+        "clip_content": true,
+        "child_constraints": {
+          "horizontal": "Left",
+          "vertical": "Top"
+        },
+        "inferred_range": [
+          0,
+          396
+        ],
+        "content_height": 996,
+        "native_complete_extent_verified": true,
+        "native_extent_scope": "September30 AG206 Today ALL in576x1026 Mac app crop only; complete final row plus no further visible movement and reverse recorded. Exact range derived from reconstruction geometry, not measured native offset.",
+        "action_ids": [
+          "A-ROOM-SCROLL-LIST",
+          "A-ROOM-LIST-BOTTOM",
+          "A-ROOM-LIST-REVERSE"
+        ],
+        "source_evidence_ids": [
+          "E-ROOM-DATES-02",
+          "E-ROOM-DATES-15",
+          "E-ROOM-DATES-16",
+          "E-ROOM-DATES-17"
+        ],
+        "prototype_run_ids": [
+          "PROTO-ROOM-DATES-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-18",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/room-dates-today-all.svg",
+        "design_source_sha256": "36ffb76265478a53841a21d2d221dd588310c312a1c0d02edb2f105e04352cdd"
       }
     ],
     "state_alias_mappings": [
@@ -60647,6 +62364,22 @@
           "E-ROOM-MAP-PROTO-TRACE"
         ],
         "note": "Close map overlay reveals the existing Sunday ALL scrolled viewport; five returns pixel equal to baseline. No duplicate full frame."
+      },
+      {
+        "state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+        "reused_state_id": "S-ALL",
+        "node_id": "412:19",
+        "context_variant": "20260930-today-all",
+        "source_evidence_ids": [
+          "E-ROOM-DATES-15",
+          "E-ROOM-DATES-16"
+        ],
+        "prototype_evidence_ids": [
+          "E-ROOM-DATES-P-15",
+          "E-ROOM-DATES-P-16",
+          "E-ROOM-DATES-PROTO-TRACE"
+        ],
+        "note": "Bottom is reached by true vertical scrolling inside Today ALL. Separate412:1338 full frame is an unwired editable reference, not a navigation target."
       }
     ]
   },
@@ -60993,10 +62726,11 @@
         "S-ROOM-DATE-TUE-AVAILABLE",
         "S-ROOM-DATE-TODAY-BOTTOM"
       ],
-      "reason": "Reconstruct newly observedSeptember30 date/filter/list variants in576x1026. Existing historical Room prototypes do not implement these new current samples.",
+      "reason": "Twelve1026px dated/filter snapshots imported, twelve controls and Today continuous list replayed. Continuous date-strip scrolling, Home/caller/query/Preview/map integration, unimplemented date/filter combinations and complete fidelity remain pending.",
       "status": "in_progress",
       "resolution_refs": [
-        "E-ROOM-DATES-TRACE"
+        "E-ROOM-DATES-TRACE",
+        "E-ROOM-DATES-PROTO-TRACE"
       ]
     }
   ],

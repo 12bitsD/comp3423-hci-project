@@ -1,0 +1,336 @@
+{
+  "revision_id": "FIGMA-ROOM-DATES-20260930",
+  "imports": [
+    {
+      "file": "room-dates-today-all.svg",
+      "name": "[D30:today-all] Room — 30-Sep · all",
+      "node_id": "412:19",
+      "position": [
+        0,
+        39000
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:19:48.471Z"
+    },
+    {
+      "file": "room-dates-today-available.svg",
+      "name": "[D30:today-available] Room — 30-Sep · available",
+      "node_id": "412:216",
+      "position": [
+        700,
+        39000
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:20:44.363Z"
+    },
+    {
+      "file": "room-dates-thursday-available.svg",
+      "name": "[D30:thursday-available] Room — 01-Oct · available",
+      "node_id": "412:317",
+      "position": [
+        1400,
+        39000
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:20:45.923Z"
+    },
+    {
+      "file": "room-dates-thursday-all.svg",
+      "name": "[D30:thursday-all] Room — 01-Oct · all",
+      "node_id": "412:400",
+      "position": [
+        2100,
+        39000
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:20:47.538Z"
+    },
+    {
+      "file": "room-dates-friday-all.svg",
+      "name": "[D30:friday-all] Room — 02-Oct · all",
+      "node_id": "412:551",
+      "position": [
+        0,
+        40300
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:20:49.156Z"
+    },
+    {
+      "file": "room-dates-friday-available.svg",
+      "name": "[D30:friday-available] Room — 02-Oct · available",
+      "node_id": "412:702",
+      "position": [
+        700,
+        40300
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:20:56.652Z"
+    },
+    {
+      "file": "room-dates-saturday-available.svg",
+      "name": "[D30:saturday-available] Room — 03-Oct · available",
+      "node_id": "412:827",
+      "position": [
+        1400,
+        40300
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:20:58.143Z"
+    },
+    {
+      "file": "room-dates-sunday-available.svg",
+      "name": "[D30:sunday-available] Room — 04-Oct · available",
+      "node_id": "412:936",
+      "position": [
+        2100,
+        40300
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:20:59.760Z"
+    },
+    {
+      "file": "room-dates-monday-available.svg",
+      "name": "[D30:monday-available] Room — 05-Oct · available",
+      "node_id": "412:1019",
+      "position": [
+        0,
+        41600
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:21:01.476Z"
+    },
+    {
+      "file": "room-dates-tuesday-available.svg",
+      "name": "[D30:tuesday-available] Room — 06-Oct · available",
+      "node_id": "412:1120",
+      "position": [
+        700,
+        41600
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:21:03.057Z"
+    },
+    {
+      "file": "room-dates-tuesday-reversed.svg",
+      "name": "[D30:tuesday-reversed] Room — 06-Oct · available",
+      "node_id": "412:1229",
+      "position": [
+        1400,
+        41600
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:21:04.703Z"
+    },
+    {
+      "file": "room-dates-today-bottom.svg",
+      "name": "[D30:today-bottom] Room — 30-Sep · all",
+      "node_id": "412:1338",
+      "position": [
+        2100,
+        41600
+      ],
+      "dimensions": [
+        576,
+        1026
+      ],
+      "at": "2026-09-29T20:21:06.131Z"
+    }
+  ],
+  "connections": [
+    {
+      "id": "C-ROOM-DATES-01",
+      "source_node_id": "412:216",
+      "trigger_node_id": "412:232",
+      "target_node_id": "412:317",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Date-Thu",
+      "at": "2026-09-29T21:23:21.305Z"
+    },
+    {
+      "id": "C-ROOM-DATES-02",
+      "source_node_id": "412:19",
+      "trigger_node_id": "412:88",
+      "target_node_id": "412:216",
+      "action_id": "A-ROOM-AVAILABLE",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Filter-Available",
+      "at": "2026-09-29T21:24:24.564Z"
+    },
+    {
+      "id": "C-ROOM-DATES-03",
+      "source_node_id": "412:317",
+      "trigger_node_id": "412:383",
+      "target_node_id": "412:400",
+      "action_id": "A-ROOM-THU-ALL",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Filter-All",
+      "at": "2026-09-29T21:24:30.056Z"
+    },
+    {
+      "id": "C-ROOM-DATES-04",
+      "source_node_id": "412:400",
+      "trigger_node_id": "412:420",
+      "target_node_id": "412:551",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Date-Fri",
+      "at": "2026-09-29T21:24:58.271Z"
+    },
+    {
+      "id": "C-ROOM-DATES-05",
+      "source_node_id": "412:551",
+      "trigger_node_id": "412:620",
+      "target_node_id": "412:702",
+      "action_id": "A-ROOM-AVAILABLE",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Filter-Available",
+      "at": "2026-09-29T21:25:03.867Z"
+    },
+    {
+      "id": "C-ROOM-DATES-06",
+      "source_node_id": "412:702",
+      "trigger_node_id": "412:726",
+      "target_node_id": "412:827",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Date-Sat",
+      "at": "2026-09-29T21:25:09.306Z"
+    },
+    {
+      "id": "C-ROOM-DATES-07",
+      "source_node_id": "412:827",
+      "trigger_node_id": "412:855",
+      "target_node_id": "412:936",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Date-Sun",
+      "at": "2026-09-29T21:25:14.716Z"
+    },
+    {
+      "id": "C-ROOM-DATES-08",
+      "source_node_id": "412:936",
+      "trigger_node_id": "412:968",
+      "target_node_id": "412:1019",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Date-Mon",
+      "at": "2026-09-29T21:25:29.260Z"
+    },
+    {
+      "id": "C-ROOM-DATES-09",
+      "source_node_id": "412:1019",
+      "trigger_node_id": "412:1055",
+      "target_node_id": "412:1120",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Date-Tue",
+      "at": "2026-09-29T21:25:36.169Z"
+    },
+    {
+      "id": "C-ROOM-DATES-10",
+      "source_node_id": "412:1229",
+      "trigger_node_id": "412:1241",
+      "target_node_id": "412:216",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Date-Today",
+      "at": "2026-09-29T21:25:41.331Z"
+    },
+    {
+      "id": "C-ROOM-DATES-11",
+      "source_node_id": "412:216",
+      "trigger_node_id": "412:282",
+      "target_node_id": "412:19",
+      "action_id": "A-ROOM-TODAY-ALL",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "label": "Filter-All",
+      "at": "2026-09-29T21:25:46.726Z"
+    },
+    {
+      "id": "C-ROOM-DATES-12",
+      "source_node_id": "412:1120",
+      "trigger_node_id": "412:1131",
+      "target_node_id": "412:1229",
+      "action_id": "A-ROOM-DATE-DRAG",
+      "trigger": "On drag",
+      "behavior": "Navigate to",
+      "label": "DatesObserved20260930",
+      "at": "2026-09-29T21:26:34.337Z",
+      "deviation": "Finite right-drag snapshot proxy; Figma trigger accepts any drag direction and does not implement continuous date-strip scrolling.",
+      "animation": "Smart animate",
+      "animation_timing_basis": "Figma default after selecting On drag; prototype demonstration only, not native measured timing.",
+      "duration_ms": 300,
+      "easing": "Ease out"
+    }
+  ],
+  "scroll_region": {
+    "node_id": "419:31",
+    "root_node_id": "412:19",
+    "position": [
+      26,
+      426
+    ],
+    "dimensions": [
+      524,
+      600
+    ],
+    "content_height": 996,
+    "overflow": "Vertical",
+    "range_px": 396,
+    "scope": "Observed September30 Today ALL top plus complete last row; not other dates or phones.",
+    "at": "2026-09-29T21:27:55.804Z"
+  },
+  "flow": {
+    "name": "Room · September30 dates and filters",
+    "start_node_id": "412:19",
+    "url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=412-19&t=yYV5tPpqU0PM5oQD-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=412%3A19&show-proto-sidebar=1",
+    "at": "2026-09-29T21:28:57.904Z"
+  },
+  "scope_completion": "not_verified"
+}

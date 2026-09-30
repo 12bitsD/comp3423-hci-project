@@ -22,6 +22,7 @@
 | 功能入口 | 可点击原型 |
 | --- | --- |
 | Room：输入 A → AG206 查询 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1) |
+| Room：September30 七日选择与筛选 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-19&scaling=scale-down&content-scaling=fixed&starting-point-node-id=412%3A19&show-proto-sidebar=1) |
 | Room：Available 时段参考 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=12-105&scaling=scale-down&content-scaling=fixed&starting-point-node-id=12%3A105&show-proto-sidebar=1) |
 | More：天气与虚拟助手 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-435&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A435&show-proto-sidebar=1) |
 | Calendar：公共校历与筛选 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=42-165&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=42%3A165&show-proto-sidebar=1) |

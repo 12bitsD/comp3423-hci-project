@@ -1,0 +1,396 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-today-all.png",
+      "sha256": "d58e9897a9f97eaad50933d0d099adc74bebb5378a11be107edf5cfc4edca657",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:01.854Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "description": "Flow entry; full 576x1026 frame fitted."
+    },
+    {
+      "file": "01-today-available.png",
+      "sha256": "3281089989c256587f5bf6e1d443877c2778bc1c49011e6e65492fa8ebde6553",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:02.157Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "description": "Four observed Today available slots."
+    },
+    {
+      "file": "02-thursday-available.png",
+      "sha256": "6fde64438a0ddc92fb073934bcaddc875f92b6d34de1e6ebcd9c3735641f291e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:02.564Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:216",
+      "node_match": false,
+      "description": "Thursday selected; Available retained; empty results."
+    },
+    {
+      "file": "03-thursday-stable.png",
+      "sha256": "6fde64438a0ddc92fb073934bcaddc875f92b6d34de1e6ebcd9c3735641f291e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:37.760Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "description": "No additional click; Thursday Available visible after early URL sampling mismatch."
+    },
+    {
+      "file": "04-thursday-all.png",
+      "sha256": "faf6811ad2dc31ea8c4eafd214cdc02fe42cffd72707eb7ac5c719851849c9a2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:38.275Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "description": "Thursday retained; ALL selected."
+    },
+    {
+      "file": "05-friday-all.png",
+      "sha256": "57a673b8bf8b903eaacf73a4921adbfd2e5e2e96c953c7f7c857cdab284981c8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:38.877Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "description": "Friday selected; ALL retained."
+    },
+    {
+      "file": "06-friday-available.png",
+      "sha256": "24c31979ca5eec88fddb02b38cc72d270ce6650fd031644acc5377e1a2236467",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:39.486Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "description": "Ten available slots."
+    },
+    {
+      "file": "07-saturday-available.png",
+      "sha256": "af4733efa7a8f0f20b1176414bbe733d06b44aee8f8d9da7be10c043a15ddbea",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:40.096Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "description": "Saturday selected; six available slots."
+    },
+    {
+      "file": "08-sunday-available.png",
+      "sha256": "256b5d8ca2ea79bf46d9e6dd6bd89796c952e8acbd3a51e10c0c64193bdb4b7d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:40.399Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "description": "Sunday selected; Available retained; empty."
+    },
+    {
+      "file": "09-monday-available.png",
+      "sha256": "f65c329dc8b2fe95c2882eb9e17bbb0358dc94042e1eea007df2ef811a515dcc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:50.573Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "description": "Monday selected; Available retained; shifted strip exposes Tuesday."
+    },
+    {
+      "file": "10-tuesday-available.png",
+      "sha256": "0172290ba6152b2bf71f4cefad7b8bfb45518c1a700b8768e44932db078aa8e3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:51.024Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Tuesday selected; six observed available slots."
+    },
+    {
+      "file": "11-tuesday-strip-reversed.png",
+      "sha256": "d82edb370220ab34db33abeba94914ec48dcbfb40f182f073981146f3335641f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:30:51.694Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:1229",
+      "actual_node_id": "412:1229",
+      "node_match": true,
+      "description": "Right drag snapshot proxy restores Today button while result/filter remain Tuesday Available."
+    },
+    {
+      "file": "12-tuesday-reversed-stable.png",
+      "sha256": "d82edb370220ab34db33abeba94914ec48dcbfb40f182f073981146f3335641f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:31:08.156Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:1229",
+      "actual_node_id": "412:1229",
+      "node_match": true,
+      "description": "Stable recheck after default Smart animate drag transition; same Tuesday result."
+    },
+    {
+      "file": "13-today-available-return.png",
+      "sha256": "4ac0d5121788c0241dddcd9cc865208e587764222e7b8872b867b122960cf54d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:31:08.660Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "description": "Today selected; four slots restored."
+    },
+    {
+      "file": "14-today-all-return.png",
+      "sha256": "90cfd057a49a557e04af56bb65e2e6e22a7db805cb1733af646efbc018d6e5ec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:31:09.170Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "description": "Today retained; ALL selected."
+    },
+    {
+      "file": "15-today-all-bottom.png",
+      "sha256": "052b5d619c50fcda16292cd13e72ba836c1a587952f200439a3a5bc77a6e3a0c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:31:09.787Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "description": "Continuous list reaches full 21:30-22:00 and22:00-22:30 final row."
+    },
+    {
+      "file": "16-today-all-bottom-recheck.png",
+      "sha256": "052b5d619c50fcda16292cd13e72ba836c1a587952f200439a3a5bc77a6e3a0c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:31:19.295Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "description": "Further down scroll shows same complete final row."
+    },
+    {
+      "file": "17-today-all-top-return.png",
+      "sha256": "90cfd057a49a557e04af56bb65e2e6e22a7db805cb1733af646efbc018d6e5ec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-29T21:31:19.958Z",
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "description": "Reverse scroll returns to08:30 top."
+    },
+    {
+      "file": "18-editor-vertical-viewport.png",
+      "sha256": "8ae585ed6741509e6d8f83f0aee44fb92bb7534eeb2daaa6c0fa8eb0bed18fd0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": null,
+      "source": "Figma UI screenshot through Computer Use",
+      "redaction": "Mask account avatar/adjacent controls at half-open[1017,0,1075,49]; app uses public historical Room data only.",
+      "expected_node_id": null,
+      "actual_node_id": null,
+      "node_match": null,
+      "description": "Editor: TodaySlotsViewport524x600, Vertical; original28slot content996px."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "90d8bc20ecf8b93f9801242c5d8b74636f738e26a9523a89e4e2ce5d012cf7fa",
+    "dimensions": [
+      1352,
+      1931
+    ]
+  },
+  "app_crop_xyxy": [
+    470,
+    60,
+    808,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "00-today-all.png",
+      "comparison": "14-today-all-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype sample comparison, not native visual fidelity or human testing."
+    },
+    {
+      "baseline": "00-today-all.png",
+      "comparison": "17-today-all-top-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype sample comparison, not native visual fidelity or human testing."
+    },
+    {
+      "baseline": "15-today-all-bottom.png",
+      "comparison": "16-today-all-bottom-recheck.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype sample comparison, not native visual fidelity or human testing."
+    },
+    {
+      "baseline": "01-today-available.png",
+      "comparison": "13-today-available-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype sample comparison, not native visual fidelity or human testing."
+    },
+    {
+      "baseline": "10-tuesday-available.png",
+      "comparison": "12-tuesday-reversed-stable.png",
+      "crop_xyxy": [
+        470,
+        166,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        249,
+        0,
+        315,
+        11
+      ],
+      "scope": "Prototype-to-prototype sample comparison, not native visual fidelity or human testing."
+    },
+    {
+      "baseline": "10-tuesday-available.png",
+      "comparison": "12-tuesday-reversed-stable.png",
+      "crop_xyxy": [
+        470,
+        172,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        250,
+        0,
+        315,
+        5
+      ],
+      "scope": "Additional crop moves its top edge6px; differences retained near the top-right edge. No pixel equality or root cause claim."
+    }
+  ],
+  "scope": "Twelve editable date/filter frames; twelve controls; one continuous Today ALL viewport. Full Room, date bar scrolling and application not complete."
+}

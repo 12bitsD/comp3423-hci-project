@@ -1,0 +1,323 @@
+{
+  "status": "twelve_frames_imported_sample_replayed_full_scope_incomplete",
+  "frames": [
+    {
+      "file": "room-dates-today-all.svg",
+      "state_id": "S-ALL",
+      "context_variant": "20260930-today-all",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-02",
+        "E-ROOM-DATES-15"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/02-today-all.png",
+        "evidence/2026-09-30-room-dates/15-today-all-bottom.png"
+      ],
+      "source_evidence_sha256": [
+        "8b6466c004226592f214a1d3235d55887514370e0a7777479bb64a077cd48a7e",
+        "ab4feb7f2ee7fe4e37984c04fd6a087ed95e21ff5d524ff4709a57df40ed380f"
+      ],
+      "sha256": "36ffb76265478a53841a21d2d221dd588310c312a1c0d02edb2f105e04352cdd",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:19",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "today-all",
+      "date": "30-Sep",
+      "filter": "all",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-today-available.svg",
+      "state_id": "S-AVAILABLE",
+      "context_variant": "20260930-today-available",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-03"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/03-today-available.png"
+      ],
+      "source_evidence_sha256": [
+        "6be98b3e4ac0df7959c3a181c4e8168bee67b5aafe4141b6fd60e03ff44e045a"
+      ],
+      "sha256": "ea10b19ff4b8a6800f98324c08ba4ba1f831a83768751c5608f44c3e3d4f78b7",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:216",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "today-available",
+      "date": "30-Sep",
+      "filter": "available",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-thursday-available.svg",
+      "state_id": "S-ROOM-DATE-THU-AVAILABLE",
+      "context_variant": "20260930-thursday-available",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-04"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/04-thursday-available.png"
+      ],
+      "source_evidence_sha256": [
+        "44a5901571155a40861ba71c9bd24f0190cd00a56626955758d702748011a82c"
+      ],
+      "sha256": "20e8900d1400281f1d4a179b7930093414d52b6436dc97d6248cdfde7d81cbcf",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:317",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "thursday-available",
+      "date": "01-Oct",
+      "filter": "available",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-thursday-all.svg",
+      "state_id": "S-ROOM-DATE-THU-ALL",
+      "context_variant": "20260930-thursday-all",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-05"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/05-thursday-all.png"
+      ],
+      "source_evidence_sha256": [
+        "5fbf355a2d7a10f64ecfcc649648974f8a7a7a896d40b7eef9f973db44c99926"
+      ],
+      "sha256": "0a26c909f24fe64d262ffc52c4b983cce120f794b21b114c9c7d0bf1521bac35",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:400",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "thursday-all",
+      "date": "01-Oct",
+      "filter": "all",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-friday-all.svg",
+      "state_id": "S-ROOM-DATE-FRI-ALL",
+      "context_variant": "20260930-friday-all",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-06"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/06-friday-all.png"
+      ],
+      "source_evidence_sha256": [
+        "81fe4ed31fafa8caf5a7b5ed1d80216b83c322e1dffb0fbc598c6dba0dd15f6a"
+      ],
+      "sha256": "6bd4157fc807a0e8ead46b914b1ad20679600a7e217f57f2e84bd671b2873d53",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:551",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "friday-all",
+      "date": "02-Oct",
+      "filter": "all",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-friday-available.svg",
+      "state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+      "context_variant": "20260930-friday-available",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-07"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/07-friday-available.png"
+      ],
+      "source_evidence_sha256": [
+        "a741a4442a2ab4a54efaa8662d8613ac66be50ac8ec0e02505c326bcda062b04"
+      ],
+      "sha256": "c24cf45c24f7a8b2db87ee34d295d4f9f7e97641f6afbd99b146afbe5c667546",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:702",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "friday-available",
+      "date": "02-Oct",
+      "filter": "available",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-saturday-available.svg",
+      "state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+      "context_variant": "20260930-saturday-available",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-08"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/08-saturday-available.png"
+      ],
+      "source_evidence_sha256": [
+        "1cc2774abd38589afb203855b274724ea5f38f3c7f5b8ee0035f5caf370152f9"
+      ],
+      "sha256": "d8301bb404551ee43e1696444206a9d6168b9e76348b0d0955698345117300d1",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:827",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "saturday-available",
+      "date": "03-Oct",
+      "filter": "available",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-sunday-available.svg",
+      "state_id": "S-SUNEMPTY",
+      "context_variant": "20260930-sunday-available",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-09"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/09-sunday-available.png"
+      ],
+      "source_evidence_sha256": [
+        "dd10da740feec6e0d13723f7d84e310245f9b07ba0d1124eaeb2ac2e8da3fa5b"
+      ],
+      "sha256": "a6276e7d4947d5c24d6c92b120e632e1aee6aa425aaa4c69c7bf16cee6d6c6d9",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:936",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "sunday-available",
+      "date": "04-Oct",
+      "filter": "available",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-monday-available.svg",
+      "state_id": "S-ROOM-DATE-MON-AVAILABLE",
+      "context_variant": "20260930-monday-available",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-10"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/10-monday-available.png"
+      ],
+      "source_evidence_sha256": [
+        "a6fc501bab1717cb36eb3579beab2c4354ba060c4f21f9ebd8c237848fd17883"
+      ],
+      "sha256": "992a1eb9c2a71ce38457f9a19b6b8ff21a981acf83bc552818968f3ac5ee130d",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:1019",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "monday-available",
+      "date": "05-Oct",
+      "filter": "available",
+      "date_strip_offset": -142,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-tuesday-available.svg",
+      "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "context_variant": "20260930-tuesday-available",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-11"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/11-tuesday-available.png"
+      ],
+      "source_evidence_sha256": [
+        "593809f06832c0e1dffa0ad404b9b5d7f0d81ed7fe5b12a4ae11629d04bc3fba"
+      ],
+      "sha256": "d3fa9d208332dca10921611206a2ad5e4a73dbfcc2daaadda6ba99b9d10c589a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:1120",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "tuesday-available",
+      "date": "06-Oct",
+      "filter": "available",
+      "date_strip_offset": -142,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-tuesday-reversed.svg",
+      "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "context_variant": "20260930-tuesday-reversed",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-12"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/12-date-strip-reversed.png"
+      ],
+      "source_evidence_sha256": [
+        "1c6da98492a955ea7bb8f485582f6937ec4ed50694b4e439214156a8aff8c560"
+      ],
+      "sha256": "a5be5ac7219b8bc6b3e76474e199b81d5fb26ebb0368a8fc5bdd6e9a97789372",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:1229",
+      "status": "sample_replayed_partial_fidelity",
+      "label": "tuesday-reversed",
+      "date": "06-Oct",
+      "filter": "available",
+      "date_strip_offset": 0,
+      "list_offset": 0
+    },
+    {
+      "file": "room-dates-today-bottom.svg",
+      "state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "context_variant": "20260930-today-bottom",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-02",
+        "E-ROOM-DATES-15"
+      ],
+      "source_evidence_paths": [
+        "evidence/2026-09-30-room-dates/02-today-all.png",
+        "evidence/2026-09-30-room-dates/15-today-all-bottom.png"
+      ],
+      "source_evidence_sha256": [
+        "8b6466c004226592f214a1d3235d55887514370e0a7777479bb64a077cd48a7e",
+        "ab4feb7f2ee7fe4e37984c04fd6a087ed95e21ff5d524ff4709a57df40ed380f"
+      ],
+      "sha256": "9931b580fa0b3828db0bfa49ef52d3d809399c52e0041e63fe095f3b304170e6",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "figma_node_id": "412:1338",
+      "status": "imported_reference_not_replayed",
+      "label": "today-bottom",
+      "date": "30-Sep",
+      "filter": "all",
+      "date_strip_offset": 0,
+      "list_offset": -396
+    }
+  ]
+}
