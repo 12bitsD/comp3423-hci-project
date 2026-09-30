@@ -1,0 +1,705 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-more-baseline.png",
+      "sha256": "fdec58fd348d274ab0868b30b7a9df67175133dd29a5183e960cffa8befe0236",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:30:51.913Z",
+      "description": "Before repair, existing More entry",
+      "expected_node_id": "12:435",
+      "actual_node_id": "12:435",
+      "node_match": true,
+      "phase": "baseline",
+      "url_sampling": "before screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "01-detail-baseline.png",
+      "sha256": "63ae758f0287ea65fcd83fdf8637e2ee972864b5f77efd8b50c0b4b8412ba63e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:30:52.222Z",
+      "description": "Initial Assistant detail before repair",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "baseline",
+      "url_sampling": "before screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "02-disclaimer-baseline.png",
+      "sha256": "fa1ba627826989328bce747edbd0fc71ed637e37ead3373f5f57eb755d123039",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:31:02.218Z",
+      "description": "Existing here link into Disclaimer before repair",
+      "expected_node_id": "42:43",
+      "actual_node_id": "42:43",
+      "node_match": true,
+      "phase": "baseline",
+      "url_sampling": "before screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "03-welcome-baseline.png",
+      "sha256": "c74c56fd002c487e3da2d7d2d7ff37cfdbc12a362e230ee04bc4e1ed95d871ab",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:31:11.938Z",
+      "description": "Prototype ACCEPT enters fixed Welcome",
+      "expected_node_id": "42:111",
+      "actual_node_id": "42:111",
+      "node_match": true,
+      "phase": "baseline",
+      "url_sampling": "before screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "04-web-return-baseline.png",
+      "sha256": "45d7810c5a0c482d384e0bfeae7f37f309757b35aca86dccb1f1d37fe244dde8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:31:12.342Z",
+      "description": "Close Welcome; inspect returned article hero before repair; captured URL and expected frame differ at transition; retained, followed by no-input confirmation.",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:111",
+      "node_match": false,
+      "phase": "baseline",
+      "url_sampling": "before screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "05-web-return-baseline-held.png",
+      "sha256": "45d7810c5a0c482d384e0bfeae7f37f309757b35aca86dccb1f1d37fe244dde8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:31:26.838Z",
+      "description": "No-input recheck after prior URL/screenshot capture transition; detail hero remains missing",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "baseline",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "08-detail-after-refresh.png",
+      "sha256": "63ae758f0287ea65fcd83fdf8637e2ee972864b5f77efd8b50c0b4b8412ba63e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:21.060Z",
+      "description": "After hero fill re-upload and single intentional Present refresh",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "repair",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "09-expanded-round1.png",
+      "sha256": "05a6575a78720bde738d3db517515e9e0a87840038ac61b6b0e869376d6937d7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:27.623Z",
+      "description": "Click ExpandImage; original expanded bitmap visible",
+      "expected_node_id": "42:37",
+      "actual_node_id": "42:37",
+      "node_match": true,
+      "phase": "round1",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "10-image-return-round1.png",
+      "sha256": "63ae758f0287ea65fcd83fdf8637e2ee972864b5f77efd8b50c0b4b8412ba63e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:27.926Z",
+      "description": "Close image to detail",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "round1",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "11-disclaimer-round1.png",
+      "sha256": "fa1ba627826989328bce747edbd0fc71ed637e37ead3373f5f57eb755d123039",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:36.315Z",
+      "description": "Here opens reconstructed disclaimer",
+      "expected_node_id": "42:43",
+      "actual_node_id": "42:43",
+      "node_match": true,
+      "phase": "round1",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "12-welcome-round1.png",
+      "sha256": "c74c56fd002c487e3da2d7d2d7ff37cfdbc12a362e230ee04bc4e1ed95d871ab",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:36.517Z",
+      "description": "Dummy prototype ACCEPT navigates to Welcome; no real acceptance",
+      "expected_node_id": "42:111",
+      "actual_node_id": "42:111",
+      "node_match": true,
+      "phase": "round1",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "13-web-return-round1.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:41.765Z",
+      "description": "CloseWeb returns to detail after hero re-upload",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "round1",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "14-web-return-held-round1.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:50.248Z",
+      "description": "No input recheck: hero remains visible",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "round1",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "15-more-return-round1.png",
+      "sha256": "fdec58fd348d274ab0868b30b7a9df67175133dd29a5183e960cffa8befe0236",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:50.651Z",
+      "description": "Back returns More",
+      "expected_node_id": "12:435",
+      "actual_node_id": "12:435",
+      "node_match": true,
+      "phase": "round1",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "16-detail-round2.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:58.529Z",
+      "description": "More Assistant card reentry, no intervening reload",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "17-expanded-round2.png",
+      "sha256": "61e7573881435dc6646b1b79c7db0897063269ebcf121429e3fbffcfad4eccaf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:58.730Z",
+      "description": "Expand image second cycle",
+      "expected_node_id": "42:37",
+      "actual_node_id": "42:37",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "18-image-return-round2.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:59.033Z",
+      "description": "Close expanded image second cycle; captured URL and expected frame differ at transition; retained, followed by no-input confirmation.",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:37",
+      "node_match": false,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "19-image-return-held-round2.png",
+      "sha256": "63ae758f0287ea65fcd83fdf8637e2ee972864b5f77efd8b50c0b4b8412ba63e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:37:05.877Z",
+      "description": "No input confirmation after transient URL mismatch in18",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "20-disclaimer-round2.png",
+      "sha256": "0192724c79b7134457c9b66300f57acdad16634c9615fea9c762d1a82e875be5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:37:06.183Z",
+      "description": "Here second cycle",
+      "expected_node_id": "42:43",
+      "actual_node_id": "42:43",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "21-welcome-round2.png",
+      "sha256": "3d1050ff33d2e983ccbaa54d57354ac0fa0e7d7149d67fba4495f6b3e8687bec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:37:06.571Z",
+      "description": "Dummy prototype ACCEPT second cycle",
+      "expected_node_id": "42:111",
+      "actual_node_id": "42:111",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "22-web-return-round2.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:37:15.401Z",
+      "description": "CloseWeb second cycle, without intervening reload",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "23-web-return-held-round2.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:37:15.501Z",
+      "description": "No input held recheck second cycle",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "24-more-return-round2.png",
+      "sha256": "fdec58fd348d274ab0868b30b7a9df67175133dd29a5183e960cffa8befe0236",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:37:15.905Z",
+      "description": "Back second cycle",
+      "expected_node_id": "12:435",
+      "actual_node_id": "12:435",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "25-detail-final-reentry.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:37:16.207Z",
+      "description": "Final More reentry verification",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "phase": "round2",
+      "url_sampling": "after screenshot",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "06-detail-fill-before.png",
+      "sha256": "b0b9c0dc83ea8ced1e19498abac523de7acaa3ca240cf82a75698479286d3625",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:35:40.709605+00:00",
+      "timestamp_basis": "Local screenshot write time",
+      "description": "Actual editor hero fill before re-upload; root42:6 image42:12.",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    },
+    {
+      "file": "07-detail-fill-after.png",
+      "sha256": "391a381643916e53e7cb2edc0898196e15c645be37b0da5e7e6d82c967ad6cbf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:36:00.878871+00:00",
+      "timestamp_basis": "Local screenshot write time",
+      "description": "Actual editor hero fill after re-upload; root42:6 image42:12.",
+      "redaction": "Account/collaborator header masked at half-open [1039,0,1125,49]."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "51cf1a77a9d3536621efed26b7f8b58456dba4908e111ec642bc204400b07ca5",
+    "dimensions": [
+      1428,
+      1254
+    ]
+  },
+  "app_crop_xyxy": [
+    461,
+    60,
+    818,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "01-detail-baseline.png",
+      "comparison": "05-web-return-baseline-held.png",
+      "crop_xyxy": [
+        472,
+        121,
+        807,
+        254
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        0,
+        0,
+        335,
+        133
+      ],
+      "reason": "Original missing hero reproduction before mutation",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "08-detail-after-refresh.png",
+      "comparison": "10-image-return-round1.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Detail after image/web return, held recheck or reentry without further reload",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "08-detail-after-refresh.png",
+      "comparison": "13-web-return-round1.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "reason": "Detail after image/web return, held recheck or reentry without further reload",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "08-detail-after-refresh.png",
+      "comparison": "14-web-return-held-round1.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "reason": "Detail after image/web return, held recheck or reentry without further reload",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "08-detail-after-refresh.png",
+      "comparison": "16-detail-round2.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "reason": "Detail after image/web return, held recheck or reentry without further reload",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "08-detail-after-refresh.png",
+      "comparison": "19-image-return-held-round2.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Detail after image/web return, held recheck or reentry without further reload",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "08-detail-after-refresh.png",
+      "comparison": "22-web-return-round2.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "reason": "Detail after image/web return, held recheck or reentry without further reload",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "08-detail-after-refresh.png",
+      "comparison": "23-web-return-held-round2.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "reason": "Detail after image/web return, held recheck or reentry without further reload",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "08-detail-after-refresh.png",
+      "comparison": "25-detail-final-reentry.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "reason": "Detail after image/web return, held recheck or reentry without further reload",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "09-expanded-round1.png",
+      "comparison": "17-expanded-round2.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        0,
+        244,
+        355,
+        405
+      ],
+      "reason": "Unchanged expanded/web/More state regression",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "02-disclaimer-baseline.png",
+      "comparison": "11-disclaimer-round1.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Unchanged expanded/web/More state regression",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "11-disclaimer-round1.png",
+      "comparison": "20-disclaimer-round2.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        115,
+        68,
+        245
+      ],
+      "reason": "Unchanged expanded/web/More state regression",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "03-welcome-baseline.png",
+      "comparison": "12-welcome-round1.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Unchanged expanded/web/More state regression",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "12-welcome-round1.png",
+      "comparison": "21-welcome-round2.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        115,
+        68,
+        245
+      ],
+      "reason": "Unchanged expanded/web/More state regression",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "00-more-baseline.png",
+      "comparison": "15-more-return-round1.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Unchanged expanded/web/More state regression",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    },
+    {
+      "baseline": "15-more-return-round1.png",
+      "comparison": "24-more-return-round2.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "reason": "Unchanged expanded/web/More state regression",
+      "scope": "Prototype-to-prototype only; does not establish native fidelity."
+    }
+  ],
+  "scope": "One original hero image fill re-upload and two repeated Assistant image/web return samples; full app not verified."
+}

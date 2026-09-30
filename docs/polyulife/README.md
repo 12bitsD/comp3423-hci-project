@@ -11,7 +11,9 @@
 
 ## 当前进度（2026-09-30）
 
-最新[六个剩余日期栏回放](room-remaining-date-bars-prototype-walkthrough.md)已归档：十个主要历史日期上下文均为连续横向滚动，两个完整七日样例路径及移动后的 Thu/Fri/Sat 按钮已回放。当前 Figma **109映射画板/251配置控件/41次运行**，另有3个画板内组件状态和16个滚动区域（5垂直、11水平）。本批82个公开PNG加入后，十份清单合计1082个PNG；36项原型比较30等、6项日期回弹差异保留。原生仍为135状态/268动作（193 observed、75 not_attempted），全应用、其它日期组合/调用者和完整视觉仍未验证。下方统计保留为历史快照。
+最新[Virtual Assistant 图片修复回放](virtual-assistant-image-repair-walkthrough.md)已归档：头图及四处网页校徽/头像原素材重新载入，最终两轮网页图片可见；头图和展开图区域的像素差异保留，完整视觉仍未通过。当前 Figma **109映射画板/251配置控件/43次运行**、16滚动区域；十二份公开清单共1131个PNG，1170条证据。没有新增原生动作，全应用仍为 `not_verified`。以下批次统计为历史快照。
+
+最新[六个剩余日期栏回放](room-remaining-date-bars-prototype-walkthrough.md)已归档：十个主要历史日期上下文均为连续横向滚动，两个完整七日样例路径及移动后的 Thu/Fri/Sat 按钮已回放。当时 Figma **109映射画板/251配置控件/41次运行**，另有3个画板内组件状态和16个滚动区域（5垂直、11水平）。本批82个公开PNG加入后，十份清单合计1082个PNG；36项原型比较30等、6项日期回弹差异保留。原生仍为135状态/268动作（193 observed、75 not_attempted），全应用、其它日期组合/调用者和完整视觉仍未验证。下方统计保留为历史快照。
 
 最新批次见 [Preview 原生控件补查](room-preview-controls-20260930.md)和[登录画板与 Copy 关闭回放](room-preview-controls-prototype-walkthrough.md)：当前原生 **135状态/268动作（193 observed、75 not_attempted）**，Figma **109映射画板/245配置控件/40次运行**，另有3个画板内组件状态和10个滚动区域。九份公开清单合计1000个PNG文件，含拼图；图片数不表示覆盖率。认证画板仅孤立渲染，Copy仅关闭菜单，完整认证、指南、剪贴板和分享语义仍未完成。以下较早批次的统计保留为历史快照。
 
@@ -41,7 +43,7 @@ Study搜索输入后空白、主地图平移/面板拖动/标记点击、周选�
 
 另一条[天气样例原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-435&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A435&show-proto-sidebar=1)已在独立标签页实跑 **More → 天气详情 → 图片展开 → 详情 → More** 四步。原生 App 天气返回也有独立证据；天气正文链接前排版仍稍挤，视觉保持近似，未称逐像素一致。
 
-同一 More 原型的 Virtual Assistant 分支已跑通七条导航和“点免责声明正文不跳转”的负向检查；但从 Welcome 关闭网页返回详情后，头图重复变空白，重载恢复后再次重走仍复现。因此 **VA 导航样例通过，视觉验收未通过**，问题保持未解决；不把它归为原 App 的缺陷。具体步骤、图像证据和来源状态差异见 [Figma 验证记录](figma-spec.md)。
+同一 More 原型的 Virtual Assistant 分支已跑通七条导航和“点免责声明正文不跳转”的负向检查；但从 Welcome 关闭网页返回详情后，头图重复变空白，重载恢复后再次重走仍复现。因此 **VA 导航样例通过，视觉验收未通过**，该段是历史失败结论；2026-09-30的[图片修复回放](virtual-assistant-image-repair-walkthrough.md)已局部改善，但完整视觉仍未通过，不把它归为原 App 的缺陷。具体步骤、图像证据和来源状态差异见 [Figma 验证记录](figma-spec.md)。
 
 [Calendar 公共校历原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=42-165&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=42%3A165&show-proto-sidebar=1)已实跑 **13条连接、10张固定状态**，包含公共假期详情与返回、列表/历史、月份切换、Acad/All/None筛选选择和Acad Apply。分支间的 Figma Restart 只记为测试重置。其它日期、周视图、Hide History、All/None Apply与筛选关闭等尚未全部接入；筛选背景合成和整卡热点相对原生省略号的范围差异已保留。
 

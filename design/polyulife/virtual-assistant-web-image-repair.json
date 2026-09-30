@@ -1,0 +1,96 @@
+{
+  "revision_id": "FIGMA-VA-WEB-IMAGE-REPAIR-20260930",
+  "actual_edits": [
+    {
+      "root_node_id": "42:43",
+      "image_node_id": "42:77",
+      "asset_path": "assets/virtual-assistant-avatar.png",
+      "asset_sha256": "809439f9aabaeaf20f4e46f270037c80479ed22e61c101c68e0944c8fbeac921",
+      "position": [
+        32,
+        334
+      ],
+      "dimensions": [
+        64,
+        59
+      ],
+      "operation": "Existing Image fill / Upload from computer",
+      "geometry_changed": false,
+      "source_pixels_modified": false,
+      "after_fill_readback": "After upload screenshot and fill dialog path verified; after AX diff omitted unchanged values.",
+      "evidence_ids": [
+        "E-VA-WEB-IMAGE-REPAIR-EDITOR-26"
+      ]
+    },
+    {
+      "root_node_id": "42:43",
+      "image_node_id": "42:65",
+      "asset_path": "assets/virtual-assistant-logo.png",
+      "asset_sha256": "b337d54c608665a0c75fd33c060b6b0ed808c38b6660088e8b3915a3ead9adb1",
+      "position": [
+        35,
+        192
+      ],
+      "dimensions": [
+        63,
+        63
+      ],
+      "operation": "Existing Image fill / Upload from computer",
+      "geometry_changed": false,
+      "source_pixels_modified": false,
+      "after_fill_readback": "Full AX STRETCH, original dimensions, color manage true, thumbnail",
+      "evidence_ids": [
+        "E-VA-WEB-IMAGE-REPAIR-EDITOR-27"
+      ]
+    },
+    {
+      "root_node_id": "42:111",
+      "image_node_id": "42:133",
+      "asset_path": "assets/virtual-assistant-logo.png",
+      "asset_sha256": "b337d54c608665a0c75fd33c060b6b0ed808c38b6660088e8b3915a3ead9adb1",
+      "position": [
+        35,
+        192
+      ],
+      "dimensions": [
+        63,
+        63
+      ],
+      "operation": "Existing Image fill / Upload from computer",
+      "geometry_changed": false,
+      "source_pixels_modified": false,
+      "after_fill_readback": "Full AX STRETCH, original dimensions, color manage true, thumbnail",
+      "evidence_ids": [
+        "E-VA-WEB-IMAGE-REPAIR-EDITOR-28"
+      ]
+    },
+    {
+      "root_node_id": "42:111",
+      "image_node_id": "42:145",
+      "asset_path": "assets/virtual-assistant-avatar.png",
+      "asset_sha256": "809439f9aabaeaf20f4e46f270037c80479ed22e61c101c68e0944c8fbeac921",
+      "position": [
+        32,
+        334
+      ],
+      "dimensions": [
+        64,
+        59
+      ],
+      "operation": "Existing Image fill / Upload from computer",
+      "geometry_changed": false,
+      "source_pixels_modified": false,
+      "after_fill_readback": "Full AX STRETCH, original dimensions, color manage true, thumbnail",
+      "evidence_ids": [
+        "E-VA-WEB-IMAGE-REPAIR-EDITOR-29"
+      ]
+    }
+  ],
+  "connections_modified": false,
+  "prototype_run_id": "PROTO-VA-WEB-IMAGE-REPAIR-001",
+  "evidence_ids": [
+    "E-VA-WEB-IMAGE-REPAIR-TRACE"
+  ],
+  "scope_completion": "not_verified",
+  "root_cause": "Not established; original assets reupload followed by sampled return stability."
+}
