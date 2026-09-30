@@ -45332,6 +45332,581 @@
       ],
       "action_ids": [],
       "source": "Actual Computer Use SVG imports, two replaced/three new controls, transient sequence and isolated blank X replay; no new native observations."
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/01-import.png",
+      "sha256": "b214429f1eb3d94791b83b967fd772cc28f256d86b3576c50a4c0cd55e11ce91",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:19:28.007Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Imported loading SVG, geometry checked.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/02-delay-config.png",
+      "sha256": "dd22aec92ecbfc8f59a17c1f1b55b80ffd21e26b93515d92348694f460374df3",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:20:12.631Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. After delay800ms Navigate to50:1862, demo latency only.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/03-entry-config.png",
+      "sha256": "2a9e5455e3b75bf30cf529ce178fd1ab7a58cb6a68ff3d04ca0c34f8b495e5c1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:20:33.228Z",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Existing Terms entry destination replaced with loading621:20.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/04-back-config.png",
+      "sha256": "c94947628356eb7b04250c54f1e4911af7bb186fd85de716faf86e5b0a244c3b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:20:57.312Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Back explicitly Navigate to75:1669 so transient does not become a return loop.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/05-root-no-extra-flow.png",
+      "sha256": "10badab2a6b38b1f6a262b0ec06a9b51fc4be001fe59341bc2a4ba29c22acca2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:21:15.783Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Loading root has Add flow starting point, no extra flow.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/06-more-baseline.png",
+      "sha256": "9c98b58703f2b3f969948d1d924c2cd66d8fba4cae3efe29d037b61f3e4d23a7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:21:15.799Z",
+      "session_id": null,
+      "state_ids": [
+        "S-MORE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Current More caller before drawer/Terms loading route.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/07-more-menu-unconfigured.png",
+      "sha256": "9c98b58703f2b3f969948d1d924c2cd66d8fba4cae3efe29d037b61f3e4d23a7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:21:34.250Z",
+      "session_id": null,
+      "state_ids": [
+        "S-MORE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. More Menu click has no drawer connection; blue hotspot feedback, no navigation. Known scope gap preserved.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/08-notification-baseline.png",
+      "sha256": "6ba8d0016de50610522b3b2bc61a7ba6870508732332e3dc7953c32910fda711",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:21:51.870Z",
+      "session_id": null,
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Configured notification caller baseline.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/09-drawer-baseline.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:22:01.302Z",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Notification opens full menu DEMO.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/10-loading.png",
+      "sha256": "107c8e8feb96e54a374c28d02884976e6769305e55015c464972def63f802e7e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:22:01.533Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Actual short loading state after Terms click; 800ms prototype proxy.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/11-terms-visible.png",
+      "sha256": "953cffbfa10de8798794fd5272363d7d4cad011ab7d111295ce7ea9c2b6c84d6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:22:14.208Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Automatic settled Terms body and wordmark visible.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/12-drawer-return.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:22:14.447Z",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Settled Terms Back returns directly to drawer.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/13-drawer-close-loop-failure.png",
+      "sha256": "953cffbfa10de8798794fd5272363d7d4cad011ab7d111295ce7ea9c2b6c84d6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:22:29.195Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Failure: closing drawer after explicit Terms Navigate return reopens Terms through history. Must repair with overlay loading stack.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/14-delay-swap-repair.png",
+      "sha256": "660ef685b9fa51cbc324e4745d205a1757eade601f50f30713ee8564a703335a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:22:39.946Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Repaired loading progression to Swap overlay, retains drawer below.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/15-entry-overlay-repair.png",
+      "sha256": "61dbf06d834ebd146a1e53a0feb0377d1a5b08d528d063ac45597d0aca2e99c9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:23:05.919Z",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Menu Terms Open overlay621:20 with centered full-size overlay.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/16-back-close-overlay-repair.png",
+      "sha256": "16aa78bb88773442d1f9e07caeb998e63eab30ff40284eac6e487275b2a0b31f",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:23:21.417Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Settled Terms Back Close overlay returns to original drawer without adding history.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/17-notification-repaired-baseline.png",
+      "sha256": "6ba8d0016de50610522b3b2bc61a7ba6870508732332e3dc7953c32910fda711",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:23:41.153Z",
+      "session_id": null,
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Fresh notification baseline for overlay repair run.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/18-drawer-repaired-baseline.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:23:41.383Z",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Notification menu before overlay Terms.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/19-loading-overlay.png",
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:23:41.612Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Actual full-size loading overlay.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/20-terms-overlay-visible.png",
+      "sha256": "b6a8ee50a5edf4c623ddde66645ff91edeb452dc4d37773ebd5c481c930d2fd6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:23:54.322Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Loading automatically swaps to settled Terms overlay.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/21-drawer-overlay-return.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:23:54.584Z",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Terms Close overlay restores drawer.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/22-notification-restored.png",
+      "sha256": "6ba8d0016de50610522b3b2bc61a7ba6870508732332e3dc7953c32910fda711",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:24:04.019Z",
+      "session_id": null,
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Drawer close now restores Notification, no Terms loop.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/23-home-baseline.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:24:19.181Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Tuesday DEMO Home caller baseline.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/24-home-drawer.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:24:19.418Z",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Tuesday Home opens same drawer.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/25-home-loading.png",
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:24:19.683Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Tuesday caller shows loading overlay.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/26-home-terms-visible.png",
+      "sha256": "b6a8ee50a5edf4c623ddde66645ff91edeb452dc4d37773ebd5c481c930d2fd6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:24:31.097Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Settled Terms overlay in Home caller, wordmark visible.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/27-home-terms-cookie-dismissed.png",
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:24:38.529Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-NO-COOKIE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Existing independent cookie dismissal works inside settled overlay.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/28-home-drawer-return.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:24:38.757Z",
+      "session_id": null,
+      "state_ids": [
+        "S-DRAWER"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Dismissed Terms Close overlay restores Home caller drawer.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/29-home-restored.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:24:53.377Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Final Tuesday Home restored, synthetic schedules unchanged.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/30-final-root-no-extra-flow.png",
+      "sha256": "f321c83d94b9e70b74c2043672da6b7d2395a60b010edde822e8a3554f3748ac",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:25:08.829Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Final loading root after overlay repair, no extra flow start.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-SCREEN-31",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-terms-loading/31-final-delay-readback.png",
+      "sha256": "1455792916c6688abb316166ff22a556c08fdc061929c269cfa5404f0bd7dfd2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:25:09.273Z",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Final readback After delay800ms Swap overlay Terms Instant.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-TERMS-LOADING-TRACE",
+      "type": "interaction_trace",
+      "path": "terms-loading-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-TERMS-LOADING",
+        "S-TERMS",
+        "S-TERMS-NO-COOKIE",
+        "S-DRAWER",
+        "S-NOTIFICATION-EMPTY",
+        "S-HOME-SCHEDULE-TUE",
+        "S-MORE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use import, failed history route and overlay repair/two caller replay; no new native observations."
     }
   ],
   "findings": [
@@ -47140,6 +47715,19 @@
         "prototype_run_ids": [
           "PROTO-MENU-V2-001",
           "PROTO-POLICY-COOKIE-V2-001"
+        ],
+        "follow_ups": [
+          {
+            "revision_id": "FIGMA-TERMS-LOADING-20261001",
+            "behavior": "Now entered via loading overlay; Back Close overlay.",
+            "prototype_run_ids": [
+              "PROTO-TERMS-LOADING-NOTIFICATION-001",
+              "PROTO-TERMS-LOADING-HOME-001"
+            ],
+            "evidence_ids": [
+              "E-TERMS-LOADING-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -52561,6 +53149,57 @@
         "prototype_run_ids": [
           "PROTO-VA-TRANSIENT-BLANK-001"
         ]
+      },
+      {
+        "state_id": "S-TERMS-LOADING",
+        "node_id": "621:20",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=621-20",
+        "node_name": "[S-TERMS-LOADING] Terms — observed loading",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "source_evidence_ids": [
+          "E-MENU-N-21"
+        ],
+        "design_source_path": "../../design/polyulife/terms-loading.svg",
+        "design_source_sha256": "c0096ce70036eacf12f56fc278d883eb791a57f511e7bee4150ea44678f5fb4c",
+        "canvas_position": [
+          0,
+          58500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "clip_content": true
+        },
+        "native_editability": "Embedded title/header/gray overlay/loading card editable; only56x56 public native logo crop raster.",
+        "content_policy": "Public generic loading chrome only; no identity/policy acceptance. Cursor omitted.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Native source inspected; actual import and finite Present loading captures reviewed. Font and geometry approximate; no full fidelity acceptance.",
+          "evidence_ids": [
+            "E-TERMS-LOADING-TRACE",
+            "E-TERMS-LOADING-SCREEN-01",
+            "E-TERMS-LOADING-SCREEN-19",
+            "E-TERMS-LOADING-SCREEN-25"
+          ],
+          "deviation_ids": [
+            "D-TERMS-LOADING-LIMITS"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-TERMS-LOADING-TRACE",
+          "E-TERMS-LOADING-SCREEN-19",
+          "E-TERMS-LOADING-SCREEN-25"
+        ],
+        "prototype_status": "loading_sequence_and_two_caller_restorations_sampled",
+        "prototype_run_ids": [
+          "PROTO-TERMS-LOADING-NOTIFICATION-001",
+          "PROTO-TERMS-LOADING-HOME-001"
+        ]
       }
     ],
     "action_connection_mappings": [
@@ -56573,23 +57212,6 @@
         "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
       },
       {
-        "action_id": "A-DRAWER-TERMS",
-        "source_node_id": "75:1669",
-        "target_node_id": "50:1862",
-        "trigger_node_id": "75:1700",
-        "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-MENU-V2",
-        "implementation_status": "tested",
-        "prototype_run_ids": [
-          "PROTO-MENU-V2-001"
-        ],
-        "deviation_ids": [
-          "D-MENU-FIDELITY"
-        ],
-        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
-      },
-      {
         "action_id": "A-DRAWER-CLOSE",
         "source_node_id": "75:1669",
         "target_node_id": null,
@@ -56712,31 +57334,6 @@
         "tested_source_state_ids": [
           "S-PRIVACY",
           "S-PRIVACY-NO-COOKIE"
-        ]
-      },
-      {
-        "action_id": "A-TERMS-BACK",
-        "source_node_id": "50:1862",
-        "target_node_id": null,
-        "trigger_node_id": "50:1908",
-        "trigger": "On click",
-        "behavior": "Back",
-        "revision_id": "FIGMA-MENU-V2",
-        "implementation_status": "tested",
-        "prototype_run_ids": [
-          "PROTO-MENU-V2-001",
-          "PROTO-POLICY-COOKIE-V2-001"
-        ],
-        "deviation_ids": [
-          "D-MENU-FIDELITY"
-        ],
-        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
-        "tested_target_node_ids": [
-          "75:1669"
-        ],
-        "tested_source_state_ids": [
-          "S-TERMS",
-          "S-TERMS-NO-COOKIE"
         ]
       },
       {
@@ -63334,6 +63931,94 @@
           "D-VA-SOURCE-STATE-SAMPLING",
           "D-VA-TRANSIENT-LIMITS"
         ]
+      },
+      {
+        "action_id": null,
+        "source_node_id": "621:20",
+        "trigger_node_id": "621:20",
+        "target_node_id": "50:1862",
+        "trigger": "After delay",
+        "behavior": "Swap overlay",
+        "delay_ms": 800,
+        "timing_policy": "Prototype demo only; native duration unknown.",
+        "configured_at": "2026-09-30T16:22:39.948Z",
+        "connection_id": "C-TERMS-LOADING-01",
+        "revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "implementation_status": "configured_and_two_caller_samples_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-TERMS-LOADING-NOTIFICATION-001",
+          "PROTO-TERMS-LOADING-HOME-001"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-N-21",
+          "E-TERMS"
+        ],
+        "prototype_evidence_ids": [
+          "E-TERMS-LOADING-TRACE",
+          "E-TERMS-LOADING-SCREEN-31"
+        ],
+        "deviation_ids": [
+          "D-TERMS-LOADING-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
+        ]
+      },
+      {
+        "operation": "replace_behavior_and_destination",
+        "action_id": "A-DRAWER-TERMS",
+        "source_node_id": "75:1669",
+        "trigger_node_id": "75:1700",
+        "target_node_id": "621:20",
+        "trigger": "On click",
+        "behavior": "Open overlay",
+        "configured_at": "2026-09-30T16:23:05.919Z",
+        "connection_id": "C-TERMS-LOADING-02",
+        "revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "implementation_status": "configured_and_two_caller_samples_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-TERMS-LOADING-NOTIFICATION-001",
+          "PROTO-TERMS-LOADING-HOME-001"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-N-21",
+          "E-TERMS"
+        ],
+        "prototype_evidence_ids": [
+          "E-TERMS-LOADING-TRACE",
+          "E-TERMS-LOADING-SCREEN-15"
+        ],
+        "deviation_ids": [
+          "D-TERMS-LOADING-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
+        ]
+      },
+      {
+        "operation": "replace_behavior",
+        "action_id": "A-TERMS-BACK",
+        "source_node_id": "50:1862",
+        "trigger_node_id": "50:1908",
+        "target_node_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "implementation_note": "Full-size overlay model preserves drawer caller history; does not claim native architecture.",
+        "configured_at": "2026-09-30T16:23:21.417Z",
+        "connection_id": "C-TERMS-LOADING-03",
+        "revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "implementation_status": "configured_and_two_caller_samples_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-TERMS-LOADING-NOTIFICATION-001",
+          "PROTO-TERMS-LOADING-HOME-001"
+        ],
+        "source_evidence_ids": [
+          "E-MENU-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-TERMS-LOADING-TRACE",
+          "E-TERMS-LOADING-SCREEN-16"
+        ],
+        "deviation_ids": [
+          "D-TERMS-LOADING-LIMITS",
+          "D-POLICY-WORDMARK-RENDER"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -65115,6 +65800,23 @@
         "next_step": "Observe unresolved native actions; test early exits and loaded/blank contexts without inventing causal input behavior.",
         "evidence_ids": [
           "E-VA-TRANSIENT-TRACE"
+        ]
+      },
+      {
+        "id": "D-TERMS-LOADING-LIMITS",
+        "revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "status": "open",
+        "affected_state_ids": [
+          "S-TERMS-LOADING",
+          "S-TERMS",
+          "S-DRAWER"
+        ],
+        "original_behavior": "Gray overlay and PolyU mark observed before Terms body; native latency/early cancellation unknown.",
+        "current_implementation": "Static loading with800ms delay using full-size overlay stack; settled Back closes overlay.",
+        "impact": "Approximate font/geometry/timing; continuous policy body and early cancellation unconfigured. Direct standalone settled reference has no overlay caller to close. More Menu remains unconfigured.",
+        "next_step": "Restore native observation and test early exits, reentry, other callers and continuous policy scroll; prototype two caller samples do not establish full coverage.",
+        "evidence_ids": [
+          "E-TERMS-LOADING-TRACE"
         ]
       }
     ],
@@ -80627,6 +81329,319 @@
           "No causal input edge to blank; native close proof is AX only.",
           "Isolated reference, not a successful native input workflow."
         ]
+      },
+      {
+        "id": "PROTO-TERMS-LOADING-FAILURE-001",
+        "revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "start_node_id": "42:1617",
+        "started_at": "2026-09-30T16:21:51.870Z",
+        "ended_at": "2026-09-30T16:22:29.195Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=42-1617&starting-point-node-id=42%3A1617&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Terms · PROTO-TERMS-LOADING-FAILURE-001",
+        "status": "failed",
+        "navigation_status": "Initial Navigate stack caused drawer close loop.",
+        "visual_status": "Saved pixels only; typography/geometry approximate, long-session image stability open.",
+        "steps": [
+          {
+            "at": "2026-09-30T16:21:51.870Z",
+            "description": "Configured notification caller baseline.",
+            "state_id": "S-NOTIFICATION-EMPTY",
+            "action_id": null,
+            "visible_node_id": "42:1617",
+            "outcome": "visible_sample_recorded",
+            "file": "08-notification-baseline.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-08"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:22:01.302Z",
+            "description": "Notification opens full menu DEMO.",
+            "state_id": "S-DRAWER",
+            "action_id": null,
+            "visible_node_id": "75:1669",
+            "outcome": "visible_sample_recorded",
+            "file": "09-drawer-baseline.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-09"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:22:01.533Z",
+            "description": "Actual short loading state after Terms click; 800ms prototype proxy.",
+            "state_id": "S-TERMS-LOADING",
+            "action_id": null,
+            "visible_node_id": "621:20",
+            "outcome": "visible_sample_recorded",
+            "file": "10-loading.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-10"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:22:14.208Z",
+            "description": "Automatic settled Terms body and wordmark visible.",
+            "state_id": "S-TERMS",
+            "action_id": null,
+            "visible_node_id": "50:1862",
+            "outcome": "visible_sample_recorded",
+            "file": "11-terms-visible.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-11"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:22:14.447Z",
+            "description": "Settled Terms Back returns directly to drawer.",
+            "state_id": "S-DRAWER",
+            "action_id": null,
+            "visible_node_id": "75:1669",
+            "outcome": "visible_sample_recorded",
+            "file": "12-drawer-return.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-12"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:22:29.195Z",
+            "description": "Failure: closing drawer after explicit Terms Navigate return reopens Terms through history. Must repair with overlay loading stack.",
+            "state_id": "S-TERMS",
+            "action_id": null,
+            "visible_node_id": "50:1862",
+            "outcome": "visible_sample_recorded",
+            "file": "13-drawer-close-loop-failure.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-13"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-TERMS-LOADING-SCREEN-08",
+          "E-TERMS-LOADING-SCREEN-09",
+          "E-TERMS-LOADING-SCREEN-10",
+          "E-TERMS-LOADING-SCREEN-11",
+          "E-TERMS-LOADING-SCREEN-12",
+          "E-TERMS-LOADING-SCREEN-13"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-terms-loading/manifest.json",
+        "limitations": [
+          "800ms static loading demo, not measured native latency.",
+          "Overlay is prototype implementation, not claim about native navigation architecture.",
+          "Early cancellation, continuous body scroll, other callers, native reentry/cookie persistence and complete fidelity remain unverified."
+        ]
+      },
+      {
+        "id": "PROTO-TERMS-LOADING-NOTIFICATION-001",
+        "revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "start_node_id": "42:1617",
+        "started_at": "2026-09-30T16:23:41.153Z",
+        "ended_at": "2026-09-30T16:24:04.019Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=42-1617&starting-point-node-id=42%3A1617&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Terms · PROTO-TERMS-LOADING-NOTIFICATION-001",
+        "status": "partial",
+        "navigation_status": "Recorded loading/settled exit/caller restoration sample passed; full scope open.",
+        "visual_status": "Saved pixels only; typography/geometry approximate, long-session image stability open.",
+        "steps": [
+          {
+            "at": "2026-09-30T16:23:41.153Z",
+            "description": "Fresh notification baseline for overlay repair run.",
+            "state_id": "S-NOTIFICATION-EMPTY",
+            "action_id": null,
+            "visible_node_id": "42:1617",
+            "outcome": "visible_sample_recorded",
+            "file": "17-notification-repaired-baseline.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-17"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:23:41.383Z",
+            "description": "Notification menu before overlay Terms.",
+            "state_id": "S-DRAWER",
+            "action_id": null,
+            "visible_node_id": "75:1669",
+            "outcome": "visible_sample_recorded",
+            "file": "18-drawer-repaired-baseline.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-18"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:23:41.612Z",
+            "description": "Actual full-size loading overlay.",
+            "state_id": "S-TERMS-LOADING",
+            "action_id": null,
+            "visible_node_id": "621:20",
+            "outcome": "visible_sample_recorded",
+            "file": "19-loading-overlay.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-19"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:23:54.322Z",
+            "description": "Loading automatically swaps to settled Terms overlay.",
+            "state_id": "S-TERMS",
+            "action_id": null,
+            "visible_node_id": "50:1862",
+            "outcome": "visible_sample_recorded",
+            "file": "20-terms-overlay-visible.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-20"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:23:54.584Z",
+            "description": "Terms Close overlay restores drawer.",
+            "state_id": "S-DRAWER",
+            "action_id": null,
+            "visible_node_id": "75:1669",
+            "outcome": "visible_sample_recorded",
+            "file": "21-drawer-overlay-return.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-21"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:24:04.019Z",
+            "description": "Drawer close now restores Notification, no Terms loop.",
+            "state_id": "S-NOTIFICATION-EMPTY",
+            "action_id": null,
+            "visible_node_id": "42:1617",
+            "outcome": "visible_sample_recorded",
+            "file": "22-notification-restored.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-22"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-TERMS-LOADING-SCREEN-17",
+          "E-TERMS-LOADING-SCREEN-18",
+          "E-TERMS-LOADING-SCREEN-19",
+          "E-TERMS-LOADING-SCREEN-20",
+          "E-TERMS-LOADING-SCREEN-21",
+          "E-TERMS-LOADING-SCREEN-22"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-terms-loading/manifest.json",
+        "limitations": [
+          "800ms static loading demo, not measured native latency.",
+          "Overlay is prototype implementation, not claim about native navigation architecture.",
+          "Early cancellation, continuous body scroll, other callers, native reentry/cookie persistence and complete fidelity remain unverified."
+        ]
+      },
+      {
+        "id": "PROTO-TERMS-LOADING-HOME-001",
+        "revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "start_node_id": "67:694",
+        "started_at": "2026-09-30T16:24:19.181Z",
+        "ended_at": "2026-09-30T16:24:53.377Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-694&starting-point-node-id=67%3A694&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Terms · PROTO-TERMS-LOADING-HOME-001",
+        "status": "partial",
+        "navigation_status": "Recorded loading/settled exit/caller restoration sample passed; full scope open.",
+        "visual_status": "Saved pixels only; typography/geometry approximate, long-session image stability open.",
+        "steps": [
+          {
+            "at": "2026-09-30T16:24:19.181Z",
+            "description": "Tuesday DEMO Home caller baseline.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "action_id": null,
+            "visible_node_id": "67:694",
+            "outcome": "visible_sample_recorded",
+            "file": "23-home-baseline.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-23"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:24:19.418Z",
+            "description": "Tuesday Home opens same drawer.",
+            "state_id": "S-DRAWER",
+            "action_id": null,
+            "visible_node_id": "75:1669",
+            "outcome": "visible_sample_recorded",
+            "file": "24-home-drawer.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-24"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:24:19.683Z",
+            "description": "Tuesday caller shows loading overlay.",
+            "state_id": "S-TERMS-LOADING",
+            "action_id": null,
+            "visible_node_id": "621:20",
+            "outcome": "visible_sample_recorded",
+            "file": "25-home-loading.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-25"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:24:31.097Z",
+            "description": "Settled Terms overlay in Home caller, wordmark visible.",
+            "state_id": "S-TERMS",
+            "action_id": null,
+            "visible_node_id": "50:1862",
+            "outcome": "visible_sample_recorded",
+            "file": "26-home-terms-visible.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-26"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:24:38.529Z",
+            "description": "Existing independent cookie dismissal works inside settled overlay.",
+            "state_id": "S-TERMS-NO-COOKIE",
+            "action_id": null,
+            "visible_node_id": "50:1862",
+            "outcome": "visible_sample_recorded",
+            "file": "27-home-terms-cookie-dismissed.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-27"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:24:38.757Z",
+            "description": "Dismissed Terms Close overlay restores Home caller drawer.",
+            "state_id": "S-DRAWER",
+            "action_id": null,
+            "visible_node_id": "75:1669",
+            "outcome": "visible_sample_recorded",
+            "file": "28-home-drawer-return.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-28"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:24:53.377Z",
+            "description": "Final Tuesday Home restored, synthetic schedules unchanged.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "action_id": null,
+            "visible_node_id": "67:694",
+            "outcome": "visible_sample_recorded",
+            "file": "29-home-restored.png",
+            "evidence_ids": [
+              "E-TERMS-LOADING-SCREEN-29"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-TERMS-LOADING-SCREEN-23",
+          "E-TERMS-LOADING-SCREEN-24",
+          "E-TERMS-LOADING-SCREEN-25",
+          "E-TERMS-LOADING-SCREEN-26",
+          "E-TERMS-LOADING-SCREEN-27",
+          "E-TERMS-LOADING-SCREEN-28",
+          "E-TERMS-LOADING-SCREEN-29"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-terms-loading/manifest.json",
+        "limitations": [
+          "800ms static loading demo, not measured native latency.",
+          "Overlay is prototype implementation, not claim about native navigation architecture.",
+          "Early cancellation, continuous body scroll, other callers, native reentry/cookie persistence and complete fidelity remain unverified."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -80706,7 +81721,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "131 mapped frames / 3 internal component states / 302 configured controls / 16 scroll regions / 68 prototype runs. Calendar both caller filters/Home recoveries and Flow3 cleanup recorded; Assistant observed loading sequence and isolated unresolved blank close sampled. Full scope/fidelity remains not_verified.",
+    "verification_summary": "132 mapped frames / 3 internal component states / 303 configured controls / 16 scroll regions / 71 prototype runs. Terms loading imported, history-loop failure preserved, overlay stack and Notification/Tuesday Home restorations sampled. Full scope/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -81167,7 +82182,8 @@
       "calendar_detail_context": "fixed_sep26_detail_three_entries_month_returns_and_two_home_callers_sampled_full_scope_open",
       "calendar_date_context": "four_observed_date_edges_three_frames_and_two_callers_with_three_recovery_exits_each_sampled_full_scope_open",
       "calendar_filter_context": "both_callers_filter_samples_and_home_recoveries_recorded_flow3_removed_full_scope_open",
-      "assistant_transients": "three_imports_two_replaced_three_new_controls_main_and_isolated_blank_samples_full_scope_open"
+      "assistant_transients": "three_imports_two_replaced_three_new_controls_main_and_isolated_blank_samples_full_scope_open",
+      "terms_loading": "observed_loading_imported_overlay_stack_repair_two_callers_sampled_full_scope_open"
     },
     "additional_imports": [
       {
@@ -82244,25 +83260,19 @@
         "scope": "Ten main historical dated contexts with continuous horizontal bars and Today vertical list; two route samples. Complete date/filter/caller/full App scope pending."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-30T16:08:15.937Z",
+    "latest_prototype_run_cutoff": "2026-09-30T16:24:53.377Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-VA-TRANSIENT-SCREEN-01",
-      "E-VA-TRANSIENT-SCREEN-02",
-      "E-VA-TRANSIENT-SCREEN-03",
-      "E-VA-TRANSIENT-SCREEN-05",
-      "E-VA-TRANSIENT-SCREEN-06",
-      "E-VA-TRANSIENT-SCREEN-07",
-      "E-VA-TRANSIENT-SCREEN-08",
-      "E-VA-TRANSIENT-SCREEN-09",
-      "E-VA-TRANSIENT-SCREEN-18",
-      "E-VA-TRANSIENT-SCREEN-19",
-      "E-VA-TRANSIENT-SCREEN-20",
-      "E-VA-TRANSIENT-SCREEN-21"
+      "E-TERMS-LOADING-SCREEN-01",
+      "E-TERMS-LOADING-SCREEN-14",
+      "E-TERMS-LOADING-SCREEN-15",
+      "E-TERMS-LOADING-SCREEN-16",
+      "E-TERMS-LOADING-SCREEN-30",
+      "E-TERMS-LOADING-SCREEN-31"
     ],
-    "latest_editor_verified_at": "2026-09-30T16:07:56.812Z",
+    "latest_editor_verified_at": "2026-09-30T16:25:09.273Z",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
@@ -83527,6 +84537,58 @@
           "source_fidelity": "Maps here link directly to Disclaimer; native intermediate embedded-loading state omitted.",
           "deviation_ids": [
             "D-VA-SOURCE-STATE-SAMPLING"
+          ]
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T16:23:05.919Z",
+        "superseded_by_revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "reason": "Observed loading now represented with overlay stack preserving drawer caller.",
+        "mapping": {
+          "action_id": "A-DRAWER-TERMS",
+          "source_node_id": "75:1669",
+          "target_node_id": "50:1862",
+          "trigger_node_id": "75:1700",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-MENU-V2",
+          "implementation_status": "tested",
+          "prototype_run_ids": [
+            "PROTO-MENU-V2-001"
+          ],
+          "deviation_ids": [
+            "D-MENU-FIDELITY"
+          ],
+          "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T16:23:21.417Z",
+        "superseded_by_revision_id": "FIGMA-TERMS-LOADING-20261001",
+        "reason": "Observed loading now represented with overlay stack preserving drawer caller.",
+        "mapping": {
+          "action_id": "A-TERMS-BACK",
+          "source_node_id": "50:1862",
+          "target_node_id": null,
+          "trigger_node_id": "50:1908",
+          "trigger": "On click",
+          "behavior": "Back",
+          "revision_id": "FIGMA-MENU-V2",
+          "implementation_status": "tested",
+          "prototype_run_ids": [
+            "PROTO-MENU-V2-001",
+            "PROTO-POLICY-COOKIE-V2-001"
+          ],
+          "deviation_ids": [
+            "D-MENU-FIDELITY"
+          ],
+          "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+          "tested_target_node_ids": [
+            "75:1669"
+          ],
+          "tested_source_state_ids": [
+            "S-TERMS",
+            "S-TERMS-NO-COOKIE"
           ]
         }
       }

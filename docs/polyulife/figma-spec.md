@@ -1,5 +1,7 @@
 # Figma 复现与证据对应约定
 
+最新[Terms加载接入](terms-loading-prototype-walkthrough.md)补1画板、新增1/替换2控件；保留历史栈失败并以覆盖层修复，通知与Tuesday Home返回样例通过。当前132画板、303控件、71次原型运行，全应用 `not_verified`。下方旧批次数字为历史快照。
+
 最新[筛选恢复](calendar-filter-resume-prototype-walkthrough.md)完成Monday Home恢复、Tuesday循环及Flow3清理；[Assistant中间状态接入](assistant-transient-prototype-walkthrough.md)导入三帧、替换两个入口、新增三个控件，主链路和独立Blank关闭已回放。累计131画板、302控件、68次运行，演示延时/原型推广及未验证输入保持明确，全应用 `not_verified`。以下准备阶段/批次统计为历史快照。
 
 最新[Assistant中间状态素材](assistant-transient-source-preparation.md)补齐BeforeHero/WebLoading/WebBlank三份可编辑SVG及本地渲染；尚未导入或连线。当前截图/点击反馈和原生Wrapper连接未恢复，Figma仍128画板、299控件、64次运行，全应用 `not_verified`。

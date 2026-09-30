@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Terms加载接入](terms-loading-prototype-walkthrough.md)补1画板、新增1/替换2控件；保留历史栈失败并以覆盖层修复，通知与Tuesday Home返回样例通过。当前132画板、303控件、71次原型运行，全应用 `not_verified`。下方旧批次数字为历史快照。
+
 本次工作目标是通过 Computer Use 分析 PolyULife 中的每一项交互，并在 Figma 中复现完整应用及可点击流程。范围从实际界面动态发现，不以课程最低功能数量、首页或少量示例流程作为完成边界。
 
 ## 接力入口

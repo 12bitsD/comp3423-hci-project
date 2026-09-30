@@ -1,0 +1,504 @@
+{
+  "kind": "figma_terms_loading",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-import.png",
+      "sha256": "b214429f1eb3d94791b83b967fd772cc28f256d86b3576c50a4c0cd55e11ce91",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:19:28.007Z",
+      "description": "Imported loading SVG, geometry checked.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-delay-config.png",
+      "sha256": "dd22aec92ecbfc8f59a17c1f1b55b80ffd21e26b93515d92348694f460374df3",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:20:12.631Z",
+      "description": "After delay800ms Navigate to50:1862, demo latency only.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-entry-config.png",
+      "sha256": "2a9e5455e3b75bf30cf529ce178fd1ab7a58cb6a68ff3d04ca0c34f8b495e5c1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:20:33.228Z",
+      "description": "Existing Terms entry destination replaced with loading621:20.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "04-back-config.png",
+      "sha256": "c94947628356eb7b04250c54f1e4911af7bb186fd85de716faf86e5b0a244c3b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:20:57.312Z",
+      "description": "Back explicitly Navigate to75:1669 so transient does not become a return loop.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "05-root-no-extra-flow.png",
+      "sha256": "10badab2a6b38b1f6a262b0ec06a9b51fc4be001fe59341bc2a4ba29c22acca2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:21:15.783Z",
+      "description": "Loading root has Add flow starting point, no extra flow.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "06-more-baseline.png",
+      "sha256": "9c98b58703f2b3f969948d1d924c2cd66d8fba4cae3efe29d037b61f3e4d23a7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:21:15.799Z",
+      "description": "Current More caller before drawer/Terms loading route.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "07-more-menu-unconfigured.png",
+      "sha256": "9c98b58703f2b3f969948d1d924c2cd66d8fba4cae3efe29d037b61f3e4d23a7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:21:34.250Z",
+      "description": "More Menu click has no drawer connection; blue hotspot feedback, no navigation. Known scope gap preserved.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "08-notification-baseline.png",
+      "sha256": "6ba8d0016de50610522b3b2bc61a7ba6870508732332e3dc7953c32910fda711",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:21:51.870Z",
+      "description": "Configured notification caller baseline.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "09-drawer-baseline.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:22:01.302Z",
+      "description": "Notification opens full menu DEMO.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "10-loading.png",
+      "sha256": "107c8e8feb96e54a374c28d02884976e6769305e55015c464972def63f802e7e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:22:01.533Z",
+      "description": "Actual short loading state after Terms click; 800ms prototype proxy.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "11-terms-visible.png",
+      "sha256": "953cffbfa10de8798794fd5272363d7d4cad011ab7d111295ce7ea9c2b6c84d6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:22:14.208Z",
+      "description": "Automatic settled Terms body and wordmark visible.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "12-drawer-return.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:22:14.447Z",
+      "description": "Settled Terms Back returns directly to drawer.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "13-drawer-close-loop-failure.png",
+      "sha256": "953cffbfa10de8798794fd5272363d7d4cad011ab7d111295ce7ea9c2b6c84d6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:22:29.195Z",
+      "description": "Failure: closing drawer after explicit Terms Navigate return reopens Terms through history. Must repair with overlay loading stack.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "14-delay-swap-repair.png",
+      "sha256": "660ef685b9fa51cbc324e4745d205a1757eade601f50f30713ee8564a703335a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:22:39.946Z",
+      "description": "Repaired loading progression to Swap overlay, retains drawer below.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "15-entry-overlay-repair.png",
+      "sha256": "61dbf06d834ebd146a1e53a0feb0377d1a5b08d528d063ac45597d0aca2e99c9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:23:05.919Z",
+      "description": "Menu Terms Open overlay621:20 with centered full-size overlay.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "16-back-close-overlay-repair.png",
+      "sha256": "16aa78bb88773442d1f9e07caeb998e63eab30ff40284eac6e487275b2a0b31f",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:23:21.417Z",
+      "description": "Settled Terms Back Close overlay returns to original drawer without adding history.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "17-notification-repaired-baseline.png",
+      "sha256": "6ba8d0016de50610522b3b2bc61a7ba6870508732332e3dc7953c32910fda711",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:23:41.153Z",
+      "description": "Fresh notification baseline for overlay repair run.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "18-drawer-repaired-baseline.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:23:41.383Z",
+      "description": "Notification menu before overlay Terms.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "19-loading-overlay.png",
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:23:41.612Z",
+      "description": "Actual full-size loading overlay.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "20-terms-overlay-visible.png",
+      "sha256": "b6a8ee50a5edf4c623ddde66645ff91edeb452dc4d37773ebd5c481c930d2fd6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:23:54.322Z",
+      "description": "Loading automatically swaps to settled Terms overlay.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "21-drawer-overlay-return.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:23:54.584Z",
+      "description": "Terms Close overlay restores drawer.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "22-notification-restored.png",
+      "sha256": "6ba8d0016de50610522b3b2bc61a7ba6870508732332e3dc7953c32910fda711",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:24:04.019Z",
+      "description": "Drawer close now restores Notification, no Terms loop.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "23-home-baseline.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:24:19.181Z",
+      "description": "Tuesday DEMO Home caller baseline.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "24-home-drawer.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:24:19.418Z",
+      "description": "Tuesday Home opens same drawer.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "25-home-loading.png",
+      "sha256": "f40c197a9fc93397b8fdcc4d24d39ea9fdb89c734df0fd2dfdf13e2569b5a184",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:24:19.683Z",
+      "description": "Tuesday caller shows loading overlay.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "26-home-terms-visible.png",
+      "sha256": "b6a8ee50a5edf4c623ddde66645ff91edeb452dc4d37773ebd5c481c930d2fd6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:24:31.097Z",
+      "description": "Settled Terms overlay in Home caller, wordmark visible.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "27-home-terms-cookie-dismissed.png",
+      "sha256": "9624b49d65bebad587d67f017fac3ff1a63aaa2fa9f44966ae2debf692fe58d9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:24:38.529Z",
+      "description": "Existing independent cookie dismissal works inside settled overlay.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "28-home-drawer-return.png",
+      "sha256": "a67d1b33f654b22e841fad4e94aaca27573a108c8e17e09c99bc00fb18dc5b4e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:24:38.757Z",
+      "description": "Dismissed Terms Close overlay restores Home caller drawer.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "29-home-restored.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:24:53.377Z",
+      "description": "Final Tuesday Home restored, synthetic schedules unchanged.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "30-final-root-no-extra-flow.png",
+      "sha256": "f321c83d94b9e70b74c2043672da6b7d2395a60b010edde822e8a3554f3748ac",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:25:08.829Z",
+      "description": "Final loading root after overlay repair, no extra flow start.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "31-final-delay-readback.png",
+      "sha256": "1455792916c6688abb316166ff22a556c08fdc061929c269cfa5404f0bd7dfd2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:25:09.273Z",
+      "description": "Final readback After delay800ms Swap overlay Terms Instant.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "9aa2bdebaf232bd5a4829c0e926ce24bc25b17fe224cc1a0624a1dafd37dc27b",
+    "dimensions": [
+      1143,
+      1332
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "09-drawer-baseline.png",
+      "comparison": "12-drawer-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "18-drawer-repaired-baseline.png",
+      "comparison": "21-drawer-overlay-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "17-notification-repaired-baseline.png",
+      "comparison": "22-notification-restored.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "24-home-drawer.png",
+      "comparison": "28-home-drawer-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "23-home-baseline.png",
+      "comparison": "29-home-restored.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "10-loading.png",
+      "comparison": "19-loading-overlay.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        0,
+        0,
+        381,
+        640
+      ],
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "19-loading-overlay.png",
+      "comparison": "25-home-loading.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "20-terms-overlay-visible.png",
+      "comparison": "26-home-terms-visible.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    }
+  ],
+  "scope": "Actual prototype captures, early navigation-history failure preserved; no new native/human observations."
+}
