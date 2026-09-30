@@ -1,0 +1,213 @@
+{
+  "revision_id": "FIGMA-CALENDAR-DATE-CONTEXT-20260930",
+  "connections": [
+    {
+      "source_node_id": "596:335",
+      "trigger_node_id": "596:425",
+      "target_node_id": "573:19",
+      "trigger_name": "Day26",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-DATE-SEP26",
+      "configured_at": "2026-09-30T15:20:59.499Z",
+      "connection_id": "C-CALENDAR-DATE-CONTEXT-01",
+      "revision_id": "FIGMA-CALENDAR-DATE-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
+        "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-SEP26"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DATE-CONTEXT-TRACE",
+        "E-CALENDAR-DATE-CONTEXT-SCREEN-04"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DATE-CONTEXT"
+      ]
+    },
+    {
+      "source_node_id": "596:335",
+      "trigger_node_id": "596:479",
+      "target_node_id": null,
+      "trigger_name": "NavHome",
+      "trigger": "On click",
+      "behavior": "Back",
+      "animation": null,
+      "action_id": null,
+      "configured_at": "2026-09-30T15:21:18.205Z",
+      "connection_id": "C-CALENDAR-DATE-CONTEXT-02",
+      "revision_id": "FIGMA-CALENDAR-DATE-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
+        "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DATE-CONTEXT-TRACE",
+        "E-CALENDAR-DATE-CONTEXT-SCREEN-05"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DATE-CONTEXT"
+      ],
+      "tested_target_node_ids": [
+        "67:694",
+        "67:569"
+      ],
+      "source_generalization": "Prototype Home recovery from date context; native Home exit from this date not observed."
+    },
+    {
+      "source_node_id": "596:174",
+      "trigger_node_id": "596:270",
+      "target_node_id": "596:335",
+      "trigger_name": "Day28",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-DATE-SEP28",
+      "configured_at": "2026-09-30T15:21:26.264Z",
+      "connection_id": "C-CALENDAR-DATE-CONTEXT-03",
+      "revision_id": "FIGMA-CALENDAR-DATE-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
+        "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-SEP28"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DATE-CONTEXT-TRACE",
+        "E-CALENDAR-DATE-CONTEXT-SCREEN-06"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DATE-CONTEXT"
+      ]
+    },
+    {
+      "source_node_id": "596:174",
+      "trigger_node_id": "596:318",
+      "target_node_id": null,
+      "trigger_name": "NavHome",
+      "trigger": "On click",
+      "behavior": "Back",
+      "animation": null,
+      "action_id": null,
+      "configured_at": "2026-09-30T15:21:30.006Z",
+      "connection_id": "C-CALENDAR-DATE-CONTEXT-04",
+      "revision_id": "FIGMA-CALENDAR-DATE-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
+        "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DATE-CONTEXT-TRACE",
+        "E-CALENDAR-DATE-CONTEXT-SCREEN-07"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DATE-CONTEXT"
+      ],
+      "tested_target_node_ids": [
+        "67:694",
+        "67:569"
+      ],
+      "source_generalization": "Prototype Home recovery from date context; native Home exit from this date not observed."
+    },
+    {
+      "source_node_id": "596:20",
+      "trigger_node_id": "596:25",
+      "target_node_id": "596:174",
+      "trigger_name": "PreviousMonth",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-PREV-MONTH",
+      "configured_at": "2026-09-30T15:21:49.161Z",
+      "connection_id": "C-CALENDAR-DATE-CONTEXT-05",
+      "revision_id": "FIGMA-CALENDAR-DATE-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
+        "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-SEP1"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DATE-CONTEXT-TRACE",
+        "E-CALENDAR-DATE-CONTEXT-SCREEN-08"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DATE-CONTEXT"
+      ]
+    },
+    {
+      "source_node_id": "596:20",
+      "trigger_node_id": "596:157",
+      "target_node_id": null,
+      "trigger_name": "NavHome",
+      "trigger": "On click",
+      "behavior": "Back",
+      "animation": null,
+      "action_id": null,
+      "configured_at": "2026-09-30T15:21:52.521Z",
+      "connection_id": "C-CALENDAR-DATE-CONTEXT-06",
+      "revision_id": "FIGMA-CALENDAR-DATE-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
+        "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DATE-CONTEXT-TRACE",
+        "E-CALENDAR-DATE-CONTEXT-SCREEN-09"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DATE-CONTEXT"
+      ],
+      "tested_target_node_ids": [
+        "67:694",
+        "67:569"
+      ],
+      "source_generalization": "Prototype Home recovery from date context; native Home exit from this date not observed."
+    },
+    {
+      "source_node_id": "573:19",
+      "trigger_node_id": "573:26",
+      "target_node_id": "596:20",
+      "trigger_name": "NextMonth",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-NEXT-MONTH",
+      "configured_at": "2026-09-30T15:22:00.169Z",
+      "connection_id": "C-CALENDAR-DATE-CONTEXT-07",
+      "revision_id": "FIGMA-CALENDAR-DATE-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
+        "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-OCT1"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DATE-CONTEXT-TRACE",
+        "E-CALENDAR-DATE-CONTEXT-SCREEN-10"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DATE-CONTEXT"
+      ]
+    }
+  ],
+  "scope_completion": "not_verified",
+  "native_arrays_unchanged": true,
+  "caller_preservation": "Date states replace the same overlay above Week; native overlay architecture unverified."
+}
