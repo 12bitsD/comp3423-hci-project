@@ -11,6 +11,8 @@
 
 ## 当前进度（2026-09-30）
 
+最新[筛选恢复](calendar-filter-resume-prototype-walkthrough.md)完成Monday Home恢复、Tuesday循环及Flow3清理；[Assistant中间状态接入](assistant-transient-prototype-walkthrough.md)导入三帧、替换两个入口、新增三个控件，主链路和独立Blank关闭已回放。累计131画板、302控件、68次运行，演示延时/原型推广及未验证输入保持明确，全应用 `not_verified`。以下准备阶段/批次统计为历史快照。
+
 最新[Assistant中间状态素材](assistant-transient-source-preparation.md)补齐BeforeHero/WebLoading/WebBlank三份可编辑SVG及本地渲染；尚未导入或连线。当前截图/点击反馈和原生Wrapper连接未恢复，Figma仍128画板、299控件、64次运行，全应用 `not_verified`。
 
 最新[Calendar筛选上下文检查点](calendar-filter-context-prototype-walkthrough.md)补入三个画板、八条控件，Monday选择循环、学术日历Apply和重开已回放。All/None背景为组合，三个X出口为推断；截图采集在留存30后中断，Home返回、Tuesday和Flow根检查待续。累计128画板、299控件、64次回放，全应用 `not_verified`。

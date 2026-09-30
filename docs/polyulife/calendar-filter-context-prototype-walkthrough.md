@@ -1,5 +1,7 @@
 # Calendar 筛选上下文检查点 — 2026-09-30
 
+后续[截图连接恢复与两个调用者](calendar-filter-resume-prototype-walkthrough.md)已完成当前Monday返回、Tuesday样例及Flow3清理；本页保留中断时事实。
+
 新增三个可编辑筛选画板、八条控件，Monday调用者的选择循环、学术日历Apply及重开已实际回放。累计128映射画板、299配置控件、64次原型运行。完整应用仍 `not_verified`，本次为可接力检查点。
 
 ## 来源与连接
