@@ -1,0 +1,77 @@
+{
+  "revision_id": "FIGMA-FOOD-PAN-20260930",
+  "connections": [
+    {
+      "connection_id": "C-FOOD-MAP-PAN",
+      "revision_id": "FIGMA-FOOD-PAN-20260930",
+      "action_id": "A-FOOD-MAP-PAN",
+      "source_node_id": "50:2246",
+      "target_node_id": "50:2267",
+      "trigger_node_id": "50:2248",
+      "trigger_node_name": "MapViewport",
+      "trigger": "On drag",
+      "behavior": "Swap overlay",
+      "configured_at": "2026-09-30T14:05:01.151Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-FOOD-PAN-TUESDAY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-FOOD-PAN-TRACE",
+        "E-FOOD-PAN-SCREEN-01"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-MAP-PANNED-CLEAN"
+      ],
+      "source_fidelity": "Observed native result represented by fixed raster map crop and editable header; not a live map.",
+      "deviation_ids": [
+        "D-FOOD-PAN-DISCRETE"
+      ],
+      "animation": "Smart animate",
+      "duration_ms": 300,
+      "animation_scope": "Prototype only; Instant is disabled for On drag in the current Figma UI.",
+      "native_input_summary": "Map drag [268,716] -> [371,578]",
+      "tested_prototype_input": [
+        627,
+        503,
+        691,
+        418
+      ],
+      "input_scope": "MapViewport On drag is a discrete proxy; only one corresponding direction sampled. It does not implement arbitrary pan extent."
+    },
+    {
+      "connection_id": "C-FOOD-MAP-PANNED-BACK",
+      "revision_id": "FIGMA-FOOD-PAN-20260930",
+      "action_id": "A-FOOD-MAP-BACK",
+      "source_node_id": "50:2267",
+      "target_node_id": null,
+      "trigger_node_id": "50:2279",
+      "trigger_node_name": "Back",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "configured_at": "2026-09-30T14:06:04.231Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-FOOD-PAN-TUESDAY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-FOOD-PAN-TRACE",
+        "E-FOOD-PAN-SCREEN-02"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-MAP-RETURN-PANNED"
+      ],
+      "source_fidelity": "Observed native result represented by fixed raster map crop and editable header; not a live map.",
+      "deviation_ids": [
+        "D-FOOD-PAN-DISCRETE"
+      ],
+      "target_rule": "Close current map overlay and reveal caller VA210 detail.",
+      "tested_target_node_ids": [
+        "50:2013"
+      ]
+    }
+  ],
+  "native_scope": "Existing observed Food full-map pan and panned Back only.",
+  "prototype_scope": "Fixed two-state raster geography; editable header/Back; no real-time map, arbitrary pan, zoom, bounds, location or external Maps actions.",
+  "scope_completion": "not_verified"
+}

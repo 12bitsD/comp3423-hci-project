@@ -1,5 +1,7 @@
 # Figma 复现与证据对应约定
 
+2026-09-30最新[Food地图平移与返回](food-map-pan-prototype-walkthrough.md)在既有画板50:2246/50:2267补接MapViewport拖动与平移Back；一个Tuesday来源链路已回放，累计115画板、268控件、48次运行。地理内容为截图裁片，On drag与300ms动画为离散原型，完整范围仍为 `not_verified`。以下批次数字保留为历史快照。
+
 2026-09-30最新批次见[Preview登录边界与复制反馈](room-preview-controls-prototype-walkthrough.md)：画板452:19为576×1024、位置0,43000，校徽来自公开原生截图，表单及导航未连线；Copy文字312:242为On click→Close overlay，顶部和滚动后均已回放。当前109个映射画板、245个配置控件、40次运行。完整认证/指南/调用者和实际剪贴板语义尚未完成，全应用保持 `not_verified`。本页后续较早批次数字为历史快照。
 
 本页定义从真实 PolyULife 观察到可编辑、可点击 Figma 的对应关系。实际覆盖由 [coverage.json](coverage.json) 记录。本页同时记录已经确认的文件状态和后续制作、验证方法；实际存在文件不等于节点和交互已经完成。

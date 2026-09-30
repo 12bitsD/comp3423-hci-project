@@ -11,6 +11,8 @@
 
 ## 当前进度（2026-09-30）
 
+最新[Food地图平移与返回](food-map-pan-prototype-walkthrough.md)补接既有地图两条控件，Tuesday Home的一次平移及逐层返回已回放，保留标题点击未跳转的尝试。累计115画板、268控件、48次运行；离散地图及300ms动画属于原型代理，完整应用保持 `not_verified`。
+
 最新[More / Notification 搜索回放](search-callers-prototype-walkthrough.md)新增六个可编辑搜索上下文、十五条连接与四次运行记录；Return错连的失败和修复保留，两个入口的固定查询及返回样例已回放。W/R是输入代理，任意查询、原生新分支与完整视觉仍待验证。正式归档总计115画面、266控件、47次原型运行；全应用保持 `not_verified`。
 
 最新[Virtual Assistant 图片修复回放](virtual-assistant-image-repair-walkthrough.md)已归档：头图及四处网页校徽/头像原素材重新载入，最终两轮网页图片可见；头图和展开图区域的像素差异保留，完整视觉仍未通过。当前 Figma **109映射画板/251配置控件/43次运行**、16滚动区域；十二份公开清单共1131个PNG，1170条证据。没有新增原生动作，全应用仍为 `not_verified`。以下批次统计为历史快照。
