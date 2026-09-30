@@ -1,0 +1,91 @@
+{
+  "records": [
+    {
+      "state_id": "S-STUDY-LOADING",
+      "source_evidence_ids": [
+        "E-STUDY-LOADING"
+      ],
+      "native_path": "../../evidence/2026-09-28-full-audit/study-173055-loading.png",
+      "native_sha256": "92524ef2c4ed92dd981ac698b32e14bdcf66b83957b562bd708d3a18413da72e",
+      "base_svg": "study-completed-demo.svg",
+      "base_sha256": "e21eabc673ac2298897a394418848478b5d5cfa41380ea62f763f5dd35d3bd4f",
+      "output": "study-loading.svg",
+      "output_sha256": "abb0d842600d617595b4d308ec81adcf8205bef4aa19c38994c7042a4dc9e3e6",
+      "loading_mark": {
+        "file": "assets/study-loading-mark.png",
+        "sha256": "07ca44d3b0b6adc5c69c2a4c062f839414a031d7d2d4864befb6fbe3441a6b54",
+        "dimensions": [
+          61,
+          59
+        ],
+        "crop_xyxy": [
+          258,
+          484,
+          319,
+          543
+        ]
+      }
+    },
+    {
+      "state_id": "S-COURSES-LOADING",
+      "source_evidence_ids": [
+        "E-COURSES-LOADING"
+      ],
+      "native_path": "../../evidence/2026-09-28-full-audit/courses-173334-loading.png",
+      "native_sha256": "0d2d93846ddbbc8c9e22399cb45ac771a4d4949396f7cfb03b045bb4c45b06bd",
+      "base_svg": "courses-canvas-demo.svg",
+      "base_sha256": "f6f7ceba4029f0a8b608d911e6645cc7bf5c8199ba05f2918688ea7251bb53e3",
+      "output": "courses-loading.svg",
+      "output_sha256": "de2cceb84725838d6f70f0194ab45243cf18d59a18a6fbb59036edef830dd3bf",
+      "loading_mark": {
+        "file": "assets/courses-loading-mark.png",
+        "sha256": "8bcd06c489861aededcfb338bf5ab1da56f7919b96972aa5e2f3aabe411b46da",
+        "dimensions": [
+          61,
+          59
+        ],
+        "crop_xyxy": [
+          258,
+          484,
+          319,
+          543
+        ]
+      }
+    },
+    {
+      "state_id": "S-QR-LOADING",
+      "source_evidence_ids": [
+        "E-QR-LOADING"
+      ],
+      "native_path": "../../evidence/2026-09-28-full-audit/qr-174007-loading.png",
+      "native_sha256": "55d2b03f6e4f7f186c86eca6d3386b2057a3d6d29ce9d4cd792a149003256925",
+      "base_svg": "qr-demo.svg",
+      "base_sha256": "ab464d3f70e4b216d43923db60e422359a8cfaa0767249d61dd60f2483ae8601",
+      "output": "qr-loading.svg",
+      "output_sha256": "14f0a84554740bef061f56cc1ebea9ff5c3135b3f44aab7b92b7e8f576d911d8",
+      "loading_mark": {
+        "file": "assets/qr-loading-mark.png",
+        "sha256": "a9f86129e9a2e85e754c02a45efd1574c9b1c4acbe02fdf77bb7d57f321d0b5e",
+        "dimensions": [
+          61,
+          59
+        ],
+        "crop_xyxy": [
+          258,
+          484,
+          319,
+          543
+        ]
+      }
+    }
+  ],
+  "frame_size": [
+    576,
+    970
+  ],
+  "limits": [
+    "Static native loading marks, approximate typography/geometry.",
+    "No private coursework or active QR.",
+    "Early cancellation and native latency unverified."
+  ]
+}

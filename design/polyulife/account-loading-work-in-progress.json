@@ -1,0 +1,77 @@
+{
+  "status": "imported_not_wired_not_replayed",
+  "recorded_date": "2026-10-01",
+  "frames": [
+    {
+      "state_id": "S-STUDY-LOADING",
+      "node_id": "636:107",
+      "name": "[S-STUDY-LOADING] Study — observed loading",
+      "file": "study-loading.svg",
+      "position": [
+        0,
+        61500
+      ],
+      "size": [
+        576,
+        970
+      ],
+      "clip_content": true
+    },
+    {
+      "state_id": "S-COURSES-LOADING",
+      "node_id": "636:119",
+      "name": "[S-COURSES-LOADING] Courses — observed loading",
+      "file": "courses-loading.svg",
+      "position": [
+        700,
+        61500
+      ],
+      "size": [
+        576,
+        970
+      ],
+      "clip_content": true
+    },
+    {
+      "state_id": "S-QR-LOADING",
+      "node_id": "636:75",
+      "name": "[S-QR-LOADING] Campus QR — observed loading",
+      "file": "qr-loading.svg",
+      "position": [
+        1400,
+        61500
+      ],
+      "size": [
+        576,
+        970
+      ],
+      "clip_content": true
+    }
+  ],
+  "final_property_readback_node_ids": [
+    "636:119"
+  ],
+  "superseded_node_ids": [
+    "636:19",
+    "636:31",
+    "636:43"
+  ],
+  "configured_controls": [],
+  "prototype_run_ids": [],
+  "canonical_coverage_unchanged": true,
+  "scope_completion_status": "not_verified",
+  "public_manifest": "evidence/2026-10-01-account-loading-checkpoint/manifest.json",
+  "walkthrough": "docs/polyulife/account-loading-work-in-progress.md",
+  "pending": [
+    "Verify final Study/QR properties and flow roots",
+    "Configure three loading progressions and retarget seven existing entries",
+    "Replay caller returns and loading image visibility",
+    "Archive verified mappings without adding native observations"
+  ],
+  "limitations": [
+    "Static raster mark; approximate editable chrome",
+    "No measured native latency or verified early cancellation",
+    "Editor visibility does not prove Present stability",
+    "800ms is a proposed demo parameter, not configured"
+  ]
+}

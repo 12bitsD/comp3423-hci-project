@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+2026-10-01新增[Study/Courses/QR加载页检查点](account-loading-work-in-progress.md)：三个SVG及Figma导入截图已保存，图标填充修正保留前后证据；连线和Present回放尚未完成，暂不计入正式统计。当前仍134映射画板、305控件、75次运行，全应用 `not_verified`。
+
 最新[Food加载校徽重传](food-loading-mark-repair-walkthrough.md)保留直接重入缺图并完成相同PNG重传，两次连续直接路径有图。当前134画板、305控件、75次原型运行，全应用 `not_verified`。下方批次数值为历史快照。
 
 最新[Food加载态接入](food-loading-prototype-walkthrough.md)补2画板、新增2延时控件、替换3入口；展开营业时间/原型直接列表与嵌套地图返回已保存。当前134画板、305控件、73次原型运行，全应用 `not_verified`。下方批次数字为历史快照。

@@ -1,0 +1,101 @@
+{
+  "kind": "figma_account_loading_wip_checkpoint",
+  "session_id": null,
+  "status": "not_wired_not_replayed",
+  "images": [
+    {
+      "file": "01-study-import.png",
+      "sha256": "99e2349cc4c8ee5856c6e6b34d44d29664a781e902c19e26e1dbcb88f3875417",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:46:09.603Z",
+      "description": "Imported generic loading SVG, actual geometry checked.",
+      "state_id": "S-STUDY-LOADING",
+      "node_id": "636:19",
+      "source": "Actual Computer Use Figma editor; not a Present run",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-courses-import.png",
+      "sha256": "637aaea4287e762f32e9c24edce49fe58df0d0e437969471ab8a63054f397f7e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:46:12.074Z",
+      "description": "Imported generic loading SVG, actual geometry checked.",
+      "state_id": "S-COURSES-LOADING",
+      "node_id": "636:31",
+      "source": "Actual Computer Use Figma editor; not a Present run",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-qr-import.png",
+      "sha256": "cd975e72e9b3cc8569578e3bf14858c200028fdcae2f157deed0a030532e8697",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:46:14.587Z",
+      "description": "Imported generic loading SVG, actual geometry checked.",
+      "state_id": "S-QR-LOADING",
+      "node_id": "636:43",
+      "source": "Actual Computer Use Figma editor; not a Present run",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "04-qr-outline-repair.png",
+      "sha256": "52ed2be8ea30a504603cf121fd459bed14e6dfb16353b296652cccd079386643",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:47:10.094Z",
+      "description": "Replaced source with explicit fill:none to preserve outline icons; before wiring.",
+      "state_id": "S-QR-LOADING",
+      "node_id": "636:75",
+      "source": "Actual Computer Use Figma editor; not a Present run",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "05-study-outline-source.png",
+      "sha256": "014fef12e41638b4d392267da21e2126c36f5ce331f6ce1c96a34b8404a234b9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:47:14.962Z",
+      "description": "Replaced source with explicit fill:none to preserve outline icons; before wiring.",
+      "state_id": "S-STUDY-LOADING",
+      "node_id": "636:107",
+      "source": "Actual Computer Use Figma editor; not a Present run",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "06-courses-outline-source.png",
+      "sha256": "04197fb2bdc11cce176275f8a14262a3f53768eddc1a8e92645dd3d3d5dd9ccf",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:47:19.764Z",
+      "description": "Replaced source with explicit fill:none to preserve outline icons; before wiring.",
+      "state_id": "S-COURSES-LOADING",
+      "node_id": "636:119",
+      "source": "Actual Computer Use Figma editor; not a Present run",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "b526cdd406ea165b3697713681d216dba6211b0a2e2fec5e8f5a978a86167a26",
+    "dimensions": [
+      1218,
+      1233
+    ],
+    "description": "Six actual editor captures: initial imports, QR outline failure, and corrected source replacements. Not prototype replay."
+  },
+  "canonical_coverage_unchanged": true
+}
