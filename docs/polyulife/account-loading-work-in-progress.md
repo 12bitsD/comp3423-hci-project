@@ -1,5 +1,7 @@
 # Study、My Courses 与 Campus QR 加载页检查点
 
+这是初始导入历史检查点。后续连线、实际样例、QR视觉失败及修复回放已归档，当前结果见[加载回放记录](account-loading-prototype-walkthrough.md)；下文不作为最新状态。
+
 2026-10-01。按用户要求先提交当前进展。三个加载页已通过 Computer Use 导入 Figma，尚未配置本批连接或执行 Present 回放。它们暂不加入 `coverage.json` 的正式画板、控件或运行统计；正式统计仍为134映射画板、305控件、75次原型运行，完整应用为 `not_verified`。
 
 ## 素材与导入记录

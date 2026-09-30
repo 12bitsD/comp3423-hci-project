@@ -46713,6 +46713,1145 @@
       ],
       "action_ids": [],
       "source": "Actual Figma same PNG reupload and two consecutive saved direct caller samples; no native observations."
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/01-study-final-properties.png",
+      "sha256": "29ccf31a27f4e1d52b491109712f2313fe37e572b18ad47a23ed6c065f08d2fb",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:54:07.843Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Final Study property readback after source replacement.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/02-study-timer.png",
+      "sha256": "d81ebd35a4c510d1afb0c929ad89923ff6bdbdd969810c152ef2292fd598a4a4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:54:39.455Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. After delay 800ms Swap overlay to Completed DEMO; demo duration.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/03-courses-timer.png",
+      "sha256": "3b0e463057cfeb2c65e416bd4dd3029110c9f35ed4496c53bd829ab5a5578f47",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:54:46.344Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. After delay 800ms Swap overlay to Canvas DEMO; demo duration.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/04-qr-final-properties.png",
+      "sha256": "c740f0a23722ede9e691256c4e4bd97e611b07eb800c128610087e6aa1ef4a9a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:55:07.524Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Final QR properties readback after outline repair.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/05-qr-timer.png",
+      "sha256": "4638603249f8893f6445ae80c7a2f27bd0ec4b10a4a7c26ca042c041f23e5299",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:55:10.688Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. After delay 800ms Navigate to non-scannable QR DEMO; existing global navigation architecture.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/06-tuesday-study-entry.png",
+      "sha256": "6f1d22f356801d92762af843bf1b4c0959eeb3393d65e5585cd922cf3cc97097",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:55:48.128Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Tuesday Study entry retargeted to loading with existing Open overlay.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/07-tuesday-courses-entry.png",
+      "sha256": "48f865ea2ac039e769831c44c1648b78c882a8e9ba6a22733ac7d01661e3d4d1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:56:13.339Z",
+      "session_id": null,
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Existing entry destination retargeted, behavior retained: Open overlay",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/08-monday-study-entry.png",
+      "sha256": "f64d1ff6bca6706e008cbefe19d9e8492c11cfce88569ca49539fec92843c8c1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:56:21.264Z",
+      "session_id": null,
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Existing entry destination retargeted, behavior retained: Open overlay",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/09-monday-courses-entry.png",
+      "sha256": "4e6885cb0abbcb88856ba1b04db56f34367b8635d755dc344859db0f00611c4f",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:56:35.809Z",
+      "session_id": null,
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Existing entry destination retargeted, behavior retained: Open overlay",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/10-legacy-study-entry.png",
+      "sha256": "f5e31ba90b5d531932e6e7eb154511dec22838bf55d510f5b97f47c6e9febdf9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:56:42.988Z",
+      "session_id": null,
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Existing entry destination retargeted, behavior retained: Open overlay",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/11-legacy-courses-entry.png",
+      "sha256": "72db1e226eacf9e9840a08b83600bbf23af17631b69707ee20ca3d21372d8527",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:56:58.519Z",
+      "session_id": null,
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Existing entry destination retargeted, behavior retained: Open overlay",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/12-legacy-qr-entry.png",
+      "sha256": "60dc90a0093b7be615a37dfe92e6626e35622ff77635d6cf7148253a777e2d22",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:06.118Z",
+      "session_id": null,
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Existing entry destination retargeted, behavior retained: Navigate to",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/13-s-study-loading-flow.png",
+      "sha256": "4ac100badb467843344e870a1667457503f2d5b4f43194a35a2d31959e5d4f9f",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:16.449Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Flow starting point readback after incoming entry connections.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/13-s-courses-loading-flow.png",
+      "sha256": "73ac727eee97768d410f9c7a64c3624986ca5725047c1afa4ae4bf12422b6d30",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:17.238Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Flow starting point readback after incoming entry connections.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/13-s-qr-loading-flow.png",
+      "sha256": "7c8f47737545637a8bfbf80a673925c49382f805bbc6fee6ab6f703dd97bfbd5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:18.001Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Flow starting point readback after incoming entry connections.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/16-tuesday-home-baseline.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:31.676Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Tuesday Home feature baseline after reload.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/17-tuesday-study-entry-before-render.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:38.977Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Immediate capture still shows Home before loading became visible; retained sampling outcome.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/18-tuesday-study-loading-observed.png",
+      "sha256": "1d35d5d68512fe2b98e3e645786b45706475ae48ad2d16828c6b33200eea97da",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:39.251Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. First post-click observation is still loading with mark visible, not settled Completed.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/19-tuesday-study-settled.png",
+      "sha256": "ab5e02d2a4433e826fdeb9cb1fad19cd3dc502f6c3d53b84b9a1c8e0218bc844",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:46.100Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-COMPLETED"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Later observation after demo timer.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/20-tuesday-study-home-return.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:55.140Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Study Back returns Tuesday Home features.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/21-tuesday-courses-entry-before-render.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:57:55.243Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Immediate capture still shows Home before Courses loading became visible; retained sampling outcome.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/22-tuesday-courses-settled.png",
+      "sha256": "cca4b0bf8908821908de6a3c2818a2fd0e1effe0e82887bdfcb82a8fa3740888",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:58:02.607Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-CANVAS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Canvas DEMO after loading timer.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/23-tuesday-courses-home-return.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:58:02.887Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Courses Back returns same Tuesday Home features.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/24-tuesday-courses-loading-reentry.png",
+      "sha256": "dd3bc21ea7e448deb2d4e239508f8d549f3f594469c924a374f63d773e5ce6e8",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:58:28.643Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Post-click observation on Courses reentry, verify saved state.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/25-tuesday-courses-settled-reentry.png",
+      "sha256": "cca4b0bf8908821908de6a3c2818a2fd0e1effe0e82887bdfcb82a8fa3740888",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:58:39.985Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-CANVAS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Canvas DEMO on second entry.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/26-tuesday-courses-return-reentry.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:58:40.285Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Second Courses Back restores Tuesday feature position.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/27-monday-home-baseline.png",
+      "sha256": "134cbd68ff745db24f4b984357ea47ba32dadab816342903ca349c85966c279c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:58:59.510Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Monday Home feature baseline.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/28-monday-study-loading.png",
+      "sha256": "30d9a82f51d5959d8b546ffd75ddc8831c14321543d09236680275965f46cd1e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:58:59.819Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Monday Study loading after entry.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/29-monday-study-settled.png",
+      "sha256": "c87f567ef7d46ce41165bbd73d8ad00fa4061ec4921850e1264b3d363f5ca31e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:08.460Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-COMPLETED"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Completed DEMO from Monday Home.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/30-monday-study-home-return.png",
+      "sha256": "134cbd68ff745db24f4b984357ea47ba32dadab816342903ca349c85966c279c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:08.770Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Study Back preserves Monday Home feature position.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-31",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/31-monday-courses-loading.png",
+      "sha256": "e57eccc7052b03beabc8d554430501b163241189dcce783a9229dcde642e9754",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:09.010Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Courses loading from Monday Home, saved post-click.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-32",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/32-monday-courses-settled.png",
+      "sha256": "692865c8e8c6e423cbfebb393d527752bd38998164a8fe0bccae65bc361c16c2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:18.520Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-CANVAS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Canvas DEMO after Monday loading.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-33",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/33-monday-courses-home-return.png",
+      "sha256": "134cbd68ff745db24f4b984357ea47ba32dadab816342903ca349c85966c279c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:18.795Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Courses Back preserves Monday Home feature position.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-34",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/34-legacy-home-baseline.png",
+      "sha256": "7295f9668be99f0e2ab9b43a2d9729fffd70e1a3e6a5b590b07c47cf262d6589",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:30.332Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Legacy static Home feature baseline.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-35",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/35-legacy-study-loading.png",
+      "sha256": "1cacdea5b315f5b6b7f7d58169face5602c502a00e925d720174568eb048573f",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:39.232Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Study loading from legacy Home.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-36",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/36-legacy-study-settled.png",
+      "sha256": "1d37f149925ec109cfb0d083adbe1472b974c7f98eedc223fb2e634f8482f102",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:49.481Z",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-COMPLETED"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Completed DEMO from legacy Home.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-37",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/37-legacy-study-home-return.png",
+      "sha256": "7295f9668be99f0e2ab9b43a2d9729fffd70e1a3e6a5b590b07c47cf262d6589",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:49.804Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Study Back to legacy Home.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-38",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/38-legacy-courses-loading.png",
+      "sha256": "40e2d7313b158fbc6797e826b9632acc1e9decd86b81b77e97ca93d866d312d0",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T16:59:50.080Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Courses loading from legacy Home.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-39",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/39-legacy-courses-settled.png",
+      "sha256": "c208e7a838b5439659063727bee6b520f48a8244c2db86933e8624e5c5d5e056",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:00:01.750Z",
+      "session_id": null,
+      "state_ids": [
+        "S-COURSES-CANVAS"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Canvas DEMO from legacy Home.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-40",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/40-legacy-courses-home-return.png",
+      "sha256": "7295f9668be99f0e2ab9b43a2d9729fffd70e1a3e6a5b590b07c47cf262d6589",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:00:02.039Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Courses Back to legacy Home.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-41",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/41-legacy-qr-loading.png",
+      "sha256": "ba81cf0690a1d81cbbb460d9948b1538f141697808658400596358725182715b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:00:02.240Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. QR loading after bottom global entry.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-42",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/42-legacy-qr-settled.png",
+      "sha256": "550c82cf880a6ee79827f394e8ca3fd177579f2b89c8875485b774bfefd4769b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:00:10.542Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-DISPLAY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Non-scannable QR DEMO after loading timer.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-43",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/43-legacy-qr-home-return.png",
+      "sha256": "7a18cbfd945d85545896fbfc52c07bb39a62573ed0db93f156f39683f58a058c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:00:10.761Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Existing QR Home navigation returns legacy Home.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-44",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/44-legacy-qr-home-later.png",
+      "sha256": "7a18cbfd945d85545896fbfc52c07bb39a62573ed0db93f156f39683f58a058c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:00:19.951Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Later Home observation after QR return; verify decorative photo persistence.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-45",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/45-legacy-home-image-before.png",
+      "sha256": "83220e9c85fe4b9a79c0cdfc7f6d5066df9f88051fe58d14ae451dc7d39a0475",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:01:38.363Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Original public preview fill before reupload: 44,899 489x22 STRETCH, native source902x40.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-46",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/46-legacy-home-image-reuploaded.png",
+      "sha256": "4c305cfc502fb4c1310b75f6df12b71278c6b4bfeeb52a0179965395e05b3fff",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:01:39.524Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Same public PNG reuploaded; final size/position unchanged, image color management readback true.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-47",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/47-legacy-home-repair-baseline.png",
+      "sha256": "7295f9668be99f0e2ab9b43a2d9729fffd70e1a3e6a5b590b07c47cf262d6589",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:01:49.665Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Home baseline after same PNG reupload and Present reload.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-48",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/48-qr-recheck-loading-first.png",
+      "sha256": "ba81cf0690a1d81cbbb460d9948b1538f141697808658400596358725182715b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:01:49.962Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. First QR loading after Home image repair.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-49",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/49-qr-recheck-settled-first.png",
+      "sha256": "550c82cf880a6ee79827f394e8ca3fd177579f2b89c8875485b774bfefd4769b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:01:59.130Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-DISPLAY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. First QR settled DEMO after image repair.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-50",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/50-qr-recheck-home-first.png",
+      "sha256": "c1ab1ddc8594f698ccdff75485adec8c259cbcd9092a756c320dc0c543c3866c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:01:59.394Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. First QR Home after image repair.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-51",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/51-qr-recheck-home-later.png",
+      "sha256": "7295f9668be99f0e2ab9b43a2d9729fffd70e1a3e6a5b590b07c47cf262d6589",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:02:26.234Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Later saved post-reupload Home screenshot has recovered photo; immediate50 was blank. No further repair before this recovery.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-52",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/52-qr-entry-before-stack-fix.png",
+      "sha256": "3e4c5bef9b336c00d49d3704bde40264d6fff0e327b1ca793b588283833b917c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:02:32.430Z",
+      "session_id": null,
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Existing entry destination retargeted, behavior retained: Navigate to",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-53",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/53-qr-entry-open-overlay.png",
+      "sha256": "c94b13cb1f63ebbf1460de744aeb76d52fa2136aea3fbe380fa2d5b5e763b14f",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:02:55.918Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. QR entry changed Navigate to→Open overlay; centered, no outside dismissal/background.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-54",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/54-qr-timer-swap-overlay.png",
+      "sha256": "4b893648658112170ed40364ac125cbba01f792f51f291c6c0d5d25b9325ed10",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:02:58.269Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. QR timer changed Navigate to→Swap overlay, preserves Home caller.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-55",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/55-qr-home-close-overlay.png",
+      "sha256": "556dc2fff1cb24951138bfbc164de0c250291245cefe62ec1c3f34339ef01721",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:03:25.135Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-DISPLAY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. QR Home changed Navigate to→Close overlay for established Home caller route.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-56",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/56-qr-stack-home-baseline.png",
+      "sha256": "7295f9668be99f0e2ab9b43a2d9729fffd70e1a3e6a5b590b07c47cf262d6589",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:03:36.921Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Fresh Home baseline for QR overlay implementation.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-57",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/57-qr-stack-loading-first.png",
+      "sha256": "c7ba96a15923bc666f466f28cc5aed9fdf54319e7b073c2f75525ba5a6e5653a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:03:37.214Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. First QR loading on overlay implementation.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-58",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/58-qr-stack-settled-first.png",
+      "sha256": "59197a41ce3833009e56c4b52ac5b4234b11e4da1ad3b2653fef99ea9a495a7c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:03:46.215Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-DISPLAY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. First QR settled under overlay implementation.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-59",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/59-qr-stack-home-first.png",
+      "sha256": "7295f9668be99f0e2ab9b43a2d9729fffd70e1a3e6a5b590b07c47cf262d6589",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:03:46.523Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. First QR Close overlay Home return.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-60",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/60-qr-stack-loading-second.png",
+      "sha256": "c7ba96a15923bc666f466f28cc5aed9fdf54319e7b073c2f75525ba5a6e5653a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:03:53.967Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Second consecutive QR loading with overlay implementation.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-61",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/61-qr-stack-settled-second.png",
+      "sha256": "59197a41ce3833009e56c4b52ac5b4234b11e4da1ad3b2653fef99ea9a495a7c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:04:02.070Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-DISPLAY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Second consecutive QR settled DEMO.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-62",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/62-qr-stack-home-second.png",
+      "sha256": "7295f9668be99f0e2ab9b43a2d9729fffd70e1a3e6a5b590b07c47cf262d6589",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:04:02.349Z",
+      "session_id": null,
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma prototype. Second QR Close overlay returns Home with public photo.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-SCREEN-63",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-01-account-loading-wired/63-qr-final-flow-and-delay.png",
+      "sha256": "f1c4475b54e7e313165bdedcb364d595bbc0533fea9b1fadd7d8f4dc42d018c4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at": "2026-09-30T17:05:23.612Z",
+      "session_id": null,
+      "state_ids": [
+        "S-QR-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor. Final QR root has no Flow starting point; 800ms delay destination retained after overlay change.",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "id": "E-ACCOUNT-LOADING-TRACE",
+      "type": "interaction_trace",
+      "path": "account-loading-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-STUDY-LOADING",
+        "S-STUDY-COMPLETED",
+        "S-COURSES-LOADING",
+        "S-COURSES-CANVAS",
+        "S-QR-LOADING",
+        "S-QR-DISPLAY",
+        "S-HOME",
+        "S-HOME-SCHEDULE-TUE",
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use imports, readback, seven finite Present runs including two image failures and overlay follow-up; no new native observations."
     }
   ],
   "findings": [
@@ -50167,6 +51306,19 @@
         "connection_status": "configured_and_tested_for_recorded_sample",
         "prototype_run_ids": [
           "PROTO-HOME-STUDY-V2-001"
+        ],
+        "implementation_follow_ups": [
+          {
+            "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+            "summary": "Observed loading now precedes QR demo; Home uses Close overlay for tested Home caller. Other caller/global/standalone semantics incomplete.",
+            "prototype_run_ids": [
+              "PROTO-QR-OVERLAY-FIRST-001",
+              "PROTO-QR-OVERLAY-SECOND-001"
+            ],
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-TRACE"
+            ]
+          }
         ]
       },
       {
@@ -54135,6 +55287,150 @@
         "prototype_run_ids": [
           "PROTO-FOOD-LOADING-HOURS-001"
         ]
+      },
+      {
+        "state_id": "S-STUDY-LOADING",
+        "node_id": "636:107",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=636-107",
+        "node_name": "[S-STUDY-LOADING] Study — observed loading",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "source_evidence_ids": [
+          "E-STUDY-LOADING"
+        ],
+        "design_source_path": "../../design/polyulife/study-loading.svg",
+        "design_source_sha256": "abb0d842600d617595b4d308ec81adcf8205bef4aa19c38994c7042a4dc9e3e6",
+        "canvas_position": [
+          0,
+          61500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "clip_content": true
+        },
+        "native_editability": "Editable header/gray overlay/white card; static native raster mark. QR public bottom navigation editable.",
+        "content_policy": "Generic loading has no personal coursework or active QR; settled screens remain synthetic DEMO.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Final import/geometry and saved loading samples inspected; approximate fonts/icons, raster mark and sampled differences remain.",
+          "evidence_ids": [
+            "E-ACCOUNT-LOADING-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ACCOUNT-LOADING-LIMITS"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ],
+        "prototype_run_ids": [
+          "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+          "PROTO-ACCOUNT-LOADING-MONDAY-001",
+          "PROTO-ACCOUNT-LOADING-LEGACY-001"
+        ],
+        "prototype_status": "finite_loading_progression_samples_recorded",
+        "connection_status": "configured_and_sample_replayed"
+      },
+      {
+        "state_id": "S-COURSES-LOADING",
+        "node_id": "636:119",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=636-119",
+        "node_name": "[S-COURSES-LOADING] Courses — observed loading",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "source_evidence_ids": [
+          "E-COURSES-LOADING"
+        ],
+        "design_source_path": "../../design/polyulife/courses-loading.svg",
+        "design_source_sha256": "de2cceb84725838d6f70f0194ab45243cf18d59a18a6fbb59036edef830dd3bf",
+        "canvas_position": [
+          700,
+          61500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "clip_content": true
+        },
+        "native_editability": "Editable header/gray overlay/white card; static native raster mark. QR public bottom navigation editable.",
+        "content_policy": "Generic loading has no personal coursework or active QR; settled screens remain synthetic DEMO.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Final import/geometry and saved loading samples inspected; approximate fonts/icons, raster mark and sampled differences remain.",
+          "evidence_ids": [
+            "E-ACCOUNT-LOADING-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ACCOUNT-LOADING-LIMITS"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ],
+        "prototype_run_ids": [
+          "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+          "PROTO-ACCOUNT-LOADING-COURSES-REENTRY-001",
+          "PROTO-ACCOUNT-LOADING-MONDAY-001",
+          "PROTO-ACCOUNT-LOADING-LEGACY-001"
+        ],
+        "prototype_status": "finite_loading_progression_samples_recorded",
+        "connection_status": "configured_and_sample_replayed"
+      },
+      {
+        "state_id": "S-QR-LOADING",
+        "node_id": "636:75",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=636-75",
+        "node_name": "[S-QR-LOADING] Campus QR — observed loading",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "source_evidence_ids": [
+          "E-QR-LOADING"
+        ],
+        "design_source_path": "../../design/polyulife/qr-loading.svg",
+        "design_source_sha256": "14f0a84554740bef061f56cc1ebea9ff5c3135b3f44aab7b92b7e8f576d911d8",
+        "canvas_position": [
+          1400,
+          61500
+        ],
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "clip_content": true
+        },
+        "native_editability": "Editable header/gray overlay/white card; static native raster mark. QR public bottom navigation editable.",
+        "content_policy": "Generic loading has no personal coursework or active QR; settled screens remain synthetic DEMO.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Final import/geometry and saved loading samples inspected; approximate fonts/icons, raster mark and sampled differences remain.",
+          "evidence_ids": [
+            "E-ACCOUNT-LOADING-TRACE"
+          ],
+          "deviation_ids": [
+            "D-ACCOUNT-LOADING-LIMITS"
+          ]
+        },
+        "prototype_evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ],
+        "prototype_run_ids": [
+          "PROTO-QR-OVERLAY-FIRST-001",
+          "PROTO-QR-OVERLAY-SECOND-001"
+        ],
+        "prototype_status": "finite_loading_progression_samples_recorded",
+        "connection_status": "configured_and_sample_replayed"
       }
     ],
     "action_connection_mappings": [
@@ -55811,24 +57107,24 @@
         "connection_id": "C-HOME-STUDY",
         "action_id": "A-HOME-EP009",
         "source_node_id": "67:820",
-        "target_node_id": "67:2",
+        "target_node_id": "636:107",
         "trigger_node_id": "67:898",
         "trigger_node_name": "FeatureStudyProgress",
         "trigger": "On click",
         "behavior": "Open overlay",
-        "revision_id": "FIGMA-STUDY-COURSES-STACK",
-        "configured_at": "2026-09-28T18:20:53.103Z",
-        "implementation_status": "tested_home_sample_stack_only",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "configured_at": "2026-09-30T16:56:42.988Z",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001",
-          "PROTO-STUDY-COURSES-STACK-001"
+          "PROTO-ACCOUNT-LOADING-LEGACY-001"
         ],
-        "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "deviation_ids": [
           "D-STUDY-DEMO-CONTENT",
           "D-HOME-SAMPLE-ENTRY",
           "D-STUDY-STATIC-INPUT",
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-ACCOUNT-LOADING-LIMITS"
         ],
         "configuration_history": [
           {
@@ -55852,10 +57148,68 @@
               "D-HOME-SAMPLE-ENTRY",
               "D-STUDY-STATIC-INPUT"
             ]
+          },
+          {
+            "connection_id": "C-HOME-STUDY",
+            "action_id": "A-HOME-EP009",
+            "source_node_id": "67:820",
+            "target_node_id": "67:2",
+            "trigger_node_id": "67:898",
+            "trigger_node_name": "FeatureStudyProgress",
+            "trigger": "On click",
+            "behavior": "Open overlay",
+            "revision_id": "FIGMA-STUDY-COURSES-STACK",
+            "configured_at": "2026-09-28T18:20:53.103Z",
+            "implementation_status": "tested_home_sample_stack_only",
+            "prototype_run_ids": [
+              "PROTO-HOME-STUDY-V2-001",
+              "PROTO-STUDY-COURSES-STACK-001"
+            ],
+            "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+            "deviation_ids": [
+              "D-STUDY-DEMO-CONTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-STUDY-STATIC-INPUT",
+              "D-HOME-MODULE-RETURN"
+            ],
+            "configuration_history": [
+              {
+                "connection_id": "C-HOME-STUDY",
+                "action_id": "A-HOME-EP009",
+                "source_node_id": "67:820",
+                "target_node_id": "67:2",
+                "trigger_node_id": "67:898",
+                "trigger_node_name": "FeatureStudyProgress",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-STUDY-V2",
+                "configured_at": "2026-09-28T18:20:53.103Z",
+                "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+                "prototype_run_ids": [
+                  "PROTO-HOME-STUDY-V2-001"
+                ],
+                "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+                "deviation_ids": [
+                  "D-STUDY-DEMO-CONTENT",
+                  "D-HOME-SAMPLE-ENTRY",
+                  "D-STUDY-STATIC-INPUT"
+                ]
+              }
+            ],
+            "prototype_evidence_ids": [
+              "E-STUDY-STACK-PROTOTYPE-TRACE"
+            ],
+            "overlay_options": {
+              "position": "Centered",
+              "close_on_outside_click": false,
+              "background": false,
+              "animation": "Instant"
+            },
+            "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
           }
         ],
         "prototype_evidence_ids": [
-          "E-STUDY-STACK-PROTOTYPE-TRACE"
+          "E-ACCOUNT-LOADING-TRACE"
         ],
         "overlay_options": {
           "position": "Centered",
@@ -55863,31 +57217,41 @@
           "background": false,
           "animation": "Instant"
         },
-        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+        "source_evidence_ids": [
+          "E-STUDY-LOADING",
+          "E-STUDY-COMPLETED"
+        ],
+        "readback": [
+          "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+          "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand"
+        ]
       },
       {
         "connection_id": "C-HOME-COURSES",
         "action_id": "A-HOME-EP010",
         "source_node_id": "67:820",
-        "target_node_id": "67:271",
+        "target_node_id": "636:119",
         "trigger_node_id": "67:904",
         "trigger_node_name": "FeatureMyCourses",
         "trigger": "On click",
         "behavior": "Open overlay",
-        "revision_id": "FIGMA-STUDY-COURSES-STACK",
-        "configured_at": "2026-09-28T18:20:53.103Z",
-        "implementation_status": "tested_home_sample_stack_only",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "configured_at": "2026-09-30T16:56:58.520Z",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001",
-          "PROTO-STUDY-CJK-RECHECK",
-          "PROTO-STUDY-COURSES-STACK-001"
+          "PROTO-ACCOUNT-LOADING-LEGACY-001"
         ],
-        "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "deviation_ids": [
           "D-STUDY-DEMO-CONTENT",
           "D-HOME-SAMPLE-ENTRY",
           "D-STUDY-STATIC-INPUT",
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-ACCOUNT-LOADING-LIMITS"
         ],
         "configuration_history": [
           {
@@ -55912,10 +57276,70 @@
               "D-HOME-SAMPLE-ENTRY",
               "D-STUDY-STATIC-INPUT"
             ]
+          },
+          {
+            "connection_id": "C-HOME-COURSES",
+            "action_id": "A-HOME-EP010",
+            "source_node_id": "67:820",
+            "target_node_id": "67:271",
+            "trigger_node_id": "67:904",
+            "trigger_node_name": "FeatureMyCourses",
+            "trigger": "On click",
+            "behavior": "Open overlay",
+            "revision_id": "FIGMA-STUDY-COURSES-STACK",
+            "configured_at": "2026-09-28T18:20:53.103Z",
+            "implementation_status": "tested_home_sample_stack_only",
+            "prototype_run_ids": [
+              "PROTO-HOME-STUDY-V2-001",
+              "PROTO-STUDY-CJK-RECHECK",
+              "PROTO-STUDY-COURSES-STACK-001"
+            ],
+            "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+            "deviation_ids": [
+              "D-STUDY-DEMO-CONTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-STUDY-STATIC-INPUT",
+              "D-HOME-MODULE-RETURN"
+            ],
+            "configuration_history": [
+              {
+                "connection_id": "C-HOME-COURSES",
+                "action_id": "A-HOME-EP010",
+                "source_node_id": "67:820",
+                "target_node_id": "67:271",
+                "trigger_node_id": "67:904",
+                "trigger_node_name": "FeatureMyCourses",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-STUDY-V2",
+                "configured_at": "2026-09-28T18:20:53.103Z",
+                "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+                "prototype_run_ids": [
+                  "PROTO-HOME-STUDY-V2-001",
+                  "PROTO-STUDY-CJK-RECHECK"
+                ],
+                "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+                "deviation_ids": [
+                  "D-STUDY-DEMO-CONTENT",
+                  "D-HOME-SAMPLE-ENTRY",
+                  "D-STUDY-STATIC-INPUT"
+                ]
+              }
+            ],
+            "prototype_evidence_ids": [
+              "E-STUDY-STACK-PROTOTYPE-TRACE"
+            ],
+            "overlay_options": {
+              "position": "Centered",
+              "close_on_outside_click": false,
+              "background": false,
+              "animation": "Instant"
+            },
+            "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
           }
         ],
         "prototype_evidence_ids": [
-          "E-STUDY-STACK-PROTOTYPE-TRACE"
+          "E-ACCOUNT-LOADING-TRACE"
         ],
         "overlay_options": {
           "position": "Centered",
@@ -55923,7 +57347,18 @@
           "background": false,
           "animation": "Instant"
         },
-        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+        "source_evidence_ids": [
+          "E-COURSES-LOADING",
+          "E-COURSES-CANVAS"
+        ],
+        "readback": [
+          "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+          "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+        ]
       },
       {
         "connection_id": "C-HOME-APPS",
@@ -56601,45 +58036,170 @@
         "connection_id": "C-QR-HOME",
         "action_id": "A-QR-HOME",
         "source_node_id": "67:513",
-        "target_node_id": "67:820",
+        "target_node_id": null,
         "trigger_node_id": "67:551",
         "trigger_node_name": "NavHome",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-HOME-STUDY-V2",
-        "configured_at": "2026-09-28T18:24:28.036Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "behavior": "Close overlay",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "configured_at": "2026-09-30T17:03:25.136Z",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001"
+          "PROTO-QR-OVERLAY-FIRST-001",
+          "PROTO-QR-OVERLAY-SECOND-001"
         ],
-        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "deviation_ids": [
           "D-STUDY-DEMO-CONTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-STUDY-STATIC-INPUT"
-        ]
+          "D-STUDY-STATIC-INPUT",
+          "D-ACCOUNT-LOADING-LIMITS",
+          "D-QR-CALLER-IMAGE"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-QR-HOME",
+            "action_id": "A-QR-HOME",
+            "source_node_id": "67:513",
+            "target_node_id": "67:820",
+            "trigger_node_id": "67:551",
+            "trigger_node_name": "NavHome",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-HOME-STUDY-V2",
+            "configured_at": "2026-09-28T18:24:28.036Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-HOME-STUDY-V2-001"
+            ],
+            "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+            "deviation_ids": [
+              "D-STUDY-DEMO-CONTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-STUDY-STATIC-INPUT"
+            ]
+          }
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ],
+        "readback": [
+          "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8i:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Close overlay, ID: :r8l:, Secondary Actions: Expand",
+          "The focused UI element is 307 combo box (collapsed) Action, Value: Close overlay, ID: :r8l:, Secondary Actions: Expand"
+        ],
+        "tested_target_node_ids": [
+          "67:820"
+        ],
+        "return_stack_note": "QR Home closes overlay only for established Home caller sample. Standalone QR start and other global callers/entries remain unimplemented."
       },
       {
         "connection_id": "C-HOME-QR",
         "action_id": "A-HOME-EP011",
         "source_node_id": "67:820",
-        "target_node_id": "67:513",
+        "target_node_id": "636:75",
         "trigger_node_id": "67:938",
         "trigger_node_name": "NavQR",
         "trigger": "On click",
-        "behavior": "Navigate to",
-        "revision_id": "FIGMA-HOME-STUDY-V2",
-        "configured_at": "2026-09-28T18:25:43.945Z",
-        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "behavior": "Open overlay",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "configured_at": "2026-09-30T17:02:55.918Z",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001"
+          "PROTO-QR-OVERLAY-FIRST-001",
+          "PROTO-QR-OVERLAY-SECOND-001"
         ],
-        "source_fidelity": "Skips native loading and uses explicitly non-scannable QR placeholder.",
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "deviation_ids": [
           "D-STUDY-DEMO-CONTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-STUDY-STATIC-INPUT"
-        ]
+          "D-STUDY-STATIC-INPUT",
+          "D-ACCOUNT-LOADING-LIMITS",
+          "D-QR-CALLER-IMAGE"
+        ],
+        "configuration_history": [
+          {
+            "connection_id": "C-HOME-QR",
+            "action_id": "A-HOME-EP011",
+            "source_node_id": "67:820",
+            "target_node_id": "67:513",
+            "trigger_node_id": "67:938",
+            "trigger_node_name": "NavQR",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-HOME-STUDY-V2",
+            "configured_at": "2026-09-28T18:25:43.945Z",
+            "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+            "prototype_run_ids": [
+              "PROTO-HOME-STUDY-V2-001"
+            ],
+            "source_fidelity": "Skips native loading and uses explicitly non-scannable QR placeholder.",
+            "deviation_ids": [
+              "D-STUDY-DEMO-CONTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-STUDY-STATIC-INPUT"
+            ]
+          },
+          {
+            "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+            "source_node_id": "67:820",
+            "trigger_node_id": "67:938",
+            "target_node_id": "636:75",
+            "behavior": "Navigate to",
+            "trigger": "On click",
+            "configured_at": "2026-09-30T16:57:06.118Z",
+            "status": "superseded_during_current_batch",
+            "readback": [
+              "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8s:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Navigate to, ID: :r8v:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :r9c:, Secondary Actions: Expand",
+              "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand"
+            ]
+          },
+          {
+            "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+            "source_node_id": "67:820",
+            "trigger_node_id": "67:938",
+            "target_node_id": "636:75",
+            "behavior": "Navigate to",
+            "trigger": "On click",
+            "configured_at": "2026-09-30T17:02:32.430Z",
+            "status": "superseded_during_current_batch",
+            "readback": [
+              "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8s:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Navigate to, ID: :r8v:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :r9c:, Secondary Actions: Expand",
+              "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand"
+            ]
+          }
+        ],
+        "source_evidence_ids": [
+          "E-QR-LOADING",
+          "E-QR-DISPLAY"
+        ],
+        "prototype_evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ],
+        "readback": [
+          "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r9q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r9u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t323 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :raf:",
+          "\t\t\t\t\t\t324 checkbox (settable, integer) Description: Background, Value: 0, ID: :rag:",
+          "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :ra7:, Secondary Actions: Expand",
+          "The focused UI element is 307 combo box (collapsed) Action, Value: Open overlay, ID: :r9q:, Secondary Actions: Expand"
+        ],
+        "overlay_options": {
+          "position": "Centered",
+          "close_on_outside_click": false,
+          "background": false,
+          "animation": "Instant"
+        }
       },
       {
         "connection_id": "C-HOME-MORE",
@@ -58395,29 +59955,30 @@
         "connection_id": "C-HOME-SCROLL-113-90",
         "action_id": "A-HOME-EP010",
         "source_node_id": "67:569",
-        "target_node_id": "67:271",
+        "target_node_id": "636:119",
         "trigger_node_id": "113:90",
         "trigger_node_name": "FeatureMyCourses",
         "trigger": "On click",
         "behavior": "Open overlay",
-        "revision_id": "FIGMA-STUDY-COURSES-STACK",
-        "implementation_status": "tested_home_sample_stack_only",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-HOME-FEATURE-RETURN-001",
-          "PROTO-STUDY-COURSES-STACK-001"
+          "PROTO-ACCOUNT-LOADING-MONDAY-001"
         ],
         "configuration_evidence_ids": [
           "E-HOME-SCROLL-PROTOTYPE-TRACE"
         ],
         "source_evidence_ids": [
-          "E-HOME-STUDY-MAP-TRACE"
+          "E-COURSES-LOADING",
+          "E-COURSES-CANVAS"
         ],
         "deviation_ids": [
           "D-HOME-SCROLL-EXTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-ACCOUNT-LOADING-LIMITS"
         ],
-        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "configuration_history": [
           {
             "connection_id": "C-HOME-SCROLL-113-90",
@@ -58472,11 +60033,105 @@
             "prototype_evidence_ids": [
               "E-HOME-FEATURE-PROTOTYPE-TRACE"
             ]
+          },
+          {
+            "connection_id": "C-HOME-SCROLL-113-90",
+            "action_id": "A-HOME-EP010",
+            "source_node_id": "67:569",
+            "target_node_id": "67:271",
+            "trigger_node_id": "113:90",
+            "trigger_node_name": "FeatureMyCourses",
+            "trigger": "On click",
+            "behavior": "Open overlay",
+            "revision_id": "FIGMA-STUDY-COURSES-STACK",
+            "implementation_status": "tested_home_sample_stack_only",
+            "prototype_run_ids": [
+              "PROTO-HOME-FEATURE-RETURN-001",
+              "PROTO-STUDY-COURSES-STACK-001"
+            ],
+            "configuration_evidence_ids": [
+              "E-HOME-SCROLL-PROTOTYPE-TRACE"
+            ],
+            "source_evidence_ids": [
+              "E-HOME-STUDY-MAP-TRACE"
+            ],
+            "deviation_ids": [
+              "D-HOME-SCROLL-EXTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-HOME-MODULE-RETURN"
+            ],
+            "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+            "configuration_history": [
+              {
+                "connection_id": "C-HOME-SCROLL-113-90",
+                "action_id": "A-HOME-EP010",
+                "source_node_id": "67:569",
+                "target_node_id": "67:271",
+                "trigger_node_id": "113:90",
+                "trigger_node_name": "FeatureMyCourses",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+                "implementation_status": "configured_copied_not_run",
+                "prototype_run_ids": [],
+                "configuration_evidence_ids": [
+                  "E-HOME-SCROLL-PROTOTYPE-TRACE"
+                ],
+                "source_evidence_ids": [
+                  "E-HOME-STUDY-MAP-TRACE"
+                ],
+                "deviation_ids": [
+                  "D-HOME-SCROLL-EXTENT",
+                  "D-HOME-SAMPLE-ENTRY"
+                ],
+                "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+              },
+              {
+                "connection_id": "C-HOME-SCROLL-113-90",
+                "action_id": "A-HOME-EP010",
+                "source_node_id": "67:569",
+                "target_node_id": "67:271",
+                "trigger_node_id": "113:90",
+                "trigger_node_name": "FeatureMyCourses",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+                "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+                "prototype_run_ids": [
+                  "PROTO-HOME-FEATURE-RETURN-001"
+                ],
+                "configuration_evidence_ids": [
+                  "E-HOME-SCROLL-PROTOTYPE-TRACE"
+                ],
+                "source_evidence_ids": [
+                  "E-HOME-STUDY-MAP-TRACE"
+                ],
+                "deviation_ids": [
+                  "D-HOME-SCROLL-EXTENT",
+                  "D-HOME-SAMPLE-ENTRY",
+                  "D-HOME-MODULE-RETURN"
+                ],
+                "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+                "prototype_evidence_ids": [
+                  "E-HOME-FEATURE-PROTOTYPE-TRACE"
+                ]
+              }
+            ],
+            "prototype_evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE",
+              "E-STUDY-STACK-PROTOTYPE-TRACE"
+            ],
+            "overlay_options": {
+              "position": "Centered",
+              "close_on_outside_click": false,
+              "background": false,
+              "animation": "Instant"
+            },
+            "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
           }
         ],
         "prototype_evidence_ids": [
-          "E-HOME-FEATURE-PROTOTYPE-TRACE",
-          "E-STUDY-STACK-PROTOTYPE-TRACE"
+          "E-ACCOUNT-LOADING-TRACE"
         ],
         "overlay_options": {
           "position": "Centered",
@@ -58484,35 +60139,44 @@
           "background": false,
           "animation": "Instant"
         },
-        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+        "configured_at": "2026-09-30T16:56:35.809Z",
+        "readback": [
+          "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+          "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+        ]
       },
       {
         "connection_id": "C-HOME-SCROLL-113-84",
         "action_id": "A-HOME-EP009",
         "source_node_id": "67:569",
-        "target_node_id": "67:2",
+        "target_node_id": "636:107",
         "trigger_node_id": "113:84",
         "trigger_node_name": "FeatureStudyProgress",
         "trigger": "On click",
         "behavior": "Open overlay",
-        "revision_id": "FIGMA-STUDY-COURSES-STACK",
-        "implementation_status": "tested_home_sample_stack_only",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-HOME-FEATURE-RETURN-001",
-          "PROTO-STUDY-COURSES-STACK-001"
+          "PROTO-ACCOUNT-LOADING-MONDAY-001"
         ],
         "configuration_evidence_ids": [
           "E-HOME-SCROLL-PROTOTYPE-TRACE"
         ],
         "source_evidence_ids": [
-          "E-HOME-STUDY-MAP-TRACE"
+          "E-STUDY-LOADING",
+          "E-STUDY-COMPLETED"
         ],
         "deviation_ids": [
           "D-HOME-SCROLL-EXTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-ACCOUNT-LOADING-LIMITS"
         ],
-        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "configuration_history": [
           {
             "connection_id": "C-HOME-SCROLL-113-84",
@@ -58567,11 +60231,105 @@
             "prototype_evidence_ids": [
               "E-HOME-FEATURE-PROTOTYPE-TRACE"
             ]
+          },
+          {
+            "connection_id": "C-HOME-SCROLL-113-84",
+            "action_id": "A-HOME-EP009",
+            "source_node_id": "67:569",
+            "target_node_id": "67:2",
+            "trigger_node_id": "113:84",
+            "trigger_node_name": "FeatureStudyProgress",
+            "trigger": "On click",
+            "behavior": "Open overlay",
+            "revision_id": "FIGMA-STUDY-COURSES-STACK",
+            "implementation_status": "tested_home_sample_stack_only",
+            "prototype_run_ids": [
+              "PROTO-HOME-FEATURE-RETURN-001",
+              "PROTO-STUDY-COURSES-STACK-001"
+            ],
+            "configuration_evidence_ids": [
+              "E-HOME-SCROLL-PROTOTYPE-TRACE"
+            ],
+            "source_evidence_ids": [
+              "E-HOME-STUDY-MAP-TRACE"
+            ],
+            "deviation_ids": [
+              "D-HOME-SCROLL-EXTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-HOME-MODULE-RETURN"
+            ],
+            "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+            "configuration_history": [
+              {
+                "connection_id": "C-HOME-SCROLL-113-84",
+                "action_id": "A-HOME-EP009",
+                "source_node_id": "67:569",
+                "target_node_id": "67:2",
+                "trigger_node_id": "113:84",
+                "trigger_node_name": "FeatureStudyProgress",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+                "implementation_status": "configured_copied_not_run",
+                "prototype_run_ids": [],
+                "configuration_evidence_ids": [
+                  "E-HOME-SCROLL-PROTOTYPE-TRACE"
+                ],
+                "source_evidence_ids": [
+                  "E-HOME-STUDY-MAP-TRACE"
+                ],
+                "deviation_ids": [
+                  "D-HOME-SCROLL-EXTENT",
+                  "D-HOME-SAMPLE-ENTRY"
+                ],
+                "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+              },
+              {
+                "connection_id": "C-HOME-SCROLL-113-84",
+                "action_id": "A-HOME-EP009",
+                "source_node_id": "67:569",
+                "target_node_id": "67:2",
+                "trigger_node_id": "113:84",
+                "trigger_node_name": "FeatureStudyProgress",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+                "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+                "prototype_run_ids": [
+                  "PROTO-HOME-FEATURE-RETURN-001"
+                ],
+                "configuration_evidence_ids": [
+                  "E-HOME-SCROLL-PROTOTYPE-TRACE"
+                ],
+                "source_evidence_ids": [
+                  "E-HOME-STUDY-MAP-TRACE"
+                ],
+                "deviation_ids": [
+                  "D-HOME-SCROLL-EXTENT",
+                  "D-HOME-SAMPLE-ENTRY",
+                  "D-HOME-MODULE-RETURN"
+                ],
+                "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+                "prototype_evidence_ids": [
+                  "E-HOME-FEATURE-PROTOTYPE-TRACE"
+                ]
+              }
+            ],
+            "prototype_evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE",
+              "E-STUDY-STACK-PROTOTYPE-TRACE"
+            ],
+            "overlay_options": {
+              "position": "Centered",
+              "close_on_outside_click": false,
+              "background": false,
+              "animation": "Instant"
+            },
+            "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
           }
         ],
         "prototype_evidence_ids": [
-          "E-HOME-FEATURE-PROTOTYPE-TRACE",
-          "E-STUDY-STACK-PROTOTYPE-TRACE"
+          "E-ACCOUNT-LOADING-TRACE"
         ],
         "overlay_options": {
           "position": "Centered",
@@ -58579,7 +60337,15 @@
           "background": false,
           "animation": "Instant"
         },
-        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+        "configured_at": "2026-09-30T16:56:21.265Z",
+        "readback": [
+          "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+          "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand"
+        ]
       },
       {
         "connection_id": "C-HOME-SCROLL-113-76",
@@ -58936,29 +60702,31 @@
         "connection_id": "C-HOME-SCROLL-113-45",
         "action_id": "A-HOME-EP010",
         "source_node_id": "67:694",
-        "target_node_id": "67:271",
+        "target_node_id": "636:119",
         "trigger_node_id": "113:45",
         "trigger_node_name": "FeatureMyCourses",
         "trigger": "On click",
         "behavior": "Open overlay",
-        "revision_id": "FIGMA-STUDY-COURSES-STACK",
-        "implementation_status": "tested_home_sample_stack_only",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-HOME-FEATURE-RETURN-001",
-          "PROTO-STUDY-COURSES-STACK-001"
+          "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+          "PROTO-ACCOUNT-LOADING-COURSES-REENTRY-001"
         ],
         "configuration_evidence_ids": [
           "E-HOME-SCROLL-PROTOTYPE-TRACE"
         ],
         "source_evidence_ids": [
-          "E-HOME-STUDY-MAP-TRACE"
+          "E-COURSES-LOADING",
+          "E-COURSES-CANVAS"
         ],
         "deviation_ids": [
           "D-HOME-SCROLL-EXTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-ACCOUNT-LOADING-LIMITS"
         ],
-        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "configuration_history": [
           {
             "connection_id": "C-HOME-SCROLL-113-45",
@@ -59013,11 +60781,105 @@
             "prototype_evidence_ids": [
               "E-HOME-FEATURE-PROTOTYPE-TRACE"
             ]
+          },
+          {
+            "connection_id": "C-HOME-SCROLL-113-45",
+            "action_id": "A-HOME-EP010",
+            "source_node_id": "67:694",
+            "target_node_id": "67:271",
+            "trigger_node_id": "113:45",
+            "trigger_node_name": "FeatureMyCourses",
+            "trigger": "On click",
+            "behavior": "Open overlay",
+            "revision_id": "FIGMA-STUDY-COURSES-STACK",
+            "implementation_status": "tested_home_sample_stack_only",
+            "prototype_run_ids": [
+              "PROTO-HOME-FEATURE-RETURN-001",
+              "PROTO-STUDY-COURSES-STACK-001"
+            ],
+            "configuration_evidence_ids": [
+              "E-HOME-SCROLL-PROTOTYPE-TRACE"
+            ],
+            "source_evidence_ids": [
+              "E-HOME-STUDY-MAP-TRACE"
+            ],
+            "deviation_ids": [
+              "D-HOME-SCROLL-EXTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-HOME-MODULE-RETURN"
+            ],
+            "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+            "configuration_history": [
+              {
+                "connection_id": "C-HOME-SCROLL-113-45",
+                "action_id": "A-HOME-EP010",
+                "source_node_id": "67:694",
+                "target_node_id": "67:271",
+                "trigger_node_id": "113:45",
+                "trigger_node_name": "FeatureMyCourses",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+                "implementation_status": "configured_copied_not_run",
+                "prototype_run_ids": [],
+                "configuration_evidence_ids": [
+                  "E-HOME-SCROLL-PROTOTYPE-TRACE"
+                ],
+                "source_evidence_ids": [
+                  "E-HOME-STUDY-MAP-TRACE"
+                ],
+                "deviation_ids": [
+                  "D-HOME-SCROLL-EXTENT",
+                  "D-HOME-SAMPLE-ENTRY"
+                ],
+                "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+              },
+              {
+                "connection_id": "C-HOME-SCROLL-113-45",
+                "action_id": "A-HOME-EP010",
+                "source_node_id": "67:694",
+                "target_node_id": "67:271",
+                "trigger_node_id": "113:45",
+                "trigger_node_name": "FeatureMyCourses",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+                "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+                "prototype_run_ids": [
+                  "PROTO-HOME-FEATURE-RETURN-001"
+                ],
+                "configuration_evidence_ids": [
+                  "E-HOME-SCROLL-PROTOTYPE-TRACE"
+                ],
+                "source_evidence_ids": [
+                  "E-HOME-STUDY-MAP-TRACE"
+                ],
+                "deviation_ids": [
+                  "D-HOME-SCROLL-EXTENT",
+                  "D-HOME-SAMPLE-ENTRY",
+                  "D-HOME-MODULE-RETURN"
+                ],
+                "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+                "prototype_evidence_ids": [
+                  "E-HOME-FEATURE-PROTOTYPE-TRACE"
+                ]
+              }
+            ],
+            "prototype_evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE",
+              "E-STUDY-STACK-PROTOTYPE-TRACE"
+            ],
+            "overlay_options": {
+              "position": "Centered",
+              "close_on_outside_click": false,
+              "background": false,
+              "animation": "Instant"
+            },
+            "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
           }
         ],
         "prototype_evidence_ids": [
-          "E-HOME-FEATURE-PROTOTYPE-TRACE",
-          "E-STUDY-STACK-PROTOTYPE-TRACE"
+          "E-ACCOUNT-LOADING-TRACE"
         ],
         "overlay_options": {
           "position": "Centered",
@@ -59025,35 +60887,44 @@
           "background": false,
           "animation": "Instant"
         },
-        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+        "configured_at": "2026-09-30T16:56:13.340Z",
+        "readback": [
+          "\t\t\t\t\t\t302 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t308 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t320 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+          "The focused UI element is 313 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+        ]
       },
       {
         "connection_id": "C-HOME-SCROLL-113-39",
         "action_id": "A-HOME-EP009",
         "source_node_id": "67:694",
-        "target_node_id": "67:2",
+        "target_node_id": "636:107",
         "trigger_node_id": "113:39",
         "trigger_node_name": "FeatureStudyProgress",
         "trigger": "On click",
         "behavior": "Open overlay",
-        "revision_id": "FIGMA-STUDY-COURSES-STACK",
-        "implementation_status": "tested_home_sample_stack_only",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
         "prototype_run_ids": [
-          "PROTO-HOME-FEATURE-RETURN-001",
-          "PROTO-STUDY-COURSES-STACK-001"
+          "PROTO-ACCOUNT-LOADING-TUESDAY-001"
         ],
         "configuration_evidence_ids": [
           "E-HOME-SCROLL-PROTOTYPE-TRACE"
         ],
         "source_evidence_ids": [
-          "E-HOME-STUDY-MAP-TRACE"
+          "E-STUDY-LOADING",
+          "E-STUDY-COMPLETED"
         ],
         "deviation_ids": [
           "D-HOME-SCROLL-EXTENT",
           "D-HOME-SAMPLE-ENTRY",
-          "D-HOME-MODULE-RETURN"
+          "D-HOME-MODULE-RETURN",
+          "D-ACCOUNT-LOADING-LIMITS"
         ],
-        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
         "configuration_history": [
           {
             "connection_id": "C-HOME-SCROLL-113-39",
@@ -59108,11 +60979,105 @@
             "prototype_evidence_ids": [
               "E-HOME-FEATURE-PROTOTYPE-TRACE"
             ]
+          },
+          {
+            "connection_id": "C-HOME-SCROLL-113-39",
+            "action_id": "A-HOME-EP009",
+            "source_node_id": "67:694",
+            "target_node_id": "67:2",
+            "trigger_node_id": "113:39",
+            "trigger_node_name": "FeatureStudyProgress",
+            "trigger": "On click",
+            "behavior": "Open overlay",
+            "revision_id": "FIGMA-STUDY-COURSES-STACK",
+            "implementation_status": "tested_home_sample_stack_only",
+            "prototype_run_ids": [
+              "PROTO-HOME-FEATURE-RETURN-001",
+              "PROTO-STUDY-COURSES-STACK-001"
+            ],
+            "configuration_evidence_ids": [
+              "E-HOME-SCROLL-PROTOTYPE-TRACE"
+            ],
+            "source_evidence_ids": [
+              "E-HOME-STUDY-MAP-TRACE"
+            ],
+            "deviation_ids": [
+              "D-HOME-SCROLL-EXTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-HOME-MODULE-RETURN"
+            ],
+            "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+            "configuration_history": [
+              {
+                "connection_id": "C-HOME-SCROLL-113-39",
+                "action_id": "A-HOME-EP009",
+                "source_node_id": "67:694",
+                "target_node_id": "67:2",
+                "trigger_node_id": "113:39",
+                "trigger_node_name": "FeatureStudyProgress",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+                "implementation_status": "configured_copied_not_run",
+                "prototype_run_ids": [],
+                "configuration_evidence_ids": [
+                  "E-HOME-SCROLL-PROTOTYPE-TRACE"
+                ],
+                "source_evidence_ids": [
+                  "E-HOME-STUDY-MAP-TRACE"
+                ],
+                "deviation_ids": [
+                  "D-HOME-SCROLL-EXTENT",
+                  "D-HOME-SAMPLE-ENTRY"
+                ],
+                "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+              },
+              {
+                "connection_id": "C-HOME-SCROLL-113-39",
+                "action_id": "A-HOME-EP009",
+                "source_node_id": "67:694",
+                "target_node_id": "67:2",
+                "trigger_node_id": "113:39",
+                "trigger_node_name": "FeatureStudyProgress",
+                "trigger": "On click",
+                "behavior": "Navigate to",
+                "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+                "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+                "prototype_run_ids": [
+                  "PROTO-HOME-FEATURE-RETURN-001"
+                ],
+                "configuration_evidence_ids": [
+                  "E-HOME-SCROLL-PROTOTYPE-TRACE"
+                ],
+                "source_evidence_ids": [
+                  "E-HOME-STUDY-MAP-TRACE"
+                ],
+                "deviation_ids": [
+                  "D-HOME-SCROLL-EXTENT",
+                  "D-HOME-SAMPLE-ENTRY",
+                  "D-HOME-MODULE-RETURN"
+                ],
+                "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+                "prototype_evidence_ids": [
+                  "E-HOME-FEATURE-PROTOTYPE-TRACE"
+                ]
+              }
+            ],
+            "prototype_evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE",
+              "E-STUDY-STACK-PROTOTYPE-TRACE"
+            ],
+            "overlay_options": {
+              "position": "Centered",
+              "close_on_outside_click": false,
+              "background": false,
+              "animation": "Instant"
+            },
+            "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
           }
         ],
         "prototype_evidence_ids": [
-          "E-HOME-FEATURE-PROTOTYPE-TRACE",
-          "E-STUDY-STACK-PROTOTYPE-TRACE"
+          "E-ACCOUNT-LOADING-TRACE"
         ],
         "overlay_options": {
           "position": "Centered",
@@ -59120,7 +61085,15 @@
           "background": false,
           "animation": "Instant"
         },
-        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+        "configured_at": "2026-09-30T16:55:48.128Z",
+        "readback": [
+          "\t\t\t\t\t\t453 combo box (collapsed) Trigger, Value: On click, ID: :r9h:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t459 combo box (collapsed) Action, Value: Open overlay, ID: :r9k:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t464 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r9o:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t471 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 464 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r9o:, Secondary Actions: Expand"
+        ]
       },
       {
         "connection_id": "C-HOME-SCROLL-113-31",
@@ -65028,6 +67001,141 @@
           "E-FOOD-MAP-LOADING",
           "E-FOOD-MAP-CLEAN"
         ]
+      },
+      {
+        "connection_id": "C-ACCOUNT-LOADING-636-107",
+        "action_id": null,
+        "source_node_id": "636:107",
+        "trigger_node_id": "636:107",
+        "target_node_id": "67:2",
+        "trigger": "After delay",
+        "behavior": "Swap overlay",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "configured_at": "2026-09-30T16:54:39.455Z",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+          "PROTO-ACCOUNT-LOADING-MONDAY-001",
+          "PROTO-ACCOUNT-LOADING-LEGACY-001"
+        ],
+        "source_evidence_ids": [
+          "E-STUDY-LOADING",
+          "E-STUDY-COMPLETED"
+        ],
+        "prototype_evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ],
+        "readback": [
+          "\t\t\t\t\t\t449 combo box (collapsed) Trigger, Value: After delay, ID: :rp2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t462 text field (settable) After delay timeout, Value: 800ms",
+          "\t\t\t\t\t\t\t455 combo box (collapsed) Action, Value: Swap overlay, ID: :rp5:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t466 combo box (collapsed) Destination, Value: [S-STUDY-COMPLETED] Completed — DEMO, ID: :rpl:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t471 combo box (collapsed) Animation, Value: Instant, ID: :rq2:, Secondary Actions: Expand",
+          "The focused UI element is 466 combo box (collapsed) Destination, Value: [S-STUDY-COMPLETED] Completed — DEMO, ID: :rpl:, Secondary Actions: Expand"
+        ],
+        "deviation_ids": [
+          "D-ACCOUNT-LOADING-LIMITS"
+        ],
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+        "delay_ms": 800,
+        "timing_policy": "Demo proxy; not measured native latency."
+      },
+      {
+        "connection_id": "C-ACCOUNT-LOADING-636-119",
+        "action_id": null,
+        "source_node_id": "636:119",
+        "trigger_node_id": "636:119",
+        "target_node_id": "67:271",
+        "trigger": "After delay",
+        "behavior": "Swap overlay",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "configured_at": "2026-09-30T16:54:46.344Z",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+          "PROTO-ACCOUNT-LOADING-COURSES-REENTRY-001",
+          "PROTO-ACCOUNT-LOADING-MONDAY-001",
+          "PROTO-ACCOUNT-LOADING-LEGACY-001"
+        ],
+        "source_evidence_ids": [
+          "E-COURSES-LOADING",
+          "E-COURSES-CANVAS"
+        ],
+        "prototype_evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ],
+        "readback": [
+          "\t\t\t\t\t\t460 combo box (collapsed) Trigger, Value: After delay, ID: :rq7:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t473 text field (settable) After delay timeout, Value: 800ms",
+          "\t\t\t\t\t\t\t466 combo box (collapsed) Action, Value: Swap overlay, ID: :rqa:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t477 combo box (collapsed) Destination, Value: [S-COURSES-CANVAS] Canvas — DEMO, ID: :rqq:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t482 combo box (collapsed) Animation, Value: Instant, ID: :rr7:, Secondary Actions: Expand",
+          "The focused UI element is 477 combo box (collapsed) Destination, Value: [S-COURSES-CANVAS] Canvas — DEMO, ID: :rqq:, Secondary Actions: Expand"
+        ],
+        "deviation_ids": [
+          "D-ACCOUNT-LOADING-LIMITS"
+        ],
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+        "delay_ms": 800,
+        "timing_policy": "Demo proxy; not measured native latency."
+      },
+      {
+        "configuration_history": [
+          {
+            "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+            "source_node_id": "636:75",
+            "trigger_node_id": "636:75",
+            "target_node_id": "67:513",
+            "behavior": "Navigate to",
+            "trigger": "After delay",
+            "configured_at": "2026-09-30T16:55:10.689Z",
+            "status": "superseded_during_current_batch",
+            "readback": [
+              "\t\t\t\t\t\t487 combo box (collapsed) Trigger, Value: After delay, ID: :rtb:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t\t500 text field (settable) After delay timeout, Value: 800ms",
+              "\t\t\t\t\t\t\t493 combo box (collapsed) Action, Value: Navigate to, ID: :rte:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t504 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rtu:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t509 combo box (collapsed) Animation, Value: Instant, ID: :rub:, Secondary Actions: Expand",
+              "The focused UI element is 504 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rtu:, Secondary Actions: Expand"
+            ]
+          }
+        ],
+        "connection_id": "C-ACCOUNT-LOADING-636-75",
+        "action_id": null,
+        "source_node_id": "636:75",
+        "trigger_node_id": "636:75",
+        "target_node_id": "67:513",
+        "trigger": "After delay",
+        "behavior": "Swap overlay",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "configured_at": "2026-09-30T17:02:58.269Z",
+        "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-QR-OVERLAY-FIRST-001",
+          "PROTO-QR-OVERLAY-SECOND-001"
+        ],
+        "source_evidence_ids": [
+          "E-QR-LOADING",
+          "E-QR-DISPLAY"
+        ],
+        "prototype_evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ],
+        "readback": [
+          "\t\t\t\t\t\t318 combo box (collapsed) Trigger, Value: After delay, ID: :rao:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t324 text field (settable) After delay timeout, Value: 800ms",
+          "\t\t\t\t\t\t\t327 combo box (collapsed) Action, Value: Swap overlay, ID: :rar:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t332 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rav:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t336 combo box (collapsed) Animation, Value: Instant, ID: :rb8:, Secondary Actions: Expand",
+          "The focused UI element is 327 combo box (collapsed) Action, Value: Swap overlay, ID: :rar:, Secondary Actions: Expand"
+        ],
+        "deviation_ids": [
+          "D-ACCOUNT-LOADING-LIMITS",
+          "D-QR-CALLER-IMAGE"
+        ],
+        "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+        "delay_ms": 800,
+        "timing_policy": "Demo proxy; not measured native latency."
       }
     ],
     "reconstruction_deviations": [
@@ -65689,6 +67797,21 @@
           "E-FIGMA-HOME-IMAGE-MISSING",
           "E-FIGMA-CALENDAR-WEEK-FIX-TRACE",
           "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "follow_ups": [
+          {
+            "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+            "summary": "Legacy QR return failure reproduced; same PNG first return fails, later capture recovers. Overlay implementation retains photo in two recorded circuits; native/renderer cause and broader stability unproven.",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-TRACE"
+            ],
+            "prototype_run_ids": [
+              "PROTO-ACCOUNT-LOADING-LEGACY-001",
+              "PROTO-QR-HOME-PNG-RECHECK-001",
+              "PROTO-QR-OVERLAY-FIRST-001",
+              "PROTO-QR-OVERLAY-SECOND-001"
+            ]
+          }
         ]
       },
       {
@@ -66867,6 +68990,40 @@
         "evidence_ids": [
           "E-FOOD-LOADING-SCREEN-24",
           "E-FOOD-MARK-TRACE"
+        ]
+      },
+      {
+        "id": "D-ACCOUNT-LOADING-LIMITS",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "status": "open",
+        "affected_state_ids": [
+          "S-STUDY-LOADING",
+          "S-COURSES-LOADING",
+          "S-QR-LOADING"
+        ],
+        "original_behavior": "Native three generic loading viewports precede settled account pages; native delay/early exit unmeasured.",
+        "current_implementation": "Three editable loading frames with captured static marks, 800ms Swap overlay progression and seven retargeted entries.",
+        "impact": "Approximate fonts/geometry, unverified early cancellation and unrelated page controls; demo body remains synthetic.",
+        "next_step": "Reobserve loading interaction boundaries and remaining account controls, then extend prototype fidelity and caller coverage.",
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
+        ]
+      },
+      {
+        "id": "D-QR-CALLER-IMAGE",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "status": "partially_resolved",
+        "affected_state_ids": [
+          "S-HOME",
+          "S-QR-LOADING",
+          "S-QR-DISPLAY"
+        ],
+        "original_behavior": "Existing Home→QR→Home sample returns to Home. Native renderer/page architecture unknown.",
+        "current_implementation": "Initial Navigate return loses Home photo in43/44. SamePNG reupload first return50 blank, later51 recovered. Open/Swap/Close overlays preserve Home photo in59/62.",
+        "impact": "Finite sample behavior improved; root cause, long-session stability, standalone QR and other callers remain open.",
+        "next_step": "Implement and verify remaining QR global navigation and caller contexts from native evidence; do not erase prior failures.",
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-TRACE"
         ]
       }
     ],
@@ -83159,6 +85316,700 @@
           "Two consecutive direct Tuesday samples only; hours/map/other callers not repeated after this one fill repair.",
           "Native direct source and early controls remain unverified."
         ]
+      },
+      {
+        "id": "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "start_node_id": "67:694",
+        "started_at": "2026-09-30T16:57:31.676Z",
+        "ended_at": "2026-09-30T16:58:02.887Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-694&starting-point-node-id=67%3A694&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Account loading · observed finite samples",
+        "status": "partial",
+        "navigation_status": "Two module loading progressions and Home returns observed; initial captures17/21 still Home.",
+        "visual_status": "Recorded marks/content/returns visible; approximate native fidelity and full scope unverified.",
+        "steps": [
+          {
+            "at": "2026-09-30T16:57:31.676Z",
+            "description": "Tuesday Home feature baseline after reload.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "action_id": null,
+            "visible_node_id": "67:694",
+            "outcome": "visible_sample_recorded",
+            "file": "16-tuesday-home-baseline.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-16"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:57:38.977Z",
+            "description": "Immediate capture still shows Home before loading became visible; retained sampling outcome.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "action_id": null,
+            "visible_node_id": "67:694",
+            "outcome": "visible_sample_recorded",
+            "file": "17-tuesday-study-entry-before-render.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-17"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:57:39.251Z",
+            "description": "First post-click observation is still loading with mark visible, not settled Completed.",
+            "state_id": "S-STUDY-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:107",
+            "outcome": "visible_sample_recorded",
+            "file": "18-tuesday-study-loading-observed.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-18"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:57:46.100Z",
+            "description": "Later observation after demo timer.",
+            "state_id": "S-STUDY-COMPLETED",
+            "action_id": null,
+            "visible_node_id": "67:2",
+            "outcome": "visible_sample_recorded",
+            "file": "19-tuesday-study-settled.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-19"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:57:55.140Z",
+            "description": "Study Back returns Tuesday Home features.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "action_id": null,
+            "visible_node_id": "67:694",
+            "outcome": "visible_sample_recorded",
+            "file": "20-tuesday-study-home-return.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-20"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:57:55.243Z",
+            "description": "Immediate capture still shows Home before Courses loading became visible; retained sampling outcome.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "action_id": null,
+            "visible_node_id": "67:694",
+            "outcome": "visible_sample_recorded",
+            "file": "21-tuesday-courses-entry-before-render.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-21"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:58:02.607Z",
+            "description": "Canvas DEMO after loading timer.",
+            "state_id": "S-COURSES-CANVAS",
+            "action_id": null,
+            "visible_node_id": "67:271",
+            "outcome": "visible_sample_recorded",
+            "file": "22-tuesday-courses-settled.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-22"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:58:02.887Z",
+            "description": "Courses Back returns same Tuesday Home features.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "action_id": null,
+            "visible_node_id": "67:694",
+            "outcome": "visible_sample_recorded",
+            "file": "23-tuesday-courses-home-return.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-23"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-SCREEN-16",
+          "E-ACCOUNT-LOADING-SCREEN-17",
+          "E-ACCOUNT-LOADING-SCREEN-18",
+          "E-ACCOUNT-LOADING-SCREEN-19",
+          "E-ACCOUNT-LOADING-SCREEN-20",
+          "E-ACCOUNT-LOADING-SCREEN-21",
+          "E-ACCOUNT-LOADING-SCREEN-22",
+          "E-ACCOUNT-LOADING-SCREEN-23"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-account-loading-wired/manifest.json",
+        "limitations": [
+          "800ms is a demonstration parameter, not measured native latency.",
+          "Overlay architecture is a Figma implementation; native implementation unknown.",
+          "DEMO private body and non-scannable QR; no real personal contents.",
+          "Early loading cancel/Back, other callers and complete visual fidelity unverified."
+        ]
+      },
+      {
+        "id": "PROTO-ACCOUNT-LOADING-COURSES-REENTRY-001",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "start_node_id": "67:694",
+        "started_at": "2026-09-30T16:58:28.643Z",
+        "ended_at": "2026-09-30T16:58:40.285Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-694&starting-point-node-id=67%3A694&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Account loading · observed finite samples",
+        "status": "partial",
+        "navigation_status": "Courses reentry includes saved loading mark, settled Canvas and same Home return.",
+        "visual_status": "Recorded marks/content/returns visible; approximate native fidelity and full scope unverified.",
+        "steps": [
+          {
+            "at": "2026-09-30T16:58:28.643Z",
+            "description": "Post-click observation on Courses reentry, verify saved state.",
+            "state_id": "S-COURSES-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:119",
+            "outcome": "visible_sample_recorded",
+            "file": "24-tuesday-courses-loading-reentry.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-24"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:58:39.985Z",
+            "description": "Canvas DEMO on second entry.",
+            "state_id": "S-COURSES-CANVAS",
+            "action_id": null,
+            "visible_node_id": "67:271",
+            "outcome": "visible_sample_recorded",
+            "file": "25-tuesday-courses-settled-reentry.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-25"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:58:40.285Z",
+            "description": "Second Courses Back restores Tuesday feature position.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "action_id": null,
+            "visible_node_id": "67:694",
+            "outcome": "visible_sample_recorded",
+            "file": "26-tuesday-courses-return-reentry.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-26"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-SCREEN-24",
+          "E-ACCOUNT-LOADING-SCREEN-25",
+          "E-ACCOUNT-LOADING-SCREEN-26"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-account-loading-wired/manifest.json",
+        "limitations": [
+          "800ms is a demonstration parameter, not measured native latency.",
+          "Overlay architecture is a Figma implementation; native implementation unknown.",
+          "DEMO private body and non-scannable QR; no real personal contents.",
+          "Early loading cancel/Back, other callers and complete visual fidelity unverified."
+        ]
+      },
+      {
+        "id": "PROTO-ACCOUNT-LOADING-MONDAY-001",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "start_node_id": "67:569",
+        "started_at": "2026-09-30T16:58:59.510Z",
+        "ended_at": "2026-09-30T16:59:18.795Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Account loading · observed finite samples",
+        "status": "partial",
+        "navigation_status": "Study and Courses loading/settled/Back preserve Monday feature viewport.",
+        "visual_status": "Recorded marks/content/returns visible; approximate native fidelity and full scope unverified.",
+        "steps": [
+          {
+            "at": "2026-09-30T16:58:59.510Z",
+            "description": "Monday Home feature baseline.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "action_id": null,
+            "visible_node_id": "67:569",
+            "outcome": "visible_sample_recorded",
+            "file": "27-monday-home-baseline.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-27"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:58:59.819Z",
+            "description": "Monday Study loading after entry.",
+            "state_id": "S-STUDY-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:107",
+            "outcome": "visible_sample_recorded",
+            "file": "28-monday-study-loading.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-28"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:08.460Z",
+            "description": "Completed DEMO from Monday Home.",
+            "state_id": "S-STUDY-COMPLETED",
+            "action_id": null,
+            "visible_node_id": "67:2",
+            "outcome": "visible_sample_recorded",
+            "file": "29-monday-study-settled.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-29"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:08.770Z",
+            "description": "Study Back preserves Monday Home feature position.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "action_id": null,
+            "visible_node_id": "67:569",
+            "outcome": "visible_sample_recorded",
+            "file": "30-monday-study-home-return.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-30"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:09.010Z",
+            "description": "Courses loading from Monday Home, saved post-click.",
+            "state_id": "S-COURSES-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:119",
+            "outcome": "visible_sample_recorded",
+            "file": "31-monday-courses-loading.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-31"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:18.520Z",
+            "description": "Canvas DEMO after Monday loading.",
+            "state_id": "S-COURSES-CANVAS",
+            "action_id": null,
+            "visible_node_id": "67:271",
+            "outcome": "visible_sample_recorded",
+            "file": "32-monday-courses-settled.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-32"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:18.795Z",
+            "description": "Courses Back preserves Monday Home feature position.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "action_id": null,
+            "visible_node_id": "67:569",
+            "outcome": "visible_sample_recorded",
+            "file": "33-monday-courses-home-return.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-33"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-SCREEN-27",
+          "E-ACCOUNT-LOADING-SCREEN-28",
+          "E-ACCOUNT-LOADING-SCREEN-29",
+          "E-ACCOUNT-LOADING-SCREEN-30",
+          "E-ACCOUNT-LOADING-SCREEN-31",
+          "E-ACCOUNT-LOADING-SCREEN-32",
+          "E-ACCOUNT-LOADING-SCREEN-33"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-account-loading-wired/manifest.json",
+        "limitations": [
+          "800ms is a demonstration parameter, not measured native latency.",
+          "Overlay architecture is a Figma implementation; native implementation unknown.",
+          "DEMO private body and non-scannable QR; no real personal contents.",
+          "Early loading cancel/Back, other callers and complete visual fidelity unverified."
+        ]
+      },
+      {
+        "id": "PROTO-ACCOUNT-LOADING-LEGACY-001",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "start_node_id": "67:820",
+        "started_at": "2026-09-30T16:59:30.332Z",
+        "ended_at": "2026-09-30T17:00:19.951Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Account loading · observed finite samples",
+        "status": "failed",
+        "navigation_status": "Study/Courses navigation samples pass; QR Navigate Home returns lose photo in43/44.",
+        "visual_status": "Failed Home photo captures retained.",
+        "steps": [
+          {
+            "at": "2026-09-30T16:59:30.332Z",
+            "description": "Legacy static Home feature baseline.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "34-legacy-home-baseline.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-34"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:39.232Z",
+            "description": "Study loading from legacy Home.",
+            "state_id": "S-STUDY-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:107",
+            "outcome": "visible_sample_recorded",
+            "file": "35-legacy-study-loading.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-35"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:49.481Z",
+            "description": "Completed DEMO from legacy Home.",
+            "state_id": "S-STUDY-COMPLETED",
+            "action_id": null,
+            "visible_node_id": "67:2",
+            "outcome": "visible_sample_recorded",
+            "file": "36-legacy-study-settled.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-36"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:49.804Z",
+            "description": "Study Back to legacy Home.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "37-legacy-study-home-return.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-37"
+            ]
+          },
+          {
+            "at": "2026-09-30T16:59:50.080Z",
+            "description": "Courses loading from legacy Home.",
+            "state_id": "S-COURSES-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:119",
+            "outcome": "visible_sample_recorded",
+            "file": "38-legacy-courses-loading.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-38"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:00:01.750Z",
+            "description": "Canvas DEMO from legacy Home.",
+            "state_id": "S-COURSES-CANVAS",
+            "action_id": null,
+            "visible_node_id": "67:271",
+            "outcome": "visible_sample_recorded",
+            "file": "39-legacy-courses-settled.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-39"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:00:02.039Z",
+            "description": "Courses Back to legacy Home.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "40-legacy-courses-home-return.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-40"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:00:02.240Z",
+            "description": "QR loading after bottom global entry.",
+            "state_id": "S-QR-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:75",
+            "outcome": "visible_sample_recorded",
+            "file": "41-legacy-qr-loading.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-41"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:00:10.542Z",
+            "description": "Non-scannable QR DEMO after loading timer.",
+            "state_id": "S-QR-DISPLAY",
+            "action_id": null,
+            "visible_node_id": "67:513",
+            "outcome": "visible_sample_recorded",
+            "file": "42-legacy-qr-settled.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-42"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:00:10.761Z",
+            "description": "Existing QR Home navigation returns legacy Home.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "43-legacy-qr-home-return.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-43"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:00:19.951Z",
+            "description": "Later Home observation after QR return; verify decorative photo persistence.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "44-legacy-qr-home-later.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-44"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-SCREEN-34",
+          "E-ACCOUNT-LOADING-SCREEN-35",
+          "E-ACCOUNT-LOADING-SCREEN-36",
+          "E-ACCOUNT-LOADING-SCREEN-37",
+          "E-ACCOUNT-LOADING-SCREEN-38",
+          "E-ACCOUNT-LOADING-SCREEN-39",
+          "E-ACCOUNT-LOADING-SCREEN-40",
+          "E-ACCOUNT-LOADING-SCREEN-41",
+          "E-ACCOUNT-LOADING-SCREEN-42",
+          "E-ACCOUNT-LOADING-SCREEN-43",
+          "E-ACCOUNT-LOADING-SCREEN-44"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-account-loading-wired/manifest.json",
+        "limitations": [
+          "800ms is a demonstration parameter, not measured native latency.",
+          "Overlay architecture is a Figma implementation; native implementation unknown.",
+          "DEMO private body and non-scannable QR; no real personal contents.",
+          "Early loading cancel/Back, other callers and complete visual fidelity unverified."
+        ]
+      },
+      {
+        "id": "PROTO-QR-HOME-PNG-RECHECK-001",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "start_node_id": "67:820",
+        "started_at": "2026-09-30T17:01:49.665Z",
+        "ended_at": "2026-09-30T17:02:26.234Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Account loading · observed finite samples",
+        "status": "failed",
+        "navigation_status": "Same PNG reupload does not keep first QR Home capture50 photo; later51 saved photo recovered without further repair.",
+        "visual_status": "Failed Home photo captures retained.",
+        "steps": [
+          {
+            "at": "2026-09-30T17:01:49.665Z",
+            "description": "Home baseline after same PNG reupload and Present reload.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "47-legacy-home-repair-baseline.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-47"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:01:49.962Z",
+            "description": "First QR loading after Home image repair.",
+            "state_id": "S-QR-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:75",
+            "outcome": "visible_sample_recorded",
+            "file": "48-qr-recheck-loading-first.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-48"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:01:59.130Z",
+            "description": "First QR settled DEMO after image repair.",
+            "state_id": "S-QR-DISPLAY",
+            "action_id": null,
+            "visible_node_id": "67:513",
+            "outcome": "visible_sample_recorded",
+            "file": "49-qr-recheck-settled-first.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-49"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:01:59.394Z",
+            "description": "First QR Home after image repair.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "50-qr-recheck-home-first.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-50"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:02:26.234Z",
+            "description": "Later saved post-reupload Home screenshot has recovered photo; immediate50 was blank. No further repair before this recovery.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "51-qr-recheck-home-later.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-51"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-SCREEN-47",
+          "E-ACCOUNT-LOADING-SCREEN-48",
+          "E-ACCOUNT-LOADING-SCREEN-49",
+          "E-ACCOUNT-LOADING-SCREEN-50",
+          "E-ACCOUNT-LOADING-SCREEN-51"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-account-loading-wired/manifest.json",
+        "limitations": [
+          "800ms is a demonstration parameter, not measured native latency.",
+          "Overlay architecture is a Figma implementation; native implementation unknown.",
+          "DEMO private body and non-scannable QR; no real personal contents.",
+          "Early loading cancel/Back, other callers and complete visual fidelity unverified."
+        ]
+      },
+      {
+        "id": "PROTO-QR-OVERLAY-FIRST-001",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "start_node_id": "67:820",
+        "started_at": "2026-09-30T17:03:36.921Z",
+        "ended_at": "2026-09-30T17:03:46.523Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Account loading · observed finite samples",
+        "status": "partial",
+        "navigation_status": "QR Open/Swap/Close overlay sample restores Home photo.",
+        "visual_status": "Recorded marks/content/returns visible; approximate native fidelity and full scope unverified.",
+        "steps": [
+          {
+            "at": "2026-09-30T17:03:36.921Z",
+            "description": "Fresh Home baseline for QR overlay implementation.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "56-qr-stack-home-baseline.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-56"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:03:37.214Z",
+            "description": "First QR loading on overlay implementation.",
+            "state_id": "S-QR-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:75",
+            "outcome": "visible_sample_recorded",
+            "file": "57-qr-stack-loading-first.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-57"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:03:46.215Z",
+            "description": "First QR settled under overlay implementation.",
+            "state_id": "S-QR-DISPLAY",
+            "action_id": null,
+            "visible_node_id": "67:513",
+            "outcome": "visible_sample_recorded",
+            "file": "58-qr-stack-settled-first.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-58"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:03:46.523Z",
+            "description": "First QR Close overlay Home return.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "59-qr-stack-home-first.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-59"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-SCREEN-56",
+          "E-ACCOUNT-LOADING-SCREEN-57",
+          "E-ACCOUNT-LOADING-SCREEN-58",
+          "E-ACCOUNT-LOADING-SCREEN-59"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-account-loading-wired/manifest.json",
+        "limitations": [
+          "800ms is a demonstration parameter, not measured native latency.",
+          "Overlay architecture is a Figma implementation; native implementation unknown.",
+          "DEMO private body and non-scannable QR; no real personal contents.",
+          "Early loading cancel/Back, other callers and complete visual fidelity unverified."
+        ]
+      },
+      {
+        "id": "PROTO-QR-OVERLAY-SECOND-001",
+        "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "start_node_id": "67:820",
+        "started_at": "2026-09-30T17:03:53.967Z",
+        "ended_at": "2026-09-30T17:04:02.349Z",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed",
+        "flow_name": "Account loading · observed finite samples",
+        "status": "partial",
+        "navigation_status": "Second consecutive overlay QR circuit restores Home photo.",
+        "visual_status": "Recorded marks/content/returns visible; approximate native fidelity and full scope unverified.",
+        "steps": [
+          {
+            "at": "2026-09-30T17:03:53.967Z",
+            "description": "Second consecutive QR loading with overlay implementation.",
+            "state_id": "S-QR-LOADING",
+            "action_id": null,
+            "visible_node_id": "636:75",
+            "outcome": "visible_sample_recorded",
+            "file": "60-qr-stack-loading-second.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-60"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:04:02.070Z",
+            "description": "Second consecutive QR settled DEMO.",
+            "state_id": "S-QR-DISPLAY",
+            "action_id": null,
+            "visible_node_id": "67:513",
+            "outcome": "visible_sample_recorded",
+            "file": "61-qr-stack-settled-second.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-61"
+            ]
+          },
+          {
+            "at": "2026-09-30T17:04:02.349Z",
+            "description": "Second QR Close overlay returns Home with public photo.",
+            "state_id": "S-HOME",
+            "action_id": null,
+            "visible_node_id": "67:820",
+            "outcome": "visible_sample_recorded",
+            "file": "62-qr-stack-home-second.png",
+            "evidence_ids": [
+              "E-ACCOUNT-LOADING-SCREEN-62"
+            ]
+          }
+        ],
+        "evidence_ids": [
+          "E-ACCOUNT-LOADING-SCREEN-60",
+          "E-ACCOUNT-LOADING-SCREEN-61",
+          "E-ACCOUNT-LOADING-SCREEN-62"
+        ],
+        "pixel_comparison_manifest": "../../evidence/2026-10-01-account-loading-wired/manifest.json",
+        "limitations": [
+          "800ms is a demonstration parameter, not measured native latency.",
+          "Overlay architecture is a Figma implementation; native implementation unknown.",
+          "DEMO private body and non-scannable QR; no real personal contents.",
+          "Early loading cancel/Back, other callers and complete visual fidelity unverified."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -83238,7 +86089,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "134 mapped frames / 3 internal component states / 305 configured controls / 16 scroll regions / 75 prototype runs. Two Food loading states integrated; direct reentry missing mark preserved and same PNG repair sampled twice. Full scope/fidelity not_verified.",
+    "verification_summary": "137 mapped frames / 3 internal component states / 308 configured controls / 16 scroll regions / 82 prototype runs. Study/Courses/QR observed generic loading integrated; caller returns sampled, QR Navigate photo failures preserved, overlay sample improves. Complete application and visual fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -83702,7 +86553,8 @@
       "assistant_transients": "three_imports_two_replaced_three_new_controls_main_and_isolated_blank_samples_full_scope_open",
       "terms_loading": "observed_loading_imported_overlay_stack_repair_two_callers_sampled_full_scope_open",
       "food_loading": "two_observed_loading_frames_imported_two_delays_three_entries_replaced_hours_direct_samples_full_scope_open",
-      "food_loading_mark": "same_png_reupload_two_consecutive_direct_samples_mark_visible_broader_stability_open"
+      "food_loading_mark": "same_png_reupload_two_consecutive_direct_samples_mark_visible_broader_stability_open",
+      "account_loading": "three_loading_roots_three_timers_seven_entries_qr_exit_recorded_finite_home_samples_qr_visual_failures_retained"
     },
     "additional_imports": [
       {
@@ -84779,15 +87631,35 @@
         "scope": "Ten main historical dated contexts with continuous horizontal bars and Today vertical list; two route samples. Complete date/filter/caller/full App scope pending."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-09-30T16:40:36.920Z",
+    "latest_prototype_run_cutoff": "2026-09-30T17:04:02.349Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-FOOD-MARK-SCREEN-01",
-      "E-FOOD-MARK-SCREEN-02"
+      "E-ACCOUNT-LOADING-SCREEN-01",
+      "E-ACCOUNT-LOADING-SCREEN-02",
+      "E-ACCOUNT-LOADING-SCREEN-03",
+      "E-ACCOUNT-LOADING-SCREEN-04",
+      "E-ACCOUNT-LOADING-SCREEN-05",
+      "E-ACCOUNT-LOADING-SCREEN-06",
+      "E-ACCOUNT-LOADING-SCREEN-07",
+      "E-ACCOUNT-LOADING-SCREEN-08",
+      "E-ACCOUNT-LOADING-SCREEN-09",
+      "E-ACCOUNT-LOADING-SCREEN-10",
+      "E-ACCOUNT-LOADING-SCREEN-11",
+      "E-ACCOUNT-LOADING-SCREEN-12",
+      "E-ACCOUNT-LOADING-SCREEN-13",
+      "E-ACCOUNT-LOADING-SCREEN-14",
+      "E-ACCOUNT-LOADING-SCREEN-15",
+      "E-ACCOUNT-LOADING-SCREEN-45",
+      "E-ACCOUNT-LOADING-SCREEN-46",
+      "E-ACCOUNT-LOADING-SCREEN-52",
+      "E-ACCOUNT-LOADING-SCREEN-53",
+      "E-ACCOUNT-LOADING-SCREEN-54",
+      "E-ACCOUNT-LOADING-SCREEN-55",
+      "E-ACCOUNT-LOADING-SCREEN-63"
     ],
-    "latest_editor_verified_at": "2026-09-30T16:39:54.001Z",
+    "latest_editor_verified_at": "2026-09-30T17:05:23.612Z",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
@@ -86288,6 +89160,588 @@
             "background": false,
             "animation": "Instant"
           }
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T16:55:48.128Z",
+        "superseded_by_revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "reason": "Observed loading now precedes settled state; QR caller implementation repaired after preserved image failures.",
+        "mapping": {
+          "connection_id": "C-HOME-SCROLL-113-39",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:694",
+          "target_node_id": "67:2",
+          "trigger_node_id": "113:39",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-SCROLL-113-39",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:694",
+              "target_node_id": "67:2",
+              "trigger_node_id": "113:39",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "configured_copied_not_run",
+              "prototype_run_ids": [],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+            },
+            {
+              "connection_id": "C-HOME-SCROLL-113-39",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:694",
+              "target_node_id": "67:2",
+              "trigger_node_id": "113:39",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+              "prototype_run_ids": [
+                "PROTO-HOME-FEATURE-RETURN-001"
+              ],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-HOME-MODULE-RETURN"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+              "prototype_evidence_ids": [
+                "E-HOME-FEATURE-PROTOTYPE-TRACE"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE",
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T16:56:13.340Z",
+        "superseded_by_revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "reason": "Observed loading now precedes settled state; QR caller implementation repaired after preserved image failures.",
+        "mapping": {
+          "connection_id": "C-HOME-SCROLL-113-45",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:694",
+          "target_node_id": "67:271",
+          "trigger_node_id": "113:45",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-SCROLL-113-45",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:694",
+              "target_node_id": "67:271",
+              "trigger_node_id": "113:45",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "configured_copied_not_run",
+              "prototype_run_ids": [],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+            },
+            {
+              "connection_id": "C-HOME-SCROLL-113-45",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:694",
+              "target_node_id": "67:271",
+              "trigger_node_id": "113:45",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+              "prototype_run_ids": [
+                "PROTO-HOME-FEATURE-RETURN-001"
+              ],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-HOME-MODULE-RETURN"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+              "prototype_evidence_ids": [
+                "E-HOME-FEATURE-PROTOTYPE-TRACE"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE",
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T16:56:21.265Z",
+        "superseded_by_revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "reason": "Observed loading now precedes settled state; QR caller implementation repaired after preserved image failures.",
+        "mapping": {
+          "connection_id": "C-HOME-SCROLL-113-84",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:569",
+          "target_node_id": "67:2",
+          "trigger_node_id": "113:84",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-SCROLL-113-84",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:569",
+              "target_node_id": "67:2",
+              "trigger_node_id": "113:84",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "configured_copied_not_run",
+              "prototype_run_ids": [],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+            },
+            {
+              "connection_id": "C-HOME-SCROLL-113-84",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:569",
+              "target_node_id": "67:2",
+              "trigger_node_id": "113:84",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+              "prototype_run_ids": [
+                "PROTO-HOME-FEATURE-RETURN-001"
+              ],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-HOME-MODULE-RETURN"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+              "prototype_evidence_ids": [
+                "E-HOME-FEATURE-PROTOTYPE-TRACE"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE",
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T16:56:35.809Z",
+        "superseded_by_revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "reason": "Observed loading now precedes settled state; QR caller implementation repaired after preserved image failures.",
+        "mapping": {
+          "connection_id": "C-HOME-SCROLL-113-90",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:569",
+          "target_node_id": "67:271",
+          "trigger_node_id": "113:90",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-SCROLL-113-90",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:569",
+              "target_node_id": "67:271",
+              "trigger_node_id": "113:90",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "configured_copied_not_run",
+              "prototype_run_ids": [],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+            },
+            {
+              "connection_id": "C-HOME-SCROLL-113-90",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:569",
+              "target_node_id": "67:271",
+              "trigger_node_id": "113:90",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+              "prototype_run_ids": [
+                "PROTO-HOME-FEATURE-RETURN-001"
+              ],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-HOME-MODULE-RETURN"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+              "prototype_evidence_ids": [
+                "E-HOME-FEATURE-PROTOTYPE-TRACE"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE",
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T16:56:42.988Z",
+        "superseded_by_revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "reason": "Observed loading now precedes settled state; QR caller implementation repaired after preserved image failures.",
+        "mapping": {
+          "connection_id": "C-HOME-STUDY",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:820",
+          "target_node_id": "67:2",
+          "trigger_node_id": "67:898",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "configured_at": "2026-09-28T18:20:53.103Z",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-STUDY",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:820",
+              "target_node_id": "67:2",
+              "trigger_node_id": "67:898",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-STUDY-V2",
+              "configured_at": "2026-09-28T18:20:53.103Z",
+              "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+              "prototype_run_ids": [
+                "PROTO-HOME-STUDY-V2-001"
+              ],
+              "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+              "deviation_ids": [
+                "D-STUDY-DEMO-CONTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-STUDY-STATIC-INPUT"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T16:56:58.520Z",
+        "superseded_by_revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "reason": "Observed loading now precedes settled state; QR caller implementation repaired after preserved image failures.",
+        "mapping": {
+          "connection_id": "C-HOME-COURSES",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:820",
+          "target_node_id": "67:271",
+          "trigger_node_id": "67:904",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "configured_at": "2026-09-28T18:20:53.103Z",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001",
+            "PROTO-STUDY-CJK-RECHECK",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-COURSES",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:820",
+              "target_node_id": "67:271",
+              "trigger_node_id": "67:904",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-STUDY-V2",
+              "configured_at": "2026-09-28T18:20:53.103Z",
+              "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+              "prototype_run_ids": [
+                "PROTO-HOME-STUDY-V2-001",
+                "PROTO-STUDY-CJK-RECHECK"
+              ],
+              "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+              "deviation_ids": [
+                "D-STUDY-DEMO-CONTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-STUDY-STATIC-INPUT"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T17:02:55.918Z",
+        "superseded_by_revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "reason": "Observed loading now precedes settled state; QR caller implementation repaired after preserved image failures.",
+        "mapping": {
+          "connection_id": "C-HOME-QR",
+          "action_id": "A-HOME-EP011",
+          "source_node_id": "67:820",
+          "target_node_id": "67:513",
+          "trigger_node_id": "67:938",
+          "trigger_node_name": "NavQR",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-STUDY-V2",
+          "configured_at": "2026-09-28T18:25:43.945Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001"
+          ],
+          "source_fidelity": "Skips native loading and uses explicitly non-scannable QR placeholder.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        }
+      },
+      {
+        "superseded_at": "2026-09-30T17:03:25.136Z",
+        "superseded_by_revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+        "reason": "Observed loading now precedes settled state; QR caller implementation repaired after preserved image failures.",
+        "mapping": {
+          "connection_id": "C-QR-HOME",
+          "action_id": "A-QR-HOME",
+          "source_node_id": "67:513",
+          "target_node_id": "67:820",
+          "trigger_node_id": "67:551",
+          "trigger_node_name": "NavHome",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-STUDY-V2",
+          "configured_at": "2026-09-28T18:24:28.036Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001"
+          ],
+          "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
         }
       }
     ],

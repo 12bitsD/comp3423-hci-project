@@ -1,5 +1,7 @@
 # Figma 复现与证据对应约定
 
+最新[Study/Courses/QR加载回放](account-loading-prototype-walkthrough.md)补3画板、3延时控件并替换7入口和QR返回；三种Home来源有限样例、QR缺图/重传/覆盖层复验已保存。当前137画板、308控件、82次运行，全应用 `not_verified`。以下旧批次统计为历史快照。
+
 最新[Food加载校徽重传](food-loading-mark-repair-walkthrough.md)保留直接重入缺图并完成相同PNG重传，两次连续直接路径有图。当前134画板、305控件、75次原型运行，全应用 `not_verified`。下方批次数值为历史快照。
 
 最新[Food加载态接入](food-loading-prototype-walkthrough.md)补2画板、新增2延时控件、替换3入口；展开营业时间/原型直接列表与嵌套地图返回已保存。当前134画板、305控件、73次原型运行，全应用 `not_verified`。下方批次数字为历史快照。
