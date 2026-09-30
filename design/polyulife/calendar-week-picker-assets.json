@@ -1,0 +1,30 @@
+[
+  {
+    "variant": "picker",
+    "source_evidence_id": "E-CALENDAR-WEEK-PICKER-HEADER",
+    "source_path": "evidence/2026-09-28-full-audit/calendar-174230-week-selector-only.png",
+    "source_sha256": "90bd8bb549e571c82bd135e66e2db1cfbc7b1d75143d3c0fbfd0bbe02a416828",
+    "source_crop_size": [
+      576,
+      384
+    ],
+    "output": "calendar-week-picker-demo.svg",
+    "output_sha256": "2a75cc2bb0143b96e24cc9360f5768c0f51c4a4315641ec7c3f3f4c555a86c29",
+    "private_content": "No private course pixels/text; lower body wholly synthetic DEMO.",
+    "limits": "Observed header/wheel/day strip only; fonts/icons approximate; pointer omitted."
+  },
+  {
+    "variant": "wheel-scrolled",
+    "source_evidence_id": "E-CALENDAR-WEEK-WHEEL-SCROLLED",
+    "source_path": "evidence/2026-09-28-full-audit/calendar-174300-selector-thirteen-header-five-only.png",
+    "source_sha256": "fff74c7f908b4b0dc292826f451d47834b7ae7cc99621bc741e2a1fb52b4a5af",
+    "source_crop_size": [
+      576,
+      384
+    ],
+    "output": "calendar-week-wheel-scrolled-demo.svg",
+    "output_sha256": "cfa1854389bd56212d85c2f833321bc24d40b063be51049e83b77737cf40dac1",
+    "private_content": "No private course pixels/text; lower body wholly synthetic DEMO.",
+    "limits": "Observed header/wheel/day strip only; fonts/icons approximate; pointer omitted."
+  }
+]
