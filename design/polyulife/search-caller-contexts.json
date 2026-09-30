@@ -1,0 +1,139 @@
+{
+  "revision_id": "FIGMA-SEARCH-CALLERS-20260930",
+  "contexts": [
+    {
+      "label": "more-empty",
+      "name": "[SEARCH-MORE-EMPTY] Search — more-empty",
+      "state_id": "S-MORE-SEARCH-EMPTY",
+      "context_variant": "more-empty-caller-overlay",
+      "source_file": "search-context-more-empty.svg",
+      "source_sha256": "dc217b1a10a7700be7734748588f0105483d6de7388e19872d190f3320a0ad36",
+      "base_design_file": "search-empty.svg",
+      "native_source_evidence_ids": [
+        "E-MORE-SEARCH-EMPTY"
+      ],
+      "native_screenshot_sha256": "303fe9633ef5faebe9e71124e98f26a7d57ffac3e5cfb2f439af9909211fdc4c",
+      "position": [
+        0,
+        47000
+      ],
+      "dimensions": [
+        576,
+        970
+      ],
+      "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
+      "status": "imported_configuration_partial_replay_pending",
+      "node_id": "527:19",
+      "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-19"
+    },
+    {
+      "label": "more-weather",
+      "name": "[SEARCH-MORE-WEATHER] Search — more-weather",
+      "state_id": "S-MORE-SEARCH-WEATHER",
+      "context_variant": "more-weather-caller-overlay",
+      "source_file": "search-context-more-weather.svg",
+      "source_sha256": "b864e5fa57a8e989a0701ed0db593205f56196d38559b468fe7b0a45baa87ead",
+      "base_design_file": "search-weather-no-results.svg",
+      "native_source_evidence_ids": [
+        "E-MORE-SEARCH-WEATHER"
+      ],
+      "native_screenshot_sha256": "0ff9c78edcb041583672cc359c4fa485cf370d3f04a1afb7a3b359b110c7f052",
+      "position": [
+        700,
+        47000
+      ],
+      "dimensions": [
+        576,
+        970
+      ],
+      "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
+      "status": "imported_configuration_partial_replay_pending",
+      "node_id": "527:34",
+      "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-34"
+    },
+    {
+      "label": "more-room",
+      "name": "[SEARCH-MORE-ROOM] Search — more-room",
+      "state_id": "S-MORE-SEARCH-ROOM",
+      "context_variant": "more-room-caller-overlay",
+      "source_file": "search-context-more-room.svg",
+      "source_sha256": "9394c3112ba84e775deb98426711a899a1478e0e2744b3feb77c0a5360bb1b78",
+      "base_design_file": "search-room-no-results.svg",
+      "native_source_evidence_ids": [
+        "E-MORE-SEARCH-ROOM"
+      ],
+      "native_screenshot_sha256": "06ca4283b57a97c4905b73ac68cf88ee086a52888689a936c59e30a50c58ab85",
+      "position": [
+        1400,
+        47000
+      ],
+      "dimensions": [
+        576,
+        970
+      ],
+      "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
+      "status": "imported_configuration_partial_replay_pending",
+      "node_id": "527:65",
+      "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-65"
+    },
+    {
+      "label": "notification-empty",
+      "name": "[SEARCH-NOTIFICATION-EMPTY] Search — notification-empty",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "context_variant": "notification-empty-caller-overlay",
+      "source_file": "search-context-notification-empty.svg",
+      "source_sha256": "dc217b1a10a7700be7734748588f0105483d6de7388e19872d190f3320a0ad36",
+      "base_design_file": "search-empty.svg",
+      "native_source_evidence_ids": [
+        "E-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "native_screenshot_sha256": "062b205046c9b583cd847315f9009999ced7d963e5b1c5a9ec672a55c75c23fe",
+      "position": [
+        2100,
+        47000
+      ],
+      "dimensions": [
+        576,
+        970
+      ],
+      "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
+      "status": "imported_configuration_partial_replay_pending",
+      "node_id": "527:96",
+      "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-96"
+    },
+    {
+      "label": "notification-weather",
+      "name": "[SEARCH-NOTIFICATION-WEATHER] Search — notification-weather",
+      "state_id": "S-NOTIFICATION-SEARCH-NONE",
+      "context_variant": "notification-weather-caller-overlay",
+      "source_file": "search-context-notification-weather.svg",
+      "source_sha256": "b864e5fa57a8e989a0701ed0db593205f56196d38559b468fe7b0a45baa87ead",
+      "base_design_file": "search-weather-no-results.svg",
+      "native_source_evidence_ids": [
+        "E-NOTIFICATION-QUERY"
+      ],
+      "native_screenshot_sha256": "ad30485e7a0a42c808026eb872dc3c0784528cb246636c2fe25cd66a8653c5a9",
+      "position": [
+        2800,
+        47000
+      ],
+      "dimensions": [
+        576,
+        970
+      ],
+      "source_scope": "Reuse existing editable approximate search geometry; native caller-specific screenshot reviewed. No new native observations; arbitrary input not implemented.",
+      "status": "imported_configuration_partial_replay_pending",
+      "node_id": "527:111",
+      "figma_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=527-111"
+    }
+  ],
+  "scope_completion": "not_verified",
+  "checkpoint": {
+    "configured_connections": 7,
+    "planned_connections": 12,
+    "prototype_replay": "not_attempted",
+    "coverage_integration": "pending",
+    "native_observations_added": 0,
+    "notes": "Checkpoint requested before the remaining Notification controls and end-to-end replay. Existing coverage totals remain the archived baseline."
+  }
+}
