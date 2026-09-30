@@ -1,5 +1,7 @@
 # Figma 复现与证据对应约定
 
+最新[Calendar节假日详情上下文](calendar-detail-context-prototype-walkthrough.md)新增一张详情画板和两条连接，Monday/Tuesday月视图返回及后续模式循环实际回放。八项比较六项相等、两个Home底部局部差异保留。累计122画板、284控件、61次回放，全应用仍 `not_verified`。
+
 最新[Home图片填充回归](home-image-repair-prototype-walkthrough.md)重传Monday/Tuesday公开照片素材，六个保存的Calendar返回均保留照片；九项比较五项相等、四项底部局部差异，长期稳定性和完整保真仍开放。累计121画板、282控件、59次原型运行，全应用 `not_verified`。
 
 最新[Calendar模式循环](calendar-modes-prototype-walkthrough.md)接入公共月/事件/历史三个上下文和八条控件，保留Monday/Tuesday调用者。Monday底部Calendar漏接失败已修复并回放，Home缺图仍开放。累计121画板、282控件、56次运行，全应用仍 `not_verified`。以下统计为历史批次快照。

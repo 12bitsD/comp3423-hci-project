@@ -1,0 +1,365 @@
+{
+  "kind": "figma_prototype_detail_context",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-detail-imported.png",
+      "sha256": "43708800b8f1043580a27988d6b858fc851549ab198cfd5da6c720c02d026d3d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:11:27.995Z",
+      "description": "Editable public detail context imported.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-detail-back-configured.png",
+      "sha256": "e51b147a20093b95b1bba8c628b549abed74020243d4f012b0cf778e12f7bb18",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:12:06.324Z",
+      "description": "Back Swap overlay to same Sep26 month context.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-month-detail-entry-configured.png",
+      "sha256": "527319e9e72471a93a90767098a70357bd1a8e58f8485d6b6288d802055e117f",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:12:57.365Z",
+      "description": "EventMenu Swap overlay to detail context.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "04-monday-home-baseline.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:23.305Z",
+      "description": "Monday starting caller.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "05-monday-week.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:23.593Z",
+      "description": "Calendar Week entered.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "06-monday-month-baseline.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:24.315Z",
+      "description": "Month Sep26 before detail.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "07-monday-holiday-detail.png",
+      "sha256": "3dd3b06e043cf28ad9b828dfb116af8da77ce046983d3b3ab84b93c0dde5e11b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:31.196Z",
+      "description": "Sep26 holiday detail from ellipsis.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "08-monday-month-return.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:43.535Z",
+      "description": "Back retains Sep26 and same public holiday.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "09-monday-detail-reentry.png",
+      "sha256": "3dd3b06e043cf28ad9b828dfb116af8da77ce046983d3b3ab84b93c0dde5e11b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:43.838Z",
+      "description": "Second detail entry.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "10-monday-second-month-return.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:44.244Z",
+      "description": "Second month return.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "11-monday-home-return.png",
+      "sha256": "1760c5b43637cb7b237a3e71a9496d8345f301bf0706087b7329350d41312b40",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:44.545Z",
+      "description": "Month Home recovery preserves Monday caller.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "12-tuesday-home-baseline.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:13:44.918Z",
+      "description": "Tuesday date entry.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "13-tuesday-month-baseline.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:14:02.830Z",
+      "description": "Month Sep26 from Tuesday caller.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "14-tuesday-detail.png",
+      "sha256": "3dd3b06e043cf28ad9b828dfb116af8da77ce046983d3b3ab84b93c0dde5e11b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:14:03.188Z",
+      "description": "Public holiday detail from Tuesday caller.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "15-tuesday-month-return.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:14:03.470Z",
+      "description": "Back retains Sep26/event.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "16-tuesday-history-after-detail.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:14:03.924Z",
+      "description": "Existing mode cycle works after detail return.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "17-tuesday-week-after-detail.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:14:04.177Z",
+      "description": "History closes overlay to Week base.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "18-tuesday-home-after-detail.png",
+      "sha256": "06911b1f5cf156699da3c00771b174c891eeebd472040a2446cde5baf9573cc0",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:14:04.379Z",
+      "description": "Week Home preserves Tuesday caller after detail and modes.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "19-detail-root-flow-check.png",
+      "sha256": "6daa548e05b50528e534a6418b9c7c4b321a645ec25350c915d739d56e83abfb",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:14:45.582Z",
+      "description": "Root has Add flow starting point, no additional Flow name configured.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "bfa306f39fe188ce7a1359372fc012a49774c79b83d56aaabef38098355d7114",
+    "dimensions": [
+      1143,
+      1332
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "06-monday-month-baseline.png",
+      "comparison": "08-monday-month-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "06-monday-month-baseline.png",
+      "comparison": "10-monday-second-month-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "07-monday-holiday-detail.png",
+      "comparison": "09-monday-detail-reentry.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "13-tuesday-month-baseline.png",
+      "comparison": "15-tuesday-month-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "07-monday-holiday-detail.png",
+      "comparison": "14-tuesday-detail.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "06-monday-month-baseline.png",
+      "comparison": "13-tuesday-month-baseline.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "04-monday-home-baseline.png",
+      "comparison": "11-monday-home-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        588,
+        358,
+        613
+      ],
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    },
+    {
+      "baseline": "12-tuesday-home-baseline.png",
+      "comparison": "18-tuesday-home-after-detail.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        588,
+        358,
+        613
+      ],
+      "scope": "Prototype internal consistency only, not native fidelity or full stability."
+    }
+  ],
+  "scope": "Fixed public September26 holiday detail from Home/Week context. No new native observations; fonts/icons approximate."
+}

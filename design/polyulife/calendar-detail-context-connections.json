@@ -1,0 +1,64 @@
+{
+  "revision_id": "FIGMA-CALENDAR-DETAIL-CONTEXT-20260930",
+  "connections": [
+    {
+      "source_node_id": "591:19",
+      "trigger_node_id": "591:29",
+      "target_node_id": "573:19",
+      "trigger_name": "Back",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-EVENT-BACK",
+      "configured_at": "2026-09-30T15:12:06.297Z",
+      "connection_id": "C-CALENDAR-DETAIL-CONTEXT-01",
+      "revision_id": "FIGMA-CALENDAR-DETAIL-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DETAIL-CONTEXT-MONDAY-001",
+        "PROTO-CALENDAR-DETAIL-CONTEXT-TUESDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-EVENT-BACK"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DETAIL-CONTEXT-TRACE",
+        "E-CALENDAR-DETAIL-CONTEXT-SCREEN-02"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DETAIL-CONTEXT"
+      ]
+    },
+    {
+      "source_node_id": "573:19",
+      "trigger_node_id": "573:151",
+      "target_node_id": "591:19",
+      "trigger_name": "EventMenu",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "action_id": "A-CALENDAR-EVENT-OPEN",
+      "configured_at": "2026-09-30T15:12:57.319Z",
+      "connection_id": "C-CALENDAR-DETAIL-CONTEXT-02",
+      "revision_id": "FIGMA-CALENDAR-DETAIL-CONTEXT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-DETAIL-CONTEXT-MONDAY-001",
+        "PROTO-CALENDAR-DETAIL-CONTEXT-TUESDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-EVENT"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-DETAIL-CONTEXT-TRACE",
+        "E-CALENDAR-DETAIL-CONTEXT-SCREEN-03"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-DETAIL-CONTEXT"
+      ]
+    }
+  ],
+  "scope_completion": "not_verified",
+  "native_arrays_unchanged": true,
+  "caller_preservation": "Detail and month replace the same overlay above Week; native overlay architecture not established."
+}
