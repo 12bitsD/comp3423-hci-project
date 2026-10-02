@@ -1,0 +1,115 @@
+{
+  "sources": [
+    {
+      "file": "calendar-oct2-all-demo.svg",
+      "sha256": "2df6009d655ce9022df30d6b12dbd9f6583aba83a4f514ad0e2125140a37ee51",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-03"
+      ],
+      "applied_background": "all",
+      "draft": null,
+      "status": "imported_finite_reference_replayed_partial",
+      "limits": [
+        "Synthetic class values and no private markers.",
+        "Fullscreen native reference; not phone fidelity.",
+        "Finite None branch only; other filters, dates, main callers and data bounds incomplete."
+      ],
+      "node_id": "791:177",
+      "revision_id": "FIGMA-OCT2-NONE-20261003"
+    },
+    {
+      "file": "calendar-oct2-draft-all-all.svg",
+      "sha256": "a94df07b5ac5245b69aa3481377b0677789253b751ccf9ac2e3e55bbd57c8c5a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-04"
+      ],
+      "applied_background": "all",
+      "draft": "all",
+      "status": "imported_finite_reference_replayed_partial",
+      "limits": [
+        "Synthetic class values and no private markers.",
+        "Fullscreen native reference; not phone fidelity.",
+        "Finite None branch only; other filters, dates, main callers and data bounds incomplete."
+      ],
+      "node_id": "791:335",
+      "revision_id": "FIGMA-OCT2-NONE-20261003"
+    },
+    {
+      "file": "calendar-oct2-draft-none-all.svg",
+      "sha256": "5572ddd9577e4da993fc8d0b1916a705245d24e318de22c45e2897d2537d2192",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-05",
+        "E-NATIVE-OCT2-08"
+      ],
+      "applied_background": "all",
+      "draft": "none",
+      "status": "imported_finite_reference_replayed_partial",
+      "limits": [
+        "Synthetic class values and no private markers.",
+        "Fullscreen native reference; not phone fidelity.",
+        "Finite None branch only; other filters, dates, main callers and data bounds incomplete."
+      ],
+      "node_id": "791:529",
+      "revision_id": "FIGMA-OCT2-NONE-20261003"
+    },
+    {
+      "file": "calendar-oct2-none.svg",
+      "sha256": "e740cfeac9befa151edcae78239eace2b1d5f39139648ace961e73ca0b45d301",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_id": "S-NATIVE-OCT2-NONE",
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-09"
+      ],
+      "applied_background": "none",
+      "draft": null,
+      "status": "imported_finite_reference_replayed_partial",
+      "limits": [
+        "Synthetic class values and no private markers.",
+        "Fullscreen native reference; not phone fidelity.",
+        "Finite None branch only; other filters, dates, main callers and data bounds incomplete."
+      ],
+      "node_id": "791:713",
+      "revision_id": "FIGMA-OCT2-NONE-20261003"
+    },
+    {
+      "file": "calendar-oct2-draft-none-none.svg",
+      "sha256": "fda2df2c16fb87a5ed5f1b56819bf79177fdc0a80242f0915f3b8e263f3f1850",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-10"
+      ],
+      "applied_background": "none",
+      "draft": "none",
+      "status": "imported_finite_reference_replayed_partial",
+      "limits": [
+        "Synthetic class values and no private markers.",
+        "Fullscreen native reference; not phone fidelity.",
+        "Finite None branch only; other filters, dates, main callers and data bounds incomplete."
+      ],
+      "node_id": "791:873",
+      "revision_id": "FIGMA-OCT2-NONE-20261003"
+    }
+  ]
+}

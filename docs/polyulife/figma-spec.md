@@ -510,3 +510,8 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Room日期与Sunday增量
 
 [实现与回放](room-sunday-prototype-walkthrough.md)新增3个Frame、7个连接，Available日期条改为水平滚动，Sunday ALL有已观察范围内连续竖向滚动。累计86个映射Frame、217个配置控件、4个垂直和1个水平滚动区域。过渡延时仅演示，三个出口及反向筛选为原型推断；完整日期、列表、地图与查询仍未完成。
+
+
+## Oct2 原生全不选分支增量
+
+[原生补查](native-calendar-resume-20261002.md)与[参考回放](calendar-none-oct2-prototype-walkthrough.md)补入5个576×1024全屏归一化样例及7个控件。草稿保留All或None对应已应用背景；Apply None后的No Selected Event/No event及重开未勾选有真实证据。两条X为原型推广，独立起点未接主导航。当前152映射画板、346配置控件、104次有限运行；完整应用与视觉保真仍未验证。

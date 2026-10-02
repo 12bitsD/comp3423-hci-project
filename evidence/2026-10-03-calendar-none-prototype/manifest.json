@@ -1,0 +1,328 @@
+{
+  "kind": "oct2_none_filter_finite_reference_replay",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-initial.png",
+      "sha256": "48f42d3c90d4f76716ec7feeffa7dfaab22ad3cc209cbb878f36d4bb515c15f6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:29:36.262Z",
+      "description": "Initial actual-size view, clipped before fitting screen; not an accepted complete-frame replay.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": null,
+      "state_id": null,
+      "action": null
+    },
+    {
+      "file": "01-all-baseline.png",
+      "sha256": "ed9b2f42badc1f67344eb962517a316217f8c74ff75e48b202e5e3119de9f24e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:31:03.280Z",
+      "description": "all-baseline",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:177",
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "action": {
+        "control": "Fit width and height; close flow list"
+      }
+    },
+    {
+      "file": "02-all-draft.png",
+      "sha256": "d189010ad0ebd27f24df9ea9329be7348673b206b4facb84c6aac902c9d231e6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:31:27.162Z",
+      "description": "all-draft",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:335",
+      "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "action": {
+        "control": "Filter",
+        "action_id": "A-NATIVE-OCT2-04"
+      }
+    },
+    {
+      "file": "03-none-draft.png",
+      "sha256": "d19f92987cff86b66f09f7a671e63a5de57e0d17f4e5299a29431e05cc2cca5c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:31:58.118Z",
+      "description": "none-draft",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:529",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "action": {
+        "control": "Select All clear",
+        "action_id": "A-NATIVE-OCT2-05"
+      }
+    },
+    {
+      "file": "04-x-restores-all.png",
+      "sha256": "82565b99c27e0b56a011d8fbcf1082f869592837b9173e6f399155a9d1cc87f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:32:11.129Z",
+      "description": "x-restores-all",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:177",
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "action": {
+        "control": "None draft X",
+        "action_id": "A-NATIVE-OCT2-06"
+      }
+    },
+    {
+      "file": "05-reopen-all.png",
+      "sha256": "30455d2ac4ad52706cf383b7ddaa63377e90b19aaf91128c23707a3f45ec6eff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:32:29.059Z",
+      "description": "reopen-all",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:335",
+      "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "action": {
+        "control": "Reopen filter"
+      }
+    },
+    {
+      "file": "06-clear-for-apply.png",
+      "sha256": "d19f92987cff86b66f09f7a671e63a5de57e0d17f4e5299a29431e05cc2cca5c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:32:29.329Z",
+      "description": "clear-for-apply",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:529",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "action": {
+        "control": "Clear Select All"
+      }
+    },
+    {
+      "file": "07-none-applied.png",
+      "sha256": "048226446e31ccb2edadba33693e57ba8f057529aaff526ecdf0b9a8cffc7973",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:32:29.564Z",
+      "description": "none-applied",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:713",
+      "state_id": "S-NATIVE-OCT2-NONE",
+      "action": {
+        "control": "Apply none",
+        "action_id": "A-CALENDAR-APPLY-NONE"
+      }
+    },
+    {
+      "file": "08-none-reopened.png",
+      "sha256": "24af676b856ea58e8da3b9fbb26e7ca7adb04a78bdb333c759d461525a25cc24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:33:14.227Z",
+      "description": "none-reopened",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:873",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "action": {
+        "control": "Filter after Apply none",
+        "action_id": "A-NATIVE-OCT2-10"
+      }
+    },
+    {
+      "file": "09-none-cancel-generalization.png",
+      "sha256": "048226446e31ccb2edadba33693e57ba8f057529aaff526ecdf0b9a8cffc7973",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:33:14.495Z",
+      "description": "none-cancel-generalization",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:713",
+      "state_id": "S-NATIVE-OCT2-NONE",
+      "action": {
+        "control": "X from applied none draft",
+        "action_id": null
+      }
+    },
+    {
+      "file": "10-none-reopened-again.png",
+      "sha256": "24af676b856ea58e8da3b9fbb26e7ca7adb04a78bdb333c759d461525a25cc24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:33:14.734Z",
+      "description": "none-reopened-again",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:873",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "action": {
+        "control": "Reopen none after generalized cancel"
+      }
+    },
+    {
+      "file": "11-restart-all.png",
+      "sha256": "82565b99c27e0b56a011d8fbcf1082f869592837b9173e6f399155a9d1cc87f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:33:50.176Z",
+      "description": "restart-all",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:177",
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "action": {
+        "control": "Figma Restart shortcut R"
+      }
+    },
+    {
+      "file": "12-all-draft-x-test.png",
+      "sha256": "30455d2ac4ad52706cf383b7ddaa63377e90b19aaf91128c23707a3f45ec6eff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:34:05.094Z",
+      "description": "all-draft-x-test",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:335",
+      "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "action": {
+        "control": "Filter from restart"
+      }
+    },
+    {
+      "file": "13-all-draft-x-generalization.png",
+      "sha256": "82565b99c27e0b56a011d8fbcf1082f869592837b9173e6f399155a9d1cc87f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:34:05.326Z",
+      "description": "all-draft-x-generalization",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "node_id": "791:177",
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "action": {
+        "control": "X on unchanged all draft",
+        "action_id": null
+      }
+    },
+    {
+      "file": "14-editor-reloaded.png",
+      "sha256": "f0b708085022759a61289e363f37912debad088dedc3cdc619963307d442ef9e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T16:34:45.617381+00:00",
+      "timestamp_basis": "File write immediately after capture; exact capture timestamp not recorded",
+      "description": "Editor reloaded; five named frames reappear in visible layer tree.",
+      "source": "Actual Computer Use Figma editor screenshot bytes",
+      "redaction": "Account header masked"
+    }
+  ],
+  "app_crop_xyxy": [
+    470,
+    60,
+    808,
+    661
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 1,
+      "b": 4,
+      "purpose": "X cancels none draft to all",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "purpose": "reopened all draft",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "a": 3,
+      "b": 6,
+      "purpose": "repeated all-off draft",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "a": 7,
+      "b": 9,
+      "purpose": "generalized X keeps applied none",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "purpose": "repeated none reopen",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "a": 1,
+      "b": 11,
+      "purpose": "Figma Restart restores all",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "a": 1,
+      "b": 13,
+      "purpose": "unchanged all draft generalized X",
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "1e94cf4e4613e9284eedcf6a525d88172d8bce61cc8d4cb58a3963933023607b",
+    "dimensions": [
+      1280,
+      2880
+    ],
+    "source": "Saved actual screenshots and app crops; not a native-app capture"
+  }
+}

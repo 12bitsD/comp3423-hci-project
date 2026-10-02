@@ -534,6 +534,76 @@
         "E-ROOM-PREVIEW-CONTROLS-TRACE",
         "E-ROOM-PREVIEW-CONTROLS-AX"
       ]
+    },
+    {
+      "id": "SESSION-20261002-CALENDAR-RESUME",
+      "started_at": "2026-10-02T15:49:13.198Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone app observed through Computer Use, fullscreen screenshot",
+        "app_name": "PolyULife / polyuLife",
+        "app_version_last_known": "3.0.0",
+        "app_version_reverified_in_this_record": true,
+        "login_state": "Existing signed-in session retained; private content only in ignored raw files",
+        "capture_recovery": "Fresh bundle ambiguity resolved with current Wrapper path; actual Room window obtained. Mac later relocked during Payment Apply request."
+      },
+      "starting_state_id": "S-NATIVE-OCT2-ROOM-MIXED-DATE",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-01",
+        "E-NATIVE-OCT2-01-AX",
+        "E-NATIVE-OCT2-02",
+        "E-NATIVE-OCT2-02-AX",
+        "E-NATIVE-OCT2-03",
+        "E-NATIVE-OCT2-03-AX",
+        "E-NATIVE-OCT2-04",
+        "E-NATIVE-OCT2-04-AX",
+        "E-NATIVE-OCT2-05",
+        "E-NATIVE-OCT2-05-AX",
+        "E-NATIVE-OCT2-06",
+        "E-NATIVE-OCT2-06-AX",
+        "E-NATIVE-OCT2-07",
+        "E-NATIVE-OCT2-07-AX",
+        "E-NATIVE-OCT2-08",
+        "E-NATIVE-OCT2-08-AX",
+        "E-NATIVE-OCT2-09",
+        "E-NATIVE-OCT2-09-AX",
+        "E-NATIVE-OCT2-10",
+        "E-NATIVE-OCT2-10-AX",
+        "E-NATIVE-OCT2-11",
+        "E-NATIVE-OCT2-11-AX",
+        "E-NATIVE-OCT2-12",
+        "E-NATIVE-OCT2-12-AX",
+        "E-NATIVE-OCT2-13",
+        "E-NATIVE-OCT2-13-AX",
+        "E-NATIVE-OCT2-14",
+        "E-NATIVE-OCT2-14-AX",
+        "E-NATIVE-OCT2-15",
+        "E-NATIVE-OCT2-15-AX",
+        "E-NATIVE-OCT2-16",
+        "E-NATIVE-OCT2-16-AX",
+        "E-NATIVE-OCT2-17",
+        "E-NATIVE-OCT2-17-AX",
+        "E-NATIVE-OCT2-18",
+        "E-NATIVE-OCT2-18-AX",
+        "E-NATIVE-OCT2-19",
+        "E-NATIVE-OCT2-19-AX",
+        "E-NATIVE-OCT2-20",
+        "E-NATIVE-OCT2-20-AX",
+        "E-NATIVE-OCT2-21",
+        "E-NATIVE-OCT2-21-AX",
+        "E-NATIVE-OCT2-22",
+        "E-NATIVE-OCT2-22-AX",
+        "E-NATIVE-OCT2-23",
+        "E-NATIVE-OCT2-23-AX",
+        "E-NATIVE-OCT2-24",
+        "E-NATIVE-OCT2-24-AX",
+        "E-NATIVE-OCT2-25",
+        "E-NATIVE-OCT2-25-AX",
+        "E-NATIVE-OCT2-26",
+        "E-NATIVE-OCT2-26-AX"
+      ],
+      "documented_through": "2026-10-02T15:59:09.895Z"
     }
   ],
   "entry_points": [
@@ -3810,6 +3880,446 @@
       "remaining_uncertainties": [
         "Independent screenshot and closing handoff tab not archived."
       ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-ROOM-MIXED-DATE",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "room-resumed",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-01"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-01-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-02"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-HOME-RETAINED",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "home-after-room-back",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-02"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-02-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-03"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-ALL",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "calendar-current-default",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-03",
+        "E-NATIVE-OCT2-06"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-03-AX",
+        "E-NATIVE-OCT2-06-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-04",
+        "A-NATIVE-OCT2-07"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-all-current",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-04",
+        "E-NATIVE-OCT2-07"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-04-AX",
+        "E-NATIVE-OCT2-07-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-05",
+        "A-NATIVE-OCT2-08"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-none-draft",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-05",
+        "E-NATIVE-OCT2-08"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-05-AX",
+        "E-NATIVE-OCT2-08-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-06",
+        "A-CALENDAR-APPLY-NONE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-NONE",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "calendar-none-applied",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-09"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-09-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-10"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-none-reopened",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-10"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-10-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-11"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-class-only-draft",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-11"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-11-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-12"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-CLASS",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "calendar-class-only-applied",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-12",
+        "E-NATIVE-OCT2-19"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-12-AX",
+        "E-NATIVE-OCT2-19-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-13",
+        "A-NATIVE-OCT2-20"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "class-ellipsis-detail",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-13",
+        "E-NATIVE-OCT2-18"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-13-AX",
+        "E-NATIVE-OCT2-18-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-14",
+        "A-NATIVE-OCT2-19",
+        "A-NATIVE-OCT2-CLASS-MAP-ZOOM",
+        "A-NATIVE-OCT2-CLASS-MAP-FULLSCREEN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-NOTICE-LOADING",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "class-notice-open",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-14"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-14-AX"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "Class Notice blank snapshot — content load unverified",
+      "description": "After the mark disappeared, the body stayed blank in the recorded sample; neither successful document rendering nor its cause is established.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-15",
+        "E-NATIVE-OCT2-17"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-15-AX",
+        "E-NATIVE-OCT2-17-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-16",
+        "A-NATIVE-OCT2-18",
+        "A-NATIVE-OCT2-NOTICE-RELOAD"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "class-notice-more-menu",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-16"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-16-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-17",
+        "A-NATIVE-OCT2-NOTICE-SYSTEM",
+        "A-NATIVE-OCT2-NOTICE-SHARE",
+        "A-NATIVE-OCT2-NOTICE-COPY"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-class-reopened",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-20"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-20-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-21"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-class-cleared",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-21"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-21-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-22"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-exam-only-draft",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-22"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-22-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-23"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-EXAM",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "calendar-exam-only-applied",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-23"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-23-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-24"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-exam-reopened",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-24"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-24-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-25"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-exam-cleared",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-25"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-25-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-26"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "title": "filter-payment-only-draft",
+      "description": "Dated native Oct2 sample; private content masked. See resume walkthrough for observed facts and limits.",
+      "visible_scope": "Redacted fullscreen native sample normalized to576x1024; safe AX subset",
+      "preconditions": "Existing signed-in session, retained Calendar/application state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-OCT2-26"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-OCT2-26-AX"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Complete application, data bounds, phone behavior and long-term state retention remain unverified."
+      ]
     }
   ],
   "actions": [
@@ -6846,21 +7356,40 @@
       "return_path": null,
       "authorization": "Determine function and data scope before consequential actions",
       "blockers": [],
-      "pending_reason": "Dismiss/cancel semantics untested."
+      "pending_reason": "Oct2 none-draft X cancels to all and reopens all checked; this historical Acad-draft X context still unobserved."
     },
     {
       "id": "A-CALENDAR-APPLY-NONE",
       "from_state_id": "S-CALENDAR-FILTER-NONE",
       "control": "Apply no categories",
       "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:52:59.313Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+          "target_state_id": "S-NATIVE-OCT2-NONE",
+          "observed_feedback": "No Selected Event, No event, no date event markers; reopened dialog remains all unchecked.",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-09",
+            "E-NATIVE-OCT2-09-AX",
+            "E-NATIVE-OCT2-10",
+            "E-NATIVE-OCT2-10-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-NONE",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-09",
+        "E-NATIVE-OCT2-09-AX",
+        "E-NATIVE-OCT2-10",
+        "E-NATIVE-OCT2-10-AX"
+      ],
       "return_path": null,
       "authorization": "Determine function and data scope before consequential actions",
       "blockers": [],
-      "pending_reason": "No-category state seen but not applied."
+      "pending_reason": "Oct2 all-off result observed. Other dates/callers and complete filter combinations remain unverified."
     },
     {
       "id": "A-CALENDAR-OTHER-CATEGORIES",
@@ -6874,7 +7403,7 @@
       "return_path": null,
       "authorization": "Determine function and data scope before consequential actions",
       "blockers": [],
-      "pending_reason": "Individual category behavior not inspected."
+      "pending_reason": "Oct2 Class and Exam Apply/reopen observed; Payment draft observed, Apply unknown due relock. Other combinations/dates remain pending."
     },
     {
       "id": "A-CALENDAR-HIDE-HISTORY",
@@ -10524,7 +11053,881 @@
       "return_path": null,
       "authorization": "Ordinary reversible read-only inspection only; no calendar/timetable changes authorised.",
       "blockers": [],
-      "pending_reason": "Visible in historical source. Destination/details not observed; do not invent a route from the generic DEMO event. Current Mac locked."
+      "pending_reason": "Oct2 Class-only ellipsis now enters observed detail; all-category ellipsis remains unobserved. Do not transfer the source-context claim."
+    },
+    {
+      "id": "A-NATIVE-OCT2-02",
+      "from_state_id": "S-NATIVE-OCT2-ROOM-MIXED-DATE",
+      "control": "Room Back",
+      "input_summary": {
+        "control": "Room Back",
+        "method": "AX click",
+        "index": 10
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:49:38.137Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-ROOM-MIXED-DATE",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-HOME-RETAINED",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-02",
+            "E-NATIVE-OCT2-02-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-HOME-RETAINED",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-02",
+        "E-NATIVE-OCT2-02-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-03",
+      "from_state_id": "S-NATIVE-OCT2-HOME-RETAINED",
+      "control": "Home Calendar",
+      "input_summary": {
+        "control": "Home Calendar",
+        "method": "AX click",
+        "index": 66
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:50:26.060Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-HOME-RETAINED",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-ALL",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-03",
+            "E-NATIVE-OCT2-03-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-ALL",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-03",
+        "E-NATIVE-OCT2-03-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-04",
+      "from_state_id": "S-NATIVE-OCT2-ALL",
+      "control": "Calendar filter",
+      "input_summary": {
+        "control": "Calendar filter",
+        "method": "coordinate click",
+        "coordinates": [
+          1962,
+          929
+        ],
+        "prior_attempt": {
+          "index": 57,
+          "method": "AX click",
+          "result": "no tree or visual change; clicked category legend rather than filter"
+        }
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:51:59.684Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-ALL",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-04",
+            "E-NATIVE-OCT2-04-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-04",
+        "E-NATIVE-OCT2-04-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-05",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "control": "Select All checked → clear",
+      "input_summary": {
+        "control": "Select All checked → clear",
+        "method": "AX click",
+        "index": 5
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:52:12.682Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-05",
+            "E-NATIVE-OCT2-05-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-05",
+        "E-NATIVE-OCT2-05-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-06",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "control": "Filter X from none draft",
+      "input_summary": {
+        "control": "Filter X from none draft",
+        "method": "AX click",
+        "index": 6
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:52:24.300Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-ALL",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-06",
+            "E-NATIVE-OCT2-06-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-ALL",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-06",
+        "E-NATIVE-OCT2-06-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-07",
+      "from_state_id": "S-NATIVE-OCT2-ALL",
+      "control": "Reopen filter after X",
+      "input_summary": {
+        "control": "Reopen filter after X",
+        "method": "coordinate click",
+        "coordinates": [
+          1962,
+          929
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:52:34.361Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-ALL",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-07",
+            "E-NATIVE-OCT2-07-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-07",
+        "E-NATIVE-OCT2-07-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-08",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "control": "Select All clear second trial",
+      "input_summary": {
+        "control": "Select All clear second trial",
+        "method": "AX click",
+        "index": 5
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:52:46.678Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-08",
+            "E-NATIVE-OCT2-08-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-08",
+        "E-NATIVE-OCT2-08-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-10",
+      "from_state_id": "S-NATIVE-OCT2-NONE",
+      "control": "Filter reopen after Apply none",
+      "input_summary": {
+        "control": "Filter reopen after Apply none",
+        "method": "coordinate click",
+        "coordinates": [
+          1962,
+          929
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:53:42.193Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-NONE",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-10",
+            "E-NATIVE-OCT2-10-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-10",
+        "E-NATIVE-OCT2-10-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-11",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "control": "Class checked from none",
+      "input_summary": {
+        "control": "Class checked from none",
+        "method": "AX click",
+        "index": 9
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:53:52.402Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-11",
+            "E-NATIVE-OCT2-11-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-11",
+        "E-NATIVE-OCT2-11-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-12",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+      "control": "Apply Class only",
+      "input_summary": {
+        "control": "Apply Class only",
+        "method": "AX click",
+        "index": 14
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:54:04.053Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-CLASS",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-12",
+            "E-NATIVE-OCT2-12-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-CLASS",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-12",
+        "E-NATIVE-OCT2-12-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-13",
+      "from_state_id": "S-NATIVE-OCT2-CLASS",
+      "control": "Class card ellipsis",
+      "input_summary": {
+        "control": "Class card ellipsis",
+        "method": "coordinate click",
+        "coordinates": [
+          1942,
+          1216
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:54:16.600Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-CLASS",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-13",
+            "E-NATIVE-OCT2-13-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-13",
+        "E-NATIVE-OCT2-13-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-14",
+      "from_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "control": "Class Notice",
+      "input_summary": {
+        "control": "Class Notice",
+        "method": "AX click",
+        "index": 37
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:54:46.022Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-14",
+            "E-NATIVE-OCT2-14-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-14",
+        "E-NATIVE-OCT2-14-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-16",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "control": "Class Notice webview More",
+      "input_summary": {
+        "control": "Class Notice webview More",
+        "method": "AX click",
+        "index": 9
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:55:22.043Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-16",
+            "E-NATIVE-OCT2-16-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-16",
+        "E-NATIVE-OCT2-16-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-17",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "control": "Class Notice menu Cancel",
+      "input_summary": {
+        "control": "Class Notice menu Cancel",
+        "method": "AX click",
+        "index": 7
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:55:46.631Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-17",
+            "E-NATIVE-OCT2-17-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-17",
+        "E-NATIVE-OCT2-17-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-18",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "control": "Class Notice webview X",
+      "input_summary": {
+        "control": "Class Notice webview X",
+        "method": "coordinate click",
+        "coordinates": [
+          1057,
+          211
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:56:05.551Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-18",
+            "E-NATIVE-OCT2-18-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-18",
+        "E-NATIVE-OCT2-18-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-19",
+      "from_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "control": "Class detail Back",
+      "input_summary": {
+        "control": "Class detail Back",
+        "method": "AX click",
+        "index": 10
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:57:27.775Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-CLASS",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-19",
+            "E-NATIVE-OCT2-19-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-CLASS",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-19",
+        "E-NATIVE-OCT2-19-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-20",
+      "from_state_id": "S-NATIVE-OCT2-CLASS",
+      "control": "Reopen Class filter",
+      "input_summary": {
+        "control": "Reopen Class filter",
+        "method": "coordinate click",
+        "coordinates": [
+          1962,
+          929
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:58:01.307Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-CLASS",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-20",
+            "E-NATIVE-OCT2-20-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-20",
+        "E-NATIVE-OCT2-20-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-21",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+      "control": "Uncheck Class",
+      "input_summary": {
+        "control": "Uncheck Class",
+        "method": "AX click",
+        "index": 9
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:58:12.023Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-21",
+            "E-NATIVE-OCT2-21-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-21",
+        "E-NATIVE-OCT2-21-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-22",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+      "control": "Check Exam only",
+      "input_summary": {
+        "control": "Check Exam only",
+        "method": "AX click",
+        "index": 10
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:58:22.546Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-22",
+            "E-NATIVE-OCT2-22-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-22",
+        "E-NATIVE-OCT2-22-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-23",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+      "control": "Apply Exam only",
+      "input_summary": {
+        "control": "Apply Exam only",
+        "method": "AX click",
+        "index": 14
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:58:35.257Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-EXAM",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-23",
+            "E-NATIVE-OCT2-23-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-EXAM",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-23",
+        "E-NATIVE-OCT2-23-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-24",
+      "from_state_id": "S-NATIVE-OCT2-EXAM",
+      "control": "Reopen Exam filter",
+      "input_summary": {
+        "control": "Reopen Exam filter",
+        "method": "coordinate click",
+        "coordinates": [
+          1962,
+          929
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:58:48.717Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-EXAM",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-24",
+            "E-NATIVE-OCT2-24-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-24",
+        "E-NATIVE-OCT2-24-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-25",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+      "control": "Uncheck Exam",
+      "input_summary": {
+        "control": "Uncheck Exam",
+        "method": "AX click",
+        "index": 10
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:58:58.942Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-25",
+            "E-NATIVE-OCT2-25-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-25",
+        "E-NATIVE-OCT2-25-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-26",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+      "control": "Check Payment only",
+      "input_summary": {
+        "control": "Check Payment only",
+        "method": "AX click",
+        "index": 11
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "at": "2026-10-02T15:59:09.895Z",
+          "session_id": "SESSION-20261002-CALENDAR-RESUME",
+          "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+          "observed_feedback": "Recorded target state and screenshot; see dated trace for distinctions from load/cancel/failure.",
+          "target_state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-26",
+            "E-NATIVE-OCT2-26-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "evidence_ids": [
+        "E-NATIVE-OCT2-26",
+        "E-NATIVE-OCT2-26-AX"
+      ],
+      "return_path": null,
+      "authorization": "Reversible navigation/filter inspection; no business submission, credentials, sharing or account setting changes.",
+      "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT2-PAYMENT-APPLY",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "control": "Payment-only Apply",
+      "input_summary": "AX click requested on index14; combined command/capture failed when Mac locked.",
+      "status": "attempted_unverified",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar filtering",
+      "blockers": [
+        "Mac locked before an outcome could be recorded"
+      ],
+      "pending_reason": "Input execution and result are both unknown; re-read the current window before repeating."
+    },
+    {
+      "id": "A-NATIVE-OCT2-CLASS-MAP-ZOOM",
+      "from_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "control": "Inline campus map zoom/pan",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [
+        "E-NATIVE-OCT2-13"
+      ],
+      "return_path": null,
+      "authorization": "Read-only inspection only; no sharing submission or permissions authorised.",
+      "blockers": [],
+      "pending_reason": "Visible affordance retained for future native observation; no inferred result."
+    },
+    {
+      "id": "A-NATIVE-OCT2-CLASS-MAP-FULLSCREEN",
+      "from_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "control": "Inline map fullscreen arrow",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [
+        "E-NATIVE-OCT2-13"
+      ],
+      "return_path": null,
+      "authorization": "Read-only inspection only; no sharing submission or permissions authorised.",
+      "blockers": [],
+      "pending_reason": "Visible affordance retained for future native observation; no inferred result."
+    },
+    {
+      "id": "A-NATIVE-OCT2-NOTICE-RELOAD",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "control": "Notice webview reload",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [
+        "E-NATIVE-OCT2-15"
+      ],
+      "return_path": null,
+      "authorization": "Read-only inspection only; no sharing submission or permissions authorised.",
+      "blockers": [],
+      "pending_reason": "Visible affordance retained for future native observation; no inferred result."
+    },
+    {
+      "id": "A-NATIVE-OCT2-NOTICE-SYSTEM",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "control": "Open in system browser",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [
+        "E-NATIVE-OCT2-16"
+      ],
+      "return_path": null,
+      "authorization": "Read-only inspection only; no sharing submission or permissions authorised.",
+      "blockers": [],
+      "pending_reason": "Visible affordance retained for future native observation; no inferred result."
+    },
+    {
+      "id": "A-NATIVE-OCT2-NOTICE-SHARE",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "control": "Share via…",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [
+        "E-NATIVE-OCT2-16"
+      ],
+      "return_path": null,
+      "authorization": "Read-only inspection only; no sharing submission or permissions authorised.",
+      "blockers": [],
+      "pending_reason": "Visible affordance retained for future native observation; no inferred result."
+    },
+    {
+      "id": "A-NATIVE-OCT2-NOTICE-COPY",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "control": "Copy link",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [
+        "E-NATIVE-OCT2-16"
+      ],
+      "return_path": null,
+      "authorization": "Read-only inspection only; no sharing submission or permissions authorised.",
+      "blockers": [],
+      "pending_reason": "Visible affordance retained for future native observation; no inferred result."
     }
   ],
   "evidence": [
@@ -50957,6 +52360,2217 @@
       ],
       "action_ids": [],
       "source": "Seven fixed view imports,19 controls, seven finite runs. No new native observations; Mac still locked."
+    },
+    {
+      "id": "E-NATIVE-OCT2-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/01-room-resumed.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:49:13.198Z",
+      "sha256": "ef25ccfad7ad62b59d30fe41d84b6ba200549b30ec3bc17d2bab6dae4510f15e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-ROOM-MIXED-DATE"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          954,
+          46,
+          1998,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-01-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/01-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:49:13.198Z",
+      "sha256": "2cabb473b50966ae69b850d3d79e881db8fe6ee9f52e4ba85c5f87235ba71906",
+      "state_ids": [
+        "S-NATIVE-OCT2-ROOM-MIXED-DATE"
+      ],
+      "action_ids": [],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/02-home-after-room-back.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:49:38.137Z",
+      "sha256": "7fd2c27a53b4a551944a6fcc19747b3d6dcfbe1124d0b72568ceab9b197750e9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-HOME-RETAINED"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-02"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              70,
+              30,
+              510,
+              85
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              14,
+              98,
+              570,
+              620
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-02-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/02-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:49:38.137Z",
+      "sha256": "4576530a17a7dff8c19f54106113a68800324f226cd4c0be00ecba9e782001fc",
+      "state_ids": [
+        "S-NATIVE-OCT2-HOME-RETAINED"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-02"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/03-calendar-current-default.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:50:26.060Z",
+      "sha256": "61590d6e2db2ef5979b5d9788deb7b0b1c9a52d40379c4980ef399e26c847ac0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-03"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              140,
+              622,
+              506,
+              707
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#FFFFFF"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-03-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/03-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:50:26.060Z",
+      "sha256": "79ad3079e108cdddde6e003fd933f30bb4a96f8c9d3c66582270080b5cb28650",
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-03"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/04-filter-all-current.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:51:59.684Z",
+      "sha256": "af5104b2855fad49addff92dcb21f21a1ee2db470f793fd8710828d3f8560205",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-04"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-04-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/04-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:51:59.684Z",
+      "sha256": "a5504f2991b4efbd385cb50eface5e9e71239943fbe4d39df945d3cfdfb2b127",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-04"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/05-filter-none-draft.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:12.682Z",
+      "sha256": "7e035ca7442028d1bffa9e8647d9f9049dab6bc41f64658610bb0f4271f60cc4",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-05"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-05-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/05-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:12.682Z",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-05"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/06-filter-x-none-dismissed.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:24.300Z",
+      "sha256": "04ab8753d1c97244ab273653386963740904ad20550262e1ab63cd8658d1a7c6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-06"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              140,
+              622,
+              506,
+              707
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#FFFFFF"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-06-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/06-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:24.300Z",
+      "sha256": "79ad3079e108cdddde6e003fd933f30bb4a96f8c9d3c66582270080b5cb28650",
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-06"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/07-filter-reopen-after-x.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:34.361Z",
+      "sha256": "5730492c14f1ed3d7736210bf14162b0bc3b52e9323221a67468291337cbc4c3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-07"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-07-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/07-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:34.361Z",
+      "sha256": "a5504f2991b4efbd385cb50eface5e9e71239943fbe4d39df945d3cfdfb2b127",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-07"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/08-filter-none-before-apply.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:46.678Z",
+      "sha256": "10b3616cab66c6cd43176eb8d479a3e9f65251c79cb3919755faa165cfa3fe50",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-08"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-08-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/08-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:46.678Z",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-08"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/09-calendar-none-applied.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:59.313Z",
+      "sha256": "0b00ebbf34abc94253dbe73c4a25026d113c021667247fe83018f6ec3d4998e0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NONE"
+      ],
+      "action_ids": [
+        "A-CALENDAR-APPLY-NONE"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-09-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/09-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:52:59.313Z",
+      "sha256": "c6a55e92a362c102c19797841687c5fe1397fbb3b5bf13e7ebcaf471b02de5d2",
+      "state_ids": [
+        "S-NATIVE-OCT2-NONE"
+      ],
+      "action_ids": [
+        "A-CALENDAR-APPLY-NONE"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/10-filter-none-reopened.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:53:42.193Z",
+      "sha256": "85972e1e353c4342ebeb54022bdede51cfcff5c9ee0bc18fad6d238ad970ab2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-NONE"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-10"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-10-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/10-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:53:42.193Z",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-NONE"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-10"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/11-filter-class-only-draft.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:53:52.402Z",
+      "sha256": "5b71398f4657ebf9942ee432cb512fb88cfa06f1287cbca10c25f4a8036cd8f5",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-CLASS-NONE"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-11"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-11-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/11-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:53:52.402Z",
+      "sha256": "252f855161cb569e3b08a1869bc2710307111a7aca7186b09e326b622395243f",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-CLASS-NONE"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-11"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/12-calendar-class-only-applied.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:54:04.053Z",
+      "sha256": "1a95bd68071b5e042d02434a2abde1a17829aaf8a39d6b93db57497805ad6ad7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-12"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              140,
+              622,
+              506,
+              707
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#FFFFFF"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-12-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/12-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:54:04.053Z",
+      "sha256": "79ad3079e108cdddde6e003fd933f30bb4a96f8c9d3c66582270080b5cb28650",
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-12"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/13-class-ellipsis-detail.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:54:16.600Z",
+      "sha256": "1d70b5460acdf49bd4952b167667a7e38eb53cdc584ac5fe324122eceb852873",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-13"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              24,
+              535,
+              90
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              30,
+              115,
+              545,
+              200
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              30,
+              249,
+              550,
+              282
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              78,
+              480,
+              495,
+              550
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-13-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/13-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:54:16.600Z",
+      "sha256": "6388fdd7d852d57714e24a303502b20acb7b21b45ead2e95906802136a2e5623",
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-13"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/14-class-notice-open.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:54:46.022Z",
+      "sha256": "1fcff9b7005d333536ea1309b49de298b7b273bce5654c0bdb8c8a04b12914a9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-14"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              22,
+              535,
+              77
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-14-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/14-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:54:46.022Z",
+      "sha256": "2cabb473b50966ae69b850d3d79e881db8fe6ee9f52e4ba85c5f87235ba71906",
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-14"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/15-class-notice-loaded.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:54:59.584Z",
+      "sha256": "604c6b05369dec1fc486eada8937095e431849debef18d52b69773cc6cb208fa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-BLANK"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              22,
+              535,
+              77
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-15-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/15-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:54:59.584Z",
+      "sha256": "2cabb473b50966ae69b850d3d79e881db8fe6ee9f52e4ba85c5f87235ba71906",
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-BLANK"
+      ],
+      "action_ids": [],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/16-class-notice-more-menu.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:55:22.043Z",
+      "sha256": "0316f441d6d3eeab5ac9b82667181ead165316701317b2058e8e6dfd304b33a7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-16"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              22,
+              535,
+              77
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-16-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/16-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:55:22.043Z",
+      "sha256": "ef89ac7b3ad25b86ce12f67930d495416734d991b55c6cfffff145f698f3d3f3",
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-16"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/17-class-notice-menu-cancelled.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:55:46.631Z",
+      "sha256": "94a28adf5d3530a0272badd45b2490d01a8440e58f6d8b4d11ee1e08f55a040c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-17"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              22,
+              535,
+              77
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-17-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/17-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:55:46.631Z",
+      "sha256": "2cabb473b50966ae69b850d3d79e881db8fe6ee9f52e4ba85c5f87235ba71906",
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-17"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/18-class-notice-closed.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:56:05.551Z",
+      "sha256": "558166ec3f06fbb2f14e6860073a2be0f64d781e684a92abd78a4717e570c564",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-18"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              24,
+              535,
+              90
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              30,
+              115,
+              545,
+              200
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              30,
+              249,
+              550,
+              282
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              78,
+              480,
+              495,
+              550
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-18-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/18-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:56:05.551Z",
+      "sha256": "2cabb473b50966ae69b850d3d79e881db8fe6ee9f52e4ba85c5f87235ba71906",
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-18"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/19-calendar-after-class-detail-back.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:57:27.775Z",
+      "sha256": "b5cf88173c54e30cf799ab66719338a9cced0b289da8346c275c2a00c7524950",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-19"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              140,
+              622,
+              506,
+              707
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#FFFFFF"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-19-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/19-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:57:27.775Z",
+      "sha256": "79ad3079e108cdddde6e003fd933f30bb4a96f8c9d3c66582270080b5cb28650",
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-19"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/20-filter-class-reopened.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:01.307Z",
+      "sha256": "daee3c55f45e1b603a0836c6aa0fe1ec4cb562211876f097fc4f1f83e9b0d1cf",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-CLASS-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-20"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-20-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/20-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:01.307Z",
+      "sha256": "252f855161cb569e3b08a1869bc2710307111a7aca7186b09e326b622395243f",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-CLASS-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-20"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/21-filter-class-cleared.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:12.023Z",
+      "sha256": "86869af86002696e269f71e967483aa055d367eb7eebcd250cbf95f12f76d706",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-21"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-21-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/21-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:12.023Z",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-21"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/22-filter-exam-only-draft.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:22.546Z",
+      "sha256": "9dafa00978f6c4cabce5a2dd017736ac3678adfb24f72ce04bbf61b48e205161",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-EXAM-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-22"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-22-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/22-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:22.546Z",
+      "sha256": "e330527a227d62221eb67a62f891537321a73aabc965fc2256202a0a50c24eb8",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-EXAM-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-22"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/23-calendar-exam-only-applied.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:35.257Z",
+      "sha256": "3a6ddb52099c09bb19a32b464c6f37ba43ee8cc64708c54b2c029a08d1874a99",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-23"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-23-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/23-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:35.257Z",
+      "sha256": "010b8167f231317ce5bf931ead217dc0fa01743785aefd81a375676d5b1eb302",
+      "state_ids": [
+        "S-NATIVE-OCT2-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-23"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/24-filter-exam-reopened.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:48.717Z",
+      "sha256": "2242555f6642a8c027f62ae93db15c376dd775d7486e9fdca405096d38bc3a22",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-EXAM-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-24"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-24-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/24-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:48.717Z",
+      "sha256": "e330527a227d62221eb67a62f891537321a73aabc965fc2256202a0a50c24eb8",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-EXAM-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-24"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/25-filter-exam-cleared.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:58.942Z",
+      "sha256": "a89675497317cfb4a8c28f5d29e2e22cdcd58d3aebfc6ea036617c29b2d92512",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-25"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-25-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/25-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:58:58.942Z",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-25"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-NATIVE-OCT2-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/26-filter-payment-only-draft.png",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:59:09.895Z",
+      "sha256": "5f89ddd115c0c6488e68fecf80e6309c272a621c10fd76992b96ff473f9b93f4",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-26"
+      ],
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "source": "Actual native PolyULife Computer Use screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-26-AX",
+      "type": "ax_snapshot",
+      "path": "../../evidence/2026-10-02-native-calendar-resume/26-safe-ax.txt",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "captured_at": "2026-10-02T15:59:09.895Z",
+      "sha256": "306beb4c396d4acd4dc111832055edce759956459acfb55af03df12d09e38165",
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-26"
+      ],
+      "redaction": "Safe subset excludes personal values and hidden drawer; full tree kept only in ignored raw files",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/00-initial.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:29:36.262Z",
+      "sha256": "48f42d3c90d4f76716ec7feeffa7dfaab22ad3cc209cbb878f36d4bb515c15f6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/01-all-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:31:03.280Z",
+      "sha256": "ed9b2f42badc1f67344eb962517a316217f8c74ff75e48b202e5e3119de9f24e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/02-all-draft.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:31:27.162Z",
+      "sha256": "d189010ad0ebd27f24df9ea9329be7348673b206b4facb84c6aac902c9d231e6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-04"
+      ],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/03-none-draft.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:31:58.118Z",
+      "sha256": "d19f92987cff86b66f09f7a671e63a5de57e0d17f4e5299a29431e05cc2cca5c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-05"
+      ],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/04-x-restores-all.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:32:11.129Z",
+      "sha256": "82565b99c27e0b56a011d8fbcf1082f869592837b9173e6f399155a9d1cc87f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-06"
+      ],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/05-reopen-all.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:32:29.059Z",
+      "sha256": "30455d2ac4ad52706cf383b7ddaa63377e90b19aaf91128c23707a3f45ec6eff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/06-clear-for-apply.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:32:29.329Z",
+      "sha256": "d19f92987cff86b66f09f7a671e63a5de57e0d17f4e5299a29431e05cc2cca5c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-ALL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/07-none-applied.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:32:29.564Z",
+      "sha256": "048226446e31ccb2edadba33693e57ba8f057529aaff526ecdf0b9a8cffc7973",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NONE"
+      ],
+      "action_ids": [
+        "A-CALENDAR-APPLY-NONE"
+      ],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/08-none-reopened.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:33:14.227Z",
+      "sha256": "24af676b856ea58e8da3b9fbb26e7ca7adb04a78bdb333c759d461525a25cc24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-NONE"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-10"
+      ],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/09-none-cancel-generalization.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:33:14.495Z",
+      "sha256": "048226446e31ccb2edadba33693e57ba8f057529aaff526ecdf0b9a8cffc7973",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NONE"
+      ],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/10-none-reopened-again.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:33:14.734Z",
+      "sha256": "24af676b856ea58e8da3b9fbb26e7ca7adb04a78bdb333c759d461525a25cc24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-NONE"
+      ],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/11-restart-all.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:33:50.176Z",
+      "sha256": "82565b99c27e0b56a011d8fbcf1082f869592837b9173e6f399155a9d1cc87f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/12-all-draft-x-test.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:34:05.094Z",
+      "sha256": "30455d2ac4ad52706cf383b7ddaa63377e90b19aaf91128c23707a3f45ec6eff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/13-all-draft-x-generalization.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:34:05.326Z",
+      "sha256": "82565b99c27e0b56a011d8fbcf1082f869592837b9173e6f399155a9d1cc87f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-NONE-PROTO-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-none-prototype/14-editor-reloaded.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T16:34:45.617381+00:00",
+      "sha256": "f0b708085022759a61289e363f37912debad088dedc3cdc619963307d442ef9e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Account header masked",
+      "source": "Actual Computer Use Figma editor screenshot bytes"
+    },
+    {
+      "id": "E-NATIVE-OCT2-TRACE",
+      "type": "walkthrough",
+      "path": "native-calendar-resume-20261002.md",
+      "session_id": "SESSION-20261002-CALENDAR-RESUME",
+      "sha256": "b5c08fa32e3433cfa6430548026c920f239d4dc6d70b10d67c8cf16b59856ac5",
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Evidence-grounded dated walkthrough; not an additional native capture"
+    },
+    {
+      "id": "E-OCT2-NONE-TRACE",
+      "type": "walkthrough",
+      "path": "calendar-none-oct2-prototype-walkthrough.md",
+      "session_id": null,
+      "sha256": "17daa0f89f1c62c85e08aad2cf3248dbdab8297d889cf152efc029eb37ab95e1",
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Evidence-grounded dated walkthrough; not an additional native capture"
     }
   ],
   "findings": [
@@ -51048,13 +54662,27 @@
       ],
       "evidence_ids": [
         "E-SUNTRANSITION",
-        "E-SUNEMPTY"
+        "E-SUNEMPTY",
+        "E-NATIVE-OCT2-01",
+        "E-NATIVE-OCT2-TRACE"
       ],
       "hypothesis": null,
       "principle": "Visibility of system status during asynchronous updates.",
       "suggestion": "Represent both the observed transition and settled state; do not label the transient mismatch as a confirmed defect.",
       "requires_validation": [
         "Repeat the change with captured loading feedback before drawing latency or usability conclusions"
+      ],
+      "additional_observations": [
+        {
+          "observed_fact": "On resume the date strip says Today02-Oct while retained AG206 results still say30-Sep (Today). Query refresh, actual result-date data and the cause were not tested.",
+          "state_ids": [
+            "S-NATIVE-OCT2-ROOM-MIXED-DATE"
+          ],
+          "evidence_ids": [
+            "E-NATIVE-OCT2-01",
+            "E-NATIVE-OCT2-TRACE"
+          ]
+        }
       ]
     },
     {
@@ -51163,7 +54791,11 @@
       ],
       "evidence_ids": [
         "E-CALENDAR-SEP26",
-        "E-CALENDAR-TRACE"
+        "E-CALENDAR-TRACE",
+        "E-NATIVE-OCT2-03-AX",
+        "E-NATIVE-OCT2-12",
+        "E-NATIVE-OCT2-12-AX",
+        "E-NATIVE-OCT2-TRACE"
       ],
       "hypothesis": "May affect assistive reading of dates; no VoiceOver or participant test performed.",
       "principle": "Accessible names should convey the same date meaning as visual labels.",
@@ -51172,6 +54804,21 @@
         "Independent AX replication",
         "Real iOS VoiceOver date navigation",
         "Confirm visual calendar remains correct"
+      ],
+      "additional_observations": [
+        {
+          "observed_fact": "Oct2 selected-day AX says no entries while a Class card is visible. Oct3 in Saturday column is called Sunday by AX; source text is preserved in safe subsets. VoiceOver behavior and user impact remain untested.",
+          "state_ids": [
+            "S-NATIVE-OCT2-ALL",
+            "S-NATIVE-OCT2-CLASS"
+          ],
+          "evidence_ids": [
+            "E-NATIVE-OCT2-03-AX",
+            "E-NATIVE-OCT2-12",
+            "E-NATIVE-OCT2-12-AX",
+            "E-NATIVE-OCT2-TRACE"
+          ]
+        }
       ]
     },
     {
@@ -59063,6 +62710,218 @@
           "E-CALENDAR-GLOBAL-TRACE"
         ],
         "context_variant": "20261002-global-calendar-6"
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-ALL",
+        "node_id": "791:177",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=791-177",
+        "node_name": "[OCT2:ALL] Calendar all — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-03"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-all-demo.svg",
+        "design_source_sha256": "2df6009d655ce9022df30d6b12dbd9f6583aba83a4f514ad0e2125140a37ee51",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            68500
+          ]
+        },
+        "native_editability": "Imported text and vector groups; generic classroom glyph vector approximation.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite normalized fullscreen sample; private class values DEMO and private date markers omitted. Phone/full fidelity not accepted.",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-03"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-NONE-PROTO-07",
+          "E-OCT2-NONE-PROTO-14"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+        "node_id": "791:335",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=791-335",
+        "node_name": "[OCT2:ALL-D] All draft — applied all",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-04"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-all-all.svg",
+        "design_source_sha256": "a94df07b5ac5245b69aa3481377b0677789253b751ccf9ac2e3e55bbd57c8c5a",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            68500
+          ]
+        },
+        "native_editability": "Imported text and vector groups; generic classroom glyph vector approximation.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite normalized fullscreen sample; private class values DEMO and private date markers omitted. Phone/full fidelity not accepted.",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-04"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-NONE-PROTO-07",
+          "E-OCT2-NONE-PROTO-14"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+        "node_id": "791:529",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=791-529",
+        "node_name": "[OCT2:NONE-D] None draft — applied all",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-05",
+          "E-NATIVE-OCT2-08"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-none-all.svg",
+        "design_source_sha256": "5572ddd9577e4da993fc8d0b1916a705245d24e318de22c45e2897d2537d2192",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            68500
+          ]
+        },
+        "native_editability": "Imported text and vector groups; generic classroom glyph vector approximation.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite normalized fullscreen sample; private class values DEMO and private date markers omitted. Phone/full fidelity not accepted.",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-05",
+            "E-NATIVE-OCT2-08"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-NONE-PROTO-07",
+          "E-OCT2-NONE-PROTO-14"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-NONE",
+        "node_id": "791:713",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=791-713",
+        "node_name": "[OCT2:NONE] No Selected Event — applied",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-09"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-none.svg",
+        "design_source_sha256": "e740cfeac9befa151edcae78239eace2b1d5f39139648ace961e73ca0b45d301",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            68500
+          ]
+        },
+        "native_editability": "Imported text and vector groups; generic classroom glyph vector approximation.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite normalized fullscreen sample; private class values DEMO and private date markers omitted. Phone/full fidelity not accepted.",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-09"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-NONE-PROTO-07",
+          "E-OCT2-NONE-PROTO-14"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+        "node_id": "791:873",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=791-873",
+        "node_name": "[OCT2:NONE-R] None draft — applied none",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-10"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-none-none.svg",
+        "design_source_sha256": "fda2df2c16fb87a5ed5f1b56819bf79177fdc0a80242f0915f3b8e263f3f1850",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2800,
+            68500
+          ]
+        },
+        "native_editability": "Imported text and vector groups; generic classroom glyph vector approximation.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite normalized fullscreen sample; private class values DEMO and private date markers omitted. Phone/full fidelity not accepted.",
+          "evidence_ids": [
+            "E-NATIVE-OCT2-10"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-NONE-PROTO-07",
+          "E-OCT2-NONE-PROTO-14"
+        ]
       }
     ],
     "action_connection_mappings": [
@@ -72577,6 +76436,180 @@
           "D-CALENDAR-GLOBAL-LIMITS"
         ],
         "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "791:177",
+        "trigger_node_id": "791:286",
+        "action_id": "A-NATIVE-OCT2-04",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "791:335",
+        "configured_at": "2026-10-02T16:22:43.076Z",
+        "readback": [
+          "\t\t\t\t\t\t339 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t345 combo box (collapsed) Action, Value: Navigate to, ID: :r8m:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t352 combo box (collapsed) Destination, Value: [OCT2:ALL-D] All draft — applied all, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t357 combo box (collapsed) Animation, Value: Instant, ID: :r9i:, Secondary Actions: Expand",
+          "The focused UI element is 352 combo box (collapsed) Destination, Value: [OCT2:ALL-D] All draft — applied all, ID: :r95:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-NONE-01",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded",
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ]
+      },
+      {
+        "source_node_id": "791:335",
+        "trigger_node_id": "791:500",
+        "action_id": "A-NATIVE-OCT2-05",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "791:529",
+        "configured_at": "2026-10-02T16:24:13.101Z",
+        "readback": [
+          "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:NONE-D] None draft — applied all, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:NONE-D] None draft — applied all, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "inference": null,
+        "connection_id": "C-OCT2-NONE-02",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded",
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ]
+      },
+      {
+        "source_node_id": "791:529",
+        "trigger_node_id": "791:690",
+        "action_id": "A-NATIVE-OCT2-06",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "791:177",
+        "configured_at": "2026-10-02T16:24:38.879Z",
+        "readback": [
+          "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:ALL] Calendar all — DEMO, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:ALL] Calendar all — DEMO, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "inference": null,
+        "connection_id": "C-OCT2-NONE-03",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded",
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ]
+      },
+      {
+        "source_node_id": "791:529",
+        "trigger_node_id": "791:709",
+        "action_id": "A-CALENDAR-APPLY-NONE",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "791:713",
+        "configured_at": "2026-10-02T16:25:27.065Z",
+        "readback": [
+          "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:NONE] No Selected Event — applied, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:NONE] No Selected Event — applied, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "inference": null,
+        "connection_id": "C-OCT2-NONE-04",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded",
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ]
+      },
+      {
+        "source_node_id": "791:713",
+        "trigger_node_id": "791:822",
+        "action_id": "A-NATIVE-OCT2-10",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "791:873",
+        "configured_at": "2026-10-02T16:26:18.513Z",
+        "readback": [
+          "\t\t\t\t\t\t468 combo box (collapsed) Trigger, Value: On click, ID: :rb1:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t474 combo box (collapsed) Action, Value: Navigate to, ID: :rb4:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t481 combo box (collapsed) Destination, Value: [OCT2:NONE-R] None draft — applied none, ID: :rbj:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t486 combo box (collapsed) Animation, Value: Instant, ID: :rc0:, Secondary Actions: Expand",
+          "The focused UI element is 481 combo box (collapsed) Destination, Value: [OCT2:NONE-R] None draft — applied none, ID: :rbj:, Secondary Actions: Expand"
+        ],
+        "inference": null,
+        "connection_id": "C-OCT2-NONE-05",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded",
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ]
+      },
+      {
+        "source_node_id": "791:873",
+        "trigger_node_id": "791:1036",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "791:713",
+        "configured_at": "2026-10-02T16:26:45.104Z",
+        "readback": [
+          "\t\t\t\t\t\t672 combo box (collapsed) Trigger, Value: On click, ID: :ren:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t678 combo box (collapsed) Action, Value: Navigate to, ID: :req:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t685 combo box (collapsed) Destination, Value: [OCT2:NONE] No Selected Event — applied, ID: :rf9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t690 combo box (collapsed) Animation, Value: Instant, ID: :rfm:, Secondary Actions: Expand",
+          "The focused UI element is 685 combo box (collapsed) Destination, Value: [OCT2:NONE] No Selected Event — applied, ID: :rf9:, Secondary Actions: Expand"
+        ],
+        "inference": "Prototype cancellation generalization: X keeps the applied none background; this exact native source was not exercised.",
+        "connection_id": "C-OCT2-NONE-06",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded",
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ]
+      },
+      {
+        "source_node_id": "791:335",
+        "trigger_node_id": "791:496",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "791:177",
+        "configured_at": "2026-10-02T16:26:49.939Z",
+        "readback": [
+          "\t\t\t\t\t\t942 combo box (collapsed) Trigger, Value: On click, ID: :rjp:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t948 combo box (collapsed) Action, Value: Navigate to, ID: :rjs:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t955 combo box (collapsed) Destination, Value: [OCT2:ALL] Calendar all — DEMO, ID: :rkb:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t961 combo box (collapsed) Animation, Value: Instant, ID: :rko:, Secondary Actions: Expand",
+          "The focused UI element is 955 combo box (collapsed) Destination, Value: [OCT2:ALL] Calendar all — DEMO, ID: :rkb:, Secondary Actions: Expand"
+        ],
+        "inference": "Prototype unchanged-draft dismissal; native Oct2 none-draft cancellation supports the rule, but this exact source X was not exercised.",
+        "connection_id": "C-OCT2-NONE-07",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded",
+        "prototype_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -94031,6 +98064,225 @@
           "Other categories, Apply None, other dates/modes/class details/QR remain incomplete.",
           "Subsequent segments continue earlier state except explicit URL/restart/fresh-tab resets."
         ]
+      },
+      {
+        "id": "PROTO-OCT2-NONE-CANCEL-001",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "start_node_id": "791:177",
+        "started_at": "2026-10-02T16:31:03.280Z",
+        "ended_at": "2026-10-02T16:32:11.129Z",
+        "status": "partial",
+        "navigation_status": "Finite recorded path visibly passed",
+        "visual_status": "Approximate native geometry/fonts and synthetic private content; complete fidelity unverified",
+        "steps": [
+          {
+            "file": "01-all-baseline.png",
+            "at": "2026-10-02T16:31:03.280Z",
+            "description": "all-baseline",
+            "state_id": "S-NATIVE-OCT2-ALL",
+            "visible_node_id": "791:177",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-all-draft.png",
+            "at": "2026-10-02T16:31:27.162Z",
+            "description": "all-draft",
+            "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+            "visible_node_id": "791:335",
+            "action_id": "A-NATIVE-OCT2-04",
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-none-draft.png",
+            "at": "2026-10-02T16:31:58.118Z",
+            "description": "none-draft",
+            "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+            "visible_node_id": "791:529",
+            "action_id": "A-NATIVE-OCT2-05",
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-x-restores-all.png",
+            "at": "2026-10-02T16:32:11.129Z",
+            "description": "x-restores-all",
+            "state_id": "S-NATIVE-OCT2-ALL",
+            "visible_node_id": "791:177",
+            "action_id": "A-NATIVE-OCT2-06",
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Standalone reference flow; main application callers not integrated.",
+          "Two X exits are explicitly inferred prototype behavior.",
+          "No human evaluation or full application acceptance."
+        ]
+      },
+      {
+        "id": "PROTO-OCT2-NONE-APPLY-001",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "start_node_id": "791:177",
+        "started_at": "2026-10-02T16:32:11.129Z",
+        "ended_at": "2026-10-02T16:33:14.734Z",
+        "status": "partial",
+        "navigation_status": "Finite recorded path visibly passed",
+        "visual_status": "Approximate native geometry/fonts and synthetic private content; complete fidelity unverified",
+        "steps": [
+          {
+            "file": "04-x-restores-all.png",
+            "at": "2026-10-02T16:32:11.129Z",
+            "description": "x-restores-all",
+            "state_id": "S-NATIVE-OCT2-ALL",
+            "visible_node_id": "791:177",
+            "action_id": "A-NATIVE-OCT2-06",
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-reopen-all.png",
+            "at": "2026-10-02T16:32:29.059Z",
+            "description": "reopen-all",
+            "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+            "visible_node_id": "791:335",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-clear-for-apply.png",
+            "at": "2026-10-02T16:32:29.329Z",
+            "description": "clear-for-apply",
+            "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+            "visible_node_id": "791:529",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-none-applied.png",
+            "at": "2026-10-02T16:32:29.564Z",
+            "description": "none-applied",
+            "state_id": "S-NATIVE-OCT2-NONE",
+            "visible_node_id": "791:713",
+            "action_id": "A-CALENDAR-APPLY-NONE",
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-none-reopened.png",
+            "at": "2026-10-02T16:33:14.227Z",
+            "description": "none-reopened",
+            "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+            "visible_node_id": "791:873",
+            "action_id": "A-NATIVE-OCT2-10",
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "09-none-cancel-generalization.png",
+            "at": "2026-10-02T16:33:14.495Z",
+            "description": "none-cancel-generalization",
+            "state_id": "S-NATIVE-OCT2-NONE",
+            "visible_node_id": "791:713",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "10-none-reopened-again.png",
+            "at": "2026-10-02T16:33:14.734Z",
+            "description": "none-reopened-again",
+            "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+            "visible_node_id": "791:873",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-10"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Standalone reference flow; main application callers not integrated.",
+          "Two X exits are explicitly inferred prototype behavior.",
+          "No human evaluation or full application acceptance."
+        ]
+      },
+      {
+        "id": "PROTO-OCT2-NONE-RESTART-001",
+        "revision_id": "FIGMA-OCT2-NONE-20261003",
+        "start_node_id": "791:177",
+        "started_at": "2026-10-02T16:33:50.176Z",
+        "ended_at": "2026-10-02T16:34:05.326Z",
+        "status": "partial",
+        "navigation_status": "Finite recorded path visibly passed",
+        "visual_status": "Approximate native geometry/fonts and synthetic private content; complete fidelity unverified",
+        "steps": [
+          {
+            "file": "11-restart-all.png",
+            "at": "2026-10-02T16:33:50.176Z",
+            "description": "restart-all",
+            "state_id": "S-NATIVE-OCT2-ALL",
+            "visible_node_id": "791:177",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-11"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "12-all-draft-x-test.png",
+            "at": "2026-10-02T16:34:05.094Z",
+            "description": "all-draft-x-test",
+            "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+            "visible_node_id": "791:335",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-12"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "13-all-draft-x-generalization.png",
+            "at": "2026-10-02T16:34:05.326Z",
+            "description": "all-draft-x-generalization",
+            "state_id": "S-NATIVE-OCT2-ALL",
+            "visible_node_id": "791:177",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-NONE-PROTO-13"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Standalone reference flow; main application callers not integrated.",
+          "Two X exits are explicitly inferred prototype behavior.",
+          "No human evaluation or full application acceptance."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -94110,7 +98362,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "147 mapped frames / 3 internal component states / 339 configured controls / 16 scroll regions / 101 prototype runs. Calendar default and applied-background filter cycle integrated, same-glyph repairs preserved. Complete app/fidelity not_verified.",
+    "verification_summary": "152 mapped frames / 3 internal component states / 346 configured controls /16 scroll regions /104 prototype runs. Oct2 None-filter reference added and sampled; complete app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -94499,7 +98751,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-ROOM-MAP-V1",
+    "current_revision": "FIGMA-OCT2-NONE-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -95653,37 +99905,33 @@
           "PROTO-ROOM-REMAINING-DATES-001"
         ],
         "scope": "Ten main historical dated contexts with continuous horizontal bars and Today vertical list; two route samples. Complete date/filter/caller/full App scope pending."
+      },
+      {
+        "name": "Reference · Oct2 None filters — partial",
+        "description": "Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
+        "readback": [
+          "\t\t\t\t\t1100 container Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
+          "\t\t\t\t\t\t1112 text Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
+          "The focused UI element is 1100 container Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow."
+        ],
+        "start_node_id": "791:177",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+        "tested_run_ids": [
+          "PROTO-OCT2-NONE-CANCEL-001",
+          "PROTO-OCT2-NONE-APPLY-001",
+          "PROTO-OCT2-NONE-RESTART-001"
+        ],
+        "scope": "Five dated native None-filter reference states only; complete Calendar and main callers not integrated."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-02T12:15:19.342Z",
+    "latest_prototype_run_cutoff": "2026-10-02T16:34:05.326Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-ACCOUNT-LOADING-SCREEN-01",
-      "E-ACCOUNT-LOADING-SCREEN-02",
-      "E-ACCOUNT-LOADING-SCREEN-03",
-      "E-ACCOUNT-LOADING-SCREEN-04",
-      "E-ACCOUNT-LOADING-SCREEN-05",
-      "E-ACCOUNT-LOADING-SCREEN-06",
-      "E-ACCOUNT-LOADING-SCREEN-07",
-      "E-ACCOUNT-LOADING-SCREEN-08",
-      "E-ACCOUNT-LOADING-SCREEN-09",
-      "E-ACCOUNT-LOADING-SCREEN-10",
-      "E-ACCOUNT-LOADING-SCREEN-11",
-      "E-ACCOUNT-LOADING-SCREEN-12",
-      "E-ACCOUNT-LOADING-SCREEN-13",
-      "E-ACCOUNT-LOADING-SCREEN-14",
-      "E-ACCOUNT-LOADING-SCREEN-15",
-      "E-ACCOUNT-LOADING-SCREEN-45",
-      "E-ACCOUNT-LOADING-SCREEN-46",
-      "E-ACCOUNT-LOADING-SCREEN-52",
-      "E-ACCOUNT-LOADING-SCREEN-53",
-      "E-ACCOUNT-LOADING-SCREEN-54",
-      "E-ACCOUNT-LOADING-SCREEN-55",
-      "E-ACCOUNT-LOADING-SCREEN-63"
+      "E-OCT2-NONE-PROTO-14"
     ],
-    "latest_editor_verified_at": "2026-09-30T17:05:23.612Z",
+    "latest_editor_verified_at": "2026-10-02T16:34:45.617381+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
@@ -98559,11 +102807,13 @@
     {
       "id": "Q-EP002",
       "entry_point_id": "EP002",
-      "reason": "Native Home Calendar Week5 entry observed; prototype target corrected and roundtrip reverified. Other weeks, dates, timetable interactions and full coverage remain incomplete.",
+      "reason": "Native Home Calendar Week5 entry observed; prototype target corrected and roundtrip reverified. Other weeks, dates, timetable interactions and full coverage remain incomplete. Oct2 resumed Home Calendar opens month rather than prior Week sample; mode/caller retention needs native verification and main-prototype integration. Do not assert a universal fixed Week target.",
       "status": "in_progress",
       "resolution_refs": [
         "E-HOME-ENTRY-RECHECK-TRACE",
-        "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+        "E-FIGMA-CALENDAR-WEEK-FIX-TRACE",
+        "E-NATIVE-OCT2-03",
+        "E-NATIVE-OCT2-03-AX"
       ]
     },
     {
@@ -98761,13 +103011,37 @@
         "S-CALENDAR-WEEK",
         "S-CALENDAR-WEEK-PICKER",
         "S-CALENDAR-OCT1",
-        "S-CALENDAR-SEP1"
+        "S-CALENDAR-SEP1",
+        "S-NATIVE-OCT2-ALL",
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+        "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+        "S-NATIVE-OCT2-NONE",
+        "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+        "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+        "S-NATIVE-OCT2-CLASS",
+        "S-NATIVE-OCT2-CLASS-DETAIL",
+        "S-NATIVE-OCT2-NOTICE-LOADING",
+        "S-NATIVE-OCT2-NOTICE-BLANK",
+        "S-NATIVE-OCT2-NOTICE-MENU",
+        "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+        "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+        "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+        "S-NATIVE-OCT2-EXAM",
+        "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+        "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+        "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM"
       ],
-      "reason": "Verify remaining filters/cancel, empty selection apply, list bounds/history reverse, other event details, week selection and month/semester boundaries without publishing personal data. Historical default all-category screenshot now redacted, editable DEMO source prepared; More->default/ApplyAll->default/Notification routes still need Figma integration. Class-card ellipsis destination is not attempted.",
+      "reason": "Oct2 native none Apply/reopen, none X cancellation, Class/Exam Apply/reopen, class detail and Notice container now recorded. Payment Apply outcome unknown; historical Acad X, all-category ellipsis, complete combinations, history reverse/bounds, other weeks/dates remain open.",
       "status": "in_progress",
       "resolution_refs": [
         "E-CALENDAR-TRACE",
-        "E-CALENDAR-DEFAULT-SOURCE-TRACE"
+        "E-CALENDAR-DEFAULT-SOURCE-TRACE",
+        "E-NATIVE-OCT2-09",
+        "E-NATIVE-OCT2-13",
+        "E-NATIVE-OCT2-23",
+        "E-NATIVE-OCT2-26",
+        "E-NATIVE-OCT2-TRACE",
+        "E-OCT2-NONE-TRACE"
       ]
     },
     {
@@ -98874,11 +103148,13 @@
         "S-MORE-SEARCH-EMPTY",
         "S-DRAWER"
       ],
-      "reason": "Four native Home entries/returns observed; Figma Calendar target corrected to Week5 synthetic sample and roundtrip reverified. Full source-state retention and remaining target controls still pending.",
+      "reason": "Four native Home entries/returns observed; Figma Calendar target corrected to Week5 synthetic sample and roundtrip reverified. Full source-state retention and remaining target controls still pending. Oct2 resumed Home Calendar opens month rather than prior Week sample; mode/caller retention needs native verification and main-prototype integration. Do not assert a universal fixed Week target.",
       "status": "in_progress",
       "resolution_refs": [
         "E-HOME-ENTRY-RECHECK-TRACE",
-        "E-FIGMA-CALENDAR-WEEK-FIX-TRACE"
+        "E-FIGMA-CALENDAR-WEEK-FIX-TRACE",
+        "E-NATIVE-OCT2-03",
+        "E-NATIVE-OCT2-03-AX"
       ]
     },
     {
