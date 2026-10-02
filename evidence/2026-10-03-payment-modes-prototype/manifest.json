@@ -1,0 +1,296 @@
+{
+  "kind": "actual_figma_payment_modes_history_and_home_regression",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-month-start.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:26.845Z",
+      "description": "month-start",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "01-events-empty.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:27.089Z",
+      "description": "events-empty",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "02-history-demo.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:27.393Z",
+      "description": "history-demo",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "03-week-after-history.png",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:36.416Z",
+      "description": "week-after-history",
+      "node_id": "835:312",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "action_id": "A-NATIVE-PAYMENT-HISTORY-WEEK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "04-month-after-week.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:36.713Z",
+      "description": "month-after-week",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "05-events-history-reset.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:36.948Z",
+      "description": "events-history-reset",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "06-history-repeat.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:37.216Z",
+      "description": "history-repeat",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "07-events-hidden.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:37.453Z",
+      "description": "events-hidden",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "08-week-from-empty.png",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:37.722Z",
+      "description": "week-from-empty",
+      "node_id": "835:312",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "09-month-restored.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:37.959Z",
+      "description": "month-restored",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "10-home-regression.png",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:38.228Z",
+      "description": "home-regression",
+      "node_id": "825:19",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "11-calendar-regression.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:52:38.498Z",
+      "description": "calendar-regression",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "editor-flow.png",
+      "sha256": "d9c489372fa8b45036e60a13ca43cb69b6638edda912bb11b5d4b9b9bd0fafa6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T18:53:28.511056+00:00",
+      "description": "Actual scope28 frames39 controls and limits",
+      "source": "Actual Figma editor screenshot",
+      "redaction": "Account header half-open[1039,0,1124,49] masked"
+    }
+  ],
+  "app_crop_xyxy": [
+    425,
+    60,
+    785,
+    700
+  ],
+  "limits": [
+    "Finite October2 Payment mode/history contexts only; full date/category/caller state model unimplemented.",
+    "History records/dates and Week class count/values/positions wholly synthetic DEMO; original private records never uploaded.",
+    "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
+    "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
+  ],
+  "events": [
+    {
+      "kind": "editor_selection_guard_correction",
+      "result": "Root guard rejected a long History selection; subsequent independent AX confirmed selected root. AX ordering/selection timing contributions not isolated. Separate configuration used; no connections logged for rejected attempts."
+    },
+    {
+      "kind": "week_footer_correction",
+      "result": "970-template footer shifted54 clipped at1024. Replaced only footer with full Calendar navigation576x124 at0,900; root835:312 preserved. Generator source likewise corrected."
+    },
+    {
+      "kind": "flow_locator_correction",
+      "result": "Reference All not present in virtualized layer list; inspected rows and scrolled down to actual row before selecting. No new flow created."
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 4,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype finite sample, not native fidelity"
+    },
+    {
+      "a": 0,
+      "b": 9,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype finite sample, not native fidelity"
+    },
+    {
+      "a": 0,
+      "b": 11,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype finite sample, not native fidelity"
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype finite sample, not native fidelity"
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype finite sample, not native fidelity"
+    },
+    {
+      "a": 2,
+      "b": 6,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype finite sample, not native fidelity"
+    },
+    {
+      "a": 3,
+      "b": 8,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype finite sample, not native fidelity"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "1c98f8774b9f34c8657ab1bd5e3707fb3ff1ddf8c734623f3e6b2dc6d65666da",
+    "dimensions": [
+      1440,
+      2040
+    ],
+    "source": "Twelve actual masked Present samples"
+  }
+}

@@ -722,6 +722,57 @@
         "Private Home greeting/exam values/news preview masked; Figma values synthetic DEMO.",
         "View-mode control lacks established targeting in this session; no mode action recorded."
       ]
+    },
+    {
+      "id": "SESSION-20261003-PAYMENT-MODES",
+      "started_at": "2026-10-02T18:42:06.894Z",
+      "documented_through": "2026-10-02T18:45:34.673Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac; Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "app_version_source_session_id": "SESSION-20261003-CALENDAR-PAYMENT",
+        "login_state": "Existing login retained; no credentials entered",
+        "recovery": "Inventory running identity, same-session ambiguous bundle discovery, fresh observed Wrapper bind and Raise. No quit/restart/configuration change."
+      },
+      "starting_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "evidence_ids": [
+        "E-NATIVE-PAYMODE-00",
+        "E-NATIVE-PAYMODE-00-AX",
+        "E-NATIVE-PAYMODE-01",
+        "E-NATIVE-PAYMODE-01-AX",
+        "E-NATIVE-PAYMODE-02",
+        "E-NATIVE-PAYMODE-02-AX",
+        "E-NATIVE-PAYMODE-03",
+        "E-NATIVE-PAYMODE-03-AX",
+        "E-NATIVE-PAYMODE-04",
+        "E-NATIVE-PAYMODE-04-AX",
+        "E-NATIVE-PAYMODE-05",
+        "E-NATIVE-PAYMODE-05-AX",
+        "E-NATIVE-PAYMODE-06",
+        "E-NATIVE-PAYMODE-06-AX",
+        "E-NATIVE-PAYMODE-07",
+        "E-NATIVE-PAYMODE-07-AX",
+        "E-NATIVE-PAYMODE-08",
+        "E-NATIVE-PAYMODE-08-AX",
+        "E-NATIVE-PAYMODE-09",
+        "E-NATIVE-PAYMODE-09-AX",
+        "E-NATIVE-PAYMODE-10",
+        "E-NATIVE-PAYMODE-10-AX",
+        "E-NATIVE-PAYMODE-11",
+        "E-NATIVE-PAYMODE-11-AX",
+        "E-NATIVE-PAYMODE-CONTACT"
+      ],
+      "limitations": [
+        "Observed finite Month→Events→Week→Month cycle from October2 Payment. Events history resets to hidden on reentry after this cycle.",
+        "History records/dates and all Week class values/positions masked. Figma private content must be wholly synthetic DEMO.",
+        "Week shows a class timetable without Payment category header; does not establish global category rules or a bug.",
+        "Fresh discovered Wrapper and Raise did not restore coordinate input; native AX mode and history actions work.",
+        "Filter coordinate noWindowsAvailable, Events filter container unchanged; no overlay outcome or executed coordinate input established.",
+        "No payments/orders or personal data modifications performed; app version not reverified."
+      ]
     }
   ],
   "entry_points": [
@@ -4461,7 +4512,11 @@
         "E-NATIVE-PAYMENT-DATES-06",
         "E-NATIVE-PAYMENT-DATES-07",
         "E-NATIVE-PAYNAV-00",
-        "E-NATIVE-PAYNAV-06"
+        "E-NATIVE-PAYNAV-06",
+        "E-NATIVE-PAYMODE-00",
+        "E-NATIVE-PAYMODE-01",
+        "E-NATIVE-PAYMODE-06",
+        "E-NATIVE-PAYMODE-11"
       ],
       "ax_evidence_ids": [
         "E-NATIVE-OCT3-PAYMENT-01-AX",
@@ -4474,12 +4529,17 @@
         "E-NATIVE-PAYMENT-DATES-06-AX",
         "E-NATIVE-PAYMENT-DATES-07-AX",
         "E-NATIVE-PAYNAV-00-AX",
-        "E-NATIVE-PAYNAV-06-AX"
+        "E-NATIVE-PAYNAV-06-AX",
+        "E-NATIVE-PAYMODE-00-AX",
+        "E-NATIVE-PAYMODE-01-AX",
+        "E-NATIVE-PAYMODE-06-AX",
+        "E-NATIVE-PAYMODE-11-AX"
       ],
       "action_ids": [
         "A-NATIVE-OCT3-PAYMENT-REOPEN",
         "A-NATIVE-OCT3-PAYMENT-HOME",
-        "A-NATIVE-OCT3-PAYMENT-DAY3"
+        "A-NATIVE-OCT3-PAYMENT-DAY3",
+        "A-NATIVE-PAYMENT-EVENTS"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -4626,6 +4686,97 @@
         "Filter AX no visible effect; screenshot-coordinate correction returned noWindowsAvailable, no executed coordinate input established.",
         "Private Home greeting/exam values/news preview masked; Figma values synthetic DEMO.",
         "View-mode control lacks established targeting in this session; no mode action recorded."
+      ]
+    },
+    {
+      "id": "S-NATIVE-PAYMENT-EVENTS",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "title": "Events — Payment No event",
+      "description": "Actual native mode/history state in finite October2 Payment context. Private records/course fields masked.",
+      "visible_scope": "Normalized576x1024 viewport; history/grid records masked, public header/nav retained",
+      "preconditions": "Existing October2 Payment Month state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYMODE-02",
+        "E-NATIVE-PAYMODE-07",
+        "E-NATIVE-PAYMODE-09"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYMODE-02-AX",
+        "E-NATIVE-PAYMODE-07-AX",
+        "E-NATIVE-PAYMODE-09-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY",
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Observed finite Month→Events→Week→Month cycle from October2 Payment. Events history resets to hidden on reentry after this cycle.",
+        "History records/dates and all Week class values/positions masked. Figma private content must be wholly synthetic DEMO.",
+        "Week shows a class timetable without Payment category header; does not establish global category rules or a bug.",
+        "Fresh discovered Wrapper and Raise did not restore coordinate input; native AX mode and history actions work.",
+        "Filter coordinate noWindowsAvailable, Events filter container unchanged; no overlay outcome or executed coordinate input established.",
+        "No payments/orders or personal data modifications performed; app version not reverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-PAYMENT-HISTORY",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "title": "Events — Payment history shown (private records masked)",
+      "description": "Actual native mode/history state in finite October2 Payment context. Private records/course fields masked.",
+      "visible_scope": "Normalized576x1024 viewport; history/grid records masked, public header/nav retained",
+      "preconditions": "Existing October2 Payment Month state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYMODE-03",
+        "E-NATIVE-PAYMODE-04",
+        "E-NATIVE-PAYMODE-08"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYMODE-03-AX",
+        "E-NATIVE-PAYMODE-04-AX",
+        "E-NATIVE-PAYMODE-08-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY",
+        "A-NATIVE-PAYMENT-HISTORY-WEEK",
+        "A-NATIVE-PAYMENT-HISTORY-FILTER"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Observed finite Month→Events→Week→Month cycle from October2 Payment. Events history resets to hidden on reentry after this cycle.",
+        "History records/dates and all Week class values/positions masked. Figma private content must be wholly synthetic DEMO.",
+        "Week shows a class timetable without Payment category header; does not establish global category rules or a bug.",
+        "Fresh discovered Wrapper and Raise did not restore coordinate input; native AX mode and history actions work.",
+        "Filter coordinate noWindowsAvailable, Events filter container unchanged; no overlay outcome or executed coordinate input established.",
+        "No payments/orders or personal data modifications performed; app version not reverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "title": "Week5 — Sep-Oct class grid from Payment mode cycle",
+      "description": "Actual native mode/history state in finite October2 Payment context. Private records/course fields masked.",
+      "visible_scope": "Normalized576x1024 viewport; history/grid records masked, public header/nav retained",
+      "preconditions": "Existing October2 Payment Month state",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYMODE-05",
+        "E-NATIVE-PAYMODE-10"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYMODE-05-AX",
+        "E-NATIVE-PAYMODE-10-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Observed finite Month→Events→Week→Month cycle from October2 Payment. Events history resets to hidden on reentry after this cycle.",
+        "History records/dates and all Week class values/positions masked. Figma private content must be wholly synthetic DEMO.",
+        "Week shows a class timetable without Payment category header; does not establish global category rules or a bug.",
+        "Fresh discovered Wrapper and Raise did not restore coordinate input; native AX mode and history actions work.",
+        "Filter coordinate noWindowsAvailable, Events filter container unchanged; no overlay outcome or executed coordinate input established.",
+        "No payments/orders or personal data modifications performed; app version not reverified."
       ]
     }
   ],
@@ -12309,13 +12460,27 @@
             "E-NATIVE-OCT3-PAYMENT-05",
             "E-NATIVE-OCT3-PAYMENT-05-AX"
           ]
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:42:08.558Z",
+          "input": "Fresh discovered Wrapper, Raise then screenshot coordinate(1962,930)",
+          "outcome": "Fresh Wrapper Raise then screenshot coordinate returned noWindowsAvailable; input execution not established.",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-01",
+            "E-NATIVE-PAYMODE-01-AX"
+          ],
+          "result_kind": "input_not_executed_noWindowsAvailable"
         }
       ],
       "target_state_id": null,
       "evidence_ids": [
         "E-NATIVE-OCT3-PAYMENT-02",
         "E-NATIVE-OCT3-PAYMENT-03",
-        "E-NATIVE-OCT3-PAYMENT-05"
+        "E-NATIVE-OCT3-PAYMENT-05",
+        "E-NATIVE-PAYMODE-01",
+        "E-NATIVE-PAYMODE-01-AX"
       ],
       "return_path": null,
       "authorization": "Ordinary reversible category filter navigation",
@@ -12693,6 +12858,260 @@
       "authorization": "Ordinary reversible navigation/filter lookup; no transaction or private data change",
       "blockers": [],
       "verification_boundary": "One finite October3 Payment caller context only"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-EVENTS",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "control": "Month view toggle",
+      "input_summary": "AX click fresh element53 description; AX click fresh element53",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:42:24.186Z",
+          "input": "AX click fresh element53 description",
+          "outcome": "view-element-attempt",
+          "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-02",
+            "E-NATIVE-PAYMODE-02-AX"
+          ],
+          "result_kind": "observed_target"
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:44:59.659Z",
+          "input": "AX click fresh element53",
+          "outcome": "Reenter Events after Week/Month: Show History and No event; history flag reset in this finite cycle.",
+          "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-07",
+            "E-NATIVE-PAYMODE-07-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "evidence_ids": [
+        "E-NATIVE-PAYMODE-02",
+        "E-NATIVE-PAYMODE-02-AX",
+        "E-NATIVE-PAYMODE-07",
+        "E-NATIVE-PAYMODE-07-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Finite Payment caller mode cycle; no universal state rules or boundaries"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "from_state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "control": "Show History",
+      "input_summary": "AX click fresh element16 Events Show History; AX click fresh Events header16",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:42:55.651Z",
+          "input": "AX click fresh element16 Events Show History",
+          "outcome": "events-history-shown",
+          "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-03",
+            "E-NATIVE-PAYMODE-03-AX"
+          ],
+          "result_kind": "observed_target"
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:45:27.856Z",
+          "input": "AX click fresh Events header16",
+          "outcome": "history-shown-repeat",
+          "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-08",
+            "E-NATIVE-PAYMODE-08-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "evidence_ids": [
+        "E-NATIVE-PAYMODE-03",
+        "E-NATIVE-PAYMODE-03-AX",
+        "E-NATIVE-PAYMODE-08",
+        "E-NATIVE-PAYMODE-08-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Finite Payment caller mode cycle; no universal state rules or boundaries"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-HISTORY-FILTER",
+      "from_state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "control": "Events Filter icon container",
+      "input_summary": "AX click fresh container18 Filter icon",
+      "status": "attempted_unverified",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:43:38.516Z",
+          "input": "AX click fresh container18 Filter icon",
+          "outcome": "Events filter container input returned; no opened filter established, saved history view unchanged.",
+          "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-04",
+            "E-NATIVE-PAYMODE-04-AX"
+          ],
+          "result_kind": "target_not_established"
+        }
+      ],
+      "target_state_id": null,
+      "evidence_ids": [
+        "E-NATIVE-PAYMODE-04",
+        "E-NATIVE-PAYMODE-04-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
+      "blockers": [
+        "No visible filter overlay from container input"
+      ],
+      "verification_boundary": "Finite Payment caller mode cycle; no universal state rules or boundaries"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-HISTORY-WEEK",
+      "from_state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "control": "Events view toggle → Week",
+      "input_summary": "AX click fresh element17",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:43:56.926Z",
+          "input": "AX click fresh element17",
+          "outcome": "week-after-events-history",
+          "target_state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-05",
+            "E-NATIVE-PAYMODE-05-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "evidence_ids": [
+        "E-NATIVE-PAYMODE-05",
+        "E-NATIVE-PAYMODE-05-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Finite Payment caller mode cycle; no universal state rules or boundaries"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "from_state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "control": "Week view toggle → Month",
+      "input_summary": "AX click fresh element17 calendar icon; AX click fresh element17",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:44:53.117Z",
+          "input": "AX click fresh element17 calendar icon",
+          "outcome": "month-after-week-history",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-06",
+            "E-NATIVE-PAYMODE-06-AX"
+          ],
+          "result_kind": "observed_target"
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:45:34.673Z",
+          "input": "AX click fresh element17",
+          "outcome": "month-restored-after-mode-cycle",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-11",
+            "E-NATIVE-PAYMODE-11-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "evidence_ids": [
+        "E-NATIVE-PAYMODE-06",
+        "E-NATIVE-PAYMODE-06-AX",
+        "E-NATIVE-PAYMODE-11",
+        "E-NATIVE-PAYMODE-11-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Finite Payment caller mode cycle; no universal state rules or boundaries"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+      "from_state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "control": "Hide History",
+      "input_summary": "AX click fresh Events header16",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:45:29.365Z",
+          "input": "AX click fresh Events header16",
+          "outcome": "history-hidden-by-toggle",
+          "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-09",
+            "E-NATIVE-PAYMODE-09-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "evidence_ids": [
+        "E-NATIVE-PAYMODE-09",
+        "E-NATIVE-PAYMODE-09-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Finite Payment caller mode cycle; no universal state rules or boundaries"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+      "from_state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "control": "Events view toggle → Week",
+      "input_summary": "AX click fresh element17",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-MODES",
+          "at": "2026-10-02T18:45:32.380Z",
+          "input": "AX click fresh element17",
+          "outcome": "week-after-hidden-events",
+          "target_state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+          "evidence_ids": [
+            "E-NATIVE-PAYMODE-10",
+            "E-NATIVE-PAYMODE-10-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "evidence_ids": [
+        "E-NATIVE-PAYMODE-10",
+        "E-NATIVE-PAYMODE-10-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Finite Payment caller mode cycle; no universal state rules or boundaries"
     }
   ],
   "evidence": [
@@ -57875,6 +58294,726 @@
       ],
       "action_ids": [],
       "redaction": "Derived masked prototype samples; Home DEMO"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/00-fresh-wrapper-oct2.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:42:06.894Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-00-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/00-fresh-wrapper-oct2.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:42:06.894Z",
+      "sha256": "32bdcd79c73f2c4156aae35fa4ebc3792fc3a1ed6ba19c7d298215665d49a3d2",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/01-fresh-wrapper-filter-coordinate.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:42:08.558Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-REOPEN"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-01-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/01-fresh-wrapper-filter-coordinate.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:42:08.558Z",
+      "sha256": "32bdcd79c73f2c4156aae35fa4ebc3792fc3a1ed6ba19c7d298215665d49a3d2",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-REOPEN"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/02-view-element-attempt.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:42:24.186Z",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-02-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/02-view-element-attempt.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:42:24.186Z",
+      "sha256": "e3f2b6ae223bc6a7b8c2f80bf86834a4c5dd42c54eaaf5697687b383601bf2a5",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/03-events-header-menu.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:42:55.651Z",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "All history records, month/date/title/card areas half-open[0,190,576,919] masked.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-03-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/03-events-header-menu.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:42:55.651Z",
+      "sha256": "3b8c1001ead4eed9c097bc18d9594ce6b689b650967522246604422dd92e90a6",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/04-events-history-filter-attempt.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:43:38.516Z",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HISTORY-FILTER"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "All history records, month/date/title/card areas half-open[0,190,576,919] masked.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-04-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/04-events-history-filter-attempt.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:43:38.516Z",
+      "sha256": "3b8c1001ead4eed9c097bc18d9594ce6b689b650967522246604422dd92e90a6",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HISTORY-FILTER"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/05-month-after-history.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:43:56.926Z",
+      "sha256": "d3e929d3551f3cb94c8af9ea5d5f75d6cd28d62c35b275590d21f51cca15698b",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HISTORY-WEEK"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Week timetable class values and positions half-open[82,197,576,919] masked; public header and time axis retained.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-05-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/05-month-after-history.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:43:56.926Z",
+      "sha256": "ed41040786591bf312e153048668ec7c758ec9dd906c4d69988f1e20706a397a",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HISTORY-WEEK"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/06-month-after-week-history.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:44:53.117Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-06-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/06-month-after-week-history.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:44:53.117Z",
+      "sha256": "32bdcd79c73f2c4156aae35fa4ebc3792fc3a1ed6ba19c7d298215665d49a3d2",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/07-events-history-retained-after-mode-cycle.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:44:59.659Z",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-07-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/07-events-history-retained-after-mode-cycle.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:44:59.659Z",
+      "sha256": "e3f2b6ae223bc6a7b8c2f80bf86834a4c5dd42c54eaaf5697687b383601bf2a5",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/08-history-shown-repeat.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:45:27.856Z",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "All history records, month/date/title/card areas half-open[0,190,576,919] masked.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-08-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/08-history-shown-repeat.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:45:27.856Z",
+      "sha256": "3b8c1001ead4eed9c097bc18d9594ce6b689b650967522246604422dd92e90a6",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/09-history-hidden-by-toggle.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:45:29.365Z",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-09-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/09-history-hidden-by-toggle.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:45:29.365Z",
+      "sha256": "e3f2b6ae223bc6a7b8c2f80bf86834a4c5dd42c54eaaf5697687b383601bf2a5",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/10-week-after-hidden-events.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:45:32.380Z",
+      "sha256": "d3e929d3551f3cb94c8af9ea5d5f75d6cd28d62c35b275590d21f51cca15698b",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Week timetable class values and positions half-open[82,197,576,919] masked; public header and time axis retained.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-10-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/10-week-after-hidden-events.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:45:32.380Z",
+      "sha256": "ed41040786591bf312e153048668ec7c758ec9dd906c4d69988f1e20706a397a",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/11-month-restored-after-mode-cycle.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:45:34.673Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-11-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-modes-native/11-month-restored-after-mode-cycle.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "captured_at": "2026-10-02T18:45:34.673Z",
+      "sha256": "32bdcd79c73f2c4156aae35fa4ebc3792fc3a1ed6ba19c7d298215665d49a3d2",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "Private financial/course/account aggregates and values excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYMODE-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-native/contact-sheet.png",
+      "session_id": "SESSION-20261003-PAYMENT-MODES",
+      "sha256": "fabf70692bc603778d756daca65ae4fabe49306310213e95076ebf6d901dc5ab",
+      "dimensions": [
+        1152,
+        770
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-PAYMENT-EVENTS",
+        "S-NATIVE-PAYMENT-HISTORY",
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [],
+      "redaction": "Derived masked native samples"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/00-month-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:26.845Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/01-events-empty.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:27.089Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/02-history-demo.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:27.393Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/03-week-after-history.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:36.416Z",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HISTORY-WEEK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/04-month-after-week.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:36.713Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/05-events-history-reset.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:36.948Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/06-history-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:37.216Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/07-events-hidden.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:37.453Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/08-week-from-empty.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:37.722Z",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/09-month-restored.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:37.959Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/10-home-regression.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:38.228Z",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-HOME"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/11-calendar-regression.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:52:38.498Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-HOME-CALENDAR"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; private content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-EDITOR",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/editor-flow.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:53:28.511056+00:00",
+      "sha256": "d9c489372fa8b45036e60a13ca43cb69b6638edda912bb11b5d4b9b9bd0fafa6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Editor account masked"
+    },
+    {
+      "id": "E-PAYMODE-PROTO-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-modes-prototype/contact-sheet.png",
+      "session_id": null,
+      "sha256": "1c98f8774b9f34c8657ab1bd5e3707fb3ff1ddf8c734623f3e6b2dc6d65666da",
+      "dimensions": [
+        1440,
+        2040
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-PAYMENT-EVENTS",
+        "S-NATIVE-PAYMENT-HISTORY",
+        "S-NATIVE-PAYMENT-MODE-WEEK",
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [],
+      "redaction": "Derived masked prototype samples, history/week/Home DEMO"
     }
   ],
   "findings": [
@@ -66837,7 +67976,10 @@
           "PROTO-PAYMENT-DATES-HOME-003",
           "PROTO-PAYNAV-HOME3-001",
           "PROTO-PAYNAV-HOME3-002",
-          "PROTO-PAYNAV-DATES-REGRESSION-003"
+          "PROTO-PAYNAV-DATES-REGRESSION-003",
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002",
+          "PROTO-PAYMODE-HOME-REGRESSION-003"
         ],
         "prototype_evidence_ids": [
           "E-OCT3-PAYMENT-PROTO-01",
@@ -66852,7 +67994,11 @@
           "E-PAYMENT-DATES-PROTO-10",
           "E-PAYMENT-DATES-PROTO-12",
           "E-PAYNAV-PROTO-00",
-          "E-PAYNAV-PROTO-09"
+          "E-PAYNAV-PROTO-09",
+          "E-PAYMODE-PROTO-00",
+          "E-PAYMODE-PROTO-04",
+          "E-PAYMODE-PROTO-09",
+          "E-PAYMODE-PROTO-11"
         ]
       },
       {
@@ -66895,12 +68041,16 @@
         "prototype_run_ids": [
           "PROTO-OCT3-PAYMENT-HOME-001",
           "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
-          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003",
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002",
+          "PROTO-PAYMODE-HOME-REGRESSION-003"
         ],
         "prototype_evidence_ids": [
           "E-OCT3-PAYMENT-HOME-01",
           "E-OCT3-PAYMENT-HOME-03",
-          "E-OCT3-PAYMENT-HOME-06"
+          "E-OCT3-PAYMENT-HOME-06",
+          "E-PAYMODE-PROTO-10"
         ]
       },
       {
@@ -67137,6 +68287,143 @@
         "prototype_evidence_ids": [
           "E-PAYNAV-PROTO-02",
           "E-PAYNAV-PROTO-04"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-PAYMENT-EVENTS",
+        "node_id": "833:145",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=833-145",
+        "node_name": "[PAY-MODE:EVENTS] Events — Payment empty",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-02",
+          "E-NATIVE-PAYMODE-02-AX"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-events-empty.svg",
+        "design_source_sha256": "cf143b89f7122b7f274d8fa370a8b2d28f502ed5a9df23ee2337f752a7ec6214",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            77400
+          ]
+        },
+        "content_policy": "Actual financial history and courses replaced by synthetic DEMO; no personal record fields embedded",
+        "native_editability": "Imported editable Frame/Text/Vector/groups; Week footer replaced by editable nested Frame, root preserved",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Each mode reached in actual Present; geometry/fonts approximate; private record values and class positions synthetic",
+          "evidence_ids": [
+            "E-PAYMODE-PROTO-01",
+            "E-PAYMODE-PROTO-05",
+            "E-PAYMODE-PROTO-07"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002",
+          "PROTO-PAYMODE-HOME-REGRESSION-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYMODE-PROTO-01",
+          "E-PAYMODE-PROTO-05",
+          "E-PAYMODE-PROTO-07"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-PAYMENT-HISTORY",
+        "node_id": "835:209",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=835-209",
+        "node_name": "[PAY-MODE:HISTORY] Events — synthetic Payment history DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-03",
+          "E-NATIVE-PAYMODE-03-AX"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-events-history-demo.svg",
+        "design_source_sha256": "b849129081446d0892e4455b4e6c93e008c4968e17c83eaa4b27b5ab1a7c936c",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            77400
+          ]
+        },
+        "content_policy": "Actual financial history and courses replaced by synthetic DEMO; no personal record fields embedded",
+        "native_editability": "Imported editable Frame/Text/Vector/groups; Week footer replaced by editable nested Frame, root preserved",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Each mode reached in actual Present; geometry/fonts approximate; private record values and class positions synthetic",
+          "evidence_ids": [
+            "E-PAYMODE-PROTO-02",
+            "E-PAYMODE-PROTO-06"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002",
+          "PROTO-PAYMODE-HOME-REGRESSION-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYMODE-PROTO-02",
+          "E-PAYMODE-PROTO-06"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+        "node_id": "835:312",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=835-312",
+        "node_name": "[PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-05",
+          "E-NATIVE-PAYMODE-05-AX"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-week-demo.svg",
+        "design_source_sha256": "0ba9073ede2ed5c48419b4c5ee6658e1740d5c9fbb397ad9c4d86a9163185a31",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            77400
+          ]
+        },
+        "content_policy": "Actual financial history and courses replaced by synthetic DEMO; no personal record fields embedded",
+        "native_editability": "Imported editable Frame/Text/Vector/groups; Week footer replaced by editable nested Frame, root preserved",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Each mode reached in actual Present; geometry/fonts approximate; private record values and class positions synthetic",
+          "evidence_ids": [
+            "E-PAYMODE-PROTO-03",
+            "E-PAYMODE-PROTO-08"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002",
+          "PROTO-PAYMODE-HOME-REGRESSION-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYMODE-PROTO-03",
+          "E-PAYMODE-PROTO-08"
         ]
       }
     ],
@@ -81627,6 +82914,192 @@
           "E-NATIVE-PAYNAV-03-AX"
         ],
         "source_fidelity": "Observed October3 Payment caller only; fixed navigation approximates retained context, not universal persistence"
+      },
+      {
+        "source_node_id": "823:21",
+        "trigger_node_id": "823:30",
+        "trigger_node_name": "ViewMode",
+        "action_id": "A-NATIVE-PAYMENT-EVENTS",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "833:145",
+        "configured_at": "2026-10-02T18:49:02.177Z",
+        "readback": [
+          "\t\t\t\t\t\t\t906 combo box (collapsed) Position, Value: Scroll with parent, ID: :r133:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t930 combo box (collapsed) Trigger, Value: On click, ID: :r13s:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t936 combo box (collapsed) Action, Value: Navigate to, ID: :r13v:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t943 combo box (collapsed) Destination, Value: [PAY-MODE:EVENTS] Events — Payment empty, ID: :r14e:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t948 combo box (collapsed) Animation, Value: Instant, ID: :r14r:, Secondary Actions: Expand",
+          "The focused UI element is 943 combo box (collapsed) Destination, Value: [PAY-MODE:EVENTS] Events — Payment empty, ID: :r14e:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMODE-01",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "implementation_status": "configured_observed_finite_modes_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-02",
+          "E-NATIVE-PAYMODE-02-AX",
+          "E-NATIVE-PAYMODE-07",
+          "E-NATIVE-PAYMODE-07-AX"
+        ],
+        "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+      },
+      {
+        "source_node_id": "833:145",
+        "trigger_node_id": "833:147",
+        "trigger_node_name": "HistoryToggle",
+        "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "835:209",
+        "configured_at": "2026-10-02T18:49:10.276Z",
+        "readback": [
+          "\t\t\t\t\t\t\t963 combo box (collapsed) Position, Value: Scroll with parent, ID: :r165:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t987 combo box (collapsed) Trigger, Value: On click, ID: :r16c:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t993 combo box (collapsed) Action, Value: Navigate to, ID: :r16f:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1000 combo box (collapsed) Destination, Value: [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO, ID: :r16u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1005 combo box (collapsed) Animation, Value: Instant, ID: :r17b:, Secondary Actions: Expand",
+          "The focused UI element is 1000 combo box (collapsed) Destination, Value: [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO, ID: :r16u:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMODE-02",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "implementation_status": "configured_observed_finite_modes_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-03",
+          "E-NATIVE-PAYMODE-03-AX",
+          "E-NATIVE-PAYMODE-08",
+          "E-NATIVE-PAYMODE-08-AX"
+        ],
+        "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+      },
+      {
+        "source_node_id": "835:209",
+        "trigger_node_id": "835:211",
+        "trigger_node_name": "HistoryToggle",
+        "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "833:145",
+        "configured_at": "2026-10-02T18:50:32.995Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1097 combo box (collapsed) Position, Value: Scroll with parent, ID: :r19b:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1121 combo box (collapsed) Trigger, Value: On click, ID: :r19i:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1127 combo box (collapsed) Action, Value: Navigate to, ID: :r19l:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1134 combo box (collapsed) Destination, Value: [PAY-MODE:EVENTS] Events — Payment empty, ID: :r1a4:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1139 combo box (collapsed) Animation, Value: Instant, ID: :r1ah:, Secondary Actions: Expand",
+          "The focused UI element is 1134 combo box (collapsed) Destination, Value: [PAY-MODE:EVENTS] Events — Payment empty, ID: :r1a4:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMODE-03",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "implementation_status": "configured_observed_finite_modes_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-09",
+          "E-NATIVE-PAYMODE-09-AX"
+        ],
+        "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+      },
+      {
+        "source_node_id": "835:209",
+        "trigger_node_id": "835:216",
+        "trigger_node_name": "ViewMode",
+        "action_id": "A-NATIVE-PAYMENT-HISTORY-WEEK",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "835:312",
+        "configured_at": "2026-10-02T18:50:36.304Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1097 combo box (collapsed) Position, Value: Scroll with parent, ID: :r19b:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1121 combo box (collapsed) Trigger, Value: On click, ID: :r1am:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1127 combo box (collapsed) Action, Value: Navigate to, ID: :r1ap:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1134 combo box (collapsed) Destination, Value: [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, ID: :r1b8:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1139 combo box (collapsed) Animation, Value: Instant, ID: :r1bl:, Secondary Actions: Expand",
+          "The focused UI element is 1134 combo box (collapsed) Destination, Value: [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, ID: :r1b8:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMODE-04",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "implementation_status": "configured_observed_finite_modes_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-05",
+          "E-NATIVE-PAYMODE-05-AX"
+        ],
+        "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+      },
+      {
+        "source_node_id": "833:145",
+        "trigger_node_id": "833:152",
+        "trigger_node_name": "ViewMode",
+        "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "835:312",
+        "configured_at": "2026-10-02T18:50:56.350Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1167 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1cn:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1191 combo box (collapsed) Trigger, Value: On click, ID: :r1cu:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1197 combo box (collapsed) Action, Value: Navigate to, ID: :r1d1:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1204 combo box (collapsed) Destination, Value: [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, ID: :r1dg:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1210 combo box (collapsed) Animation, Value: Instant, ID: :r1dt:, Secondary Actions: Expand",
+          "The focused UI element is 1204 combo box (collapsed) Destination, Value: [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, ID: :r1dg:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMODE-05",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "implementation_status": "configured_observed_finite_modes_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-10",
+          "E-NATIVE-PAYMODE-10-AX"
+        ],
+        "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+      },
+      {
+        "source_node_id": "835:312",
+        "trigger_node_id": "835:323",
+        "trigger_node_name": "MonthView",
+        "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "823:21",
+        "configured_at": "2026-10-02T18:52:12.333Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1611 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1ni:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1792 combo box (collapsed) Trigger, Value: On click, ID: :r1q0:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1798 combo box (collapsed) Action, Value: Navigate to, ID: :r1q3:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1805 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :r1qi:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1810 combo box (collapsed) Animation, Value: Instant, ID: :r1qv:, Secondary Actions: Expand",
+          "The focused UI element is 1805 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :r1qi:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMODE-06",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "implementation_status": "configured_observed_finite_modes_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMODE-06",
+          "E-NATIVE-PAYMODE-06-AX",
+          "E-NATIVE-PAYMODE-11",
+          "E-NATIVE-PAYMODE-11-AX"
+        ],
+        "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
       }
     ],
     "reconstruction_deviations": [
@@ -83635,6 +85108,25 @@
           "E-NATIVE-PAYNAV-05",
           "E-PAYNAV-PROTO-03",
           "E-PAYNAV-PROTO-09"
+        ]
+      },
+      {
+        "id": "D-PAYMENT-MODE-FINITE",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "status": "open",
+        "affected_state_ids": [
+          "S-NATIVE-PAYMENT-EVENTS",
+          "S-NATIVE-PAYMENT-HISTORY",
+          "S-NATIVE-PAYMENT-MODE-WEEK"
+        ],
+        "original_behavior": "One native Payment mode/history loop observed; History reset hidden after Month/Week reentry; Week displays class grid without category header",
+        "current_implementation": "Three editable static mode samples and six fixed navigation controls; actual private values/count/positions synthetic. Week footer repaired",
+        "impact": "General date/category/mode/caller state model, record menus, scroll, selector/class details and full fidelity still incomplete",
+        "next_step": "Observe remaining native mode/filter/record interactions and integrate general Calendar state model",
+        "evidence_ids": [
+          "E-NATIVE-PAYMODE-07",
+          "E-PAYMODE-PROTO-05",
+          "E-PAYMODE-PROTO-08"
         ]
       }
     ],
@@ -104383,6 +105875,228 @@
           "Filter and mode remain native targeting gaps; no fictional overlay or mode added.",
           "Prototype repeat pixels do not prove native fidelity or human usability; complete application not_verified."
         ]
+      },
+      {
+        "id": "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-02T18:52:26.845Z",
+        "ended_at": "2026-10-02T18:52:36.948Z",
+        "status": "partial",
+        "navigation_status": "All six configured mode/history controls reach actual targets; existing Home regression returns Month",
+        "visual_status": "Saved pixels reviewed; repeated samples compared; fonts/geometry/full native fidelity unverified",
+        "steps": [
+          {
+            "file": "00-month-start.png",
+            "at": "2026-10-02T18:52:26.845Z",
+            "description": "month-start",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-events-empty.png",
+            "at": "2026-10-02T18:52:27.089Z",
+            "description": "events-empty",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-history-demo.png",
+            "at": "2026-10-02T18:52:27.393Z",
+            "description": "history-demo",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-week-after-history.png",
+            "at": "2026-10-02T18:52:36.416Z",
+            "description": "week-after-history",
+            "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+            "visible_node_id": "835:312",
+            "action_id": "A-NATIVE-PAYMENT-HISTORY-WEEK",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-month-after-week.png",
+            "at": "2026-10-02T18:52:36.713Z",
+            "description": "month-after-week",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-events-history-reset.png",
+            "at": "2026-10-02T18:52:36.948Z",
+            "description": "events-history-reset",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite October2 Payment mode/history contexts only; full date/category/caller state model unimplemented.",
+          "History records/dates and Week class count/values/positions wholly synthetic DEMO; original private records never uploaded.",
+          "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
+          "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
+        ]
+      },
+      {
+        "id": "PROTO-PAYMODE-HIDE-CYCLE-002",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "start_node_id": "833:145",
+        "started_at": "2026-10-02T18:52:36.948Z",
+        "ended_at": "2026-10-02T18:52:37.959Z",
+        "status": "partial",
+        "navigation_status": "All six configured mode/history controls reach actual targets; existing Home regression returns Month",
+        "visual_status": "Saved pixels reviewed; repeated samples compared; fonts/geometry/full native fidelity unverified",
+        "steps": [
+          {
+            "file": "05-events-history-reset.png",
+            "at": "2026-10-02T18:52:36.948Z",
+            "description": "events-history-reset",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-history-repeat.png",
+            "at": "2026-10-02T18:52:37.216Z",
+            "description": "history-repeat",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-events-hidden.png",
+            "at": "2026-10-02T18:52:37.453Z",
+            "description": "events-hidden",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-week-from-empty.png",
+            "at": "2026-10-02T18:52:37.722Z",
+            "description": "week-from-empty",
+            "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+            "visible_node_id": "835:312",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "09-month-restored.png",
+            "at": "2026-10-02T18:52:37.959Z",
+            "description": "month-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite October2 Payment mode/history contexts only; full date/category/caller state model unimplemented.",
+          "History records/dates and Week class count/values/positions wholly synthetic DEMO; original private records never uploaded.",
+          "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
+          "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
+        ]
+      },
+      {
+        "id": "PROTO-PAYMODE-HOME-REGRESSION-003",
+        "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-02T18:52:37.959Z",
+        "ended_at": "2026-10-02T18:52:38.498Z",
+        "status": "partial",
+        "navigation_status": "All six configured mode/history controls reach actual targets; existing Home regression returns Month",
+        "visual_status": "Saved pixels reviewed; repeated samples compared; fonts/geometry/full native fidelity unverified",
+        "steps": [
+          {
+            "file": "09-month-restored.png",
+            "at": "2026-10-02T18:52:37.959Z",
+            "description": "month-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "10-home-regression.png",
+            "at": "2026-10-02T18:52:38.228Z",
+            "description": "home-regression",
+            "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+            "visible_node_id": "825:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-10"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "11-calendar-regression.png",
+            "at": "2026-10-02T18:52:38.498Z",
+            "description": "calendar-regression",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+            "evidence_ids": [
+              "E-PAYMODE-PROTO-11"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite October2 Payment mode/history contexts only; full date/category/caller state model unimplemented.",
+          "History records/dates and Week class count/values/positions wholly synthetic DEMO; original private records never uploaded.",
+          "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
+          "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -104462,7 +106176,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "172 mapped frames /3 internal component states /372 configured controls /16 scroll regions /118 prototype runs. Date3 Payment/Home finite context connected; full app/fidelity not_verified.",
+    "verification_summary": "175 mapped frames /3 internal component states /378 configured controls /16 scroll regions /121 prototype runs. Finite Payment modes/history integrated; complete app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -104851,7 +106565,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-PAYMENT-DAY3-HOME-20261003",
+    "current_revision": "FIGMA-PAYMENT-MODES-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -106008,11 +107722,11 @@
       },
       {
         "name": "Reference · Oct2 Calendar filters & Notice — partial",
-        "description": "Oct2/Oct3 native fullscreen reference, 25 finite frames and33 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2. Separate observed Oct2 and Oct3 Payment ↔ static Home DEMO contexts now connected; Oct3 Home return replayed twice followed by date/month cycle regression. Native Oct3 before/after Home normalized pixels equal. Month changes select day1 and keep Payment in this context. Upper-case Increment initially unchanged then listed lower-case increment succeeds; cause contributions unisolated. Payment filter AX unchanged; coordinate correction noWindowsAvailable, no opened overlay or app defect established. View-mode targeting unresolved. Private course/Home/exam values synthetic DEMO; markers omitted. Notice800ms illustrative, geography raster, live map unverified; two old None X inferred. Other dates/Home callers, arbitrary combinations/modes/semester bounds, continuous Home controls and full app/fidelity remain unverified. Historical local black preview disproved by normal saved pixels/hash. AX URL may lag; actual saved pixels determine rendered state.",
+        "description": "Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
         "readback": [
-          "\t\t\t\t\t873 container Oct2/Oct3 native fullscreen reference, 25 finite frames and33 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2. Separate observed Oct2 and Oct3 Payment ↔ static Home DEMO contexts now connected; Oct3 Home return replayed twice followed by date/month cycle regression. Native Oct3 before/after Home normalized pixels equal. Month changes select day1 and keep Payment in this context. Upper-case Increment initially unchanged then listed lower-case increment succeeds; cause contributions unisolated. Payment filter AX unchanged; coordinate correction noWindowsAvailable, no opened overlay or app defect established. View-mode targeting unresolved. Private course/Home/exam values synthetic DEMO; markers omitted. Notice800ms illustrative, geography raster, live map unverified; two old None X inferred. Other dates/Home callers, arbitrary combinations/modes/semester bounds, continuous Home controls and full app/fidelity remain unverified. Historical local black preview disproved by normal saved pixels/hash. AX URL may lag; actual saved pixels determine rendered state.",
-          "\t\t\t\t\t\t874 text Oct2/Oct3 native fullscreen reference, 25 finite frames and33 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2. Separate observed Oct2 and Oct3 Payment ↔ static Home DEMO contexts now connected; Oct3 Home return replayed twice followed by date/month cycle regression. Native Oct3 before/after Home normalized pixels equal. Month changes select day1 and keep Payment in this context. Upper-case Increment initially unchanged then listed lower-case increment succeeds; cause contributions unisolated. Payment filter AX unchanged; coordinate correction noWindowsAvailable, no opened overlay or app defect established. View-mode targeting unresolved. Private course/Home/exam values synthetic DEMO; markers omitted. Notice800ms illustrative, geography raster, live map unverified; two old None X inferred. Other dates/Home callers, arbitrary combinations/modes/semester bounds, continuous Home controls and full app/fidelity remain unverified. Historical local black preview disproved by normal saved pixels/hash. AX URL may lag; actual saved pixels determine rendered state.",
-          "The focused UI element is 873 container Oct2/Oct3 native fullscreen reference, 25 finite frames and33 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2. Separate observed Oct2 and Oct3 Payment ↔ static Home DEMO contexts now connected; Oct3 Home return replayed twice followed by date/month cycle regression. Native Oct3 before/after Home normalized pixels equal. Month changes select day1 and keep Payment in this context. Upper-case Increment initially unchanged then listed lower-case increment succeeds; cause contributions unisolated. Payment filter AX unchanged; coordinate correction noWindowsAvailable, no opened overlay or app defect established. View-mode targeting unresolved. Private course/Home/exam values synthetic DEMO; markers omitted. Notice800ms illustrative, geography raster, live map unverified; two old None X inferred. Other dates/Home callers, arbitrary combinations/modes/semester bounds, continuous Home controls and full app/fidelity remain unverified. Historical local black preview disproved by normal saved pixels/hash. AX URL may lag; actual saved pixels determine rendered state."
+          "\t\t\t\t\t2099 container Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
+          "\t\t\t\t\t\t2100 text Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
+          "The focused UI element is 2099 container Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state."
         ],
         "start_node_id": "791:177",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
@@ -106033,20 +107747,23 @@
           "PROTO-PAYMENT-DATES-HOME-003",
           "PROTO-PAYNAV-HOME3-001",
           "PROTO-PAYNAV-HOME3-002",
-          "PROTO-PAYNAV-DATES-REGRESSION-003"
+          "PROTO-PAYNAV-DATES-REGRESSION-003",
+          "PROTO-PAYMODE-HISTORY-CYCLE-001",
+          "PROTO-PAYMODE-HIDE-CYCLE-002",
+          "PROTO-PAYMODE-HOME-REGRESSION-003"
         ],
-        "scope": "25 finite frames33 controls; two date-specific Payment/Home contexts. Other callers/modes/filter/full application unverified.",
-        "updated_at": "2026-10-02T18:38:44.573456+00:00"
+        "scope": "28 finite frames39 controls; Payment date/Home/mode/history contexts. Other dates/callers, filter and complete application remain unverified.",
+        "updated_at": "2026-10-02T18:53:28.511056+00:00"
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-02T18:37:55.676Z",
+    "latest_prototype_run_cutoff": "2026-10-02T18:52:38.498Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-PAYNAV-PROTO-EDITOR"
+      "E-PAYMODE-PROTO-EDITOR"
     ],
-    "latest_editor_verified_at": "2026-10-02T18:38:44.573456+00:00",
+    "latest_editor_verified_at": "2026-10-02T18:53:28.511056+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
@@ -109543,9 +111260,12 @@
         "S-NATIVE-OCT3-PAYMENT-DAY4",
         "S-NATIVE-OCT3-PAYMENT-NOV",
         "S-NATIVE-OCT3-PAYMENT-OCT1",
-        "S-NATIVE-PAYNAV-HOME3"
+        "S-NATIVE-PAYNAV-HOME3",
+        "S-NATIVE-PAYMENT-EVENTS",
+        "S-NATIVE-PAYMENT-HISTORY",
+        "S-NATIVE-PAYMENT-MODE-WEEK"
       ],
-      "reason": "Oct2 None/Class/Exam/detail/Notice finite reference is now imported and replayed. Oct3 resumed Payment-only Apply is observed with selected October2 No event; reopening not established. Main callers, other dates/modes/combinations, maps and Notice remaining controls still pending. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; local black preview discrepancy corrected: actual saved04 is normal Payment, same hash/pixels as00/02/05. Other callers and full persistence integration remain pending. Oct3 Payment date3/date4 and October→November1→October1→October2 cycle observed; first Increment unchanged then lower-case increment succeeds. Full date/mode/combination/caller boundaries remain pending. Four Payment date/month frames and five controls imported and replayed twice; Oct2 Home regression sampled. New-date Home/filter/mode controls and full boundaries still pending. October3 Payment Home reentry retains date/month/category; AX filter unchanged and coordinate noWindowsAvailable, not an app defect. Per-date mode/filter/other callers still pending.",
+      "reason": "Oct2 None/Class/Exam/detail/Notice finite reference is now imported and replayed. Oct3 resumed Payment-only Apply is observed with selected October2 No event; reopening not established. Main callers, other dates/modes/combinations, maps and Notice remaining controls still pending. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; local black preview discrepancy corrected: actual saved04 is normal Payment, same hash/pixels as00/02/05. Other callers and full persistence integration remain pending. Oct3 Payment date3/date4 and October→November1→October1→October2 cycle observed; first Increment unchanged then lower-case increment succeeds. Full date/mode/combination/caller boundaries remain pending. Four Payment date/month frames and five controls imported and replayed twice; Oct2 Home regression sampled. New-date Home/filter/mode controls and full boundaries still pending. October3 Payment Home reentry retains date/month/category; AX filter unchanged and coordinate noWindowsAvailable, not an app defect. Per-date mode/filter/other callers still pending. October2 Payment Month→Events→Week→Month and Show/Hide History now observed; history resets hidden after mode cycle. Fresh runtime discovery did not recover coordinate input; filter remains unresolved.",
       "status": "in_progress",
       "resolution_refs": [
         "E-CALENDAR-TRACE",
@@ -109573,7 +111293,11 @@
         "E-PAYMENT-DATES-PROTO-10",
         "E-PAYMENT-DATES-PROTO-12",
         "E-NATIVE-PAYNAV-03",
-        "E-NATIVE-PAYNAV-05"
+        "E-NATIVE-PAYNAV-05",
+        "E-NATIVE-PAYMODE-02",
+        "E-NATIVE-PAYMODE-05",
+        "E-NATIVE-PAYMODE-07",
+        "E-NATIVE-PAYMODE-09"
       ]
     },
     {
