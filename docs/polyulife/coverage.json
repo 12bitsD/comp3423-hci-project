@@ -1674,18 +1674,22 @@
       "description": "Initial September month view contains personal course content; public screenshot withheld.",
       "visible_scope": "Only the recorded viewport/controls; private content excluded and complete module coverage not established",
       "preconditions": "Existing signed-in app; Calendar then Notification navigation",
-      "screenshot_evidence_ids": [],
+      "screenshot_evidence_ids": [
+        "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED"
+      ],
       "ax_evidence_ids": [
         "E-CALENDAR-TRACE"
       ],
       "action_ids": [
         "A-CALENDAR-FILTER-OPEN",
-        "A-CALENDAR-NOTIFICATION"
+        "A-CALENDAR-NOTIFICATION",
+        "A-CALENDAR-DEFAULT-CLASS-MORE"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
         "See calendar-notification-walkthrough.md for incomplete branches and evidence boundaries."
-      ]
+      ],
+      "source_preparation_note": "2026-10-02: existing September28 capture redacted and indexed; original full-page public screenshot was withheld. Added evidence does not constitute a new native observation."
     },
     {
       "id": "S-CALENDAR-FILTER-ALL",
@@ -10505,6 +10509,22 @@
       "return_path": null,
       "authorization": "Ordinary read-only Room analysis and reversible navigation",
       "blockers": []
+    },
+    {
+      "id": "A-CALENDAR-DEFAULT-CLASS-MORE",
+      "from_state_id": "S-CALENDAR-DEFAULT",
+      "control": "All-category month view class-card ellipsis",
+      "input_summary": null,
+      "status": "not_attempted",
+      "executions": [],
+      "target_state_id": null,
+      "evidence_ids": [
+        "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible read-only inspection only; no calendar/timetable changes authorised.",
+      "blockers": [],
+      "pending_reason": "Visible in historical source. Destination/details not observed; do not invent a route from the generic DEMO event. Current Mac locked."
     }
   ],
   "evidence": [
@@ -49847,6 +49867,117 @@
       ],
       "action_ids": [],
       "source": "Interrupted configuration and eight finite runs, failures and caller repair; no native execution added."
+    },
+    {
+      "id": "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-default-source/native-calendar-default-redacted.png",
+      "session_id": "SESSION-20260928-CALENDAR-NOTIFICATION",
+      "captured_at": "2026-09-28T15:50:57.332Z",
+      "prepared_at": "2026-10-02T10:22:34.991268+00:00",
+      "sha256": "a1d5cab5130739d1027a449f174c6bfddc51dae9fb54c2aef54c3b2efdf3d8f4",
+      "dimensions": [
+        576,
+        970
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "redaction": {
+        "crop_xyxy": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              177,
+              546,
+              199
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              234,
+              546,
+              252
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              291,
+              546,
+              312
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              348,
+              546,
+              369
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              106,
+              405,
+              546,
+              428
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              141,
+              615,
+              506,
+              705
+            ],
+            "fill": "#242424"
+          }
+        ],
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T15-50-57-332Z-02-71640203a330.jpg",
+        "raw_sha256": "71640203a3307751ca78990360d06660fbe1607dda6f4b9fb7667fc9a591037b"
+      },
+      "source": "Previously captured native JPEG, cropped and redacted now. Adds a visual source to an existing state; no new native execution. Real event values and personal date-marker patterns excluded."
+    },
+    {
+      "id": "E-CALENDAR-DEFAULT-SOURCE-TRACE",
+      "type": "observation_record",
+      "path": "calendar-default-source-preparation.md",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Historical source inspection/redaction and editable DEMO preparation; current Computer Use reports Mac locked."
+    },
+    {
+      "id": "E-CALENDAR-DEFAULT-DEMO-SOURCE-RENDER",
+      "type": "design_render",
+      "path": "../../evidence/2026-10-02-calendar-default-source/calendar-default-demo-render.png",
+      "sha256": "08f9a46b0f3afbbbdb4a831f7016deb08b1a0e4af500c42061ff7d6049f9cf4c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Local SVG renderer, not actual native UI or Figma Present. Synthetic event and omitted date-marker patterns."
     }
   ],
   "findings": [
@@ -92590,7 +92721,9 @@
       "E-ACCOUNT-LOADING-SCREEN-63"
     ],
     "latest_editor_verified_at": "2026-09-30T17:05:23.612Z",
-    "unimported_design_sources": [],
+    "unimported_design_sources": [
+      "calendar-default-demo.svg"
+    ],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
       "current_name": "Room · Available slots reference",
@@ -95428,6 +95561,23 @@
           "E-VA-TRANSIENT-SCREEN-03"
         ],
         "current_status": "imported_sampled_partial"
+      },
+      {
+        "state_id": "S-CALENDAR-DEFAULT",
+        "source_evidence_ids": [
+          "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED",
+          "E-CALENDAR-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-default-demo.svg",
+        "design_source_sha256": "f1ea8ba74e4e98f469af9f23a146ac3d9f2f17567cfddd987c209f1708112fb7",
+        "revision_id": "SOURCE-CALENDAR-DEFAULT-20261002",
+        "status": "prepared_not_imported_not_replayed",
+        "node_id": null,
+        "prototype_evidence_ids": [],
+        "limitations": "Historical month chrome with synthetic private-event values and omitted date markers. No default-page detail/complete-body/Calendar-QR acceptance.",
+        "source_render_evidence_ids": [
+          "E-CALENDAR-DEFAULT-DEMO-SOURCE-RENDER"
+        ]
       }
     ]
   },
@@ -95646,10 +95796,11 @@
         "S-CALENDAR-OCT1",
         "S-CALENDAR-SEP1"
       ],
-      "reason": "Verify remaining filters/cancel, empty selection apply, list bounds/history reverse, other event details, week selection and month/semester boundaries without publishing personal data.",
+      "reason": "Verify remaining filters/cancel, empty selection apply, list bounds/history reverse, other event details, week selection and month/semester boundaries without publishing personal data. Historical default all-category screenshot now redacted, editable DEMO source prepared; More->default/ApplyAll->default/Notification routes still need Figma integration. Class-card ellipsis destination is not attempted.",
       "status": "in_progress",
       "resolution_refs": [
-        "E-CALENDAR-TRACE"
+        "E-CALENDAR-TRACE",
+        "E-CALENDAR-DEFAULT-SOURCE-TRACE"
       ]
     },
     {

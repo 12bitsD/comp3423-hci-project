@@ -1,0 +1,106 @@
+{
+  "state_id": "S-CALENDAR-DEFAULT",
+  "native_source": {
+    "file": "native-calendar-default-redacted.png",
+    "sha256": "a1d5cab5130739d1027a449f174c6bfddc51dae9fb54c2aef54c3b2efdf3d8f4",
+    "dimensions": [
+      576,
+      970
+    ],
+    "captured_at_utc": "2026-09-28T15:50:57.332Z",
+    "prepared_at_utc": "2026-10-02T10:18:38.766508+00:00",
+    "source": "Previously captured native Computer Use JPEG; historical redaction, not a new native execution.",
+    "description": "Default all-category month chrome; event values and personal date-marker patterns masked. Visible sample does not establish complete event/list bounds.",
+    "redaction": {
+      "crop_xyxy": [
+        0,
+        112,
+        576,
+        1082
+      ],
+      "opaque_masks": [
+        {
+          "xyxy": [
+            31,
+            177,
+            546,
+            199
+          ],
+          "fill": "#FFFFFF"
+        },
+        {
+          "xyxy": [
+            31,
+            234,
+            546,
+            252
+          ],
+          "fill": "#FFFFFF"
+        },
+        {
+          "xyxy": [
+            31,
+            291,
+            546,
+            312
+          ],
+          "fill": "#FFFFFF"
+        },
+        {
+          "xyxy": [
+            31,
+            348,
+            546,
+            369
+          ],
+          "fill": "#FFFFFF"
+        },
+        {
+          "xyxy": [
+            106,
+            405,
+            546,
+            428
+          ],
+          "fill": "#FFFFFF"
+        },
+        {
+          "xyxy": [
+            141,
+            615,
+            506,
+            705
+          ],
+          "fill": "#242424"
+        }
+      ],
+      "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T15-50-57-332Z-02-71640203a330.jpg",
+      "raw_sha256": "71640203a3307751ca78990360d06660fbe1607dda6f4b9fb7667fc9a591037b"
+    }
+  },
+  "design_source": "calendar-default-demo.svg",
+  "design_sha256": "f1ea8ba74e4e98f469af9f23a146ac3d9f2f17567cfddd987c209f1708112fb7",
+  "reused_public_chrome": "calendar-sep28.svg",
+  "reused_public_chrome_sha256": "c5885d0c1cb8ca9c30abdb12df6d288133947356587dc117d9368eb775de29e8",
+  "generic_icon": {
+    "file": "assets/calendar-default-class-icon.png",
+    "sha256": "95a46ac4139bfa09afabd80e4b77caecb9a64ba6f0d7be1eb5ba7a540385841d",
+    "dimensions": [
+      81,
+      62
+    ],
+    "crop_xyxy": [
+      45,
+      627,
+      126,
+      689
+    ]
+  },
+  "status": "prepared_not_imported_not_replayed",
+  "limits": [
+    "Synthetic event values/count, not a copy of the private timetable.",
+    "Personal date-marker patterns omitted; no exact all-filter visual acceptance.",
+    "Class-card ellipsis destination not observed; no invented details.",
+    "No new native input; Mac currently locked."
+  ]
+}

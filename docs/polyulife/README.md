@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Calendar默认视图来源准备](calendar-default-source-preparation.md)补入历史原生截图的脱敏版本和可编辑DEMO结构稿，尚未导入/连线。当前Mac锁定，需手动解锁继续新观察。Figma仍140画板/320控件/94次运行；原生135状态、269动作（193 observed/76 not_attempted），新增1个历史可见省略号待查。全应用 `not_verified`。
+
 最新[全局导航回放](global-navigation-prototype-walkthrough.md)补More/Notification/Menu调用者路径，新增8控件、替换28，新增1张缩放Mac参考；保留窗口裁切/错误返回并完成有限修复。当前140画板、320控件、94次运行；Calendar/QR全局导航及完整范围仍 `not_verified`。下方为历史批次。
 
 最新[政策滚动视口回放](policy-scrolled-prototype-walkthrough.md)补2画板、4代理/返回控件，替换Privacy入口/初始返回。31张实际截图保留Privacy校名与Terms加载校徽缺图及同PNG重传复验；当前139画板、312控件、86次运行。↓仅跳到已观察有限视口，连续/反向滚动和完整正文未实现，全应用 `not_verified`。下方数字为历史快照。

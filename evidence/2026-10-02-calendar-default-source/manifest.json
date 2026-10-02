@@ -1,0 +1,104 @@
+{
+  "kind": "historical_native_calendar_source_preparation",
+  "images": [
+    {
+      "file": "native-calendar-default-redacted.png",
+      "sha256": "a1d5cab5130739d1027a449f174c6bfddc51dae9fb54c2aef54c3b2efdf3d8f4",
+      "dimensions": [
+        576,
+        970
+      ],
+      "captured_at_utc": "2026-09-28T15:50:57.332Z",
+      "prepared_at_utc": "2026-10-02T10:18:38.766508+00:00",
+      "source": "Previously captured native Computer Use JPEG; historical redaction, not a new native execution.",
+      "description": "Default all-category month chrome; event values and personal date-marker patterns masked. Visible sample does not establish complete event/list bounds.",
+      "redaction": {
+        "crop_xyxy": [
+          0,
+          112,
+          576,
+          1082
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              177,
+              546,
+              199
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              234,
+              546,
+              252
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              291,
+              546,
+              312
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              348,
+              546,
+              369
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              106,
+              405,
+              546,
+              428
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              141,
+              615,
+              506,
+              705
+            ],
+            "fill": "#242424"
+          }
+        ],
+        "raw_file_ignored": "evidence/raw/2026-09-28-full-audit/2026-09-28T15-50-57-332Z-02-71640203a330.jpg",
+        "raw_sha256": "71640203a3307751ca78990360d06660fbe1607dda6f4b9fb7667fc9a591037b"
+      }
+    },
+    {
+      "file": "calendar-default-demo-render.png",
+      "sha256": "08f9a46b0f3afbbbdb4a831f7016deb08b1a0e4af500c42061ff7d6049f9cf4c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "captured_at_utc": "2026-10-02T10:26:18.579381+00:00",
+      "source": "Local SVG rasterization with macOS sips, not native/Figma screenshot.",
+      "description": "Editable DEMO default-month source rendered for layout inspection. No actual course values or personal date markers.",
+      "redaction": "No personal data in design source."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "cc3e071fff0a19193eb445d94875bc9a70c47f951708e6dee92ad0d0aa4c7ad3",
+    "dimensions": [
+      576,
+      1000
+    ]
+  },
+  "scope": "Existing native state enriched; no new native observation. Public source is masked, SVG uses synthetic event values."
+}
