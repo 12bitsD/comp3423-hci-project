@@ -1,0 +1,944 @@
+{
+  "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+  "frames": [
+    {
+      "state_id": "S-CALENDAR-DEFAULT",
+      "file": "calendar-default-demo.svg",
+      "name": "[CAL-GLOBAL:DEFAULT] Sep28 all — DEMO",
+      "node_id": "757:19",
+      "x": 0,
+      "y": 66000,
+      "at": "2026-10-02T10:46:42.978Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t430 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t431 stepper (settable, integer) Description: Y-position, Value: 66000",
+        "\t\t\t\t\t\t\t\t\t\t458 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t461 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "state_id": "S-CALENDAR-FILTER-ALL",
+      "file": "calendar-global-all-default.svg",
+      "name": "[CAL-GLOBAL:ALL-D] All draft — default caller",
+      "node_id": "757:168",
+      "x": 700,
+      "y": 66000,
+      "at": "2026-10-02T10:46:45.072Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t591 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t592 stepper (settable, integer) Description: Y-position, Value: 66000",
+        "\t\t\t\t\t\t\t\t\t\t619 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t622 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "state_id": "S-CALENDAR-FILTER-NONE",
+      "file": "calendar-global-none-default.svg",
+      "name": "[CAL-GLOBAL:NONE-D] None draft — default caller",
+      "node_id": "757:352",
+      "x": 1400,
+      "y": 66000,
+      "at": "2026-10-02T10:46:46.953Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t750 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t751 stepper (settable, integer) Description: Y-position, Value: 66000",
+        "\t\t\t\t\t\t\t\t\t\t778 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t781 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "state_id": "S-CALENDAR-FILTER-ACAD",
+      "file": "calendar-global-acad-default.svg",
+      "name": "[CAL-GLOBAL:ACAD-D] Acad draft — default caller",
+      "node_id": "757:526",
+      "x": 2100,
+      "y": 66000,
+      "at": "2026-10-02T10:46:59.228Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t790 stepper (settable, integer) Description: X-position, Value: 2100",
+        "\t\t\t\t\t\t\t\t\t791 stepper (settable, integer) Description: Y-position, Value: 66000",
+        "\t\t\t\t\t\t\t\t\t\t818 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t821 text field (settable) Description: Height, Value: 970"
+      ],
+      "transient_uri_at_import": "12:104"
+    },
+    {
+      "state_id": "S-CALENDAR-ACAD-EMPTY",
+      "file": "calendar-global-acad.svg",
+      "name": "[CAL-GLOBAL:ACAD] Sep28 academic — global caller",
+      "node_id": "757:702",
+      "x": 2800,
+      "y": 66000,
+      "at": "2026-10-02T10:47:01.193Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t943 stepper (settable, integer) Description: X-position, Value: 2800",
+        "\t\t\t\t\t\t\t\t\t944 stepper (settable, integer) Description: Y-position, Value: 66000",
+        "\t\t\t\t\t\t\t\t\t\t971 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t974 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "state_id": "S-CALENDAR-FILTER-ACAD",
+      "file": "calendar-global-acad-applied.svg",
+      "name": "[CAL-GLOBAL:ACAD-A] Acad draft — academic caller",
+      "node_id": "757:863",
+      "x": 3500,
+      "y": 66000,
+      "at": "2026-10-02T10:47:03.093Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t1098 stepper (settable, integer) Description: X-position, Value: 3500",
+        "\t\t\t\t\t\t\t\t\t1099 stepper (settable, integer) Description: Y-position, Value: 66000",
+        "\t\t\t\t\t\t\t\t\t\t1126 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t1129 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "state_id": "S-CALENDAR-FILTER-ALL",
+      "file": "calendar-global-all-applied.svg",
+      "name": "[CAL-GLOBAL:ALL-A] All draft — academic caller",
+      "node_id": "757:1052",
+      "x": 4200,
+      "y": 66000,
+      "at": "2026-10-02T10:47:04.950Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t1253 stepper (settable, integer) Description: X-position, Value: 4200",
+        "\t\t\t\t\t\t\t\t\t1254 stepper (settable, integer) Description: Y-position, Value: 66000",
+        "\t\t\t\t\t\t\t\t\t\t1281 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t1284 text field (settable) Description: Height, Value: 970"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "757:19",
+      "trigger_node_id": "757:127",
+      "action_id": "A-CALENDAR-FILTER-OPEN",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:168",
+      "configured_at": "2026-10-02T10:51:42.321Z",
+      "readback": [
+        "\t\t\t\t\t\t348 combo box (collapsed) Trigger, Value: On click, ID: :r8l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t354 combo box (collapsed) Action, Value: Swap overlay, ID: :r8o:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t361 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ALL-D] All draft — default caller, ID: :r97:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t366 combo box (collapsed) Animation, Value: Instant, ID: :r9k:, Secondary Actions: Expand",
+        "The focused UI element is 361 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ALL-D] All draft — default caller, ID: :r97:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-01",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-ALL"
+      ]
+    },
+    {
+      "source_node_id": "757:168",
+      "trigger_node_id": "757:348",
+      "action_id": "A-CALENDAR-APPLY-ALL",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:19",
+      "configured_at": "2026-10-02T10:52:28.390Z",
+      "readback": [
+        "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t402 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+        "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :r9p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-02",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-TRACE"
+      ]
+    },
+    {
+      "source_node_id": "757:168",
+      "trigger_node_id": "757:323",
+      "action_id": "A-CALENDAR-DESELECT-ALL",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:352",
+      "configured_at": "2026-10-02T10:53:59.806Z",
+      "readback": [
+        "\t\t\t\t\t\t416 combo box (collapsed) Trigger, Value: On click, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t422 combo box (collapsed) Action, Value: Swap overlay, ID: :r9q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t429 combo box (collapsed) Destination, Value: [CAL-GLOBAL:NONE-D] None draft — default caller, ID: :ra9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t434 combo box (collapsed) Animation, Value: Instant, ID: :ram:, Secondary Actions: Expand",
+        "The focused UI element is 429 combo box (collapsed) Destination, Value: [CAL-GLOBAL:NONE-D] None draft — default caller, ID: :ra9:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-03",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-NONE"
+      ]
+    },
+    {
+      "source_node_id": "757:352",
+      "trigger_node_id": "757:519",
+      "action_id": "A-CALENDAR-SELECT-ACAD",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:526",
+      "configured_at": "2026-10-02T10:55:43.449Z",
+      "readback": [
+        "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD-D] Acad draft — default caller, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t402 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+        "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD-D] Acad draft — default caller, ID: :r9p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-04",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-ACAD"
+      ]
+    },
+    {
+      "source_node_id": "757:526",
+      "trigger_node_id": "757:698",
+      "action_id": "A-CALENDAR-APPLY-ACAD",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:702",
+      "configured_at": "2026-10-02T10:55:52.491Z",
+      "readback": [
+        "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t402 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+        "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-05",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-ACAD-EMPTY"
+      ]
+    },
+    {
+      "source_node_id": "757:702",
+      "trigger_node_id": "757:815",
+      "action_id": "A-CALENDAR-FILTER-REOPEN",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:863",
+      "configured_at": "2026-10-02T10:56:01.579Z",
+      "readback": [
+        "\t\t\t\t\t\t344 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t350 combo box (collapsed) Action, Value: Swap overlay, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t357 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD-A] Acad draft — academic caller, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t362 combo box (collapsed) Animation, Value: Instant, ID: :r9i:, Secondary Actions: Expand",
+        "The focused UI element is 357 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD-A] Acad draft — academic caller, ID: :r95:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-06",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-PERSIST"
+      ]
+    },
+    {
+      "source_node_id": "757:863",
+      "trigger_node_id": "757:1031",
+      "action_id": "A-CALENDAR-RESTORE-ALL",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:1052",
+      "configured_at": "2026-10-02T10:56:10.849Z",
+      "readback": [
+        "\t\t\t\t\t\t380 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t386 combo box (collapsed) Action, Value: Swap overlay, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ALL-A] All draft — academic caller, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t398 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ALL-A] All draft — academic caller, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-07",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-TRACE"
+      ]
+    },
+    {
+      "source_node_id": "757:1052",
+      "trigger_node_id": "757:1245",
+      "action_id": "A-CALENDAR-APPLY-ALL",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:19",
+      "configured_at": "2026-10-02T11:00:02.747Z",
+      "readback": [
+        "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t403 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+        "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :r9p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-08",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-TRACE"
+      ]
+    },
+    {
+      "source_node_id": "757:863",
+      "trigger_node_id": "757:1048",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:702",
+      "configured_at": "2026-10-02T11:00:12.382Z",
+      "readback": [
+        "\t\t\t\t\t\t380 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t386 combo box (collapsed) Action, Value: Swap overlay, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t399 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-09",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    },
+    {
+      "source_node_id": "757:19",
+      "trigger_node_id": "757:148",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-02T11:00:22.189Z",
+      "readback": [
+        "\t\t\t\t\t\t400 combo box (collapsed) Trigger, Value: On click, ID: :r9e:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t406 combo box (collapsed) Action, Value: Close overlay, ID: :r9h:, Secondary Actions: Expand",
+        "The focused UI element is 406 combo box (collapsed) Action, Value: Close overlay, ID: :r9h:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-10",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    },
+    {
+      "source_node_id": "757:702",
+      "trigger_node_id": "757:846",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-02T12:02:53.225Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand"
+      ],
+      "configuration_history": [
+        {
+          "source_node_id": "757:702",
+          "trigger_node_id": "757:846",
+          "action_id": null,
+          "trigger": "On click",
+          "behavior": "Close overlay",
+          "target_node_id": null,
+          "configured_at": "2026-10-02T11:00:30.898Z",
+          "readback": [
+            "\t\t\t\t\t\t356 combo box (collapsed) Trigger, Value: On click, ID: :r8p:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t\t362 combo box (collapsed) Action, Value: Close overlay, ID: :r8s:, Secondary Actions: Expand",
+            "The focused UI element is 362 combo box (collapsed) Action, Value: Close overlay, ID: :r8s:, Secondary Actions: Expand"
+          ]
+        },
+        {
+          "source_node_id": "757:702",
+          "trigger_node_id": "757:846",
+          "action_id": null,
+          "trigger": "On click",
+          "behavior": "Back",
+          "target_node_id": null,
+          "configured_at": "2026-10-02T11:56:31.501Z",
+          "readback": [
+            "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Back, ID: :r8j:, Secondary Actions: Expand",
+            "The focused UI element is 303 combo box (collapsed) Action, Value: Back, ID: :r8j:, Secondary Actions: Expand"
+          ]
+        }
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-11",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    },
+    {
+      "source_node_id": "757:168",
+      "trigger_node_id": "757:319",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:19",
+      "configured_at": "2026-10-02T11:02:32.547Z",
+      "readback": [
+        "\t\t\t\t\t\t424 combo box (collapsed) Trigger, Value: On click, ID: :r9r:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t430 combo box (collapsed) Action, Value: Swap overlay, ID: :r9u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t437 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rad:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t442 combo box (collapsed) Animation, Value: Instant, ID: :raq:, Secondary Actions: Expand",
+        "The focused UI element is 437 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rad:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-12",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    },
+    {
+      "source_node_id": "757:352",
+      "trigger_node_id": "757:503",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:19",
+      "configured_at": "2026-10-02T11:02:42.268Z",
+      "readback": [
+        "\t\t\t\t\t\t420 combo box (collapsed) Trigger, Value: On click, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t426 combo box (collapsed) Action, Value: Swap overlay, ID: :r9s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t433 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rab:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t439 combo box (collapsed) Animation, Value: Instant, ID: :rao:, Secondary Actions: Expand",
+        "The focused UI element is 433 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rab:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-13",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    },
+    {
+      "source_node_id": "757:526",
+      "trigger_node_id": "757:677",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:19",
+      "configured_at": "2026-10-02T11:02:51.760Z",
+      "readback": [
+        "\t\t\t\t\t\t416 combo box (collapsed) Trigger, Value: On click, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t422 combo box (collapsed) Action, Value: Swap overlay, ID: :r9q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t429 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :ra9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t435 combo box (collapsed) Animation, Value: Instant, ID: :ram:, Secondary Actions: Expand",
+        "The focused UI element is 429 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :ra9:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-14",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    },
+    {
+      "source_node_id": "757:863",
+      "trigger_node_id": "757:1027",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:702",
+      "configured_at": "2026-10-02T11:03:01.173Z",
+      "readback": [
+        "\t\t\t\t\t\t380 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t386 combo box (collapsed) Action, Value: Swap overlay, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t398 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-15",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    },
+    {
+      "source_node_id": "757:1052",
+      "trigger_node_id": "757:1216",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:702",
+      "configured_at": "2026-10-02T11:03:10.708Z",
+      "readback": [
+        "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t403 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+        "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-16",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    },
+    {
+      "source_node_id": "12:435",
+      "trigger_node_id": "12:467",
+      "action_id": "A-MORE-CALENDAR",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "757:19",
+      "configured_at": "2026-10-02T11:07:51.641Z",
+      "readback": [
+        "\t\t\t\t\t\t465 combo box (collapsed) Trigger, Value: On click, ID: :rag:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t471 combo box (collapsed) Action, Value: Swap overlay, ID: :raj:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t478 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rb2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t483 combo box (collapsed) Animation, Value: Instant, ID: :rbf:, Secondary Actions: Expand",
+        "The focused UI element is 478 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rb2:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-17",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-CALENDAR-TRACE"
+      ]
+    },
+    {
+      "source_node_id": "757:19",
+      "trigger_node_id": "757:159",
+      "action_id": "A-CALENDAR-NOTIFICATION",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "42:1617",
+      "configured_at": "2026-10-02T11:08:00.437Z",
+      "readback": [
+        "\t\t\t\t\t\t368 combo box (collapsed) Trigger, Value: On click, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t374 combo box (collapsed) Action, Value: Swap overlay, ID: :r91:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t381 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r9g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t386 combo box (collapsed) Animation, Value: Instant, ID: :r9t:, Secondary Actions: Expand",
+        "The focused UI element is 381 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r9g:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-18",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+      "source_evidence_ids": [
+        "E-NOTIFICATION-EMPTY"
+      ]
+    },
+    {
+      "source_node_id": "757:702",
+      "trigger_node_id": "757:857",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "42:1617",
+      "configured_at": "2026-10-02T11:08:09.557Z",
+      "readback": [
+        "\t\t\t\t\t\t356 combo box (collapsed) Trigger, Value: On click, ID: :r8p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t362 combo box (collapsed) Action, Value: Swap overlay, ID: :r8s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t369 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r9b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t375 combo box (collapsed) Animation, Value: Instant, ID: :r9o:, Secondary Actions: Expand",
+        "The focused UI element is 369 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r9b:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-CALENDAR-GLOBAL-19",
+      "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+      "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "PROTO-CAL-GLOBAL-LOADING-001",
+        "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "PROTO-CAL-GLOBAL-MONDAY-001",
+        "PROTO-CAL-GLOBAL-BACK-001",
+        "PROTO-CAL-GLOBAL-FRESH-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-GLOBAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-GLOBAL-LIMITS"
+      ],
+      "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+    }
+  ],
+  "repairs": {
+    "fill_reuploads": [
+      {
+        "root_node_id": "757:19",
+        "node_id": "757:138",
+        "asset": "assets/calendar-default-class-icon.png",
+        "at": "2026-10-02T11:15:51.246Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t\t318 stepper (settable, integer) Description: X-position, Value: 45",
+          "\t\t\t\t\t\t\t\t\t319 stepper (settable, integer) Description: Y-position, Value: 627",
+          "\t\t\t\t\t\t\t\t\t\t346 text field (settable) Description: Width, Value: 81",
+          "\t\t\t\t\t\t\t\t\t\t349 text field (settable) Description: Height, Value: 62",
+          "\t\t\t\t\t\t\t\t\t\t\t\t\t522 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":110,\"1\":163,\"2\":192,\"3\":64,\"4\":103,\"5\":216,\"6\":129,\"7\":17,\"8\":212,\"9\":27,\"10\":176,\"11\":245,\"12\":229,\"13\":212,\"14\":225,\"15\":129,\"16\":175,\"17\":251,\"18\":35,\"19\":128},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":110,\"1\":163,\"2\":192,\"3\":64,\"4\":103,\"5\":216,\"6\":129,\"7\":17,\"8\":212,\"9\":27,\"10\":176,\"11\":245,\"12\":229,\"13\":212,\"14\":225,\"15\":129,\"16\":175,\"17\":251,\"18\":35,\"19\":128},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":true,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":81,\"originalImageHeight\":62,\"thumbHash\":{},\"altText\":\"\"}"
+        ]
+      },
+      {
+        "root_node_id": "757:352",
+        "node_id": "780:22",
+        "asset": "assets/calendar-default-class-icon.png",
+        "at": "2026-10-02T11:36:35.742Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t\t310 stepper (settable, integer) Description: X-position, Value: 19",
+          "\t\t\t\t\t\t\t\t\t311 stepper (settable, integer) Description: Y-position, Value: 31",
+          "\t\t\t\t\t\t\t\t\t\t338 text field (settable) Description: Width, Value: 81",
+          "\t\t\t\t\t\t\t\t\t\t341 text field (settable) Description: Height, Value: 62",
+          "\t\t\t\t\t\t\t\t\t\t\t\t\t522 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":110,\"1\":163,\"2\":192,\"3\":64,\"4\":103,\"5\":216,\"6\":129,\"7\":17,\"8\":212,\"9\":27,\"10\":176,\"11\":245,\"12\":229,\"13\":212,\"14\":225,\"15\":129,\"16\":175,\"17\":251,\"18\":35,\"19\":128},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":110,\"1\":163,\"2\":192,\"3\":64,\"4\":103,\"5\":216,\"6\":129,\"7\":17,\"8\":212,\"9\":27,\"10\":176,\"11\":245,\"12\":229,\"13\":212,\"14\":225,\"15\":129,\"16\":175,\"17\":251,\"18\":35,\"19\":128},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":true,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":81,\"originalImageHeight\":62,\"thumbHash\":{},\"altText\":\"\"}"
+        ]
+      },
+      {
+        "root_node_id": "757:526",
+        "node_id": "781:22",
+        "asset": "assets/calendar-default-class-icon.png",
+        "at": "2026-10-02T11:36:43.704Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t\t310 stepper (settable, integer) Description: X-position, Value: 19",
+          "\t\t\t\t\t\t\t\t\t311 stepper (settable, integer) Description: Y-position, Value: 31",
+          "\t\t\t\t\t\t\t\t\t\t338 text field (settable) Description: Width, Value: 81",
+          "\t\t\t\t\t\t\t\t\t\t341 text field (settable) Description: Height, Value: 62",
+          "\t\t\t\t\t\t\t\t\t\t\t\t\t518 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":110,\"1\":163,\"2\":192,\"3\":64,\"4\":103,\"5\":216,\"6\":129,\"7\":17,\"8\":212,\"9\":27,\"10\":176,\"11\":245,\"12\":229,\"13\":212,\"14\":225,\"15\":129,\"16\":175,\"17\":251,\"18\":35,\"19\":128},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":110,\"1\":163,\"2\":192,\"3\":64,\"4\":103,\"5\":216,\"6\":129,\"7\":17,\"8\":212,\"9\":27,\"10\":176,\"11\":245,\"12\":229,\"13\":212,\"14\":225,\"15\":129,\"16\":175,\"17\":251,\"18\":35,\"19\":128},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":true,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":81,\"originalImageHeight\":62,\"thumbHash\":{},\"altText\":\"\"}"
+        ]
+      },
+      {
+        "root_node_id": "757:168",
+        "node_id": "779:22",
+        "asset": "assets/calendar-default-class-icon.png",
+        "at": "2026-10-02T11:37:40.052Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t\t310 stepper (settable, integer) Description: X-position, Value: 19",
+          "\t\t\t\t\t\t\t\t\t311 stepper (settable, integer) Description: Y-position, Value: 31",
+          "\t\t\t\t\t\t\t\t\t\t338 text field (settable) Description: Width, Value: 81",
+          "\t\t\t\t\t\t\t\t\t\t341 text field (settable) Description: Height, Value: 62",
+          "\t\t\t\t\t\t\t\t\t\t\t\t\t526 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":110,\"1\":163,\"2\":192,\"3\":64,\"4\":103,\"5\":216,\"6\":129,\"7\":17,\"8\":212,\"9\":27,\"10\":176,\"11\":245,\"12\":229,\"13\":212,\"14\":225,\"15\":129,\"16\":175,\"17\":251,\"18\":35,\"19\":128},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":110,\"1\":163,\"2\":192,\"3\":64,\"4\":103,\"5\":216,\"6\":129,\"7\":17,\"8\":212,\"9\":27,\"10\":176,\"11\":245,\"12\":229,\"13\":212,\"14\":225,\"15\":129,\"16\":175,\"17\":251,\"18\":35,\"19\":128},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":true,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":81,\"originalImageHeight\":62,\"thumbHash\":{},\"altText\":\"\"}"
+        ]
+      }
+    ],
+    "card_fragments": [
+      {
+        "root_node_id": "757:168",
+        "old_card_node_id": "757:285",
+        "new_card_node_id": "779:19",
+        "operation": "replace_card_fragment_correct_xlink_namespace",
+        "at": "2026-10-02T11:31:53.579Z",
+        "size": [
+          525,
+          123
+        ],
+        "position": [
+          26,
+          596
+        ]
+      },
+      {
+        "root_node_id": "757:352",
+        "old_card_node_id": "757:469",
+        "new_card_node_id": "780:19",
+        "operation": "replace_card_fragment_correct_xlink_namespace",
+        "at": "2026-10-02T11:32:01.128Z",
+        "size": [
+          525,
+          123
+        ],
+        "position": [
+          26,
+          596
+        ]
+      },
+      {
+        "root_node_id": "757:526",
+        "old_card_node_id": "757:643",
+        "new_card_node_id": "781:19",
+        "operation": "replace_card_fragment_correct_xlink_namespace",
+        "at": "2026-10-02T11:32:08.471Z",
+        "size": [
+          525,
+          123
+        ],
+        "position": [
+          26,
+          596
+        ]
+      }
+    ]
+  },
+  "fragment_source": "calendar-class-card-fragment.svg",
+  "fragment_sha256": "c77cab159793f52ca5afa88cc76da653de16689c07442a59bb91b4c77a3a352f",
+  "limits": [
+    "No Apply None or arbitrary categories/dates/class detail/QR success invented.",
+    "Null-ID exits/unchanged apply are prototype choices; native cancel semantics unknown.",
+    "Macro uses fixed Sep28 DEMO, not a universal More entry/mode-persistence rule."
+  ]
+}

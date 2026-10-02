@@ -49978,6 +49978,985 @@
       ],
       "action_ids": [],
       "source": "Local SVG renderer, not actual native UI or Figma Present. Synthetic event and omitted date-marker patterns."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/00-legacy-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:10:58.688Z",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Legacy Home before new Calendar sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/01-more.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:10:58.955Z",
+      "sha256": "313da99b32762b42acef33357359706d9d17a4ac3994573e70e99155cf984edb",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MORE"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Home More entry; caller preserved."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/02-default.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:10:59.211Z",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [
+        "A-MORE-CALENDAR"
+      ],
+      "source": "Finite prototype capture, no native execution. More Calendar opens historical Sep28 all-category DEMO sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/03-all-draft.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:11:36.516Z",
+      "sha256": "772fcaa0d99489b762bc380f09b9b89b5c419c504723dc8340643276aacd513c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [
+        "A-CALENDAR-FILTER-OPEN"
+      ],
+      "source": "Finite prototype capture, no native execution. Default filter opens all checked draft, default body retained."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/04-all-apply.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:11:36.789Z",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [
+        "A-CALENDAR-APPLY-ALL"
+      ],
+      "source": "Finite prototype capture, no native execution. Apply all restores default historical sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/05-none-draft.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:11:37.329Z",
+      "sha256": "55e69334df819602007bec5a439985b44846182b3c74b776327a5a17d427f775",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-NONE"
+      ],
+      "action_ids": [
+        "A-CALENDAR-DESELECT-ALL"
+      ],
+      "source": "Finite prototype capture, no native execution. Select All clears every draft checkbox; applied default body unchanged."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/06-acad-draft.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:12:27.610Z",
+      "sha256": "c21bd05e596b90d51f38dab18e3b83e45782a36495a85314b9c0b02a7243b441",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [
+        "A-CALENDAR-SELECT-ACAD"
+      ],
+      "source": "Finite prototype capture, no native execution. Only academic calendar checked before Apply; default body still retained."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/07-acad-applied.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:12:27.910Z",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [
+        "A-CALENDAR-APPLY-ACAD"
+      ],
+      "source": "Finite prototype capture, no native execution. Academic Apply changes applied body to recorded Sep28 No event."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/08-acad-reopen.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:12:28.181Z",
+      "sha256": "22996097dc1e8e5a148d20bdba74990520972fb0ac349f3e6a128ce509b9e690",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [
+        "A-CALENDAR-FILTER-REOPEN"
+      ],
+      "source": "Finite prototype capture, no native execution. Reopen retains academic-only draft and academic background."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/09-all-from-acad.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:12:28.487Z",
+      "sha256": "0bd02478ce2609798be4f4f09a3226b28ebf41d49a51f8a592c28c472ae63a1a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [
+        "A-CALENDAR-RESTORE-ALL"
+      ],
+      "source": "Finite prototype capture, no native execution. Restore All draft while academic applied background remains."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/10-all-draft-cancel.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:13:23.495Z",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Prototype X cancels restored-All draft to academic applied sample; native cancel semantics not established."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/11-restored-default.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:13:24.264Z",
+      "sha256": "6d56e003ee73f37872cf72d35882b873b08c7803d8773cb45e2c2bb2a9cfd12e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [
+        "A-CALENDAR-APPLY-ALL"
+      ],
+      "source": "Finite prototype capture, no native execution. Apply All restores default but generic Class icon missing; failure preserved."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/12-calendar-notification.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:13:24.536Z",
+      "sha256": "075345f178c59fd28688396f9b033edfb2712c659857d142612b5dd2edd91bea",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [
+        "A-CALENDAR-NOTIFICATION"
+      ],
+      "source": "Finite prototype capture, no native execution. Default Calendar bottom Notification opens recorded empty notification sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/13-notification-more.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:13:24.804Z",
+      "sha256": "313da99b32762b42acef33357359706d9d17a4ac3994573e70e99155cf984edb",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-MORE"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Notification More returns global More sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/14-legacy-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:13:25.082Z",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. More Home restores original caller after full Calendar filter cycle."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/15-default-icon-repair.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:39:44.212Z",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Default after same PNG reupload; inspect generic icon recovery."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/16-all-card-repair.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:39:44.479Z",
+      "sha256": "fbcbb228260b0185a7c821decee3c122a0108a6337247019f5c8a60c6fba3c65",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. All draft after card-fragment namespace repair and PNG reupload."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/17-all-x-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:39:44.721Z",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Prototype All X restores applied default sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/18-none-card-repair.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:39:45.232Z",
+      "sha256": "d0b9896bd2919c5044a428cbd383d1874576bd6e4a5dfc807d217c9bc9f7f271",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-NONE"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. None draft keeps default body; generic image repaired."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/19-none-x-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:39:45.506Z",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Prototype None X restores applied default; no Apply None executed."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/20-acad-card-repair.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:39:46.292Z",
+      "sha256": "e671acd2882663939fbca4313ed49294842eb6d6687326db750fe7cdb3f33d67",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-ACAD"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Academic draft keeps default body before Apply, image repaired."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/21-acad-draft-x.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:40:38.538Z",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Prototype academic draft X restores default applied sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/22-acad-reapply.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:40:39.530Z",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Academic Apply after repaired draft still reaches public No event sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/23-acad-nochange-apply.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:40:40.036Z",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Prototype Apply on unchanged academic draft restores academic applied sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/24-acad-applied-x.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:40:40.546Z",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Prototype X on retained academic draft restores academic applied sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/25-restore-all-second.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:40:41.055Z",
+      "sha256": "0bd02478ce2609798be4f4f09a3226b28ebf41d49a51f8a592c28c472ae63a1a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-FILTER-ALL"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Second restored-All draft keeps academic background."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/26-restored-icon-second.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:40:41.319Z",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Second Apply All restores default with generic icon after repairs."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/27-direct-calendar-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:40:41.590Z",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Default Calendar Home closes to legacy Home caller."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/28-monday-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:43:33.529Z",
+      "sha256": "3e6f7830e6055ca340eb0097dbbf2d5e1ae1de2a2167630be6278dfa03cdb34e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Figma initial loading remains in saved capture; planned caller actions not established."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/29-monday-default.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:43:34.032Z",
+      "sha256": "b9f6c8d9ff6022a89395011565e552940a2b7dd5d29b487ba47598cf432926ee",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Figma initial loading remains in saved capture; planned caller actions not established."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/30-monday-acad.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:43:35.024Z",
+      "sha256": "7bbfb417e584f22674ab34d8669bbe56ba18d9d53424ed5c99c513124f31dfe7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Figma initial loading remains in saved capture; planned caller actions not established."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-31",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/31-monday-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:43:35.299Z",
+      "sha256": "cd58512fb939ba1a132f1844227ca1258b65ae079b980b626db25a866dd19b3e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Figma initial loading remains in saved capture; planned caller actions not established."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-32",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/32-tuesday-scrolled.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:43:35.872Z",
+      "sha256": "a263217b7c3d1cb791afd68ce3dd6b9ec405332d451623081628bcef0dd3a2a4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Tuesday caller scrolled before second source test."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-33",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/33-caller-date-recheck.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:44:59.207Z",
+      "sha256": "15a05b88cbcbd6c13771eb96be953c0bf889ab73d3e2adeb33abf3c3e9ebea5f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Actual header confirms Tuesday after loading sequence; corrected source label."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-34",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/34-tuesday-baseline.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:46:35.651Z",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Confirmed Tuesday caller scrolled for recorded return test."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-35",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/35-tuesday-default.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:46:36.162Z",
+      "sha256": "db92f61ad98205b0096d889ad6126a2940e0da2afb2b67f6e6ed451e0a53b97d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Tuesday More enters fixed Sep28 default sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-36",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/36-tuesday-acad.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:46:37.151Z",
+      "sha256": "05a9dd9d9ba412af035b6a92228796de5c87ad5473088950126def69fcfc786f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Tuesday caller applies academic sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-37",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/37-acad-notification.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:46:37.421Z",
+      "sha256": "0048189545752e414fe01ef2b41ce16ff392b67135fd441b57db645e3cacbb24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Prototype academic Calendar Notification handoff, generalised from default native path."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-38",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/38-tuesday-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:46:37.961Z",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-TUE"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Notification More Home restores confirmed Tuesday scrolled caller."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-39",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/39-monday-reset-confirmed.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:48:04.795Z",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Prototype Restart confirmed Monday caller before final sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-40",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/40-monday-default-confirmed.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:48:27.336Z",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Confirmed Monday More Calendar entry."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-41",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/41-monday-acad-confirmed.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:48:28.305Z",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Confirmed Monday academic apply."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-42",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/42-monday-return-confirmed.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:48:28.579Z",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-43",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/43-monday-return-settled.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:49:19.926Z",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-44",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/44-back-test-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:57:29.605Z",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Confirmed Monday start for direct Home Back experiment."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-45",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/45-back-test-default.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:57:30.096Z",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Default reached from Monday More before direct return experiment."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-46",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/46-back-test-acad.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:57:31.049Z",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Academic applied before temporary Back return."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-47",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/47-back-test-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:57:31.352Z",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Temporary Back experiment remains academic view in saved PNG; expected Home not reached."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-48",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/48-back-apex-recheck.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T11:59:08.721Z",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Temporary Back experiment remains academic view in saved PNG; expected Home not reached."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-49",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/49-fresh-monday.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T12:03:17.333Z",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Fresh Present tab confirms Monday start after final configuration."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-50",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/50-fresh-default.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T12:04:02.726Z",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Fresh tab More Calendar default sample."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-51",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/51-fresh-acad.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T12:04:03.682Z",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Fresh tab academic applied before direct Home."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-52",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/52-fresh-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T12:04:03.994Z",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-53",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/53-fresh-default-short.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T12:12:30.066Z",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Short path default before direct Home, no filter transitions."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-54",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/54-fresh-default-short-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T12:12:30.371Z",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-55",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-02-calendar-global/55-delivery-default.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T12:15:19.342Z",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-CALENDAR-DEFAULT"
+      ],
+      "action_ids": [],
+      "source": "Finite prototype capture, no native execution. Final default Calendar deliverable. Saved direct Home captures pass; tool-only black previews remain a capture discrepancy."
+    },
+    {
+      "id": "E-CALENDAR-GLOBAL-TRACE",
+      "type": "interaction_trace",
+      "path": "calendar-global-prototype-walkthrough.md",
+      "session_id": null,
+      "state_ids": [
+        "S-CALENDAR-DEFAULT",
+        "S-CALENDAR-FILTER-ALL",
+        "S-CALENDAR-FILTER-NONE",
+        "S-CALENDAR-FILTER-ACAD",
+        "S-CALENDAR-ACAD-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Seven fixed view imports,19 controls, seven finite runs. No new native observations; Mac still locked."
     }
   ],
   "findings": [
@@ -57720,6 +58699,370 @@
           "\t\t\t\t\t\t\t\t\t336 container Height",
           "\t\t\t\t\t\t\t\t\t\t338 text field (settable) Description: Height, Value: 133.37"
         ]
+      },
+      {
+        "state_id": "S-CALENDAR-DEFAULT",
+        "node_id": "757:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=757-19",
+        "node_name": "[CAL-GLOBAL:DEFAULT] Sep28 all — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "source_evidence_ids": [
+          "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED",
+          "E-CALENDAR-TRACE"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-default-demo.svg",
+        "design_source_sha256": "f1ea8ba74e4e98f469af9f23a146ac3d9f2f17567cfddd987c209f1708112fb7",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            66000
+          ]
+        },
+        "native_editability": "Imported native text/vector controls; generic class glyph raster. Three card groups replaced by525x123 editable fragments to include correctly namespaced image.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Retained applied background and synthetic event values; fixed historic sample, full pixel/native mode/date acceptance incomplete.",
+          "evidence_ids": [
+            "E-CALENDAR-GLOBAL-TRACE",
+            "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED",
+            "E-CALENDAR-TRACE"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-GLOBAL-LIMITS"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ]
+      },
+      {
+        "state_id": "S-CALENDAR-FILTER-ALL",
+        "node_id": "757:168",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=757-168",
+        "node_name": "[CAL-GLOBAL:ALL-D] All draft — default caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-ALL",
+          "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-global-all-default.svg",
+        "design_source_sha256": "bda20b25b7bd5993193b3b549de3ae33a6b3dbd9c8efe380a313cfdbcb695bda",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            66000
+          ]
+        },
+        "native_editability": "Imported native text/vector controls; generic class glyph raster. Three card groups replaced by525x123 editable fragments to include correctly namespaced image.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Retained applied background and synthetic event values; fixed historic sample, full pixel/native mode/date acceptance incomplete.",
+          "evidence_ids": [
+            "E-CALENDAR-GLOBAL-TRACE",
+            "E-CALENDAR-FILTER-ALL",
+            "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-GLOBAL-LIMITS"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "context_variant": "20261002-global-calendar-1"
+      },
+      {
+        "state_id": "S-CALENDAR-FILTER-NONE",
+        "node_id": "757:352",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=757-352",
+        "node_name": "[CAL-GLOBAL:NONE-D] None draft — default caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-NONE",
+          "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-global-none-default.svg",
+        "design_source_sha256": "671d3d7a9e1cc6ff024ad61b5b9d0074c9f13b716111c635fda240329e5c1ddd",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            66000
+          ]
+        },
+        "native_editability": "Imported native text/vector controls; generic class glyph raster. Three card groups replaced by525x123 editable fragments to include correctly namespaced image.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Retained applied background and synthetic event values; fixed historic sample, full pixel/native mode/date acceptance incomplete.",
+          "evidence_ids": [
+            "E-CALENDAR-GLOBAL-TRACE",
+            "E-CALENDAR-FILTER-NONE",
+            "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-GLOBAL-LIMITS"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "context_variant": "20261002-global-calendar-2"
+      },
+      {
+        "state_id": "S-CALENDAR-FILTER-ACAD",
+        "node_id": "757:526",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=757-526",
+        "node_name": "[CAL-GLOBAL:ACAD-D] Acad draft — default caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-ACAD",
+          "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-global-acad-default.svg",
+        "design_source_sha256": "bdc2bab2e2de23bdcd0c153e03b664da9873b744fad7b64033c451b9c7c3b111",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            66000
+          ]
+        },
+        "native_editability": "Imported native text/vector controls; generic class glyph raster. Three card groups replaced by525x123 editable fragments to include correctly namespaced image.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Retained applied background and synthetic event values; fixed historic sample, full pixel/native mode/date acceptance incomplete.",
+          "evidence_ids": [
+            "E-CALENDAR-GLOBAL-TRACE",
+            "E-CALENDAR-FILTER-ACAD",
+            "E-CALENDAR-DEFAULT-HISTORICAL-REDACTED"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-GLOBAL-LIMITS"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "context_variant": "20261002-global-calendar-3",
+        "import_note": "URI transiently pointed to page12:104; actual layer selected and corrected to757:526."
+      },
+      {
+        "state_id": "S-CALENDAR-ACAD-EMPTY",
+        "node_id": "757:702",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=757-702",
+        "node_name": "[CAL-GLOBAL:ACAD] Sep28 academic — global caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "source_evidence_ids": [
+          "E-CALENDAR-ACAD-EMPTY"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-global-acad.svg",
+        "design_source_sha256": "183d474b9f39552c2a1bd7ae4c8d4053e380b6b7cf7c50afdae6a6aeee235853",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2800,
+            66000
+          ]
+        },
+        "native_editability": "Imported native text/vector controls; generic class glyph raster. Three card groups replaced by525x123 editable fragments to include correctly namespaced image.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Retained applied background and synthetic event values; fixed historic sample, full pixel/native mode/date acceptance incomplete.",
+          "evidence_ids": [
+            "E-CALENDAR-GLOBAL-TRACE",
+            "E-CALENDAR-ACAD-EMPTY"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-GLOBAL-LIMITS"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "context_variant": "20261002-global-calendar-4"
+      },
+      {
+        "state_id": "S-CALENDAR-FILTER-ACAD",
+        "node_id": "757:863",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=757-863",
+        "node_name": "[CAL-GLOBAL:ACAD-A] Acad draft — academic caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-PERSIST",
+          "E-CALENDAR-ACAD-EMPTY"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-global-acad-applied.svg",
+        "design_source_sha256": "2574b561696c23bf54434f67a909e7de3a4d367ca06ca6e0982072ff1241e58b",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            3500,
+            66000
+          ]
+        },
+        "native_editability": "Imported native text/vector controls; generic class glyph raster. Three card groups replaced by525x123 editable fragments to include correctly namespaced image.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Retained applied background and synthetic event values; fixed historic sample, full pixel/native mode/date acceptance incomplete.",
+          "evidence_ids": [
+            "E-CALENDAR-GLOBAL-TRACE",
+            "E-CALENDAR-FILTER-PERSIST",
+            "E-CALENDAR-ACAD-EMPTY"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-GLOBAL-LIMITS"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "context_variant": "20261002-global-calendar-5"
+      },
+      {
+        "state_id": "S-CALENDAR-FILTER-ALL",
+        "node_id": "757:1052",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=757-1052",
+        "node_name": "[CAL-GLOBAL:ALL-A] All draft — academic caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-ALL",
+          "E-CALENDAR-TRACE",
+          "E-CALENDAR-ACAD-EMPTY"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-global-all-applied.svg",
+        "design_source_sha256": "5f23b2fd138db2daf1c521d92d435822492b960f463fb5e15dc334a14e1a52eb",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            4200,
+            66000
+          ]
+        },
+        "native_editability": "Imported native text/vector controls; generic class glyph raster. Three card groups replaced by525x123 editable fragments to include correctly namespaced image.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Retained applied background and synthetic event values; fixed historic sample, full pixel/native mode/date acceptance incomplete.",
+          "evidence_ids": [
+            "E-CALENDAR-GLOBAL-TRACE",
+            "E-CALENDAR-FILTER-ALL",
+            "E-CALENDAR-TRACE",
+            "E-CALENDAR-ACAD-EMPTY"
+          ],
+          "deviation_ids": [
+            "D-CALENDAR-GLOBAL-LIMITS"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "context_variant": "20261002-global-calendar-6"
       }
     ],
     "action_connection_mappings": [
@@ -70513,6 +71856,727 @@
           "E-MENU-N-05",
           "E-MENU-RECHECK-TRACE"
         ]
+      },
+      {
+        "source_node_id": "757:19",
+        "trigger_node_id": "757:127",
+        "action_id": "A-CALENDAR-FILTER-OPEN",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:168",
+        "configured_at": "2026-10-02T10:51:42.321Z",
+        "readback": [
+          "\t\t\t\t\t\t348 combo box (collapsed) Trigger, Value: On click, ID: :r8l:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t354 combo box (collapsed) Action, Value: Swap overlay, ID: :r8o:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t361 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ALL-D] All draft — default caller, ID: :r97:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t366 combo box (collapsed) Animation, Value: Instant, ID: :r9k:, Secondary Actions: Expand",
+          "The focused UI element is 361 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ALL-D] All draft — default caller, ID: :r97:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-01",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-ALL"
+        ]
+      },
+      {
+        "source_node_id": "757:168",
+        "trigger_node_id": "757:348",
+        "action_id": "A-CALENDAR-APPLY-ALL",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:19",
+        "configured_at": "2026-10-02T10:52:28.390Z",
+        "readback": [
+          "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t402 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+          "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :r9p:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-02",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-TRACE"
+        ]
+      },
+      {
+        "source_node_id": "757:168",
+        "trigger_node_id": "757:323",
+        "action_id": "A-CALENDAR-DESELECT-ALL",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:352",
+        "configured_at": "2026-10-02T10:53:59.806Z",
+        "readback": [
+          "\t\t\t\t\t\t416 combo box (collapsed) Trigger, Value: On click, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t422 combo box (collapsed) Action, Value: Swap overlay, ID: :r9q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t429 combo box (collapsed) Destination, Value: [CAL-GLOBAL:NONE-D] None draft — default caller, ID: :ra9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t434 combo box (collapsed) Animation, Value: Instant, ID: :ram:, Secondary Actions: Expand",
+          "The focused UI element is 429 combo box (collapsed) Destination, Value: [CAL-GLOBAL:NONE-D] None draft — default caller, ID: :ra9:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-03",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-NONE"
+        ]
+      },
+      {
+        "source_node_id": "757:352",
+        "trigger_node_id": "757:519",
+        "action_id": "A-CALENDAR-SELECT-ACAD",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:526",
+        "configured_at": "2026-10-02T10:55:43.449Z",
+        "readback": [
+          "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD-D] Acad draft — default caller, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t402 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+          "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD-D] Acad draft — default caller, ID: :r9p:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-04",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-ACAD"
+        ]
+      },
+      {
+        "source_node_id": "757:526",
+        "trigger_node_id": "757:698",
+        "action_id": "A-CALENDAR-APPLY-ACAD",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:702",
+        "configured_at": "2026-10-02T10:55:52.491Z",
+        "readback": [
+          "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t402 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+          "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9p:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-05",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-ACAD-EMPTY"
+        ]
+      },
+      {
+        "source_node_id": "757:702",
+        "trigger_node_id": "757:815",
+        "action_id": "A-CALENDAR-FILTER-REOPEN",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:863",
+        "configured_at": "2026-10-02T10:56:01.579Z",
+        "readback": [
+          "\t\t\t\t\t\t344 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t350 combo box (collapsed) Action, Value: Swap overlay, ID: :r8m:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t357 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD-A] Acad draft — academic caller, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t362 combo box (collapsed) Animation, Value: Instant, ID: :r9i:, Secondary Actions: Expand",
+          "The focused UI element is 357 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD-A] Acad draft — academic caller, ID: :r95:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-06",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-FILTER-PERSIST"
+        ]
+      },
+      {
+        "source_node_id": "757:863",
+        "trigger_node_id": "757:1031",
+        "action_id": "A-CALENDAR-RESTORE-ALL",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:1052",
+        "configured_at": "2026-10-02T10:56:10.849Z",
+        "readback": [
+          "\t\t\t\t\t\t380 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t386 combo box (collapsed) Action, Value: Swap overlay, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ALL-A] All draft — academic caller, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t398 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ALL-A] All draft — academic caller, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-07",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-TRACE"
+        ]
+      },
+      {
+        "source_node_id": "757:1052",
+        "trigger_node_id": "757:1245",
+        "action_id": "A-CALENDAR-APPLY-ALL",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:19",
+        "configured_at": "2026-10-02T11:00:02.747Z",
+        "readback": [
+          "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t403 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+          "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :r9p:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-08",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-TRACE"
+        ]
+      },
+      {
+        "source_node_id": "757:863",
+        "trigger_node_id": "757:1048",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:702",
+        "configured_at": "2026-10-02T11:00:12.382Z",
+        "readback": [
+          "\t\t\t\t\t\t380 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t386 combo box (collapsed) Action, Value: Swap overlay, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t399 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-09",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "757:19",
+        "trigger_node_id": "757:148",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-02T11:00:22.189Z",
+        "readback": [
+          "\t\t\t\t\t\t400 combo box (collapsed) Trigger, Value: On click, ID: :r9e:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t406 combo box (collapsed) Action, Value: Close overlay, ID: :r9h:, Secondary Actions: Expand",
+          "The focused UI element is 406 combo box (collapsed) Action, Value: Close overlay, ID: :r9h:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-10",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "757:702",
+        "trigger_node_id": "757:846",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-02T12:02:53.225Z",
+        "readback": [
+          "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand",
+          "The focused UI element is 304 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand"
+        ],
+        "configuration_history": [
+          {
+            "source_node_id": "757:702",
+            "trigger_node_id": "757:846",
+            "action_id": null,
+            "trigger": "On click",
+            "behavior": "Close overlay",
+            "target_node_id": null,
+            "configured_at": "2026-10-02T11:00:30.898Z",
+            "readback": [
+              "\t\t\t\t\t\t356 combo box (collapsed) Trigger, Value: On click, ID: :r8p:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t\t362 combo box (collapsed) Action, Value: Close overlay, ID: :r8s:, Secondary Actions: Expand",
+              "The focused UI element is 362 combo box (collapsed) Action, Value: Close overlay, ID: :r8s:, Secondary Actions: Expand"
+            ]
+          },
+          {
+            "source_node_id": "757:702",
+            "trigger_node_id": "757:846",
+            "action_id": null,
+            "trigger": "On click",
+            "behavior": "Back",
+            "target_node_id": null,
+            "configured_at": "2026-10-02T11:56:31.501Z",
+            "readback": [
+              "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+              "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Back, ID: :r8j:, Secondary Actions: Expand",
+              "The focused UI element is 303 combo box (collapsed) Action, Value: Back, ID: :r8j:, Secondary Actions: Expand"
+            ]
+          }
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-11",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "757:168",
+        "trigger_node_id": "757:319",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:19",
+        "configured_at": "2026-10-02T11:02:32.547Z",
+        "readback": [
+          "\t\t\t\t\t\t424 combo box (collapsed) Trigger, Value: On click, ID: :r9r:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t430 combo box (collapsed) Action, Value: Swap overlay, ID: :r9u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t437 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rad:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t442 combo box (collapsed) Animation, Value: Instant, ID: :raq:, Secondary Actions: Expand",
+          "The focused UI element is 437 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rad:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-12",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "757:352",
+        "trigger_node_id": "757:503",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:19",
+        "configured_at": "2026-10-02T11:02:42.268Z",
+        "readback": [
+          "\t\t\t\t\t\t420 combo box (collapsed) Trigger, Value: On click, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t426 combo box (collapsed) Action, Value: Swap overlay, ID: :r9s:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t433 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rab:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t439 combo box (collapsed) Animation, Value: Instant, ID: :rao:, Secondary Actions: Expand",
+          "The focused UI element is 433 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rab:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-13",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "757:526",
+        "trigger_node_id": "757:677",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:19",
+        "configured_at": "2026-10-02T11:02:51.760Z",
+        "readback": [
+          "\t\t\t\t\t\t416 combo box (collapsed) Trigger, Value: On click, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t422 combo box (collapsed) Action, Value: Swap overlay, ID: :r9q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t429 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :ra9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t435 combo box (collapsed) Animation, Value: Instant, ID: :ram:, Secondary Actions: Expand",
+          "The focused UI element is 429 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :ra9:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-14",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "757:863",
+        "trigger_node_id": "757:1027",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:702",
+        "configured_at": "2026-10-02T11:03:01.173Z",
+        "readback": [
+          "\t\t\t\t\t\t380 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t386 combo box (collapsed) Action, Value: Swap overlay, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t398 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 393 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-15",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "757:1052",
+        "trigger_node_id": "757:1216",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:702",
+        "configured_at": "2026-10-02T11:03:10.708Z",
+        "readback": [
+          "\t\t\t\t\t\t384 combo box (collapsed) Trigger, Value: On click, ID: :r97:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t390 combo box (collapsed) Action, Value: Swap overlay, ID: :r9a:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t403 combo box (collapsed) Animation, Value: Instant, ID: :ra6:, Secondary Actions: Expand",
+          "The focused UI element is 397 combo box (collapsed) Destination, Value: [CAL-GLOBAL:ACAD] Sep28 academic — global caller, ID: :r9p:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-16",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
+      },
+      {
+        "source_node_id": "12:435",
+        "trigger_node_id": "12:467",
+        "action_id": "A-MORE-CALENDAR",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "757:19",
+        "configured_at": "2026-10-02T11:07:51.641Z",
+        "readback": [
+          "\t\t\t\t\t\t465 combo box (collapsed) Trigger, Value: On click, ID: :rag:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t471 combo box (collapsed) Action, Value: Swap overlay, ID: :raj:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t478 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rb2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t483 combo box (collapsed) Animation, Value: Instant, ID: :rbf:, Secondary Actions: Expand",
+          "The focused UI element is 478 combo box (collapsed) Destination, Value: [CAL-GLOBAL:DEFAULT] Sep28 all — DEMO, ID: :rb2:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-17",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-CALENDAR-TRACE"
+        ]
+      },
+      {
+        "source_node_id": "757:19",
+        "trigger_node_id": "757:159",
+        "action_id": "A-CALENDAR-NOTIFICATION",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "42:1617",
+        "configured_at": "2026-10-02T11:08:00.437Z",
+        "readback": [
+          "\t\t\t\t\t\t368 combo box (collapsed) Trigger, Value: On click, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t374 combo box (collapsed) Action, Value: Swap overlay, ID: :r91:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t381 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r9g:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t386 combo box (collapsed) Animation, Value: Instant, ID: :r9t:, Secondary Actions: Expand",
+          "The focused UI element is 381 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r9g:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-18",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture.",
+        "source_evidence_ids": [
+          "E-NOTIFICATION-EMPTY"
+        ]
+      },
+      {
+        "source_node_id": "757:702",
+        "trigger_node_id": "757:857",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "42:1617",
+        "configured_at": "2026-10-02T11:08:09.557Z",
+        "readback": [
+          "\t\t\t\t\t\t356 combo box (collapsed) Trigger, Value: On click, ID: :r8p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t362 combo box (collapsed) Action, Value: Swap overlay, ID: :r8s:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t369 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r9b:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t375 combo box (collapsed) Animation, Value: Instant, ID: :r9o:, Secondary Actions: Expand",
+          "The focused UI element is 369 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r9b:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-CALENDAR-GLOBAL-19",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "implementation_status": "configured_finite_replays_recorded_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+          "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+          "PROTO-CAL-GLOBAL-LOADING-001",
+          "PROTO-CAL-GLOBAL-TUESDAY-001",
+          "PROTO-CAL-GLOBAL-MONDAY-001",
+          "PROTO-CAL-GLOBAL-BACK-001",
+          "PROTO-CAL-GLOBAL-FRESH-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
+        ],
+        "deviation_ids": [
+          "D-CALENDAR-GLOBAL-LIMITS"
+        ],
+        "source_fidelity": "Native observed panel transitions represented by fixed historical views; X/unchanged Apply/Home/Acad Notification are null-ID prototype generalizations. Caller overlays are implementation, not native architecture."
       }
     ],
     "reconstruction_deviations": [
@@ -72460,6 +74524,29 @@
           "E-GLOBAL-NAV-10",
           "E-GLOBAL-NAV-13",
           "E-GLOBAL-NAV-51"
+        ]
+      },
+      {
+        "id": "D-CALENDAR-GLOBAL-LIMITS",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "status": "open",
+        "affected_state_ids": [
+          "S-CALENDAR-DEFAULT",
+          "S-CALENDAR-FILTER-ALL",
+          "S-CALENDAR-FILTER-NONE",
+          "S-CALENDAR-FILTER-ACAD",
+          "S-CALENDAR-ACAD-EMPTY"
+        ],
+        "original_behavior": "Native Sep28 More/default/filter cycle recorded; complete cancel/categories/date/mode/caller persistence not established.",
+        "current_implementation": "Seven fixed views preserve applied background through drafts. Glyph omitted by initial namespaced SVG import, then card fragments and same PNG reuploads recover it. Close overlay saved returns pass; temporary Back stays Acad.",
+        "impact": "Finite navigation sampled, not complete native fidelity. Tool black previews contradicted by saved Home files; no prototype black-screen failure asserted.",
+        "next_step": "Unlock Mac for new native discovery; verify arbitrary categories/Apply None/X/class details/other dates/modes/QR and long-session renderer stability.",
+        "evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE",
+          "E-CALENDAR-GLOBAL-11",
+          "E-CALENDAR-GLOBAL-28",
+          "E-CALENDAR-GLOBAL-47",
+          "E-CALENDAR-GLOBAL-52"
         ]
       }
     ],
@@ -91069,6 +93156,881 @@
           "No live call/logout/preference/chat submission.",
           "Calendar default/QR global navigation and complete module boundaries still pending."
         ]
+      },
+      {
+        "id": "PROTO-CAL-GLOBAL-LEGACY-INITIAL-001",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "start_node_id": "67:820",
+        "started_at": "2026-10-02T11:10:58.688Z",
+        "ended_at": "2026-10-02T11:13:25.082Z",
+        "status": "failed_visual",
+        "navigation_status": "Filter/navigation path sampled; generic class glyph missing on restore.",
+        "visual_status": "Manual approximate fonts/geometry, omitted private date markers and synthetic event values. Complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "00-legacy-home.png",
+            "at": "2026-10-02T11:10:58.688Z",
+            "description": "Legacy Home before new Calendar sample.",
+            "state_id": "S-HOME",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-more.png",
+            "at": "2026-10-02T11:10:58.955Z",
+            "description": "Home More entry; caller preserved.",
+            "state_id": "S-MORE",
+            "visible_node_id": "12:435",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-default.png",
+            "at": "2026-10-02T11:10:59.211Z",
+            "description": "More Calendar opens historical Sep28 all-category DEMO sample.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": "A-MORE-CALENDAR",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-all-draft.png",
+            "at": "2026-10-02T11:11:36.516Z",
+            "description": "Default filter opens all checked draft, default body retained.",
+            "state_id": "S-CALENDAR-FILTER-ALL",
+            "visible_node_id": "757:168",
+            "action_id": "A-CALENDAR-FILTER-OPEN",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-all-apply.png",
+            "at": "2026-10-02T11:11:36.789Z",
+            "description": "Apply all restores default historical sample.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": "A-CALENDAR-APPLY-ALL",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-none-draft.png",
+            "at": "2026-10-02T11:11:37.329Z",
+            "description": "Select All clears every draft checkbox; applied default body unchanged.",
+            "state_id": "S-CALENDAR-FILTER-NONE",
+            "visible_node_id": "757:352",
+            "action_id": "A-CALENDAR-DESELECT-ALL",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-acad-draft.png",
+            "at": "2026-10-02T11:12:27.610Z",
+            "description": "Only academic calendar checked before Apply; default body still retained.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "visible_node_id": "757:526",
+            "action_id": "A-CALENDAR-SELECT-ACAD",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-acad-applied.png",
+            "at": "2026-10-02T11:12:27.910Z",
+            "description": "Academic Apply changes applied body to recorded Sep28 No event.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": "A-CALENDAR-APPLY-ACAD",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-acad-reopen.png",
+            "at": "2026-10-02T11:12:28.181Z",
+            "description": "Reopen retains academic-only draft and academic background.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "visible_node_id": "757:863",
+            "action_id": "A-CALENDAR-FILTER-REOPEN",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "09-all-from-acad.png",
+            "at": "2026-10-02T11:12:28.487Z",
+            "description": "Restore All draft while academic applied background remains.",
+            "state_id": "S-CALENDAR-FILTER-ALL",
+            "visible_node_id": "757:1052",
+            "action_id": "A-CALENDAR-RESTORE-ALL",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "10-all-draft-cancel.png",
+            "at": "2026-10-02T11:13:23.495Z",
+            "description": "Prototype X cancels restored-All draft to academic applied sample; native cancel semantics not established.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-10"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "11-restored-default.png",
+            "at": "2026-10-02T11:13:24.264Z",
+            "description": "Apply All restores default but generic Class icon missing; failure preserved.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": "A-CALENDAR-APPLY-ALL",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-11"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "12-calendar-notification.png",
+            "at": "2026-10-02T11:13:24.536Z",
+            "description": "Default Calendar bottom Notification opens recorded empty notification sample.",
+            "state_id": "S-NOTIFICATION-EMPTY",
+            "visible_node_id": "42:1617",
+            "action_id": "A-CALENDAR-NOTIFICATION",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-12"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "13-notification-more.png",
+            "at": "2026-10-02T11:13:24.804Z",
+            "description": "Notification More returns global More sample.",
+            "state_id": "S-MORE",
+            "visible_node_id": "12:435",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-13"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "14-legacy-return.png",
+            "at": "2026-10-02T11:13:25.082Z",
+            "description": "More Home restores original caller after full Calendar filter cycle.",
+            "state_id": "S-HOME",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-14"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "evidence_ids": [
+          "E-CALENDAR-GLOBAL-00",
+          "E-CALENDAR-GLOBAL-01",
+          "E-CALENDAR-GLOBAL-02",
+          "E-CALENDAR-GLOBAL-03",
+          "E-CALENDAR-GLOBAL-04",
+          "E-CALENDAR-GLOBAL-05",
+          "E-CALENDAR-GLOBAL-06",
+          "E-CALENDAR-GLOBAL-07",
+          "E-CALENDAR-GLOBAL-08",
+          "E-CALENDAR-GLOBAL-09",
+          "E-CALENDAR-GLOBAL-10",
+          "E-CALENDAR-GLOBAL-11",
+          "E-CALENDAR-GLOBAL-12",
+          "E-CALENDAR-GLOBAL-13",
+          "E-CALENDAR-GLOBAL-14"
+        ],
+        "limitations": [
+          "Fixed historical Sep28 sample; More reentry reset is prototype behavior, not a native universal mode/date rule.",
+          "X and unchanged Acad Apply/Home/Acad Notification are prototype generalizations.",
+          "Other categories, Apply None, other dates/modes/class details/QR remain incomplete.",
+          "Subsequent segments continue earlier state except explicit URL/restart/fresh-tab resets."
+        ]
+      },
+      {
+        "id": "PROTO-CAL-GLOBAL-LEGACY-REPAIR-001",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "start_node_id": "67:820",
+        "started_at": "2026-10-02T11:39:44.212Z",
+        "ended_at": "2026-10-02T11:40:41.590Z",
+        "status": "partial",
+        "navigation_status": "Same glyph repair, cancellation proxies and second restore recorded.",
+        "visual_status": "Manual approximate fonts/geometry, omitted private date markers and synthetic event values. Complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "15-default-icon-repair.png",
+            "at": "2026-10-02T11:39:44.212Z",
+            "description": "Default after same PNG reupload; inspect generic icon recovery.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-15"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "16-all-card-repair.png",
+            "at": "2026-10-02T11:39:44.479Z",
+            "description": "All draft after card-fragment namespace repair and PNG reupload.",
+            "state_id": "S-CALENDAR-FILTER-ALL",
+            "visible_node_id": "757:168",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-16"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "17-all-x-return.png",
+            "at": "2026-10-02T11:39:44.721Z",
+            "description": "Prototype All X restores applied default sample.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-17"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "18-none-card-repair.png",
+            "at": "2026-10-02T11:39:45.232Z",
+            "description": "None draft keeps default body; generic image repaired.",
+            "state_id": "S-CALENDAR-FILTER-NONE",
+            "visible_node_id": "757:352",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-18"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "19-none-x-return.png",
+            "at": "2026-10-02T11:39:45.506Z",
+            "description": "Prototype None X restores applied default; no Apply None executed.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-19"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "20-acad-card-repair.png",
+            "at": "2026-10-02T11:39:46.292Z",
+            "description": "Academic draft keeps default body before Apply, image repaired.",
+            "state_id": "S-CALENDAR-FILTER-ACAD",
+            "visible_node_id": "757:526",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-20"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "21-acad-draft-x.png",
+            "at": "2026-10-02T11:40:38.538Z",
+            "description": "Prototype academic draft X restores default applied sample.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-21"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "22-acad-reapply.png",
+            "at": "2026-10-02T11:40:39.530Z",
+            "description": "Academic Apply after repaired draft still reaches public No event sample.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-22"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "23-acad-nochange-apply.png",
+            "at": "2026-10-02T11:40:40.036Z",
+            "description": "Prototype Apply on unchanged academic draft restores academic applied sample.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-23"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "24-acad-applied-x.png",
+            "at": "2026-10-02T11:40:40.546Z",
+            "description": "Prototype X on retained academic draft restores academic applied sample.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-24"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "25-restore-all-second.png",
+            "at": "2026-10-02T11:40:41.055Z",
+            "description": "Second restored-All draft keeps academic background.",
+            "state_id": "S-CALENDAR-FILTER-ALL",
+            "visible_node_id": "757:1052",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-25"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "26-restored-icon-second.png",
+            "at": "2026-10-02T11:40:41.319Z",
+            "description": "Second Apply All restores default with generic icon after repairs.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-26"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "27-direct-calendar-home.png",
+            "at": "2026-10-02T11:40:41.590Z",
+            "description": "Default Calendar Home closes to legacy Home caller.",
+            "state_id": "S-HOME",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-27"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "evidence_ids": [
+          "E-CALENDAR-GLOBAL-15",
+          "E-CALENDAR-GLOBAL-16",
+          "E-CALENDAR-GLOBAL-17",
+          "E-CALENDAR-GLOBAL-18",
+          "E-CALENDAR-GLOBAL-19",
+          "E-CALENDAR-GLOBAL-20",
+          "E-CALENDAR-GLOBAL-21",
+          "E-CALENDAR-GLOBAL-22",
+          "E-CALENDAR-GLOBAL-23",
+          "E-CALENDAR-GLOBAL-24",
+          "E-CALENDAR-GLOBAL-25",
+          "E-CALENDAR-GLOBAL-26",
+          "E-CALENDAR-GLOBAL-27"
+        ],
+        "limitations": [
+          "Fixed historical Sep28 sample; More reentry reset is prototype behavior, not a native universal mode/date rule.",
+          "X and unchanged Acad Apply/Home/Acad Notification are prototype generalizations.",
+          "Other categories, Apply None, other dates/modes/class details/QR remain incomplete.",
+          "Subsequent segments continue earlier state except explicit URL/restart/fresh-tab resets."
+        ]
+      },
+      {
+        "id": "PROTO-CAL-GLOBAL-LOADING-001",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "start_node_id": "67:569",
+        "started_at": "2026-10-02T11:43:33.529Z",
+        "ended_at": "2026-10-02T11:43:35.299Z",
+        "status": "failed",
+        "navigation_status": "Initial Present loading invalidates planned clicks; no caller acceptance.",
+        "visual_status": "Manual approximate fonts/geometry, omitted private date markers and synthetic event values. Complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "28-monday-start.png",
+            "at": "2026-10-02T11:43:33.529Z",
+            "description": "Figma initial loading remains in saved capture; planned caller actions not established.",
+            "state_id": null,
+            "visible_node_id": null,
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-28"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "29-monday-default.png",
+            "at": "2026-10-02T11:43:34.032Z",
+            "description": "Figma initial loading remains in saved capture; planned caller actions not established.",
+            "state_id": null,
+            "visible_node_id": null,
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-29"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "30-monday-acad.png",
+            "at": "2026-10-02T11:43:35.024Z",
+            "description": "Figma initial loading remains in saved capture; planned caller actions not established.",
+            "state_id": null,
+            "visible_node_id": null,
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-30"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "31-monday-home-return.png",
+            "at": "2026-10-02T11:43:35.299Z",
+            "description": "Figma initial loading remains in saved capture; planned caller actions not established.",
+            "state_id": null,
+            "visible_node_id": null,
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-31"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "evidence_ids": [
+          "E-CALENDAR-GLOBAL-28",
+          "E-CALENDAR-GLOBAL-29",
+          "E-CALENDAR-GLOBAL-30",
+          "E-CALENDAR-GLOBAL-31"
+        ],
+        "limitations": [
+          "Fixed historical Sep28 sample; More reentry reset is prototype behavior, not a native universal mode/date rule.",
+          "X and unchanged Acad Apply/Home/Acad Notification are prototype generalizations.",
+          "Other categories, Apply None, other dates/modes/class details/QR remain incomplete.",
+          "Subsequent segments continue earlier state except explicit URL/restart/fresh-tab resets."
+        ]
+      },
+      {
+        "id": "PROTO-CAL-GLOBAL-TUESDAY-001",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "start_node_id": "67:569",
+        "started_at": "2026-10-02T11:43:35.872Z",
+        "ended_at": "2026-10-02T11:46:37.961Z",
+        "status": "partial",
+        "navigation_status": "Tuesday verified by33; notification/More/Home preserves scrolled source.",
+        "visual_status": "Manual approximate fonts/geometry, omitted private date markers and synthetic event values. Complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "32-tuesday-scrolled.png",
+            "at": "2026-10-02T11:43:35.872Z",
+            "description": "Tuesday caller scrolled before second source test.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "visible_node_id": "67:694",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-32"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "33-caller-date-recheck.png",
+            "at": "2026-10-02T11:44:59.207Z",
+            "description": "Actual header confirms Tuesday after loading sequence; corrected source label.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "visible_node_id": "67:694",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-33"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "34-tuesday-baseline.png",
+            "at": "2026-10-02T11:46:35.651Z",
+            "description": "Confirmed Tuesday caller scrolled for recorded return test.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "visible_node_id": "67:694",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-34"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "35-tuesday-default.png",
+            "at": "2026-10-02T11:46:36.162Z",
+            "description": "Tuesday More enters fixed Sep28 default sample.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-35"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "36-tuesday-acad.png",
+            "at": "2026-10-02T11:46:37.151Z",
+            "description": "Tuesday caller applies academic sample.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-36"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "37-acad-notification.png",
+            "at": "2026-10-02T11:46:37.421Z",
+            "description": "Prototype academic Calendar Notification handoff, generalised from default native path.",
+            "state_id": "S-NOTIFICATION-EMPTY",
+            "visible_node_id": "42:1617",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-37"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "38-tuesday-return.png",
+            "at": "2026-10-02T11:46:37.961Z",
+            "description": "Notification More Home restores confirmed Tuesday scrolled caller.",
+            "state_id": "S-HOME-SCHEDULE-TUE",
+            "visible_node_id": "67:694",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-38"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "evidence_ids": [
+          "E-CALENDAR-GLOBAL-32",
+          "E-CALENDAR-GLOBAL-33",
+          "E-CALENDAR-GLOBAL-34",
+          "E-CALENDAR-GLOBAL-35",
+          "E-CALENDAR-GLOBAL-36",
+          "E-CALENDAR-GLOBAL-37",
+          "E-CALENDAR-GLOBAL-38"
+        ],
+        "limitations": [
+          "Fixed historical Sep28 sample; More reentry reset is prototype behavior, not a native universal mode/date rule.",
+          "X and unchanged Acad Apply/Home/Acad Notification are prototype generalizations.",
+          "Other categories, Apply None, other dates/modes/class details/QR remain incomplete.",
+          "Subsequent segments continue earlier state except explicit URL/restart/fresh-tab resets."
+        ]
+      },
+      {
+        "id": "PROTO-CAL-GLOBAL-MONDAY-001",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "start_node_id": "67:569",
+        "started_at": "2026-10-02T11:48:04.795Z",
+        "ended_at": "2026-10-02T11:49:19.926Z",
+        "status": "partial",
+        "navigation_status": "Saved direct Home42/43 works; tool preview black discrepancy.",
+        "visual_status": "Manual approximate fonts/geometry, omitted private date markers and synthetic event values. Complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "39-monday-reset-confirmed.png",
+            "at": "2026-10-02T11:48:04.795Z",
+            "description": "Prototype Restart confirmed Monday caller before final sample.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-39"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "40-monday-default-confirmed.png",
+            "at": "2026-10-02T11:48:27.336Z",
+            "description": "Confirmed Monday More Calendar entry.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-40"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "41-monday-acad-confirmed.png",
+            "at": "2026-10-02T11:48:28.305Z",
+            "description": "Confirmed Monday academic apply.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-41"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "42-monday-return-confirmed.png",
+            "at": "2026-10-02T11:48:28.579Z",
+            "description": "Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-42"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "43-monday-return-settled.png",
+            "at": "2026-10-02T11:49:19.926Z",
+            "description": "Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-43"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "evidence_ids": [
+          "E-CALENDAR-GLOBAL-39",
+          "E-CALENDAR-GLOBAL-40",
+          "E-CALENDAR-GLOBAL-41",
+          "E-CALENDAR-GLOBAL-42",
+          "E-CALENDAR-GLOBAL-43"
+        ],
+        "limitations": [
+          "Fixed historical Sep28 sample; More reentry reset is prototype behavior, not a native universal mode/date rule.",
+          "X and unchanged Acad Apply/Home/Acad Notification are prototype generalizations.",
+          "Other categories, Apply None, other dates/modes/class details/QR remain incomplete.",
+          "Subsequent segments continue earlier state except explicit URL/restart/fresh-tab resets."
+        ]
+      },
+      {
+        "id": "PROTO-CAL-GLOBAL-BACK-001",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "start_node_id": "67:569",
+        "started_at": "2026-10-02T11:57:29.605Z",
+        "ended_at": "2026-10-02T11:59:08.721Z",
+        "status": "failed",
+        "navigation_status": "Temporary Back did not reach Home. Restored Close overlay afterward.",
+        "visual_status": "Manual approximate fonts/geometry, omitted private date markers and synthetic event values. Complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "44-back-test-home.png",
+            "at": "2026-10-02T11:57:29.605Z",
+            "description": "Confirmed Monday start for direct Home Back experiment.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-44"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "45-back-test-default.png",
+            "at": "2026-10-02T11:57:30.096Z",
+            "description": "Default reached from Monday More before direct return experiment.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-45"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "46-back-test-acad.png",
+            "at": "2026-10-02T11:57:31.049Z",
+            "description": "Academic applied before temporary Back return.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-46"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "47-back-test-return.png",
+            "at": "2026-10-02T11:57:31.352Z",
+            "description": "Temporary Back experiment remains academic view in saved PNG; expected Home not reached.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-47"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "48-back-apex-recheck.png",
+            "at": "2026-10-02T11:59:08.721Z",
+            "description": "Temporary Back experiment remains academic view in saved PNG; expected Home not reached.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-48"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "evidence_ids": [
+          "E-CALENDAR-GLOBAL-44",
+          "E-CALENDAR-GLOBAL-45",
+          "E-CALENDAR-GLOBAL-46",
+          "E-CALENDAR-GLOBAL-47",
+          "E-CALENDAR-GLOBAL-48"
+        ],
+        "limitations": [
+          "Fixed historical Sep28 sample; More reentry reset is prototype behavior, not a native universal mode/date rule.",
+          "X and unchanged Acad Apply/Home/Acad Notification are prototype generalizations.",
+          "Other categories, Apply None, other dates/modes/class details/QR remain incomplete.",
+          "Subsequent segments continue earlier state except explicit URL/restart/fresh-tab resets."
+        ]
+      },
+      {
+        "id": "PROTO-CAL-GLOBAL-FRESH-001",
+        "revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "start_node_id": "67:569",
+        "started_at": "2026-10-02T12:03:17.333Z",
+        "ended_at": "2026-10-02T12:15:19.342Z",
+        "status": "partial",
+        "navigation_status": "Fresh tab saved direct Home52/54 correct after restoring Close overlay.",
+        "visual_status": "Manual approximate fonts/geometry, omitted private date markers and synthetic event values. Complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "49-fresh-monday.png",
+            "at": "2026-10-02T12:03:17.333Z",
+            "description": "Fresh Present tab confirms Monday start after final configuration.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "prototype_tab": "fresh-3",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-49"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "50-fresh-default.png",
+            "at": "2026-10-02T12:04:02.726Z",
+            "description": "Fresh tab More Calendar default sample.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "prototype_tab": "fresh-3",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-50"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "51-fresh-acad.png",
+            "at": "2026-10-02T12:04:03.682Z",
+            "description": "Fresh tab academic applied before direct Home.",
+            "state_id": "S-CALENDAR-ACAD-EMPTY",
+            "visible_node_id": "757:702",
+            "action_id": null,
+            "prototype_tab": "fresh-3",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-51"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "52-fresh-home-return.png",
+            "at": "2026-10-02T12:04:03.994Z",
+            "description": "Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "prototype_tab": "fresh-3",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-52"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "53-fresh-default-short.png",
+            "at": "2026-10-02T12:12:30.066Z",
+            "description": "Short path default before direct Home, no filter transitions.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "prototype_tab": "fresh-3",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-53"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "54-fresh-default-short-home.png",
+            "at": "2026-10-02T12:12:30.371Z",
+            "description": "Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step.",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "prototype_tab": "fresh-3",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-54"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "55-delivery-default.png",
+            "at": "2026-10-02T12:15:19.342Z",
+            "description": "Final default Calendar deliverable. Saved direct Home captures pass; tool-only black previews remain a capture discrepancy.",
+            "state_id": "S-CALENDAR-DEFAULT",
+            "visible_node_id": "757:19",
+            "action_id": null,
+            "prototype_tab": "fresh-3",
+            "evidence_ids": [
+              "E-CALENDAR-GLOBAL-55"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "evidence_ids": [
+          "E-CALENDAR-GLOBAL-49",
+          "E-CALENDAR-GLOBAL-50",
+          "E-CALENDAR-GLOBAL-51",
+          "E-CALENDAR-GLOBAL-52",
+          "E-CALENDAR-GLOBAL-53",
+          "E-CALENDAR-GLOBAL-54",
+          "E-CALENDAR-GLOBAL-55"
+        ],
+        "limitations": [
+          "Fixed historical Sep28 sample; More reentry reset is prototype behavior, not a native universal mode/date rule.",
+          "X and unchanged Acad Apply/Home/Acad Notification are prototype generalizations.",
+          "Other categories, Apply None, other dates/modes/class details/QR remain incomplete.",
+          "Subsequent segments continue earlier state except explicit URL/restart/fresh-tab resets."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -91148,7 +94110,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "140 mapped frames / 3 internal component states / 320 configured controls / 16 scroll regions / 94 prototype runs. Global More/Notification/Menu caller samples integrated; Mac reference fit is explicit prototype adaptation. Complete app and fidelity not_verified.",
+    "verification_summary": "147 mapped frames / 3 internal component states / 339 configured controls / 16 scroll regions / 101 prototype runs. Calendar default and applied-background filter cycle integrated, same-glyph repairs preserved. Complete app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -91615,7 +94577,8 @@
       "food_loading_mark": "same_png_reupload_two_consecutive_direct_samples_mark_visible_broader_stability_open",
       "account_loading": "three_loading_roots_three_timers_seven_entries_qr_exit_recorded_finite_home_samples_qr_visual_failures_retained",
       "policy_scrolled_finite_samples": "two_keyboard_proxies_and_returns_replayed_continuous_scroll_incomplete",
-      "global_navigation_recorded_callers": "Monday_Tuesday_legacy_paths_recorded_Mac_failures_and_fit_repair_preserved_full_scope_incomplete"
+      "global_navigation_recorded_callers": "Monday_Tuesday_legacy_paths_recorded_Mac_failures_and_fit_repair_preserved_full_scope_incomplete",
+      "calendar_global_filter_cycle": "legacy_monday_tuesday_samples_recorded_loading_Back_glyph_failures_preserved_full_scope_incomplete"
     },
     "additional_imports": [
       {
@@ -92692,7 +95655,7 @@
         "scope": "Ten main historical dated contexts with continuous horizontal bars and Today vertical list; two route samples. Complete date/filter/caller/full App scope pending."
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-02T09:42:34.493Z",
+    "latest_prototype_run_cutoff": "2026-10-02T12:15:19.342Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
@@ -92721,9 +95684,7 @@
       "E-ACCOUNT-LOADING-SCREEN-63"
     ],
     "latest_editor_verified_at": "2026-09-30T17:05:23.612Z",
-    "unimported_design_sources": [
-      "calendar-default-demo.svg"
-    ],
+    "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
       "current_name": "Room · Available slots reference",
@@ -95577,6 +98538,12 @@
         "limitations": "Historical month chrome with synthetic private-event values and omitted date markers. No default-page detail/complete-body/Calendar-QR acceptance.",
         "source_render_evidence_ids": [
           "E-CALENDAR-DEFAULT-DEMO-SOURCE-RENDER"
+        ],
+        "imported_node_id": "757:19",
+        "imported_revision_id": "FIGMA-CALENDAR-GLOBAL-20261002",
+        "current_status": "imported_and_finite_cycle_sampled_partial",
+        "import_evidence_ids": [
+          "E-CALENDAR-GLOBAL-TRACE"
         ]
       }
     ]
