@@ -67,7 +67,10 @@ for m in f['state_node_mappings']:
   if not isinstance(m['context_variant'],str) or not m['context_variant'].strip():errors.append(('empty context variant',m['node_id']))
   native_sources=[e for e in d['evidence'] if e['id'] in m.get('source_evidence_ids',[]) and e.get('session_id') in refs['sessions']]
   if not native_sources:errors.append(('context variant missing native evidence',m['node_id']))
-  if not any(m['state_id'] in e.get('state_ids',[]) for e in native_sources):errors.append(('context variant native state mismatch',m['node_id']))
+  # Historical evidence may declare the association on the state instead of the screenshot.
+  native_state=next((v for v in d['states'] if v['id']==m['state_id']),{})
+  state_source_ids=set(native_state.get('screenshot_evidence_ids',[])+native_state.get('ax_evidence_ids',[]))
+  if not any(m['state_id'] in e.get('state_ids',[]) or e['id'] in state_source_ids for e in native_sources):errors.append(('context variant native state mismatch',m['node_id']))
  if counts[m['state_id']]>1 and 'context_variant' not in m:
   # One historical base mapping is allowed; each additional view needs a named context.
   if sum(1 for v in f['state_node_mappings'] if v['state_id']==m['state_id'] and 'context_variant' not in v)>1:errors.append(('ambiguous base mapping',m['state_id']))

@@ -1,0 +1,1334 @@
+{
+  "kind": "global_navigation_replay",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-monday-home.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:14:15.478Z",
+      "description": "Monday Home before new global navigation.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "01-monday-more.png",
+      "sha256": "88096c17f5422e339ee0d3f5b2d802d96321c28c9e5ac13cc48c123690e8548a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:14:15.782Z",
+      "description": "Monday bottom More entry.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "02-monday-home-return.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:14:37.310Z",
+      "description": "More Home restores Monday caller.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "03-more-drawer.png",
+      "sha256": "da995aea03b732fc2ec9930d1c223810382396839e9be04e61585ad9c8ee6b0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:14:37.860Z",
+      "description": "More Menu opens full DEMO drawer.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "04-profile.png",
+      "sha256": "55013a142e87878f66a52d37a4ca038168a1b99ac71910693ad6c576bfd408a0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:14:56.587Z",
+      "description": "Drawer Profile opens synthetic read-only sample.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "05-profile-drawer-return.png",
+      "sha256": "da995aea03b732fc2ec9930d1c223810382396839e9be04e61585ad9c8ee6b0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:14:56.837Z",
+      "description": "Profile Back returns same drawer.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "06-settings.png",
+      "sha256": "b267c7fb765529e146fc2ec6dea1d0dd7005c8b2ba065fcbb135da9d57e83d97",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:14:57.155Z",
+      "description": "Drawer Settings opens reference view, no preference modified.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "07-mac-reference.png",
+      "sha256": "33132e77e5718a18eda5faad18674099d451dfb3276181a03c172cc0c5058519",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:15:12.388Z",
+      "description": "FAILED: wide overlay crops Close outside application viewport.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "08-restart-for-mac-recheck.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:27:35.714Z",
+      "description": "Prototype reset for Mac handoff repair; test reset is not an app action.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "09-mac-separate-frame.png",
+      "sha256": "2eb0e84de37e130488339e72985017863f330c22fb517fc9f15cddd4cd70770a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:27:52.858Z",
+      "description": "Mac reference uses its own wide viewport after clipping failure.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "10-mac-settings-return.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:28:06.573Z",
+      "description": "FAILED: wide-reference Back returns Home instead of Settings.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "11-settings-drawer-return.png",
+      "sha256": "84d29d3ef59d51502c5193139dc537637f927d19f094a0bcf9764f20d977f282",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:28:06.957Z",
+      "description": "After wrong Mac return, Home Menu opens Home drawer; not Settings Back.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "12-settings-before-fit.png",
+      "sha256": "f470c45bf3a1c08e597cbb939d7d4f1cccdc62f9b958d4e176c178c1a71817a9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:32:33.361Z",
+      "description": "Settings reentry from Home drawer after wide-reference failure.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "13-mac-fit-popup.png",
+      "sha256": "93c03f1dd993c6d60827b967736fd4c0d9834de4696a4c17cdb6b567c20e6a26",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:32:33.638Z",
+      "description": "Uniformly fitted Mac reference popup; native window size not represented.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "14-fit-settings-return.png",
+      "sha256": "f470c45bf3a1c08e597cbb939d7d4f1cccdc62f9b958d4e176c178c1a71817a9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:32:49.099Z",
+      "description": "Fitted reference Close returns Settings.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "15-fit-drawer-return.png",
+      "sha256": "84d29d3ef59d51502c5193139dc537637f927d19f094a0bcf9764f20d977f282",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:32:49.371Z",
+      "description": "Settings Back returns retained Home drawer.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "16-fit-home-return.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:32:49.675Z",
+      "description": "Drawer close restores Monday Home after fitted reference.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "17-emergency.png",
+      "sha256": "a17fa1d64b72746f778863ed2b1081b1852ba494345e11f4a4f860c2a737a760",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:33:21.362Z",
+      "description": "Open public emergency notice only; no call.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "18-emergency-drawer.png",
+      "sha256": "da995aea03b732fc2ec9930d1c223810382396839e9be04e61585ad9c8ee6b0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:33:39.159Z",
+      "description": "Emergency Close returns drawer without calling.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "19-drawer-more-return.png",
+      "sha256": "88096c17f5422e339ee0d3f5b2d802d96321c28c9e5ac13cc48c123690e8548a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:33:39.427Z",
+      "description": "Drawer closes to More caller.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "20-weather.png",
+      "sha256": "12a58ca6e77a4c5ce72e9fd9300bbb94adc6e26ea37f90f3d56de360a86f7745",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:33:39.700Z",
+      "description": "Weather article opened as nested overlay.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "21-weather-expanded.png",
+      "sha256": "c327549b379e210f62cc7caeb223f97b7699fd0556051c46f3570c57ea40a747",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:33:53.165Z",
+      "description": "Weather image expanded.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "22-weather-image-return.png",
+      "sha256": "12a58ca6e77a4c5ce72e9fd9300bbb94adc6e26ea37f90f3d56de360a86f7745",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:34:11.767Z",
+      "description": "Expanded weather image Close restores article.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "23-weather-web.png",
+      "sha256": "9cfd870b336154259012498caaf528b9e1687b0e6a75c3cca009ee825c394464",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:34:12.073Z",
+      "description": "Weather public webpage prototype opened; full website not implemented.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "24-weather-web-return.png",
+      "sha256": "12a58ca6e77a4c5ce72e9fd9300bbb94adc6e26ea37f90f3d56de360a86f7745",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:34:29.660Z",
+      "description": "Web X closes to weather article.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "25-weather-more-return.png",
+      "sha256": "88096c17f5422e339ee0d3f5b2d802d96321c28c9e5ac13cc48c123690e8548a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:34:29.931Z",
+      "description": "Weather Back restores More.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "26-assistant-loading.png",
+      "sha256": "62dd66c2eff2532fc0c42842ec8755d6730f80f2abbdc4d90d60108a8e04fa39",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:34:30.200Z",
+      "description": "Assistant before-hero sample after entry; inspect saved timing.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "27-assistant-settled.png",
+      "sha256": "7c1242944171770f933c0dacf31f214db69c7e85781a42e5581cd9bbcc99b56a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:34:40.525Z",
+      "description": "Assistant article after demo delay.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "28-assistant-expanded.png",
+      "sha256": "a5418e9e013399efb24bf6b6a64f66f36ffc79db63e107b8274ce93b38361941",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:35:02.444Z",
+      "description": "Assistant hero expands.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "29-assistant-image-return.png",
+      "sha256": "7c1242944171770f933c0dacf31f214db69c7e85781a42e5581cd9bbcc99b56a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:35:02.716Z",
+      "description": "Hero Close restores article overlay.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "30-assistant-web-loading.png",
+      "sha256": "f04ab56464e92955ced7b61ce3844da87ff5aa5f67ece09d73637e5042bcfa62",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:35:02.985Z",
+      "description": "Assistant embedded web loading sample, demo timing.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "31-assistant-disclaimer.png",
+      "sha256": "92db6ac382d0c7d212de47f52e139e0466f35ddc68040608e80a9e9ab979f490",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:35:15.489Z",
+      "description": "Disclaimer sample after demo delay.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "32-assistant-welcome.png",
+      "sha256": "3e9bbd75cc4975f359ba19f9d5c0f1fca36e6bb4bb7effbca1d22a1539327836",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:35:35.526Z",
+      "description": "Figma Accept hotspot only opens recorded Welcome sample; no live website agreement or chat submission.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "33-assistant-web-return.png",
+      "sha256": "7c1242944171770f933c0dacf31f214db69c7e85781a42e5581cd9bbcc99b56a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:35:35.810Z",
+      "description": "Welcome X closes to article.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "34-assistant-more-return.png",
+      "sha256": "88096c17f5422e339ee0d3f5b2d802d96321c28c9e5ac13cc48c123690e8548a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:35:36.079Z",
+      "description": "Article Back returns More.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "35-monday-full-return.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:35:36.380Z",
+      "description": "More Home returns Monday after menu/weather/Assistant.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "36-monday-notification.png",
+      "sha256": "4a77ef72aeb5a57dd2196d95bfe1a2d75ca81146ed2e1132aff55172f9e28ce2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:36:48.947Z",
+      "description": "Monday Notification entry.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "37-notification-more.png",
+      "sha256": "88096c17f5422e339ee0d3f5b2d802d96321c28c9e5ac13cc48c123690e8548a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:36:49.217Z",
+      "description": "Notification More swaps top global page.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "38-cross-nav-monday-return.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:36:49.475Z",
+      "description": "Cross-page Notification More Home restores Monday.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "39-tuesday-home.png",
+      "sha256": "2df57d4cdb2d10ccffc052443e7d4e3d0c3e7347be78cb75d07742299560f4a5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:36:49.758Z",
+      "description": "Date coordinate667 misses T; stays Monday with hotspot hints. Later673 succeeds.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "40-notification-target-recheck.png",
+      "sha256": "4a77ef72aeb5a57dd2196d95bfe1a2d75ca81146ed2e1132aff55172f9e28ce2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:38:47.485Z",
+      "description": "Notification retarget sample; saved36 already proves initial center click succeeded.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "41-notification-more-recheck.png",
+      "sha256": "88096c17f5422e339ee0d3f5b2d802d96321c28c9e5ac13cc48c123690e8548a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:39:19.854Z",
+      "description": "Notification More click on visible glyph opens More.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "42-cross-nav-monday-recheck.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:39:20.094Z",
+      "description": "Notification More Home restores Monday caller.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "43-tuesday-selected.png",
+      "sha256": "15a05b88cbcbd6c13771eb96be953c0bf889ab73d3e2adeb33abf3c3e9ebea5f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:39:20.365Z",
+      "description": "Tuesday selected using actual T glyph.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "44-tuesday-scrolled.png",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:09.237Z",
+      "description": "Tuesday Home scrolled before cross-page return.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "45-tuesday-notification.png",
+      "sha256": "0048189545752e414fe01ef2b41ce16ff392b67135fd441b57db645e3cacbb24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:09.477Z",
+      "description": "Tuesday bottom Notification opens.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "46-notification-drawer.png",
+      "sha256": "da995aea03b732fc2ec9930d1c223810382396839e9be04e61585ad9c8ee6b0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:09.743Z",
+      "description": "Notification menu opens drawer.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "47-notification-drawer-return.png",
+      "sha256": "0048189545752e414fe01ef2b41ce16ff392b67135fd441b57db645e3cacbb24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:10.010Z",
+      "description": "Drawer closes to Notification caller.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "48-tuesday-notification-more.png",
+      "sha256": "736174119d893d9522c1c00b06ce8cc929b3ba10a97c352e8a6e4cce12ce9cba",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:10.280Z",
+      "description": "Notification More swaps global page while Home remains caller.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "49-tuesday-more-drawer.png",
+      "sha256": "da995aea03b732fc2ec9930d1c223810382396839e9be04e61585ad9c8ee6b0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:49.577Z",
+      "description": "More Menu from Tuesday cross-page caller.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "50-tuesday-settings.png",
+      "sha256": "b267c7fb765529e146fc2ec6dea1d0dd7005c8b2ba065fcbb135da9d57e83d97",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:49.842Z",
+      "description": "Settings opens above Tuesday More drawer.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "51-tuesday-mac-fit.png",
+      "sha256": "d9ebd850624ef1389fd2c706c17e7a92d72946a13db72259f051abe7bd92fae9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:50.115Z",
+      "description": "Second fitted reference sample, nested under More caller.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "52-tuesday-settings-return.png",
+      "sha256": "b267c7fb765529e146fc2ec6dea1d0dd7005c8b2ba065fcbb135da9d57e83d97",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:50.352Z",
+      "description": "Fitted popup closes to Settings.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "53-tuesday-settings-drawer.png",
+      "sha256": "da995aea03b732fc2ec9930d1c223810382396839e9be04e61585ad9c8ee6b0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:50.622Z",
+      "description": "Settings Back restores More drawer.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "54-tuesday-drawer-more.png",
+      "sha256": "736174119d893d9522c1c00b06ce8cc929b3ba10a97c352e8a6e4cce12ce9cba",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:50.892Z",
+      "description": "Drawer closes to More, not Home.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "55-tuesday-caller-return.png",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:40:51.160Z",
+      "description": "More Home preserves Tuesday and scrolled feature region.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "56-tuesday-direct-more.png",
+      "sha256": "736174119d893d9522c1c00b06ce8cc929b3ba10a97c352e8a6e4cce12ce9cba",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:41:14.133Z",
+      "description": "Tuesday direct More entry independent of Notification.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "57-more-privacy.png",
+      "sha256": "1e48bfbd2be54d657c063fe728d59b1643e46f8ec7a8a3306e1b9110ca669fc3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:41:14.607Z",
+      "description": "Privacy entry from nested More drawer.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "58-privacy-more-drawer.png",
+      "sha256": "da995aea03b732fc2ec9930d1c223810382396839e9be04e61585ad9c8ee6b0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:41:14.880Z",
+      "description": "Privacy Back restores drawer caller.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "59-more-terms-entry.png",
+      "sha256": "17a227928d550a2d23583fb0993b348916c51a729fcecbb9691113a49585f986",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:41:15.115Z",
+      "description": "Terms loading mark after nested menu entry.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "60-more-terms-settled.png",
+      "sha256": "6b14dfc2cfd8754eeb1c39ee5c7c45786d5d5a727187217dad7c438a4dc1860b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:41:36.098Z",
+      "description": "Terms settled in nested menu path.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "61-terms-more-drawer.png",
+      "sha256": "da995aea03b732fc2ec9930d1c223810382396839e9be04e61585ad9c8ee6b0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:41:36.368Z",
+      "description": "Terms Back restores same More drawer.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "62-policies-more-return.png",
+      "sha256": "736174119d893d9522c1c00b06ce8cc929b3ba10a97c352e8a6e4cce12ce9cba",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:41:36.638Z",
+      "description": "Drawer closes to More after both policy entries.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "63-policies-tuesday-return.png",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:41:36.913Z",
+      "description": "More Home restores Tuesday scrolled caller after policies.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "64-legacy-home.png",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:42:01.793Z",
+      "description": "Existing Home feature flow reopened for regression.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "65-legacy-more.png",
+      "sha256": "313da99b32762b42acef33357359706d9d17a4ac3994573e70e99155cf984edb",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:42:02.095Z",
+      "description": "Existing Home More now opens retained overlay.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "66-legacy-more-home.png",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:42:02.366Z",
+      "description": "More Home restores existing Home sample.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "67-legacy-notification.png",
+      "sha256": "075345f178c59fd28688396f9b033edfb2712c659857d142612b5dd2edd91bea",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:42:02.635Z",
+      "description": "Existing Home Notification entry.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "68-legacy-notification-home.png",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:42:02.905Z",
+      "description": "Saved return shows Home; immediate tool-only screenshot was blank, actual saved PNG recovered.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "69-legacy-return-settled.png",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:42:34.493Z",
+      "description": "Re-observe legacy Notification Home return after blank capture; actual pixels reviewed.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "70-editor-mac-fit.png",
+      "sha256": "bb45128d7061149bdfc5af4bd15b75f5636bebb4424fa5dff30ceaeaa940e440",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T09:46:59.327Z",
+      "description": "Editor root fit reference with editable text/vector and576x133.37 dimensions; prototype adaptation only.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "9506bfb2e355522af41be782cfa692e50743803111ef5056cb423f91554e58d2",
+    "dimensions": [
+      1428,
+      2504
+    ]
+  },
+  "app_crop_xyxy": [
+    461,
+    60,
+    818,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "00-monday-home.png",
+      "comparison": "02-monday-home-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "00-monday-home.png",
+      "comparison": "16-fit-home-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "00-monday-home.png",
+      "comparison": "35-monday-full-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "00-monday-home.png",
+      "comparison": "38-cross-nav-monday-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "00-monday-home.png",
+      "comparison": "42-cross-nav-monday-recheck.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "03-more-drawer.png",
+      "comparison": "05-profile-drawer-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "11-settings-drawer-return.png",
+      "comparison": "15-fit-drawer-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "06-settings.png",
+      "comparison": "12-settings-before-fit.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "06-settings.png",
+      "comparison": "14-fit-settings-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "13-mac-fit-popup.png",
+      "comparison": "51-tuesday-mac-fit.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "20-weather.png",
+      "comparison": "22-weather-image-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "20-weather.png",
+      "comparison": "24-weather-web-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "19-drawer-more-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "25-weather-more-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "34-assistant-more-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "37-notification-more.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "41-notification-more-recheck.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "48-tuesday-notification-more.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        355,
+        252,
+        357,
+        508
+      ],
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "54-tuesday-drawer-more.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        355,
+        252,
+        357,
+        508
+      ],
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "56-tuesday-direct-more.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        355,
+        252,
+        357,
+        508
+      ],
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "01-monday-more.png",
+      "comparison": "62-policies-more-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        355,
+        252,
+        357,
+        508
+      ],
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "27-assistant-settled.png",
+      "comparison": "29-assistant-image-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "27-assistant-settled.png",
+      "comparison": "33-assistant-web-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "36-monday-notification.png",
+      "comparison": "40-notification-target-recheck.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "36-monday-notification.png",
+      "comparison": "45-tuesday-notification.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        355,
+        252,
+        357,
+        500
+      ],
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "45-tuesday-notification.png",
+      "comparison": "47-notification-drawer-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "44-tuesday-scrolled.png",
+      "comparison": "55-tuesday-caller-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "44-tuesday-scrolled.png",
+      "comparison": "63-policies-tuesday-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "50-tuesday-settings.png",
+      "comparison": "52-tuesday-settings-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "64-legacy-home.png",
+      "comparison": "66-legacy-more-home.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "64-legacy-home.png",
+      "comparison": "68-legacy-notification-home.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "64-legacy-home.png",
+      "comparison": "69-legacy-return-settled.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    },
+    {
+      "baseline": "39-tuesday-home.png",
+      "comparison": "43-tuesday-selected.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        2,
+        19,
+        357,
+        601
+      ],
+      "scope": "Finite prototype consistency only. Date mismatch39/43 is intentional failure/correction. Not native pixel fidelity."
+    }
+  ],
+  "scope": "Original failures preserved. Fit Mac popup is prototype adaptation, not native dimensions. No native executions/human evaluation."
+}

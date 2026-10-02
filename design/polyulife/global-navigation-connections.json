@@ -1,0 +1,2082 @@
+{
+  "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+  "changes": [
+    {
+      "source_node_id": "67:820",
+      "trigger_node_id": "67:946",
+      "action_id": "A-HOME-EP004",
+      "behavior": "Open overlay",
+      "target_node_id": "12:435",
+      "previous_configuration": {
+        "connection_id": "C-HOME-MORE",
+        "action_id": "A-HOME-EP004",
+        "source_node_id": "67:820",
+        "target_node_id": "12:435",
+        "trigger_node_id": "67:946",
+        "trigger_node_name": "NavMore",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:25:43.945Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:41:42.710Z",
+      "readback": [
+        "\t\t\t\t\t\t440 combo box (collapsed) Trigger, Value: On click, ID: :r91:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t446 combo box (collapsed) Action, Value: Open overlay, ID: :r94:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t451 combo box (collapsed) Destination, Value: [S-MORE] More, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t455 combo box (collapsed) Animation, Value: Instant, ID: :r9h:, Secondary Actions: Expand",
+        "The focused UI element is 446 combo box (collapsed) Action, Value: Open overlay, ID: :r94:, Secondary Actions: Expand"
+      ],
+      "reopened_readback": [
+        "\t\t\t\t\t\t\t440 combo box (collapsed) Action, Value: Open overlay, ID: :r92:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t445 combo box (collapsed) Destination, Value: [S-MORE] More, ID: :r96:, Secondary Actions: Expand"
+      ],
+      "reopened_at": "2026-09-30T17:45:01.089Z",
+      "connection_id": "C-GLOBAL-NAV-01",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "67:820",
+      "trigger_node_id": "67:944",
+      "action_id": "A-HOME-EP003",
+      "behavior": "Open overlay",
+      "target_node_id": "42:1617",
+      "previous_configuration": {
+        "connection_id": "C-HOME-NOTIFICATION",
+        "action_id": "A-HOME-EP003",
+        "source_node_id": "67:820",
+        "target_node_id": "42:1617",
+        "trigger_node_id": "67:944",
+        "trigger_node_name": "NavNotification",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-STUDY-V2",
+        "configured_at": "2026-09-28T18:25:43.945Z",
+        "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+        "prototype_run_ids": [
+          "PROTO-HOME-STUDY-V2-001"
+        ],
+        "source_fidelity": "Later native Home->empty Notification independently confirmed; return Home also observed. Other notification content/controls unverified.",
+        "deviation_ids": [
+          "D-STUDY-DEMO-CONTENT",
+          "D-HOME-SAMPLE-ENTRY",
+          "D-STUDY-STATIC-INPUT"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:45:43.859Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Open overlay, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t309 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Animation, Value: Instant, ID: :r90:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Open overlay, ID: :r8j:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-02",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "67:694",
+      "trigger_node_id": "67:813",
+      "action_id": "A-HOME-EP003",
+      "behavior": "Open overlay",
+      "target_node_id": "42:1617",
+      "previous_configuration": {
+        "connection_id": "C-HOME-DATE-67-813",
+        "action_id": "A-HOME-EP003",
+        "source_node_id": "67:694",
+        "target_node_id": "42:1617",
+        "trigger_node_id": "67:813",
+        "trigger_node_name": "NavNotification",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:45:50.570Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Open overlay, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t309 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Animation, Value: Instant, ID: :r90:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Open overlay, ID: :r8j:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-03",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:1617",
+      "trigger_node_id": "42:1640",
+      "action_id": "A-NOTIFICATION-HOME",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "connection_id": "C-HOME-DATE-42-1640",
+        "action_id": "A-NOTIFICATION-HOME",
+        "source_node_id": "42:1617",
+        "target_node_id": null,
+        "trigger_node_id": "42:1640",
+        "trigger_node_name": "NavHome",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ],
+        "tested_target_node_ids": [
+          "67:694"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:45:57.694Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Close overlay, ID: :r8j:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-04",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "75:1669",
+      "trigger_node_id": "75:1671",
+      "action_id": "A-DRAWER-CLOSE",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-DRAWER-CLOSE",
+        "source_node_id": "75:1669",
+        "target_node_id": null,
+        "trigger_node_id": "75:1671",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001",
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "42:1617",
+          "67:820",
+          "67:694"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:46:04.909Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Close overlay, ID: :r8e:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8e:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-05",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "67:820",
+      "trigger_node_id": "67:921",
+      "action_id": "A-HOME-MENU",
+      "behavior": "Open overlay",
+      "target_node_id": "75:1669",
+      "previous_configuration": {
+        "action_id": "A-HOME-MENU",
+        "source_node_id": "67:820",
+        "target_node_id": "75:1669",
+        "trigger_node_id": "67:921",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:46:18.325Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Open overlay, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t309 combo box (collapsed) Destination, Value: [S-DRAWER] Full menu — DEMO, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Animation, Value: Instant, ID: :r93:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Open overlay, ID: :r8m:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-06",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "67:694",
+      "trigger_node_id": "67:790",
+      "action_id": "A-HOME-MENU",
+      "behavior": "Open overlay",
+      "target_node_id": "75:1669",
+      "previous_configuration": {
+        "connection_id": "C-HOME-DATE-67-790",
+        "action_id": "A-HOME-MENU",
+        "source_node_id": "67:694",
+        "target_node_id": "75:1669",
+        "trigger_node_id": "67:790",
+        "trigger_node_name": "Menu",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-HOME-DATE-RETURN",
+        "implementation_status": "passed_for_recorded_home_entries",
+        "prototype_run_ids": [
+          "PROTO-HOME-DATE-RETURN-001"
+        ],
+        "source_evidence_ids": [
+          "E-HOME-STUDY-MAP-TRACE",
+          "E-HOME-ENTRY-RECHECK-TRACE"
+        ],
+        "prototype_evidence_ids": [
+          "E-HOME-DATE-PROTOTYPE-TRACE"
+        ],
+        "deviation_ids": [
+          "D-HOME-RETURN-HISTORY",
+          "D-STUDY-DEMO-CONTENT",
+          "D-STUDY-STATIC-INPUT"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:46:25.154Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Open overlay, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t309 combo box (collapsed) Destination, Value: [S-DRAWER] Full menu — DEMO, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Animation, Value: Instant, ID: :r93:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Open overlay, ID: :r8m:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-07",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:1617",
+      "trigger_node_id": "42:1622",
+      "action_id": "A-NOTIFICATION-MENU",
+      "behavior": "Open overlay",
+      "target_node_id": "75:1669",
+      "previous_configuration": {
+        "action_id": "A-NOTIFICATION-MENU",
+        "source_node_id": "42:1617",
+        "target_node_id": "75:1669",
+        "trigger_node_id": "42:1622",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:46:31.754Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-DRAWER] Full menu — DEMO, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r93:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8m:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-08",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "12:435",
+      "trigger_node_id": "12:446",
+      "action_id": "A-MORE-ASSISTANT",
+      "behavior": "Open overlay",
+      "target_node_id": "613:600",
+      "previous_configuration": {
+        "source_node_id": "12:435",
+        "trigger_node_id": "12:446",
+        "target_node_id": "613:600",
+        "previous_target_node_id": "42:6",
+        "trigger_name": "MoreAssistantCard",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "action_id": "A-MORE-ASSISTANT",
+        "configured_at": "2026-09-30T16:04:00.398Z",
+        "operation": "replace_destination",
+        "connection_id": "C-VA-TRANSIENT-03",
+        "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+        "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-VA-TRANSIENT-MORE-001"
+        ],
+        "source_evidence_ids": [
+          "E-ASSISTANT-BEFORE-HERO"
+        ],
+        "prototype_evidence_ids": [
+          "E-VA-TRANSIENT-TRACE",
+          "E-VA-TRANSIENT-SCREEN-08"
+        ],
+        "deviation_ids": [
+          "D-VA-SOURCE-STATE-SAMPLING",
+          "D-VA-TRANSIENT-LIMITS"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:46:39.012Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8c:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8f:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-ASSISTANT-BEFORE-HERO] Article — before image, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r8s:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8f:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-09",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "613:600",
+      "trigger_node_id": "613:600",
+      "action_id": "A-ASSISTANT-HERO-LOAD",
+      "behavior": "Swap overlay",
+      "target_node_id": "42:6",
+      "previous_configuration": {
+        "source_node_id": "613:600",
+        "trigger_node_id": "613:600",
+        "target_node_id": "42:6",
+        "trigger_name": "root",
+        "trigger": "After delay",
+        "delay_ms": 800,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "action_id": "A-ASSISTANT-HERO-LOAD",
+        "configured_at": "2026-09-30T16:02:15.988Z",
+        "timing_scope": "800ms demo proxy; native latency unmeasured",
+        "connection_id": "C-VA-TRANSIENT-01",
+        "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+        "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-VA-TRANSIENT-MORE-001"
+        ],
+        "source_evidence_ids": [
+          "E-ASSISTANT-BEFORE-HERO",
+          "E-ASSISTANT-DETAIL"
+        ],
+        "prototype_evidence_ids": [
+          "E-VA-TRANSIENT-TRACE",
+          "E-VA-TRANSIENT-SCREEN-06"
+        ],
+        "deviation_ids": [
+          "D-VA-SOURCE-STATE-SAMPLING",
+          "D-VA-TRANSIENT-LIMITS"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:46:56.045Z",
+      "readback": [
+        "\t\t\t\t\t\t299 combo box (collapsed) Trigger, Value: After delay, ID: :r84:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t303 container After delay timeout",
+        "\t\t\t\t\t\t\t305 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t308 combo box (collapsed) Action, Value: Swap overlay, ID: :r87:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [S-VA-DETAIL] Virtual Assistant, ID: :r8b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t317 combo box (collapsed) Animation, Value: Instant, ID: :r8k:, Secondary Actions: Expand",
+        "The focused UI element is 308 combo box (collapsed) Action, Value: Swap overlay, ID: :r87:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-10",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:6",
+      "trigger_node_id": "42:34",
+      "action_id": "A-ASSISTANT-BACK",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-ASSISTANT-BACK",
+        "source_node_id": "42:6",
+        "target_node_id": "12:435",
+        "trigger_node_id": "42:34",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-ASSISTANT-V2",
+        "implementation_status": "tested_navigation_only",
+        "prototype_run_ids": [
+          "PROTO-VA-V2-001"
+        ],
+        "source_fidelity": "Observed native interaction and destination represented.",
+        "deviation_ids": []
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:47:02.884Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Close overlay, ID: :r8p:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Close overlay, ID: :r8p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-11",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:6",
+      "trigger_node_id": "42:13",
+      "action_id": "A-ASSISTANT-EXPAND",
+      "behavior": "Open overlay",
+      "target_node_id": "42:37",
+      "previous_configuration": {
+        "action_id": "A-ASSISTANT-EXPAND",
+        "source_node_id": "42:6",
+        "target_node_id": "42:37",
+        "trigger_node_id": "42:13",
+        "trigger_node_name": "ExpandImage",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-ASSISTANT-V2",
+        "implementation_status": "tested_navigation_only",
+        "prototype_run_ids": [
+          "PROTO-VA-V2-001"
+        ],
+        "source_fidelity": "Observed native interaction and destination represented.",
+        "deviation_ids": []
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:47:10.084Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8t:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-VA-IMAGE] Assistant — Image, ID: :r91:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8t:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-12",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:37",
+      "trigger_node_id": "42:39",
+      "action_id": "A-ASSISTANT-CLOSE-IMAGE",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-ASSISTANT-CLOSE-IMAGE",
+        "source_node_id": "42:37",
+        "target_node_id": "42:6",
+        "trigger_node_id": "42:39",
+        "trigger_node_name": "CloseImage",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-ASSISTANT-V2",
+        "implementation_status": "tested_navigation_only",
+        "prototype_run_ids": [
+          "PROTO-VA-V2-001"
+        ],
+        "source_fidelity": "Observed native interaction and destination represented.",
+        "deviation_ids": []
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:47:17.825Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Close overlay, ID: :r8m:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8m:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-13",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:6",
+      "trigger_node_id": "42:26",
+      "action_id": "A-ASSISTANT-LINK",
+      "behavior": "Open overlay",
+      "target_node_id": "613:627",
+      "previous_configuration": {
+        "source_node_id": "42:6",
+        "trigger_node_id": "42:26",
+        "target_node_id": "613:627",
+        "previous_target_node_id": "42:43",
+        "trigger_name": "VirtualAssistantWebLink",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "action_id": "A-ASSISTANT-LINK",
+        "configured_at": "2026-09-30T16:04:19.224Z",
+        "operation": "replace_destination",
+        "connection_id": "C-VA-TRANSIENT-04",
+        "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+        "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-VA-TRANSIENT-MORE-001"
+        ],
+        "source_evidence_ids": [
+          "E-ASSISTANT-WEB-LOADING"
+        ],
+        "prototype_evidence_ids": [
+          "E-VA-TRANSIENT-TRACE",
+          "E-VA-TRANSIENT-SCREEN-09"
+        ],
+        "deviation_ids": [
+          "D-VA-SOURCE-STATE-SAMPLING",
+          "D-VA-TRANSIENT-LIMITS"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:47:32.179Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8v:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-ASSISTANT-WEB-LOADING] Browser — loading mark, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r9c:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8v:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-14",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "613:627",
+      "trigger_node_id": "613:627",
+      "action_id": null,
+      "behavior": "Swap overlay",
+      "target_node_id": "42:43",
+      "previous_configuration": {
+        "source_node_id": "613:627",
+        "trigger_node_id": "613:627",
+        "target_node_id": "42:43",
+        "trigger_name": "root",
+        "trigger": "After delay",
+        "delay_ms": 800,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "action_id": null,
+        "configured_at": "2026-09-30T16:03:13.469Z",
+        "source_generalization": "Observed loading-to-Disclaimer sequence; automatic prototype transition and800ms timing proxy only.",
+        "connection_id": "C-VA-TRANSIENT-02",
+        "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+        "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+        "prototype_run_ids": [
+          "PROTO-VA-TRANSIENT-MORE-001"
+        ],
+        "source_evidence_ids": [
+          "E-ASSISTANT-WEB-LOADING",
+          "E-ASSISTANT-DISCLAIMER"
+        ],
+        "prototype_evidence_ids": [
+          "E-VA-TRANSIENT-TRACE",
+          "E-VA-TRANSIENT-SCREEN-07"
+        ],
+        "deviation_ids": [
+          "D-VA-SOURCE-STATE-SAMPLING",
+          "D-VA-TRANSIENT-LIMITS"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:47:40.320Z",
+      "readback": [
+        "\t\t\t\t\t\t299 combo box (collapsed) Trigger, Value: After delay, ID: :r84:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t303 container After delay timeout",
+        "\t\t\t\t\t\t\t305 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t308 combo box (collapsed) Action, Value: Swap overlay, ID: :r87:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [S-VA-DISCLAIMER] Assistant — Disclaimer, ID: :r8b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t317 combo box (collapsed) Animation, Value: Instant, ID: :r8k:, Secondary Actions: Expand",
+        "The focused UI element is 308 combo box (collapsed) Action, Value: Swap overlay, ID: :r87:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-15",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:43",
+      "trigger_node_id": "42:94",
+      "action_id": "A-ASSISTANT-ACCEPT",
+      "behavior": "Swap overlay",
+      "target_node_id": "42:111",
+      "previous_configuration": {
+        "action_id": "A-ASSISTANT-ACCEPT",
+        "source_node_id": "42:43",
+        "target_node_id": "42:111",
+        "trigger_node_id": "42:94",
+        "trigger_node_name": "AcceptDisclaimer",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-ASSISTANT-V2",
+        "implementation_status": "tested_navigation_only",
+        "prototype_run_ids": [
+          "PROTO-VA-V2-001"
+        ],
+        "source_fidelity": "Observed native interaction and destination represented.",
+        "deviation_ids": []
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:47:47.604Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Swap overlay, ID: :r8e:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-VA-WELCOME] Assistant — Welcome, ID: :r8i:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r8r:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Swap overlay, ID: :r8e:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-16",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:111",
+      "trigger_node_id": "42:120",
+      "action_id": "A-ASSISTANT-WEB-CLOSE",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-ASSISTANT-WEB-CLOSE",
+        "source_node_id": "42:111",
+        "target_node_id": "42:6",
+        "trigger_node_id": "42:120",
+        "trigger_node_name": "CloseWeb",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-ASSISTANT-V2",
+        "implementation_status": "tested_navigation_with_source_state_deviation",
+        "prototype_run_ids": [
+          "PROTO-VA-V2-001"
+        ],
+        "source_fidelity": "Native X return was observed from blank embedded page after input attempt; prototype X is tested from Welcome. Same destination, exact start-state transition not independently verified in native App.",
+        "deviation_ids": [
+          "D-VA-SOURCE-STATE-SAMPLING",
+          "D-VA-HERO-RETURN-RENDER"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:47:54.919Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Close overlay, ID: :r8m:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Close overlay, ID: :r8m:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-17",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "12:480",
+      "trigger_node_id": "12:490",
+      "action_id": "A-WEATHER-EXPAND",
+      "behavior": "Open overlay",
+      "target_node_id": "12:510",
+      "previous_configuration": {
+        "action_id": "A-WEATHER-EXPAND",
+        "source_node_id": "12:480",
+        "target_node_id": "12:510",
+        "trigger_node_id": "12:490",
+        "trigger_node_name": "ExpandImage",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MORE-WEATHER-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-WEATHER-V2-001"
+        ],
+        "source_fidelity": "Matches independently observed native action and destination. Weather Back source confirmed at 15:45:42 UTC.",
+        "verification_note": "Hotspot node confirmed from actual editor URL."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:48:09.662Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8t:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-WEATHER-EXPANDED] Weather image, ID: :r91:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8t:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-18",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "12:510",
+      "trigger_node_id": "12:512",
+      "action_id": "A-WEATHER-CLOSE-IMAGE",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-WEATHER-CLOSE-IMAGE",
+        "source_node_id": "12:510",
+        "target_node_id": "12:480",
+        "trigger_node_id": "12:512",
+        "trigger_node_name": "CloseImage",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MORE-WEATHER-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-WEATHER-V2-001"
+        ],
+        "source_fidelity": "Matches independently observed native action and destination. Weather Back source confirmed at 15:45:42 UTC.",
+        "verification_note": "Hotspot node confirmed from actual editor URL."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:48:16.073Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Close overlay, ID: :r8m:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8m:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-19",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "12:480",
+      "trigger_node_id": "12:507",
+      "action_id": "A-WEATHER-BACK",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-WEATHER-BACK",
+        "source_node_id": "12:480",
+        "target_node_id": "12:435",
+        "trigger_node_id": "12:507",
+        "trigger_node_name": "Back",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MORE-WEATHER-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-WEATHER-V2-001"
+        ],
+        "source_fidelity": "Matches independently observed native action and destination. Weather Back source confirmed at 15:45:42 UTC.",
+        "verification_note": "Hotspot node confirmed from actual editor URL."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:48:22.491Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Close overlay, ID: :r8p:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-20",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "75:1669",
+      "trigger_node_id": "75:1684",
+      "action_id": "A-DRAWER-SETTINGS",
+      "behavior": "Open overlay",
+      "target_node_id": "50:1794",
+      "previous_configuration": {
+        "action_id": "A-DRAWER-SETTINGS",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:1794",
+        "trigger_node_id": "75:1684",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:48:29.084Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r86:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r89:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-SETTINGS] Settings, ID: :r8d:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r8m:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r89:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-21",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "75:1669",
+      "trigger_node_id": "75:1680",
+      "action_id": "A-DRAWER-PROFILE",
+      "behavior": "Open overlay",
+      "target_node_id": "50:1818",
+      "previous_configuration": {
+        "action_id": "A-DRAWER-PROFILE",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:1818",
+        "trigger_node_id": "75:1680",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:48:42.810Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r86:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r89:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-PROFILE-DEMO] Profile — synthetic data, ID: :r8d:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r8m:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r89:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-22",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "75:1669",
+      "trigger_node_id": "75:1688",
+      "action_id": "A-DRAWER-EMERGENCY",
+      "behavior": "Open overlay",
+      "target_node_id": "50:1778",
+      "previous_configuration": {
+        "action_id": "A-DRAWER-EMERGENCY",
+        "source_node_id": "75:1669",
+        "target_node_id": "50:1778",
+        "trigger_node_id": "75:1688",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:48:49.297Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8i:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-EMERGENCY] Emergency dialog, ID: :r8p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r92:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8l:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-23",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "50:1794",
+      "trigger_node_id": "50:1798",
+      "action_id": "A-SETTINGS-BACK",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-SETTINGS-BACK",
+        "source_node_id": "50:1794",
+        "target_node_id": null,
+        "trigger_node_id": "50:1798",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:48:55.799Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Close overlay, ID: :r8p:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Close overlay, ID: :r8p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-24",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "50:1818",
+      "trigger_node_id": "50:1822",
+      "action_id": "A-PROFILE-BACK",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-PROFILE-BACK",
+        "source_node_id": "50:1818",
+        "target_node_id": null,
+        "trigger_node_id": "50:1822",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:49:17.735Z",
+      "readback": [
+        "\t\t\t\t\t\t298 combo box (collapsed) Trigger, Value: On click, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t304 combo box (collapsed) Action, Value: Close overlay, ID: :r8p:, Secondary Actions: Expand",
+        "The focused UI element is 304 combo box (collapsed) Action, Value: Close overlay, ID: :r8p:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-25",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "50:1778",
+      "trigger_node_id": "50:1791",
+      "action_id": "A-EMERGENCY-CLOSE",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-EMERGENCY-CLOSE",
+        "source_node_id": "50:1778",
+        "target_node_id": null,
+        "trigger_node_id": "50:1791",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "75:1669"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:49:24.811Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r86:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Close overlay, ID: :r89:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r89:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-26",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "50:1794",
+      "trigger_node_id": "50:1808",
+      "action_id": "A-SETTINGS-PUSH",
+      "behavior": "Open overlay",
+      "target_node_id": "753:39",
+      "previous_configuration": {
+        "action_id": "A-SETTINGS-PUSH",
+        "source_node_id": "50:1794",
+        "target_node_id": "75:1710",
+        "trigger_node_id": "50:1808",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-10-02T09:32:03.532Z",
+      "readback": [
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8r:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [MAC-FIT] General — scaled reference, ID: :r8v:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r98:, Secondary Actions: Expand",
+        "The focused UI element is 308 combo box (collapsed) Destination, Value: [MAC-FIT] General — scaled reference, ID: :r8v:, Secondary Actions: Expand"
+      ],
+      "configuration_history": [
+        {
+          "source_node_id": "50:1794",
+          "trigger_node_id": "50:1808",
+          "action_id": "A-SETTINGS-PUSH",
+          "behavior": "Open overlay",
+          "target_node_id": "75:1710",
+          "previous_configuration": {
+            "action_id": "A-SETTINGS-PUSH",
+            "source_node_id": "50:1794",
+            "target_node_id": "75:1710",
+            "trigger_node_id": "50:1808",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-MENU-V2",
+            "implementation_status": "tested",
+            "prototype_run_ids": [
+              "PROTO-MENU-V2-001"
+            ],
+            "deviation_ids": [
+              "D-MENU-FIDELITY"
+            ],
+            "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+          },
+          "operation": "replace_behavior",
+          "configured_at": "2026-09-30T17:49:31.889Z",
+          "readback": [
+            "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8o:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8r:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-SETTINGS-MAC-GENERAL] Mac General, ID: :r8v:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r98:, Secondary Actions: Expand",
+            "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8r:, Secondary Actions: Expand"
+          ]
+        },
+        {
+          "source_node_id": "50:1794",
+          "trigger_node_id": "50:1808",
+          "action_id": "A-SETTINGS-PUSH",
+          "behavior": "Navigate to",
+          "target_node_id": "75:1710",
+          "previous_configuration": {
+            "action_id": "A-SETTINGS-PUSH",
+            "source_node_id": "50:1794",
+            "target_node_id": "75:1710",
+            "trigger_node_id": "50:1808",
+            "trigger": "On click",
+            "behavior": "Navigate to",
+            "revision_id": "FIGMA-MENU-V2",
+            "implementation_status": "tested",
+            "prototype_run_ids": [
+              "PROTO-MENU-V2-001"
+            ],
+            "deviation_ids": [
+              "D-MENU-FIDELITY"
+            ],
+            "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations."
+          },
+          "operation": "replace_behavior",
+          "configured_at": "2026-10-02T09:27:03.976Z",
+          "readback": [
+            "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8o:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Navigate to, ID: :r8r:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-SETTINGS-MAC-GENERAL] Mac General, ID: :r8v:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t315 combo box (collapsed) Animation, Value: Instant, ID: :r9b:, Secondary Actions: Expand",
+            "The focused UI element is 303 combo box (collapsed) Action, Value: Navigate to, ID: :r8r:, Secondary Actions: Expand"
+          ],
+          "note": "Wide Mac reference remains a separate scaled frame; full-size overlay clipped native Close. Caller return must be replayed."
+        }
+      ],
+      "note": "Uniformly scaled Mac reference popup, no native size claim; original wide frame retained.",
+      "connection_id": "C-GLOBAL-NAV-27",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "12:435",
+      "trigger_node_id": "12:456",
+      "action_id": "A-MORE-WEATHER",
+      "behavior": "Open overlay",
+      "target_node_id": "12:480",
+      "previous_configuration": {
+        "action_id": "A-MORE-WEATHER",
+        "source_node_id": "12:435",
+        "target_node_id": "12:480",
+        "trigger_node_id": null,
+        "trigger_node_name": "MoreWeatherCard",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "revision_id": "FIGMA-MORE-WEATHER-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-WEATHER-V2-001"
+        ],
+        "source_fidelity": "Matches independently observed native action and destination. Weather Back source confirmed at 15:45:42 UTC.",
+        "verification_note": "MoreWeatherCard exact hotspot ID was not recorded; name, configuration and runtime destination were observed."
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-09-30T17:50:45.930Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8c:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Open overlay, ID: :r8f:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t308 combo box (collapsed) Destination, Value: [S-WEATHER] Bad Weather Arrangements, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Animation, Value: Instant, ID: :r8s:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Open overlay, ID: :r8f:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-29",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "12:435",
+      "trigger_node_id": "12:440",
+      "action_id": "A-MORE-MENU",
+      "behavior": "Open overlay",
+      "target_node_id": "75:1669",
+      "operation": "add",
+      "trigger": "On click",
+      "configured_at": "2026-09-30T17:50:55.457Z",
+      "readback": [
+        "\t\t\t\t\t\t456 combo box (collapsed) Trigger, Value: On click, ID: :raa:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t462 combo box (collapsed) Action, Value: Open overlay, ID: :rad:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t469 combo box (collapsed) Destination, Value: [S-DRAWER] Full menu — DEMO, ID: :ras:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t478 combo box (expanded) Animation, Value: Instant, ID: :rbc:, Secondary Actions: Collapse"
+      ],
+      "connection_id": "C-GLOBAL-NAV-30",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "12:435",
+      "trigger_node_id": "12:465",
+      "action_id": "A-MORE-HOME",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "operation": "add",
+      "trigger": "On click",
+      "configured_at": "2026-09-30T17:51:04.223Z",
+      "readback": [
+        "\t\t\t\t\t\t464 combo box (collapsed) Trigger, Value: On click, ID: :rae:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t470 combo box (collapsed) Action, Value: Close overlay, ID: :rah:, Secondary Actions: Expand",
+        "The focused UI element is 470 combo box (collapsed) Action, Value: Close overlay, ID: :rah:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-31",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "42:1617",
+      "trigger_node_id": "42:1653",
+      "action_id": "A-NOTIFICATION-MORE",
+      "behavior": "Swap overlay",
+      "target_node_id": "12:435",
+      "operation": "add",
+      "trigger": "On click",
+      "configured_at": "2026-10-02T09:10:56.047Z",
+      "readback": [
+        "\t\t\t\t\t\t533 combo box (collapsed) Trigger, Value: On click, ID: :rbi:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t539 combo box (collapsed) Action, Value: Swap overlay, ID: :rbl:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t546 combo box (collapsed) Destination, Value: [S-MORE] More, ID: :rc4:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t551 combo box (collapsed) Animation, Value: Instant, ID: :rch:, Secondary Actions: Expand",
+        "The focused UI element is 551 combo box (collapsed) Animation, Value: Instant, ID: :rch:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-32",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "67:569",
+      "trigger_node_id": "67:664",
+      "action_id": "A-HOME-MENU",
+      "behavior": "Open overlay",
+      "target_node_id": "75:1669",
+      "operation": "add",
+      "trigger": "On click",
+      "configured_at": "2026-10-02T09:12:28.139Z",
+      "readback": [
+        "\t\t\t\t\t\t535 combo box (collapsed) Trigger, Value: On click, ID: :rbi:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t541 combo box (collapsed) Action, Value: Open overlay, ID: :rbl:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t548 combo box (collapsed) Destination, Value: [S-DRAWER] Full menu — DEMO, ID: :rc4:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t557 combo box (collapsed) Animation, Value: Instant, ID: :rck:, Secondary Actions: Expand",
+        "The focused UI element is 548 combo box (collapsed) Destination, Value: [S-DRAWER] Full menu — DEMO, ID: :rc4:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-33",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "67:569",
+      "trigger_node_id": "67:689",
+      "action_id": "A-HOME-EP004",
+      "behavior": "Open overlay",
+      "target_node_id": "12:435",
+      "operation": "add",
+      "trigger": "On click",
+      "configured_at": "2026-10-02T09:12:37.905Z",
+      "readback": [
+        "\t\t\t\t\t\t538 combo box (collapsed) Trigger, Value: On click, ID: :rbi:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t544 combo box (collapsed) Action, Value: Open overlay, ID: :rbl:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t551 combo box (collapsed) Destination, Value: [S-MORE] More, ID: :rc4:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t560 combo box (collapsed) Animation, Value: Instant, ID: :rck:, Secondary Actions: Expand",
+        "The focused UI element is 551 combo box (collapsed) Destination, Value: [S-MORE] More, ID: :rc4:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-34",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "67:569",
+      "trigger_node_id": "67:687",
+      "action_id": "A-HOME-EP003",
+      "behavior": "Open overlay",
+      "target_node_id": "42:1617",
+      "operation": "add",
+      "trigger": "On click",
+      "configured_at": "2026-10-02T09:13:05.178Z",
+      "readback": [
+        "\t\t\t\t\t\t538 combo box (collapsed) Trigger, Value: On click, ID: :rbi:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t544 combo box (collapsed) Action, Value: Open overlay, ID: :rbl:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t551 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :rc4:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t560 combo box (collapsed) Animation, Value: Instant, ID: :rck:, Secondary Actions: Expand",
+        "The focused UI element is 551 combo box (collapsed) Destination, Value: [S-NOTIFICATION] My Notification, ID: :rc4:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-35",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "67:694",
+      "trigger_node_id": "67:815",
+      "action_id": "A-HOME-EP004",
+      "behavior": "Open overlay",
+      "target_node_id": "12:435",
+      "operation": "add",
+      "trigger": "On click",
+      "configured_at": "2026-10-02T09:13:28.458Z",
+      "readback": [
+        "\t\t\t\t\t\t530 combo box (collapsed) Trigger, Value: On click, ID: :rbf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t536 combo box (collapsed) Action, Value: Open overlay, ID: :rbi:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t543 combo box (collapsed) Destination, Value: [S-MORE] More, ID: :rc1:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t552 combo box (collapsed) Animation, Value: Instant, ID: :rch:, Secondary Actions: Expand",
+        "The focused UI element is 543 combo box (collapsed) Destination, Value: [S-MORE] More, ID: :rc1:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-36",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    },
+    {
+      "source_node_id": "753:39",
+      "trigger_node_id": "753:41",
+      "action_id": "A-MAC-GENERAL-CLOSE",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "operation": "add",
+      "trigger": "On click",
+      "configured_at": "2026-10-02T09:31:55.877Z",
+      "readback": [
+        "\t\t\t\t\t\t633 combo box (collapsed) Trigger, Value: On click, ID: :rp8:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t639 combo box (collapsed) Action, Value: Close overlay, ID: :rpb:, Secondary Actions: Expand",
+        "The focused UI element is 639 combo box (collapsed) Action, Value: Close overlay, ID: :rpb:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-GLOBAL-NAV-37",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified."
+    }
+  ],
+  "restored_during_batch": [
+    {
+      "source_node_id": "75:1710",
+      "trigger_node_id": "75:1712",
+      "action_id": "A-MAC-GENERAL-CLOSE",
+      "behavior": "Back",
+      "target_node_id": null,
+      "previous_configuration": {
+        "action_id": "A-MAC-GENERAL-CLOSE",
+        "source_node_id": "75:1710",
+        "target_node_id": null,
+        "trigger_node_id": "75:1712",
+        "trigger": "On click",
+        "behavior": "Back",
+        "revision_id": "FIGMA-MENU-V2",
+        "implementation_status": "tested",
+        "prototype_run_ids": [
+          "PROTO-MENU-V2-001"
+        ],
+        "deviation_ids": [
+          "D-MENU-FIDELITY"
+        ],
+        "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+        "tested_target_node_ids": [
+          "50:1794"
+        ]
+      },
+      "operation": "replace_behavior",
+      "configured_at": "2026-10-02T09:27:10.811Z",
+      "readback": [
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Back, ID: :r8e:, Secondary Actions: Expand",
+        "The focused UI element is 303 combo box (collapsed) Action, Value: Back, ID: :r8e:, Secondary Actions: Expand"
+      ],
+      "configuration_history": [
+        {
+          "source_node_id": "75:1710",
+          "trigger_node_id": "75:1712",
+          "action_id": "A-MAC-GENERAL-CLOSE",
+          "behavior": "Close overlay",
+          "target_node_id": null,
+          "previous_configuration": {
+            "action_id": "A-MAC-GENERAL-CLOSE",
+            "source_node_id": "75:1710",
+            "target_node_id": null,
+            "trigger_node_id": "75:1712",
+            "trigger": "On click",
+            "behavior": "Back",
+            "revision_id": "FIGMA-MENU-V2",
+            "implementation_status": "tested",
+            "prototype_run_ids": [
+              "PROTO-MENU-V2-001"
+            ],
+            "deviation_ids": [
+              "D-MENU-FIDELITY"
+            ],
+            "source_fidelity": "Read-only menu navigation, with Mac-specific handoff and documented visual limitations.",
+            "tested_target_node_ids": [
+              "50:1794"
+            ]
+          },
+          "operation": "replace_behavior",
+          "configured_at": "2026-09-30T17:49:38.933Z",
+          "readback": [
+            "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: On click, ID: :r8b:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Close overlay, ID: :r8e:, Secondary Actions: Expand",
+            "The focused UI element is 303 combo box (collapsed) Action, Value: Close overlay, ID: :r8e:, Secondary Actions: Expand"
+          ]
+        }
+      ],
+      "connection_id": "C-GLOBAL-NAV-28",
+      "revision_id": "FIGMA-GLOBAL-NAV-20261002",
+      "implementation_status": "configured_finite_caller_samples_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-GLOBAL-NAV-CHECKPOINT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CLIP-001",
+        "PROTO-GLOBAL-NAV-MAC-WIDE-001",
+        "PROTO-GLOBAL-NAV-MONDAY-FIT-001",
+        "PROTO-GLOBAL-NAV-MONDAY-CROSS-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-001",
+        "PROTO-GLOBAL-NAV-TUESDAY-POLICY-001",
+        "PROTO-GLOBAL-NAV-LEGACY-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-GLOBAL-NAV-TRACE"
+      ],
+      "deviation_ids": [
+        "D-GLOBAL-NAV-CALLER-LIMITS"
+      ],
+      "source_fidelity": "Recorded native navigation semantics; overlay stack, copied Home caller/date contexts and scaled Mac reference are prototype implementations. Complete input/device/native state retention unverified.",
+      "net_effect": "restored_original_behavior_not_counted"
+    }
+  ],
+  "fit_reference": {
+    "node_id": "753:39",
+    "trigger_node_id": "753:41",
+    "size": [
+      576,
+      133.37
+    ],
+    "source_size": [
+      1382,
+      320
+    ],
+    "name": "[MAC-FIT] General — scaled reference",
+    "state_id": "S-SETTINGS-MAC-GENERAL",
+    "readback": {
+      "node_id": "753:39",
+      "readback": [
+        "\t\t\t\t\t\t\t\t61 row (selected, collapsed) [MAC-FIT] General — scaled reference, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t\t\t64 text [MAC-FIT] General — scaled reference",
+        "\t\t\t\t\t\t\t\t\t307 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t308 stepper (settable, integer) Description: Y-position, Value: 64500",
+        "\t\t\t\t\t\t\t\t\t333 container Width",
+        "\t\t\t\t\t\t\t\t\t\t335 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t336 container Height",
+        "\t\t\t\t\t\t\t\t\t\t338 text field (settable) Description: Height, Value: 133.37"
+      ],
+      "at": "2026-10-02T09:46:59.328Z"
+    }
+  },
+  "cleanup": [
+    {
+      "at": "2026-10-02T09:09:21.901Z",
+      "node_id": "42:1639",
+      "operation": "removed_unfinished_click_none",
+      "reason": "Background selected instead of NavMore; no destination had been configured."
+    }
+  ],
+  "environment": "Native Wrapper timeout and Figma network suspension sampled September30 UTC; browser recovered with replacement tab. No native app restarted.",
+  "limits": [
+    "No new native observations or human evaluation.",
+    "Fit Mac reference is miniature, not original window size.",
+    "Original context/date retention not completely established."
+  ]
+}
