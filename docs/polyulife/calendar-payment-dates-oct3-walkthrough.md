@@ -44,6 +44,6 @@ October3 可见页面位于 Sat 列，选中标题是 `Saturday, October 3`，�
 
 ## 剩余工作
 
-新日期的 Home/筛选/视图模式尚未连线，未观察的控件没有泛化到其它日期。Payment 重开/X、任意日期/组合、年度学期边界、其它 Home/More 调用者及全应用覆盖继续保持未完成。
+后续[October3 Home返回上下文](calendar-payment-day3-home-walkthrough.md)已补原生观察和两条连接；其它新日期Home、筛选和视图模式尚未连线，未观察控件没有泛化到其它日期。Payment 重开/X、任意日期/组合、年度学期边界、其它 Home/More 调用者及全应用覆盖继续保持未完成。
 
 当前台账：17次原生会话、161状态、308动作（225 observed /81 not_attempted /2 attempted_unverified）；Figma171映射画板、370配置控件、115次运行。数量不代表完成率。原生分析、原型功能回放、手机手势和真人 Maze 测试仍分开记录。

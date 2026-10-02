@@ -1,0 +1,156 @@
+{
+  "kind": "actual_native_payment_day3_home_retention_and_filter_attempt",
+  "session_id": "SESSION-20261003-PAYMENT-DAY3-NAV",
+  "images": [
+    {
+      "file": "00-oct2-start.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:32:56.529Z",
+      "description": "oct2-start",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; empty Payment inspected, no identity/course/QR values."
+    },
+    {
+      "file": "01-day3-before-home.png",
+      "sha256": "e2852441ca58aae9906336a43cae70d0515acff960c39909f91f232754d121b9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:33:02.558Z",
+      "description": "day3-before-home",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; empty Payment inspected, no identity/course/QR values."
+    },
+    {
+      "file": "02-home-after-day3.png",
+      "sha256": "4b53679709d5e673d53a1a44a46942b0daedb7c292ae545b0db22c1491c5bb12",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:33:10.827Z",
+      "description": "home-after-day3",
+      "state_id": "S-NATIVE-PAYNAV-HOME3",
+      "action_id": "A-NATIVE-PAYNAV-HOME3",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Home greeting [215,25,374,85], exam/count/course area [0,120,576,445], preview [0,840,576,925] masked."
+    },
+    {
+      "file": "03-calendar-after-home3.png",
+      "sha256": "e2852441ca58aae9906336a43cae70d0515acff960c39909f91f232754d121b9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:33:22.165Z",
+      "description": "calendar-after-home3",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "action_id": "A-NATIVE-PAYNAV-CALENDAR3",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; empty Payment inspected, no identity/course/QR values."
+    },
+    {
+      "file": "04-filter-reopen-day3-attempt.png",
+      "sha256": "e2852441ca58aae9906336a43cae70d0515acff960c39909f91f232754d121b9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:33:48.818Z",
+      "description": "AX Filter click returned; saved view remains October3 Payment; no opened filter established.",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "action_id": "A-NATIVE-PAYNAV-FILTER3",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; empty Payment inspected, no identity/course/QR values."
+    },
+    {
+      "file": "05-filter-coordinate-day3.png",
+      "sha256": "e2852441ca58aae9906336a43cae70d0515acff960c39909f91f232754d121b9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:34:04.640Z",
+      "description": "Screenshot-derived coordinate input returned noWindowsAvailable; subsequent saved view still October3 Payment. Not executed input or app defect.",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "action_id": "A-NATIVE-PAYNAV-FILTER3",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; empty Payment inspected, no identity/course/QR values."
+    },
+    {
+      "file": "06-oct2-restored.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:34:25.983Z",
+      "description": "oct2-restored",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYNAV-RESTORE2",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; empty Payment inspected, no identity/course/QR values."
+    }
+  ],
+  "safe_ax_files": [
+    "00-oct2-start.safe-ax.txt",
+    "01-day3-before-home.safe-ax.txt",
+    "02-home-after-day3.safe-ax.txt",
+    "03-calendar-after-home3.safe-ax.txt",
+    "04-filter-reopen-day3-attempt.safe-ax.txt",
+    "05-filter-coordinate-day3.safe-ax.txt",
+    "06-oct2-restored.safe-ax.txt"
+  ],
+  "crop_from_raw_xyxy": [
+    977,
+    0,
+    2047,
+    1898
+  ],
+  "normalized_size": [
+    576,
+    1024
+  ],
+  "limits": [
+    "One native October3 Payment → Home → Calendar retains date/month/category; not universal state rules.",
+    "Filter AX no visible effect; screenshot-coordinate correction returned noWindowsAvailable, no executed coordinate input established.",
+    "Private Home greeting/exam values/news preview masked; Figma values synthetic DEMO.",
+    "View-mode control lacks established targeting in this session; no mode action recorded."
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 1,
+      "b": 3,
+      "purpose": "October3 before/after Home",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual native normalized screenshots, not Figma or universal persistence"
+    },
+    {
+      "a": 0,
+      "b": 6,
+      "purpose": "October2 restored",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual native normalized screenshots, not Figma or universal persistence"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "70d9baec7a82fbee70b0be5482ffd5f61218142309b476f1889fedc0114dff83",
+    "dimensions": [
+      1152,
+      770
+    ],
+    "source": "Derived inspected public native samples"
+  }
+}

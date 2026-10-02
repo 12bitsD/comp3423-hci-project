@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "file": "calendar-payment-day3-home-demo.svg",
+      "sha256": "b1404ba1b7c44db56c9f60c6ce00aa2a4cacf7d60133fd3d8ef88b70f7570eea",
+      "state_id": "S-NATIVE-PAYNAV-HOME3",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYNAV-02",
+        "E-NATIVE-PAYNAV-02-AX",
+        "E-NATIVE-PAYNAV-03"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_finite_caller_replayed_partial",
+      "limits": [
+        "Two finite observed date-specific Home contexts use fixed navigation; universal persistence still unimplemented.",
+        "New Home personal fields wholly synthetic DEMO; static scrolled sample, other Home controls not connected.",
+        "Filter and mode remain native targeting gaps; no fictional overlay or mode added.",
+        "Prototype repeat pixels do not prove native fidelity or human usability; complete application not_verified."
+      ],
+      "node_id": "832:19",
+      "revision_id": "FIGMA-PAYMENT-DAY3-HOME-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYNAV-HOME3-001",
+        "PROTO-PAYNAV-HOME3-002",
+        "PROTO-PAYNAV-DATES-REGRESSION-003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "revision_id": "FIGMA-PAYMENT-DAY3-HOME-20261003",
+  "frames": [
+    {
+      "file": "calendar-payment-day3-home-demo.svg",
+      "name": "[PAY-DATE:HOME3] Home — DEMO retained October3 Payment",
+      "node_id": "832:19",
+      "x": 0,
+      "y": 75700,
+      "at": "2026-10-02T18:35:59.108Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t329 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t330 stepper (settable, integer) Description: Y-position, Value: 75700",
+        "\t\t\t\t\t\t\t\t\t\t357 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t360 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "828:19",
+      "trigger_node_id": "828:157",
+      "trigger_node_name": "NavHome",
+      "action_id": "A-NATIVE-PAYNAV-HOME3",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "832:19",
+      "configured_at": "2026-10-02T18:37:01.263Z",
+      "readback": [
+        "\t\t\t\t\t\t\t586 combo box (collapsed) Position, Value: Scroll with parent, ID: :rf7:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t610 combo box (collapsed) Trigger, Value: On click, ID: :rfe:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t616 combo box (collapsed) Action, Value: Navigate to, ID: :rfh:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t623 combo box (collapsed) Destination, Value: [PAY-DATE:HOME3] Home — DEMO retained October3 Payment, ID: :rg0:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t628 combo box (collapsed) Animation, Value: Instant, ID: :rgd:, Secondary Actions: Expand",
+        "The focused UI element is 623 combo box (collapsed) Destination, Value: [PAY-DATE:HOME3] Home — DEMO retained October3 Payment, ID: :rg0:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYNAV-01",
+      "revision_id": "FIGMA-PAYMENT-DAY3-HOME-20261003",
+      "implementation_status": "configured_finite_caller_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYNAV-HOME3-001",
+        "PROTO-PAYNAV-HOME3-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYNAV-02",
+        "E-NATIVE-PAYNAV-02-AX"
+      ],
+      "source_fidelity": "Observed October3 Payment caller only; fixed navigation approximates retained context, not universal persistence"
+    },
+    {
+      "source_node_id": "832:19",
+      "trigger_node_id": "832:126",
+      "trigger_node_name": "NavCalendar",
+      "action_id": "A-NATIVE-PAYNAV-CALENDAR3",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "828:19",
+      "configured_at": "2026-10-02T18:37:14.779Z",
+      "readback": [
+        "\t\t\t\t\t\t\t665 combo box (collapsed) Position, Value: Scroll with parent, ID: :rhf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t689 combo box (collapsed) Trigger, Value: On click, ID: :rhm:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t695 combo box (collapsed) Action, Value: Navigate to, ID: :rhp:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t702 combo box (collapsed) Destination, Value: [PAY-DATE:OCT3] Payment — Saturday October3, ID: :ri8:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t707 combo box (collapsed) Animation, Value: Instant, ID: :ril:, Secondary Actions: Expand",
+        "The focused UI element is 702 combo box (collapsed) Destination, Value: [PAY-DATE:OCT3] Payment — Saturday October3, ID: :ri8:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYNAV-02",
+      "revision_id": "FIGMA-PAYMENT-DAY3-HOME-20261003",
+      "implementation_status": "configured_finite_caller_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYNAV-HOME3-001",
+        "PROTO-PAYNAV-HOME3-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYNAV-03",
+        "E-NATIVE-PAYNAV-03-AX"
+      ],
+      "source_fidelity": "Observed October3 Payment caller only; fixed navigation approximates retained context, not universal persistence"
+    }
+  ],
+  "flow": {
+    "name": "Reference · Oct2 Calendar filters & Notice — partial",
+    "description": "Oct2/Oct3 native fullscreen reference, 25 finite frames and33 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2. Separate observed Oct2 and Oct3 Payment ↔ static Home DEMO contexts now connected; Oct3 Home return replayed twice followed by date/month cycle regression. Native Oct3 before/after Home normalized pixels equal. Month changes select day1 and keep Payment in this context. Upper-case Increment initially unchanged then listed lower-case increment succeeds; cause contributions unisolated. Payment filter AX unchanged; coordinate correction noWindowsAvailable, no opened overlay or app defect established. View-mode targeting unresolved. Private course/Home/exam values synthetic DEMO; markers omitted. Notice800ms illustrative, geography raster, live map unverified; two old None X inferred. Other dates/Home callers, arbitrary combinations/modes/semester bounds, continuous Home controls and full app/fidelity remain unverified. Historical local black preview disproved by normal saved pixels/hash. AX URL may lag; actual saved pixels determine rendered state.",
+    "readback": [
+      "\t\t\t\t\t873 container Oct2/Oct3 native fullscreen reference, 25 finite frames and33 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2. Separate observed Oct2 and Oct3 Payment ↔ static Home DEMO contexts now connected; Oct3 Home return replayed twice followed by date/month cycle regression. Native Oct3 before/after Home normalized pixels equal. Month changes select day1 and keep Payment in this context. Upper-case Increment initially unchanged then listed lower-case increment succeeds; cause contributions unisolated. Payment filter AX unchanged; coordinate correction noWindowsAvailable, no opened overlay or app defect established. View-mode targeting unresolved. Private course/Home/exam values synthetic DEMO; markers omitted. Notice800ms illustrative, geography raster, live map unverified; two old None X inferred. Other dates/Home callers, arbitrary combinations/modes/semester bounds, continuous Home controls and full app/fidelity remain unverified. Historical local black preview disproved by normal saved pixels/hash. AX URL may lag; actual saved pixels determine rendered state.",
+      "\t\t\t\t\t\t874 text Oct2/Oct3 native fullscreen reference, 25 finite frames and33 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2. Separate observed Oct2 and Oct3 Payment ↔ static Home DEMO contexts now connected; Oct3 Home return replayed twice followed by date/month cycle regression. Native Oct3 before/after Home normalized pixels equal. Month changes select day1 and keep Payment in this context. Upper-case Increment initially unchanged then listed lower-case increment succeeds; cause contributions unisolated. Payment filter AX unchanged; coordinate correction noWindowsAvailable, no opened overlay or app defect established. View-mode targeting unresolved. Private course/Home/exam values synthetic DEMO; markers omitted. Notice800ms illustrative, geography raster, live map unverified; two old None X inferred. Other dates/Home callers, arbitrary combinations/modes/semester bounds, continuous Home controls and full app/fidelity remain unverified. Historical local black preview disproved by normal saved pixels/hash. AX URL may lag; actual saved pixels determine rendered state.",
+      "The focused UI element is 873 container Oct2/Oct3 native fullscreen reference, 25 finite frames and33 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2. Separate observed Oct2 and Oct3 Payment ↔ static Home DEMO contexts now connected; Oct3 Home return replayed twice followed by date/month cycle regression. Native Oct3 before/after Home normalized pixels equal. Month changes select day1 and keep Payment in this context. Upper-case Increment initially unchanged then listed lower-case increment succeeds; cause contributions unisolated. Payment filter AX unchanged; coordinate correction noWindowsAvailable, no opened overlay or app defect established. View-mode targeting unresolved. Private course/Home/exam values synthetic DEMO; markers omitted. Notice800ms illustrative, geography raster, live map unverified; two old None X inferred. Other dates/Home callers, arbitrary combinations/modes/semester bounds, continuous Home controls and full app/fidelity remain unverified. Historical local black preview disproved by normal saved pixels/hash. AX URL may lag; actual saved pixels determine rendered state."
+    ],
+    "start_node_id": "791:177",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+    "tested_run_ids": [
+      "PROTO-OCT2-NONE-CANCEL-001",
+      "PROTO-OCT2-NONE-APPLY-001",
+      "PROTO-OCT2-NONE-RESTART-001",
+      "PROTO-OCT2-CLASS-NOTICE-001",
+      "PROTO-OCT2-NOTICE-RECOVERY-001",
+      "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001",
+      "PROTO-OCT3-PAYMENT-APPLY-001",
+      "PROTO-OCT3-PAYMENT-APPLY-002",
+      "PROTO-OCT3-PAYMENT-HOME-001",
+      "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+      "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003",
+      "PROTO-PAYMENT-DATES-CYCLE-001",
+      "PROTO-PAYMENT-DATES-CYCLE-002",
+      "PROTO-PAYMENT-DATES-HOME-003",
+      "PROTO-PAYNAV-HOME3-001",
+      "PROTO-PAYNAV-HOME3-002",
+      "PROTO-PAYNAV-DATES-REGRESSION-003"
+    ],
+    "scope": "25 finite frames33 controls; two date-specific Payment/Home contexts. Other callers/modes/filter/full application unverified.",
+    "updated_at": "2026-10-02T18:38:44.573456+00:00"
+  },
+  "prototype_run_ids": [
+    "PROTO-PAYNAV-HOME3-001",
+    "PROTO-PAYNAV-HOME3-002",
+    "PROTO-PAYNAV-DATES-REGRESSION-003"
+  ],
+  "limits": [
+    "Two finite observed date-specific Home contexts use fixed navigation; universal persistence still unimplemented.",
+    "New Home personal fields wholly synthetic DEMO; static scrolled sample, other Home controls not connected.",
+    "Filter and mode remain native targeting gaps; no fictional overlay or mode added.",
+    "Prototype repeat pixels do not prove native fidelity or human usability; complete application not_verified."
+  ],
+  "events": [
+    {
+      "kind": "editor_import_readback_correction",
+      "result": "SVG import succeeded, initial dimension check ran in Prototype tab and lacked fields. Switched to Design, verified576x1024 and reused existing832:19; no duplicate import."
+    },
+    {
+      "kind": "editor_locator_correction",
+      "result": "Row click hit layer lock; toggled back and used scoped row/name after exact text collided with sidebar target. Connections independently read back and Present replayed."
+    },
+    {
+      "kind": "flow_locator_correction",
+      "result": "Flow starting point button absent after root selection; fresh AX revealed Edit flow description, used that button."
+    }
+  ]
+}

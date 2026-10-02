@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[October3 Payment/Home 返回上下文](calendar-payment-day3-home-walkthrough.md)补真实日期保留证据、1个可编辑Home DEMO、2条连接与3组Present回放。原生162状态/312动作（228 observed、81 not_attempted、3 attempted_unverified）；Figma172画板/372控件/118次运行。筛选重开与视图定位仍有缺口，完整应用 `not_verified`。
+
 最新[Payment日期与月份循环](calendar-payment-dates-oct3-walkthrough.md)新增4个真实状态/5个动作，确认Oct3/Oct4及跨月选中1日、分类保持与Oct2恢复；4张可编辑画板/5条连接已两轮实际回放，并回归Oct2 Home。当前原生161状态/308动作（225 observed、81 not_attempted、2 attempted_unverified），Figma171画板/370控件/115次运行。重开筛选、新日期导航与完整范围仍 `not_verified`。
 
 最新[Payment/Home有限调用者接入](calendar-payment-home-oct3-prototype-walkthrough.md)补1个可编辑DEMO首页、2条原生依据连接和3组实际回放；工具预览一度显示黑色，实际保存像素和哈希证实为正常Payment；差异与更正保留。当前Figma167画板/365控件/112次运行，原生仍157状态/303动作。其它调用者、筛选重开和完整应用仍 `not_verified`。
