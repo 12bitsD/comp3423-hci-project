@@ -1,0 +1,160 @@
+{
+  "kind": "actual_native_payment_dates_and_month_reset_cycle",
+  "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+  "images": [
+    {
+      "file": "00-payment-oct2-source.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:15:06.113Z",
+      "description": "payment-oct2-source",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible"
+    },
+    {
+      "file": "01-payment-oct3.png",
+      "sha256": "e2852441ca58aae9906336a43cae70d0515acff960c39909f91f232754d121b9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:15:09.390Z",
+      "description": "payment-oct3",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible"
+    },
+    {
+      "file": "02-payment-oct4.png",
+      "sha256": "2682d27337fe2d882e70da93cf817cb674beef89f4bc014c4f4489b38312002b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:15:23.893Z",
+      "description": "payment-oct4",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-DAY4",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible"
+    },
+    {
+      "file": "03-payment-november.png",
+      "sha256": "2682d27337fe2d882e70da93cf817cb674beef89f4bc014c4f4489b38312002b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:15:38.266Z",
+      "description": "Upper-case Increment attempt retained October4. November not reached; filename is historical attempted label.",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible"
+    },
+    {
+      "file": "04-month-increment-correction.png",
+      "sha256": "437dab1d6bba232b5f8b271b485c35977e07ca8846c3e0a944b6c3fd92cfa272",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:16:19.041Z",
+      "description": "month-increment-correction",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-NOV",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible"
+    },
+    {
+      "file": "05-payment-october-return.png",
+      "sha256": "dbab6b173262dc8d7407aeaa9065b20528f61ade06b225b16894020e40e7b11d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:16:45.829Z",
+      "description": "payment-october-return",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-PREV-MONTH",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible"
+    },
+    {
+      "file": "06-payment-oct2-restored.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:16:57.267Z",
+      "description": "payment-oct2-restored",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible"
+    },
+    {
+      "file": "07-payment-oct2-stable.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:17:22.457Z",
+      "description": "payment-oct2-stable",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible"
+    }
+  ],
+  "crop_from_raw_xyxy": [
+    977,
+    0,
+    2047,
+    1898
+  ],
+  "normalized_size": [
+    576,
+    1024
+  ],
+  "safe_ax_files": [
+    "00-payment-oct2-source.safe-ax.txt",
+    "01-payment-oct3.safe-ax.txt",
+    "02-payment-oct4.safe-ax.txt",
+    "03-payment-november.safe-ax.txt",
+    "04-month-increment-correction.safe-ax.txt",
+    "05-payment-october-return.safe-ax.txt",
+    "06-payment-oct2-restored.safe-ax.txt",
+    "07-payment-oct2-stable.safe-ax.txt"
+  ],
+  "limits": [
+    "Payment category only; no financial transaction.",
+    "Upper-case Increment left October4; listed lower-case increment changed to November1. Do not treat initial filename as success.",
+    "One next/previous month cycle establishes first-day selection for this context, not all boundaries or persistence.",
+    "Mac AX day3 weekday differs from visible date; VoiceOver/real iPhone impact unverified."
+  ],
+  "source_restore_pixel_comparison": {
+    "a": 0,
+    "b": 7,
+    "equal": true,
+    "difference_bbox": null,
+    "scope": "Two actual native normalized Payment Oct2 captures only"
+  },
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "cafcb1c9e65301fe346965519523883e28c1ff1b42b43be1eebe0c6f251e09e9",
+    "dimensions": [
+      1152,
+      770
+    ],
+    "source": "Derived eight actual native Payment samples"
+  }
+}

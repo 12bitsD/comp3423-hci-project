@@ -644,6 +644,46 @@
         "Current date Today October3, selected October2 retained.",
         "Home reentry verifies only this finite October/month/Oct2/Payment context; original private Home values masked."
       ]
+    },
+    {
+      "id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "started_at": "2026-10-02T18:15:06.113Z",
+      "documented_through": "2026-10-02T18:17:22.457Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac; Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "app_version_source_session_id": "SESSION-20261003-CALENDAR-PAYMENT",
+        "login_state": "Existing login retained; no credentials entered"
+      },
+      "starting_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-00",
+        "E-NATIVE-PAYMENT-DATES-00-AX",
+        "E-NATIVE-PAYMENT-DATES-01",
+        "E-NATIVE-PAYMENT-DATES-01-AX",
+        "E-NATIVE-PAYMENT-DATES-02",
+        "E-NATIVE-PAYMENT-DATES-02-AX",
+        "E-NATIVE-PAYMENT-DATES-03",
+        "E-NATIVE-PAYMENT-DATES-03-AX",
+        "E-NATIVE-PAYMENT-DATES-04",
+        "E-NATIVE-PAYMENT-DATES-04-AX",
+        "E-NATIVE-PAYMENT-DATES-05",
+        "E-NATIVE-PAYMENT-DATES-05-AX",
+        "E-NATIVE-PAYMENT-DATES-06",
+        "E-NATIVE-PAYMENT-DATES-06-AX",
+        "E-NATIVE-PAYMENT-DATES-07",
+        "E-NATIVE-PAYMENT-DATES-07-AX",
+        "E-NATIVE-PAYMENT-DATES-CONTACT"
+      ],
+      "limitations": [
+        "Payment category only; no financial transaction.",
+        "Upper-case Increment left October4; listed lower-case increment changed to November1. Do not treat initial filename as success.",
+        "One next/previous month cycle establishes first-day selection for this context, not all boundaries or persistence.",
+        "Mac AX day3 weekday differs from visible date; VoiceOver/real iPhone impact unverified."
+      ]
     }
   ],
   "entry_points": [
@@ -4378,7 +4418,10 @@
         "E-NATIVE-OCT3-PAYMENT-03",
         "E-NATIVE-OCT3-PAYMENT-04",
         "E-NATIVE-OCT3-PAYMENT-05",
-        "E-NATIVE-OCT3-PAYMENT-07"
+        "E-NATIVE-OCT3-PAYMENT-07",
+        "E-NATIVE-PAYMENT-DATES-00",
+        "E-NATIVE-PAYMENT-DATES-06",
+        "E-NATIVE-PAYMENT-DATES-07"
       ],
       "ax_evidence_ids": [
         "E-NATIVE-OCT3-PAYMENT-01-AX",
@@ -4386,11 +4429,15 @@
         "E-NATIVE-OCT3-PAYMENT-03-AX",
         "E-NATIVE-OCT3-PAYMENT-04-AX",
         "E-NATIVE-OCT3-PAYMENT-05-AX",
-        "E-NATIVE-OCT3-PAYMENT-07-AX"
+        "E-NATIVE-OCT3-PAYMENT-07-AX",
+        "E-NATIVE-PAYMENT-DATES-00-AX",
+        "E-NATIVE-PAYMENT-DATES-06-AX",
+        "E-NATIVE-PAYMENT-DATES-07-AX"
       ],
       "action_ids": [
         "A-NATIVE-OCT3-PAYMENT-REOPEN",
-        "A-NATIVE-OCT3-PAYMENT-HOME"
+        "A-NATIVE-OCT3-PAYMENT-HOME",
+        "A-NATIVE-OCT3-PAYMENT-DAY3"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -4416,6 +4463,92 @@
       "discovery_checked": false,
       "remaining_uncertainties": [
         "Other Home callers and scroll/mode/category persistence rules not established."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "title": "Payment — Saturday October3",
+      "description": "Selected date in title, Payment category and No event visibly recorded; month switch resets selected date to first day in this finite context.",
+      "visible_scope": "Actual576x1024 normalized empty-state screenshot and safeAX subset",
+      "preconditions": "Retained Payment Calendar month view",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-01"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-01-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Other dates/categories/modes/callers and complete month/semester boundaries unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "title": "Payment — Sunday October4",
+      "description": "Selected date in title, Payment category and No event visibly recorded; month switch resets selected date to first day in this finite context.",
+      "visible_scope": "Actual576x1024 normalized empty-state screenshot and safeAX subset",
+      "preconditions": "Retained Payment Calendar month view",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-02",
+        "E-NATIVE-PAYMENT-DATES-03"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-02-AX",
+        "E-NATIVE-PAYMENT-DATES-03-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Other dates/categories/modes/callers and complete month/semester boundaries unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT3-PAYMENT-NOV",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "title": "Payment — Sunday November1",
+      "description": "Selected date in title, Payment category and No event visibly recorded; month switch resets selected date to first day in this finite context.",
+      "visible_scope": "Actual576x1024 normalized empty-state screenshot and safeAX subset",
+      "preconditions": "Retained Payment Calendar month view",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-04"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-04-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-PREV-MONTH"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Other dates/categories/modes/callers and complete month/semester boundaries unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "title": "Payment — Thursday October1 after previous month",
+      "description": "Selected date in title, Payment category and No event visibly recorded; month switch resets selected date to first day in this finite context.",
+      "visible_scope": "Actual576x1024 normalized empty-state screenshot and safeAX subset",
+      "preconditions": "Retained Payment Calendar month view",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-05"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-05-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Other dates/categories/modes/callers and complete month/semester boundaries unverified."
       ]
     }
   ],
@@ -7500,7 +7633,7 @@
       "return_path": null,
       "authorization": "Determine function and data scope before consequential actions",
       "blockers": [],
-      "pending_reason": "Oct2 Class and Exam Apply/reopen observed; Payment draft observed, Apply unknown due relock. Other combinations/dates remain pending."
+      "pending_reason": "Oct2 Class/Exam and Oct3 Payment Apply and finite dates/month navigation observed; historical Oct2 attempted Apply remains unknown. Other categories/combinations/results remain pending."
     },
     {
       "id": "A-CALENDAR-HIDE-HISTORY",
@@ -7583,7 +7716,11 @@
       "return_path": null,
       "authorization": "Determine function and data scope before consequential actions",
       "blockers": [],
-      "pending_reason": "Only one next/previous month cycle observed."
+      "pending_reason": "Historical cycle plus Oct3 Payment October→November1→October1 observed; first-day reset only in this context. Complete month/year/semester boundaries still pending.",
+      "followup_action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+        "A-NATIVE-OCT3-PAYMENT-PREV-MONTH"
+      ]
     },
     {
       "id": "A-NOTIFICATION-MENU",
@@ -12165,6 +12302,170 @@
       "return_path": "A-NATIVE-OCT3-PAYMENT-HOME",
       "authorization": "Ordinary reversible bottom navigation",
       "blockers": []
+    },
+    {
+      "id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "control": "October3 date",
+      "input_summary": "Click fresh AX day_2026-10-03",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+          "at": "2026-10-02T18:15:09.390Z",
+          "input": "Click fresh AX day_2026-10-03",
+          "outcome": "Visible S-NATIVE-OCT3-PAYMENT-DAY3; Payment/No event",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+          "evidence_ids": [
+            "E-NATIVE-PAYMENT-DATES-01",
+            "E-NATIVE-PAYMENT-DATES-01-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-01",
+        "E-NATIVE-PAYMENT-DATES-01-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar date/month navigation; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Observed finite Payment context only; upper-case no-change attempt retained where applicable."
+    },
+    {
+      "id": "A-NATIVE-OCT3-PAYMENT-DAY4",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "control": "October4 date",
+      "input_summary": "Click fresh AX day_2026-10-04",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+          "at": "2026-10-02T18:15:23.893Z",
+          "input": "Click fresh AX day_2026-10-04",
+          "outcome": "Visible S-NATIVE-OCT3-PAYMENT-DAY4; Payment/No event",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+          "evidence_ids": [
+            "E-NATIVE-PAYMENT-DATES-02",
+            "E-NATIVE-PAYMENT-DATES-02-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+      "evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-02",
+        "E-NATIVE-PAYMENT-DATES-02-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar date/month navigation; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Observed finite Payment context only; upper-case no-change attempt retained where applicable."
+    },
+    {
+      "id": "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+      "control": "Calendar month header next",
+      "input_summary": "Fresh AX header Slider Increment; Fresh AX header lower-case increment listed secondary action",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+          "at": "2026-10-02T18:15:38.266Z",
+          "input": "Fresh AX header Slider Increment",
+          "outcome": "Upper-case Increment attempt retained October4. November not reached; filename is historical attempted label.",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+          "evidence_ids": [
+            "E-NATIVE-PAYMENT-DATES-03",
+            "E-NATIVE-PAYMENT-DATES-03-AX"
+          ],
+          "result_kind": "target_not_reached"
+        },
+        {
+          "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+          "at": "2026-10-02T18:16:19.041Z",
+          "input": "Fresh AX header lower-case increment listed secondary action",
+          "outcome": "Visible S-NATIVE-OCT3-PAYMENT-NOV; Payment/No event",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT-NOV",
+          "evidence_ids": [
+            "E-NATIVE-PAYMENT-DATES-04",
+            "E-NATIVE-PAYMENT-DATES-04-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT3-PAYMENT-NOV",
+      "evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-03",
+        "E-NATIVE-PAYMENT-DATES-04",
+        "E-NATIVE-PAYMENT-DATES-03-AX",
+        "E-NATIVE-PAYMENT-DATES-04-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar date/month navigation; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Observed finite Payment context only; upper-case no-change attempt retained where applicable."
+    },
+    {
+      "id": "A-NATIVE-OCT3-PAYMENT-PREV-MONTH",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT-NOV",
+      "control": "Calendar month header previous",
+      "input_summary": "Fresh AX header lower-case decrement secondary action",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+          "at": "2026-10-02T18:16:45.829Z",
+          "input": "Fresh AX header lower-case decrement secondary action",
+          "outcome": "Visible S-NATIVE-OCT3-PAYMENT-OCT1; Payment/No event",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+          "evidence_ids": [
+            "E-NATIVE-PAYMENT-DATES-05",
+            "E-NATIVE-PAYMENT-DATES-05-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+      "evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-05",
+        "E-NATIVE-PAYMENT-DATES-05-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar date/month navigation; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Observed finite Payment context only; upper-case no-change attempt retained where applicable."
+    },
+    {
+      "id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+      "control": "October2 date",
+      "input_summary": "Click fresh AX day_2026-10-02 after previous-month reset",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+          "at": "2026-10-02T18:16:57.267Z",
+          "input": "Click fresh AX day_2026-10-02 after previous-month reset",
+          "outcome": "Visible S-NATIVE-OCT3-PAYMENT; Payment/No event",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "evidence_ids": [
+            "E-NATIVE-PAYMENT-DATES-06",
+            "E-NATIVE-PAYMENT-DATES-06-AX"
+          ],
+          "result_kind": "observed_target"
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-06",
+        "E-NATIVE-PAYMENT-DATES-06-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary reversible Calendar date/month navigation; no financial transaction",
+      "blockers": [],
+      "verification_boundary": "Observed finite Payment context only; upper-case no-change attempt retained where applicable."
     }
   ],
   "evidence": [
@@ -56251,6 +56552,602 @@
       "action_ids": [],
       "source": "Actual Computer Use Figma editor screenshot bytes",
       "redaction": "Account header masked half-open [1039,0,1124,49]"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/00-payment-oct2-source.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:15:06.113Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-00-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/00-payment-oct2-source.safe-ax.txt",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:15:06.113Z",
+      "sha256": "5895fdf9b30fd19e930f174f9098d7704a333d138c516c2928e9596e0f953903",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Derived subset of actual native AX",
+      "redaction": "Account aggregates/private data excluded; not complete AX"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/01-payment-oct3.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:15:09.390Z",
+      "sha256": "e2852441ca58aae9906336a43cae70d0515acff960c39909f91f232754d121b9",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-01-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/01-payment-oct3.safe-ax.txt",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:15:09.390Z",
+      "sha256": "3f783b0993966e00f8d6aa79236c214fe54bff22b0a2ca000a87e3d645066cfc",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "source": "Derived subset of actual native AX",
+      "redaction": "Account aggregates/private data excluded; not complete AX"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/02-payment-oct4.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:15:23.893Z",
+      "sha256": "2682d27337fe2d882e70da93cf817cb674beef89f4bc014c4f4489b38312002b",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-02-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/02-payment-oct4.safe-ax.txt",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:15:23.893Z",
+      "sha256": "40638d91e643756cf39a7576113a25dc105cf53f1c994950b8834d01d435df0f",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "source": "Derived subset of actual native AX",
+      "redaction": "Account aggregates/private data excluded; not complete AX"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/03-payment-november.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:15:38.266Z",
+      "sha256": "2682d27337fe2d882e70da93cf817cb674beef89f4bc014c4f4489b38312002b",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-03-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/03-payment-november.safe-ax.txt",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:15:38.266Z",
+      "sha256": "40638d91e643756cf39a7576113a25dc105cf53f1c994950b8834d01d435df0f",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH"
+      ],
+      "source": "Derived subset of actual native AX",
+      "redaction": "Account aggregates/private data excluded; not complete AX"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/04-month-increment-correction.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:16:19.041Z",
+      "sha256": "437dab1d6bba232b5f8b271b485c35977e07ca8846c3e0a944b6c3fd92cfa272",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-NOV"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-04-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/04-month-increment-correction.safe-ax.txt",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:16:19.041Z",
+      "sha256": "7e338e6ba4ba657aebe5c7b67c82461023a19e68659a65c911570e23f0232765",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-NOV"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH"
+      ],
+      "source": "Derived subset of actual native AX",
+      "redaction": "Account aggregates/private data excluded; not complete AX"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/05-payment-october-return.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:16:45.829Z",
+      "sha256": "dbab6b173262dc8d7407aeaa9065b20528f61ade06b225b16894020e40e7b11d",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-OCT1"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-PREV-MONTH"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-05-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/05-payment-october-return.safe-ax.txt",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:16:45.829Z",
+      "sha256": "32ad78faba6d7d12e4a956d581e9104a6b0b20411cb406ebdfdc75b51480da20",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-OCT1"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-PREV-MONTH"
+      ],
+      "source": "Derived subset of actual native AX",
+      "redaction": "Account aggregates/private data excluded; not complete AX"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/06-payment-oct2-restored.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:16:57.267Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-06-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/06-payment-oct2-restored.safe-ax.txt",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:16:57.267Z",
+      "sha256": "5895fdf9b30fd19e930f174f9098d7704a333d138c516c2928e9596e0f953903",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2"
+      ],
+      "source": "Derived subset of actual native AX",
+      "redaction": "Account aggregates/private data excluded; not complete AX"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/07-payment-oct2-stable.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:17:22.457Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop only; Payment empty states inspected, no identity/course/QR values visible",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-07-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/07-payment-oct2-stable.safe-ax.txt",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "captured_at": "2026-10-02T18:17:22.457Z",
+      "sha256": "5895fdf9b30fd19e930f174f9098d7704a333d138c516c2928e9596e0f953903",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Derived subset of actual native AX",
+      "redaction": "Account aggregates/private data excluded; not complete AX"
+    },
+    {
+      "id": "E-NATIVE-PAYMENT-DATES-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-native/contact-sheet.png",
+      "session_id": "SESSION-20261003-CALENDAR-PAYMENT-DATES",
+      "sha256": "cafcb1c9e65301fe346965519523883e28c1ff1b42b43be1eebe0c6f251e09e9",
+      "dimensions": [
+        1152,
+        770
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-OCT3-PAYMENT-DAY3",
+        "S-NATIVE-OCT3-PAYMENT-DAY4",
+        "S-NATIVE-OCT3-PAYMENT-NOV",
+        "S-NATIVE-OCT3-PAYMENT-OCT1"
+      ],
+      "action_ids": [],
+      "redaction": "Derived from inspected safe empty-state captures"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/00-oct2-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:24:58.781Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/01-oct3-selected.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:16.453Z",
+      "sha256": "faaecaf0aaae67ffe3be41dcc5fc21dde911e1cd4424afb7c69ca5b10b33aba5",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/02-oct4-selected.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:16.682Z",
+      "sha256": "ca90dc0baa7da7dfa9bad53c523c6cd1aadc88cd3832cbd3c6fae7e6e31555a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/03-nov1-after-next-month.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:23.823Z",
+      "sha256": "8dc49d5e4dcbd34dbfa13d04a204d003f523afb7d151fb4372fbf81775a7b544",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-NOV"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/04-oct1-after-previous-month.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:24.085Z",
+      "sha256": "d23a3938b594dcd78bb1cd030b0bb8efec5aeb6ab6d3623a0c9f6057da8195d1",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-OCT1"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-PREV-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/05-oct2-restored.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:34.774Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/06-oct3-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:34.971Z",
+      "sha256": "faaecaf0aaae67ffe3be41dcc5fc21dde911e1cd4424afb7c69ca5b10b33aba5",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/07-oct4-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:35.269Z",
+      "sha256": "ca90dc0baa7da7dfa9bad53c523c6cd1aadc88cd3832cbd3c6fae7e6e31555a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY4"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/08-nov1-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:35.532Z",
+      "sha256": "8dc49d5e4dcbd34dbfa13d04a204d003f523afb7d151fb4372fbf81775a7b544",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-NOV"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/09-oct1-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:35.831Z",
+      "sha256": "d23a3938b594dcd78bb1cd030b0bb8efec5aeb6ab6d3623a0c9f6057da8195d1",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-OCT1"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-PREV-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/10-oct2-restored-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:36.095Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/11-home-after-date-cycle.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:46.483Z",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-HOME"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/12-calendar-after-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:25:46.781Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-HOME-CALENDAR"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home personal records wholly synthetic DEMO"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-EDITOR",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/editor-date-flow.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:26:25.541487+00:00",
+      "sha256": "4494df429046765888af7b1bd19e6b38e1f0cfff9038f599020c1de11f600585",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor screenshot bytes",
+      "redaction": "Account header masked half-open [1039,0,1124,49]"
+    },
+    {
+      "id": "E-PAYMENT-DATES-PROTO-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-dates-prototype/contact-sheet.png",
+      "session_id": null,
+      "sha256": "763de0f9f0d8ffa75daee2c30f8b5d337bfd631f5160b2463c99225f69dd4fbd",
+      "dimensions": [
+        1440,
+        2720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-OCT3-PAYMENT-DAY3",
+        "S-NATIVE-OCT3-PAYMENT-DAY4",
+        "S-NATIVE-OCT3-PAYMENT-NOV",
+        "S-NATIVE-OCT3-PAYMENT-OCT1",
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [],
+      "source": "Derived actual saved Present/editor captures",
+      "redaction": "Derived from masked captures"
     }
   ],
   "findings": [
@@ -56475,7 +57372,9 @@
         "E-NATIVE-OCT2-03-AX",
         "E-NATIVE-OCT2-12",
         "E-NATIVE-OCT2-12-AX",
-        "E-NATIVE-OCT2-TRACE"
+        "E-NATIVE-OCT2-TRACE",
+        "E-NATIVE-PAYMENT-DATES-01",
+        "E-NATIVE-PAYMENT-DATES-01-AX"
       ],
       "hypothesis": "May affect assistive reading of dates; no VoiceOver or participant test performed.",
       "principle": "Accessible names should convey the same date meaning as visual labels.",
@@ -56497,6 +57396,19 @@
             "E-NATIVE-OCT2-12",
             "E-NATIVE-OCT2-12-AX",
             "E-NATIVE-OCT2-TRACE"
+          ]
+        },
+        {
+          "observed_fact": "Oct3 Payment date cell AX says Today Sunday3October selected, while visible Saturday column and selected title say Saturday,October3. Independently observed on current Mac; VoiceOver/iPhone impact untested.",
+          "state_ids": [
+            "S-NATIVE-OCT3-PAYMENT-DAY3"
+          ],
+          "action_ids": [
+            "A-NATIVE-OCT3-PAYMENT-DAY3"
+          ],
+          "evidence_ids": [
+            "E-NATIVE-PAYMENT-DATES-01",
+            "E-NATIVE-PAYMENT-DATES-01-AX"
           ]
         }
       ]
@@ -65192,7 +66104,10 @@
           "PROTO-OCT3-PAYMENT-APPLY-002",
           "PROTO-OCT3-PAYMENT-HOME-001",
           "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
-          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003",
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002",
+          "PROTO-PAYMENT-DATES-HOME-003"
         ],
         "prototype_evidence_ids": [
           "E-OCT3-PAYMENT-PROTO-01",
@@ -65201,7 +66116,11 @@
           "E-OCT3-PAYMENT-HOME-02",
           "E-OCT3-PAYMENT-HOME-05",
           "E-OCT3-PAYMENT-HOME-07",
-          "E-OCT3-PAYMENT-HOME-04"
+          "E-OCT3-PAYMENT-HOME-04",
+          "E-PAYMENT-DATES-PROTO-00",
+          "E-PAYMENT-DATES-PROTO-05",
+          "E-PAYMENT-DATES-PROTO-10",
+          "E-PAYMENT-DATES-PROTO-12"
         ]
       },
       {
@@ -65250,6 +66169,178 @@
           "E-OCT3-PAYMENT-HOME-01",
           "E-OCT3-PAYMENT-HOME-03",
           "E-OCT3-PAYMENT-HOME-06"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+        "node_id": "828:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=828-19",
+        "node_name": "[PAY-DATE:OCT3] Payment — Saturday October3",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-01",
+          "E-NATIVE-PAYMENT-DATES-01-AX"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-oct3.svg",
+        "design_source_sha256": "4d8b2ab090e5a4b1aea1eada01517f32c3fad61e6c86b9c053626e7d3493eba5",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            74100
+          ]
+        },
+        "native_editability": "Imported native Frame/Text/Vector/groups; date/month trigger groups inspected. No raster image embedded.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Selected date/month/Payment/empty state structure visible; geometry/font/glyph approximate, full fidelity not accepted.",
+          "evidence_ids": [
+            "E-PAYMENT-DATES-PROTO-01",
+            "E-PAYMENT-DATES-PROTO-06"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYMENT-DATES-PROTO-01",
+          "E-PAYMENT-DATES-PROTO-06"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+        "node_id": "829:178",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=829-178",
+        "node_name": "[PAY-DATE:OCT4] Payment — Sunday October4",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-02",
+          "E-NATIVE-PAYMENT-DATES-02-AX"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-oct4.svg",
+        "design_source_sha256": "05decd5301b4184774553e5dfdcdd9e2f6240bbef5547c7e68432956b8bd8710",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            74100
+          ]
+        },
+        "native_editability": "Imported native Frame/Text/Vector/groups; date/month trigger groups inspected. No raster image embedded.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Selected date/month/Payment/empty state structure visible; geometry/font/glyph approximate, full fidelity not accepted.",
+          "evidence_ids": [
+            "E-PAYMENT-DATES-PROTO-02",
+            "E-PAYMENT-DATES-PROTO-07"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYMENT-DATES-PROTO-02",
+          "E-PAYMENT-DATES-PROTO-07"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT3-PAYMENT-NOV",
+        "node_id": "829:337",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=829-337",
+        "node_name": "[PAY-DATE:NOV1] Payment — November1 after next month",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-04",
+          "E-NATIVE-PAYMENT-DATES-04-AX"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-nov1.svg",
+        "design_source_sha256": "c669b6a8acb53e2c52e79a1b88e99ad777460d804874ba3cd6be4cc9a9c093e7",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            74100
+          ]
+        },
+        "native_editability": "Imported native Frame/Text/Vector/groups; date/month trigger groups inspected. No raster image embedded.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Selected date/month/Payment/empty state structure visible; geometry/font/glyph approximate, full fidelity not accepted.",
+          "evidence_ids": [
+            "E-PAYMENT-DATES-PROTO-03",
+            "E-PAYMENT-DATES-PROTO-08"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYMENT-DATES-PROTO-03",
+          "E-PAYMENT-DATES-PROTO-08"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+        "node_id": "829:510",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=829-510",
+        "node_name": "[PAY-DATE:OCT1] Payment — October1 after previous month",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-05",
+          "E-NATIVE-PAYMENT-DATES-05-AX"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-oct1.svg",
+        "design_source_sha256": "7c60bd2fda68932d4fc54f9b202ac2404deeb5bc9557d2511957488010cc27e5",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            74100
+          ]
+        },
+        "native_editability": "Imported native Frame/Text/Vector/groups; date/month trigger groups inspected. No raster image embedded.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Selected date/month/Payment/empty state structure visible; geometry/font/glyph approximate, full fidelity not accepted.",
+          "evidence_ids": [
+            "E-PAYMENT-DATES-PROTO-04",
+            "E-PAYMENT-DATES-PROTO-09"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYMENT-DATES-PROTO-04",
+          "E-PAYMENT-DATES-PROTO-09"
         ]
       }
     ],
@@ -79528,6 +80619,158 @@
           "E-NATIVE-OCT3-PAYMENT-06-AX"
         ],
         "source_fidelity": "Observed Oct3 finite Payment caller context only; fixed Navigate-to approximates retained state, not universal persistence."
+      },
+      {
+        "source_node_id": "823:21",
+        "trigger_node_id": "823:67",
+        "trigger_node_name": "Day3",
+        "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "828:19",
+        "configured_at": "2026-10-02T18:21:41.501Z",
+        "readback": [
+          "\t\t\t\t\t\t\t893 combo box (collapsed) Position, Value: Scroll with parent, ID: :rom:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t917 combo box (collapsed) Trigger, Value: On click, ID: :rsd:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t923 combo box (collapsed) Action, Value: Navigate to, ID: :rsg:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t930 combo box (collapsed) Destination, Value: [PAY-DATE:OCT3] Payment — Saturday October3, ID: :rsv:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t935 combo box (collapsed) Animation, Value: Instant, ID: :rtc:, Secondary Actions: Expand",
+          "The focused UI element is 930 combo box (collapsed) Destination, Value: [PAY-DATE:OCT3] Payment — Saturday October3, ID: :rsv:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMENT-DATES-01",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "implementation_status": "configured_finite_reference_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-01",
+          "E-NATIVE-PAYMENT-DATES-01-AX"
+        ],
+        "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+      },
+      {
+        "source_node_id": "828:19",
+        "trigger_node_id": "828:67",
+        "trigger_node_name": "Day4",
+        "action_id": "A-NATIVE-OCT3-PAYMENT-DAY4",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "829:178",
+        "configured_at": "2026-10-02T18:22:52.965Z",
+        "readback": [
+          "\t\t\t\t\t\t\t619 combo box (collapsed) Position, Value: Scroll with parent, ID: :r9q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t643 combo box (collapsed) Trigger, Value: On click, ID: :rbv:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t649 combo box (collapsed) Action, Value: Navigate to, ID: :rc2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t656 combo box (collapsed) Destination, Value: [PAY-DATE:OCT4] Payment — Sunday October4, ID: :rch:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t661 combo box (collapsed) Animation, Value: Instant, ID: :rcu:, Secondary Actions: Expand",
+          "The focused UI element is 656 combo box (collapsed) Destination, Value: [PAY-DATE:OCT4] Payment — Sunday October4, ID: :rch:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMENT-DATES-02",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "implementation_status": "configured_finite_reference_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-02",
+          "E-NATIVE-PAYMENT-DATES-02-AX"
+        ],
+        "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+      },
+      {
+        "source_node_id": "829:178",
+        "trigger_node_id": "829:185",
+        "trigger_node_name": "NextMonth",
+        "action_id": "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "829:337",
+        "configured_at": "2026-10-02T18:24:16.050Z",
+        "readback": [
+          "\t\t\t\t\t\t\t760 combo box (collapsed) Position, Value: Scroll with parent, ID: :rf4:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t784 combo box (collapsed) Trigger, Value: On click, ID: :rfb:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t790 combo box (collapsed) Action, Value: Navigate to, ID: :rfe:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t797 combo box (collapsed) Destination, Value: [PAY-DATE:NOV1] Payment — November1 after next month, ID: :rft:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t802 combo box (collapsed) Animation, Value: Instant, ID: :rga:, Secondary Actions: Expand",
+          "The focused UI element is 797 combo box (collapsed) Destination, Value: [PAY-DATE:NOV1] Payment — November1 after next month, ID: :rft:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMENT-DATES-03",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "implementation_status": "configured_finite_reference_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-03",
+          "E-NATIVE-PAYMENT-DATES-04",
+          "E-NATIVE-PAYMENT-DATES-03-AX",
+          "E-NATIVE-PAYMENT-DATES-04-AX"
+        ],
+        "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+      },
+      {
+        "source_node_id": "829:337",
+        "trigger_node_id": "829:342",
+        "trigger_node_name": "PreviousMonth",
+        "action_id": "A-NATIVE-OCT3-PAYMENT-PREV-MONTH",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "829:510",
+        "configured_at": "2026-10-02T18:24:25.546Z",
+        "readback": [
+          "\t\t\t\t\t\t\t934 combo box (collapsed) Position, Value: Scroll with parent, ID: :ria:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t958 combo box (collapsed) Trigger, Value: On click, ID: :rih:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t964 combo box (collapsed) Action, Value: Navigate to, ID: :rik:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t971 combo box (collapsed) Destination, Value: [PAY-DATE:OCT1] Payment — October1 after previous month, ID: :rj3:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t976 combo box (collapsed) Animation, Value: Instant, ID: :rjg:, Secondary Actions: Expand",
+          "The focused UI element is 971 combo box (collapsed) Destination, Value: [PAY-DATE:OCT1] Payment — October1 after previous month, ID: :rj3:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMENT-DATES-04",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "implementation_status": "configured_finite_reference_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-05",
+          "E-NATIVE-PAYMENT-DATES-05-AX"
+        ],
+        "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+      },
+      {
+        "source_node_id": "829:510",
+        "trigger_node_id": "829:554",
+        "trigger_node_name": "Day2",
+        "action_id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "823:21",
+        "configured_at": "2026-10-02T18:24:30.698Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1252 combo box (collapsed) Position, Value: Scroll with parent, ID: :rme:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1276 combo box (collapsed) Trigger, Value: On click, ID: :rod:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1282 combo box (collapsed) Action, Value: Navigate to, ID: :rog:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1289 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rov:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1294 combo box (collapsed) Animation, Value: Instant, ID: :rpc:, Secondary Actions: Expand",
+          "The focused UI element is 1289 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rov:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYMENT-DATES-05",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "implementation_status": "configured_finite_reference_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYMENT-DATES-06",
+          "E-NATIVE-PAYMENT-DATES-06-AX"
+        ],
+        "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
       }
     ],
     "reconstruction_deviations": [
@@ -101842,6 +103085,243 @@
           "Local image preview appeared black and AX URL lagged at04; saved actual file is normal Payment, not a black capture.",
           "Full app/fidelity/human evaluation not_verified."
         ]
+      },
+      {
+        "id": "PROTO-PAYMENT-DATES-CYCLE-001",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-02T18:24:58.781Z",
+        "ended_at": "2026-10-02T18:25:34.774Z",
+        "status": "partial",
+        "navigation_status": "Actual saved destinations reviewed; finite cycle or restored-Oct2 Home roundtrip reached expected targets",
+        "visual_status": "Seven finite repeated-state comparisons equal; no native fidelity/full-application acceptance",
+        "steps": [
+          {
+            "file": "00-oct2-start.png",
+            "at": "2026-10-02T18:24:58.781Z",
+            "description": "oct2-start",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-00"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "01-oct3-selected.png",
+            "at": "2026-10-02T18:25:16.453Z",
+            "description": "oct3-selected",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+            "visible_node_id": "828:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-01"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "02-oct4-selected.png",
+            "at": "2026-10-02T18:25:16.682Z",
+            "description": "oct4-selected",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+            "visible_node_id": "829:178",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-DAY4",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-02"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "03-nov1-after-next-month.png",
+            "at": "2026-10-02T18:25:23.823Z",
+            "description": "nov1-after-next-month",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-NOV",
+            "visible_node_id": "829:337",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-03"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "04-oct1-after-previous-month.png",
+            "at": "2026-10-02T18:25:24.085Z",
+            "description": "oct1-after-previous-month",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+            "visible_node_id": "829:510",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-PREV-MONTH",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-04"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "05-oct2-restored.png",
+            "at": "2026-10-02T18:25:34.774Z",
+            "description": "oct2-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-05"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          }
+        ],
+        "limitations": [
+          "Five finite observed date/month transitions only; arbitrary date combinations/modes and semester bounds unimplemented.",
+          "Home regression performed after restored October2 only; Home navigation on four new dates not wired.",
+          "Payment reopen/X/other callers and full app/fidelity not_verified.",
+          "Fonts/icon geometry approximate; individual private date markers omitted.",
+          "AX URL lagged at some immediate checks; actual saved pixels inspected for destination."
+        ]
+      },
+      {
+        "id": "PROTO-PAYMENT-DATES-CYCLE-002",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-02T18:25:34.774Z",
+        "ended_at": "2026-10-02T18:25:36.095Z",
+        "status": "partial",
+        "navigation_status": "Actual saved destinations reviewed; finite cycle or restored-Oct2 Home roundtrip reached expected targets",
+        "visual_status": "Seven finite repeated-state comparisons equal; no native fidelity/full-application acceptance",
+        "steps": [
+          {
+            "file": "05-oct2-restored.png",
+            "at": "2026-10-02T18:25:34.774Z",
+            "description": "oct2-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-05"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "06-oct3-repeat.png",
+            "at": "2026-10-02T18:25:34.971Z",
+            "description": "oct3-repeat",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+            "visible_node_id": "828:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-06"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "07-oct4-repeat.png",
+            "at": "2026-10-02T18:25:35.269Z",
+            "description": "oct4-repeat",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+            "visible_node_id": "829:178",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-DAY4",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-07"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "08-nov1-repeat.png",
+            "at": "2026-10-02T18:25:35.532Z",
+            "description": "nov1-repeat",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-NOV",
+            "visible_node_id": "829:337",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-08"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "09-oct1-repeat.png",
+            "at": "2026-10-02T18:25:35.831Z",
+            "description": "oct1-repeat",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+            "visible_node_id": "829:510",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-PREV-MONTH",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-09"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "10-oct2-restored-repeat.png",
+            "at": "2026-10-02T18:25:36.095Z",
+            "description": "oct2-restored-repeat",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-10"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          }
+        ],
+        "limitations": [
+          "Five finite observed date/month transitions only; arbitrary date combinations/modes and semester bounds unimplemented.",
+          "Home regression performed after restored October2 only; Home navigation on four new dates not wired.",
+          "Payment reopen/X/other callers and full app/fidelity not_verified.",
+          "Fonts/icon geometry approximate; individual private date markers omitted.",
+          "AX URL lagged at some immediate checks; actual saved pixels inspected for destination."
+        ]
+      },
+      {
+        "id": "PROTO-PAYMENT-DATES-HOME-003",
+        "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-02T18:25:36.095Z",
+        "ended_at": "2026-10-02T18:25:46.781Z",
+        "status": "partial",
+        "navigation_status": "Actual saved destinations reviewed; finite cycle or restored-Oct2 Home roundtrip reached expected targets",
+        "visual_status": "Seven finite repeated-state comparisons equal; no native fidelity/full-application acceptance",
+        "steps": [
+          {
+            "file": "10-oct2-restored-repeat.png",
+            "at": "2026-10-02T18:25:36.095Z",
+            "description": "oct2-restored-repeat",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-10"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "11-home-after-date-cycle.png",
+            "at": "2026-10-02T18:25:46.483Z",
+            "description": "home-after-date-cycle",
+            "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+            "visible_node_id": "825:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-11"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          },
+          {
+            "file": "12-calendar-after-home.png",
+            "at": "2026-10-02T18:25:46.781Z",
+            "description": "calendar-after-home",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+            "evidence_ids": [
+              "E-PAYMENT-DATES-PROTO-12"
+            ],
+            "outcome": "Saved actual target pixels reviewed"
+          }
+        ],
+        "limitations": [
+          "Five finite observed date/month transitions only; arbitrary date combinations/modes and semester bounds unimplemented.",
+          "Home regression performed after restored October2 only; Home navigation on four new dates not wired.",
+          "Payment reopen/X/other callers and full app/fidelity not_verified.",
+          "Fonts/icon geometry approximate; individual private date markers omitted.",
+          "AX URL lagged at some immediate checks; actual saved pixels inspected for destination."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -101921,7 +103401,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "167 mapped frames /3 internal component states /365 configured controls /16 scroll regions /112 prototype runs. Finite Payment/Home caller sampled; black local preview disproved by normal saved pixels/hash. Complete app/fidelity not_verified.",
+    "verification_summary": "171 mapped frames /3 internal component states /370 configured controls /16 scroll regions /115 prototype runs. Native Payment date/month first-day reset reflected in two finite cycles and Oct2 Home regression; full app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -102310,7 +103790,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+    "current_revision": "FIGMA-PAYMENT-DATES-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -103467,11 +104947,11 @@
       },
       {
         "name": "Reference · Oct2 Calendar filters & Notice — partial",
-        "description": "Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. A local image preview appeared black and AX URL lagged during repeated reentry; pixel/hash inspection proves saved04 is normal Payment, identical to00/02/05. This is a tool observation discrepancy, not a saved/prototype black screen.",
+        "description": "Oct2/Oct3 native fullscreen reference, 24 finite frames: All/None → Class/detail/Notice → Exam → Payment draft/result ↔ scrolled Home DEMO. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2; repeated twice plus Oct2 Home roundtrip. Native lower-case increment/decrement succeeds, upper-case Increment initially unchanged; both recorded. Month changes select day1 and keep Payment in this context. Private course/Home/exam values are synthetic DEMO; individual date markers omitted. Notice800ms illustrative, not native latency or successful load. Geography raster, live map unverified; two old None X inferred. Payment reopen/X, arbitrary dates/modes/combinations/semester bounds, Home on new dates, other callers and full app/fidelity remain unverified. Historical black local preview disproved by normal saved pixels/hash. AX URL may lag during Present; actual saved pixels determine rendered state.",
         "readback": [
-          "~\t\t\t\t\t286 container Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. A local image preview appeared black and AX URL lagged during repeated reentry; pixel/hash inspection proves saved04 is normal Payment, identical to00/02/05. This is a tool observation discrepancy, not a saved/prototype black screen.",
-          "~\t\t\t\t\t\t287 text Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. A local image preview appeared black and AX URL lagged during repeated reentry; pixel/hash inspection proves saved04 is normal Payment, identical to00/02/05. This is a tool observation discrepancy, not a saved/prototype black screen.",
-          "The focused UI element is 286 container Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. A local image preview appeared black and AX URL lagged during repeated reentry; pixel/hash inspection proves saved04 is normal Payment, identical to00/02/05. This is a tool observation discrepancy, not a saved/prototype black screen."
+          "~\t\t\t\t\t286 container Oct2/Oct3 native fullscreen reference, 24 finite frames: All/None → Class/detail/Notice → Exam → Payment draft/result ↔ scrolled Home DEMO. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2; repeated twice plus Oct2 Home roundtrip. Native lower-case increment/decrement succeeds, upper-case Increment initially unchanged; both recorded. Month changes select day1 and keep Payment in this context. Private course/Home/exam values are synthetic DEMO; individual date markers omitted. Notice800ms illustrative, not native latency or successful load. Geography raster, live map unverified; two old None X inferred. Payment reopen/X, arbitrary dates/modes/combinations/semester bounds, Home on new dates, other callers and full app/fidelity remain unverified. Historical black local preview disproved by normal saved pixels/hash. AX URL may lag during Present; actual saved pixels determine rendered state.",
+          "~\t\t\t\t\t\t287 text Oct2/Oct3 native fullscreen reference, 24 finite frames: All/None → Class/detail/Notice → Exam → Payment draft/result ↔ scrolled Home DEMO. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2; repeated twice plus Oct2 Home roundtrip. Native lower-case increment/decrement succeeds, upper-case Increment initially unchanged; both recorded. Month changes select day1 and keep Payment in this context. Private course/Home/exam values are synthetic DEMO; individual date markers omitted. Notice800ms illustrative, not native latency or successful load. Geography raster, live map unverified; two old None X inferred. Payment reopen/X, arbitrary dates/modes/combinations/semester bounds, Home on new dates, other callers and full app/fidelity remain unverified. Historical black local preview disproved by normal saved pixels/hash. AX URL may lag during Present; actual saved pixels determine rendered state.",
+          "The focused UI element is 286 container Oct2/Oct3 native fullscreen reference, 24 finite frames: All/None → Class/detail/Notice → Exam → Payment draft/result ↔ scrolled Home DEMO. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2; repeated twice plus Oct2 Home roundtrip. Native lower-case increment/decrement succeeds, upper-case Increment initially unchanged; both recorded. Month changes select day1 and keep Payment in this context. Private course/Home/exam values are synthetic DEMO; individual date markers omitted. Notice800ms illustrative, not native latency or successful load. Geography raster, live map unverified; two old None X inferred. Payment reopen/X, arbitrary dates/modes/combinations/semester bounds, Home on new dates, other callers and full app/fidelity remain unverified. Historical black local preview disproved by normal saved pixels/hash. AX URL may lag during Present; actual saved pixels determine rendered state."
         ],
         "start_node_id": "791:177",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
@@ -103486,20 +104966,23 @@
           "PROTO-OCT3-PAYMENT-APPLY-002",
           "PROTO-OCT3-PAYMENT-HOME-001",
           "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
-          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003",
+          "PROTO-PAYMENT-DATES-CYCLE-001",
+          "PROTO-PAYMENT-DATES-CYCLE-002",
+          "PROTO-PAYMENT-DATES-HOME-003"
         ],
-        "scope": "20 dated finite frames and one observed Payment/Home context; other callers/reopen/complete application remain unverified.",
-        "updated_at": "2026-10-02T18:12:40.279406+00:00"
+        "scope": "24 finite dated reference frames, five new Payment date/month controls and restored-Oct2 Home regression; remaining dates/modes/combination/callers/full app unverified.",
+        "updated_at": "2026-10-02T18:26:25.541487+00:00"
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-02T18:09:51.025Z",
+    "latest_prototype_run_cutoff": "2026-10-02T18:25:46.781Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-OCT3-PAYMENT-HOME-EDITOR-CORRECTED"
+      "E-PAYMENT-DATES-PROTO-EDITOR"
     ],
-    "latest_editor_verified_at": "2026-10-02T18:12:40.279406+00:00",
+    "latest_editor_verified_at": "2026-10-02T18:26:25.541487+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
@@ -106991,9 +108474,13 @@
         "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
         "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
         "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
-        "S-NATIVE-OCT3-PAYMENT"
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-OCT3-PAYMENT-DAY3",
+        "S-NATIVE-OCT3-PAYMENT-DAY4",
+        "S-NATIVE-OCT3-PAYMENT-NOV",
+        "S-NATIVE-OCT3-PAYMENT-OCT1"
       ],
-      "reason": "Oct2 None/Class/Exam/detail/Notice finite reference is now imported and replayed. Oct3 resumed Payment-only Apply is observed with selected October2 No event; reopening not established. Main callers, other dates/modes/combinations, maps and Notice remaining controls still pending. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; local black preview discrepancy corrected: actual saved04 is normal Payment, same hash/pixels as00/02/05. Other callers and full persistence integration remain pending.",
+      "reason": "Oct2 None/Class/Exam/detail/Notice finite reference is now imported and replayed. Oct3 resumed Payment-only Apply is observed with selected October2 No event; reopening not established. Main callers, other dates/modes/combinations, maps and Notice remaining controls still pending. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; local black preview discrepancy corrected: actual saved04 is normal Payment, same hash/pixels as00/02/05. Other callers and full persistence integration remain pending. Oct3 Payment date3/date4 and October→November1→October1→October2 cycle observed; first Increment unchanged then lower-case increment succeeds. Full date/mode/combination/caller boundaries remain pending. Four Payment date/month frames and five controls imported and replayed twice; Oct2 Home regression sampled. New-date Home/filter/mode controls and full boundaries still pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-CALENDAR-TRACE",
@@ -107012,7 +108499,14 @@
         "E-NATIVE-OCT3-PAYMENT-07-AX",
         "E-OCT3-PAYMENT-HOME-02",
         "E-OCT3-PAYMENT-HOME-04",
-        "E-OCT3-PAYMENT-HOME-07"
+        "E-OCT3-PAYMENT-HOME-07",
+        "E-NATIVE-PAYMENT-DATES-01",
+        "E-NATIVE-PAYMENT-DATES-04",
+        "E-NATIVE-PAYMENT-DATES-05",
+        "E-NATIVE-PAYMENT-DATES-07",
+        "E-PAYMENT-DATES-PROTO-03",
+        "E-PAYMENT-DATES-PROTO-10",
+        "E-PAYMENT-DATES-PROTO-12"
       ]
     },
     {

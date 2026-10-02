@@ -135,6 +135,8 @@ Calendar 公共假期详情返回保留 September 26；Food 的配图 X 返回�
 
 ## Calendar 的辅助访问与状态范围待核实
 
+2026-10-03 [Payment日期补查](calendar-payment-dates-oct3-walkthrough.md)再次确认：可见October3在Sat列，选中标题是Saturday，AX却叫Today Sunday3October。当前Mac的独立重复证据支持既有 `F-CALENDAR-AX-DATE-LABEL`，没有新增重复问题，也没有iPhone VoiceOver或真人影响验证。[可见页面](../../evidence/2026-10-03-calendar-payment-dates-native/01-payment-oct3.png) / [安全AX](../../evidence/2026-10-03-calendar-payment-dates-native/01-payment-oct3.safe-ax.txt)。
+
 [Calendar 走查](calendar-notification-walkthrough.md)记录了月历日期格的 AX 名称与视觉日期文案差异：例如 September 26 日期格 AX 为 Sunday，而视觉当前日期为 Saturday；Thursday 的 AX 名称还出现 `Thursdya`。这是可复核的标签差异，可能影响依赖名称的辅助技术，但当前没有 iOS VoiceOver 或真人读屏结果，不能宣称已经确认读屏误报。
 
 只选 Acad calendar 后，月历空态保留了当前筛选标签和建议启用全部筛选的指引；Events 列表展示公共校历，周视图出现个人课表，返回月历后筛选仍保持。这可能是各视图独立范围的产品设计，也可能让用户不易判断当前过滤范围。先核实视图语义和其它组合，再比较明确视图名称/过滤范围的方案；不把正常空数据、个人课表出现或跨月默认选中1日直接写成数据错误。
