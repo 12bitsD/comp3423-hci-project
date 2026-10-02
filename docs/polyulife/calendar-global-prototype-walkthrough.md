@@ -18,7 +18,7 @@ UI展开操作曾误触卡片锁定，已对选中项调整并替换卡片；控
 
 28–31实际PNG仍是Figma初始加载，原拟Monday Calendar标签撤回，没有把未加载时的点击当路径通过。33实际头部确认Tuesday，34–38完成已确认Tuesday的通知交接与滚动位置返回。
 
-42/43、52、54的保存PNG显示Monday Home。工具即时getScreenshot曾显示黑色，我曾据此推断直接Home失败；**该推断已撤回**，没有保存的原型黑屏支持它。临时Back实验47/48保存图仍为Acad，未到Home；最终恢复Close overlay。Figma官方说明Swap overlay不入原型历史：[Overlay说明](https://help.figma.com/hc/en-us/articles/360039818254-Create-overlays-in-your-prototypes)、[动作说明](https://help.figma.com/hc/en-us/articles/360040035874-Prototype-actions)。该规则不能单独诊断工具黑色预览的原因；本轮以截图字节与可見内容验收。
+42/43、52、54的保存PNG显示Monday Home。工具即时getScreenshot曾显示黑色，我曾据此推断直接Home失败；**该推断已撤回**，没有保存的原型黑屏支持它。临时Back实验47/48保存图仍为Acad，未到Home；最终恢复Close overlay。本輪未取得外部產品說明正文，不據此診斷返回或工具預覽的原因；驗收依據是實際保存的截图字节与可見内容。
 
 ## 有限样例
 
