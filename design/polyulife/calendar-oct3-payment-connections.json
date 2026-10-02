@@ -1,0 +1,84 @@
+{
+  "revision_id": "FIGMA-OCT3-PAYMENT-20261003",
+  "frames": [
+    {
+      "file": "calendar-oct3-payment.svg",
+      "name": "[OCT3:PAYMENT] Payment — observed empty date",
+      "node_id": "823:21",
+      "x": 700,
+      "y": 72600,
+      "at": "2026-10-02T17:56:16.334Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t403 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t404 stepper (settable, integer) Description: Y-position, Value: 72600",
+        "\t\t\t\t\t\t\t\t\t\t431 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t434 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "action_id": "A-NATIVE-OCT3-PAYMENT-APPLY",
+      "source_node_id": "800:1610",
+      "trigger_node_id": "800:1793",
+      "trigger_node_name": "Apply",
+      "target_node_id": "823:21",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "configured_at": "2026-10-02T17:56:32.547Z",
+      "readback": [
+        "\t\t\t\t\t\t\t676 combo box (collapsed) Position, Value: Scroll with parent, ID: :rqo:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t700 combo box (collapsed) Trigger, Value: On click, ID: :rqv:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t706 combo box (collapsed) Action, Value: Navigate to, ID: :rr2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t713 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rrh:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t718 combo box (collapsed) Animation, Value: Instant, ID: :rru:, Secondary Actions: Expand",
+        "The focused UI element is 713 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rrh:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT3-PAYMENT-01",
+      "revision_id": "FIGMA-OCT3-PAYMENT-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT3-PAYMENT-APPLY-001",
+        "PROTO-OCT3-PAYMENT-APPLY-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT3-PAYMENT-00",
+        "E-NATIVE-OCT3-PAYMENT-01",
+        "E-NATIVE-OCT3-PAYMENT-01-AX"
+      ],
+      "source_fidelity": "Observed new Oct3 Apply from retained Payment draft; historical Oct2 attempted Apply remains unknown."
+    }
+  ],
+  "prototype_run_ids": [
+    "PROTO-OCT3-PAYMENT-APPLY-001",
+    "PROTO-OCT3-PAYMENT-APPLY-002"
+  ],
+  "limits": [
+    "Previous frame is a Figma playback control, not observed native cancel/back.",
+    "Only Apply wired; reopen/Home/main callers not implemented in this batch.",
+    "Geometry approximate and full application/fidelity not_verified."
+  ],
+  "flow": {
+    "name": "Reference · Oct2 Calendar filters & Notice — partial",
+    "description": "Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified.",
+    "readback": [
+      "~\t\t\t\t\t403 container Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified.",
+      "~\t\t\t\t\t\t404 text Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified.",
+      "The focused UI element is 403 container Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified."
+    ],
+    "start_node_id": "791:177",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+    "tested_run_ids": [
+      "PROTO-OCT2-NONE-CANCEL-001",
+      "PROTO-OCT2-NONE-APPLY-001",
+      "PROTO-OCT2-NONE-RESTART-001",
+      "PROTO-OCT2-CLASS-NOTICE-001",
+      "PROTO-OCT2-NOTICE-RECOVERY-001",
+      "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001",
+      "PROTO-OCT3-PAYMENT-APPLY-001",
+      "PROTO-OCT3-PAYMENT-APPLY-002"
+    ],
+    "scope": "19 dated finite frames; Payment Apply sampled, native finite Home reentry retained; main Figma callers/reopen/other dates unverified.",
+    "updated_at": "2026-10-02T18:03:54.650435+00:00"
+  }
+}

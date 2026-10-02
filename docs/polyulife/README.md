@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Payment原生补查与Figma检查点](calendar-payment-oct3-walkthrough.md)确认Apply结果及Payment → Home → Calendar保留October/月视图、October2和Payment的有限往返；重开筛选未确认。新增1画板/1连接/2次Present运行。当前原生157状态/303动作（220 observed、81 not_attempted、2 attempted_unverified），Figma166画板/363控件/109次运行。主调用者衔接、其它日期/组合及完整应用仍 `not_verified`。下方“最新”和数字均保留各批次历史快照。
+
 最新[Class/Exam/Notice实际Figma回放](calendar-class-exam-oct2-prototype-walkthrough.md)已导入13个画板并配置16条连接，保存25张Present截图、2张编辑器截图和3组运行，保留首次缺图与恢复证据。当前Figma为165画板/362控件/107次运行。用户解锁后原生连接仍超时，未新增原生动作；Payment Apply结果、主调用者与完整应用仍 `not_verified`。[来源准备](calendar-class-exam-source-preparation.md)保留历史准备记录。
 
 最新[原生连接恢复与Calendar补查](native-calendar-resume-20261002.md)保存26个真实截图状态，补查None Apply/X、Class/Exam筛选、课程详情与Notice；Payment Apply因再次锁屏结果未知。新增[Oct2全不选参考原型](calendar-none-oct2-prototype-walkthrough.md)：5画板、7控件、3组Present回放；独立样例和2个推广X出口已标明。当前原生155状态/299动作（217 observed、81 not_attempted、1 attempted_unverified），Figma152画板/346控件/104次运行。完整应用仍 `not_verified`。以下批次数字、连接状态和“最新”字样均为各自历史快照，以本段和coverage.json为当前入口。

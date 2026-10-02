@@ -1,0 +1,156 @@
+{
+  "kind": "native_calendar_payment_apply_and_failed_reopen",
+  "session_id": "SESSION-20261003-CALENDAR-PAYMENT",
+  "images": [
+    {
+      "file": "00-payment-draft-resumed.png",
+      "sha256": "f89debd0ef62bc81ca6dbeae482fd4ae5df2727da52a556a591213cecbd16726",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T17:50:54.593Z",
+      "description": "payment-draft-resumed",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Cropped to application content; inspected no course values, identity or QR code visible",
+      "state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "action_id": null
+    },
+    {
+      "file": "01-payment-applied.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T17:51:04.621Z",
+      "description": "payment-applied",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Cropped to application content; inspected no course values, identity or QR code visible",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-APPLY"
+    },
+    {
+      "file": "02-payment-reopen.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T17:51:24.446Z",
+      "description": "payment-reopen",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Cropped to application content; inspected no course values, identity or QR code visible",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-REOPEN"
+    },
+    {
+      "file": "03-payment-reopen-confirmed.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T17:51:42.705Z",
+      "description": "Filter button AX attempt; saved screenshot remains Payment; label confirmed referred to attempted correction, not success.",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Cropped to application content; inspected no course values, identity or QR code visible",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-REOPEN"
+    },
+    {
+      "file": "04-after-reopen-black-capture.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T17:51:59.561Z",
+      "description": "Saved bytes retain Payment page; separate live screenshot observation was black. Not a saved black screenshot.",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Cropped to application content; inspected no course values, identity or QR code visible",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null
+    },
+    {
+      "file": "05-payment-reopen-after-raise.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T17:52:47.169Z",
+      "description": "payment-reopen-after-raise",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Cropped to application content; inspected no course values, identity or QR code visible",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-REOPEN"
+    },
+    {
+      "file": "06-payment-home-attempt.png",
+      "sha256": "c3fa1e6778cee815df4bd0b5b9573d686b28cb258b4177d78dbb768be2ef7dd7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T17:57:27.143Z",
+      "description": "Payment Home navigation reaches scrolled My Exam Home; private fields redacted",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; greeting [215,25,374,85], My Exam area [0,120,576,445], bottom sheet peek [0,840,576,925] masked. No actual exam/course values retained.",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME"
+    },
+    {
+      "file": "07-calendar-payment-reentry.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T17:57:48.934Z",
+      "description": "Home Calendar reentry retains October, selected October2 and Payment/No event",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; inspected no private values visible",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR"
+    }
+  ],
+  "crop_from_raw_xyxy": [
+    977,
+    0,
+    2047,
+    1898
+  ],
+  "normalized_size": [
+    576,
+    1024
+  ],
+  "limits": [
+    "Existing October2 selected date retained while Today label is October3.",
+    "Payment is only a Calendar category filter; no payment transaction executed.",
+    "Reopen attempts did not establish an overlay; live black observations differ from saved screenshot bytes.",
+    "Home roundtrip retains October/month, Oct2 selected and Payment only for this observed context.",
+    "Second coordinate correction after reentry returned noWindowsAvailable; not recorded as executed native input.",
+    "Home roundtrip retains October/month, Oct2 selected and Payment only for this observed context.",
+    "Second coordinate correction after reentry returned noWindowsAvailable; not recorded as executed native input."
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "5ca9cf17a8c02b667d16f40fdc1e0fb4b05d62f46376a35a89ced73aeec4893a",
+    "dimensions": [
+      1152,
+      770
+    ],
+    "source": "Derived contact sheet of eight privacy-safe actual native captures"
+  },
+  "safe_ax_files": [
+    "00-payment-draft-resumed.safe-ax.txt",
+    "01-payment-applied.safe-ax.txt",
+    "02-payment-reopen.safe-ax.txt",
+    "03-payment-reopen-confirmed.safe-ax.txt",
+    "04-after-reopen-black-capture.safe-ax.txt",
+    "05-payment-reopen-after-raise.safe-ax.txt",
+    "06-payment-home-attempt.safe-ax.txt",
+    "07-calendar-payment-reentry.safe-ax.txt"
+  ]
+}
