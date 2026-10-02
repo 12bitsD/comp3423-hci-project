@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Class/Exam/Notice 来源准备](calendar-class-exam-source-preparation.md)完成13份可编辑SVG及本地视觉检查，15条已观察动作与1条演示延时列为待配置。Computer Use连接超时后工具不可用，尚未导入或回放；正式Figma统计仍为152画板/346控件/104次运行，完整应用仍 `not_verified`。
+
 最新[原生连接恢复与Calendar补查](native-calendar-resume-20261002.md)保存26个真实截图状态，补查None Apply/X、Class/Exam筛选、课程详情与Notice；Payment Apply因再次锁屏结果未知。新增[Oct2全不选参考原型](calendar-none-oct2-prototype-walkthrough.md)：5画板、7控件、3组Present回放；独立样例和2个推广X出口已标明。当前原生155状态/299动作（217 observed、81 not_attempted、1 attempted_unverified），Figma152画板/346控件/104次运行。完整应用仍 `not_verified`。以下批次数字、连接状态和“最新”字样均为各自历史快照，以本段和coverage.json为当前入口。
 
 最新[Calendar默认视图与全局筛选循环](calendar-global-prototype-walkthrough.md)新增7画板/19控件，草稿保留对应已应用背景；图标、加载及临时Back失败保留，直接Home黑屏推断按保存PNG撤回。当前147画板、339控件、101次运行；Mac仍锁定、全应用 `not_verified`。

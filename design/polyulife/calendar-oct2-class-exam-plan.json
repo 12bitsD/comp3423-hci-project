@@ -1,0 +1,230 @@
+{
+  "kind": "unconfigured_figma_connection_plan",
+  "status": "planned_not_configured",
+  "existing_entry": {
+    "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+    "node_id": "791:873",
+    "node_id_source": "Previously verified mapping; re-read live editor before editing"
+  },
+  "connections": [
+    {
+      "action_id": "A-NATIVE-OCT2-11",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+      "trigger_group": "Class",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-11",
+        "E-NATIVE-OCT2-11-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-12",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+      "target_state_id": "S-NATIVE-OCT2-CLASS",
+      "trigger_group": "Apply",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-12",
+        "E-NATIVE-OCT2-12-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-13",
+      "from_state_id": "S-NATIVE-OCT2-CLASS",
+      "target_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "trigger_group": "DemoEventEllipsis",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-13",
+        "E-NATIVE-OCT2-13-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-14",
+      "from_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "target_state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
+      "trigger_group": "ClassNotice",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-14",
+        "E-NATIVE-OCT2-14-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-16",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "target_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "trigger_group": "NoticeMore",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-16",
+        "E-NATIVE-OCT2-16-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-17",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "target_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "trigger_group": "CancelNoticeMenu",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-17",
+        "E-NATIVE-OCT2-17-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-18",
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "target_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "trigger_group": "CloseNotice",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-18",
+        "E-NATIVE-OCT2-18-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-19",
+      "from_state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "target_state_id": "S-NATIVE-OCT2-CLASS",
+      "trigger_group": "Back",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-19",
+        "E-NATIVE-OCT2-19-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-20",
+      "from_state_id": "S-NATIVE-OCT2-CLASS",
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+      "trigger_group": "Filter",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-20",
+        "E-NATIVE-OCT2-20-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-21",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+      "trigger_group": "Class",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-21",
+        "E-NATIVE-OCT2-21-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-22",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+      "trigger_group": "Exam",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-22",
+        "E-NATIVE-OCT2-22-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-23",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+      "target_state_id": "S-NATIVE-OCT2-EXAM",
+      "trigger_group": "Apply",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-23",
+        "E-NATIVE-OCT2-23-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-24",
+      "from_state_id": "S-NATIVE-OCT2-EXAM",
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+      "trigger_group": "Filter",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-24",
+        "E-NATIVE-OCT2-24-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-25",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+      "trigger_group": "Exam",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-25",
+        "E-NATIVE-OCT2-25-AX"
+      ]
+    },
+    {
+      "action_id": "A-NATIVE-OCT2-26",
+      "from_state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+      "target_state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "trigger_group": "Payment",
+      "trigger": "On click",
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-26",
+        "E-NATIVE-OCT2-26-AX"
+      ]
+    },
+    {
+      "action_id": null,
+      "from_state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
+      "target_state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "trigger_group": null,
+      "trigger": "After delay",
+      "delay_ms": 800,
+      "proposed_behavior": "Navigate to",
+      "status": "planned_not_configured",
+      "native_source_evidence_ids": [
+        "E-NATIVE-OCT2-14",
+        "E-NATIVE-OCT2-15"
+      ],
+      "inference": "A proposed demo delay between successive recorded states; not measured native latency or proof of successful webpage load."
+    }
+  ],
+  "limits": [
+    "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+    "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
+    "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
+    "Notice blank is an observed snapshot, not a successfully loaded document.",
+    "Native Payment Apply outcome unknown: no result frame or Apply connection is invented.",
+    "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
+    "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
+  ]
+}
