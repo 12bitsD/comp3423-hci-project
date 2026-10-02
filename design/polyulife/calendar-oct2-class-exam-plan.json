@@ -1,6 +1,6 @@
 {
-  "kind": "unconfigured_figma_connection_plan",
-  "status": "planned_not_configured",
+  "kind": "configured_figma_connection_plan_with_actual_readbacks",
+  "status": "configured_finite_reference_replayed_partial",
   "existing_entry": {
     "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
     "node_id": "791:873",
@@ -14,11 +14,16 @@
       "trigger_group": "Class",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-11",
         "E-NATIVE-OCT2-11-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-01",
+      "source_node_id": "791:873",
+      "target_node_id": "800:19",
+      "trigger_node_id": "791:1043",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-12",
@@ -27,11 +32,16 @@
       "trigger_group": "Apply",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-12",
         "E-NATIVE-OCT2-12-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-02",
+      "source_node_id": "800:19",
+      "target_node_id": "800:206",
+      "trigger_node_id": "800:202",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-13",
@@ -40,11 +50,16 @@
       "trigger_group": "DemoEventEllipsis",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-13",
         "E-NATIVE-OCT2-13-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-03",
+      "source_node_id": "800:206",
+      "target_node_id": "800:365",
+      "trigger_node_id": "800:334",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-14",
@@ -53,11 +68,16 @@
       "trigger_group": "ClassNotice",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-14",
         "E-NATIVE-OCT2-14-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-04",
+      "source_node_id": "800:365",
+      "target_node_id": "800:403",
+      "trigger_node_id": "800:392",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-16",
@@ -66,11 +86,16 @@
       "trigger_group": "NoticeMore",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-16",
         "E-NATIVE-OCT2-16-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-05",
+      "source_node_id": "800:438",
+      "target_node_id": "800:471",
+      "trigger_node_id": "800:454",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-17",
@@ -79,11 +104,16 @@
       "trigger_group": "CancelNoticeMenu",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-17",
         "E-NATIVE-OCT2-17-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-06",
+      "source_node_id": "800:471",
+      "target_node_id": "800:438",
+      "trigger_node_id": "800:516",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-18",
@@ -92,11 +122,16 @@
       "trigger_group": "CloseNotice",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-18",
         "E-NATIVE-OCT2-18-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-07",
+      "source_node_id": "800:438",
+      "target_node_id": "800:365",
+      "trigger_node_id": "800:451",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-19",
@@ -105,11 +140,16 @@
       "trigger_group": "Back",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-19",
         "E-NATIVE-OCT2-19-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-08",
+      "source_node_id": "800:365",
+      "target_node_id": "800:206",
+      "trigger_node_id": "800:369",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-20",
@@ -118,11 +158,16 @@
       "trigger_group": "Filter",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-20",
         "E-NATIVE-OCT2-20-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-09",
+      "source_node_id": "800:206",
+      "target_node_id": "800:520",
+      "trigger_node_id": "800:315",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-21",
@@ -131,11 +176,16 @@
       "trigger_group": "Class",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-21",
         "E-NATIVE-OCT2-21-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-10",
+      "source_node_id": "800:520",
+      "target_node_id": "800:706",
+      "trigger_node_id": "800:689",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-22",
@@ -144,11 +194,16 @@
       "trigger_group": "Exam",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-22",
         "E-NATIVE-OCT2-22-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-11",
+      "source_node_id": "800:706",
+      "target_node_id": "800:891",
+      "trigger_node_id": "800:878",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-23",
@@ -157,11 +212,16 @@
       "trigger_group": "Apply",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-23",
         "E-NATIVE-OCT2-23-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-12",
+      "source_node_id": "800:891",
+      "target_node_id": "800:1077",
+      "trigger_node_id": "800:1073",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-24",
@@ -170,11 +230,16 @@
       "trigger_group": "Filter",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-24",
         "E-NATIVE-OCT2-24-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-13",
+      "source_node_id": "800:1077",
+      "target_node_id": "800:1237",
+      "trigger_node_id": "800:1186",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-25",
@@ -183,11 +248,16 @@
       "trigger_group": "Exam",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-25",
         "E-NATIVE-OCT2-25-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-14",
+      "source_node_id": "800:1237",
+      "target_node_id": "800:1424",
+      "trigger_node_id": "800:1410",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": "A-NATIVE-OCT2-26",
@@ -196,11 +266,16 @@
       "trigger_group": "Payment",
       "trigger": "On click",
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-26",
         "E-NATIVE-OCT2-26-AX"
-      ]
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-15",
+      "source_node_id": "800:1424",
+      "target_node_id": "800:1610",
+      "trigger_node_id": "800:1600",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     },
     {
       "action_id": null,
@@ -210,21 +285,27 @@
       "trigger": "After delay",
       "delay_ms": 800,
       "proposed_behavior": "Navigate to",
-      "status": "planned_not_configured",
+      "status": "configured_finite_reference_replayed_partial",
       "native_source_evidence_ids": [
         "E-NATIVE-OCT2-14",
         "E-NATIVE-OCT2-15"
       ],
-      "inference": "A proposed demo delay between successive recorded states; not measured native latency or proof of successful webpage load."
+      "inference": "A proposed demo delay between successive recorded states; not measured native latency or proof of successful webpage load.",
+      "connection_id": "C-OCT2-CLASS-EXAM-16",
+      "source_node_id": "800:403",
+      "target_node_id": "800:438",
+      "trigger_node_id": "800:403",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
     }
   ],
   "limits": [
-    "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+    "13 frames imported and 16 controls configured; finite reference replayed with preserved failure/recovery. Full app not_verified.",
     "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
     "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
     "Notice blank is an observed snapshot, not a successfully loaded document.",
     "Native Payment Apply outcome unknown: no result frame or Apply connection is invented.",
     "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
     "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
-  ]
+  ],
+  "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
 }

@@ -54824,11 +54824,557 @@
       "id": "E-OCT2-CLASS-EXAM-SOURCE-TRACE",
       "type": "walkthrough",
       "path": "calendar-class-exam-source-preparation.md",
-      "sha256": "0454ea986c501b6df35955ce2fc2850211b6037c5177470a0e05b981b335d530",
+      "sha256": "41226d492c3ee49889466933420c85167779e4b74247450d9b85a1986be01334",
       "session_id": null,
       "state_ids": [],
       "action_ids": [],
       "source": "Source preparation and unconfigured connection plan; not new native or Figma replay evidence"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/00-all-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:30:40.348Z",
+      "sha256": "82565b99c27e0b56a011d8fbcf1082f869592837b9173e6f399155a9d1cc87f5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-ALL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/01-all-draft.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:30:47.293Z",
+      "sha256": "30455d2ac4ad52706cf383b7ddaa63377e90b19aaf91128c23707a3f45ec6eff",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-ALL-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-04"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/02-none-draft-all.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:30:47.489Z",
+      "sha256": "d19f92987cff86b66f09f7a671e63a5de57e0d17f4e5299a29431e05cc2cca5c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-ALL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-05"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/03-none-applied.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:30:47.695Z",
+      "sha256": "048226446e31ccb2edadba33693e57ba8f057529aaff526ecdf0b9a8cffc7973",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NONE"
+      ],
+      "action_ids": [
+        "A-CALENDAR-APPLY-NONE"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/04-none-reopen.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:30:47.949Z",
+      "sha256": "24af676b856ea58e8da3b9fbb26e7ca7adb04a78bdb333c759d461525a25cc24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-NONE"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-10"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/05-class-draft-confirmed.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:30:57.392Z",
+      "sha256": "9c37ed1b383930b0b39bc0fb9056698728243ecb809e717d996930586bb678b0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-CLASS-NONE"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-11"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/06-class-applied.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:31:02.682Z",
+      "sha256": "97c06a2bdf3a428bed18de513b42777eb3713971a7e63f32578e7192ed55c907",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-12"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/07-class-detail.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:31:07.604Z",
+      "sha256": "77355cbcdb2f46d8ff6fcb2f4d390ed128851440c9de5ef9cdcbe10580ee3949",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-13"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/08-notice-blank.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:31:11.779Z",
+      "sha256": "b5d7b0729736688659a46baa8251837a2a18327ffd6be4b45b249eb04d598ac3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-BLANK"
+      ],
+      "action_ids": [],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/09-notice-menu.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:31:16.141Z",
+      "sha256": "dce15210211f7287864e6f8d9b770a38b94a50ea189f00af0dfcc986d2e1a988",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-16"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/10-notice-cancel-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:31:20.137Z",
+      "sha256": "b5d7b0729736688659a46baa8251837a2a18327ffd6be4b45b249eb04d598ac3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-17"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/11-detail-return-missing-map.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:31:23.870Z",
+      "sha256": "5ce2df9627885f9cae7747bb3fc09fe8b8eb2500ddc9e0096adbe6bb5cb5442d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-18"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/12-detail-black-viewport.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:31:31.257Z",
+      "sha256": "5ce2df9627885f9cae7747bb3fc09fe8b8eb2500ddc9e0096adbe6bb5cb5442d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/13-detail-reloaded-map.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:16.592Z",
+      "sha256": "77355cbcdb2f46d8ff6fcb2f4d390ed128851440c9de5ef9cdcbe10580ee3949",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/14-notice-loading-second-entry.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:16.832Z",
+      "sha256": "8421adc4b2b8b9cd7df94ec059dde8a1b9a8062e5139275089b33e22f9520bb9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-14"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/15-notice-blank-second.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:20.379Z",
+      "sha256": "b5d7b0729736688659a46baa8251837a2a18327ffd6be4b45b249eb04d598ac3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-NOTICE-BLANK"
+      ],
+      "action_ids": [],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/16-detail-return-map-confirmed.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:24.410Z",
+      "sha256": "77355cbcdb2f46d8ff6fcb2f4d390ed128851440c9de5ef9cdcbe10580ee3949",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-18"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/17-class-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:28.435Z",
+      "sha256": "97c06a2bdf3a428bed18de513b42777eb3713971a7e63f32578e7192ed55c907",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-19"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/18-class-reopen.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:32.369Z",
+      "sha256": "1e71cbcddb2ab0eba7d058b7f2733e118e211149b3e3c217d2c2f9ad40fe72b9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-CLASS-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-20"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/19-none-draft-class.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:37.828Z",
+      "sha256": "226057cbc13e972a1427869a013c273be5f5cb6c6a881e7071e90ed2cf53fcfa",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-21"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/20-exam-draft-class.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:41.566Z",
+      "sha256": "40ff96b1ba5b83fbbb0b3a7efddbb99dbd3280e7e7e84e15361d05ed481022dc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-EXAM-CLASS"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-22"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/21-exam-applied.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:49.329Z",
+      "sha256": "89e1cdedabd64b2499846c243fca877eb0875bc944cb6f76212d2c31e6033c8c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-23"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/22-exam-reopen.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:53.690Z",
+      "sha256": "c834ae0818f0b5f5fd188364388a72f139d88279e051cc9f2cc19e8d052c1eec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-EXAM-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-24"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/23-none-draft-exam.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:32:58.219Z",
+      "sha256": "344135c8813cd502e26decd10e07548b879743426ddd543d3fc5f567616eba51",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-NONE-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-25"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/24-payment-draft-end.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:33:06.576Z",
+      "sha256": "c8d2cd5542fbcd1f5f3c2796e3356bc5e20115ffb5dca1f648d3b35e3b4c7334",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT2-26"
+      ],
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "source": "Actual Computer Use Figma Present screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/editor-flow.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:33:27.208048+00:00",
+      "sha256": "251bfacd5e20519d2dbb8aa0a393bf1149bc289f8d0b35e8228e8797b4cfee2e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Account header masked",
+      "source": "Actual Computer Use Figma editor screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/editor-flow-description.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T17:34:15.854850+00:00",
+      "sha256": "54d4ce83e3eadb4fd2ac1879a0e2d2f8f25e3ddfe55281c0eb3bea18c2310446",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Account header masked",
+      "source": "Actual Computer Use Figma editor screenshot bytes"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-class-exam-prototype/contact-sheet.png",
+      "session_id": null,
+      "sha256": "0bb963a929e5f67a2a4cac9bebba0b05191cfaa1461b3487c5ac1e3dec933e94",
+      "dimensions": [
+        1200,
+        3200
+      ],
+      "source": "Contact sheet of saved actual Figma screenshots; not native app evidence",
+      "redaction": "Derived from account-header-masked screenshots"
+    },
+    {
+      "id": "E-OCT2-CLASS-EXAM-PROTO-TRACE",
+      "type": "trace",
+      "path": "calendar-class-exam-oct2-prototype-walkthrough.md",
+      "session_id": null,
+      "sha256": "547e9f464cb11efbd31ec11985ea364ac4cb21e1844a5f77ea4252ac267ac94d",
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Figma configuration/replay record; no new native execution",
+      "redaction": "Synthetic course values and public paths only"
     }
   ],
   "findings": [
@@ -63179,6 +63725,556 @@
         "prototype_evidence_ids": [
           "E-OCT2-NONE-PROTO-07",
           "E-OCT2-NONE-PROTO-14"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+        "node_id": "800:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-19",
+        "node_name": "[OCT2:CLASS-DN] Class draft — applied none",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-11"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-class-none.svg",
+        "design_source_sha256": "9112b32c1f0dbd6dc2677608bd50ea588550b9fa5885e332f73a1afa6efe86fd",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            70000
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-05"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-05"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-CLASS",
+        "node_id": "800:206",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-206",
+        "node_name": "[OCT2:CLASS] Class — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-12",
+          "E-NATIVE-OCT2-19"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-class.svg",
+        "design_source_sha256": "895a04158febc26f41fa5b4501924a88f96a1384bb5ec474d716ed75b304b79a",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            70000
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-06",
+            "E-OCT2-CLASS-EXAM-PROTO-17"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-06",
+          "E-OCT2-CLASS-EXAM-PROTO-17"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+        "node_id": "800:365",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-365",
+        "node_name": "[OCT2:DETAIL] Class detail — DEMO",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-13",
+          "E-NATIVE-OCT2-18"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-class-detail.svg",
+        "design_source_sha256": "b089070098dacb72c8141bb5d024e8dbe75a96a6f078aa6c3acf809d23de63d9",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            70000
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-07",
+            "E-OCT2-CLASS-EXAM-PROTO-11",
+            "E-OCT2-CLASS-EXAM-PROTO-12",
+            "E-OCT2-CLASS-EXAM-PROTO-13",
+            "E-OCT2-CLASS-EXAM-PROTO-16"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-07",
+          "E-OCT2-CLASS-EXAM-PROTO-11",
+          "E-OCT2-CLASS-EXAM-PROTO-12",
+          "E-OCT2-CLASS-EXAM-PROTO-13",
+          "E-OCT2-CLASS-EXAM-PROTO-16"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
+        "node_id": "800:403",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-403",
+        "node_name": "[OCT2:NOTICE-L] Class Notice — loading",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-14"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-notice-loading.svg",
+        "design_source_sha256": "4fdb6839e56bd0eabe0b586d763e466f8cc4d00b18fad67e826bd351ad19aeda",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            70000
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-14"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-14"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+        "node_id": "800:438",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-438",
+        "node_name": "[OCT2:NOTICE-B] Class Notice — observed blank",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-15",
+          "E-NATIVE-OCT2-17"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-notice-blank.svg",
+        "design_source_sha256": "858ef806e2f4cbdd692324241709bd43be3146aaffb59af82324d3d5d76d1d1f",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2800,
+            70000
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-08",
+            "E-OCT2-CLASS-EXAM-PROTO-10",
+            "E-OCT2-CLASS-EXAM-PROTO-15"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-08",
+          "E-OCT2-CLASS-EXAM-PROTO-10",
+          "E-OCT2-CLASS-EXAM-PROTO-15"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+        "node_id": "800:471",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-471",
+        "node_name": "[OCT2:NOTICE-M] Class Notice — menu",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-16"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-notice-menu.svg",
+        "design_source_sha256": "6f8fd46359268dfbfc0ceb0f8d8b68417405eb7777233f65a660702418fe5a59",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            3500,
+            70000
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-09"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-09"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+        "node_id": "800:520",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-520",
+        "node_name": "[OCT2:CLASS-DC] Class draft — applied class",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-20"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-class-class.svg",
+        "design_source_sha256": "7e158413ad30c35c88d2be7589cc7631df90facc5828796e279214b54b0c3032",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            71300
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-18"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-18"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+        "node_id": "800:706",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-706",
+        "node_name": "[OCT2:NONE-DC] None draft — applied class",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-21"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-none-class.svg",
+        "design_source_sha256": "6e3251c3819580f09bf89b5223aeabc03f465742a7dc2502c2e709d89545fbdf",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            71300
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-19"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-19"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+        "node_id": "800:891",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-891",
+        "node_name": "[OCT2:EXAM-DC] Exam draft — applied class",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-22"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-exam-class.svg",
+        "design_source_sha256": "d9f7cf4fc325205e98d4a246dbda21091fb5e3ffa7ae0cf094d51e7148874a50",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            71300
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-20"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-20"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-EXAM",
+        "node_id": "800:1077",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-1077",
+        "node_name": "[OCT2:EXAM] Exam — observed empty date",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-23"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-exam.svg",
+        "design_source_sha256": "6d8c0d62470a8ec18b20269b703cb6c003fd38db97368fa49171635a3ce2e0f2",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            71300
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-21"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-21"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+        "node_id": "800:1237",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-1237",
+        "node_name": "[OCT2:EXAM-DE] Exam draft — applied exam",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-24"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-exam-exam.svg",
+        "design_source_sha256": "4a5a088e044b2ebf5151fb357fe51fe2c14fbad45f9c09f547842d6943f6c830",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2800,
+            71300
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-22"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-22"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+        "node_id": "800:1424",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-1424",
+        "node_name": "[OCT2:NONE-DE] None draft — applied exam",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-25"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-none-exam.svg",
+        "design_source_sha256": "1dbe55e60e5d17026acebad8a35f9d2f6d278f57261e9f622099808420846d67",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            3500,
+            71300
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-23"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-23"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+        "node_id": "800:1610",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=800-1610",
+        "node_name": "[OCT2:PAYMENT-DE] Payment draft — applied exam",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-26"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct2-draft-payment-exam.svg",
+        "design_source_sha256": "b62ede38f0cf5d204b7f769bd87b1ef8eb4f6c5172027b79cb81b879e70897b0",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            72600
+          ]
+        },
+        "native_editability": "Editable text/vector controls. Campus geography and Notice loading mark are native screenshot raster crops.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Saved Present screenshots inspected; initial detail map return failed, recovery sampled. DEMO and approximate geometry; no full native fidelity acceptance.",
+          "evidence_ids": [
+            "E-OCT2-CLASS-EXAM-PROTO-24"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-24"
         ]
       }
     ],
@@ -76868,6 +77964,502 @@
           "PROTO-OCT2-NONE-APPLY-001",
           "PROTO-OCT2-NONE-RESTART-001"
         ]
+      },
+      {
+        "source_node_id": "791:873",
+        "trigger_node_id": "791:1043",
+        "action_id": "A-NATIVE-OCT2-11",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:19",
+        "configured_at": "2026-10-02T17:22:53.385Z",
+        "readback": [
+          "~\t\t\t\t\t\t444 combo box (collapsed) Destination, Value: [OCT2:CLASS-DN] Class draft — applied none, ID: :raj:, Secondary Actions: Expand",
+          "+\t\t\t\t\t\t449 combo box (collapsed) Animation, Value: Instant, ID: :rb0:, Secondary Actions: Expand",
+          "The focused UI element is 444 combo box (collapsed) Destination, Value: [OCT2:CLASS-DN] Class draft — applied none, ID: :raj:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-01",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-11",
+          "E-NATIVE-OCT2-11-AX"
+        ],
+        "trigger_node_name": "Class",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:19",
+        "trigger_node_id": "800:202",
+        "action_id": "A-NATIVE-OCT2-12",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:206",
+        "configured_at": "2026-10-02T17:23:37.180Z",
+        "readback": [
+          "\t\t\t\t\t\t\t386 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8s:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t410 combo box (collapsed) Trigger, Value: On click, ID: :r9l:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t416 combo box (collapsed) Action, Value: Navigate to, ID: :r9o:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t423 combo box (collapsed) Destination, Value: [OCT2:CLASS] Class — DEMO, ID: :ra7:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t428 combo box (collapsed) Animation, Value: Instant, ID: :rak:, Secondary Actions: Expand",
+          "The focused UI element is 423 combo box (collapsed) Destination, Value: [OCT2:CLASS] Class — DEMO, ID: :ra7:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-02",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-12",
+          "E-NATIVE-OCT2-12-AX"
+        ],
+        "trigger_node_name": "Apply",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:206",
+        "trigger_node_id": "800:334",
+        "action_id": "A-NATIVE-OCT2-13",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:365",
+        "configured_at": "2026-10-02T17:27:30.582Z",
+        "readback": [
+          "\t\t\t\t\t\t\t366 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8i:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t390 combo box (collapsed) Trigger, Value: On click, ID: :r9b:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t396 combo box (collapsed) Action, Value: Navigate to, ID: :r9e:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t403 combo box (collapsed) Destination, Value: [OCT2:DETAIL] Class detail — DEMO, ID: :r9t:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t408 combo box (collapsed) Animation, Value: Instant, ID: :raa:, Secondary Actions: Expand",
+          "The focused UI element is 403 combo box (collapsed) Destination, Value: [OCT2:DETAIL] Class detail — DEMO, ID: :r9t:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-03",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-13",
+          "E-NATIVE-OCT2-13-AX"
+        ],
+        "trigger_node_name": "DemoEventEllipsis",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:365",
+        "trigger_node_id": "800:392",
+        "action_id": "A-NATIVE-OCT2-14",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:403",
+        "configured_at": "2026-10-02T17:27:44.601Z",
+        "readback": [
+          "\t\t\t\t\t\t\t354 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8g:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:NOTICE-L] Class Notice — loading, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:NOTICE-L] Class Notice — loading, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-04",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-14",
+          "E-NATIVE-OCT2-14-AX"
+        ],
+        "trigger_node_name": "ClassNotice",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:438",
+        "trigger_node_id": "800:454",
+        "action_id": "A-NATIVE-OCT2-16",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:471",
+        "configured_at": "2026-10-02T17:28:00.880Z",
+        "readback": [
+          "\t\t\t\t\t\t\t314 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8a:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t338 combo box (collapsed) Trigger, Value: On click, ID: :r8h:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t344 combo box (collapsed) Action, Value: Navigate to, ID: :r8k:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t351 combo box (collapsed) Destination, Value: [OCT2:NOTICE-M] Class Notice — menu, ID: :r93:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t356 combo box (collapsed) Animation, Value: Instant, ID: :r9g:, Secondary Actions: Expand",
+          "The focused UI element is 351 combo box (collapsed) Destination, Value: [OCT2:NOTICE-M] Class Notice — menu, ID: :r93:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-05",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-16",
+          "E-NATIVE-OCT2-16-AX"
+        ],
+        "trigger_node_name": "NoticeMore",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:471",
+        "trigger_node_id": "800:516",
+        "action_id": "A-NATIVE-OCT2-17",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:438",
+        "configured_at": "2026-10-02T17:28:14.547Z",
+        "readback": [
+          "\t\t\t\t\t\t\t322 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8e:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t346 combo box (collapsed) Trigger, Value: On click, ID: :r8l:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t352 combo box (collapsed) Action, Value: Navigate to, ID: :r8o:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t359 combo box (collapsed) Destination, Value: [OCT2:NOTICE-B] Class Notice — observed blank, ID: :r97:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t364 combo box (collapsed) Animation, Value: Instant, ID: :r9k:, Secondary Actions: Expand",
+          "The focused UI element is 359 combo box (collapsed) Destination, Value: [OCT2:NOTICE-B] Class Notice — observed blank, ID: :r97:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-06",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-17",
+          "E-NATIVE-OCT2-17-AX"
+        ],
+        "trigger_node_name": "CancelNoticeMenu",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:438",
+        "trigger_node_id": "800:451",
+        "action_id": "A-NATIVE-OCT2-18",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:365",
+        "configured_at": "2026-10-02T17:28:27.121Z",
+        "readback": [
+          "\t\t\t\t\t\t\t322 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8d:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t346 combo box (collapsed) Trigger, Value: On click, ID: :r8k:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t352 combo box (collapsed) Action, Value: Navigate to, ID: :r8n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t359 combo box (collapsed) Destination, Value: [OCT2:DETAIL] Class detail — DEMO, ID: :r96:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t364 combo box (collapsed) Animation, Value: Instant, ID: :r9j:, Secondary Actions: Expand",
+          "The focused UI element is 359 combo box (collapsed) Destination, Value: [OCT2:DETAIL] Class detail — DEMO, ID: :r96:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-07",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-18",
+          "E-NATIVE-OCT2-18-AX"
+        ],
+        "trigger_node_name": "CloseNotice",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:365",
+        "trigger_node_id": "800:369",
+        "action_id": "A-NATIVE-OCT2-19",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:206",
+        "configured_at": "2026-10-02T17:28:38.717Z",
+        "readback": [
+          "\t\t\t\t\t\t\t418 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t442 combo box (collapsed) Trigger, Value: On click, ID: :ra7:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t448 combo box (collapsed) Action, Value: Navigate to, ID: :raa:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t455 combo box (collapsed) Destination, Value: [OCT2:CLASS] Class — DEMO, ID: :rap:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t460 combo box (collapsed) Animation, Value: Instant, ID: :rb6:, Secondary Actions: Expand",
+          "The focused UI element is 455 combo box (collapsed) Destination, Value: [OCT2:CLASS] Class — DEMO, ID: :rap:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-08",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-19",
+          "E-NATIVE-OCT2-19-AX"
+        ],
+        "trigger_node_name": "Back",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:206",
+        "trigger_node_id": "800:315",
+        "action_id": "A-NATIVE-OCT2-20",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:520",
+        "configured_at": "2026-10-02T17:28:50.090Z",
+        "readback": [
+          "\t\t\t\t\t\t\t362 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8c:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t386 combo box (collapsed) Trigger, Value: On click, ID: :r99:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t392 combo box (collapsed) Action, Value: Navigate to, ID: :r9c:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t399 combo box (collapsed) Destination, Value: [OCT2:CLASS-DC] Class draft — applied class, ID: :r9r:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t404 combo box (collapsed) Animation, Value: Instant, ID: :ra8:, Secondary Actions: Expand",
+          "The focused UI element is 399 combo box (collapsed) Destination, Value: [OCT2:CLASS-DC] Class draft — applied class, ID: :r9r:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-09",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-20",
+          "E-NATIVE-OCT2-20-AX"
+        ],
+        "trigger_node_name": "Filter",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:520",
+        "trigger_node_id": "800:689",
+        "action_id": "A-NATIVE-OCT2-21",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:706",
+        "configured_at": "2026-10-02T17:29:03.314Z",
+        "readback": [
+          "\t\t\t\t\t\t\t386 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t410 combo box (collapsed) Trigger, Value: On click, ID: :r9l:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t416 combo box (collapsed) Action, Value: Navigate to, ID: :r9o:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t423 combo box (collapsed) Destination, Value: [OCT2:NONE-DC] None draft — applied class, ID: :ra7:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t428 combo box (collapsed) Animation, Value: Instant, ID: :rak:, Secondary Actions: Expand",
+          "The focused UI element is 423 combo box (collapsed) Destination, Value: [OCT2:NONE-DC] None draft — applied class, ID: :ra7:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-10",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-21",
+          "E-NATIVE-OCT2-21-AX"
+        ],
+        "trigger_node_name": "Class",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:706",
+        "trigger_node_id": "800:878",
+        "action_id": "A-NATIVE-OCT2-22",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:891",
+        "configured_at": "2026-10-02T17:29:14.709Z",
+        "readback": [
+          "\t\t\t\t\t\t\t354 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:EXAM-DC] Exam draft — applied class, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:EXAM-DC] Exam draft — applied class, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-11",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-22",
+          "E-NATIVE-OCT2-22-AX"
+        ],
+        "trigger_node_name": "Exam",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:891",
+        "trigger_node_id": "800:1073",
+        "action_id": "A-NATIVE-OCT2-23",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:1077",
+        "configured_at": "2026-10-02T17:29:26.089Z",
+        "readback": [
+          "\t\t\t\t\t\t\t354 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:EXAM] Exam — observed empty date, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:EXAM] Exam — observed empty date, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-12",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-23",
+          "E-NATIVE-OCT2-23-AX"
+        ],
+        "trigger_node_name": "Apply",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:1077",
+        "trigger_node_id": "800:1186",
+        "action_id": "A-NATIVE-OCT2-24",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:1237",
+        "configured_at": "2026-10-02T17:29:37.049Z",
+        "readback": [
+          "\t\t\t\t\t\t\t314 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8a:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t338 combo box (collapsed) Trigger, Value: On click, ID: :r8h:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t344 combo box (collapsed) Action, Value: Navigate to, ID: :r8k:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t351 combo box (collapsed) Destination, Value: [OCT2:EXAM-DE] Exam draft — applied exam, ID: :r93:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t356 combo box (collapsed) Animation, Value: Instant, ID: :r9g:, Secondary Actions: Expand",
+          "The focused UI element is 351 combo box (collapsed) Destination, Value: [OCT2:EXAM-DE] Exam draft — applied exam, ID: :r93:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-13",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-24",
+          "E-NATIVE-OCT2-24-AX"
+        ],
+        "trigger_node_name": "Filter",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:1237",
+        "trigger_node_id": "800:1410",
+        "action_id": "A-NATIVE-OCT2-25",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:1424",
+        "configured_at": "2026-10-02T17:29:48.100Z",
+        "readback": [
+          "\t\t\t\t\t\t\t350 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8s:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t374 combo box (collapsed) Trigger, Value: On click, ID: :r93:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t380 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t387 combo box (collapsed) Destination, Value: [OCT2:NONE-DE] None draft — applied exam, ID: :r9l:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t392 combo box (collapsed) Animation, Value: Instant, ID: :ra2:, Secondary Actions: Expand",
+          "The focused UI element is 387 combo box (collapsed) Destination, Value: [OCT2:NONE-DE] None draft — applied exam, ID: :r9l:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-14",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-25",
+          "E-NATIVE-OCT2-25-AX"
+        ],
+        "trigger_node_name": "Exam",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:1424",
+        "trigger_node_id": "800:1600",
+        "action_id": "A-NATIVE-OCT2-26",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "800:1610",
+        "configured_at": "2026-10-02T17:29:58.808Z",
+        "readback": [
+          "\t\t\t\t\t\t\t350 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8s:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t374 combo box (collapsed) Trigger, Value: On click, ID: :r93:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t380 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t387 combo box (collapsed) Destination, Value: [OCT2:PAYMENT-DE] Payment draft — applied exam, ID: :r9l:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t392 combo box (collapsed) Animation, Value: Instant, ID: :ra2:, Secondary Actions: Expand",
+          "The focused UI element is 387 combo box (collapsed) Destination, Value: [OCT2:PAYMENT-DE] Payment draft — applied exam, ID: :r9l:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-15",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-26",
+          "E-NATIVE-OCT2-26-AX"
+        ],
+        "trigger_node_name": "Payment",
+        "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+      },
+      {
+        "source_node_id": "800:403",
+        "trigger_node_id": "800:403",
+        "action_id": null,
+        "trigger": "After delay",
+        "delay_ms": 800,
+        "behavior": "Navigate to",
+        "target_node_id": "800:438",
+        "configured_at": "2026-10-02T17:30:20.322Z",
+        "provenance": "Prototype-only 800ms illustration of observed loading-to-blank; not native timing",
+        "readback": [
+          "\t\t\t\t\t\t\t423 combo box (collapsed) Overflow, Value: No scrolling, ID: :rbf:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t447 combo box (collapsed) Trigger, Value: After delay, ID: :rbm:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t461 text field (settable) After delay timeout, Value: 800ms",
+          "\t\t\t\t\t\t\t453 combo box (collapsed) Action, Value: Navigate to, ID: :rbp:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t465 combo box (collapsed) Destination, Value: [OCT2:NOTICE-B] Class Notice — observed blank, ID: :rc9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t470 combo box (collapsed) Animation, Value: Instant, ID: :rcm:, Secondary Actions: Expand",
+          "The focused UI element is 465 combo box (collapsed) Destination, Value: [OCT2:NOTICE-B] Class Notice — observed blank, ID: :rc9:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT2-CLASS-EXAM-16",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "implementation_status": "configured_finite_reference_replays_recorded_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT2-14",
+          "E-NATIVE-OCT2-15"
+        ],
+        "trigger_node_name": null,
+        "source_fidelity": "A proposed demo delay between successive recorded states; not measured native latency or proof of successful webpage load."
       }
     ],
     "reconstruction_deviations": [
@@ -98541,6 +100133,369 @@
           "Two X exits are explicitly inferred prototype behavior.",
           "No human evaluation or full application acceptance."
         ]
+      },
+      {
+        "id": "PROTO-OCT2-CLASS-NOTICE-001",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "start_node_id": "791:177",
+        "started_at": "2026-10-02T17:30:40.348Z",
+        "ended_at": "2026-10-02T17:31:31.257Z",
+        "status": "failed",
+        "navigation_status": "Finite recorded path visibly reached recorded destinations",
+        "visual_status": "First return missing-map failure retained; later recovery sampled. DEMO/approximate geometry and complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "00-all-start.png",
+            "at": "2026-10-02T17:30:40.348Z",
+            "description": "all-start",
+            "state_id": "S-NATIVE-OCT2-ALL",
+            "visible_node_id": "791:177",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-all-draft.png",
+            "at": "2026-10-02T17:30:47.293Z",
+            "description": "all-draft",
+            "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+            "visible_node_id": "791:335",
+            "action_id": "A-NATIVE-OCT2-04",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-none-draft-all.png",
+            "at": "2026-10-02T17:30:47.489Z",
+            "description": "none-draft-all",
+            "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+            "visible_node_id": "791:529",
+            "action_id": "A-NATIVE-OCT2-05",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-none-applied.png",
+            "at": "2026-10-02T17:30:47.695Z",
+            "description": "none-applied",
+            "state_id": "S-NATIVE-OCT2-NONE",
+            "visible_node_id": "791:713",
+            "action_id": "A-CALENDAR-APPLY-NONE",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-none-reopen.png",
+            "at": "2026-10-02T17:30:47.949Z",
+            "description": "none-reopen",
+            "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+            "visible_node_id": "791:873",
+            "action_id": "A-NATIVE-OCT2-10",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-class-draft-confirmed.png",
+            "at": "2026-10-02T17:30:57.392Z",
+            "description": "class-draft-confirmed",
+            "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+            "visible_node_id": "800:19",
+            "action_id": "A-NATIVE-OCT2-11",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-class-applied.png",
+            "at": "2026-10-02T17:31:02.682Z",
+            "description": "class-applied",
+            "state_id": "S-NATIVE-OCT2-CLASS",
+            "visible_node_id": "800:206",
+            "action_id": "A-NATIVE-OCT2-12",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-class-detail.png",
+            "at": "2026-10-02T17:31:07.604Z",
+            "description": "class-detail",
+            "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+            "visible_node_id": "800:365",
+            "action_id": "A-NATIVE-OCT2-13",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-notice-blank.png",
+            "at": "2026-10-02T17:31:11.779Z",
+            "description": "notice-blank",
+            "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+            "visible_node_id": "800:438",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "09-notice-menu.png",
+            "at": "2026-10-02T17:31:16.141Z",
+            "description": "notice-menu",
+            "state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+            "visible_node_id": "800:471",
+            "action_id": "A-NATIVE-OCT2-16",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "10-notice-cancel-return.png",
+            "at": "2026-10-02T17:31:20.137Z",
+            "description": "notice-cancel-return",
+            "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+            "visible_node_id": "800:438",
+            "action_id": "A-NATIVE-OCT2-17",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-10"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "11-detail-return-missing-map.png",
+            "at": "2026-10-02T17:31:23.870Z",
+            "description": "detail-return-missing-map",
+            "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+            "visible_node_id": "800:365",
+            "action_id": "A-NATIVE-OCT2-18",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-11"
+            ],
+            "outcome": "failed_missing_map"
+          },
+          {
+            "file": "12-detail-black-viewport.png",
+            "at": "2026-10-02T17:31:31.257Z",
+            "description": "SDK saved capture still shows missing map. Separate CUA live screenshots were black; this saved image is not black.",
+            "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+            "visible_node_id": "800:365",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-12"
+            ],
+            "outcome": "failed_missing_map"
+          }
+        ],
+        "limitations": [
+          "Standalone dated reference; main Home/More callers not integrated.",
+          "800ms is demo-only; successful Notice page load not established.",
+          "Payment Apply and map/menu affordances unimplemented; not full app or human evaluation."
+        ]
+      },
+      {
+        "id": "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "start_node_id": "800:365",
+        "started_at": "2026-10-02T17:32:16.592Z",
+        "ended_at": "2026-10-02T17:32:28.435Z",
+        "status": "partial",
+        "navigation_status": "Finite recorded path visibly reached recorded destinations",
+        "visual_status": "First return missing-map failure retained; later recovery sampled. DEMO/approximate geometry and complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "13-detail-reloaded-map.png",
+            "at": "2026-10-02T17:32:16.592Z",
+            "description": "detail-reloaded-map",
+            "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+            "visible_node_id": "800:365",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-13"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "14-notice-loading-second-entry.png",
+            "at": "2026-10-02T17:32:16.832Z",
+            "description": "notice-loading-second-entry",
+            "state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
+            "visible_node_id": "800:403",
+            "action_id": "A-NATIVE-OCT2-14",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-14"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "15-notice-blank-second.png",
+            "at": "2026-10-02T17:32:20.379Z",
+            "description": "notice-blank-second",
+            "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+            "visible_node_id": "800:438",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-15"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "16-detail-return-map-confirmed.png",
+            "at": "2026-10-02T17:32:24.410Z",
+            "description": "detail-return-map-confirmed",
+            "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+            "visible_node_id": "800:365",
+            "action_id": "A-NATIVE-OCT2-18",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-16"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "17-class-return.png",
+            "at": "2026-10-02T17:32:28.435Z",
+            "description": "class-return",
+            "state_id": "S-NATIVE-OCT2-CLASS",
+            "visible_node_id": "800:206",
+            "action_id": "A-NATIVE-OCT2-19",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-17"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Standalone dated reference; main Home/More callers not integrated.",
+          "800ms is demo-only; successful Notice page load not established.",
+          "Payment Apply and map/menu affordances unimplemented; not full app or human evaluation."
+        ]
+      },
+      {
+        "id": "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001",
+        "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+        "start_node_id": "800:206",
+        "started_at": "2026-10-02T17:32:28.435Z",
+        "ended_at": "2026-10-02T17:33:06.576Z",
+        "status": "partial",
+        "navigation_status": "Finite recorded path visibly reached recorded destinations",
+        "visual_status": "First return missing-map failure retained; later recovery sampled. DEMO/approximate geometry and complete fidelity unverified.",
+        "steps": [
+          {
+            "file": "17-class-return.png",
+            "at": "2026-10-02T17:32:28.435Z",
+            "description": "class-return",
+            "state_id": "S-NATIVE-OCT2-CLASS",
+            "visible_node_id": "800:206",
+            "action_id": "A-NATIVE-OCT2-19",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-17"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "18-class-reopen.png",
+            "at": "2026-10-02T17:32:32.369Z",
+            "description": "class-reopen",
+            "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+            "visible_node_id": "800:520",
+            "action_id": "A-NATIVE-OCT2-20",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-18"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "19-none-draft-class.png",
+            "at": "2026-10-02T17:32:37.828Z",
+            "description": "none-draft-class",
+            "state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+            "visible_node_id": "800:706",
+            "action_id": "A-NATIVE-OCT2-21",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-19"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "20-exam-draft-class.png",
+            "at": "2026-10-02T17:32:41.566Z",
+            "description": "exam-draft-class",
+            "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+            "visible_node_id": "800:891",
+            "action_id": "A-NATIVE-OCT2-22",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-20"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "21-exam-applied.png",
+            "at": "2026-10-02T17:32:49.329Z",
+            "description": "exam-applied",
+            "state_id": "S-NATIVE-OCT2-EXAM",
+            "visible_node_id": "800:1077",
+            "action_id": "A-NATIVE-OCT2-23",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-21"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "22-exam-reopen.png",
+            "at": "2026-10-02T17:32:53.690Z",
+            "description": "exam-reopen",
+            "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+            "visible_node_id": "800:1237",
+            "action_id": "A-NATIVE-OCT2-24",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-22"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "23-none-draft-exam.png",
+            "at": "2026-10-02T17:32:58.219Z",
+            "description": "none-draft-exam",
+            "state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+            "visible_node_id": "800:1424",
+            "action_id": "A-NATIVE-OCT2-25",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-23"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "24-payment-draft-end.png",
+            "at": "2026-10-02T17:33:06.576Z",
+            "description": "payment-draft-end",
+            "state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+            "visible_node_id": "800:1610",
+            "action_id": "A-NATIVE-OCT2-26",
+            "evidence_ids": [
+              "E-OCT2-CLASS-EXAM-PROTO-24"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Standalone dated reference; main Home/More callers not integrated.",
+          "800ms is demo-only; successful Notice page load not established.",
+          "Payment Apply and map/menu affordances unimplemented; not full app or human evaluation."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -98620,7 +100575,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "152 mapped frames / 3 internal component states / 346 configured controls /16 scroll regions /104 prototype runs. Oct2 None-filter reference added and sampled; complete app/fidelity not_verified.",
+    "verification_summary": "165 mapped frames /3 internal component states /362 configured controls /16 scroll regions /107 prototype runs. Oct2 Class/Exam/Notice finite reference added with failure/recovery; complete app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -99009,7 +100964,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-OCT2-NONE-20261003",
+    "current_revision": "FIGMA-OCT2-CLASS-EXAM-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -100165,31 +102120,36 @@
         "scope": "Ten main historical dated contexts with continuous horizontal bars and Today vertical list; two route samples. Complete date/filter/caller/full App scope pending."
       },
       {
-        "name": "Reference · Oct2 None filters — partial",
-        "description": "Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
+        "name": "Reference · Oct2 Calendar filters & Notice — partial",
+        "description": "Oct2 native fullscreen reference, 18 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not measured native latency or successful webpage load. Campus geography is raster; live map actions unverified. Two old None X exits are inferred. Payment Apply result, other combinations/dates, main Home/More callers and complete-app fidelity remain unverified.",
         "readback": [
-          "\t\t\t\t\t1100 container Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
-          "\t\t\t\t\t\t1112 text Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
-          "The focused UI element is 1100 container Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow."
+          "\t\t\t\t\t950 container Oct2 native fullscreen reference, 18 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not measured native latency or successful webpage load. Campus geography is raster; live map actions unverified. Two old None X exits are inferred. Payment Apply result, other combinations/dates, main Home/More callers and complete-app fidelity remain unverified.",
+          "\t\t\t\t\t\t951 text Oct2 native fullscreen reference, 18 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not measured native latency or successful webpage load. Campus geography is raster; live map actions unverified. Two old None X exits are inferred. Payment Apply result, other combinations/dates, main Home/More callers and complete-app fidelity remain unverified.",
+          "The focused UI element is 950 container Oct2 native fullscreen reference, 18 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not measured native latency or successful webpage load. Campus geography is raster; live map actions unverified. Two old None X exits are inferred. Payment Apply result, other combinations/dates, main Home/More callers and complete-app fidelity remain unverified."
         ],
         "start_node_id": "791:177",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
         "tested_run_ids": [
           "PROTO-OCT2-NONE-CANCEL-001",
           "PROTO-OCT2-NONE-APPLY-001",
-          "PROTO-OCT2-NONE-RESTART-001"
+          "PROTO-OCT2-NONE-RESTART-001",
+          "PROTO-OCT2-CLASS-NOTICE-001",
+          "PROTO-OCT2-NOTICE-RECOVERY-001",
+          "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
         ],
-        "scope": "Five dated native None-filter reference states only; complete Calendar and main callers not integrated."
+        "scope": "18 dated native Calendar reference frames; main callers, other dates/combinations and Payment Apply unverified.",
+        "updated_at": "2026-10-02T17:33:27.208Z"
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-02T16:34:05.326Z",
+    "latest_prototype_run_cutoff": "2026-10-02T17:33:06.576Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-OCT2-NONE-PROTO-14"
+      "E-OCT2-CLASS-EXAM-PROTO-25",
+      "E-OCT2-CLASS-EXAM-PROTO-26"
     ],
-    "latest_editor_verified_at": "2026-10-02T16:34:45.617381+00:00",
+    "latest_editor_verified_at": "2026-10-02T17:34:15.854850+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
@@ -103061,14 +105021,16 @@
         "design_source_sha256": "9112b32c1f0dbd6dc2677608bd50ea588550b9fa5885e332f73a1afa6efe86fd",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:19",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-05"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-01"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103076,7 +105038,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-CLASS",
@@ -103088,14 +105051,17 @@
         "design_source_sha256": "895a04158febc26f41fa5b4501924a88f96a1384bb5ec474d716ed75b304b79a",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:206",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-06",
+          "E-OCT2-CLASS-EXAM-PROTO-17"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-02"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103103,7 +105069,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
@@ -103115,14 +105082,20 @@
         "design_source_sha256": "b089070098dacb72c8141bb5d024e8dbe75a96a6f078aa6c3acf809d23de63d9",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:365",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-07",
+          "E-OCT2-CLASS-EXAM-PROTO-11",
+          "E-OCT2-CLASS-EXAM-PROTO-12",
+          "E-OCT2-CLASS-EXAM-PROTO-13",
+          "E-OCT2-CLASS-EXAM-PROTO-16"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-03"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103130,7 +105103,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
@@ -103141,14 +105115,16 @@
         "design_source_sha256": "4fdb6839e56bd0eabe0b586d763e466f8cc4d00b18fad67e826bd351ad19aeda",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:403",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-14"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-04"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103156,7 +105132,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
@@ -103168,14 +105145,18 @@
         "design_source_sha256": "858ef806e2f4cbdd692324241709bd43be3146aaffb59af82324d3d5d76d1d1f",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:438",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-08",
+          "E-OCT2-CLASS-EXAM-PROTO-10",
+          "E-OCT2-CLASS-EXAM-PROTO-15"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-05"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103183,7 +105164,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-NOTICE-MENU",
@@ -103194,14 +105176,16 @@
         "design_source_sha256": "6f8fd46359268dfbfc0ceb0f8d8b68417405eb7777233f65a660702418fe5a59",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:471",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-09"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-06"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103209,7 +105193,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
@@ -103220,14 +105205,16 @@
         "design_source_sha256": "7e158413ad30c35c88d2be7589cc7631df90facc5828796e279214b54b0c3032",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:520",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-18"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-07"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103235,7 +105222,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
@@ -103246,14 +105234,16 @@
         "design_source_sha256": "6e3251c3819580f09bf89b5223aeabc03f465742a7dc2502c2e709d89545fbdf",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:706",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-19"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-08"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103261,7 +105251,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
@@ -103272,14 +105263,16 @@
         "design_source_sha256": "d9f7cf4fc325205e98d4a246dbda21091fb5e3ffa7ae0cf094d51e7148874a50",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:891",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-20"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-09"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103287,7 +105280,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-EXAM",
@@ -103298,14 +105292,16 @@
         "design_source_sha256": "6d8c0d62470a8ec18b20269b703cb6c003fd38db97368fa49171635a3ce2e0f2",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:1077",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-21"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-10"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103313,7 +105309,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
@@ -103324,14 +105321,16 @@
         "design_source_sha256": "4a5a088e044b2ebf5151fb357fe51fe2c14fbad45f9c09f547842d6943f6c830",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:1237",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-22"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-11"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103339,7 +105338,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
@@ -103350,14 +105350,16 @@
         "design_source_sha256": "1dbe55e60e5d17026acebad8a35f9d2f6d278f57261e9f622099808420846d67",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:1424",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-23"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-12"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103365,7 +105367,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       },
       {
         "state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
@@ -103376,14 +105379,16 @@
         "design_source_sha256": "b62ede38f0cf5d204b7f769bd87b1ef8eb4f6c5172027b79cb81b879e70897b0",
         "revision_id": "SOURCE-OCT2-CLASS-EXAM-20261003",
         "status": "prepared_not_imported_not_replayed",
-        "current_status": "prepared_not_imported_not_replayed",
-        "node_id": null,
-        "prototype_evidence_ids": [],
+        "current_status": "imported_finite_reference_replayed_partial",
+        "node_id": "800:1610",
+        "prototype_evidence_ids": [
+          "E-OCT2-CLASS-EXAM-PROTO-24"
+        ],
         "source_render_evidence_ids": [
           "E-OCT2-CLASS-EXAM-SOURCE-13"
         ],
         "limitations": [
-          "Not imported, connected or replayed in Figma; native and Figma coverage counts stay unchanged.",
+          "Current finite reference imported, connected and sampled; complete application not_verified.",
           "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
           "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
           "Notice blank is an observed snapshot, not a successfully loaded document.",
@@ -103391,7 +105396,8 @@
           "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
           "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
         ],
-        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json"
+        "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
+        "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
       }
     ]
   },

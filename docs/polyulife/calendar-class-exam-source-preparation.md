@@ -1,5 +1,7 @@
 # Calendar Class / Exam / Notice 来源准备
 
+后续状态：本批13份来源现已导入并配置16条连接，有限回放、首次返回缺图及恢复证据见[实际Figma回放](calendar-class-exam-oct2-prototype-walkthrough.md)。下文保留来源准备阶段的历史快照；正式当前节点和状态以coverage.json及连接清单为准。本地渲染拼图中的NOT IMPORTED标签表示生成时状态。
+
 本批使用已经归档的 [October 2 原生补查](native-calendar-resume-20261002.md)，准备 **13 份可编辑 SVG、15 条原生动作对应的连线计划及 1 条演示延时计划**。文件已本地渲染并检查，**尚未导入、连线或在 Figma Present 回放**。原生状态/动作和正式 Figma 映射数量没有增加；完整应用仍 `not_verified`。
 
 [来源与哈希清单](../../design/polyulife/calendar-oct2-class-exam-sources.json)、[未配置连线清单](../../design/polyulife/calendar-oct2-class-exam-plan.json)和[本地渲染清单](../../evidence/2026-10-03-calendar-class-exam-source/manifest.json)分别记录素材、计划和实际本地输出。[渲染总览](../../evidence/2026-10-03-calendar-class-exam-source/contact-sheet.png)逐格标明 LOCAL SOURCE / NOT IMPORTED；它不是新的原生截图或 Figma 回放。
