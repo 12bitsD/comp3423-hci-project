@@ -1,6 +1,6 @@
 # PolyULife 全应用观察与 Figma 复现
 
-最新[Payment/Home有限调用者接入](calendar-payment-home-oct3-prototype-walkthrough.md)补1个可编辑DEMO首页、2条原生依据连接和3组实际回放；保存一次黑图采集失败及后续稳定/独立恢复样例。当前Figma167画板/365控件/112次运行，原生仍157状态/303动作。其它调用者、筛选重开和完整应用仍 `not_verified`。
+最新[Payment/Home有限调用者接入](calendar-payment-home-oct3-prototype-walkthrough.md)补1个可编辑DEMO首页、2条原生依据连接和3组实际回放；工具预览一度显示黑色，实际保存像素和哈希证实为正常Payment；差异与更正保留。当前Figma167画板/365控件/112次运行，原生仍157状态/303动作。其它调用者、筛选重开和完整应用仍 `not_verified`。
 
 最新[Payment原生补查与Figma检查点](calendar-payment-oct3-walkthrough.md)确认Apply结果及Payment → Home → Calendar保留October/月视图、October2和Payment的有限往返；重开筛选未确认。新增1画板/1连接/2次Present运行。当前原生157状态/303动作（220 observed、81 not_attempted、2 attempted_unverified），Figma166画板/363控件/109次运行。主调用者衔接、其它日期/组合及完整应用仍 `not_verified`。下方“最新”和数字均保留各批次历史快照。
 
