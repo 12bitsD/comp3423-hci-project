@@ -1,0 +1,227 @@
+{
+  "kind": "actual_figma_finite_payment_home_roundtrips_with_capture_failure",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-payment-start.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:12.796Z",
+      "description": "payment-start",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "01-home-return.png",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:17.053Z",
+      "description": "home-return",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "825:19",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "02-payment-reentry.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:21.937Z",
+      "description": "payment-reentry",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "03-home-return-repeat.png",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:22.166Z",
+      "description": "home-return-repeat",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "825:19",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "04-payment-reentry-repeat.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:22.431Z",
+      "description": "payment-reentry-repeat",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": null,
+      "state_id": null,
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+      "capture_status": "black_saved_capture"
+    },
+    {
+      "file": "05-payment-stable-after-black.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:42.325Z",
+      "description": "payment-stable-after-black",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "06-home-recovery-roundtrip.png",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:46.547Z",
+      "description": "home-recovery-roundtrip",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "825:19",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "07-payment-recovery-roundtrip.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:51.025Z",
+      "description": "payment-recovery-roundtrip",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "editor-home-flow.png",
+      "sha256": "068055b66123c1a7c4bf5e6c3eaea8477e9b3d0acb24d459de188240d007e7a6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T18:10:11.457128+00:00",
+      "description": "Actual flow scope updated to20 finite frames including Home caller",
+      "source": "Actual Computer Use Figma editor screenshot bytes",
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "timestamp_basis": "File write immediately after capture"
+    }
+  ],
+  "app_crop_xyxy": [
+    425,
+    60,
+    785,
+    700
+  ],
+  "limits": [
+    "Only this observed Oct3 Payment caller context integrated. Other existing Home/More entries retain their historical paths.",
+    "Synthetic greeting/count/exam course/date/time/room and preview; personal records never uploaded.",
+    "Static scrolled Home sample; continuous scroll/features/exam card interactions unimplemented in this new context.",
+    "One saved black capture preserved, no native black screen inferred; subsequent stable capture/replay inspected.",
+    "Full app/fidelity/human evaluation not_verified."
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 2,
+      "purpose": "First Payment reentry",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 0,
+      "b": 5,
+      "purpose": "Stable after saved black capture",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 0,
+      "b": 7,
+      "purpose": "Recovery roundtrip Payment",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "purpose": "Repeated Home",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "purpose": "Recovery Home",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    }
+  ],
+  "events": [
+    {
+      "kind": "capture_failure",
+      "capture_index": 4,
+      "result": "Saved bytes black, AX URL still indicated preceding Home; intended Payment not visible in this capture. Later screenshot and stable saved05 showed Payment without new input. Cause unisolated; preserve failure."
+    },
+    {
+      "kind": "recovery_sample",
+      "captures": [
+        5,
+        6,
+        7
+      ],
+      "result": "Separately sampled Payment → Home → Payment shows each target; not a long-session reliability claim."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "013f4f9d333646b4680e6515069b9e555230f93ddfde71aaa6f8e82ec34abecf",
+    "dimensions": [
+      1440,
+      1360
+    ],
+    "source": "Eight actual masked Present samples, including saved black04"
+  }
+}

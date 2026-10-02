@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "file": "calendar-oct3-payment-home-demo.svg",
+      "sha256": "2a41a6627754f0a0e94df8f1ce49f3a5b230ffde3888bc7e7633506779856ed0",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "source_evidence_ids": [
+        "E-NATIVE-OCT3-PAYMENT-06",
+        "E-NATIVE-OCT3-PAYMENT-06-AX",
+        "E-NATIVE-OCT3-PAYMENT-07"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_finite_caller_replayed_partial",
+      "node_id": "825:19",
+      "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+      "limitations": [
+        "Only this observed Oct3 Payment caller context integrated. Other existing Home/More entries retain their historical paths.",
+        "Synthetic greeting/count/exam course/date/time/room and preview; personal records never uploaded.",
+        "Static scrolled Home sample; continuous scroll/features/exam card interactions unimplemented in this new context.",
+        "One saved black capture preserved, no native black screen inferred; subsequent stable capture/replay inspected.",
+        "Full app/fidelity/human evaluation not_verified."
+      ]
+    }
+  ]
+}

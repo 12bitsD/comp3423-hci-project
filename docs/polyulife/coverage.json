@@ -56037,6 +56037,201 @@
       ],
       "source": "Derived trace separating actual native and prototype observations",
       "redaction": "Only safe facts and public paths; no account/course values"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/00-payment-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:09:12.796Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/01-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:09:17.053Z",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-HOME"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/02-payment-reentry.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:09:21.937Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-HOME-CALENDAR"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/03-home-return-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:09:22.166Z",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-HOME"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/04-payment-reentry-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:09:22.431Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [],
+      "action_ids": [
+        "A-NATIVE-OCT3-HOME-CALENDAR"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "capture_status": "black_saved_capture"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/05-payment-stable-after-black.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:09:42.325Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/06-home-recovery-roundtrip.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:09:46.547Z",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-HOME"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/07-payment-recovery-roundtrip.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:09:51.025Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-HOME-CALENDAR"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-EDITOR",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/editor-home-flow.png",
+      "session_id": null,
+      "captured_at": "2026-10-02T18:10:11.457128+00:00",
+      "sha256": "068055b66123c1a7c4bf5e6c3eaea8477e9b3d0acb24d459de188240d007e7a6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor screenshot bytes",
+      "redaction": "Account header masked"
+    },
+    {
+      "id": "E-OCT3-PAYMENT-HOME-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-calendar-payment-home-prototype/contact-sheet.png",
+      "session_id": null,
+      "sha256": "013f4f9d333646b4680e6515069b9e555230f93ddfde71aaa6f8e82ec34abecf",
+      "dimensions": [
+        1440,
+        1360
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [],
+      "redaction": "Derived from masked actual captures"
     }
   ],
   "findings": [
@@ -64975,11 +65170,66 @@
         },
         "prototype_run_ids": [
           "PROTO-OCT3-PAYMENT-APPLY-001",
-          "PROTO-OCT3-PAYMENT-APPLY-002"
+          "PROTO-OCT3-PAYMENT-APPLY-002",
+          "PROTO-OCT3-PAYMENT-HOME-001",
+          "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
         ],
         "prototype_evidence_ids": [
           "E-OCT3-PAYMENT-PROTO-01",
-          "E-OCT3-PAYMENT-PROTO-03"
+          "E-OCT3-PAYMENT-PROTO-03",
+          "E-OCT3-PAYMENT-HOME-00",
+          "E-OCT3-PAYMENT-HOME-02",
+          "E-OCT3-PAYMENT-HOME-05",
+          "E-OCT3-PAYMENT-HOME-07"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+        "node_id": "825:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=825-19",
+        "node_name": "[OCT3:HOME-P] Home — DEMO retained Payment caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-OCT3-PAYMENT-06",
+          "E-NATIVE-OCT3-PAYMENT-06-AX",
+          "E-NATIVE-OCT3-PAYMENT-07"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-oct3-payment-home-demo.svg",
+        "design_source_sha256": "2a41a6627754f0a0e94df8f1ce49f3a5b230ffde3888bc7e7633506779856ed0",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            72600
+          ]
+        },
+        "content_policy": "All private greeting/count/exam fields/preview synthetic DEMO; no real personal data embedded.",
+        "native_editability": "SVG imported into native Frame/Text/Vector/groups; individual navigation groups inspected through UI.",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Home targets visible in three samples; static observed scroll geometry approximate; complete fidelity not accepted.",
+          "evidence_ids": [
+            "E-OCT3-PAYMENT-HOME-01",
+            "E-OCT3-PAYMENT-HOME-03",
+            "E-OCT3-PAYMENT-HOME-06"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-OCT3-PAYMENT-HOME-001",
+          "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-OCT3-PAYMENT-HOME-01",
+          "E-OCT3-PAYMENT-HOME-03",
+          "E-OCT3-PAYMENT-HOME-06"
         ]
       }
     ],
@@ -79196,6 +79446,68 @@
           "E-NATIVE-OCT3-PAYMENT-01-AX"
         ],
         "source_fidelity": "Observed new Oct3 Apply from retained Payment draft; historical Oct2 attempted Apply remains unknown."
+      },
+      {
+        "source_node_id": "825:19",
+        "trigger_node_id": "825:126",
+        "trigger_node_name": "NavCalendar",
+        "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "823:21",
+        "configured_at": "2026-10-02T18:08:33.750Z",
+        "readback": [
+          "\t\t\t\t\t\t\t689 combo box (collapsed) Position, Value: Scroll with parent, ID: :rd9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t713 combo box (collapsed) Trigger, Value: On click, ID: :rdg:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t719 combo box (collapsed) Action, Value: Navigate to, ID: :rdj:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t726 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :re2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t731 combo box (collapsed) Animation, Value: Instant, ID: :ref:, Secondary Actions: Expand",
+          "The focused UI element is 726 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :re2:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT3-PAYMENT-HOME-01",
+        "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+        "implementation_status": "configured_finite_caller_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT3-PAYMENT-HOME-001",
+          "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT3-PAYMENT-07",
+          "E-NATIVE-OCT3-PAYMENT-07-AX"
+        ],
+        "source_fidelity": "Observed Oct3 finite Payment caller context only; fixed Navigate-to approximates retained state, not universal persistence."
+      },
+      {
+        "source_node_id": "823:21",
+        "trigger_node_id": "823:160",
+        "trigger_node_name": "NavHome",
+        "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "825:19",
+        "configured_at": "2026-10-02T18:08:53.403Z",
+        "readback": [
+          "\t\t\t\t\t\t\t847 combo box (collapsed) Position, Value: Scroll with parent, ID: :rft:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t871 combo box (collapsed) Trigger, Value: On click, ID: :rgm:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t877 combo box (collapsed) Action, Value: Navigate to, ID: :rgp:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t884 combo box (collapsed) Destination, Value: [OCT3:HOME-P] Home — DEMO retained Payment caller, ID: :rh8:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t889 combo box (collapsed) Animation, Value: Instant, ID: :rhl:, Secondary Actions: Expand",
+          "The focused UI element is 884 combo box (collapsed) Destination, Value: [OCT3:HOME-P] Home — DEMO retained Payment caller, ID: :rh8:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-OCT3-PAYMENT-HOME-02",
+        "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+        "implementation_status": "configured_finite_caller_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-OCT3-PAYMENT-HOME-001",
+          "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-OCT3-PAYMENT-06",
+          "E-NATIVE-OCT3-PAYMENT-06-AX"
+        ],
+        "source_fidelity": "Observed Oct3 finite Payment caller context only; fixed Navigate-to approximates retained state, not universal persistence."
       }
     ],
     "reconstruction_deviations": [
@@ -81166,6 +81478,25 @@
           "E-CALENDAR-GLOBAL-28",
           "E-CALENDAR-GLOBAL-47",
           "E-CALENDAR-GLOBAL-52"
+        ]
+      },
+      {
+        "id": "D-OCT3-PAYMENT-HOME-CONTEXT",
+        "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+        "status": "open",
+        "affected_state_ids": [
+          "S-NATIVE-OCT3-PAYMENT",
+          "S-NATIVE-OCT3-HOME-CALLER"
+        ],
+        "original_behavior": "One native Payment → scrolled Home → Calendar preserves October/month/Oct2/Payment; general state rules unknown.",
+        "current_implementation": "One editable static DEMO Home and two fixed Navigate-to controls; black saved capture04 retained, later stable/recovery samples visible.",
+        "impact": "No universal persistence, arbitrary dates/categories/modes, continuous Home scroll, exam/feature interactions or complete fidelity implemented.",
+        "next_step": "Observe remaining native controls and callers, integrate full state model and continuously scrollable Home; investigate capture stability if reproduced.",
+        "evidence_ids": [
+          "E-NATIVE-OCT3-PAYMENT-06",
+          "E-NATIVE-OCT3-PAYMENT-07",
+          "E-OCT3-PAYMENT-HOME-04",
+          "E-OCT3-PAYMENT-HOME-07"
         ]
       }
     ],
@@ -101314,6 +101645,183 @@
           "Only Apply wired; reopen/Home/main callers not implemented in this batch.",
           "Geometry approximate and full application/fidelity not_verified."
         ]
+      },
+      {
+        "id": "PROTO-OCT3-PAYMENT-HOME-001",
+        "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-02T18:09:12.796Z",
+        "ended_at": "2026-10-02T18:09:21.937Z",
+        "status": "partial",
+        "navigation_status": "Finite native-source Home and Calendar connections reach destinations; capture04 does not show a destination",
+        "visual_status": "Saved black capture retained; stable later capture and independent recovery roundtrip inspected; full fidelity unverified",
+        "steps": [
+          {
+            "file": "00-payment-start.png",
+            "at": "2026-10-02T18:09:12.796Z",
+            "description": "payment-start",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-home-return.png",
+            "at": "2026-10-02T18:09:17.053Z",
+            "description": "home-return",
+            "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+            "visible_node_id": "825:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-payment-reentry.png",
+            "at": "2026-10-02T18:09:21.937Z",
+            "description": "payment-reentry",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Only this observed Oct3 Payment caller context integrated. Other existing Home/More entries retain their historical paths.",
+          "Synthetic greeting/count/exam course/date/time/room and preview; personal records never uploaded.",
+          "Static scrolled Home sample; continuous scroll/features/exam card interactions unimplemented in this new context.",
+          "One saved black capture preserved, no native black screen inferred; subsequent stable capture/replay inspected.",
+          "Full app/fidelity/human evaluation not_verified."
+        ]
+      },
+      {
+        "id": "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+        "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-02T18:09:21.937Z",
+        "ended_at": "2026-10-02T18:09:42.325Z",
+        "status": "failed",
+        "navigation_status": "Finite native-source Home and Calendar connections reach destinations; capture04 does not show a destination",
+        "visual_status": "Saved black capture retained; stable later capture and independent recovery roundtrip inspected; full fidelity unverified",
+        "steps": [
+          {
+            "file": "02-payment-reentry.png",
+            "at": "2026-10-02T18:09:21.937Z",
+            "description": "payment-reentry",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-home-return-repeat.png",
+            "at": "2026-10-02T18:09:22.166Z",
+            "description": "home-return-repeat",
+            "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+            "visible_node_id": "825:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-payment-reentry-repeat.png",
+            "at": "2026-10-02T18:09:22.431Z",
+            "description": "payment-reentry-repeat",
+            "state_id": null,
+            "visible_node_id": null,
+            "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-04"
+            ],
+            "outcome": "black_saved_capture"
+          },
+          {
+            "file": "05-payment-stable-after-black.png",
+            "at": "2026-10-02T18:09:42.325Z",
+            "description": "payment-stable-after-black",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Only this observed Oct3 Payment caller context integrated. Other existing Home/More entries retain their historical paths.",
+          "Synthetic greeting/count/exam course/date/time/room and preview; personal records never uploaded.",
+          "Static scrolled Home sample; continuous scroll/features/exam card interactions unimplemented in this new context.",
+          "One saved black capture preserved, no native black screen inferred; subsequent stable capture/replay inspected.",
+          "Full app/fidelity/human evaluation not_verified."
+        ]
+      },
+      {
+        "id": "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003",
+        "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-02T18:09:42.325Z",
+        "ended_at": "2026-10-02T18:09:51.025Z",
+        "status": "partial",
+        "navigation_status": "Finite native-source Home and Calendar connections reach destinations; capture04 does not show a destination",
+        "visual_status": "Saved black capture retained; stable later capture and independent recovery roundtrip inspected; full fidelity unverified",
+        "steps": [
+          {
+            "file": "05-payment-stable-after-black.png",
+            "at": "2026-10-02T18:09:42.325Z",
+            "description": "payment-stable-after-black",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-home-recovery-roundtrip.png",
+            "at": "2026-10-02T18:09:46.547Z",
+            "description": "home-recovery-roundtrip",
+            "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+            "visible_node_id": "825:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-payment-recovery-roundtrip.png",
+            "at": "2026-10-02T18:09:51.025Z",
+            "description": "payment-recovery-roundtrip",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+            "evidence_ids": [
+              "E-OCT3-PAYMENT-HOME-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Only this observed Oct3 Payment caller context integrated. Other existing Home/More entries retain their historical paths.",
+          "Synthetic greeting/count/exam course/date/time/room and preview; personal records never uploaded.",
+          "Static scrolled Home sample; continuous scroll/features/exam card interactions unimplemented in this new context.",
+          "One saved black capture preserved, no native black screen inferred; subsequent stable capture/replay inspected.",
+          "Full app/fidelity/human evaluation not_verified."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -101393,7 +101901,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "166 mapped frames /3 internal component states /363 configured controls /16 scroll regions /109 prototype runs. Payment Apply added in two finite samples; native Home reentry retention observed. Main integration/full app/fidelity not_verified.",
+    "verification_summary": "167 mapped frames /3 internal component states /365 configured controls /16 scroll regions /112 prototype runs. Finite Payment/Home caller integrated with saved black-capture failure and recovery; complete app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -101782,7 +102290,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-OCT3-PAYMENT-20261003",
+    "current_revision": "FIGMA-OCT3-PAYMENT-HOME-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -102939,11 +103447,11 @@
       },
       {
         "name": "Reference · Oct2 Calendar filters & Notice — partial",
-        "description": "Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified.",
+        "description": "Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. One saved black capture during repeated reentry retained; stable later capture and a separate recovery roundtrip show Payment.",
         "readback": [
-          "~\t\t\t\t\t403 container Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified.",
-          "~\t\t\t\t\t\t404 text Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified.",
-          "The focused UI element is 403 container Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified."
+          "~\t\t\t\t\t286 container Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. One saved black capture during repeated reentry retained; stable later capture and a separate recovery roundtrip show Payment.",
+          "~\t\t\t\t\t\t287 text Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. One saved black capture during repeated reentry retained; stable later capture and a separate recovery roundtrip show Payment.",
+          "The focused UI element is 286 container Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. One saved black capture during repeated reentry retained; stable later capture and a separate recovery roundtrip show Payment."
         ],
         "start_node_id": "791:177",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
@@ -102955,20 +103463,23 @@
           "PROTO-OCT2-NOTICE-RECOVERY-001",
           "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001",
           "PROTO-OCT3-PAYMENT-APPLY-001",
-          "PROTO-OCT3-PAYMENT-APPLY-002"
+          "PROTO-OCT3-PAYMENT-APPLY-002",
+          "PROTO-OCT3-PAYMENT-HOME-001",
+          "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+          "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
         ],
-        "scope": "19 dated finite frames; Payment Apply sampled, native finite Home reentry retained; main Figma callers/reopen/other dates unverified.",
-        "updated_at": "2026-10-02T18:03:54.650435+00:00"
+        "scope": "20 dated finite frames and one observed Payment/Home context; other callers/reopen/complete application remain unverified.",
+        "updated_at": "2026-10-02T18:10:11.457128+00:00"
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-02T17:57:06.733Z",
+    "latest_prototype_run_cutoff": "2026-10-02T18:09:51.025Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-OCT3-PAYMENT-EDITOR-FLOW"
+      "E-OCT3-PAYMENT-HOME-EDITOR"
     ],
-    "latest_editor_verified_at": "2026-10-02T18:03:54.650435+00:00",
+    "latest_editor_verified_at": "2026-10-02T18:10:11.457128+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
@@ -106231,7 +106742,7 @@
     {
       "id": "Q-EP002",
       "entry_point_id": "EP002",
-      "reason": "Native Home Calendar Week5 entry observed; prototype target corrected and roundtrip reverified. Other weeks, dates, timetable interactions and full coverage remain incomplete. Oct2 resumed Home Calendar opens month rather than prior Week sample; mode/caller retention needs native verification and main-prototype integration. Do not assert a universal fixed Week target. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending.",
+      "reason": "Native Home Calendar Week5 entry observed; prototype target corrected and roundtrip reverified. Other weeks, dates, timetable interactions and full coverage remain incomplete. Oct2 resumed Home Calendar opens month rather than prior Week sample; mode/caller retention needs native verification and main-prototype integration. Do not assert a universal fixed Week target. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; a saved black capture retained, later stable/recovery samples visible. Other callers and full persistence integration remain pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-HOME-ENTRY-RECHECK-TRACE",
@@ -106240,7 +106751,10 @@
         "E-NATIVE-OCT2-03-AX",
         "E-NATIVE-OCT3-PAYMENT-06",
         "E-NATIVE-OCT3-PAYMENT-07",
-        "E-NATIVE-OCT3-PAYMENT-07-AX"
+        "E-NATIVE-OCT3-PAYMENT-07-AX",
+        "E-OCT3-PAYMENT-HOME-02",
+        "E-OCT3-PAYMENT-HOME-04",
+        "E-OCT3-PAYMENT-HOME-07"
       ]
     },
     {
@@ -106459,7 +106973,7 @@
         "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
         "S-NATIVE-OCT3-PAYMENT"
       ],
-      "reason": "Oct2 None/Class/Exam/detail/Notice finite reference is now imported and replayed. Oct3 resumed Payment-only Apply is observed with selected October2 No event; reopening not established. Main callers, other dates/modes/combinations, maps and Notice remaining controls still pending. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending.",
+      "reason": "Oct2 None/Class/Exam/detail/Notice finite reference is now imported and replayed. Oct3 resumed Payment-only Apply is observed with selected October2 No event; reopening not established. Main callers, other dates/modes/combinations, maps and Notice remaining controls still pending. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; a saved black capture retained, later stable/recovery samples visible. Other callers and full persistence integration remain pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-CALENDAR-TRACE",
@@ -106475,7 +106989,10 @@
         "E-NATIVE-OCT3-PAYMENT-01",
         "E-NATIVE-OCT3-PAYMENT-06",
         "E-NATIVE-OCT3-PAYMENT-07",
-        "E-NATIVE-OCT3-PAYMENT-07-AX"
+        "E-NATIVE-OCT3-PAYMENT-07-AX",
+        "E-OCT3-PAYMENT-HOME-02",
+        "E-OCT3-PAYMENT-HOME-04",
+        "E-OCT3-PAYMENT-HOME-07"
       ]
     },
     {
@@ -106582,7 +107099,7 @@
         "S-MORE-SEARCH-EMPTY",
         "S-DRAWER"
       ],
-      "reason": "Four native Home entries/returns observed; Figma Calendar target corrected to Week5 synthetic sample and roundtrip reverified. Full source-state retention and remaining target controls still pending. Oct2 resumed Home Calendar opens month rather than prior Week sample; mode/caller retention needs native verification and main-prototype integration. Do not assert a universal fixed Week target. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending.",
+      "reason": "Four native Home entries/returns observed; Figma Calendar target corrected to Week5 synthetic sample and roundtrip reverified. Full source-state retention and remaining target controls still pending. Oct2 resumed Home Calendar opens month rather than prior Week sample; mode/caller retention needs native verification and main-prototype integration. Do not assert a universal fixed Week target. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; a saved black capture retained, later stable/recovery samples visible. Other callers and full persistence integration remain pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-HOME-ENTRY-RECHECK-TRACE",
@@ -106591,7 +107108,10 @@
         "E-NATIVE-OCT2-03-AX",
         "E-NATIVE-OCT3-PAYMENT-06",
         "E-NATIVE-OCT3-PAYMENT-07",
-        "E-NATIVE-OCT3-PAYMENT-07-AX"
+        "E-NATIVE-OCT3-PAYMENT-07-AX",
+        "E-OCT3-PAYMENT-HOME-02",
+        "E-OCT3-PAYMENT-HOME-04",
+        "E-OCT3-PAYMENT-HOME-07"
       ]
     },
     {
