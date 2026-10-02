@@ -71,7 +71,7 @@ for i,s in enumerate(steps,1):
    safe.append(l.strip())
   elif re.search(r'button.*Description:.*( Home| Calendar| Notification| More), Secondary',l):safe.append(l.strip())
  af=PUB/f'{i:02d}-safe-ax.txt'
- af.write_text('Derived safe AX subset; identity, timetable values and hidden drawer excluded.\n'+ '\n'.join(safe)+'\n')
+ af.write_text(('Derived safe AX subset; identity, timetable values and hidden drawer excluded.\n'+ '\n'.join(safe)).rstrip()+'\n')
  ax_records.append({'index':i,'file':af.name,'sha256':sha(af),'state_id':state_id(s['label']),
   'captured_at':s['timestamp'],'source':'Derived safe subset of recorded native AX; not a complete accessibility tree',
   'raw_sha256':sha(RAW/s['ax_path'])})
