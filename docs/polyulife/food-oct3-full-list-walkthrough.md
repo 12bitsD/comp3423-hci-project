@@ -1,5 +1,7 @@
 # Food 当前28条连续列表复现
 
+后续[底部区域复核](food-oct3-bottom-region-walkthrough.md)修正了本页“73px全部属于滚动内容”的解释：多张中段/顶部原生截图也有底部54px纯白区域。下文几何和结果保留为历史版本，当前视口及限制以复核记录为准。
+
 本批依照[原生反向走查](food-oct3-reverse-walkthrough.md)的28条公开场所目录，在实际 Figma 编辑器中重建并回放连续列表。未新增原生采样。当前正式统计为203映射画板、436控件、18滚动区域、139次运行；原生27会话、212状态、395动作保持，完整应用与视觉保真仍为 `not_verified`。
 
 [设计画板954:3580](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=954-3580)位于 `01 · Observed UI`，576×1024，画布位置0/94000。实际 Present 从首条 Block Y 连续滚至末条 Closed Gourmet Shop；五条 VA210 和两条 Block R 按公共品牌图标、标签及研究行号分别保留，不推断后台业务身份。

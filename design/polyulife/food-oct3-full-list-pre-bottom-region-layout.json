@@ -1,8 +1,8 @@
 {
-  "file": "food-oct3-full-list-local.svg",
-  "sha256": "f08e33ce5c9202b5ac777f9b8b1cd0e9ced66f455db297794567d29ab4726a2b",
+  "file": "food-oct3-full-list-pre-bottom-region.svg",
+  "sha256": "5ee6dc923fc18d8039e8c8f04a636e02a6beb68a0b6d298bf2ddbeff3170dca4",
   "clip_coordinate_mode": "row-local-no-outer-mask",
-  "status": "actual_fixed_bottom_region_scroll_replayed_navigation_unconfigured",
+  "status": "historical_before_fixed_bottom_white_reinspection",
   "dimensions": [
     576,
     1024
@@ -13,22 +13,26 @@
   ],
   "viewport_dimensions": [
     576,
-    823
+    877
   ],
-  "content_height": 5581,
-  "fixed_bottom_white_height": 54,
+  "content_height": 5635,
   "observed_footer": {
-    "height": 19,
+    "height": 73,
     "source_evidence_ids": [
       "E-FOOD-REV-17",
       "E-FOOD-REV-18"
     ],
-    "source_pixel_rows": [
-      951,
-      970
+    "source_file": "../2026-10-03-food-reverse-controls/17-food-list-last.png",
+    "source_sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+    "last_separator_rows": [
+      949,
+      950
     ],
-    "scope": "19px tail retained in prototype content;54px confirmed-white area outside viewport. Exact native boundary/total geometry unknown",
-    "interpretation": "Reconstructed split; not proven native fullcontent extent"
+    "tail_pixel_rows_half_open": [
+      951,
+      1024
+    ],
+    "scope": "73px tail includes1px separator antialias fringe at951; rows952..1023 pure white. Reconstructed full row geometry remains approximate."
   },
   "inferred_scroll_range": [
     0,
@@ -1238,20 +1242,19 @@
     ],
     "viewport_dimensions": [
       576,
-      823
+      877
     ],
     "content_position": [
       0,
       0
     ],
-    "content_height": 5581,
+    "content_height": 5635,
     "constraints": {
       "horizontal": "Left",
       "vertical": "Top"
     },
     "clip_content": true,
-    "overflow": "Vertical",
-    "fixed_bottom_white_height": 54
+    "overflow": "Vertical"
   },
   "editor_evidence_ids": [
     "E-FOOD-FULL-LIST-05",
@@ -1263,26 +1266,12 @@
     "E-FOOD-FULL-LIST-27",
     "E-FOOD-FULL-LIST-28",
     "E-FOOD-FULL-LIST-FOOTER-29",
-    "E-FOOD-FULL-LIST-FOOTER-30",
-    "E-FOOD-BOTTOM-REGION-00",
-    "E-FOOD-BOTTOM-REGION-01",
-    "E-FOOD-BOTTOM-REGION-02",
-    "E-FOOD-BOTTOM-REGION-03",
-    "E-FOOD-BOTTOM-REGION-04",
-    "E-FOOD-BOTTOM-REGION-05",
-    "E-FOOD-BOTTOM-REGION-15"
+    "E-FOOD-FULL-LIST-FOOTER-30"
   ],
   "prototype_run_ids": [
     "PROTO-FOOD-OCT3-FULL-LIST-001",
-    "PROTO-FOOD-OCT3-FULL-LIST-FOOTER-001",
-    "PROTO-FOOD-OCT3-BOTTOM-REGION-001"
+    "PROTO-FOOD-OCT3-FULL-LIST-FOOTER-001"
   ],
-  "flow": {
-    "name": "Reference · Food 28 venues — continuous list",
-    "start_node_id": "954:3580",
-    "description": "Independent reference of28 archived October3 public Food venues. Continuous finite list scrolling with fixed header, map strip and handle. Bottom54px is left white from eight archived samples; exact native viewport boundary and row geometry remain unknown. Prior73px content-tail interpretation corrected to19px contenttail plus54px outsideviewport. Public logos/map strip raster; other text/vector layers independent. Caller, Back, hours, row details, tags and Online Order unconfigured. Full application/visual fidelity not verified; replay is not native execution or human evaluation.",
-    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-3580&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A3580&show-proto-sidebar=1"
-  },
   "retired_source_snapshots": [
     {
       "file": "food-oct3-full-list.svg",
@@ -1313,8 +1302,5 @@
       "PROTO-FOOD-OCT3-FULL-LIST-001"
     ]
   },
-  "historical_pre_bottom_region_source": {
-    "file": "food-oct3-full-list-pre-bottom-region.svg",
-    "sha256": "5ee6dc923fc18d8039e8c8f04a636e02a6beb68a0b6d298bf2ddbeff3170dca4"
-  }
+  "subsequent_correction": "All73px tail incontent interpretation superseded; actual native viewport bound stillunknown."
 }
