@@ -1,0 +1,193 @@
+{
+  "log": [
+    {
+      "file": "29-footer-background-height.png.png",
+      "kind": "editor",
+      "note": "Only ListContentBackground resized5562→5635; observed native footer73px added, rows not scaled.",
+      "captured_at": "2026-10-03T07:42:52.619Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5635\""
+      ]
+    },
+    {
+      "file": "30-footer-content-dimensions.png",
+      "kind": "editor",
+      "note": "Content group remains0,0 width576; height5635 after background-only repair.",
+      "captured_at": "2026-10-03T07:43:11.232Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5635\""
+      ]
+    },
+    {
+      "file": "31-footer-present-top.png",
+      "kind": "present",
+      "note": "Actual Present top after footer-only repair.",
+      "input": null,
+      "captured_at": "2026-10-03T07:43:15.500Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "32-footer-present-bottom.png",
+      "kind": "present",
+      "note": "Actual bottom includes observed73px blank footer after Gourmet row.",
+      "input": {
+        "direction": "down",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T07:43:16.009Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "33-footer-extra-down.png",
+      "kind": "present",
+      "note": "Additional bottom scroll sample.",
+      "input": {
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T07:43:22.423Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "34-footer-reverse-top.png",
+      "kind": "present",
+      "note": "Reverse top sample.",
+      "input": {
+        "direction": "up",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T07:43:22.830Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "35-footer-repeat-bottom.png",
+      "kind": "present",
+      "note": "Repeat bottom sample.",
+      "input": {
+        "direction": "down",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T07:43:23.341Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "36-footer-repeat-top.png",
+      "kind": "present",
+      "note": "Repeat top sample.",
+      "input": {
+        "direction": "up",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T07:43:23.868Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    }
+  ],
+  "root_node_id": "954:3580",
+  "background_node_id": "954:3590",
+  "content_node_id": "954:3589",
+  "viewport_node_id": "954:3588",
+  "observed_footer": {
+    "height": 73,
+    "source_evidence_ids": [
+      "E-FOOD-REV-17",
+      "E-FOOD-REV-18"
+    ],
+    "source_file": "../2026-10-03-food-reverse-controls/17-food-list-last.png",
+    "source_sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+    "last_separator_rows": [
+      949,
+      950
+    ],
+    "tail_pixel_rows_half_open": [
+      951,
+      1024
+    ],
+    "scope": "73px tail includes1px separator antialias fringe at951; rows952..1023 pure white. Reconstructed full row geometry remains approximate."
+  },
+  "pixel_comparisons": [
+    {
+      "left": "31-footer-present-top.png",
+      "right": "34-footer-reverse-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw prototype app crop; not native visual fidelity."
+    },
+    {
+      "left": "31-footer-present-top.png",
+      "right": "36-footer-repeat-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw prototype app crop; not native visual fidelity."
+    },
+    {
+      "left": "32-footer-present-bottom.png",
+      "right": "33-footer-extra-down.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw prototype app crop; not native visual fidelity."
+    },
+    {
+      "left": "32-footer-present-bottom.png",
+      "right": "35-footer-repeat-bottom.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw prototype app crop; not native visual fidelity."
+    }
+  ],
+  "prior_readback": "readback.json",
+  "prior_readback_sha256": "ee806d76bd00304f8b6a0ff6b18492d4129fcac294793785df43e001219d56b5",
+  "limits": [
+    "Background-only height5562→5635 adds source-backed73px tail without scaling any row. Group0,0 size576x5635 Left/Top directly read back. Viewport576x877 remains unchanged.",
+    "Four raw full app-crop repeat/reverse/bound comparisons equal. This finite prototype scroll check does not prove native visual fidelity.",
+    "Prior no-footer run and six equal app-crop comparisons retained. Four of14 prior fixed-area comparisons unequal within bottom8px; cause not isolated, no claim of complete fixed-pixel consistency.",
+    "No Home caller/Back/detail/hours/menu/tag/order navigation added;16 old drafts remain unconfigured. Existing safety refusal not retried or circumvented.",
+    "No native execution this batch; current data historical, not live; complete app/fidelity not_verified."
+  ]
+}
