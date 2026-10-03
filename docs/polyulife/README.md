@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Notification 记录原生走查与来源准备](notification-record-walkthrough.md)已恢复真实窗口观察，确认一条通知的未读→已读、详情/图片/网页及 Calendar 往返。新增8状态、13动作与26张实际截图；当前原生178状态/340动作（254 observed、81 not_attempted、5 attempted_unverified）。9份SVG仍待Figma导入、连线与回放，正式Figma仍187画板/402控件/129次运行，完整应用 `not_verified`。下方数字与连接状态为各批历史快照。
+
 最新[Room PQ604/PQ604B历史查询链](room-pq-query-walkthrough.md)补7个可编辑状态、14条连接，并修正两个September28 Home初始入口。3组实际回放保存23张Present、3张编辑器截图和联系表；11项重复裁片比较4等、7不等，跨Home来源的渲染差异原因未隔离。当前Figma187画板/402控件/129次运行，原生仍170状态/327动作。固定键盘输入、未回放出口与原生重连超时均单独记录；完整应用仍 `not_verified`。
 
 最新[Payment October3→October2返回补齐](calendar-payment-date-restore-walkthrough.md)将已实测的Day2返回接入现有日期/Home路径；新增1条连接、2组Present回放，9张实际截图和5项重复日期比较全部相等。当前Figma180画板/388控件/126次运行，原生仍170状态/327动作。原生截图复查返回应用通信超时；其它日期、分支整合和完整应用仍 `not_verified`。

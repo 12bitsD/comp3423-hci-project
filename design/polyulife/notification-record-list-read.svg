@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="1024" viewBox="0 0 576 1024"><title>Notification first institutional notice — LIST-READ</title><desc>Finite native notification record reconstruction from2026-10-03 Computer Use. Public institutional text retained; no identity or complete tracking URL. Fonts/icons/geometry approximate; banner and static loading mark raster. Loading and banner transition timing are demo proxies, not measured latency. Blank browser body capture is not service failure proof; AX content differs. Other notices, search/menu/device behavior and complete app not_verified.</desc><rect x="0" y="0" width="576" height="1024" fill="#F2F2F2" /><g id="NotificationHeader"><rect x="0" y="0" width="576" height="100" fill="#FFFFFF" stroke="#DDDDDD" /><text x="288" y="73" font-family="sans-serif" font-size="26" fill="#080808" font-weight="700" text-anchor="middle">My Notification</text><g id="MenuUnverified"><rect x="12" y="25" width="62" height="65" fill="#FFFFFF" fill-opacity="0.001" /><path d="M25 51H58M25 64H58M25 77H58" fill="none" stroke="#080808" stroke-width="3.5" /></g><g id="SearchUnverified"><rect x="491" y="25" width="67" height="65" fill="#FFFFFF" fill-opacity="0.001" /><circle cx="526" cy="62" r="13" fill="none" stroke="#080808" stroke-width="3.5" /><path d="M536 72L543 80" fill="none" stroke="#080808" stroke-width="3.5" /></g></g><rect x="0" y="100" width="576" height="40" fill="#F6F6F6" /><text x="16" y="128" font-family="sans-serif" font-size="19" fill="#555555">Yesterday</text><g id="FirstNoticeCard"><rect x="0" y="140" width="576" height="123" fill="#FFFFFF" /><rect x="14" y="144" width="545" height="117" fill="#FFFFFF" fill-opacity="0.001" /><text x="61" y="181" font-family="sans-serif" font-size="23" fill="#000000" font-weight="700">Upcoming IT Workshops - October</text><text x="61" y="209" font-family="sans-serif" font-size="20" fill="#444444">16 hours ago</text><path d="M542 165L548 172L542 179" fill="none" stroke="#DDDDDD" stroke-width="4.5" stroke-linecap="round" /></g><g id="BottomNavigation">
+    <rect x="0" y="920" width="576" height="104" fill="#FFFFFF" />
+    <g id="NavHome">
+      <path d="M44.5 944L57.5 934L70.5 944V962H61.5V950H53.5V962H44.5Z" stroke="#9FB0BA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="58" y="989" fill="#9FAFB9" font-family="sans-serif" font-size="14" text-anchor="middle">Home</text></g>
+    <g id="NavCalendar">
+      <rect x="161" y="937" width="24" height="25" stroke="#9FB0BA" stroke-width="3.5" />
+      <path d="M166 933V940M181 933V940M161 945H185M167 950H178M167 956H178" stroke="#9FB0BA" stroke-width="3.5" stroke-linecap="square" />
+    <text x="173" y="989" fill="#9FAFB9" font-family="sans-serif" font-size="14" text-anchor="middle">Calendar</text><rect x="145" y="922" width="59" height="74" fill="#FFFFFF" fill-opacity="0.001" /></g>
+    <g id="NavQR">
+      <circle cx="288.5" cy="949.5" r="49.5" fill="#54B39F" />
+      <path d="M271 932H281V942H271ZM296 932H306V942H296ZM271 956H281V966H271Z" fill="#FFFFFF" />
+      <path d="M274.5 935.5H277.5V938.5H274.5ZM299.5 935.5H302.5V938.5H299.5ZM274.5 959.5H277.5V962.5H274.5Z" fill="#54B39F" />
+      <path d="M285 932H289V938H285ZM286 943H290V947H286ZM273 946H279V951H273ZM282 949H289V954H282ZM290 951H295V957H290ZM300 946H306V950H300ZM297 953H302V957H297ZM304 953H307V963H304ZM286 960H290V966H286ZM295 961H300V966H295Z" fill="#FFFFFF" />
+    </g>
+    <g id="NavNotification">
+      <circle cx="395" cy="942" r="18" fill="#F2F9B4" /><path d="M390 935.5H417.5V956.5H407L399.5 963V956.5H390Z" stroke="#414141" stroke-width="3.5" stroke-linejoin="round" />
+    <text x="403" y="989" fill="#9FAFB9" font-family="sans-serif" font-size="14" text-anchor="middle">Notification</text></g>
+    <g id="NavMore">
+      <rect x="500" y="934" width="35" height="30" rx="2" stroke="#929D96" stroke-width="3.5" />
+      <path d="M507 967H528" stroke="#929D96" stroke-width="3.5" stroke-linecap="round" />
+    <text x="518" y="989" fill="#9FAFB9" font-family="sans-serif" font-size="14" text-anchor="middle">More</text></g>
+  </g>
+</svg>

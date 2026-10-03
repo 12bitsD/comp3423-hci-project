@@ -833,6 +833,83 @@
         "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
         "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified."
       ]
+    },
+    {
+      "id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "started_at": "2026-10-03T02:14:26.122Z",
+      "documented_through": "2026-10-03T02:20:33.409Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac; Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": true,
+        "login_state": "Existing login retained; no credentials entered"
+      },
+      "starting_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-00",
+        "E-NATIVE-NOTICE-00-AX",
+        "E-NATIVE-NOTICE-01",
+        "E-NATIVE-NOTICE-01-AX",
+        "E-NATIVE-NOTICE-02",
+        "E-NATIVE-NOTICE-02-AX",
+        "E-NATIVE-NOTICE-03",
+        "E-NATIVE-NOTICE-03-AX",
+        "E-NATIVE-NOTICE-04",
+        "E-NATIVE-NOTICE-04-AX",
+        "E-NATIVE-NOTICE-05",
+        "E-NATIVE-NOTICE-05-AX",
+        "E-NATIVE-NOTICE-06",
+        "E-NATIVE-NOTICE-06-AX",
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-07-AX",
+        "E-NATIVE-NOTICE-08",
+        "E-NATIVE-NOTICE-08-AX",
+        "E-NATIVE-NOTICE-09",
+        "E-NATIVE-NOTICE-09-AX",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-10-AX",
+        "E-NATIVE-NOTICE-11",
+        "E-NATIVE-NOTICE-11-AX",
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-12-AX",
+        "E-NATIVE-NOTICE-13",
+        "E-NATIVE-NOTICE-13-AX",
+        "E-NATIVE-NOTICE-14",
+        "E-NATIVE-NOTICE-14-AX",
+        "E-NATIVE-NOTICE-15",
+        "E-NATIVE-NOTICE-15-AX",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-16-AX",
+        "E-NATIVE-NOTICE-17",
+        "E-NATIVE-NOTICE-17-AX",
+        "E-NATIVE-NOTICE-18",
+        "E-NATIVE-NOTICE-18-AX",
+        "E-NATIVE-NOTICE-19",
+        "E-NATIVE-NOTICE-19-AX",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-20-AX",
+        "E-NATIVE-NOTICE-21",
+        "E-NATIVE-NOTICE-21-AX",
+        "E-NATIVE-NOTICE-22",
+        "E-NATIVE-NOTICE-22-AX",
+        "E-NATIVE-NOTICE-23",
+        "E-NATIVE-NOTICE-23-AX",
+        "E-NATIVE-NOTICE-24",
+        "E-NATIVE-NOTICE-24-AX",
+        "E-NATIVE-NOTICE-25",
+        "E-NATIVE-NOTICE-25-AX",
+        "E-NATIVE-NOTICE-CONTACT"
+      ],
+      "limitations": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
     }
   ],
   "entry_points": [
@@ -4603,7 +4680,10 @@
         "A-NATIVE-OCT3-PAYMENT-REOPEN",
         "A-NATIVE-OCT3-PAYMENT-HOME",
         "A-NATIVE-OCT3-PAYMENT-DAY3",
-        "A-NATIVE-PAYMENT-EVENTS"
+        "A-NATIVE-PAYMENT-EVENTS",
+        "A-NATIVE-NOTICE-ENTRY",
+        "A-NATIVE-NOTICE-CALENDAR-REENTER",
+        "A-NATIVE-PAYMENT-FILTER-REOPEN"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -4993,6 +5073,243 @@
         "More menu observed, only Cancel and Close executed; system browser/share/copy/toolbar actions not executed.",
         "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
         "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "title": "Notification LIST-UNREAD",
+      "description": "Observed first institutional notice state; readable public notice and editable app controls; web body capture blank distinct from AX.",
+      "visible_scope": "Normalized576×1024 app viewport",
+      "preconditions": "Entered Notification from October2 Payment, existing login retained",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-NOTICE-03",
+        "E-NATIVE-NOTICE-04"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-NOTICE-03-AX",
+        "E-NATIVE-NOTICE-04-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-OPEN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
+    },
+    {
+      "id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "title": "Notification DETAIL-NOIMAGE",
+      "description": "Observed first institutional notice state; readable public notice and editable app controls; web body capture blank distinct from AX.",
+      "visible_scope": "Normalized576×1024 app viewport",
+      "preconditions": "Entered Notification from October2 Payment, existing login retained",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-NOTICE-05"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-NOTICE-05-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
+    },
+    {
+      "id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "title": "Notification WEB-LOADING",
+      "description": "Observed first institutional notice state; readable public notice and editable app controls; web body capture blank distinct from AX.",
+      "visible_scope": "Normalized576×1024 app viewport",
+      "preconditions": "Entered Notification from October2 Payment, existing login retained",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-NOTICE-06",
+        "E-NATIVE-NOTICE-21"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-NOTICE-06-AX",
+        "E-NATIVE-NOTICE-21-AX"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
+    },
+    {
+      "id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "title": "Notification WEB-BLANK",
+      "description": "Observed first institutional notice state; readable public notice and editable app controls; web body capture blank distinct from AX.",
+      "visible_scope": "Normalized576×1024 app viewport",
+      "preconditions": "Entered Notification from October2 Payment, existing login retained",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-09",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-22"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-NOTICE-07-AX",
+        "E-NATIVE-NOTICE-09-AX",
+        "E-NATIVE-NOTICE-10-AX",
+        "E-NATIVE-NOTICE-22-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-MORE",
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
+    },
+    {
+      "id": "S-NATIVE-NOTICE-WEB-MENU",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "title": "Notification WEB-MENU",
+      "description": "Observed first institutional notice state; readable public notice and editable app controls; web body capture blank distinct from AX.",
+      "visible_scope": "Normalized576×1024 app viewport",
+      "preconditions": "Entered Notification from October2 Payment, existing login retained",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-NOTICE-08"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-NOTICE-08-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CANCEL"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
+    },
+    {
+      "id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "title": "Notification DETAIL-LOADED",
+      "description": "Observed first institutional notice state; readable public notice and editable app controls; web body capture blank distinct from AX.",
+      "visible_scope": "Normalized576×1024 app viewport",
+      "preconditions": "Entered Notification from October2 Payment, existing login retained",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-NOTICE-11",
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-14",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-23",
+        "E-NATIVE-NOTICE-24"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-NOTICE-11-AX",
+        "E-NATIVE-NOTICE-12-AX",
+        "E-NATIVE-NOTICE-14-AX",
+        "E-NATIVE-NOTICE-16-AX",
+        "E-NATIVE-NOTICE-20-AX",
+        "E-NATIVE-NOTICE-23-AX",
+        "E-NATIVE-NOTICE-24-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-EXPAND",
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
+    },
+    {
+      "id": "S-NATIVE-NOTICE-IMAGE",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "title": "Notification IMAGE",
+      "description": "Observed first institutional notice state; readable public notice and editable app controls; web body capture blank distinct from AX.",
+      "visible_scope": "Normalized576×1024 app viewport",
+      "preconditions": "Entered Notification from October2 Payment, existing login retained",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-NOTICE-13"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-NOTICE-13-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-CLOSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
+    },
+    {
+      "id": "S-NATIVE-NOTICE-LIST-READ",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "title": "Notification LIST-READ",
+      "description": "Observed first institutional notice state; readable public notice and editable app controls; web body capture blank distinct from AX.",
+      "visible_scope": "Normalized576×1024 app viewport",
+      "preconditions": "Entered Notification from October2 Payment, existing login retained",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-NOTICE-15",
+        "E-NATIVE-NOTICE-17",
+        "E-NATIVE-NOTICE-19",
+        "E-NATIVE-NOTICE-25"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-NOTICE-15-AX",
+        "E-NATIVE-NOTICE-17-AX",
+        "E-NATIVE-NOTICE-19-AX",
+        "E-NATIVE-NOTICE-25-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-REOPEN",
+        "A-NATIVE-NOTICE-CALENDAR-RETURN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One institutional notice only; no account/personal fields or complete tracking URL public.",
+        "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+        "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+        "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+        "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+        "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
       ]
     }
   ],
@@ -13666,6 +13983,512 @@
       "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
       "blockers": [],
       "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-ENTRY",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "control": "NOTICE-ENTRY",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:15:22.808549+00:00",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "target_state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-03",
+            "E-NATIVE-NOTICE-03-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-03",
+        "E-NATIVE-NOTICE-03-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-RECORD-OPEN",
+      "from_state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "control": "NOTICE-RECORD-OPEN",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:15:54.855Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+          "target_state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-05",
+            "E-NATIVE-NOTICE-05-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-05",
+        "E-NATIVE-NOTICE-05-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-READ-MORE",
+      "from_state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "control": "NOTICE-READ-MORE",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:16:11.984Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+          "target_state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-06",
+            "E-NATIVE-NOTICE-06-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:20:20.622Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "target_state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-21",
+            "E-NATIVE-NOTICE-21-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-06",
+        "E-NATIVE-NOTICE-06-AX",
+        "E-NATIVE-NOTICE-21",
+        "E-NATIVE-NOTICE-21-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-WEB-MORE",
+      "from_state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "control": "NOTICE-WEB-MORE",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:16:53.296Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+          "target_state_id": "S-NATIVE-NOTICE-WEB-MENU",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-08",
+            "E-NATIVE-NOTICE-08-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-WEB-MENU",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-08",
+        "E-NATIVE-NOTICE-08-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-WEB-CANCEL",
+      "from_state_id": "S-NATIVE-NOTICE-WEB-MENU",
+      "control": "NOTICE-WEB-CANCEL",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:17:02.319Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-WEB-MENU",
+          "target_state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-09",
+            "E-NATIVE-NOTICE-09-AX",
+            "E-NATIVE-NOTICE-10",
+            "E-NATIVE-NOTICE-10-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-09",
+        "E-NATIVE-NOTICE-09-AX",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-10-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-WEB-CLOSE",
+      "from_state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "control": "NOTICE-WEB-CLOSE",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:17:22.228Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+          "target_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-11",
+            "E-NATIVE-NOTICE-11-AX",
+            "E-NATIVE-NOTICE-12",
+            "E-NATIVE-NOTICE-12-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:20:26.974Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+          "target_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-23",
+            "E-NATIVE-NOTICE-23-AX",
+            "E-NATIVE-NOTICE-24",
+            "E-NATIVE-NOTICE-24-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-11",
+        "E-NATIVE-NOTICE-11-AX",
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-12-AX",
+        "E-NATIVE-NOTICE-23",
+        "E-NATIVE-NOTICE-23-AX",
+        "E-NATIVE-NOTICE-24",
+        "E-NATIVE-NOTICE-24-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-IMAGE-EXPAND",
+      "from_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "control": "NOTICE-IMAGE-EXPAND",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:17:43.276Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "target_state_id": "S-NATIVE-NOTICE-IMAGE",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-13",
+            "E-NATIVE-NOTICE-13-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-IMAGE",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-13",
+        "E-NATIVE-NOTICE-13-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-IMAGE-CLOSE",
+      "from_state_id": "S-NATIVE-NOTICE-IMAGE",
+      "control": "NOTICE-IMAGE-CLOSE",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:18:09.800Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-IMAGE",
+          "target_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-14",
+            "E-NATIVE-NOTICE-14-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-14",
+        "E-NATIVE-NOTICE-14-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "from_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "control": "NOTICE-RECORD-BACK",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:18:15.528Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-15",
+            "E-NATIVE-NOTICE-15-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:19:09.829Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-17",
+            "E-NATIVE-NOTICE-17-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:20:33.409Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-25",
+            "E-NATIVE-NOTICE-25-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-15",
+        "E-NATIVE-NOTICE-15-AX",
+        "E-NATIVE-NOTICE-17",
+        "E-NATIVE-NOTICE-17-AX",
+        "E-NATIVE-NOTICE-25",
+        "E-NATIVE-NOTICE-25-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-READ-REOPEN",
+      "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "control": "NOTICE-READ-REOPEN",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:19:03.089Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "target_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-16",
+            "E-NATIVE-NOTICE-16-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:20:15.678Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "target_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-20",
+            "E-NATIVE-NOTICE-20-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-16-AX",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-20-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-CALENDAR-RETURN",
+      "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "control": "NOTICE-CALENDAR-RETURN",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:19:12.524Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-18",
+            "E-NATIVE-NOTICE-18-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-18",
+        "E-NATIVE-NOTICE-18-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-NOTICE-CALENDAR-REENTER",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "control": "NOTICE-CALENDAR-REENTER",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:19:18.905Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Target state visually/AX sampled; transient dismissal snapshots followed by stable control readback",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-19",
+            "E-NATIVE-NOTICE-19-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-19",
+        "E-NATIVE-NOTICE-19-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-FILTER-REOPEN",
+      "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "control": "PAYMENT-FILTER-REOPEN",
+      "input_summary": "Computer Use AX click; current control indices from live state",
+      "status": "attempted_unverified",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:14:28.791Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Filter remains unchanged; coordinate correction rejected noWindowsAvailable",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-01",
+            "E-NATIVE-NOTICE-01-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+          "at": "2026-10-03T02:15:02.184Z",
+          "timestamp_semantics": "Capture time after actual AX action, not exact input timestamp",
+          "from_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "input": "AX click of current observed control; see native trace",
+          "observed_feedback": "Filter remains unchanged; coordinate correction rejected noWindowsAvailable",
+          "evidence_ids": [
+            "E-NATIVE-NOTICE-02",
+            "E-NATIVE-NOTICE-02-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "evidence_ids": [
+        "E-NATIVE-NOTICE-01",
+        "E-NATIVE-NOTICE-01-AX",
+        "E-NATIVE-NOTICE-02",
+        "E-NATIVE-NOTICE-02-AX"
+      ],
+      "return_path": "Detail→read Notification; Notification↔Calendar Payment retained in one observed roundtrip",
+      "authorization": "Ordinary notification read/navigation/image expand/browser menu cancel/close; no messages, form, sharing or business submission",
+      "blockers": [],
+      "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified",
+      "pending_reason": "AX button/container unchanged; coordinate input noWindowsAvailable, not app-defect proof."
     }
   ],
   "evidence": [
@@ -61854,6 +62677,912 @@
       ],
       "action_ids": [],
       "redaction": "Derived masked samples; Home personal content synthetic"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/00-oct2-payment-start.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:14:26.122Z",
+      "sha256": "31773fc47c4c795db6c19979c34501d7bce74c3bea0b6565df5b8096851cda3c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-00-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/00-oct2-payment-start.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:14:26.122Z",
+      "sha256": "98e7c89ac03e87d2da5757b12d438f62c42328b915c3092d5b4ecc2361d146c8",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/01-filter-ax-button-attempt.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:14:28.791Z",
+      "sha256": "31773fc47c4c795db6c19979c34501d7bce74c3bea0b6565df5b8096851cda3c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-FILTER-REOPEN"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-01-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/01-filter-ax-button-attempt.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:14:28.791Z",
+      "sha256": "98e7c89ac03e87d2da5757b12d438f62c42328b915c3092d5b4ecc2361d146c8",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-FILTER-REOPEN"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/02-filter-ax-container-attempt.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:15:02.184Z",
+      "sha256": "31773fc47c4c795db6c19979c34501d7bce74c3bea0b6565df5b8096851cda3c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-FILTER-REOPEN"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-02-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/02-filter-ax-container-attempt.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:15:02.184Z",
+      "sha256": "98e7c89ac03e87d2da5757b12d438f62c42328b915c3092d5b4ecc2361d146c8",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-FILTER-REOPEN"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/03-notification-entry.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:15:22.808549+00:00",
+      "sha256": "964b7b2aa7b4ea9f576fcb73ce37079543c6868448dd7add290f1cfadef6fdbb",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-UNREAD"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-ENTRY"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-03-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/03-notification-entry.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:15:22.808549+00:00",
+      "sha256": "51a50a0622eab7836000ed155217a3352ef3f6cc1ae6f346265907a859d1b821",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-UNREAD"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-ENTRY"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/04-notification-nonempty.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:15:53.823Z",
+      "sha256": "964b7b2aa7b4ea9f576fcb73ce37079543c6868448dd7add290f1cfadef6fdbb",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-UNREAD"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-04-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/04-notification-nonempty.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:15:53.823Z",
+      "sha256": "51a50a0622eab7836000ed155217a3352ef3f6cc1ae6f346265907a859d1b821",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-UNREAD"
+      ],
+      "action_ids": [],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/05-notification-first-record.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:15:54.855Z",
+      "sha256": "6ce8f36298f73f0f465d22769c3de3a5f446299f73a85e9e6fff725c7832227f",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-NOIMAGE"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-OPEN"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-05-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/05-notification-first-record.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:15:54.855Z",
+      "sha256": "0e6939447522087fc61a93c42f32beb5e37a98138ba686b459dacd5444e19455",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-NOIMAGE"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-OPEN"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/06-read-more-entry.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:16:11.984Z",
+      "sha256": "578991ca839d95d29a1dd9c3675ae14067b938c4271be0a8e7e97d6e722d60e5",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-06-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/06-read-more-entry.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:16:11.984Z",
+      "sha256": "a0532dde041cb4a5227bbf1bee7d078f8a71dc0ce48497eee5e5db7b47d67158",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/07-read-more-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:16:25.296Z",
+      "sha256": "b5a5387706425376e8e9ff69a63d21aead9b7bcbbebd5ccd29a9f0e9ad70e808",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-07-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/07-read-more-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:16:25.296Z",
+      "sha256": "aad26e7ae2c3b5ab742427db65f18633ff45d9d229ddfe81e83b4433c23f63f5",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/08-read-more-menu.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:16:53.296Z",
+      "sha256": "a99f4e5d7fe499111002e9b6a05bb2e63e9ac3b3f30553b5a990365d43bc4f97",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-MORE"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-08-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/08-read-more-menu.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:16:53.296Z",
+      "sha256": "102221039ee3fab836781671bdc00d34784d9e3e7052f9e8839f339342ed6403",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-MORE"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/09-web-menu-cancelled.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:02.319Z",
+      "sha256": "b5a5387706425376e8e9ff69a63d21aead9b7bcbbebd5ccd29a9f0e9ad70e808",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CANCEL"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-09-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/09-web-menu-cancelled.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:02.319Z",
+      "sha256": "a8dea9aee5eb7c100e6fec982796326d4700162342fa7343c5bd87726ba201f5",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CANCEL"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/10-web-after-cancel-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:16.467Z",
+      "sha256": "b5a5387706425376e8e9ff69a63d21aead9b7bcbbebd5ccd29a9f0e9ad70e808",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-10-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/10-web-after-cancel-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:16.467Z",
+      "sha256": "aad26e7ae2c3b5ab742427db65f18633ff45d9d229ddfe81e83b4433c23f63f5",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/11-web-closed-detail.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:22.228Z",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-11-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/11-web-closed-detail.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:22.228Z",
+      "sha256": "a8dea9aee5eb7c100e6fec982796326d4700162342fa7343c5bd87726ba201f5",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/12-detail-after-close-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:27.102Z",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-12-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/12-detail-after-close-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:27.102Z",
+      "sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/13-notification-image-expanded.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:43.276Z",
+      "sha256": "9ce808dfd3c2c9a928a06d121e770e8b9905fb2a7b35842f2bc95475190b87b2",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-IMAGE"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-EXPAND"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-13-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/13-notification-image-expanded.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:17:43.276Z",
+      "sha256": "6a5ca73bc3bb4384012c1555f8c7387ecad55691a26e819da91cc61af6c83efb",
+      "state_ids": [
+        "S-NATIVE-NOTICE-IMAGE"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-EXPAND"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/14-image-closed-detail.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:18:09.800Z",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-CLOSE"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-14-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/14-image-closed-detail.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:18:09.800Z",
+      "sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-CLOSE"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/15-notification-return-list.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:18:15.528Z",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-15-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/15-notification-return-list.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:18:15.528Z",
+      "sha256": "e8ae1a23521568e9afb160f092480e5a6624233ca651e5cb50155839c5c23405",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/16-read-record-reopened.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:19:03.089Z",
+      "sha256": "79397e4d5f6d4c313d8ca82b8e1a73a6e66c32733c99ae594ea4d5c235ca67a8",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-REOPEN"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-16-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/16-read-record-reopened.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:19:03.089Z",
+      "sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-REOPEN"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/17-read-list-after-reopen.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:19:09.829Z",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-17-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/17-read-list-after-reopen.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:19:09.829Z",
+      "sha256": "e8ae1a23521568e9afb160f092480e5a6624233ca651e5cb50155839c5c23405",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/18-calendar-payment-return.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:19:12.524Z",
+      "sha256": "b81c24d1fae97bca16dae99514bc10819f4065d4c37d9a72bb70e223c830efab",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-CALENDAR-RETURN"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-18-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/18-calendar-payment-return.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:19:12.524Z",
+      "sha256": "98e7c89ac03e87d2da5757b12d438f62c42328b915c3092d5b4ecc2361d146c8",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-CALENDAR-RETURN"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/19-notification-read-retained.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:19:18.905Z",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-CALENDAR-REENTER"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-19-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/19-notification-read-retained.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:19:18.905Z",
+      "sha256": "e8ae1a23521568e9afb160f092480e5a6624233ca651e5cb50155839c5c23405",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-CALENDAR-REENTER"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/20-loaded-record-second-entry.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:15.678Z",
+      "sha256": "c012e87f1d98af74be728481e76ff50188dd1a339c50289001bca65a42acecea",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-REOPEN"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-20-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/20-loaded-record-second-entry.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:15.678Z",
+      "sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-REOPEN"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/21-loaded-record-read-more.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:20.622Z",
+      "sha256": "86192841919b50a0f2df270c21af59b3d80591119201f353dc027cde95f5f16b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-21-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/21-loaded-record-read-more.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:20.622Z",
+      "sha256": "fc7d833f1036d4bb7e34bec7922218f75b56f4c43091b604e5e7b11b7d9587ea",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/22-web-second-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:26.253Z",
+      "sha256": "b5a5387706425376e8e9ff69a63d21aead9b7bcbbebd5ccd29a9f0e9ad70e808",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-22-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/22-web-second-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:26.253Z",
+      "sha256": "aad26e7ae2c3b5ab742427db65f18633ff45d9d229ddfe81e83b4433c23f63f5",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/23-web-second-closed.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:26.974Z",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-23-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/23-web-second-closed.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:26.974Z",
+      "sha256": "a8dea9aee5eb7c100e6fec982796326d4700162342fa7343c5bd87726ba201f5",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/24-loaded-detail-final-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:31.946Z",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-24-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/24-loaded-detail-final-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:31.946Z",
+      "sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/25-notification-read-final.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:33.409Z",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use native window screenshot bytes",
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content."
+    },
+    {
+      "id": "E-NATIVE-NOTICE-25-AX",
+      "type": "accessibility_tree",
+      "path": "../../evidence/2026-10-03-notification-record-native/25-notification-read-final.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "captured_at": "2026-10-03T02:20:33.409Z",
+      "sha256": "e8ae1a23521568e9afb160f092480e5a6624233ca651e5cb50155839c5c23405",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "redaction": "Whitelisted native leaf controls; all private parent text and complete tracking URL excluded"
+    },
+    {
+      "id": "E-NATIVE-NOTICE-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-native/contact-sheet.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+      "sha256": "5201f1360a4eb98ca66e2d5bfafe74aa1f92ee234b0075d5d33cbb60ffcf6806",
+      "dimensions": [
+        1152,
+        3696
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-NOTICE-LIST-UNREAD",
+        "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+        "S-NATIVE-NOTICE-WEB-LOADING",
+        "S-NATIVE-NOTICE-WEB-BLANK",
+        "S-NATIVE-NOTICE-WEB-MENU",
+        "S-NATIVE-NOTICE-DETAIL-LOADED",
+        "S-NATIVE-NOTICE-IMAGE",
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "redaction": "Public institutional notice; titlebar cropped; no private account identity or full tracking address"
     }
   ],
   "findings": [
@@ -116816,10 +118545,11 @@
     {
       "id": "Q-EP003",
       "entry_point_id": "EP003",
-      "reason": "Home Notification empty entry and Home return observed; nonempty notifications and other controls/data states pending.",
+      "reason": "Home Notification empty entry and Home return observed; nonempty notifications and other controls/data states pending. First nonempty notice now observed: no-banner/loaded detail, image expansion, Read more loading/titled blank capture/menu/cancel/close, read marker removal and Calendar retainedPayment roundtrip. Search/other notices and actual webpage rendering remain pending.",
       "status": "in_progress",
       "resolution_refs": [
-        "E-HOME-ENTRY-RECHECK-TRACE"
+        "E-HOME-ENTRY-RECHECK-TRACE",
+        "E-NATIVE-NOTICE-CONTACT"
       ]
     },
     {
@@ -117088,10 +118818,11 @@
         "S-NOTIFICATION-SEARCH-EMPTY",
         "S-NOTIFICATION-SEARCH-NONE"
       ],
-      "reason": "Verify menu/empty control and search scope. Nonempty notification/list/detail path still lacks an actual data sample.",
+      "reason": "Verify menu/empty control and search scope. Nonempty notification/list/detail path still lacks an actual data sample. First nonempty notice now observed: no-banner/loaded detail, image expansion, Read more loading/titled blank capture/menu/cancel/close, read marker removal and Calendar retainedPayment roundtrip. Search/other notices and actual webpage rendering remain pending.",
       "status": "in_progress",
       "resolution_refs": [
-        "E-NOTIFICATION-TRACE"
+        "E-NOTIFICATION-TRACE",
+        "E-NATIVE-NOTICE-CONTACT"
       ]
     },
     {

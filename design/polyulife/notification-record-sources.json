@@ -1,0 +1,166 @@
+{
+  "sources": [
+    {
+      "file": "notification-record-list-unread.svg",
+      "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-04"
+      ],
+      "sha256": "02fe407ebba80126e8842136bbf1eaaf420c4944650392e7c118008fd3f9a539",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "notification-record-list-read.svg",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-15"
+      ],
+      "sha256": "b9537ae5df8b7ddf04cbfc224da2ec8af5bf73a1c8ddd7ff3b95d5b484b91799",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "notification-record-detail-initial.svg",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-05"
+      ],
+      "sha256": "1189c2239ccb1dcfe170f956e1191261063e81184b9b69e6b96fa0e20d1f3663",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "notification-record-detail-loaded.svg",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-24"
+      ],
+      "sha256": "6398cb1f4fb88257c746a10c30ada3a1e73adb069d5eb64a0eac3602d2cecad4",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "notification-record-image-expanded.svg",
+      "state_id": "S-NATIVE-NOTICE-IMAGE",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-13"
+      ],
+      "sha256": "e80d99fa95e2f4fb43039e22cd6ba2e924c445ee83b425e2b2d12a2bb3d31ea0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "notification-record-web-loading.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-21"
+      ],
+      "sha256": "3e9ee90b68f006dbfdb79bbed3838920eaa41bbf7257f08517bf453ab585023d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "notification-record-web-blank.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-22"
+      ],
+      "sha256": "eeb22380a1710d0939bec7157b23b4100be74fb25a66b719ca151bc75dc777a3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "notification-record-web-menu.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-MENU",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-08"
+      ],
+      "sha256": "a48312fed31e0d6a0c36ab51d4acea6f67c09a083087cf7d92fdb35f0fd7444f",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "notification-record-calendar-read.svg",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-18"
+      ],
+      "sha256": "d8ad4eda6bb01ba171d8bfe6555f1330c317b5b724e1d072bce3fc0c16513b71",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "context_variant": "20261003-payment-after-notice-read"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/notification-workshop-banner.png",
+      "sha256": "cda8abd7bf10aadc59688e9a5e853f4cab0578ce059fc6393c7037febac0dea9",
+      "source_evidence_id": "E-NATIVE-NOTICE-13",
+      "crop_xyxy": [
+        0,
+        415,
+        576,
+        609
+      ],
+      "dimensions": [
+        576,
+        194
+      ],
+      "limits": "Raster institutional illustration; editable control added separately. No private photo/identity."
+    },
+    {
+      "file": "assets/notification-web-loading-mark.png",
+      "sha256": "1792604512814d1414d929e3023ad10c82143c52da19fa2797e6c93e8af72ef8",
+      "source_evidence_id": "E-NATIVE-NOTICE-21",
+      "crop_xyxy": [
+        258,
+        532,
+        319,
+        594
+      ],
+      "dimensions": [
+        61,
+        62
+      ],
+      "limits": "Static sampled mark, not rotating native animation."
+    }
+  ],
+  "limits": [
+    "One notification and finite read-state roundtrip; no arbitrary feed or queries.",
+    "No-image to loaded detail and web loading timings are illustrative proxies.",
+    "Payment after-read clone initially has only sampled Notification return; other date/mode/home controls not copied or claimed."
+  ]
+}

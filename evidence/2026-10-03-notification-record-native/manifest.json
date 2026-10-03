@@ -1,0 +1,673 @@
+{
+  "kind": "native_notification_record_and_connection_resume",
+  "session_id": "SESSION-20261003-NOTIFICATION-RECORD",
+  "images": [
+    {
+      "file": "00-oct2-payment-start.png",
+      "sha256": "31773fc47c4c795db6c19979c34501d7bce74c3bea0b6565df5b8096851cda3c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:14:26.122Z",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "00-oct2-payment-start.safe-ax.txt",
+      "safe_ax_sha256": "98e7c89ac03e87d2da5757b12d438f62c42328b915c3092d5b4ecc2361d146c8"
+    },
+    {
+      "file": "01-filter-ax-button-attempt.png",
+      "sha256": "31773fc47c4c795db6c19979c34501d7bce74c3bea0b6565df5b8096851cda3c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:14:28.791Z",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-FILTER-REOPEN",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "01-filter-ax-button-attempt.safe-ax.txt",
+      "safe_ax_sha256": "98e7c89ac03e87d2da5757b12d438f62c42328b915c3092d5b4ecc2361d146c8"
+    },
+    {
+      "file": "02-filter-ax-container-attempt.png",
+      "sha256": "31773fc47c4c795db6c19979c34501d7bce74c3bea0b6565df5b8096851cda3c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:15:02.184Z",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-FILTER-REOPEN",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "02-filter-ax-container-attempt.safe-ax.txt",
+      "safe_ax_sha256": "98e7c89ac03e87d2da5757b12d438f62c42328b915c3092d5b4ecc2361d146c8"
+    },
+    {
+      "file": "03-notification-entry.png",
+      "sha256": "964b7b2aa7b4ea9f576fcb73ce37079543c6868448dd7add290f1cfadef6fdbb",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:15:22.808549+00:00",
+      "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "action_id": "A-NATIVE-NOTICE-ENTRY",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "03-notification-entry.safe-ax.txt",
+      "safe_ax_sha256": "51a50a0622eab7836000ed155217a3352ef3f6cc1ae6f346265907a859d1b821"
+    },
+    {
+      "file": "04-notification-nonempty.png",
+      "sha256": "964b7b2aa7b4ea9f576fcb73ce37079543c6868448dd7add290f1cfadef6fdbb",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:15:53.823Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "action_id": null,
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "04-notification-nonempty.safe-ax.txt",
+      "safe_ax_sha256": "51a50a0622eab7836000ed155217a3352ef3f6cc1ae6f346265907a859d1b821"
+    },
+    {
+      "file": "05-notification-first-record.png",
+      "sha256": "6ce8f36298f73f0f465d22769c3de3a5f446299f73a85e9e6fff725c7832227f",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:15:54.855Z",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "action_id": "A-NATIVE-NOTICE-RECORD-OPEN",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "05-notification-first-record.safe-ax.txt",
+      "safe_ax_sha256": "0e6939447522087fc61a93c42f32beb5e37a98138ba686b459dacd5444e19455"
+    },
+    {
+      "file": "06-read-more-entry.png",
+      "sha256": "578991ca839d95d29a1dd9c3675ae14067b938c4271be0a8e7e97d6e722d60e5",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:16:11.984Z",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "action_id": "A-NATIVE-NOTICE-READ-MORE",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "06-read-more-entry.safe-ax.txt",
+      "safe_ax_sha256": "a0532dde041cb4a5227bbf1bee7d078f8a71dc0ce48497eee5e5db7b47d67158"
+    },
+    {
+      "file": "07-read-more-followup.png",
+      "sha256": "b5a5387706425376e8e9ff69a63d21aead9b7bcbbebd5ccd29a9f0e9ad70e808",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:16:25.296Z",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": null,
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "07-read-more-followup.safe-ax.txt",
+      "safe_ax_sha256": "aad26e7ae2c3b5ab742427db65f18633ff45d9d229ddfe81e83b4433c23f63f5"
+    },
+    {
+      "file": "08-read-more-menu.png",
+      "sha256": "a99f4e5d7fe499111002e9b6a05bb2e63e9ac3b3f30553b5a990365d43bc4f97",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:16:53.296Z",
+      "state_id": "S-NATIVE-NOTICE-WEB-MENU",
+      "action_id": "A-NATIVE-NOTICE-WEB-MORE",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "08-read-more-menu.safe-ax.txt",
+      "safe_ax_sha256": "102221039ee3fab836781671bdc00d34784d9e3e7052f9e8839f339342ed6403"
+    },
+    {
+      "file": "09-web-menu-cancelled.png",
+      "sha256": "b5a5387706425376e8e9ff69a63d21aead9b7bcbbebd5ccd29a9f0e9ad70e808",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:17:02.319Z",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": "A-NATIVE-NOTICE-WEB-CANCEL",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "09-web-menu-cancelled.safe-ax.txt",
+      "safe_ax_sha256": "a8dea9aee5eb7c100e6fec982796326d4700162342fa7343c5bd87726ba201f5"
+    },
+    {
+      "file": "10-web-after-cancel-followup.png",
+      "sha256": "b5a5387706425376e8e9ff69a63d21aead9b7bcbbebd5ccd29a9f0e9ad70e808",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:17:16.467Z",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": null,
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "10-web-after-cancel-followup.safe-ax.txt",
+      "safe_ax_sha256": "aad26e7ae2c3b5ab742427db65f18633ff45d9d229ddfe81e83b4433c23f63f5"
+    },
+    {
+      "file": "11-web-closed-detail.png",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:17:22.228Z",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "11-web-closed-detail.safe-ax.txt",
+      "safe_ax_sha256": "a8dea9aee5eb7c100e6fec982796326d4700162342fa7343c5bd87726ba201f5"
+    },
+    {
+      "file": "12-detail-after-close-followup.png",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:17:27.102Z",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": null,
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "12-detail-after-close-followup.safe-ax.txt",
+      "safe_ax_sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db"
+    },
+    {
+      "file": "13-notification-image-expanded.png",
+      "sha256": "9ce808dfd3c2c9a928a06d121e770e8b9905fb2a7b35842f2bc95475190b87b2",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:17:43.276Z",
+      "state_id": "S-NATIVE-NOTICE-IMAGE",
+      "action_id": "A-NATIVE-NOTICE-IMAGE-EXPAND",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "13-notification-image-expanded.safe-ax.txt",
+      "safe_ax_sha256": "6a5ca73bc3bb4384012c1555f8c7387ecad55691a26e819da91cc61af6c83efb"
+    },
+    {
+      "file": "14-image-closed-detail.png",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:18:09.800Z",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-IMAGE-CLOSE",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "14-image-closed-detail.safe-ax.txt",
+      "safe_ax_sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db"
+    },
+    {
+      "file": "15-notification-return-list.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:18:15.528Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "15-notification-return-list.safe-ax.txt",
+      "safe_ax_sha256": "e8ae1a23521568e9afb160f092480e5a6624233ca651e5cb50155839c5c23405"
+    },
+    {
+      "file": "16-read-record-reopened.png",
+      "sha256": "79397e4d5f6d4c313d8ca82b8e1a73a6e66c32733c99ae594ea4d5c235ca67a8",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:19:03.089Z",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-READ-REOPEN",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "16-read-record-reopened.safe-ax.txt",
+      "safe_ax_sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db"
+    },
+    {
+      "file": "17-read-list-after-reopen.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:19:09.829Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "17-read-list-after-reopen.safe-ax.txt",
+      "safe_ax_sha256": "e8ae1a23521568e9afb160f092480e5a6624233ca651e5cb50155839c5c23405"
+    },
+    {
+      "file": "18-calendar-payment-return.png",
+      "sha256": "b81c24d1fae97bca16dae99514bc10819f4065d4c37d9a72bb70e223c830efab",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:19:12.524Z",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-NOTICE-CALENDAR-RETURN",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "18-calendar-payment-return.safe-ax.txt",
+      "safe_ax_sha256": "98e7c89ac03e87d2da5757b12d438f62c42328b915c3092d5b4ecc2361d146c8"
+    },
+    {
+      "file": "19-notification-read-retained.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:19:18.905Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-CALENDAR-REENTER",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "19-notification-read-retained.safe-ax.txt",
+      "safe_ax_sha256": "e8ae1a23521568e9afb160f092480e5a6624233ca651e5cb50155839c5c23405"
+    },
+    {
+      "file": "20-loaded-record-second-entry.png",
+      "sha256": "c012e87f1d98af74be728481e76ff50188dd1a339c50289001bca65a42acecea",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:20:15.678Z",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-READ-REOPEN",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "20-loaded-record-second-entry.safe-ax.txt",
+      "safe_ax_sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db"
+    },
+    {
+      "file": "21-loaded-record-read-more.png",
+      "sha256": "86192841919b50a0f2df270c21af59b3d80591119201f353dc027cde95f5f16b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:20:20.622Z",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "action_id": "A-NATIVE-NOTICE-READ-MORE",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "21-loaded-record-read-more.safe-ax.txt",
+      "safe_ax_sha256": "fc7d833f1036d4bb7e34bec7922218f75b56f4c43091b604e5e7b11b7d9587ea"
+    },
+    {
+      "file": "22-web-second-followup.png",
+      "sha256": "b5a5387706425376e8e9ff69a63d21aead9b7bcbbebd5ccd29a9f0e9ad70e808",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:20:26.253Z",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": null,
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "22-web-second-followup.safe-ax.txt",
+      "safe_ax_sha256": "aad26e7ae2c3b5ab742427db65f18633ff45d9d229ddfe81e83b4433c23f63f5"
+    },
+    {
+      "file": "23-web-second-closed.png",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:20:26.974Z",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "23-web-second-closed.safe-ax.txt",
+      "safe_ax_sha256": "a8dea9aee5eb7c100e6fec982796326d4700162342fa7343c5bd87726ba201f5"
+    },
+    {
+      "file": "24-loaded-detail-final-followup.png",
+      "sha256": "9a453ee20f3385c01ce49eb81c179c106a0f2c718115596529082d3ce9d36c2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:20:31.946Z",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": null,
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "24-loaded-detail-final-followup.safe-ax.txt",
+      "safe_ax_sha256": "1144bc2ed6d99f5636b20d16350ebb67fc7dcccba118be76278d795bbddff7db"
+    },
+    {
+      "file": "25-notification-read-final.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:20:33.409Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "source": "Actual Computer Use native window screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public institutional notice and controls; titlebar excluded. Truncated address only; no private identity or financial content.",
+      "safe_ax_file": "25-notification-read-final.safe-ax.txt",
+      "safe_ax_sha256": "e8ae1a23521568e9afb160f092480e5a6624233ca651e5cb50155839c5c23405"
+    }
+  ],
+  "limits": [
+    "One institutional notice only; no account/personal fields or complete tracking URL public.",
+    "AX web content exists while captured body is blank; successful page rendering and cause remain unverified.",
+    "Notification green dot and tab badge disappear after record path and remain absent after Calendar roundtrip; mechanism/general rule unverified.",
+    "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
+    "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
+    "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "5201f1360a4eb98ca66e2d5bfafe74aa1f92ee234b0075d5d33cbb60ffcf6806",
+    "dimensions": [
+      1152,
+      3696
+    ],
+    "source": "26 actual app crops; resized only for contact review"
+  }
+}
