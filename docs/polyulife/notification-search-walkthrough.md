@@ -1,5 +1,7 @@
 # Notification 来源的 Search 原生走查
 
+后续[Search详情续查与观测复核](search-detail-observation-checkpoint.md)另存20次采样，纠正基于显示结果的页面误判；没有新增已验证交互或原型连接。以下为本批原生历史记录。
+
 后续已接入5画板/19控件并保存4组实际回放，见[原型与失败恢复记录](notification-search-prototype-walkthrough.md)。当前Figma201画板/436控件/136次运行；以下原生批次及其当时Figma统计保留为历史快照。
 
 2026-10-03 通过 Mac Computer Use，从已读通知列表进入 Search，补查输入、清空、结果详情、返回和重入。新增3个查询状态、11个动作（9 observed、2 attempted_unverified）和30张实际截图。当前原生22次会话、181状态、351动作（263 observed、81 not_attempted、7 attempted_unverified）；新增1项搜索范围假设，共12项候选问题。Figma正式映射仍187画板/402控件/129次运行，完整应用 `not_verified`。

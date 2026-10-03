@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Search详情观测复核](search-detail-observation-checkpoint.md)保存20次原生采样并纠正当时基于工具显示的页面判断：磁盘完整AX与截图一致，不据此认定App的AX故障。输入尝试、意外通知详情和一次重绑均保留；skill补入保存记录冲突处理。当前23次原生会话、181状态/351动作，Figma201画板/436控件/136次运行均未扩大验证数量；2446条证据、58份公开清单含2257个PNG。完整应用仍`not_verified`。下方为各批历史快照。
+
 最新[Notification Search原型回放](notification-search-prototype-walkthrough.md)接入5个1024px调用者画板与19控件，4组实际Present保存41张截图；详情返回保留查询、清空及通知退出/空Search重入均回放。第二次详情缺图保留，同素材重传后两次有图；30项重复裁片比较29等/1不等。当前Figma201画板/436控件/136次运行；原生181状态/351动作仍不变，12项候选问题。固定W/Z/T查询代理和9个推广控件单独标注；完整应用与视觉保真仍`not_verified`。下方数字与“最新”为各批历史快照。
 
 最新[Notification工作坊原型回放](notification-record-prototype-walkthrough.md)已接9画板/15控件，3组实际Present保存40张截图和4张编辑器截图；入口误选、两次缺图、同素材重传和预览差异均保留。正式Figma196画板/417控件/132次运行；原生181状态/351动作（263 observed、81 not_attempted、7 attempted_unverified）、12项候选问题。Search原生已查但本批原型未整合，完整应用仍 `not_verified`。以下各段数字与“最新”均为历史批次快照。

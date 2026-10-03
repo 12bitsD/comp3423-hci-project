@@ -993,6 +993,70 @@
         "Keyboard without confirmed focus and Return submission remain unverified.",
         "Input/capture timestamps do not measure human search duration."
       ]
+    },
+    {
+      "id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "started_at": "2026-10-03T06:05:51.485Z",
+      "documented_through": "2026-10-03T06:13:03.504Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac via Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "login_state": "Existing login; no credential input"
+      },
+      "starting_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "record_kind": "supplementary_observation_review",
+      "evidence_ids": [
+        "E-SEARCH-OBS-00",
+        "E-SEARCH-OBS-00-AX",
+        "E-SEARCH-OBS-01",
+        "E-SEARCH-OBS-01-AX",
+        "E-SEARCH-OBS-02",
+        "E-SEARCH-OBS-02-AX",
+        "E-SEARCH-OBS-03",
+        "E-SEARCH-OBS-03-AX",
+        "E-SEARCH-OBS-04",
+        "E-SEARCH-OBS-04-AX",
+        "E-SEARCH-OBS-05",
+        "E-SEARCH-OBS-05-AX",
+        "E-SEARCH-OBS-06",
+        "E-SEARCH-OBS-06-AX",
+        "E-SEARCH-OBS-07",
+        "E-SEARCH-OBS-07-AX",
+        "E-SEARCH-OBS-08",
+        "E-SEARCH-OBS-08-AX",
+        "E-SEARCH-OBS-09",
+        "E-SEARCH-OBS-09-AX",
+        "E-SEARCH-OBS-10",
+        "E-SEARCH-OBS-10-AX",
+        "E-SEARCH-OBS-11",
+        "E-SEARCH-OBS-11-AX",
+        "E-SEARCH-OBS-12",
+        "E-SEARCH-OBS-12-AX",
+        "E-SEARCH-OBS-13",
+        "E-SEARCH-OBS-13-AX",
+        "E-SEARCH-OBS-14",
+        "E-SEARCH-OBS-14-AX",
+        "E-SEARCH-OBS-15",
+        "E-SEARCH-OBS-15-AX",
+        "E-SEARCH-OBS-16",
+        "E-SEARCH-OBS-16-AX",
+        "E-SEARCH-OBS-17",
+        "E-SEARCH-OBS-17-AX",
+        "E-SEARCH-OBS-18",
+        "E-SEARCH-OBS-18-AX",
+        "E-SEARCH-OBS-19",
+        "E-SEARCH-OBS-19-AX",
+        "E-SEARCH-OBS-CONTACT",
+        "E-SEARCH-OBS-TRACE"
+      ],
+      "limitations": [
+        "Input/result attribution unresolved; original attempts and corrected visible classification preserved in trace.",
+        "Saved full AX agrees with screenshots; displayed tool text/prior interpretation discrepancy not diagnosed.",
+        "No changes to native action verification statuses, discovered states or Figma mappings."
+      ]
     }
   ],
   "entry_points": [
@@ -67380,6 +67444,622 @@
       "action_ids": [],
       "source": "41 actual masked Present crops resized for contact sheet",
       "redaction": "Derived masked public Present screenshots"
+    },
+    {
+      "id": "E-SEARCH-OBS-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/00-notification-start.png",
+      "sha256": "b79fd2a7f2f2ec1a6ca8ca73140c8d5e1758efdccd9207993933b7d464f49f84",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-00-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/00-notification-start.safe-ax.txt",
+      "sha256": "427324a8dd03343e925160761b4d8f810898d772fc61c3373f249a0192b2a4c0",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/01-search-empty.png",
+      "sha256": "5f887c6c7f9b0960ba4da915f5a182fa0324ae3bb50cf0206030db53854c9f72",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-01-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/01-search-empty.safe-ax.txt",
+      "sha256": "427324a8dd03343e925160761b4d8f810898d772fc61c3373f249a0192b2a4c0",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/02-search-container-retry.png",
+      "sha256": "95437e389cce066cfdce354def30c56af35c7fb687b24f81be8d6557936ba224",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-02-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/02-search-container-retry.safe-ax.txt",
+      "sha256": "427324a8dd03343e925160761b4d8f810898d772fc61c3373f249a0192b2a4c0",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/03-search-coordinate-check.png",
+      "sha256": "2767f77b3a53ea75bd4c0df8845264fdc920d8d2a5575d125eb0324790dfe30d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-03-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/03-search-coordinate-check.safe-ax.txt",
+      "sha256": "6ac3c573303853c8d736bd64c4059ea16921e471883a489fa3065d9e455a3f33",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/04-search-arrived-later.png",
+      "sha256": "7998dc9deaadbaf1ed20bc11b1c3b416c6c2b12835680cdc30b600c797b87a37",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-04-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/04-search-arrived-later.safe-ax.txt",
+      "sha256": "6ac3c573303853c8d736bd64c4059ea16921e471883a489fa3065d9e455a3f33",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/05-workshop-input.png",
+      "sha256": "d8587a8721e1a32c1d12a870cdd433c2381a57c49547c26b90e7565932188d22",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-05-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/05-workshop-input.safe-ax.txt",
+      "sha256": "6ac3c573303853c8d736bd64c4059ea16921e471883a489fa3065d9e455a3f33",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/06-workshop-followup.png",
+      "sha256": "d9aea12ce952de2fd885fff87dfd5be60ed03612a54beed263f0a0b14e1aa9fd",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-06-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/06-workshop-followup.safe-ax.txt",
+      "sha256": "6ac3c573303853c8d736bd64c4059ea16921e471883a489fa3065d9e455a3f33",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/07-workshop-ax-value.png",
+      "sha256": "44489e41edd5df07eae4a2310cc9c74ed445acc621364e175e7a0e646d730058",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-07-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/07-workshop-ax-value.safe-ax.txt",
+      "sha256": "efa95bdaf8bf26aa3270856bc92c019aa02d883663455724d3931e932d5826ee",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/08-workshop-visible-later.png",
+      "sha256": "313dffaa762178466f3b2d93011026605e0741ef9ebd918ae3b0faed85dc2f17",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-08-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/08-workshop-visible-later.safe-ax.txt",
+      "sha256": "efa95bdaf8bf26aa3270856bc92c019aa02d883663455724d3931e932d5826ee",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/09-open-va210.png",
+      "sha256": "5edaec9bf046a2f21a5c014cf708508f4dc5daeb22635be2a781bd5c7f078784",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-09-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/09-open-va210.safe-ax.txt",
+      "sha256": "efa95bdaf8bf26aa3270856bc92c019aa02d883663455724d3931e932d5826ee",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/10-va210-followup.png",
+      "sha256": "6092cd82c7f167479a739b4bed833cc2122a73aabd711d08bdd051841cc1b2fd",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-10-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/10-va210-followup.safe-ax.txt",
+      "sha256": "efa95bdaf8bf26aa3270856bc92c019aa02d883663455724d3931e932d5826ee",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/11-venue-coordinate-check.png",
+      "sha256": "91ccb5b67a4704d7859cbe5e5fc414d43ec403fd968349adfb02b61974d96580",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-11-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/11-venue-coordinate-check.safe-ax.txt",
+      "sha256": "23d0cbb86983362042484beb97c2d5c192c1bd6ea724d4de5c64caef0fdccf00",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/12-result-chevron-check.png",
+      "sha256": "6179f7530a43b3265edbc937ac563e65879ee7ede6b22cc6e60fdd76f1d9f1b2",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-FOOD-DETAIL-LOADING"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-12-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/12-result-chevron-check.safe-ax.txt",
+      "sha256": "16f3c443fad0398c53767db9a78e3f5de9e191624f70c40e26cd1d9c78387a3a",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-FOOD-DETAIL-LOADING"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/13-workshop-back-check.png",
+      "sha256": "cdf953ac5077021807ca7628c08ec3b7028ca1af3aa30f0960295412fcb6769a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-13-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/13-workshop-back-check.safe-ax.txt",
+      "sha256": "23d0cbb86983362042484beb97c2d5c192c1bd6ea724d4de5c64caef0fdccf00",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/14-result-explicit-double-click.png",
+      "sha256": "fe1bfdcabfaaa016e3bc95ec656888d909f6bc784067c5d7b0c566b015987984",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-14-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/14-result-explicit-double-click.safe-ax.txt",
+      "sha256": "71c7199366d1befe1166e9dcb11032026a4fcd10ed2a9dbb197ba187c216ee08",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/15-current-visual-recheck.png",
+      "sha256": "96c41f54372d76ea1d85594812ce76fe610dc179fccebea91f5a1fefb7cb08c2",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-15-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/15-current-visual-recheck.safe-ax.txt",
+      "sha256": "71c7199366d1befe1166e9dcb11032026a4fcd10ed2a9dbb197ba187c216ee08",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/16-unlocked-notice-agreement.png",
+      "sha256": "0191fb21cc3beccceb11d0b6b57b20a18720f9a6cf05bdfce301817ec2db03fc",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-16-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/16-unlocked-notice-agreement.safe-ax.txt",
+      "sha256": "71c7199366d1befe1166e9dcb11032026a4fcd10ed2a9dbb197ba187c216ee08",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/17-notice-back.png",
+      "sha256": "076a45865a48262c735de306a9abff116bd7f16306618ac822c2a3ca4ec0138a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-17-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/17-notice-back.safe-ax.txt",
+      "sha256": "688e3152aaaeddf66cdbb22f93b23ba66bf7c3a0d45baf2e37078ce0865f9c86",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/18-rebound-notification.png",
+      "sha256": "af9ae19d1702ba62a3ba32c0dc98b06d7f0450629286b61ffe11944243eef727",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-18-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/18-rebound-notification.safe-ax.txt",
+      "sha256": "688e3152aaaeddf66cdbb22f93b23ba66bf7c3a0d45baf2e37078ce0865f9c86",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/19-rebound-search.png",
+      "sha256": "932682e0260ab411ede388eace6c86d863edbab75a99cc9b9b1c9755601f9b19",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual Computer Use native screenshot bytes",
+      "redaction": "Titlebar removed; public notice/search/venue only. Cursor and capture artifacts retained. Hidden AX identity excluded.",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-19-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-observation/19-rebound-search.safe-ax.txt",
+      "sha256": "6ac3c573303853c8d736bd64c4059ea16921e471883a489fa3065d9e455a3f33",
+      "source": "Allowlisted public leaves from saved full AX; not displayed tool text",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-OBS-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-observation/contact-sheet.png",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "sha256": "279c54afa86d581895bfbff7b12f475273f645628116bfa57b640d9758906e53",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-NOTIFICATION-SEARCH-EMPTY",
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-FOOD-DETAIL-LOADING",
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "source": "Derived review of actual saved capture records",
+      "dimensions": [
+        1152,
+        2200
+      ]
+    },
+    {
+      "id": "E-SEARCH-OBS-TRACE",
+      "type": "observation_trace",
+      "path": "../../evidence/2026-10-03-search-detail-observation/observation-trace.json",
+      "session_id": "SESSION-20261003-SEARCH-DETAIL-OBSERVATION",
+      "sha256": "7e9d28e7061ede7ab9ce367832fe8f4ad53533e0565f3decb010df26a6abf5f2",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-NOTIFICATION-SEARCH-EMPTY",
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-FOOD-DETAIL-LOADING",
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "source": "Derived review of actual saved capture records"
     }
   ],
   "findings": [
