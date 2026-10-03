@@ -1,5 +1,7 @@
 # Food October3：四种营业时间展开状态导入
 
+后续[连续列表菜单位置修正](food-oct3-menu-alignment-walkthrough.md)已补齐H Café/U Garden列表中的30px偏移；本页保留营业时间导入批次的原始检查边界。四张营业时间SVG保持不变，新稿导航仍未配置。
+
 本批通过 Computer Use 在实际 Figma 编辑器导入四张可编辑画板，保存12次实际编辑器采样及联系表：[公开清单](../../evidence/2026-10-03-food-hours-import/manifest.json)、[实际界面概览](../../evidence/2026-10-03-food-hours-import/11-four-hours-overview.png)、[读数与修正记录](../../evidence/2026-10-03-food-hours-import/readback.json)。没有新增原生会话、状态、动作或 Present 回放。用户回复解锁后，本次原生截图读取仍返回 Mac locked；不能据此评价 App 或宣称连接恢复。
 
 依据是[此前营业时间往返观察](food-oct3-reverse-walkthrough.md)的四张真实原生截图，沿用28条列表的独立行文字、向量及公共品牌素材。公共截图已由原始750×1390窗口裁切后规范化为576×1024，本批坐标均为重建坐标，不等于原始窗口或完整原生滚动范围。

@@ -303,13 +303,13 @@
     }
   ],
   "reused_source": {
-    "file": "food-oct3-full-list-local.svg",
+    "file": "food-oct3-full-list-pre-menu-alignment.svg",
     "sha256": "f08e33ce5c9202b5ac777f9b8b1cd0e9ced66f455db297794567d29ab4726a2b"
   },
   "limits": [
     "Four finite screenshot positions, not the full list or complete scroll geometry.",
     "Independent text/vector source; public logos and campus map crops raster.",
-    "H Café variant corrects Online Order ellipsis centering; current full-list Figma/source menus remain pending.",
+    "Hours imports retain the frozen pre-menu base and their own centering correction. Current full-list menus were corrected separately; menu interactions remain unconfigured.",
     "Gourmet last-row height and954px content mask are reconstruction; clipped lower tags/bottom do not prove native extent.",
     "No app input, Figma import, prototype interaction or human evaluation by generator."
   ],
@@ -323,5 +323,12 @@
     "One helper parse failed on AX diff prefix without an extra UI action; one virtualized H Café root selector had no match. Direct known editor-node navigation recovered selection; no denied navigation connection was attempted.",
     "Prior Action dropdown URL-protocol safety refusal unresolved; not retried or circumvented. Source import/layout/text inspection are different permitted operations.",
     "Full app/fidelity not_verified. Native observation, editable-source preparation/editor inspection and human evaluation remain separate."
-  ]
+  ],
+  "subsequent_full_list_alignment": {
+    "evidence_ids": [
+      "E-FOOD-MENU-ALIGN-READBACK"
+    ],
+    "source_file": "food-oct3-full-list-local.svg",
+    "scope": "Two current-list menu positions corrected separately; imported hours SVGs unchanged. Historical import_limits retain original capture cutoff."
+  }
 }

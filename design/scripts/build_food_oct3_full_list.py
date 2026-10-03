@@ -48,7 +48,7 @@ def main(global_clips=False):
   for n,loc in enumerate(locs):label(g,109 if loc.startswith('·') else 151,y+74+extra+n*29,loc,20,'#484848')
   extra+=(len(locs)-1)*29;by=y+91+extra;opened=i!=28;badge=group(g,'OpeningHours%02d'%i);rect(badge,119,by,123 if opened else 95,30,'#E8F5DB' if opened else '#F7DEDE',rx=15);badge.append(node('circle',cx=133,cy=by+15,r=6,fill='#7EAD54' if opened else '#CC5146'));label(badge,147,by+22,'Open Now' if opened else 'Closed',18,'#101010')
   desc=record['public_ax_description'];timing=desc.split('Open Now ',1)[1].split(' #',1)[0].replace(' Online Order','') if opened else 'Further information';tx=247 if opened else 219;label(badge,tx,by+22,timing,17,'#555555');ax=tx+font.getlength(timing)*17/18+5;badge.append(node('path',d=f'M{ax} {by+12}L{ax+6} {by+19}L{ax+12} {by+12}Z',fill='#878787'));hit(badge,119,by,ax+12-119,30)
-  menu=group(g,'VenueMenu%02d'%i);my=y+89+extra/2;hit(menu,516,my-23,48,46)
+  menu=group(g,'VenueMenu%02d'%i);my=y+89+extra/2+(30 if record['online_order_visible_or_in_public_leaf'] else 0);hit(menu,516,my-23,48,46)
   for cx in [532,540,548]:menu.append(node('circle',cx=cx,cy=my,r=2.7,fill='#9FB2BE'))
   tags=desc.split(' #')[1:];tags=[t.replace(' Online Order','') for t in tags];ty=y+138+extra
   if tags:
@@ -65,8 +65,9 @@ def main(global_clips=False):
  if meta.exists():
   old=json.loads(meta.read_text())
   if old['sha256']==v['sha256']:
-   for k in ['status','figma','editor_evidence_ids','prototype_run_ids']:
+   for k in ['status','figma','editor_evidence_ids','prototype_run_ids','flow','retired_source_snapshots','historical_no_footer_source','historical_pre_bottom_region_source','historical_pre_menu_alignment_source','menu_alignment_correction']:
     if k in old:v[k]=old[k]
+   if 'interpretation' in old.get('observed_footer',{}):v['observed_footer']['interpretation']=old['observed_footer']['interpretation']
  meta.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
  contact=Image.new('RGB',(700,400),'white');dr=ImageDraw.Draw(contact)
  for n,rec in enumerate(records):

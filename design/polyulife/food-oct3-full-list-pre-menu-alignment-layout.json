@@ -1,8 +1,8 @@
 {
-  "file": "food-oct3-full-list-local.svg",
-  "sha256": "d0b72aa3fd383d2ab3cd3e32c7423a92ded96675d9db27d3edcef65b621dd6c2",
+  "file": "food-oct3-full-list-pre-menu-alignment.svg",
+  "sha256": "f08e33ce5c9202b5ac777f9b8b1cd0e9ced66f455db297794567d29ab4726a2b",
   "clip_coordinate_mode": "row-local-no-outer-mask",
-  "status": "actual_menu_positions_and_finite_scroll_replayed_navigation_unconfigured",
+  "status": "historical_before_online_order_menu_centering",
   "dimensions": [
     576,
     1024
@@ -1270,24 +1270,12 @@
     "E-FOOD-BOTTOM-REGION-03",
     "E-FOOD-BOTTOM-REGION-04",
     "E-FOOD-BOTTOM-REGION-05",
-    "E-FOOD-BOTTOM-REGION-15",
-    "E-FOOD-MENU-ALIGN-00",
-    "E-FOOD-MENU-ALIGN-01",
-    "E-FOOD-MENU-ALIGN-02",
-    "E-FOOD-MENU-ALIGN-03",
-    "E-FOOD-MENU-ALIGN-04",
-    "E-FOOD-MENU-ALIGN-05",
-    "E-FOOD-MENU-ALIGN-06",
-    "E-FOOD-MENU-ALIGN-07",
-    "E-FOOD-MENU-ALIGN-15",
-    "E-FOOD-MENU-ALIGN-16",
-    "E-FOOD-MENU-ALIGN-17"
+    "E-FOOD-BOTTOM-REGION-15"
   ],
   "prototype_run_ids": [
     "PROTO-FOOD-OCT3-FULL-LIST-001",
     "PROTO-FOOD-OCT3-FULL-LIST-FOOTER-001",
-    "PROTO-FOOD-OCT3-BOTTOM-REGION-001",
-    "PROTO-FOOD-OCT3-MENU-ALIGNMENT-001"
+    "PROTO-FOOD-OCT3-BOTTOM-REGION-001"
   ],
   "flow": {
     "name": "Reference · Food 28 venues — continuous list",
@@ -1328,58 +1316,5 @@
   "historical_pre_bottom_region_source": {
     "file": "food-oct3-full-list-pre-bottom-region.svg",
     "sha256": "5ee6dc923fc18d8039e8c8f04a636e02a6beb68a0b6d298bf2ddbeff3170dca4"
-  },
-  "historical_pre_menu_alignment_source": {
-    "file": "food-oct3-full-list-pre-menu-alignment.svg",
-    "sha256": "f08e33ce5c9202b5ac777f9b8b1cd0e9ced66f455db297794567d29ab4726a2b"
-  },
-  "menu_alignment_correction": {
-    "edits": [
-      {
-        "name": "VenueMenu05",
-        "node_id": "954:3783",
-        "venue": "H Café",
-        "before_position": [
-          516,
-          903
-        ],
-        "after_position": [
-          516,
-          933
-        ],
-        "dimensions": [
-          48,
-          46
-        ]
-      },
-      {
-        "name": "VenueMenu10",
-        "node_id": "954:3978",
-        "venue": "U Garden (Student Canteen)",
-        "before_position": [
-          516,
-          1876
-        ],
-        "after_position": [
-          516,
-          1906
-        ],
-        "dimensions": [
-          48,
-          46
-        ]
-      }
-    ],
-    "editor_evidence_ids": [
-      "E-FOOD-MENU-ALIGN-02",
-      "E-FOOD-MENU-ALIGN-03",
-      "E-FOOD-MENU-ALIGN-04",
-      "E-FOOD-MENU-ALIGN-05"
-    ],
-    "prototype_run_ids": [
-      "PROTO-FOOD-OCT3-MENU-ALIGNMENT-001"
-    ],
-    "source_delta_scope": "Only VenueMenu05 and VenueMenu10 move30px; other SVG identical",
-    "limits": "Approximate native visual alignment; menu actions not configured"
   }
 }

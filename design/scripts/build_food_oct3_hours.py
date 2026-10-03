@@ -12,7 +12,9 @@ from build_food_oct3_details import header
 R = Path(__file__).resolve().parents[2]
 D = R / 'design/polyulife'
 P = R / 'evidence/2026-10-03-food-reverse-controls'
-BASE = D / 'food-oct3-full-list-local.svg'
+# Pin the source used for the actual hours imports. The hours variant already
+# applies its own Online Order centering correction; a moving base could double it.
+BASE = D / 'food-oct3-full-list-pre-menu-alignment.svg'
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 
 SAMPLES = [
@@ -118,9 +120,11 @@ def main():
                 if key in old:
                     rec[key] = old[key]
         sources.append(rec)
-    result = dict(sources=sources, reused_source=dict(file=BASE.name, sha256=sha(BASE)), limits=['Four finite screenshot positions, not the full list or complete scroll geometry.', 'Independent text/vector source; public logos and campus map crops raster.', 'H Café variant corrects Online Order ellipsis centering; current full-list Figma/source menus remain pending.', 'Gourmet last-row height and954px content mask are reconstruction; clipped lower tags/bottom do not prove native extent.', 'No app input, Figma import, prototype interaction or human evaluation by generator.'])
+    result = dict(sources=sources, reused_source=dict(file=BASE.name, sha256=sha(BASE)), limits=['Four finite screenshot positions, not the full list or complete scroll geometry.', 'Independent text/vector source; public logos and campus map crops raster.', 'Hours imports retain the frozen pre-menu base and their own centering correction. Current full-list menus were corrected separately; menu interactions remain unconfigured.', 'Gourmet last-row height and954px content mask are reconstruction; clipped lower tags/bottom do not prove native extent.', 'No app input, Figma import, prototype interaction or human evaluation by generator.'])
     if all(previous_sources.get(s['file'], {}).get('sha256') == s['sha256'] for s in sources) and 'import_limits' in previous:
         result['import_limits'] = previous['import_limits']
+    if all(previous_sources.get(s['file'], {}).get('sha256') == s['sha256'] for s in sources) and 'subsequent_full_list_alignment' in previous:
+        result['subsequent_full_list_alignment'] = previous['subsequent_full_list_alignment']
     metadata.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')
     print(json.dumps(dict(sources=len(sources), figma_mutations=0)))
 
