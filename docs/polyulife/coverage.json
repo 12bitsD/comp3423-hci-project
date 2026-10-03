@@ -773,6 +773,66 @@
         "Filter coordinate noWindowsAvailable, Events filter container unchanged; no overlay outcome or executed coordinate input established.",
         "No payments/orders or personal data modifications performed; app version not reverified."
       ]
+    },
+    {
+      "id": "SESSION-20261003-PAYMENT-RECORD",
+      "started_at": "2026-10-02T18:58:14.696Z",
+      "documented_through": "2026-10-02T19:01:55.815Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac; Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "app_version_source_session_id": "SESSION-20261003-CALENDAR-PAYMENT",
+        "login_state": "Existing login retained; no credentials entered"
+      },
+      "starting_state_id": "S-NATIVE-OCT3-PAYMENT",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-00",
+        "E-NATIVE-PAYREC-00-AX",
+        "E-NATIVE-PAYREC-01",
+        "E-NATIVE-PAYREC-01-AX",
+        "E-NATIVE-PAYREC-02",
+        "E-NATIVE-PAYREC-02-AX",
+        "E-NATIVE-PAYREC-03",
+        "E-NATIVE-PAYREC-03-AX",
+        "E-NATIVE-PAYREC-04",
+        "E-NATIVE-PAYREC-04-AX",
+        "E-NATIVE-PAYREC-05",
+        "E-NATIVE-PAYREC-05-AX",
+        "E-NATIVE-PAYREC-06",
+        "E-NATIVE-PAYREC-06-AX",
+        "E-NATIVE-PAYREC-07",
+        "E-NATIVE-PAYREC-07-AX",
+        "E-NATIVE-PAYREC-08",
+        "E-NATIVE-PAYREC-08-AX",
+        "E-NATIVE-PAYREC-09",
+        "E-NATIVE-PAYREC-09-AX",
+        "E-NATIVE-PAYREC-10",
+        "E-NATIVE-PAYREC-10-AX",
+        "E-NATIVE-PAYREC-11",
+        "E-NATIVE-PAYREC-11-AX",
+        "E-NATIVE-PAYREC-12",
+        "E-NATIVE-PAYREC-12-AX",
+        "E-NATIVE-PAYREC-13",
+        "E-NATIVE-PAYREC-13-AX",
+        "E-NATIVE-PAYREC-14",
+        "E-NATIVE-PAYREC-14-AX",
+        "E-NATIVE-PAYREC-15",
+        "E-NATIVE-PAYREC-15-AX",
+        "E-NATIVE-PAYREC-16",
+        "E-NATIVE-PAYREC-16-AX",
+        "E-NATIVE-PAYREC-CONTACT"
+      ],
+      "limitations": [
+        "One first history record only; no payment, login, external sharing or record change executed.",
+        "Private financial titles/numbers/dates/amounts masked; Figma detail/history values wholly synthetic DEMO.",
+        "Portal followed loading→titled blank content; not a successful financial service/login or proven server failure.",
+        "More menu observed, only Cancel and Close executed; system browser/share/copy/toolbar actions not executed.",
+        "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
+        "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified."
+      ]
     }
   ],
   "entry_points": [
@@ -4516,7 +4576,9 @@
         "E-NATIVE-PAYMODE-00",
         "E-NATIVE-PAYMODE-01",
         "E-NATIVE-PAYMODE-06",
-        "E-NATIVE-PAYMODE-11"
+        "E-NATIVE-PAYMODE-11",
+        "E-NATIVE-PAYREC-00",
+        "E-NATIVE-PAYREC-16"
       ],
       "ax_evidence_ids": [
         "E-NATIVE-OCT3-PAYMENT-01-AX",
@@ -4533,7 +4595,9 @@
         "E-NATIVE-PAYMODE-00-AX",
         "E-NATIVE-PAYMODE-01-AX",
         "E-NATIVE-PAYMODE-06-AX",
-        "E-NATIVE-PAYMODE-11-AX"
+        "E-NATIVE-PAYMODE-11-AX",
+        "E-NATIVE-PAYREC-00-AX",
+        "E-NATIVE-PAYREC-16-AX"
       ],
       "action_ids": [
         "A-NATIVE-OCT3-PAYMENT-REOPEN",
@@ -4698,12 +4762,16 @@
       "screenshot_evidence_ids": [
         "E-NATIVE-PAYMODE-02",
         "E-NATIVE-PAYMODE-07",
-        "E-NATIVE-PAYMODE-09"
+        "E-NATIVE-PAYMODE-09",
+        "E-NATIVE-PAYREC-01",
+        "E-NATIVE-PAYREC-14"
       ],
       "ax_evidence_ids": [
         "E-NATIVE-PAYMODE-02-AX",
         "E-NATIVE-PAYMODE-07-AX",
-        "E-NATIVE-PAYMODE-09-AX"
+        "E-NATIVE-PAYMODE-09-AX",
+        "E-NATIVE-PAYREC-01-AX",
+        "E-NATIVE-PAYREC-14-AX"
       ],
       "action_ids": [
         "A-NATIVE-PAYMENT-SHOW-HISTORY",
@@ -4729,17 +4797,24 @@
       "screenshot_evidence_ids": [
         "E-NATIVE-PAYMODE-03",
         "E-NATIVE-PAYMODE-04",
-        "E-NATIVE-PAYMODE-08"
+        "E-NATIVE-PAYMODE-08",
+        "E-NATIVE-PAYREC-02",
+        "E-NATIVE-PAYREC-06",
+        "E-NATIVE-PAYREC-13"
       ],
       "ax_evidence_ids": [
         "E-NATIVE-PAYMODE-03-AX",
         "E-NATIVE-PAYMODE-04-AX",
-        "E-NATIVE-PAYMODE-08-AX"
+        "E-NATIVE-PAYMODE-08-AX",
+        "E-NATIVE-PAYREC-02-AX",
+        "E-NATIVE-PAYREC-06-AX",
+        "E-NATIVE-PAYREC-13-AX"
       ],
       "action_ids": [
         "A-NATIVE-PAYMENT-HIDE-HISTORY",
         "A-NATIVE-PAYMENT-HISTORY-WEEK",
-        "A-NATIVE-PAYMENT-HISTORY-FILTER"
+        "A-NATIVE-PAYMENT-HISTORY-FILTER",
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -4760,11 +4835,13 @@
       "preconditions": "Existing October2 Payment Month state",
       "screenshot_evidence_ids": [
         "E-NATIVE-PAYMODE-05",
-        "E-NATIVE-PAYMODE-10"
+        "E-NATIVE-PAYMODE-10",
+        "E-NATIVE-PAYREC-15"
       ],
       "ax_evidence_ids": [
         "E-NATIVE-PAYMODE-05-AX",
-        "E-NATIVE-PAYMODE-10-AX"
+        "E-NATIVE-PAYMODE-10-AX",
+        "E-NATIVE-PAYREC-15-AX"
       ],
       "action_ids": [
         "A-NATIVE-PAYMENT-WEEK-MONTH"
@@ -4777,6 +4854,145 @@
         "Fresh discovered Wrapper and Raise did not restore coordinate input; native AX mode and history actions work.",
         "Filter coordinate noWindowsAvailable, Events filter container unchanged; no overlay outcome or executed coordinate input established.",
         "No payments/orders or personal data modifications performed; app version not reverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "title": "Record Detail",
+      "description": "Actual first-record detail/amount or embedded Portal state. Private financial data excluded; loading and titled blank both recorded.",
+      "visible_scope": "Normalized576x1024 viewport with all private financial values masked",
+      "preconditions": "First record entered from existing Payment history",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYREC-03",
+        "E-NATIVE-PAYREC-05",
+        "E-NATIVE-PAYREC-07",
+        "E-NATIVE-PAYREC-12"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYREC-03-AX",
+        "E-NATIVE-PAYREC-05-AX",
+        "E-NATIVE-PAYREC-07-AX",
+        "E-NATIVE-PAYREC-12-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+        "A-NATIVE-PAYMENT-RECORD-BACK",
+        "A-NATIVE-PAYMENT-PORTAL-OPEN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One first history record only; no payment, login, external sharing or record change executed.",
+        "Private financial titles/numbers/dates/amounts masked; Figma detail/history values wholly synthetic DEMO.",
+        "Portal followed loading→titled blank content; not a successful financial service/login or proven server failure.",
+        "More menu observed, only Cancel and Close executed; system browser/share/copy/toolbar actions not executed.",
+        "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
+        "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "title": "Record Amount",
+      "description": "Actual first-record detail/amount or embedded Portal state. Private financial data excluded; loading and titled blank both recorded.",
+      "visible_scope": "Normalized576x1024 viewport with all private financial values masked",
+      "preconditions": "First record entered from existing Payment history",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYREC-04"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYREC-04-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One first history record only; no payment, login, external sharing or record change executed.",
+        "Private financial titles/numbers/dates/amounts masked; Figma detail/history values wholly synthetic DEMO.",
+        "Portal followed loading→titled blank content; not a successful financial service/login or proven server failure.",
+        "More menu observed, only Cancel and Close executed; system browser/share/copy/toolbar actions not executed.",
+        "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
+        "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "title": "Portal Loading",
+      "description": "Actual first-record detail/amount or embedded Portal state. Private financial data excluded; loading and titled blank both recorded.",
+      "visible_scope": "Normalized576x1024 viewport with all private financial values masked",
+      "preconditions": "First record entered from existing Payment history",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYREC-08"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYREC-08-AX"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One first history record only; no payment, login, external sharing or record change executed.",
+        "Private financial titles/numbers/dates/amounts masked; Figma detail/history values wholly synthetic DEMO.",
+        "Portal followed loading→titled blank content; not a successful financial service/login or proven server failure.",
+        "More menu observed, only Cancel and Close executed; system browser/share/copy/toolbar actions not executed.",
+        "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
+        "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "title": "Portal Blank",
+      "description": "Actual first-record detail/amount or embedded Portal state. Private financial data excluded; loading and titled blank both recorded.",
+      "visible_scope": "Normalized576x1024 viewport with all private financial values masked",
+      "preconditions": "First record entered from existing Payment history",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYREC-09",
+        "E-NATIVE-PAYREC-11"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYREC-09-AX",
+        "E-NATIVE-PAYREC-11-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MORE",
+        "A-NATIVE-PAYMENT-PORTAL-CLOSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One first history record only; no payment, login, external sharing or record change executed.",
+        "Private financial titles/numbers/dates/amounts masked; Figma detail/history values wholly synthetic DEMO.",
+        "Portal followed loading→titled blank content; not a successful financial service/login or proven server failure.",
+        "More menu observed, only Cancel and Close executed; system browser/share/copy/toolbar actions not executed.",
+        "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
+        "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified."
+      ]
+    },
+    {
+      "id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "title": "Portal Menu",
+      "description": "Actual first-record detail/amount or embedded Portal state. Private financial data excluded; loading and titled blank both recorded.",
+      "visible_scope": "Normalized576x1024 viewport with all private financial values masked",
+      "preconditions": "First record entered from existing Payment history",
+      "screenshot_evidence_ids": [
+        "E-NATIVE-PAYREC-10"
+      ],
+      "ax_evidence_ids": [
+        "E-NATIVE-PAYREC-10-AX"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "One first history record only; no payment, login, external sharing or record change executed.",
+        "Private financial titles/numbers/dates/amounts masked; Figma detail/history values wholly synthetic DEMO.",
+        "Portal followed loading→titled blank content; not a successful financial service/login or proven server failure.",
+        "More menu observed, only Cancel and Close executed; system browser/share/copy/toolbar actions not executed.",
+        "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
+        "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified."
       ]
     }
   ],
@@ -12889,6 +13105,17 @@
             "E-NATIVE-PAYMODE-07-AX"
           ],
           "result_kind": "observed_target"
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T18:58:16.129Z",
+          "input": "AX click fresh element53",
+          "outcome": "Observed S-NATIVE-PAYMENT-EVENTS; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-01",
+            "E-NATIVE-PAYREC-01-AX"
+          ]
         }
       ],
       "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
@@ -12896,7 +13123,9 @@
         "E-NATIVE-PAYMODE-02",
         "E-NATIVE-PAYMODE-02-AX",
         "E-NATIVE-PAYMODE-07",
-        "E-NATIVE-PAYMODE-07-AX"
+        "E-NATIVE-PAYMODE-07-AX",
+        "E-NATIVE-PAYREC-01",
+        "E-NATIVE-PAYREC-01-AX"
       ],
       "return_path": null,
       "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
@@ -12933,6 +13162,17 @@
             "E-NATIVE-PAYMODE-08-AX"
           ],
           "result_kind": "observed_target"
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T18:58:21.188Z",
+          "input": "AX click fresh element16",
+          "outcome": "Observed S-NATIVE-PAYMENT-HISTORY; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-02",
+            "E-NATIVE-PAYREC-02-AX"
+          ]
         }
       ],
       "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
@@ -12940,7 +13180,9 @@
         "E-NATIVE-PAYMODE-03",
         "E-NATIVE-PAYMODE-03-AX",
         "E-NATIVE-PAYMODE-08",
-        "E-NATIVE-PAYMODE-08-AX"
+        "E-NATIVE-PAYMODE-08-AX",
+        "E-NATIVE-PAYREC-02",
+        "E-NATIVE-PAYREC-02-AX"
       ],
       "return_path": null,
       "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
@@ -13039,6 +13281,17 @@
             "E-NATIVE-PAYMODE-11-AX"
           ],
           "result_kind": "observed_target"
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:01:55.815Z",
+          "input": "AX click fresh element17",
+          "outcome": "Observed S-NATIVE-OCT3-PAYMENT; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-OCT3-PAYMENT",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-16",
+            "E-NATIVE-PAYREC-16-AX"
+          ]
         }
       ],
       "target_state_id": "S-NATIVE-OCT3-PAYMENT",
@@ -13046,7 +13299,9 @@
         "E-NATIVE-PAYMODE-06",
         "E-NATIVE-PAYMODE-06-AX",
         "E-NATIVE-PAYMODE-11",
-        "E-NATIVE-PAYMODE-11-AX"
+        "E-NATIVE-PAYMODE-11-AX",
+        "E-NATIVE-PAYREC-16",
+        "E-NATIVE-PAYREC-16-AX"
       ],
       "return_path": null,
       "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
@@ -13071,12 +13326,25 @@
             "E-NATIVE-PAYMODE-09-AX"
           ],
           "result_kind": "observed_target"
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:01:44.288Z",
+          "input": "AX click fresh element16",
+          "outcome": "Observed S-NATIVE-PAYMENT-EVENTS; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-14",
+            "E-NATIVE-PAYREC-14-AX"
+          ]
         }
       ],
       "target_state_id": "S-NATIVE-PAYMENT-EVENTS",
       "evidence_ids": [
         "E-NATIVE-PAYMODE-09",
-        "E-NATIVE-PAYMODE-09-AX"
+        "E-NATIVE-PAYMODE-09-AX",
+        "E-NATIVE-PAYREC-14",
+        "E-NATIVE-PAYREC-14-AX"
       ],
       "return_path": null,
       "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
@@ -13101,17 +13369,303 @@
             "E-NATIVE-PAYMODE-10-AX"
           ],
           "result_kind": "observed_target"
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:01:47.296Z",
+          "input": "AX click fresh element17",
+          "outcome": "Observed S-NATIVE-PAYMENT-MODE-WEEK; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-15",
+            "E-NATIVE-PAYREC-15-AX"
+          ]
         }
       ],
       "target_state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
       "evidence_ids": [
         "E-NATIVE-PAYMODE-10",
-        "E-NATIVE-PAYMODE-10-AX"
+        "E-NATIVE-PAYMODE-10-AX",
+        "E-NATIVE-PAYREC-15",
+        "E-NATIVE-PAYREC-15-AX"
       ],
       "return_path": null,
       "authorization": "Ordinary reversible Calendar mode/history/filter lookup; no financial transaction",
       "blockers": [],
       "verification_boundary": "Finite Payment caller mode cycle; no universal state rules or boundaries"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+      "from_state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "control": "First history record row",
+      "input_summary": "AX click fresh first row element31; AX click fresh first row element31",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T18:58:31.114Z",
+          "input": "AX click fresh first row element31",
+          "outcome": "Observed S-NATIVE-PAYMENT-RECORD-DETAIL; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-03",
+            "E-NATIVE-PAYREC-03-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:00:01.772Z",
+          "input": "AX click fresh first row element31",
+          "outcome": "Observed S-NATIVE-PAYMENT-RECORD-DETAIL; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-07",
+            "E-NATIVE-PAYREC-07-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-03",
+        "E-NATIVE-PAYREC-03-AX",
+        "E-NATIVE-PAYREC-07",
+        "E-NATIVE-PAYREC-07-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
+      "blockers": [],
+      "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+      "from_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "control": "Outstanding Amount eye icon",
+      "input_summary": "AX click fresh eye button33; value remains in ignored raw only",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T18:59:28.959Z",
+          "input": "AX click fresh eye button33; value remains in ignored raw only",
+          "outcome": "Observed S-NATIVE-PAYMENT-RECORD-AMOUNT; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-04",
+            "E-NATIVE-PAYREC-04-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-04",
+        "E-NATIVE-PAYREC-04-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
+      "blockers": [],
+      "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT",
+      "from_state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+      "control": "Outstanding Amount eye icon",
+      "input_summary": "AX click fresh eye button33",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T18:59:36.013Z",
+          "input": "AX click fresh eye button33",
+          "outcome": "Observed S-NATIVE-PAYMENT-RECORD-DETAIL; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-05",
+            "E-NATIVE-PAYREC-05-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-05",
+        "E-NATIVE-PAYREC-05-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
+      "blockers": [],
+      "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-RECORD-BACK",
+      "from_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "control": "Detail Back",
+      "input_summary": "AX click fresh Back element10; AX click freshly reverified Back element10 after invalid-index attempt",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T18:59:40.875Z",
+          "input": "AX click fresh Back element10",
+          "outcome": "Observed S-NATIVE-PAYMENT-HISTORY; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-06",
+            "E-NATIVE-PAYREC-06-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:01:42.794Z",
+          "input": "AX click freshly reverified Back element10 after invalid-index attempt",
+          "outcome": "Observed S-NATIVE-PAYMENT-HISTORY; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-13",
+            "E-NATIVE-PAYREC-13-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:01:37.864Z",
+          "input": "AX click10 immediately after Portal close",
+          "outcome": "Invalid target index immediately after close; no executed Back input established. Fresh AX and succeeding execution retained.",
+          "result_kind": "input_not_executed_invalid_element",
+          "target_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-12",
+            "E-NATIVE-PAYREC-12-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-06",
+        "E-NATIVE-PAYREC-06-AX",
+        "E-NATIVE-PAYREC-13",
+        "E-NATIVE-PAYREC-13-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
+      "blockers": [],
+      "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+      "from_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "control": "Student Account Portal link",
+      "input_summary": "AX click fresh public Portal element39; no login or payment input",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:00:02.469Z",
+          "input": "AX click fresh public Portal element39; no login or payment input",
+          "outcome": "Observed S-NATIVE-PAYMENT-PORTAL-LOADING; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-08",
+            "E-NATIVE-PAYREC-08-AX"
+          ],
+          "followup_state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK"
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-08",
+        "E-NATIVE-PAYREC-08-AX",
+        "E-NATIVE-PAYREC-09",
+        "E-NATIVE-PAYREC-09-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
+      "blockers": [],
+      "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+      "from_state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "control": "Portal More ellipsis",
+      "input_summary": "AX click fresh element9",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:00:46.120Z",
+          "input": "AX click fresh element9",
+          "outcome": "Observed S-NATIVE-PAYMENT-PORTAL-MENU; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-10",
+            "E-NATIVE-PAYREC-10-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-10",
+        "E-NATIVE-PAYREC-10-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
+      "blockers": [],
+      "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+      "from_state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+      "control": "Cancel",
+      "input_summary": "AX click fresh menu Cancel element8",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:01:01.785Z",
+          "input": "AX click fresh menu Cancel element8",
+          "outcome": "Observed S-NATIVE-PAYMENT-PORTAL-BLANK; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-11",
+            "E-NATIVE-PAYREC-11-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-11",
+        "E-NATIVE-PAYREC-11-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
+      "blockers": [],
+      "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
+    },
+    {
+      "id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+      "from_state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "control": "Portal Close X",
+      "input_summary": "AX click fresh element7 Close glyph",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-PAYMENT-RECORD",
+          "at": "2026-10-02T19:01:11.240Z",
+          "input": "AX click fresh element7 Close glyph",
+          "outcome": "Observed S-NATIVE-PAYMENT-RECORD-DETAIL; actual private values excluded from public record",
+          "target_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+          "evidence_ids": [
+            "E-NATIVE-PAYREC-12",
+            "E-NATIVE-PAYREC-12-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-12",
+        "E-NATIVE-PAYREC-12-AX"
+      ],
+      "return_path": null,
+      "authorization": "Ordinary read-only detail, amount visibility, embedded browser menu/cancel/close; no payment/login/share/data change",
+      "blockers": [],
+      "verification_boundary": "One history record; private financial data excluded; Portal successful load/login unverified"
     }
   ],
   "evidence": [
@@ -59014,6 +59568,634 @@
       ],
       "action_ids": [],
       "redaction": "Derived masked prototype samples, history/week/Home DEMO"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/00-month-start.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:58:14.696Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open []; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-00-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/00-month-start.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:58:14.696Z",
+      "sha256": "4f7c933d313a4c3554519c487ef3c240a7ddb3e72b5ce44e3a89df20b0e0431d",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/01-events-start.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:58:16.129Z",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open []; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-01-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/01-events-start.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:58:16.129Z",
+      "sha256": "22c974d68e33da64f5a0541c28990c84577b96cc6e6826c7bddd2013d7a1a7bf",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/02-history-start.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:58:21.188Z",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[0, 190, 576, 919]]; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-02-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/02-history-start.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:58:21.188Z",
+      "sha256": "cd272419ee776b0734e224c7d320bec3b75e757d7794c0458a5c7067293dd6f9",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/03-first-record-entry.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:58:31.114Z",
+      "sha256": "5914c3f202ad262f0e2a59e6f6fa6202245de6c7b4699d49f8010675ef883691",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-03-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/03-first-record-entry.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:58:31.114Z",
+      "sha256": "c47cfea5096481ab4deff66340794be72a3ce3e8f04f28d9f2275eb455592701",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/04-amount-revealed.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:59:28.959Z",
+      "sha256": "da1a774bf4f36da2ff509b2c755fd528422aa1d66dfaf8517c83d66deb94e87a",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-AMOUNT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-04-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/04-amount-revealed.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:59:28.959Z",
+      "sha256": "716b7dbe9daacc147fc2451e8f0e9283d4e8ed62306fffeda6db570c88a9a265",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-AMOUNT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/05-amount-hidden-again.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:59:36.013Z",
+      "sha256": "da1a774bf4f36da2ff509b2c755fd528422aa1d66dfaf8517c83d66deb94e87a",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-05-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/05-amount-hidden-again.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:59:36.013Z",
+      "sha256": "6bde5b3ceaad967847f1ebcbda04a924ca17464c857862dd29b597135d142477",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/06-history-return.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:59:40.875Z",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-BACK"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[0, 190, 576, 919]]; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-06-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/06-history-return.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T18:59:40.875Z",
+      "sha256": "cd272419ee776b0734e224c7d320bec3b75e757d7794c0458a5c7067293dd6f9",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-BACK"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/07-detail-reentry.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:00:01.772Z",
+      "sha256": "da1a774bf4f36da2ff509b2c755fd528422aa1d66dfaf8517c83d66deb94e87a",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-07-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/07-detail-reentry.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:00:01.772Z",
+      "sha256": "6bde5b3ceaad967847f1ebcbda04a924ca17464c857862dd29b597135d142477",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/08-portal-entry-attempt.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:00:02.469Z",
+      "sha256": "3feafcf846bb41c1b3aeebf2a562ad065e1f863b863137b83b082f23024ab3c0",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-OPEN"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[100, 40, 476, 82]]; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-08-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/08-portal-entry-attempt.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:00:02.469Z",
+      "sha256": "e83f58d9ad391ba24086693e6084c36d94950c48e9c517ce0171eaee8a833d93",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-OPEN"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/09-portal-followup.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:00:23.242Z",
+      "sha256": "116a53f704b0078f9aa7ce0c29bf7ac5fb2904070b3bc302dde0ece58c4f0360",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[100, 40, 476, 82]]; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-09-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/09-portal-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:00:23.242Z",
+      "sha256": "fa3782db192be53221270d1a7d25575cbc6132e14415491246231e10284ccc68",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/10-portal-more-menu.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:00:46.120Z",
+      "sha256": "83fc963816904c638282afc60b758aaed9b2a1dcd024ef140f83396c176f6405",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MORE"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[100, 40, 476, 82]]; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-10-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/10-portal-more-menu.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:00:46.120Z",
+      "sha256": "ea1607a759245f4aacd0216b04e9b1a77a2bec26cdc9f65bea0421535ef22c41",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MORE"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/11-portal-menu-cancel.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:01.785Z",
+      "sha256": "54579245fb564d8dfce443340f9ca5010e37d89fa2a28424ba36c14a6c0a96d0",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[100, 40, 476, 82]]; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-11-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/11-portal-menu-cancel.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:01.785Z",
+      "sha256": "1db59f57c2b83b45980dd89f770564444166cf7c5f2aabd1f17a6e8ab2c87d97",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/12-portal-close-detail.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:11.240Z",
+      "sha256": "8af06efe5a444376cbdb68d07ad0c924546abd6e208549dea05303c53d7e4a7c",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-CLOSE"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-12-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/12-portal-close-detail.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:11.240Z",
+      "sha256": "1db59f57c2b83b45980dd89f770564444166cf7c5f2aabd1f17a6e8ab2c87d97",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-CLOSE"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/13-detail-back-restored.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:42.794Z",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-BACK"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[0, 190, 576, 919]]; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-13-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/13-detail-back-restored.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:42.794Z",
+      "sha256": "cd272419ee776b0734e224c7d320bec3b75e757d7794c0458a5c7067293dd6f9",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-BACK"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/14-history-hide-restored.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:44.288Z",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open []; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-14-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/14-history-hide-restored.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:44.288Z",
+      "sha256": "22c974d68e33da64f5a0541c28990c84577b96cc6e6826c7bddd2013d7a1a7bf",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/15-week-for-return.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:47.296Z",
+      "sha256": "d3e929d3551f3cb94c8af9ea5d5f75d6cd28d62c35b275590d21f51cca15698b",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[82, 197, 576, 919]]; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-15-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/15-week-for-return.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:47.296Z",
+      "sha256": "ef8c833425f88135ce6893ef8e5be088ba3438f4bbb535577b7e6e7f682d0c5c",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/16-month-source-restored.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:55.815Z",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open []; actual financial fields excluded.",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NATIVE-PAYREC-16-AX",
+      "type": "safe-ax",
+      "path": "../../evidence/2026-10-03-payment-record-native/16-month-source-restored.safe-ax.txt",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "captured_at": "2026-10-02T19:01:55.815Z",
+      "sha256": "4f7c933d313a4c3554519c487ef3c240a7ddb3e72b5ce44e3a89df20b0e0431d",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Derived actual native AX subset",
+      "redaction": "All financial/private values and record/account aggregates excluded"
+    },
+    {
+      "id": "E-NATIVE-PAYREC-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-native/contact-sheet.png",
+      "session_id": "SESSION-20261003-PAYMENT-RECORD",
+      "sha256": "9f86e4ba8ee616e9a6f2f241a94c6ca8f4f044a0bd745ff930755964d4952ed5",
+      "dimensions": [
+        1152,
+        1155
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-PAYMENT-EVENTS",
+        "S-NATIVE-PAYMENT-HISTORY",
+        "S-NATIVE-PAYMENT-RECORD-DETAIL",
+        "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+        "S-NATIVE-PAYMENT-PORTAL-LOADING",
+        "S-NATIVE-PAYMENT-PORTAL-BLANK",
+        "S-NATIVE-PAYMENT-PORTAL-MENU",
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [],
+      "redaction": "Derived masked native samples"
     }
   ],
   "findings": [
@@ -59306,6 +60488,32 @@
         "Repeat on real iPhone with native touch",
         "Compare whether existing content already identifies category sufficiently",
         "Check reverse drag, repeated selection and category scroll retention"
+      ]
+    },
+    {
+      "id": "H-PAYMENT-AMOUNT-AX-LABEL",
+      "kind": "hypothesis",
+      "observed_fact": "Native amount eye buttons expose private-use glyphs eye-slash/eye in Mac AX without a descriptive Show/Hide amount name; clicking changes visible masked/unmasked state and reverse restores it. Actual amounts excluded.",
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL",
+        "S-NATIVE-PAYMENT-RECORD-AMOUNT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+        "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT"
+      ],
+      "evidence_ids": [
+        "E-NATIVE-PAYREC-03-AX",
+        "E-NATIVE-PAYREC-04-AX",
+        "E-NATIVE-PAYREC-05-AX"
+      ],
+      "hypothesis": "People using assistive navigation may have difficulty predicting or identifying amount disclosure from glyph-only names. No iOS VoiceOver or human error evidence yet.",
+      "principle": "Understandable control meaning, state visibility and accessible naming.",
+      "suggestion": "Verify on iPhone/VoiceOver; evaluate descriptive Show/Hide outstanding amount names and announced visibility state. Prototype still reconstructs observed behavior, not candidate fix.",
+      "requires_validation": [
+        "iPhone VoiceOver name/state readout",
+        "People interpreting eye icon and amount privacy",
+        "Language/platform differences"
       ]
     }
   ],
@@ -111263,9 +112471,14 @@
         "S-NATIVE-PAYNAV-HOME3",
         "S-NATIVE-PAYMENT-EVENTS",
         "S-NATIVE-PAYMENT-HISTORY",
-        "S-NATIVE-PAYMENT-MODE-WEEK"
+        "S-NATIVE-PAYMENT-MODE-WEEK",
+        "S-NATIVE-PAYMENT-RECORD-DETAIL",
+        "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+        "S-NATIVE-PAYMENT-PORTAL-LOADING",
+        "S-NATIVE-PAYMENT-PORTAL-BLANK",
+        "S-NATIVE-PAYMENT-PORTAL-MENU"
       ],
-      "reason": "Oct2 None/Class/Exam/detail/Notice finite reference is now imported and replayed. Oct3 resumed Payment-only Apply is observed with selected October2 No event; reopening not established. Main callers, other dates/modes/combinations, maps and Notice remaining controls still pending. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; local black preview discrepancy corrected: actual saved04 is normal Payment, same hash/pixels as00/02/05. Other callers and full persistence integration remain pending. Oct3 Payment date3/date4 and October→November1→October1→October2 cycle observed; first Increment unchanged then lower-case increment succeeds. Full date/mode/combination/caller boundaries remain pending. Four Payment date/month frames and five controls imported and replayed twice; Oct2 Home regression sampled. New-date Home/filter/mode controls and full boundaries still pending. October3 Payment Home reentry retains date/month/category; AX filter unchanged and coordinate noWindowsAvailable, not an app defect. Per-date mode/filter/other callers still pending. October2 Payment Month→Events→Week→Month and Show/Hide History now observed; history resets hidden after mode cycle. Fresh runtime discovery did not recover coordinate input; filter remains unresolved.",
+      "reason": "Oct2 None/Class/Exam/detail/Notice finite reference is now imported and replayed. Oct3 resumed Payment-only Apply is observed with selected October2 No event; reopening not established. Main callers, other dates/modes/combinations, maps and Notice remaining controls still pending. Oct3 Payment → scrolled Home → Calendar retains October month, selected Oct2 and Payment in one native roundtrip; no universal fixed Week or month entry rule asserted. Figma main callers remain pending. Finite Oct3 Payment/Home caller now connected in Figma and sampled; local black preview discrepancy corrected: actual saved04 is normal Payment, same hash/pixels as00/02/05. Other callers and full persistence integration remain pending. Oct3 Payment date3/date4 and October→November1→October1→October2 cycle observed; first Increment unchanged then lower-case increment succeeds. Full date/mode/combination/caller boundaries remain pending. Four Payment date/month frames and five controls imported and replayed twice; Oct2 Home regression sampled. New-date Home/filter/mode controls and full boundaries still pending. October3 Payment Home reentry retains date/month/category; AX filter unchanged and coordinate noWindowsAvailable, not an app defect. Per-date mode/filter/other callers still pending. October2 Payment Month→Events→Week→Month and Show/Hide History now observed; history resets hidden after mode cycle. Fresh runtime discovery did not recover coordinate input; filter remains unresolved. First Payment history row opens detail; eye reveal/hide and Back observed, Portal loading→titled blank and More/Cancel/Close observed. Record list/menu bounds, other records and external Portal actions remain pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-CALENDAR-TRACE",
@@ -111297,7 +112510,10 @@
         "E-NATIVE-PAYMODE-02",
         "E-NATIVE-PAYMODE-05",
         "E-NATIVE-PAYMODE-07",
-        "E-NATIVE-PAYMODE-09"
+        "E-NATIVE-PAYMODE-09",
+        "E-NATIVE-PAYREC-03",
+        "E-NATIVE-PAYREC-09",
+        "E-NATIVE-PAYREC-13"
       ]
     },
     {

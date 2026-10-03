@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Payment 第一条记录与 Portal 原生走查](calendar-payment-record-walkthrough.md)确认金额显示/隐藏、两次详情返回及内嵌浏览器 More/Cancel/X。17个采样画面已脱敏；Portal停在有标题的空白页，未证明服务成功或故障。当前原生170状态/327动作（242 observed、81 not_attempted、4 attempted_unverified），候选问题11项。Figma仍175画板/378控件/121次运行，本批详情原型待制作，完整应用 `not_verified`。
+
 最新[Payment模式与历史开关](calendar-payment-modes-walkthrough.md)补Month→Events→Week→Month、Show/Hide History及模式重入复位的原生证据；Figma新增3画板/6连接并实际回放。当前原生165状态/319动作（234 observed、81 not_attempted、4 attempted_unverified），Figma175画板/378控件/121次运行。筛选、记录菜单/滚动与完整应用仍 `not_verified`。
 
 最新[October3 Payment/Home 返回上下文](calendar-payment-day3-home-walkthrough.md)补真实日期保留证据、1个可编辑Home DEMO、2条连接与3组Present回放。原生162状态/312动作（228 observed、81 not_attempted、3 attempted_unverified）；Figma172画板/372控件/118次运行。筛选重开与视图定位仍有缺口，完整应用 `not_verified`。

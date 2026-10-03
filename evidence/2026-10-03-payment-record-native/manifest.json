@@ -1,0 +1,513 @@
+{
+  "kind": "actual_native_payment_record_amount_and_embedded_portal",
+  "session_id": "SESSION-20261003-PAYMENT-RECORD",
+  "images": [
+    {
+      "file": "00-month-start.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:58:14.696Z",
+      "description": "month-start",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open []; actual financial fields excluded.",
+      "masks_half_open_xyxy": []
+    },
+    {
+      "file": "01-events-start.png",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:58:16.129Z",
+      "description": "events-start",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open []; actual financial fields excluded.",
+      "masks_half_open_xyxy": []
+    },
+    {
+      "file": "02-history-start.png",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:58:21.188Z",
+      "description": "history-start",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[0, 190, 576, 919]]; actual financial fields excluded.",
+      "masks_half_open_xyxy": [
+        [
+          0,
+          190,
+          576,
+          919
+        ]
+      ]
+    },
+    {
+      "file": "03-first-record-entry.png",
+      "sha256": "5914c3f202ad262f0e2a59e6f6fa6202245de6c7b4699d49f8010675ef883691",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:58:31.114Z",
+      "description": "first-record-entry",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ],
+        [
+          18,
+          100,
+          558,
+          1024
+        ]
+      ]
+    },
+    {
+      "file": "04-amount-revealed.png",
+      "sha256": "da1a774bf4f36da2ff509b2c755fd528422aa1d66dfaf8517c83d66deb94e87a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:59:28.959Z",
+      "description": "amount-revealed",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ],
+        [
+          18,
+          100,
+          558,
+          1024
+        ]
+      ]
+    },
+    {
+      "file": "05-amount-hidden-again.png",
+      "sha256": "da1a774bf4f36da2ff509b2c755fd528422aa1d66dfaf8517c83d66deb94e87a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:59:36.013Z",
+      "description": "amount-hidden-again",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ],
+        [
+          18,
+          100,
+          558,
+          1024
+        ]
+      ]
+    },
+    {
+      "file": "06-history-return.png",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:59:40.875Z",
+      "description": "history-return",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[0, 190, 576, 919]]; actual financial fields excluded.",
+      "masks_half_open_xyxy": [
+        [
+          0,
+          190,
+          576,
+          919
+        ]
+      ]
+    },
+    {
+      "file": "07-detail-reentry.png",
+      "sha256": "da1a774bf4f36da2ff509b2c755fd528422aa1d66dfaf8517c83d66deb94e87a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:00:01.772Z",
+      "description": "detail-reentry",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ],
+        [
+          18,
+          100,
+          558,
+          1024
+        ]
+      ]
+    },
+    {
+      "file": "08-portal-entry-attempt.png",
+      "sha256": "3feafcf846bb41c1b3aeebf2a562ad065e1f863b863137b83b082f23024ab3c0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:00:02.469Z",
+      "description": "portal-entry-attempt",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[100, 40, 476, 82]]; actual financial fields excluded.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ]
+      ]
+    },
+    {
+      "file": "09-portal-followup.png",
+      "sha256": "116a53f704b0078f9aa7ce0c29bf7ac5fb2904070b3bc302dde0ece58c4f0360",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:00:23.242Z",
+      "description": "portal-followup",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "action_id": null,
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[100, 40, 476, 82]]; actual financial fields excluded.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ]
+      ]
+    },
+    {
+      "file": "10-portal-more-menu.png",
+      "sha256": "83fc963816904c638282afc60b758aaed9b2a1dcd024ef140f83396c176f6405",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:00:46.120Z",
+      "description": "portal-more-menu",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[100, 40, 476, 82]]; actual financial fields excluded.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ]
+      ]
+    },
+    {
+      "file": "11-portal-menu-cancel.png",
+      "sha256": "54579245fb564d8dfce443340f9ca5010e37d89fa2a28424ba36c14a6c0a96d0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:01:01.785Z",
+      "description": "portal-menu-cancel",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[100, 40, 476, 82]]; actual financial fields excluded.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ]
+      ]
+    },
+    {
+      "file": "12-portal-close-detail.png",
+      "sha256": "8af06efe5a444376cbdb68d07ad0c924546abd6e208549dea05303c53d7e4a7c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:01:11.240Z",
+      "description": "portal-close-detail",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Header private title and entire detail body masked; image loading shifts all financial fields. Individual control claims supported by safe AX, not masked body pixels.",
+      "masks_half_open_xyxy": [
+        [
+          100,
+          40,
+          476,
+          82
+        ],
+        [
+          18,
+          100,
+          558,
+          1024
+        ]
+      ]
+    },
+    {
+      "file": "13-detail-back-restored.png",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:01:42.794Z",
+      "description": "detail-back-restored",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[0, 190, 576, 919]]; actual financial fields excluded.",
+      "masks_half_open_xyxy": [
+        [
+          0,
+          190,
+          576,
+          919
+        ]
+      ]
+    },
+    {
+      "file": "14-history-hide-restored.png",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:01:44.288Z",
+      "description": "history-hide-restored",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open []; actual financial fields excluded.",
+      "masks_half_open_xyxy": []
+    },
+    {
+      "file": "15-week-for-return.png",
+      "sha256": "d3e929d3551f3cb94c8af9ea5d5f75d6cd28d62c35b275590d21f51cca15698b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:01:47.296Z",
+      "description": "week-for-return",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open [[82, 197, 576, 919]]; actual financial fields excluded.",
+      "masks_half_open_xyxy": [
+        [
+          82,
+          197,
+          576,
+          919
+        ]
+      ]
+    },
+    {
+      "file": "16-month-source-restored.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T19:01:55.815Z",
+      "description": "month-source-restored",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; personal data masks half-open []; actual financial fields excluded.",
+      "masks_half_open_xyxy": []
+    }
+  ],
+  "safe_ax_files": [
+    "00-month-start.safe-ax.txt",
+    "01-events-start.safe-ax.txt",
+    "02-history-start.safe-ax.txt",
+    "03-first-record-entry.safe-ax.txt",
+    "04-amount-revealed.safe-ax.txt",
+    "05-amount-hidden-again.safe-ax.txt",
+    "06-history-return.safe-ax.txt",
+    "07-detail-reentry.safe-ax.txt",
+    "08-portal-entry-attempt.safe-ax.txt",
+    "09-portal-followup.safe-ax.txt",
+    "10-portal-more-menu.safe-ax.txt",
+    "11-portal-menu-cancel.safe-ax.txt",
+    "12-portal-close-detail.safe-ax.txt",
+    "13-detail-back-restored.safe-ax.txt",
+    "14-history-hide-restored.safe-ax.txt",
+    "15-week-for-return.safe-ax.txt",
+    "16-month-source-restored.safe-ax.txt"
+  ],
+  "crop_from_raw_xyxy": [
+    977,
+    0,
+    2047,
+    1898
+  ],
+  "normalized_size": [
+    576,
+    1024
+  ],
+  "limits": [
+    "One first history record only; no payment, login, external sharing or record change executed.",
+    "Private financial titles/numbers/dates/amounts masked; Figma detail/history values wholly synthetic DEMO.",
+    "Portal followed loading→titled blank content; not a successful financial service/login or proven server failure.",
+    "More menu observed, only Cancel and Close executed; system browser/share/copy/toolbar actions not executed.",
+    "Transient invalid Back index immediately after Close; fresh AX restores target and actual Back succeeds.",
+    "Mac observation only; iOS VoiceOver/human impact of eye glyph labels unverified.",
+    "Detail image loads asynchronously and shifts body. Public evidence masks whole body, geometry requires ignored-source inspection; masked equality is not a visual fidelity proof."
+  ],
+  "events": [
+    {
+      "kind": "transient_input_target_failure",
+      "input": "AX click10 immediately after Portal close",
+      "result": "Invalid element ID; no executed Back input established",
+      "recovery": "Fresh AX confirms Back element10; retry based on new state",
+      "at": "2026-10-02T19:01:37.864Z"
+    },
+    {
+      "kind": "redaction_correction",
+      "result": "Initial fixed field masks missed asynchronously shifted detail values in local drafts. Before Git publication, every detail body re-redacted wholly and hashes/contact sheet rebuilt. No unredacted draft committed."
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 16,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Public masked normalized pixels only; whole detail-body masking cannot validate financial fields, image geometry or amounts"
+    },
+    {
+      "a": 2,
+      "b": 6,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Public masked normalized pixels only; whole detail-body masking cannot validate financial fields, image geometry or amounts"
+    },
+    {
+      "a": 2,
+      "b": 13,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Public masked normalized pixels only; whole detail-body masking cannot validate financial fields, image geometry or amounts"
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "equal": false,
+      "difference_bbox": [
+        16,
+        95,
+        560,
+        346
+      ],
+      "scope": "Public masked normalized pixels only; whole detail-body masking cannot validate financial fields, image geometry or amounts"
+    },
+    {
+      "a": 3,
+      "b": 7,
+      "equal": false,
+      "difference_bbox": [
+        16,
+        95,
+        560,
+        346
+      ],
+      "scope": "Public masked normalized pixels only; whole detail-body masking cannot validate financial fields, image geometry or amounts"
+    },
+    {
+      "a": 3,
+      "b": 12,
+      "equal": false,
+      "difference_bbox": [
+        16,
+        95,
+        560,
+        346
+      ],
+      "scope": "Public masked normalized pixels only; whole detail-body masking cannot validate financial fields, image geometry or amounts"
+    },
+    {
+      "a": 9,
+      "b": 11,
+      "equal": false,
+      "difference_bbox": [
+        54,
+        86,
+        568,
+        954
+      ],
+      "scope": "Public masked normalized pixels only; whole detail-body masking cannot validate financial fields, image geometry or amounts"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "9f86e4ba8ee616e9a6f2f241a94c6ca8f4f044a0bd745ff930755964d4952ed5",
+    "dimensions": [
+      1152,
+      1155
+    ],
+    "source": "Seventeen inspected and masked actual native samples"
+  }
+}
