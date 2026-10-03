@@ -61332,6 +61332,528 @@
       ],
       "action_ids": [],
       "redaction": "Derived masked synthetic Home/date samples"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/00-legacy-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:07:52.526Z",
+      "sha256": "48f49b9b35596ad74647073803c3db0d8e8f59f359329067367f259bd22da23f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/01-initial.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:07:52.772Z",
+      "sha256": "a7fbf42a0c377cb1c47c151fe42f0b75338fd0ee778a704d8ec67d0da66253e6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/02-pq604-entered.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:07:56.201Z",
+      "sha256": "13965dd63bcdaabd41e0015cd9af1620f51c58eb7f06e0f5aa50d50d28293bb9",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-PQ"
+      ],
+      "action_ids": [
+        "A-ROOM-PQ-INPUT"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/03-pq604-no-result.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:07:59.721Z",
+      "sha256": "47ec387d5f9e7ef63a652255df2274a9140d417939370ba20721a67ecb4dac40",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-PQNONE"
+      ],
+      "action_ids": [
+        "A-ROOM-PQ-SEARCH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/04-pq604b-focused.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:04.302Z",
+      "sha256": "69690ffa9ebac03e2394bd59bfa6deac71b12951b218364468c85ff41463cf95",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-PQB"
+      ],
+      "action_ids": [
+        "A-ROOM-PQB-INPUT"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/05-pq604b-no-result.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:07.595Z",
+      "sha256": "08ce25850cdafa2729a3f83cb866f7b0a16f0ad34c70eda1cf60d0a3b827f9ed",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-PQBNONE"
+      ],
+      "action_ids": [
+        "A-ROOM-PQB-SEARCH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/06-tuesday-query-retained.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:11.174Z",
+      "sha256": "508708ec99e670ba1c2c177d51c4b8d15847732884fa5a80c583cc4fe8c05e0d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-TUE"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-TUE"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/07-cleared-stale-no-result.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:15.244Z",
+      "sha256": "81f6404b9541a464aa09d59baa99308e617f5af9e0e02306df59174aebc63fb6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-CLEARED"
+      ],
+      "action_ids": [
+        "A-ROOM-CLEAR"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/08-empty-query-guidance.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:19.707Z",
+      "sha256": "f0707b15c4ee9e6e3f9006022e943e745e63b67315046e08f004deade4950865",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-EMPTYQUERY"
+      ],
+      "action_ids": [
+        "A-ROOM-EMPTY-SEARCH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/09-ag206-suggestion-regression.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:24.749Z",
+      "sha256": "8931ef4f82067e4723512055858b5bcce0611d8a6d2f461f3ab634e0e579b81e",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-SUGGESTION"
+      ],
+      "action_ids": [
+        "A-ROOM-PREFIX"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/10-ag206-all-regression.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:29.170Z",
+      "sha256": "74534087f752afa67fab8c8c25552c9061853c80b846954ac1aa9a8efc51c2a7",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-ALL"
+      ],
+      "action_ids": [
+        "A-ROOM-SUGGESTION"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/11-legacy-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:33.503Z",
+      "sha256": "48f49b9b35596ad74647073803c3db0d8e8f59f359329067367f259bd22da23f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/12-initial-reopened.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:41.962Z",
+      "sha256": "a7fbf42a0c377cb1c47c151fe42f0b75338fd0ee778a704d8ec67d0da66253e6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/13-initial-back-legacy-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:42.221Z",
+      "sha256": "48f49b9b35596ad74647073803c3db0d8e8f59f359329067367f259bd22da23f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/14-monday-home-scrolled.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:50.880Z",
+      "sha256": "120d9b9bcfcac16d48f6a97fc707763029ec7b5c7972ae8ec6c7c8d85be5c25f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/15-monday-initial.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:58.735Z",
+      "sha256": "31c7a82fd406e2075da971c453a55e0eb1121dacbed9dfda8bddcc92775466a2",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-EMPTY"
+      ],
+      "action_ids": [
+        "A-HOME-ROOM"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/16-monday-pq604.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:58.949Z",
+      "sha256": "18363545f41a0d71e76542a8c383fa3476672960fc8c9e4a9766e7dc6b1dfcac",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-PQ"
+      ],
+      "action_ids": [
+        "A-ROOM-PQ-INPUT"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/17-monday-pq604-none.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:59.212Z",
+      "sha256": "7ad63d474865a677db7fc7de2fad92a20da809ed6f258d267b018a9d64d3d298",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-PQNONE"
+      ],
+      "action_ids": [
+        "A-ROOM-PQ-SEARCH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/18-monday-pq604b-focus.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:59.475Z",
+      "sha256": "cf35621855d29470265ea60d4ce9f1933b3098392ff8359fcfd1bea22d462710",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-PQB"
+      ],
+      "action_ids": [
+        "A-ROOM-PQB-INPUT"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/19-monday-pq604b-none.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:59.738Z",
+      "sha256": "c765b28ba78946c3d6d810207125ccf859c9b0fa8e45246a31d75687f13a4beb",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-PQBNONE"
+      ],
+      "action_ids": [
+        "A-ROOM-PQB-SEARCH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/20-monday-tuesday.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:08:59.967Z",
+      "sha256": "0433f82335df4d2d8cab7c3dae56cd90312d5bc673321667451dc9e2689f650c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-TUE"
+      ],
+      "action_ids": [
+        "A-ROOM-DATE-TUE"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/21-monday-cleared-stale.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:09:00.176Z",
+      "sha256": "b9c50e574a03f31d18bc6909e3afcce9de24fefb916afbd7c83a60a8d979bbba",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-CLEARED"
+      ],
+      "action_ids": [
+        "A-ROOM-CLEAR"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-PROTO-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/22-cleared-back-monday-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:09:04.726Z",
+      "sha256": "120d9b9bcfcac16d48f6a97fc707763029ec7b5c7972ae8ec6c7c8d85be5c25f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PQQUERY-EDITOR-INITIAL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/editor-initial.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:07:05.940349+00:00",
+      "sha256": "a6c6f6f1fbf2a6d7f55ac25c8874b3377892b3ff9c839dccaeeb7cef9c0e129d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Editor account header masked"
+    },
+    {
+      "id": "E-PQQUERY-EDITOR-TUESDAY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/editor-tuesday.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:07:08.246850+00:00",
+      "sha256": "25c62ea57152deb5ba54ca7326cc87becbd52ae0c97299de889fbc5dfbce1b12",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Editor account header masked"
+    },
+    {
+      "id": "E-PQQUERY-EDITOR-FLOW",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/editor-flow.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:09:30.021307+00:00",
+      "sha256": "89d4d50e0ede3c8fe3007a63e69b46551babe93a7f3c4a4ab1ed5ed8eb5fefcc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Editor account header masked"
+    },
+    {
+      "id": "E-PQQUERY-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-room-pq-query/contact-sheet.png",
+      "session_id": null,
+      "sha256": "3b2f25e45874af3f0e8c3e15de02a64ba29cadffd1f4d3cdcde2bc830dbaa1db",
+      "dimensions": [
+        912,
+        2460
+      ],
+      "state_ids": [
+        "S-HOME",
+        "S-EMPTY",
+        "S-PQ",
+        "S-PQNONE",
+        "S-PQB",
+        "S-PQBNONE",
+        "S-TUE",
+        "S-CLEARED",
+        "S-EMPTYQUERY",
+        "S-SUGGESTION",
+        "S-ALL",
+        "S-HOME-SCHEDULE-MON"
+      ],
+      "action_ids": [],
+      "redaction": "Derived masked samples; Home personal content synthetic"
     }
   ],
   "findings": [
@@ -71067,6 +71589,323 @@
           "E-PAYREC-PROTO-25",
           "E-PAYREC-PROTO-37"
         ]
+      },
+      {
+        "state_id": "S-EMPTY",
+        "context_variant": "20260928-pq-query",
+        "node_id": "846:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=846-19",
+        "node_name": "[PQ:INITIAL] Room — September28 initial",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "source_evidence_ids": [
+          "E-EMPTY"
+        ],
+        "design_source_path": "../../design/polyulife/room-pq-initial.svg",
+        "design_source_sha256": "c4520a698c97ac5fddb6c29fad6cf7c4c83eeff5686ac5ec67ca6f1a4ec85d62",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            80500
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector layers, no raster screenshot background",
+        "content_policy": "Public room/date text; no private values",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite historical query feedback sampled, fonts/icons approximate; initial source lower blank cropped",
+          "evidence_ids": [
+            "E-PQQUERY-PROTO-01",
+            "E-PQQUERY-PROTO-12",
+            "E-PQQUERY-PROTO-15"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PQQUERY-PROTO-01",
+          "E-PQQUERY-PROTO-12",
+          "E-PQQUERY-PROTO-15"
+        ]
+      },
+      {
+        "state_id": "S-PQ",
+        "context_variant": "20260928-pq-query",
+        "node_id": "846:55",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=846-55",
+        "node_name": "[PQ:INPUT] Room — PQ604 entered",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "source_evidence_ids": [
+          "E-PQ"
+        ],
+        "design_source_path": "../../design/polyulife/room-pq-typed.svg",
+        "design_source_sha256": "80ce962541d123c01a7d73520024e42af1aa0f82a24ff3e2cd52905a115c4c6e",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            80500
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector layers, no raster screenshot background",
+        "content_policy": "Public room/date text; no private values",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite historical query feedback sampled, fonts/icons approximate; initial source lower blank cropped",
+          "evidence_ids": [
+            "E-PQQUERY-PROTO-02",
+            "E-PQQUERY-PROTO-16"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PQQUERY-PROTO-02",
+          "E-PQQUERY-PROTO-16"
+        ]
+      },
+      {
+        "state_id": "S-PQNONE",
+        "context_variant": "20260928-pq-query",
+        "node_id": "846:105",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=846-105",
+        "node_name": "[PQ:NONE] Room — PQ604 no result",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "source_evidence_ids": [
+          "E-PQNONE"
+        ],
+        "design_source_path": "../../design/polyulife/room-pq-none.svg",
+        "design_source_sha256": "40f6fb016e33911515968fce0454786f88011d3e1ffb6ac89c71eb54078965ec",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            80500
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector layers, no raster screenshot background",
+        "content_policy": "Public room/date text; no private values",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite historical query feedback sampled, fonts/icons approximate; initial source lower blank cropped",
+          "evidence_ids": [
+            "E-PQQUERY-PROTO-03",
+            "E-PQQUERY-PROTO-17"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PQQUERY-PROTO-03",
+          "E-PQQUERY-PROTO-17"
+        ]
+      },
+      {
+        "state_id": "S-PQB",
+        "context_variant": "20260928-pq-query",
+        "node_id": "846:392",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=846-392",
+        "node_name": "[PQ:B-INPUT] Room — PQ604B focused",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "source_evidence_ids": [
+          "E-PQB"
+        ],
+        "design_source_path": "../../design/polyulife/room-pq-b-focused.svg",
+        "design_source_sha256": "3e4c0b09453df393012929c653458d4720f1d86dcdfab50ad35ac31e52c23f4c",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            80500
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector layers, no raster screenshot background",
+        "content_policy": "Public room/date text; no private values",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite historical query feedback sampled, fonts/icons approximate; initial source lower blank cropped",
+          "evidence_ids": [
+            "E-PQQUERY-PROTO-04",
+            "E-PQQUERY-PROTO-18"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PQQUERY-PROTO-04",
+          "E-PQQUERY-PROTO-18"
+        ]
+      },
+      {
+        "state_id": "S-PQBNONE",
+        "context_variant": "20260928-pq-query",
+        "node_id": "846:203",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=846-203",
+        "node_name": "[PQ:B-NONE] Room — PQ604B no result",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "source_evidence_ids": [
+          "E-PQBNONE"
+        ],
+        "design_source_path": "../../design/polyulife/room-pq-b-none.svg",
+        "design_source_sha256": "544580007769a0c3822a03f5bd670a4298abe32741d26d55af34dbadc7ec25c1",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2800,
+            80500
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector layers, no raster screenshot background",
+        "content_policy": "Public room/date text; no private values",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite historical query feedback sampled, fonts/icons approximate; initial source lower blank cropped",
+          "evidence_ids": [
+            "E-PQQUERY-PROTO-05",
+            "E-PQQUERY-PROTO-19"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PQQUERY-PROTO-05",
+          "E-PQQUERY-PROTO-19"
+        ]
+      },
+      {
+        "state_id": "S-TUE",
+        "context_variant": "20260928-pq-query",
+        "node_id": "846:250",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=846-250",
+        "node_name": "[PQ:TUE] Room — Tuesday query retained",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "source_evidence_ids": [
+          "E-TUE"
+        ],
+        "design_source_path": "../../design/polyulife/room-pq-tue.svg",
+        "design_source_sha256": "57bc379c96ea1d81033691843ecb0857396c08021d8654dc9cee8d48148e2a42",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            3500,
+            80500
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector layers, no raster screenshot background",
+        "content_policy": "Public room/date text; no private values",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite historical query feedback sampled, fonts/icons approximate; initial source lower blank cropped",
+          "evidence_ids": [
+            "E-PQQUERY-PROTO-06",
+            "E-PQQUERY-PROTO-20"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PQQUERY-PROTO-06",
+          "E-PQQUERY-PROTO-20"
+        ]
+      },
+      {
+        "state_id": "S-CLEARED",
+        "context_variant": "20260928-tuesday-cleared-stale",
+        "node_id": "846:345",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=846-345",
+        "node_name": "[PQ:CLEARED] Room — Tuesday stale no result",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "source_evidence_ids": [
+          "E-CLEARED"
+        ],
+        "design_source_path": "../../design/polyulife/room-pq-cleared.svg",
+        "design_source_sha256": "28011397625f4482cf489e8dba0aa24d188f7f943fdd66009040b0540151b810",
+        "viewport": {
+          "frame_size": [
+            576,
+            970
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            4200,
+            80500
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector layers, no raster screenshot background",
+        "content_policy": "Public room/date text; no private values",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite historical query feedback sampled, fonts/icons approximate; initial source lower blank cropped",
+          "evidence_ids": [
+            "E-PQQUERY-PROTO-07",
+            "E-PQQUERY-PROTO-21"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PQQUERY-PROTO-07",
+          "E-PQQUERY-PROTO-21"
+        ]
       }
     ],
     "action_connection_mappings": [
@@ -73331,19 +74170,20 @@
         "connection_id": "C-HOME-ROOM",
         "action_id": "A-HOME-ROOM",
         "source_node_id": "67:820",
-        "target_node_id": "12:198",
+        "target_node_id": "846:19",
         "trigger_node_id": "67:878",
         "trigger_node_name": "FeatureRoom",
         "trigger": "On click",
         "behavior": "Open overlay",
-        "revision_id": "FIGMA-ROOM-CALLER-STACK",
-        "configured_at": "2026-09-28T18:21:07.237Z",
-        "implementation_status": "home_sample_passed_standalone_incomplete",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "configured_at": "2026-10-03T02:06:26.366Z",
+        "implementation_status": "corrected_initial_state_replayed_partial",
         "prototype_run_ids": [
-          "PROTO-HOME-STUDY-V2-001",
-          "PROTO-ROOM-CALLER-STACK-001"
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
         ],
-        "source_fidelity": "Native Home->Room initially showed different Room state; prototype enters later observed cleared empty query12:198.",
+        "source_fidelity": "September28 observed Home→initialToday28 reconstructed; Monday continuous Home remains synthetic/layout approximation; other dates not generalized",
         "deviation_ids": [
           "D-STUDY-DEMO-CONTENT",
           "D-HOME-SAMPLE-ENTRY",
@@ -73373,17 +74213,64 @@
               "D-HOME-SAMPLE-ENTRY",
               "D-STUDY-STATIC-INPUT"
             ]
+          },
+          {
+            "connection_id": "C-HOME-ROOM",
+            "action_id": "A-HOME-ROOM",
+            "source_node_id": "67:820",
+            "target_node_id": "12:198",
+            "trigger_node_id": "67:878",
+            "trigger_node_name": "FeatureRoom",
+            "trigger": "On click",
+            "behavior": "Open overlay",
+            "revision_id": "FIGMA-ROOM-CALLER-STACK",
+            "configured_at": "2026-09-28T18:21:07.237Z",
+            "implementation_status": "home_sample_passed_standalone_incomplete",
+            "prototype_run_ids": [
+              "PROTO-HOME-STUDY-V2-001",
+              "PROTO-ROOM-CALLER-STACK-001"
+            ],
+            "source_fidelity": "Native Home->Room initially showed different Room state; prototype enters later observed cleared empty query12:198.",
+            "deviation_ids": [
+              "D-STUDY-DEMO-CONTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-STUDY-STATIC-INPUT",
+              "D-HOME-MODULE-RETURN",
+              "D-ROOM-STANDALONE-EXIT"
+            ],
+            "prototype_evidence_ids": [
+              "E-ROOM-STACK-TRACE"
+            ],
+            "overlay_options": {
+              "position": "Centered",
+              "close_on_outside_click": false,
+              "background": false,
+              "animation": "Instant"
+            }
           }
         ],
         "prototype_evidence_ids": [
-          "E-ROOM-STACK-TRACE"
+          "E-PQQUERY-PROTO-01",
+          "E-PQQUERY-PROTO-15"
         ],
         "overlay_options": {
           "position": "Centered",
           "close_on_outside_click": false,
           "background": false,
           "animation": "Instant"
-        }
+        },
+        "readback": [
+          "\t\t\t\t\t\t\t415 combo box (collapsed) Position, Value: Scroll with parent, ID: :r94:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t443 combo box (collapsed) Trigger, Value: On click, ID: :r9b:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t449 combo box (collapsed) Action, Value: Open overlay, ID: :r9e:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t454 combo box (collapsed) Destination, Value: [PQ:INITIAL] Room — September28 initial, ID: :r9i:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t461 combo box (collapsed) Animation, Value: Instant, ID: :r9u:, Secondary Actions: Expand",
+          "The focused UI element is 454 combo box (collapsed) Destination, Value: [PQ:INITIAL] Room — September28 initial, ID: :r9i:, Secondary Actions: Expand"
+        ],
+        "source_evidence_ids": [
+          "E-HOME",
+          "E-EMPTY"
+        ]
       },
       {
         "connection_id": "C-STUDY-EXPAND",
@@ -76708,22 +77595,24 @@
         "connection_id": "C-HOME-SCROLL-113-64",
         "action_id": "A-HOME-ROOM",
         "source_node_id": "67:569",
-        "target_node_id": "12:198",
+        "target_node_id": "846:19",
         "trigger_node_id": "113:64",
         "trigger_node_name": "FeatureRoom",
         "trigger": "On click",
         "behavior": "Open overlay",
-        "revision_id": "FIGMA-ROOM-CALLER-STACK",
-        "implementation_status": "home_sample_passed_standalone_incomplete",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "corrected_initial_state_replayed_partial",
         "prototype_run_ids": [
-          "PROTO-HOME-FEATURE-RETURN-001",
-          "PROTO-ROOM-CALLER-STACK-001"
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
         ],
         "configuration_evidence_ids": [
           "E-HOME-SCROLL-PROTOTYPE-TRACE"
         ],
         "source_evidence_ids": [
-          "E-HOME-STUDY-MAP-TRACE"
+          "E-HOME",
+          "E-EMPTY"
         ],
         "deviation_ids": [
           "D-HOME-SCROLL-EXTENT",
@@ -76731,7 +77620,7 @@
           "D-HOME-MODULE-RETURN",
           "D-ROOM-STANDALONE-EXIT"
         ],
-        "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+        "source_fidelity": "September28 observed Home→initialToday28 reconstructed; Monday continuous Home remains synthetic/layout approximation; other dates not generalized",
         "configuration_history": [
           {
             "connection_id": "C-HOME-SCROLL-113-64",
@@ -76786,18 +77675,66 @@
             "prototype_evidence_ids": [
               "E-HOME-FEATURE-PROTOTYPE-TRACE"
             ]
+          },
+          {
+            "connection_id": "C-HOME-SCROLL-113-64",
+            "action_id": "A-HOME-ROOM",
+            "source_node_id": "67:569",
+            "target_node_id": "12:198",
+            "trigger_node_id": "113:64",
+            "trigger_node_name": "FeatureRoom",
+            "trigger": "On click",
+            "behavior": "Open overlay",
+            "revision_id": "FIGMA-ROOM-CALLER-STACK",
+            "implementation_status": "home_sample_passed_standalone_incomplete",
+            "prototype_run_ids": [
+              "PROTO-HOME-FEATURE-RETURN-001",
+              "PROTO-ROOM-CALLER-STACK-001"
+            ],
+            "configuration_evidence_ids": [
+              "E-HOME-SCROLL-PROTOTYPE-TRACE"
+            ],
+            "source_evidence_ids": [
+              "E-HOME-STUDY-MAP-TRACE"
+            ],
+            "deviation_ids": [
+              "D-HOME-SCROLL-EXTENT",
+              "D-HOME-SAMPLE-ENTRY",
+              "D-HOME-MODULE-RETURN",
+              "D-ROOM-STANDALONE-EXIT"
+            ],
+            "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+            "prototype_evidence_ids": [
+              "E-HOME-FEATURE-PROTOTYPE-TRACE",
+              "E-ROOM-STACK-TRACE"
+            ],
+            "overlay_options": {
+              "position": "Centered",
+              "close_on_outside_click": false,
+              "background": false,
+              "animation": "Instant"
+            }
           }
         ],
         "prototype_evidence_ids": [
-          "E-HOME-FEATURE-PROTOTYPE-TRACE",
-          "E-ROOM-STACK-TRACE"
+          "E-PQQUERY-PROTO-01",
+          "E-PQQUERY-PROTO-15"
         ],
         "overlay_options": {
           "position": "Centered",
           "close_on_outside_click": false,
           "background": false,
           "animation": "Instant"
-        }
+        },
+        "configured_at": "2026-10-03T02:06:40.117Z",
+        "readback": [
+          "\t\t\t\t\t\t\t415 combo box (collapsed) Position, Value: Scroll with parent, ID: :r94:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t446 combo box (collapsed) Trigger, Value: On click, ID: :r9c:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t452 combo box (collapsed) Action, Value: Open overlay, ID: :r9f:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t457 combo box (collapsed) Destination, Value: [PQ:INITIAL] Room — September28 initial, ID: :r9j:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t464 combo box (collapsed) Animation, Value: Instant, ID: :r9v:, Secondary Actions: Expand",
+          "The focused UI element is 457 combo box (collapsed) Destination, Value: [PQ:INITIAL] Room — September28 initial, ID: :r9j:, Secondary Actions: Expand"
+        ]
       },
       {
         "connection_id": "C-HOME-SCROLL-113-58",
@@ -86061,6 +86998,403 @@
           "E-NATIVE-PAYNAV-06-AX"
         ],
         "source_fidelity": "Observed AX Day2 input from October3 Payment; finite two-day context, not arbitrary date handling"
+      },
+      {
+        "source_node_id": "846:345",
+        "trigger_node_id": "846:381",
+        "trigger_node_name": "SearchButton",
+        "action_id": "A-ROOM-EMPTY-SEARCH",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "12:198",
+        "configured_at": "2026-10-03T02:04:37.921Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1118 combo box (collapsed) Position, Value: Scroll with parent, ID: :r167:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1142 combo box (collapsed) Trigger, Value: On click, ID: :r16e:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1148 combo box (collapsed) Action, Value: Swap overlay, ID: :r16h:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1155 combo box (collapsed) Destination, Value: [S-EMPTYQUERY] Room — Empty, ID: :r170:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1160 combo box (collapsed) Animation, Value: Instant, ID: :r17d:, Secondary Actions: Expand",
+          "The focused UI element is 1155 combo box (collapsed) Destination, Value: [S-EMPTYQUERY] Room — Empty, ID: :r170:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-01",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+        "source_evidence_ids": [
+          "E-CLEARED"
+        ]
+      },
+      {
+        "source_node_id": "846:345",
+        "trigger_node_id": "846:351",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-03T02:04:40.518Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1118 combo box (collapsed) Position, Value: Scroll with parent, ID: :r167:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1155 combo box (collapsed) Trigger, Value: On click, ID: :r17o:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1161 combo box (collapsed) Action, Value: Close overlay, ID: :r17r:, Secondary Actions: Expand",
+          "The focused UI element is 1161 combo box (collapsed) Action, Value: Close overlay, ID: :r17r:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-02",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+        "source_evidence_ids": [
+          "E-CLEARED"
+        ]
+      },
+      {
+        "source_node_id": "846:250",
+        "trigger_node_id": "846:250",
+        "trigger_node_name": "[PQ:TUE] Room — Tuesday query retained",
+        "action_id": "A-ROOM-CLEAR",
+        "trigger": "Key BackSpace",
+        "behavior": "Swap overlay",
+        "target_node_id": "846:345",
+        "configured_at": "2026-10-03T02:04:52.512Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1221 combo box (collapsed) Overflow, Value: No scrolling, ID: :r18t:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1248 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r194:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1254 combo box (collapsed) Action, Value: Swap overlay, ID: :r197:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1261 combo box (collapsed) Destination, Value: [PQ:CLEARED] Room — Tuesday stale no result, ID: :r19m:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1266 combo box (collapsed) Animation, Value: Instant, ID: :r1a3:, Secondary Actions: Expand"
+        ],
+        "input_proxy": "Fixed historical query transition via keyboard; no arbitrary input",
+        "connection_id": "C-PQQUERY-03",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+        "source_evidence_ids": [
+          "E-TUE"
+        ]
+      },
+      {
+        "source_node_id": "846:250",
+        "trigger_node_id": "846:256",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-03T02:04:55.126Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1228 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1an:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1252 combo box (collapsed) Trigger, Value: On click, ID: :r1au:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1258 combo box (collapsed) Action, Value: Close overlay, ID: :r1b1:, Secondary Actions: Expand",
+          "The focused UI element is 1258 combo box (collapsed) Action, Value: Close overlay, ID: :r1b1:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-04",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_not_replayed",
+        "prototype_run_ids": [],
+        "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+        "source_evidence_ids": [
+          "E-TUE"
+        ]
+      },
+      {
+        "source_node_id": "846:203",
+        "trigger_node_id": "846:220",
+        "trigger_node_name": "Date-Tue-29-Sep",
+        "action_id": "A-ROOM-DATE-TUE",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "846:250",
+        "configured_at": "2026-10-03T02:05:03.020Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1435 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1d6:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1459 combo box (collapsed) Trigger, Value: On click, ID: :r1e3:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1465 combo box (collapsed) Action, Value: Swap overlay, ID: :r1e6:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1472 combo box (collapsed) Destination, Value: [PQ:TUE] Room — Tuesday query retained, ID: :r1el:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1477 combo box (collapsed) Animation, Value: Instant, ID: :r1f2:, Secondary Actions: Expand",
+          "The focused UI element is 1472 combo box (collapsed) Destination, Value: [PQ:TUE] Room — Tuesday query retained, ID: :r1el:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-05",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+        "source_evidence_ids": [
+          "E-PQBNONE"
+        ]
+      },
+      {
+        "source_node_id": "846:203",
+        "trigger_node_id": "846:209",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-03T02:05:05.674Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1435 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1d6:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1472 combo box (collapsed) Trigger, Value: On click, ID: :r1fd:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1478 combo box (collapsed) Action, Value: Close overlay, ID: :r1fg:, Secondary Actions: Expand",
+          "The focused UI element is 1478 combo box (collapsed) Action, Value: Close overlay, ID: :r1fg:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-06",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_not_replayed",
+        "prototype_run_ids": [],
+        "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+        "source_evidence_ids": [
+          "E-PQBNONE"
+        ]
+      },
+      {
+        "source_node_id": "846:392",
+        "trigger_node_id": "846:428",
+        "trigger_node_name": "SearchButton",
+        "action_id": "A-ROOM-PQB-SEARCH",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "846:203",
+        "configured_at": "2026-10-03T02:05:19.209Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1657 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1j9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1681 combo box (collapsed) Trigger, Value: On click, ID: :r1jk:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1687 combo box (collapsed) Action, Value: Swap overlay, ID: :r1jn:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1694 combo box (collapsed) Destination, Value: [PQ:B-NONE] Room — PQ604B no result, ID: :r1k6:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1699 combo box (collapsed) Animation, Value: Instant, ID: :r1kj:, Secondary Actions: Expand",
+          "The focused UI element is 1694 combo box (collapsed) Destination, Value: [PQ:B-NONE] Room — PQ604B no result, ID: :r1k6:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-07",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+        "source_evidence_ids": [
+          "E-PQB"
+        ]
+      },
+      {
+        "source_node_id": "846:392",
+        "trigger_node_id": "846:398",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-03T02:05:21.808Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1657 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1j9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1694 combo box (collapsed) Trigger, Value: On click, ID: :r1ku:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1700 combo box (collapsed) Action, Value: Close overlay, ID: :r1l1:, Secondary Actions: Expand",
+          "The focused UI element is 1700 combo box (collapsed) Action, Value: Close overlay, ID: :r1l1:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-08",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_not_replayed",
+        "prototype_run_ids": [],
+        "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+        "source_evidence_ids": [
+          "E-PQB"
+        ]
+      },
+      {
+        "source_node_id": "846:105",
+        "trigger_node_id": "846:105",
+        "trigger_node_name": "[PQ:NONE] Room — PQ604 no result",
+        "action_id": "A-ROOM-PQB-INPUT",
+        "trigger": "Key b",
+        "behavior": "Swap overlay",
+        "target_node_id": "846:392",
+        "configured_at": "2026-10-03T02:05:29.630Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1784 combo box (collapsed) Overflow, Value: No scrolling, ID: :r1mf:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1811 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r1mm:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1817 combo box (collapsed) Action, Value: Swap overlay, ID: :r1mp:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1824 combo box (collapsed) Destination, Value: [PQ:B-INPUT] Room — PQ604B focused, ID: :r1n8:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1829 combo box (collapsed) Animation, Value: Instant, ID: :r1nl:, Secondary Actions: Expand"
+        ],
+        "input_proxy": "Fixed historical query transition via keyboard; no arbitrary input",
+        "connection_id": "C-PQQUERY-09",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+        "source_evidence_ids": [
+          "E-PQNONE"
+        ]
+      },
+      {
+        "source_node_id": "846:105",
+        "trigger_node_id": "846:111",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-03T02:05:32.246Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1775 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1o9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1799 combo box (collapsed) Trigger, Value: On click, ID: :r1og:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1805 combo box (collapsed) Action, Value: Close overlay, ID: :r1oj:, Secondary Actions: Expand",
+          "The focused UI element is 1805 combo box (collapsed) Action, Value: Close overlay, ID: :r1oj:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-10",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_not_replayed",
+        "prototype_run_ids": [],
+        "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+        "source_evidence_ids": [
+          "E-PQNONE"
+        ]
+      },
+      {
+        "source_node_id": "846:55",
+        "trigger_node_id": "846:91",
+        "trigger_node_name": "SearchButton",
+        "action_id": "A-ROOM-PQ-SEARCH",
+        "trigger": "On click",
+        "behavior": "Swap overlay",
+        "target_node_id": "846:105",
+        "configured_at": "2026-10-03T02:05:45.816Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1920 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1qg:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1944 combo box (collapsed) Trigger, Value: On click, ID: :r1qn:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1950 combo box (collapsed) Action, Value: Swap overlay, ID: :r1qq:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1957 combo box (collapsed) Destination, Value: [PQ:NONE] Room — PQ604 no result, ID: :r1r9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1962 combo box (collapsed) Animation, Value: Instant, ID: :r1rm:, Secondary Actions: Expand",
+          "The focused UI element is 1957 combo box (collapsed) Destination, Value: [PQ:NONE] Room — PQ604 no result, ID: :r1r9:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-11",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+        "source_evidence_ids": [
+          "E-PQ"
+        ]
+      },
+      {
+        "source_node_id": "846:55",
+        "trigger_node_id": "846:61",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-03T02:05:48.466Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1920 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1qg:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t2001 combo box (collapsed) Trigger, Value: On click, ID: :r1sn:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t2007 combo box (collapsed) Action, Value: Close overlay, ID: :r1sq:, Secondary Actions: Expand",
+          "The focused UI element is 2007 combo box (collapsed) Action, Value: Close overlay, ID: :r1sq:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-12",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_not_replayed",
+        "prototype_run_ids": [],
+        "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+        "source_evidence_ids": [
+          "E-PQ"
+        ]
+      },
+      {
+        "source_node_id": "846:19",
+        "trigger_node_id": "846:19",
+        "trigger_node_name": "[PQ:INITIAL] Room — September28 initial",
+        "action_id": "A-ROOM-PQ-INPUT",
+        "trigger": "Key p",
+        "behavior": "Swap overlay",
+        "target_node_id": "846:55",
+        "configured_at": "2026-10-03T02:05:56.391Z",
+        "readback": [
+          "\t\t\t\t\t\t\t2091 combo box (collapsed) Overflow, Value: No scrolling, ID: :r1uq:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t2118 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r1v1:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t2124 combo box (collapsed) Action, Value: Swap overlay, ID: :r1v4:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t2131 combo box (collapsed) Destination, Value: [PQ:INPUT] Room — PQ604 entered, ID: :r1vj:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t2136 combo box (collapsed) Animation, Value: Instant, ID: :r200:, Secondary Actions: Expand"
+        ],
+        "input_proxy": "Fixed historical query transition via keyboard; no arbitrary input",
+        "connection_id": "C-PQQUERY-13",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+        "source_evidence_ids": [
+          "E-EMPTY"
+        ]
+      },
+      {
+        "source_node_id": "846:19",
+        "trigger_node_id": "846:25",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "behavior": "Close overlay",
+        "target_node_id": null,
+        "configured_at": "2026-10-03T02:05:59.192Z",
+        "readback": [
+          "\t\t\t\t\t\t\t2086 combo box (collapsed) Position, Value: Scroll with parent, ID: :r20m:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t2110 combo box (collapsed) Trigger, Value: On click, ID: :r20t:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t2116 combo box (collapsed) Action, Value: Close overlay, ID: :r210:, Secondary Actions: Expand",
+          "The focused UI element is 2116 combo box (collapsed) Action, Value: Close overlay, ID: :r210:, Secondary Actions: Expand"
+        ],
+        "input_proxy": null,
+        "connection_id": "C-PQQUERY-14",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
+        ],
+        "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+        "source_evidence_ids": [
+          "E-EMPTY"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -88111,6 +89445,29 @@
           "E-PAYREC-PROTO-03",
           "E-PAYREC-PROTO-23",
           "E-PAYREC-PROTO-35"
+        ]
+      },
+      {
+        "id": "D-ROOM-PQ-FIXED-INPUT",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "status": "partial",
+        "affected_state_ids": [
+          "S-EMPTY",
+          "S-PQ",
+          "S-PQNONE",
+          "S-PQB",
+          "S-PQBNONE",
+          "S-TUE",
+          "S-CLEARED"
+        ],
+        "original_behavior": "Native text input and clear actions observed with historical date context",
+        "current_implementation": "P/B/Backspace fixed state proxies; initial source scaled and lower blank clipped; five new Back exits configured but unreplayed",
+        "impact": "Finite demonstration only; no arbitrary input, full date model or exact keyboard fidelity",
+        "next_step": "Observe other query/date/exit contexts after native connection recovery",
+        "evidence_ids": [
+          "E-PQQUERY-CONTACT",
+          "E-EMPTY",
+          "E-CLEARED"
         ]
       }
     ],
@@ -109855,6 +111212,354 @@
           "Saved pixels reviewed despite lagging URL readbacks; comparisons prove repeated prototype samples only, not native fidelity.",
           "Native screenshot reconnection returns AppleEvent/LSOpen timeout; no new native state or action established. Application failure cause unknown."
         ]
+      },
+      {
+        "id": "PROTO-PQQUERY-LEGACY-001",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "start_node_id": "67:820",
+        "started_at": "2026-10-03T02:07:52.526Z",
+        "ended_at": "2026-10-03T02:08:33.503Z",
+        "status": "partial",
+        "navigation_status": "Finite query transitions and caller close reached recorded states; two new Back exits sampled",
+        "visual_status": "Saved pixels/contact reviewed; editable vectors approximate native and historical source initial lower blank clipped",
+        "steps": [
+          {
+            "file": "00-legacy-home.png",
+            "at": "2026-10-03T02:07:52.526Z",
+            "description": "legacy-home",
+            "state_id": "S-HOME",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-initial.png",
+            "at": "2026-10-03T02:07:52.772Z",
+            "description": "initial",
+            "state_id": "S-EMPTY",
+            "visible_node_id": "846:19",
+            "action_id": "A-HOME-ROOM",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-pq604-entered.png",
+            "at": "2026-10-03T02:07:56.201Z",
+            "description": "pq604-entered",
+            "state_id": "S-PQ",
+            "visible_node_id": "846:55",
+            "action_id": "A-ROOM-PQ-INPUT",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-pq604-no-result.png",
+            "at": "2026-10-03T02:07:59.721Z",
+            "description": "pq604-no-result",
+            "state_id": "S-PQNONE",
+            "visible_node_id": "846:105",
+            "action_id": "A-ROOM-PQ-SEARCH",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-pq604b-focused.png",
+            "at": "2026-10-03T02:08:04.302Z",
+            "description": "pq604b-focused",
+            "state_id": "S-PQB",
+            "visible_node_id": "846:392",
+            "action_id": "A-ROOM-PQB-INPUT",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-pq604b-no-result.png",
+            "at": "2026-10-03T02:08:07.595Z",
+            "description": "pq604b-no-result",
+            "state_id": "S-PQBNONE",
+            "visible_node_id": "846:203",
+            "action_id": "A-ROOM-PQB-SEARCH",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-tuesday-query-retained.png",
+            "at": "2026-10-03T02:08:11.174Z",
+            "description": "tuesday-query-retained",
+            "state_id": "S-TUE",
+            "visible_node_id": "846:250",
+            "action_id": "A-ROOM-DATE-TUE",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-cleared-stale-no-result.png",
+            "at": "2026-10-03T02:08:15.244Z",
+            "description": "cleared-stale-no-result",
+            "state_id": "S-CLEARED",
+            "visible_node_id": "846:345",
+            "action_id": "A-ROOM-CLEAR",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-empty-query-guidance.png",
+            "at": "2026-10-03T02:08:19.707Z",
+            "description": "empty-query-guidance",
+            "state_id": "S-EMPTYQUERY",
+            "visible_node_id": "12:198",
+            "action_id": "A-ROOM-EMPTY-SEARCH",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "09-ag206-suggestion-regression.png",
+            "at": "2026-10-03T02:08:24.749Z",
+            "description": "ag206-suggestion-regression",
+            "state_id": "S-SUGGESTION",
+            "visible_node_id": "12:380",
+            "action_id": "A-ROOM-PREFIX",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "10-ag206-all-regression.png",
+            "at": "2026-10-03T02:08:29.170Z",
+            "description": "ag206-all-regression",
+            "state_id": "S-ALL",
+            "visible_node_id": "12:243",
+            "action_id": "A-ROOM-SUGGESTION",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-10"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "11-legacy-home-return.png",
+            "at": "2026-10-03T02:08:33.503Z",
+            "description": "legacy-home-return",
+            "state_id": "S-HOME",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-11"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite historical September28/29 date and PQ604/PQ604B query contexts; arbitrary text/date handling and complete app not_verified.",
+          "P/B/Backspace replace fixed query states; keyboard controls are prototype input proxies, not observed native keyboard behavior.",
+          "Initial1060×1898 screenshot scaled uniformly to576 width and lower blank61.37px clipped; no responsive-layout/asynchronous cause established.",
+          "All vectors/fonts/icons approximate; pointer, halo and window fringe omitted. Home private fields synthetic DEMO.",
+          "New Back controls generalize Close overlay; initial and cleared new exits replayed, other five new exits configured but unreplayed. Native caller persistence not newly established.",
+          "Native observation timed out after user unlocked and one runtime-wrapper recovery; no new native states/actions or app-failure diagnosis."
+        ]
+      },
+      {
+        "id": "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "start_node_id": "67:820",
+        "started_at": "2026-10-03T02:08:33.503Z",
+        "ended_at": "2026-10-03T02:08:42.221Z",
+        "status": "partial",
+        "navigation_status": "Finite query transitions and caller close reached recorded states; two new Back exits sampled",
+        "visual_status": "Saved pixels/contact reviewed; editable vectors approximate native and historical source initial lower blank clipped",
+        "steps": [
+          {
+            "file": "11-legacy-home-return.png",
+            "at": "2026-10-03T02:08:33.503Z",
+            "description": "legacy-home-return",
+            "state_id": "S-HOME",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-11"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "12-initial-reopened.png",
+            "at": "2026-10-03T02:08:41.962Z",
+            "description": "initial-reopened",
+            "state_id": "S-EMPTY",
+            "visible_node_id": "846:19",
+            "action_id": "A-HOME-ROOM",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-12"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "13-initial-back-legacy-home.png",
+            "at": "2026-10-03T02:08:42.221Z",
+            "description": "initial-back-legacy-home",
+            "state_id": "S-HOME",
+            "visible_node_id": "67:820",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-13"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite historical September28/29 date and PQ604/PQ604B query contexts; arbitrary text/date handling and complete app not_verified.",
+          "P/B/Backspace replace fixed query states; keyboard controls are prototype input proxies, not observed native keyboard behavior.",
+          "Initial1060×1898 screenshot scaled uniformly to576 width and lower blank61.37px clipped; no responsive-layout/asynchronous cause established.",
+          "All vectors/fonts/icons approximate; pointer, halo and window fringe omitted. Home private fields synthetic DEMO.",
+          "New Back controls generalize Close overlay; initial and cleared new exits replayed, other five new exits configured but unreplayed. Native caller persistence not newly established.",
+          "Native observation timed out after user unlocked and one runtime-wrapper recovery; no new native states/actions or app-failure diagnosis."
+        ]
+      },
+      {
+        "id": "PROTO-PQQUERY-MONDAY-003",
+        "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+        "start_node_id": "67:569",
+        "started_at": "2026-10-03T02:08:50.880Z",
+        "ended_at": "2026-10-03T02:09:04.726Z",
+        "status": "partial",
+        "navigation_status": "Finite query transitions and caller close reached recorded states; two new Back exits sampled",
+        "visual_status": "Saved pixels/contact reviewed; editable vectors approximate native and historical source initial lower blank clipped",
+        "steps": [
+          {
+            "file": "14-monday-home-scrolled.png",
+            "at": "2026-10-03T02:08:50.880Z",
+            "description": "monday-home-scrolled",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-14"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "15-monday-initial.png",
+            "at": "2026-10-03T02:08:58.735Z",
+            "description": "monday-initial",
+            "state_id": "S-EMPTY",
+            "visible_node_id": "846:19",
+            "action_id": "A-HOME-ROOM",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-15"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "16-monday-pq604.png",
+            "at": "2026-10-03T02:08:58.949Z",
+            "description": "monday-pq604",
+            "state_id": "S-PQ",
+            "visible_node_id": "846:55",
+            "action_id": "A-ROOM-PQ-INPUT",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-16"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "17-monday-pq604-none.png",
+            "at": "2026-10-03T02:08:59.212Z",
+            "description": "monday-pq604-none",
+            "state_id": "S-PQNONE",
+            "visible_node_id": "846:105",
+            "action_id": "A-ROOM-PQ-SEARCH",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-17"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "18-monday-pq604b-focus.png",
+            "at": "2026-10-03T02:08:59.475Z",
+            "description": "monday-pq604b-focus",
+            "state_id": "S-PQB",
+            "visible_node_id": "846:392",
+            "action_id": "A-ROOM-PQB-INPUT",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-18"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "19-monday-pq604b-none.png",
+            "at": "2026-10-03T02:08:59.738Z",
+            "description": "monday-pq604b-none",
+            "state_id": "S-PQBNONE",
+            "visible_node_id": "846:203",
+            "action_id": "A-ROOM-PQB-SEARCH",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-19"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "20-monday-tuesday.png",
+            "at": "2026-10-03T02:08:59.967Z",
+            "description": "monday-tuesday",
+            "state_id": "S-TUE",
+            "visible_node_id": "846:250",
+            "action_id": "A-ROOM-DATE-TUE",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-20"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "21-monday-cleared-stale.png",
+            "at": "2026-10-03T02:09:00.176Z",
+            "description": "monday-cleared-stale",
+            "state_id": "S-CLEARED",
+            "visible_node_id": "846:345",
+            "action_id": "A-ROOM-CLEAR",
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-21"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "22-cleared-back-monday-home.png",
+            "at": "2026-10-03T02:09:04.726Z",
+            "description": "cleared-back-monday-home",
+            "state_id": "S-HOME-SCHEDULE-MON",
+            "visible_node_id": "67:569",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PQQUERY-PROTO-22"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite historical September28/29 date and PQ604/PQ604B query contexts; arbitrary text/date handling and complete app not_verified.",
+          "P/B/Backspace replace fixed query states; keyboard controls are prototype input proxies, not observed native keyboard behavior.",
+          "Initial1060×1898 screenshot scaled uniformly to576 width and lower blank61.37px clipped; no responsive-layout/asynchronous cause established.",
+          "All vectors/fonts/icons approximate; pointer, halo and window fringe omitted. Home private fields synthetic DEMO.",
+          "New Back controls generalize Close overlay; initial and cleared new exits replayed, other five new exits configured but unreplayed. Native caller persistence not newly established.",
+          "Native observation timed out after user unlocked and one runtime-wrapper recovery; no new native states/actions or app-failure diagnosis."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -109934,7 +111639,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "180 mapped frames /3 internal component states /388 configured controls /16 scroll regions /126 prototype runs. Observed Payment3→2 date return integrated; complete app/fidelity not_verified.",
+    "verification_summary": "187 mapped frames /3 internal component states /402 configured controls /16 scroll regions /129 prototype runs. Historical PQ query and initial Home entry integrated; full app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -110323,7 +112028,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-PAYMENT-DATE-RESTORE-20261003",
+    "current_revision": "FIGMA-ROOM-PQ-QUERY-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -111434,9 +113139,14 @@
           "PROTO-CALENDAR-DETAIL-CONTEXT-MONDAY-001",
           "PROTO-CALENDAR-DETAIL-CONTEXT-TUESDAY-001",
           "PROTO-CALENDAR-DATE-CONTEXT-TUESDAY-001",
-          "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001"
+          "PROTO-CALENDAR-DATE-CONTEXT-MONDAY-001",
+          "PROTO-PQQUERY-LEGACY-001",
+          "PROTO-PQQUERY-INITIAL-EXIT-002",
+          "PROTO-PQQUERY-MONDAY-003"
         ],
-        "scope": "Observed Monday/Tuesday Home with synthetic DEMO agenda. Study/Courses, Map, Room and Food samples preserve tested callers. Food adds expanded sheet, a discrete drag to the observed H Café viewport, hours, and external-link notice. Tuesday replay: dialog interior stays, four outside regions dismiss, and Home return preserves content/scroll. Full continuous list, intermediate venues, collapse, external Open and other branches remain unimplemented. Two inferred list exits are separately recorded. Prior Food/Map image repairs passed sampled circuits; full fidelity and long-session stability unverified. Room dates/input/Preview/full results, standalone exits, Home dates/cards/week picker/sheet and Study blank remain incomplete. Agent replay is not native observation or human testing. Calendar Week5 selector and discrete wheel13/collapse now sampled. Tuesday Home content/date return preserved; bottom image failure recorded. Other wheel/application/month/detail branches open. Public Calendar mode cycle now preserves tested Monday/Tuesday Home callers; initial Monday missing-entry failure and subsequent repair recorded. Mode exits and Monday entry are unverified-native generalizations. Home images fail on return; added contexts date/filter/detail/scroll/Hide History branches open. Follow-up image fill reupload: six saved Calendar returns retain photo; four localized pixel differences and long-session stability remain open. Fixed Sep26 public detail open/Back now sampled in both callers, including repeated entry and subsequent mode circuit; other details incomplete. Academic-only Sep26→Oct1→Sep1→Sep28→Sep26 circuit and date Home recovery samples now preserve both callers; other dates/bounds/filter combinations open."
+        "scope": "September28 historical Room query reference, partial. Monday Home Room now opens observed initial Today28 state (three dates and no search control). With canvas focused press P for fixed PQ604 → Search → press B for fixed PQ604B → Search → Tue29 → Backspace for full-query clear. The old No room found remains after clearing; Search restores guidance and existing A → AG206 path. Seven editable sample states and14 new controls; legacy Home entry also corrected, Tuesday Home entry retains its existing context. P/B/Backspace are prototype input proxies, not arbitrary typing or observed native keyboard behavior. Initial1060×1898 capture uniformly scaled to576 width and blank bottom61.37px clipped; fonts/icons approximate, pointer/window fringe omitted. New Back controls are Close overlay prototype generalizations; only initial and cleared-state new exits sampled, other new exits configured but unreplayed. Actual Present paths from legacy and scrolled Monday Home recorded; native caller persistence and complete app/fidelity remain unverified. Native reconnection still times out after user unlocked; no new native action established. DEMO personal data; Agent replay is not human evaluation.",
+        "description": "September28 historical Room query reference, partial. Monday Home Room now opens observed initial Today28 state (three dates and no search control). With canvas focused press P for fixed PQ604 → Search → press B for fixed PQ604B → Search → Tue29 → Backspace for full-query clear. The old No room found remains after clearing; Search restores guidance and existing A → AG206 path. Seven editable sample states and14 new controls; legacy Home entry also corrected, Tuesday Home entry retains its existing context. P/B/Backspace are prototype input proxies, not arbitrary typing or observed native keyboard behavior. Initial1060×1898 capture uniformly scaled to576 width and blank bottom61.37px clipped; fonts/icons approximate, pointer/window fringe omitted. New Back controls are Close overlay prototype generalizations; only initial and cleared-state new exits sampled, other new exits configured but unreplayed. Actual Present paths from legacy and scrolled Monday Home recorded; native caller persistence and complete app/fidelity remain unverified. Native reconnection still times out after user unlocked; no new native action established. DEMO personal data; Agent replay is not human evaluation.",
+        "updated_at": "2026-10-03T02:09:30.405Z"
       },
       {
         "name": "Room · Available slots reference",
@@ -111816,15 +113526,16 @@
         "updated_at": "2026-10-03T01:55:14.980061+00:00"
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-03T01:55:02.924Z",
+    "latest_prototype_run_cutoff": "2026-10-03T02:09:04.726Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-PAYRESTORE-EDITOR-CONNECTION",
-      "E-PAYRESTORE-EDITOR-FLOW"
+      "E-PQQUERY-EDITOR-INITIAL",
+      "E-PQQUERY-EDITOR-TUESDAY",
+      "E-PQQUERY-EDITOR-FLOW"
     ],
-    "latest_editor_verified_at": "2026-10-03T01:55:14.980061+00:00",
+    "latest_editor_verified_at": "2026-10-03T02:09:30.021307+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",

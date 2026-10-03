@@ -1,0 +1,552 @@
+{
+  "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+  "frames": [
+    {
+      "file": "room-pq-initial.svg",
+      "name": "[PQ:INITIAL] Room — September28 initial",
+      "node_id": "846:19",
+      "x": 0,
+      "y": 80500,
+      "at": "2026-10-03T02:03:32.501Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t454 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t455 stepper (settable, integer) Description: Y-position, Value: 80500",
+        "\t\t\t\t\t\t\t\t\t\t482 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t485 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "file": "room-pq-typed.svg",
+      "name": "[PQ:INPUT] Room — PQ604 entered",
+      "node_id": "846:55",
+      "x": 700,
+      "y": 80500,
+      "at": "2026-10-03T02:03:37.513Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t486 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t487 stepper (settable, integer) Description: Y-position, Value: 80500",
+        "\t\t\t\t\t\t\t\t\t\t514 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t517 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "file": "room-pq-none.svg",
+      "name": "[PQ:NONE] Room — PQ604 no result",
+      "node_id": "846:105",
+      "x": 1400,
+      "y": 80500,
+      "at": "2026-10-03T02:03:38.685Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t518 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t519 stepper (settable, integer) Description: Y-position, Value: 80500",
+        "\t\t\t\t\t\t\t\t\t\t546 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t549 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "file": "room-pq-b-focused.svg",
+      "name": "[PQ:B-INPUT] Room — PQ604B focused",
+      "node_id": "846:392",
+      "x": 2100,
+      "y": 80500,
+      "at": "2026-10-03T02:04:17.249Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t909 stepper (settable, integer) Description: X-position, Value: 2100",
+        "\t\t\t\t\t\t\t\t\t910 stepper (settable, integer) Description: Y-position, Value: 80500",
+        "\t\t\t\t\t\t\t\t\t\t937 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t940 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "file": "room-pq-b-none.svg",
+      "name": "[PQ:B-NONE] Room — PQ604B no result",
+      "node_id": "846:203",
+      "x": 2800,
+      "y": 80500,
+      "at": "2026-10-03T02:03:45.219Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t586 stepper (settable, integer) Description: X-position, Value: 2800",
+        "\t\t\t\t\t\t\t\t\t587 stepper (settable, integer) Description: Y-position, Value: 80500",
+        "\t\t\t\t\t\t\t\t\t\t614 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t617 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "file": "room-pq-tue.svg",
+      "name": "[PQ:TUE] Room — Tuesday query retained",
+      "node_id": "846:250",
+      "x": 3500,
+      "y": 80500,
+      "at": "2026-10-03T02:03:46.365Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t618 stepper (settable, integer) Description: X-position, Value: 3500",
+        "\t\t\t\t\t\t\t\t\t619 stepper (settable, integer) Description: Y-position, Value: 80500",
+        "\t\t\t\t\t\t\t\t\t\t646 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t649 text field (settable) Description: Height, Value: 970"
+      ]
+    },
+    {
+      "file": "room-pq-cleared.svg",
+      "name": "[PQ:CLEARED] Room — Tuesday stale no result",
+      "node_id": "846:345",
+      "x": 4200,
+      "y": 80500,
+      "at": "2026-10-03T02:04:12.430Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t667 stepper (settable, integer) Description: X-position, Value: 4200",
+        "\t\t\t\t\t\t\t\t\t668 stepper (settable, integer) Description: Y-position, Value: 80500",
+        "\t\t\t\t\t\t\t\t\t\t695 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t698 text field (settable) Description: Height, Value: 970"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "846:345",
+      "trigger_node_id": "846:381",
+      "trigger_node_name": "SearchButton",
+      "action_id": "A-ROOM-EMPTY-SEARCH",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "12:198",
+      "configured_at": "2026-10-03T02:04:37.921Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1118 combo box (collapsed) Position, Value: Scroll with parent, ID: :r167:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1142 combo box (collapsed) Trigger, Value: On click, ID: :r16e:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1148 combo box (collapsed) Action, Value: Swap overlay, ID: :r16h:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1155 combo box (collapsed) Destination, Value: [S-EMPTYQUERY] Room — Empty, ID: :r170:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1160 combo box (collapsed) Animation, Value: Instant, ID: :r17d:, Secondary Actions: Expand",
+        "The focused UI element is 1155 combo box (collapsed) Destination, Value: [S-EMPTYQUERY] Room — Empty, ID: :r170:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-01",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+      "source_evidence_ids": [
+        "E-CLEARED"
+      ]
+    },
+    {
+      "source_node_id": "846:345",
+      "trigger_node_id": "846:351",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-03T02:04:40.518Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1118 combo box (collapsed) Position, Value: Scroll with parent, ID: :r167:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1155 combo box (collapsed) Trigger, Value: On click, ID: :r17o:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1161 combo box (collapsed) Action, Value: Close overlay, ID: :r17r:, Secondary Actions: Expand",
+        "The focused UI element is 1161 combo box (collapsed) Action, Value: Close overlay, ID: :r17r:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-02",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+      "source_evidence_ids": [
+        "E-CLEARED"
+      ]
+    },
+    {
+      "source_node_id": "846:250",
+      "trigger_node_id": "846:250",
+      "trigger_node_name": "[PQ:TUE] Room — Tuesday query retained",
+      "action_id": "A-ROOM-CLEAR",
+      "trigger": "Key BackSpace",
+      "behavior": "Swap overlay",
+      "target_node_id": "846:345",
+      "configured_at": "2026-10-03T02:04:52.512Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1221 combo box (collapsed) Overflow, Value: No scrolling, ID: :r18t:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1248 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r194:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1254 combo box (collapsed) Action, Value: Swap overlay, ID: :r197:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1261 combo box (collapsed) Destination, Value: [PQ:CLEARED] Room — Tuesday stale no result, ID: :r19m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1266 combo box (collapsed) Animation, Value: Instant, ID: :r1a3:, Secondary Actions: Expand"
+      ],
+      "input_proxy": "Fixed historical query transition via keyboard; no arbitrary input",
+      "connection_id": "C-PQQUERY-03",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+      "source_evidence_ids": [
+        "E-TUE"
+      ]
+    },
+    {
+      "source_node_id": "846:250",
+      "trigger_node_id": "846:256",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-03T02:04:55.126Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1228 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1an:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1252 combo box (collapsed) Trigger, Value: On click, ID: :r1au:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1258 combo box (collapsed) Action, Value: Close overlay, ID: :r1b1:, Secondary Actions: Expand",
+        "The focused UI element is 1258 combo box (collapsed) Action, Value: Close overlay, ID: :r1b1:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-04",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_not_replayed",
+      "prototype_run_ids": [],
+      "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+      "source_evidence_ids": [
+        "E-TUE"
+      ]
+    },
+    {
+      "source_node_id": "846:203",
+      "trigger_node_id": "846:220",
+      "trigger_node_name": "Date-Tue-29-Sep",
+      "action_id": "A-ROOM-DATE-TUE",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "846:250",
+      "configured_at": "2026-10-03T02:05:03.020Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1435 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1d6:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1459 combo box (collapsed) Trigger, Value: On click, ID: :r1e3:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1465 combo box (collapsed) Action, Value: Swap overlay, ID: :r1e6:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1472 combo box (collapsed) Destination, Value: [PQ:TUE] Room — Tuesday query retained, ID: :r1el:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1477 combo box (collapsed) Animation, Value: Instant, ID: :r1f2:, Secondary Actions: Expand",
+        "The focused UI element is 1472 combo box (collapsed) Destination, Value: [PQ:TUE] Room — Tuesday query retained, ID: :r1el:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-05",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+      "source_evidence_ids": [
+        "E-PQBNONE"
+      ]
+    },
+    {
+      "source_node_id": "846:203",
+      "trigger_node_id": "846:209",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-03T02:05:05.674Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1435 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1d6:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1472 combo box (collapsed) Trigger, Value: On click, ID: :r1fd:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1478 combo box (collapsed) Action, Value: Close overlay, ID: :r1fg:, Secondary Actions: Expand",
+        "The focused UI element is 1478 combo box (collapsed) Action, Value: Close overlay, ID: :r1fg:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-06",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_not_replayed",
+      "prototype_run_ids": [],
+      "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+      "source_evidence_ids": [
+        "E-PQBNONE"
+      ]
+    },
+    {
+      "source_node_id": "846:392",
+      "trigger_node_id": "846:428",
+      "trigger_node_name": "SearchButton",
+      "action_id": "A-ROOM-PQB-SEARCH",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "846:203",
+      "configured_at": "2026-10-03T02:05:19.209Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1657 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1j9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1681 combo box (collapsed) Trigger, Value: On click, ID: :r1jk:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1687 combo box (collapsed) Action, Value: Swap overlay, ID: :r1jn:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1694 combo box (collapsed) Destination, Value: [PQ:B-NONE] Room — PQ604B no result, ID: :r1k6:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1699 combo box (collapsed) Animation, Value: Instant, ID: :r1kj:, Secondary Actions: Expand",
+        "The focused UI element is 1694 combo box (collapsed) Destination, Value: [PQ:B-NONE] Room — PQ604B no result, ID: :r1k6:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-07",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+      "source_evidence_ids": [
+        "E-PQB"
+      ]
+    },
+    {
+      "source_node_id": "846:392",
+      "trigger_node_id": "846:398",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-03T02:05:21.808Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1657 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1j9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1694 combo box (collapsed) Trigger, Value: On click, ID: :r1ku:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1700 combo box (collapsed) Action, Value: Close overlay, ID: :r1l1:, Secondary Actions: Expand",
+        "The focused UI element is 1700 combo box (collapsed) Action, Value: Close overlay, ID: :r1l1:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-08",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_not_replayed",
+      "prototype_run_ids": [],
+      "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+      "source_evidence_ids": [
+        "E-PQB"
+      ]
+    },
+    {
+      "source_node_id": "846:105",
+      "trigger_node_id": "846:105",
+      "trigger_node_name": "[PQ:NONE] Room — PQ604 no result",
+      "action_id": "A-ROOM-PQB-INPUT",
+      "trigger": "Key b",
+      "behavior": "Swap overlay",
+      "target_node_id": "846:392",
+      "configured_at": "2026-10-03T02:05:29.630Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1784 combo box (collapsed) Overflow, Value: No scrolling, ID: :r1mf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1811 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r1mm:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1817 combo box (collapsed) Action, Value: Swap overlay, ID: :r1mp:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1824 combo box (collapsed) Destination, Value: [PQ:B-INPUT] Room — PQ604B focused, ID: :r1n8:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1829 combo box (collapsed) Animation, Value: Instant, ID: :r1nl:, Secondary Actions: Expand"
+      ],
+      "input_proxy": "Fixed historical query transition via keyboard; no arbitrary input",
+      "connection_id": "C-PQQUERY-09",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+      "source_evidence_ids": [
+        "E-PQNONE"
+      ]
+    },
+    {
+      "source_node_id": "846:105",
+      "trigger_node_id": "846:111",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-03T02:05:32.246Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1775 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1o9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1799 combo box (collapsed) Trigger, Value: On click, ID: :r1og:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1805 combo box (collapsed) Action, Value: Close overlay, ID: :r1oj:, Secondary Actions: Expand",
+        "The focused UI element is 1805 combo box (collapsed) Action, Value: Close overlay, ID: :r1oj:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-10",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_not_replayed",
+      "prototype_run_ids": [],
+      "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+      "source_evidence_ids": [
+        "E-PQNONE"
+      ]
+    },
+    {
+      "source_node_id": "846:55",
+      "trigger_node_id": "846:91",
+      "trigger_node_name": "SearchButton",
+      "action_id": "A-ROOM-PQ-SEARCH",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "target_node_id": "846:105",
+      "configured_at": "2026-10-03T02:05:45.816Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1920 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1qg:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1944 combo box (collapsed) Trigger, Value: On click, ID: :r1qn:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1950 combo box (collapsed) Action, Value: Swap overlay, ID: :r1qq:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1957 combo box (collapsed) Destination, Value: [PQ:NONE] Room — PQ604 no result, ID: :r1r9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1962 combo box (collapsed) Animation, Value: Instant, ID: :r1rm:, Secondary Actions: Expand",
+        "The focused UI element is 1957 combo box (collapsed) Destination, Value: [PQ:NONE] Room — PQ604 no result, ID: :r1r9:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-11",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+      "source_evidence_ids": [
+        "E-PQ"
+      ]
+    },
+    {
+      "source_node_id": "846:55",
+      "trigger_node_id": "846:61",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-03T02:05:48.466Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1920 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1qg:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t2001 combo box (collapsed) Trigger, Value: On click, ID: :r1sn:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t2007 combo box (collapsed) Action, Value: Close overlay, ID: :r1sq:, Secondary Actions: Expand",
+        "The focused UI element is 2007 combo box (collapsed) Action, Value: Close overlay, ID: :r1sq:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-12",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_not_replayed",
+      "prototype_run_ids": [],
+      "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+      "source_evidence_ids": [
+        "E-PQ"
+      ]
+    },
+    {
+      "source_node_id": "846:19",
+      "trigger_node_id": "846:19",
+      "trigger_node_name": "[PQ:INITIAL] Room — September28 initial",
+      "action_id": "A-ROOM-PQ-INPUT",
+      "trigger": "Key p",
+      "behavior": "Swap overlay",
+      "target_node_id": "846:55",
+      "configured_at": "2026-10-03T02:05:56.391Z",
+      "readback": [
+        "\t\t\t\t\t\t\t2091 combo box (collapsed) Overflow, Value: No scrolling, ID: :r1uq:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t2118 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r1v1:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t2124 combo box (collapsed) Action, Value: Swap overlay, ID: :r1v4:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t2131 combo box (collapsed) Destination, Value: [PQ:INPUT] Room — PQ604 entered, ID: :r1vj:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t2136 combo box (collapsed) Animation, Value: Instant, ID: :r200:, Secondary Actions: Expand"
+      ],
+      "input_proxy": "Fixed historical query transition via keyboard; no arbitrary input",
+      "connection_id": "C-PQQUERY-13",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Observed state/action relation; finite keyboard proxy where stated",
+      "source_evidence_ids": [
+        "E-EMPTY"
+      ]
+    },
+    {
+      "source_node_id": "846:19",
+      "trigger_node_id": "846:25",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "configured_at": "2026-10-03T02:05:59.192Z",
+      "readback": [
+        "\t\t\t\t\t\t\t2086 combo box (collapsed) Position, Value: Scroll with parent, ID: :r20m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t2110 combo box (collapsed) Trigger, Value: On click, ID: :r20t:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t2116 combo box (collapsed) Action, Value: Close overlay, ID: :r210:, Secondary Actions: Expand",
+        "The focused UI element is 2116 combo box (collapsed) Action, Value: Close overlay, ID: :r210:, Secondary Actions: Expand"
+      ],
+      "input_proxy": null,
+      "connection_id": "C-PQQUERY-14",
+      "revision_id": "FIGMA-ROOM-PQ-QUERY-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ],
+      "source_fidelity": "Prototype Close overlay generalization; exact native exit from this query state unverified",
+      "source_evidence_ids": [
+        "E-EMPTY"
+      ]
+    }
+  ],
+  "updated_connections": [
+    {
+      "connection_id": "C-HOME-ROOM",
+      "source_node_id": "67:820",
+      "trigger_node_id": "67:878",
+      "target_node_id": "846:19",
+      "configured_at": "2026-10-03T02:06:26.366Z",
+      "readback": [
+        "\t\t\t\t\t\t\t415 combo box (collapsed) Position, Value: Scroll with parent, ID: :r94:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t443 combo box (collapsed) Trigger, Value: On click, ID: :r9b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t449 combo box (collapsed) Action, Value: Open overlay, ID: :r9e:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t454 combo box (collapsed) Destination, Value: [PQ:INITIAL] Room — September28 initial, ID: :r9i:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t461 combo box (collapsed) Animation, Value: Instant, ID: :r9u:, Secondary Actions: Expand",
+        "The focused UI element is 454 combo box (collapsed) Destination, Value: [PQ:INITIAL] Room — September28 initial, ID: :r9i:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "connection_id": "C-HOME-SCROLL-113-64",
+      "source_node_id": "67:569",
+      "trigger_node_id": "113:64",
+      "target_node_id": "846:19",
+      "configured_at": "2026-10-03T02:06:40.117Z",
+      "readback": [
+        "\t\t\t\t\t\t\t415 combo box (collapsed) Position, Value: Scroll with parent, ID: :r94:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t446 combo box (collapsed) Trigger, Value: On click, ID: :r9c:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t452 combo box (collapsed) Action, Value: Open overlay, ID: :r9f:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t457 combo box (collapsed) Destination, Value: [PQ:INITIAL] Room — September28 initial, ID: :r9j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t464 combo box (collapsed) Animation, Value: Instant, ID: :r9v:, Secondary Actions: Expand",
+        "The focused UI element is 457 combo box (collapsed) Destination, Value: [PQ:INITIAL] Room — September28 initial, ID: :r9j:, Secondary Actions: Expand"
+      ]
+    }
+  ],
+  "flow": {
+    "start_node_id": "67:569",
+    "description": "September28 historical Room query reference, partial. Monday Home Room now opens observed initial Today28 state (three dates and no search control). With canvas focused press P for fixed PQ604 → Search → press B for fixed PQ604B → Search → Tue29 → Backspace for full-query clear. The old No room found remains after clearing; Search restores guidance and existing A → AG206 path. Seven editable sample states and14 new controls; legacy Home entry also corrected, Tuesday Home entry retains its existing context. P/B/Backspace are prototype input proxies, not arbitrary typing or observed native keyboard behavior. Initial1060×1898 capture uniformly scaled to576 width and blank bottom61.37px clipped; fonts/icons approximate, pointer/window fringe omitted. New Back controls are Close overlay prototype generalizations; only initial and cleared-state new exits sampled, other new exits configured but unreplayed. Actual Present paths from legacy and scrolled Monday Home recorded; native caller persistence and complete app/fidelity remain unverified. Native reconnection still times out after user unlocked; no new native action established. DEMO personal data; Agent replay is not human evaluation.",
+    "updated_at": "2026-10-03T02:09:30.405Z"
+  },
+  "prototype_run_ids": [
+    "PROTO-PQQUERY-LEGACY-001",
+    "PROTO-PQQUERY-INITIAL-EXIT-002",
+    "PROTO-PQQUERY-MONDAY-003"
+  ],
+  "limits": [
+    "Finite historical September28/29 date and PQ604/PQ604B query contexts; arbitrary text/date handling and complete app not_verified.",
+    "P/B/Backspace replace fixed query states; keyboard controls are prototype input proxies, not observed native keyboard behavior.",
+    "Initial1060×1898 screenshot scaled uniformly to576 width and lower blank61.37px clipped; no responsive-layout/asynchronous cause established.",
+    "All vectors/fonts/icons approximate; pointer, halo and window fringe omitted. Home private fields synthetic DEMO.",
+    "New Back controls generalize Close overlay; initial and cleared new exits replayed, other five new exits configured but unreplayed. Native caller persistence not newly established.",
+    "Native observation timed out after user unlocked and one runtime-wrapper recovery; no new native states/actions or app-failure diagnosis."
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "kind": "actual_figma_room_pq_query_replay",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-legacy-home.png",
+      "sha256": "48f49b9b35596ad74647073803c3db0d8e8f59f359329067367f259bd22da23f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:07:52.526Z",
+      "description": "legacy-home",
+      "node_id": "67:820",
+      "state_id": "S-HOME",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "01-initial.png",
+      "sha256": "a7fbf42a0c377cb1c47c151fe42f0b75338fd0ee778a704d8ec67d0da66253e6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:07:52.772Z",
+      "description": "initial",
+      "node_id": "846:19",
+      "state_id": "S-EMPTY",
+      "action_id": "A-HOME-ROOM",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "02-pq604-entered.png",
+      "sha256": "13965dd63bcdaabd41e0015cd9af1620f51c58eb7f06e0f5aa50d50d28293bb9",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:07:56.201Z",
+      "description": "pq604-entered",
+      "node_id": "846:55",
+      "state_id": "S-PQ",
+      "action_id": "A-ROOM-PQ-INPUT",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "03-pq604-no-result.png",
+      "sha256": "47ec387d5f9e7ef63a652255df2274a9140d417939370ba20721a67ecb4dac40",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:07:59.721Z",
+      "description": "pq604-no-result",
+      "node_id": "846:105",
+      "state_id": "S-PQNONE",
+      "action_id": "A-ROOM-PQ-SEARCH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "04-pq604b-focused.png",
+      "sha256": "69690ffa9ebac03e2394bd59bfa6deac71b12951b218364468c85ff41463cf95",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:04.302Z",
+      "description": "pq604b-focused",
+      "node_id": "846:392",
+      "state_id": "S-PQB",
+      "action_id": "A-ROOM-PQB-INPUT",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "05-pq604b-no-result.png",
+      "sha256": "08ce25850cdafa2729a3f83cb866f7b0a16f0ad34c70eda1cf60d0a3b827f9ed",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:07.595Z",
+      "description": "pq604b-no-result",
+      "node_id": "846:203",
+      "state_id": "S-PQBNONE",
+      "action_id": "A-ROOM-PQB-SEARCH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "06-tuesday-query-retained.png",
+      "sha256": "508708ec99e670ba1c2c177d51c4b8d15847732884fa5a80c583cc4fe8c05e0d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:11.174Z",
+      "description": "tuesday-query-retained",
+      "node_id": "846:250",
+      "state_id": "S-TUE",
+      "action_id": "A-ROOM-DATE-TUE",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "07-cleared-stale-no-result.png",
+      "sha256": "81f6404b9541a464aa09d59baa99308e617f5af9e0e02306df59174aebc63fb6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:15.244Z",
+      "description": "cleared-stale-no-result",
+      "node_id": "846:345",
+      "state_id": "S-CLEARED",
+      "action_id": "A-ROOM-CLEAR",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "08-empty-query-guidance.png",
+      "sha256": "f0707b15c4ee9e6e3f9006022e943e745e63b67315046e08f004deade4950865",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:19.707Z",
+      "description": "empty-query-guidance",
+      "node_id": "12:198",
+      "state_id": "S-EMPTYQUERY",
+      "action_id": "A-ROOM-EMPTY-SEARCH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "09-ag206-suggestion-regression.png",
+      "sha256": "8931ef4f82067e4723512055858b5bcce0611d8a6d2f461f3ab634e0e579b81e",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:24.749Z",
+      "description": "ag206-suggestion-regression",
+      "node_id": "12:380",
+      "state_id": "S-SUGGESTION",
+      "action_id": "A-ROOM-PREFIX",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "10-ag206-all-regression.png",
+      "sha256": "74534087f752afa67fab8c8c25552c9061853c80b846954ac1aa9a8efc51c2a7",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:29.170Z",
+      "description": "ag206-all-regression",
+      "node_id": "12:243",
+      "state_id": "S-ALL",
+      "action_id": "A-ROOM-SUGGESTION",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "11-legacy-home-return.png",
+      "sha256": "48f49b9b35596ad74647073803c3db0d8e8f59f359329067367f259bd22da23f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:33.503Z",
+      "description": "legacy-home-return",
+      "node_id": "67:820",
+      "state_id": "S-HOME",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "12-initial-reopened.png",
+      "sha256": "a7fbf42a0c377cb1c47c151fe42f0b75338fd0ee778a704d8ec67d0da66253e6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:41.962Z",
+      "description": "initial-reopened",
+      "node_id": "846:19",
+      "state_id": "S-EMPTY",
+      "action_id": "A-HOME-ROOM",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "13-initial-back-legacy-home.png",
+      "sha256": "48f49b9b35596ad74647073803c3db0d8e8f59f359329067367f259bd22da23f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:42.221Z",
+      "description": "initial-back-legacy-home",
+      "node_id": "67:820",
+      "state_id": "S-HOME",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-820&starting-point-node-id=67%3A820&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "14-monday-home-scrolled.png",
+      "sha256": "120d9b9bcfcac16d48f6a97fc707763029ec7b5c7972ae8ec6c7c8d85be5c25f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:50.880Z",
+      "description": "monday-home-scrolled",
+      "node_id": "67:569",
+      "state_id": "S-HOME-SCHEDULE-MON",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "15-monday-initial.png",
+      "sha256": "31c7a82fd406e2075da971c453a55e0eb1121dacbed9dfda8bddcc92775466a2",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:58.735Z",
+      "description": "monday-initial",
+      "node_id": "846:19",
+      "state_id": "S-EMPTY",
+      "action_id": "A-HOME-ROOM",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "16-monday-pq604.png",
+      "sha256": "18363545f41a0d71e76542a8c383fa3476672960fc8c9e4a9766e7dc6b1dfcac",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:58.949Z",
+      "description": "monday-pq604",
+      "node_id": "846:55",
+      "state_id": "S-PQ",
+      "action_id": "A-ROOM-PQ-INPUT",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "17-monday-pq604-none.png",
+      "sha256": "7ad63d474865a677db7fc7de2fad92a20da809ed6f258d267b018a9d64d3d298",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:59.212Z",
+      "description": "monday-pq604-none",
+      "node_id": "846:105",
+      "state_id": "S-PQNONE",
+      "action_id": "A-ROOM-PQ-SEARCH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "18-monday-pq604b-focus.png",
+      "sha256": "cf35621855d29470265ea60d4ce9f1933b3098392ff8359fcfd1bea22d462710",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:59.475Z",
+      "description": "monday-pq604b-focus",
+      "node_id": "846:392",
+      "state_id": "S-PQB",
+      "action_id": "A-ROOM-PQB-INPUT",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "19-monday-pq604b-none.png",
+      "sha256": "c765b28ba78946c3d6d810207125ccf859c9b0fa8e45246a31d75687f13a4beb",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:59.738Z",
+      "description": "monday-pq604b-none",
+      "node_id": "846:203",
+      "state_id": "S-PQBNONE",
+      "action_id": "A-ROOM-PQB-SEARCH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "20-monday-tuesday.png",
+      "sha256": "0433f82335df4d2d8cab7c3dae56cd90312d5bc673321667451dc9e2689f650c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:08:59.967Z",
+      "description": "monday-tuesday",
+      "node_id": "846:250",
+      "state_id": "S-TUE",
+      "action_id": "A-ROOM-DATE-TUE",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "21-monday-cleared-stale.png",
+      "sha256": "b9c50e574a03f31d18bc6909e3afcce9de24fefb916afbd7c83a60a8d979bbba",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:09:00.176Z",
+      "description": "monday-cleared-stale",
+      "node_id": "846:345",
+      "state_id": "S-CLEARED",
+      "action_id": "A-ROOM-CLEAR",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "22-cleared-back-monday-home.png",
+      "sha256": "120d9b9bcfcac16d48f6a97fc707763029ec7b5c7972ae8ec6c7c8d85be5c25f",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T02:09:04.726Z",
+      "description": "cleared-back-monday-home",
+      "node_id": "67:569",
+      "state_id": "S-HOME-SCHEDULE-MON",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home personal content synthetic DEMO",
+      "url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=67-569&starting-point-node-id=67%3A569&scaling=scale-down&content-scaling=fixed"
+    },
+    {
+      "file": "editor-initial.png",
+      "sha256": "a6c6f6f1fbf2a6d7f55ac25c8874b3377892b3ff9c839dccaeeb7cef9c0e129d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-03T02:07:05.940349+00:00",
+      "source": "Actual Figma editor screenshot",
+      "redaction": "Editor account header masked"
+    },
+    {
+      "file": "editor-tuesday.png",
+      "sha256": "25c62ea57152deb5ba54ca7326cc87becbd52ae0c97299de889fbc5dfbce1b12",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-03T02:07:08.246850+00:00",
+      "source": "Actual Figma editor screenshot",
+      "redaction": "Editor account header masked"
+    },
+    {
+      "file": "editor-flow.png",
+      "sha256": "89d4d50e0ede3c8fe3007a63e69b46551babe93a7f3c4a4ab1ed5ed8eb5fefcc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-03T02:09:30.021307+00:00",
+      "source": "Actual Figma editor screenshot",
+      "redaction": "Editor account header masked"
+    }
+  ],
+  "app_crop_xyxy": [
+    414,
+    60,
+    795,
+    700
+  ],
+  "limits": [
+    "Finite historical September28/29 date and PQ604/PQ604B query contexts; arbitrary text/date handling and complete app not_verified.",
+    "P/B/Backspace replace fixed query states; keyboard controls are prototype input proxies, not observed native keyboard behavior.",
+    "Initial1060×1898 screenshot scaled uniformly to576 width and lower blank61.37px clipped; no responsive-layout/asynchronous cause established.",
+    "All vectors/fonts/icons approximate; pointer, halo and window fringe omitted. Home private fields synthetic DEMO.",
+    "New Back controls generalize Close overlay; initial and cleared new exits replayed, other five new exits configured but unreplayed. Native caller persistence not newly established.",
+    "Native observation timed out after user unlocked and one runtime-wrapper recovery; no new native states/actions or app-failure diagnosis."
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 11,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 0,
+      "b": 13,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 1,
+      "b": 12,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 14,
+      "b": 22,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 1,
+      "b": 15,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        68,
+        381,
+        640
+      ],
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 2,
+      "b": 16,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        68,
+        381,
+        640
+      ],
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 3,
+      "b": 17,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        68,
+        381,
+        640
+      ],
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 4,
+      "b": 18,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        68,
+        381,
+        640
+      ],
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 5,
+      "b": 19,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        68,
+        381,
+        640
+      ],
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 6,
+      "b": 20,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        68,
+        381,
+        640
+      ],
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    },
+    {
+      "a": 7,
+      "b": 21,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        68,
+        381,
+        640
+      ],
+      "scope": "Actual repeated prototype app crop; not native/full fidelity"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "3b2f25e45874af3f0e8c3e15de02a64ba29cadffd1f4d3cdcde2bc830dbaa1db",
+    "dimensions": [
+      912,
+      2460
+    ],
+    "source": "23 actual masked Present captures, resized only for contact sheet"
+  }
+}
