@@ -1,5 +1,5 @@
 {
-  "status": "blocky_scroll_five_maps_and_four_detail_references_displayed_navigation_unconfigured",
+  "status": "blocky_scroll_five_maps_four_details_four_hours_references_displayed_navigation_unconfigured",
   "sources_record": "food-oct3-detail-sources.json",
   "edges": [
     {
@@ -284,10 +284,10 @@
   "formal_figma_counts_changed": true,
   "browser_refusal": "Prior Action dropdown safety refusal unresolved; no retry or alternate-surface workaround this batch.",
   "remaining": [
-    "Current28-row list, fixed tags, detail/image and maps are partial references; venue/result/hours/menu/order/caller/Back navigation remains incomplete.",
-    "Other Search results, LibCafe tags and other detail/caller contexts need native observation.",
-    "Five map/loading references lack caller/Back/loading/zoom transitions, pan/location, complete native zoom bounds and exact geometry.",
-    "Six unmapped drafts: Notification loading946:19, historical BlockY lower949:128 represented through existing scroll alias, and four hours drafts. Four hours references still need display checks; historical lower draft is not a duplicate formal screen."
+    "Current28-row list, fixed tags, detail/image, maps and four expanded-hours samples are partial references; venue/result/hours/menu/order/caller/Back business journeys incomplete.",
+    "Other Search results, LibCafe tags and detail/caller contexts need native observation.",
+    "Map/loading references lack caller/Back/loading/zoom transitions, pan/location and complete native bounds; exact geometry/font fidelity unverified.",
+    "Two unmapped drafts: Notification loading946:19 blocked navigation; historical BlockY lower949:128 already represented through same-root scroll alias. No duplicate formal lower screen needed."
   ],
   "import_record_path": "../../evidence/2026-10-03-food-detail-import/imports.json",
   "scroll_layout_source": "food-oct3-blocky-scroll.svg",
@@ -370,5 +370,30 @@
     "E-FOOD-DETAIL-REF-39",
     "E-FOOD-DETAIL-REF-40",
     "E-FOOD-DETAIL-REF-READBACK"
+  ],
+  "current_hours_reference_record": "food-oct3-hours-references.json",
+  "current_hours_reference_evidence_ids": [
+    "E-FOOD-HOURS-REF-00",
+    "E-FOOD-HOURS-REF-01",
+    "E-FOOD-HOURS-REF-02",
+    "E-FOOD-HOURS-REF-03",
+    "E-FOOD-HOURS-REF-04",
+    "E-FOOD-HOURS-REF-05",
+    "E-FOOD-HOURS-REF-06",
+    "E-FOOD-HOURS-REF-07",
+    "E-FOOD-HOURS-REF-08",
+    "E-FOOD-HOURS-REF-09",
+    "E-FOOD-HOURS-REF-10",
+    "E-FOOD-HOURS-REF-11",
+    "E-FOOD-HOURS-REF-12",
+    "E-FOOD-HOURS-REF-13",
+    "E-FOOD-HOURS-REF-14",
+    "E-FOOD-HOURS-REF-15",
+    "E-FOOD-HOURS-REF-16",
+    "E-FOOD-HOURS-REF-17",
+    "E-FOOD-HOURS-REF-18",
+    "E-FOOD-HOURS-REF-19",
+    "E-FOOD-HOURS-REF-20",
+    "E-FOOD-HOURS-REF-READBACK"
   ]
 }
