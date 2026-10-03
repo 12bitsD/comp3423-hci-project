@@ -1,0 +1,990 @@
+{
+  "log": [
+    {
+      "file": "00-libcafe-detail-before.png",
+      "kind": "editor",
+      "note": "Existing LibCafe detail root, prior to standalone reference; geometry/readback",
+      "input": null,
+      "captured_at": "2026-10-03T08:58:57.354Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-248",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"88000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "01-libcafe-card-before.png",
+      "kind": "editor",
+      "note": "Selected first Vector under DetailContent; verify card geometry before replacement",
+      "input": null,
+      "captured_at": "2026-10-03T09:00:29.416Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-253",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"18\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "      - textbox \"Width\": \"539\"",
+        "      - textbox \"Height\": \"1013\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "02-libcafe-card-replaced.png",
+      "kind": "editor",
+      "note": "Actual Paste to replace of selected card Vector; inspect resulting dimensions/position before correction",
+      "input": null,
+      "captured_at": "2026-10-03T09:01:33.177Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1023-19",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"18\"",
+        "    - spinbutton \"Y-position\": \"144.5\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"539\"",
+        "      - textbox \"Height\": \"924\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ],
+      "verified_outcome": "intermediate_wrong_Y144.5; corrected at03 to100"
+    },
+    {
+      "file": "03-libcafe-card-positioned.png",
+      "kind": "editor",
+      "note": "Replacement small contour Frame1023:19 fixed18,100,539x924; Clip content false, named LibCafeCardContour. Center-preserving paste offset144.5 corrected.",
+      "input": null,
+      "captured_at": "2026-10-03T09:01:57.560Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1023-19",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"18\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"539\"",
+        "      - textbox \"Height\": \"924\"",
+        "  - checkbox \"Clip content\"",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "04-libcafe-background-after.png",
+      "kind": "editor",
+      "note": "Actual ScreenBackground Vector949:249 fillFFFFFF->F7F9F6; native sampled outer-body color, exact window edge unknown",
+      "input": null,
+      "captured_at": "2026-10-03T09:02:38.742Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-249",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "05-libcafe-corrected-root.png",
+      "kind": "editor",
+      "note": "Corrected root949:248 at2800,88000,576x1024; two immediate leaf-to-root URL navigations aborted, latest actual left-row selection recovered; other content not intentionally moved",
+      "input": null,
+      "captured_at": "2026-10-03T09:03:01.509Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-249",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ],
+      "verified_outcome": "failure_hidden_root_or_unrelated_selection; filename/intended note does not establish success"
+    },
+    {
+      "file": "06-libcafe-root-visibility-failure.png",
+      "kind": "editor",
+      "note": "Root row selection produced hidden/grey root and unrelated Room canvas after zoom; explicit root selection now949:248, Show control present; not accepted as corrected root",
+      "input": null,
+      "captured_at": "2026-10-03T09:04:00.684Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-248",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"88000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ],
+      "verified_outcome": "failure_hidden_root_or_unrelated_selection; filename/intended note does not establish success"
+    },
+    {
+      "file": "07-libcafe-root-shown.png",
+      "kind": "editor",
+      "note": "Clicked observed Appearance visibility icon after Show checkbox DOM selector had no match; root selected949:248, geometry2800/88000,576x1024; verify actual restored pixels",
+      "input": null,
+      "captured_at": "2026-10-03T09:04:53.181Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-248",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"88000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ],
+      "verified_outcome": "failure_hidden_root_or_unrelated_selection; filename/intended note does not establish success"
+    },
+    {
+      "file": "08-libcafe-restored.png",
+      "kind": "editor",
+      "note": "Prior417px visibility icon target corrected from406;07 still hidden/unrelated canvas. Verify current root after actual observed Show icon click.",
+      "input": null,
+      "captured_at": "2026-10-03T09:05:13.832Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-248",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"88000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ],
+      "verified_outcome": "success_root_restored_after_fresh_icon_position417"
+    },
+    {
+      "file": "09-libcafe-title.png",
+      "kind": "editor",
+      "note": "Independent venue title Text selected after repair; Inter Bold22px,35/112 read back",
+      "input": null,
+      "captured_at": "2026-10-03T09:06:13.310Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-254",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"35\"",
+        "    - spinbutton \"Y-position\": \"112\"",
+        "      - textbox \"Width\" [disabled]: \"83\"",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Bold",
+        "  - 'listbox \"Font size: 22 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 22 px\"': \"22\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "10-libcafe-inline-map.png",
+      "kind": "editor",
+      "note": "Existing inline map Image Rectangle selected after card repair;35,488,507x309 expected from source actual readback",
+      "input": null,
+      "captured_at": "2026-10-03T09:06:20.652Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-298",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"35\"",
+        "    - spinbutton \"Y-position\": \"488\"",
+        "      - textbox \"Width\": \"507\"",
+        "      - textbox \"Height\": \"309\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "11-libcafe-inline-map-corrected.png",
+      "kind": "editor",
+      "note": "Actual inline Image949:298 height309->307, now35,488,507x307 matches native asset crop; other geometry readback",
+      "input": null,
+      "captured_at": "2026-10-03T09:07:04.730Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-298",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"35\"",
+        "    - spinbutton \"Y-position\": \"488\"",
+        "      - textbox \"Width\": \"507\"",
+        "      - textbox \"Height\": \"307\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "12-libcafe-final-editor.png",
+      "kind": "editor",
+      "note": "Final corrected root selected via actual canvas Select layer Frame entry after third immediate route abort;949:248 geometry2800/88000,576x1024 unchanged",
+      "input": null,
+      "captured_at": "2026-10-03T09:07:33.907Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-248",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"88000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "13-libcafe-flow.png",
+      "kind": "editor",
+      "note": "Actual finite independent reference title/description/link; no navigation connection",
+      "input": null,
+      "captured_at": "2026-10-03T09:08:00.057Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-248",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · LibCafé — Coffee caller — archived state",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "14-libcafe-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-LIBCAFE-DETAIL reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:08:05.258Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-248&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A248"
+    },
+    {
+      "file": "15-blocky-image-before.png",
+      "kind": "editor",
+      "note": "Existing expanded-image root949:193 at1400,88000,576x1024; native logo modal is a static reference",
+      "input": null,
+      "captured_at": "2026-10-03T09:08:34.448Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-193",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"1400\"",
+        "    - spinbutton \"Y-position\": \"88000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "16-blocky-image-raster.png",
+      "kind": "editor",
+      "note": "Expanded public hero Image Rectangle selected;133,360,308x261 actual geometry/fill",
+      "input": null,
+      "captured_at": "2026-10-03T09:08:35.895Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-196",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"CloseImage\" [level=1]:",
+        "      - gridcell \"CloseImage\":",
+        "        - generic: CloseImage",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"133\"",
+        "    - spinbutton \"Y-position\": \"360\"",
+        "      - textbox \"Width\": \"308\"",
+        "      - textbox \"Height\": \"261\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "17-blocky-image-flow.png",
+      "kind": "editor",
+      "note": "Actual finite independent reference title/description/link; no navigation connection",
+      "input": null,
+      "captured_at": "2026-10-03T09:08:40.301Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-193",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"CloseImage\" [level=1] [selected]:",
+        "      - gridcell \"CloseImage\":",
+        "        - generic: CloseImage",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Block Y — expanded image — archived state",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "18-blocky-image-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-BLOCKY-IMAGE reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:08:45.426Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-193&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A193"
+    },
+    {
+      "file": "19-coffee-before.png",
+      "kind": "editor",
+      "note": "Existing Coffee fixed eight-result query root949:201,2100/88000,576x1024",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:17.636Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-201",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2100\"",
+        "    - spinbutton \"Y-position\": \"88000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "20-coffee-query-text.png",
+      "kind": "editor",
+      "note": "Actual independent query Text Coffee; X76/Y135 Inter Regular23px",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:19.185Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-213",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"76\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "      - textbox \"Width\" [disabled]: \"74\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "21-coffee-result-text.png",
+      "kind": "editor",
+      "note": "Actual complete Block Y result Text; X30/Y692 Inter Regular23px; source typography approximate",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:20.725Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-241",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"30\"",
+        "    - spinbutton \"Y-position\": \"692\"",
+        "      - textbox \"Width\" [disabled]: \"455\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "22-coffee-flow.png",
+      "kind": "editor",
+      "note": "Actual finite independent reference title/description/link; no navigation connection",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:25.418Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-201",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Search — Coffee from Block Y — archived state",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "23-coffee-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-COFFEE reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:30.550Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-201&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A201"
+    },
+    {
+      "file": "24-sandwich-before.png",
+      "kind": "editor",
+      "note": "Existing Sandwich fixed eight-result root949:319,0/90000,576x1024",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:45.790Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-319",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"90000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "25-sandwich-query-text.png",
+      "kind": "editor",
+      "note": "Actual independent query Text Sandwich; X76/Y135 Inter Regular23px",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:47.339Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-331",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"76\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "      - textbox \"Width\" [disabled]: \"106\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "26-sandwich-result-text.png",
+      "kind": "editor",
+      "note": "Actual complete Block Y result Text; X30/Y692 Inter Regular23px",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:48.888Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-359",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"30\"",
+        "    - spinbutton \"Y-position\": \"692\"",
+        "      - textbox \"Width\" [disabled]: \"455\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "27-sandwich-flow.png",
+      "kind": "editor",
+      "note": "Actual finite independent reference title/description/link; no navigation connection",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:53.188Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-319",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Search — Sandwich from lower detail — archived state",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "28-sandwich-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-SANDWICH reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:09:58.531Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-319&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A319"
+    },
+    {
+      "file": "29-image-repeat-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-BLOCKY-IMAGE reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:10:43.639Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-193&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A193"
+    },
+    {
+      "file": "30-coffee-repeat-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-COFFEE reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:10:48.777Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-201&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A201"
+    },
+    {
+      "file": "31-sandwich-repeat-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-SANDWICH reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:10:53.744Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-319&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A319"
+    },
+    {
+      "file": "32-libcafe-repeat-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-LIBCAFE-DETAIL reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:10:59.143Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-248&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A248"
+    },
+    {
+      "file": "33-blocky-flow.png",
+      "kind": "editor",
+      "note": "Named independent start on existing BlockY scrolling root; existing overflow not changed, no native journey connection",
+      "input": null,
+      "captured_at": "2026-10-03T09:11:41.787Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-63",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Block Y detail — finite scrolling",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "34-blocky-initial-present.png",
+      "kind": "present",
+      "note": "Actual independent fitted S-FOOD-OCT3-BLOCKY-DETAIL reference; native caller navigation not replayed",
+      "input": null,
+      "captured_at": "2026-10-03T09:11:47.184Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-63&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A63"
+    },
+    {
+      "file": "35-blocky-stable-top.png",
+      "kind": "present",
+      "note": "Existing continuous detail viewport scrolled up to finite top for baseline, no native action asserted",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          470,
+          523
+        ],
+        "direction": "up",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T09:12:07.654Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-63&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A63"
+    },
+    {
+      "file": "36-blocky-lower.png",
+      "kind": "present",
+      "note": "Existing continuous vertical overflow reaches lower map/tag viewport; approximate68px range",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          470,
+          523
+        ],
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T09:12:08.074Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-63&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A63"
+    },
+    {
+      "file": "37-blocky-lower-repeat.png",
+      "kind": "present",
+      "note": "Extra down at finite prototype lower position; comparison preserves any rendered difference",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          470,
+          523
+        ],
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T09:12:19.056Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-63&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A63"
+    },
+    {
+      "file": "38-blocky-reverse-top.png",
+      "kind": "present",
+      "note": "Existing viewport reverse back to finite top; compared against35 baseline",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          470,
+          523
+        ],
+        "direction": "up",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T09:12:19.564Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-63&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A63"
+    },
+    {
+      "file": "39-blocky-top-repeat.png",
+      "kind": "present",
+      "note": "Extra up at finite prototype top; no native boundary proof",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          470,
+          523
+        ],
+        "direction": "up",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T09:12:19.945Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-63&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A63"
+    }
+  ],
+  "flows": [
+    {
+      "name": "Reference · LibCafé — Coffee caller — archived state",
+      "start_node_id": "949:248",
+      "description": "Independent finite reference of S-FOOD-OCT3-LIBCAFE-DETAIL from archived October3 native screenshots. Public venue/query/hours labels are historical; map/expanded logo imagery remains raster. No caller/Back/close-image/tag/result/map-expand navigation, arbitrary query entry, live availability or new scroll behavior configured. LibCafe card/background/crop sizing correction is approximate reconstruction of the visible sample, not exact native boundary. Independent start does not implement the native interaction journey. Full app/fidelity not_verified; actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-248&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A248&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Block Y — expanded image — archived state",
+      "start_node_id": "949:193",
+      "description": "Independent finite reference of S-FOOD-OCT3-BLOCKY-IMAGE from archived October3 native screenshots. Public venue/query/hours labels are historical; map/expanded logo imagery remains raster. No caller/Back/close-image/tag/result/map-expand navigation, arbitrary query entry, live availability or new scroll behavior configured. LibCafe card/background/crop sizing correction is approximate reconstruction of the visible sample, not exact native boundary. Independent start does not implement the native interaction journey. Full app/fidelity not_verified; actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-193&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A193&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Search — Coffee from Block Y — archived state",
+      "start_node_id": "949:201",
+      "description": "Independent finite reference of S-FOOD-OCT3-COFFEE from archived October3 native screenshots. Public venue/query/hours labels are historical; map/expanded logo imagery remains raster. No caller/Back/close-image/tag/result/map-expand navigation, arbitrary query entry, live availability or new scroll behavior configured. LibCafe card/background/crop sizing correction is approximate reconstruction of the visible sample, not exact native boundary. Independent start does not implement the native interaction journey. Full app/fidelity not_verified; actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-201&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A201&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Search — Sandwich from lower detail — archived state",
+      "start_node_id": "949:319",
+      "description": "Independent finite reference of S-FOOD-OCT3-SANDWICH from archived October3 native screenshots. Public venue/query/hours labels are historical; map/expanded logo imagery remains raster. No caller/Back/close-image/tag/result/map-expand navigation, arbitrary query entry, live availability or new scroll behavior configured. LibCafe card/background/crop sizing correction is approximate reconstruction of the visible sample, not exact native boundary. Independent start does not implement the native interaction journey. Full app/fidelity not_verified; actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-319&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A319&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Block Y detail — finite scrolling",
+      "start_node_id": "949:63",
+      "description": "Independent reference of the existing October3 Block Y detail reconstruction. Actual existing vertical viewport576x924 and content992px imply a finite68px range; this does not establish complete native bounds. Archived top/lower snapshots support public logo, labels and inline map; exact fonts/geometry unknown. Lower sample is reached through this existing overflow, not a new duplicate screen. No caller/Back/image/tag/map navigation configured. No new native execution or human evaluation; full application/fidelity not_verified.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-63&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A63&show-proto-sidebar=1"
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "left": "14-libcafe-present.png",
+      "right": "32-libcafe-repeat-present.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "18-blocky-image-present.png",
+      "right": "29-image-repeat-present.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "23-coffee-present.png",
+      "right": "30-coffee-repeat-present.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "28-sandwich-present.png",
+      "right": "31-sandwich-repeat-present.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "35-blocky-stable-top.png",
+      "right": "38-blocky-reverse-top.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "38-blocky-reverse-top.png",
+      "right": "39-blocky-top-repeat.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "36-blocky-lower.png",
+      "right": "37-blocky-lower-repeat.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "34-blocky-initial-present.png",
+      "right": "35-blocky-stable-top.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": false,
+      "difference_bbox": [
+        5,
+        51,
+        349,
+        631
+      ]
+    },
+    {
+      "left": "35-blocky-stable-top.png",
+      "right": "36-blocky-lower.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        121
+      ],
+      "check": "fixed_BlockY_header",
+      "equal": false,
+      "difference_bbox": [
+        5,
+        51,
+        349,
+        61
+      ]
+    },
+    {
+      "left": "36-blocky-lower.png",
+      "right": "37-blocky-lower-repeat.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        121
+      ],
+      "check": "fixed_BlockY_header",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "37-blocky-lower-repeat.png",
+      "right": "38-blocky-reverse-top.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        121
+      ],
+      "check": "fixed_BlockY_header",
+      "equal": false,
+      "difference_bbox": [
+        5,
+        51,
+        349,
+        61
+      ]
+    },
+    {
+      "left": "38-blocky-reverse-top.png",
+      "right": "39-blocky-top-repeat.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        121
+      ],
+      "check": "fixed_BlockY_header",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "35-blocky-stable-top.png",
+      "right": "36-blocky-lower.png",
+      "crop_xyxy": [
+        277,
+        80,
+        610,
+        110
+      ],
+      "check": "supplemental_visible_title_back_region_excludes_lower_edge",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "36-blocky-lower.png",
+      "right": "37-blocky-lower-repeat.png",
+      "crop_xyxy": [
+        277,
+        80,
+        610,
+        110
+      ],
+      "check": "supplemental_visible_title_back_region_excludes_lower_edge",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "37-blocky-lower-repeat.png",
+      "right": "38-blocky-reverse-top.png",
+      "crop_xyxy": [
+        277,
+        80,
+        610,
+        110
+      ],
+      "check": "supplemental_visible_title_back_region_excludes_lower_edge",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "38-blocky-reverse-top.png",
+      "right": "39-blocky-top-repeat.png",
+      "crop_xyxy": [
+        277,
+        80,
+        610,
+        110
+      ],
+      "check": "supplemental_visible_title_back_region_excludes_lower_edge",
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "limits": [
+    "Four finite independent archived references displayed and reopened: corrected LibCafe detail, expanded BlockY logo, Coffee and Sandwich fixed eight-result queries. No caller/Back/close-image/tag/result/map-expand navigation or arbitrary input configured.",
+    "LibCafe existing root949:248 retained. Only card Vector949:253 replaced with contour Frame1023:19 at18,100,539x924 Clipfalse; ScreenBackground949:249 fillF7F9F6; Image949:298 height309->307 at35,488,507x307. Title949:254 remains Inter Bold22px. Radius38 and card bounds approximate visible reconstruction, not exact native geometry.",
+    "Expanded logo Image949:196 at133,360,308x261 has actual Image fill. Coffee query949:213 and complete result949:241, Sandwich query949:331 and result949:359 are independent Inter Regular23px Texts. QueryX76 and full resultX30 verified; native font exactness unknown.",
+    "Existing BlockY949:63 continuous viewport949:65 at0,100,576x924 and content949:66 height992 unchanged. Inferred68px range reaches lower sample, header fixed; complete native bounds and Back/caller/image/tag/map edges unknown. Lower949:128 remains historical unmapped draft; alias reuses949:63.",
+    "Three immediate leaf-to-root route aborts; semantic sidebar row did not select root and root became hidden. Samples05/06/07 are failures,02 has transient wrongY144.5. Show checkbox locator matched nothing; icon406 miss then fresh417 restored root at08. Cause not isolated. Failures retained; safe canvas Frame selection used only for design selection.",
+    "Raw JPEG bytes named.png converted to RGB PNG for public archive; collaborator identity masked. Pixel equality checks verify finite prototype render only, not native reentry rules or human evaluation.",
+    "Current native Computer Use read after user reported unlock still returned Mac locked; no new native session/state/action or business submission.",
+    "Earlier Action navigation dropdown refused for URL-protocol safety; not retried or bypassed. Independent references, layout repair and existing scroll replay are different operations. Full application/fidelity not_verified."
+  ],
+  "comparison_interpretation": "Initial34 versus stable top35 differs, cause not isolated. Broad header crop includes lower10px which differ on scroll; retained as failed broad checks. Additional visible title/back crop checked separately, without replacing failed tests."
+}
