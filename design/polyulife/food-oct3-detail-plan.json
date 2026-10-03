@@ -1,5 +1,5 @@
 {
-  "status": "prepared_unconfigured_not_replayed",
+  "status": "11_imported_navigation_unconfigured_one_scroll_replayed",
   "sources_record": "food-oct3-detail-sources.json",
   "edges": [
     {
@@ -150,14 +150,18 @@
       "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
       "control": "DetailContent vertical scroll",
       "native_relation": "observed in finite caller context",
-      "status": "unconfigured",
+      "status": "configured_vertical_overflow_replayed",
       "source_evidence_ids": [
         "E-FOOD-MENU-09",
         "E-FOOD-MENU-09-AX",
         "E-FOOD-MENU-10",
         "E-FOOD-MENU-10-AX"
       ],
-      "implementation_limit": "Two source viewport samples prepared; continuous scroll geometry/input and reverse boundary still to configure and verify."
+      "implementation_limit": "Current BlockY root uses actual continuous Vertical overflow with inferred68px range. Native full extent and other detail/caller contexts remain unverified.",
+      "root_node_id": "949:63",
+      "viewport_node_id": "949:65",
+      "content_node_id": "949:66",
+      "prototype_run_id": "PROTO-FOOD-OCT3-DETAIL-SCROLL-001"
     },
     {
       "action_id": "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN",
@@ -282,7 +286,9 @@
   "remaining": [
     "Other5 BlockY tags interrupted by Mac lock.",
     "Other Search results and LibCafe tags not observed.",
-    "Full Food list current-data reconstruction, continuous detail scroll, map pan/zoom bounds and external boundaries pending.",
+    "Full Food list current-data reconstruction, other detail scroll/caller contexts, map pan/zoom bounds and external boundaries pending.",
     "All sources need actual editable import, image-fill verification, connections and Present caller replay."
-  ]
+  ],
+  "import_record_path": "../../evidence/2026-10-03-food-detail-import/imports.json",
+  "scroll_layout_source": "food-oct3-blocky-scroll.svg"
 }

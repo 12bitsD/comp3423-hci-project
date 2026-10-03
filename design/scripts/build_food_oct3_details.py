@@ -10,7 +10,7 @@ from build_calendar_class_exam_oct2 import node, tag, group, rect, label, path, 
 
 R=Path(__file__).resolve().parents[2];D=R/'design/polyulife';P=R/'evidence/2026-10-03-food-menu-details'
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-AS=D/'assets';records=[];sources=[]
+AS=D/'assets';records=[];sources=[];previous_sources={}
 
 def asset(name,source,box):
     file=AS/name;Image.open(P/source).crop(box).save(file)
@@ -71,10 +71,16 @@ def maps(name,file):
 
 def write(name,r,state,eids):
     file=D/('food-oct3-'+name+'.svg');E.ElementTree(r).write(file,encoding='unicode',xml_declaration=True)
-    sources.append({'file':file.name,'state_id':state,'source_evidence_ids':['E-FOOD-MENU-'+i for i in eids],'sha256':sha(file),'dimensions':[576,1024],'status':'prepared_not_imported_not_replayed'})
+    record={'file':file.name,'state_id':state,'source_evidence_ids':['E-FOOD-MENU-'+i for i in eids],'sha256':sha(file),'dimensions':[576,1024],'status':'prepared_not_imported_not_replayed'}
+    previous=previous_sources.get(file.name)
+    if previous and previous['sha256']==record['sha256']:
+        record.update(previous)
+    sources.append(record)
 
 def main():
-    global blockhero,blockinline,libinline
+    global blockhero,blockinline,libinline,previous_sources
+    existing=D/'food-oct3-detail-sources.json'
+    previous_sources={s['file']:s for s in json.loads(existing.read_text())['sources']} if existing.exists() else {}
     blockhero=asset('food-oct3-blocky-hero.png','01-block-y-menu.png',(151,100,429,326))
     blockinline=asset('food-oct3-blocky-inline-map.png','10-block-y-detail-lower.png',(35,693,542,1002))
     libinline=asset('food-oct3-libcafe-inline-map.png','05-lib-cafe-detail.png',(35,488,542,795))
@@ -87,7 +93,7 @@ def main():
     for name,src,state,title in [('libcafe-map','06-lib-cafe-map.png','LIBCAFE-MAP','LibCafe map'),('blocky-map','12-block-y-map-settled.png','BLOCKY-MAP','BlockY map'),('blocky-map-zoom','13-block-y-map-zoom.png','BLOCKY-MAP-ZOOM','BlockY map zoom'),('blocky-map-out','14-block-y-map-out.png','BLOCKY-MAP-OUT','BlockY map out')]:
         f=asset('food-oct3-'+name+'.png',src,(0,100,576,1024));write(name,maps(title,f),'S-FOOD-OCT3-'+state,[src[:2]])
     loading=asset('food-oct3-blocky-map-loading.png','11-block-y-map.png',(265,100,315,151));r=root('BlockY map loading');rect(r,0,100,576,924,'#F2F2F2');image(group(r,'LoadingMark'),loading,265,100,50,51);header(r,'Block Y Outlet - Grove &...');write('blocky-map-loading',r,'S-FOOD-OCT3-BLOCKY-MAP-LOADING',['11'])
-    (D/'food-oct3-detail-sources.json').write_text(json.dumps({'sources':sources,'assets':records,'limits':['Local sources only; no Figma mutations or mappings.','Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.','Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.','Tags other than Coffee/Sandwich unobserved; same-name rows not conflated.']},ensure_ascii=False,indent=2)+'\n')
+    (D/'food-oct3-detail-sources.json').write_text(json.dumps({'sources':sources,'assets':records,'limits':['Generator performs no Figma input; imported status is preserved only for unchanged source hashes and must reference actual UI evidence.','Two original detail viewports preserve finite native positions; current live scroll/layout is recorded separately in food-oct3-blocky-scroll-layout.json.','Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.','Tags other than Coffee/Sandwich unobserved; same-name rows not conflated.']},ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'svg_sources':len(sources),'raster_assets':len(records),'figma_mutations':0}))
 
 if __name__=='__main__':main()

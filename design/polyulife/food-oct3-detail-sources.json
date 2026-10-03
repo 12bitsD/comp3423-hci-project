@@ -15,7 +15,21 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_scroll_replayed_other_controls_unconfigured",
+      "node_id": "949:63",
+      "actual_layer_name": "[FOOD-OCT3:BLOCKY] Block Y — observed detail",
+      "canvas_position": [
+        0,
+        88000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-00"
+      ],
+      "import_source_sha256": "e3290bff55b39b7785ed506dcc90f76e850e1c00e0e5a43c48ff74ae98e2851e",
+      "live_layout_variant": "food-oct3-blocky-scroll.svg",
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-DETAIL-SCROLL-001"
+      ]
     },
     {
       "file": "food-oct3-blocky-lower.svg",
@@ -29,7 +43,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:128",
+      "actual_layer_name": "[FOOD-OCT3:BLOCKY-LOWER] Block Y — observed lower",
+      "canvas_position": [
+        700,
+        88000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-01"
+      ],
+      "import_source_sha256": "69e0e8434a83cb24e5bea8c961d80d9a518c1338e9310bbffb5a1d0af33da615"
     },
     {
       "file": "food-oct3-libcafe-detail.svg",
@@ -43,7 +67,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:248",
+      "actual_layer_name": "[FOOD-OCT3:LIBCAFE] LibCafé — Coffee caller",
+      "canvas_position": [
+        2800,
+        88000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-04"
+      ],
+      "import_source_sha256": "8b4af6a83b9dc1594e10f7ac20c03557d0a5a7b317328f1be044e9dd07867096"
     },
     {
       "file": "food-oct3-blocky-image.svg",
@@ -56,7 +90,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:193",
+      "actual_layer_name": "[FOOD-OCT3:BLOCKY-IMAGE] Block Y — expanded image",
+      "canvas_position": [
+        1400,
+        88000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-02"
+      ],
+      "import_source_sha256": "1b100e28677bb87a7b0d35d42d1492d2cff38f16dc0c06f1b149523b596cf0b6"
     },
     {
       "file": "food-oct3-coffee.svg",
@@ -69,7 +113,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:201",
+      "actual_layer_name": "[FOOD-OCT3:COFFEE] Search — Coffee from Block Y",
+      "canvas_position": [
+        2100,
+        88000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-03"
+      ],
+      "import_source_sha256": "b91c5c11c94196bca5a376b8ed8b35266c4254fd154783dbb92c1bd0efe5aff1"
     },
     {
       "file": "food-oct3-sandwich.svg",
@@ -82,7 +136,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:319",
+      "actual_layer_name": "[FOOD-OCT3:SANDWICH] Search — Sandwich from lower detail",
+      "canvas_position": [
+        0,
+        90000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-06"
+      ],
+      "import_source_sha256": "f159f96c6513556b6917a42791d85eba9f94424d8b6a31217993e5f4ddb1765c"
     },
     {
       "file": "food-oct3-libcafe-map.svg",
@@ -95,7 +159,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:308",
+      "actual_layer_name": "[FOOD-OCT3:LIBCAFE-MAP] LibCafé — map",
+      "canvas_position": [
+        3500,
+        88000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-05"
+      ],
+      "import_source_sha256": "ac7558ab23e72c9a1e9a5f6d4be170df671cbad1484dbb7c2a9f77a1994e8c7b"
     },
     {
       "file": "food-oct3-blocky-map.svg",
@@ -108,7 +182,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:378",
+      "actual_layer_name": "[FOOD-OCT3:BLOCKY-MAP] Block Y — observed map",
+      "canvas_position": [
+        1400,
+        90000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-08"
+      ],
+      "import_source_sha256": "978a0d400358be6010b232d6bb73708c965bb05f645e64863ee890b0ed027d09"
     },
     {
       "file": "food-oct3-blocky-map-zoom.svg",
@@ -121,7 +205,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:389",
+      "actual_layer_name": "[FOOD-OCT3:BLOCKY-MAP-ZOOM] Block Y — observed zoom",
+      "canvas_position": [
+        2100,
+        90000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-09"
+      ],
+      "import_source_sha256": "bbc911cd29172c022d8fee97fd3af7d895db6cee9d992cc9f28665467ced31d8"
     },
     {
       "file": "food-oct3-blocky-map-out.svg",
@@ -134,7 +228,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:400",
+      "actual_layer_name": "[FOOD-OCT3:BLOCKY-MAP-OUT] Block Y — observed zoom out",
+      "canvas_position": [
+        2800,
+        90000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-10"
+      ],
+      "import_source_sha256": "2ae79ace9b5e014279c53f27a647c18508f7effdf15084b4743984596feb171b"
     },
     {
       "file": "food-oct3-blocky-map-loading.svg",
@@ -147,7 +251,17 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_unconfigured_not_replayed",
+      "node_id": "949:366",
+      "actual_layer_name": "[FOOD-OCT3:BLOCKY-MAP-LOADING] Block Y — map pending",
+      "canvas_position": [
+        700,
+        90000
+      ],
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-IMPORT-07"
+      ],
+      "import_source_sha256": "fe37c80f034e18727ba5484a1734f0fb4e2418177b0462d851ba35ecc10fcfd6"
     }
   ],
   "assets": [
@@ -306,8 +420,8 @@
     }
   ],
   "limits": [
-    "Local sources only; no Figma mutations or mappings.",
-    "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+    "Generator performs no Figma input; imported status is preserved only for unchanged source hashes and must reference actual UI evidence.",
+    "Two original detail viewports preserve finite native positions; current live scroll/layout is recorded separately in food-oct3-blocky-scroll-layout.json.",
     "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
     "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
   ]
