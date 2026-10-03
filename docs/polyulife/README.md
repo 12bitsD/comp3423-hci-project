@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Block Y余下五个标签与调用者](food-oct3-remaining-tags-walkthrough.md)保存24组真实原生采样，确认Asian6、Western11、Taiwanese1、Cake6、Salad7条结果及返回；Taiwanese自身结果的嵌套详情和内嵌地图加载单独保留，进入过渡后另补稳定截图。五个可编辑查询Frame已实际导入，但未连线/回放。当前27会话、212状态/395动作（308 observed、78 not_attempted、9 attempted_unverified）；2664证据，65份清单含2388PNG。正式Figma保持202画板/436控件/17滚动区域/137运行，未配置草稿16个；完整应用`not_verified`。下方为历史批次。
+
 最新[Food详情实际导入与滚动回放](food-oct3-detail-import-walkthrough.md)已在Figma导入11份源稿，直接验证一个标题Text，并修正组转Frame后的内容压缩。Block Y顶部/较低位置、上下额外滚动和两次反向恢复保存11张实际Present；七项裁片比较五等两不等，失败与修正保留。新增一项有限映射和垂直滚动；其余10新稿和旧946:19仍未配置。当前原生26会话/205状态/382动作保持，Figma202映射画板/436控件/17滚动区域/137运行；2604证据、63清单含2355PNG。连线安全拒绝未重试或绕过，完整应用`not_verified`。下方为历史批次。
 
 最新[Food场所详情与标签调用者](food-oct3-detail-walkthrough.md)保存20次真实原生采样，确认Block Y省略号直达详情、图片关闭、Coffee/LibCafé地图往返、Sandwich返回顶部及Block Y地图加载/缩放。11份可编辑SVG和本地渲染已准备，尚未导入/连线。当前26会话、205状态/382动作（295 observed、78 not_attempted、9 attempted_unverified），2571证据、62份清单含2325PNG。正式Figma仍201画板/436控件/136运行，完整应用`not_verified`。本批末尾Mac锁定；既有浏览器Action安全拒绝未重试或绕过。下方数字保留历史批次。

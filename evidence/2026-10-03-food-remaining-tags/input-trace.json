@@ -1,0 +1,308 @@
+{
+  "steps": [
+    {
+      "file": "00-blocky-start.png",
+      "action": null,
+      "input": null,
+      "note": "Unlock verified by screenshot and AX. Existing Block Y detail at top.",
+      "captured_at": "2026-10-03T07:13:00.612Z"
+    },
+    {
+      "file": "01-asian-results.png",
+      "action": "tap_asian_tag",
+      "input": {
+        "ax_index": 30,
+        "description": "#Asian Cuisine"
+      },
+      "note": "From Block Y detail top.",
+      "captured_at": "2026-10-03T07:13:02.058Z"
+    },
+    {
+      "file": "02-asian-back.png",
+      "action": "back_from_asian",
+      "input": {
+        "ax_index": 10
+      },
+      "note": "Verify detail return and scroll position.",
+      "captured_at": "2026-10-03T07:13:13.580Z"
+    },
+    {
+      "file": "03-western-results.png",
+      "action": "tap_western_tag",
+      "input": {
+        "ax_index": 31,
+        "description": "#Western Cuisine"
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:13:18.028Z"
+    },
+    {
+      "file": "04-western-lower.png",
+      "action": "scroll_western_results",
+      "input": {
+        "target": [
+          658,
+          1176
+        ],
+        "direction": "down",
+        "pages": 0.6
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:13:22.707Z"
+    },
+    {
+      "file": "05-western-back.png",
+      "action": "back_from_western",
+      "input": {
+        "ax_index": 10
+      },
+      "note": "Search scrolled before return.",
+      "captured_at": "2026-10-03T07:13:27.708Z"
+    },
+    {
+      "file": "06-taiwanese-results.png",
+      "action": "tap_taiwanese_tag",
+      "input": {
+        "ax_index": 32,
+        "description": "#Taiwanese Cuisine"
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:13:31.981Z"
+    },
+    {
+      "file": "07-taiwanese-self-detail.png",
+      "action": "open_taiwanese_self_result",
+      "input": {
+        "ax_index": 19,
+        "description": "Block Y Outlet - Grove & Tai Tai Foodtopia"
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:13:39.382Z"
+    },
+    {
+      "file": "08-taiwanese-detail-back.png",
+      "action": "back_from_taiwanese_self_detail",
+      "input": {
+        "ax_index": 10
+      },
+      "note": "Verify query retained.",
+      "captured_at": "2026-10-03T07:13:43.779Z"
+    },
+    {
+      "file": "09-taiwanese-back.png",
+      "action": "back_from_taiwanese_search",
+      "input": {
+        "ax_index": 10
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:13:48.438Z"
+    },
+    {
+      "file": "10-cake-results.png",
+      "action": "tap_cake_tag",
+      "input": {
+        "ax_index": 33,
+        "description": "#Cake / Dessert"
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:13:52.571Z"
+    },
+    {
+      "file": "11-cake-back.png",
+      "action": "back_from_cake",
+      "input": {
+        "ax_index": 10
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:13:57.887Z"
+    },
+    {
+      "file": "12-salad-results.png",
+      "action": "tap_salad_tag",
+      "input": {
+        "ax_index": 35,
+        "description": "#Salad"
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:14:04.770Z"
+    },
+    {
+      "file": "13-salad-back.png",
+      "action": "back_from_salad",
+      "input": {
+        "ax_index": 10
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:14:09.788Z"
+    }
+  ],
+  "actual_state_ids": [
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-ASIAN",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-WESTERN",
+    "S-FOOD-OCT3-WESTERN-LOWER",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-TAIWANESE",
+    "S-FOOD-OCT3-BLOCKY-SELF-MAP-LOADING",
+    "S-FOOD-OCT3-TAIWANESE",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-CAKE",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-SALAD",
+    "S-FOOD-OCT3-BLOCKY-DETAIL"
+  ],
+  "actual_action_ids": [
+    null,
+    "A-FOOD-OCT3-TAGS-ASIAN",
+    "A-FOOD-OCT3-TAGS-ASIAN-BACK",
+    "A-FOOD-OCT3-TAGS-WESTERN",
+    "A-FOOD-OCT3-TAGS-WESTERN-SCROLL",
+    "A-FOOD-OCT3-TAGS-WESTERN-BACK",
+    "A-FOOD-OCT3-TAGS-TAIWANESE",
+    "A-FOOD-OCT3-TAGS-TAIWANESE-SELF",
+    "A-FOOD-OCT3-TAGS-TAIWANESE-DETAIL-BACK",
+    "A-FOOD-OCT3-TAGS-TAIWANESE-BACK",
+    "A-FOOD-OCT3-TAGS-CAKE",
+    "A-FOOD-OCT3-TAGS-CAKE-BACK",
+    "A-FOOD-OCT3-TAGS-SALAD",
+    "A-FOOD-OCT3-TAGS-SALAD-BACK"
+  ],
+  "pixel_comparisons": [
+    {
+      "left": "00-blocky-start.png",
+      "right": "02-asian-back.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        107,
+        159
+      ],
+      "limits": "Cursor/map differences retained; equality not used to infer universal restoration."
+    },
+    {
+      "left": "00-blocky-start.png",
+      "right": "05-western-back.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        107,
+        159
+      ],
+      "limits": "Cursor/map differences retained; equality not used to infer universal restoration."
+    },
+    {
+      "left": "00-blocky-start.png",
+      "right": "07-taiwanese-self-detail.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        32,
+        239,
+        720,
+        1333
+      ],
+      "limits": "Cursor/map differences retained; equality not used to infer universal restoration."
+    },
+    {
+      "left": "06-taiwanese-results.png",
+      "right": "08-taiwanese-detail-back.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        0,
+        750,
+        1311
+      ],
+      "limits": "Cursor/map differences retained; equality not used to infer universal restoration."
+    },
+    {
+      "left": "00-blocky-start.png",
+      "right": "09-taiwanese-back.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        107,
+        159
+      ],
+      "limits": "Cursor/map differences retained; equality not used to infer universal restoration."
+    },
+    {
+      "left": "00-blocky-start.png",
+      "right": "11-cake-back.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        107,
+        159
+      ],
+      "limits": "Cursor/map differences retained; equality not used to infer universal restoration."
+    },
+    {
+      "left": "00-blocky-start.png",
+      "right": "13-salad-back.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        107,
+        159
+      ],
+      "limits": "Cursor/map differences retained; equality not used to infer universal restoration."
+    }
+  ],
+  "limits": [
+    "Current October3 Block Y detail caller and finite public tag results only; full app/fidelity not_verified.",
+    "Asian6, Western11, Taiwanese1, Cake6, Salad7; Western last row confirmed after scrolling. No arbitrary query input, search index completeness or all result details verified.",
+    "Taiwanese self result opens another Block Y detail; Back retains Taiwanese query, next Back returns initial Block Y detail top.",
+    "Each tested tag starts from detail top; returns display top in these samples. No general scrolling restoration rule claimed.",
+    "Maps may refresh and cursor/halo remains in public pixels; raw comparison inequality is not a product defect.",
+    "Version3.0.0 inherited from existing record; not reverified this session. Existing login, no credential, call, order, location permission or business submission.",
+    "Earlier interrupted Asian input remains attempted_unverified; current independently observed action does not rewrite history."
+  ]
+}

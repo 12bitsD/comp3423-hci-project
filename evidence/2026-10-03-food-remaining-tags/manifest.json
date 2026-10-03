@@ -1,0 +1,634 @@
+{
+  "kind": "native_food_remaining_tags",
+  "session_id": "SESSION-20261003-FOOD-REMAINING-TAGS",
+  "images": [
+    {
+      "file": "00-blocky-start.png",
+      "sha256": "973c6e01cea397983af6656a18d7c56a6733e9ecb2be8faa49ca21cafc75fe8a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:00.612Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": null,
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "00-blocky-start.safe-ax.txt",
+      "safe_ax_sha256": "c331fd2e42dfb90b84f1d2c0c02b11ec9b2b9f349de8d639a35454d0da9a61a4"
+    },
+    {
+      "file": "01-asian-results.png",
+      "sha256": "bda389a304bd7f98f517364655885b7becc71ca86e6332e2a798be141f741e5b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:02.058Z",
+      "state_id": "S-FOOD-OCT3-ASIAN",
+      "action_id": "A-FOOD-OCT3-TAGS-ASIAN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "01-asian-results.safe-ax.txt",
+      "safe_ax_sha256": "fd637b59aad864d7e597c2dfee8ed958494121f8d8d8a4e33e7dd6198b5cb62f"
+    },
+    {
+      "file": "02-asian-back.png",
+      "sha256": "c3a630e1e3d5c7d5f96123370cb6089bad76ca1f38bf6fd21efb24e0dc1c46e0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:13.580Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-ASIAN-BACK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "02-asian-back.safe-ax.txt",
+      "safe_ax_sha256": "c331fd2e42dfb90b84f1d2c0c02b11ec9b2b9f349de8d639a35454d0da9a61a4"
+    },
+    {
+      "file": "03-western-results.png",
+      "sha256": "32c799ca8aa4c55c9c4f3bbbe41d8f7de15ddaa8aa9e023a977af98b178262d0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:18.028Z",
+      "state_id": "S-FOOD-OCT3-WESTERN",
+      "action_id": "A-FOOD-OCT3-TAGS-WESTERN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "03-western-results.safe-ax.txt",
+      "safe_ax_sha256": "4c2c3a3d9a79f4cefcee1da598799485f4e8d675912cf0dbea6792c707437b3f"
+    },
+    {
+      "file": "04-western-lower.png",
+      "sha256": "4c094000cd92a4b29dc349e022a86e20bd1c23e037a1c562a54abf5237f77e77",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:22.707Z",
+      "state_id": "S-FOOD-OCT3-WESTERN-LOWER",
+      "action_id": "A-FOOD-OCT3-TAGS-WESTERN-SCROLL",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "04-western-lower.safe-ax.txt",
+      "safe_ax_sha256": "4c2c3a3d9a79f4cefcee1da598799485f4e8d675912cf0dbea6792c707437b3f"
+    },
+    {
+      "file": "05-western-back.png",
+      "sha256": "21e0c3d2f10d373fef3177e629ae03df05b5f830144cf4bb0c358ad616e7eca6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:27.708Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-WESTERN-BACK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "05-western-back.safe-ax.txt",
+      "safe_ax_sha256": "c331fd2e42dfb90b84f1d2c0c02b11ec9b2b9f349de8d639a35454d0da9a61a4"
+    },
+    {
+      "file": "06-taiwanese-results.png",
+      "sha256": "834773bba91832443c33bdef0cf77d4d6283e8e81ad98f4478683a179c14a42d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:31.981Z",
+      "state_id": "S-FOOD-OCT3-TAIWANESE",
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "06-taiwanese-results.safe-ax.txt",
+      "safe_ax_sha256": "55dfa2c82eb511b99f81ffdc55131418734042a0a8afb4d217009b99e3cbc2af"
+    },
+    {
+      "file": "07-taiwanese-self-detail.png",
+      "sha256": "8e134dfa84a98c5ec5319016782fcee78c1be0fc19189f07b7c7af6cbabedf9d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:39.382Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-SELF-MAP-LOADING",
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE-SELF",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "07-taiwanese-self-detail.safe-ax.txt",
+      "safe_ax_sha256": "3e5742434b4c0ac2ab19eff1b439cd57c830291c635029726821fa236781a738"
+    },
+    {
+      "file": "08-taiwanese-detail-back.png",
+      "sha256": "743db842f72f5c662cb82a7393dbe96e82c82c322364082a62ac0af0553724ae",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:43.779Z",
+      "state_id": "S-FOOD-OCT3-TAIWANESE",
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE-DETAIL-BACK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "08-taiwanese-detail-back.safe-ax.txt",
+      "safe_ax_sha256": "55dfa2c82eb511b99f81ffdc55131418734042a0a8afb4d217009b99e3cbc2af"
+    },
+    {
+      "file": "09-taiwanese-back.png",
+      "sha256": "ffd5f7d09c1f5fe73f54d492421e1eccb9377beebb797b3f463c684bb98ebbaa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:48.438Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE-BACK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "09-taiwanese-back.safe-ax.txt",
+      "safe_ax_sha256": "c331fd2e42dfb90b84f1d2c0c02b11ec9b2b9f349de8d639a35454d0da9a61a4"
+    },
+    {
+      "file": "10-cake-results.png",
+      "sha256": "4ca69340215baedd792d3a6749c014cb4e8bdc7428cb9015b24b1cb2b97a5c76",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:52.571Z",
+      "state_id": "S-FOOD-OCT3-CAKE",
+      "action_id": "A-FOOD-OCT3-TAGS-CAKE",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "10-cake-results.safe-ax.txt",
+      "safe_ax_sha256": "3af038c428156ea478cc7d20f18e7e613867062ce9fe0dfc7d458053058bcf91"
+    },
+    {
+      "file": "11-cake-back.png",
+      "sha256": "36100ebdde19e209ea2a0167dd9aaee022b8bcac8e1173bf8cf008c6b420d742",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:13:57.887Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-CAKE-BACK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "11-cake-back.safe-ax.txt",
+      "safe_ax_sha256": "c331fd2e42dfb90b84f1d2c0c02b11ec9b2b9f349de8d639a35454d0da9a61a4"
+    },
+    {
+      "file": "12-salad-results.png",
+      "sha256": "0af72d159b7141443262d90a9ee9f741498c8e22aa6373d9db36e97df186c152",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:14:04.770Z",
+      "state_id": "S-FOOD-OCT3-SALAD",
+      "action_id": "A-FOOD-OCT3-TAGS-SALAD",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "12-salad-results.safe-ax.txt",
+      "safe_ax_sha256": "a7286ecf37d8e258f7a6159ef4f69a86bae7fec1693def7a4411fc44d5ea6183"
+    },
+    {
+      "file": "13-salad-back.png",
+      "sha256": "316e88561f2e7ca4137f0ae6e5726f49b07c6c0c181b136aa00787073ba3bd70",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:14:09.788Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-SALAD-BACK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "13-salad-back.safe-ax.txt",
+      "safe_ax_sha256": "c331fd2e42dfb90b84f1d2c0c02b11ec9b2b9f349de8d639a35454d0da9a61a4"
+    },
+    {
+      "file": "14-asian-stable.png",
+      "sha256": "050f175e5638aca9b318dd94af08c6772f1b7eb59e944c899ff1c36f5447f0cc",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:15:54.590Z",
+      "state_id": "S-FOOD-OCT3-ASIAN",
+      "action_id": "A-FOOD-OCT3-TAGS-ASIAN",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "14-asian-stable.safe-ax.txt",
+      "safe_ax_sha256": "b8b0baf168e0077716e324570b11076f822a631c5507449c1bbe58bdbcbbf1ab"
+    },
+    {
+      "file": "15-asian-repeat-back.png",
+      "sha256": "ae9ee71ce213f051d71d5cf293cb275b231076131486ccccdf32da09241e1013",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:15:55.720Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-ASIAN-BACK",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "15-asian-repeat-back.safe-ax.txt",
+      "safe_ax_sha256": "c917c9e693d84868a1af71d0f7c714dc8124555ccfa8abdecc41695a843a1ebd"
+    },
+    {
+      "file": "16-western-stable.png",
+      "sha256": "15ea616fe1e2c7921514b9d4ea10eff923d2cc37b76820e7fe02b17c750710fc",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:16:04.295Z",
+      "state_id": "S-FOOD-OCT3-WESTERN",
+      "action_id": "A-FOOD-OCT3-TAGS-WESTERN",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "16-western-stable.safe-ax.txt",
+      "safe_ax_sha256": "c77beede5a5a736ce54c739f75defcec31326e4ea41128859d382df737f718cf"
+    },
+    {
+      "file": "17-western-repeat-back.png",
+      "sha256": "ae9ee71ce213f051d71d5cf293cb275b231076131486ccccdf32da09241e1013",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:16:05.424Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-WESTERN-BACK",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "17-western-repeat-back.safe-ax.txt",
+      "safe_ax_sha256": "c917c9e693d84868a1af71d0f7c714dc8124555ccfa8abdecc41695a843a1ebd"
+    },
+    {
+      "file": "18-taiwanese-stable.png",
+      "sha256": "45a9efdc2ce289aef14da577444e2fd0af1b813ed879e7daf17099e9976283fc",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:16:15.252Z",
+      "state_id": "S-FOOD-OCT3-TAIWANESE",
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "18-taiwanese-stable.safe-ax.txt",
+      "safe_ax_sha256": "6bb27ac0f3a961193534c8fe522285f32bc417c96fd9d2a7acd76fe2b326c39a"
+    },
+    {
+      "file": "19-taiwanese-repeat-back.png",
+      "sha256": "b8958ab8482e6eaf3c7861ef57265aca0dd9739fb1c4f636fd239b0b24643dec",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:16:16.420Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE-BACK",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "19-taiwanese-repeat-back.safe-ax.txt",
+      "safe_ax_sha256": "c917c9e693d84868a1af71d0f7c714dc8124555ccfa8abdecc41695a843a1ebd"
+    },
+    {
+      "file": "20-cake-stable.png",
+      "sha256": "6ca08450a28a1fbfbcdf6c126d06e5eb53a2961b583dedef59c6693b184a7650",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:16:24.903Z",
+      "state_id": "S-FOOD-OCT3-CAKE",
+      "action_id": "A-FOOD-OCT3-TAGS-CAKE",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "20-cake-stable.safe-ax.txt",
+      "safe_ax_sha256": "17dbc0c8cd08c67cdc21ab7745aec3bad7df730cacc776dc40ab5050fac3a2c6"
+    },
+    {
+      "file": "21-cake-repeat-back.png",
+      "sha256": "36100ebdde19e209ea2a0167dd9aaee022b8bcac8e1173bf8cf008c6b420d742",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:16:26.054Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-CAKE-BACK",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "21-cake-repeat-back.safe-ax.txt",
+      "safe_ax_sha256": "c917c9e693d84868a1af71d0f7c714dc8124555ccfa8abdecc41695a843a1ebd"
+    },
+    {
+      "file": "22-salad-stable.png",
+      "sha256": "7e1bb1d0eff7b1bb9b902edba0e7b45f8d2f6e4e2f7571853aed15520fbcd44e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:16:39.330Z",
+      "state_id": "S-FOOD-OCT3-SALAD",
+      "action_id": "A-FOOD-OCT3-TAGS-SALAD",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "22-salad-stable.safe-ax.txt",
+      "safe_ax_sha256": "c73739c75e93df07965809bef318aed3feccf8b3a374ed0af3227fb27bacd52d"
+    },
+    {
+      "file": "23-salad-repeat-back.png",
+      "sha256": "33c87166539d758f1f5992b7fb32bf404d7afdfcee3b384e96df5c9c521ac211",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T07:16:40.503Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "action_id": "A-FOOD-OCT3-TAGS-SALAD-BACK",
+      "source": "Actual native Computer Use screenshot bytes, repeated tag entry after separate AX check",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public venue/search/map only; titlebar removed; cursor and halo retained",
+      "safe_ax_file": "23-salad-repeat-back.safe-ax.txt",
+      "safe_ax_sha256": "c917c9e693d84868a1af71d0f7c714dc8124555ccfa8abdecc41695a843a1ebd"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "dfdf8a7788346133378bda1f3ca5759f373b30fc356f33f8eb49dbbece95e6bd",
+    "dimensions": [
+      1150,
+      1644
+    ],
+    "source": "14 actual native samples"
+  },
+  "limits": [
+    "Current October3 Block Y detail caller and finite public tag results only; full app/fidelity not_verified.",
+    "Asian6, Western11, Taiwanese1, Cake6, Salad7; Western last row confirmed after scrolling. No arbitrary query input, search index completeness or all result details verified.",
+    "Taiwanese self result opens another Block Y detail; Back retains Taiwanese query, next Back returns initial Block Y detail top.",
+    "Each tested tag starts from detail top; returns display top in these samples. No general scrolling restoration rule claimed.",
+    "Maps may refresh and cursor/halo remains in public pixels; raw comparison inequality is not a product defect.",
+    "Version3.0.0 inherited from existing record; not reverified this session. Existing login, no credential, call, order, location permission or business submission.",
+    "Earlier interrupted Asian input remains attempted_unverified; current independently observed action does not rewrite history.",
+    "First Taiwanese/Cake samples include entry-layout narrowing/wrapped title; nested BlockY sample07 includes map-loading mark. Retained as captured. Later repeated tag entries were sampled after separate AX read, without manual delay; use actual stable screenshots for reconstruction."
+  ],
+  "repeat_contact_sheet": {
+    "file": "repeat-contact-sheet.png",
+    "sha256": "015994a1de751feba768d1e777106c13670ba63290bb80e70a04e31193aaf7c7",
+    "dimensions": [
+      1150,
+      1096
+    ],
+    "source": "10 actual repeated tag/Back samples"
+  }
+}

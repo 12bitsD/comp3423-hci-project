@@ -1,0 +1,258 @@
+{
+  "status": "imported_unconfigured_not_replayed",
+  "edges": [
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-ASIAN",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-ASIAN",
+      "control": "ASIAN",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-00",
+        "E-FOOD-TAGS-00-AX",
+        "E-FOOD-TAGS-01",
+        "E-FOOD-TAGS-01-AX",
+        "E-FOOD-TAGS-13",
+        "E-FOOD-TAGS-13-AX",
+        "E-FOOD-TAGS-14",
+        "E-FOOD-TAGS-14-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-ASIAN-BACK",
+      "from_state_id": "S-FOOD-OCT3-ASIAN",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "ASIAN-BACK",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-01",
+        "E-FOOD-TAGS-01-AX",
+        "E-FOOD-TAGS-02",
+        "E-FOOD-TAGS-02-AX",
+        "E-FOOD-TAGS-14",
+        "E-FOOD-TAGS-14-AX",
+        "E-FOOD-TAGS-15",
+        "E-FOOD-TAGS-15-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-WESTERN",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-WESTERN",
+      "control": "WESTERN",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-02",
+        "E-FOOD-TAGS-02-AX",
+        "E-FOOD-TAGS-03",
+        "E-FOOD-TAGS-03-AX",
+        "E-FOOD-TAGS-15",
+        "E-FOOD-TAGS-15-AX",
+        "E-FOOD-TAGS-16",
+        "E-FOOD-TAGS-16-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-WESTERN-SCROLL",
+      "from_state_id": "S-FOOD-OCT3-WESTERN",
+      "observed_final_state_id": "S-FOOD-OCT3-WESTERN-LOWER",
+      "control": "WESTERN-SCROLL",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-03",
+        "E-FOOD-TAGS-03-AX",
+        "E-FOOD-TAGS-04",
+        "E-FOOD-TAGS-04-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-WESTERN-BACK",
+      "from_state_id": "S-FOOD-OCT3-WESTERN-LOWER",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "WESTERN-BACK",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-04",
+        "E-FOOD-TAGS-04-AX",
+        "E-FOOD-TAGS-05",
+        "E-FOOD-TAGS-05-AX",
+        "E-FOOD-TAGS-16",
+        "E-FOOD-TAGS-16-AX",
+        "E-FOOD-TAGS-17",
+        "E-FOOD-TAGS-17-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-TAIWANESE",
+      "control": "TAIWANESE",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-05",
+        "E-FOOD-TAGS-05-AX",
+        "E-FOOD-TAGS-06",
+        "E-FOOD-TAGS-06-AX",
+        "E-FOOD-TAGS-17",
+        "E-FOOD-TAGS-17-AX",
+        "E-FOOD-TAGS-18",
+        "E-FOOD-TAGS-18-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE-SELF",
+      "from_state_id": "S-FOOD-OCT3-TAIWANESE",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-SELF-MAP-LOADING",
+      "control": "TAIWANESE-SELF",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-06",
+        "E-FOOD-TAGS-06-AX",
+        "E-FOOD-TAGS-07",
+        "E-FOOD-TAGS-07-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE-DETAIL-BACK",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-SELF-MAP-LOADING",
+      "observed_final_state_id": "S-FOOD-OCT3-TAIWANESE",
+      "control": "TAIWANESE-DETAIL-BACK",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-07",
+        "E-FOOD-TAGS-07-AX",
+        "E-FOOD-TAGS-08",
+        "E-FOOD-TAGS-08-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-TAIWANESE-BACK",
+      "from_state_id": "S-FOOD-OCT3-TAIWANESE",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "TAIWANESE-BACK",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-08",
+        "E-FOOD-TAGS-08-AX",
+        "E-FOOD-TAGS-09",
+        "E-FOOD-TAGS-09-AX",
+        "E-FOOD-TAGS-18",
+        "E-FOOD-TAGS-18-AX",
+        "E-FOOD-TAGS-19",
+        "E-FOOD-TAGS-19-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-CAKE",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-CAKE",
+      "control": "CAKE",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-09",
+        "E-FOOD-TAGS-09-AX",
+        "E-FOOD-TAGS-10",
+        "E-FOOD-TAGS-10-AX",
+        "E-FOOD-TAGS-19",
+        "E-FOOD-TAGS-19-AX",
+        "E-FOOD-TAGS-20",
+        "E-FOOD-TAGS-20-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-CAKE-BACK",
+      "from_state_id": "S-FOOD-OCT3-CAKE",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "CAKE-BACK",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-10",
+        "E-FOOD-TAGS-10-AX",
+        "E-FOOD-TAGS-11",
+        "E-FOOD-TAGS-11-AX",
+        "E-FOOD-TAGS-20",
+        "E-FOOD-TAGS-20-AX",
+        "E-FOOD-TAGS-21",
+        "E-FOOD-TAGS-21-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-SALAD",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-SALAD",
+      "control": "SALAD",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-11",
+        "E-FOOD-TAGS-11-AX",
+        "E-FOOD-TAGS-12",
+        "E-FOOD-TAGS-12-AX",
+        "E-FOOD-TAGS-21",
+        "E-FOOD-TAGS-21-AX",
+        "E-FOOD-TAGS-22",
+        "E-FOOD-TAGS-22-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-TAGS-SALAD-BACK",
+      "from_state_id": "S-FOOD-OCT3-SALAD",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "SALAD-BACK",
+      "native_relation": "Actual finite Block Y tag caller chain",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-12",
+        "E-FOOD-TAGS-12-AX",
+        "E-FOOD-TAGS-13",
+        "E-FOOD-TAGS-13-AX",
+        "E-FOOD-TAGS-22",
+        "E-FOOD-TAGS-22-AX",
+        "E-FOOD-TAGS-23",
+        "E-FOOD-TAGS-23-AX"
+      ],
+      "implementation_limit": "UI navigation connection refused in prior batch; no retry/workaround. Scroll behavior and nested caller must be separately configured and replayed."
+    }
+  ],
+  "sources_record": "food-oct3-remaining-tags-sources.json",
+  "editor_evidence_ids": [
+    "E-FOOD-TAG-IMPORT-00",
+    "E-FOOD-TAG-IMPORT-01",
+    "E-FOOD-TAG-IMPORT-02",
+    "E-FOOD-TAG-IMPORT-03",
+    "E-FOOD-TAG-IMPORT-04",
+    "E-FOOD-TAG-IMPORT-05",
+    "E-FOOD-TAG-IMPORT-06",
+    "E-FOOD-TAG-IMPORT-READBACK"
+  ],
+  "limits": [
+    "Five fixed tag query frames actually imported through clipboard UI;576x1024 and X/Y read back. No working arbitrary query, navigation or Present run.",
+    "Independent Salad query Text verified via visible layer and Typography Inter Regular23px. Other rows mostly untested as editable Text. Fonts/icons/spacing approximate.",
+    "While inspecting children, Right moved SearchInput x12->13; explicit UI X restoration to12 completed before text selection. Earlier copy/import screenshots remain pre-move.",
+    "Prior Action dropdown URL-protocol safety refusal unresolved; no retry or alternative navigation-connection surface used.",
+    "Full app/fidelity not_verified. Native Computer Use and editor evidence do not replace human evaluation."
+  ]
+}
