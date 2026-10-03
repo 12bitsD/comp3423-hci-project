@@ -11,15 +11,24 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "node_id": "865:19",
       "actual_layer_name": "[NOTICE:UNREAD] Notification — unread workshop",
       "x": 0,
       "y": 82000,
-      "editor_evidence_path": "../../evidence/2026-10-03-notification-import-wip/notice-independent.png",
-      "limits": "Explicit outline fills updated; Figma Present visual acceptance pending.",
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough",
       "replaced_node_id": "860:19",
-      "imported_at": "2026-10-03T02:42:35.188Z"
+      "imported_at": "2026-10-03T02:42:35.188Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-02",
+        "E-NOTICE-RECORD-PROTO-21"
+      ],
+      "historical_editor_evidence_path": "../../evidence/2026-10-03-notification-import-wip/notice-independent.png"
     },
     {
       "file": "notification-record-list-read.svg",
@@ -32,12 +41,28 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "node_id": "865:65",
       "actual_layer_name": "[NOTICE:READ] Notification — read workshop",
       "x": 700,
       "y": 82000,
-      "imported_at": "2026-10-03T02:42:47.340Z"
+      "imported_at": "2026-10-03T02:42:47.340Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-12",
+        "E-NOTICE-RECORD-PROTO-14",
+        "E-NOTICE-RECORD-PROTO-17",
+        "E-NOTICE-RECORD-PROTO-18",
+        "E-NOTICE-RECORD-PROTO-19",
+        "E-NOTICE-RECORD-PROTO-31",
+        "E-NOTICE-RECORD-PROTO-36",
+        "E-NOTICE-RECORD-PROTO-39"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
     },
     {
       "file": "notification-record-detail-initial.svg",
@@ -50,12 +75,21 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "node_id": "865:109",
       "actual_layer_name": "[NOTICE:INITIAL] Workshop detail — initial no image",
       "x": 1400,
       "y": 82000,
-      "imported_at": "2026-10-03T02:42:50.171Z"
+      "imported_at": "2026-10-03T02:42:50.171Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-03"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
     },
     {
       "file": "notification-record-detail-loaded.svg",
@@ -71,12 +105,30 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "node_id": "865:133",
       "actual_layer_name": "[NOTICE:LOADED] Workshop detail — observed banner",
       "x": 2100,
       "y": 82000,
-      "imported_at": "2026-10-03T02:42:55.600Z"
+      "imported_at": "2026-10-03T02:42:55.600Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-04",
+        "E-NOTICE-RECORD-PROTO-09",
+        "E-NOTICE-RECORD-PROTO-11",
+        "E-NOTICE-RECORD-PROTO-13",
+        "E-NOTICE-RECORD-PROTO-24",
+        "E-NOTICE-RECORD-PROTO-26",
+        "E-NOTICE-RECORD-PROTO-27",
+        "E-NOTICE-RECORD-PROTO-30",
+        "E-NOTICE-RECORD-PROTO-32",
+        "E-NOTICE-RECORD-PROTO-35"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
     },
     {
       "file": "notification-record-image-expanded.svg",
@@ -89,12 +141,22 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "node_id": "865:163",
       "actual_layer_name": "[NOTICE:IMAGE] Workshop banner — expanded",
       "x": 2800,
       "y": 82000,
-      "imported_at": "2026-10-03T02:42:58.145Z"
+      "imported_at": "2026-10-03T02:42:58.145Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-10",
+        "E-NOTICE-RECORD-PROTO-25"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
     },
     {
       "file": "notification-record-web-loading.svg",
@@ -107,12 +169,24 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "node_id": "865:171",
       "actual_layer_name": "[NOTICE:LOAD] Workshop webpage — loading",
       "x": 3500,
       "y": 82000,
-      "imported_at": "2026-10-03T02:43:00.778Z"
+      "imported_at": "2026-10-03T02:43:00.778Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-05",
+        "E-NOTICE-RECORD-PROTO-22",
+        "E-NOTICE-RECORD-PROTO-28",
+        "E-NOTICE-RECORD-PROTO-33"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
     },
     {
       "file": "notification-record-web-blank.svg",
@@ -127,12 +201,25 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "node_id": "865:205",
       "actual_layer_name": "[NOTICE:BLANK] Workshop webpage — observed blank",
       "x": 4200,
       "y": 82000,
-      "imported_at": "2026-10-03T02:43:07.043Z"
+      "imported_at": "2026-10-03T02:43:07.043Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-06",
+        "E-NOTICE-RECORD-PROTO-08",
+        "E-NOTICE-RECORD-PROTO-23",
+        "E-NOTICE-RECORD-PROTO-29",
+        "E-NOTICE-RECORD-PROTO-34"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
     },
     {
       "file": "notification-record-web-menu.svg",
@@ -145,12 +232,21 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "node_id": "865:238",
       "actual_layer_name": "[NOTICE:MENU] Workshop webpage — menu",
       "x": 4900,
       "y": 82000,
-      "imported_at": "2026-10-03T02:43:09.494Z"
+      "imported_at": "2026-10-03T02:43:09.494Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-07"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
     },
     {
       "file": "notification-record-calendar-read.svg",
@@ -163,13 +259,25 @@
         576,
         1024
       ],
-      "status": "imported_not_configured_not_replayed",
+      "status": "imported_configured_replayed_partial",
       "context_variant": "20261003-payment-after-notice-read",
       "node_id": "865:287",
       "actual_layer_name": "[NOTICE:CALENDAR] Payment — after notice read",
       "x": 5600,
       "y": 82000,
-      "imported_at": "2026-10-03T02:43:12.218Z"
+      "imported_at": "2026-10-03T02:43:12.218Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-15",
+        "E-NOTICE-RECORD-PROTO-16",
+        "E-NOTICE-RECORD-PROTO-37",
+        "E-NOTICE-RECORD-PROTO-38"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
     }
   ],
   "assets": [

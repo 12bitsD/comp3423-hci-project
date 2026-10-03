@@ -1,5 +1,7 @@
 # Notification 记录原生走查与来源准备
 
+后续9画板/15控件已完成有限实际回放，见[最新原型记录](notification-record-prototype-walkthrough.md)。下方来源准备和未配置检查点保留历史状态，接力以最新记录及connections.json为准。
+
 2026-10-03 用 Mac Computer Use 重新取得 PolyULife 3.0.0 的真实窗口，并走查一条 ITS 公共工作坊通知。新增 8 个状态、13 个动作，其中 12 个 observed、1 个 attempted_unverified；保存 26 张窗口截图、安全 AX 子集与联系表。当前原生共 21 次会话、178 状态、340 动作（254 observed、81 not_attempted、5 attempted_unverified）。完整应用仍 `not_verified`。
 
 [原生清单](../../evidence/2026-10-03-notification-record-native/manifest.json)记录实际截图时间、裁切、尺寸与哈希；[联系表](../../evidence/2026-10-03-notification-record-native/contact-sheet.png)包含全部 26 张样本。[覆盖台账](coverage.json)记录动作与结果。以下编号均指公开截图文件名前缀。

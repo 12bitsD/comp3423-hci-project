@@ -65595,6 +65595,867 @@
       ],
       "description": "Local9 source renders; not Figma/native/Present evidence",
       "redaction": "Public institutional materials only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/00-payment-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:24:53.653Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/01-footer-negative.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:24:53.980Z",
+      "sha256": "5f1379cdf84f1d463a5eae0142dd73e5424a6e041f0700d2ad18dfd19b8f47a8",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/02-unread-list.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:24:54.361Z",
+      "sha256": "da09bb12d3d544cbedca535be8c2d90690790ffd6ecdac2dd55a9cd93e2b7992",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-UNREAD"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/03-detail-first-sample.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:23.291Z",
+      "sha256": "ae4e262377672d9ec099ce2c6f7c39eef337bc7b549eb752611d09b3063b59f1",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-NOIMAGE"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-OPEN"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/04-detail-loaded.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:26.629Z",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/05-web-first-sample.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:30.063Z",
+      "sha256": "ebef1a56678c6f09868d197c5e3509cf0e51eca6dcb7a54126f4e738ac49209a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/06-web-blank.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:33.297Z",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/07-web-menu.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:37.508Z",
+      "sha256": "58329b03cbc010b4492e7c685a832f0fca9615ef134179d4217bebc862fd801c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-MORE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/08-menu-cancel.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:41.677Z",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CANCEL"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/09-web-close.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:42.081Z",
+      "sha256": "8fd768a4ce39ced402a791a0b06517c194299111f3d78e94e551a572c4f23ec0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/10-expanded-first.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:45.616Z",
+      "sha256": "24593dfa20f915cd71e457f9f16b4ae182819892fdc8eaccb17b9f043b480b3e",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-IMAGE"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-EXPAND"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/11-expanded-close-first.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:50.062Z",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/12-read-list.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:50.466Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/13-read-reopen-first.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:55.616Z",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-REOPEN"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/14-read-list-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:55.845Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/15-calendar-after-read.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:27:56.164Z",
+      "sha256": "0e6f463a9c7e1eff3e4d8475a5a29cf5f666026499a666640d60af624cc1704c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-CALENDAR-RETURN"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/16-calendar-stable.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:28:00.344Z",
+      "sha256": "0e6f463a9c7e1eff3e4d8475a5a29cf5f666026499a666640d60af624cc1704c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/17-notification-after-calendar.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:28:00.776Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-CALENDAR-REENTER"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/18-payment-restart.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:28:51.741Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/19-unread-reentry.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:28:52.046Z",
+      "sha256": "772e14442c9a89952357ffb0686a2d60ab9a55c81a618d06fe5205dfd78abfef",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/20-payment-direct-reset.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:09.568Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/21-unread-reset.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:09.924Z",
+      "sha256": "93e76c417b957fd7c76778848d9d782ae3aafc947227030e20e932f20002ec78",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-UNREAD"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/22-early-read-more.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:13.888Z",
+      "sha256": "ebef1a56678c6f09868d197c5e3509cf0e51eca6dcb7a54126f4e738ac49209a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/23-early-web-remains.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:17.903Z",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/24-detail-after-upload.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:18.106Z",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/25-expanded-after-upload.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:22.044Z",
+      "sha256": "44f52f8d792b81d9b2f52ef1aed776f7d8e5c7ee6c1de9a3453b5beb1fba8bad",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-IMAGE"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-EXPAND"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/26-detail-image-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:22.367Z",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-IMAGE-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/27-image-return-followup.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:26.440Z",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/28-second-web-loading.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:34.236Z",
+      "sha256": "966c9571642a2d34fc8074ba076a9bb62201a66788c8caa695b6135b6bd638fb",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/29-second-web-blank.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:40.515Z",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/30-second-web-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:40.699Z",
+      "sha256": "6775f9c891d01b175cb4667a9fb4d51ff853a1918463d5c9862d55d5a5bbd6fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-31",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/31-read-list-final.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:41.119Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-32",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/32-reopen-final.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:29:41.522Z",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-REOPEN"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-33",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/33-loading-reuploaded.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:14.153Z",
+      "sha256": "ebef1a56678c6f09868d197c5e3509cf0e51eca6dcb7a54126f4e738ac49209a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-READ-MORE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-34",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/34-blank-final.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:24.653Z",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-35",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/35-detail-final-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:25.057Z",
+      "sha256": "6775f9c891d01b175cb4667a9fb4d51ff853a1918463d5c9862d55d5a5bbd6fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-WEB-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-36",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/36-read-final.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:25.284Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-37",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/37-calendar-final.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:25.611Z",
+      "sha256": "0e6f463a9c7e1eff3e4d8475a5a29cf5f666026499a666640d60af624cc1704c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-CALENDAR-RETURN"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-38",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/38-calendar-stable-final.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:31.329Z",
+      "sha256": "0e6f463a9c7e1eff3e4d8475a5a29cf5f666026499a666640d60af624cc1704c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-39",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/39-notification-final.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:31.732Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NATIVE-NOTICE-CALENDAR-REENTER"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "id": "E-NOTICE-RECORD-EDITOR-INITIAL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/editor-initial.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:48.792318+00:00",
+      "sha256": "f27a8c5ba889c7c0241f49a1cf6c3498dd4bb41797bbefa8968fc4bffb953ff3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked"
+    },
+    {
+      "id": "E-NOTICE-RECORD-EDITOR-LOADING",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/editor-loading.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:30:50.354249+00:00",
+      "sha256": "099b26bc176a523a407dd38108d6ec01de517fd0fec0d5a7ca6f4015ead80b93",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked"
+    },
+    {
+      "id": "E-NOTICE-RECORD-EDITOR-FLOW",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/editor-flow.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:31:10.427752+00:00",
+      "sha256": "2c71419f2865602e9d06439fd298d3b274daf128cf17f000f5a0fde1e27270a0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked"
+    },
+    {
+      "id": "E-NOTICE-RECORD-PROTO-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/contact-sheet.png",
+      "session_id": null,
+      "sha256": "4b5180e5c8b327feeaa2d99a1110a0b4dcec7a474c515c8a8ec254e2a4c37d2e",
+      "dimensions": [
+        1000,
+        3400
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-NOTICE-LIST-UNREAD",
+        "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+        "S-NATIVE-NOTICE-DETAIL-LOADED",
+        "S-NATIVE-NOTICE-WEB-LOADING",
+        "S-NATIVE-NOTICE-WEB-BLANK",
+        "S-NATIVE-NOTICE-WEB-MENU",
+        "S-NATIVE-NOTICE-IMAGE",
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "redaction": "Derived masked public notice/Calendar screenshots"
+    },
+    {
+      "id": "E-NOTICE-RECORD-EDITOR-FLOW-FINAL",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-record-prototype/editor-flow-final.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:32:58.831454+00:00",
+      "sha256": "87906c735274a25fd127dc26f76753a0d6279a057116a4a78bcf138b0410b270",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Account header masked"
     }
   ],
   "findings": [
@@ -75681,6 +76542,446 @@
           "E-PQQUERY-PROTO-07",
           "E-PQQUERY-PROTO-21"
         ]
+      },
+      {
+        "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+        "node_id": "865:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-19",
+        "node_name": "[NOTICE:UNREAD] Notification — unread workshop",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-04"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-list-unread.svg",
+        "design_source_sha256": "ed0018f788a2cbc8c3bedfe10581cec465316f6b3efd00ed91e065b4fe002def",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-02",
+            "E-NOTICE-RECORD-PROTO-21"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-02",
+          "E-NOTICE-RECORD-PROTO-21"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-NOTICE-LIST-READ",
+        "node_id": "865:65",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-65",
+        "node_name": "[NOTICE:READ] Notification — read workshop",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-15"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-list-read.svg",
+        "design_source_sha256": "fa772a3647c780364a6c9c5ff223c2a9be432ef2b55cae78a12037d1b4a7d7c2",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-12",
+            "E-NOTICE-RECORD-PROTO-14",
+            "E-NOTICE-RECORD-PROTO-17",
+            "E-NOTICE-RECORD-PROTO-18",
+            "E-NOTICE-RECORD-PROTO-19",
+            "E-NOTICE-RECORD-PROTO-31",
+            "E-NOTICE-RECORD-PROTO-36",
+            "E-NOTICE-RECORD-PROTO-39"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-12",
+          "E-NOTICE-RECORD-PROTO-14",
+          "E-NOTICE-RECORD-PROTO-17",
+          "E-NOTICE-RECORD-PROTO-18",
+          "E-NOTICE-RECORD-PROTO-19",
+          "E-NOTICE-RECORD-PROTO-31",
+          "E-NOTICE-RECORD-PROTO-36",
+          "E-NOTICE-RECORD-PROTO-39"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+        "node_id": "865:109",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-109",
+        "node_name": "[NOTICE:INITIAL] Workshop detail — initial no image",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-05"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-detail-initial.svg",
+        "design_source_sha256": "bc1bfb93baa577bae733d6a14f667bb020547a46732df3bd9773e2a343dc0092",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-03"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-03"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+        "node_id": "865:133",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-133",
+        "node_name": "[NOTICE:LOADED] Workshop detail — observed banner",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-12",
+          "E-NATIVE-NOTICE-16",
+          "E-NATIVE-NOTICE-20",
+          "E-NATIVE-NOTICE-24"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-detail-loaded.svg",
+        "design_source_sha256": "73fcf3187fc4915ca1587a4e9af375302f0d8ecb5cd8484529e1d09d153d10eb",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-04",
+            "E-NOTICE-RECORD-PROTO-09",
+            "E-NOTICE-RECORD-PROTO-11",
+            "E-NOTICE-RECORD-PROTO-13",
+            "E-NOTICE-RECORD-PROTO-24",
+            "E-NOTICE-RECORD-PROTO-26",
+            "E-NOTICE-RECORD-PROTO-27",
+            "E-NOTICE-RECORD-PROTO-30",
+            "E-NOTICE-RECORD-PROTO-32",
+            "E-NOTICE-RECORD-PROTO-35"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-04",
+          "E-NOTICE-RECORD-PROTO-09",
+          "E-NOTICE-RECORD-PROTO-11",
+          "E-NOTICE-RECORD-PROTO-13",
+          "E-NOTICE-RECORD-PROTO-24",
+          "E-NOTICE-RECORD-PROTO-26",
+          "E-NOTICE-RECORD-PROTO-27",
+          "E-NOTICE-RECORD-PROTO-30",
+          "E-NOTICE-RECORD-PROTO-32",
+          "E-NOTICE-RECORD-PROTO-35"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-NOTICE-IMAGE",
+        "node_id": "865:163",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-163",
+        "node_name": "[NOTICE:IMAGE] Workshop banner — expanded",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-13"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-image-expanded.svg",
+        "design_source_sha256": "e80d99fa95e2f4fb43039e22cd6ba2e924c445ee83b425e2b2d12a2bb3d31ea0",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2800,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-10",
+            "E-NOTICE-RECORD-PROTO-25"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-10",
+          "E-NOTICE-RECORD-PROTO-25"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+        "node_id": "865:171",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-171",
+        "node_name": "[NOTICE:LOAD] Workshop webpage — loading",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-21"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-web-loading.svg",
+        "design_source_sha256": "3e9ee90b68f006dbfdb79bbed3838920eaa41bbf7257f08517bf453ab585023d",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            3500,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-05",
+            "E-NOTICE-RECORD-PROTO-22",
+            "E-NOTICE-RECORD-PROTO-28",
+            "E-NOTICE-RECORD-PROTO-33"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-05",
+          "E-NOTICE-RECORD-PROTO-22",
+          "E-NOTICE-RECORD-PROTO-28",
+          "E-NOTICE-RECORD-PROTO-33"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+        "node_id": "865:205",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-205",
+        "node_name": "[NOTICE:BLANK] Workshop webpage — observed blank",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-07",
+          "E-NATIVE-NOTICE-10",
+          "E-NATIVE-NOTICE-22"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-web-blank.svg",
+        "design_source_sha256": "eeb22380a1710d0939bec7157b23b4100be74fb25a66b719ca151bc75dc777a3",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            4200,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-06",
+            "E-NOTICE-RECORD-PROTO-08",
+            "E-NOTICE-RECORD-PROTO-23",
+            "E-NOTICE-RECORD-PROTO-29",
+            "E-NOTICE-RECORD-PROTO-34"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-06",
+          "E-NOTICE-RECORD-PROTO-08",
+          "E-NOTICE-RECORD-PROTO-23",
+          "E-NOTICE-RECORD-PROTO-29",
+          "E-NOTICE-RECORD-PROTO-34"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-NOTICE-WEB-MENU",
+        "node_id": "865:238",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-238",
+        "node_name": "[NOTICE:MENU] Workshop webpage — menu",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-08"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-web-menu.svg",
+        "design_source_sha256": "a48312fed31e0d6a0c36ab51d4acea6f67c09a083087cf7d92fdb35f0fd7444f",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            4900,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-07"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-07"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-OCT3-PAYMENT",
+        "node_id": "865:287",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=865-287",
+        "node_name": "[NOTICE:CALENDAR] Payment — after notice read",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-18"
+        ],
+        "design_source_path": "../../design/polyulife/notification-record-calendar-read.svg",
+        "design_source_sha256": "3c40fafde470e013f3a0ead69ebfc0a8b9648a32bee03ddadb79541703115dde",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            5600,
+            82000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; banner and static loading mark raster image fills",
+        "content_policy": "Public ITS notice; Calendar empty and no private financial/identity fields",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite sampled navigation; missing-image recovery and Calendar rendering differences retained",
+          "evidence_ids": [
+            "E-NOTICE-RECORD-PROTO-15",
+            "E-NOTICE-RECORD-PROTO-16",
+            "E-NOTICE-RECORD-PROTO-37",
+            "E-NOTICE-RECORD-PROTO-38"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-15",
+          "E-NOTICE-RECORD-PROTO-16",
+          "E-NOTICE-RECORD-PROTO-37",
+          "E-NOTICE-RECORD-PROTO-38"
+        ],
+        "context_variant": "20261003-payment-after-notice-read"
       }
     ],
     "action_connection_mappings": [
@@ -91170,6 +92471,516 @@
         "source_evidence_ids": [
           "E-EMPTY"
         ]
+      },
+      {
+        "source_node_id": "823:21",
+        "trigger_node_id": "823:173",
+        "trigger_node_name": "NavNotification",
+        "action_id": "A-NATIVE-NOTICE-ENTRY",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:19",
+        "configured_at": "2026-10-03T05:24:12.294Z",
+        "readback": [
+          "\t\t\t\t\t\t\t571 combo box (collapsed) Position, Value: Scroll with parent, ID: :r86:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t600 combo box (collapsed) Trigger, Value: On click, ID: :rad:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t606 combo box (collapsed) Action, Value: Navigate to, ID: :rag:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t613 combo box (collapsed) Destination, Value: [NOTICE:UNREAD] Notification — unread workshop, ID: :rav:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t618 combo box (collapsed) Animation, Value: Instant, ID: :rbc:, Secondary Actions: Expand",
+          "The focused UI element is 613 combo box (collapsed) Destination, Value: [NOTICE:UNREAD] Notification — unread workshop, ID: :rav:, Secondary Actions: Expand"
+        ],
+        "limits": "Existing Payment caller does not yet show native unread badge; notification controls and read-list markers are reconstructed. Footer background interaction removed.",
+        "connection_id": "C-NOTICE-RECORD-01",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-00"
+        ]
+      },
+      {
+        "source_node_id": "865:19",
+        "trigger_node_id": "865:33",
+        "trigger_node_name": "FirstNoticeCard",
+        "action_id": "A-NATIVE-NOTICE-RECORD-OPEN",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:109",
+        "configured_at": "2026-10-03T05:04:13.623Z",
+        "readback": [
+          "\t\t\t\t\t\t\t423 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8c:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t447 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t453 combo box (collapsed) Action, Value: Navigate to, ID: :r8m:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t460 combo box (collapsed) Destination, Value: [NOTICE:INITIAL] Workshop detail — initial no image, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t465 combo box (collapsed) Animation, Value: Instant, ID: :r9i:, Secondary Actions: Expand",
+          "The focused UI element is 460 combo box (collapsed) Destination, Value: [NOTICE:INITIAL] Workshop detail — initial no image, ID: :r95:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-02",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-04"
+        ]
+      },
+      {
+        "source_node_id": "865:109",
+        "trigger_node_id": "865:109",
+        "trigger_node_name": "[NOTICE:INITIAL] Workshop detail — initial no image",
+        "action_id": null,
+        "trigger": "After delay",
+        "delay_ms": 800,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:133",
+        "configured_at": "2026-10-03T05:04:23.057Z",
+        "readback": [
+          "\t\t\t\t\t\t\t431 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7t:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t470 combo box (collapsed) Trigger, Value: After delay, ID: :r84:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t476 combo box (collapsed) Action, Value: Navigate to, ID: :r87:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t483 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :r8m:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t488 combo box (collapsed) Animation, Value: Instant, ID: :r93:, Secondary Actions: Expand",
+          "The focused UI element is 470 combo box (collapsed) Trigger, Value: After delay, ID: :r84:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t497 text field (settable) After delay timeout, Value: 800ms"
+        ],
+        "limits": "Demo timing only; not measured native latency/causality",
+        "connection_id": "C-NOTICE-RECORD-03",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-05"
+        ]
+      },
+      {
+        "source_node_id": "865:109",
+        "trigger_node_id": "865:127",
+        "trigger_node_name": "ReadMore",
+        "action_id": "A-NATIVE-NOTICE-READ-MORE",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:171",
+        "configured_at": "2026-10-03T05:04:53.384Z",
+        "readback": [
+          "\t\t\t\t\t\t\t504 combo box (collapsed) Position, Value: Scroll with parent, ID: :rap:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t528 combo box (collapsed) Trigger, Value: On click, ID: :rb0:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t534 combo box (collapsed) Action, Value: Navigate to, ID: :rb3:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t541 combo box (collapsed) Destination, Value: [NOTICE:LOAD] Workshop webpage — loading, ID: :rbi:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t546 combo box (collapsed) Animation, Value: Instant, ID: :rbv:, Secondary Actions: Expand",
+          "The focused UI element is 541 combo box (collapsed) Destination, Value: [NOTICE:LOAD] Workshop webpage — loading, ID: :rbi:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-04",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-05"
+        ]
+      },
+      {
+        "source_node_id": "865:133",
+        "trigger_node_id": "865:157",
+        "trigger_node_name": "ReadMore",
+        "action_id": "A-NATIVE-NOTICE-READ-MORE",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:171",
+        "configured_at": "2026-10-03T05:05:11.194Z",
+        "readback": [
+          "\t\t\t\t\t\t\t458 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t482 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t488 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t495 combo box (collapsed) Destination, Value: [NOTICE:LOAD] Workshop webpage — loading, ID: :r9n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t501 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+          "The focused UI element is 495 combo box (collapsed) Destination, Value: [NOTICE:LOAD] Workshop webpage — loading, ID: :r9n:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-05",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-12",
+          "E-NATIVE-NOTICE-16",
+          "E-NATIVE-NOTICE-20",
+          "E-NATIVE-NOTICE-24"
+        ]
+      },
+      {
+        "source_node_id": "865:133",
+        "trigger_node_id": "865:144",
+        "trigger_node_name": "ExpandBanner",
+        "action_id": "A-NATIVE-NOTICE-IMAGE-EXPAND",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:163",
+        "configured_at": "2026-10-03T05:05:14.907Z",
+        "readback": [
+          "\t\t\t\t\t\t\t458 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t526 combo box (collapsed) Trigger, Value: On click, ID: :rav:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t532 combo box (collapsed) Action, Value: Navigate to, ID: :rb2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t539 combo box (collapsed) Destination, Value: [NOTICE:IMAGE] Workshop banner — expanded, ID: :rbh:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t544 combo box (collapsed) Animation, Value: Instant, ID: :rbu:, Secondary Actions: Expand",
+          "The focused UI element is 539 combo box (collapsed) Destination, Value: [NOTICE:IMAGE] Workshop banner — expanded, ID: :rbh:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-06",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-12",
+          "E-NATIVE-NOTICE-16",
+          "E-NATIVE-NOTICE-20",
+          "E-NATIVE-NOTICE-24"
+        ]
+      },
+      {
+        "source_node_id": "865:133",
+        "trigger_node_id": "865:137",
+        "trigger_node_name": "Back",
+        "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:65",
+        "configured_at": "2026-10-03T05:05:18.804Z",
+        "readback": [
+          "\t\t\t\t\t\t\t458 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t539 combo box (collapsed) Trigger, Value: On click, ID: :rc9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t545 combo box (collapsed) Action, Value: Navigate to, ID: :rcc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t552 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rcr:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t557 combo box (collapsed) Animation, Value: Instant, ID: :rd8:, Secondary Actions: Expand",
+          "The focused UI element is 552 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rcr:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-07",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-12",
+          "E-NATIVE-NOTICE-16",
+          "E-NATIVE-NOTICE-20",
+          "E-NATIVE-NOTICE-24"
+        ]
+      },
+      {
+        "source_node_id": "865:163",
+        "trigger_node_id": "865:167",
+        "trigger_node_name": "CloseImage",
+        "action_id": "A-NATIVE-NOTICE-IMAGE-CLOSE",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:133",
+        "configured_at": "2026-10-03T05:05:39.839Z",
+        "readback": [
+          "\t\t\t\t\t\t\t653 combo box (collapsed) Position, Value: Scroll with parent, ID: :rek:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t677 combo box (collapsed) Trigger, Value: On click, ID: :rev:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t683 combo box (collapsed) Action, Value: Navigate to, ID: :rf2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t690 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rfh:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t695 combo box (collapsed) Animation, Value: Instant, ID: :rfu:, Secondary Actions: Expand",
+          "The focused UI element is 690 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rfh:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-08",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-13"
+        ]
+      },
+      {
+        "source_node_id": "865:171",
+        "trigger_node_id": "865:171",
+        "trigger_node_name": "[NOTICE:LOAD] Workshop webpage — loading",
+        "action_id": null,
+        "trigger": "After delay",
+        "delay_ms": 800,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:205",
+        "configured_at": "2026-10-03T05:05:45.242Z",
+        "readback": [
+          "\t\t\t\t\t\t\t778 combo box (collapsed) Overflow, Value: No scrolling, ID: :rh5:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t803 combo box (collapsed) Trigger, Value: After delay, ID: :rhc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t809 combo box (collapsed) Action, Value: Navigate to, ID: :rhf:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t816 combo box (collapsed) Destination, Value: [NOTICE:BLANK] Workshop webpage — observed blank, ID: :rhu:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t821 combo box (collapsed) Animation, Value: Instant, ID: :rib:, Secondary Actions: Expand",
+          "The focused UI element is 803 combo box (collapsed) Trigger, Value: After delay, ID: :rhc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t830 text field (settable) After delay timeout, Value: 800ms"
+        ],
+        "limits": "Demo timing only; not measured native latency/causality",
+        "connection_id": "C-NOTICE-RECORD-09",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-21"
+        ]
+      },
+      {
+        "source_node_id": "865:205",
+        "trigger_node_id": "865:220",
+        "trigger_node_name": "WebMore",
+        "action_id": "A-NATIVE-NOTICE-WEB-MORE",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:238",
+        "configured_at": "2026-10-03T05:06:22.758Z",
+        "readback": [
+          "\t\t\t\t\t\t\t880 combo box (collapsed) Position, Value: Scroll with parent, ID: :rk1:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t904 combo box (collapsed) Trigger, Value: On click, ID: :rk8:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t910 combo box (collapsed) Action, Value: Navigate to, ID: :rkb:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t917 combo box (collapsed) Destination, Value: [NOTICE:MENU] Workshop webpage — menu, ID: :rkq:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t922 combo box (collapsed) Animation, Value: Instant, ID: :rl7:, Secondary Actions: Expand",
+          "The focused UI element is 917 combo box (collapsed) Destination, Value: [NOTICE:MENU] Workshop webpage — menu, ID: :rkq:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-10",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-07",
+          "E-NATIVE-NOTICE-10",
+          "E-NATIVE-NOTICE-22"
+        ]
+      },
+      {
+        "source_node_id": "865:205",
+        "trigger_node_id": "865:217",
+        "trigger_node_name": "CloseWeb",
+        "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:133",
+        "configured_at": "2026-10-03T05:06:26.544Z",
+        "readback": [
+          "\t\t\t\t\t\t\t880 combo box (collapsed) Position, Value: Scroll with parent, ID: :rk1:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t904 combo box (collapsed) Trigger, Value: On click, ID: :rlc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t910 combo box (collapsed) Action, Value: Navigate to, ID: :rlf:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t917 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rlu:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t922 combo box (collapsed) Animation, Value: Instant, ID: :rmb:, Secondary Actions: Expand",
+          "The focused UI element is 917 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rlu:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-11",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-07",
+          "E-NATIVE-NOTICE-10",
+          "E-NATIVE-NOTICE-22"
+        ]
+      },
+      {
+        "source_node_id": "865:238",
+        "trigger_node_id": "865:283",
+        "trigger_node_name": "CancelWebMenu",
+        "action_id": "A-NATIVE-NOTICE-WEB-CANCEL",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:205",
+        "configured_at": "2026-10-03T05:06:31.880Z",
+        "readback": [
+          "\t\t\t\t\t\t\t978 combo box (collapsed) Position, Value: Scroll with parent, ID: :rn5:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1002 combo box (collapsed) Trigger, Value: On click, ID: :rnc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1008 combo box (collapsed) Action, Value: Navigate to, ID: :rnf:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1015 combo box (collapsed) Destination, Value: [NOTICE:BLANK] Workshop webpage — observed blank, ID: :rnu:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1020 combo box (collapsed) Animation, Value: Instant, ID: :rob:, Secondary Actions: Expand",
+          "The focused UI element is 1015 combo box (collapsed) Destination, Value: [NOTICE:BLANK] Workshop webpage — observed blank, ID: :rnu:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-12",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-08"
+        ]
+      },
+      {
+        "source_node_id": "865:65",
+        "trigger_node_id": "865:79",
+        "trigger_node_name": "FirstNoticeCard",
+        "action_id": "A-NATIVE-NOTICE-READ-REOPEN",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:133",
+        "configured_at": "2026-10-03T05:07:14.385Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1160 combo box (collapsed) Position, Value: Scroll with parent, ID: :rq9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1184 combo box (collapsed) Trigger, Value: On click, ID: :rra:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1190 combo box (collapsed) Action, Value: Navigate to, ID: :rrd:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1197 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rrs:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1202 combo box (collapsed) Animation, Value: Instant, ID: :rs9:, Secondary Actions: Expand",
+          "The focused UI element is 1197 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rrs:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-13",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-15"
+        ]
+      },
+      {
+        "source_node_id": "865:65",
+        "trigger_node_id": "865:90",
+        "trigger_node_name": "NavCalendar",
+        "action_id": "A-NATIVE-NOTICE-CALENDAR-RETURN",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:287",
+        "configured_at": "2026-10-03T05:07:18.344Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1160 combo box (collapsed) Position, Value: Scroll with parent, ID: :rq9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1209 combo box (collapsed) Trigger, Value: On click, ID: :rsq:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1215 combo box (collapsed) Action, Value: Navigate to, ID: :rst:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1222 combo box (collapsed) Destination, Value: [NOTICE:CALENDAR] Payment — after notice read, ID: :rtc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1227 combo box (collapsed) Animation, Value: Instant, ID: :rtp:, Secondary Actions: Expand",
+          "The focused UI element is 1222 combo box (collapsed) Destination, Value: [NOTICE:CALENDAR] Payment — after notice read, ID: :rtc:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-14",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-15"
+        ]
+      },
+      {
+        "source_node_id": "865:287",
+        "trigger_node_id": "865:439",
+        "trigger_node_name": "NavNotification",
+        "action_id": "A-NATIVE-NOTICE-CALENDAR-REENTER",
+        "trigger": "On click",
+        "delay_ms": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:65",
+        "configured_at": "2026-10-03T05:07:48.732Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1415 combo box (collapsed) Position, Value: Scroll with parent, ID: :r10l:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1439 combo box (collapsed) Trigger, Value: On click, ID: :r10u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1445 combo box (collapsed) Action, Value: Navigate to, ID: :r111:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1452 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :r11g:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1457 combo box (collapsed) Animation, Value: Instant, ID: :r11t:, Secondary Actions: Expand",
+          "The focused UI element is 1452 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :r11g:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-RECORD-15",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
+        ],
+        "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+        "source_evidence_ids": [
+          "E-NATIVE-NOTICE-18"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -93243,6 +95054,32 @@
           "E-PQQUERY-CONTACT",
           "E-EMPTY",
           "E-CLEARED"
+        ]
+      },
+      {
+        "id": "D-NOTICE-RECORD-FINITE",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "status": "partial",
+        "affected_state_ids": [
+          "S-NATIVE-NOTICE-LIST-UNREAD",
+          "S-NATIVE-NOTICE-LIST-READ",
+          "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+          "S-NATIVE-NOTICE-DETAIL-LOADED",
+          "S-NATIVE-NOTICE-IMAGE",
+          "S-NATIVE-NOTICE-WEB-LOADING",
+          "S-NATIVE-NOTICE-WEB-BLANK",
+          "S-NATIVE-NOTICE-WEB-MENU",
+          "S-NATIVE-OCT3-PAYMENT"
+        ],
+        "original_behavior": "Native single notice, first no-image detail, later loaded detail, unread/read markers and web/image returns observed",
+        "current_implementation": "Nine finite states and15 controls; image/loading800ms proxy; screenshot crop assets; other controls unconfigured",
+        "impact": "Does not establish complete notification behavior, timing, image stability or visual fidelity",
+        "next_step": "Investigate Calendar rendering differences, integrate Search and other observed callers/controls; validate native and real-phone semantics",
+        "evidence_ids": [
+          "E-NOTICE-RECORD-PROTO-CONTACT",
+          "E-NOTICE-RECORD-PROTO-09",
+          "E-NOTICE-RECORD-PROTO-28",
+          "E-NOTICE-RECORD-PROTO-38"
         ]
       }
     ],
@@ -115335,6 +117172,592 @@
           "New Back controls generalize Close overlay; initial and cleared new exits replayed, other five new exits configured but unreplayed. Native caller persistence not newly established.",
           "Native observation timed out after user unlocked and one runtime-wrapper recovery; no new native states/actions or app-failure diagnosis."
         ]
+      },
+      {
+        "id": "PROTO-NOTICE-RECORD-FIRST-001",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-03T05:24:53.653Z",
+        "ended_at": "2026-10-03T05:28:00.776Z",
+        "status": "partial",
+        "navigation_status": "Finite single notice entry, detail/image/web returns, read markers and Calendar roundtrip sampled; initial Read more exits timer early",
+        "visual_status": "Partial; transient missing images preserved and reuploaded; stable Calendar crops equal despite preview discrepancy",
+        "steps": [
+          {
+            "file": "00-payment-start.png",
+            "at": "2026-10-03T05:24:53.653Z",
+            "description": "00-payment-start",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "expected_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-footer-negative.png",
+            "at": "2026-10-03T05:24:53.980Z",
+            "description": "01-footer-negative",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "expected_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-unread-list.png",
+            "at": "2026-10-03T05:24:54.361Z",
+            "description": "02-unread-list",
+            "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+            "visible_node_id": "865:19",
+            "expected_node_id": "865:19",
+            "action_id": "A-NATIVE-NOTICE-ENTRY",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-detail-first-sample.png",
+            "at": "2026-10-03T05:27:23.291Z",
+            "description": "03-detail-first-sample",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+            "visible_node_id": "865:109",
+            "expected_node_id": "865:109",
+            "action_id": "A-NATIVE-NOTICE-RECORD-OPEN",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-detail-loaded.png",
+            "at": "2026-10-03T05:27:26.629Z",
+            "description": "04-detail-loaded",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-web-first-sample.png",
+            "at": "2026-10-03T05:27:30.063Z",
+            "description": "05-web-first-sample",
+            "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+            "visible_node_id": "865:171",
+            "expected_node_id": "865:171",
+            "action_id": "A-NATIVE-NOTICE-READ-MORE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-web-blank.png",
+            "at": "2026-10-03T05:27:33.297Z",
+            "description": "06-web-blank",
+            "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+            "visible_node_id": "865:205",
+            "expected_node_id": "865:205",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-web-menu.png",
+            "at": "2026-10-03T05:27:37.508Z",
+            "description": "07-web-menu",
+            "state_id": "S-NATIVE-NOTICE-WEB-MENU",
+            "visible_node_id": "865:238",
+            "expected_node_id": "865:238",
+            "action_id": "A-NATIVE-NOTICE-WEB-MORE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-menu-cancel.png",
+            "at": "2026-10-03T05:27:41.677Z",
+            "description": "08-menu-cancel",
+            "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+            "visible_node_id": "865:205",
+            "expected_node_id": "865:205",
+            "action_id": "A-NATIVE-NOTICE-WEB-CANCEL",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "09-web-close.png",
+            "at": "2026-10-03T05:27:42.081Z",
+            "description": "09-web-close",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "10-expanded-first.png",
+            "at": "2026-10-03T05:27:45.616Z",
+            "description": "10-expanded-first",
+            "state_id": "S-NATIVE-NOTICE-IMAGE",
+            "visible_node_id": "865:163",
+            "expected_node_id": "865:163",
+            "action_id": "A-NATIVE-NOTICE-IMAGE-EXPAND",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-10"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "11-expanded-close-first.png",
+            "at": "2026-10-03T05:27:50.062Z",
+            "description": "11-expanded-close-first",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": "A-NATIVE-NOTICE-IMAGE-CLOSE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-11"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "12-read-list.png",
+            "at": "2026-10-03T05:27:50.466Z",
+            "description": "12-read-list",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-12"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "13-read-reopen-first.png",
+            "at": "2026-10-03T05:27:55.616Z",
+            "description": "13-read-reopen-first",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": "A-NATIVE-NOTICE-READ-REOPEN",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-13"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "14-read-list-return.png",
+            "at": "2026-10-03T05:27:55.845Z",
+            "description": "14-read-list-return",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-14"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "15-calendar-after-read.png",
+            "at": "2026-10-03T05:27:56.164Z",
+            "description": "15-calendar-after-read",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "865:287",
+            "expected_node_id": "865:287",
+            "action_id": "A-NATIVE-NOTICE-CALENDAR-RETURN",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-15"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "16-calendar-stable.png",
+            "at": "2026-10-03T05:28:00.344Z",
+            "description": "16-calendar-stable",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "865:287",
+            "expected_node_id": "865:287",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-16"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "17-notification-after-calendar.png",
+            "at": "2026-10-03T05:28:00.776Z",
+            "description": "17-notification-after-calendar",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NATIVE-NOTICE-CALENDAR-REENTER",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-17"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite single public ITS notice and Oct2 Payment caller; arbitrary notices, Search, list boundaries, other dates/callers and full app not_verified.",
+          "Two800ms delays are demonstration proxies; native image-loading causality, latency and exact read-mark trigger not measured.",
+          "Editable text/vector geometry and fonts/icons approximate; workshop image/static loading mark raster. Existing Payment caller lacks native unread tab badge.",
+          "First footer-background interaction removed and actual NavNotification group wired; blank-footer test stayed Payment but hotspot hint changed pixels.",
+          "First web return lost banner; later image return restored it before reupload. Same asset reuploaded and finite returns visible; long-term reliability unknown. Second loading sample lost mark; reupload and one repeat visible.",
+          "Restart click did not reset read list in saved pixels; direct known Payment start URL used. URL readback may lag. Tool screenshot preview black while actual SDK pixels show content.",
+          "Transient Calendar preview glyph positioning differed; saved stable Calendar16/38 app crops are equal. Cause unisolated; no full visual fidelity pass.",
+          "Initial/loading Back/X, menu browser/share/copy/refresh, other navigation and Calendar-read dates/modes unconfigured. Prototype replay is not native execution or human evaluation."
+        ]
+      },
+      {
+        "id": "PROTO-NOTICE-RECORD-EARLY-002",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "start_node_id": "865:65",
+        "started_at": "2026-10-03T05:28:51.741Z",
+        "ended_at": "2026-10-03T05:29:41.522Z",
+        "status": "partial",
+        "navigation_status": "Finite single notice entry, detail/image/web returns, read markers and Calendar roundtrip sampled; initial Read more exits timer early",
+        "visual_status": "Partial; transient missing images preserved and reuploaded; stable Calendar crops equal despite preview discrepancy",
+        "steps": [
+          {
+            "file": "18-payment-restart.png",
+            "at": "2026-10-03T05:28:51.741Z",
+            "description": "18-payment-restart",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-18"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "19-unread-reentry.png",
+            "at": "2026-10-03T05:28:52.046Z",
+            "description": "19-unread-reentry",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:19",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-19"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "20-payment-direct-reset.png",
+            "at": "2026-10-03T05:29:09.568Z",
+            "description": "20-payment-direct-reset",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "expected_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-20"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "21-unread-reset.png",
+            "at": "2026-10-03T05:29:09.924Z",
+            "description": "21-unread-reset",
+            "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+            "visible_node_id": "865:19",
+            "expected_node_id": "865:19",
+            "action_id": "A-NATIVE-NOTICE-ENTRY",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-21"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "22-early-read-more.png",
+            "at": "2026-10-03T05:29:13.888Z",
+            "description": "22-early-read-more",
+            "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+            "visible_node_id": "865:171",
+            "expected_node_id": "865:171",
+            "action_id": "A-NATIVE-NOTICE-READ-MORE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-22"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "23-early-web-remains.png",
+            "at": "2026-10-03T05:29:17.903Z",
+            "description": "23-early-web-remains",
+            "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+            "visible_node_id": "865:205",
+            "expected_node_id": "865:205",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-23"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "24-detail-after-upload.png",
+            "at": "2026-10-03T05:29:18.106Z",
+            "description": "24-detail-after-upload",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-24"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "25-expanded-after-upload.png",
+            "at": "2026-10-03T05:29:22.044Z",
+            "description": "25-expanded-after-upload",
+            "state_id": "S-NATIVE-NOTICE-IMAGE",
+            "visible_node_id": "865:163",
+            "expected_node_id": "865:163",
+            "action_id": "A-NATIVE-NOTICE-IMAGE-EXPAND",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-25"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "26-detail-image-return.png",
+            "at": "2026-10-03T05:29:22.367Z",
+            "description": "26-detail-image-return",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": "A-NATIVE-NOTICE-IMAGE-CLOSE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-26"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "27-image-return-followup.png",
+            "at": "2026-10-03T05:29:26.440Z",
+            "description": "27-image-return-followup",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-27"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "28-second-web-loading.png",
+            "at": "2026-10-03T05:29:34.236Z",
+            "description": "28-second-web-loading",
+            "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+            "visible_node_id": "865:171",
+            "expected_node_id": "865:171",
+            "action_id": "A-NATIVE-NOTICE-READ-MORE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-28"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "29-second-web-blank.png",
+            "at": "2026-10-03T05:29:40.515Z",
+            "description": "29-second-web-blank",
+            "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+            "visible_node_id": "865:205",
+            "expected_node_id": "865:205",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-29"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "30-second-web-return.png",
+            "at": "2026-10-03T05:29:40.699Z",
+            "description": "30-second-web-return",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-30"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "31-read-list-final.png",
+            "at": "2026-10-03T05:29:41.119Z",
+            "description": "31-read-list-final",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-31"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "32-reopen-final.png",
+            "at": "2026-10-03T05:29:41.522Z",
+            "description": "32-reopen-final",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": "A-NATIVE-NOTICE-READ-REOPEN",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-32"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite single public ITS notice and Oct2 Payment caller; arbitrary notices, Search, list boundaries, other dates/callers and full app not_verified.",
+          "Two800ms delays are demonstration proxies; native image-loading causality, latency and exact read-mark trigger not measured.",
+          "Editable text/vector geometry and fonts/icons approximate; workshop image/static loading mark raster. Existing Payment caller lacks native unread tab badge.",
+          "First footer-background interaction removed and actual NavNotification group wired; blank-footer test stayed Payment but hotspot hint changed pixels.",
+          "First web return lost banner; later image return restored it before reupload. Same asset reuploaded and finite returns visible; long-term reliability unknown. Second loading sample lost mark; reupload and one repeat visible.",
+          "Restart click did not reset read list in saved pixels; direct known Payment start URL used. URL readback may lag. Tool screenshot preview black while actual SDK pixels show content.",
+          "Transient Calendar preview glyph positioning differed; saved stable Calendar16/38 app crops are equal. Cause unisolated; no full visual fidelity pass.",
+          "Initial/loading Back/X, menu browser/share/copy/refresh, other navigation and Calendar-read dates/modes unconfigured. Prototype replay is not native execution or human evaluation."
+        ]
+      },
+      {
+        "id": "PROTO-NOTICE-RECORD-RECOVERY-003",
+        "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+        "start_node_id": "865:171",
+        "started_at": "2026-10-03T05:30:14.153Z",
+        "ended_at": "2026-10-03T05:30:31.732Z",
+        "status": "partial",
+        "navigation_status": "Finite single notice entry, detail/image/web returns, read markers and Calendar roundtrip sampled; initial Read more exits timer early",
+        "visual_status": "Partial; transient missing images preserved and reuploaded; stable Calendar crops equal despite preview discrepancy",
+        "steps": [
+          {
+            "file": "33-loading-reuploaded.png",
+            "at": "2026-10-03T05:30:14.153Z",
+            "description": "33-loading-reuploaded",
+            "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+            "visible_node_id": "865:171",
+            "expected_node_id": "865:171",
+            "action_id": "A-NATIVE-NOTICE-READ-MORE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-33"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "34-blank-final.png",
+            "at": "2026-10-03T05:30:24.653Z",
+            "description": "34-blank-final",
+            "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+            "visible_node_id": "865:205",
+            "expected_node_id": "865:205",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-34"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "35-detail-final-return.png",
+            "at": "2026-10-03T05:30:25.057Z",
+            "description": "35-detail-final-return",
+            "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+            "visible_node_id": "865:133",
+            "expected_node_id": "865:133",
+            "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-35"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "36-read-final.png",
+            "at": "2026-10-03T05:30:25.284Z",
+            "description": "36-read-final",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-36"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "37-calendar-final.png",
+            "at": "2026-10-03T05:30:25.611Z",
+            "description": "37-calendar-final",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "865:287",
+            "expected_node_id": "865:287",
+            "action_id": "A-NATIVE-NOTICE-CALENDAR-RETURN",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-37"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "38-calendar-stable-final.png",
+            "at": "2026-10-03T05:30:31.329Z",
+            "description": "38-calendar-stable-final",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "865:287",
+            "expected_node_id": "865:287",
+            "action_id": null,
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-38"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "39-notification-final.png",
+            "at": "2026-10-03T05:30:31.732Z",
+            "description": "39-notification-final",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NATIVE-NOTICE-CALENDAR-REENTER",
+            "evidence_ids": [
+              "E-NOTICE-RECORD-PROTO-39"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite single public ITS notice and Oct2 Payment caller; arbitrary notices, Search, list boundaries, other dates/callers and full app not_verified.",
+          "Two800ms delays are demonstration proxies; native image-loading causality, latency and exact read-mark trigger not measured.",
+          "Editable text/vector geometry and fonts/icons approximate; workshop image/static loading mark raster. Existing Payment caller lacks native unread tab badge.",
+          "First footer-background interaction removed and actual NavNotification group wired; blank-footer test stayed Payment but hotspot hint changed pixels.",
+          "First web return lost banner; later image return restored it before reupload. Same asset reuploaded and finite returns visible; long-term reliability unknown. Second loading sample lost mark; reupload and one repeat visible.",
+          "Restart click did not reset read list in saved pixels; direct known Payment start URL used. URL readback may lag. Tool screenshot preview black while actual SDK pixels show content.",
+          "Transient Calendar preview glyph positioning differed; saved stable Calendar16/38 app crops are equal. Cause unisolated; no full visual fidelity pass.",
+          "Initial/loading Back/X, menu browser/share/copy/refresh, other navigation and Calendar-read dates/modes unconfigured. Prototype replay is not native execution or human evaluation."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -115414,7 +117837,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "187 mapped frames /3 internal component states /402 configured controls /16 scroll regions /129 prototype runs. Historical PQ query and initial Home entry integrated; full app/fidelity not_verified.",
+    "verification_summary": "196 mapped frames /3 internal component states /417 configured controls /16 scroll regions /132 runs. Notification finite record replay integrated; full app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -115803,7 +118226,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-ROOM-PQ-QUERY-20261003",
+    "current_revision": "FIGMA-NOTIFICATION-RECORD-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -116965,308 +119388,11 @@
       },
       {
         "name": "Reference · Oct2 Calendar filters & Notice — partial",
-        "description": "Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence.",
+        "description": "Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
         "readback": [
-          "Browser tab: 1, Title: \"PolyULife — Observed UI & Interaction Atlas – Figma\", URL: \"https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=791-177&t=FJ8b2KMcS9V3DvQZ-0\".",
-          "1 AXWebArea PolyULife — Observed UI & Interaction Atlas – Figma, URL: figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=791-177&t=FJ8b2KMcS9V3DvQZ-0",
-          "\t2 container react-page",
-          "\t\t7 container",
-          "\t\t\t8 container fullscreen-root",
-          "\t\t\t\t9 container Figma Design, 1 item selected",
-          "\t\t\t10 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .",
-          "\t\t\t11 container Comments on canvas",
-          "\t\t\t\t12 button Create new comment",
-          "\t\t\t13 container Left sidebar",
-          "\t\t\t\t14 toolbar Navigation Bar",
-          "\t\t\t\t\t15 pop up button (collapsed) Description: Main menu, ID: :r9:-trigger, Secondary Actions: Expand",
-          "\t\t\t\t\t\t16 image",
-          "\t\t\t\t\t17 button (expanded) Description: File, Secondary Actions: Collapse",
-          "\t\t\t\t\t\t18 image",
-          "\t\t\t\t\t\t19 text File",
-          "\t\t\t\t\t20 pop up button (collapsed) Description: Agents, Secondary Actions: Expand",
-          "\t\t\t\t\t\t21 text Agents",
-          "\t\t\t\t\t22 button (collapsed) Description: Assets, Secondary Actions: Expand",
-          "\t\t\t\t\t\t23 image",
-          "\t\t\t\t\t\t24 text Assets",
-          "\t\t\t\t\t25 button (collapsed) Description: Tools, Secondary Actions: Expand",
-          "\t\t\t\t\t\t26 image",
-          "\t\t\t\t\t\t27 text Tools",
-          "\t\t\t\t\t28 button (collapsed) Description: Variables, Secondary Actions: Expand",
-          "\t\t\t\t\t\t29 image",
-          "\t\t\t\t\t\t30 text Variables",
-          "\t\t\t\t31 container left-panel-container",
-          "\t\t\t\t\t32 container",
-          "\t\t\t\t\t\t33 button PolyULife — Observed UI & Interaction Atlas, file name",
-          "\t\t\t\t\t\t34 text File name",
-          "\t\t\t\t\t\t35 pop up button (collapsed) Description: Edit file menu, ID: :re:, Secondary Actions: Expand",
-          "\t\t\t\t\t\t36 button Minimize UI",
-          "\t\t\t\t\t\t37 link Description: Team project, Value: figma.com/files/team/1538752801901560327/project/435341387",
-          "\t\t\t\t\t\t38 button Free",
-          "\t\t\t\t\t\t39 heading Pages Find Add new page, Value: 2",
-          "\t\t\t\t\t\t\t40 button (expanded) Pages, Secondary Actions: Collapse",
-          "\t\t\t\t\t\t\t41 button Description: Find, ID: canvas-search-icon-button",
-          "\t\t\t\t\t\t\t42 button Add new page",
-          "\t\t\t\t\t\t43 container",
-          "\t\t\t\t\t\t\t44 container",
-          "\t\t\t\t\t\t\t\t45 table",
-          "\t\t\t\t\t\t\t\t\t46 row (selectable) 00 · Archive — initial AI draft",
-          "\t\t\t\t\t\t\t\t\t\t47 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t48 button 00 · Archive — initial AI draft",
-          "\t\t\t\t\t\t\t\t\t49 row (selectable) 01 · Observed UI",
-          "\t\t\t\t\t\t\t\t\t\t50 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t51 button 01 · Observed UI",
-          "\t\t\t\t\t\t\t52 container",
-          "\t\t\t\t\t\t\t\t53 text 1 free page left.",
-          "\t\t\t\t\t\t\t\t54 link Get unlimited pages & more",
-          "\t\t\t\t\t\t\t\t\t55 text Get unlimited pages & more",
-          "\t\t\t\t\t\t\t56 slider Description: Resize handle, Value: 100",
-          "\t\t\t\t\t\t57 heading Layers, Value: 2",
-          "\t\t\t\t\t\t\t58 button (expanded) Layers, Secondary Actions: Collapse",
-          "\t\t\t\t\t\t59 table",
-          "\t\t\t\t\t\t\t60 container",
-          "\t\t\t\t\t\t\t\t61 row (selectable, collapsed) [PAY-PORTAL:MENU] Student Account Portal — menu, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t62 container",
-          "\t\t\t\t\t\t\t\t\t\t63 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t64 text [PAY-PORTAL:MENU] Student Account Portal — menu",
-          "\t\t\t\t\t\t\t\t65 row (selectable, collapsed) [PAY-PORTAL:BLANK] Student Account Portal — observed blank, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t66 container",
-          "\t\t\t\t\t\t\t\t\t\t67 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t68 text [PAY-PORTAL:BLANK] Student Account Portal — observed blank",
-          "\t\t\t\t\t\t\t\t69 row (selectable, collapsed) [PAY-PORTAL:LOAD] Student Account Portal — loading, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t70 container",
-          "\t\t\t\t\t\t\t\t\t\t71 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t72 text [PAY-PORTAL:LOAD] Student Account Portal — loading",
-          "\t\t\t\t\t\t\t\t73 row (selectable, collapsed) [PAY-RECORD:SHOWN] Record A — synthetic DEMO amount, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t74 container",
-          "\t\t\t\t\t\t\t\t\t\t75 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t76 text [PAY-RECORD:SHOWN] Record A — synthetic DEMO amount",
-          "\t\t\t\t\t\t\t\t77 row (selectable, collapsed) [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t78 container",
-          "\t\t\t\t\t\t\t\t\t\t79 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t80 text [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden",
-          "\t\t\t\t\t\t\t\t81 row (selectable, collapsed) [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t82 container",
-          "\t\t\t\t\t\t\t\t\t\t83 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t84 text [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment",
-          "\t\t\t\t\t\t\t\t85 row (selectable, collapsed) [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t86 container",
-          "\t\t\t\t\t\t\t\t\t\t87 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t88 text [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO",
-          "\t\t\t\t\t\t\t\t89 row (selectable, collapsed) [PAY-MODE:EVENTS] Events — Payment empty, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t90 container",
-          "\t\t\t\t\t\t\t\t\t\t91 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t92 text [PAY-MODE:EVENTS] Events — Payment empty",
-          "\t\t\t\t\t\t\t\t93 row (selectable, collapsed) [PAY-DATE:HOME3] Home — DEMO retained October3 Payment, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t94 container",
-          "\t\t\t\t\t\t\t\t\t\t95 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t96 text [PAY-DATE:HOME3] Home — DEMO retained October3 Payment",
-          "\t\t\t\t\t\t\t\t97 row (selectable, collapsed) [PAY-DATE:OCT1] Payment — October1 after previous month, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t98 container",
-          "\t\t\t\t\t\t\t\t\t\t99 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t100 text [PAY-DATE:OCT1] Payment — October1 after previous month",
-          "\t\t\t\t\t\t\t\t101 row (selectable, collapsed) [PAY-DATE:NOV1] Payment — November1 after next month, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t102 container",
-          "\t\t\t\t\t\t\t\t\t\t103 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t104 text [PAY-DATE:NOV1] Payment — November1 after next month",
-          "\t\t\t\t\t\t\t\t105 row (selectable, collapsed) [PAY-DATE:OCT4] Payment — Sunday October4, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t106 container",
-          "\t\t\t\t\t\t\t\t\t\t107 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t108 text [PAY-DATE:OCT4] Payment — Sunday October4",
-          "\t\t\t\t\t\t\t\t109 row (selectable, collapsed) [PAY-DATE:OCT3] Payment — Saturday October3, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t110 container",
-          "\t\t\t\t\t\t\t\t\t\t111 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t112 text [PAY-DATE:OCT3] Payment — Saturday October3",
-          "\t\t\t\t\t\t\t\t113 row (selectable, collapsed) [OCT3:HOME-P] Home — DEMO retained Payment caller, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t114 container",
-          "\t\t\t\t\t\t\t\t\t\t115 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t116 text [OCT3:HOME-P] Home — DEMO retained Payment caller",
-          "\t\t\t\t\t\t\t\t117 row (selectable, collapsed) [OCT3:PAYMENT] Payment — observed empty date, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t118 container",
-          "\t\t\t\t\t\t\t\t\t\t119 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t120 text [OCT3:PAYMENT] Payment — observed empty date",
-          "\t\t\t\t\t\t\t\t121 row (selectable, collapsed) [OCT2:PAYMENT-DE] Payment draft — applied exam, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t122 container",
-          "\t\t\t\t\t\t\t\t\t\t123 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t124 text [OCT2:PAYMENT-DE] Payment draft — applied exam",
-          "\t\t\t\t\t\t\t\t125 row (selectable, collapsed) [OCT2:NONE-DE] None draft — applied exam, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t126 container",
-          "\t\t\t\t\t\t\t\t\t\t127 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t128 text [OCT2:NONE-DE] None draft — applied exam",
-          "\t\t\t\t\t\t\t\t129 row (selectable, collapsed) [OCT2:EXAM-DE] Exam draft — applied exam, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t130 container",
-          "\t\t\t\t\t\t\t\t\t\t131 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t132 text [OCT2:EXAM-DE] Exam draft — applied exam",
-          "\t\t\t\t\t\t\t\t133 row (selectable, collapsed) [OCT2:EXAM] Exam — observed empty date, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t134 container",
-          "\t\t\t\t\t\t\t\t\t\t135 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t136 text [OCT2:EXAM] Exam — observed empty date",
-          "\t\t\t\t\t\t\t\t137 row (selectable, collapsed) [OCT2:EXAM-DC] Exam draft — applied class, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t138 container",
-          "\t\t\t\t\t\t\t\t\t\t139 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t140 text [OCT2:EXAM-DC] Exam draft — applied class",
-          "\t\t\t\t\t\t\t\t141 row (selectable, collapsed) [OCT2:NONE-DC] None draft — applied class, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t142 container",
-          "\t\t\t\t\t\t\t\t\t\t143 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t144 text [OCT2:NONE-DC] None draft — applied class",
-          "\t\t\t\t\t\t\t\t145 row (selectable, collapsed) [OCT2:CLASS-DC] Class draft — applied class, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t146 container",
-          "\t\t\t\t\t\t\t\t\t\t147 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t148 text [OCT2:CLASS-DC] Class draft — applied class",
-          "\t\t\t\t\t\t\t\t149 row (selectable, collapsed) [OCT2:NOTICE-M] Class Notice — menu, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t150 container",
-          "\t\t\t\t\t\t\t\t\t\t151 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t152 text [OCT2:NOTICE-M] Class Notice — menu",
-          "\t\t\t\t\t\t\t\t153 row (selectable, collapsed) [OCT2:NOTICE-B] Class Notice — observed blank, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t154 container",
-          "\t\t\t\t\t\t\t\t\t\t155 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t156 text [OCT2:NOTICE-B] Class Notice — observed blank",
-          "\t\t\t\t\t\t\t\t157 row (selectable, collapsed) [OCT2:NOTICE-L] Class Notice — loading, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t158 container",
-          "\t\t\t\t\t\t\t\t\t\t159 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t160 text [OCT2:NOTICE-L] Class Notice — loading",
-          "\t\t\t\t\t\t\t\t161 row (selectable, collapsed) [OCT2:DETAIL] Class detail — DEMO, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t162 container",
-          "\t\t\t\t\t\t\t\t\t\t163 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t164 text [OCT2:DETAIL] Class detail — DEMO",
-          "\t\t\t\t\t\t\t\t165 row (selectable, collapsed) [OCT2:CLASS] Class — DEMO, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t166 container",
-          "\t\t\t\t\t\t\t\t\t\t167 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t168 text [OCT2:CLASS] Class — DEMO",
-          "\t\t\t\t\t\t\t\t169 row (selectable, collapsed) [OCT2:CLASS-DN] Class draft — applied none, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t170 container",
-          "\t\t\t\t\t\t\t\t\t\t171 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t172 text [OCT2:CLASS-DN] Class draft — applied none",
-          "\t\t\t\t\t\t\t\t173 row (selectable, collapsed) [OCT2:NONE-R] None draft — applied none, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t174 container",
-          "\t\t\t\t\t\t\t\t\t\t175 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t176 text [OCT2:NONE-R] None draft — applied none",
-          "\t\t\t\t\t\t\t\t177 row (selectable, collapsed) [OCT2:NONE] No Selected Event — applied, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t178 container",
-          "\t\t\t\t\t\t\t\t\t\t179 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t180 text [OCT2:NONE] No Selected Event — applied",
-          "\t\t\t\t\t\t\t\t181 row (selectable, collapsed) [OCT2:NONE-D] None draft — applied all, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t182 container",
-          "\t\t\t\t\t\t\t\t\t\t183 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t184 text [OCT2:NONE-D] None draft — applied all",
-          "\t\t\t\t\t\t\t\t185 row (selectable, collapsed) [OCT2:ALL-D] All draft — applied all, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t186 container",
-          "\t\t\t\t\t\t\t\t\t\t187 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t188 text [OCT2:ALL-D] All draft — applied all",
-          "\t\t\t\t\t\t\t\t189 row (selected, collapsed) [OCT2:ALL] Calendar all — DEMO, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t190 container",
-          "\t\t\t\t\t\t\t\t\t\t191 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t192 text [OCT2:ALL] Calendar all — DEMO",
-          "\t\t\t\t\t\t\t\t193 row (selectable, collapsed) [CAL-GLOBAL:ALL-A] All draft — academic caller, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t\t194 container",
-          "\t\t\t\t\t\t\t\t\t\t195 cell",
-          "\t\t\t\t\t\t\t\t\t\t\t196 text [CAL-GLOBAL:ALL-A] All draft — academic caller",
-          "\t\t\t\t\t197 slider Description: Resize handle, Value: 280",
-          "\t\t\t198 container Right sidebar",
-          "\t\t\t\t199 container",
-          "\t\t\t\t\t200 container",
-          "\t\t\t\t\t\t201 pop up button (collapsed) Description: Multiplayer tools, ID: self-avatar-with-tools-container, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t202 image",
-          "\t\t\t\t\t\t203 container Prototype view",
-          "\t\t\t\t\t\t\t204 button Description: Present, ID: :r13:",
-          "\t\t\t\t\t\t\t205 pop up button (collapsed) Description: Prototype view, ID: :r12:, Secondary Actions: Expand",
-          "\t\t\t\t\t\t206 button Share",
-          "\t\t\t\t\t\t207 tab group",
-          "\t\t\t\t\t\t\t208 tab (selectable, settable, boolean) Design, Value: 0, ID: tab:r16:-0-trigger",
-          "\t\t\t\t\t\t\t209 tab (selected, settable, boolean) Prototype, Value: 1, ID: tab:r16:-1-trigger",
-          "\t\t\t\t\t\t210 pop up button (collapsed) Description: 57%, zoom and view options, ID: :r19:, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t211 text 57%",
-          "\t\t\t\t\t\t\t212 image",
-          "\t\t\t\t\t\t363 container",
-          "\t\t\t\t\t\t\t364 button Send to Figma Make",
-          "\t\t\t\t\t\t\t365 heading Flow starting point, Value: 2",
-          "\t\t\t\t\t\t\t\t366 text Flow starting point",
-          "\t\t\t\t\t\t\t367 button Copy flow link",
-          "\t\t\t\t\t\t\t368 button Remove flow starting point",
-          "\t\t\t\t\t\t\t369 button Edit flow title",
-          "\t\t\t\t\t\t\t370 text Flow starting point",
-          "\t\t\t\t\t\t\t371 combo box (collapsed) Flow starting point, Value: [OCT2:ALL] Calendar all — DEMO, ID: :r7t:, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t372 text [OCT2:ALL] Calendar all — DEMO",
-          "\t\t\t\t\t\t\t\t373 image",
-          "\t\t\t\t\t\t\t374 button Edit flow description",
-          "\t\t\t\t\t\t\t375 button Interactions",
-          "\t\t\t\t\t\t\t376 button Add action",
-          "\t\t\t\t\t\t\t377 heading Scroll behavior, Value: 2",
-          "\t\t\t\t\t\t\t\t378 text Scroll behavior",
-          "\t\t\t\t\t\t\t379 text Overflow",
-          "\t\t\t\t\t\t\t380 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7u:, Secondary Actions: Expand",
-          "\t\t\t\t\t\t\t\t381 text No scrolling",
-          "\t\t\t\t\t\t\t\t382 image",
-          "\t\t\t\t\t\t\t383 button Show prototype settings",
-          "\t\t\t\t\t\t\t384 container delete-connection-hint",
-          "\t\t\t\t\t\t\t\t385 container",
-          "\t\t\t\t\t\t\t\t\t386 text Removing a connection",
-          "\t\t\t\t\t\t\t\t\t387 button Close",
-          "\t\t\t\t\t\t\t\t388 container",
-          "\t\t\t\t\t\t\t\t\t389 image",
-          "\t\t\t\t\t\t\t\t\t390 text To delete a connection, click and drag on either end.",
-          "\t\t\t\t\t\t\t391 container play-button-hint",
-          "\t\t\t\t\t\t\t\t392 container",
-          "\t\t\t\t\t\t\t\t\t393 text Running your prototype",
-          "\t\t\t\t\t\t\t\t\t394 button Close",
-          "\t\t\t\t\t\t\t\t395 container",
-          "\t\t\t\t\t\t\t\t\t396 image",
-          "\t\t\t\t\t\t\t\t\t397 text Use the play button in the toolbar to play your prototype. If there are no connections, the play button can be used to play a presentation of your frames.",
-          "\t\t\t\t\t330 slider Description: Resize handle, Value: 241",
-          "\t\t331 container Application toolbar",
-          "\t\t\t332 toolbar Editor",
-          "\t\t\t\t333 container Move",
-          "\t\t\t\t\t334 checkbox Description: Move, Value: 1",
-          "\t\t\t\t\t\t335 image",
-          "\t\t\t\t\t336 checkbox (collapsed) Description: Move tools, Value: 0, ID: :r67:, Secondary Actions: Expand",
-          "\t\t\t\t337 container Frame",
-          "\t\t\t\t\t338 checkbox Description: Frame, Value: 0",
-          "\t\t\t\t\t\t339 image",
-          "\t\t\t\t\t340 checkbox (collapsed) Description: Region tools, Value: 0, ID: :r6c:, Secondary Actions: Expand",
-          "\t\t\t\t341 container Rectangle",
-          "\t\t\t\t\t342 checkbox Description: Rectangle, Value: 0",
-          "\t\t\t\t\t\t343 image",
-          "\t\t\t\t\t344 checkbox (collapsed) Description: Shape tools, Value: 0, ID: :r6h:, Secondary Actions: Expand",
-          "\t\t\t\t345 container Pen",
-          "\t\t\t\t\t346 checkbox Description: Pen, Value: 0",
-          "\t\t\t\t\t\t347 image",
-          "\t\t\t\t\t348 checkbox (collapsed) Description: Creation tools, Value: 0, ID: :r6m:, Secondary Actions: Expand",
-          "\t\t\t\t349 container Text",
-          "\t\t\t\t\t350 checkbox Description: Text, Value: 0",
-          "\t\t\t\t\t\t351 image",
-          "\t\t\t\t\t352 checkbox (collapsed) Description: Type tools, Value: 0, ID: :r6r:, Secondary Actions: Expand",
-          "\t\t\t\t353 checkbox Description: Comment, Value: 0",
-          "\t\t\t\t\t354 image",
-          "\t\t\t\t355 checkbox Description: Actions, Value: 0",
-          "\t\t\t\t\t356 image",
-          "\t\t\t\t357 Toolbelt Mode",
-          "\t\t\t\t\t358 text Toolbelt Mode",
-          "\t\t\t\t\t359 radio button (settable, integer) Description: Draw, Value: 0, ID: :r3s:-illustration",
-          "\t\t\t\t\t360 radio button (settable, integer) Description: Design, Value: 1, ID: :r3s:-design",
-          "\t\t\t\t\t361 radio button (settable, integer) Description: Motion, Value: 0, ID: :r3s:-metronome",
-          "\t\t\t\t\t362 radio button (settable, integer) Description: Dev Mode, Value: 0, ID: :r3s:-handoff",
-          "\t\t3 container Help/zoom toolbar",
-          "\t\t\t4 toolbar Help/zoom toolbar",
-          "\t\t\t\t5 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand",
-          "\t\t\t\t\t6 image",
-          "\t\t398 container",
-          "\t\t\t399 container Description",
-          "\t\t\t\t400 heading Description, Value: 2, ID: :r81:",
-          "\t\t\t\t\t401 text Description",
-          "\t\t\t\t402 container",
-          "\t\t\t\t\t403 container Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence.",
-          "\t\t\t\t\t\t404 text Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence.",
-          "\t\t\t\t\t405 toolbar Description: Description, ID: :r82:",
-          "\t\t\t\t\t\t406 checkbox Description: Bold, Value: 0",
-          "\t\t\t\t\t\t\t407 image",
-          "\t\t\t\t\t\t408 checkbox Description: Bulleted list, Value: 0",
-          "\t\t\t\t\t\t\t409 image",
-          "\t\t\t\t\t\t410 checkbox Description: Ordered list, Value: 0",
-          "\t\t\t\t\t\t\t411 image",
-          "\t\t\t\t\t\t412 checkbox Description: Link, Value: 0",
-          "\t\t\t\t\t\t\t413 image",
-          "\t\t\t\t414 button Close",
-          "",
-          "The focused UI element is 403 container Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence."
+          "~\t\t\t\t\t289 container Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+          "~\t\t\t\t\t\t290 text Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+          "The focused UI element is 289 container Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified."
         ],
         "start_node_id": "791:177",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
@@ -117295,22 +119421,32 @@
           "PROTO-PAYREC-REPEAT-CYCLE-002",
           "PROTO-PAYREC-LOGO-REPAIR-003",
           "PROTO-PAYRESTORE-HOME-CONTEXT-001",
-          "PROTO-PAYRESTORE-DIRECT-002"
+          "PROTO-PAYRESTORE-DIRECT-002",
+          "PROTO-NOTICE-RECORD-FIRST-001",
+          "PROTO-NOTICE-RECORD-EARLY-002",
+          "PROTO-NOTICE-RECORD-RECOVERY-003"
         ],
-        "scope": "33 finite frames49 controls; observed3→2 date return integrated with two Home contexts, complete app unverified",
-        "updated_at": "2026-10-03T01:55:14.980061+00:00"
+        "scope": "Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+        "updated_at": "2026-10-03T05:32:58.784Z",
+        "configuration_history": [
+          {
+            "description": "Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence.",
+            "updated_at": "2026-10-03T01:55:14.980061+00:00"
+          }
+        ]
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-03T02:09:04.726Z",
+    "latest_prototype_run_cutoff": "2026-10-03T05:30:31.732Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-PQQUERY-EDITOR-INITIAL",
-      "E-PQQUERY-EDITOR-TUESDAY",
-      "E-PQQUERY-EDITOR-FLOW"
+      "E-NOTICE-RECORD-EDITOR-INITIAL",
+      "E-NOTICE-RECORD-EDITOR-LOADING",
+      "E-NOTICE-RECORD-EDITOR-FLOW",
+      "E-NOTICE-RECORD-EDITOR-FLOW-FINAL"
     ],
-    "latest_editor_verified_at": "2026-10-03T02:09:30.021307+00:00",
+    "latest_editor_verified_at": "2026-10-03T05:32:58.831454+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",

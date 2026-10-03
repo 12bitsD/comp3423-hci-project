@@ -1,0 +1,972 @@
+{
+  "kind": "actual_figma_notification_record_replay",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-payment-start.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:24:53.653Z",
+      "description": "00-payment-start",
+      "expected_node_id": "823:21",
+      "actual_visible_node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "01-footer-negative.png",
+      "sha256": "5f1379cdf84f1d463a5eae0142dd73e5424a6e041f0700d2ad18dfd19b8f47a8",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:24:53.980Z",
+      "description": "01-footer-negative",
+      "expected_node_id": "823:21",
+      "actual_visible_node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "run": "NOTICE-RUN-1",
+      "note": "Blank footer click after removal of wrong background interaction",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "02-unread-list.png",
+      "sha256": "da09bb12d3d544cbedca535be8c2d90690790ffd6ecdac2dd55a9cd93e2b7992",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:24:54.361Z",
+      "description": "02-unread-list",
+      "expected_node_id": "865:19",
+      "actual_visible_node_id": "865:19",
+      "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "action_id": "A-NATIVE-NOTICE-ENTRY",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "03-detail-first-sample.png",
+      "sha256": "ae4e262377672d9ec099ce2c6f7c39eef337bc7b549eb752611d09b3063b59f1",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:23.291Z",
+      "description": "03-detail-first-sample",
+      "expected_node_id": "865:109",
+      "actual_visible_node_id": "865:109",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "action_id": "A-NATIVE-NOTICE-RECORD-OPEN",
+      "run": "NOTICE-RUN-1",
+      "note": "Immediate sample; actual image/timer state must be visually checked",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "04-detail-loaded.png",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:26.629Z",
+      "description": "04-detail-loaded",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": null,
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "05-web-first-sample.png",
+      "sha256": "ebef1a56678c6f09868d197c5e3509cf0e51eca6dcb7a54126f4e738ac49209a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:30.063Z",
+      "description": "05-web-first-sample",
+      "expected_node_id": "865:171",
+      "actual_visible_node_id": "865:171",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "action_id": "A-NATIVE-NOTICE-READ-MORE",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "06-web-blank.png",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:33.297Z",
+      "description": "06-web-blank",
+      "expected_node_id": "865:205",
+      "actual_visible_node_id": "865:205",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": null,
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "07-web-menu.png",
+      "sha256": "58329b03cbc010b4492e7c685a832f0fca9615ef134179d4217bebc862fd801c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:37.508Z",
+      "description": "07-web-menu",
+      "expected_node_id": "865:238",
+      "actual_visible_node_id": "865:238",
+      "state_id": "S-NATIVE-NOTICE-WEB-MENU",
+      "action_id": "A-NATIVE-NOTICE-WEB-MORE",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "08-menu-cancel.png",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:41.677Z",
+      "description": "08-menu-cancel",
+      "expected_node_id": "865:205",
+      "actual_visible_node_id": "865:205",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": "A-NATIVE-NOTICE-WEB-CANCEL",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "09-web-close.png",
+      "sha256": "8fd768a4ce39ced402a791a0b06517c194299111f3d78e94e551a572c4f23ec0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:42.081Z",
+      "description": "09-web-close",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "10-expanded-first.png",
+      "sha256": "24593dfa20f915cd71e457f9f16b4ae182819892fdc8eaccb17b9f043b480b3e",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:45.616Z",
+      "description": "10-expanded-first",
+      "expected_node_id": "865:163",
+      "actual_visible_node_id": "865:163",
+      "state_id": "S-NATIVE-NOTICE-IMAGE",
+      "action_id": "A-NATIVE-NOTICE-IMAGE-EXPAND",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "11-expanded-close-first.png",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:50.062Z",
+      "description": "11-expanded-close-first",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-IMAGE-CLOSE",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "12-read-list.png",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:50.466Z",
+      "description": "12-read-list",
+      "expected_node_id": "865:65",
+      "actual_visible_node_id": "865:65",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "13-read-reopen-first.png",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:55.616Z",
+      "description": "13-read-reopen-first",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-READ-REOPEN",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "14-read-list-return.png",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:55.845Z",
+      "description": "14-read-list-return",
+      "expected_node_id": "865:65",
+      "actual_visible_node_id": "865:65",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "15-calendar-after-read.png",
+      "sha256": "0e6f463a9c7e1eff3e4d8475a5a29cf5f666026499a666640d60af624cc1704c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:27:56.164Z",
+      "description": "15-calendar-after-read",
+      "expected_node_id": "865:287",
+      "actual_visible_node_id": "865:287",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-NOTICE-CALENDAR-RETURN",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "16-calendar-stable.png",
+      "sha256": "0e6f463a9c7e1eff3e4d8475a5a29cf5f666026499a666640d60af624cc1704c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:28:00.344Z",
+      "description": "16-calendar-stable",
+      "expected_node_id": "865:287",
+      "actual_visible_node_id": "865:287",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "17-notification-after-calendar.png",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:28:00.776Z",
+      "description": "17-notification-after-calendar",
+      "expected_node_id": "865:65",
+      "actual_visible_node_id": "865:65",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-CALENDAR-REENTER",
+      "run": "NOTICE-RUN-1",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "18-payment-restart.png",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:28:51.741Z",
+      "description": "18-payment-restart",
+      "expected_node_id": "823:21",
+      "actual_visible_node_id": "865:65",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": null,
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "19-unread-reentry.png",
+      "sha256": "772e14442c9a89952357ffb0686a2d60ab9a55c81a618d06fe5205dfd78abfef",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:28:52.046Z",
+      "description": "19-unread-reentry",
+      "expected_node_id": "865:19",
+      "actual_visible_node_id": "865:65",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": null,
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "20-payment-direct-reset.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:09.568Z",
+      "description": "20-payment-direct-reset",
+      "expected_node_id": "823:21",
+      "actual_visible_node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "run": "NOTICE-RUN-2",
+      "note": "Restart click did not reset observed read list; direct known caller URL used",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "21-unread-reset.png",
+      "sha256": "93e76c417b957fd7c76778848d9d782ae3aafc947227030e20e932f20002ec78",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:09.924Z",
+      "description": "21-unread-reset",
+      "expected_node_id": "865:19",
+      "actual_visible_node_id": "865:19",
+      "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "action_id": "A-NATIVE-NOTICE-ENTRY",
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "22-early-read-more.png",
+      "sha256": "ebef1a56678c6f09868d197c5e3509cf0e51eca6dcb7a54126f4e738ac49209a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:13.888Z",
+      "description": "22-early-read-more",
+      "expected_node_id": "865:171",
+      "actual_visible_node_id": "865:171",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "action_id": "A-NATIVE-NOTICE-READ-MORE",
+      "run": "NOTICE-RUN-2",
+      "note": "Clicked initial Read more before 800ms timer",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "23-early-web-remains.png",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:17.903Z",
+      "description": "23-early-web-remains",
+      "expected_node_id": "865:205",
+      "actual_visible_node_id": "865:205",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": null,
+      "run": "NOTICE-RUN-2",
+      "note": "No redirect by initial-detail timer after leaving",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "24-detail-after-upload.png",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:18.106Z",
+      "description": "24-detail-after-upload",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "25-expanded-after-upload.png",
+      "sha256": "44f52f8d792b81d9b2f52ef1aed776f7d8e5c7ee6c1de9a3453b5beb1fba8bad",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:22.044Z",
+      "description": "25-expanded-after-upload",
+      "expected_node_id": "865:163",
+      "actual_visible_node_id": "865:163",
+      "state_id": "S-NATIVE-NOTICE-IMAGE",
+      "action_id": "A-NATIVE-NOTICE-IMAGE-EXPAND",
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "26-detail-image-return.png",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:22.367Z",
+      "description": "26-detail-image-return",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-IMAGE-CLOSE",
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "27-image-return-followup.png",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:26.440Z",
+      "description": "27-image-return-followup",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": null,
+      "run": "NOTICE-RUN-2",
+      "note": "Followup after tool preview black",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "28-second-web-loading.png",
+      "sha256": "966c9571642a2d34fc8074ba076a9bb62201a66788c8caa695b6135b6bd638fb",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:34.236Z",
+      "description": "28-second-web-loading",
+      "expected_node_id": "865:171",
+      "actual_visible_node_id": "865:171",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "action_id": "A-NATIVE-NOTICE-READ-MORE",
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "29-second-web-blank.png",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:40.515Z",
+      "description": "29-second-web-blank",
+      "expected_node_id": "865:205",
+      "actual_visible_node_id": "865:205",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": null,
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "30-second-web-return.png",
+      "sha256": "6775f9c891d01b175cb4667a9fb4d51ff853a1918463d5c9862d55d5a5bbd6fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:40.699Z",
+      "description": "30-second-web-return",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "31-read-list-final.png",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:41.119Z",
+      "description": "31-read-list-final",
+      "expected_node_id": "865:65",
+      "actual_visible_node_id": "865:65",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "32-reopen-final.png",
+      "sha256": "a86ebaf7ceb321b602a2a79fc51104c1eebe48fd33218509ea73783b801b856a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:29:41.522Z",
+      "description": "32-reopen-final",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-READ-REOPEN",
+      "run": "NOTICE-RUN-2",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "33-loading-reuploaded.png",
+      "sha256": "ebef1a56678c6f09868d197c5e3509cf0e51eca6dcb7a54126f4e738ac49209a",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:30:14.153Z",
+      "description": "33-loading-reuploaded",
+      "expected_node_id": "865:171",
+      "actual_visible_node_id": "865:171",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "action_id": "A-NATIVE-NOTICE-READ-MORE",
+      "run": "NOTICE-RUN-3",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "34-blank-final.png",
+      "sha256": "595f8aa2479d6f9cd427bc705ea35df89ab29606eff8fd41697b3d0b660982a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:30:24.653Z",
+      "description": "34-blank-final",
+      "expected_node_id": "865:205",
+      "actual_visible_node_id": "865:205",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "action_id": null,
+      "run": "NOTICE-RUN-3",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "35-detail-final-return.png",
+      "sha256": "6775f9c891d01b175cb4667a9fb4d51ff853a1918463d5c9862d55d5a5bbd6fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:30:25.057Z",
+      "description": "35-detail-final-return",
+      "expected_node_id": "865:133",
+      "actual_visible_node_id": "865:133",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+      "run": "NOTICE-RUN-3",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "36-read-final.png",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:30:25.284Z",
+      "description": "36-read-final",
+      "expected_node_id": "865:65",
+      "actual_visible_node_id": "865:65",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "run": "NOTICE-RUN-3",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "37-calendar-final.png",
+      "sha256": "0e6f463a9c7e1eff3e4d8475a5a29cf5f666026499a666640d60af624cc1704c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:30:25.611Z",
+      "description": "37-calendar-final",
+      "expected_node_id": "865:287",
+      "actual_visible_node_id": "865:287",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-NOTICE-CALENDAR-RETURN",
+      "run": "NOTICE-RUN-3",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "38-calendar-stable-final.png",
+      "sha256": "0e6f463a9c7e1eff3e4d8475a5a29cf5f666026499a666640d60af624cc1704c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:30:31.329Z",
+      "description": "38-calendar-stable-final",
+      "expected_node_id": "865:287",
+      "actual_visible_node_id": "865:287",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "run": "NOTICE-RUN-3",
+      "note": "Calendar date text rendering differs from earlier return; cause unisolated",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "39-notification-final.png",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T05:30:31.732Z",
+      "description": "39-notification-final",
+      "expected_node_id": "865:65",
+      "actual_visible_node_id": "865:65",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NATIVE-NOTICE-CALENDAR-REENTER",
+      "run": "NOTICE-RUN-3",
+      "note": "",
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes, visually reviewed",
+      "redaction": "Account header half-open[950,0,1004,49] masked; public notice and Calendar only"
+    },
+    {
+      "file": "editor-initial.png",
+      "sha256": "f27a8c5ba889c7c0241f49a1cf6c3498dd4bb41797bbefa8968fc4bffb953ff3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-03T05:30:48.792318+00:00",
+      "source": "Actual Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked"
+    },
+    {
+      "file": "editor-loading.png",
+      "sha256": "099b26bc176a523a407dd38108d6ec01de517fd0fec0d5a7ca6f4015ead80b93",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-03T05:30:50.354249+00:00",
+      "source": "Actual Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked"
+    },
+    {
+      "file": "editor-flow.png",
+      "sha256": "2c71419f2865602e9d06439fd298d3b274daf128cf17f000f5a0fde1e27270a0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-03T05:31:10.427752+00:00",
+      "source": "Actual Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked"
+    },
+    {
+      "file": "editor-flow-final.png",
+      "sha256": "87906c735274a25fd127dc26f76753a0d6279a057116a4a78bcf138b0410b270",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-03T05:32:58.831454+00:00",
+      "source": "Actual Figma editor SDK screenshot bytes after corrected saved-pixel scope",
+      "redaction": "Account header masked"
+    }
+  ],
+  "app_crop_xyxy": [
+    425,
+    60,
+    785,
+    700
+  ],
+  "limits": [
+    "Finite single public ITS notice and Oct2 Payment caller; arbitrary notices, Search, list boundaries, other dates/callers and full app not_verified.",
+    "Two800ms delays are demonstration proxies; native image-loading causality, latency and exact read-mark trigger not measured.",
+    "Editable text/vector geometry and fonts/icons approximate; workshop image/static loading mark raster. Existing Payment caller lacks native unread tab badge.",
+    "First footer-background interaction removed and actual NavNotification group wired; blank-footer test stayed Payment but hotspot hint changed pixels.",
+    "First web return lost banner; later image return restored it before reupload. Same asset reuploaded and finite returns visible; long-term reliability unknown. Second loading sample lost mark; reupload and one repeat visible.",
+    "Restart click did not reset read list in saved pixels; direct known Payment start URL used. URL readback may lag. Tool screenshot preview black while actual SDK pixels show content.",
+    "Transient Calendar preview glyph positioning differed; saved stable Calendar16/38 app crops are equal. Cause unisolated; no full visual fidelity pass.",
+    "Initial/loading Back/X, menu browser/share/copy/refresh, other navigation and Calendar-read dates/modes unconfigured. Prototype replay is not native execution or human evaluation."
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 1,
+      "equal": false,
+      "difference_bbox": [
+        22,
+        19,
+        360,
+        629
+      ],
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 2,
+      "b": 21,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        83,
+        360,
+        180
+      ],
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 4,
+      "b": 9,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        51,
+        360,
+        181
+      ],
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 4,
+      "b": 11,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 4,
+      "b": 13,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 12,
+      "b": 14,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 12,
+      "b": 17,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 12,
+      "b": 31,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 12,
+      "b": 36,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 12,
+      "b": 39,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 16,
+      "b": 38,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 24,
+      "b": 26,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 24,
+      "b": 27,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 24,
+      "b": 30,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        51,
+        351,
+        181
+      ],
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 24,
+      "b": 32,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 24,
+      "b": 35,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        51,
+        351,
+        181
+      ],
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 5,
+      "b": 28,
+      "equal": false,
+      "difference_bbox": [
+        150,
+        323,
+        200,
+        373
+      ],
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 5,
+      "b": 33,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    },
+    {
+      "a": 10,
+      "b": 25,
+      "equal": false,
+      "difference_bbox": [
+        0,
+        252,
+        360,
+        389
+      ],
+      "scope": "Repeated prototype app crop only, not native/full visual fidelity"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "4b5180e5c8b327feeaa2d99a1110a0b4dcec7a474c515c8a8ec254e2a4c37d2e",
+    "dimensions": [
+      1000,
+      3400
+    ],
+    "source": "40 actual masked Present screenshots resized only for contact sheet"
+  }
+}

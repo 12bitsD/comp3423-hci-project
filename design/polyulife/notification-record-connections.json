@@ -1,0 +1,791 @@
+{
+  "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+  "frames": [
+    {
+      "file": "notification-record-list-unread.svg",
+      "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-04"
+      ],
+      "sha256": "ed0018f788a2cbc8c3bedfe10581cec465316f6b3efd00ed91e065b4fe002def",
+      "name": "[NOTICE:UNREAD] Notification — unread workshop",
+      "node_id": "865:19",
+      "x": 0,
+      "y": 82000,
+      "at": "2026-10-03T02:42:35.188Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t425 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t426 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t453 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t456 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "notification-record-list-read.svg",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-15"
+      ],
+      "sha256": "fa772a3647c780364a6c9c5ff223c2a9be432ef2b55cae78a12037d1b4a7d7c2",
+      "name": "[NOTICE:READ] Notification — read workshop",
+      "node_id": "865:65",
+      "x": 700,
+      "y": 82000,
+      "at": "2026-10-03T02:42:47.340Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t603 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t604 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t631 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t634 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "notification-record-detail-initial.svg",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-05"
+      ],
+      "sha256": "bc1bfb93baa577bae733d6a14f667bb020547a46732df3bd9773e2a343dc0092",
+      "name": "[NOTICE:INITIAL] Workshop detail — initial no image",
+      "node_id": "865:109",
+      "x": 1400,
+      "y": 82000,
+      "at": "2026-10-03T02:42:50.171Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t663 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t664 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t691 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t694 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "notification-record-detail-loaded.svg",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-24"
+      ],
+      "sha256": "73fcf3187fc4915ca1587a4e9af375302f0d8ecb5cd8484529e1d09d153d10eb",
+      "name": "[NOTICE:LOADED] Workshop detail — observed banner",
+      "node_id": "865:133",
+      "x": 2100,
+      "y": 82000,
+      "at": "2026-10-03T02:42:55.600Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t731 stepper (settable, integer) Description: X-position, Value: 2100",
+        "\t\t\t\t\t\t\t\t\t732 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t759 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t762 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "notification-record-image-expanded.svg",
+      "state_id": "S-NATIVE-NOTICE-IMAGE",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-13"
+      ],
+      "sha256": "e80d99fa95e2f4fb43039e22cd6ba2e924c445ee83b425e2b2d12a2bb3d31ea0",
+      "name": "[NOTICE:IMAGE] Workshop banner — expanded",
+      "node_id": "865:163",
+      "x": 2800,
+      "y": 82000,
+      "at": "2026-10-03T02:42:58.145Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t751 stepper (settable, integer) Description: X-position, Value: 2800",
+        "\t\t\t\t\t\t\t\t\t752 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t779 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t782 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "notification-record-web-loading.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-21"
+      ],
+      "sha256": "3e9ee90b68f006dbfdb79bbed3838920eaa41bbf7257f08517bf453ab585023d",
+      "name": "[NOTICE:LOAD] Workshop webpage — loading",
+      "node_id": "865:171",
+      "x": 3500,
+      "y": 82000,
+      "at": "2026-10-03T02:43:00.778Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t771 stepper (settable, integer) Description: X-position, Value: 3500",
+        "\t\t\t\t\t\t\t\t\t772 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t799 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t802 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "notification-record-web-blank.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-22"
+      ],
+      "sha256": "eeb22380a1710d0939bec7157b23b4100be74fb25a66b719ca151bc75dc777a3",
+      "name": "[NOTICE:BLANK] Workshop webpage — observed blank",
+      "node_id": "865:205",
+      "x": 4200,
+      "y": 82000,
+      "at": "2026-10-03T02:43:07.043Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t791 stepper (settable, integer) Description: X-position, Value: 4200",
+        "\t\t\t\t\t\t\t\t\t792 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t819 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t822 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "notification-record-web-menu.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-MENU",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-08"
+      ],
+      "sha256": "a48312fed31e0d6a0c36ab51d4acea6f67c09a083087cf7d92fdb35f0fd7444f",
+      "name": "[NOTICE:MENU] Workshop webpage — menu",
+      "node_id": "865:238",
+      "x": 4900,
+      "y": 82000,
+      "at": "2026-10-03T02:43:09.494Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t815 stepper (settable, integer) Description: X-position, Value: 4900",
+        "\t\t\t\t\t\t\t\t\t816 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t843 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t846 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "notification-record-calendar-read.svg",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-18"
+      ],
+      "sha256": "3c40fafde470e013f3a0ead69ebfc0a8b9648a32bee03ddadb79541703115dde",
+      "context_variant": "20261003-payment-after-notice-read",
+      "name": "[NOTICE:CALENDAR] Payment — after notice read",
+      "node_id": "865:287",
+      "x": 5600,
+      "y": 82000,
+      "at": "2026-10-03T02:43:12.218Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t847 stepper (settable, integer) Description: X-position, Value: 5600",
+        "\t\t\t\t\t\t\t\t\t848 stepper (settable, integer) Description: Y-position, Value: 82000",
+        "\t\t\t\t\t\t\t\t\t\t875 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t878 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "823:21",
+      "trigger_node_id": "823:173",
+      "trigger_node_name": "NavNotification",
+      "action_id": "A-NATIVE-NOTICE-ENTRY",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:19",
+      "configured_at": "2026-10-03T05:24:12.294Z",
+      "readback": [
+        "\t\t\t\t\t\t\t571 combo box (collapsed) Position, Value: Scroll with parent, ID: :r86:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t600 combo box (collapsed) Trigger, Value: On click, ID: :rad:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t606 combo box (collapsed) Action, Value: Navigate to, ID: :rag:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t613 combo box (collapsed) Destination, Value: [NOTICE:UNREAD] Notification — unread workshop, ID: :rav:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t618 combo box (collapsed) Animation, Value: Instant, ID: :rbc:, Secondary Actions: Expand",
+        "The focused UI element is 613 combo box (collapsed) Destination, Value: [NOTICE:UNREAD] Notification — unread workshop, ID: :rav:, Secondary Actions: Expand"
+      ],
+      "limits": "Existing Payment caller does not yet show native unread badge; notification controls and read-list markers are reconstructed. Footer background interaction removed.",
+      "connection_id": "C-NOTICE-RECORD-01",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-00"
+      ]
+    },
+    {
+      "source_node_id": "865:19",
+      "trigger_node_id": "865:33",
+      "trigger_node_name": "FirstNoticeCard",
+      "action_id": "A-NATIVE-NOTICE-RECORD-OPEN",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:109",
+      "configured_at": "2026-10-03T05:04:13.623Z",
+      "readback": [
+        "\t\t\t\t\t\t\t423 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8c:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t447 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t453 combo box (collapsed) Action, Value: Navigate to, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t460 combo box (collapsed) Destination, Value: [NOTICE:INITIAL] Workshop detail — initial no image, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t465 combo box (collapsed) Animation, Value: Instant, ID: :r9i:, Secondary Actions: Expand",
+        "The focused UI element is 460 combo box (collapsed) Destination, Value: [NOTICE:INITIAL] Workshop detail — initial no image, ID: :r95:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-02",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-04"
+      ]
+    },
+    {
+      "source_node_id": "865:109",
+      "trigger_node_id": "865:109",
+      "trigger_node_name": "[NOTICE:INITIAL] Workshop detail — initial no image",
+      "action_id": null,
+      "trigger": "After delay",
+      "delay_ms": 800,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:133",
+      "configured_at": "2026-10-03T05:04:23.057Z",
+      "readback": [
+        "\t\t\t\t\t\t\t431 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7t:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t470 combo box (collapsed) Trigger, Value: After delay, ID: :r84:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t476 combo box (collapsed) Action, Value: Navigate to, ID: :r87:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t483 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t488 combo box (collapsed) Animation, Value: Instant, ID: :r93:, Secondary Actions: Expand",
+        "The focused UI element is 470 combo box (collapsed) Trigger, Value: After delay, ID: :r84:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t497 text field (settable) After delay timeout, Value: 800ms"
+      ],
+      "limits": "Demo timing only; not measured native latency/causality",
+      "connection_id": "C-NOTICE-RECORD-03",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-05"
+      ]
+    },
+    {
+      "source_node_id": "865:109",
+      "trigger_node_id": "865:127",
+      "trigger_node_name": "ReadMore",
+      "action_id": "A-NATIVE-NOTICE-READ-MORE",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:171",
+      "configured_at": "2026-10-03T05:04:53.384Z",
+      "readback": [
+        "\t\t\t\t\t\t\t504 combo box (collapsed) Position, Value: Scroll with parent, ID: :rap:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t528 combo box (collapsed) Trigger, Value: On click, ID: :rb0:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t534 combo box (collapsed) Action, Value: Navigate to, ID: :rb3:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t541 combo box (collapsed) Destination, Value: [NOTICE:LOAD] Workshop webpage — loading, ID: :rbi:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t546 combo box (collapsed) Animation, Value: Instant, ID: :rbv:, Secondary Actions: Expand",
+        "The focused UI element is 541 combo box (collapsed) Destination, Value: [NOTICE:LOAD] Workshop webpage — loading, ID: :rbi:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-04",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-05"
+      ]
+    },
+    {
+      "source_node_id": "865:133",
+      "trigger_node_id": "865:157",
+      "trigger_node_name": "ReadMore",
+      "action_id": "A-NATIVE-NOTICE-READ-MORE",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:171",
+      "configured_at": "2026-10-03T05:05:11.194Z",
+      "readback": [
+        "\t\t\t\t\t\t\t458 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t482 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t488 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t495 combo box (collapsed) Destination, Value: [NOTICE:LOAD] Workshop webpage — loading, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t501 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 495 combo box (collapsed) Destination, Value: [NOTICE:LOAD] Workshop webpage — loading, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-05",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-24"
+      ]
+    },
+    {
+      "source_node_id": "865:133",
+      "trigger_node_id": "865:144",
+      "trigger_node_name": "ExpandBanner",
+      "action_id": "A-NATIVE-NOTICE-IMAGE-EXPAND",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:163",
+      "configured_at": "2026-10-03T05:05:14.907Z",
+      "readback": [
+        "\t\t\t\t\t\t\t458 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t526 combo box (collapsed) Trigger, Value: On click, ID: :rav:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t532 combo box (collapsed) Action, Value: Navigate to, ID: :rb2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t539 combo box (collapsed) Destination, Value: [NOTICE:IMAGE] Workshop banner — expanded, ID: :rbh:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t544 combo box (collapsed) Animation, Value: Instant, ID: :rbu:, Secondary Actions: Expand",
+        "The focused UI element is 539 combo box (collapsed) Destination, Value: [NOTICE:IMAGE] Workshop banner — expanded, ID: :rbh:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-06",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-24"
+      ]
+    },
+    {
+      "source_node_id": "865:133",
+      "trigger_node_id": "865:137",
+      "trigger_node_name": "Back",
+      "action_id": "A-NATIVE-NOTICE-RECORD-BACK",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:65",
+      "configured_at": "2026-10-03T05:05:18.804Z",
+      "readback": [
+        "\t\t\t\t\t\t\t458 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t539 combo box (collapsed) Trigger, Value: On click, ID: :rc9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t545 combo box (collapsed) Action, Value: Navigate to, ID: :rcc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t552 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rcr:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t557 combo box (collapsed) Animation, Value: Instant, ID: :rd8:, Secondary Actions: Expand",
+        "The focused UI element is 552 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rcr:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-07",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-24"
+      ]
+    },
+    {
+      "source_node_id": "865:163",
+      "trigger_node_id": "865:167",
+      "trigger_node_name": "CloseImage",
+      "action_id": "A-NATIVE-NOTICE-IMAGE-CLOSE",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:133",
+      "configured_at": "2026-10-03T05:05:39.839Z",
+      "readback": [
+        "\t\t\t\t\t\t\t653 combo box (collapsed) Position, Value: Scroll with parent, ID: :rek:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t677 combo box (collapsed) Trigger, Value: On click, ID: :rev:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t683 combo box (collapsed) Action, Value: Navigate to, ID: :rf2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t690 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rfh:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t695 combo box (collapsed) Animation, Value: Instant, ID: :rfu:, Secondary Actions: Expand",
+        "The focused UI element is 690 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rfh:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-08",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-13"
+      ]
+    },
+    {
+      "source_node_id": "865:171",
+      "trigger_node_id": "865:171",
+      "trigger_node_name": "[NOTICE:LOAD] Workshop webpage — loading",
+      "action_id": null,
+      "trigger": "After delay",
+      "delay_ms": 800,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:205",
+      "configured_at": "2026-10-03T05:05:45.242Z",
+      "readback": [
+        "\t\t\t\t\t\t\t778 combo box (collapsed) Overflow, Value: No scrolling, ID: :rh5:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t803 combo box (collapsed) Trigger, Value: After delay, ID: :rhc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t809 combo box (collapsed) Action, Value: Navigate to, ID: :rhf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t816 combo box (collapsed) Destination, Value: [NOTICE:BLANK] Workshop webpage — observed blank, ID: :rhu:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t821 combo box (collapsed) Animation, Value: Instant, ID: :rib:, Secondary Actions: Expand",
+        "The focused UI element is 803 combo box (collapsed) Trigger, Value: After delay, ID: :rhc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t830 text field (settable) After delay timeout, Value: 800ms"
+      ],
+      "limits": "Demo timing only; not measured native latency/causality",
+      "connection_id": "C-NOTICE-RECORD-09",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-21"
+      ]
+    },
+    {
+      "source_node_id": "865:205",
+      "trigger_node_id": "865:220",
+      "trigger_node_name": "WebMore",
+      "action_id": "A-NATIVE-NOTICE-WEB-MORE",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:238",
+      "configured_at": "2026-10-03T05:06:22.758Z",
+      "readback": [
+        "\t\t\t\t\t\t\t880 combo box (collapsed) Position, Value: Scroll with parent, ID: :rk1:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t904 combo box (collapsed) Trigger, Value: On click, ID: :rk8:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t910 combo box (collapsed) Action, Value: Navigate to, ID: :rkb:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t917 combo box (collapsed) Destination, Value: [NOTICE:MENU] Workshop webpage — menu, ID: :rkq:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t922 combo box (collapsed) Animation, Value: Instant, ID: :rl7:, Secondary Actions: Expand",
+        "The focused UI element is 917 combo box (collapsed) Destination, Value: [NOTICE:MENU] Workshop webpage — menu, ID: :rkq:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-10",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-22"
+      ]
+    },
+    {
+      "source_node_id": "865:205",
+      "trigger_node_id": "865:217",
+      "trigger_node_name": "CloseWeb",
+      "action_id": "A-NATIVE-NOTICE-WEB-CLOSE",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:133",
+      "configured_at": "2026-10-03T05:06:26.544Z",
+      "readback": [
+        "\t\t\t\t\t\t\t880 combo box (collapsed) Position, Value: Scroll with parent, ID: :rk1:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t904 combo box (collapsed) Trigger, Value: On click, ID: :rlc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t910 combo box (collapsed) Action, Value: Navigate to, ID: :rlf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t917 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rlu:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t922 combo box (collapsed) Animation, Value: Instant, ID: :rmb:, Secondary Actions: Expand",
+        "The focused UI element is 917 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rlu:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-11",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-22"
+      ]
+    },
+    {
+      "source_node_id": "865:238",
+      "trigger_node_id": "865:283",
+      "trigger_node_name": "CancelWebMenu",
+      "action_id": "A-NATIVE-NOTICE-WEB-CANCEL",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:205",
+      "configured_at": "2026-10-03T05:06:31.880Z",
+      "readback": [
+        "\t\t\t\t\t\t\t978 combo box (collapsed) Position, Value: Scroll with parent, ID: :rn5:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1002 combo box (collapsed) Trigger, Value: On click, ID: :rnc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1008 combo box (collapsed) Action, Value: Navigate to, ID: :rnf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1015 combo box (collapsed) Destination, Value: [NOTICE:BLANK] Workshop webpage — observed blank, ID: :rnu:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1020 combo box (collapsed) Animation, Value: Instant, ID: :rob:, Secondary Actions: Expand",
+        "The focused UI element is 1015 combo box (collapsed) Destination, Value: [NOTICE:BLANK] Workshop webpage — observed blank, ID: :rnu:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-12",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-08"
+      ]
+    },
+    {
+      "source_node_id": "865:65",
+      "trigger_node_id": "865:79",
+      "trigger_node_name": "FirstNoticeCard",
+      "action_id": "A-NATIVE-NOTICE-READ-REOPEN",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:133",
+      "configured_at": "2026-10-03T05:07:14.385Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1160 combo box (collapsed) Position, Value: Scroll with parent, ID: :rq9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1184 combo box (collapsed) Trigger, Value: On click, ID: :rra:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1190 combo box (collapsed) Action, Value: Navigate to, ID: :rrd:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1197 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rrs:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1202 combo box (collapsed) Animation, Value: Instant, ID: :rs9:, Secondary Actions: Expand",
+        "The focused UI element is 1197 combo box (collapsed) Destination, Value: [NOTICE:LOADED] Workshop detail — observed banner, ID: :rrs:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-13",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-15"
+      ]
+    },
+    {
+      "source_node_id": "865:65",
+      "trigger_node_id": "865:90",
+      "trigger_node_name": "NavCalendar",
+      "action_id": "A-NATIVE-NOTICE-CALENDAR-RETURN",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:287",
+      "configured_at": "2026-10-03T05:07:18.344Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1160 combo box (collapsed) Position, Value: Scroll with parent, ID: :rq9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1209 combo box (collapsed) Trigger, Value: On click, ID: :rsq:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1215 combo box (collapsed) Action, Value: Navigate to, ID: :rst:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1222 combo box (collapsed) Destination, Value: [NOTICE:CALENDAR] Payment — after notice read, ID: :rtc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1227 combo box (collapsed) Animation, Value: Instant, ID: :rtp:, Secondary Actions: Expand",
+        "The focused UI element is 1222 combo box (collapsed) Destination, Value: [NOTICE:CALENDAR] Payment — after notice read, ID: :rtc:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-14",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-15"
+      ]
+    },
+    {
+      "source_node_id": "865:287",
+      "trigger_node_id": "865:439",
+      "trigger_node_name": "NavNotification",
+      "action_id": "A-NATIVE-NOTICE-CALENDAR-REENTER",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:65",
+      "configured_at": "2026-10-03T05:07:48.732Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1415 combo box (collapsed) Position, Value: Scroll with parent, ID: :r10l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1439 combo box (collapsed) Trigger, Value: On click, ID: :r10u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1445 combo box (collapsed) Action, Value: Navigate to, ID: :r111:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1452 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :r11g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1457 combo box (collapsed) Animation, Value: Instant, ID: :r11t:, Secondary Actions: Expand",
+        "The focused UI element is 1452 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :r11g:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-RECORD-15",
+      "revision_id": "FIGMA-NOTIFICATION-RECORD-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "source_fidelity": "Observed single notice state/action relation; 800ms timers demonstration proxy only",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-18"
+      ]
+    }
+  ],
+  "image_reuploads": [
+    {
+      "root_node_id": "865:133",
+      "image_node_id": "865:143",
+      "asset": "assets/notification-workshop-banner.png",
+      "at": "2026-10-03T05:28:46.893Z",
+      "reason": "Present return lost banner; same original asset reuploaded"
+    },
+    {
+      "root_node_id": "865:171",
+      "image_node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=865-192&t=KmoMOtRYVPf3dP1d-0",
+      "asset": "assets/notification-web-loading-mark.png",
+      "at": "2026-10-03T05:30:09.586Z",
+      "reason": "Second Present loading sample lost static mark; same original asset reuploaded",
+      "readback": [
+        "~\t\t\t\t\t\t\t\t\t\t\t\t\t900 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":213,\"1\":113,\"2\":209,\"3\":239,\"4\":37,\"5\":235,\"6\":188,\"7\":143,\"8\":214,\"9\":152,\"10\":4,\"11\":185,\"12\":176,\"13\":160,\"14\":212,\"15\":209,\"16\":162,\"17\":124,\"18\":204,\"19\":117},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":213,\"1\":113,\"2\":209,\"3\":239,\"4\":37,\"5\":235,\"6\":188,\"7\":143,\"8\":214,\"9\":152,\"10\":4,\"11\":185,\"12\":176,\"13\":160,\"14\":212,\"15\":209,\"16\":162,\"17\":124,\"18\":204,\"19\":117},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":true,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":61,\"originalImageHeight\":62,\"thumbHash\":{},\"altText\":\"\"}"
+      ]
+    }
+  ],
+  "entry_correction": {
+    "previous": {
+      "source_node_id": "823:21",
+      "trigger_node_id": "823:159",
+      "trigger_node_name": "NoticeEntryIcon",
+      "action_id": "A-NATIVE-NOTICE-ENTRY",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:19",
+      "configured_at": "2026-10-03T05:03:36.524Z",
+      "readback": [
+        "\t\t\t\t\t\t\t549 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t574 combo box (collapsed) Trigger, Value: On click, ID: :rdc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t580 combo box (collapsed) Action, Value: Navigate to, ID: :rdf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t592 combo box (collapsed) Destination, Value: [NOTICE:UNREAD] Notification — unread workshop, ID: :rei:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t597 combo box (collapsed) Animation, Value: Instant, ID: :rev:, Secondary Actions: Expand",
+        "The focused UI element is 592 combo box (collapsed) Destination, Value: [NOTICE:UNREAD] Notification — unread workshop, ID: :rei:, Secondary Actions: Expand"
+      ],
+      "limits": "Icon hotspot only, narrower than native tab. Existing Payment caller omits unread badge; pending fidelity."
+    },
+    "actual_geometry_readback": [
+      "\t\t\t\t\t\t\t\t\t243 stepper (settable, integer) Description: X-position, Value: 0",
+      "\t\t\t\t\t\t\t\t\t244 stepper (settable, integer) Description: Y-position, Value: 920",
+      "\t\t\t\t\t\t\t\t\t\t271 text field (settable) Description: Width, Value: 576",
+      "\t\t\t\t\t\t\t\t\t\t274 text field (settable) Description: Height, Value: 104"
+    ],
+    "status": "incorrect_footer_background_mapping_removed_before_replay",
+    "at": "2026-10-03T05:08:08.357Z",
+    "corrected": {
+      "source_node_id": "823:21",
+      "trigger_node_id": "823:173",
+      "trigger_node_name": "NavNotification",
+      "action_id": "A-NATIVE-NOTICE-ENTRY",
+      "trigger": "On click",
+      "delay_ms": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:19",
+      "configured_at": "2026-10-03T05:24:12.294Z",
+      "readback": [
+        "\t\t\t\t\t\t\t571 combo box (collapsed) Position, Value: Scroll with parent, ID: :r86:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t600 combo box (collapsed) Trigger, Value: On click, ID: :rad:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t606 combo box (collapsed) Action, Value: Navigate to, ID: :rag:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t613 combo box (collapsed) Destination, Value: [NOTICE:UNREAD] Notification — unread workshop, ID: :rav:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t618 combo box (collapsed) Animation, Value: Instant, ID: :rbc:, Secondary Actions: Expand",
+        "The focused UI element is 613 combo box (collapsed) Destination, Value: [NOTICE:UNREAD] Notification — unread workshop, ID: :rav:, Secondary Actions: Expand"
+      ],
+      "limits": "Existing Payment caller does not yet show native unread badge; notification controls and read-list markers are reconstructed. Footer background interaction removed."
+    },
+    "verified_footer_interaction_removed": true
+  },
+  "flow": {
+    "name": "Reference · Oct2 Calendar filters & Notice — partial",
+    "start_node_id": "791:177",
+    "description": "Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+    "updated_at": "2026-10-03T05:32:58.784Z",
+    "readback": [
+      "~\t\t\t\t\t289 container Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+      "~\t\t\t\t\t\t290 text Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+      "The focused UI element is 289 container Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified."
+    ]
+  },
+  "prototype_run_ids": [
+    "PROTO-NOTICE-RECORD-FIRST-001",
+    "PROTO-NOTICE-RECORD-EARLY-002",
+    "PROTO-NOTICE-RECORD-RECOVERY-003"
+  ],
+  "limits": [
+    "Finite single public ITS notice and Oct2 Payment caller; arbitrary notices, Search, list boundaries, other dates/callers and full app not_verified.",
+    "Two800ms delays are demonstration proxies; native image-loading causality, latency and exact read-mark trigger not measured.",
+    "Editable text/vector geometry and fonts/icons approximate; workshop image/static loading mark raster. Existing Payment caller lacks native unread tab badge.",
+    "First footer-background interaction removed and actual NavNotification group wired; blank-footer test stayed Payment but hotspot hint changed pixels.",
+    "First web return lost banner; later image return restored it before reupload. Same asset reuploaded and finite returns visible; long-term reliability unknown. Second loading sample lost mark; reupload and one repeat visible.",
+    "Restart click did not reset read list in saved pixels; direct known Payment start URL used. URL readback may lag. Tool screenshot preview black while actual SDK pixels show content.",
+    "Transient Calendar preview glyph positioning differed; saved stable Calendar16/38 app crops are equal. Cause unisolated; no full visual fidelity pass.",
+    "Initial/loading Back/X, menu browser/share/copy/refresh, other navigation and Calendar-read dates/modes unconfigured. Prototype replay is not native execution or human evaluation."
+  ]
+}
