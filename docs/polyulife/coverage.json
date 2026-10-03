@@ -66456,6 +66456,930 @@
       "state_ids": [],
       "action_ids": [],
       "redaction": "Account header masked"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/00-read-notification.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:25.851Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/01-search-empty.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:26.253Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/02-workshop-result.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:30.795Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/03-va210-detail.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:31.198Z",
+      "sha256": "b0fb76c475adb89f260ed8e7cc01f7e11db880608d5503d3f17aeb8635afaf56",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/04-detail-back-workshop.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:39.222Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-DETAIL-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/05-workshop-clear.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:39.543Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/06-negative-no-record.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:39.782Z",
+      "sha256": "2d5aa033491859085669d8eaeb3cd76c352250603f49fd2aeed7319c1e762427",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/07-negative-clear.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:40.151Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/08-workshop-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:40.486Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/09-title-no-record.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:43:40.790Z",
+      "sha256": "2068689d1ad41f92780ea102f89c95c6012e4497d00e0fe9a893595b4b054407",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-TITLE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/10-title-back-read.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:05.240Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/11-empty-reentry.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:05.543Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/12-empty-back-read.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:05.948Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/13-empty-generalized-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:06.354Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/14-empty-to-title-proxy.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:06.637Z",
+      "sha256": "2068689d1ad41f92780ea102f89c95c6012e4497d00e0fe9a893595b4b054407",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/15-title-to-workshop-proxy.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:06.949Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/16-workshop-to-negative-proxy.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:07.364Z",
+      "sha256": "2d5aa033491859085669d8eaeb3cd76c352250603f49fd2aeed7319c1e762427",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/17-negative-to-workshop-proxy.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:07.565Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/18-workshop-back-read-generalized.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:07.969Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/19-empty-reentry-generalized.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:19.559Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/20-negative-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:19.984Z",
+      "sha256": "2d5aa033491859085669d8eaeb3cd76c352250603f49fd2aeed7319c1e762427",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/21-negative-to-title-proxy.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:20.389Z",
+      "sha256": "2068689d1ad41f92780ea102f89c95c6012e4497d00e0fe9a893595b4b054407",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/22-title-to-negative-proxy.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:20.792Z",
+      "sha256": "2d5aa033491859085669d8eaeb3cd76c352250603f49fd2aeed7319c1e762427",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/23-negative-back-read-generalized.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:21.198Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/24-empty-reentry-title-clear.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:21.601Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/25-title-before-generalized-clear.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:22.006Z",
+      "sha256": "2068689d1ad41f92780ea102f89c95c6012e4497d00e0fe9a893595b4b054407",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/26-title-clear-generalized.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:22.410Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/27-empty-back-read-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:22.815Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/28-empty-third-entry.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:23.220Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/29-workshop-third.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:23.623Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/30-detail-second-entry.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:23.926Z",
+      "sha256": "e3b2ec883c95dc6460ae27c2a865f1ad563e76cea4e8be8eb9e5dbf2805ad2b2",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-31",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/31-detail-back-workshop-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:24.228Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-DETAIL-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-32",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/32-workshop-clear-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:24.532Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-33",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/33-final-read-notification.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:24.883Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-EDITOR-EMPTY",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/editor-empty.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:42.346Z",
+      "sha256": "241fe5a1a6e9acafe3b28a02cfaa38ecef3881c335a19b61d264e9c865c55bcf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-EDITOR-WORKSHOP",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/editor-workshop.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:44:48.461Z",
+      "sha256": "f9a9988a494ffc00c3b5c011bf51e7d272b92e38693a70e2d92a867be61ad938",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-EDITOR-NEGATIVE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/editor-negative.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:45:02.371Z",
+      "sha256": "e85815b75072451c078c582124a7163f82ed830943b9867edf42b78807ba57b5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-EDITOR-TITLE",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/editor-title.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:57:34.691Z",
+      "sha256": "7979e78c12b2cd575e7cbc263624e9d516eeff9a1ee084c283214297f1b1058c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-34",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/34-recovery-empty.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:59:29.711Z",
+      "sha256": "00bb7eb37495d7b5c22fe0d6aef1503fca1d364144059ac556641a3e46d5a16b",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-35",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/35-recovery-workshop.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:59:30.113Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-36",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/36-detail-after-reupload.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:59:30.416Z",
+      "sha256": "b0fb76c475adb89f260ed8e7cc01f7e11db880608d5503d3f17aeb8635afaf56",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-37",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/37-recovery-detail-back.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:59:30.820Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-DETAIL-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-38",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/38-detail-reuploaded-repeat.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:59:31.224Z",
+      "sha256": "b0fb76c475adb89f260ed8e7cc01f7e11db880608d5503d3f17aeb8635afaf56",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-39",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/39-recovery-second-back.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:59:31.526Z",
+      "sha256": "2816101b75624e7fff78e9588a4137e37d9764eec07250ac9fd4cd6535d0a2b3",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-DETAIL-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-40",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/40-final-notification-after-recovery.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:59:31.931Z",
+      "sha256": "d718f9a5617682be2ef4e648b10965ee344ac2865d0554abbd67cc2b37e14d24",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-EDITOR-DETAIL-REUPLOADED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/editor-detail-reuploaded.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T05:59:16.379Z",
+      "sha256": "dd15ed8928e252c46c8a7b60df47422d01e4412a63b2622f741afb67d8f3d8ad",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-EDITOR-FLOW-UPDATED",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/editor-flow-updated.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T06:00:10.797Z",
+      "sha256": "b5e7e2aa9c5e99a2d8e327baab2ef0226a26d3079d137d144153b988640aabc8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma editor SDK screenshot bytes",
+      "redaction": "Account header masked; public queries/venue/notice only"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-PROTO-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-prototype/contact-sheet.png",
+      "session_id": null,
+      "sha256": "06822fd6811a800d687572ac705e9c595566b4b6cdbce6e35d7a55d35e1dfa7a",
+      "dimensions": [
+        1000,
+        3825
+      ],
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-NOTIFICATION-SEARCH-EMPTY",
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-FOOD-DETAIL",
+        "S-NOTICE-SEARCH-NEGATIVE",
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [],
+      "source": "41 actual masked Present crops resized for contact sheet",
+      "redaction": "Derived masked public Present screenshots"
     }
   ],
   "findings": [
@@ -76982,6 +77906,277 @@
           "E-NOTICE-RECORD-PROTO-38"
         ],
         "context_variant": "20261003-payment-after-notice-read"
+      },
+      {
+        "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+        "node_id": "920:19",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=920-19",
+        "node_name": "[NS:EMPTY] Search — Notification caller",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-02",
+          "E-NOTICE-SEARCH-27"
+        ],
+        "design_source_path": "../../design/polyulife/notification-search-empty.svg",
+        "design_source_sha256": "68d5cd3adac63f74ebb50de3f84c3aa5e2b3c2c7fc9e6da3f776464cfe88d09d",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            84000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; public venue illustration/map raster image fills, geography labels/pins not separately editable",
+        "content_policy": "Public sampled query/venue/notice only; no identity or private data",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite samples only; retained missing detail images, same-source reupload and proxy limitations",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-PROTO-01",
+            "E-NOTICE-SEARCH-PROTO-05",
+            "E-NOTICE-SEARCH-PROTO-07",
+            "E-NOTICE-SEARCH-PROTO-11",
+            "E-NOTICE-SEARCH-PROTO-13",
+            "E-NOTICE-SEARCH-PROTO-19",
+            "E-NOTICE-SEARCH-PROTO-24",
+            "E-NOTICE-SEARCH-PROTO-26",
+            "E-NOTICE-SEARCH-PROTO-28",
+            "E-NOTICE-SEARCH-PROTO-32",
+            "E-NOTICE-SEARCH-PROTO-34"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+          "PROTO-NOTICE-SEARCH-REPEAT-003",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-SEARCH-PROTO-01",
+          "E-NOTICE-SEARCH-PROTO-05",
+          "E-NOTICE-SEARCH-PROTO-07",
+          "E-NOTICE-SEARCH-PROTO-11",
+          "E-NOTICE-SEARCH-PROTO-13",
+          "E-NOTICE-SEARCH-PROTO-19",
+          "E-NOTICE-SEARCH-PROTO-24",
+          "E-NOTICE-SEARCH-PROTO-26",
+          "E-NOTICE-SEARCH-PROTO-28",
+          "E-NOTICE-SEARCH-PROTO-32",
+          "E-NOTICE-SEARCH-PROTO-34"
+        ],
+        "context_variant": "20261003-notification-search-empty"
+      },
+      {
+        "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+        "node_id": "920:36",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=920-36",
+        "node_name": "[NS:WORKSHOP] Search — workshop venue result",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-09",
+          "E-NOTICE-SEARCH-14",
+          "E-NOTICE-SEARCH-21"
+        ],
+        "design_source_path": "../../design/polyulife/notification-search-workshop.svg",
+        "design_source_sha256": "4560835f982898c71e94f6e1d57048ab54d43cc8d519a08131f1a791046696f7",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            84000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; public venue illustration/map raster image fills, geography labels/pins not separately editable",
+        "content_policy": "Public sampled query/venue/notice only; no identity or private data",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite samples only; retained missing detail images, same-source reupload and proxy limitations",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-PROTO-02",
+            "E-NOTICE-SEARCH-PROTO-04",
+            "E-NOTICE-SEARCH-PROTO-08",
+            "E-NOTICE-SEARCH-PROTO-15",
+            "E-NOTICE-SEARCH-PROTO-17",
+            "E-NOTICE-SEARCH-PROTO-29",
+            "E-NOTICE-SEARCH-PROTO-31",
+            "E-NOTICE-SEARCH-PROTO-35",
+            "E-NOTICE-SEARCH-PROTO-37",
+            "E-NOTICE-SEARCH-PROTO-39"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+          "PROTO-NOTICE-SEARCH-REPEAT-003",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-SEARCH-PROTO-02",
+          "E-NOTICE-SEARCH-PROTO-04",
+          "E-NOTICE-SEARCH-PROTO-08",
+          "E-NOTICE-SEARCH-PROTO-15",
+          "E-NOTICE-SEARCH-PROTO-17",
+          "E-NOTICE-SEARCH-PROTO-29",
+          "E-NOTICE-SEARCH-PROTO-31",
+          "E-NOTICE-SEARCH-PROTO-35",
+          "E-NOTICE-SEARCH-PROTO-37",
+          "E-NOTICE-SEARCH-PROTO-39"
+        ]
+      },
+      {
+        "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+        "node_id": "920:61",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=920-61",
+        "node_name": "[NS:NEGATIVE] Search — no record zzhci2026",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-18"
+        ],
+        "design_source_path": "../../design/polyulife/notification-search-negative.svg",
+        "design_source_sha256": "9e7ff6b72f4a8caa65a0df54b1aa0e381f852f3622fc5d53d0d7c472c4cca3c6",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            84000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; public venue illustration/map raster image fills, geography labels/pins not separately editable",
+        "content_policy": "Public sampled query/venue/notice only; no identity or private data",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite samples only; retained missing detail images, same-source reupload and proxy limitations",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-PROTO-06",
+            "E-NOTICE-SEARCH-PROTO-16",
+            "E-NOTICE-SEARCH-PROTO-20",
+            "E-NOTICE-SEARCH-PROTO-22"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-SEARCH-PROTO-06",
+          "E-NOTICE-SEARCH-PROTO-16",
+          "E-NOTICE-SEARCH-PROTO-20",
+          "E-NOTICE-SEARCH-PROTO-22"
+        ]
+      },
+      {
+        "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+        "node_id": "920:95",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=920-95",
+        "node_name": "[NS:TITLE] Search — no record notice title",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-23"
+        ],
+        "design_source_path": "../../design/polyulife/notification-search-title.svg",
+        "design_source_sha256": "5815659519161c65456059d336368a13f52f8bb448aee705751aa8d2cb20d16f",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            84000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; public venue illustration/map raster image fills, geography labels/pins not separately editable",
+        "content_policy": "Public sampled query/venue/notice only; no identity or private data",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite samples only; retained missing detail images, same-source reupload and proxy limitations",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-PROTO-09",
+            "E-NOTICE-SEARCH-PROTO-14",
+            "E-NOTICE-SEARCH-PROTO-21",
+            "E-NOTICE-SEARCH-PROTO-25"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-SEARCH-PROTO-09",
+          "E-NOTICE-SEARCH-PROTO-14",
+          "E-NOTICE-SEARCH-PROTO-21",
+          "E-NOTICE-SEARCH-PROTO-25"
+        ]
+      },
+      {
+        "state_id": "S-FOOD-DETAIL",
+        "node_id": "920:129",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=920-129",
+        "node_name": "[NS:DETAIL] VA210 — Search return context",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-12"
+        ],
+        "design_source_path": "../../design/polyulife/notification-search-detail.svg",
+        "design_source_sha256": "56361dbfb05ff9387f6799dfd160ecec7f2b6365a2ac15d40e5bb097a4ad655e",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2800,
+            84000
+          ]
+        },
+        "native_editability": "Native Frame/Group/Text/Vector; public venue illustration/map raster image fills, geography labels/pins not separately editable",
+        "content_policy": "Public sampled query/venue/notice only; no identity or private data",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Finite samples only; retained missing detail images, same-source reupload and proxy limitations",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-PROTO-03",
+            "E-NOTICE-SEARCH-PROTO-30",
+            "E-NOTICE-SEARCH-PROTO-36",
+            "E-NOTICE-SEARCH-PROTO-38"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-REPEAT-003",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
+        ],
+        "prototype_evidence_ids": [
+          "E-NOTICE-SEARCH-PROTO-03",
+          "E-NOTICE-SEARCH-PROTO-30",
+          "E-NOTICE-SEARCH-PROTO-36",
+          "E-NOTICE-SEARCH-PROTO-38"
+        ],
+        "context_variant": "20261003-notification-search-detail"
       }
     ],
     "action_connection_mappings": [
@@ -92981,6 +94176,623 @@
         "source_evidence_ids": [
           "E-NATIVE-NOTICE-18"
         ]
+      },
+      {
+        "source_node_id": "865:65",
+        "trigger_node_id": "865:73",
+        "trigger_node_name": "SearchUnverified",
+        "action_id": "A-NOTICE-SEARCH-ENTRY",
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:19",
+        "configured_at": "2026-10-03T05:41:08.896Z",
+        "readback": [
+          "\t\t\t\t\t\t\t921 combo box (collapsed) Position, Value: Scroll with parent, ID: :rq6:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t945 combo box (collapsed) Trigger, Value: On click, ID: :rr5:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t951 combo box (collapsed) Action, Value: Navigate to, ID: :rr8:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t958 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rrn:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t963 combo box (collapsed) Animation, Value: Instant, ID: :rs4:, Secondary Actions: Expand",
+          "The focused UI element is 958 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rrn:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-SEARCH-01",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+          "PROTO-NOTICE-SEARCH-REPEAT-003",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
+        ],
+        "source_fidelity": "Observed native finite state/action relation",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-00"
+        ]
+      },
+      {
+        "source_node_id": "920:19",
+        "trigger_node_id": "920:19",
+        "trigger_node_name": "[NS:EMPTY] Search — Notification caller",
+        "action_id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+        "trigger": "Key/Gamepad",
+        "key": "w",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:36",
+        "configured_at": "2026-10-03T05:41:23.755Z",
+        "readback": [
+          "\t\t\t\t\t\t\t225 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r7u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Navigate to, ID: :r81:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t310 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r8g:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t315 combo box (collapsed) Animation, Value: Instant, ID: :r8t:, Secondary Actions: Expand"
+        ],
+        "limits": "Fixed workshop query proxy; native action used focused ordinary text input, not W binding.",
+        "key_readback": "- button \"Key (W) [NS:WORKSHOP] Search — workshop venue result\":",
+        "connection_id": "C-NOTICE-SEARCH-02",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-REPEAT-003",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
+        ],
+        "source_fidelity": "Observed native state/action relation with explicit input proxy",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-02",
+          "E-NOTICE-SEARCH-27"
+        ]
+      },
+      {
+        "source_node_id": "920:19",
+        "trigger_node_id": "920:19",
+        "trigger_node_name": "[NS:EMPTY] Search — Notification caller",
+        "action_id": "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE",
+        "trigger": "Key/Gamepad",
+        "key": "z",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:61",
+        "configured_at": "2026-10-03T05:41:27.923Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t332 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r93:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t338 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:NEGATIVE] Search — no record zzhci2026, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rag:, Secondary Actions: Expand"
+        ],
+        "limits": "Fixed zzhci2026 query proxy; native action used focused ordinary text input.",
+        "key_readback": "- button \"Key (Z) [NS:NEGATIVE] Search — no record zzhci2026\":",
+        "connection_id": "C-NOTICE-SEARCH-03",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Observed native state/action relation with explicit input proxy",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-02",
+          "E-NOTICE-SEARCH-27"
+        ]
+      },
+      {
+        "source_node_id": "920:19",
+        "trigger_node_id": "920:19",
+        "trigger_node_name": "[NS:EMPTY] Search — Notification caller",
+        "action_id": null,
+        "trigger": "Key/Gamepad",
+        "key": "t",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:95",
+        "configured_at": "2026-10-03T05:41:31.988Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t356 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :rao:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t362 combo box (collapsed) Action, Value: Navigate to, ID: :rar:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t392 combo box (collapsed) Destination, Value: [NS:TITLE] Search — no record notice title, ID: :rbj:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t397 combo box (collapsed) Animation, Value: Instant, ID: :rcf:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized replacement with sampled title query; not observed from empty. Fixed query proxy, not arbitrary input.",
+        "key_readback": "- button \"Key (T) [NS:TITLE] Search — no record notice title\":",
+        "connection_id": "C-NOTICE-SEARCH-04",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-02",
+          "E-NOTICE-SEARCH-27"
+        ]
+      },
+      {
+        "source_node_id": "920:19",
+        "trigger_node_id": "920:23",
+        "trigger_node_name": "Back",
+        "action_id": "A-NOTICE-SEARCH-BACK",
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:65",
+        "configured_at": "2026-10-03T05:41:40.986Z",
+        "readback": [
+          "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rd5:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t351 combo box (collapsed) Trigger, Value: On click, ID: :rdc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t357 combo box (collapsed) Action, Value: Navigate to, ID: :rdf:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t364 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rdu:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t369 combo box (collapsed) Animation, Value: Instant, ID: :reb:, Secondary Actions: Expand",
+          "The focused UI element is 364 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rdu:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-SEARCH-05",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+          "PROTO-NOTICE-SEARCH-REPEAT-003"
+        ],
+        "source_fidelity": "Observed native finite state/action relation",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-02",
+          "E-NOTICE-SEARCH-27"
+        ]
+      },
+      {
+        "source_node_id": "920:36",
+        "trigger_node_id": "920:36",
+        "trigger_node_name": "[NS:WORKSHOP] Search — workshop venue result",
+        "action_id": null,
+        "trigger": "Key/Gamepad",
+        "key": "z",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:61",
+        "configured_at": "2026-10-03T05:41:50.684Z",
+        "readback": [
+          "\t\t\t\t\t\t\t225 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t300 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r7u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t306 combo box (collapsed) Action, Value: Navigate to, ID: :r81:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [NS:NEGATIVE] Search — no record zzhci2026, ID: :r8g:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t318 combo box (collapsed) Animation, Value: Instant, ID: :r8t:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized query replacement; finite proxy, not observed from workshop.",
+        "key_readback": "- button \"Key (Z) [NS:NEGATIVE] Search — no record zzhci2026\":",
+        "connection_id": "C-NOTICE-SEARCH-06",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-09",
+          "E-NOTICE-SEARCH-14",
+          "E-NOTICE-SEARCH-21"
+        ]
+      },
+      {
+        "source_node_id": "920:36",
+        "trigger_node_id": "920:36",
+        "trigger_node_name": "[NS:WORKSHOP] Search — workshop venue result",
+        "action_id": "A-NOTICE-SEARCH-KEYBOARD-TITLE",
+        "trigger": "Key/Gamepad",
+        "key": "t",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:95",
+        "configured_at": "2026-10-03T05:41:54.736Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t332 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r93:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t338 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:TITLE] Search — no record notice title, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rag:, Secondary Actions: Expand"
+        ],
+        "limits": "Fixed title query replacement proxy; native ordinary text selection/replacement.",
+        "key_readback": "- button \"Key (T) [NS:TITLE] Search — no record notice title\":",
+        "connection_id": "C-NOTICE-SEARCH-07",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001"
+        ],
+        "source_fidelity": "Observed native state/action relation with explicit input proxy",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-09",
+          "E-NOTICE-SEARCH-14",
+          "E-NOTICE-SEARCH-21"
+        ]
+      },
+      {
+        "source_node_id": "920:36",
+        "trigger_node_id": "920:52",
+        "trigger_node_name": "ClearSearch",
+        "action_id": "A-NOTICE-SEARCH-CLEAR",
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:19",
+        "configured_at": "2026-10-03T05:42:05.844Z",
+        "readback": [
+          "\t\t\t\t\t\t\t308 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb0:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t347 combo box (collapsed) Trigger, Value: On click, ID: :rb7:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t353 combo box (collapsed) Action, Value: Navigate to, ID: :rba:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbp:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rc6:, Secondary Actions: Expand",
+          "The focused UI element is 360 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbp:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-SEARCH-08",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-REPEAT-003"
+        ],
+        "source_fidelity": "Observed native finite state/action relation",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-09",
+          "E-NOTICE-SEARCH-14",
+          "E-NOTICE-SEARCH-21"
+        ]
+      },
+      {
+        "source_node_id": "920:36",
+        "trigger_node_id": "920:40",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:65",
+        "configured_at": "2026-10-03T05:42:09.735Z",
+        "readback": [
+          "\t\t\t\t\t\t\t308 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb0:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t360 combo box (collapsed) Trigger, Value: On click, ID: :rch:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t366 combo box (collapsed) Action, Value: Navigate to, ID: :rck:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t373 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd3:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t379 combo box (collapsed) Animation, Value: Instant, ID: :rdg:, Secondary Actions: Expand",
+          "The focused UI element is 373 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd3:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized exit from workshop; native exit sampled from title and empty only.",
+        "connection_id": "C-NOTICE-SEARCH-09",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-09",
+          "E-NOTICE-SEARCH-14",
+          "E-NOTICE-SEARCH-21"
+        ]
+      },
+      {
+        "source_node_id": "920:36",
+        "trigger_node_id": "920:56",
+        "trigger_node_name": "VenueResult",
+        "action_id": "A-NOTICE-SEARCH-RESULT",
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:129",
+        "configured_at": "2026-10-03T05:42:13.271Z",
+        "readback": [
+          "\t\t\t\t\t\t\t308 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb0:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t360 combo box (collapsed) Trigger, Value: On click, ID: :rdl:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t366 combo box (collapsed) Action, Value: Navigate to, ID: :rdo:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t373 combo box (collapsed) Destination, Value: [NS:DETAIL] VA210 — Search return context, ID: :re7:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t378 combo box (collapsed) Animation, Value: Instant, ID: :rek:, Secondary Actions: Expand",
+          "The focused UI element is 373 combo box (collapsed) Destination, Value: [NS:DETAIL] VA210 — Search return context, ID: :re7:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-SEARCH-10",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-REPEAT-003",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
+        ],
+        "source_fidelity": "Observed native finite state/action relation",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-09",
+          "E-NOTICE-SEARCH-14",
+          "E-NOTICE-SEARCH-21"
+        ]
+      },
+      {
+        "source_node_id": "920:61",
+        "trigger_node_id": "920:61",
+        "trigger_node_name": "[NS:NEGATIVE] Search — no record zzhci2026",
+        "action_id": null,
+        "trigger": "Key/Gamepad",
+        "key": "w",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:36",
+        "configured_at": "2026-10-03T05:42:22.367Z",
+        "readback": [
+          "\t\t\t\t\t\t\t225 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t300 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r7u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t306 combo box (collapsed) Action, Value: Navigate to, ID: :r81:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r8g:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t318 combo box (collapsed) Animation, Value: Instant, ID: :r8t:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized replacement; finite workshop proxy from negative query not sampled.",
+        "key_readback": "- button \"Key (W) [NS:WORKSHOP] Search — workshop venue result\":",
+        "connection_id": "C-NOTICE-SEARCH-11",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-18"
+        ]
+      },
+      {
+        "source_node_id": "920:61",
+        "trigger_node_id": "920:61",
+        "trigger_node_name": "[NS:NEGATIVE] Search — no record zzhci2026",
+        "action_id": null,
+        "trigger": "Key/Gamepad",
+        "key": "t",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:95",
+        "configured_at": "2026-10-03T05:42:26.415Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t332 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r93:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t338 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:TITLE] Search — no record notice title, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rag:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized replacement; finite title proxy from negative query not sampled.",
+        "key_readback": "- button \"Key (T) [NS:TITLE] Search — no record notice title\":",
+        "connection_id": "C-NOTICE-SEARCH-12",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-18"
+        ]
+      },
+      {
+        "source_node_id": "920:61",
+        "trigger_node_id": "920:76",
+        "trigger_node_name": "ClearSearch",
+        "action_id": "A-NOTICE-SEARCH-CLEAR",
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:19",
+        "configured_at": "2026-10-03T05:42:35.100Z",
+        "readback": [
+          "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t351 combo box (collapsed) Trigger, Value: On click, ID: :rb9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t357 combo box (collapsed) Action, Value: Navigate to, ID: :rbc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t364 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbr:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t370 combo box (collapsed) Animation, Value: Instant, ID: :rc8:, Secondary Actions: Expand",
+          "The focused UI element is 364 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbr:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-SEARCH-13",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001"
+        ],
+        "source_fidelity": "Observed native finite state/action relation",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-18"
+        ]
+      },
+      {
+        "source_node_id": "920:61",
+        "trigger_node_id": "920:65",
+        "trigger_node_name": "Back",
+        "action_id": null,
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:65",
+        "configured_at": "2026-10-03T05:42:38.670Z",
+        "readback": [
+          "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t364 combo box (collapsed) Trigger, Value: On click, ID: :rcj:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t370 combo box (collapsed) Action, Value: Navigate to, ID: :rcm:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t377 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd5:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t383 combo box (collapsed) Animation, Value: Instant, ID: :rdi:, Secondary Actions: Expand",
+          "The focused UI element is 377 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd5:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized exit from negative query; native exit sampled from title and empty.",
+        "connection_id": "C-NOTICE-SEARCH-14",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-18"
+        ]
+      },
+      {
+        "source_node_id": "920:95",
+        "trigger_node_id": "920:95",
+        "trigger_node_name": "[NS:TITLE] Search — no record notice title",
+        "action_id": null,
+        "trigger": "Key/Gamepad",
+        "key": "w",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:36",
+        "configured_at": "2026-10-03T05:42:48.409Z",
+        "readback": [
+          "\t\t\t\t\t\t\t225 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t300 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r7u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t306 combo box (collapsed) Action, Value: Navigate to, ID: :r81:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r8g:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t318 combo box (collapsed) Animation, Value: Instant, ID: :r8t:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized replacement with workshop from title; finite query proxy.",
+        "key_readback": "- button \"Key (W) [NS:WORKSHOP] Search — workshop venue result\":",
+        "connection_id": "C-NOTICE-SEARCH-15",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-23"
+        ]
+      },
+      {
+        "source_node_id": "920:95",
+        "trigger_node_id": "920:95",
+        "trigger_node_name": "[NS:TITLE] Search — no record notice title",
+        "action_id": null,
+        "trigger": "Key/Gamepad",
+        "key": "z",
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:61",
+        "configured_at": "2026-10-03T05:42:52.361Z",
+        "readback": [
+          "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t332 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r93:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t338 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:NEGATIVE] Search — no record zzhci2026, ID: :r9p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rag:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized replacement with negative query from title; finite query proxy.",
+        "key_readback": "- button \"Key (Z) [NS:NEGATIVE] Search — no record zzhci2026\":",
+        "connection_id": "C-NOTICE-SEARCH-16",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-23"
+        ]
+      },
+      {
+        "source_node_id": "920:95",
+        "trigger_node_id": "920:110",
+        "trigger_node_name": "ClearSearch",
+        "action_id": null,
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:19",
+        "configured_at": "2026-10-03T05:43:02.478Z",
+        "readback": [
+          "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t351 combo box (collapsed) Trigger, Value: On click, ID: :rb9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t357 combo box (collapsed) Action, Value: Navigate to, ID: :rbc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t364 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbr:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t370 combo box (collapsed) Animation, Value: Instant, ID: :rc8:, Secondary Actions: Expand",
+          "The focused UI element is 364 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbr:, Secondary Actions: Expand"
+        ],
+        "limits": "Generalized title clear; native X sampled from workshop and negative only.",
+        "connection_id": "C-NOTICE-SEARCH-17",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+        ],
+        "source_fidelity": "Generalized prototype behavior; no native execution claim",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-23"
+        ]
+      },
+      {
+        "source_node_id": "920:95",
+        "trigger_node_id": "920:99",
+        "trigger_node_name": "Back",
+        "action_id": "A-NOTICE-SEARCH-BACK",
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "865:65",
+        "configured_at": "2026-10-03T05:43:05.958Z",
+        "readback": [
+          "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t364 combo box (collapsed) Trigger, Value: On click, ID: :rcj:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t370 combo box (collapsed) Action, Value: Navigate to, ID: :rcm:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t377 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd5:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t383 combo box (collapsed) Animation, Value: Instant, ID: :rdi:, Secondary Actions: Expand",
+          "The focused UI element is 377 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd5:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-SEARCH-18",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001"
+        ],
+        "source_fidelity": "Observed native finite state/action relation",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-23"
+        ]
+      },
+      {
+        "source_node_id": "920:129",
+        "trigger_node_id": "920:168",
+        "trigger_node_name": "Back",
+        "action_id": "A-NOTICE-SEARCH-DETAIL-BACK",
+        "trigger": "On click",
+        "key": null,
+        "behavior": "Navigate to",
+        "animation": "Instant",
+        "target_node_id": "920:36",
+        "configured_at": "2026-10-03T05:43:15.261Z",
+        "readback": [
+          "\t\t\t\t\t\t\t309 combo box (collapsed) Position, Value: Scroll with parent, ID: :r88:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t333 combo box (collapsed) Trigger, Value: On click, ID: :r8f:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t339 combo box (collapsed) Action, Value: Navigate to, ID: :r8i:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t346 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r91:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t351 combo box (collapsed) Animation, Value: Instant, ID: :r9e:, Secondary Actions: Expand",
+          "The focused UI element is 346 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r91:, Secondary Actions: Expand"
+        ],
+        "limits": null,
+        "connection_id": "C-NOTICE-SEARCH-19",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "implementation_status": "configured_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-REPEAT-003",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
+        ],
+        "source_fidelity": "Observed native finite state/action relation",
+        "source_evidence_ids": [
+          "E-NOTICE-SEARCH-12"
+        ]
       }
     ],
     "reconstruction_deviations": [
@@ -95080,6 +96892,28 @@
           "E-NOTICE-RECORD-PROTO-09",
           "E-NOTICE-RECORD-PROTO-28",
           "E-NOTICE-RECORD-PROTO-38"
+        ]
+      },
+      {
+        "id": "D-NOTICE-SEARCH-FINITE",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "status": "partial",
+        "affected_state_ids": [
+          "S-NOTIFICATION-SEARCH-EMPTY",
+          "S-NOTICE-SEARCH-WORKSHOP",
+          "S-NOTICE-SEARCH-NEGATIVE",
+          "S-NOTICE-SEARCH-TITLE-NONE",
+          "S-FOOD-DETAIL"
+        ],
+        "original_behavior": "Three ordinary input samples, clear, venue detail query retention and read-notification exit/empty reentry observed",
+        "current_implementation": "Five1024px frames,19 controls including9 key proxies;10 native-sourced state relations and9 generalized controls. Images raster and same-source reupload recovery",
+        "impact": "No arbitrary text input, index scope or native Return semantics established; finite image recovery does not prove stability",
+        "next_step": "Observe further index samples/callers and detail controls; investigate raster fill reliability and verify on phone/human evaluation",
+        "evidence_ids": [
+          "E-NOTICE-SEARCH-PROTO-CONTACT",
+          "E-NOTICE-SEARCH-PROTO-30",
+          "E-NOTICE-SEARCH-PROTO-36",
+          "E-NOTICE-SEARCH-PROTO-38"
         ]
       }
     ],
@@ -117758,6 +119592,672 @@
           "Transient Calendar preview glyph positioning differed; saved stable Calendar16/38 app crops are equal. Cause unisolated; no full visual fidelity pass.",
           "Initial/loading Back/X, menu browser/share/copy/refresh, other navigation and Calendar-read dates/modes unconfigured. Prototype replay is not native execution or human evaluation."
         ]
+      },
+      {
+        "id": "PROTO-NOTICE-SEARCH-FIRST-001",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "start_node_id": "865:65",
+        "started_at": "2026-10-03T05:43:25.851Z",
+        "ended_at": "2026-10-03T05:44:05.948Z",
+        "status": "partial",
+        "navigation_status": "Configured finite controls replayed; native-sourced paths and generalized proxy replacements/exits distinguished",
+        "visual_status": "Partial; second detail entry missing raster assets retained, same-source reupload and two finite recovered entries verified",
+        "steps": [
+          {
+            "file": "00-read-notification.png",
+            "at": "2026-10-03T05:43:25.851Z",
+            "description": "00-read-notification",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": null,
+            "connection_id": null,
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-search-empty.png",
+            "at": "2026-10-03T05:43:26.253Z",
+            "description": "01-search-empty",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-ENTRY",
+            "connection_id": "C-NOTICE-SEARCH-01",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-workshop-result.png",
+            "at": "2026-10-03T05:43:30.795Z",
+            "description": "02-workshop-result",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+            "connection_id": "C-NOTICE-SEARCH-02",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-va210-detail.png",
+            "at": "2026-10-03T05:43:31.198Z",
+            "description": "03-va210-detail",
+            "state_id": "S-FOOD-DETAIL",
+            "visible_node_id": "920:129",
+            "expected_node_id": "920:129",
+            "action_id": "A-NOTICE-SEARCH-RESULT",
+            "connection_id": "C-NOTICE-SEARCH-10",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-detail-back-workshop.png",
+            "at": "2026-10-03T05:43:39.222Z",
+            "description": "04-detail-back-workshop",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": "A-NOTICE-SEARCH-DETAIL-BACK",
+            "connection_id": "C-NOTICE-SEARCH-19",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-workshop-clear.png",
+            "at": "2026-10-03T05:43:39.543Z",
+            "description": "05-workshop-clear",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-CLEAR",
+            "connection_id": "C-NOTICE-SEARCH-08",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-negative-no-record.png",
+            "at": "2026-10-03T05:43:39.782Z",
+            "description": "06-negative-no-record",
+            "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+            "visible_node_id": "920:61",
+            "expected_node_id": "920:61",
+            "action_id": "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE",
+            "connection_id": "C-NOTICE-SEARCH-03",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-negative-clear.png",
+            "at": "2026-10-03T05:43:40.151Z",
+            "description": "07-negative-clear",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-CLEAR",
+            "connection_id": "C-NOTICE-SEARCH-13",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-workshop-repeat.png",
+            "at": "2026-10-03T05:43:40.486Z",
+            "description": "08-workshop-repeat",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+            "connection_id": "C-NOTICE-SEARCH-02",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "09-title-no-record.png",
+            "at": "2026-10-03T05:43:40.790Z",
+            "description": "09-title-no-record",
+            "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+            "visible_node_id": "920:95",
+            "expected_node_id": "920:95",
+            "action_id": "A-NOTICE-SEARCH-KEYBOARD-TITLE",
+            "connection_id": "C-NOTICE-SEARCH-07",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "10-title-back-read.png",
+            "at": "2026-10-03T05:44:05.240Z",
+            "description": "10-title-back-read",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NOTICE-SEARCH-BACK",
+            "connection_id": "C-NOTICE-SEARCH-18",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-10"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "11-empty-reentry.png",
+            "at": "2026-10-03T05:44:05.543Z",
+            "description": "11-empty-reentry",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-ENTRY",
+            "connection_id": "C-NOTICE-SEARCH-01",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-11"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "12-empty-back-read.png",
+            "at": "2026-10-03T05:44:05.948Z",
+            "description": "12-empty-back-read",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NOTICE-SEARCH-BACK",
+            "connection_id": "C-NOTICE-SEARCH-05",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-12"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite three queries via W/Z/T proxies; not native bindings or arbitrary text input.",
+          "Native state/action relationships and prototype generalized replacements/exits kept distinct.",
+          "Tool title screenshot preview had black body while saved SDK09 has visible No record found and waves; cause unisolated.",
+          "SDK32 URL still workshop after clear; saved pixels determine actual state.",
+          "Editor network changes interrupted extra screenshots; fresh editor recovered. Same hero/map assets reuploaded after SDK30 missing both; SDK36/38 visible. Original failure retained. Flow description updated and reopened for exact readback.",
+          "Call/image/map/tag detail controls unconfigured; existing970px callers retained. Full app/fidelity not_verified.",
+          "24 prior comparisons plus6 recovery comparisons are finite repeated prototype crops; unequal detail crop retained. No long-term image reliability or full fidelity claim.",
+          "SDK30 shows both hero and map missing; SDK36/38 after same-source image fill uploads show both. Repeated crop equality does not establish long-term reliability.",
+          "Prototype replay is neither native execution nor human evaluation. Native Return submission and index scope remain unverified."
+        ]
+      },
+      {
+        "id": "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "start_node_id": "920:19",
+        "started_at": "2026-10-03T05:44:06.354Z",
+        "ended_at": "2026-10-03T05:44:22.815Z",
+        "status": "partial",
+        "navigation_status": "Configured finite controls replayed; native-sourced paths and generalized proxy replacements/exits distinguished",
+        "visual_status": "Partial; second detail entry missing raster assets retained, same-source reupload and two finite recovered entries verified",
+        "steps": [
+          {
+            "file": "13-empty-generalized-start.png",
+            "at": "2026-10-03T05:44:06.354Z",
+            "description": "13-empty-generalized-start",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-ENTRY",
+            "connection_id": "C-NOTICE-SEARCH-01",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-13"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "14-empty-to-title-proxy.png",
+            "at": "2026-10-03T05:44:06.637Z",
+            "description": "14-empty-to-title-proxy",
+            "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+            "visible_node_id": "920:95",
+            "expected_node_id": "920:95",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-04",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-14"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "15-title-to-workshop-proxy.png",
+            "at": "2026-10-03T05:44:06.949Z",
+            "description": "15-title-to-workshop-proxy",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-15",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-15"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "16-workshop-to-negative-proxy.png",
+            "at": "2026-10-03T05:44:07.364Z",
+            "description": "16-workshop-to-negative-proxy",
+            "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+            "visible_node_id": "920:61",
+            "expected_node_id": "920:61",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-06",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-16"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "17-negative-to-workshop-proxy.png",
+            "at": "2026-10-03T05:44:07.565Z",
+            "description": "17-negative-to-workshop-proxy",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-11",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-17"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "18-workshop-back-read-generalized.png",
+            "at": "2026-10-03T05:44:07.969Z",
+            "description": "18-workshop-back-read-generalized",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-09",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-18"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "19-empty-reentry-generalized.png",
+            "at": "2026-10-03T05:44:19.559Z",
+            "description": "19-empty-reentry-generalized",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-ENTRY",
+            "connection_id": "C-NOTICE-SEARCH-01",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-19"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "20-negative-repeat.png",
+            "at": "2026-10-03T05:44:19.984Z",
+            "description": "20-negative-repeat",
+            "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+            "visible_node_id": "920:61",
+            "expected_node_id": "920:61",
+            "action_id": "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE",
+            "connection_id": "C-NOTICE-SEARCH-03",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-20"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "21-negative-to-title-proxy.png",
+            "at": "2026-10-03T05:44:20.389Z",
+            "description": "21-negative-to-title-proxy",
+            "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+            "visible_node_id": "920:95",
+            "expected_node_id": "920:95",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-12",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-21"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "22-title-to-negative-proxy.png",
+            "at": "2026-10-03T05:44:20.792Z",
+            "description": "22-title-to-negative-proxy",
+            "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+            "visible_node_id": "920:61",
+            "expected_node_id": "920:61",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-16",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-22"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "23-negative-back-read-generalized.png",
+            "at": "2026-10-03T05:44:21.198Z",
+            "description": "23-negative-back-read-generalized",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-14",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-23"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "24-empty-reentry-title-clear.png",
+            "at": "2026-10-03T05:44:21.601Z",
+            "description": "24-empty-reentry-title-clear",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-ENTRY",
+            "connection_id": "C-NOTICE-SEARCH-01",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-24"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "25-title-before-generalized-clear.png",
+            "at": "2026-10-03T05:44:22.006Z",
+            "description": "25-title-before-generalized-clear",
+            "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+            "visible_node_id": "920:95",
+            "expected_node_id": "920:95",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-04",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-25"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "26-title-clear-generalized.png",
+            "at": "2026-10-03T05:44:22.410Z",
+            "description": "26-title-clear-generalized",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-17",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-26"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "27-empty-back-read-repeat.png",
+            "at": "2026-10-03T05:44:22.815Z",
+            "description": "27-empty-back-read-repeat",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NOTICE-SEARCH-BACK",
+            "connection_id": "C-NOTICE-SEARCH-05",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-27"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite three queries via W/Z/T proxies; not native bindings or arbitrary text input.",
+          "Native state/action relationships and prototype generalized replacements/exits kept distinct.",
+          "Tool title screenshot preview had black body while saved SDK09 has visible No record found and waves; cause unisolated.",
+          "SDK32 URL still workshop after clear; saved pixels determine actual state.",
+          "Editor network changes interrupted extra screenshots; fresh editor recovered. Same hero/map assets reuploaded after SDK30 missing both; SDK36/38 visible. Original failure retained. Flow description updated and reopened for exact readback.",
+          "Call/image/map/tag detail controls unconfigured; existing970px callers retained. Full app/fidelity not_verified.",
+          "24 prior comparisons plus6 recovery comparisons are finite repeated prototype crops; unequal detail crop retained. No long-term image reliability or full fidelity claim.",
+          "SDK30 shows both hero and map missing; SDK36/38 after same-source image fill uploads show both. Repeated crop equality does not establish long-term reliability.",
+          "Prototype replay is neither native execution nor human evaluation. Native Return submission and index scope remain unverified."
+        ]
+      },
+      {
+        "id": "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "start_node_id": "920:19",
+        "started_at": "2026-10-03T05:44:23.220Z",
+        "ended_at": "2026-10-03T05:44:24.883Z",
+        "status": "partial",
+        "navigation_status": "Configured finite controls replayed; native-sourced paths and generalized proxy replacements/exits distinguished",
+        "visual_status": "Partial; second detail entry missing raster assets retained, same-source reupload and two finite recovered entries verified",
+        "steps": [
+          {
+            "file": "28-empty-third-entry.png",
+            "at": "2026-10-03T05:44:23.220Z",
+            "description": "28-empty-third-entry",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-ENTRY",
+            "connection_id": "C-NOTICE-SEARCH-01",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-28"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "29-workshop-third.png",
+            "at": "2026-10-03T05:44:23.623Z",
+            "description": "29-workshop-third",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+            "connection_id": "C-NOTICE-SEARCH-02",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-29"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "30-detail-second-entry.png",
+            "at": "2026-10-03T05:44:23.926Z",
+            "description": "30-detail-second-entry",
+            "state_id": "S-FOOD-DETAIL",
+            "visible_node_id": "920:129",
+            "expected_node_id": "920:129",
+            "action_id": "A-NOTICE-SEARCH-RESULT",
+            "connection_id": "C-NOTICE-SEARCH-10",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-30"
+            ],
+            "outcome": "saved_pixels_reviewed_missing_images"
+          },
+          {
+            "file": "31-detail-back-workshop-repeat.png",
+            "at": "2026-10-03T05:44:24.228Z",
+            "description": "31-detail-back-workshop-repeat",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": "A-NOTICE-SEARCH-DETAIL-BACK",
+            "connection_id": "C-NOTICE-SEARCH-19",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-31"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "32-workshop-clear-repeat.png",
+            "at": "2026-10-03T05:44:24.532Z",
+            "description": "32-workshop-clear-repeat",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-CLEAR",
+            "connection_id": "C-NOTICE-SEARCH-08",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-32"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "33-final-read-notification.png",
+            "at": "2026-10-03T05:44:24.883Z",
+            "description": "33-final-read-notification",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": "A-NOTICE-SEARCH-BACK",
+            "connection_id": "C-NOTICE-SEARCH-05",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-33"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite three queries via W/Z/T proxies; not native bindings or arbitrary text input.",
+          "Native state/action relationships and prototype generalized replacements/exits kept distinct.",
+          "Tool title screenshot preview had black body while saved SDK09 has visible No record found and waves; cause unisolated.",
+          "SDK32 URL still workshop after clear; saved pixels determine actual state.",
+          "Editor network changes interrupted extra screenshots; fresh editor recovered. Same hero/map assets reuploaded after SDK30 missing both; SDK36/38 visible. Original failure retained. Flow description updated and reopened for exact readback.",
+          "Call/image/map/tag detail controls unconfigured; existing970px callers retained. Full app/fidelity not_verified.",
+          "24 prior comparisons plus6 recovery comparisons are finite repeated prototype crops; unequal detail crop retained. No long-term image reliability or full fidelity claim.",
+          "SDK30 shows both hero and map missing; SDK36/38 after same-source image fill uploads show both. Repeated crop equality does not establish long-term reliability.",
+          "Prototype replay is neither native execution nor human evaluation. Native Return submission and index scope remain unverified."
+        ]
+      },
+      {
+        "id": "PROTO-NOTICE-SEARCH-RECOVERY-004",
+        "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+        "start_node_id": "920:19",
+        "started_at": "2026-10-03T05:59:29.711Z",
+        "ended_at": "2026-10-03T05:59:31.931Z",
+        "status": "partial",
+        "navigation_status": "Configured finite controls replayed; native-sourced paths and generalized proxy replacements/exits distinguished",
+        "visual_status": "Partial; second detail entry missing raster assets retained, same-source reupload and two finite recovered entries verified",
+        "steps": [
+          {
+            "file": "34-recovery-empty.png",
+            "at": "2026-10-03T05:59:29.711Z",
+            "description": "34-recovery-empty",
+            "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+            "visible_node_id": "920:19",
+            "expected_node_id": "920:19",
+            "action_id": "A-NOTICE-SEARCH-ENTRY",
+            "connection_id": "C-NOTICE-SEARCH-01",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-34"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "35-recovery-workshop.png",
+            "at": "2026-10-03T05:59:30.113Z",
+            "description": "35-recovery-workshop",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+            "connection_id": "C-NOTICE-SEARCH-02",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-35"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "36-detail-after-reupload.png",
+            "at": "2026-10-03T05:59:30.416Z",
+            "description": "36-detail-after-reupload",
+            "state_id": "S-FOOD-DETAIL",
+            "visible_node_id": "920:129",
+            "expected_node_id": "920:129",
+            "action_id": "A-NOTICE-SEARCH-RESULT",
+            "connection_id": "C-NOTICE-SEARCH-10",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-36"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "37-recovery-detail-back.png",
+            "at": "2026-10-03T05:59:30.820Z",
+            "description": "37-recovery-detail-back",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": "A-NOTICE-SEARCH-DETAIL-BACK",
+            "connection_id": "C-NOTICE-SEARCH-19",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-37"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "38-detail-reuploaded-repeat.png",
+            "at": "2026-10-03T05:59:31.224Z",
+            "description": "38-detail-reuploaded-repeat",
+            "state_id": "S-FOOD-DETAIL",
+            "visible_node_id": "920:129",
+            "expected_node_id": "920:129",
+            "action_id": "A-NOTICE-SEARCH-RESULT",
+            "connection_id": "C-NOTICE-SEARCH-10",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-38"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "39-recovery-second-back.png",
+            "at": "2026-10-03T05:59:31.526Z",
+            "description": "39-recovery-second-back",
+            "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+            "visible_node_id": "920:36",
+            "expected_node_id": "920:36",
+            "action_id": "A-NOTICE-SEARCH-DETAIL-BACK",
+            "connection_id": "C-NOTICE-SEARCH-19",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-39"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "40-final-notification-after-recovery.png",
+            "at": "2026-10-03T05:59:31.931Z",
+            "description": "40-final-notification-after-recovery",
+            "state_id": "S-NATIVE-NOTICE-LIST-READ",
+            "visible_node_id": "865:65",
+            "expected_node_id": "865:65",
+            "action_id": null,
+            "connection_id": "C-NOTICE-SEARCH-09",
+            "evidence_ids": [
+              "E-NOTICE-SEARCH-PROTO-40"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "Finite three queries via W/Z/T proxies; not native bindings or arbitrary text input.",
+          "Native state/action relationships and prototype generalized replacements/exits kept distinct.",
+          "Tool title screenshot preview had black body while saved SDK09 has visible No record found and waves; cause unisolated.",
+          "SDK32 URL still workshop after clear; saved pixels determine actual state.",
+          "Editor network changes interrupted extra screenshots; fresh editor recovered. Same hero/map assets reuploaded after SDK30 missing both; SDK36/38 visible. Original failure retained. Flow description updated and reopened for exact readback.",
+          "Call/image/map/tag detail controls unconfigured; existing970px callers retained. Full app/fidelity not_verified.",
+          "24 prior comparisons plus6 recovery comparisons are finite repeated prototype crops; unequal detail crop retained. No long-term image reliability or full fidelity claim.",
+          "SDK30 shows both hero and map missing; SDK36/38 after same-source image fill uploads show both. Repeated crop equality does not establish long-term reliability.",
+          "Prototype replay is neither native execution nor human evaluation. Native Return submission and index scope remain unverified."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -117837,7 +120337,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "196 mapped frames /3 internal component states /417 configured controls /16 scroll regions /132 runs. Notification finite record replay integrated; full app/fidelity not_verified.",
+    "verification_summary": "201 mapped frames /3 internal component states /436 configured controls /16 scroll regions /136 runs. Notification Search finite query context integrated; missing-image failure and reupload retained. Full app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -118226,7 +120726,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-NOTIFICATION-RECORD-20261003",
+    "current_revision": "FIGMA-NOTIFICATION-SEARCH-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -119388,11 +121888,9 @@
       },
       {
         "name": "Reference · Oct2 Calendar filters & Notice — partial",
-        "description": "Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+        "description": "Oct2/Oct3 native reference: 47 finite frames and83 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Notification Search now has five576x1024 frames and19 finite controls: W=workshop, Z=zzhci2026, T=Upcoming IT Workshops are prototype query proxies, not native key bindings or arbitrary input. Result/detail/Back retains workshop; exit/reentry empty. Generalized replacements, title clear and workshop/negative exits separately marked. Four actual Search runs retain a repeated detail missing hero/map; same assets reuploaded and two subsequent detail entries visible, long-term stability unknown. Native Return submission and index scope remain unverified; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
         "readback": [
-          "~\t\t\t\t\t289 container Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
-          "~\t\t\t\t\t\t290 text Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
-          "The focused UI element is 289 container Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified."
+          "Oct2/Oct3 native reference: 47 finite frames and83 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Notification Search now has five576x1024 frames and19 finite controls: W=workshop, Z=zzhci2026, T=Upcoming IT Workshops are prototype query proxies, not native key bindings or arbitrary input. Result/detail/Back retains workshop; exit/reentry empty. Generalized replacements, title clear and workshop/negative exits separately marked. Four actual Search runs retain a repeated detail missing hero/map; same assets reuploaded and two subsequent detail entries visible, long-term stability unknown. Native Return submission and index scope remain unverified; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified."
         ],
         "start_node_id": "791:177",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
@@ -119424,29 +121922,39 @@
           "PROTO-PAYRESTORE-DIRECT-002",
           "PROTO-NOTICE-RECORD-FIRST-001",
           "PROTO-NOTICE-RECORD-EARLY-002",
-          "PROTO-NOTICE-RECORD-RECOVERY-003"
+          "PROTO-NOTICE-RECORD-RECOVERY-003",
+          "PROTO-NOTICE-SEARCH-FIRST-001",
+          "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+          "PROTO-NOTICE-SEARCH-REPEAT-003",
+          "PROTO-NOTICE-SEARCH-RECOVERY-004"
         ],
-        "scope": "Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
-        "updated_at": "2026-10-03T05:32:58.784Z",
+        "scope": "Oct2/Oct3 native reference: 47 finite frames and83 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Notification Search now has five576x1024 frames and19 finite controls: W=workshop, Z=zzhci2026, T=Upcoming IT Workshops are prototype query proxies, not native key bindings or arbitrary input. Result/detail/Back retains workshop; exit/reentry empty. Generalized replacements, title clear and workshop/negative exits separately marked. Four actual Search runs retain a repeated detail missing hero/map; same assets reuploaded and two subsequent detail entries visible, long-term stability unknown. Native Return submission and index scope remain unverified; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+        "updated_at": "2026-10-03T06:00:10.462Z",
         "configuration_history": [
           {
             "description": "Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence.",
             "updated_at": "2026-10-03T01:55:14.980061+00:00"
+          },
+          {
+            "description": "Oct2/Oct3 native reference: 42 finite frames and64 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Search has new native samples but is not integrated here; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+            "updated_at": "2026-10-03T05:32:58.784Z"
           }
         ]
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-03T05:30:31.732Z",
+    "latest_prototype_run_cutoff": "2026-10-03T05:59:31.931Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-NOTICE-RECORD-EDITOR-INITIAL",
-      "E-NOTICE-RECORD-EDITOR-LOADING",
-      "E-NOTICE-RECORD-EDITOR-FLOW",
-      "E-NOTICE-RECORD-EDITOR-FLOW-FINAL"
+      "E-NOTICE-SEARCH-EDITOR-EMPTY",
+      "E-NOTICE-SEARCH-EDITOR-WORKSHOP",
+      "E-NOTICE-SEARCH-EDITOR-NEGATIVE",
+      "E-NOTICE-SEARCH-EDITOR-TITLE",
+      "E-NOTICE-SEARCH-EDITOR-DETAIL-REUPLOADED",
+      "E-NOTICE-SEARCH-EDITOR-FLOW-UPDATED"
     ],
-    "latest_editor_verified_at": "2026-10-03T05:32:58.831454+00:00",
+    "latest_editor_verified_at": "2026-10-03T06:00:10.462Z",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",

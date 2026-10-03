@@ -1,5 +1,7 @@
 # Notification Search 素材检查点
 
+后续正式导入、连接和回放已归档到[Search原型记录](notification-search-prototype-walkthrough.md)；以下为先行push时的历史检查点。
+
 2026-10-03，先按用户要求提交可接力的一版。五个576×1024 SVG对应原生空Search、workshop场所结果、随机词空结果、通知标题空结果及VA210详情；来源、裁切和SHA256见[素材清单](../../design/polyulife/notification-search-sources.json)。[生成器](../../design/scripts/build_notification_search.py)只处理已经归档的公开证据，不执行UI操作。
 
 本检查点尚未增加正式Figma映射或Present运行。空Search已通过浏览器UI导入为实验节点`920:19`（X0/Y84000），其余画板、连接、图片填充与实际回放继续处理。素材清单的`prepared_not_imported_not_replayed`表示尚未完成正式导入核验与回放归档；不能由文件生成推断原型完成。

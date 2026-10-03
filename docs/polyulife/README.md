@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Notification Search原型回放](notification-search-prototype-walkthrough.md)接入5个1024px调用者画板与19控件，4组实际Present保存41张截图；详情返回保留查询、清空及通知退出/空Search重入均回放。第二次详情缺图保留，同素材重传后两次有图；30项重复裁片比较29等/1不等。当前Figma201画板/436控件/136次运行；原生181状态/351动作仍不变，12项候选问题。固定W/Z/T查询代理和9个推广控件单独标注；完整应用与视觉保真仍`not_verified`。下方数字与“最新”为各批历史快照。
+
 最新[Notification工作坊原型回放](notification-record-prototype-walkthrough.md)已接9画板/15控件，3组实际Present保存40张截图和4张编辑器截图；入口误选、两次缺图、同素材重传和预览差异均保留。正式Figma196画板/417控件/132次运行；原生181状态/351动作（263 observed、81 not_attempted、7 attempted_unverified）、12项候选问题。Search原生已查但本批原型未整合，完整应用仍 `not_verified`。以下各段数字与“最新”均为历史批次快照。
 
 最新[Notification 来源 Search](notification-search-walkthrough.md)确认三个公开查询样本、清空、VA210详情与查询保留、已读列表返回及空Search重入；30张实际截图保留旧索引/焦点失败与修正。原生181状态/351动作（263 observed、81 not_attempted、7 attempted_unverified），12项候选问题；搜索索引范围仍待验证。Figma通知来源已继续导入，配置与回放状态见[通知记录](notification-record-walkthrough.md)，正式统计暂仍187画板/402控件/129次运行，完整应用 `not_verified`。

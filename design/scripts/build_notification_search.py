@@ -46,5 +46,5 @@ def main():
   if name in ['empty','detail']:record['context_variant']='20261003-notification-search-'+name
   if filename in old and old[filename]['sha256']==record['sha256']:record.update(old[filename])
   out.append(record)
- recpath.write_text(json.dumps({'sources':out,'assets':assets,'limits':['Three sampled queries; native index scope and arbitrary input not established.','Fixed keyboard proxies are a Figma limitation; not native key bindings.','Existing970px callers retained. New1024px detail caller Back preserves workshop. Call/image/map/detail navigation not configured in this batch.']},ensure_ascii=False,indent=2)+'\n');print(json.dumps({'sources':len(out),'assets':len(assets),'figma_mutations':0}))
+ recpath.write_text(json.dumps({'sources':out,'assets':assets,'limits':['Three sampled queries; native index scope and arbitrary input not established.','Fixed keyboard proxies are a Figma limitation; not native key bindings.','Existing970px callers retained. New1024px detail caller Back preserves workshop. Call/image/map/other detail navigation not configured in this batch.']},ensure_ascii=False,indent=2)+'\n');print(json.dumps({'sources':len(out),'assets':len(assets),'figma_mutations':0}))
 if __name__=='__main__':main()

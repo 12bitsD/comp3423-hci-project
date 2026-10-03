@@ -12,8 +12,30 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed",
-      "context_variant": "20261003-notification-search-empty"
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20261003-notification-search-empty",
+      "node_id": "920:19",
+      "actual_layer_name": "[NS:EMPTY] Search — Notification caller",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-01",
+        "E-NOTICE-SEARCH-PROTO-05",
+        "E-NOTICE-SEARCH-PROTO-07",
+        "E-NOTICE-SEARCH-PROTO-11",
+        "E-NOTICE-SEARCH-PROTO-13",
+        "E-NOTICE-SEARCH-PROTO-19",
+        "E-NOTICE-SEARCH-PROTO-24",
+        "E-NOTICE-SEARCH-PROTO-26",
+        "E-NOTICE-SEARCH-PROTO-28",
+        "E-NOTICE-SEARCH-PROTO-32",
+        "E-NOTICE-SEARCH-PROTO-34"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
     },
     {
       "file": "notification-search-workshop.svg",
@@ -28,7 +50,28 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_configured_replayed_partial",
+      "node_id": "920:36",
+      "actual_layer_name": "[NS:WORKSHOP] Search — workshop venue result",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-02",
+        "E-NOTICE-SEARCH-PROTO-04",
+        "E-NOTICE-SEARCH-PROTO-08",
+        "E-NOTICE-SEARCH-PROTO-15",
+        "E-NOTICE-SEARCH-PROTO-17",
+        "E-NOTICE-SEARCH-PROTO-29",
+        "E-NOTICE-SEARCH-PROTO-31",
+        "E-NOTICE-SEARCH-PROTO-35",
+        "E-NOTICE-SEARCH-PROTO-37",
+        "E-NOTICE-SEARCH-PROTO-39"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
     },
     {
       "file": "notification-search-negative.svg",
@@ -41,7 +84,20 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_configured_replayed_partial",
+      "node_id": "920:61",
+      "actual_layer_name": "[NS:NEGATIVE] Search — no record zzhci2026",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-06",
+        "E-NOTICE-SEARCH-PROTO-16",
+        "E-NOTICE-SEARCH-PROTO-20",
+        "E-NOTICE-SEARCH-PROTO-22"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
     },
     {
       "file": "notification-search-title.svg",
@@ -54,7 +110,20 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed"
+      "status": "imported_configured_replayed_partial",
+      "node_id": "920:95",
+      "actual_layer_name": "[NS:TITLE] Search — no record notice title",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-09",
+        "E-NOTICE-SEARCH-PROTO-14",
+        "E-NOTICE-SEARCH-PROTO-21",
+        "E-NOTICE-SEARCH-PROTO-25"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
     },
     {
       "file": "notification-search-detail.svg",
@@ -67,8 +136,22 @@
         576,
         1024
       ],
-      "status": "prepared_not_imported_not_replayed",
-      "context_variant": "20261003-notification-search-detail"
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20261003-notification-search-detail",
+      "node_id": "920:129",
+      "actual_layer_name": "[NS:DETAIL] VA210 — Search return context",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-03",
+        "E-NOTICE-SEARCH-PROTO-30",
+        "E-NOTICE-SEARCH-PROTO-36",
+        "E-NOTICE-SEARCH-PROTO-38"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
     }
   ],
   "assets": [
@@ -108,6 +191,6 @@
   "limits": [
     "Three sampled queries; native index scope and arbitrary input not established.",
     "Fixed keyboard proxies are a Figma limitation; not native key bindings.",
-    "Existing970px callers retained. New1024px detail caller Back preserves workshop. Call/image/map/detail navigation not configured in this batch."
+    "Existing970px callers retained. New1024px detail caller Back preserves workshop. Call/image/map/other detail navigation not configured in this batch."
   ]
 }
