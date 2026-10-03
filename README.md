@@ -14,6 +14,8 @@
 
 已建立 [PolyULife Figma 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)，正在依照实测截图制作原应用复现。文件存在不代表全应用复现完成；可编辑节点、交互连线和 Present 运行结果逐项登记于台账。
 
+2026-10-03新增 [五项Food查询参考](docs/polyulife/food-oct3-query-alignment-walkthrough.md)：Asian、Taiwanese、Cake / Dessert、Salad分别独立展示已观察结果，Western沿用有限滚动参考。搜索栏位置已修正并保存实际Figma截图；查询输入、结果详情及返回调用者仍待连接，完整应用未完成。
+
 ## Figma 原型链接
 
 - **[从首页开始体验（推荐）](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1)**：包含日期、日程及功能入口，适合演示进入功能后返回首页的流程。
@@ -22,10 +24,13 @@
 | 功能入口 | 可点击原型 |
 | --- | --- |
 | Room：输入 A → AG206 查询 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1) |
+| Room：September30 七日选择与筛选 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=412-19&scaling=scale-down&content-scaling=fixed&starting-point-node-id=412%3A19&show-proto-sidebar=1) |
 | Room：Available 时段参考 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=12-105&scaling=scale-down&content-scaling=fixed&starting-point-node-id=12%3A105&show-proto-sidebar=1) |
 | More：天气与虚拟助手 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-435&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A435&show-proto-sidebar=1) |
 | Calendar：公共校历与筛选 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=42-165&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=42%3A165&show-proto-sidebar=1) |
 | Food：餐厅与营业时间 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=50-1911&t=u9E3LqVQD7AiByx8-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=50%3A1911&show-proto-sidebar=1) |
+| Food：Western Cuisine 11条结果滚动参考（导航待接） | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-59&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A59&show-proto-sidebar=1) |
+| Food：当前28条连续列表参考（导航待接） | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-3580&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A3580&show-proto-sidebar=1) |
 | Apps：分类与 VRS | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=61-2&t=Ohxzpdr7gRXrVgsv-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=61%3A2&show-proto-sidebar=1) |
 | Home：Study、Courses 与 Campus QR | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=67-820&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A820&show-proto-sidebar=1) |
 | Map：设施与分类筛选 | [打开原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=70-1064&scaling=scale-down&content-scaling=fixed&starting-point-node-id=70%3A1064&show-proto-sidebar=1) |

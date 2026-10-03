@@ -1,0 +1,85 @@
+{
+  "sources": [
+    {
+      "file": "calendar-payment-events-empty.svg",
+      "sha256": "cf143b89f7122b7f274d8fa370a8b2d28f502ed5a9df23ee2337f752a7ec6214",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-02",
+        "E-NATIVE-PAYMODE-02-AX"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_modes_replayed_partial",
+      "limits": [
+        "Finite October2 Payment mode/history contexts only; full date/category/caller state model unimplemented.",
+        "History records/dates and Week class count/values/positions wholly synthetic DEMO; original private records never uploaded.",
+        "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
+        "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
+      ],
+      "node_id": "833:145",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002",
+        "PROTO-PAYMODE-HOME-REGRESSION-003"
+      ]
+    },
+    {
+      "file": "calendar-payment-events-history-demo.svg",
+      "sha256": "b849129081446d0892e4455b4e6c93e008c4968e17c83eaa4b27b5ab1a7c936c",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-03",
+        "E-NATIVE-PAYMODE-03-AX"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_modes_replayed_partial",
+      "limits": [
+        "Finite October2 Payment mode/history contexts only; full date/category/caller state model unimplemented.",
+        "History records/dates and Week class count/values/positions wholly synthetic DEMO; original private records never uploaded.",
+        "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
+        "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
+      ],
+      "node_id": "835:209",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002",
+        "PROTO-PAYMODE-HOME-REGRESSION-003"
+      ]
+    },
+    {
+      "file": "calendar-payment-week-demo.svg",
+      "sha256": "0ba9073ede2ed5c48419b4c5ee6658e1740d5c9fbb397ad9c4d86a9163185a31",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-05",
+        "E-NATIVE-PAYMODE-05-AX"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_modes_replayed_partial",
+      "limits": [
+        "Finite October2 Payment mode/history contexts only; full date/category/caller state model unimplemented.",
+        "History records/dates and Week class count/values/positions wholly synthetic DEMO; original private records never uploaded.",
+        "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
+        "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
+      ],
+      "node_id": "835:312",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002",
+        "PROTO-PAYMODE-HOME-REGRESSION-003"
+      ]
+    }
+  ]
+}

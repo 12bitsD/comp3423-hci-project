@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="970" viewBox="0 0 576 970" fill="none">
+  <title>Room Finder — Sept28 PQ sample initial</title>
+  <desc>Editable finite reconstruction from public native source; fonts/icons/geometry approximate. Pointer/halo omitted. Initial 1060×1898 source uniformly scaled to576 width and lower blank61.37px clipped; other sources576×970. Keyboard P/B/BackSpace are prototype fixed-input proxies, not arbitrary native input. Initial three dates/no search retained; capture dimension difference does not prove asynchronous cause.</desc>
+  <defs>
+    <clipPath id="DatesViewport">
+      <rect x="30" y="100" width="516" height="84" />
+    </clipPath>
+  </defs>
+  <rect id="ScreenBackground" width="576" height="970" fill="#FFFFFF" />
+  <rect id="EmptyBackground" x="0" y="272" width="576" height="698" fill="#F4F4F4" />
+  <g id="Header">
+    <rect x="0.5" y="0.5" width="575" height="99" fill="#FFFFFF" stroke="#E1E1E1" />
+    <text x="288" y="75.5" fill="#080808" font-family="sans-serif" font-size="27" text-anchor="middle">Room Finder</text>
+  <g id="Back"><rect x="8" y="35" width="50" height="60" fill="#FFFFFF" opacity="0.001" /><path d="M34.5 57.5L27 65L34.5 72.5" stroke="#202020" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    </g></g>
+  <g id="Dates" clip-path="url(#DatesViewport)">
+    <rect id="SelectedDate" x="30" y="112" width="80" height="67" rx="9" fill="#54B39F" />
+    <g id="Date-Mon-28-Sep">
+      <text x="70" y="140" fill="#FFFFFF" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="600">Today</text>
+      <text x="70" y="163" fill="#FFFFFF" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="600">28-Sep</text>
+    </g>
+    <g id="Date-Tue-29-Sep">
+      <text x="166" y="140" fill="#404040" font-family="sans-serif" font-size="17" font-weight="400" text-anchor="middle">Tue</text>
+      <text x="166" y="163" fill="#404040" font-family="sans-serif" font-size="17" font-weight="400" text-anchor="middle">29-Sep</text>
+    <rect x="126" y="112" width="80" height="67" fill="#FFFFFF" opacity="0.001" /></g>
+    <g id="Date-Wed-30-Sep">
+      <text x="260" y="140" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">Wed</text>
+      <text x="260" y="163" fill="#404040" font-family="sans-serif" font-size="17" text-anchor="middle" font-weight="400">30-Sep</text>
+    </g>
+    </g>
+  <g id="Search">
+    <text x="31" y="228" fill="#090909" font-family="sans-serif" font-size="22">Room</text>
+    <rect id="RoomInput" x="105.5" y="192" width="348" height="63" rx="9" fill="#FFFFFF" stroke="#DCDCDC" stroke-width="1.5" />
+    <path d="M0 271.5H576" stroke="#D5D5DA" stroke-width="1.4" />
+  </g>
+  <g id="EmptyState">
+    <g id="ClassroomIcon">
+      <path d="M252 460V402Q252 397 257 395L286 388Q294 386 294 394V470H237V463Q237 460 240 460Z" fill="#31917D" />
+      <path d="M299 398H316Q325 398 325 407V460H337Q340 460 340 463V470H314V409H299Z" fill="#31917D" />
+      <ellipse cx="279" cy="429" rx="3.6" ry="4.8" fill="#F4F4F4" />
+    </g>
+    <text x="288" y="498" fill="#575757" font-family="sans-serif" font-size="25" font-weight="600" text-anchor="middle">Find an available classroom</text>
+    <text x="288" y="530" fill="#9CAFB9" font-family="sans-serif" font-size="23" font-weight="500" text-anchor="middle">Enter room number to begin search</text>
+  </g>
+</svg>

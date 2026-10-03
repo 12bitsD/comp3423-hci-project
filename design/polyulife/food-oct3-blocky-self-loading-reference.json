@@ -1,0 +1,112 @@
+{
+  "mapping": {
+    "state_id": "S-FOOD-OCT3-BLOCKY-SELF-MAP-LOADING",
+    "node_id": "1045:19",
+    "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=1045-19",
+    "node_name": "[FOOD-OCT3:SELF-LOADING] Block Y — Taiwanese caller inline map pending",
+    "node_type": "Frame",
+    "page": "01 · Observed UI",
+    "context_variant": "20261003-taiwanese-self-detail-inline-map-loading",
+    "revision_id": "FIGMA-FOOD-OCT3-SELF-LOADING-20261003",
+    "source_evidence_ids": [
+      "E-FOOD-TAGS-07"
+    ],
+    "design_source_path": "../../design/polyulife/food-oct3-blocky-self-map-loading.svg",
+    "design_source_sha256": "a5dd435c9d13ae649d357a37dc82518c4b3405fe8829224765b0463af20bcee1",
+    "viewport": {
+      "frame_size": [
+        576,
+        1024
+      ],
+      "frame_size_independently_verified": true,
+      "canvas_position": [
+        2800,
+        100000
+      ]
+    },
+    "native_editability": "Independent body title Text Inter Bold22px and three Image fills/geometry selected; remaining text/vector reconstruction, raster images not interactive",
+    "content_policy": "Public screenshot crops include observed cursor/halo; identity masked",
+    "visual_review": {
+      "status": "partial",
+      "summary": "First Present missing images retained; same-asset uploads restore saved11/12, repeat app crop equal. Approximate fonts/card/geometry, full fidelity unknown.",
+      "evidence_ids": [
+        "E-FOOD-SELF-LOADING-00",
+        "E-FOOD-SELF-LOADING-01",
+        "E-FOOD-SELF-LOADING-02",
+        "E-FOOD-SELF-LOADING-03",
+        "E-FOOD-SELF-LOADING-04",
+        "E-FOOD-SELF-LOADING-05",
+        "E-FOOD-SELF-LOADING-07",
+        "E-FOOD-SELF-LOADING-08",
+        "E-FOOD-SELF-LOADING-09",
+        "E-FOOD-SELF-LOADING-10",
+        "E-FOOD-SELF-LOADING-13",
+        "E-FOOD-SELF-LOADING-06",
+        "E-FOOD-SELF-LOADING-11",
+        "E-FOOD-SELF-LOADING-12",
+        "E-FOOD-SELF-LOADING-READBACK"
+      ]
+    },
+    "prototype_status": "partial_reference_display_only",
+    "connection_status": "no_navigation_connections",
+    "prototype_run_ids": [
+      "PROTO-FOOD-OCT3-SELF-LOADING-REF-001"
+    ],
+    "prototype_evidence_ids": [
+      "E-FOOD-SELF-LOADING-06",
+      "E-FOOD-SELF-LOADING-11",
+      "E-FOOD-SELF-LOADING-12"
+    ]
+  },
+  "flow": {
+    "name": "Reference · Block Y self result — Taiwanese caller — inline map loading",
+    "start_node_id": "1045:19",
+    "description": "Independent archived E-FOOD-TAGS-07 sample of Taiwanese query opening Block Y self-detail. Inline map area contains a loading mark and expand button appearance, not settled geography. No automatic delay, settled state or loading latency inferred. Header/body text editable; hero/loading/expand-map appearance are separate raster source crops, including observed cursor/halo. No query result/caller/Back/image/map navigation or scrolling configured.576x1024 finite reference; exact fonts/card/bounds unknown. Full app/fidelity not_verified; native evidence, Figma reference and human evaluation separate.",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=1045-19&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1045%3A19&show-proto-sidebar=1"
+  },
+  "prototype_run_ids": [
+    "PROTO-FOOD-OCT3-SELF-LOADING-REF-001"
+  ],
+  "pixel_comparisons": [
+    {
+      "left": "06-first-present.png",
+      "right": "11-repair-present.png",
+      "check": "first_failure_versus_repaired",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": false,
+      "difference_bbox": [
+        93,
+        51,
+        325,
+        517
+      ]
+    },
+    {
+      "left": "11-repair-present.png",
+      "right": "12-reopen-present.png",
+      "check": "repaired_reopen",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "limits": [
+    "Archived E-FOOD-TAGS-07 Taiwanese self-result detail shows inline map loading mark. No settled nested map sample or latency saved; no timer or automatic loaded state invented.",
+    "Actual root1045:19 at2800,100000,576x1024; title Text Inter Bold22px at35,355. Header/body/tags remain editable reconstruction; exact geometry/fonts/native bounds unverified.",
+    "Hero278x226 at151,100, loading60x60 at258,758 and expand-map73x69 at445,755 are separate public screenshot crops. Captured cursor/halo retained; raster expand button has no navigation. Card bottom radius38/bodyF7F9F6 approximate visible sample.",
+    "First actual Present06 saved pixels lack all three images, despite editor Image fills and tool preview showing hero. Same assets reuploaded through Figma image upload UI; actual saved11 and12 show all images and app crops equal. Failure and tool/file discrepancy retained; cause not isolated, future image reliability unknown.",
+    "Image fill locator initially had no match while Prototype active; no input sent. Explicit Design tab then upload recovered, failed07 selection captured.",
+    "Current native read returns Mac locked; no new native session/state/action, settings change or business submission.",
+    "Earlier Action navigation URL-protocol refusal not retried or bypassed; import/source/layout/independent reference and image upload are separate operations. Query-result/Back/caller/image/map navigation and full application/fidelity remain not_verified."
+  ]
+}

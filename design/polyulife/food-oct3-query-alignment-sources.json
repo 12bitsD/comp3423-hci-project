@@ -1,0 +1,348 @@
+{
+  "sources": [
+    {
+      "file": "food-oct3-asian-query-aligned.svg",
+      "sha256": "806be18a5b591f402cf7eb5ad28df0e6b2becd81e44d3aa8401546014955b700",
+      "original_source_file": "food-oct3-tag-asian.svg",
+      "original_source_sha256": "06d897c4bcd362becb9029491c6fc2c255af27d2ea2bc8c39af94ede06dcbdf0",
+      "state_id": "S-FOOD-OCT3-ASIAN",
+      "query": "Asian Cuisine",
+      "result_names": [
+        "Communal Student Restaurant",
+        "V Café",
+        "Z Canteen",
+        "X Café",
+        "U Garden (Student Canteen)",
+        "Block Y Outlet - Grove & Tai Tai Foodtopia"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-14"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "node_id": "954:19",
+      "node_name": "[FOOD-OCT3:ASIAN] Search — Asian Cuisine from Block Y",
+      "status": "actual_aligned_reference_displayed_navigation_unconfigured",
+      "query_text_x": 76,
+      "magnifier_circle_center_x": 36,
+      "magnifier_handle_start_x": 44,
+      "native_exact_font_and_geometry_verified": false,
+      "editor_evidence_ids": [
+        "E-FOOD-QUERY-ALIGN-00",
+        "E-FOOD-QUERY-ALIGN-01",
+        "E-FOOD-QUERY-ALIGN-02",
+        "E-FOOD-QUERY-ALIGN-03",
+        "E-FOOD-QUERY-ALIGN-04",
+        "E-FOOD-QUERY-ALIGN-05",
+        "E-FOOD-QUERY-ALIGN-06",
+        "E-FOOD-QUERY-ALIGN-35",
+        "E-FOOD-QUERY-ALIGN-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-QUERY-ASIAN-001"
+      ],
+      "flow": {
+        "name": "Reference · Asian Cuisine — observed results",
+        "start_node_id": "954:19",
+        "description": "Independent reference of the archived October3 Asian Cuisine query from Block Y: six fixed public result labels. Query text and magnifier positions aligned to the saved native sample; fonts/icons remain approximate. No functional query entry, row details, Back/caller navigation or new scrolling. This reference start does not implement the native tag journey. Full application/fidelity not_verified; editor/Present inspection is separate from native observation and human testing.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-19&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A19&show-proto-sidebar=1"
+      },
+      "result_Text_check": {
+        "node_id": "954:56",
+        "typography": "Inter Regular22px",
+        "evidence_ids": [
+          "E-FOOD-QUERY-ALIGN-35"
+        ]
+      }
+    },
+    {
+      "file": "food-oct3-western-query-aligned.svg",
+      "sha256": "28e616d8bfe97de1e28cb6707c6609469f9147fcaf7142aba1b9cddb8962df83",
+      "original_source_file": "food-oct3-western-scroll.svg",
+      "original_source_sha256": "df9ece6542073cacdb4bc4e94d381aa5163325d7630203771b300cd87142ffcd",
+      "state_id": "S-FOOD-OCT3-WESTERN",
+      "query": "Western Cuisine",
+      "result_names": [
+        "H Café",
+        "LibCafé",
+        "VA Kiosk",
+        "W Kiosk",
+        "Gourmet Shop",
+        "V Café",
+        "Z Canteen",
+        "X Café",
+        "U Garden (Student Canteen)",
+        "Block Y Outlet - Grove & Tai Tai Foodtopia",
+        "VA Café"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-16",
+        "E-FOOD-TAGS-04"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "node_id": "954:59",
+      "node_name": "[FOOD-OCT3:WESTERN] Search — Western Cuisine from Block Y",
+      "status": "actual_aligned_reference_displayed_navigation_unconfigured",
+      "query_text_x": 76,
+      "magnifier_circle_center_x": 36,
+      "magnifier_handle_start_x": 44,
+      "native_exact_font_and_geometry_verified": false,
+      "editor_evidence_ids": [
+        "E-FOOD-QUERY-ALIGN-09",
+        "E-FOOD-QUERY-ALIGN-10",
+        "E-FOOD-QUERY-ALIGN-11",
+        "E-FOOD-QUERY-ALIGN-12",
+        "E-FOOD-QUERY-ALIGN-36",
+        "E-FOOD-QUERY-ALIGN-37",
+        "E-FOOD-QUERY-ALIGN-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-QUERY-WESTERN-001"
+      ],
+      "flow": {
+        "name": "Reference · Western Cuisine — finite results scroll",
+        "start_node_id": "954:59",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-59&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A59&show-proto-sidebar=1",
+        "description": "Independent reference for the observed October3 Western Cuisine query: 11 public venue results and finite vertical scrolling. Search bar and header remain outside the results viewport. Row heights and inferred23px range are approximate; native complete scroll bounds are not verified. Back, tag caller, row detail and arbitrary search are unconfigured. This prototype replay is not native execution, complete visual fidelity or human evaluation.",
+        "existing_flow": true
+      },
+      "result_Text_check": {
+        "node_id": "954:112",
+        "typography": "Inter Regular22px",
+        "evidence_ids": [
+          "E-FOOD-QUERY-ALIGN-36"
+        ]
+      },
+      "existing_scroll_layout_path": "food-oct3-western-scroll-layout.json"
+    },
+    {
+      "file": "food-oct3-taiwanese-query-aligned.svg",
+      "sha256": "4019e0f5ea845c650f1c75d77efc689f9c3960b1982745a0a17d848b84c3fab8",
+      "original_source_file": "food-oct3-tag-taiwanese.svg",
+      "original_source_sha256": "e6169e3a895a43090f985b95bfc8bacf1cb552f79f64a0331cc404101dcbc4f0",
+      "state_id": "S-FOOD-OCT3-TAIWANESE",
+      "query": "Taiwanese Cuisine",
+      "result_names": [
+        "Block Y Outlet - Grove & Tai Tai Foodtopia"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-18"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "node_id": "954:119",
+      "node_name": "[FOOD-OCT3:TAIWANESE] Search — Taiwanese Cuisine from Block Y",
+      "status": "actual_aligned_reference_displayed_navigation_unconfigured",
+      "query_text_x": 76,
+      "magnifier_circle_center_x": 36,
+      "magnifier_handle_start_x": 44,
+      "native_exact_font_and_geometry_verified": false,
+      "editor_evidence_ids": [
+        "E-FOOD-QUERY-ALIGN-13",
+        "E-FOOD-QUERY-ALIGN-14",
+        "E-FOOD-QUERY-ALIGN-15",
+        "E-FOOD-QUERY-ALIGN-16",
+        "E-FOOD-QUERY-ALIGN-29",
+        "E-FOOD-QUERY-ALIGN-30",
+        "E-FOOD-QUERY-ALIGN-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-QUERY-TAIWANESE-001"
+      ],
+      "flow": {
+        "name": "Reference · Taiwanese Cuisine — observed results",
+        "start_node_id": "954:119",
+        "description": "Independent reference of the archived October3 Taiwanese Cuisine query from Block Y: 1 fixed public result labels. Query text and magnifier positions aligned to the saved native sample; fonts/icons remain approximate. No functional query entry, row details, Back/caller navigation or new scrolling. This reference start does not implement the native tag journey or prove the complete search index. Full application/fidelity not_verified; editor/Present inspection is separate from native observation and human testing.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-119&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A119&show-proto-sidebar=1"
+      },
+      "result_Text_check": {
+        "node_id": "954:136",
+        "typography": "Inter Regular22px",
+        "evidence_ids": [
+          "E-FOOD-QUERY-ALIGN-29"
+        ]
+      }
+    },
+    {
+      "file": "food-oct3-cake-query-aligned.svg",
+      "sha256": "2256405734f95266b171d6b7de5a59876a879ab1b519652b72e75a4d5bba1053",
+      "original_source_file": "food-oct3-tag-cake.svg",
+      "original_source_sha256": "df1b4f25ba25abeed238971ce9603b4d0afa34e4d06aae230ebbbed6cbff0a6b",
+      "state_id": "S-FOOD-OCT3-CAKE",
+      "query": "Cake / Dessert",
+      "result_names": [
+        "LibCafé",
+        "Gourmet Shop",
+        "X Café",
+        "Theatre Lounge",
+        "Block Y Outlet - Grove & Tai Tai Foodtopia",
+        "VA Café"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-20"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "node_id": "954:139",
+      "node_name": "[FOOD-OCT3:CAKE] Search — Cake Dessert from Block Y",
+      "status": "actual_aligned_reference_displayed_navigation_unconfigured",
+      "query_text_x": 76,
+      "magnifier_circle_center_x": 36,
+      "magnifier_handle_start_x": 44,
+      "native_exact_font_and_geometry_verified": false,
+      "editor_evidence_ids": [
+        "E-FOOD-QUERY-ALIGN-17",
+        "E-FOOD-QUERY-ALIGN-18",
+        "E-FOOD-QUERY-ALIGN-19",
+        "E-FOOD-QUERY-ALIGN-20",
+        "E-FOOD-QUERY-ALIGN-32",
+        "E-FOOD-QUERY-ALIGN-33",
+        "E-FOOD-QUERY-ALIGN-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-QUERY-CAKE-001"
+      ],
+      "flow": {
+        "name": "Reference · Cake / Dessert — observed results",
+        "start_node_id": "954:139",
+        "description": "Independent reference of the archived October3 Cake / Dessert query from Block Y: 6 fixed public result labels. Query text and magnifier positions aligned to the saved native sample; fonts/icons remain approximate. No functional query entry, row details, Back/caller navigation or new scrolling. This reference start does not implement the native tag journey or prove the complete search index. Full application/fidelity not_verified; editor/Present inspection is separate from native observation and human testing.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-139&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A139&show-proto-sidebar=1"
+      },
+      "result_Text_check": {
+        "node_id": "954:172",
+        "typography": "Inter Regular22px",
+        "evidence_ids": [
+          "E-FOOD-QUERY-ALIGN-32"
+        ]
+      }
+    },
+    {
+      "file": "food-oct3-salad-query-aligned.svg",
+      "sha256": "baaac7efc5bb1ee1431b956495cc53d3fed61bd953d229f02e89a42ee2f23e3d",
+      "original_source_file": "food-oct3-tag-salad.svg",
+      "original_source_sha256": "0509da431625b39bb8e9410052fcc8055f3b01e0e68b3c950608b511ff1ed41b",
+      "state_id": "S-FOOD-OCT3-SALAD",
+      "query": "Salad",
+      "result_names": [
+        "LibCafé",
+        "VA Kiosk",
+        "W Kiosk",
+        "Gourmet Shop",
+        "X Café",
+        "Block Y Outlet - Grove & Tai Tai Foodtopia",
+        "VA Café"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-TAGS-22"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "node_id": "954:179",
+      "node_name": "[FOOD-OCT3:SALAD] Search — Salad from Block Y",
+      "status": "actual_aligned_reference_displayed_navigation_unconfigured",
+      "query_text_x": 76,
+      "magnifier_circle_center_x": 36,
+      "magnifier_handle_start_x": 44,
+      "native_exact_font_and_geometry_verified": false,
+      "editor_evidence_ids": [
+        "E-FOOD-QUERY-ALIGN-21",
+        "E-FOOD-QUERY-ALIGN-22",
+        "E-FOOD-QUERY-ALIGN-23",
+        "E-FOOD-QUERY-ALIGN-24",
+        "E-FOOD-QUERY-ALIGN-25",
+        "E-FOOD-QUERY-ALIGN-26",
+        "E-FOOD-QUERY-ALIGN-27",
+        "E-FOOD-QUERY-ALIGN-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-QUERY-SALAD-001"
+      ],
+      "flow": {
+        "name": "Reference · Salad — observed results",
+        "start_node_id": "954:179",
+        "description": "Independent reference of the archived October3 Salad query from Block Y: 7 fixed public result labels. Query text and magnifier positions aligned to the saved native sample; fonts/icons remain approximate. No functional query entry, row details, Back/caller navigation or new scrolling. This reference start does not implement the native tag journey or prove the complete search index. Full application/fidelity not_verified; editor/Present inspection is separate from native observation and human testing.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-179&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A179&show-proto-sidebar=1"
+      },
+      "result_Text_check": {
+        "node_id": "954:216",
+        "typography": "Inter Regular22px",
+        "evidence_ids": [
+          "E-FOOD-QUERY-ALIGN-26"
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "Only SearchInput query x58->76 and magnifier two vectors+4px; other visual source structure unchanged.",
+    "Coordinates align to archived normalized screenshots; exact native font/geometry remains unknown.",
+    "Original five tag SVGs and Western finite-scroll source remain unchanged as history.",
+    "Fixed public query/result samples only; Back, caller, result navigation and arbitrary entry unconfigured.",
+    "Generator performs no application/browser input and is not a Figma export."
+  ],
+  "verification_limits": [
+    "Five existing query roots received actual UI edits: query Text x58->76, circle x22->26 and handle x40->44. Query Text Inter Regular23px; each independently selected Block Y result Text Inter Regular22px. Exact native fonts/geometry remain unknown.",
+    "Four independent fixed-result reference starts added for Asian6, Taiwanese1, Cake6 and Salad7. Existing Western11 finite scroll start retained. No new navigation connections or scroll regions; starts do not implement native tag/query/result/Back/caller journeys or complete search index.",
+    "Asian initial direct reference opened at Actual size with sidebar and clipped lower viewport; sample preserved, then Fit width and height displayed all six. Other reference Present samples fitted independently.",
+    "Salad shared long-text target missed its short query; context menu had no Text. After Escape a helper found no Select layer menu; fresh screenshot and corrected in-word target selected Text Salad. Failure retained; no geometry changed until correct target confirmed.",
+    "Asian root navigation returned ERR_ABORTED after handle edit; current leaf state inspected then same known root retried once. Successful root capture preserves recovery note.",
+    "Western existing finite results viewport/content remains 576x824/540x840, inferred23px range; down/reverse/repeat samples do not establish native bounds or full fidelity.",
+    "New SVGs reflect actual UI edits, not Figma exports. Original five import SVGs and Western scroll source remain unchanged; historical mapping/runs retained.",
+    "User replied unlock, but current actual native read still returned Mac locked. No new native sessions/states/actions; no business or system setting actions.",
+    "Earlier Action dropdown URL-protocol safety refusal remains unresolved, not retried or bypassed. Independent reference starts/layout/text/scroll checks are different permitted operations.",
+    "Prototype display/replay, archived native observation and human evaluation remain separate. Full application/fidelity not_verified."
+  ],
+  "prototype_run_ids": [
+    "PROTO-FOOD-OCT3-QUERY-ASIAN-001",
+    "PROTO-FOOD-OCT3-QUERY-WESTERN-001",
+    "PROTO-FOOD-OCT3-QUERY-TAIWANESE-001",
+    "PROTO-FOOD-OCT3-QUERY-CAKE-001",
+    "PROTO-FOOD-OCT3-QUERY-SALAD-001"
+  ],
+  "editor_evidence_ids": [
+    "E-FOOD-QUERY-ALIGN-00",
+    "E-FOOD-QUERY-ALIGN-01",
+    "E-FOOD-QUERY-ALIGN-02",
+    "E-FOOD-QUERY-ALIGN-03",
+    "E-FOOD-QUERY-ALIGN-04",
+    "E-FOOD-QUERY-ALIGN-05",
+    "E-FOOD-QUERY-ALIGN-06",
+    "E-FOOD-QUERY-ALIGN-09",
+    "E-FOOD-QUERY-ALIGN-10",
+    "E-FOOD-QUERY-ALIGN-11",
+    "E-FOOD-QUERY-ALIGN-12",
+    "E-FOOD-QUERY-ALIGN-13",
+    "E-FOOD-QUERY-ALIGN-14",
+    "E-FOOD-QUERY-ALIGN-15",
+    "E-FOOD-QUERY-ALIGN-16",
+    "E-FOOD-QUERY-ALIGN-17",
+    "E-FOOD-QUERY-ALIGN-18",
+    "E-FOOD-QUERY-ALIGN-19",
+    "E-FOOD-QUERY-ALIGN-20",
+    "E-FOOD-QUERY-ALIGN-21",
+    "E-FOOD-QUERY-ALIGN-22",
+    "E-FOOD-QUERY-ALIGN-23",
+    "E-FOOD-QUERY-ALIGN-24",
+    "E-FOOD-QUERY-ALIGN-25",
+    "E-FOOD-QUERY-ALIGN-26",
+    "E-FOOD-QUERY-ALIGN-27",
+    "E-FOOD-QUERY-ALIGN-29",
+    "E-FOOD-QUERY-ALIGN-30",
+    "E-FOOD-QUERY-ALIGN-32",
+    "E-FOOD-QUERY-ALIGN-33",
+    "E-FOOD-QUERY-ALIGN-35",
+    "E-FOOD-QUERY-ALIGN-36",
+    "E-FOOD-QUERY-ALIGN-37",
+    "E-FOOD-QUERY-ALIGN-READBACK"
+  ]
+}

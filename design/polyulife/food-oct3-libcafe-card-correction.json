@@ -1,0 +1,73 @@
+{
+  "original_source_file": "food-oct3-libcafe-detail.svg",
+  "original_source_sha256": "8b4af6a83b9dc1594e10f7ac20c03557d0a5a7b317328f1be044e9dd07867096",
+  "file": "food-oct3-libcafe-card-corrected.svg",
+  "sha256": "46b09e29a3e64f0ae98fdcf636b33da5cc616620141176e1b50f488ba5c110c5",
+  "contour_file": "food-oct3-libcafe-card-contour.svg",
+  "contour_sha256": "8325356df2d0a65820aae7976450e1accb10158f2b2e330c1fe06c059994a09e",
+  "state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+  "source_evidence_ids": [
+    "E-FOOD-MENU-05",
+    "E-FOOD-MENU-07"
+  ],
+  "root_node_id": "949:248",
+  "status": "actual_UI_corrected_independent_reference_displayed_partial_fidelity",
+  "before_card": {
+    "position": [
+      18,
+      100
+    ],
+    "dimensions": [
+      539,
+      1013
+    ]
+  },
+  "after_card": {
+    "position": [
+      18,
+      100
+    ],
+    "dimensions": [
+      539,
+      924
+    ],
+    "bottom_corner_reconstruction_radius": 38
+  },
+  "background_color": "#F7F9F6",
+  "inline_map_height_before": 309,
+  "inline_map_height_after": 307,
+  "limits": [
+    "Card bottom contour and dimensions inferred from visible archived viewport; exact native card/window boundary unknown.",
+    "Only ScreenBackground fill, card contour and inline map height309->307 changed; old SVG/asset bytes retained.",
+    "Full corrected source records intended/actual UI edits, not Figma export. No new navigation/scrolling behavior."
+  ],
+  "actual_contour_node_id": "1023:19",
+  "actual_background_node_id": "949:249",
+  "actual_inline_map_node_id": "949:298",
+  "actual_title_node_id": "949:254",
+  "clip_content": false,
+  "editor_evidence_ids": [
+    "E-FOOD-DETAIL-REF-00",
+    "E-FOOD-DETAIL-REF-01",
+    "E-FOOD-DETAIL-REF-02",
+    "E-FOOD-DETAIL-REF-03",
+    "E-FOOD-DETAIL-REF-04",
+    "E-FOOD-DETAIL-REF-05",
+    "E-FOOD-DETAIL-REF-06",
+    "E-FOOD-DETAIL-REF-07",
+    "E-FOOD-DETAIL-REF-08",
+    "E-FOOD-DETAIL-REF-09",
+    "E-FOOD-DETAIL-REF-10",
+    "E-FOOD-DETAIL-REF-11",
+    "E-FOOD-DETAIL-REF-12",
+    "E-FOOD-DETAIL-REF-13",
+    "E-FOOD-DETAIL-REF-READBACK"
+  ],
+  "prototype_run_ids": [
+    "PROTO-FOOD-OCT3-DETAIL-REF-LIBCAFE-DETAIL-001"
+  ],
+  "prototype_evidence_ids": [
+    "E-FOOD-DETAIL-REF-14",
+    "E-FOOD-DETAIL-REF-32"
+  ]
+}

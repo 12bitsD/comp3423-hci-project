@@ -1,0 +1,330 @@
+[
+  {
+    "capture": "00-notification-start.png",
+    "captured_at": "2026-10-03T06:05:51.485Z",
+    "original_record": {
+      "file": "00-notification-start.png",
+      "action": null,
+      "input": null,
+      "note": null,
+      "captured_at": "2026-10-03T06:05:51.485Z"
+    },
+    "actual_visible_classification": "Notification",
+    "state_id": "S-NATIVE-NOTICE-LIST-READ",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "01-search-empty.png",
+    "captured_at": "2026-10-03T06:06:00.427Z",
+    "original_record": {
+      "file": "01-search-empty.png",
+      "action": "search-entry",
+      "input": "AX18",
+      "note": null,
+      "captured_at": "2026-10-03T06:06:00.427Z"
+    },
+    "actual_visible_classification": "Notification",
+    "state_id": "S-NATIVE-NOTICE-LIST-READ",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "02-search-container-retry.png",
+    "captured_at": "2026-10-03T06:06:20.494Z",
+    "original_record": {
+      "file": "02-search-container-retry.png",
+      "action": "search-entry-retry",
+      "input": "AX17 container",
+      "note": "First leaf click left notification unchanged; retargeted current parent icon container.",
+      "captured_at": "2026-10-03T06:06:20.494Z"
+    },
+    "actual_visible_classification": "Notification",
+    "state_id": "S-NATIVE-NOTICE-LIST-READ",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "03-search-coordinate-check.png",
+    "captured_at": "2026-10-03T06:06:33.292Z",
+    "original_record": {
+      "file": "03-search-coordinate-check.png",
+      "action": "search-entry-coordinate",
+      "input": "Screenshot point [686,140]",
+      "note": null,
+      "captured_at": "2026-10-03T06:06:33.292Z"
+    },
+    "actual_visible_classification": "Search empty",
+    "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "04-search-arrived-later.png",
+    "captured_at": "2026-10-03T06:06:57.967Z",
+    "original_record": {
+      "file": "04-search-arrived-later.png",
+      "action": null,
+      "input": null,
+      "note": "Search appeared on subsequent observation after three attempts; triggering attempt and latency not isolated.",
+      "captured_at": "2026-10-03T06:06:57.967Z"
+    },
+    "actual_visible_classification": "Search empty",
+    "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "05-workshop-input.png",
+    "captured_at": "2026-10-03T06:07:05.295Z",
+    "original_record": {
+      "file": "05-workshop-input.png",
+      "action": "workshop-input",
+      "input": "Fresh AX17 focus then ordinary typeText workshop",
+      "note": null,
+      "captured_at": "2026-10-03T06:07:05.295Z"
+    },
+    "actual_visible_classification": "Search empty",
+    "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "06-workshop-followup.png",
+    "captured_at": "2026-10-03T06:07:19.540Z",
+    "original_record": {
+      "file": "06-workshop-followup.png",
+      "action": null,
+      "input": null,
+      "note": "Follow-up observation to distinguish delayed input from absent input.",
+      "captured_at": "2026-10-03T06:07:19.540Z"
+    },
+    "actual_visible_classification": "Search empty",
+    "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "07-workshop-ax-value.png",
+    "captured_at": "2026-10-03T06:07:33.503Z",
+    "original_record": {
+      "file": "07-workshop-ax-value.png",
+      "action": "workshop-ax-value",
+      "input": "Raise current window then fresh text field setValue workshop",
+      "note": "Ordinary keyboard attempt had no visible query in05/06; AX value is separate input mode.",
+      "captured_at": "2026-10-03T06:07:33.503Z"
+    },
+    "actual_visible_classification": "Search workshop / VA210",
+    "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "08-workshop-visible-later.png",
+    "captured_at": "2026-10-03T06:07:51.352Z",
+    "original_record": {
+      "file": "08-workshop-visible-later.png",
+      "action": null,
+      "input": null,
+      "note": "Visible workshop/VA210 after focus/Raise/keyboard/AX attempts; exact input cause and latency not isolated.",
+      "captured_at": "2026-10-03T06:07:51.352Z"
+    },
+    "actual_visible_classification": "Search workshop / VA210",
+    "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "09-open-va210.png",
+    "captured_at": "2026-10-03T06:07:52.146Z",
+    "original_record": {
+      "file": "09-open-va210.png",
+      "action": "open-result",
+      "input": "Fresh current VA210 result leaf",
+      "note": null,
+      "captured_at": "2026-10-03T06:07:52.146Z"
+    },
+    "actual_visible_classification": "Search workshop / VA210",
+    "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "10-va210-followup.png",
+    "captured_at": "2026-10-03T06:07:57.010Z",
+    "original_record": {
+      "file": "10-va210-followup.png",
+      "action": null,
+      "input": null,
+      "note": "Follow-up after result click; actual screenshot determines transition.",
+      "captured_at": "2026-10-03T06:07:57.010Z"
+    },
+    "actual_visible_classification": "Search workshop / VA210",
+    "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "11-venue-coordinate-check.png",
+    "captured_at": "2026-10-03T06:08:31.499Z",
+    "original_record": {
+      "file": "11-venue-coordinate-check.png",
+      "action": "open-result-coordinate",
+      "input": "Fresh screenshot result card [370,370]",
+      "note": "Retarget after leaf click retained Search in09/10.",
+      "captured_at": "2026-10-03T06:08:31.499Z"
+    },
+    "actual_visible_classification": "Search workshop / VA210",
+    "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "12-result-chevron-check.png",
+    "captured_at": "2026-10-03T06:09:04.978Z",
+    "original_record": {
+      "file": "12-result-chevron-check.png",
+      "action": "result-chevron",
+      "input": "Fresh screenshot right chevron [720,367]",
+      "note": "Distinct visible chevron target after row-center attempt; no scope claim until actual detail observed.",
+      "captured_at": "2026-10-03T06:09:04.978Z"
+    },
+    "actual_visible_classification": "VA210 detail / map loading",
+    "state_id": "S-FOOD-DETAIL-LOADING",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Classification uses saved pixels and full AX, not expected filename or earlier displayed text."
+  },
+  {
+    "capture": "13-workshop-back-check.png",
+    "captured_at": "2026-10-03T06:09:23.858Z",
+    "original_record": {
+      "file": "13-workshop-back-check.png",
+      "action": "workshop-back",
+      "input": "Fresh Back leaf",
+      "note": "Detail not observed after result leaf/center/chevron attempts; try Search Back from workshop context.",
+      "captured_at": "2026-10-03T06:09:23.858Z"
+    },
+    "actual_visible_classification": "Search workshop / VA210",
+    "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Original note said detail not observed; screenshot12 and saved AX both show VA210 detail. Back13 shows Search."
+  },
+  {
+    "capture": "14-result-explicit-double-click.png",
+    "captured_at": "2026-10-03T06:10:09.366Z",
+    "original_record": {
+      "file": "14-result-explicit-double-click.png",
+      "action": "result-double-click",
+      "input": "Fresh result card [370,370], clickCount2",
+      "note": "Hypothesis: first mouse activation vs control dispatch; double-click is distinct input, not equivalent to prior single click.",
+      "captured_at": "2026-10-03T06:10:09.366Z"
+    },
+    "actual_visible_classification": "ITS Notice detail",
+    "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Original expectation/result targeting VA210; actual14 is ITS Notice detail. Causal path and input routing unresolved."
+  },
+  {
+    "capture": "15-current-visual-recheck.png",
+    "captured_at": "2026-10-03T06:10:50.431Z",
+    "original_record": {
+      "file": "15-current-visual-recheck.png",
+      "action": null,
+      "input": null,
+      "note": "Review of saved screenshots found12 actual VA210 detail and14 unexpected notice detail while contemporaneous AX described Search; input causality/context not isolated. Stop further input until visual/AX agreement.",
+      "captured_at": "2026-10-03T06:10:50.431Z"
+    },
+    "actual_visible_classification": "ITS Notice detail",
+    "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Original mismatch claim applies to displayed tool text/interpretation; saved full AX agrees with screenshot."
+  },
+  {
+    "capture": "16-unlocked-notice-agreement.png",
+    "captured_at": "2026-10-03T06:12:37.895Z",
+    "original_record": {
+      "file": "16-unlocked-notice-agreement.png",
+      "action": null,
+      "input": null,
+      "note": "After user unlock: full AX matches visible ITS Notice detail; prior mismatch not diagnosed.",
+      "captured_at": "2026-10-03T06:12:37.895Z"
+    },
+    "actual_visible_classification": "ITS Notice detail",
+    "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Original mismatch claim applies to displayed tool text/interpretation; saved full AX agrees with screenshot."
+  },
+  {
+    "capture": "17-notice-back.png",
+    "captured_at": "2026-10-03T06:12:39.328Z",
+    "original_record": {
+      "file": "17-notice-back.png",
+      "action": "notice_back",
+      "input": {
+        "method": "AX",
+        "index": 10
+      },
+      "note": "Source full AX and screenshot agreed.",
+      "captured_at": "2026-10-03T06:12:39.328Z"
+    },
+    "actual_visible_classification": "Notification",
+    "state_id": "S-NATIVE-NOTICE-LIST-READ",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Original mismatch claim applies to displayed tool text/interpretation; saved full AX agrees with screenshot."
+  },
+  {
+    "capture": "18-rebound-notification.png",
+    "captured_at": "2026-10-03T06:12:56.954Z",
+    "original_record": {
+      "file": "18-rebound-notification.png",
+      "action": null,
+      "input": {
+        "method": "fresh runtime binding"
+      },
+      "note": "AX and screenshot checked after one rebind; hidden parents excluded from public records.",
+      "captured_at": "2026-10-03T06:12:56.954Z"
+    },
+    "actual_visible_classification": "Notification",
+    "state_id": "S-NATIVE-NOTICE-LIST-READ",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Original mismatch claim applies to displayed tool text/interpretation; saved full AX agrees with screenshot."
+  },
+  {
+    "capture": "19-rebound-search.png",
+    "captured_at": "2026-10-03T06:13:03.504Z",
+    "original_record": {
+      "file": "19-rebound-search.png",
+      "action": "search_entry",
+      "input": {
+        "method": "AX",
+        "index": 18
+      },
+      "note": "From visually confirmed Notification.",
+      "captured_at": "2026-10-03T06:13:03.504Z"
+    },
+    "actual_visible_classification": "Search empty",
+    "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+    "saved_pair_review": "Full saved AX and actual screenshot reviewed together; consistent for this finite sample.",
+    "action_result_policy": "Supplementary attempts retained; no successful action attribution or coverage status change inferred.",
+    "correction": "Original mismatch claim applies to displayed tool text/interpretation; saved full AX agrees with screenshot."
+  }
+]

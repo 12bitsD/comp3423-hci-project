@@ -1,0 +1,179 @@
+{
+  "revision_id": "FIGMA-ROOM-HORIZONTAL-DATES-20260930",
+  "status": "sample_replayed_full_scope_incomplete",
+  "actual_edits": {
+    "root_node_id": "412:1120",
+    "viewport_node_id": "436:32",
+    "viewport_position": [
+      30,
+      100
+    ],
+    "viewport_size": [
+      516,
+      84
+    ],
+    "content_size": [
+      658,
+      84
+    ],
+    "overflow": "Horizontal",
+    "initialization": {
+      "trigger": "After delay",
+      "delay_ms": 1,
+      "behavior": "Scroll to",
+      "destination_name": "DatesHorizontalContent",
+      "x_offset": 142,
+      "y_offset": 0,
+      "animation": "Instant",
+      "scope": "Figma display initializer only; not native measured delay or action.",
+      "destination_node_id": "436:34"
+    },
+    "removed_connection_id": "C-ROOM-DATES-12",
+    "at": "2026-09-30T00:10:52.871Z",
+    "content_node_id": "436:34",
+    "today_connection": {
+      "id": "C-ROOM-DATES-HORIZONTAL-TODAY",
+      "source_node_id": "412:1120",
+      "trigger_node_id": "436:35",
+      "target_node_id": "412:216",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-13"
+      ],
+      "verified_at": "2026-09-30T00:21:59.929Z"
+    }
+  },
+  "current_added_connections": [
+    {
+      "connection_id": "C-ROOM-DATES-HORIZONTAL-INIT",
+      "action_id": null,
+      "source_node_id": "412:1120",
+      "trigger_node_id": "412:1120",
+      "trigger_node_name": "Tuesday root",
+      "trigger": "After delay",
+      "delay_ms": 1,
+      "behavior": "Scroll to",
+      "target_node_id": "412:1120",
+      "scroll_target_node_id": "436:34",
+      "scroll_target_node_name": "DatesHorizontalContent",
+      "x_offset": 142,
+      "y_offset": 0,
+      "animation": "Instant",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-11"
+      ],
+      "source_fidelity": "Technical Figma entry display initializer, not native action or measured latency.",
+      "revision_id": "FIGMA-ROOM-HORIZONTAL-DATES-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ROOM-HORIZONTAL-DATES-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-HORIZONTAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-HORIZONTAL-CONTEXT"
+      ]
+    },
+    {
+      "connection_id": "C-ROOM-DATES-HORIZONTAL-TODAY",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "source_node_id": "412:1120",
+      "trigger_node_id": "436:35",
+      "trigger_node_name": "Date-Today",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "412:216",
+      "animation": "Instant",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-13"
+      ],
+      "source_fidelity": "Observed Tuesday reversed strip→Today Available transition; fixed historical result reconstruction.",
+      "revision_id": "FIGMA-ROOM-HORIZONTAL-DATES-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ROOM-HORIZONTAL-DATES-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-HORIZONTAL-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-HORIZONTAL-CONTEXT"
+      ]
+    }
+  ],
+  "superseded_connection": {
+    "connection_id": "C-ROOM-DATES-12",
+    "action_id": "A-ROOM-DATE-DRAG",
+    "source_node_id": "412:1120",
+    "trigger_node_id": "412:1131",
+    "trigger_node_name": "DatesObserved20260930",
+    "trigger": "On drag",
+    "behavior": "Navigate to",
+    "target_node_id": "412:1229",
+    "revision_id": "FIGMA-ROOM-DATES-20260930",
+    "animation": "Smart animate",
+    "duration_ms": 300,
+    "easing": "Ease out",
+    "source_evidence_ids": [
+      "E-ROOM-DATES-12"
+    ],
+    "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+    "implementation_status": "sample_replayed_full_scope_incomplete",
+    "prototype_run_ids": [
+      "PROTO-ROOM-DATES-001"
+    ],
+    "prototype_evidence_ids": [
+      "E-ROOM-DATES-PROTO-TRACE"
+    ],
+    "deviation_ids": [
+      "D-ROOM-DATES-FINITE-CONTEXT"
+    ]
+  },
+  "source_assets": [
+    {
+      "file": "room-dates-tuesday-strip.svg",
+      "sha256": "a3c054a83200530f23a840cf807dfa5afbb918a388e3f12118ef1971923c6116",
+      "dimensions": [
+        658,
+        84
+      ],
+      "import_status": "Strip only imported into existing frame; full SVGs source/reference only.",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-11",
+        "E-ROOM-DATES-12"
+      ]
+    },
+    {
+      "file": "room-dates-tuesday-horizontal.svg",
+      "sha256": "64470417819e33c747a1aedcbae1f1b8895cbcfd04274a8f521b5352b0ced271",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "import_status": "Strip only imported into existing frame; full SVGs source/reference only.",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-11",
+        "E-ROOM-DATES-12"
+      ]
+    },
+    {
+      "file": "room-dates-tuesday-reversed-horizontal.svg",
+      "sha256": "86ff63cc22f30f0b63eb14dbfa09ed0b49fc74717ab00dc0d2f5c98cb4b33616",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "import_status": "Strip only imported into existing frame; full SVGs source/reference only.",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-11",
+        "E-ROOM-DATES-12"
+      ]
+    }
+  ],
+  "prototype_run_id": "PROTO-ROOM-HORIZONTAL-DATES-001",
+  "scope_completion": "not_verified"
+}

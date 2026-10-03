@@ -1,0 +1,1042 @@
+{
+  "kind": "calendar_global_finite_filter_cycle",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-legacy-home.png",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:10:58.688Z",
+      "description": "Legacy Home before new Calendar sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "01-more.png",
+      "sha256": "313da99b32762b42acef33357359706d9d17a4ac3994573e70e99155cf984edb",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:10:58.955Z",
+      "description": "Home More entry; caller preserved.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "02-default.png",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:10:59.211Z",
+      "description": "More Calendar opens historical Sep28 all-category DEMO sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "03-all-draft.png",
+      "sha256": "772fcaa0d99489b762bc380f09b9b89b5c419c504723dc8340643276aacd513c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:11:36.516Z",
+      "description": "Default filter opens all checked draft, default body retained.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "04-all-apply.png",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:11:36.789Z",
+      "description": "Apply all restores default historical sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "05-none-draft.png",
+      "sha256": "55e69334df819602007bec5a439985b44846182b3c74b776327a5a17d427f775",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:11:37.329Z",
+      "description": "Select All clears every draft checkbox; applied default body unchanged.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "06-acad-draft.png",
+      "sha256": "c21bd05e596b90d51f38dab18e3b83e45782a36495a85314b9c0b02a7243b441",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:12:27.610Z",
+      "description": "Only academic calendar checked before Apply; default body still retained.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "07-acad-applied.png",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:12:27.910Z",
+      "description": "Academic Apply changes applied body to recorded Sep28 No event.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "08-acad-reopen.png",
+      "sha256": "22996097dc1e8e5a148d20bdba74990520972fb0ac349f3e6a128ce509b9e690",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:12:28.181Z",
+      "description": "Reopen retains academic-only draft and academic background.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "09-all-from-acad.png",
+      "sha256": "0bd02478ce2609798be4f4f09a3226b28ebf41d49a51f8a592c28c472ae63a1a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:12:28.487Z",
+      "description": "Restore All draft while academic applied background remains.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "10-all-draft-cancel.png",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:13:23.495Z",
+      "description": "Prototype X cancels restored-All draft to academic applied sample; native cancel semantics not established.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "11-restored-default.png",
+      "sha256": "6d56e003ee73f37872cf72d35882b873b08c7803d8773cb45e2c2bb2a9cfd12e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:13:24.264Z",
+      "description": "Apply All restores default but generic Class icon missing; failure preserved.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "12-calendar-notification.png",
+      "sha256": "075345f178c59fd28688396f9b033edfb2712c659857d142612b5dd2edd91bea",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:13:24.536Z",
+      "description": "Default Calendar bottom Notification opens recorded empty notification sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "13-notification-more.png",
+      "sha256": "313da99b32762b42acef33357359706d9d17a4ac3994573e70e99155cf984edb",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:13:24.804Z",
+      "description": "Notification More returns global More sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "14-legacy-return.png",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:13:25.082Z",
+      "description": "More Home restores original caller after full Calendar filter cycle.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "15-default-icon-repair.png",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:39:44.212Z",
+      "description": "Default after same PNG reupload; inspect generic icon recovery.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "16-all-card-repair.png",
+      "sha256": "fbcbb228260b0185a7c821decee3c122a0108a6337247019f5c8a60c6fba3c65",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:39:44.479Z",
+      "description": "All draft after card-fragment namespace repair and PNG reupload.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "17-all-x-return.png",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:39:44.721Z",
+      "description": "Prototype All X restores applied default sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "18-none-card-repair.png",
+      "sha256": "d0b9896bd2919c5044a428cbd383d1874576bd6e4a5dfc807d217c9bc9f7f271",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:39:45.232Z",
+      "description": "None draft keeps default body; generic image repaired.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "19-none-x-return.png",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:39:45.506Z",
+      "description": "Prototype None X restores applied default; no Apply None executed.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "20-acad-card-repair.png",
+      "sha256": "e671acd2882663939fbca4313ed49294842eb6d6687326db750fe7cdb3f33d67",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:39:46.292Z",
+      "description": "Academic draft keeps default body before Apply, image repaired.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "21-acad-draft-x.png",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:40:38.538Z",
+      "description": "Prototype academic draft X restores default applied sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "22-acad-reapply.png",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:40:39.530Z",
+      "description": "Academic Apply after repaired draft still reaches public No event sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "23-acad-nochange-apply.png",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:40:40.036Z",
+      "description": "Prototype Apply on unchanged academic draft restores academic applied sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "24-acad-applied-x.png",
+      "sha256": "eff0cd274a184baaea743b8cb873002dccb01f1e8e974e3083e2a9ea2a65944b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:40:40.546Z",
+      "description": "Prototype X on retained academic draft restores academic applied sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "25-restore-all-second.png",
+      "sha256": "0bd02478ce2609798be4f4f09a3226b28ebf41d49a51f8a592c28c472ae63a1a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:40:41.055Z",
+      "description": "Second restored-All draft keeps academic background.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "26-restored-icon-second.png",
+      "sha256": "dd1c6c320ee9b4a79cde2877afa12282d93ba6301531711c0a55f7caf229805f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:40:41.319Z",
+      "description": "Second Apply All restores default with generic icon after repairs.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "27-direct-calendar-home.png",
+      "sha256": "d9b55fbfb28db46b9abb13b0fb1fd7933b00bdf6422fc74314ffe53476988f86",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:40:41.590Z",
+      "description": "Default Calendar Home closes to legacy Home caller.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "28-monday-start.png",
+      "sha256": "3e6f7830e6055ca340eb0097dbbf2d5e1ae1de2a2167630be6278dfa03cdb34e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:43:33.529Z",
+      "description": "Figma initial loading remains in saved capture; planned caller actions not established.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "29-monday-default.png",
+      "sha256": "b9f6c8d9ff6022a89395011565e552940a2b7dd5d29b487ba47598cf432926ee",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:43:34.032Z",
+      "description": "Figma initial loading remains in saved capture; planned caller actions not established.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "30-monday-acad.png",
+      "sha256": "7bbfb417e584f22674ab34d8669bbe56ba18d9d53424ed5c99c513124f31dfe7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:43:35.024Z",
+      "description": "Figma initial loading remains in saved capture; planned caller actions not established.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "31-monday-home-return.png",
+      "sha256": "cd58512fb939ba1a132f1844227ca1258b65ae079b980b626db25a866dd19b3e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:43:35.299Z",
+      "description": "Figma initial loading remains in saved capture; planned caller actions not established.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "32-tuesday-scrolled.png",
+      "sha256": "a263217b7c3d1cb791afd68ce3dd6b9ec405332d451623081628bcef0dd3a2a4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:43:35.872Z",
+      "description": "Tuesday caller scrolled before second source test.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "33-caller-date-recheck.png",
+      "sha256": "15a05b88cbcbd6c13771eb96be953c0bf889ab73d3e2adeb33abf3c3e9ebea5f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:44:59.207Z",
+      "description": "Actual header confirms Tuesday after loading sequence; corrected source label.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "34-tuesday-baseline.png",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:46:35.651Z",
+      "description": "Confirmed Tuesday caller scrolled for recorded return test.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "35-tuesday-default.png",
+      "sha256": "db92f61ad98205b0096d889ad6126a2940e0da2afb2b67f6e6ed451e0a53b97d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:46:36.162Z",
+      "description": "Tuesday More enters fixed Sep28 default sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "36-tuesday-acad.png",
+      "sha256": "05a9dd9d9ba412af035b6a92228796de5c87ad5473088950126def69fcfc786f",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:46:37.151Z",
+      "description": "Tuesday caller applies academic sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "37-acad-notification.png",
+      "sha256": "0048189545752e414fe01ef2b41ce16ff392b67135fd441b57db645e3cacbb24",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:46:37.421Z",
+      "description": "Prototype academic Calendar Notification handoff, generalised from default native path.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "38-tuesday-return.png",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:46:37.961Z",
+      "description": "Notification More Home restores confirmed Tuesday scrolled caller.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "39-monday-reset-confirmed.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:48:04.795Z",
+      "description": "Prototype Restart confirmed Monday caller before final sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "40-monday-default-confirmed.png",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:48:27.336Z",
+      "description": "Confirmed Monday More Calendar entry.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "41-monday-acad-confirmed.png",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:48:28.305Z",
+      "description": "Confirmed Monday academic apply.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "42-monday-return-confirmed.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:48:28.579Z",
+      "description": "Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "43-monday-return-settled.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:49:19.926Z",
+      "description": "Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "44-back-test-home.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:57:29.605Z",
+      "description": "Confirmed Monday start for direct Home Back experiment.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "45-back-test-default.png",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:57:30.096Z",
+      "description": "Default reached from Monday More before direct return experiment.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "46-back-test-acad.png",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:57:31.049Z",
+      "description": "Academic applied before temporary Back return.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "47-back-test-return.png",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:57:31.352Z",
+      "description": "Temporary Back experiment remains academic view in saved PNG; expected Home not reached.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "48-back-apex-recheck.png",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T11:59:08.721Z",
+      "description": "Temporary Back experiment remains academic view in saved PNG; expected Home not reached.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "49-fresh-monday.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T12:03:17.333Z",
+      "description": "Fresh Present tab confirms Monday start after final configuration.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "50-fresh-default.png",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T12:04:02.726Z",
+      "description": "Fresh tab More Calendar default sample.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "51-fresh-acad.png",
+      "sha256": "6a712b197cde48190045686e43c1bf3192ff5a4da027e92169db0519c7f4d740",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T12:04:03.682Z",
+      "description": "Fresh tab academic applied before direct Home.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "52-fresh-home-return.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T12:04:03.994Z",
+      "description": "Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "53-fresh-default-short.png",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T12:12:30.066Z",
+      "description": "Short path default before direct Home, no filter transitions.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "54-fresh-default-short-home.png",
+      "sha256": "2e0c4eff415ba4ba2a041188e4e852b70b4c2b88ef15761b36640eb1b63fda32",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T12:12:30.371Z",
+      "description": "Saved PNG shows correct Monday Home return; immediate tool-only screenshot was black. No saved black failure at this step.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    },
+    {
+      "file": "55-delivery-default.png",
+      "sha256": "ce188a60f93ce00dc8bd488e63826b60cfc8386e4b36cdd0e8b3b81636192753",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T12:15:19.342Z",
+      "description": "Final default Calendar deliverable. Saved direct Home captures pass; tool-only black previews remain a capture discrepancy.",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open [1039,0,1124,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "16506d63f37c301c35882a94e393e2e838246e8003a85f4f523bea39a2d42530",
+    "dimensions": [
+      1428,
+      2504
+    ]
+  },
+  "app_crop_xyxy": [
+    461,
+    60,
+    818,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "00-legacy-home.png",
+      "comparison": "14-legacy-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "00-legacy-home.png",
+      "comparison": "27-direct-calendar-home.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "02-default.png",
+      "comparison": "04-all-apply.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "02-default.png",
+      "comparison": "11-restored-default.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        387,
+        84,
+        437
+      ],
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "11-restored-default.png",
+      "comparison": "15-default-icon-repair.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        387,
+        84,
+        437
+      ],
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "15-default-icon-repair.png",
+      "comparison": "17-all-x-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "15-default-icon-repair.png",
+      "comparison": "19-none-x-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "15-default-icon-repair.png",
+      "comparison": "21-acad-draft-x.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "15-default-icon-repair.png",
+      "comparison": "26-restored-icon-second.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "03-all-draft.png",
+      "comparison": "16-all-card-repair.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        19,
+        387,
+        83,
+        432
+      ],
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "05-none-draft.png",
+      "comparison": "18-none-card-repair.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        19,
+        387,
+        83,
+        432
+      ],
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "06-acad-draft.png",
+      "comparison": "20-acad-card-repair.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        19,
+        387,
+        83,
+        432
+      ],
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "07-acad-applied.png",
+      "comparison": "10-all-draft-cancel.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "07-acad-applied.png",
+      "comparison": "22-acad-reapply.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "07-acad-applied.png",
+      "comparison": "23-acad-nochange-apply.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "07-acad-applied.png",
+      "comparison": "24-acad-applied-x.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "09-all-from-acad.png",
+      "comparison": "25-restore-all-second.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "34-tuesday-baseline.png",
+      "comparison": "38-tuesday-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "39-monday-reset-confirmed.png",
+      "comparison": "42-monday-return-confirmed.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "39-monday-reset-confirmed.png",
+      "comparison": "43-monday-return-settled.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "49-fresh-monday.png",
+      "comparison": "52-fresh-home-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "49-fresh-monday.png",
+      "comparison": "54-fresh-default-short-home.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "28-monday-start.png",
+      "comparison": "29-monday-default.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        83,
+        324,
+        123,
+        332
+      ],
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    },
+    {
+      "baseline": "29-monday-default.png",
+      "comparison": "30-monday-acad.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        83,
+        324,
+        155,
+        332
+      ],
+      "scope": "Finite prototype consistency only; no native/full-fidelity acceptance."
+    }
+  ],
+  "scope": "56 actual captures incl loading, missing glyph and Back failures; tool-only black preview contradicted by actual saved Home PNGs. Historical Sep28 fixed sample, synthetic private data."
+}

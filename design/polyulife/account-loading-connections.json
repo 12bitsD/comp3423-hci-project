@@ -1,0 +1,1633 @@
+{
+  "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+  "connections": [
+    {
+      "connection_id": "C-ACCOUNT-LOADING-636-107",
+      "action_id": null,
+      "source_node_id": "636:107",
+      "trigger_node_id": "636:107",
+      "target_node_id": "67:2",
+      "trigger": "After delay",
+      "behavior": "Swap overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "configured_at": "2026-09-30T16:54:39.455Z",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+        "PROTO-ACCOUNT-LOADING-MONDAY-001",
+        "PROTO-ACCOUNT-LOADING-LEGACY-001"
+      ],
+      "source_evidence_ids": [
+        "E-STUDY-LOADING",
+        "E-STUDY-COMPLETED"
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "readback": [
+        "\t\t\t\t\t\t449 combo box (collapsed) Trigger, Value: After delay, ID: :rp2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t462 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t455 combo box (collapsed) Action, Value: Swap overlay, ID: :rp5:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t466 combo box (collapsed) Destination, Value: [S-STUDY-COMPLETED] Completed — DEMO, ID: :rpl:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t471 combo box (collapsed) Animation, Value: Instant, ID: :rq2:, Secondary Actions: Expand",
+        "The focused UI element is 466 combo box (collapsed) Destination, Value: [S-STUDY-COMPLETED] Completed — DEMO, ID: :rpl:, Secondary Actions: Expand"
+      ],
+      "deviation_ids": [
+        "D-ACCOUNT-LOADING-LIMITS"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "delay_ms": 800,
+      "timing_policy": "Demo proxy; not measured native latency."
+    },
+    {
+      "connection_id": "C-ACCOUNT-LOADING-636-119",
+      "action_id": null,
+      "source_node_id": "636:119",
+      "trigger_node_id": "636:119",
+      "target_node_id": "67:271",
+      "trigger": "After delay",
+      "behavior": "Swap overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "configured_at": "2026-09-30T16:54:46.344Z",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+        "PROTO-ACCOUNT-LOADING-COURSES-REENTRY-001",
+        "PROTO-ACCOUNT-LOADING-MONDAY-001",
+        "PROTO-ACCOUNT-LOADING-LEGACY-001"
+      ],
+      "source_evidence_ids": [
+        "E-COURSES-LOADING",
+        "E-COURSES-CANVAS"
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "readback": [
+        "\t\t\t\t\t\t460 combo box (collapsed) Trigger, Value: After delay, ID: :rq7:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t473 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t466 combo box (collapsed) Action, Value: Swap overlay, ID: :rqa:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t477 combo box (collapsed) Destination, Value: [S-COURSES-CANVAS] Canvas — DEMO, ID: :rqq:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t482 combo box (collapsed) Animation, Value: Instant, ID: :rr7:, Secondary Actions: Expand",
+        "The focused UI element is 477 combo box (collapsed) Destination, Value: [S-COURSES-CANVAS] Canvas — DEMO, ID: :rqq:, Secondary Actions: Expand"
+      ],
+      "deviation_ids": [
+        "D-ACCOUNT-LOADING-LIMITS"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "delay_ms": 800,
+      "timing_policy": "Demo proxy; not measured native latency."
+    },
+    {
+      "configuration_history": [
+        {
+          "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+          "source_node_id": "636:75",
+          "trigger_node_id": "636:75",
+          "target_node_id": "67:513",
+          "behavior": "Navigate to",
+          "trigger": "After delay",
+          "configured_at": "2026-09-30T16:55:10.689Z",
+          "status": "superseded_during_current_batch",
+          "readback": [
+            "\t\t\t\t\t\t487 combo box (collapsed) Trigger, Value: After delay, ID: :rtb:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t\t500 text field (settable) After delay timeout, Value: 800ms",
+            "\t\t\t\t\t\t\t493 combo box (collapsed) Action, Value: Navigate to, ID: :rte:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t504 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rtu:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t509 combo box (collapsed) Animation, Value: Instant, ID: :rub:, Secondary Actions: Expand",
+            "The focused UI element is 504 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rtu:, Secondary Actions: Expand"
+          ]
+        }
+      ],
+      "connection_id": "C-ACCOUNT-LOADING-636-75",
+      "action_id": null,
+      "source_node_id": "636:75",
+      "trigger_node_id": "636:75",
+      "target_node_id": "67:513",
+      "trigger": "After delay",
+      "behavior": "Swap overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "configured_at": "2026-09-30T17:02:58.269Z",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-QR-OVERLAY-FIRST-001",
+        "PROTO-QR-OVERLAY-SECOND-001"
+      ],
+      "source_evidence_ids": [
+        "E-QR-LOADING",
+        "E-QR-DISPLAY"
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "readback": [
+        "\t\t\t\t\t\t318 combo box (collapsed) Trigger, Value: After delay, ID: :rao:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t324 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t327 combo box (collapsed) Action, Value: Swap overlay, ID: :rar:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t332 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rav:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t336 combo box (collapsed) Animation, Value: Instant, ID: :rb8:, Secondary Actions: Expand",
+        "The focused UI element is 327 combo box (collapsed) Action, Value: Swap overlay, ID: :rar:, Secondary Actions: Expand"
+      ],
+      "deviation_ids": [
+        "D-ACCOUNT-LOADING-LIMITS",
+        "D-QR-CALLER-IMAGE"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "delay_ms": 800,
+      "timing_policy": "Demo proxy; not measured native latency."
+    },
+    {
+      "connection_id": "C-HOME-SCROLL-113-39",
+      "action_id": "A-HOME-EP009",
+      "source_node_id": "67:694",
+      "target_node_id": "636:107",
+      "trigger_node_id": "113:39",
+      "trigger_node_name": "FeatureStudyProgress",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ACCOUNT-LOADING-TUESDAY-001"
+      ],
+      "configuration_evidence_ids": [
+        "E-HOME-SCROLL-PROTOTYPE-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-STUDY-LOADING",
+        "E-STUDY-COMPLETED"
+      ],
+      "deviation_ids": [
+        "D-HOME-SCROLL-EXTENT",
+        "D-HOME-SAMPLE-ENTRY",
+        "D-HOME-MODULE-RETURN",
+        "D-ACCOUNT-LOADING-LIMITS"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "configuration_history": [
+        {
+          "connection_id": "C-HOME-SCROLL-113-39",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:694",
+          "target_node_id": "67:2",
+          "trigger_node_id": "113:39",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+          "implementation_status": "configured_copied_not_run",
+          "prototype_run_ids": [],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+        },
+        {
+          "connection_id": "C-HOME-SCROLL-113-39",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:694",
+          "target_node_id": "67:2",
+          "trigger_node_id": "113:39",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+          "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE"
+          ]
+        },
+        {
+          "connection_id": "C-HOME-SCROLL-113-39",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:694",
+          "target_node_id": "67:2",
+          "trigger_node_id": "113:39",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-SCROLL-113-39",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:694",
+              "target_node_id": "67:2",
+              "trigger_node_id": "113:39",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "configured_copied_not_run",
+              "prototype_run_ids": [],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+            },
+            {
+              "connection_id": "C-HOME-SCROLL-113-39",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:694",
+              "target_node_id": "67:2",
+              "trigger_node_id": "113:39",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+              "prototype_run_ids": [
+                "PROTO-HOME-FEATURE-RETURN-001"
+              ],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-HOME-MODULE-RETURN"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+              "prototype_evidence_ids": [
+                "E-HOME-FEATURE-PROTOTYPE-TRACE"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE",
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+      "configured_at": "2026-09-30T16:55:48.128Z",
+      "readback": [
+        "\t\t\t\t\t\t453 combo box (collapsed) Trigger, Value: On click, ID: :r9h:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t459 combo box (collapsed) Action, Value: Open overlay, ID: :r9k:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t464 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r9o:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t471 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 464 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r9o:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "connection_id": "C-HOME-SCROLL-113-45",
+      "action_id": "A-HOME-EP010",
+      "source_node_id": "67:694",
+      "target_node_id": "636:119",
+      "trigger_node_id": "113:45",
+      "trigger_node_name": "FeatureMyCourses",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+        "PROTO-ACCOUNT-LOADING-COURSES-REENTRY-001"
+      ],
+      "configuration_evidence_ids": [
+        "E-HOME-SCROLL-PROTOTYPE-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-COURSES-LOADING",
+        "E-COURSES-CANVAS"
+      ],
+      "deviation_ids": [
+        "D-HOME-SCROLL-EXTENT",
+        "D-HOME-SAMPLE-ENTRY",
+        "D-HOME-MODULE-RETURN",
+        "D-ACCOUNT-LOADING-LIMITS"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "configuration_history": [
+        {
+          "connection_id": "C-HOME-SCROLL-113-45",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:694",
+          "target_node_id": "67:271",
+          "trigger_node_id": "113:45",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+          "implementation_status": "configured_copied_not_run",
+          "prototype_run_ids": [],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+        },
+        {
+          "connection_id": "C-HOME-SCROLL-113-45",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:694",
+          "target_node_id": "67:271",
+          "trigger_node_id": "113:45",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+          "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE"
+          ]
+        },
+        {
+          "connection_id": "C-HOME-SCROLL-113-45",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:694",
+          "target_node_id": "67:271",
+          "trigger_node_id": "113:45",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-SCROLL-113-45",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:694",
+              "target_node_id": "67:271",
+              "trigger_node_id": "113:45",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "configured_copied_not_run",
+              "prototype_run_ids": [],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+            },
+            {
+              "connection_id": "C-HOME-SCROLL-113-45",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:694",
+              "target_node_id": "67:271",
+              "trigger_node_id": "113:45",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+              "prototype_run_ids": [
+                "PROTO-HOME-FEATURE-RETURN-001"
+              ],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-HOME-MODULE-RETURN"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+              "prototype_evidence_ids": [
+                "E-HOME-FEATURE-PROTOTYPE-TRACE"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE",
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+      "configured_at": "2026-09-30T16:56:13.340Z",
+      "readback": [
+        "\t\t\t\t\t\t302 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t308 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t320 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 313 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "connection_id": "C-HOME-SCROLL-113-84",
+      "action_id": "A-HOME-EP009",
+      "source_node_id": "67:569",
+      "target_node_id": "636:107",
+      "trigger_node_id": "113:84",
+      "trigger_node_name": "FeatureStudyProgress",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ACCOUNT-LOADING-MONDAY-001"
+      ],
+      "configuration_evidence_ids": [
+        "E-HOME-SCROLL-PROTOTYPE-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-STUDY-LOADING",
+        "E-STUDY-COMPLETED"
+      ],
+      "deviation_ids": [
+        "D-HOME-SCROLL-EXTENT",
+        "D-HOME-SAMPLE-ENTRY",
+        "D-HOME-MODULE-RETURN",
+        "D-ACCOUNT-LOADING-LIMITS"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "configuration_history": [
+        {
+          "connection_id": "C-HOME-SCROLL-113-84",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:569",
+          "target_node_id": "67:2",
+          "trigger_node_id": "113:84",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+          "implementation_status": "configured_copied_not_run",
+          "prototype_run_ids": [],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+        },
+        {
+          "connection_id": "C-HOME-SCROLL-113-84",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:569",
+          "target_node_id": "67:2",
+          "trigger_node_id": "113:84",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+          "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE"
+          ]
+        },
+        {
+          "connection_id": "C-HOME-SCROLL-113-84",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:569",
+          "target_node_id": "67:2",
+          "trigger_node_id": "113:84",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-SCROLL-113-84",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:569",
+              "target_node_id": "67:2",
+              "trigger_node_id": "113:84",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "configured_copied_not_run",
+              "prototype_run_ids": [],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+            },
+            {
+              "connection_id": "C-HOME-SCROLL-113-84",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:569",
+              "target_node_id": "67:2",
+              "trigger_node_id": "113:84",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+              "prototype_run_ids": [
+                "PROTO-HOME-FEATURE-RETURN-001"
+              ],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-HOME-MODULE-RETURN"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+              "prototype_evidence_ids": [
+                "E-HOME-FEATURE-PROTOTYPE-TRACE"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE",
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+      "configured_at": "2026-09-30T16:56:21.265Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "connection_id": "C-HOME-SCROLL-113-90",
+      "action_id": "A-HOME-EP010",
+      "source_node_id": "67:569",
+      "target_node_id": "636:119",
+      "trigger_node_id": "113:90",
+      "trigger_node_name": "FeatureMyCourses",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ACCOUNT-LOADING-MONDAY-001"
+      ],
+      "configuration_evidence_ids": [
+        "E-HOME-SCROLL-PROTOTYPE-TRACE"
+      ],
+      "source_evidence_ids": [
+        "E-COURSES-LOADING",
+        "E-COURSES-CANVAS"
+      ],
+      "deviation_ids": [
+        "D-HOME-SCROLL-EXTENT",
+        "D-HOME-SAMPLE-ENTRY",
+        "D-HOME-MODULE-RETURN",
+        "D-ACCOUNT-LOADING-LIMITS"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "configuration_history": [
+        {
+          "connection_id": "C-HOME-SCROLL-113-90",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:569",
+          "target_node_id": "67:271",
+          "trigger_node_id": "113:90",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+          "implementation_status": "configured_copied_not_run",
+          "prototype_run_ids": [],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+        },
+        {
+          "connection_id": "C-HOME-SCROLL-113-90",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:569",
+          "target_node_id": "67:271",
+          "trigger_node_id": "113:90",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+          "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE"
+          ]
+        },
+        {
+          "connection_id": "C-HOME-SCROLL-113-90",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:569",
+          "target_node_id": "67:271",
+          "trigger_node_id": "113:90",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-FEATURE-RETURN-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "configuration_evidence_ids": [
+            "E-HOME-SCROLL-PROTOTYPE-TRACE"
+          ],
+          "source_evidence_ids": [
+            "E-HOME-STUDY-MAP-TRACE"
+          ],
+          "deviation_ids": [
+            "D-HOME-SCROLL-EXTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-SCROLL-113-90",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:569",
+              "target_node_id": "67:271",
+              "trigger_node_id": "113:90",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "configured_copied_not_run",
+              "prototype_run_ids": [],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained."
+            },
+            {
+              "connection_id": "C-HOME-SCROLL-113-90",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:569",
+              "target_node_id": "67:271",
+              "trigger_node_id": "113:90",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-CONTINUOUS-SCROLL",
+              "implementation_status": "entry_and_direct_home_return_passed_visual_partial",
+              "prototype_run_ids": [
+                "PROTO-HOME-FEATURE-RETURN-001"
+              ],
+              "configuration_evidence_ids": [
+                "E-HOME-SCROLL-PROTOTYPE-TRACE"
+              ],
+              "source_evidence_ids": [
+                "E-HOME-STUDY-MAP-TRACE"
+              ],
+              "deviation_ids": [
+                "D-HOME-SCROLL-EXTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-HOME-MODULE-RETURN"
+              ],
+              "source_fidelity": "Copied existing public/synthetic Home feature instance. Native action is not newly reobserved; source-state/data/loading differences retained.",
+              "prototype_evidence_ids": [
+                "E-HOME-FEATURE-PROTOTYPE-TRACE"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-HOME-FEATURE-PROTOTYPE-TRACE",
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+      "configured_at": "2026-09-30T16:56:35.809Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "connection_id": "C-HOME-STUDY",
+      "action_id": "A-HOME-EP009",
+      "source_node_id": "67:820",
+      "target_node_id": "636:107",
+      "trigger_node_id": "67:898",
+      "trigger_node_name": "FeatureStudyProgress",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "configured_at": "2026-09-30T16:56:42.988Z",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ACCOUNT-LOADING-LEGACY-001"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "deviation_ids": [
+        "D-STUDY-DEMO-CONTENT",
+        "D-HOME-SAMPLE-ENTRY",
+        "D-STUDY-STATIC-INPUT",
+        "D-HOME-MODULE-RETURN",
+        "D-ACCOUNT-LOADING-LIMITS"
+      ],
+      "configuration_history": [
+        {
+          "connection_id": "C-HOME-STUDY",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:820",
+          "target_node_id": "67:2",
+          "trigger_node_id": "67:898",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-STUDY-V2",
+          "configured_at": "2026-09-28T18:20:53.103Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001"
+          ],
+          "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        {
+          "connection_id": "C-HOME-STUDY",
+          "action_id": "A-HOME-EP009",
+          "source_node_id": "67:820",
+          "target_node_id": "67:2",
+          "trigger_node_id": "67:898",
+          "trigger_node_name": "FeatureStudyProgress",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "configured_at": "2026-09-28T18:20:53.103Z",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-STUDY",
+              "action_id": "A-HOME-EP009",
+              "source_node_id": "67:820",
+              "target_node_id": "67:2",
+              "trigger_node_id": "67:898",
+              "trigger_node_name": "FeatureStudyProgress",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-STUDY-V2",
+              "configured_at": "2026-09-28T18:20:53.103Z",
+              "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+              "prototype_run_ids": [
+                "PROTO-HOME-STUDY-V2-001"
+              ],
+              "source_fidelity": "Skips native loading and enters synthetic Completed sample.",
+              "deviation_ids": [
+                "D-STUDY-DEMO-CONTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-STUDY-STATIC-INPUT"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+      "source_evidence_ids": [
+        "E-STUDY-LOADING",
+        "E-STUDY-COMPLETED"
+      ],
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "connection_id": "C-HOME-COURSES",
+      "action_id": "A-HOME-EP010",
+      "source_node_id": "67:820",
+      "target_node_id": "636:119",
+      "trigger_node_id": "67:904",
+      "trigger_node_name": "FeatureMyCourses",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "configured_at": "2026-09-30T16:56:58.520Z",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ACCOUNT-LOADING-LEGACY-001"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "deviation_ids": [
+        "D-STUDY-DEMO-CONTENT",
+        "D-HOME-SAMPLE-ENTRY",
+        "D-STUDY-STATIC-INPUT",
+        "D-HOME-MODULE-RETURN",
+        "D-ACCOUNT-LOADING-LIMITS"
+      ],
+      "configuration_history": [
+        {
+          "connection_id": "C-HOME-COURSES",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:820",
+          "target_node_id": "67:271",
+          "trigger_node_id": "67:904",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-STUDY-V2",
+          "configured_at": "2026-09-28T18:20:53.103Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001",
+            "PROTO-STUDY-CJK-RECHECK"
+          ],
+          "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        {
+          "connection_id": "C-HOME-COURSES",
+          "action_id": "A-HOME-EP010",
+          "source_node_id": "67:820",
+          "target_node_id": "67:271",
+          "trigger_node_id": "67:904",
+          "trigger_node_name": "FeatureMyCourses",
+          "trigger": "On click",
+          "behavior": "Open overlay",
+          "revision_id": "FIGMA-STUDY-COURSES-STACK",
+          "configured_at": "2026-09-28T18:20:53.103Z",
+          "implementation_status": "tested_home_sample_stack_only",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001",
+            "PROTO-STUDY-CJK-RECHECK",
+            "PROTO-STUDY-COURSES-STACK-001"
+          ],
+          "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT",
+            "D-HOME-MODULE-RETURN"
+          ],
+          "configuration_history": [
+            {
+              "connection_id": "C-HOME-COURSES",
+              "action_id": "A-HOME-EP010",
+              "source_node_id": "67:820",
+              "target_node_id": "67:271",
+              "trigger_node_id": "67:904",
+              "trigger_node_name": "FeatureMyCourses",
+              "trigger": "On click",
+              "behavior": "Navigate to",
+              "revision_id": "FIGMA-HOME-STUDY-V2",
+              "configured_at": "2026-09-28T18:20:53.103Z",
+              "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+              "prototype_run_ids": [
+                "PROTO-HOME-STUDY-V2-001",
+                "PROTO-STUDY-CJK-RECHECK"
+              ],
+              "source_fidelity": "Skips native loading and enters synthetic Canvas sample.",
+              "deviation_ids": [
+                "D-STUDY-DEMO-CONTENT",
+                "D-HOME-SAMPLE-ENTRY",
+                "D-STUDY-STATIC-INPUT"
+              ]
+            }
+          ],
+          "prototype_evidence_ids": [
+            "E-STUDY-STACK-PROTOTYPE-TRACE"
+          ],
+          "overlay_options": {
+            "position": "Centered",
+            "close_on_outside_click": false,
+            "background": false,
+            "animation": "Instant"
+          },
+          "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts."
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "return_stack_note": "Preserves existing Home caller through Open/Swap/Close overlay for tested sample routes; no claim about unobserved native source states or standalone starts.",
+      "source_evidence_ids": [
+        "E-COURSES-LOADING",
+        "E-COURSES-CANVAS"
+      ],
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "connection_id": "C-HOME-QR",
+      "action_id": "A-HOME-EP011",
+      "source_node_id": "67:820",
+      "target_node_id": "636:75",
+      "trigger_node_id": "67:938",
+      "trigger_node_name": "NavQR",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "configured_at": "2026-09-30T17:02:55.918Z",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-QR-OVERLAY-FIRST-001",
+        "PROTO-QR-OVERLAY-SECOND-001"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "deviation_ids": [
+        "D-STUDY-DEMO-CONTENT",
+        "D-HOME-SAMPLE-ENTRY",
+        "D-STUDY-STATIC-INPUT",
+        "D-ACCOUNT-LOADING-LIMITS",
+        "D-QR-CALLER-IMAGE"
+      ],
+      "configuration_history": [
+        {
+          "connection_id": "C-HOME-QR",
+          "action_id": "A-HOME-EP011",
+          "source_node_id": "67:820",
+          "target_node_id": "67:513",
+          "trigger_node_id": "67:938",
+          "trigger_node_name": "NavQR",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-STUDY-V2",
+          "configured_at": "2026-09-28T18:25:43.945Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001"
+          ],
+          "source_fidelity": "Skips native loading and uses explicitly non-scannable QR placeholder.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        },
+        {
+          "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+          "source_node_id": "67:820",
+          "trigger_node_id": "67:938",
+          "target_node_id": "636:75",
+          "behavior": "Navigate to",
+          "trigger": "On click",
+          "configured_at": "2026-09-30T16:57:06.118Z",
+          "status": "superseded_during_current_batch",
+          "readback": [
+            "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8s:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Navigate to, ID: :r8v:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :r9c:, Secondary Actions: Expand",
+            "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand"
+          ]
+        },
+        {
+          "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+          "source_node_id": "67:820",
+          "trigger_node_id": "67:938",
+          "target_node_id": "636:75",
+          "behavior": "Navigate to",
+          "trigger": "On click",
+          "configured_at": "2026-09-30T17:02:32.430Z",
+          "status": "superseded_during_current_batch",
+          "readback": [
+            "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8s:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Navigate to, ID: :r8v:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand",
+            "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :r9c:, Secondary Actions: Expand",
+            "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand"
+          ]
+        }
+      ],
+      "source_evidence_ids": [
+        "E-QR-LOADING",
+        "E-QR-DISPLAY"
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r9q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r9u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t323 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :raf:",
+        "\t\t\t\t\t\t324 checkbox (settable, integer) Description: Background, Value: 0, ID: :rag:",
+        "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :ra7:, Secondary Actions: Expand",
+        "The focused UI element is 307 combo box (collapsed) Action, Value: Open overlay, ID: :r9q:, Secondary Actions: Expand"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      }
+    },
+    {
+      "connection_id": "C-QR-HOME",
+      "action_id": "A-QR-HOME",
+      "source_node_id": "67:513",
+      "target_node_id": null,
+      "trigger_node_id": "67:551",
+      "trigger_node_name": "NavHome",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "revision_id": "FIGMA-ACCOUNT-LOADING-20261001",
+      "configured_at": "2026-09-30T17:03:25.136Z",
+      "implementation_status": "configured_finite_samples_recorded_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-QR-OVERLAY-FIRST-001",
+        "PROTO-QR-OVERLAY-SECOND-001"
+      ],
+      "source_fidelity": "Recorded generic loading now precedes existing synthetic settled sample; copied Home date/source variants are prototype generalizations, not new native observations.",
+      "deviation_ids": [
+        "D-STUDY-DEMO-CONTENT",
+        "D-HOME-SAMPLE-ENTRY",
+        "D-STUDY-STATIC-INPUT",
+        "D-ACCOUNT-LOADING-LIMITS",
+        "D-QR-CALLER-IMAGE"
+      ],
+      "configuration_history": [
+        {
+          "connection_id": "C-QR-HOME",
+          "action_id": "A-QR-HOME",
+          "source_node_id": "67:513",
+          "target_node_id": "67:820",
+          "trigger_node_id": "67:551",
+          "trigger_node_name": "NavHome",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-HOME-STUDY-V2",
+          "configured_at": "2026-09-28T18:24:28.036Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-HOME-STUDY-V2-001"
+          ],
+          "source_fidelity": "Observed native action represented using fixed public/DEMO state; complete behavior not implied.",
+          "deviation_ids": [
+            "D-STUDY-DEMO-CONTENT",
+            "D-HOME-SAMPLE-ENTRY",
+            "D-STUDY-STATIC-INPUT"
+          ]
+        }
+      ],
+      "source_evidence_ids": [
+        "E-HOME-STUDY-MAP-TRACE"
+      ],
+      "prototype_evidence_ids": [
+        "E-ACCOUNT-LOADING-TRACE"
+      ],
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8i:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Close overlay, ID: :r8l:, Secondary Actions: Expand",
+        "The focused UI element is 307 combo box (collapsed) Action, Value: Close overlay, ID: :r8l:, Secondary Actions: Expand"
+      ],
+      "tested_target_node_ids": [
+        "67:820"
+      ],
+      "return_stack_note": "QR Home closes overlay only for established Home caller sample. Standalone QR start and other global callers/entries remain unimplemented."
+    }
+  ],
+  "configuration_history": [
+    {
+      "source": "636:107",
+      "trigger": "636:107",
+      "target": "67:2",
+      "event": "After delay",
+      "delay_ms": 800,
+      "behavior": "Swap overlay",
+      "action_id": null,
+      "configured_at": "2026-09-30T16:54:39.455Z",
+      "readback": [
+        "\t\t\t\t\t\t449 combo box (collapsed) Trigger, Value: After delay, ID: :rp2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t462 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t455 combo box (collapsed) Action, Value: Swap overlay, ID: :rp5:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t466 combo box (collapsed) Destination, Value: [S-STUDY-COMPLETED] Completed — DEMO, ID: :rpl:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t471 combo box (collapsed) Animation, Value: Instant, ID: :rq2:, Secondary Actions: Expand",
+        "The focused UI element is 466 combo box (collapsed) Destination, Value: [S-STUDY-COMPLETED] Completed — DEMO, ID: :rpl:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "636:119",
+      "trigger": "636:119",
+      "target": "67:271",
+      "event": "After delay",
+      "delay_ms": 800,
+      "behavior": "Swap overlay",
+      "action_id": null,
+      "configured_at": "2026-09-30T16:54:46.344Z",
+      "readback": [
+        "\t\t\t\t\t\t460 combo box (collapsed) Trigger, Value: After delay, ID: :rq7:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t473 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t466 combo box (collapsed) Action, Value: Swap overlay, ID: :rqa:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t477 combo box (collapsed) Destination, Value: [S-COURSES-CANVAS] Canvas — DEMO, ID: :rqq:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t482 combo box (collapsed) Animation, Value: Instant, ID: :rr7:, Secondary Actions: Expand",
+        "The focused UI element is 477 combo box (collapsed) Destination, Value: [S-COURSES-CANVAS] Canvas — DEMO, ID: :rqq:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "636:75",
+      "trigger": "636:75",
+      "target": "67:513",
+      "event": "After delay",
+      "delay_ms": 800,
+      "behavior": "Navigate to",
+      "action_id": null,
+      "configured_at": "2026-09-30T16:55:10.689Z",
+      "readback": [
+        "\t\t\t\t\t\t487 combo box (collapsed) Trigger, Value: After delay, ID: :rtb:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t500 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t493 combo box (collapsed) Action, Value: Navigate to, ID: :rte:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t504 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rtu:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t509 combo box (collapsed) Animation, Value: Instant, ID: :rub:, Secondary Actions: Expand",
+        "The focused UI element is 504 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rtu:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:694",
+      "trigger": "113:39",
+      "target": "636:107",
+      "previous_target": "67:2",
+      "event": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP009",
+      "configured_at": "2026-09-30T16:55:48.128Z",
+      "readback": [
+        "\t\t\t\t\t\t453 combo box (collapsed) Trigger, Value: On click, ID: :r9h:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t459 combo box (collapsed) Action, Value: Open overlay, ID: :r9k:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t464 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r9o:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t471 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 464 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r9o:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:694",
+      "trigger": "113:45",
+      "target": "636:119",
+      "previous_target": "67:271",
+      "event": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP010",
+      "configured_at": "2026-09-30T16:56:13.340Z",
+      "readback": [
+        "\t\t\t\t\t\t302 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t308 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t320 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 313 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:569",
+      "trigger": "113:84",
+      "target": "636:107",
+      "previous_target": "67:2",
+      "event": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP009",
+      "configured_at": "2026-09-30T16:56:21.265Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:569",
+      "trigger": "113:90",
+      "target": "636:119",
+      "previous_target": "67:271",
+      "event": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP010",
+      "configured_at": "2026-09-30T16:56:35.809Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:820",
+      "trigger": "67:898",
+      "target": "636:107",
+      "previous_target": "67:2",
+      "event": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP009",
+      "configured_at": "2026-09-30T16:56:42.988Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-STUDY-LOADING] Study — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:820",
+      "trigger": "67:904",
+      "target": "636:119",
+      "previous_target": "67:271",
+      "event": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP010",
+      "configured_at": "2026-09-30T16:56:58.520Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t319 combo box (collapsed) Animation, Value: Instant, ID: :r9a:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-COURSES-LOADING] Courses — observed loading, ID: :r8u:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:820",
+      "trigger": "67:938",
+      "target": "636:75",
+      "previous_target": "67:513",
+      "event": "On click",
+      "behavior": "Navigate to",
+      "action_id": "A-HOME-EP011",
+      "configured_at": "2026-09-30T16:57:06.118Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Navigate to, ID: :r8v:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :r9c:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:820",
+      "trigger": "67:938",
+      "target": "636:75",
+      "previous_target": "636:75",
+      "event": "On click",
+      "behavior": "Navigate to",
+      "action_id": "A-HOME-EP011",
+      "configured_at": "2026-09-30T17:02:32.430Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Navigate to, ID: :r8v:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :r9c:, Secondary Actions: Expand",
+        "The focused UI element is 312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r93:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:820",
+      "trigger": "67:938",
+      "target": "636:75",
+      "event": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP011",
+      "configured_at": "2026-09-30T17:02:55.918Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Open overlay, ID: :r9q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t312 combo box (collapsed) Destination, Value: [S-QR-LOADING] Campus QR — observed loading, ID: :r9u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t323 checkbox (settable, integer) Description: Close when clicking outside, Value: 0, ID: :raf:",
+        "\t\t\t\t\t\t324 checkbox (settable, integer) Description: Background, Value: 0, ID: :rag:",
+        "\t\t\t\t\t\t316 combo box (collapsed) Animation, Value: Instant, ID: :ra7:, Secondary Actions: Expand",
+        "The focused UI element is 307 combo box (collapsed) Action, Value: Open overlay, ID: :r9q:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "636:75",
+      "trigger": "636:75",
+      "target": "67:513",
+      "event": "After delay",
+      "delay_ms": 800,
+      "behavior": "Swap overlay",
+      "action_id": null,
+      "configured_at": "2026-09-30T17:02:58.269Z",
+      "readback": [
+        "\t\t\t\t\t\t318 combo box (collapsed) Trigger, Value: After delay, ID: :rao:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t324 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t327 combo box (collapsed) Action, Value: Swap overlay, ID: :rar:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t332 combo box (collapsed) Destination, Value: [S-QR-DISPLAY] Campus QR — non-scannable DEMO, ID: :rav:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t336 combo box (collapsed) Animation, Value: Instant, ID: :rb8:, Secondary Actions: Expand",
+        "The focused UI element is 327 combo box (collapsed) Action, Value: Swap overlay, ID: :rar:, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "source": "67:513",
+      "trigger": "67:551",
+      "target": null,
+      "previous_target": "67:820",
+      "event": "On click",
+      "behavior": "Close overlay",
+      "action_id": "A-QR-HOME",
+      "configured_at": "2026-09-30T17:03:25.136Z",
+      "readback": [
+        "\t\t\t\t\t\t301 combo box (collapsed) Trigger, Value: On click, ID: :r8i:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t307 combo box (collapsed) Action, Value: Close overlay, ID: :r8l:, Secondary Actions: Expand",
+        "The focused UI element is 307 combo box (collapsed) Action, Value: Close overlay, ID: :r8l:, Secondary Actions: Expand"
+      ]
+    }
+  ],
+  "flow_checks": [
+    {
+      "node": "636:107",
+      "lines": [
+        "\t\t\t\t\t\t\t299 button Add flow starting point"
+      ],
+      "verified_at": "2026-09-30T16:57:16.431Z"
+    },
+    {
+      "node": "636:119",
+      "lines": [
+        "\t\t\t\t\t\t\t299 button Add flow starting point"
+      ],
+      "verified_at": "2026-09-30T16:57:17.205Z"
+    },
+    {
+      "node": "636:75",
+      "lines": [
+        "\t\t\t\t\t\t\t299 button Add flow starting point"
+      ],
+      "verified_at": "2026-09-30T16:57:17.982Z"
+    }
+  ],
+  "native_arrays_unchanged": true,
+  "scope_completion_status": "not_verified",
+  "limits": [
+    "Generic loading marks are static raster; typography/icons approximate.",
+    "Study/Courses use Open/Swap overlays; QR initial Navigate implementation replaced after visual failure.",
+    "QR same PNG upload did not prevent initial blank return; later saved capture recovered. Underlying image root cause unisolated.",
+    "Final QR overlay sample passed finite navigation/photo checks; standalone/global-source semantics incomplete."
+  ]
+}

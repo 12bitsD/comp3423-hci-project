@@ -1,0 +1,192 @@
+{
+  "session_id": "SESSION-20260930-ROOM-PREVIEW-CONTROLS",
+  "steps": [
+    {
+      "label": "01-room-empty",
+      "at": "2026-09-30T00:53:08.568Z",
+      "state_id": "S-EMPTY",
+      "action_id": "A-HOME-ROOM",
+      "note": "Home Room opens initial Today30-Sep empty field.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-00"
+    },
+    {
+      "label": "02-room-all",
+      "at": "2026-09-30T00:58:22.894Z",
+      "state_id": "S-ALL",
+      "action_id": "A-ROOM-OTHER-QUERY",
+      "note": "Entered AG206 via setValue/Search then focused retyping; eventual screenshot confirms Today30-Sep ALL. Early AX still initial; invalid stale index attempted once, corrected using fresh AX.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-01"
+    },
+    {
+      "label": "03-preview-opening",
+      "at": "2026-09-30T00:58:35.732Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW",
+      "note": "Preview from ALL opens wrapper. Source screenshot is blank web area; saved full AX already contains AG206 webpage and disabled history controls. No visual loaded-page claim.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-02"
+    },
+    {
+      "label": "04-preview-top",
+      "at": "2026-09-30T00:58:43.641Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": null,
+      "note": "AG206 official page present in AX; saved screenshot still blank. Back and Forward disabled.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-03"
+    },
+    {
+      "label": "05-preview-menu",
+      "at": "2026-09-30T00:58:51.331Z",
+      "state_id": "S-MENU",
+      "action_id": "A-ROOM-PREVIEW-MENU",
+      "note": "More opens menu from embedded Preview.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-04"
+    },
+    {
+      "label": "06-copy-link-feedback",
+      "at": "2026-09-30T00:58:57.622Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW-COPY",
+      "note": "Copy link click dismisses menu. No visible copied toast in sampled screenshot and clipboard content not read or validated.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-05"
+    },
+    {
+      "label": "07-share-inspection",
+      "at": "2026-09-30T00:59:22.776Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW-SHARE",
+      "note": "Share via click dismisses menu; neither a share sheet nor recipients appear in sampled AX/screenshot. No sharing submitted; share capability unresolved.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-06"
+    },
+    {
+      "label": "08-preview-reload",
+      "at": "2026-09-30T00:59:54.010Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW-RELOAD",
+      "note": "Reload reconstructs AG206 webpage AX; source screenshot remains blank. Not proof of visual recovery or measured latency.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-07"
+    },
+    {
+      "label": "09-open-system-result",
+      "at": "2026-09-30T01:00:32.051Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW-OPEN-SYSTEM",
+      "note": "Menu dismisses. Subsequent live native Chrome handle reports Room Search at polyu.edu.hk/learningspaces/AG206/. Handoff proven by live AX; follow-up browser capture interrupted by user interaction and not archived.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-08"
+    },
+    {
+      "label": "11-preview-pdf",
+      "at": "2026-09-30T01:02:53.771Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW-PDF",
+      "note": "Actual AX AirMedia_Manual.pdf link clicked. Immediate sample still AG206. Subsequent login boundary proves navigation reached authentication, not readable PDF.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-09"
+    },
+    {
+      "label": "14-login-boundary",
+      "at": "2026-09-30T01:04:03.665Z",
+      "state_id": "S-PREVIEW-LOGIN",
+      "action_id": null,
+      "note": "PolyU login is visible in screenshot; AX Sign in with your NetID and NetPassword, empty placeholder fields. Back enabled, Forward disabled. No credentials entered.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-10"
+    },
+    {
+      "label": "15-browser-back",
+      "at": "2026-09-30T01:04:15.363Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW-BROWSER-BACK",
+      "note": "Back returns Room Search AX, with Back disabled and Forward enabled. Sampled web screenshot is blank.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-11"
+    },
+    {
+      "label": "16-browser-forward",
+      "at": "2026-09-30T01:04:26.808Z",
+      "state_id": "S-PREVIEW-LOGIN",
+      "action_id": "A-ROOM-PREVIEW-BROWSER-FORWARD",
+      "note": "Forward returns login AX, Back enabled and Forward disabled. Sampled webpage is blank; this does not prove the visual login rendered in this sample.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-12"
+    },
+    {
+      "label": "17-room-after-external-change",
+      "at": "2026-09-30T01:05:08.119Z",
+      "state_id": "S-ALL",
+      "action_id": null,
+      "note": "User changed app before intended Back. Fresh AX/screenshot confirms Room AG206 Today30-Sep ALL. Not an Agent close/back execution.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-13"
+    },
+    {
+      "label": "18-preview-reopen",
+      "at": "2026-09-30T01:05:24.035Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW",
+      "note": "Agent reopens Preview: Room Search and both history buttons disabled. Loading mark visible in screenshot; final page rendering not verified.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-14"
+    },
+    {
+      "label": "20-photo-previous-attempt",
+      "at": "2026-09-30T01:06:06.277Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW-PREV",
+      "note": "Previous button click changed AX Slide 3 to Slide 1. Screenshot remains blank; exact one-step sequence/autoplay/visual identity/endpoints unknown. Earlier scroll failed noWindowsAvailable; same handle revalidated before click.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-15"
+    },
+    {
+      "label": "21-photo-next-current",
+      "at": "2026-09-30T01:06:23.563Z",
+      "state_id": "S-PREVIEW-AX-ONLY",
+      "action_id": "A-ROOM-PREVIEW-NEXT",
+      "note": "Next button click changed AX Slide 1 to Slide 3. Screenshot remains blank; exact photo order/autoplay/endpoints not proven.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-16"
+    },
+    {
+      "label": "22-preview-close-room",
+      "at": "2026-09-30T01:06:40.594Z",
+      "state_id": "S-ALL",
+      "action_id": "A-ROOM-PREVIEW-CLOSE",
+      "note": "Agent X closes Preview; screenshot confirms AG206, Today30-Sep and ALL retained.",
+      "evidence_id": "E-ROOM-PREVIEW-CONTROLS-17"
+    }
+  ],
+  "source_crop_xyxy": [
+    978,
+    0,
+    2046,
+    1898
+  ],
+  "output_dimensions": [
+    576,
+    1024
+  ],
+  "full_app_completion": "not_verified",
+  "source_failures": [
+    "Invalid stale native element index; corrected from fresh AX",
+    "Chrome follow-up capture interrupted by user interaction",
+    "Scroll returned noWindowsAvailable; same handle revalidated",
+    "User changed app before intended Back; external return not counted as Agent action"
+  ],
+  "normal_window_thumbnails": [
+    {
+      "file": "12-normal-window.png",
+      "source_dimensions": [
+        104,
+        194
+      ],
+      "public_archive": false
+    },
+    {
+      "file": "13-zoomed-login.png",
+      "source_dimensions": [
+        128,
+        238
+      ],
+      "public_archive": false
+    },
+    {
+      "file": "23-restored-window.png",
+      "source_dimensions": [
+        128,
+        238
+      ],
+      "public_archive": false
+    }
+  ]
+}

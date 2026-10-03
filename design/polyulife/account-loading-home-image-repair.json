@@ -1,0 +1,35 @@
+{
+  "root_node_id": "67:820",
+  "image_node_id": "67:917",
+  "asset": "design/polyulife/assets/home-demo-public-preview.png",
+  "before": [
+    "\t\t\t\t\t\t\t\t\t251 stepper (settable, integer) Description: X-position, Value: 44",
+    "\t\t\t\t\t\t\t\t\t252 stepper (settable, integer) Description: Y-position, Value: 899",
+    "\t\t\t\t\t\t\t\t\t\t279 text field (settable) Description: Width, Value: 489",
+    "\t\t\t\t\t\t\t\t\t\t282 text field (settable) Description: Height, Value: 22",
+    "\t\t\t\t\t\t\t\t\t\t\t\t\t591 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":44,\"1\":210,\"2\":203,\"3\":238,\"4\":54,\"5\":237,\"6\":162,\"7\":93,\"8\":85,\"9\":78,\"10\":252,\"11\":56,\"12\":229,\"13\":68,\"14\":182,\"15\":126,\"16\":213,\"17\":108,\"18\":80,\"19\":154},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":176,\"1\":145,\"2\":188,\"3\":155,\"4\":25,\"5\":126,\"6\":237,\"7\":124,\"8\":45,\"9\":164,\"10\":68,\"11\":185,\"12\":115,\"13\":26,\"14\":208,\"15\":18,\"16\":186,\"17\":210,\"18\":164,\"19\":83},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":false,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":902,\"originalImageHeight\":40,\"thumbHash\":{},\"altText\":\"\"}"
+  ],
+  "after": [
+    "\t\t\t\t\t\t\t\t\t251 stepper (settable, integer) Description: X-position, Value: 44",
+    "\t\t\t\t\t\t\t\t\t252 stepper (settable, integer) Description: Y-position, Value: 899",
+    "\t\t\t\t\t\t\t\t\t\t279 text field (settable) Description: Width, Value: 489",
+    "\t\t\t\t\t\t\t\t\t\t282 text field (settable) Description: Height, Value: 22",
+    "\t\t\t\t\t\t\t\t\t\t\t\t\t591 image chit for {\"type\":\"IMAGE\",\"opacity\":1,\"visible\":true,\"blendMode\":\"NORMAL\",\"transform\":{\"m00\":1,\"m01\":0,\"m02\":0,\"m10\":0,\"m11\":1,\"m12\":0},\"image\":{\"hash\":{\"0\":44,\"1\":210,\"2\":203,\"3\":238,\"4\":54,\"5\":237,\"6\":162,\"7\":93,\"8\":85,\"9\":78,\"10\":252,\"11\":56,\"12\":229,\"13\":68,\"14\":182,\"15\":126,\"16\":213,\"17\":108,\"18\":80,\"19\":154},\"name\":\"\"},\"imageThumbnail\":{\"hash\":{\"0\":176,\"1\":145,\"2\":188,\"3\":155,\"4\":25,\"5\":126,\"6\":237,\"7\":124,\"8\":45,\"9\":164,\"10\":68,\"11\":185,\"12\":115,\"13\":26,\"14\":208,\"15\":18,\"16\":186,\"17\":210,\"18\":164,\"19\":83},\"name\":\"\"},\"animationFrame\":0,\"imageScaleMode\":\"STRETCH\",\"imageShouldColorManage\":true,\"rotation\":0,\"scale\":0.5,\"originalImageWidth\":902,\"originalImageHeight\":40,\"thumbHash\":{},\"altText\":\"\"}"
+  ],
+  "cause": "not_isolated",
+  "configured_at": "2026-09-30T17:01:39.525Z",
+  "asset_sha256": "c95dc6df5c7ac832f18c3e84738c442ba5be6f882754dbcac0987c0ec26da2fa",
+  "failure_evidence_ids": [
+    "E-ACCOUNT-LOADING-SCREEN-43",
+    "E-ACCOUNT-LOADING-SCREEN-44",
+    "E-ACCOUNT-LOADING-SCREEN-50"
+  ],
+  "later_recovery_evidence_ids": [
+    "E-ACCOUNT-LOADING-SCREEN-51"
+  ],
+  "follow_up_overlay_run_ids": [
+    "PROTO-QR-OVERLAY-FIRST-001",
+    "PROTO-QR-OVERLAY-SECOND-001"
+  ],
+  "result": "Same PNG first return blank then later recovery; overlay sample retains photo in two circuits. Root cause not isolated."
+}

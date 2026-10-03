@@ -1,0 +1,91 @@
+[
+  {
+    "label": "today-all",
+    "root_node_id": "412:19",
+    "replaced_node_id": "412:27",
+    "viewport_node_id": "463:19",
+    "content_node_id": "463:21",
+    "position": [
+      30,
+      100
+    ],
+    "dimensions": [
+      516,
+      84
+    ],
+    "content_width": 658,
+    "initial_offset": 0,
+    "status": "configured_horizontal_not_replayed",
+    "outgoing_date_connection": null,
+    "initializer_status": "configured_1ms_instant_scroll_to",
+    "initializer_readback_at": "2026-09-30T01:38:36.327Z"
+  },
+  {
+    "label": "today-available",
+    "root_node_id": "412:216",
+    "replaced_node_id": "412:224",
+    "viewport_node_id": "465:19",
+    "content_node_id": "465:21",
+    "position": [
+      30,
+      100
+    ],
+    "dimensions": [
+      516,
+      84
+    ],
+    "content_width": 658,
+    "initial_offset": 0,
+    "status": "configured_horizontal_not_replayed",
+    "initializer_status": "configured_1ms_instant_scroll_to",
+    "initializer_readback_at": "2026-09-30T01:41:25.020Z",
+    "trigger_node_id": "465:26",
+    "next_day": "Thu",
+    "target_node_id": "412:317",
+    "replaced_connection_id": "C-ROOM-DATES-01"
+  },
+  {
+    "label": "thursday-available",
+    "root_node_id": "412:317",
+    "replaced_node_id": "412:325",
+    "viewport_node_id": "466:19",
+    "content_node_id": "466:21",
+    "position": [
+      30,
+      100
+    ],
+    "dimensions": [
+      516,
+      84
+    ],
+    "content_width": 658,
+    "initial_offset": 0,
+    "status": "configured_horizontal_not_replayed",
+    "initializer_status": "configured_1ms_instant_scroll_to",
+    "initializer_readback_at": "2026-09-30T01:44:03.901Z"
+  },
+  {
+    "label": "thursday-all",
+    "root_node_id": "412:400",
+    "replaced_node_id": "412:408",
+    "viewport_node_id": "467:19",
+    "content_node_id": "467:21",
+    "position": [
+      30,
+      100
+    ],
+    "dimensions": [
+      516,
+      84
+    ],
+    "content_width": 658,
+    "initial_offset": 0,
+    "status": "configured_horizontal_not_replayed",
+    "initializer_status": "configured_1ms_instant_scroll_to",
+    "initializer_readback_at": "2026-09-30T01:44:39.653Z",
+    "trigger_node_id": "467:30",
+    "next_day": "Fri",
+    "target_node_id": "412:551",
+    "replaced_connection_id": "C-ROOM-DATES-04"
+  }
+]

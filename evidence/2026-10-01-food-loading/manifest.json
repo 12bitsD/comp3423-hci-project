@@ -1,0 +1,505 @@
+{
+  "kind": "figma_food_loading",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-detail-import.png",
+      "sha256": "1a66efead052644534879732f117117f2dad8147d8d52bab6e172c451765bac8",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:31:23.588Z",
+      "description": "Imported public observed loading SVG, actual geometry checked.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-map-import.png",
+      "sha256": "872fcb8ac030f290c759d64eee64fc7f9aaaa5e4cc7abb45d13adfc642701102",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:31:33.779Z",
+      "description": "Imported public observed loading SVG, actual geometry checked.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-map-delay-config.png",
+      "sha256": "d5d2ecb514497fa637c254a3c1622cba2038f2d5f9ac45289715649cfbce77d7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:31:55.030Z",
+      "description": "After delay800ms Swap overlay to50:2246, prototype latency only.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "04-detail-delay-config.png",
+      "sha256": "39a6ab7916deceeb1704487b6f87f7ad0440b760d0419170b7fe3e8911360555",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:32:01.580Z",
+      "description": "After delay800ms Swap overlay to50:2013, prototype latency only.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "05-hours-entry-config.png",
+      "sha256": "018918aa4e7a350f7979c6ae1cedce7ea103943e46a8fbf72258cb265ed59bc1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:32:25.843Z",
+      "description": "Existing Open overlay destination replaced with observed loading.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "06-direct-entry-config.png",
+      "sha256": "ba214e59dae62db01dcfe782a4a77f5387e801d5009af2627ca9889ce67ebaaf",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:32:40.098Z",
+      "description": "Existing Open overlay destination replaced with observed loading.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "07-map-entry-config.png",
+      "sha256": "a5c301b170d78ed61d90f4606f3424d4bf194d3f1b1df22f8e8422f65a625535",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:33:03.725Z",
+      "description": "Existing Open overlay destination replaced with observed loading.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "08-detail-root-no-extra-flow.png",
+      "sha256": "73c6d2cdba948db7de4228d391be0ba773912d96e33ad39286f31294d0c9e112",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:33:04.812Z",
+      "description": "Detail loading root flow start check after incoming connections.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "09-map-root-no-extra-flow.png",
+      "sha256": "aa580bb3ed4847d4390fa9e39c5d6c723c18b5ef0ec600279539914f9a7593c8",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:33:15.458Z",
+      "description": "Map loading root has Add flow starting point, no extra flow.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "10-home-baseline.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:33:23.234Z",
+      "description": "Tuesday DEMO Home baseline for Food loading circuit.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "11-home-feature-baseline.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:33:31.913Z",
+      "description": "Home feature area baseline retained for outer Food return.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "12-food-list-baseline.png",
+      "sha256": "6e9efa803248fe5264a1862fb7fc356612b61dee122641a539d5c2fd5ef625ff",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:33:40.943Z",
+      "description": "Food list entered from Tuesday Home.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "13-hours-baseline.png",
+      "sha256": "20b9cdbb503ce8dcffe141e65cc4b2cb3a4ec2a1e3099a08eb7abb961f20ccd9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:33:54.757Z",
+      "description": "First venue hours expanded, native-observed entry context.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "14-detail-loading.png",
+      "sha256": "c5624b121eb5e0a11ad8d310588f64842371d39aa9d50ef6be87a8fb297e73f7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:33:55.018Z",
+      "description": "Actual transient detail with embedded-map loading mark.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "15-detail-settled.png",
+      "sha256": "77fbfd5461099d0f6315af03a6bebccf00273ba1237e576e384f577c8cfffc3d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:34:08.837Z",
+      "description": "Loaded detail map and public hero visible.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "16-map-loading.png",
+      "sha256": "5bc337bf02fd5f0111d19140e0fd71add88aae6e3de050c046cf5a46d876c797",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:34:09.069Z",
+      "description": "Actual short full-map loading, gray blank body/top mark.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "17-map-settled.png",
+      "sha256": "f5d675b99ff5f9fde300c574b00a50da7fc4c327595949e9e8371ce333dcf248",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:34:24.754Z",
+      "description": "Settled full map visible after loading overlay swap.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "18-panned-first-saved-visible.png",
+      "sha256": "467b0332a557795aa8ee4cbc6810e47239f05ca74e4bfd96d02173e4fb7535da",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:34:32.445Z",
+      "description": "Immediate tool screenshot was blank, but by first file capture geography had restored. Saved pixels contain the map; transient was not archived as a blank screenshot.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "19-panned-map-visible.png",
+      "sha256": "467b0332a557795aa8ee4cbc6810e47239f05ca74e4bfd96d02173e4fb7535da",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:34:44.547Z",
+      "description": "Subsequent panned geography visibly restored; no image reupload performed.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "20-detail-map-return.png",
+      "sha256": "77fbfd5461099d0f6315af03a6bebccf00273ba1237e576e384f577c8cfffc3d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:34:44.804Z",
+      "description": "Panned map Close overlay restores original detail.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "21-hours-return.png",
+      "sha256": "20b9cdbb503ce8dcffe141e65cc4b2cb3a4ec2a1e3099a08eb7abb961f20ccd9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:34:45.074Z",
+      "description": "Loaded detail Close overlay restores expanded-hours caller.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "22-home-feature-return.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:34:56.745Z",
+      "description": "Outer Food exit restores scrolled Home feature area.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "23-direct-list-baseline.png",
+      "sha256": "6e9efa803248fe5264a1862fb7fc356612b61dee122641a539d5c2fd5ef625ff",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:35:05.770Z",
+      "description": "Reentered unexpanded list; direct entry remains native-source generalization.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "24-direct-detail-loading.png",
+      "sha256": "9c262f33ce4e1051f10d89bfeb90aff97b0521b128044bae0ee34981731f8090",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:35:06.019Z",
+      "description": "Direct-list prototype entry reaches same detail loading.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "25-direct-detail-settled.png",
+      "sha256": "77fbfd5461099d0f6315af03a6bebccf00273ba1237e576e384f577c8cfffc3d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:35:24.062Z",
+      "description": "Direct entry settled detail, raster hero/map visible.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "26-direct-list-return.png",
+      "sha256": "6e9efa803248fe5264a1862fb7fc356612b61dee122641a539d5c2fd5ef625ff",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:35:24.327Z",
+      "description": "Detail return preserves unexpanded list caller.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "27-home-direct-return.png",
+      "sha256": "617e054894ab63ebcd0aa9e99c21a89e8289b4d14c8119316d6b00a88593e152",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:35:24.559Z",
+      "description": "Direct Food circuit restores scrolled Tuesday Home.",
+      "source": "Actual Computer Use Figma prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "28-detail-final-root.png",
+      "sha256": "b788950e1cf186abe177312dedbb193e31a79595ed0111ba5e7ad8e7afb01144",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:36:13.277Z",
+      "description": "Final detail loading root has Add flow starting point, no extra flow.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "29-detail-final-delay-readback.png",
+      "sha256": "0955742ffcd731421e426bf4ee4b531d2d64534cff8a6a5831ec0f11c219a2e2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:36:13.685Z",
+      "description": "Final detail After delay800ms/Swap overlay/Instant readback.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "30-map-final-delay-readback.png",
+      "sha256": "03526b2109b996762538e513af5a24ae79b6b0d9d53d4a63a20506ef029f9612",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T16:36:25.568Z",
+      "description": "Final full-map After delay800ms/Swap overlay/Instant readback.",
+      "source": "Actual Computer Use Figma editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "8650740f22ad865ec99d05cccc500fb4f2c1581cd8246e2e1b27c5fbc877e647",
+    "dimensions": [
+      1143,
+      1332
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "15-detail-settled.png",
+      "comparison": "20-detail-map-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "13-hours-baseline.png",
+      "comparison": "21-hours-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "11-home-feature-baseline.png",
+      "comparison": "22-home-feature-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "23-direct-list-baseline.png",
+      "comparison": "26-direct-list-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "11-home-feature-baseline.png",
+      "comparison": "27-home-direct-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "14-detail-loading.png",
+      "comparison": "24-direct-detail-loading.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        157,
+        435,
+        222,
+        485
+      ],
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "15-detail-settled.png",
+      "comparison": "25-direct-detail-settled.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "18-panned-first-saved-visible.png",
+      "comparison": "19-panned-map-visible.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    },
+    {
+      "baseline": "12-food-list-baseline.png",
+      "comparison": "23-direct-list-baseline.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype sample consistency only, not native fidelity."
+    }
+  ],
+  "scope": "Actual finite prototype captures; panned immediate tool transient not in saved screenshot, no new native/human observations."
+}

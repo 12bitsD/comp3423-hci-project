@@ -1,0 +1,128 @@
+{
+  "file": "food-oct3-blocky-self-map-loading.svg",
+  "sha256": "a5dd435c9d13ae649d357a37dc82518c4b3405fe8829224765b0463af20bcee1",
+  "state_id": "S-FOOD-OCT3-BLOCKY-SELF-MAP-LOADING",
+  "source_evidence_ids": [
+    "E-FOOD-TAGS-07"
+  ],
+  "dimensions": [
+    576,
+    1024
+  ],
+  "assets": [
+    {
+      "file": "assets/food-oct3-blocky-self-hero.png",
+      "sha256": "b30e76daa0a970872be76acf633ce46ac00e021ebc6990126325017b9eec86ae",
+      "dimensions": [
+        278,
+        226
+      ],
+      "crop_xyxy": [
+        151,
+        100,
+        429,
+        326
+      ],
+      "source_evidence_id": "E-FOOD-TAGS-07",
+      "source_sha256": "8e134dfa84a98c5ec5319016782fcee78c1be0fc19189f07b7c7af6cbabedf9d",
+      "limits": "Unmodified public source crop; cursor/halo retained if present; raster appearance only"
+    },
+    {
+      "file": "assets/food-oct3-blocky-self-inline-loading.png",
+      "sha256": "e757a423bbc433d847289ec189682e0269400feb7b71ea7ea5026fab308e1ee8",
+      "dimensions": [
+        60,
+        60
+      ],
+      "crop_xyxy": [
+        258,
+        758,
+        318,
+        818
+      ],
+      "source_evidence_id": "E-FOOD-TAGS-07",
+      "source_sha256": "8e134dfa84a98c5ec5319016782fcee78c1be0fc19189f07b7c7af6cbabedf9d",
+      "limits": "Unmodified public source crop; cursor/halo retained if present; raster appearance only"
+    },
+    {
+      "file": "assets/food-oct3-blocky-self-expand-map.png",
+      "sha256": "d314e5f1454e464691267d8ae1f186262c820924091ccc5b926ef400fabf8d22",
+      "dimensions": [
+        73,
+        69
+      ],
+      "crop_xyxy": [
+        445,
+        755,
+        518,
+        824
+      ],
+      "source_evidence_id": "E-FOOD-TAGS-07",
+      "source_sha256": "8e134dfa84a98c5ec5319016782fcee78c1be0fc19189f07b7c7af6cbabedf9d",
+      "limits": "Unmodified public source crop; cursor/halo retained if present; raster appearance only"
+    }
+  ],
+  "status": "actual_imported_independent_reference_displayed_partial",
+  "node_id": "1045:19",
+  "base_source_file": "food-oct3-blocky-detail.svg",
+  "base_source_sha256": "e3290bff55b39b7785ed506dcc90f76e850e1c00e0e5a43c48ff74ae98e2851e",
+  "limits": [
+    "Archived native self-detail sample only; no settled nested map or loading latency saved.",
+    "Card bottom and radius38 approximate visible reconstruction; fonts/geometry unverified.",
+    "Hero includes captured cursor/halo; loading and expand-map are separate raster crops, not interactive controls.",
+    "No native input or Figma import by this generator; no caller/Back/zoom/map navigation."
+  ],
+  "node_name": "[FOOD-OCT3:SELF-LOADING] Block Y — Taiwanese caller inline map pending",
+  "canvas_position": [
+    2800,
+    100000
+  ],
+  "editor_evidence_ids": [
+    "E-FOOD-SELF-LOADING-00",
+    "E-FOOD-SELF-LOADING-01",
+    "E-FOOD-SELF-LOADING-02",
+    "E-FOOD-SELF-LOADING-03",
+    "E-FOOD-SELF-LOADING-04",
+    "E-FOOD-SELF-LOADING-05",
+    "E-FOOD-SELF-LOADING-07",
+    "E-FOOD-SELF-LOADING-08",
+    "E-FOOD-SELF-LOADING-09",
+    "E-FOOD-SELF-LOADING-10",
+    "E-FOOD-SELF-LOADING-13",
+    "E-FOOD-SELF-LOADING-READBACK"
+  ],
+  "prototype_evidence_ids": [
+    "E-FOOD-SELF-LOADING-06",
+    "E-FOOD-SELF-LOADING-11",
+    "E-FOOD-SELF-LOADING-12"
+  ],
+  "prototype_run_ids": [
+    "PROTO-FOOD-OCT3-SELF-LOADING-REF-001"
+  ],
+  "flow": {
+    "name": "Reference · Block Y self result — Taiwanese caller — inline map loading",
+    "start_node_id": "1045:19",
+    "description": "Independent archived E-FOOD-TAGS-07 sample of Taiwanese query opening Block Y self-detail. Inline map area contains a loading mark and expand button appearance, not settled geography. No automatic delay, settled state or loading latency inferred. Header/body text editable; hero/loading/expand-map appearance are separate raster source crops, including observed cursor/halo. No query result/caller/Back/image/map navigation or scrolling configured.576x1024 finite reference; exact fonts/card/bounds unknown. Full app/fidelity not_verified; native evidence, Figma reference and human evaluation separate.",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=1045-19&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1045%3A19&show-proto-sidebar=1"
+  },
+  "actual_layer_nodes": {
+    "loading": "1045:74",
+    "expand_map": "1045:76",
+    "hero": "1045:26",
+    "title": "1045:30"
+  },
+  "actual_reupload_evidence_ids": [
+    "E-FOOD-SELF-LOADING-08",
+    "E-FOOD-SELF-LOADING-09",
+    "E-FOOD-SELF-LOADING-10"
+  ],
+  "current_limits": [
+    "Archived E-FOOD-TAGS-07 Taiwanese self-result detail shows inline map loading mark. No settled nested map sample or latency saved; no timer or automatic loaded state invented.",
+    "Actual root1045:19 at2800,100000,576x1024; title Text Inter Bold22px at35,355. Header/body/tags remain editable reconstruction; exact geometry/fonts/native bounds unverified.",
+    "Hero278x226 at151,100, loading60x60 at258,758 and expand-map73x69 at445,755 are separate public screenshot crops. Captured cursor/halo retained; raster expand button has no navigation. Card bottom radius38/bodyF7F9F6 approximate visible sample.",
+    "First actual Present06 saved pixels lack all three images, despite editor Image fills and tool preview showing hero. Same assets reuploaded through Figma image upload UI; actual saved11 and12 show all images and app crops equal. Failure and tool/file discrepancy retained; cause not isolated, future image reliability unknown.",
+    "Image fill locator initially had no match while Prototype active; no input sent. Explicit Design tab then upload recovered, failed07 selection captured.",
+    "Current native read returns Mac locked; no new native session/state/action, settings change or business submission.",
+    "Earlier Action navigation URL-protocol refusal not retried or bypassed; import/source/layout/independent reference and image upload are separate operations. Query-result/Back/caller/image/map navigation and full application/fidelity remain not_verified."
+  ]
+}

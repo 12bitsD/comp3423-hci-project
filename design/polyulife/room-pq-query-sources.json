@@ -1,0 +1,177 @@
+{
+  "sources": [
+    {
+      "file": "room-pq-initial.svg",
+      "sha256": "c4520a698c97ac5fddb6c29fad6cf7c4c83eeff5686ac5ec67ca6f1a4ec85d62",
+      "state_id": "S-EMPTY",
+      "source_evidence_ids": [
+        "E-EMPTY"
+      ],
+      "source_file": "evidence/2026-09-28-full-audit/room-134522-empty.png",
+      "source_sha256": "ff0750f52f034ace55ce3e61eadc739dd8cb75ee65eac27380f09d05a9a2155c",
+      "dimensions": [
+        576,
+        970
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20260928-pq-query",
+      "node_id": "846:19",
+      "node_name": "[PQ:INITIAL] Room — September28 initial",
+      "imported_at": "2026-10-03T02:03:32.501Z",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ]
+    },
+    {
+      "file": "room-pq-typed.svg",
+      "sha256": "80ce962541d123c01a7d73520024e42af1aa0f82a24ff3e2cd52905a115c4c6e",
+      "state_id": "S-PQ",
+      "source_evidence_ids": [
+        "E-PQ"
+      ],
+      "source_file": "evidence/2026-09-28-full-audit/room-135053-pq604-input.png",
+      "source_sha256": "0117b7a17475725cb7917e88d838d4b92997d5199b4974e03cd26d96556304fa",
+      "dimensions": [
+        576,
+        970
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20260928-pq-query",
+      "node_id": "846:55",
+      "node_name": "[PQ:INPUT] Room — PQ604 entered",
+      "imported_at": "2026-10-03T02:03:37.513Z",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ]
+    },
+    {
+      "file": "room-pq-none.svg",
+      "sha256": "40f6fb016e33911515968fce0454786f88011d3e1ffb6ac89c71eb54078965ec",
+      "state_id": "S-PQNONE",
+      "source_evidence_ids": [
+        "E-PQNONE"
+      ],
+      "source_file": "evidence/2026-09-28-full-audit/room-135149-pq604-no-room.png",
+      "source_sha256": "9d72f23baa1c5662ef49b84e0ab23b5540323e9354b235391d895f5684ef653e",
+      "dimensions": [
+        576,
+        970
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20260928-pq-query",
+      "node_id": "846:105",
+      "node_name": "[PQ:NONE] Room — PQ604 no result",
+      "imported_at": "2026-10-03T02:03:38.685Z",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ]
+    },
+    {
+      "file": "room-pq-b-focused.svg",
+      "sha256": "3e4c0b09453df393012929c653458d4720f1d86dcdfab50ad35ac31e52c23f4c",
+      "state_id": "S-PQB",
+      "source_evidence_ids": [
+        "E-PQB"
+      ],
+      "source_file": "evidence/2026-09-28-full-audit/room-135252-pq604b-input.png",
+      "source_sha256": "8b907c402181c5e9f4f13663faca84b4268f599329e7f36a8c5e4750fa158e5b",
+      "dimensions": [
+        576,
+        970
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20260928-pq-query",
+      "node_id": "846:392",
+      "node_name": "[PQ:B-INPUT] Room — PQ604B focused",
+      "imported_at": "2026-10-03T02:04:17.249Z",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ]
+    },
+    {
+      "file": "room-pq-b-none.svg",
+      "sha256": "544580007769a0c3822a03f5bd670a4298abe32741d26d55af34dbadc7ec25c1",
+      "state_id": "S-PQBNONE",
+      "source_evidence_ids": [
+        "E-PQBNONE"
+      ],
+      "source_file": "evidence/2026-09-28-full-audit/room-135331-pq604b-no-room.png",
+      "source_sha256": "ac3838fbceceaea5815e2cd6767fe017e23cc11d9689b68c34dd5075bf98508e",
+      "dimensions": [
+        576,
+        970
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20260928-pq-query",
+      "node_id": "846:203",
+      "node_name": "[PQ:B-NONE] Room — PQ604B no result",
+      "imported_at": "2026-10-03T02:03:45.219Z",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ]
+    },
+    {
+      "file": "room-pq-tue.svg",
+      "sha256": "57bc379c96ea1d81033691843ecb0857396c08021d8654dc9cee8d48148e2a42",
+      "state_id": "S-TUE",
+      "source_evidence_ids": [
+        "E-TUE"
+      ],
+      "source_file": "evidence/2026-09-28-full-audit/room-135352-next-date.png",
+      "source_sha256": "9ec8fcbfc20496cd4d4b39c2afb05566787ccc6c52d750c1c6ed237e244350e9",
+      "dimensions": [
+        576,
+        970
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20260928-pq-query",
+      "node_id": "846:250",
+      "node_name": "[PQ:TUE] Room — Tuesday query retained",
+      "imported_at": "2026-10-03T02:03:46.365Z",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ]
+    },
+    {
+      "file": "room-pq-cleared.svg",
+      "sha256": "28011397625f4482cf489e8dba0aa24d188f7f943fdd66009040b0540151b810",
+      "state_id": "S-CLEARED",
+      "source_evidence_ids": [
+        "E-CLEARED"
+      ],
+      "source_file": "evidence/2026-09-28-full-audit/room-135506-input-cleared.png",
+      "source_sha256": "8c6469717e6468b330ae6bdec863c90c871db5b4e39b84e2ca85632368b88ee8",
+      "dimensions": [
+        576,
+        970
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20260928-tuesday-cleared-stale",
+      "node_id": "846:345",
+      "node_name": "[PQ:CLEARED] Room — Tuesday stale no result",
+      "imported_at": "2026-10-03T02:04:12.430Z",
+      "prototype_run_ids": [
+        "PROTO-PQQUERY-LEGACY-001",
+        "PROTO-PQQUERY-INITIAL-EXIT-002",
+        "PROTO-PQQUERY-MONDAY-003"
+      ]
+    }
+  ],
+  "limits": [
+    "Historical September28/29 date context, finite inputs only; complete app not_verified.",
+    "Initial source scaled and blank lower portion clipped; no claim of responsive layout or loading cause.",
+    "Editable vectors approximate native fonts/icons; pointer/halo omitted; bottom capture fringe omitted."
+  ]
+}

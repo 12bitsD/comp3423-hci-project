@@ -1,0 +1,249 @@
+{
+  "kind": "actual_figma_finite_payment_home_roundtrips_with_observation_discrepancy",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-payment-start.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:12.796Z",
+      "description": "payment-start",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "01-home-return.png",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:17.053Z",
+      "description": "home-return",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "825:19",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "02-payment-reentry.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:21.937Z",
+      "description": "payment-reentry",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "03-home-return-repeat.png",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:22.166Z",
+      "description": "home-return-repeat",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "825:19",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "04-payment-reentry-repeat.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:22.431Z",
+      "description": "Repeated Payment reentry; local image preview appeared black, but actual saved pixels are normal Payment identical to00/02/05",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+      "capture_status": "saved_pixels_reviewed_with_display_discrepancy"
+    },
+    {
+      "file": "05-payment-stable-after-black.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:42.325Z",
+      "description": "Stable Payment after discrepant black local preview; filename is historical capture label",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "06-home-recovery-roundtrip.png",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:46.547Z",
+      "description": "home-recovery-roundtrip",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "825:19",
+      "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "07-payment-recovery-roundtrip.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:09:51.025Z",
+      "description": "payment-recovery-roundtrip",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]; Home records wholly synthetic DEMO",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "editor-home-flow.png",
+      "sha256": "068055b66123c1a7c4bf5e6c3eaea8477e9b3d0acb24d459de188240d007e7a6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T18:10:11.457128+00:00",
+      "description": "Historical editor description incorrectly claimed saved04 black; corrected by editor-home-flow-corrected.png",
+      "source": "Actual Computer Use Figma editor screenshot bytes",
+      "redaction": "Account header masked half-open [1039,0,1124,49]",
+      "timestamp_basis": "File write immediately after capture"
+    },
+    {
+      "file": "editor-home-flow-corrected.png",
+      "sha256": "068055b66123c1a7c4bf5e6c3eaea8477e9b3d0acb24d459de188240d007e7a6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T18:12:40.279406+00:00",
+      "description": "Actual corrected20-frame flow description distinguishes black local preview from normal saved04",
+      "source": "Actual Computer Use Figma editor screenshot bytes",
+      "redaction": "Account header masked half-open [1039,0,1124,49]"
+    }
+  ],
+  "app_crop_xyxy": [
+    425,
+    60,
+    785,
+    700
+  ],
+  "limits": [
+    "Only this observed Oct3 Payment caller context integrated. Other existing Home/More entries retain their historical paths.",
+    "Synthetic greeting/count/exam course/date/time/room and preview; personal records never uploaded.",
+    "Static scrolled Home sample; continuous scroll/features/exam card interactions unimplemented in this new context.",
+    "Local image preview appeared black and AX URL lagged at04; saved actual file is normal Payment, not a black capture.",
+    "Full app/fidelity/human evaluation not_verified."
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 2,
+      "purpose": "First Payment reentry",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 0,
+      "b": 5,
+      "purpose": "Stable after discrepant local preview",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 0,
+      "b": 7,
+      "purpose": "Recovery roundtrip Payment",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "purpose": "Repeated Home",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "purpose": "Recovery Home",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Prototype repeated finite state, not native fidelity"
+    },
+    {
+      "a": 0,
+      "b": 4,
+      "purpose": "Corrected allegedly black sample",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual saved prototype repeated state; confirms preview discrepancy"
+    }
+  ],
+  "events": [
+    {
+      "kind": "observation_discrepancy_correction",
+      "capture_index": 4,
+      "initial_observation": "Local view_image output appeared black and AX URL indicated preceding Home.",
+      "verified_saved_pixels": "Raw04 hash equals raw00/02/05; app crop normal Payment. Public04 equals public00/02/05. No saved/prototype/native black screen asserted.",
+      "source": "Actual file hash and Pillow pixel comparison; initial displayed preview retained as tool observation only."
+    },
+    {
+      "kind": "additional_roundtrip",
+      "captures": [
+        5,
+        6,
+        7
+      ],
+      "result": "Separately sampled Payment/Home/Payment again visible; not a long-session reliability claim."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "013f4f9d333646b4680e6515069b9e555230f93ddfde71aaa6f8e82ec34abecf",
+    "dimensions": [
+      1440,
+      1360
+    ],
+    "source": "Eight actual masked Present samples;04 is normal Payment after correction."
+  }
+}

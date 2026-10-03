@@ -1,0 +1,51 @@
+{
+  "kind": "local_svg_source_render_not_figma",
+  "session_id": null,
+  "images": [
+    {
+      "file": "virtual-assistant-before-hero.png",
+      "sha256": "eb43ced08af26cd63566e19ceaaa0e935c8c952767f070449922b4378697aeee",
+      "dimensions": [
+        576,
+        970
+      ],
+      "description": "Article position before hero appears; no invented reserved image space or spinner.",
+      "source": "Local Sharp render of prepared SVG; not native or Figma capture",
+      "source_svg": "virtual-assistant-before-hero.svg",
+      "source_svg_sha256": "8157e8c363ba4f28112ed9f01549636507887e9f13803a9b1ccb836515772bd0"
+    },
+    {
+      "file": "virtual-assistant-web-loading.png",
+      "sha256": "0a971e308f8295173aece368e43fe604b200a3b3a2da97d81886d6d1cc730708",
+      "dimensions": [
+        576,
+        970
+      ],
+      "description": "Intermediate loading source, no duration established.",
+      "source": "Local Sharp render of prepared SVG; not native or Figma capture",
+      "source_svg": "virtual-assistant-web-loading.svg",
+      "source_svg_sha256": "701f302c82405238149803e64ab51debca5b32f4fc4dedd3f3e3fdb9b8c828dc"
+    },
+    {
+      "file": "virtual-assistant-web-blank.png",
+      "sha256": "f1d9505ddb6c1b990a36c429595966dbd0f8771be3fb5cfee968de0982cc7155",
+      "dimensions": [
+        576,
+        970
+      ],
+      "description": "Unresolved blank reference; close source confirmed via native AX only; causal trigger not modeled.",
+      "source": "Local Sharp render of prepared SVG; not native or Figma capture",
+      "source_svg": "virtual-assistant-web-blank.svg",
+      "source_svg_sha256": "10f04ed16cb3dedabe4287d48b90ab044e394a3ce395af049ba30e41e9ac8adc"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "b55b05f902ad1de79e722a24855625de97733f1042a17078a96b77781d9db030",
+    "dimensions": [
+      1728,
+      1000
+    ]
+  },
+  "scope": "Prepared editable sources only; no Figma import, configuration, replay or new native observation."
+}

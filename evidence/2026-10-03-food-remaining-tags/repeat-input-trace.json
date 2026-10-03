@@ -1,0 +1,127 @@
+{
+  "steps": [
+    {
+      "file": "14-asian-stable.png",
+      "action": "tap_asian_repeat",
+      "input": {
+        "ax_index": 30,
+        "description": "#Asian Cuisine"
+      },
+      "note": "Capture after separate AX read; no extra input between entry and this pair.",
+      "captured_at": "2026-10-03T07:15:54.590Z"
+    },
+    {
+      "file": "15-asian-repeat-back.png",
+      "action": "back_from_asian_repeat",
+      "input": {
+        "ax_index": 10
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:15:55.720Z"
+    },
+    {
+      "file": "16-western-stable.png",
+      "action": "tap_western_repeat",
+      "input": {
+        "ax_index": 31,
+        "description": "#Western Cuisine"
+      },
+      "note": "Capture after separate AX read; repeat reentry starts top.",
+      "captured_at": "2026-10-03T07:16:04.295Z"
+    },
+    {
+      "file": "17-western-repeat-back.png",
+      "action": "back_from_western_repeat",
+      "input": {
+        "ax_index": 10
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:16:05.424Z"
+    },
+    {
+      "file": "18-taiwanese-stable.png",
+      "action": "tap_taiwanese_repeat",
+      "input": {
+        "ax_index": 32,
+        "description": "#Taiwanese Cuisine"
+      },
+      "note": "Capture after separate AX read.",
+      "captured_at": "2026-10-03T07:16:15.252Z"
+    },
+    {
+      "file": "19-taiwanese-repeat-back.png",
+      "action": "back_from_taiwanese_repeat",
+      "input": {
+        "ax_index": 10
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:16:16.420Z"
+    },
+    {
+      "file": "20-cake-stable.png",
+      "action": "tap_cake_repeat",
+      "input": {
+        "ax_index": 33,
+        "description": "#Cake / Dessert"
+      },
+      "note": "Capture after separate AX read.",
+      "captured_at": "2026-10-03T07:16:24.903Z"
+    },
+    {
+      "file": "21-cake-repeat-back.png",
+      "action": "back_from_cake_repeat",
+      "input": {
+        "ax_index": 10
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:16:26.054Z"
+    },
+    {
+      "file": "22-salad-stable.png",
+      "action": "tap_salad_repeat",
+      "input": {
+        "ax_index": 35,
+        "description": "#Salad"
+      },
+      "note": "Capture after separate AX read.",
+      "captured_at": "2026-10-03T07:16:39.330Z"
+    },
+    {
+      "file": "23-salad-repeat-back.png",
+      "action": "back_from_salad_repeat",
+      "input": {
+        "ax_index": 10
+      },
+      "note": null,
+      "captured_at": "2026-10-03T07:16:40.503Z"
+    }
+  ],
+  "actual_state_ids": [
+    "S-FOOD-OCT3-ASIAN",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-WESTERN",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-TAIWANESE",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-CAKE",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-SALAD",
+    "S-FOOD-OCT3-BLOCKY-DETAIL"
+  ],
+  "actual_action_ids": [
+    "A-FOOD-OCT3-TAGS-ASIAN",
+    "A-FOOD-OCT3-TAGS-ASIAN-BACK",
+    "A-FOOD-OCT3-TAGS-WESTERN",
+    "A-FOOD-OCT3-TAGS-WESTERN-BACK",
+    "A-FOOD-OCT3-TAGS-TAIWANESE",
+    "A-FOOD-OCT3-TAGS-TAIWANESE-BACK",
+    "A-FOOD-OCT3-TAGS-CAKE",
+    "A-FOOD-OCT3-TAGS-CAKE-BACK",
+    "A-FOOD-OCT3-TAGS-SALAD",
+    "A-FOOD-OCT3-TAGS-SALAD-BACK"
+  ],
+  "limits": [
+    "First Taiwanese/Cake samples include entry-layout narrowing/wrapped title; nested BlockY sample07 includes map-loading mark. Retained as captured. Later repeated tag entries were sampled after separate AX read, without manual delay; use actual stable screenshots for reconstruction.",
+    "Five repeats verify finite query and top caller only; no pixel equality or universal rule."
+  ]
+}

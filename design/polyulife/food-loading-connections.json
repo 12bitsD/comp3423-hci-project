@@ -1,0 +1,255 @@
+{
+  "revision_id": "FIGMA-FOOD-LOADING-20261001",
+  "connections": [
+    {
+      "action_id": null,
+      "source_node_id": "633:61",
+      "trigger_node_id": "633:61",
+      "target_node_id": "50:2246",
+      "trigger": "After delay",
+      "behavior": "Swap overlay",
+      "delay_ms": 800,
+      "timing_policy": "Prototype demo delay, native latency unknown.",
+      "configured_at": "2026-09-30T16:31:55.030Z",
+      "connection_id": "C-FOOD-LOADING-01",
+      "revision_id": "FIGMA-FOOD-LOADING-20261001",
+      "implementation_status": "configured_and_finite_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-FOOD-LOADING-HOURS-001"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-MAP-LOADING",
+        "E-FOOD-MAP-CLEAN"
+      ],
+      "prototype_evidence_ids": [
+        "E-FOOD-LOADING-TRACE",
+        "E-FOOD-LOADING-SCREEN-30"
+      ],
+      "deviation_ids": [
+        "D-FOOD-LOADING-LIMITS",
+        "D-FOOD-SOURCE-STATE-SAMPLING",
+        "D-FOOD-IMAGE-RENDER"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-DETAIL-MAP-LOAD",
+      "source_node_id": "633:19",
+      "trigger_node_id": "633:19",
+      "target_node_id": "50:2013",
+      "trigger": "After delay",
+      "behavior": "Swap overlay",
+      "delay_ms": 800,
+      "timing_policy": "Prototype demo delay, native latency unknown.",
+      "configured_at": "2026-09-30T16:32:01.580Z",
+      "connection_id": "C-FOOD-LOADING-02",
+      "revision_id": "FIGMA-FOOD-LOADING-20261001",
+      "implementation_status": "configured_and_finite_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-FOOD-LOADING-HOURS-001",
+        "PROTO-FOOD-LOADING-DIRECT-001"
+      ],
+      "source_evidence_ids": [
+        "E-FOOD-DETAIL-LOADING",
+        "E-FOOD-DETAIL"
+      ],
+      "prototype_evidence_ids": [
+        "E-FOOD-LOADING-TRACE",
+        "E-FOOD-LOADING-SCREEN-29"
+      ],
+      "deviation_ids": [
+        "D-FOOD-LOADING-LIMITS",
+        "D-FOOD-SOURCE-STATE-SAMPLING",
+        "D-FOOD-IMAGE-RENDER"
+      ]
+    },
+    {
+      "connection_id": "C-FOOD-LOADING-03",
+      "action_id": "A-FOOD-DETAIL",
+      "source_node_id": "50:2124",
+      "target_node_id": "633:19",
+      "trigger_node_id": "50:2151",
+      "trigger_node_name": "VenueMenu1",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-FOOD-LOADING-20261001",
+      "configured_at": "2026-09-30T16:32:25.843Z",
+      "implementation_status": "configured_and_finite_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-FOOD-LOADING-HOURS-001"
+      ],
+      "source_fidelity": "Observed native entry now includes recorded loading viewport; timing is a prototype proxy.",
+      "deviation_ids": [
+        "D-FOOD-LOADING-LIMITS",
+        "D-FOOD-SOURCE-STATE-SAMPLING",
+        "D-FOOD-IMAGE-RENDER"
+      ],
+      "configuration_history": [
+        {
+          "connection_id": "C-FOOD-HOURS-DETAIL",
+          "action_id": "A-FOOD-DETAIL",
+          "source_node_id": "50:2124",
+          "target_node_id": "50:2013",
+          "trigger_node_id": "50:2151",
+          "trigger_node_name": "VenueMenu1",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-FOOD-V2",
+          "configured_at": "2026-09-28T16:58:51.903Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-FOOD-V2-001"
+          ],
+          "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+          "deviation_ids": [
+            "D-FOOD-SOURCE-STATE-SAMPLING",
+            "D-FOOD-IMAGE-RENDER"
+          ]
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-FOOD-LOADING-TRACE",
+        "E-FOOD-LOADING-SCREEN-05"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "operation": "replace_destination",
+      "source_evidence_ids": [
+        "E-FOOD-DETAIL-LOADING",
+        "E-FOOD-DETAIL"
+      ]
+    },
+    {
+      "connection_id": "C-FOOD-LOADING-04",
+      "action_id": "A-FOOD-DETAIL",
+      "source_node_id": "50:1911",
+      "target_node_id": "633:19",
+      "trigger_node_id": "50:1934",
+      "trigger_node_name": "VenueMenu1",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-FOOD-LOADING-20261001",
+      "configured_at": "2026-09-30T16:32:40.099Z",
+      "implementation_status": "configured_and_finite_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-FOOD-LOADING-HOURS-001",
+        "PROTO-FOOD-LOADING-DIRECT-001"
+      ],
+      "source_fidelity": "Existing unexpanded-list prototype generalization; native exact entry observed from hours-expanded list only.",
+      "deviation_ids": [
+        "D-FOOD-LOADING-LIMITS",
+        "D-FOOD-SOURCE-STATE-SAMPLING",
+        "D-FOOD-IMAGE-RENDER"
+      ],
+      "configuration_history": [
+        {
+          "connection_id": "C-FOOD-DIRECT-DETAIL",
+          "action_id": "A-FOOD-DETAIL",
+          "source_node_id": "50:1911",
+          "target_node_id": "50:2013",
+          "trigger_node_id": "50:1934",
+          "trigger_node_name": "VenueMenu1",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-FOOD-V2",
+          "configured_at": "2026-09-28T16:58:21.586Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-FOOD-V2-001"
+          ],
+          "source_fidelity": "Prototype unexpanded-list ellipsis entry passed; native exact entry was observed from hours-expanded list only. Unexpanded native start remains unverified.",
+          "deviation_ids": [
+            "D-FOOD-SOURCE-STATE-SAMPLING",
+            "D-FOOD-IMAGE-RENDER"
+          ]
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-FOOD-LOADING-TRACE",
+        "E-FOOD-LOADING-SCREEN-06"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "operation": "replace_destination",
+      "source_evidence_ids": [
+        "E-FOOD-DETAIL-LOADING",
+        "E-FOOD-DETAIL"
+      ]
+    },
+    {
+      "connection_id": "C-FOOD-LOADING-05",
+      "action_id": "A-FOOD-MAP-EXPAND",
+      "source_node_id": "50:2013",
+      "target_node_id": "633:61",
+      "trigger_node_id": "50:2050",
+      "trigger_node_name": "ExpandMap",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "revision_id": "FIGMA-FOOD-LOADING-20261001",
+      "configured_at": "2026-09-30T16:33:03.725Z",
+      "implementation_status": "configured_and_finite_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-FOOD-LOADING-HOURS-001"
+      ],
+      "source_fidelity": "Observed native entry now includes recorded loading viewport; timing is a prototype proxy.",
+      "deviation_ids": [
+        "D-FOOD-LOADING-LIMITS",
+        "D-FOOD-SOURCE-STATE-SAMPLING",
+        "D-FOOD-IMAGE-RENDER"
+      ],
+      "configuration_history": [
+        {
+          "connection_id": "C-FOOD-MAP",
+          "action_id": "A-FOOD-MAP-EXPAND",
+          "source_node_id": "50:2013",
+          "target_node_id": "50:2246",
+          "trigger_node_id": "50:2050",
+          "trigger_node_name": "ExpandMap",
+          "trigger": "On click",
+          "behavior": "Navigate to",
+          "revision_id": "FIGMA-FOOD-V2",
+          "configured_at": "2026-09-28T17:01:12.828Z",
+          "implementation_status": "navigation_sample_passed_visual_acceptance_failed",
+          "prototype_run_ids": [
+            "PROTO-FOOD-V2-001"
+          ],
+          "source_fidelity": "Observed native action represented in fixed VA210/Chinese Soup sample; loading and other branches remain incomplete.",
+          "deviation_ids": [
+            "D-FOOD-SOURCE-STATE-SAMPLING",
+            "D-FOOD-IMAGE-RENDER"
+          ]
+        }
+      ],
+      "prototype_evidence_ids": [
+        "E-FOOD-LOADING-TRACE",
+        "E-FOOD-LOADING-SCREEN-07"
+      ],
+      "overlay_options": {
+        "position": "Centered",
+        "close_on_outside_click": false,
+        "background": false,
+        "animation": "Instant"
+      },
+      "operation": "replace_destination",
+      "source_evidence_ids": [
+        "E-FOOD-MAP-LOADING",
+        "E-FOOD-MAP-CLEAN"
+      ]
+    }
+  ],
+  "scope_completion": "not_verified",
+  "native_arrays_unchanged": true,
+  "prototype_architecture": "Existing Open overlay caller stack retained; loading roots Swap overlay to settled detail/map after800ms.",
+  "timing_policy": "Both800ms demo proxies; native screenshot times are not loading measurements.",
+  "attempts": [
+    "Editor navigation to map trigger aborted after direct retarget succeeded; current UI confirmed and same live tab resumed.",
+    "Immediate pan tool screenshot blank, first stored screenshot18 already restored. No image reupload and no fabricated blank file."
+  ]
+}

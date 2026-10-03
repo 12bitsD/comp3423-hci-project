@@ -1,0 +1,469 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "30-detail-after-web-fills.png",
+      "sha256": "63ae758f0287ea65fcd83fdf8637e2ee972864b5f77efd8b50c0b4b8412ba63e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:25.304Z",
+      "description": "After four web fill reuploads and intentional single refresh",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "31-expanded-round3.png",
+      "sha256": "05a6575a78720bde738d3db517515e9e0a87840038ac61b6b0e869376d6937d7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:25.606Z",
+      "description": "Actual click expanded; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:37",
+      "actual_node_id": "42:37",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "32-image-return-round3.png",
+      "sha256": "63ae758f0287ea65fcd83fdf8637e2ee972864b5f77efd8b50c0b4b8412ba63e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:26.011Z",
+      "description": "Actual click image-return; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "33-disclaimer-round3.png",
+      "sha256": "fa1ba627826989328bce747edbd0fc71ed637e37ead3373f5f57eb755d123039",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:26.418Z",
+      "description": "Actual click disclaimer; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:43",
+      "actual_node_id": "42:43",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "34-welcome-round3.png",
+      "sha256": "c74c56fd002c487e3da2d7d2d7ff37cfdbc12a362e230ee04bc4e1ed95d871ab",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:26.618Z",
+      "description": "Actual click welcome; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:111",
+      "actual_node_id": "42:111",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "35-web-return-round3.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:26.922Z",
+      "description": "Actual click web-return; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:111",
+      "node_match": false,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "35-web-return-round3-held.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:27.084Z",
+      "description": "No input confirmation of transition URL mismatch",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "36-more-return-round3.png",
+      "sha256": "fdec58fd348d274ab0868b30b7a9df67175133dd29a5183e960cffa8befe0236",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:27.426Z",
+      "description": "Actual click more-return; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "12:435",
+      "actual_node_id": "12:435",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "37-detail-reentry-round3.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:27.836Z",
+      "description": "Actual click detail-reentry; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "38-expanded-round4.png",
+      "sha256": "61e7573881435dc6646b1b79c7db0897063269ebcf121429e3fbffcfad4eccaf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:28.239Z",
+      "description": "Actual click expanded; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:37",
+      "actual_node_id": "42:37",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "39-image-return-round4.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:28.543Z",
+      "description": "Actual click image-return; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "40-disclaimer-round4.png",
+      "sha256": "fa1ba627826989328bce747edbd0fc71ed637e37ead3373f5f57eb755d123039",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:28.863Z",
+      "description": "Actual click disclaimer; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:43",
+      "actual_node_id": "42:43",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "41-welcome-round4.png",
+      "sha256": "c74c56fd002c487e3da2d7d2d7ff37cfdbc12a362e230ee04bc4e1ed95d871ab",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:29.148Z",
+      "description": "Actual click welcome; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:111",
+      "actual_node_id": "42:111",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "42-web-return-round4.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:29.450Z",
+      "description": "Actual click web-return; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:111",
+      "node_match": false,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "42-web-return-round4-held.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:29.551Z",
+      "description": "No input confirmation of transition URL mismatch",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "43-more-return-round4.png",
+      "sha256": "fdec58fd348d274ab0868b30b7a9df67175133dd29a5183e960cffa8befe0236",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:29.915Z",
+      "description": "Actual click more-return; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "12:435",
+      "actual_node_id": "12:435",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "44-detail-reentry-round4.png",
+      "sha256": "700683083daaa5577ba30be0e0abb9c951db41c70340f50d3ce068515819abb3",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:30.361Z",
+      "description": "Actual click detail-reentry; four original web fills repaired, no reload between cycles",
+      "expected_node_id": "42:6",
+      "actual_node_id": "42:6",
+      "node_match": true,
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "26-disclaimer-avatar-after.png",
+      "sha256": "5ab03d89363f30401c5e26c64885149a637f5226f0ca0ae1c332961d83350a7b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:40:37.949503+00:00",
+      "timestamp_basis": "Local screenshot write time",
+      "description": "Existing original avatar fill reuploaded, node42:77 in root42:43.",
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "27-disclaimer-logo-after.png",
+      "sha256": "1de493bca9dd1a4a13d1df3783a9abc55e5e1925b5d8b9dd879de69870c7d961",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:40:58.952767+00:00",
+      "timestamp_basis": "Local screenshot write time",
+      "description": "Existing original logo fill reuploaded, node42:65 in root42:43.",
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "28-welcome-logo-after.png",
+      "sha256": "ccbf5cb240bdc58f326b943f95b827f6192e30ec2bb952ddd94e3a5b89bbd1d7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:41:51.543842+00:00",
+      "timestamp_basis": "Local screenshot write time",
+      "description": "Existing original logo fill reuploaded, node42:133 in root42:111.",
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    },
+    {
+      "file": "29-welcome-avatar-after.png",
+      "sha256": "36ef1a5408f5cdb03f6ae62fc0bee58ac23e3b4345f350049552e9269ed504a0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T09:42:05.130975+00:00",
+      "timestamp_basis": "Local screenshot write time",
+      "description": "Existing original avatar fill reuploaded, node42:145 in root42:111.",
+      "redaction": "Account header half-open [1039,0,1125,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "441f8d030b2a8152b4ec7fbfa5a3fbf13ee597b9820ac4347b0d6d78b8eb2cd3",
+    "dimensions": [
+      1071,
+      1254
+    ]
+  },
+  "app_crop_xyxy": [
+    461,
+    60,
+    818,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "30-detail-after-web-fills.png",
+      "comparison": "32-image-return-round3.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "30-detail-after-web-fills.png",
+      "comparison": "35-web-return-round3-held.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "30-detail-after-web-fills.png",
+      "comparison": "37-detail-reentry-round3.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "30-detail-after-web-fills.png",
+      "comparison": "39-image-return-round4.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "30-detail-after-web-fills.png",
+      "comparison": "42-web-return-round4-held.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "30-detail-after-web-fills.png",
+      "comparison": "44-detail-reentry-round4.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        11,
+        52,
+        347,
+        197
+      ],
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "31-expanded-round3.png",
+      "comparison": "38-expanded-round4.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        0,
+        244,
+        355,
+        405
+      ],
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "33-disclaimer-round3.png",
+      "comparison": "40-disclaimer-round4.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "34-welcome-round3.png",
+      "comparison": "41-welcome-round4.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    },
+    {
+      "baseline": "36-more-return-round3.png",
+      "comparison": "43-more-return-round4.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; full native fidelity not established."
+    }
+  ],
+  "scope": "Four original web logo/avatar fills reuploaded; two complete Assistant cycles, no refresh between cycles; full app not verified."
+}

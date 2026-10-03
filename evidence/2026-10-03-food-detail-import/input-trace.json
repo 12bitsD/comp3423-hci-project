@@ -1,0 +1,350 @@
+{
+  "imports": [
+    {
+      "file": "food-oct3-blocky-detail.svg",
+      "node_id": "949:63",
+      "name": "[FOOD-OCT3:BLOCKY] Block Y — observed detail",
+      "x": 0,
+      "y": 88000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "00-blocky-detail.png",
+      "actual_editor_readback": "Frame576x1024; X0 Y88000; title/logo/map visible in saved pixels",
+      "status": "imported_scroll_replayed_other_controls_unconfigured",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-63",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-blocky-lower.svg",
+      "node_id": "949:128",
+      "name": "[FOOD-OCT3:BLOCKY-LOWER] Block Y — observed lower",
+      "x": 700,
+      "y": 88000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "01-blocky-lower.png",
+      "actual_editor_readback": "Single Frame576x1024 X700 Y88000; selection-link node949:128; initial page URL12:104 was stale and corrected",
+      "status": "imported_unconfigured_not_replayed",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-128",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-blocky-image.svg",
+      "node_id": "949:193",
+      "name": "[FOOD-OCT3:BLOCKY-IMAGE] Block Y — expanded image",
+      "x": 1400,
+      "y": 88000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "02-blocky-image.png",
+      "status": "imported_unconfigured_not_replayed",
+      "actual_editor_readback": "Frame576x1024; selected PublicExpandedHero and CloseImage groups; final URL verified after initial stale page URL",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-193",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-coffee.svg",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-201",
+      "node_id": "949:201",
+      "name": "[FOOD-OCT3:COFFEE] Search — Coffee from Block Y",
+      "x": 2100,
+      "y": 88000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "03-coffee.png",
+      "actual_editor_readback": "Single Frame576x1024; X/Y verified; actual selection link copied through UI; visual review pending",
+      "status": "imported_unconfigured_not_replayed",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-libcafe-detail.svg",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-248",
+      "node_id": "949:248",
+      "name": "[FOOD-OCT3:LIBCAFE] LibCafé — Coffee caller",
+      "x": 2800,
+      "y": 88000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "04-libcafe-detail.png",
+      "actual_editor_readback": "Single Frame576x1024; X/Y verified; actual selection link copied through UI; visual review pending",
+      "status": "imported_unconfigured_not_replayed",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-libcafe-map.svg",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-308",
+      "node_id": "949:308",
+      "name": "[FOOD-OCT3:LIBCAFE-MAP] LibCafé — map",
+      "x": 3500,
+      "y": 88000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "05-libcafe-map.png",
+      "actual_editor_readback": "Single Frame576x1024; X/Y verified; actual selection link copied through UI; visual review pending",
+      "status": "imported_unconfigured_not_replayed",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-sandwich.svg",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-319",
+      "node_id": "949:319",
+      "name": "[FOOD-OCT3:SANDWICH] Search — Sandwich from lower detail",
+      "x": 0,
+      "y": 90000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "06-sandwich.png",
+      "actual_editor_readback": "Single Frame576x1024; X/Y verified; actual selection link copied through UI; visual review pending",
+      "status": "imported_unconfigured_not_replayed",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-blocky-map-loading.svg",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-366",
+      "node_id": "949:366",
+      "name": "[FOOD-OCT3:BLOCKY-MAP-LOADING] Block Y — map pending",
+      "x": 700,
+      "y": 90000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "07-blocky-map-loading.png",
+      "actual_editor_readback": "Single Frame576x1024; X/Y verified; actual selection link copied through UI; visual review pending",
+      "status": "imported_unconfigured_not_replayed",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-blocky-map.svg",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-378",
+      "node_id": "949:378",
+      "name": "[FOOD-OCT3:BLOCKY-MAP] Block Y — observed map",
+      "x": 1400,
+      "y": 90000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "08-blocky-map.png",
+      "actual_editor_readback": "Single Frame576x1024; X/Y verified; actual selection link copied through UI; visual review pending",
+      "status": "imported_unconfigured_not_replayed",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-blocky-map-zoom.svg",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-389",
+      "node_id": "949:389",
+      "name": "[FOOD-OCT3:BLOCKY-MAP-ZOOM] Block Y — observed zoom",
+      "x": 2100,
+      "y": 90000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "09-blocky-map-zoom.png",
+      "actual_editor_readback": "Single Frame576x1024; X/Y verified; actual selection link copied through UI; visual review pending",
+      "status": "imported_unconfigured_not_replayed",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    },
+    {
+      "file": "food-oct3-blocky-map-out.svg",
+      "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=949-400",
+      "node_id": "949:400",
+      "name": "[FOOD-OCT3:BLOCKY-MAP-OUT] Block Y — observed zoom out",
+      "x": 2800,
+      "y": 90000,
+      "width": 576,
+      "height": 1024,
+      "evidence_file": "10-blocky-map-out.png",
+      "actual_editor_readback": "Single Frame576x1024; X/Y verified; actual selection link copied through UI; visual review pending",
+      "status": "imported_unconfigured_not_replayed",
+      "visual_review": "Saved editor pixels inspected; raster/chrome visible at finite import sample, not long-term reliability"
+    }
+  ],
+  "present_steps": [
+    {
+      "file": "13-present-initial.png",
+      "input": "Present UI from selected949:63",
+      "outcome": "Actual-size clipped viewport; old Room flow sidebar remains selected while actual frame is BlockY; not a Room replay"
+    },
+    {
+      "file": "14-present-fit.png",
+      "input": "Close flow sidebar; Fit width and height",
+      "outcome": "Content was compressed when Frame height changed; retained as failed layout sample"
+    },
+    {
+      "file": "16-present-restored-top.png",
+      "input": "Restore editor DetailContent height1013",
+      "outcome": "Top layout restored;89px prototype overflow before background correction"
+    },
+    {
+      "file": "17-present-scroll-down.png",
+      "input": "Scroll [540,550] down0.65",
+      "outcome": "Content scrolls down; header fixed; excess blank bottom identified"
+    },
+    {
+      "file": "19-present-final-top.png",
+      "input": "Shorten only two background vectors to992; scroll up1",
+      "outcome": "Corrected top sample; inferred68px overflow"
+    },
+    {
+      "file": "20-present-final-bottom.png",
+      "input": "Scroll [540,550] down0.65",
+      "outcome": "Header fixed; hero partly clipped; complete lower map visible"
+    },
+    {
+      "file": "21-present-extra-down.png",
+      "input": "Scroll down0.65 again",
+      "outcome": "Finite prototype bottom check; pixel comparison pending",
+      "at": "2026-10-03T06:58:02.193Z"
+    },
+    {
+      "file": "22-present-up.png",
+      "input": "Scroll up1",
+      "outcome": "Return to top; comparison pending",
+      "at": "2026-10-03T06:58:02.599Z"
+    },
+    {
+      "file": "23-present-extra-up.png",
+      "input": "Extra up0.65",
+      "outcome": "Finite prototype top check; comparison pending",
+      "at": "2026-10-03T06:58:02.848Z"
+    },
+    {
+      "file": "24-present-second-down.png",
+      "input": "Second down0.65",
+      "outcome": "Repeat finite lower viewport",
+      "at": "2026-10-03T06:58:03.328Z"
+    },
+    {
+      "file": "25-present-second-up.png",
+      "input": "Second up1",
+      "outcome": "Repeat top restoration",
+      "at": "2026-10-03T06:58:03.738Z"
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "19-present-final-top.png",
+      "right": "22-present-up.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "top restoration",
+      "limits": "Finite actual Present pixels; no toleranced equality or whole-native fidelity claim."
+    },
+    {
+      "left": "19-present-final-top.png",
+      "right": "23-present-extra-up.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "extra upper boundary",
+      "limits": "Finite actual Present pixels; no toleranced equality or whole-native fidelity claim."
+    },
+    {
+      "left": "19-present-final-top.png",
+      "right": "25-present-second-up.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "second top restoration",
+      "limits": "Finite actual Present pixels; no toleranced equality or whole-native fidelity claim."
+    },
+    {
+      "left": "20-present-final-bottom.png",
+      "right": "21-present-extra-down.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "extra lower boundary",
+      "limits": "Finite actual Present pixels; no toleranced equality or whole-native fidelity claim."
+    },
+    {
+      "left": "20-present-final-bottom.png",
+      "right": "24-present-second-down.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "second lower viewport",
+      "limits": "Finite actual Present pixels; no toleranced equality or whole-native fidelity claim."
+    },
+    {
+      "left": "14-present-fit.png",
+      "right": "19-present-final-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        0,
+        356,
+        631
+      ],
+      "scope": "failed compression vs repaired top",
+      "limits": "Finite actual Present pixels; no toleranced equality or whole-native fidelity claim."
+    },
+    {
+      "left": "17-present-scroll-down.png",
+      "right": "20-present-final-bottom.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": false,
+      "difference_bbox": [
+        5,
+        51,
+        356,
+        631
+      ],
+      "scope": "89px pre-correction vs68px final bottom",
+      "limits": "Finite actual Present pixels; no toleranced equality or whole-native fidelity claim."
+    }
+  ],
+  "failed_or_corrected_operations": [
+    "Initial selected page URL12:104 was stale during rapid paste; lower root corrected to949:128 by Copy link to selection. Image was already imported when guard stopped, then renamed without duplicating.",
+    "A root-row Return entered children and selected3 items; corrected to single-root selection before copied link. Root not in virtualized tree caused2 selector deadlines; retained in trace.",
+    "Present originally actual-size clipped, with old Room flow sidebar marked while actual rendered frame was BlockY949:63. Sidebar closed and Fit width and height selected. No new flow/caller navigation implied.",
+    "Group->Frame then height924 compressed content1013->924 under Scale constraints; failed14 retained. Group restored1013; two background vectors alone shortened992, Left/Top constraints applied.",
+    "Inferred68px range aligns finite lower native sample, not verified native full extent; geometry/fonts/icons remain approximate. Maps/logos raster; no live map/pan/location."
+  ],
+  "prior_action_refusal_retried": false,
+  "native_actions_added": 0,
+  "limits": [
+    "11 frames actually imported and geometry verified. Only root949:63 detail vertical scroll replayed; other10 frames unconfigured and untested in Present.",
+    "No new navigation/action connections; prior Action dropdown URL-protocol safety refusal not retried or circumvented. Import/design/overflow changes are different operations.",
+    "Initial selected page URL12:104 was stale during rapid paste; lower root corrected to949:128 by Copy link to selection. Image was already imported when guard stopped, then renamed without duplicating.",
+    "A root-row Return entered children and selected3 items; corrected to single-root selection before copied link. Root not in virtualized tree caused2 selector deadlines; retained in trace.",
+    "Present originally actual-size clipped, with old Room flow sidebar marked while actual rendered frame was BlockY949:63. Sidebar closed and Fit width and height selected. No new flow/caller navigation implied.",
+    "Group->Frame then height924 compressed content1013->924 under Scale constraints; failed14 retained. Group restored1013; two background vectors alone shortened992, Left/Top constraints applied.",
+    "Inferred68px range aligns finite lower native sample, not verified native full extent; geometry/fonts/icons remain approximate. Maps/logos raster; no live map/pan/location.",
+    "No native app actions or observations added in this batch. Native AX Window feedback became readable at end, but no new screenshot/target page proof added.",
+    "Prototype replay is not native execution or human evaluation; complete app/fidelity not_verified."
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+  "frames": [
+    {
+      "file": "calendar-oct2-draft-class-none.svg",
+      "name": "[OCT2:CLASS-DN] Class draft — applied none",
+      "node_id": "800:19",
+      "x": 0,
+      "y": 70000,
+      "readback": [
+        "~\t\t\t\t\t\t\t\t\t421 stepper (settable, integer) Description: X-position, Value: 0",
+        "~\t\t\t\t\t\t\t\t\t422 stepper (settable, integer) Description: Y-position, Value: 70000"
+      ],
+      "at": "2026-10-02T17:21:21.369Z"
+    },
+    {
+      "file": "calendar-oct2-class.svg",
+      "name": "[OCT2:CLASS] Class — DEMO",
+      "node_id": "800:206",
+      "x": 700,
+      "y": 70000,
+      "at": "2026-10-02T17:21:22.154Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t457 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t458 stepper (settable, integer) Description: Y-position, Value: 70000",
+        "\t\t\t\t\t\t\t\t\t\t485 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t488 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-class-detail.svg",
+      "name": "[OCT2:DETAIL] Class detail — DEMO",
+      "node_id": "800:365",
+      "x": 1400,
+      "y": 70000,
+      "at": "2026-10-02T17:21:22.880Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t513 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t514 stepper (settable, integer) Description: Y-position, Value: 70000",
+        "\t\t\t\t\t\t\t\t\t\t541 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t544 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-notice-loading.svg",
+      "name": "[OCT2:NOTICE-L] Class Notice — loading",
+      "node_id": "800:403",
+      "x": 2100,
+      "y": 70000,
+      "at": "2026-10-02T17:21:28.372Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t533 stepper (settable, integer) Description: X-position, Value: 2100",
+        "\t\t\t\t\t\t\t\t\t534 stepper (settable, integer) Description: Y-position, Value: 70000",
+        "\t\t\t\t\t\t\t\t\t\t561 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t564 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-notice-blank.svg",
+      "name": "[OCT2:NOTICE-B] Class Notice — observed blank",
+      "node_id": "800:438",
+      "x": 2800,
+      "y": 70000,
+      "at": "2026-10-02T17:21:29.078Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t553 stepper (settable, integer) Description: X-position, Value: 2800",
+        "\t\t\t\t\t\t\t\t\t554 stepper (settable, integer) Description: Y-position, Value: 70000",
+        "\t\t\t\t\t\t\t\t\t\t581 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t584 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-notice-menu.svg",
+      "name": "[OCT2:NOTICE-M] Class Notice — menu",
+      "node_id": "800:471",
+      "x": 3500,
+      "y": 70000,
+      "at": "2026-10-02T17:21:29.784Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t577 stepper (settable, integer) Description: X-position, Value: 3500",
+        "\t\t\t\t\t\t\t\t\t578 stepper (settable, integer) Description: Y-position, Value: 70000",
+        "\t\t\t\t\t\t\t\t\t\t605 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t608 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-draft-class-class.svg",
+      "name": "[OCT2:CLASS-DC] Class draft — applied class",
+      "node_id": "800:520",
+      "x": 0,
+      "y": 71300,
+      "at": "2026-10-02T17:21:36.211Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t617 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t618 stepper (settable, integer) Description: Y-position, Value: 71300",
+        "\t\t\t\t\t\t\t\t\t\t645 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t648 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-draft-none-class.svg",
+      "name": "[OCT2:NONE-DC] None draft — applied class",
+      "node_id": "800:706",
+      "x": 700,
+      "y": 71300,
+      "at": "2026-10-02T17:21:36.907Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t657 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t658 stepper (settable, integer) Description: Y-position, Value: 71300",
+        "\t\t\t\t\t\t\t\t\t\t685 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t688 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-draft-exam-class.svg",
+      "name": "[OCT2:EXAM-DC] Exam draft — applied class",
+      "node_id": "800:891",
+      "x": 1400,
+      "y": 71300,
+      "at": "2026-10-02T17:21:37.641Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t697 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t698 stepper (settable, integer) Description: Y-position, Value: 71300",
+        "\t\t\t\t\t\t\t\t\t\t725 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t728 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-exam.svg",
+      "name": "[OCT2:EXAM] Exam — observed empty date",
+      "node_id": "800:1077",
+      "x": 2100,
+      "y": 71300,
+      "at": "2026-10-02T17:21:38.338Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t729 stepper (settable, integer) Description: X-position, Value: 2100",
+        "\t\t\t\t\t\t\t\t\t730 stepper (settable, integer) Description: Y-position, Value: 71300",
+        "\t\t\t\t\t\t\t\t\t\t757 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t760 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-draft-exam-exam.svg",
+      "name": "[OCT2:EXAM-DE] Exam draft — applied exam",
+      "node_id": "800:1237",
+      "x": 2800,
+      "y": 71300,
+      "at": "2026-10-02T17:21:43.923Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t765 stepper (settable, integer) Description: X-position, Value: 2800",
+        "\t\t\t\t\t\t\t\t\t766 stepper (settable, integer) Description: Y-position, Value: 71300",
+        "\t\t\t\t\t\t\t\t\t\t793 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t796 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-draft-none-exam.svg",
+      "name": "[OCT2:NONE-DE] None draft — applied exam",
+      "node_id": "800:1424",
+      "x": 3500,
+      "y": 71300,
+      "at": "2026-10-02T17:21:44.636Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t801 stepper (settable, integer) Description: X-position, Value: 3500",
+        "\t\t\t\t\t\t\t\t\t802 stepper (settable, integer) Description: Y-position, Value: 71300",
+        "\t\t\t\t\t\t\t\t\t\t829 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t832 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-draft-payment-exam.svg",
+      "name": "[OCT2:PAYMENT-DE] Payment draft — applied exam",
+      "node_id": "800:1610",
+      "x": 0,
+      "y": 72600,
+      "at": "2026-10-02T17:21:45.337Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t837 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t838 stepper (settable, integer) Description: Y-position, Value: 72600",
+        "\t\t\t\t\t\t\t\t\t\t865 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t868 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "791:873",
+      "trigger_node_id": "791:1043",
+      "action_id": "A-NATIVE-OCT2-11",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:19",
+      "configured_at": "2026-10-02T17:22:53.385Z",
+      "readback": [
+        "~\t\t\t\t\t\t444 combo box (collapsed) Destination, Value: [OCT2:CLASS-DN] Class draft — applied none, ID: :raj:, Secondary Actions: Expand",
+        "+\t\t\t\t\t\t449 combo box (collapsed) Animation, Value: Instant, ID: :rb0:, Secondary Actions: Expand",
+        "The focused UI element is 444 combo box (collapsed) Destination, Value: [OCT2:CLASS-DN] Class draft — applied none, ID: :raj:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-01",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-11",
+        "E-NATIVE-OCT2-11-AX"
+      ],
+      "trigger_node_name": "Class",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:19",
+      "trigger_node_id": "800:202",
+      "action_id": "A-NATIVE-OCT2-12",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:206",
+      "configured_at": "2026-10-02T17:23:37.180Z",
+      "readback": [
+        "\t\t\t\t\t\t\t386 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t410 combo box (collapsed) Trigger, Value: On click, ID: :r9l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t416 combo box (collapsed) Action, Value: Navigate to, ID: :r9o:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t423 combo box (collapsed) Destination, Value: [OCT2:CLASS] Class — DEMO, ID: :ra7:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t428 combo box (collapsed) Animation, Value: Instant, ID: :rak:, Secondary Actions: Expand",
+        "The focused UI element is 423 combo box (collapsed) Destination, Value: [OCT2:CLASS] Class — DEMO, ID: :ra7:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-02",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-12",
+        "E-NATIVE-OCT2-12-AX"
+      ],
+      "trigger_node_name": "Apply",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:206",
+      "trigger_node_id": "800:334",
+      "action_id": "A-NATIVE-OCT2-13",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:365",
+      "configured_at": "2026-10-02T17:27:30.582Z",
+      "readback": [
+        "\t\t\t\t\t\t\t366 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8i:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t390 combo box (collapsed) Trigger, Value: On click, ID: :r9b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t396 combo box (collapsed) Action, Value: Navigate to, ID: :r9e:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t403 combo box (collapsed) Destination, Value: [OCT2:DETAIL] Class detail — DEMO, ID: :r9t:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t408 combo box (collapsed) Animation, Value: Instant, ID: :raa:, Secondary Actions: Expand",
+        "The focused UI element is 403 combo box (collapsed) Destination, Value: [OCT2:DETAIL] Class detail — DEMO, ID: :r9t:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-03",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-13",
+        "E-NATIVE-OCT2-13-AX"
+      ],
+      "trigger_node_name": "DemoEventEllipsis",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:365",
+      "trigger_node_id": "800:392",
+      "action_id": "A-NATIVE-OCT2-14",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:403",
+      "configured_at": "2026-10-02T17:27:44.601Z",
+      "readback": [
+        "\t\t\t\t\t\t\t354 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:NOTICE-L] Class Notice — loading, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:NOTICE-L] Class Notice — loading, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-04",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-14",
+        "E-NATIVE-OCT2-14-AX"
+      ],
+      "trigger_node_name": "ClassNotice",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:438",
+      "trigger_node_id": "800:454",
+      "action_id": "A-NATIVE-OCT2-16",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:471",
+      "configured_at": "2026-10-02T17:28:00.880Z",
+      "readback": [
+        "\t\t\t\t\t\t\t314 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8a:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t338 combo box (collapsed) Trigger, Value: On click, ID: :r8h:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t344 combo box (collapsed) Action, Value: Navigate to, ID: :r8k:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Destination, Value: [OCT2:NOTICE-M] Class Notice — menu, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t356 combo box (collapsed) Animation, Value: Instant, ID: :r9g:, Secondary Actions: Expand",
+        "The focused UI element is 351 combo box (collapsed) Destination, Value: [OCT2:NOTICE-M] Class Notice — menu, ID: :r93:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-05",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-16",
+        "E-NATIVE-OCT2-16-AX"
+      ],
+      "trigger_node_name": "NoticeMore",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:471",
+      "trigger_node_id": "800:516",
+      "action_id": "A-NATIVE-OCT2-17",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:438",
+      "configured_at": "2026-10-02T17:28:14.547Z",
+      "readback": [
+        "\t\t\t\t\t\t\t322 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8e:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t346 combo box (collapsed) Trigger, Value: On click, ID: :r8l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t352 combo box (collapsed) Action, Value: Navigate to, ID: :r8o:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Destination, Value: [OCT2:NOTICE-B] Class Notice — observed blank, ID: :r97:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t364 combo box (collapsed) Animation, Value: Instant, ID: :r9k:, Secondary Actions: Expand",
+        "The focused UI element is 359 combo box (collapsed) Destination, Value: [OCT2:NOTICE-B] Class Notice — observed blank, ID: :r97:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-06",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-17",
+        "E-NATIVE-OCT2-17-AX"
+      ],
+      "trigger_node_name": "CancelNoticeMenu",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:438",
+      "trigger_node_id": "800:451",
+      "action_id": "A-NATIVE-OCT2-18",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:365",
+      "configured_at": "2026-10-02T17:28:27.121Z",
+      "readback": [
+        "\t\t\t\t\t\t\t322 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8d:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t346 combo box (collapsed) Trigger, Value: On click, ID: :r8k:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t352 combo box (collapsed) Action, Value: Navigate to, ID: :r8n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Destination, Value: [OCT2:DETAIL] Class detail — DEMO, ID: :r96:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t364 combo box (collapsed) Animation, Value: Instant, ID: :r9j:, Secondary Actions: Expand",
+        "The focused UI element is 359 combo box (collapsed) Destination, Value: [OCT2:DETAIL] Class detail — DEMO, ID: :r96:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-07",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-18",
+        "E-NATIVE-OCT2-18-AX"
+      ],
+      "trigger_node_name": "CloseNotice",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:365",
+      "trigger_node_id": "800:369",
+      "action_id": "A-NATIVE-OCT2-19",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:206",
+      "configured_at": "2026-10-02T17:28:38.717Z",
+      "readback": [
+        "\t\t\t\t\t\t\t418 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t442 combo box (collapsed) Trigger, Value: On click, ID: :ra7:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t448 combo box (collapsed) Action, Value: Navigate to, ID: :raa:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t455 combo box (collapsed) Destination, Value: [OCT2:CLASS] Class — DEMO, ID: :rap:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t460 combo box (collapsed) Animation, Value: Instant, ID: :rb6:, Secondary Actions: Expand",
+        "The focused UI element is 455 combo box (collapsed) Destination, Value: [OCT2:CLASS] Class — DEMO, ID: :rap:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-08",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-19",
+        "E-NATIVE-OCT2-19-AX"
+      ],
+      "trigger_node_name": "Back",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:206",
+      "trigger_node_id": "800:315",
+      "action_id": "A-NATIVE-OCT2-20",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:520",
+      "configured_at": "2026-10-02T17:28:50.090Z",
+      "readback": [
+        "\t\t\t\t\t\t\t362 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8c:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t386 combo box (collapsed) Trigger, Value: On click, ID: :r99:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t392 combo box (collapsed) Action, Value: Navigate to, ID: :r9c:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t399 combo box (collapsed) Destination, Value: [OCT2:CLASS-DC] Class draft — applied class, ID: :r9r:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t404 combo box (collapsed) Animation, Value: Instant, ID: :ra8:, Secondary Actions: Expand",
+        "The focused UI element is 399 combo box (collapsed) Destination, Value: [OCT2:CLASS-DC] Class draft — applied class, ID: :r9r:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-09",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-20",
+        "E-NATIVE-OCT2-20-AX"
+      ],
+      "trigger_node_name": "Filter",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:520",
+      "trigger_node_id": "800:689",
+      "action_id": "A-NATIVE-OCT2-21",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:706",
+      "configured_at": "2026-10-02T17:29:03.314Z",
+      "readback": [
+        "\t\t\t\t\t\t\t386 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t410 combo box (collapsed) Trigger, Value: On click, ID: :r9l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t416 combo box (collapsed) Action, Value: Navigate to, ID: :r9o:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t423 combo box (collapsed) Destination, Value: [OCT2:NONE-DC] None draft — applied class, ID: :ra7:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t428 combo box (collapsed) Animation, Value: Instant, ID: :rak:, Secondary Actions: Expand",
+        "The focused UI element is 423 combo box (collapsed) Destination, Value: [OCT2:NONE-DC] None draft — applied class, ID: :ra7:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-10",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-21",
+        "E-NATIVE-OCT2-21-AX"
+      ],
+      "trigger_node_name": "Class",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:706",
+      "trigger_node_id": "800:878",
+      "action_id": "A-NATIVE-OCT2-22",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:891",
+      "configured_at": "2026-10-02T17:29:14.709Z",
+      "readback": [
+        "\t\t\t\t\t\t\t354 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:EXAM-DC] Exam draft — applied class, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:EXAM-DC] Exam draft — applied class, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-11",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-22",
+        "E-NATIVE-OCT2-22-AX"
+      ],
+      "trigger_node_name": "Exam",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:891",
+      "trigger_node_id": "800:1073",
+      "action_id": "A-NATIVE-OCT2-23",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:1077",
+      "configured_at": "2026-10-02T17:29:26.089Z",
+      "readback": [
+        "\t\t\t\t\t\t\t354 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:EXAM] Exam — observed empty date, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:EXAM] Exam — observed empty date, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-12",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-23",
+        "E-NATIVE-OCT2-23-AX"
+      ],
+      "trigger_node_name": "Apply",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:1077",
+      "trigger_node_id": "800:1186",
+      "action_id": "A-NATIVE-OCT2-24",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:1237",
+      "configured_at": "2026-10-02T17:29:37.049Z",
+      "readback": [
+        "\t\t\t\t\t\t\t314 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8a:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t338 combo box (collapsed) Trigger, Value: On click, ID: :r8h:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t344 combo box (collapsed) Action, Value: Navigate to, ID: :r8k:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Destination, Value: [OCT2:EXAM-DE] Exam draft — applied exam, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t356 combo box (collapsed) Animation, Value: Instant, ID: :r9g:, Secondary Actions: Expand",
+        "The focused UI element is 351 combo box (collapsed) Destination, Value: [OCT2:EXAM-DE] Exam draft — applied exam, ID: :r93:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-13",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-24",
+        "E-NATIVE-OCT2-24-AX"
+      ],
+      "trigger_node_name": "Filter",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:1237",
+      "trigger_node_id": "800:1410",
+      "action_id": "A-NATIVE-OCT2-25",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:1424",
+      "configured_at": "2026-10-02T17:29:48.100Z",
+      "readback": [
+        "\t\t\t\t\t\t\t350 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t374 combo box (collapsed) Trigger, Value: On click, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t380 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t387 combo box (collapsed) Destination, Value: [OCT2:NONE-DE] None draft — applied exam, ID: :r9l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t392 combo box (collapsed) Animation, Value: Instant, ID: :ra2:, Secondary Actions: Expand",
+        "The focused UI element is 387 combo box (collapsed) Destination, Value: [OCT2:NONE-DE] None draft — applied exam, ID: :r9l:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-14",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-25",
+        "E-NATIVE-OCT2-25-AX"
+      ],
+      "trigger_node_name": "Exam",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:1424",
+      "trigger_node_id": "800:1600",
+      "action_id": "A-NATIVE-OCT2-26",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "800:1610",
+      "configured_at": "2026-10-02T17:29:58.808Z",
+      "readback": [
+        "\t\t\t\t\t\t\t350 combo box (collapsed) Position, Value: Scroll with parent, ID: :r8s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t374 combo box (collapsed) Trigger, Value: On click, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t380 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t387 combo box (collapsed) Destination, Value: [OCT2:PAYMENT-DE] Payment draft — applied exam, ID: :r9l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t392 combo box (collapsed) Animation, Value: Instant, ID: :ra2:, Secondary Actions: Expand",
+        "The focused UI element is 387 combo box (collapsed) Destination, Value: [OCT2:PAYMENT-DE] Payment draft — applied exam, ID: :r9l:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-15",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-26",
+        "E-NATIVE-OCT2-26-AX"
+      ],
+      "trigger_node_name": "Payment",
+      "source_fidelity": "Native recorded finite context; composite Navigate-to is prototype implementation."
+    },
+    {
+      "source_node_id": "800:403",
+      "trigger_node_id": "800:403",
+      "action_id": null,
+      "trigger": "After delay",
+      "delay_ms": 800,
+      "behavior": "Navigate to",
+      "target_node_id": "800:438",
+      "configured_at": "2026-10-02T17:30:20.322Z",
+      "provenance": "Prototype-only 800ms illustration of observed loading-to-blank; not native timing",
+      "readback": [
+        "\t\t\t\t\t\t\t423 combo box (collapsed) Overflow, Value: No scrolling, ID: :rbf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t447 combo box (collapsed) Trigger, Value: After delay, ID: :rbm:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t461 text field (settable) After delay timeout, Value: 800ms",
+        "\t\t\t\t\t\t\t453 combo box (collapsed) Action, Value: Navigate to, ID: :rbp:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t465 combo box (collapsed) Destination, Value: [OCT2:NOTICE-B] Class Notice — observed blank, ID: :rc9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t470 combo box (collapsed) Animation, Value: Instant, ID: :rcm:, Secondary Actions: Expand",
+        "The focused UI element is 465 combo box (collapsed) Destination, Value: [OCT2:NOTICE-B] Class Notice — observed blank, ID: :rc9:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-CLASS-EXAM-16",
+      "revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT2-CLASS-NOTICE-001",
+        "PROTO-OCT2-NOTICE-RECOVERY-001",
+        "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT2-14",
+        "E-NATIVE-OCT2-15"
+      ],
+      "trigger_node_name": null,
+      "source_fidelity": "A proposed demo delay between successive recorded states; not measured native latency or proof of successful webpage load."
+    }
+  ],
+  "flow": {
+    "name": "Reference · Oct2 Calendar filters & Notice — partial",
+    "description": "Oct2 native fullscreen reference, 18 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not measured native latency or successful webpage load. Campus geography is raster; live map actions unverified. Two old None X exits are inferred. Payment Apply result, other combinations/dates, main Home/More callers and complete-app fidelity remain unverified.",
+    "readback": [
+      "\t\t\t\t\t950 container Oct2 native fullscreen reference, 18 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not measured native latency or successful webpage load. Campus geography is raster; live map actions unverified. Two old None X exits are inferred. Payment Apply result, other combinations/dates, main Home/More callers and complete-app fidelity remain unverified.",
+      "\t\t\t\t\t\t951 text Oct2 native fullscreen reference, 18 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not measured native latency or successful webpage load. Campus geography is raster; live map actions unverified. Two old None X exits are inferred. Payment Apply result, other combinations/dates, main Home/More callers and complete-app fidelity remain unverified.",
+      "The focused UI element is 950 container Oct2 native fullscreen reference, 18 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not measured native latency or successful webpage load. Campus geography is raster; live map actions unverified. Two old None X exits are inferred. Payment Apply result, other combinations/dates, main Home/More callers and complete-app fidelity remain unverified."
+    ],
+    "start_node_id": "791:177",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+    "tested_run_ids": [
+      "PROTO-OCT2-NONE-CANCEL-001",
+      "PROTO-OCT2-NONE-APPLY-001",
+      "PROTO-OCT2-NONE-RESTART-001",
+      "PROTO-OCT2-CLASS-NOTICE-001",
+      "PROTO-OCT2-NOTICE-RECOVERY-001",
+      "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+    ],
+    "scope": "18 dated native Calendar reference frames; main callers, other dates/combinations and Payment Apply unverified.",
+    "updated_at": "2026-10-02T17:33:27.208Z"
+  },
+  "prototype_run_ids": [
+    "PROTO-OCT2-CLASS-NOTICE-001",
+    "PROTO-OCT2-NOTICE-RECOVERY-001",
+    "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001"
+  ],
+  "map_fill_recovery": {
+    "node_id": "800:398",
+    "asset": "assets/calendar-class-campus.png",
+    "operation": "Image dialog file chooser reupload",
+    "at": "2026-10-02T17:34:16.260Z",
+    "verified_replay_indices": [
+      13,
+      16
+    ],
+    "limitations": [
+      "Reupload and Present reload were both performed; individual causal contribution not isolated.",
+      "Earlier screenshot-only live observations returned black; saved SDK capture 12 still shows missing map."
+    ]
+  },
+  "limits": [
+    "13 frames imported and 16 controls configured; finite reference replayed with preserved failure/recovery. Full app not_verified.",
+    "Private values are DEMO, private date markers omitted, geometry and generic icons approximate.",
+    "Campus map is raster with editable fullscreen chrome; live map/gestures/outcomes unverified.",
+    "Notice blank is an observed snapshot, not a successfully loaded document.",
+    "Native Payment Apply outcome unknown: no result frame or Apply connection is invented.",
+    "Proposed Navigate-to composite frames preserve this finite reference context only; main Home/More callers need integration.",
+    "Other draft combinations, X exits, map actions, Reload and browser menu results still require observation."
+  ]
+}

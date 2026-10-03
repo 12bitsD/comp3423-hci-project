@@ -1,0 +1,44 @@
+{
+  "revision_id": "FIGMA-PREVIEW-CONTROLS-20260930",
+  "auth_frame": {
+    "node_id": "452:19",
+    "status": "isolated_static_render_confirmed_no_interactions",
+    "source": "room-preview-login.svg"
+  },
+  "connections": [
+    {
+      "connection_id": "C-PREVIEW-COPY-DISMISS-20260930",
+      "action_id": "A-ROOM-PREVIEW-COPY",
+      "source_node_id": "312:153",
+      "trigger_node_id": "312:242",
+      "trigger_node_name": "Copy link",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "target_node_id": null,
+      "revision_id": "FIGMA-PREVIEW-CONTROLS-20260930",
+      "source_evidence_ids": [
+        "E-ROOM-PREVIEW-CONTROLS-05"
+      ],
+      "source_fidelity": "Native menu dismissal feedback only. Figma does not write clipboard; text hit target smaller than full menu row.",
+      "prototype_run_ids": [
+        "PROTO-PREVIEW-CONTROLS-20260930"
+      ],
+      "prototype_evidence_ids": [
+        "E-PREVIEW-CONTROLS-PROTO-TRACE"
+      ],
+      "deviation_ids": [
+        "D-PREVIEW-CONTROLS-PARTIAL"
+      ],
+      "implementation_status": "sample_replayed_partial_semantics"
+    }
+  ],
+  "run_id": "PROTO-PREVIEW-CONTROLS-20260930",
+  "configuration_readback": "Raw ignored copy-readback.txt plus public editor screenshot04",
+  "limitations": [
+    "No login interactions, caller, PDF/history integration.",
+    "Copy only closes menu; no clipboard success claim. Share/system-link not implemented.",
+    "Current native blank webpage captures cannot prove photo visuals or exact order. Historical prototype page remains based on older visual evidence.",
+    "Editor visibility mistake restored; not an App failure.",
+    "Native/full app and human evaluation unverified."
+  ]
+}

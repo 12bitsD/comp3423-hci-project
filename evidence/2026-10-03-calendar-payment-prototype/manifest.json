@@ -1,0 +1,121 @@
+{
+  "kind": "actual_figma_payment_apply_two_finite_samples",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-payment-draft.png",
+      "sha256": "cb17c71acea1fe25cdd1addea2e0b794d5ea64f233e6dd71cfeab02cd46ae632",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T17:56:54.419Z",
+      "description": "payment-draft",
+      "node_id": "800:1610",
+      "state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]"
+    },
+    {
+      "file": "01-payment-applied.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T17:56:58.774Z",
+      "description": "payment-applied",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-APPLY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]"
+    },
+    {
+      "file": "02-payment-draft-previous-frame.png",
+      "sha256": "e0978bd685165eb41feb86985e8d08d8ca3e73bff612e2432a7e93c1f71e3ce4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T17:57:06.454Z",
+      "description": "payment-draft-previous-frame",
+      "node_id": "800:1610",
+      "state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]"
+    },
+    {
+      "file": "03-payment-applied-repeat.png",
+      "sha256": "241097c09d995ec53e24ea346715d56596e9794958b2a22f0d32c8c2b706fd2d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T17:57:06.733Z",
+      "description": "payment-applied-repeat",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-APPLY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header masked half-open [950,0,1004,49]"
+    },
+    {
+      "file": "editor-payment-flow.png",
+      "sha256": "36a84d6ac067a527494a4c9dbdd9bbfa7615da89097b5483bbb4395a7a663b63",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T18:03:54.650435+00:00",
+      "timestamp_basis": "File write immediately after capture; exact capture time not independently recorded",
+      "description": "Updated actual 19-frame dated flow description",
+      "source": "Actual Computer Use Figma editor screenshot bytes",
+      "redaction": "Account header masked half-open [1039,0,1124,49]"
+    }
+  ],
+  "app_crop_xyxy": [
+    425,
+    60,
+    785,
+    700
+  ],
+  "limits": [
+    "Previous frame is a Figma playback control, not observed native cancel/back.",
+    "Only Apply wired; reopen/Home/main callers not implemented in this batch.",
+    "Geometry approximate and full application/fidelity not_verified."
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 2,
+      "equal": false,
+      "difference_bbox": [
+        95,
+        620,
+        223,
+        640
+      ],
+      "scope": "Repeated prototype state only; not native fidelity",
+      "interpretation": "Difference at bottom center is Figma Previous frame playback tooltip overlay visible in second draft sample, not a native state difference."
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype state only; not native fidelity"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "40489fc2059bc0203bd467066f7a26601fa7fd40d387176d8b94167348a9a8f4",
+    "dimensions": [
+      1440,
+      680
+    ],
+    "source": "Derived from four actual masked Figma captures"
+  }
+}

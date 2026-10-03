@@ -1,0 +1,415 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-web-frame-properties.png",
+      "sha256": "ec5b43506a932df5d6f8a06b760cc3c4ee0bd9337b4a7105ee290e13ef3d561a",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:15:29.275Z",
+      "description": {
+        "node": "551:20",
+        "name": "[S-WEATHER-WEB] Weather — official webpage",
+        "dimensions": [
+          576,
+          970
+        ],
+        "position": [
+          0,
+          49000
+        ],
+        "clip_content": true
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "02-weather-link-connection.png",
+      "sha256": "e546380457a658ffdb0deb3133fd346a914adbd596cc4f8d9f41def1e80ff5fa",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:17:05.975Z",
+      "description": {
+        "source": "12:480",
+        "trigger_node": "12:500",
+        "action": "Open overlay",
+        "target": "551:20",
+        "native_action": "A-WEATHER-LINK"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "03-web-close-proxy-connection.png",
+      "sha256": "6e7ac72972cca29fb4b65603871b25cae32959c981af6112ab84e9dbe6cca75f",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:18:20.312Z",
+      "description": {
+        "source": "551:20",
+        "trigger_node": "551:31",
+        "action": "Close overlay",
+        "native_action": null,
+        "note": "Native Close unverified; prototype recovery only"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "04-more-before.png",
+      "sha256": "2938cf9de4005095b356d8d20bf461b94621a2878b54b9d938e5feef840e2c4e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:18:49.397Z",
+      "description": {
+        "state": "S-MORE",
+        "node": "12:435"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "05-weather-before.png",
+      "sha256": "d613bd8cf94f4ef59069a8be337f4b931c861aabe871f7ad9e7b95a26d4830cf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:18:56.366Z",
+      "description": {
+        "state": "S-WEATHER",
+        "node": "12:480"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "06-weather-web.png",
+      "sha256": "e03d8ff5a99d2dadd7e90cc99de3a2dc34e5daa72742b5a526f20aea0553c1b1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:19:24.729Z",
+      "description": {
+        "state": "S-WEATHER-WEB",
+        "node": "551:20",
+        "outcome": "Official site header/banner/cookie/browser viewport visible",
+        "deviation": "Cookie first line is clipped at right in reconstruction; native full visuals not passed."
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "07-weather-after-web-close.png",
+      "sha256": "d613bd8cf94f4ef59069a8be337f4b931c861aabe871f7ad9e7b95a26d4830cf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:19:33.272Z",
+      "description": {
+        "state": "S-WEATHER",
+        "node": "12:480",
+        "outcome": "Prototype Close returns article with hero visible; native close result unverified"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "08-more-after.png",
+      "sha256": "2938cf9de4005095b356d8d20bf461b94621a2878b54b9d938e5feef840e2c4e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:19:52.607Z",
+      "description": {
+        "state": "S-MORE",
+        "node": "12:435",
+        "outcome": "Returned More"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "09-cookie-first-line-repair.png",
+      "sha256": "9223832b1fa5b009c21ff9a512b186dd0c10b5bbd009e0c2caeb0b9ef2e260d7",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:20:41.102Z",
+      "description": {
+        "node": "551:68",
+        "change": "Font size 23 to 22 for first Cookie line",
+        "reason": "Imported text uses Inter fallback; first line clipped at right",
+        "native_fidelity": "Approximate; not native font measurement"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "10-web-reentry-missing-images.png",
+      "sha256": "5fa3b48c91ad5d7f0fe8c1729b551c89eb3e5ec45a28e1154e23baaded05ca95",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:20:52.788Z",
+      "description": {
+        "state": "S-WEATHER-WEB",
+        "node": "551:20",
+        "outcome": "Immediately preceding Computer Use tool image showed missing wordmark/banner; saved10 screenshot already restored both. Filename retained. This saved file is recovery evidence, not proof of sustained missing images or repair causality.",
+        "status": "transient_tool_image_not_retained_in_saved_screenshot"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "11-wordmark-reuploaded.png",
+      "sha256": "7c8eed502f542e6335cbc531e56657ca100ff99064fb4dd009b96597d5801c6d",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:21:46.413Z",
+      "description": {
+        "node": "551:42",
+        "file": "weather-web-wordmark.png",
+        "repair": "Original cropped PNG image fill reupload; geometry unchanged"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "12-banner-reuploaded.png",
+      "sha256": "b6ed282af9a660f00c699dfbb7c8568db16dbb49f18526d58790c11a049f740f",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:22:35.547Z",
+      "description": {
+        "node": "551:58",
+        "file": "weather-web-banner.png",
+        "repair": "Original cropped PNG fill reupload; geometry unchanged"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "13-web-repair-visible.png",
+      "sha256": "5fa3b48c91ad5d7f0fe8c1729b551c89eb3e5ec45a28e1154e23baaded05ca95",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:22:54.225Z",
+      "description": {
+        "state": "S-WEATHER-WEB",
+        "node": "551:20",
+        "outcome": "Both original PNG images visible after repair; first Cookie line complete"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "14-weather-repair-return.png",
+      "sha256": "d613bd8cf94f4ef59069a8be337f4b931c861aabe871f7ad9e7b95a26d4830cf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:22:54.469Z",
+      "description": {
+        "state": "S-WEATHER",
+        "node": "12:480",
+        "outcome": "Returned article"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "15-more-repair-return.png",
+      "sha256": "2938cf9de4005095b356d8d20bf461b94621a2878b54b9d938e5feef840e2c4e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:22:54.770Z",
+      "description": {
+        "state": "S-MORE",
+        "node": "12:435",
+        "outcome": "Returned More"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "16-web-second-reentry-visible.png",
+      "sha256": "5fa3b48c91ad5d7f0fe8c1729b551c89eb3e5ec45a28e1154e23baaded05ca95",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:23:06.384Z",
+      "description": {
+        "state": "S-WEATHER-WEB",
+        "node": "551:20",
+        "outcome": "Second postrepair web reentry both images visible"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "17-weather-second-return.png",
+      "sha256": "d613bd8cf94f4ef59069a8be337f4b931c861aabe871f7ad9e7b95a26d4830cf",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:23:06.787Z",
+      "description": {
+        "state": "S-WEATHER",
+        "node": "12:480",
+        "outcome": "Second return article"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "18-more-second-return.png",
+      "sha256": "2938cf9de4005095b356d8d20bf461b94621a2878b54b9d938e5feef840e2c4e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:23:07.087Z",
+      "description": {
+        "state": "S-MORE",
+        "node": "12:435",
+        "outcome": "Second return More"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "7f78823ec9268d3dc6908572c212e4f6e7c297c69fd769267154093dcffd473b",
+    "dimensions": [
+      714,
+      1254
+    ]
+  },
+  "app_crop_xyxy": [
+    461,
+    60,
+    818,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "04-more-before.png",
+      "comparison": "08-more-after.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype return/reentry consistency only, not native visual fidelity or timing."
+    },
+    {
+      "baseline": "04-more-before.png",
+      "comparison": "15-more-repair-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype return/reentry consistency only, not native visual fidelity or timing."
+    },
+    {
+      "baseline": "04-more-before.png",
+      "comparison": "18-more-second-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype return/reentry consistency only, not native visual fidelity or timing."
+    },
+    {
+      "baseline": "05-weather-before.png",
+      "comparison": "07-weather-after-web-close.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype return/reentry consistency only, not native visual fidelity or timing."
+    },
+    {
+      "baseline": "05-weather-before.png",
+      "comparison": "14-weather-repair-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype return/reentry consistency only, not native visual fidelity or timing."
+    },
+    {
+      "baseline": "05-weather-before.png",
+      "comparison": "17-weather-second-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype return/reentry consistency only, not native visual fidelity or timing."
+    },
+    {
+      "baseline": "13-web-repair-visible.png",
+      "comparison": "16-web-second-reentry-visible.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype return/reentry consistency only, not native visual fidelity or timing."
+    }
+  ],
+  "scope": "Weather observed web viewport; text clipping repaired. Tool image transient disappearance reported, saved10 contains both images; original PNG reuploads and two sampled visible cycles retained. Native closure remains unverified."
+}

@@ -1,0 +1,49 @@
+{
+  "revision_id": "FIGMA-HOME-IMAGE-REUPLOAD-20260930",
+  "asset": {
+    "path": "assets/home-demo-public-preview.png",
+    "sha256": "c95dc6df5c7ac832f18c3e84738c442ba5be6f882754dbcac0987c0ec26da2fa",
+    "dimensions": [
+      902,
+      40
+    ],
+    "source": "Public home-134424-navigation-only.png crop (84,483,986,523), existing build_study_svg.py provenance"
+  },
+  "edits": [
+    {
+      "root": "67:569",
+      "image_node": "67:660",
+      "asset": "design/polyulife/assets/home-demo-public-preview.png",
+      "operation": "Image fill Upload from computer",
+      "readback": {
+        "x": 44,
+        "y": 899,
+        "w": 489,
+        "h": 22
+      },
+      "at": "2026-09-30T15:02:20.780Z"
+    },
+    {
+      "root": "67:694",
+      "image_node": "67:786",
+      "asset": "design/polyulife/assets/home-demo-public-preview.png",
+      "operation": "Image fill Upload from computer",
+      "readback": {
+        "x": 44,
+        "y": 899,
+        "w": 489,
+        "h": 22
+      },
+      "at": "2026-09-30T15:03:35.805Z"
+    }
+  ],
+  "readback_difference": "Same image content hash; imageShouldColorManage false→true and thumbnail added. Not established as root cause.",
+  "source_svg_changed": false,
+  "root_controls_scroll_changed": false,
+  "prototype_run_ids": [
+    "PROTO-HOME-IMAGE-REPAIR-MONDAY-001",
+    "PROTO-HOME-IMAGE-REPAIR-TUESDAY-001",
+    "PROTO-HOME-IMAGE-REPAIR-MONDAY-REOPEN-001"
+  ],
+  "result": "Six Home returns retain photo; five of nine pixel checks equal, four localized differences. Scope remains not_verified."
+}

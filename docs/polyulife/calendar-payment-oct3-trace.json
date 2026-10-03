@@ -1,0 +1,66 @@
+{
+  "kind": "checkpoint_of_actual_native_and_figma_payment_observations",
+  "native_capture_manifest": "../../evidence/2026-10-03-calendar-payment-native/manifest.json",
+  "prototype_capture_manifest": "../../evidence/2026-10-03-calendar-payment-prototype/manifest.json",
+  "native_session_id": "SESSION-20261003-CALENDAR-PAYMENT",
+  "native_action_ids": [
+    "A-NATIVE-OCT3-PAYMENT-APPLY",
+    "A-NATIVE-OCT3-PAYMENT-REOPEN",
+    "A-NATIVE-OCT3-PAYMENT-HOME",
+    "A-NATIVE-OCT3-HOME-CALENDAR"
+  ],
+  "native_outcomes": {
+    "apply": "Payment/No event, October2 selected, Today October3",
+    "reopen": "Not established; AX and coordinate path unreliable. No app defect inferred.",
+    "home_roundtrip": "Home selected then Calendar reentry retains October/month, selected Oct2, Payment."
+  },
+  "tool_limits": [
+    "CUA live black observations differed from saved actual native/SDK screenshot bytes. Saved files inspected and not falsely labelled black.",
+    "Coordinate corrections before and after Home roundtrip returned noWindowsAvailable; do not count as observed executed native clicks.",
+    "Finder Open of existing installed app then fresh discovered Wrapper restored actual window; no quit/restart/configuration change."
+  ],
+  "figma_frames": [
+    {
+      "file": "calendar-oct3-payment.svg",
+      "name": "[OCT3:PAYMENT] Payment — observed empty date",
+      "node_id": "823:21",
+      "x": 700,
+      "y": 72600,
+      "at": "2026-10-02T17:56:16.334Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t403 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t404 stepper (settable, integer) Description: Y-position, Value: 72600",
+        "\t\t\t\t\t\t\t\t\t\t431 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t434 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "figma_connection": {
+    "action_id": "A-NATIVE-OCT3-PAYMENT-APPLY",
+    "source_node_id": "800:1610",
+    "trigger_node_id": "800:1793",
+    "trigger_node_name": "Apply",
+    "target_node_id": "823:21",
+    "trigger": "On click",
+    "behavior": "Navigate to",
+    "configured_at": "2026-10-02T17:56:32.547Z",
+    "readback": [
+      "\t\t\t\t\t\t\t676 combo box (collapsed) Position, Value: Scroll with parent, ID: :rqo:, Secondary Actions: Expand",
+      "\t\t\t\t\t\t700 combo box (collapsed) Trigger, Value: On click, ID: :rqv:, Secondary Actions: Expand",
+      "\t\t\t\t\t\t\t706 combo box (collapsed) Action, Value: Navigate to, ID: :rr2:, Secondary Actions: Expand",
+      "\t\t\t\t\t\t713 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rrh:, Secondary Actions: Expand",
+      "\t\t\t\t\t\t718 combo box (collapsed) Animation, Value: Instant, ID: :rru:, Secondary Actions: Expand",
+      "The focused UI element is 713 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rrh:, Secondary Actions: Expand"
+    ]
+  },
+  "flow_description": "Oct2/Oct3 native fullscreen reference, 19 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event. Payment Apply is newly observed on Oct3 from the retained draft and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one finite sample; main Figma callers remain pending. Private course values are synthetic DEMO; date markers omitted. Notice 800ms delay is illustrative, not native latency or successful webpage load. Geography is raster; live map actions unverified. Two old None X exits are inferred. Payment reopen, other combinations/dates and complete-app fidelity remain unverified.",
+  "prototype_run_ids": [
+    "PROTO-OCT3-PAYMENT-APPLY-001",
+    "PROTO-OCT3-PAYMENT-APPLY-002"
+  ],
+  "limits": [
+    "Main Home/More Figma callers not integrated yet; native Home observed but no new Home frame claimed.",
+    "Reopen/X, other dates/combinations/Payment events not verified.",
+    "Full application/fidelity not_verified; no financial transaction or human evaluation."
+  ]
+}

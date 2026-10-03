@@ -1,0 +1,29 @@
+{
+  "state_id": "S-TERMS-LOADING",
+  "source_evidence_ids": [
+    "E-MENU-N-21"
+  ],
+  "native_path": "../../evidence/2026-09-28-full-audit/native-menu-192948-terms-loading-01.png",
+  "native_sha256": "501c2625545504fd6ee0a8a81a2e08e2eed7e13743140db71de62401c2a80ae4",
+  "output": "terms-loading.svg",
+  "output_sha256": "c0096ce70036eacf12f56fc278d883eb791a57f511e7bee4150ea44678f5fb4c",
+  "loading_mark": {
+    "file": "assets/terms-loading-mark.png",
+    "sha256": "2246d582a3bde5f5e35a6b503339376c5c671ef82406328c0f8c220e15bc32ef",
+    "dimensions": [
+      56,
+      56
+    ],
+    "crop_xyxy": [
+      261,
+      486,
+      317,
+      542
+    ]
+  },
+  "limits": [
+    "Static mark; no measured native latency.",
+    "Editable chrome/overlay; approximate font and geometry.",
+    "Early cancellation not observed."
+  ]
+}

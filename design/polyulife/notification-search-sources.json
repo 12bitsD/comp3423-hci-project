@@ -1,0 +1,196 @@
+{
+  "sources": [
+    {
+      "file": "notification-search-empty.svg",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-27"
+      ],
+      "sha256": "68d5cd3adac63f74ebb50de3f84c3aa5e2b3c2c7fc9e6da3f776464cfe88d09d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20261003-notification-search-empty",
+      "node_id": "920:19",
+      "actual_layer_name": "[NS:EMPTY] Search — Notification caller",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-01",
+        "E-NOTICE-SEARCH-PROTO-05",
+        "E-NOTICE-SEARCH-PROTO-07",
+        "E-NOTICE-SEARCH-PROTO-11",
+        "E-NOTICE-SEARCH-PROTO-13",
+        "E-NOTICE-SEARCH-PROTO-19",
+        "E-NOTICE-SEARCH-PROTO-24",
+        "E-NOTICE-SEARCH-PROTO-26",
+        "E-NOTICE-SEARCH-PROTO-28",
+        "E-NOTICE-SEARCH-PROTO-32",
+        "E-NOTICE-SEARCH-PROTO-34"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
+    },
+    {
+      "file": "notification-search-workshop.svg",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-21"
+      ],
+      "sha256": "4560835f982898c71e94f6e1d57048ab54d43cc8d519a08131f1a791046696f7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "920:36",
+      "actual_layer_name": "[NS:WORKSHOP] Search — workshop venue result",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-02",
+        "E-NOTICE-SEARCH-PROTO-04",
+        "E-NOTICE-SEARCH-PROTO-08",
+        "E-NOTICE-SEARCH-PROTO-15",
+        "E-NOTICE-SEARCH-PROTO-17",
+        "E-NOTICE-SEARCH-PROTO-29",
+        "E-NOTICE-SEARCH-PROTO-31",
+        "E-NOTICE-SEARCH-PROTO-35",
+        "E-NOTICE-SEARCH-PROTO-37",
+        "E-NOTICE-SEARCH-PROTO-39"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
+    },
+    {
+      "file": "notification-search-negative.svg",
+      "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-18"
+      ],
+      "sha256": "9e7ff6b72f4a8caa65a0df54b1aa0e381f852f3622fc5d53d0d7c472c4cca3c6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "920:61",
+      "actual_layer_name": "[NS:NEGATIVE] Search — no record zzhci2026",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-06",
+        "E-NOTICE-SEARCH-PROTO-16",
+        "E-NOTICE-SEARCH-PROTO-20",
+        "E-NOTICE-SEARCH-PROTO-22"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
+    },
+    {
+      "file": "notification-search-title.svg",
+      "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-23"
+      ],
+      "sha256": "5815659519161c65456059d336368a13f52f8bb448aee705751aa8d2cb20d16f",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "920:95",
+      "actual_layer_name": "[NS:TITLE] Search — no record notice title",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-09",
+        "E-NOTICE-SEARCH-PROTO-14",
+        "E-NOTICE-SEARCH-PROTO-21",
+        "E-NOTICE-SEARCH-PROTO-25"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
+    },
+    {
+      "file": "notification-search-detail.svg",
+      "state_id": "S-FOOD-DETAIL",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-12"
+      ],
+      "sha256": "56361dbfb05ff9387f6799dfd160ecec7f2b6365a2ac15d40e5bb097a4ad655e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20261003-notification-search-detail",
+      "node_id": "920:129",
+      "actual_layer_name": "[NS:DETAIL] VA210 — Search return context",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-SEARCH-PROTO-03",
+        "E-NOTICE-SEARCH-PROTO-30",
+        "E-NOTICE-SEARCH-PROTO-36",
+        "E-NOTICE-SEARCH-PROTO-38"
+      ],
+      "limits": "Finite query proxies; repeated missing images retained and reuploaded; other detail controls and full app/fidelity not_verified"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/notice-search-va210-hero.png",
+      "sha256": "f2b93f1d85b3cafce1cfb810d49fc8e256be5f5fde30e2e02328979f3a75b42b",
+      "source_evidence_id": "E-NOTICE-SEARCH-12",
+      "crop_xyxy": [
+        207,
+        100,
+        430,
+        340
+      ],
+      "dimensions": [
+        223,
+        240
+      ],
+      "limits": "Public illustration/geographic map crop; attribution retained; geography labels/pins raster"
+    },
+    {
+      "file": "assets/notice-search-va210-map.png",
+      "sha256": "cd18ca809f915e813d60eded80a23547627e540b4a909731456bfda3cf52a847",
+      "source_evidence_id": "E-NOTICE-SEARCH-12",
+      "crop_xyxy": [
+        35,
+        670,
+        542,
+        980
+      ],
+      "dimensions": [
+        507,
+        310
+      ],
+      "limits": "Public illustration/geographic map crop; attribution retained; geography labels/pins raster"
+    }
+  ],
+  "limits": [
+    "Three sampled queries; native index scope and arbitrary input not established.",
+    "Fixed keyboard proxies are a Figma limitation; not native key bindings.",
+    "Existing970px callers retained. New1024px detail caller Back preserves workshop. Call/image/map/other detail navigation not configured in this batch."
+  ]
+}

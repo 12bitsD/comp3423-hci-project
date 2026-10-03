@@ -1,0 +1,33 @@
+{
+  "native_source_evidence_id": "E-WEATHER-WEB",
+  "assets": [
+    {
+      "file": "weather-web-wordmark.png",
+      "sha256": "6a3bfe1f4e1fa5db7950201df7a4131cc75f1e0eeeefd35e9738d893fe9a0041",
+      "source_file": "evidence/2026-09-28-full-audit/weather-141802-official-web-cookie.png",
+      "source_sha256": "c817301e828f68fe686691edbdde414fcf77fc64f3e29d31d15660980b3f3e9d",
+      "crop_xyxy": [
+        396,
+        159,
+        547,
+        189
+      ],
+      "note": "Official public wordmark only."
+    },
+    {
+      "file": "weather-web-banner.png",
+      "sha256": "0ba39c4089144cc07087523dee0ba8cad58b57dced1e46d013e2e6163cb715f5",
+      "source_file": "evidence/2026-09-28-full-audit/weather-141802-official-web-cookie.png",
+      "source_sha256": "c817301e828f68fe686691edbdde414fcf77fc64f3e29d31d15660980b3f3e9d",
+      "crop_xyxy": [
+        8,
+        290,
+        570,
+        571
+      ],
+      "note": "Exact public screenshot crop. Banner includes photographed heading and white pointer artifact; retained, not fully editable."
+    }
+  ],
+  "design_source_sha256": "b4623b0dfce1516a507cf572ab059668a3e5dd304a0ac8d462fd22de156f7b1f",
+  "scope": "Observed static viewport only; raster banner/title artifact and approximate editable labels recorded."
+}

@@ -1,0 +1,779 @@
+{
+  "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+  "frames": [
+    {
+      "file": "notification-search-empty.svg",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-27"
+      ],
+      "sha256": "68d5cd3adac63f74ebb50de3f84c3aa5e2b3c2c7fc9e6da3f776464cfe88d09d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "context_variant": "20261003-notification-search-empty",
+      "node_id": "920:19",
+      "name": "[NS:EMPTY] Search — Notification caller",
+      "x": 0,
+      "y": 84000,
+      "imported_at": "2026-10-03T05:39:54.188Z",
+      "readback": [
+        "~\t\t\t\t\t\t\t\t\t360 stepper (settable, integer) Description: X-position, Value: 0",
+        "~\t\t\t\t\t\t\t\t\t361 stepper (settable, integer) Description: Y-position, Value: 84000"
+      ]
+    },
+    {
+      "file": "notification-search-workshop.svg",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-21"
+      ],
+      "sha256": "4560835f982898c71e94f6e1d57048ab54d43cc8d519a08131f1a791046696f7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "node_id": "920:36",
+      "name": "[NS:WORKSHOP] Search — workshop venue result",
+      "x": 700,
+      "y": 84000,
+      "imported_at": "2026-10-03T05:40:32.383Z",
+      "readback": [
+        "~\t\t\t\t\t\t\t\t\t364 stepper (settable, integer) Description: X-position, Value: 700",
+        "~\t\t\t\t\t\t\t\t\t365 stepper (settable, integer) Description: Y-position, Value: 84000"
+      ]
+    },
+    {
+      "file": "notification-search-negative.svg",
+      "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-18"
+      ],
+      "sha256": "9e7ff6b72f4a8caa65a0df54b1aa0e381f852f3622fc5d53d0d7c472c4cca3c6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "node_id": "920:61",
+      "name": "[NS:NEGATIVE] Search — no record zzhci2026",
+      "x": 1400,
+      "y": 84000,
+      "imported_at": "2026-10-03T05:40:33.821Z",
+      "readback": [
+        "~\t\t\t\t\t\t\t\t\t400 stepper (settable, integer) Description: X-position, Value: 1400",
+        "~\t\t\t\t\t\t\t\t\t401 stepper (settable, integer) Description: Y-position, Value: 84000"
+      ]
+    },
+    {
+      "file": "notification-search-title.svg",
+      "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-23"
+      ],
+      "sha256": "5815659519161c65456059d336368a13f52f8bb448aee705751aa8d2cb20d16f",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "node_id": "920:95",
+      "name": "[NS:TITLE] Search — no record notice title",
+      "x": 2100,
+      "y": 84000,
+      "imported_at": "2026-10-03T05:40:42.670Z",
+      "readback": [
+        "~\t\t\t\t\t\t\t\t\t436 stepper (settable, integer) Description: X-position, Value: 2100",
+        "~\t\t\t\t\t\t\t\t\t437 stepper (settable, integer) Description: Y-position, Value: 84000"
+      ]
+    },
+    {
+      "file": "notification-search-detail.svg",
+      "state_id": "S-FOOD-DETAIL",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-12"
+      ],
+      "sha256": "56361dbfb05ff9387f6799dfd160ecec7f2b6365a2ac15d40e5bb097a4ad655e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed",
+      "context_variant": "20261003-notification-search-detail",
+      "node_id": "920:129",
+      "name": "[NS:DETAIL] VA210 — Search return context",
+      "x": 2800,
+      "y": 84000,
+      "imported_at": "2026-10-03T05:40:44.162Z",
+      "readback": [
+        "~\t\t\t\t\t\t\t\t\t456 stepper (settable, integer) Description: X-position, Value: 2800",
+        "~\t\t\t\t\t\t\t\t\t457 stepper (settable, integer) Description: Y-position, Value: 84000"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "865:65",
+      "trigger_node_id": "865:73",
+      "trigger_node_name": "SearchUnverified",
+      "action_id": "A-NOTICE-SEARCH-ENTRY",
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:19",
+      "configured_at": "2026-10-03T05:41:08.896Z",
+      "readback": [
+        "\t\t\t\t\t\t\t921 combo box (collapsed) Position, Value: Scroll with parent, ID: :rq6:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t945 combo box (collapsed) Trigger, Value: On click, ID: :rr5:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t951 combo box (collapsed) Action, Value: Navigate to, ID: :rr8:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t958 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rrn:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t963 combo box (collapsed) Animation, Value: Instant, ID: :rs4:, Secondary Actions: Expand",
+        "The focused UI element is 958 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rrn:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-SEARCH-01",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "source_fidelity": "Observed native finite state/action relation",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-00"
+      ]
+    },
+    {
+      "source_node_id": "920:19",
+      "trigger_node_id": "920:19",
+      "trigger_node_name": "[NS:EMPTY] Search — Notification caller",
+      "action_id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+      "trigger": "Key/Gamepad",
+      "key": "w",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:36",
+      "configured_at": "2026-10-03T05:41:23.755Z",
+      "readback": [
+        "\t\t\t\t\t\t\t225 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t297 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r7u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t303 combo box (collapsed) Action, Value: Navigate to, ID: :r81:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t310 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t315 combo box (collapsed) Animation, Value: Instant, ID: :r8t:, Secondary Actions: Expand"
+      ],
+      "limits": "Fixed workshop query proxy; native action used focused ordinary text input, not W binding.",
+      "key_readback": "- button \"Key (W) [NS:WORKSHOP] Search — workshop venue result\":",
+      "connection_id": "C-NOTICE-SEARCH-02",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "source_fidelity": "Observed native state/action relation with explicit input proxy",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-27"
+      ]
+    },
+    {
+      "source_node_id": "920:19",
+      "trigger_node_id": "920:19",
+      "trigger_node_name": "[NS:EMPTY] Search — Notification caller",
+      "action_id": "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE",
+      "trigger": "Key/Gamepad",
+      "key": "z",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:61",
+      "configured_at": "2026-10-03T05:41:27.923Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t332 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t338 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:NEGATIVE] Search — no record zzhci2026, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rag:, Secondary Actions: Expand"
+      ],
+      "limits": "Fixed zzhci2026 query proxy; native action used focused ordinary text input.",
+      "key_readback": "- button \"Key (Z) [NS:NEGATIVE] Search — no record zzhci2026\":",
+      "connection_id": "C-NOTICE-SEARCH-03",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Observed native state/action relation with explicit input proxy",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-27"
+      ]
+    },
+    {
+      "source_node_id": "920:19",
+      "trigger_node_id": "920:19",
+      "trigger_node_name": "[NS:EMPTY] Search — Notification caller",
+      "action_id": null,
+      "trigger": "Key/Gamepad",
+      "key": "t",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:95",
+      "configured_at": "2026-10-03T05:41:31.988Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t356 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :rao:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t362 combo box (collapsed) Action, Value: Navigate to, ID: :rar:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t392 combo box (collapsed) Destination, Value: [NS:TITLE] Search — no record notice title, ID: :rbj:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t397 combo box (collapsed) Animation, Value: Instant, ID: :rcf:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized replacement with sampled title query; not observed from empty. Fixed query proxy, not arbitrary input.",
+      "key_readback": "- button \"Key (T) [NS:TITLE] Search — no record notice title\":",
+      "connection_id": "C-NOTICE-SEARCH-04",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-27"
+      ]
+    },
+    {
+      "source_node_id": "920:19",
+      "trigger_node_id": "920:23",
+      "trigger_node_name": "Back",
+      "action_id": "A-NOTICE-SEARCH-BACK",
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:65",
+      "configured_at": "2026-10-03T05:41:40.986Z",
+      "readback": [
+        "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rd5:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Trigger, Value: On click, ID: :rdc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t357 combo box (collapsed) Action, Value: Navigate to, ID: :rdf:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t364 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rdu:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t369 combo box (collapsed) Animation, Value: Instant, ID: :reb:, Secondary Actions: Expand",
+        "The focused UI element is 364 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rdu:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-SEARCH-05",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+        "PROTO-NOTICE-SEARCH-REPEAT-003"
+      ],
+      "source_fidelity": "Observed native finite state/action relation",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-27"
+      ]
+    },
+    {
+      "source_node_id": "920:36",
+      "trigger_node_id": "920:36",
+      "trigger_node_name": "[NS:WORKSHOP] Search — workshop venue result",
+      "action_id": null,
+      "trigger": "Key/Gamepad",
+      "key": "z",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:61",
+      "configured_at": "2026-10-03T05:41:50.684Z",
+      "readback": [
+        "\t\t\t\t\t\t\t225 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t300 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r7u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t306 combo box (collapsed) Action, Value: Navigate to, ID: :r81:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [NS:NEGATIVE] Search — no record zzhci2026, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t318 combo box (collapsed) Animation, Value: Instant, ID: :r8t:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized query replacement; finite proxy, not observed from workshop.",
+      "key_readback": "- button \"Key (Z) [NS:NEGATIVE] Search — no record zzhci2026\":",
+      "connection_id": "C-NOTICE-SEARCH-06",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-21"
+      ]
+    },
+    {
+      "source_node_id": "920:36",
+      "trigger_node_id": "920:36",
+      "trigger_node_name": "[NS:WORKSHOP] Search — workshop venue result",
+      "action_id": "A-NOTICE-SEARCH-KEYBOARD-TITLE",
+      "trigger": "Key/Gamepad",
+      "key": "t",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:95",
+      "configured_at": "2026-10-03T05:41:54.736Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t332 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t338 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:TITLE] Search — no record notice title, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rag:, Secondary Actions: Expand"
+      ],
+      "limits": "Fixed title query replacement proxy; native ordinary text selection/replacement.",
+      "key_readback": "- button \"Key (T) [NS:TITLE] Search — no record notice title\":",
+      "connection_id": "C-NOTICE-SEARCH-07",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001"
+      ],
+      "source_fidelity": "Observed native state/action relation with explicit input proxy",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-21"
+      ]
+    },
+    {
+      "source_node_id": "920:36",
+      "trigger_node_id": "920:52",
+      "trigger_node_name": "ClearSearch",
+      "action_id": "A-NOTICE-SEARCH-CLEAR",
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:19",
+      "configured_at": "2026-10-03T05:42:05.844Z",
+      "readback": [
+        "\t\t\t\t\t\t\t308 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb0:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Trigger, Value: On click, ID: :rb7:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t353 combo box (collapsed) Action, Value: Navigate to, ID: :rba:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbp:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rc6:, Secondary Actions: Expand",
+        "The focused UI element is 360 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbp:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-SEARCH-08",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-REPEAT-003"
+      ],
+      "source_fidelity": "Observed native finite state/action relation",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-21"
+      ]
+    },
+    {
+      "source_node_id": "920:36",
+      "trigger_node_id": "920:40",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:65",
+      "configured_at": "2026-10-03T05:42:09.735Z",
+      "readback": [
+        "\t\t\t\t\t\t\t308 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb0:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t360 combo box (collapsed) Trigger, Value: On click, ID: :rch:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t366 combo box (collapsed) Action, Value: Navigate to, ID: :rck:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t373 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd3:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t379 combo box (collapsed) Animation, Value: Instant, ID: :rdg:, Secondary Actions: Expand",
+        "The focused UI element is 373 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd3:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized exit from workshop; native exit sampled from title and empty only.",
+      "connection_id": "C-NOTICE-SEARCH-09",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-21"
+      ]
+    },
+    {
+      "source_node_id": "920:36",
+      "trigger_node_id": "920:56",
+      "trigger_node_name": "VenueResult",
+      "action_id": "A-NOTICE-SEARCH-RESULT",
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:129",
+      "configured_at": "2026-10-03T05:42:13.271Z",
+      "readback": [
+        "\t\t\t\t\t\t\t308 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb0:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t360 combo box (collapsed) Trigger, Value: On click, ID: :rdl:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t366 combo box (collapsed) Action, Value: Navigate to, ID: :rdo:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t373 combo box (collapsed) Destination, Value: [NS:DETAIL] VA210 — Search return context, ID: :re7:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t378 combo box (collapsed) Animation, Value: Instant, ID: :rek:, Secondary Actions: Expand",
+        "The focused UI element is 373 combo box (collapsed) Destination, Value: [NS:DETAIL] VA210 — Search return context, ID: :re7:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-SEARCH-10",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "source_fidelity": "Observed native finite state/action relation",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-21"
+      ]
+    },
+    {
+      "source_node_id": "920:61",
+      "trigger_node_id": "920:61",
+      "trigger_node_name": "[NS:NEGATIVE] Search — no record zzhci2026",
+      "action_id": null,
+      "trigger": "Key/Gamepad",
+      "key": "w",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:36",
+      "configured_at": "2026-10-03T05:42:22.367Z",
+      "readback": [
+        "\t\t\t\t\t\t\t225 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t300 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r7u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t306 combo box (collapsed) Action, Value: Navigate to, ID: :r81:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t318 combo box (collapsed) Animation, Value: Instant, ID: :r8t:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized replacement; finite workshop proxy from negative query not sampled.",
+      "key_readback": "- button \"Key (W) [NS:WORKSHOP] Search — workshop venue result\":",
+      "connection_id": "C-NOTICE-SEARCH-11",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-18"
+      ]
+    },
+    {
+      "source_node_id": "920:61",
+      "trigger_node_id": "920:61",
+      "trigger_node_name": "[NS:NEGATIVE] Search — no record zzhci2026",
+      "action_id": null,
+      "trigger": "Key/Gamepad",
+      "key": "t",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:95",
+      "configured_at": "2026-10-03T05:42:26.415Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t332 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t338 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:TITLE] Search — no record notice title, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rag:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized replacement; finite title proxy from negative query not sampled.",
+      "key_readback": "- button \"Key (T) [NS:TITLE] Search — no record notice title\":",
+      "connection_id": "C-NOTICE-SEARCH-12",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-18"
+      ]
+    },
+    {
+      "source_node_id": "920:61",
+      "trigger_node_id": "920:76",
+      "trigger_node_name": "ClearSearch",
+      "action_id": "A-NOTICE-SEARCH-CLEAR",
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:19",
+      "configured_at": "2026-10-03T05:42:35.100Z",
+      "readback": [
+        "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Trigger, Value: On click, ID: :rb9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t357 combo box (collapsed) Action, Value: Navigate to, ID: :rbc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t364 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbr:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t370 combo box (collapsed) Animation, Value: Instant, ID: :rc8:, Secondary Actions: Expand",
+        "The focused UI element is 364 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbr:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-SEARCH-13",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001"
+      ],
+      "source_fidelity": "Observed native finite state/action relation",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-18"
+      ]
+    },
+    {
+      "source_node_id": "920:61",
+      "trigger_node_id": "920:65",
+      "trigger_node_name": "Back",
+      "action_id": null,
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:65",
+      "configured_at": "2026-10-03T05:42:38.670Z",
+      "readback": [
+        "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t364 combo box (collapsed) Trigger, Value: On click, ID: :rcj:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t370 combo box (collapsed) Action, Value: Navigate to, ID: :rcm:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t377 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd5:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t383 combo box (collapsed) Animation, Value: Instant, ID: :rdi:, Secondary Actions: Expand",
+        "The focused UI element is 377 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd5:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized exit from negative query; native exit sampled from title and empty.",
+      "connection_id": "C-NOTICE-SEARCH-14",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-18"
+      ]
+    },
+    {
+      "source_node_id": "920:95",
+      "trigger_node_id": "920:95",
+      "trigger_node_name": "[NS:TITLE] Search — no record notice title",
+      "action_id": null,
+      "trigger": "Key/Gamepad",
+      "key": "w",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:36",
+      "configured_at": "2026-10-03T05:42:48.409Z",
+      "readback": [
+        "\t\t\t\t\t\t\t225 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t300 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r7u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t306 combo box (collapsed) Action, Value: Navigate to, ID: :r81:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t313 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r8g:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t318 combo box (collapsed) Animation, Value: Instant, ID: :r8t:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized replacement with workshop from title; finite query proxy.",
+      "key_readback": "- button \"Key (W) [NS:WORKSHOP] Search — workshop venue result\":",
+      "connection_id": "C-NOTICE-SEARCH-15",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-23"
+      ]
+    },
+    {
+      "source_node_id": "920:95",
+      "trigger_node_id": "920:95",
+      "trigger_node_name": "[NS:TITLE] Search — no record notice title",
+      "action_id": null,
+      "trigger": "Key/Gamepad",
+      "key": "z",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:61",
+      "configured_at": "2026-10-03T05:42:52.361Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t304 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t332 combo box (collapsed) Trigger, Value: Key/Gamepad, ID: :r93:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t338 combo box (collapsed) Action, Value: Navigate to, ID: :r96:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t360 combo box (collapsed) Destination, Value: [NS:NEGATIVE] Search — no record zzhci2026, ID: :r9p:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t365 combo box (collapsed) Animation, Value: Instant, ID: :rag:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized replacement with negative query from title; finite query proxy.",
+      "key_readback": "- button \"Key (Z) [NS:NEGATIVE] Search — no record zzhci2026\":",
+      "connection_id": "C-NOTICE-SEARCH-16",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-23"
+      ]
+    },
+    {
+      "source_node_id": "920:95",
+      "trigger_node_id": "920:110",
+      "trigger_node_name": "ClearSearch",
+      "action_id": null,
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:19",
+      "configured_at": "2026-10-03T05:43:02.478Z",
+      "readback": [
+        "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Trigger, Value: On click, ID: :rb9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t357 combo box (collapsed) Action, Value: Navigate to, ID: :rbc:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t364 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbr:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t370 combo box (collapsed) Animation, Value: Instant, ID: :rc8:, Secondary Actions: Expand",
+        "The focused UI element is 364 combo box (collapsed) Destination, Value: [NS:EMPTY] Search — Notification caller, ID: :rbr:, Secondary Actions: Expand"
+      ],
+      "limits": "Generalized title clear; native X sampled from workshop and negative only.",
+      "connection_id": "C-NOTICE-SEARCH-17",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-GENERALIZED-002"
+      ],
+      "source_fidelity": "Generalized prototype behavior; no native execution claim",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-23"
+      ]
+    },
+    {
+      "source_node_id": "920:95",
+      "trigger_node_id": "920:99",
+      "trigger_node_name": "Back",
+      "action_id": "A-NOTICE-SEARCH-BACK",
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "865:65",
+      "configured_at": "2026-10-03T05:43:05.958Z",
+      "readback": [
+        "\t\t\t\t\t\t\t312 combo box (collapsed) Position, Value: Scroll with parent, ID: :rb2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t364 combo box (collapsed) Trigger, Value: On click, ID: :rcj:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t370 combo box (collapsed) Action, Value: Navigate to, ID: :rcm:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t377 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd5:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t383 combo box (collapsed) Animation, Value: Instant, ID: :rdi:, Secondary Actions: Expand",
+        "The focused UI element is 377 combo box (collapsed) Destination, Value: [NOTICE:READ] Notification — read workshop, ID: :rd5:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-SEARCH-18",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001"
+      ],
+      "source_fidelity": "Observed native finite state/action relation",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-23"
+      ]
+    },
+    {
+      "source_node_id": "920:129",
+      "trigger_node_id": "920:168",
+      "trigger_node_name": "Back",
+      "action_id": "A-NOTICE-SEARCH-DETAIL-BACK",
+      "trigger": "On click",
+      "key": null,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "target_node_id": "920:36",
+      "configured_at": "2026-10-03T05:43:15.261Z",
+      "readback": [
+        "\t\t\t\t\t\t\t309 combo box (collapsed) Position, Value: Scroll with parent, ID: :r88:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t333 combo box (collapsed) Trigger, Value: On click, ID: :r8f:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t339 combo box (collapsed) Action, Value: Navigate to, ID: :r8i:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t346 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r91:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Animation, Value: Instant, ID: :r9e:, Secondary Actions: Expand",
+        "The focused UI element is 346 combo box (collapsed) Destination, Value: [NS:WORKSHOP] Search — workshop venue result, ID: :r91:, Secondary Actions: Expand"
+      ],
+      "limits": null,
+      "connection_id": "C-NOTICE-SEARCH-19",
+      "revision_id": "FIGMA-NOTIFICATION-SEARCH-20261003",
+      "implementation_status": "configured_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-SEARCH-FIRST-001",
+        "PROTO-NOTICE-SEARCH-REPEAT-003",
+        "PROTO-NOTICE-SEARCH-RECOVERY-004"
+      ],
+      "source_fidelity": "Observed native finite state/action relation",
+      "source_evidence_ids": [
+        "E-NOTICE-SEARCH-12"
+      ]
+    }
+  ],
+  "image_reuploads": [
+    {
+      "node_id": "920:135",
+      "asset": "assets/notice-search-va210-hero.png",
+      "uploaded_at": "2026-10-03T05:59:03.167Z",
+      "reason": "SDK30 missing hero after first SDK03 visible; same source asset reupload"
+    },
+    {
+      "node_id": "920:162",
+      "asset": "assets/notice-search-va210-map.png",
+      "uploaded_at": "2026-10-03T05:59:15.721Z",
+      "reason": "SDK30 missing map after first SDK03 visible; same source asset reupload"
+    }
+  ],
+  "flow": {
+    "name": "Reference · Oct2 Calendar filters & Notice — partial",
+    "start_node_id": "791:177",
+    "description": "Oct2/Oct3 native reference: 47 finite frames and83 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Notification Search now has five576x1024 frames and19 finite controls: W=workshop, Z=zzhci2026, T=Upcoming IT Workshops are prototype query proxies, not native key bindings or arbitrary input. Result/detail/Back retains workshop; exit/reentry empty. Generalized replacements, title clear and workshop/negative exits separately marked. Four actual Search runs retain a repeated detail missing hero/map; same assets reuploaded and two subsequent detail entries visible, long-term stability unknown. Native Return submission and index scope remain unverified; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified.",
+    "updated_at": "2026-10-03T06:00:10.462Z",
+    "readback": [
+      "Oct2/Oct3 native reference: 47 finite frames and83 configured controls. Calendar All/None/Class/detail/Notice/Exam/Payment, observed date/month cycles, Home DEMO callers, Payment view/history and first DEMO record/Portal remain partial. Added Notification tab: unread workshop → initial/detail with banner → Read more loading/titled blank/menu/Cancel/X, banner expansion/X, read list/reopen and Calendar return. Three actual Present runs preserve footer misselection correction, missing banner/loading mark and same-asset reupload recovery. Early Read more leaves initial timer without redirect. Transient Calendar preview glyph positioning differed; saved stable Calendar crops are equal; cause unisolated. Existing Payment entry lacks native unread badge. Financial/class/private fields synthetic DEMO. Images/static loading mark raster; editable text/vector geometry approximate. All800ms delays are demonstration proxies, not native latency/causality. Blank web page establishes neither service success nor server failure. Notification Search now has five576x1024 frames and19 finite controls: W=workshop, Z=zzhci2026, T=Upcoming IT Workshops are prototype query proxies, not native key bindings or arbitrary input. Result/detail/Back retains workshop; exit/reentry empty. Generalized replacements, title clear and workshop/negative exits separately marked. Four actual Search runs retain a repeated detail missing hero/map; same assets reuploaded and two subsequent detail entries visible, long-term stability unknown. Native Return submission and index scope remain unverified; other notices, arbitrary queries/dates, menus, scrolling, sharing/copy/system browser and untested exits remain incomplete. Saved pixels determine visible state despite lagging URL and black tool previews. Full app/fidelity not_verified."
+    ]
+  },
+  "prototype_run_ids": [
+    "PROTO-NOTICE-SEARCH-FIRST-001",
+    "PROTO-NOTICE-SEARCH-GENERALIZED-002",
+    "PROTO-NOTICE-SEARCH-REPEAT-003",
+    "PROTO-NOTICE-SEARCH-RECOVERY-004"
+  ],
+  "limits": [
+    "Finite three queries via W/Z/T proxies; not native bindings or arbitrary text input.",
+    "Native state/action relationships and prototype generalized replacements/exits kept distinct.",
+    "Tool title screenshot preview had black body while saved SDK09 has visible No record found and waves; cause unisolated.",
+    "SDK32 URL still workshop after clear; saved pixels determine actual state.",
+    "Editor network changes interrupted extra screenshots; fresh editor recovered. Same hero/map assets reuploaded after SDK30 missing both; SDK36/38 visible. Original failure retained. Flow description updated and reopened for exact readback.",
+    "Call/image/map/tag detail controls unconfigured; existing970px callers retained. Full app/fidelity not_verified.",
+    "24 prior comparisons plus6 recovery comparisons are finite repeated prototype crops; unequal detail crop retained. No long-term image reliability or full fidelity claim.",
+    "SDK30 shows both hero and map missing; SDK36/38 after same-source image fill uploads show both. Repeated crop equality does not establish long-term reliability.",
+    "Prototype replay is neither native execution nor human evaluation. Native Return submission and index scope remain unverified."
+  ]
+}

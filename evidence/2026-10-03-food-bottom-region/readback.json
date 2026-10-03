@@ -1,0 +1,548 @@
+{
+  "log": [
+    {
+      "file": "00-old-viewport.png",
+      "kind": "editor",
+      "note": "Before repair viewport0,147 576x877; current source puts all73px tail incontent.",
+      "input": null,
+      "captured_at": "2026-10-03T08:01:33.447Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"147\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"877\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "01-content-before.png",
+      "kind": "editor",
+      "note": "Content0,0 576x5635 Left/Top before viewport repair.",
+      "input": null,
+      "captured_at": "2026-10-03T08:02:10.275Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5635\""
+      ]
+    },
+    {
+      "file": "02-background-tail-split.png",
+      "kind": "editor",
+      "note": "Only backgroundheight5635→5581, content tail73→19; rows unchanged.",
+      "input": null,
+      "captured_at": "2026-10-03T08:02:35.743Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5581\""
+      ]
+    },
+    {
+      "file": "03-fixed-bottom-viewport.png",
+      "kind": "editor",
+      "note": "Viewport0,147 576x823 Cliptrue, bottom54px rootwhiteoutside; exact native boundarynotverified.",
+      "input": null,
+      "captured_at": "2026-10-03T08:02:52.967Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"147\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"823\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "04-vertical-retained.png",
+      "kind": "editor",
+      "note": "Vertical overflow retained after geometryrepair.",
+      "input": null,
+      "captured_at": "2026-10-03T08:02:53.784Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":",
+        "    - generic: Vertical"
+      ]
+    },
+    {
+      "file": "05-reference-flow.png",
+      "kind": "editor",
+      "note": "Independent current28-row reference start created; disclosure corrected prior tail interpretation.",
+      "input": null,
+      "captured_at": "2026-10-03T08:03:24.589Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "06-actual-size.png",
+      "kind": "present",
+      "note": "First independentFood start Actualsize/sidebar clips; kept asdisplayfailure.",
+      "input": null,
+      "captured_at": "2026-10-03T08:03:34.283Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=min-zoom&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580&show-proto-sidebar=1"
+    },
+    {
+      "file": "07-fixed-bottom-top.png",
+      "kind": "present",
+      "note": "Top with confirmed54px white bottom outsideviewport; sourceheightsapproximate.",
+      "input": null,
+      "captured_at": "2026-10-03T08:03:41.607Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "08-fixed-bottom-middle.png",
+      "kind": "present",
+      "note": "Intermediate list sample;bottom54px remainswhiteoutsideviewport.",
+      "input": {
+        "direction": "down",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T08:04:00.432Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "09-fixed-bottom-lower.png",
+      "kind": "present",
+      "note": "Lowerlist sample after furtherdownscroll.",
+      "input": {
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T08:04:00.770Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "10-fixed-bottom-last.png",
+      "kind": "present",
+      "note": "Gourmetlast row;19px contenttail and54px fixedwhite split preserveslastrowplacement.",
+      "input": {
+        "direction": "down",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T08:04:01.460Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "11-fixed-bottom-extra-down.png",
+      "kind": "present",
+      "note": "Additionalfinitebottomscroll.",
+      "input": {
+        "direction": "down",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T08:04:02.174Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "12-fixed-bottom-reverse-top.png",
+      "kind": "present",
+      "note": "Reverse to top.",
+      "input": {
+        "direction": "up",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T08:04:02.888Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "13-fixed-bottom-repeat-last.png",
+      "kind": "present",
+      "note": "Repeat lastrow.",
+      "input": {
+        "direction": "down",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T08:04:03.603Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "14-fixed-bottom-repeat-top.png",
+      "kind": "present",
+      "note": "Repeat top.",
+      "input": {
+        "direction": "up",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T08:04:04.211Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "15-final-content.png",
+      "kind": "editor",
+      "note": "Finalgroup0,0 576x5581 Left/Top afterviewportshortening; rowsnotcompressed.",
+      "input": null,
+      "captured_at": "2026-10-03T08:04:18.573Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5581\""
+      ]
+    }
+  ],
+  "flow": {
+    "name": "Reference · Food 28 venues — continuous list",
+    "start_node_id": "954:3580",
+    "description": "Independent reference of28 archived October3 public Food venues. Continuous finite list scrolling with fixed header, map strip and handle. Bottom54px is left white from eight archived samples; exact native viewport boundary and row geometry remain unknown. Prior73px content-tail interpretation corrected to19px contenttail plus54px outsideviewport. Public logos/map strip raster; other text/vector layers independent. Caller, Back, hours, row details, tags and Online Order unconfigured. Full application/visual fidelity not verified; replay is not native execution or human evaluation.",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-3580&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A3580&show-proto-sidebar=1"
+  },
+  "native_bottom_white_checks": [
+    {
+      "source_file": "06-food-sheet-expand.png",
+      "source_sha256": "3e3fd701d9727e7099686d87ce22e9b8a4a73a83cdfedab2647e0293cf2a32b6",
+      "crop_xyxy": [
+        0,
+        970,
+        576,
+        1024
+      ],
+      "white": true,
+      "source_evidence_ids": [
+        "E-FOOD-REV-06"
+      ]
+    },
+    {
+      "source_file": "07-food-list-next.png",
+      "source_sha256": "b6b79d44e3f792ad8dacdb4d08267e6dc6b5fe935817773ab51a398c179389ca",
+      "crop_xyxy": [
+        0,
+        970,
+        576,
+        1024
+      ],
+      "white": true,
+      "source_evidence_ids": [
+        "E-FOOD-REV-07"
+      ]
+    },
+    {
+      "source_file": "08-hcafe-hours-expand.png",
+      "source_sha256": "d6cf724c8c397556b6624186ee6ecb4931b1abfae3d024fdb705e9342c7485ec",
+      "crop_xyxy": [
+        0,
+        970,
+        576,
+        1024
+      ],
+      "white": true,
+      "source_evidence_ids": [
+        "E-FOOD-REV-08"
+      ]
+    },
+    {
+      "source_file": "13-food-list-va210.png",
+      "source_sha256": "b40779e5fb54f2785c21e4e9232d5080bd42842b4102c28af615dee6edc29550",
+      "crop_xyxy": [
+        0,
+        970,
+        576,
+        1024
+      ],
+      "white": true,
+      "source_evidence_ids": [
+        "E-FOOD-REV-13"
+      ]
+    },
+    {
+      "source_file": "14-va210-hours-expand.png",
+      "source_sha256": "7f43db2dc3474c5e290f4378c712913f47ab32d9fea8831a273d80fb216bff3a",
+      "crop_xyxy": [
+        0,
+        970,
+        576,
+        1024
+      ],
+      "white": true,
+      "source_evidence_ids": [
+        "E-FOOD-REV-14"
+      ]
+    },
+    {
+      "source_file": "17-food-list-last.png",
+      "source_sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+      "crop_xyxy": [
+        0,
+        970,
+        576,
+        1024
+      ],
+      "white": true,
+      "source_evidence_ids": [
+        "E-FOOD-REV-17"
+      ]
+    },
+    {
+      "source_file": "19-gourmet-information-expand.png",
+      "source_sha256": "288405cdca777c066bc3f7a9c06bf508c3071a2934f07f06d61823c22b949532",
+      "crop_xyxy": [
+        0,
+        970,
+        576,
+        1024
+      ],
+      "white": true,
+      "source_evidence_ids": [
+        "E-FOOD-REV-19"
+      ]
+    },
+    {
+      "source_file": "21-food-reverse-top.png",
+      "source_sha256": "fd5c5c88c1230631e7463d74c0bf3cab3d5964d77b8bdef70e2f40445d765604",
+      "crop_xyxy": [
+        0,
+        970,
+        576,
+        1024
+      ],
+      "white": true,
+      "source_evidence_ids": [
+        "E-FOOD-REV-21"
+      ]
+    }
+  ],
+  "native_exact_viewport_boundary_verified": false,
+  "pixel_comparisons": [
+    {
+      "left": "10-fixed-bottom-last.png",
+      "right": "11-fixed-bottom-extra-down.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "07-fixed-bottom-top.png",
+      "right": "12-fixed-bottom-reverse-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "10-fixed-bottom-last.png",
+      "right": "13-fixed-bottom-repeat-last.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "07-fixed-bottom-top.png",
+      "right": "14-fixed-bottom-repeat-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "prototype_uniform_white_checks": [
+    {
+      "file": "07-fixed-bottom-top.png",
+      "prototype_interior_bottom_crop_xyxy": [
+        270,
+        660,
+        620,
+        688
+      ],
+      "exact_uniform_white": false,
+      "difference_bbox": [
+        346,
+        0,
+        350,
+        28
+      ],
+      "limits": "Strict raw screenshot pixels; border/encoding/rendering cause not isolated. Do not narrow crop to hide failures."
+    },
+    {
+      "file": "08-fixed-bottom-middle.png",
+      "prototype_interior_bottom_crop_xyxy": [
+        270,
+        660,
+        620,
+        688
+      ],
+      "exact_uniform_white": false,
+      "difference_bbox": [
+        66,
+        0,
+        350,
+        28
+      ],
+      "limits": "Strict raw screenshot pixels; border/encoding/rendering cause not isolated. Do not narrow crop to hide failures."
+    },
+    {
+      "file": "09-fixed-bottom-lower.png",
+      "prototype_interior_bottom_crop_xyxy": [
+        270,
+        660,
+        620,
+        688
+      ],
+      "exact_uniform_white": false,
+      "difference_bbox": [
+        74,
+        0,
+        350,
+        28
+      ],
+      "limits": "Strict raw screenshot pixels; border/encoding/rendering cause not isolated. Do not narrow crop to hide failures."
+    },
+    {
+      "file": "10-fixed-bottom-last.png",
+      "prototype_interior_bottom_crop_xyxy": [
+        270,
+        660,
+        620,
+        688
+      ],
+      "exact_uniform_white": false,
+      "difference_bbox": [
+        346,
+        0,
+        350,
+        28
+      ],
+      "limits": "Strict raw screenshot pixels; border/encoding/rendering cause not isolated. Do not narrow crop to hide failures."
+    },
+    {
+      "file": "11-fixed-bottom-extra-down.png",
+      "prototype_interior_bottom_crop_xyxy": [
+        270,
+        660,
+        620,
+        688
+      ],
+      "exact_uniform_white": false,
+      "difference_bbox": [
+        346,
+        0,
+        350,
+        28
+      ],
+      "limits": "Strict raw screenshot pixels; border/encoding/rendering cause not isolated. Do not narrow crop to hide failures."
+    },
+    {
+      "file": "12-fixed-bottom-reverse-top.png",
+      "prototype_interior_bottom_crop_xyxy": [
+        270,
+        660,
+        620,
+        688
+      ],
+      "exact_uniform_white": false,
+      "difference_bbox": [
+        346,
+        0,
+        350,
+        28
+      ],
+      "limits": "Strict raw screenshot pixels; border/encoding/rendering cause not isolated. Do not narrow crop to hide failures."
+    },
+    {
+      "file": "13-fixed-bottom-repeat-last.png",
+      "prototype_interior_bottom_crop_xyxy": [
+        270,
+        660,
+        620,
+        688
+      ],
+      "exact_uniform_white": false,
+      "difference_bbox": [
+        346,
+        0,
+        350,
+        28
+      ],
+      "limits": "Strict raw screenshot pixels; border/encoding/rendering cause not isolated. Do not narrow crop to hide failures."
+    },
+    {
+      "file": "14-fixed-bottom-repeat-top.png",
+      "prototype_interior_bottom_crop_xyxy": [
+        270,
+        660,
+        620,
+        688
+      ],
+      "exact_uniform_white": false,
+      "difference_bbox": [
+        346,
+        0,
+        350,
+        28
+      ],
+      "limits": "Strict raw screenshot pixels; border/encoding/rendering cause not isolated. Do not narrow crop to hide failures."
+    }
+  ],
+  "limits": [
+    "Eight archived expanded native screenshots have exact white pixels in970..1023. Mid-list and top samples establish this is not solely the last-row tail. Exact native viewport bound cannot be inferred from glyph edges.",
+    "Previous73px tail remains an observed last-frame pixel region, but treating all73 as scrolling content was incomplete. Reconstruction now splits19px contenttail and54px outsideviewport;19px split is construction, not proven native extent.",
+    "Viewport0,147 576x823, group0,0 576x5581 Left/Top; root576x1024 and rows unchanged. Inferredrange4758 remains approximate.",
+    "Four full raw app-crop repeated boundary/reverse checks equal. Eight strict prototype bottom uniform-white checks have differences; cause not isolated. No complete pixel/native-fidelity claim.",
+    "Source reflects recorded UI geometry and fixed white overlay, not a Figma export. Prior source and mapping retained as history.",
+    "Independent Food reference flow created; no Home caller, Back, hours/detail/tag/order navigation connected. Prior denied Action dropdown not retried/circumvented.",
+    "Native Mac remained locked at current check; no new native states/actions/session. Hours variants remain pending. H Café/U Garden source ellipsis vertical placement also needs correction for Online Order row height."
+  ]
+}

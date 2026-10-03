@@ -1,0 +1,163 @@
+{
+  "kind": "figma_sample_and_render_review",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-auth-imported.png",
+      "sha256": "a889f1377b8ff1116e57d653c8732437290cd226989cf0fa8d5305c1d48f765c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:17:10.651559+00:00",
+      "timestamp_basis": "Local capture file write time",
+      "description": "Initial prototype capture was Figma loading screen, no auth rendered.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "file": "02-auth-stable.png",
+      "sha256": "7b9b59ada21eed89ffc78f507eae4d6bb1b0af500df30ccce386d10ec91bb062",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:17:34.592031+00:00",
+      "timestamp_basis": "Local capture file write time",
+      "description": "Header appeared but LoginWebContent accidentally hidden during layer inspection; failed visual sample preserved.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "file": "03-auth-visible-restored.png",
+      "sha256": "3b8a3a0addb91f55b5c34812f86c88742604d7d6b1a1d195cc6d1029d9b6f6ec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:18:39.341033+00:00",
+      "timestamp_basis": "Local capture file write time",
+      "description": "Restored LoginWebContent using Show toggle, then actual prototype renders wordmark, empty fields and login prompt.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "file": "04-copy-configuration.png",
+      "sha256": "7be6a4c7c850c79dec5a53be01d380291c7e0ee9fca27a23849a76d4fa213c0a",
+      "dimensions": [
+        628,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T01:22:49.549516+00:00",
+      "timestamp_basis": "Local capture file write time",
+      "description": "Actual editor On click/Close overlay configuration on Copy link text312:242.",
+      "redaction": "Mask multiplayer avatar area half-open[390, 0, 447, 49]; no personal form inputs."
+    },
+    {
+      "file": "05-preview-baseline.png",
+      "sha256": "76c4bcdf04321a396703427317abbbb87d4b3a197d4c0f8101d39081f1a06840",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:23:12.107712+00:00",
+      "timestamp_basis": "Local capture file write time",
+      "description": "Historical public Preview root310:12 at top, separate entry from isolated authentication render.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "file": "06-menu-open.png",
+      "sha256": "fe59393d659abb0929c3f2eb385fd08a797038de458532d810ee1ef471341366",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:23:25.848Z",
+      "timestamp_basis": "Actual step timestamp",
+      "description": "Actual More opens existing menu overlay.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "file": "07-copy-dismissed.png",
+      "sha256": "76c4bcdf04321a396703427317abbbb87d4b3a197d4c0f8101d39081f1a06840",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:23:33.126Z",
+      "timestamp_basis": "Actual step timestamp",
+      "description": "Copy link text closes menu overlay; prototype does not write clipboard.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "file": "08-preview-scrolled.png",
+      "sha256": "9b23da6e51cb7136c6747ef77ae7a4405a9d1abe71c4e94c3fceda0be04084b1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:23:41.609Z",
+      "timestamp_basis": "Actual step timestamp",
+      "description": "Actual prototype vertical scroll to intermediate content.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "file": "09-menu-scrolled.png",
+      "sha256": "73d57b73d6bc8914fef91ca475c7075ee6e8830d2e6d2527ac05fc47411d4cbe",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:23:50.509Z",
+      "timestamp_basis": "Actual step timestamp",
+      "description": "Menu open over intermediate scroll.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    },
+    {
+      "file": "10-copy-scrolled-return.png",
+      "sha256": "9b23da6e51cb7136c6747ef77ae7a4405a9d1abe71c4e94c3fceda0be04084b1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T01:23:50.913Z",
+      "timestamp_basis": "Actual step timestamp",
+      "description": "Copy link closes menu while preserving prototype intermediate scroll; clipboard not simulated.",
+      "redaction": "Mask multiplayer avatar area half-open[1017, 0, 1075, 49]; no personal form inputs."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "632ff711ade2352eca99139846b5c04bce7aaea47ea002c0aa59df3a177c9c7e",
+    "dimensions": [
+      1071,
+      1254
+    ]
+  },
+  "pixel_checks": [
+    {
+      "baseline": "05-preview-baseline.png",
+      "comparison": "07-copy-dismissed.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype return preservation only, not native fidelity or clipboard behavior."
+    },
+    {
+      "baseline": "08-preview-scrolled.png",
+      "comparison": "10-copy-scrolled-return.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype return preservation only, not native fidelity or clipboard behavior."
+    }
+  ],
+  "scope": "Isolated auth frame render, then separate historical Preview menu replay. Full caller/auth/history/clipboard integration incomplete."
+}

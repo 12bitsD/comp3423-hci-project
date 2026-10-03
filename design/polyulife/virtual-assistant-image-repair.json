@@ -1,0 +1,43 @@
+{
+  "revision_id": "FIGMA-VA-IMAGE-REPAIR-20260930",
+  "root_node_id": "42:6",
+  "image_node_id": "42:12",
+  "image_position": [
+    19,
+    100
+  ],
+  "image_dimensions": [
+    538,
+    214
+  ],
+  "asset_path": "assets/virtual-assistant-hero.png",
+  "asset_sha256": "26dd6ac688d312576c534c42db433e738e52d2a48fd06a7b4244ff13093f934b",
+  "native_source_evidence_ids": [
+    "E-ASSISTANT-DETAIL"
+  ],
+  "operation": "Image fill / Upload from computer, existing source bitmap",
+  "readback": {
+    "scale_mode_before": "STRETCH",
+    "scale_mode_after": "STRETCH",
+    "opacity": 1,
+    "visible": true,
+    "original_image_dimensions": [
+      576,
+      230
+    ],
+    "image_hash_unchanged": true,
+    "image_should_color_manage_before": false,
+    "image_should_color_manage_after": true,
+    "thumbnail_present_after": true
+  },
+  "source_pixels_modified": false,
+  "connections_modified": false,
+  "prototype_run_id": "PROTO-VA-IMAGE-REPAIR-001",
+  "evidence_ids": [
+    "E-VA-IMAGE-REPAIR-TRACE",
+    "E-VA-IMAGE-REPAIR-EDITOR-06",
+    "E-VA-IMAGE-REPAIR-EDITOR-07"
+  ],
+  "scope_completion": "not_verified",
+  "causality": "Re-upload followed by stable return samples. UI metadata changes do not prove rendering root cause."
+}

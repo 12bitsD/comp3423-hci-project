@@ -20,7 +20,7 @@ var polyuLifeApp = await cua.getApp("/Applications/polyuLife.app");
 应用显示名称通常为 `polyuLife`，bundle ID 为 `polyu.its.mobi.psma.prod`；上述路径是本机已观察到的安装位置，其他机器以实际安装位置为准。
 
 - **成功条件**：得到属于 PolyULife 的实际窗口状态；需要视觉判断时再取 `getScreenshot()`。仅收到启动请求或找到安装文件，还不能宣称可观察。
-- 遇到 `Running application not found`、bundle ID 歧义、连接后没有窗口，读 [连接与恢复](references/connection.md)。iOS App 的实际运行路径可能位于临时 `Wrapper` 容器，需从本次发现结果中选择。
+- 遇到 `Running application not found`、bundle ID 歧义、连接后没有窗口，或显示结果与保存的截图/AX不一致，读 [连接与恢复](references/connection.md)。iOS App 的实际运行路径可能位于临时 `Wrapper` 容器，需从本次发现结果中选择。
 - 保留用户当前页面和登录状态；用户指定流程时，从该流程合理的起点开始，不擅自清空数据或退出登录。
 
 ## 观察与操作

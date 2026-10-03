@@ -1,0 +1,234 @@
+{
+  "session_id": "SESSION-20260930-ROOM-DATES",
+  "steps": [
+    {
+      "step": 0,
+      "label": "00-empty-today",
+      "action_id": "A-HOME-ROOM",
+      "from_state_id": "S-HOME",
+      "target_state_id": "S-EMPTY",
+      "evidence_id": "E-ROOM-DATES-00",
+      "note": "Native full-screen entry then exit restored regular screenshots. Room entered through fresh AX Home Room. Today30-Sep; current window decoration differs from older112px crop.",
+      "captured_at": "2026-09-29T20:01:59.588Z"
+    },
+    {
+      "step": 1,
+      "label": "01-ag206-suggestion",
+      "action_id": "A-ROOM-OTHER-QUERY",
+      "from_state_id": "S-EMPTY",
+      "target_state_id": "S-ROOM-QUERY-AG206",
+      "evidence_id": "E-ROOM-DATES-01",
+      "note": "AX setValue AG206; visible suggestion. Input proxy method documented.",
+      "captured_at": "2026-09-29T20:02:16.795Z"
+    },
+    {
+      "step": 2,
+      "label": "02-today-all",
+      "action_id": "A-ROOM-SUGGESTION",
+      "from_state_id": "S-ROOM-QUERY-AG206",
+      "target_state_id": "S-ALL",
+      "evidence_id": "E-ROOM-DATES-02",
+      "note": "Coordinate-selected visible AG206 suggestion; stable30-Sep Today ALL results, differs from historical29-Sep availability.",
+      "captured_at": "2026-09-29T20:02:46.174Z"
+    },
+    {
+      "step": 3,
+      "label": "03-today-available",
+      "action_id": "A-ROOM-AVAILABLE",
+      "from_state_id": "S-ALL",
+      "target_state_id": "S-AVAILABLE",
+      "evidence_id": "E-ROOM-DATES-03",
+      "note": "Native Today30-Sep available slots:11:30-12:00,14:00-14:30,21:30-22:00,22:00-22:30.",
+      "captured_at": "2026-09-29T20:03:12.188Z"
+    },
+    {
+      "step": 4,
+      "label": "04-thursday-available",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-AVAILABLE",
+      "target_state_id": "S-ROOM-DATE-THU-AVAILABLE",
+      "evidence_id": "E-ROOM-DATES-04",
+      "note": "Thu01-Oct selected; Available retained, settled No available room. Brief selected-new-date/old-result view appeared before settling; not a saved timing measurement.",
+      "captured_at": "2026-09-29T20:04:02.647Z"
+    },
+    {
+      "step": 5,
+      "label": "05-thursday-all",
+      "action_id": "A-ROOM-THU-ALL",
+      "from_state_id": "S-ROOM-DATE-THU-AVAILABLE",
+      "target_state_id": "S-ROOM-DATE-THU-ALL",
+      "evidence_id": "E-ROOM-DATES-05",
+      "note": "ALL retainsThu01-Oct and shows observed unavailable rows; complete list bounds not yet checked.",
+      "captured_at": "2026-09-29T20:04:30.246Z"
+    },
+    {
+      "step": 6,
+      "label": "06-friday-all",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-THU-ALL",
+      "target_state_id": "S-ROOM-DATE-FRI-ALL",
+      "evidence_id": "E-ROOM-DATES-06",
+      "note": "Fri02-Oct selected whileALL retained. Visible08:30-12:30 green; later visible slots red.",
+      "captured_at": "2026-09-29T20:04:44.213Z"
+    },
+    {
+      "step": 7,
+      "label": "07-friday-available",
+      "action_id": "A-ROOM-AVAILABLE",
+      "from_state_id": "S-ROOM-DATE-FRI-ALL",
+      "target_state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+      "evidence_id": "E-ROOM-DATES-07",
+      "note": "Available retainsFri02-Oct: observed08:30 through12:30 half-hour slots plus21:30-22:00 and22:00-22:30.",
+      "captured_at": "2026-09-29T20:04:56.193Z"
+    },
+    {
+      "step": 8,
+      "label": "08-saturday-available",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+      "target_state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+      "evidence_id": "E-ROOM-DATES-08",
+      "note": "Sat03-Oct selected; Available retained; six12:30-15:30 half-hour slots visible.",
+      "captured_at": "2026-09-29T20:05:10.936Z"
+    },
+    {
+      "step": 9,
+      "label": "09-sunday-available",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+      "target_state_id": "S-SUNEMPTY",
+      "evidence_id": "E-ROOM-DATES-09",
+      "note": "Sun04-Oct selected; Available retained; No available room, date strip remains30-Sep context.",
+      "captured_at": "2026-09-29T20:05:21.103Z"
+    },
+    {
+      "step": 10,
+      "label": "10-monday-available",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-SUNEMPTY",
+      "target_state_id": "S-ROOM-DATE-MON-AVAILABLE",
+      "evidence_id": "E-ROOM-DATES-10",
+      "note": "Mon05-Oct selected; strip shifts to exposeTue06-Oct; Available retains four slots11:30-12:00,12:00-12:30,21:30-22:00,22:00-22:30.",
+      "captured_at": "2026-09-29T20:05:32.028Z"
+    },
+    {
+      "step": 11,
+      "label": "11-tuesday-available",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-MON-AVAILABLE",
+      "target_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "evidence_id": "E-ROOM-DATES-11",
+      "note": "Tue06-Oct selected; six slots08:30-09:00,09:00-09:30,11:30-12:00,12:00-12:30,21:30-22:00,22:00-22:30.",
+      "captured_at": "2026-09-29T20:05:58.335Z"
+    },
+    {
+      "step": 12,
+      "label": "12-date-strip-reversed",
+      "action_id": "A-ROOM-DATE-DRAG",
+      "from_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "target_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "evidence_id": "E-ROOM-DATES-12",
+      "note": "Reverse strip drag revealsToday30-Sep while selectedTue06-Oct becomes offscreen; result remains06-Oct andAvailable. No selection change.",
+      "captured_at": "2026-09-29T20:06:08.034Z"
+    },
+    {
+      "step": 13,
+      "label": "13-today-available-return",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "target_state_id": "S-AVAILABLE",
+      "evidence_id": "E-ROOM-DATES-13",
+      "note": "SelectToday30-Sep restoresfour available slots; selecteddate andfilterconfirmed.",
+      "captured_at": "2026-09-29T20:06:21.572Z"
+    },
+    {
+      "step": 14,
+      "label": "14-today-all-return",
+      "action_id": "A-ROOM-TODAY-ALL",
+      "from_state_id": "S-AVAILABLE",
+      "target_state_id": "S-ALL",
+      "evidence_id": "E-ROOM-DATES-14",
+      "note": "ALL afterreturnretainsToday30-Sep.",
+      "captured_at": "2026-09-29T20:06:26.638Z"
+    },
+    {
+      "step": 15,
+      "label": "15-today-all-bottom",
+      "action_id": "A-ROOM-SCROLL-LIST",
+      "from_state_id": "S-ALL",
+      "target_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "evidence_id": "E-ROOM-DATES-15",
+      "note": "List scroll reveals finalcomplete21:30-22:00 and22:00-22:30 row; priorrow14:00-14:30 partlyclippedat top.",
+      "captured_at": "2026-09-29T20:06:57.488Z"
+    },
+    {
+      "step": 16,
+      "label": "16-today-all-bottom-recheck",
+      "action_id": "A-ROOM-LIST-BOTTOM",
+      "from_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "target_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "evidence_id": "E-ROOM-DATES-16",
+      "note": "Furtherdownscrollmakesnovisiblerowprogress; final22:00-22:30fullyvisible. ScopedTodayboundssampleonly.",
+      "captured_at": "2026-09-29T20:07:10.547Z"
+    },
+    {
+      "step": 17,
+      "label": "17-today-all-top-return",
+      "action_id": "A-ROOM-LIST-REVERSE",
+      "from_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "target_state_id": "S-ALL",
+      "evidence_id": "E-ROOM-DATES-17",
+      "note": "Upwardscrollrestores08:30topwithToday/ALL retained.",
+      "captured_at": "2026-09-29T20:07:25.880Z"
+    },
+    {
+      "step": 18,
+      "label": "18-home-return-navigation",
+      "action_id": "A-ROOM-HOME-BACK",
+      "from_state_id": "S-ALL",
+      "target_state_id": "S-HOME",
+      "evidence_id": "E-ROOM-DATES-18",
+      "note": "NativeRoomBackreturnsHome. Publicevidencewillretainnavigationcroponly; identity/schedulewithheld.",
+      "captured_at": "2026-09-29T20:07:38.470Z"
+    }
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "15-today-all-bottom.png",
+      "comparison": "16-today-all-bottom-recheck.png",
+      "crop_xyxy": [
+        26,
+        426,
+        550,
+        1020
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        405,
+        317,
+        454,
+        366
+      ],
+      "interpretation": "Further down scroll at observed Today end; cursor retained, no full pixel fidelity claim"
+    },
+    {
+      "baseline": "02-today-all.png",
+      "comparison": "17-today-all-top-return.png",
+      "crop_xyxy": [
+        26,
+        426,
+        550,
+        1020
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        350,
+        189,
+        503,
+        342
+      ],
+      "interpretation": "Reverse list returns to first visible rows; cursor retained, no full pixel fidelity claim"
+    }
+  ],
+  "full_app_completion": "not_verified"
+}

@@ -1,0 +1,187 @@
+{
+  "session_id": "SESSION-20260929-ROOM-RECHECK",
+  "steps": [
+    {
+      "step": 1,
+      "label": "01-empty",
+      "action_id": "A-HOME-ROOM",
+      "from_state_id": "S-HOME",
+      "target_state_id": "S-EMPTY",
+      "evidence_id": "E-ROOM-RECHECK-01",
+      "note": "Room reopened from Home with Today29-Sep and empty query.",
+      "captured_at": "2026-09-29T03:13:58.286Z"
+    },
+    {
+      "step": 2,
+      "label": "02-query-filled",
+      "action_id": "A-ROOM-OTHER-QUERY",
+      "from_state_id": "S-EMPTY",
+      "target_state_id": "S-ROOM-QUERY-AG206",
+      "evidence_id": "E-ROOM-RECHECK-02",
+      "note": "Plain click/typeText had no visible effect; AX setValue AG206 succeeded. Saved screenshot shows AG206 suggestion and initial instructions. Input method difference retained.",
+      "captured_at": "2026-09-29T03:14:48.413Z"
+    },
+    {
+      "step": 3,
+      "label": "03-selection",
+      "action_id": "A-ROOM-SUGGESTION",
+      "from_state_id": "S-ROOM-QUERY-AG206",
+      "target_state_id": "S-ALL",
+      "evidence_id": "E-ROOM-RECHECK-03",
+      "note": "AX suggestion click did not dismiss popup; coordinate correction selected AG206. Saved screenshot has already settled to ALL results, not a loading frame.",
+      "captured_at": "2026-09-29T03:15:42.569Z"
+    },
+    {
+      "step": 4,
+      "label": "04-today-all",
+      "action_id": "A-ROOM-SUGGESTION",
+      "from_state_id": "S-ROOM-QUERY-AG206",
+      "target_state_id": "S-ALL",
+      "evidence_id": "E-ROOM-RECHECK-04",
+      "note": "Follow-up stable ALL capture, not an additional suggestion-click execution.",
+      "captured_at": "2026-09-29T03:16:10.648Z"
+    },
+    {
+      "step": 5,
+      "label": "05-sunday-all",
+      "action_id": "A-ROOM-DATE-SUN",
+      "from_state_id": "S-ALL",
+      "target_state_id": "S-SUNALL",
+      "evidence_id": "E-ROOM-RECHECK-05",
+      "note": "Direct Today ALL→Sun keeps ALL. Date strip automatically shifts to show Sun and Mon.",
+      "captured_at": "2026-09-29T03:16:36.525Z"
+    },
+    {
+      "step": 6,
+      "label": "06-list-before-map",
+      "action_id": "A-ROOM-SCROLL-LIST",
+      "from_state_id": "S-SUNALL",
+      "target_state_id": "S-SUNSCROLLED",
+      "evidence_id": "E-ROOM-RECHECK-06",
+      "note": "List scrolled: clipped preceding row then14:30 onward, final visible complete label21:00–21:30, next row clipped.",
+      "captured_at": "2026-09-29T03:16:57.665Z"
+    },
+    {
+      "step": 7,
+      "label": "07-map-opening",
+      "action_id": "A-ROOM-MAP-PIN",
+      "from_state_id": "S-SUNSCROLLED",
+      "target_state_id": "S-MAP",
+      "evidence_id": "E-ROOM-RECHECK-07",
+      "note": "Initial UI briefly showed logo loading; saved screenshot is settled map, not proof of the loading layout.",
+      "captured_at": "2026-09-29T03:17:23.918Z"
+    },
+    {
+      "step": 8,
+      "label": "08-map-increment",
+      "action_id": "A-ROOM-MAP-INCREMENT",
+      "from_state_id": "S-MAP",
+      "target_state_id": "S-MAPZOOM",
+      "evidence_id": "E-ROOM-RECHECK-08",
+      "note": "Native AX slider Increment once; zoomed campus map visible.",
+      "captured_at": "2026-09-29T03:17:45.264Z"
+    },
+    {
+      "step": 9,
+      "label": "09-map-decrement",
+      "action_id": "A-ROOM-MAP-DECREMENT",
+      "from_state_id": "S-MAPZOOM",
+      "target_state_id": "S-MAPOUT",
+      "evidence_id": "E-ROOM-RECHECK-09",
+      "note": "Native AX slider Decrement once; campus map visible.",
+      "captured_at": "2026-09-29T03:17:46.800Z"
+    },
+    {
+      "step": 10,
+      "label": "10-map-return",
+      "action_id": "A-ROOM-MAP-BACK",
+      "from_state_id": "S-MAPOUT",
+      "target_state_id": "S-MAPRETURN",
+      "evidence_id": "E-ROOM-RECHECK-10",
+      "note": "Back preserves Sunday, ALL and list position with the same14:30 first complete row. This scoped native return now confirms scroll retention.",
+      "captured_at": "2026-09-29T03:18:15.276Z"
+    },
+    {
+      "step": 11,
+      "label": "11-list-further-down",
+      "action_id": "A-ROOM-LIST-BOTTOM",
+      "from_state_id": "S-MAPRETURN",
+      "target_state_id": "S-MAPRETURN",
+      "evidence_id": "E-ROOM-RECHECK-11",
+      "note": "Additional downward scroll made no visible list progress. Last row remains clipped; true list end still unverified.",
+      "captured_at": "2026-09-29T03:18:19.130Z"
+    },
+    {
+      "step": 12,
+      "label": "12-unmatched-query",
+      "action_id": "A-ROOM-OTHER-QUERY",
+      "from_state_id": "S-MAPRETURN",
+      "target_state_id": "S-ROOM-QUERY-DIRTY",
+      "evidence_id": "E-ROOM-RECHECK-12",
+      "note": "AX setValue ZZZZ9999 changes input while old AG206 Sunday ALL scrolled results remain.",
+      "captured_at": "2026-09-29T03:18:36.162Z"
+    },
+    {
+      "step": 13,
+      "label": "13-unmatched-search",
+      "action_id": "A-ROOM-OTHER-QUERY",
+      "from_state_id": "S-ROOM-QUERY-DIRTY",
+      "target_state_id": "S-ROOM-QUERY-NONE",
+      "evidence_id": "E-ROOM-RECHECK-13",
+      "note": "Explicit Search with ZZZZ9999 replaces old result with No room found / Please search another room.",
+      "captured_at": "2026-09-29T03:18:48.842Z"
+    },
+    {
+      "step": 14,
+      "label": "14-clear-query",
+      "action_id": "A-ROOM-CLEAR",
+      "from_state_id": "S-ROOM-QUERY-NONE",
+      "target_state_id": "S-ROOM-QUERY-NONE",
+      "evidence_id": "E-ROOM-RECHECK-14",
+      "note": "Coordinate clear attempt after dismissing text context menu leaves query unchanged; targeting/focus failure retained.",
+      "captured_at": "2026-09-29T03:19:19.348Z"
+    },
+    {
+      "step": 15,
+      "label": "15-cleared-stale-empty",
+      "action_id": "A-ROOM-CLEAR",
+      "from_state_id": "S-ROOM-QUERY-NONE",
+      "target_state_id": "S-CLEARED",
+      "evidence_id": "E-ROOM-RECHECK-15",
+      "note": "Fresh AX clear element click succeeds: field empty; prior No room found body remains; Sun stays selected.",
+      "captured_at": "2026-09-29T03:20:02.691Z"
+    },
+    {
+      "step": 16,
+      "label": "16-empty-search",
+      "action_id": "A-ROOM-EMPTY-SEARCH",
+      "from_state_id": "S-CLEARED",
+      "target_state_id": "S-EMPTYQUERY",
+      "evidence_id": "E-ROOM-RECHECK-16",
+      "note": "Search with empty input restores Find an available classroom / Enter room number to begin search; Sun remains selected.",
+      "captured_at": "2026-09-29T03:20:03.953Z"
+    }
+  ],
+  "pixel_checks": [
+    {
+      "crop": [
+        26,
+        426,
+        550,
+        666
+      ],
+      "pixel_equal": false
+    },
+    {
+      "crop": [
+        26,
+        748,
+        550,
+        950
+      ],
+      "pixel_equal": false
+    }
+  ],
+  "comparison_scope": "Two list regions excluding pointer; exact pixel differences do not negate matching visible row labels. No full-screen identity claim.",
+  "full_app_completion": "not_verified"
+}

@@ -1,0 +1,1218 @@
+{
+  "file": "food-oct3-full-list.svg",
+  "sha256": "5edd87fb9b3400e50eb4a1fcb96dc0e209c4899706af185a63184d419473f0f7",
+  "status": "retired_after_source_order_path_error",
+  "dimensions": [
+    576,
+    1024
+  ],
+  "viewport_position": [
+    0,
+    147
+  ],
+  "viewport_dimensions": [
+    576,
+    877
+  ],
+  "content_height": 5562,
+  "inferred_scroll_range": [
+    0,
+    4685
+  ],
+  "native_complete_geometry_verified": false,
+  "source_catalogue": "../../evidence/2026-10-03-food-reverse-controls/venue-catalogue.json",
+  "source_catalogue_sha256": "c13bca35bda81ae06b7a90f0ec466082efb2d0b5b5c39013c55c9e37fc4da336",
+  "rows": [
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-01",
+      "name": "Block Y Outlet - Grove & Tai Tai Foodtopia",
+      "group": "VenueRow01",
+      "source_evidence_ids": [
+        "E-FOOD-REV-06"
+      ],
+      "top_in_content": 0,
+      "height": 218,
+      "title_lines": [
+        "Block Y Outlet - Grove & Tai Tai",
+        "Foodtopia"
+      ],
+      "location_lines": [
+        "P/F, Block Y · Canteen"
+      ],
+      "tags_from_public_ax": [
+        "Asian Cuisine",
+        "Western Cuisine",
+        "Taiwanese Cuisine",
+        "Cake / Dessert",
+        "Coffee",
+        "Salad",
+        "Sandwich"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-02",
+      "name": "Communal Staff Restaurant",
+      "group": "VenueRow02",
+      "source_evidence_ids": [
+        "E-FOOD-REV-06"
+      ],
+      "top_in_content": 218,
+      "height": 216,
+      "title_lines": [
+        "Communal Staff Restaurant"
+      ],
+      "location_lines": [
+        "4/F, Communal Building",
+        "· Chinese Restaurant"
+      ],
+      "tags_from_public_ax": [
+        "Restaurant",
+        "Cantonese Cuisine",
+        "Dim Sum",
+        "Siu Mei"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-03",
+      "name": "Communal Student Canteen",
+      "group": "VenueRow03",
+      "source_evidence_ids": [
+        "E-FOOD-REV-06"
+      ],
+      "top_in_content": 434,
+      "height": 187,
+      "title_lines": [
+        "Communal Student Canteen"
+      ],
+      "location_lines": [
+        "3/F, Communal Building · Fast Food"
+      ],
+      "tags_from_public_ax": [
+        "Canteen",
+        "Hong Kong Style Cuisine",
+        "Northwest Chinese Cuisine",
+        "Baked Rice / Pasta",
+        "Curry",
+        "Soup Noodles"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-04",
+      "name": "Communal Student Restaurant",
+      "group": "VenueRow04",
+      "source_evidence_ids": [
+        "E-FOOD-REV-06"
+      ],
+      "top_in_content": 621,
+      "height": 216,
+      "title_lines": [
+        "Communal Student Restaurant"
+      ],
+      "location_lines": [
+        "4/F, Communal Building",
+        "· Chinese Restaurant"
+      ],
+      "tags_from_public_ax": [
+        "Restaurant",
+        "Asian Cuisine",
+        "Cantonese Cuisine",
+        "Dim Sum",
+        "Siu Mei",
+        "Soup Noodles"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-05",
+      "name": "H Café",
+      "group": "VenueRow05",
+      "source_evidence_ids": [
+        "E-FOOD-REV-07"
+      ],
+      "top_in_content": 837,
+      "height": 247,
+      "title_lines": [
+        "H Café"
+      ],
+      "location_lines": [
+        "P/F, Block FGHJ Courtyard · Cafe"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "American Cuisine",
+        "Western Cuisine",
+        "Burger / Hot Dog"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": true
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-06",
+      "name": "Homantin Hall Canteen",
+      "group": "VenueRow06",
+      "source_evidence_ids": [
+        "E-FOOD-REV-07"
+      ],
+      "top_in_content": 1084,
+      "height": 187,
+      "title_lines": [
+        "Homantin Hall Canteen"
+      ],
+      "location_lines": [
+        "G/F, Student Residence Halls · Cafe"
+      ],
+      "tags_from_public_ax": [
+        "Pastries",
+        "Sandwiches",
+        "Coffee",
+        "Pasta"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-07",
+      "name": "LibCafé",
+      "group": "VenueRow07",
+      "source_evidence_ids": [
+        "E-FOOD-REV-07"
+      ],
+      "top_in_content": 1271,
+      "height": 187,
+      "title_lines": [
+        "LibCafé"
+      ],
+      "location_lines": [
+        "P/F, Pao Yue-kong Library · Cafe"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "Western Cuisine",
+        "Cake / Dessert",
+        "Coffee",
+        "Salad",
+        "Sandwich",
+        "Savory"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-08",
+      "name": "Theatre Lounge",
+      "group": "VenueRow08",
+      "source_evidence_ids": [
+        "E-FOOD-REV-10"
+      ],
+      "top_in_content": 1458,
+      "height": 187,
+      "title_lines": [
+        "Theatre Lounge"
+      ],
+      "location_lines": [
+        "G/F, Chung Sze Yuen Building · Cafe"
+      ],
+      "tags_from_public_ax": [
+        "Restaurant",
+        "Korean Cuisine",
+        "Baked Rice / Pasta",
+        "Cake / Dessert",
+        "Coffee"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-09",
+      "name": "The Forest",
+      "group": "VenueRow09",
+      "source_evidence_ids": [
+        "E-FOOD-REV-10"
+      ],
+      "top_in_content": 1645,
+      "height": 165,
+      "title_lines": [
+        "The Forest"
+      ],
+      "location_lines": [
+        "1/F, Student Halls (Hung Hom)",
+        "· Fast Food"
+      ],
+      "tags_from_public_ax": [],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-10",
+      "name": "U Garden (Student Canteen)",
+      "group": "VenueRow10",
+      "source_evidence_ids": [
+        "E-FOOD-REV-10"
+      ],
+      "top_in_content": 1810,
+      "height": 247,
+      "title_lines": [
+        "U Garden (Student Canteen)"
+      ],
+      "location_lines": [
+        "P/F, CD Wing & DE Wing · Fast Food"
+      ],
+      "tags_from_public_ax": [
+        "Canteen",
+        "Asian Cuisine",
+        "Hong Kong Style Cuisine",
+        "Western Cuisine",
+        "Baked Rice / Pasta",
+        "Burger / Hot Dog",
+        "Coffee",
+        "Pizza"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": true
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-11",
+      "name": "V Café",
+      "group": "VenueRow11",
+      "source_evidence_ids": [
+        "E-FOOD-REV-10"
+      ],
+      "top_in_content": 2057,
+      "height": 216,
+      "title_lines": [
+        "V Café"
+      ],
+      "location_lines": [
+        "P/F, Jockey Club Innovation Tower",
+        "· Cafe"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "Asian Cuisine",
+        "Hong Kong Style Cuisine",
+        "Western Cuisine",
+        "Baked Rice / Pasta",
+        "Savory",
+        "Taiwanese Drink"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-12",
+      "name": "VA Café",
+      "group": "VenueRow12",
+      "source_evidence_ids": [
+        "E-FOOD-REV-11"
+      ],
+      "top_in_content": 2273,
+      "height": 216,
+      "title_lines": [
+        "VA Café"
+      ],
+      "location_lines": [
+        "VA215, P/F, Shaw Amenities Building",
+        "· Cafe"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "Western Cuisine",
+        "Cake / Dessert",
+        "Coffee",
+        "Salad",
+        "Sandwich",
+        "Savory"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-13",
+      "name": "VA Kiosk",
+      "group": "VenueRow13",
+      "source_evidence_ids": [
+        "E-FOOD-REV-11"
+      ],
+      "top_in_content": 2489,
+      "height": 187,
+      "title_lines": [
+        "VA Kiosk"
+      ],
+      "location_lines": [
+        "P/F, Block VA · Take-away kiosk"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "Western Cuisine",
+        "Salad",
+        "Sandwich"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-14",
+      "name": "VA Staff Canteen",
+      "group": "VenueRow14",
+      "source_evidence_ids": [
+        "E-FOOD-REV-11"
+      ],
+      "top_in_content": 2676,
+      "height": 216,
+      "title_lines": [
+        "VA Staff Canteen"
+      ],
+      "location_lines": [
+        "G/F, Shaw Amenities Building",
+        "· Fast Food"
+      ],
+      "tags_from_public_ax": [
+        "Canteen",
+        "Baked Rice"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-15",
+      "name": "VA Student Canteen",
+      "group": "VenueRow15",
+      "source_evidence_ids": [
+        "E-FOOD-REV-12"
+      ],
+      "top_in_content": 2892,
+      "height": 216,
+      "title_lines": [
+        "VA Student Canteen"
+      ],
+      "location_lines": [
+        "G/F, Shaw Amenities Building",
+        "· Fast Food"
+      ],
+      "tags_from_public_ax": [
+        "Canteen",
+        "Baked Rice"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-16",
+      "name": "W Kiosk",
+      "group": "VenueRow16",
+      "source_evidence_ids": [
+        "E-FOOD-REV-12"
+      ],
+      "top_in_content": 3108,
+      "height": 187,
+      "title_lines": [
+        "W Kiosk"
+      ],
+      "location_lines": [
+        "P/F, Block W · Italian Food"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "Italian Cuisine",
+        "Western Cuisine",
+        "Baked Rice / Pasta",
+        "Pizza",
+        "Salad"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-17",
+      "name": "X Café",
+      "group": "VenueRow17",
+      "source_evidence_ids": [
+        "E-FOOD-REV-12"
+      ],
+      "top_in_content": 3295,
+      "height": 187,
+      "title_lines": [
+        "X Café"
+      ],
+      "location_lines": [
+        "P/F, Block X · Cafe"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "Asian Cuisine",
+        "Hong Kong Style Cuisine",
+        "Western Cuisine",
+        "Cake / Dessert",
+        "Coffee",
+        "Salad",
+        "Sandwich"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-18",
+      "name": "Z Canteen",
+      "group": "VenueRow18",
+      "source_evidence_ids": [
+        "E-FOOD-REV-13"
+      ],
+      "top_in_content": 3482,
+      "height": 187,
+      "title_lines": [
+        "Z Canteen"
+      ],
+      "location_lines": [
+        "2/F, Block Z · Fast Food"
+      ],
+      "tags_from_public_ax": [
+        "Canteen",
+        "Asian Cuisine",
+        "Hong Kong Style Cuisine",
+        "Western Cuisine",
+        "Curry",
+        "Soup Noodles"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-19",
+      "name": "Z Café (Halal Certified)",
+      "group": "VenueRow19",
+      "source_evidence_ids": [
+        "E-FOOD-REV-13"
+      ],
+      "top_in_content": 3669,
+      "height": 187,
+      "title_lines": [
+        "Z Café (Halal Certified)"
+      ],
+      "location_lines": [
+        "2/F, Block Z · Cafe"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "Halal",
+        "Indian Cuisine",
+        "Curry",
+        "Western style"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-20",
+      "name": "VA210 Vending Machine",
+      "group": "VenueRow20",
+      "source_evidence_ids": [
+        "E-FOOD-REV-13"
+      ],
+      "top_in_content": 3856,
+      "height": 187,
+      "title_lines": [
+        "VA210 Vending Machine"
+      ],
+      "location_lines": [
+        "P/F, Block VA · Vending Machine"
+      ],
+      "tags_from_public_ax": [
+        "Chinese Soup",
+        "Snacks",
+        "Bottled Herbal Tea"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-21",
+      "name": "VA210 Vending Machine",
+      "group": "VenueRow21",
+      "source_evidence_ids": [
+        "E-FOOD-REV-13"
+      ],
+      "top_in_content": 4043,
+      "height": 136,
+      "title_lines": [
+        "VA210 Vending Machine"
+      ],
+      "location_lines": [
+        "P/F, Block VA · Vending Machine"
+      ],
+      "tags_from_public_ax": [],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-22",
+      "name": "VA210 Vending Machine",
+      "group": "VenueRow22",
+      "source_evidence_ids": [
+        "E-FOOD-REV-16"
+      ],
+      "top_in_content": 4179,
+      "height": 187,
+      "title_lines": [
+        "VA210 Vending Machine"
+      ],
+      "location_lines": [
+        "P/F, Block VA · Vending Machine"
+      ],
+      "tags_from_public_ax": [
+        "Halal Certified Snacks"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-23",
+      "name": "VA210 Vending Machine",
+      "group": "VenueRow23",
+      "source_evidence_ids": [
+        "E-FOOD-REV-16"
+      ],
+      "top_in_content": 4366,
+      "height": 187,
+      "title_lines": [
+        "VA210 Vending Machine"
+      ],
+      "location_lines": [
+        "P/F, Block VA · Vending Machine"
+      ],
+      "tags_from_public_ax": [
+        "Chicken Breast",
+        "Japanese Snacks",
+        "Desserts"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-24",
+      "name": "VA210 Vending Machine",
+      "group": "VenueRow24",
+      "source_evidence_ids": [
+        "E-FOOD-REV-16"
+      ],
+      "top_in_content": 4553,
+      "height": 187,
+      "title_lines": [
+        "VA210 Vending Machine"
+      ],
+      "location_lines": [
+        "P/F, Block VA · Vending Machine"
+      ],
+      "tags_from_public_ax": [
+        "Rice Ball",
+        "Chicken Breast",
+        "Desserts"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-25",
+      "name": "Wong Man and Tang Kit Wah Global Student Hub Vending Machine",
+      "group": "VenueRow25",
+      "source_evidence_ids": [
+        "E-FOOD-REV-16"
+      ],
+      "top_in_content": 4740,
+      "height": 225,
+      "title_lines": [
+        "Wong Man and Tang Kit Wah Global",
+        "Student Hub Vending Machine"
+      ],
+      "location_lines": [
+        "QT201, Wong Man and Tang Kit Wah",
+        "Global Student Hub",
+        "· Vending Machine"
+      ],
+      "tags_from_public_ax": [],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-26",
+      "name": "Block R Vending Machine",
+      "group": "VenueRow26",
+      "source_evidence_ids": [
+        "E-FOOD-REV-17"
+      ],
+      "top_in_content": 4965,
+      "height": 216,
+      "title_lines": [
+        "Block R Vending Machine"
+      ],
+      "location_lines": [
+        "Podium Level, Block R",
+        "· Vending Machine"
+      ],
+      "tags_from_public_ax": [
+        "Rice balls",
+        "Porridge",
+        "Soup",
+        "Fiber Rice Milk"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-27",
+      "name": "Block R Vending Machine",
+      "group": "VenueRow27",
+      "source_evidence_ids": [
+        "E-FOOD-REV-17"
+      ],
+      "top_in_content": 5181,
+      "height": 165,
+      "title_lines": [
+        "Block R Vending Machine"
+      ],
+      "location_lines": [
+        "Podium Level, Block R",
+        "· Vending Machine"
+      ],
+      "tags_from_public_ax": [],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    },
+    {
+      "catalogue_id": "FOOD-OCT3-ROW-28",
+      "name": "Gourmet Shop",
+      "group": "VenueRow28",
+      "source_evidence_ids": [
+        "E-FOOD-REV-17"
+      ],
+      "top_in_content": 5346,
+      "height": 216,
+      "title_lines": [
+        "Gourmet Shop"
+      ],
+      "location_lines": [
+        "P/F, Shaw Amenities Building",
+        "· Take-away shop"
+      ],
+      "tags_from_public_ax": [
+        "Cafe / Kiosk",
+        "Western Cuisine",
+        "Baked Rice / Pasta",
+        "Cake / Dessert",
+        "Coffee",
+        "Salad",
+        "Sandwich",
+        "Savory"
+      ],
+      "tags_visibility_limit": "Only visible prefix/clipped edge verified; offscreen tag gestures not observed",
+      "online_order_visible": false
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/food-oct3-list-map-strip.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/21-food-reverse-top.png",
+      "source_evidence_id": "E-FOOD-REV-21",
+      "source_sha256": "fd5c5c88c1230631e7463d74c0bf3cab3d5964d77b8bdef70e2f40445d765604",
+      "crop_xyxy": [
+        0,
+        100,
+        576,
+        114
+      ],
+      "sha256": "1d99a0abb2053309b6ccd13668d6937543f7b7154d88081910de0f82b19d9772",
+      "dimensions": [
+        576,
+        14
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-01.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/21-food-reverse-top.png",
+      "source_evidence_id": "E-FOOD-REV-21",
+      "source_sha256": "fd5c5c88c1230631e7463d74c0bf3cab3d5964d77b8bdef70e2f40445d765604",
+      "crop_xyxy": [
+        28,
+        171,
+        91,
+        234
+      ],
+      "sha256": "c7015eec423a1b6881bb76685309f09fae177cef181d46f8f510c6bbbafa1cc6",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-02.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/21-food-reverse-top.png",
+      "source_evidence_id": "E-FOOD-REV-21",
+      "source_sha256": "fd5c5c88c1230631e7463d74c0bf3cab3d5964d77b8bdef70e2f40445d765604",
+      "crop_xyxy": [
+        28,
+        389,
+        91,
+        452
+      ],
+      "sha256": "2763a78a15a8b136f9ed735ea337e54ded1a33cca749decef29cf1cd60251b8b",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-03.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/21-food-reverse-top.png",
+      "source_evidence_id": "E-FOOD-REV-21",
+      "source_sha256": "fd5c5c88c1230631e7463d74c0bf3cab3d5964d77b8bdef70e2f40445d765604",
+      "crop_xyxy": [
+        28,
+        604,
+        91,
+        667
+      ],
+      "sha256": "7117b1e29c1807959d8597c00a3bad06590d61829406da24a3a05732a9e429c1",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-04.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/21-food-reverse-top.png",
+      "source_evidence_id": "E-FOOD-REV-21",
+      "source_sha256": "fd5c5c88c1230631e7463d74c0bf3cab3d5964d77b8bdef70e2f40445d765604",
+      "crop_xyxy": [
+        28,
+        791,
+        91,
+        854
+      ],
+      "sha256": "2157e27b8f627b2085045580b19884b7d248e037590d34ae4096a57a519e438c",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-05.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/07-food-list-next.png",
+      "source_evidence_id": "E-FOOD-REV-07",
+      "source_sha256": "b6b79d44e3f792ad8dacdb4d08267e6dc6b5fe935817773ab51a398c179389ca",
+      "crop_xyxy": [
+        28,
+        311,
+        91,
+        374
+      ],
+      "sha256": "f0f97b605701c8d42e6f429950a4dd916438f71c5fbe737ea9e73bdbe32ade33",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-08.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/10-food-list-middle.png",
+      "source_evidence_id": "E-FOOD-REV-10",
+      "source_sha256": "159a9220d92db0eed6791d4782b079f733e6db0c73ede0a3be974444008a09bf",
+      "crop_xyxy": [
+        28,
+        239,
+        91,
+        302
+      ],
+      "sha256": "d3faa9f353612f68ccb44b1d451b4c4cfd86e1ab2672034281d0287e3b4344fa",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-09.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/10-food-list-middle.png",
+      "source_evidence_id": "E-FOOD-REV-10",
+      "source_sha256": "159a9220d92db0eed6791d4782b079f733e6db0c73ede0a3be974444008a09bf",
+      "crop_xyxy": [
+        28,
+        427,
+        91,
+        490
+      ],
+      "sha256": "588d2c73071f58731a458358605e2b8e3f59146a97a78ffb3484610e7f363631",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-10.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/10-food-list-middle.png",
+      "source_evidence_id": "E-FOOD-REV-10",
+      "source_sha256": "159a9220d92db0eed6791d4782b079f733e6db0c73ede0a3be974444008a09bf",
+      "crop_xyxy": [
+        28,
+        591,
+        91,
+        654
+      ],
+      "sha256": "81f1387189821cf2d33bdacbecac24b33d93470f7393be1f2004d2897832c3b9",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-11.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/10-food-list-middle.png",
+      "source_evidence_id": "E-FOOD-REV-10",
+      "source_sha256": "159a9220d92db0eed6791d4782b079f733e6db0c73ede0a3be974444008a09bf",
+      "crop_xyxy": [
+        28,
+        838,
+        91,
+        901
+      ],
+      "sha256": "d92cd94312ec1f429733b3cacbf3859774c812e8261c62f87a2c9e21ca8b5b9d",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-12.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/11-food-list-middle2.png",
+      "source_evidence_id": "E-FOOD-REV-11",
+      "source_sha256": "d5ba58eb0da48ddcf32d3d148062b39ff40b36d3bb11d92b1f8e3c7a071f04ac",
+      "crop_xyxy": [
+        28,
+        359,
+        91,
+        422
+      ],
+      "sha256": "3110336f3c5937e77fa53cab13be461d29ca69f684bb59ee17282f68d4cba04e",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-13.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/11-food-list-middle2.png",
+      "source_evidence_id": "E-FOOD-REV-11",
+      "source_sha256": "d5ba58eb0da48ddcf32d3d148062b39ff40b36d3bb11d92b1f8e3c7a071f04ac",
+      "crop_xyxy": [
+        28,
+        574,
+        91,
+        637
+      ],
+      "sha256": "f20a10c1c528a4f53fe168ff557a421760a9e1fe8f06f4795126d2c6d8537065",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-14.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/11-food-list-middle2.png",
+      "source_evidence_id": "E-FOOD-REV-11",
+      "source_sha256": "d5ba58eb0da48ddcf32d3d148062b39ff40b36d3bb11d92b1f8e3c7a071f04ac",
+      "crop_xyxy": [
+        28,
+        761,
+        91,
+        824
+      ],
+      "sha256": "3e87b141bdfaf4f0453d433878802e664a62dc79afe0e13691b670827dba077e",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-15.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/12-food-list-middle3.png",
+      "source_evidence_id": "E-FOOD-REV-12",
+      "source_sha256": "eeb13e522f2e06fa72c8ef087f59560ac253b88b8bf1c6bab9cf73a2641d93f7",
+      "crop_xyxy": [
+        28,
+        281,
+        91,
+        344
+      ],
+      "sha256": "5781afbf12b537ae5e0880eb148f4cd5226859f0289ef0b459e200f8e4c1b3ea",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-16.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/12-food-list-middle3.png",
+      "source_evidence_id": "E-FOOD-REV-12",
+      "source_sha256": "eeb13e522f2e06fa72c8ef087f59560ac253b88b8bf1c6bab9cf73a2641d93f7",
+      "crop_xyxy": [
+        28,
+        497,
+        91,
+        560
+      ],
+      "sha256": "05dc9c62ac815be971f9f6fca218c5d5bf1a6e44bccc9600b48f3eae3407e7b3",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-17.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/12-food-list-middle3.png",
+      "source_evidence_id": "E-FOOD-REV-12",
+      "source_sha256": "eeb13e522f2e06fa72c8ef087f59560ac253b88b8bf1c6bab9cf73a2641d93f7",
+      "crop_xyxy": [
+        28,
+        685,
+        91,
+        748
+      ],
+      "sha256": "ef75cf9a755bfcf38c80eda697218006603a0c85d38cce45a36bfd71a7f20f38",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-18.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/13-food-list-va210.png",
+      "source_evidence_id": "E-FOOD-REV-13",
+      "source_sha256": "b40779e5fb54f2785c21e4e9232d5080bd42842b4102c28af615dee6edc29550",
+      "crop_xyxy": [
+        28,
+        177,
+        91,
+        240
+      ],
+      "sha256": "e234263ec1c5207e6302f7cbd1d201990503fb4f2a393d3d5b70a740ed75a999",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-19.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/13-food-list-va210.png",
+      "source_evidence_id": "E-FOOD-REV-13",
+      "source_sha256": "b40779e5fb54f2785c21e4e9232d5080bd42842b4102c28af615dee6edc29550",
+      "crop_xyxy": [
+        28,
+        364,
+        91,
+        427
+      ],
+      "sha256": "efd0c37ebaa2cf8e78b29349832a8da5843f4a3be65565c785f81904e7b809a1",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-20.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/13-food-list-va210.png",
+      "source_evidence_id": "E-FOOD-REV-13",
+      "source_sha256": "b40779e5fb54f2785c21e4e9232d5080bd42842b4102c28af615dee6edc29550",
+      "crop_xyxy": [
+        28,
+        551,
+        91,
+        614
+      ],
+      "sha256": "3fa967308e222113a8d9087482879078f685cc19d50b0f43e683f1584fd937cb",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-21.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/13-food-list-va210.png",
+      "source_evidence_id": "E-FOOD-REV-13",
+      "source_sha256": "b40779e5fb54f2785c21e4e9232d5080bd42842b4102c28af615dee6edc29550",
+      "crop_xyxy": [
+        28,
+        739,
+        91,
+        802
+      ],
+      "sha256": "218dd201fdc3fb90f1457915450804f5373285c6dc9ee099a5545d3cb9b6c8e8",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-22.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/16-food-list-machines.png",
+      "source_evidence_id": "E-FOOD-REV-16",
+      "source_sha256": "49dbbcaa2107eecab7fd026eb0cbdfb91d32f8259c4383d828a5746ebdb52909",
+      "crop_xyxy": [
+        28,
+        181,
+        91,
+        244
+      ],
+      "sha256": "93615f8e2d33e5297e48287c53b5f5a443b78c4f6f26a80561a1e429708f9143",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-23.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/16-food-list-machines.png",
+      "source_evidence_id": "E-FOOD-REV-16",
+      "source_sha256": "49dbbcaa2107eecab7fd026eb0cbdfb91d32f8259c4383d828a5746ebdb52909",
+      "crop_xyxy": [
+        28,
+        369,
+        91,
+        432
+      ],
+      "sha256": "51b90991bfbd189f6c028b48b35eaca4468e85165ced0325ca7ed061c652577f",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-24.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/16-food-list-machines.png",
+      "source_evidence_id": "E-FOOD-REV-16",
+      "source_sha256": "49dbbcaa2107eecab7fd026eb0cbdfb91d32f8259c4383d828a5746ebdb52909",
+      "crop_xyxy": [
+        28,
+        555,
+        91,
+        618
+      ],
+      "sha256": "501ab123bbe792e51befab9c68910484e500af56c4360b2e3b4907b35ac3ed25",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-25.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/16-food-list-machines.png",
+      "source_evidence_id": "E-FOOD-REV-16",
+      "source_sha256": "49dbbcaa2107eecab7fd026eb0cbdfb91d32f8259c4383d828a5746ebdb52909",
+      "crop_xyxy": [
+        28,
+        744,
+        91,
+        807
+      ],
+      "sha256": "d7fa659acc02a13aa4ba4151df9055b47d14b89197502c4d6eae8f31e1594228",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-26.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/17-food-list-last.png",
+      "source_evidence_id": "E-FOOD-REV-17",
+      "source_sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+      "crop_xyxy": [
+        28,
+        378,
+        91,
+        441
+      ],
+      "sha256": "470a6fa06e553ce5501502ad69e567e8741aba8201e19a00e27e8456ad1144a1",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-27.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/17-food-list-last.png",
+      "source_evidence_id": "E-FOOD-REV-17",
+      "source_sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+      "crop_xyxy": [
+        28,
+        593,
+        91,
+        656
+      ],
+      "sha256": "7a222370db7e337c03d20436cc753e01384a1844b0fdef1652782fa15d799501",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    },
+    {
+      "file": "assets/food-oct3-list-logo-28.png",
+      "source_file": "../../evidence/2026-10-03-food-reverse-controls/17-food-list-last.png",
+      "source_evidence_id": "E-FOOD-REV-17",
+      "source_sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+      "crop_xyxy": [
+        28,
+        758,
+        91,
+        821
+      ],
+      "sha256": "0bddc3e16c4d945ffd4fbcfce3dfa33aca16dda9458f20846dca118c442ae089",
+      "dimensions": [
+        63,
+        63
+      ],
+      "limits": "Public brand/logo or narrow campus map strip; raster only. No private identity or full card screenshot."
+    }
+  ],
+  "limits": [
+    "28 observed rows in their current archived order; no backend identity or sorting rules inferred.",
+    "Native top/bottom/reverse samples observed; reconstructed row heights and total scroll extent approximate.",
+    "SVG clip semantics must be verified after actual Figma import, not assumed from rendering.",
+    "No row/menu/hours/tag/order/Back wiring; no native app input or Figma changes by generator.",
+    "Logo/map strip raster; other labels/vectors editable source only. Full fidelity not_verified."
+  ],
+  "retired_root_node_id": "954:223",
+  "failure_evidence_ids": [
+    "E-FOOD-FULL-LIST-00",
+    "E-FOOD-FULL-LIST-01"
+  ],
+  "cause": "Malformed SVG C command coordinates, missing numeric separators in OnlineOrder rows5/10. Global masks not established as cause."
+}

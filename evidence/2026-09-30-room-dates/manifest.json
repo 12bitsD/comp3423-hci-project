@@ -1,0 +1,464 @@
+{
+  "kind": "native_polyulife_observation",
+  "session_id": "SESSION-20260930-ROOM-DATES",
+  "app_version": "3.0.0",
+  "window_capture_dimensions": [
+    576,
+    1082
+  ],
+  "room_app_crop_dimensions": [
+    576,
+    1026
+  ],
+  "scope": "Seven date controls, selected filtering samples and one Today list boundary/return. Complete Room/application not verified.",
+  "images": [
+    {
+      "file": "00-empty-today.png",
+      "sha256": "d76c4db8b896670e87a3aea0dc1992bb8962bac74b25c1cadca39a4965e90a9a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "a3171a41cc95c59937497f405e9438842aedf4f735a749ec1172a50e15056ebb",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:01:59.588Z",
+      "state_id": "S-EMPTY",
+      "action_id": "A-HOME-ROOM",
+      "from_state_id": "S-HOME",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "01-ag206-suggestion.png",
+      "sha256": "b5d5f31435173ef50dce2cd4b19518e15af55eafee0c3b7eaf2a75703c6a928b",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "7fd28a10b2a550b595780c314b2e99b4ff13e3e913bb9e44e187d9aa4ed09863",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:02:16.795Z",
+      "state_id": "S-ROOM-QUERY-AG206",
+      "action_id": "A-ROOM-OTHER-QUERY",
+      "from_state_id": "S-EMPTY",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "02-today-all.png",
+      "sha256": "8b6466c004226592f214a1d3235d55887514370e0a7777479bb64a077cd48a7e",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "e05b5e35736384ee03d9141da011ccabd9cbac4a400c42319737090215110739",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:02:46.174Z",
+      "state_id": "S-ALL",
+      "action_id": "A-ROOM-SUGGESTION",
+      "from_state_id": "S-ROOM-QUERY-AG206",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "03-today-available.png",
+      "sha256": "6be98b3e4ac0df7959c3a181c4e8168bee67b5aafe4141b6fd60e03ff44e045a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "90314f229d4db05c0df53c8dbea061590d696a2472983ad4f9cfdee5959e226f",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:03:12.188Z",
+      "state_id": "S-AVAILABLE",
+      "action_id": "A-ROOM-AVAILABLE",
+      "from_state_id": "S-ALL",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "04-thursday-available.png",
+      "sha256": "44a5901571155a40861ba71c9bd24f0190cd00a56626955758d702748011a82c",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "88f35a850637fd60244560b44acdd4fa0d9eebc35f8b9cc14f66932312408b6b",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:04:02.647Z",
+      "state_id": "S-ROOM-DATE-THU-AVAILABLE",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-AVAILABLE",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "05-thursday-all.png",
+      "sha256": "5fbf355a2d7a10f64ecfcc649648974f8a7a7a896d40b7eef9f973db44c99926",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "5419be48404119934297fae59822e5fe74932eae6a3fd9a6cbe37acd504e2b44",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:04:30.246Z",
+      "state_id": "S-ROOM-DATE-THU-ALL",
+      "action_id": "A-ROOM-THU-ALL",
+      "from_state_id": "S-ROOM-DATE-THU-AVAILABLE",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "06-friday-all.png",
+      "sha256": "81fe4ed31fafa8caf5a7b5ed1d80216b83c322e1dffb0fbc598c6dba0dd15f6a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "622a061a18f39e75587af9f01a47c9d8c33d0e036a974df91516b93c92a0d515",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:04:44.213Z",
+      "state_id": "S-ROOM-DATE-FRI-ALL",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-THU-ALL",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "07-friday-available.png",
+      "sha256": "a741a4442a2ab4a54efaa8662d8613ac66be50ac8ec0e02505c326bcda062b04",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "ac767be03e6323ec98fade6ad306863432c5174985fc18567cd8ff21ea5da1bf",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:04:56.193Z",
+      "state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+      "action_id": "A-ROOM-AVAILABLE",
+      "from_state_id": "S-ROOM-DATE-FRI-ALL",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "08-saturday-available.png",
+      "sha256": "1cc2774abd38589afb203855b274724ea5f38f3c7f5b8ee0035f5caf370152f9",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "7062d1564da8ad1e2aeb32a0a4a1b3a88e9620327e1afdebf575170814db89c7",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:05:10.936Z",
+      "state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-FRI-AVAILABLE",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "09-sunday-available.png",
+      "sha256": "dd10da740feec6e0d13723f7d84e310245f9b07ba0d1124eaeb2ac2e8da3fa5b",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "193502c40404539acb069e04b2fc64edebb4f94bb08c286705a80225c56194de",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:05:21.103Z",
+      "state_id": "S-SUNEMPTY",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-SAT-AVAILABLE",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "10-monday-available.png",
+      "sha256": "a6fc501bab1717cb36eb3579beab2c4354ba060c4f21f9ebd8c237848fd17883",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "16dc02e262eabcb5c2cf54b7f8c1a50aba1cca958e679554247114562147bec5",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:05:32.028Z",
+      "state_id": "S-ROOM-DATE-MON-AVAILABLE",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-SUNEMPTY",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "11-tuesday-available.png",
+      "sha256": "593809f06832c0e1dffa0ad404b9b5d7f0d81ed7fe5b12a4ae11629d04bc3fba",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "dd2c743292b060403195b6328720161301c3134f59dd40b33cfc4535721c395c",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:05:58.335Z",
+      "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-MON-AVAILABLE",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "12-date-strip-reversed.png",
+      "sha256": "1c6da98492a955ea7bb8f485582f6937ec4ed50694b4e439214156a8aff8c560",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "3f9cca236aa192bf46627cb9cb1aa728a0254d1beee8d8b8a07a0b38dd76ecd7",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:06:08.034Z",
+      "state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "action_id": "A-ROOM-DATE-DRAG",
+      "from_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "13-today-available-return.png",
+      "sha256": "530fcf9680321b68e5634b440d9456ba30d4f0658614f23dd246b21bb248d1d6",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "e9a22f7ace04dbcdaeed077c12416a42c860fb16b2e311081baf9016e9139d5f",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:06:21.572Z",
+      "state_id": "S-AVAILABLE",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "from_state_id": "S-ROOM-DATE-TUE-AVAILABLE",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "14-today-all-return.png",
+      "sha256": "dca3d6cdb7a4deecc11f6e97a5cfe51b436b1be312f13bceb219678f9490ea82",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "933f60a48533ad9b9aabafb41207ea6f6fc976ede7dbad5df28d3f20de7db505",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:06:26.638Z",
+      "state_id": "S-ALL",
+      "action_id": "A-ROOM-TODAY-ALL",
+      "from_state_id": "S-AVAILABLE",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "15-today-all-bottom.png",
+      "sha256": "ab4feb7f2ee7fe4e37984c04fd6a087ed95e21ff5d524ff4709a57df40ed380f",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "e0161284234f30ac7f14c81ddb58940da2abc4864e04db5e3994fa000580d813",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:06:57.488Z",
+      "state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "action_id": "A-ROOM-SCROLL-LIST",
+      "from_state_id": "S-ALL",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "16-today-all-bottom-recheck.png",
+      "sha256": "ff5cf0b3f4dffb1a40c68bc3272b411d462d89612e5f8a63d09f3a1f0bbc064b",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "172ae2694282d111f9d143be354ddd803591fa2aa7ef241c8da070ecad0c3de7",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:07:10.547Z",
+      "state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "action_id": "A-ROOM-LIST-BOTTOM",
+      "from_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "17-today-all-top-return.png",
+      "sha256": "cf32a2e66b1151887e001ea41d1bd0a89b6d2239d82fd99c37443207180fa03a",
+      "dimensions": [
+        576,
+        1026
+      ],
+      "raw_sha256": "3f90a0ab42f27a3b1fd621238da07a48f0c9bc880f5c861d05b4287451c28d61",
+      "crop_xyxy": [
+        0,
+        56,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:07:25.880Z",
+      "state_id": "S-ALL",
+      "action_id": "A-ROOM-LIST-REVERSE",
+      "from_state_id": "S-ROOM-DATE-TODAY-BOTTOM",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Room only, remove56px window decoration; retain captured cursor/halo."
+    },
+    {
+      "file": "18-home-return-navigation.png",
+      "sha256": "6d4975f434f38d53ddb5667c072f9dd74a70d33d2c7bf412303c38f8c0391d16",
+      "dimensions": [
+        576,
+        102
+      ],
+      "raw_sha256": "bcd963560afe20bfc67e3c1d6020f78885a1226752a2395369d1094f454db8bb",
+      "crop_xyxy": [
+        0,
+        980,
+        576,
+        1082
+      ],
+      "captured_at_utc": "2026-09-29T20:07:38.470Z",
+      "state_id": "S-HOME",
+      "action_id": "A-ROOM-HOME-BACK",
+      "from_state_id": "S-ALL",
+      "source": "Native PolyULife through Computer Use",
+      "redaction": "Home bottom navigation only; all identity and schedule content excluded."
+    }
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "15-today-all-bottom.png",
+      "comparison": "16-today-all-bottom-recheck.png",
+      "crop_xyxy": [
+        26,
+        426,
+        550,
+        1020
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        405,
+        317,
+        454,
+        366
+      ],
+      "interpretation": "Further down scroll at observed Today end; cursor retained, no full pixel fidelity claim"
+    },
+    {
+      "baseline": "02-today-all.png",
+      "comparison": "17-today-all-top-return.png",
+      "crop_xyxy": [
+        26,
+        426,
+        550,
+        1020
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        350,
+        189,
+        503,
+        342
+      ],
+      "interpretation": "Reverse list returns to first visible rows; cursor retained, no full pixel fidelity claim"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "341eb7b55d8314d46c4d5efd173b1f134924fca7143067b694f85c88f6cc53d6",
+    "dimensions": [
+      1152,
+      1074
+    ]
+  },
+  "privacy": "Home raw image and AX remain ignored; only navigation crop public. No private account data in Room images.",
+  "app_version_basis": "3.0.0 observed in live Home AX; archived step AX diffs do not contain a version line",
+  "app_version_reverified_in_archived_ax": false
+}

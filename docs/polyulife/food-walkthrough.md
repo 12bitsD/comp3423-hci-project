@@ -54,3 +54,7 @@
 - 搜索：其它标签/关键词、多结果和无结果、编辑/清除以及其它来源返回。Chinese Soup 样例的结果→详情→Search→原详情已验证。
 
 本页主观察截止为 `S-FOOD-HCAFE-HOURS`，后续返回Home并开始 [Apps独立走查](apps-walkthrough.md)。全应用完成状态仍为 `not_verified`；Study progress、My Courses、Home 主 Map、QR 和 Home 更深层内容仍待独立观察。
+
+## October3补查
+
+后续[营业时间往返与列表反向走查](food-oct3-reverse-walkthrough.md)记录当前Block Y首项、Open H Café和28条可见场所目录，补到指定VA210收起及列表有限上下边界。面板下移未确认；本页夜间VA210首项/Closed H Café样本保留历史上下文，不用新数据覆盖。

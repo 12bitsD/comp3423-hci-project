@@ -1,0 +1,539 @@
+{
+  "kind": "figma_prototype_calendar_filter_context",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-acad-imported.png",
+      "sha256": "2c35ce5c1d762afbf0c4d8279059f891eb08e9ce74c79ba924c3b9dc186e91d3",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:35:17.507Z",
+      "description": "Public filter context imported; native persisted background.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-all-imported.png",
+      "sha256": "750aa1594c58d6497facaeb26d7ca2a19ddf368e0ae32f529430fc4375c59a33",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:35:19.949Z",
+      "description": "Public filter context imported; panel composited over academic-only background.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-none-imported.png",
+      "sha256": "333bded647f145bf73502d9207f0af5157a70298dada99979efcf07a15432dcc",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:35:22.384Z",
+      "description": "Public filter context imported; panel composited over academic-only background.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "04-none-academic-configured.png",
+      "sha256": "b2601f047d005bb8f371e6def5d2e4eade8e6acf00fc1d1aba377e138ac78e68",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:36:24.782Z",
+      "description": "Configured AcadCalendar Swap overlay → [CAL-FILTER:ACAD] Sep28 academic — retained caller (observed action)",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "05-none-close-proxy.png",
+      "sha256": "540012a129178f6e4452dec303e4a212c133f4107b0a62395e3404c3d4e4b4c2",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:36:28.236Z",
+      "description": "Configured CloseFilter Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller (prototype recovery, native semantics unverified)",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "06-all-deselect-configured.png",
+      "sha256": "25513e24e47f9cac18ac203e0ae01b79569b4a6e0e8f8d225a942fce480fa24d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:36:51.203Z",
+      "description": "Configured SelectAll Swap overlay → [CAL-FILTER:NONE] No categories draft — composite (observed action)",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "07-all-close-proxy.png",
+      "sha256": "d98b72be940f71ba573f284e5a26745094d7238e511c0a5e04d5c0d4944c1165",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:36:54.826Z",
+      "description": "Configured CloseFilter Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller (prototype recovery, native semantics unverified)",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "08-acad-all-configured.png",
+      "sha256": "a8c9e5341fcf0df225810f1a7b983ff10edab3994bffa0d8c0852f0c2196957d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:37:43.102Z",
+      "description": "Configured SelectAll Swap overlay → [CAL-FILTER:ALL] Select all draft — composite (observed action)",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "09-acad-apply-configured.png",
+      "sha256": "df641ef0d838b618fad162930f559f986c4b76384541c0247d8eae038d4be402",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:37:46.738Z",
+      "description": "Configured Apply Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller (observed action)",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "10-acad-close-proxy.png",
+      "sha256": "487bce9cf8f0afdc381e6745bbfcf99b501df23ac6addd8ed185c82b706f3e07",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:37:50.404Z",
+      "description": "Configured CloseFilter Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller (prototype recovery, native semantics unverified)",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "11-sep28-filter-reopen.png",
+      "sha256": "b3e191ab521e00d3f84d2d81c047cb87bf74dfa177ecb2ffae3f3ae865dbfad8",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:38:15.968Z",
+      "description": "Configured Filter Swap overlay → [CAL-FILTER:ACAD] Sep28 academic — retained caller (observed action)",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "12-monday-home-baseline.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:39:25.887Z",
+      "description": "Monday current Home baseline; saved pixels govern image status.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "13-monday-sep28-baseline.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:39:27.275Z",
+      "description": "Sep28 academic-only no-event baseline.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "14-monday-academic-open.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:39:27.536Z",
+      "description": "Filter reopens persisted academic-only selection.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "15-monday-all.png",
+      "sha256": "79c7c821dffc5f5744923be582b79c53426fbd6ef68d4a8223bdbc2f9b61041b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:42:26.010Z",
+      "description": "Select All draft selection.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "16-monday-none.png",
+      "sha256": "150e75405b2988bc8a417d1c08b746cd3a32ee33b0cd1ae85039680e793b9dbb",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:42:32.448Z",
+      "description": "Deselect All draft.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "17-none-apply-unconfigured.png",
+      "sha256": "e47e83fd26b9dda5b5293c33a8c63f4f01a13b1ffb9b037424d9efc681e47857",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:42:38.366Z",
+      "description": "Prototype attempt only: None Apply is deliberately unconfigured; no native conclusion.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "18-none-x-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:42:44.400Z",
+      "description": "None X inferred prototype recovery.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "19-acad-reopen.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:42:53.488Z",
+      "description": "Reopen academic-only draft.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "20-all-reopen.png",
+      "sha256": "79c7c821dffc5f5744923be582b79c53426fbd6ef68d4a8223bdbc2f9b61041b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:42:53.750Z",
+      "description": "Select all draft again.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "21-all-apply-unconfigured.png",
+      "sha256": "fdce1113a884e37cba7d388043fe0f3f82e7f2447ffd112b89023fa8aa9e7100",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:42:53.964Z",
+      "description": "Prototype attempt only: All Apply unconfigured; private default result not reconstructed.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "22-all-x-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:02.965Z",
+      "description": "All X inferred recovery.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "23-acad-before-x.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:03.222Z",
+      "description": "Academic-only remains entry selection.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "24-acad-x-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:03.490Z",
+      "description": "Academic X inferred recovery.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "25-acad-loop-start.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:13.401Z",
+      "description": "Start academic apply sample.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "26-all-loop.png",
+      "sha256": "79c7c821dffc5f5744923be582b79c53426fbd6ef68d4a8223bdbc2f9b61041b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:13.636Z",
+      "description": "All draft.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "27-none-loop.png",
+      "sha256": "150e75405b2988bc8a417d1c08b746cd3a32ee33b0cd1ae85039680e793b9dbb",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:13.899Z",
+      "description": "None draft.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "28-acad-selected.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:14.164Z",
+      "description": "None to academic-only checkbox.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "29-acad-applied-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:25.578Z",
+      "description": "Academic Apply returns Sep28 no event.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "30-acad-persisted.png",
+      "sha256": "3b5da1bdd0794f207d6228acde092eba9ec540ee77c382d4a2b230801256bea7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:43:25.843Z",
+      "description": "Reopen retains academic-only prototype state.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "e0ccedae2928332a73dab0ac38ef2e2178725579442186ee66ddd9b584cdf63c",
+    "dimensions": [
+      1143,
+      1332
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "13-monday-sep28-baseline.png",
+      "comparison": "18-none-x-empty.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "13-monday-sep28-baseline.png",
+      "comparison": "22-all-x-empty.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "13-monday-sep28-baseline.png",
+      "comparison": "24-acad-x-empty.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "13-monday-sep28-baseline.png",
+      "comparison": "29-acad-applied-empty.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "14-monday-academic-open.png",
+      "comparison": "19-acad-reopen.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "14-monday-academic-open.png",
+      "comparison": "23-acad-before-x.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "14-monday-academic-open.png",
+      "comparison": "25-acad-loop-start.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "14-monday-academic-open.png",
+      "comparison": "28-acad-selected.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "14-monday-academic-open.png",
+      "comparison": "30-acad-persisted.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "15-monday-all.png",
+      "comparison": "20-all-reopen.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "15-monday-all.png",
+      "comparison": "26-all-loop.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    },
+    {
+      "baseline": "16-monday-none.png",
+      "comparison": "27-none-loop.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity, other caller or full completion."
+    }
+  ],
+  "scope": "Monday caller sample through academic Apply and reopening. Three X recoveries inferred. All/None Apply intentionally unconfigured. Later screenshot interruption prevents Home return verification."
+}

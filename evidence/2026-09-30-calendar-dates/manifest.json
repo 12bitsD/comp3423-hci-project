@@ -1,0 +1,756 @@
+{
+  "kind": "figma_prototype_calendar_date_context",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-oct1-imported.png",
+      "sha256": "5cb2b4b8d5435e4349f26aad7e805352ccf8b55011762f438ea8534db34426e9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:19:46.596Z",
+      "description": "Public academic-only date context imported.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-sep1-imported.png",
+      "sha256": "21f3ea9753d7efc12aec3adf9bbb8054ff41788e774e1f0947fdba9492657e1d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:19:58.920Z",
+      "description": "Public academic-only date context imported.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-sep28-imported.png",
+      "sha256": "4ea64a002ec997ffca8266e3029bf0d3258897931b49cad5cfcadc5c58e610ac",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:20:01.712Z",
+      "description": "Public academic-only date context imported.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "04-sep28-day26-configured.png",
+      "sha256": "832b53980237f64282311c46bd07d9788179cf999132a3dbf5698f7d6f9eb120",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:20:59.524Z",
+      "description": "Configured Day26 Swap overlay → [CAL-MODE:MONTH] Sep 26 — retained caller",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "05-sep28-home-proxy.png",
+      "sha256": "e41f30c3b2ad64f714e24bd8c436340679b6fd838de465c9a67fb1c8cbd28e48",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:21:18.255Z",
+      "description": "Configured NavHome Back",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "06-sep1-day28-configured.png",
+      "sha256": "f01b4c1ec824d8ae6f42c991154b54319c04e70a954212a9fb725e9ee4e15824",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:21:26.342Z",
+      "description": "Configured Day28 Swap overlay → [CAL-DATE:SEP28] September 28 no event — retained caller",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "07-sep1-home-proxy.png",
+      "sha256": "c90de7694bdb42cfbf268ecda093edd67ea486757a4d7b28921bafab91db98fe",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:21:30.064Z",
+      "description": "Configured NavHome Back",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "08-oct1-previous-configured.png",
+      "sha256": "d2bdce07ff966650a10d5909256478292a386b956755ba59099a86c71b7b7b0e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:21:49.244Z",
+      "description": "Configured PreviousMonth Swap overlay → [CAL-DATE:SEP1] September 1 — retained caller",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "09-oct1-home-proxy.png",
+      "sha256": "f392ecbca507795ff563c16323ac27c71b4a0514009959426be289a0d1036e62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:21:52.551Z",
+      "description": "Configured NavHome Back",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "10-sep26-next-configured.png",
+      "sha256": "891a09113b277ede1f37744f6076a388d2a73a173bda64de23f5e377af942ebf",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:22:00.210Z",
+      "description": "Configured NextMonth Swap overlay → [CAL-DATE:OCT1] October 1 — retained caller",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "11-tuesday-home-baseline.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:22:46.588Z",
+      "description": "Actual reload retained Tuesday Home.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "12-tuesday-sep26-baseline.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:22:47.294Z",
+      "description": "Sep26 month before next-month.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "13-tuesday-oct1.png",
+      "sha256": "24e1c39087bd83cfed43ea9b56652595b28687bd5a140ba7b0b4c484419e4ac7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:22:47.511Z",
+      "description": "Next month selects October1 National Day.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "14-tuesday-sep1.png",
+      "sha256": "6cf152631efb7b9f0674921e20af82595f95eca7b8ce4effd083aafa2fbb33a1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:10.024Z",
+      "description": "Previous month selects September1, not previous September26.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "15-tuesday-sep28-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:10.235Z",
+      "description": "Day28 has academic-only No event.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "16-tuesday-sep26-return.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:10.486Z",
+      "description": "Day26 restores selected public holiday sample.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "17-tuesday-detail-regression.png",
+      "sha256": "3dd3b06e043cf28ad9b828dfb116af8da77ce046983d3b3ab84b93c0dde5e11b",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:10.703Z",
+      "description": "Existing holiday detail still opens after date circuit.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "18-tuesday-detail-back.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:10.915Z",
+      "description": "Detail returns to Sep26.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "19-tuesday-home-after-circuit.png",
+      "sha256": "06911b1f5cf156699da3c00771b174c891eeebd472040a2446cde5baf9573cc0",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:11.126Z",
+      "description": "Circuit Home exit preserves Tuesday.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "20-tuesday-oct1-exit-before.png",
+      "sha256": "24e1c39087bd83cfed43ea9b56652595b28687bd5a140ba7b0b4c484419e4ac7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:33.458Z",
+      "description": "Direct Home exit sample from oct1.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "21-tuesday-oct1-home.png",
+      "sha256": "06911b1f5cf156699da3c00771b174c891eeebd472040a2446cde5baf9573cc0",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:33.688Z",
+      "description": "Prototype recovery Home preserves tuesday caller; native exit unverified.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "22-tuesday-sep1-exit-before.png",
+      "sha256": "6cf152631efb7b9f0674921e20af82595f95eca7b8ce4effd083aafa2fbb33a1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:34.873Z",
+      "description": "Direct Home exit sample from sep1.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "23-tuesday-sep1-home.png",
+      "sha256": "06911b1f5cf156699da3c00771b174c891eeebd472040a2446cde5baf9573cc0",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:35.069Z",
+      "description": "Prototype recovery Home preserves tuesday caller; native exit unverified.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "24-tuesday-sep28-exit-before.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:36.284Z",
+      "description": "Direct Home exit sample from sep28.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "25-tuesday-sep28-home.png",
+      "sha256": "06911b1f5cf156699da3c00771b174c891eeebd472040a2446cde5baf9573cc0",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:23:36.481Z",
+      "description": "Prototype recovery Home preserves tuesday caller; native exit unverified.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "26-monday-home-baseline.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:19.327Z",
+      "description": "Monday direct starting point, image visible.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "27-monday-sep26-baseline.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:20.000Z",
+      "description": "Sep26 month from Monday caller.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "28-monday-oct1.png",
+      "sha256": "24e1c39087bd83cfed43ea9b56652595b28687bd5a140ba7b0b4c484419e4ac7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:20.262Z",
+      "description": "Next month selects October1.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "29-monday-sep1.png",
+      "sha256": "6cf152631efb7b9f0674921e20af82595f95eca7b8ce4effd083aafa2fbb33a1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:20.526Z",
+      "description": "Previous month selects September1.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "30-monday-sep28-empty.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:20.759Z",
+      "description": "September28 academic-only No event.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "31-monday-sep26-return.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:21.014Z",
+      "description": "Day26 restores holiday.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "32-monday-history-after-dates.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:21.517Z",
+      "description": "Date circuit followed by Events and History.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "33-monday-week-after-dates.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:21.746Z",
+      "description": "History closes to Week.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "34-monday-home-after-dates.png",
+      "sha256": "1760c5b43637cb7b237a3e71a9496d8345f301bf0706087b7329350d41312b40",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:21.944Z",
+      "description": "Home caller retained after dates and modes.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "35-monday-oct1-exit-before.png",
+      "sha256": "24e1c39087bd83cfed43ea9b56652595b28687bd5a140ba7b0b4c484419e4ac7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:22.887Z",
+      "description": "Direct Home exit sample from oct1.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "36-monday-oct1-home.png",
+      "sha256": "1760c5b43637cb7b237a3e71a9496d8345f301bf0706087b7329350d41312b40",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:23.085Z",
+      "description": "Prototype recovery Home preserves monday caller; native exit unverified.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "37-monday-sep1-exit-before.png",
+      "sha256": "6cf152631efb7b9f0674921e20af82595f95eca7b8ce4effd083aafa2fbb33a1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:24.337Z",
+      "description": "Direct Home exit sample from sep1.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "38-monday-sep1-home.png",
+      "sha256": "1760c5b43637cb7b237a3e71a9496d8345f301bf0706087b7329350d41312b40",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:24.562Z",
+      "description": "Prototype recovery Home preserves monday caller; native exit unverified.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "39-monday-sep28-exit-before.png",
+      "sha256": "d10b396b0a59969db1a5ce27b42e620322d0d943a02283240ec84daebd14e3b7",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:26.002Z",
+      "description": "Direct Home exit sample from sep28.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "40-monday-sep28-home.png",
+      "sha256": "1760c5b43637cb7b237a3e71a9496d8345f301bf0706087b7329350d41312b40",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:24:26.237Z",
+      "description": "Prototype recovery Home preserves monday caller; native exit unverified.",
+      "source": "prototype",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "41-oct1-flow-check.png",
+      "sha256": "93a5fd24366e24c10734febc85bad779252dfe5055861225675ac18624c3197a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:25:44.429Z",
+      "description": "Root shows Add flow starting point; no additional standalone Flow configured.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "42-sep1-flow-check.png",
+      "sha256": "3f22adde9549cd5095a08473f7d9019688e58253d327ee146404ad113b581b81",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:26:45.380Z",
+      "description": "September1 root selected in Design panel; this capture does not prove Prototype flow configuration. Attempt filename retained; actual flow check is 44.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "43-sep28-flow-check.png",
+      "sha256": "17f29cb9ed8e3e733958940b4b49a9fc5cbaafaa8ef8b3ff71ace7148c64f2e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:27:18.149Z",
+      "description": "Prototype root shows Add flow starting point, no additional standalone Flow.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "44-sep1-prototype-flow-check.png",
+      "sha256": "fe13cc7288c94f52fd6be8ef1f73e958dc9e21bb6d5a7dea1c429f8a2eddf946",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T15:27:19.243Z",
+      "description": "Verified Prototype root, Add flow starting point, no additional standalone Flow.",
+      "source": "editor",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "16f779b887a89eddc08c286b807a61723ef7070e4aa5f4f78296b3ae0d2046c0",
+    "dimensions": [
+      1143,
+      1998
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "12-tuesday-sep26-baseline.png",
+      "comparison": "16-tuesday-sep26-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "12-tuesday-sep26-baseline.png",
+      "comparison": "18-tuesday-detail-back.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "27-monday-sep26-baseline.png",
+      "comparison": "31-monday-sep26-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "12-tuesday-sep26-baseline.png",
+      "comparison": "27-monday-sep26-baseline.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "13-tuesday-oct1.png",
+      "comparison": "28-monday-oct1.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "14-tuesday-sep1.png",
+      "comparison": "29-monday-sep1.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "15-tuesday-sep28-empty.png",
+      "comparison": "30-monday-sep28-empty.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "11-tuesday-home-baseline.png",
+      "comparison": "19-tuesday-home-after-circuit.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        588,
+        358,
+        613
+      ],
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "19-tuesday-home-after-circuit.png",
+      "comparison": "21-tuesday-oct1-home.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "19-tuesday-home-after-circuit.png",
+      "comparison": "23-tuesday-sep1-home.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "19-tuesday-home-after-circuit.png",
+      "comparison": "25-tuesday-sep28-home.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "26-monday-home-baseline.png",
+      "comparison": "34-monday-home-after-dates.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        588,
+        358,
+        613
+      ],
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "34-monday-home-after-dates.png",
+      "comparison": "36-monday-oct1-home.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "34-monday-home-after-dates.png",
+      "comparison": "38-monday-sep1-home.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    },
+    {
+      "baseline": "34-monday-home-after-dates.png",
+      "comparison": "40-monday-sep28-home.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype internal consistency only, not native fidelity or full stability. Equal post-circuit Home samples do not erase prior baseline differences."
+    }
+  ],
+  "scope": "Fixed public academic-only date circuit and inferred Home recovery exits from two callers. No new native observations; dates outside recorded circuit unimplemented."
+}

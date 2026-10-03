@@ -1,0 +1,343 @@
+{
+  "revision_id": "FIGMA-ROOM-DATE-CONTEXTS-20260930",
+  "actual_edits": [
+    {
+      "label": "saturday-available",
+      "root_node_id": "412:827",
+      "viewport_node_id": "439:19",
+      "content_node_id": "439:21",
+      "trigger_node_id": "439:38",
+      "next_day": "Sun",
+      "target_node_id": "412:936",
+      "replaced_connection_id": "C-ROOM-DATES-07",
+      "overflow": "Horizontal",
+      "position": [
+        30,
+        100
+      ],
+      "size": [
+        516,
+        84
+      ],
+      "content_width": 658,
+      "initial_offset": 0,
+      "initializer_status": "configured_1ms_instant_scroll_to",
+      "at": "2026-09-30T00:34:13.848Z",
+      "initializer_readback_at": "2026-09-30T00:41:00.020Z"
+    },
+    {
+      "label": "sunday-available",
+      "root_node_id": "412:936",
+      "old_group_node_id": "412:944",
+      "viewport_node_id": "440:19",
+      "content_node_id": "440:21",
+      "overflow": "Horizontal",
+      "position": [
+        30,
+        100
+      ],
+      "size": [
+        516,
+        84
+      ],
+      "content_width": 658,
+      "initial_offset": 0,
+      "initializer_status": "configured_1ms_instant_scroll_to",
+      "at": "2026-09-30T00:36:23.835Z",
+      "trigger_node_id": "440:42",
+      "next_day": "Mon",
+      "target_node_id": "412:1019",
+      "replaced_connection_id": "C-ROOM-DATES-08",
+      "initializer_readback_at": "2026-09-30T00:40:43.402Z"
+    },
+    {
+      "label": "monday-available",
+      "root_node_id": "412:1019",
+      "old_group_node_id": "412:1027",
+      "viewport_node_id": "441:19",
+      "content_node_id": "441:21",
+      "overflow": "Horizontal",
+      "position": [
+        30,
+        100
+      ],
+      "size": [
+        516,
+        84
+      ],
+      "content_width": 658,
+      "initial_offset": 142,
+      "initializer_status": "configured_1ms_instant_scroll_to",
+      "at": "2026-09-30T00:37:22.409Z",
+      "trigger_node_id": "441:46",
+      "next_day": "Tue",
+      "target_node_id": "412:1120",
+      "replaced_connection_id": "C-ROOM-DATES-09",
+      "initializer_readback_at": "2026-09-30T00:40:03.728Z"
+    }
+  ],
+  "new_connections": [
+    {
+      "connection_id": "C-ROOM-DATE-CONTEXT-SATURDAY-AVAILABLE",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "source_node_id": "412:827",
+      "trigger_node_id": "439:38",
+      "trigger_node_name": "Date-Sun",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "412:936",
+      "revision_id": "FIGMA-ROOM-DATE-CONTEXTS-20260930",
+      "animation": "Instant",
+      "duration_ms": 0,
+      "easing": null,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-09"
+      ],
+      "source_fidelity": "Original observed date transition, new true horizontal button and fixed result frame.",
+      "implementation_status": "sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATE-CONTEXTS-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATE-CONTEXTS-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATE-CONTEXTS-FIDELITY"
+      ]
+    },
+    {
+      "connection_id": "C-ROOM-DATE-INIT-SATURDAY-AVAILABLE",
+      "action_id": null,
+      "source_node_id": "412:827",
+      "trigger_node_id": "412:827",
+      "trigger_node_name": "Root display initializer",
+      "target_node_id": "412:827",
+      "scroll_target_node_id": "439:21",
+      "trigger": "After delay",
+      "delay_ms": 1,
+      "behavior": "Scroll to",
+      "x_offset": 0,
+      "y_offset": 0,
+      "animation": "Instant",
+      "revision_id": "FIGMA-ROOM-DATE-CONTEXTS-20260930",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-08"
+      ],
+      "source_fidelity": "Technical Figma display initialization, not native action or latency.",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATE-CONTEXTS-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATE-CONTEXTS-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATE-CONTEXTS-FIDELITY"
+      ],
+      "implementation_status": "configured_and_sample_replayed"
+    },
+    {
+      "connection_id": "C-ROOM-DATE-CONTEXT-SUNDAY-AVAILABLE",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "source_node_id": "412:936",
+      "trigger_node_id": "440:42",
+      "trigger_node_name": "Date-Mon",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "412:1019",
+      "revision_id": "FIGMA-ROOM-DATE-CONTEXTS-20260930",
+      "animation": "Instant",
+      "duration_ms": 0,
+      "easing": null,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-10"
+      ],
+      "source_fidelity": "Original observed date transition, new true horizontal button and fixed result frame.",
+      "implementation_status": "sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATE-CONTEXTS-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATE-CONTEXTS-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATE-CONTEXTS-FIDELITY"
+      ]
+    },
+    {
+      "connection_id": "C-ROOM-DATE-INIT-SUNDAY-AVAILABLE",
+      "action_id": null,
+      "source_node_id": "412:936",
+      "trigger_node_id": "412:936",
+      "trigger_node_name": "Root display initializer",
+      "target_node_id": "412:936",
+      "scroll_target_node_id": "440:21",
+      "trigger": "After delay",
+      "delay_ms": 1,
+      "behavior": "Scroll to",
+      "x_offset": 0,
+      "y_offset": 0,
+      "animation": "Instant",
+      "revision_id": "FIGMA-ROOM-DATE-CONTEXTS-20260930",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-09"
+      ],
+      "source_fidelity": "Technical Figma display initialization, not native action or latency.",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATE-CONTEXTS-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATE-CONTEXTS-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATE-CONTEXTS-FIDELITY"
+      ],
+      "implementation_status": "configured_and_sample_replayed"
+    },
+    {
+      "connection_id": "C-ROOM-DATE-CONTEXT-MONDAY-AVAILABLE",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "source_node_id": "412:1019",
+      "trigger_node_id": "441:46",
+      "trigger_node_name": "Date-Tue",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "412:1120",
+      "revision_id": "FIGMA-ROOM-DATE-CONTEXTS-20260930",
+      "animation": "Instant",
+      "duration_ms": 0,
+      "easing": null,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-11"
+      ],
+      "source_fidelity": "Original observed date transition, new true horizontal button and fixed result frame.",
+      "implementation_status": "sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATE-CONTEXTS-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATE-CONTEXTS-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATE-CONTEXTS-FIDELITY"
+      ]
+    },
+    {
+      "connection_id": "C-ROOM-DATE-INIT-MONDAY-AVAILABLE",
+      "action_id": null,
+      "source_node_id": "412:1019",
+      "trigger_node_id": "412:1019",
+      "trigger_node_name": "Root display initializer",
+      "target_node_id": "412:1019",
+      "scroll_target_node_id": "441:21",
+      "trigger": "After delay",
+      "delay_ms": 1,
+      "behavior": "Scroll to",
+      "x_offset": 142,
+      "y_offset": 0,
+      "animation": "Instant",
+      "revision_id": "FIGMA-ROOM-DATE-CONTEXTS-20260930",
+      "source_evidence_ids": [
+        "E-ROOM-DATES-10"
+      ],
+      "source_fidelity": "Technical Figma display initialization, not native action or latency.",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATE-CONTEXTS-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATE-CONTEXTS-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATE-CONTEXTS-FIDELITY"
+      ],
+      "implementation_status": "configured_and_sample_replayed"
+    }
+  ],
+  "superseded_connections": [
+    {
+      "connection_id": "C-ROOM-DATES-07",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "source_node_id": "412:827",
+      "trigger_node_id": "412:855",
+      "trigger_node_name": "Date-Sun",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "412:936",
+      "revision_id": "FIGMA-ROOM-DATES-20260930",
+      "animation": "Instant",
+      "duration_ms": 0,
+      "easing": null,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-09"
+      ],
+      "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+      "implementation_status": "sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATES-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATES-PROTO-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATES-FINITE-CONTEXT"
+      ]
+    },
+    {
+      "connection_id": "C-ROOM-DATES-08",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "source_node_id": "412:936",
+      "trigger_node_id": "412:968",
+      "trigger_node_name": "Date-Mon",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "412:1019",
+      "revision_id": "FIGMA-ROOM-DATES-20260930",
+      "animation": "Instant",
+      "duration_ms": 0,
+      "easing": null,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-10"
+      ],
+      "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+      "implementation_status": "sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATES-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATES-PROTO-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATES-FINITE-CONTEXT"
+      ]
+    },
+    {
+      "connection_id": "C-ROOM-DATES-09",
+      "action_id": "A-ROOM-OTHER-DATES",
+      "source_node_id": "412:1019",
+      "trigger_node_id": "412:1055",
+      "trigger_node_name": "Date-Tue",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "412:1120",
+      "revision_id": "FIGMA-ROOM-DATES-20260930",
+      "animation": "Instant",
+      "duration_ms": 0,
+      "easing": null,
+      "source_evidence_ids": [
+        "E-ROOM-DATES-11"
+      ],
+      "source_fidelity": "Native selected date/filter transition sample; standalone Navigate to frame reconstruction. Date drag is finite snapshot proxy, accepts any direction, not continuous scrolling.",
+      "implementation_status": "sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-ROOM-DATES-001"
+      ],
+      "prototype_evidence_ids": [
+        "E-ROOM-DATES-PROTO-TRACE"
+      ],
+      "deviation_ids": [
+        "D-ROOM-DATES-FINITE-CONTEXT"
+      ]
+    }
+  ],
+  "prototype_run_id": "PROTO-ROOM-DATE-CONTEXTS-001",
+  "scope_completion": "not_verified"
+}

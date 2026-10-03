@@ -1,0 +1,423 @@
+{
+  "references": [
+    {
+      "state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "node_id": "949:248",
+      "node_name": "[FOOD-OCT3:LIBCAFE] LibCafé — Coffee caller",
+      "design_source_path": "food-oct3-libcafe-card-corrected.svg",
+      "design_source_sha256": "46b09e29a3e64f0ae98fdcf636b33da5cc616620141176e1b50f488ba5c110c5",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-05",
+        "E-FOOD-MENU-07"
+      ],
+      "canvas_position": [
+        2800,
+        88000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "partial_independent_reference_display_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · LibCafé — Coffee caller — archived state",
+        "start_node_id": "949:248",
+        "description": "Independent finite reference of S-FOOD-OCT3-LIBCAFE-DETAIL from archived October3 native screenshots. Public venue/query/hours labels are historical; map/expanded logo imagery remains raster. No caller/Back/close-image/tag/result/map-expand navigation, arbitrary query entry, live availability or new scroll behavior configured. LibCafe card/background/crop sizing correction is approximate reconstruction of the visible sample, not exact native boundary. Independent start does not implement the native interaction journey. Full app/fidelity not_verified; actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-248&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A248&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-REF-00",
+        "E-FOOD-DETAIL-REF-01",
+        "E-FOOD-DETAIL-REF-02",
+        "E-FOOD-DETAIL-REF-03",
+        "E-FOOD-DETAIL-REF-04",
+        "E-FOOD-DETAIL-REF-05",
+        "E-FOOD-DETAIL-REF-06",
+        "E-FOOD-DETAIL-REF-07",
+        "E-FOOD-DETAIL-REF-08",
+        "E-FOOD-DETAIL-REF-09",
+        "E-FOOD-DETAIL-REF-10",
+        "E-FOOD-DETAIL-REF-11",
+        "E-FOOD-DETAIL-REF-12",
+        "E-FOOD-DETAIL-REF-13",
+        "E-FOOD-DETAIL-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-DETAIL-REF-LIBCAFE-DETAIL-001"
+      ]
+    },
+    {
+      "state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+      "node_id": "949:193",
+      "node_name": "[FOOD-OCT3:BLOCKY-IMAGE] Block Y — expanded image",
+      "design_source_path": "food-oct3-blocky-image.svg",
+      "design_source_sha256": "1b100e28677bb87a7b0d35d42d1492d2cff38f16dc0c06f1b149523b596cf0b6",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-02"
+      ],
+      "canvas_position": [
+        1400,
+        88000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "partial_independent_reference_display_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · Block Y — expanded image — archived state",
+        "start_node_id": "949:193",
+        "description": "Independent finite reference of S-FOOD-OCT3-BLOCKY-IMAGE from archived October3 native screenshots. Public venue/query/hours labels are historical; map/expanded logo imagery remains raster. No caller/Back/close-image/tag/result/map-expand navigation, arbitrary query entry, live availability or new scroll behavior configured. LibCafe card/background/crop sizing correction is approximate reconstruction of the visible sample, not exact native boundary. Independent start does not implement the native interaction journey. Full app/fidelity not_verified; actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-193&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A193&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-REF-15",
+        "E-FOOD-DETAIL-REF-16",
+        "E-FOOD-DETAIL-REF-17",
+        "E-FOOD-DETAIL-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-DETAIL-REF-BLOCKY-IMAGE-001"
+      ]
+    },
+    {
+      "state_id": "S-FOOD-OCT3-COFFEE",
+      "node_id": "949:201",
+      "node_name": "[FOOD-OCT3:COFFEE] Search — Coffee from Block Y",
+      "design_source_path": "food-oct3-coffee.svg",
+      "design_source_sha256": "b91c5c11c94196bca5a376b8ed8b35266c4254fd154783dbb92c1bd0efe5aff1",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-04"
+      ],
+      "canvas_position": [
+        2100,
+        88000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "partial_independent_reference_display_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · Search — Coffee from Block Y — archived state",
+        "start_node_id": "949:201",
+        "description": "Independent finite reference of S-FOOD-OCT3-COFFEE from archived October3 native screenshots. Public venue/query/hours labels are historical; map/expanded logo imagery remains raster. No caller/Back/close-image/tag/result/map-expand navigation, arbitrary query entry, live availability or new scroll behavior configured. LibCafe card/background/crop sizing correction is approximate reconstruction of the visible sample, not exact native boundary. Independent start does not implement the native interaction journey. Full app/fidelity not_verified; actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-201&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A201&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-REF-19",
+        "E-FOOD-DETAIL-REF-20",
+        "E-FOOD-DETAIL-REF-21",
+        "E-FOOD-DETAIL-REF-22",
+        "E-FOOD-DETAIL-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-DETAIL-REF-COFFEE-001"
+      ]
+    },
+    {
+      "state_id": "S-FOOD-OCT3-SANDWICH",
+      "node_id": "949:319",
+      "node_name": "[FOOD-OCT3:SANDWICH] Search — Sandwich from lower detail",
+      "design_source_path": "food-oct3-sandwich.svg",
+      "design_source_sha256": "f159f96c6513556b6917a42791d85eba9f94424d8b6a31217993e5f4ddb1765c",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-16"
+      ],
+      "canvas_position": [
+        0,
+        90000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "partial_independent_reference_display_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · Search — Sandwich from lower detail — archived state",
+        "start_node_id": "949:319",
+        "description": "Independent finite reference of S-FOOD-OCT3-SANDWICH from archived October3 native screenshots. Public venue/query/hours labels are historical; map/expanded logo imagery remains raster. No caller/Back/close-image/tag/result/map-expand navigation, arbitrary query entry, live availability or new scroll behavior configured. LibCafe card/background/crop sizing correction is approximate reconstruction of the visible sample, not exact native boundary. Independent start does not implement the native interaction journey. Full app/fidelity not_verified; actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-319&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A319&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-DETAIL-REF-24",
+        "E-FOOD-DETAIL-REF-25",
+        "E-FOOD-DETAIL-REF-26",
+        "E-FOOD-DETAIL-REF-27",
+        "E-FOOD-DETAIL-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-DETAIL-REF-SANDWICH-001"
+      ]
+    }
+  ],
+  "revision_id": "FIGMA-FOOD-OCT3-DETAIL-REFERENCE-20261003",
+  "prototype_run_ids": [
+    "PROTO-FOOD-OCT3-DETAIL-REF-LIBCAFE-DETAIL-001",
+    "PROTO-FOOD-OCT3-DETAIL-REF-BLOCKY-IMAGE-001",
+    "PROTO-FOOD-OCT3-DETAIL-REF-COFFEE-001",
+    "PROTO-FOOD-OCT3-DETAIL-REF-SANDWICH-001",
+    "PROTO-FOOD-OCT3-BLOCKY-REF-SCROLL-001"
+  ],
+  "blocky_scroll_flow": {
+    "name": "Reference · Block Y detail — finite scrolling",
+    "start_node_id": "949:63",
+    "description": "Independent reference of the existing October3 Block Y detail reconstruction. Actual existing vertical viewport576x924 and content992px imply a finite68px range; this does not establish complete native bounds. Archived top/lower snapshots support public logo, labels and inline map; exact fonts/geometry unknown. Lower sample is reached through this existing overflow, not a new duplicate screen. No caller/Back/image/tag/map navigation configured. No new native execution or human evaluation; full application/fidelity not_verified.",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-63&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A63&show-proto-sidebar=1"
+  },
+  "state_alias": {
+    "state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+    "reused_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "node_id": "949:63",
+    "context_variant": "20261003-blocky-detail-scroll",
+    "source_evidence_ids": [
+      "E-FOOD-MENU-10",
+      "E-FOOD-MENU-15"
+    ],
+    "prototype_evidence_ids": [
+      "E-FOOD-DETAIL-REF-36",
+      "E-FOOD-DETAIL-REF-37",
+      "E-FOOD-DETAIL-REF-READBACK"
+    ],
+    "prototype_run_ids": [
+      "PROTO-FOOD-OCT3-BLOCKY-REF-SCROLL-001"
+    ],
+    "note": "Lower reached through existing vertical overflow949:65/949:66. Static949:128 retained as historical unmapped draft.68px inferred range does not establish native complete extent; navigation unconfigured."
+  },
+  "pixel_comparisons": [
+    {
+      "left": "14-libcafe-present.png",
+      "right": "32-libcafe-repeat-present.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "18-blocky-image-present.png",
+      "right": "29-image-repeat-present.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "23-coffee-present.png",
+      "right": "30-coffee-repeat-present.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "28-sandwich-present.png",
+      "right": "31-sandwich-repeat-present.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "35-blocky-stable-top.png",
+      "right": "38-blocky-reverse-top.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "38-blocky-reverse-top.png",
+      "right": "39-blocky-top-repeat.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "36-blocky-lower.png",
+      "right": "37-blocky-lower-repeat.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "34-blocky-initial-present.png",
+      "right": "35-blocky-stable-top.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "check": "app_repeat_or_scroll_restore",
+      "equal": false,
+      "difference_bbox": [
+        5,
+        51,
+        349,
+        631
+      ]
+    },
+    {
+      "left": "35-blocky-stable-top.png",
+      "right": "36-blocky-lower.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        121
+      ],
+      "check": "fixed_BlockY_header",
+      "equal": false,
+      "difference_bbox": [
+        5,
+        51,
+        349,
+        61
+      ]
+    },
+    {
+      "left": "36-blocky-lower.png",
+      "right": "37-blocky-lower-repeat.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        121
+      ],
+      "check": "fixed_BlockY_header",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "37-blocky-lower-repeat.png",
+      "right": "38-blocky-reverse-top.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        121
+      ],
+      "check": "fixed_BlockY_header",
+      "equal": false,
+      "difference_bbox": [
+        5,
+        51,
+        349,
+        61
+      ]
+    },
+    {
+      "left": "38-blocky-reverse-top.png",
+      "right": "39-blocky-top-repeat.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        121
+      ],
+      "check": "fixed_BlockY_header",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "35-blocky-stable-top.png",
+      "right": "36-blocky-lower.png",
+      "crop_xyxy": [
+        277,
+        80,
+        610,
+        110
+      ],
+      "check": "supplemental_visible_title_back_region_excludes_lower_edge",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "36-blocky-lower.png",
+      "right": "37-blocky-lower-repeat.png",
+      "crop_xyxy": [
+        277,
+        80,
+        610,
+        110
+      ],
+      "check": "supplemental_visible_title_back_region_excludes_lower_edge",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "37-blocky-lower-repeat.png",
+      "right": "38-blocky-reverse-top.png",
+      "crop_xyxy": [
+        277,
+        80,
+        610,
+        110
+      ],
+      "check": "supplemental_visible_title_back_region_excludes_lower_edge",
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "38-blocky-reverse-top.png",
+      "right": "39-blocky-top-repeat.png",
+      "crop_xyxy": [
+        277,
+        80,
+        610,
+        110
+      ],
+      "check": "supplemental_visible_title_back_region_excludes_lower_edge",
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "limitations": [
+    "Four finite independent archived references displayed and reopened: corrected LibCafe detail, expanded BlockY logo, Coffee and Sandwich fixed eight-result queries. No caller/Back/close-image/tag/result/map-expand navigation or arbitrary input configured.",
+    "LibCafe existing root949:248 retained. Only card Vector949:253 replaced with contour Frame1023:19 at18,100,539x924 Clipfalse; ScreenBackground949:249 fillF7F9F6; Image949:298 height309->307 at35,488,507x307. Title949:254 remains Inter Bold22px. Radius38 and card bounds approximate visible reconstruction, not exact native geometry.",
+    "Expanded logo Image949:196 at133,360,308x261 has actual Image fill. Coffee query949:213 and complete result949:241, Sandwich query949:331 and result949:359 are independent Inter Regular23px Texts. QueryX76 and full resultX30 verified; native font exactness unknown.",
+    "Existing BlockY949:63 continuous viewport949:65 at0,100,576x924 and content949:66 height992 unchanged. Inferred68px range reaches lower sample, header fixed; complete native bounds and Back/caller/image/tag/map edges unknown. Lower949:128 remains historical unmapped draft; alias reuses949:63.",
+    "Three immediate leaf-to-root route aborts; semantic sidebar row did not select root and root became hidden. Samples05/06/07 are failures,02 has transient wrongY144.5. Show checkbox locator matched nothing; icon406 miss then fresh417 restored root at08. Cause not isolated. Failures retained; safe canvas Frame selection used only for design selection.",
+    "Raw JPEG bytes named.png converted to RGB PNG for public archive; collaborator identity masked. Pixel equality checks verify finite prototype render only, not native reentry rules or human evaluation.",
+    "Current native Computer Use read after user reported unlock still returned Mac locked; no new native session/state/action or business submission.",
+    "Earlier Action navigation dropdown refused for URL-protocol safety; not retried or bypassed. Independent references, layout repair and existing scroll replay are different operations. Full application/fidelity not_verified."
+  ],
+  "comparison_interpretation": "Initial34 versus stable top35 differs, cause not isolated. Broad header crop includes lower10px which differ on scroll; retained as failed broad checks. Additional visible title/back crop checked separately, without replacing failed tests."
+}

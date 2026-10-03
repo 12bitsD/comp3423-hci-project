@@ -1,5 +1,7 @@
 # AG206 地图复现检查点（尚未回放）
 
+这是2026-09-29的历史检查点。2026-09-30已完成六个控件的样例回放，保留初始底图重入失败、重传素材和后续复验；当前结果及完整限制见 [地图回放记录](room-map-prototype-walkthrough.md)。下文保留当时状态，不作为最新通过判定。
+
 2026-09-29。三个地图 Frame 已导入 Figma；本批仍是 **work in progress**，未计入 `coverage.json` 的正式映射和原型运行统计。完整应用仍为 `not_verified`。本批没有新增原生观察或真人评估。
 
 ## 依据与实现
@@ -18,16 +20,21 @@
 
 ![编辑器中的三个地图画面及缩小连接](../../design/polyulife/assets/room-map-editor-checkpoint.png)
 
+## 2026-09-29 后续配置与原生复查
+
+原生连接恢复后完成[16张截图的复查](room-recheck-20260929.md)：已确认地图缩放后Back保留Sunday ALL与列表滚动位置。此结论只限记录的路径，不等于所有入口都保留。
+
+另补齐三个Figma连接：338:19的↑ Swap overlay→339:30；初始Back338:25 Close overlay（推断出口）；Sunday ALL的Location327:251 Open overlay→338:19。现有地图共六个控件，均有编辑器读回；339:30临时Flow 3已移除。↑/↓仍是原生AX操作的代理。
+
+Present已尝试从Tuesday Home下滚并点击Room，但未成功打开Room，伴随视口尺寸和点击落点不一致。两次截图保留在[回放尝试](../../design/polyulife/room-map-replay-attempts.json)，**没有记作通过或正式prototype run**。当前截图仅支持首页与失败尝试。
+
 ## 从这里继续
 
-1. 初始338:19的Back配置Close overlay，明确为未独立原生验证的出口。
-2. 初始338:19配置↑ Swap overlay到339:30，注明原生AX Increment的代理输入。
-3. Sunday ALL327:202的Location打开338:19。原生入口来自S-SUNSCROLLED；原型让列表顶部也可触发属于泛化。
-4. 删除339:30上自动生成的Flow 3，避免将中间状态误作正式入口。
-5. 从Tuesday Home走Room → A → AG206 → Available → Sun → ALL → 下滚 → Location → ↑ → ↓ → Back → Home。补测初始/放大画面Back。
-6. 截图验证底图、日期/ALL保留与Home返回。原生地图返回只证明日期和ALL，未证明列表滚动保留；原型结果单独记录。
-7. 回放后将映射、连接及证据加入正式台账。不要把WIP直接视为通过，也不要重跑历史归档脚本。
+1. 从Tuesday Home进入Room，完整回放Sun ALL → 下滚 → Location → ↑ → ↓ → Back → Home；补测初始/放大画面Back。
+2. 验证三张底图在Present中显示；初始图额外重传此前失败，先确认是否确有缺图再修复。
+3. 比较返回日期、ALL和列表视口，并验证Home返回。原生已新增该样例滚动保持证据，原型尚未通过。
+4. 回放成功后把三张地图、六个控件和证据加入正式Figma台账。不要把WIP直接视为通过，也不要重跑历史归档脚本。
 
-自由平移、真实缩放边界、Google Maps交接均未实现；A-ROOM-MAP-DRAG没有证明成功平移。S-MAPRETURN可对应既有Sunday ALL状态，无需造重复全屏画板。
+自由平移、真实缩放边界、Google Maps交接均未实现；A-ROOM-MAP-DRAG没有证明成功平移。S-MAPRETURN可对应既有Sunday ALL的滚动状态，无需造重复全屏画板。
 
 [机器可读接力记录](../../design/polyulife/room-map-work-in-progress.json) · [素材来源与哈希](../../design/polyulife/room-map-assets.json) · [生成脚本](../../design/scripts/build_room_map_svg.py) · [原生Room走查](room-walkthrough.md)

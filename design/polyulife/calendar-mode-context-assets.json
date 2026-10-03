@@ -1,0 +1,29 @@
+[
+  {
+    "mode": "month",
+    "source_svg": "calendar-sep26.svg",
+    "source_sha256": "8adae9b9cd9561eabbd070069c4ebedd4a06b73bee629afe9c1a1790f5d8b22c",
+    "source_evidence_id": "E-CALENDAR-MONTH-RETURN",
+    "output": "calendar-mode-month-context.svg",
+    "output_sha256": "c63c942628a05b1012a207df4393d1abc70570f4ad87f05f49fceafc101d0696",
+    "scope": "Public native sample source, editable text/vector approximation; fixed date/filter."
+  },
+  {
+    "mode": "events",
+    "source_svg": "calendar-events-upcoming.svg",
+    "source_sha256": "c1e7e3bebd19408312f8d4f4d5ee926449831eec51684c6928ebf45047106107",
+    "source_evidence_id": "E-CALENDAR-EVENTS",
+    "output": "calendar-mode-events-context.svg",
+    "output_sha256": "a74d07ac81ad57296ac53dbcd38bc0315050a2bdda17657d4cd0d594908cd432",
+    "scope": "Public native sample source, editable text/vector approximation; fixed date/filter."
+  },
+  {
+    "mode": "history",
+    "source_svg": "calendar-events-history.svg",
+    "source_sha256": "d9e2e1e752aadf9148a7e778fcb1373791813a378dd8d74240110f481e409ea5",
+    "source_evidence_id": "E-CALENDAR-HISTORY",
+    "output": "calendar-mode-history-context.svg",
+    "output_sha256": "b263ea4cc1b6802c86205de4a6e5c3345140de39e4cc423f9fb4bd25e31fb323",
+    "scope": "Public native sample source, editable text/vector approximation; fixed date/filter."
+  }
+]

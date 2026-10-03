@@ -1,0 +1,129 @@
+{
+  "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+  "frames": [
+    {
+      "file": "calendar-oct3-payment-home-demo.svg",
+      "name": "[OCT3:HOME-P] Home — DEMO retained Payment caller",
+      "node_id": "825:19",
+      "x": 1400,
+      "y": 72600,
+      "at": "2026-10-02T18:08:18.730Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t517 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t518 stepper (settable, integer) Description: Y-position, Value: 72600",
+        "\t\t\t\t\t\t\t\t\t\t545 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t548 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "825:19",
+      "trigger_node_id": "825:126",
+      "trigger_node_name": "NavCalendar",
+      "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "823:21",
+      "configured_at": "2026-10-02T18:08:33.750Z",
+      "readback": [
+        "\t\t\t\t\t\t\t689 combo box (collapsed) Position, Value: Scroll with parent, ID: :rd9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t713 combo box (collapsed) Trigger, Value: On click, ID: :rdg:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t719 combo box (collapsed) Action, Value: Navigate to, ID: :rdj:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t726 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :re2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t731 combo box (collapsed) Animation, Value: Instant, ID: :ref:, Secondary Actions: Expand",
+        "The focused UI element is 726 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :re2:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT3-PAYMENT-HOME-01",
+      "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+      "implementation_status": "configured_finite_caller_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT3-PAYMENT-HOME-001",
+        "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+        "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT3-PAYMENT-07",
+        "E-NATIVE-OCT3-PAYMENT-07-AX"
+      ],
+      "source_fidelity": "Observed Oct3 finite Payment caller context only; fixed Navigate-to approximates retained state, not universal persistence."
+    },
+    {
+      "source_node_id": "823:21",
+      "trigger_node_id": "823:160",
+      "trigger_node_name": "NavHome",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "825:19",
+      "configured_at": "2026-10-02T18:08:53.403Z",
+      "readback": [
+        "\t\t\t\t\t\t\t847 combo box (collapsed) Position, Value: Scroll with parent, ID: :rft:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t871 combo box (collapsed) Trigger, Value: On click, ID: :rgm:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t877 combo box (collapsed) Action, Value: Navigate to, ID: :rgp:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t884 combo box (collapsed) Destination, Value: [OCT3:HOME-P] Home — DEMO retained Payment caller, ID: :rh8:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t889 combo box (collapsed) Animation, Value: Instant, ID: :rhl:, Secondary Actions: Expand",
+        "The focused UI element is 884 combo box (collapsed) Destination, Value: [OCT3:HOME-P] Home — DEMO retained Payment caller, ID: :rh8:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT3-PAYMENT-HOME-02",
+      "revision_id": "FIGMA-OCT3-PAYMENT-HOME-20261003",
+      "implementation_status": "configured_finite_caller_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-OCT3-PAYMENT-HOME-001",
+        "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+        "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT3-PAYMENT-06",
+        "E-NATIVE-OCT3-PAYMENT-06-AX"
+      ],
+      "source_fidelity": "Observed Oct3 finite Payment caller context only; fixed Navigate-to approximates retained state, not universal persistence."
+    }
+  ],
+  "flow": {
+    "name": "Reference · Oct2 Calendar filters & Notice — partial",
+    "description": "Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. A local image preview appeared black and AX URL lagged during repeated reentry; pixel/hash inspection proves saved04 is normal Payment, identical to00/02/05. This is a tool observation discrepancy, not a saved/prototype black screen.",
+    "readback": [
+      "~\t\t\t\t\t286 container Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. A local image preview appeared black and AX URL lagged during repeated reentry; pixel/hash inspection proves saved04 is normal Payment, identical to00/02/05. This is a tool observation discrepancy, not a saved/prototype black screen.",
+      "~\t\t\t\t\t\t287 text Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. A local image preview appeared black and AX URL lagged during repeated reentry; pixel/hash inspection proves saved04 is normal Payment, identical to00/02/05. This is a tool observation discrepancy, not a saved/prototype black screen.",
+      "The focused UI element is 286 container Oct2/Oct3 native fullscreen reference, 20 finite frames: All/None filters → Class → detail → Notice loading/blank/menu → return → Exam empty date → Payment draft → Payment No event ↔ scrolled Home DEMO. Payment Apply observed Oct3 and replayed twice. Native Payment → Home → Calendar retains October/month, selected Oct2 and Payment in one context. This finite Home caller is now connected; other Home/More callers and universal persistence remain pending. Home greeting/count/exam values/preview and course data are synthetic DEMO; personal date markers omitted. Notice 800ms is illustrative, not native latency or successful load. Geography is raster; live map actions unverified. Two old None X exits inferred. Payment reopen, other combinations/dates and full app/fidelity unverified. A local image preview appeared black and AX URL lagged during repeated reentry; pixel/hash inspection proves saved04 is normal Payment, identical to00/02/05. This is a tool observation discrepancy, not a saved/prototype black screen."
+    ],
+    "start_node_id": "791:177",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+    "tested_run_ids": [
+      "PROTO-OCT2-NONE-CANCEL-001",
+      "PROTO-OCT2-NONE-APPLY-001",
+      "PROTO-OCT2-NONE-RESTART-001",
+      "PROTO-OCT2-CLASS-NOTICE-001",
+      "PROTO-OCT2-NOTICE-RECOVERY-001",
+      "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001",
+      "PROTO-OCT3-PAYMENT-APPLY-001",
+      "PROTO-OCT3-PAYMENT-APPLY-002",
+      "PROTO-OCT3-PAYMENT-HOME-001",
+      "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+      "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+    ],
+    "scope": "20 dated finite frames and one observed Payment/Home context; other callers/reopen/complete application remain unverified.",
+    "updated_at": "2026-10-02T18:12:40.279406+00:00"
+  },
+  "prototype_run_ids": [
+    "PROTO-OCT3-PAYMENT-HOME-001",
+    "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+    "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003"
+  ],
+  "extra_flow_check": "Selected Home root showed Add flow starting point after inbound connection; no additional flow removed or created.",
+  "limits": [
+    "Only this observed Oct3 Payment caller context integrated. Other existing Home/More entries retain their historical paths.",
+    "Synthetic greeting/count/exam course/date/time/room and preview; personal records never uploaded.",
+    "Static scrolled Home sample; continuous scroll/features/exam card interactions unimplemented in this new context.",
+    "Local image preview appeared black and AX URL lagged at04; saved actual file is normal Payment, not a black capture.",
+    "Full app/fidelity/human evaluation not_verified."
+  ],
+  "capture_correction": {
+    "kind": "observation_discrepancy_correction",
+    "capture_index": 4,
+    "initial_observation": "Local view_image output appeared black and AX URL indicated preceding Home.",
+    "verified_saved_pixels": "Raw04 hash equals raw00/02/05; app crop normal Payment. Public04 equals public00/02/05. No saved/prototype/native black screen asserted.",
+    "source": "Actual file hash and Pillow pixel comparison; initial displayed preview retained as tool observation only."
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+  "connections": [
+    {
+      "source_node_id": "558:19",
+      "trigger_node_id": "558:30",
+      "trigger_node_name": "MonthView",
+      "target_node_id": "573:19",
+      "action_id": "A-CALENDAR-VIEW-MONTH",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "connection_id": "C-CALENDAR-MODE-01",
+      "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+      "configured_at": "2026-09-30T14:47:03.453Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-MODES-TUESDAY-001",
+        "PROTO-CALENDAR-MODES-MONDAY-REPAIR-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-MONTH-RETURN"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-MODES-PROTO-TRACE",
+        "E-CALENDAR-MODES-PROTO-SCREEN-04"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-MODES-FINITE"
+      ]
+    },
+    {
+      "source_node_id": "573:19",
+      "trigger_node_id": "573:28",
+      "trigger_node_name": "ViewMode",
+      "target_node_id": "573:174",
+      "action_id": "A-CALENDAR-VIEW-EVENTS",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "connection_id": "C-CALENDAR-MODE-02",
+      "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+      "configured_at": "2026-09-30T14:47:32.100Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-MODES-TUESDAY-001",
+        "PROTO-CALENDAR-MODES-MONDAY-REPAIR-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-EVENTS"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-MODES-PROTO-TRACE",
+        "E-CALENDAR-MODES-PROTO-SCREEN-05"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-MODES-FINITE"
+      ]
+    },
+    {
+      "source_node_id": "573:19",
+      "trigger_node_id": "573:157",
+      "trigger_node_name": "NavHome",
+      "target_node_id": null,
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Back",
+      "animation": null,
+      "tested_target_node_ids": [
+        "67:694",
+        "67:569"
+      ],
+      "source_generalization": "Prototype recovery to caller Home; native exit from this mode has not been observed.",
+      "connection_id": "C-CALENDAR-MODE-03",
+      "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+      "configured_at": "2026-09-30T14:47:35.238Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-MODES-TUESDAY-001",
+        "PROTO-CALENDAR-MODES-MONDAY-REPAIR-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-MODES-PROTO-TRACE",
+        "E-CALENDAR-MODES-PROTO-SCREEN-06"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-MODES-FINITE"
+      ]
+    },
+    {
+      "source_node_id": "573:174",
+      "trigger_node_id": "573:178",
+      "trigger_node_name": "HistoryToggle",
+      "target_node_id": "573:293",
+      "action_id": "A-CALENDAR-SHOW-HISTORY",
+      "trigger": "On click",
+      "behavior": "Swap overlay",
+      "animation": "Instant",
+      "connection_id": "C-CALENDAR-MODE-04",
+      "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+      "configured_at": "2026-09-30T14:48:34.513Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-MODES-TUESDAY-001",
+        "PROTO-CALENDAR-MODES-MONDAY-REPAIR-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-HISTORY"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-MODES-PROTO-TRACE",
+        "E-CALENDAR-MODES-PROTO-SCREEN-07"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-MODES-FINITE"
+      ]
+    },
+    {
+      "source_node_id": "573:174",
+      "trigger_node_id": "573:276",
+      "trigger_node_name": "NavHome",
+      "target_node_id": null,
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Back",
+      "animation": null,
+      "tested_target_node_ids": [
+        "67:694",
+        "67:569"
+      ],
+      "source_generalization": "Prototype recovery to caller Home; native exit from this mode has not been observed.",
+      "connection_id": "C-CALENDAR-MODE-05",
+      "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+      "configured_at": "2026-09-30T14:48:37.654Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-MODES-TUESDAY-001",
+        "PROTO-CALENDAR-MODES-MONDAY-REPAIR-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-MODES-PROTO-TRACE",
+        "E-CALENDAR-MODES-PROTO-SCREEN-08"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-MODES-FINITE"
+      ]
+    },
+    {
+      "source_node_id": "573:293",
+      "trigger_node_id": "573:300",
+      "trigger_node_name": "ViewMode",
+      "target_node_id": null,
+      "action_id": "A-CALENDAR-VIEW-WEEK",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "animation": null,
+      "tested_target_node_ids": [
+        "70:973"
+      ],
+      "connection_id": "C-CALENDAR-MODE-06",
+      "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+      "configured_at": "2026-09-30T14:48:57.768Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-MODES-TUESDAY-001",
+        "PROTO-CALENDAR-MODES-MONDAY-REPAIR-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-TRACE"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-MODES-PROTO-TRACE",
+        "E-CALENDAR-MODES-PROTO-SCREEN-09"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-MODES-FINITE"
+      ]
+    },
+    {
+      "source_node_id": "573:293",
+      "trigger_node_id": "573:401",
+      "trigger_node_name": "NavHome",
+      "target_node_id": null,
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Back",
+      "animation": null,
+      "tested_target_node_ids": [
+        "67:694",
+        "67:569"
+      ],
+      "source_generalization": "Prototype recovery to caller Home; native exit from this mode has not been observed.",
+      "connection_id": "C-CALENDAR-MODE-07",
+      "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+      "configured_at": "2026-09-30T14:49:00.603Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-MODES-TUESDAY-001",
+        "PROTO-CALENDAR-MODES-MONDAY-REPAIR-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-MODES-PROTO-TRACE",
+        "E-CALENDAR-MODES-PROTO-SCREEN-10"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-MODES-FINITE"
+      ]
+    },
+    {
+      "source_node_id": "67:569",
+      "trigger_node_id": "67:678",
+      "trigger_node_name": "NavCalendar",
+      "target_node_id": "70:973",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "source_generalization": "Monday context repair mirrors observed Tuesday bottom Calendar entry A-HOME-EP002; native Monday entry unverified.",
+      "connection_id": "C-CALENDAR-MODE-08",
+      "revision_id": "FIGMA-CALENDAR-MODES-20260930",
+      "configured_at": "2026-09-30T14:51:45.667Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-MODES-MONDAY-REPAIR-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-MODES-PROTO-TRACE",
+        "E-CALENDAR-MODES-PROTO-SCREEN-31"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-MODES-FINITE",
+        "D-CALENDAR-MONDAY-ENTRY-REPAIR"
+      ]
+    }
+  ],
+  "scope_completion": "not_verified",
+  "native_arrays_unchanged": true,
+  "caller_preservation": "Calendar mode states swap the picker overlay; history view closes it to the original Week root. Home Back exits to caller."
+}

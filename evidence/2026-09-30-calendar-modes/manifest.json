@@ -1,0 +1,872 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-month-frame.png",
+      "sha256": "df5712be02c5d88b811896f2756ba7fe98920b022c61512373d3685b09ba5c7e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:45:56.008Z",
+      "description": {
+        "state": "S-CALENDAR-SEP26",
+        "node": "573:19"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "02-events-frame.png",
+      "sha256": "cd9da394d298e8f7df6a7d1fef024f7bbdd3acf04f08ae03e1f72066dbc581f4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:46:07.664Z",
+      "description": {
+        "state": "S-CALENDAR-EVENTS",
+        "node": "573:174"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "03-history-frame.png",
+      "sha256": "c6d68babcb15d18b1285798e9c8e2bdfc96e3054e2c53838145eca5bdb9870bc",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:46:08.891Z",
+      "description": {
+        "state": "S-CALENDAR-HISTORY",
+        "node": "573:293"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "04-picker-month-connection.png",
+      "sha256": "3ff2e5979dcc07020cc25c0e59025df488e94130ec7bbd1a58cfededeea74b89",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:47:03.453Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:30"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "05-month-events-connection.png",
+      "sha256": "ee245bd0a10213483510caebd5c378398d0753fcabfb5f98a3b5b6e1959d5035",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:47:32.100Z",
+      "description": {
+        "state": "S-CALENDAR-SEP26",
+        "node": "573:28"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "06-month-home-proxy.png",
+      "sha256": "c732a6ed97761b9a4b064691f8765858f1626141f7f958b45a23f622c00af48a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:47:35.238Z",
+      "description": {
+        "state": "S-CALENDAR-SEP26",
+        "node": "573:157"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "07-events-history-connection.png",
+      "sha256": "50b1b85fc578cd0852f77d112ff2e15c94f7f59d3e0bdeff1407ab816bdd96b9",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:48:34.513Z",
+      "description": {
+        "state": "S-CALENDAR-EVENTS",
+        "node": "573:178"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "08-events-home-proxy.png",
+      "sha256": "6426aa7ffbfb01958d5d08a93812198070d633edba3af39dc989d8421626d69c",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:48:37.654Z",
+      "description": {
+        "state": "S-CALENDAR-EVENTS",
+        "node": "573:276"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "09-history-week-connection.png",
+      "sha256": "d095fa9b10ab3e61d120250737c045bb635dcd9ce5f67d79d9a492ac61a43762",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:48:57.768Z",
+      "description": {
+        "state": "S-CALENDAR-HISTORY",
+        "node": "573:300"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "10-history-home-proxy.png",
+      "sha256": "12f8b6a14327554df6e0bf446e7281c7feeb3349928e9109b43d78c1ff92597e",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:00.603Z",
+      "description": {
+        "state": "S-CALENDAR-HISTORY",
+        "node": "573:401"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "11-tuesday-home-baseline.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:17.238Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "12-week-before.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:17.647Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "13-picker-before.png",
+      "sha256": "71382420051974123e7eeda54aab2699086bffc69b74e7da2b7dc2bd496c40e6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:17.983Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "14-month-sep26.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:18.330Z",
+      "description": {
+        "state": "S-CALENDAR-SEP26",
+        "node": "573:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "15-events-upcoming.png",
+      "sha256": "6d60f0400dc6fc81e9e3b96497f459b88997a9690aec6c343a2decd14a404085",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:28.198Z",
+      "description": {
+        "state": "S-CALENDAR-EVENTS",
+        "node": "573:174"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "16-history.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:37.208Z",
+      "description": {
+        "state": "S-CALENDAR-HISTORY",
+        "node": "573:293"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "17-week-after-cycle.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:37.524Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "18-home-after-cycle.png",
+      "sha256": "6971464195bc7c4ee390e295bd4e61ce4d157e624ae686e0d537a4b70c23b3ba",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:37.827Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "19-month-direct-exit-before.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:49.459Z",
+      "description": {
+        "state": "S-CALENDAR-SEP26",
+        "node": "573:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "20-month-direct-exit-after.png",
+      "sha256": "6971464195bc7c4ee390e295bd4e61ce4d157e624ae686e0d537a4b70c23b3ba",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:49:49.863Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "21-events-direct-exit-before.png",
+      "sha256": "6d60f0400dc6fc81e9e3b96497f459b88997a9690aec6c343a2decd14a404085",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:07.647Z",
+      "description": {
+        "state": "S-CALENDAR-EVENTS",
+        "node": "573:174"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "22-events-direct-exit-after.png",
+      "sha256": "6971464195bc7c4ee390e295bd4e61ce4d157e624ae686e0d537a4b70c23b3ba",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:07.876Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "23-history-direct-exit-before.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:09.416Z",
+      "description": {
+        "state": "S-CALENDAR-HISTORY",
+        "node": "573:293"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "24-history-direct-exit-after.png",
+      "sha256": "6971464195bc7c4ee390e295bd4e61ce4d157e624ae686e0d537a4b70c23b3ba",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:09.715Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "25-monday-home-baseline.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:27.608Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "26-monday-week-before.png",
+      "sha256": "e2eb8f7d038c8b297bc4b000d59d83f1cce967840549eff2e53aea297de641c5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:27.912Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569",
+        "status": "navigation_failure",
+        "note": "Filename retained; actual saved screenshot remains Monday Home. Calendar entry unconfigured, subsequent scripted attempts ineffective."
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "27-monday-month.png",
+      "sha256": "e245d50781acbbb28d14d7ffde5087ce7f90cbb6c1993fe197d422ab8fd10a4a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:28.519Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569",
+        "status": "navigation_failure",
+        "note": "Filename retained; actual saved screenshot remains Monday Home. Calendar entry unconfigured, subsequent scripted attempts ineffective."
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "28-monday-history.png",
+      "sha256": "2396df2be66acd397f988bcc442292ee5234452fdb7b6af3ad3be20c2c130a9d",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:29.125Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569",
+        "status": "navigation_failure",
+        "note": "Filename retained; actual saved screenshot remains Monday Home. Calendar entry unconfigured, subsequent scripted attempts ineffective."
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "29-monday-week-return.png",
+      "sha256": "3467f9756189ef7be302e1dd7639e0c4f5f1676f0358ac91095d4165dadf5479",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:29.371Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569",
+        "status": "navigation_failure",
+        "note": "Filename retained; actual saved screenshot remains Monday Home. Calendar entry unconfigured, subsequent scripted attempts ineffective."
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "30-monday-home-return.png",
+      "sha256": "b1d6ec22d3e24f364e006a756ca333a588f3009ca48ecbe43bab9155983895fc",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:50:29.729Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "31-monday-calendar-repair.png",
+      "sha256": "3384a74ca502f7051d25e8aea8fc9d5eebc75daa551f3844a43ac9555afb5ad1",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:51:45.667Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:678"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "32-monday-repair-baseline.png",
+      "sha256": "c7e14cd91117e549f646eaf824a74f4b83be092a3aaaf0c45f7332f1939055e4",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:51:56.189Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "33-monday-repair-week.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:51:56.392Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "34-monday-repair-picker.png",
+      "sha256": "71382420051974123e7eeda54aab2699086bffc69b74e7da2b7dc2bd496c40e6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:14.598Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "35-monday-repair-month.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:15.005Z",
+      "description": {
+        "state": "S-CALENDAR-SEP26",
+        "node": "573:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "36-monday-repair-events.png",
+      "sha256": "6d60f0400dc6fc81e9e3b96497f459b88997a9690aec6c343a2decd14a404085",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:15.226Z",
+      "description": {
+        "state": "S-CALENDAR-EVENTS",
+        "node": "573:174"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "37-monday-repair-history.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:15.614Z",
+      "description": {
+        "state": "S-CALENDAR-HISTORY",
+        "node": "573:293"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "38-monday-repair-week-return.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:15.915Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "39-monday-repair-home-return.png",
+      "sha256": "4c5dab307d693d19a83578ac2368ab350cdd1bd1ea80f9ea5215fe1756f26006",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:16.219Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "40-monday-month-exit-before.png",
+      "sha256": "594815ed2ed0a1c05bcb043f2d95d1eab17adc86b1c9ea7fa21393a89e48f053",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:34.330Z",
+      "description": {
+        "state": "S-CALENDAR-SEP26",
+        "node": "573:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "41-monday-month-exit-after.png",
+      "sha256": "4c5dab307d693d19a83578ac2368ab350cdd1bd1ea80f9ea5215fe1756f26006",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:34.526Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "42-monday-events-exit-before.png",
+      "sha256": "6d60f0400dc6fc81e9e3b96497f459b88997a9690aec6c343a2decd14a404085",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:35.655Z",
+      "description": {
+        "state": "S-CALENDAR-EVENTS",
+        "node": "573:174"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "43-monday-events-exit-after.png",
+      "sha256": "4c5dab307d693d19a83578ac2368ab350cdd1bd1ea80f9ea5215fe1756f26006",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:36.059Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "44-monday-history-exit-before.png",
+      "sha256": "2075ac170a3d69e4ed27cda870590b38fa4ac2d77317c358813030799f64b258",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:37.673Z",
+      "description": {
+        "state": "S-CALENDAR-HISTORY",
+        "node": "573:293"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "45-monday-history-exit-after.png",
+      "sha256": "4c5dab307d693d19a83578ac2368ab350cdd1bd1ea80f9ea5215fe1756f26006",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:52:38.060Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-MON",
+        "node": "67:569"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "89a0e0cb588d9cb1020a79ef70e168ae998320946c5088a0c64539373442ea0d",
+    "dimensions": [
+      1143,
+      1332
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "12-week-before.png",
+      "comparison": "17-week-after-cycle.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "11-tuesday-home-baseline.png",
+      "comparison": "18-home-after-cycle.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        579,
+        358,
+        613
+      ],
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "18-home-after-cycle.png",
+      "comparison": "20-month-direct-exit-after.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "18-home-after-cycle.png",
+      "comparison": "22-events-direct-exit-after.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "18-home-after-cycle.png",
+      "comparison": "24-history-direct-exit-after.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "33-monday-repair-week.png",
+      "comparison": "38-monday-repair-week-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "32-monday-repair-baseline.png",
+      "comparison": "39-monday-repair-home-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        579,
+        358,
+        613
+      ],
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "39-monday-repair-home-return.png",
+      "comparison": "41-monday-month-exit-after.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "39-monday-repair-home-return.png",
+      "comparison": "43-monday-events-exit-after.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "39-monday-repair-home-return.png",
+      "comparison": "45-monday-history-exit-after.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "14-month-sep26.png",
+      "comparison": "35-monday-repair-month.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    },
+    {
+      "baseline": "16-history.png",
+      "comparison": "37-monday-repair-history.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; two original Home returns lose bottom image. Comparisons against an already blank Home baseline do not prove image repair or visual completeness."
+    }
+  ],
+  "scope": "Public fixed-calendar mode cycle and caller preservation. Monday missing-entry failure and repair, Home image failures preserved. No native new executions."
+}

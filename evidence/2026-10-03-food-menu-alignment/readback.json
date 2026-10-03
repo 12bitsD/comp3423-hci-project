@@ -1,0 +1,496 @@
+{
+  "log": [
+    {
+      "file": "00-content-before.png",
+      "kind": "editor",
+      "note": "Existing continuous Food content group0,0,576x5581 Left/Top; no geometry change planned",
+      "input": null,
+      "captured_at": "2026-10-03T08:19:27.648Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3589",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5581\""
+      ]
+    },
+    {
+      "file": "01-layer-selection-failure.png",
+      "kind": "editor",
+      "note": "Return entered children across selected rows,265 items selected; VenueMenu05 selector absent. No geometry edited in this failure",
+      "input": null,
+      "captured_at": "2026-10-03T08:20:15.558Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=12-104&p=f",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": Mixed",
+        "    - spinbutton \"Y-position\": Mixed",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - textbox \"Width\" [disabled]: Mixed",
+        "      - textbox \"Height\" [disabled]: Mixed",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "02-hcafe-menu-before.png",
+      "kind": "editor",
+      "note": "Find result explicitly identifies LIST28 root; VenueMenu05 node954:3783 x516,y903,48x46",
+      "input": null,
+      "captured_at": "2026-10-03T08:20:33.504Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3783",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"516\"",
+        "    - spinbutton \"Y-position\": \"903\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"48\"",
+        "      - textbox \"Height\": \"46\""
+      ]
+    },
+    {
+      "file": "03-hcafe-menu-after.png",
+      "kind": "editor",
+      "note": "Actual H Café menu moved30px downward,y903->933; x516,width48,height46 retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:20:34.213Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3783",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"516\"",
+        "    - spinbutton \"Y-position\": \"933\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"48\"",
+        "      - textbox \"Height\": \"46\""
+      ]
+    },
+    {
+      "file": "04-ugarden-menu-before.png",
+      "kind": "editor",
+      "note": "Find result explicitly identifies LIST28 U Garden VenueMenu10 node954:3978 x516,y1876,48x46",
+      "input": null,
+      "captured_at": "2026-10-03T08:20:53.563Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3978",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"516\"",
+        "    - spinbutton \"Y-position\": \"1876\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"48\"",
+        "      - textbox \"Height\": \"46\""
+      ]
+    },
+    {
+      "file": "05-ugarden-menu-after.png",
+      "kind": "editor",
+      "note": "Actual U Garden menu moved30px down,y1876->1906; width48,height46,x516 retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:20:54.053Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3978",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"516\"",
+        "    - spinbutton \"Y-position\": \"1906\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"48\"",
+        "      - textbox \"Height\": \"46\""
+      ]
+    },
+    {
+      "file": "06-content-after.png",
+      "kind": "editor",
+      "note": "Immediate editor navigation capture still loading; no geometry readback yet, retained as intermediate",
+      "input": null,
+      "captured_at": "2026-10-03T08:20:56.923Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?t=IMU76uwUVmAf2MMA-0",
+      "readback": [
+        "- region \"Left sidebar\":"
+      ]
+    },
+    {
+      "file": "07-content-verified.png",
+      "kind": "editor",
+      "note": "Stable actual current content0,0,576x5581 Left/Top unchanged after both menu moves",
+      "input": null,
+      "captured_at": "2026-10-03T08:21:04.560Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3589",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5581\""
+      ]
+    },
+    {
+      "file": "08-present-top.png",
+      "kind": "present",
+      "note": "Independent Food flow root954:3580 at current top after geometry correction",
+      "input": null,
+      "captured_at": "2026-10-03T08:21:14.421Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "09-present-hcafe.png",
+      "kind": "present",
+      "note": "One-page scroll overshot H Café; actual viewport shows LibCafé/Theatre/Forest/U Garden with repaired U Garden menu. Overshoot retained.",
+      "input": {
+        "type": "scroll",
+        "target": [
+          447,
+          421
+        ],
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T08:21:14.900Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "10-present-hcafe-corrected.png",
+      "kind": "present",
+      "note": "Adjusted scroll upward after overshoot to inspect H Café",
+      "input": {
+        "type": "scroll",
+        "target": [
+          447,
+          421
+        ],
+        "direction": "up",
+        "pages": 0.3
+      },
+      "captured_at": "2026-10-03T08:21:25.913Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "11-present-ugarden.png",
+      "kind": "present",
+      "note": "U Garden after corrected centering, Online Order remains visible",
+      "input": {
+        "type": "scroll",
+        "target": [
+          447,
+          421
+        ],
+        "direction": "down",
+        "pages": 0.6
+      },
+      "captured_at": "2026-10-03T08:21:41.820Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "12-present-hcafe-return.png",
+      "kind": "present",
+      "note": "Reverse0.6 pages returns to H Café sampled viewport",
+      "input": {
+        "type": "scroll",
+        "target": [
+          447,
+          421
+        ],
+        "direction": "up",
+        "pages": 0.6
+      },
+      "captured_at": "2026-10-03T08:21:59.296Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "13-present-ugarden-return.png",
+      "kind": "present",
+      "note": "Repeat0.6 pages returns to U Garden sampled viewport",
+      "input": {
+        "type": "scroll",
+        "target": [
+          447,
+          421
+        ],
+        "direction": "down",
+        "pages": 0.6
+      },
+      "captured_at": "2026-10-03T08:21:59.922Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "14-present-top-return.png",
+      "kind": "present",
+      "note": "Return to top after inspecting both Online Order rows",
+      "input": {
+        "type": "scroll",
+        "target": [
+          447,
+          421
+        ],
+        "direction": "up",
+        "pages": 3
+      },
+      "captured_at": "2026-10-03T08:22:00.329Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A3580"
+    },
+    {
+      "file": "15-viewport-dimensions.png",
+      "kind": "editor",
+      "note": "Actual existing viewportx0,y147,576x823 Clip content retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:22:43.649Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3588",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"147\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"823\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "16-viewport-overflow.png",
+      "kind": "editor",
+      "note": "Actual existing viewport Overflow Vertical retained; no new navigation/interaction",
+      "input": null,
+      "captured_at": "2026-10-03T08:22:44.439Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3588",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":",
+        "    - generic: Vertical"
+      ]
+    },
+    {
+      "file": "17-root-final.png",
+      "kind": "editor",
+      "note": "Actual root954:3580 remainsx0,y94000,576x1024; two child menu positions repaired, existing finite scroll retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:22:59.850Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-3580",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"94000\"",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    }
+  ],
+  "menu_edits": [
+    {
+      "name": "VenueMenu05",
+      "node_id": "954:3783",
+      "venue": "H Café",
+      "before_position": [
+        516,
+        903
+      ],
+      "after_position": [
+        516,
+        933
+      ],
+      "dimensions": [
+        48,
+        46
+      ]
+    },
+    {
+      "name": "VenueMenu10",
+      "node_id": "954:3978",
+      "venue": "U Garden (Student Canteen)",
+      "before_position": [
+        516,
+        1876
+      ],
+      "after_position": [
+        516,
+        1906
+      ],
+      "dimensions": [
+        48,
+        46
+      ]
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "left": "10-present-hcafe-corrected.png",
+      "right": "12-present-hcafe-return.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-present-ugarden.png",
+      "right": "13-present-ugarden-return.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "08-present-top.png",
+      "right": "14-present-top-return.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "fixed_header_comparisons": [
+    {
+      "left": "08-present-top.png",
+      "right": "09-present-hcafe.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "08-present-top.png",
+      "right": "10-present-hcafe-corrected.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "08-present-top.png",
+      "right": "11-present-ugarden.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "08-present-top.png",
+      "right": "12-present-hcafe-return.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "08-present-top.png",
+      "right": "13-present-ugarden-return.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "08-present-top.png",
+      "right": "14-present-top-return.png",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "xml_difference_scope": "Only VenueMenu05 and VenueMenu10; other SVG unchanged",
+  "hours_sources_unchanged": true,
+  "limits": [
+    "Actual existing Food list menu groups moved30px downward for60px Online Order row extension. Only two SVG menu groups changed; no menu navigation/order action configured.",
+    "Find results explicitly identify current LIST28 root, distinguish H Café hours reference from list. Return/semantic layer selection created265-item selection; no geometry edited until single correct menu confirmed. Failure retained.",
+    "Immediate content navigation capture06 still loading, stable07 confirms0,0,576x5581 Left/Top. Viewport0,147,576x823 Cliptrue Vertical and root0,94000,576x1024 read back unchanged.",
+    "Present one-page scroll overshot H Café;09 actually shows U Garden and other rows. Up0.3 restored H Café; forward/reverse0.6 replays and top return saved. Three full app-crop and six fixed-header comparisons equal.",
+    "Finite original archived28-row reconstruction remains approximate. Menu position repair is not proof of complete native alignment, arbitrary live data, list bounds or full app fidelity.",
+    "Frozen pre-menu source/mapping retained. Hours generator pins frozen base to prevent applying its existing30px correction twice; all four imported hours SVGs unchanged.",
+    "No new native session/state/action or controls. Current native connection was locked at preceding live check, not newly retested or claimed recovered here. Existing Action dropdown refusal not retried/circumvented.",
+    "Prototype scrolling/editor checks are separate from native execution and human evaluation. Full application/fidelity not_verified."
+  ]
+}

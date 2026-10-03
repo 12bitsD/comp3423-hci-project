@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "state_id": "S-PRIVACY-SCROLLED",
+      "source_evidence_ids": [
+        "E-MENU-N-19"
+      ],
+      "native_path": "../../evidence/2026-09-28-full-audit/native-menu-192932-privacy-scrolled-01.png",
+      "native_sha256": "14ad8cb87adf5ad7630f7142d99120edaee599450cf9a6ced81b90d10eb44fef",
+      "output": "privacy-scrolled.svg",
+      "output_sha256": "fe7a4b533109e4d7bd36777abde856ab4b2721b2e56b83efe7ec87319cb97f90",
+      "dimensions": [
+        576,
+        970
+      ],
+      "limits": [
+        "Finite visible text only; intermediate text and full document boundaries missing.",
+        "Editable transcription with approximate typography and geometry; cursor omitted.",
+        "Prototype input proxy does not establish native keyboard behavior or continuous scrolling.",
+        "Clipped edge fragments incomplete; links not configured."
+      ]
+    },
+    {
+      "state_id": "S-TERMS-SCROLLED",
+      "source_evidence_ids": [
+        "E-MENU-N-24"
+      ],
+      "native_path": "../../evidence/2026-09-28-full-audit/native-menu-193010-terms-scrolled-01.png",
+      "native_sha256": "93f0951a4b611bc9fca8804e3179408aa7972e6a88b34b1f26c956b0049e7eec",
+      "output": "terms-scrolled.svg",
+      "output_sha256": "8b3ed4bec4c9614fe4ec120f4773a1185991a8a89c2ae276197a44d6992f56a3",
+      "dimensions": [
+        576,
+        970
+      ],
+      "limits": [
+        "Finite visible text only; intermediate text and full document boundaries missing.",
+        "Editable transcription with approximate typography and geometry; cursor omitted.",
+        "Prototype input proxy does not establish native keyboard behavior or continuous scrolling.",
+        "Clipped edge fragments incomplete; links not configured."
+      ]
+    }
+  ]
+}

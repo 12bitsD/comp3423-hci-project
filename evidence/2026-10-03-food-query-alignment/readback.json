@@ -1,0 +1,1234 @@
+{
+  "log": [
+    {
+      "file": "00-asian-before.png",
+      "kind": "editor",
+      "note": "Existing root954:19,576x1024; query and magnifier visually left of archived native placement",
+      "input": null,
+      "captured_at": "2026-10-03T08:29:52.218Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-19",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "01-asian-text-before.png",
+      "kind": "editor",
+      "note": "Actual independent query Text selected before coordinate correction",
+      "input": null,
+      "captured_at": "2026-10-03T08:29:53.860Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-31",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"58\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"146\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "02-asian-text-after.png",
+      "kind": "editor",
+      "note": "Actual independent Asian Cuisine Text movedx58->76; Inter Regular23 andy135 retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:30:07.671Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-31",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"76\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"146\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "03-asian-circle-after.png",
+      "kind": "editor",
+      "note": "Actual magnifier circle vector movedx22->26,20x20,y135 retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:30:29.043Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-29",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"26\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\": \"20\"",
+        "      - textbox \"Height\": \"20\""
+      ]
+    },
+    {
+      "file": "04-asian-handle-after.png",
+      "kind": "editor",
+      "note": "Actual magnifier handle vectorx40->44,9x9,y154 retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:31:04.433Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-30",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"44\"",
+        "    - spinbutton \"Y-position\": \"154\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\": \"9\"",
+        "      - textbox \"Height\": \"9\""
+      ]
+    },
+    {
+      "file": "05-asian-after.png",
+      "kind": "editor",
+      "note": "Root954:19 after three input-position corrections; transient editor navigation abort recovered by same known-node retry",
+      "input": null,
+      "captured_at": "2026-10-03T08:31:21.640Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-19",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "06-asian-flow.png",
+      "kind": "editor",
+      "note": "Actual standalone flow title/description/link set; no tag/Back/result navigation connections",
+      "input": null,
+      "captured_at": "2026-10-03T08:31:51.682Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-19",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Asian Cuisine — observed results",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "07-asian-present-clipped.png",
+      "kind": "present",
+      "note": "Actual initial reference start with flows sidebar and full-size page beyondviewport; preserved before fit adjustment",
+      "input": null,
+      "captured_at": "2026-10-03T08:32:16.733Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-19&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A19&show-proto-sidebar=1"
+    },
+    {
+      "file": "08-asian-present-fitted.png",
+      "kind": "present",
+      "note": "Fitted actual Asian Cuisine reference renders all six archived result labels; query x76/magnifier correction visible",
+      "input": null,
+      "captured_at": "2026-10-03T08:32:22.031Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-19&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A19"
+    },
+    {
+      "file": "09-western-before.png",
+      "kind": "editor",
+      "note": "Existing Western Cuisine root before alignment",
+      "input": null,
+      "captured_at": "2026-10-03T08:33:12.558Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-59",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"700\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "09-western-text-after.png",
+      "kind": "editor",
+      "note": "Actual Western Cuisine independent Text x58->76,23px; Y retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:33:14.406Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-71",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"76\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"177\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "09-western-icon-after.png",
+      "kind": "editor",
+      "note": "Actual magnifier circle and handle moved4px right; geometry checked before each edit",
+      "input": null,
+      "captured_at": "2026-10-03T08:33:18.288Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-70",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"44\"",
+        "    - spinbutton \"Y-position\": \"154\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\": \"9\"",
+        "      - textbox \"Height\": \"9\""
+      ]
+    },
+    {
+      "file": "09-western-after.png",
+      "kind": "editor",
+      "note": "Root unchanged after query+18px and icon+4px alignment; result rows unchanged",
+      "input": null,
+      "captured_at": "2026-10-03T08:33:24.503Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-59",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"700\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "10-taiwanese-before.png",
+      "kind": "editor",
+      "note": "Existing Taiwanese Cuisine root before alignment",
+      "input": null,
+      "captured_at": "2026-10-03T08:33:50.233Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-119",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"1400\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "10-taiwanese-text-after.png",
+      "kind": "editor",
+      "note": "Actual Taiwanese Cuisine independent Text x58->76,23px; Y retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:33:52.296Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-131",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"76\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"202\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "10-taiwanese-icon-after.png",
+      "kind": "editor",
+      "note": "Actual magnifier circle and handle moved4px right; geometry checked before each edit",
+      "input": null,
+      "captured_at": "2026-10-03T08:33:55.856Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-130",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"44\"",
+        "    - spinbutton \"Y-position\": \"154\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\": \"9\"",
+        "      - textbox \"Height\": \"9\""
+      ]
+    },
+    {
+      "file": "10-taiwanese-after.png",
+      "kind": "editor",
+      "note": "Root unchanged after query+18px and icon+4px alignment; result rows unchanged",
+      "input": null,
+      "captured_at": "2026-10-03T08:34:01.966Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-119",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"1400\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "11-cake-before.png",
+      "kind": "editor",
+      "note": "Existing Cake / Dessert root before alignment",
+      "input": null,
+      "captured_at": "2026-10-03T08:34:07.968Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-139",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2100\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "11-cake-text-after.png",
+      "kind": "editor",
+      "note": "Actual Cake / Dessert independent Text x58->76,23px; Y retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:34:09.925Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-151",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"76\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"162\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "11-cake-icon-after.png",
+      "kind": "editor",
+      "note": "Actual magnifier circle and handle moved4px right; geometry checked before each edit",
+      "input": null,
+      "captured_at": "2026-10-03T08:34:13.515Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-150",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"44\"",
+        "    - spinbutton \"Y-position\": \"154\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\": \"9\"",
+        "      - textbox \"Height\": \"9\""
+      ]
+    },
+    {
+      "file": "11-cake-after.png",
+      "kind": "editor",
+      "note": "Root unchanged after query+18px and icon+4px alignment; result rows unchanged",
+      "input": null,
+      "captured_at": "2026-10-03T08:34:19.316Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-139",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2100\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "12-salad-before.png",
+      "kind": "editor",
+      "note": "Existing Salad root before alignment",
+      "input": null,
+      "captured_at": "2026-10-03T08:34:32.132Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-179",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "13-salad-target-failure.png",
+      "kind": "editor",
+      "note": "Shared text coordinate fell beyond the shorter Salad word; context menu lacked Text, no edit performed",
+      "input": null,
+      "captured_at": "2026-10-03T08:34:47.400Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-179",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "14-salad-text-after.png",
+      "kind": "editor",
+      "note": "Actual short Salad query Text selected after menu state check and movedx58->76,y135,Inter Regular23 retained",
+      "input": null,
+      "captured_at": "2026-10-03T08:35:22.123Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-191",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"76\"",
+        "    - spinbutton \"Y-position\": \"135\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"61\"",
+        "      - textbox \"Height\" [disabled]: \"28\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 23 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 23 px\"': \"23\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "15-salad-icon-after.png",
+      "kind": "editor",
+      "note": "Actual circle/handle vectors moved4px after geometry guards",
+      "input": null,
+      "captured_at": "2026-10-03T08:35:25.697Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-190",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"44\"",
+        "    - spinbutton \"Y-position\": \"154\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\": \"9\"",
+        "      - textbox \"Height\": \"9\""
+      ]
+    },
+    {
+      "file": "16-salad-after.png",
+      "kind": "editor",
+      "note": "Root954:179 dimensions/position retained; seven fixed result rows unchanged",
+      "input": null,
+      "captured_at": "2026-10-03T08:35:31.597Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-179",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "17-salad-result-text.png",
+      "kind": "editor",
+      "note": "Actual independent Block Y result Text selected in Salad; public full label,Inter Regular22",
+      "input": null,
+      "captured_at": "2026-10-03T08:37:15.582Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-216",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"30\"",
+        "    - spinbutton \"Y-position\": \"610\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"435\"",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 22 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 22 px\"': \"22\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "18-salad-flow.png",
+      "kind": "editor",
+      "note": "Actual independent reference title/description/link created; query/result/Back connections absent",
+      "input": null,
+      "captured_at": "2026-10-03T08:37:25.061Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-179",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Salad — observed results",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "19-salad-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent Salad reference; 7 fixed result labels, no native journey replay",
+      "input": null,
+      "captured_at": "2026-10-03T08:37:31.788Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-179&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A179"
+    },
+    {
+      "file": "20-taiwanese-result-text.png",
+      "kind": "editor",
+      "note": "Actual independent Block Y result Text selected in Taiwanese Cuisine; public full label,Inter Regular22",
+      "input": null,
+      "captured_at": "2026-10-03T08:39:31.774Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-136",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"30\"",
+        "    - spinbutton \"Y-position\": \"225\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"435\"",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 22 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 22 px\"': \"22\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "21-taiwanese-flow.png",
+      "kind": "editor",
+      "note": "Actual independent reference title/description/link created; query/result/Back connections absent",
+      "input": null,
+      "captured_at": "2026-10-03T08:39:44.715Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-119",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Taiwanese Cuisine — observed results",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "22-taiwanese-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent Taiwanese Cuisine reference; 1 fixed result labels, no native journey replay",
+      "input": null,
+      "captured_at": "2026-10-03T08:39:50.086Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-119&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A119"
+    },
+    {
+      "file": "23-cake-result-text.png",
+      "kind": "editor",
+      "note": "Actual independent Block Y result Text selected in Cake / Dessert; public full label,Inter Regular22",
+      "input": null,
+      "captured_at": "2026-10-03T08:40:02.287Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-172",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"30\"",
+        "    - spinbutton \"Y-position\": \"533\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"435\"",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 22 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 22 px\"': \"22\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "24-cake-flow.png",
+      "kind": "editor",
+      "note": "Actual independent reference title/description/link created; query/result/Back connections absent",
+      "input": null,
+      "captured_at": "2026-10-03T08:40:12.044Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-139",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Cake / Dessert — observed results",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "25-cake-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent Cake / Dessert reference; 6 fixed result labels, no native journey replay",
+      "input": null,
+      "captured_at": "2026-10-03T08:40:17.006Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-139&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A139"
+    },
+    {
+      "file": "26-asian-result-text.png",
+      "kind": "editor",
+      "note": "Actual independent Block Y result Text selected in Asian Cuisine; public full label,Inter Regular22",
+      "input": null,
+      "captured_at": "2026-10-03T08:40:30.049Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-56",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"30\"",
+        "    - spinbutton \"Y-position\": \"610\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"435\"",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 22 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 22 px\"': \"22\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "27-western-result-text.png",
+      "kind": "editor",
+      "note": "Actual independent Block Y result Text selected in Western Cuisine; public full label,Inter Regular22",
+      "input": null,
+      "captured_at": "2026-10-03T08:40:37.240Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-112",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"30\"",
+        "    - spinbutton \"Y-position\": \"718\"",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - textbox \"Width\" [disabled]: \"435\"",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 22 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 22 px\"': \"22\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "28-western-flow.png",
+      "kind": "editor",
+      "note": "Existing finite Western reference retained; actual title/copy link readback, no new starting point",
+      "input": null,
+      "captured_at": "2026-10-03T08:40:58.042Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-59",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Western Cuisine — finite results scroll",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "29-western-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent Western Cuisine reference; 11 fixed result labels, no native journey replay",
+      "input": null,
+      "captured_at": "2026-10-03T08:41:03.204Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "30-western-down.png",
+      "kind": "present",
+      "note": "Existing results viewport scrolled down one page after alignment; inferred finite23px range",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          473,
+          525
+        ],
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T08:41:08.152Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "31-western-down-repeat.png",
+      "kind": "present",
+      "note": "Extra down sample for finite prototype boundary repeat",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          473,
+          525
+        ],
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T08:41:14.922Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "32-western-up.png",
+      "kind": "present",
+      "note": "Reverse sample after finite down; appcrop compared offline",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          473,
+          525
+        ],
+        "direction": "up",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T08:41:15.442Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "33-western-up-repeat.png",
+      "kind": "present",
+      "note": "Extra up sample for finite prototype top repeat",
+      "input": {
+        "kind": "scroll",
+        "point": [
+          473,
+          525
+        ],
+        "direction": "up",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T08:41:16.061Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&starting-point-node-id=954%3A59"
+    }
+  ],
+  "edits": [
+    {
+      "root_node_id": "954:19",
+      "kind": "query_text",
+      "node_id": "954:31",
+      "before_x": 58,
+      "after_x": 76
+    },
+    {
+      "root_node_id": "954:19",
+      "kind": "magnifier_circle",
+      "node_id": "954:29",
+      "before_x": 22,
+      "after_x": 26,
+      "dimensions": [
+        20,
+        20
+      ]
+    },
+    {
+      "root_node_id": "954:19",
+      "kind": "magnifier_handle",
+      "node_id": "954:30",
+      "before_x": 40,
+      "after_x": 44,
+      "dimensions": [
+        9,
+        9
+      ]
+    },
+    {
+      "root_node_id": "954:59",
+      "kind": "query_text",
+      "node_id": "954:71",
+      "before": {
+        "X-position": 58,
+        "Y-position": 135,
+        "Width": 177,
+        "Height": 28
+      },
+      "after": {
+        "X-position": 76,
+        "Y-position": 135,
+        "Width": 177,
+        "Height": 28
+      }
+    },
+    {
+      "root_node_id": "954:59",
+      "kind": "magnifier_circle",
+      "node_id": "954:69",
+      "before": {
+        "X-position": 22,
+        "Y-position": 135,
+        "Width": 20,
+        "Height": 20
+      },
+      "after": {
+        "X-position": 26,
+        "Y-position": 135,
+        "Width": 20,
+        "Height": 20
+      }
+    },
+    {
+      "root_node_id": "954:59",
+      "kind": "magnifier_handle",
+      "node_id": "954:70",
+      "before": {
+        "X-position": 40,
+        "Y-position": 154,
+        "Width": 9,
+        "Height": 9
+      },
+      "after": {
+        "X-position": 44,
+        "Y-position": 154,
+        "Width": 9,
+        "Height": 9
+      }
+    },
+    {
+      "root_node_id": "954:119",
+      "kind": "query_text",
+      "node_id": "954:131",
+      "before": {
+        "X-position": 58,
+        "Y-position": 135,
+        "Width": 202,
+        "Height": 28
+      },
+      "after": {
+        "X-position": 76,
+        "Y-position": 135,
+        "Width": 202,
+        "Height": 28
+      }
+    },
+    {
+      "root_node_id": "954:119",
+      "kind": "magnifier_circle",
+      "node_id": "954:129",
+      "before": {
+        "X-position": 22,
+        "Y-position": 135,
+        "Width": 20,
+        "Height": 20
+      },
+      "after": {
+        "X-position": 26,
+        "Y-position": 135,
+        "Width": 20,
+        "Height": 20
+      }
+    },
+    {
+      "root_node_id": "954:119",
+      "kind": "magnifier_handle",
+      "node_id": "954:130",
+      "before": {
+        "X-position": 40,
+        "Y-position": 154,
+        "Width": 9,
+        "Height": 9
+      },
+      "after": {
+        "X-position": 44,
+        "Y-position": 154,
+        "Width": 9,
+        "Height": 9
+      }
+    },
+    {
+      "root_node_id": "954:139",
+      "kind": "query_text",
+      "node_id": "954:151",
+      "before": {
+        "X-position": 58,
+        "Y-position": 135,
+        "Width": 162,
+        "Height": 28
+      },
+      "after": {
+        "X-position": 76,
+        "Y-position": 135,
+        "Width": 162,
+        "Height": 28
+      }
+    },
+    {
+      "root_node_id": "954:139",
+      "kind": "magnifier_circle",
+      "node_id": "954:149",
+      "before": {
+        "X-position": 22,
+        "Y-position": 135,
+        "Width": 20,
+        "Height": 20
+      },
+      "after": {
+        "X-position": 26,
+        "Y-position": 135,
+        "Width": 20,
+        "Height": 20
+      }
+    },
+    {
+      "root_node_id": "954:139",
+      "kind": "magnifier_handle",
+      "node_id": "954:150",
+      "before": {
+        "X-position": 40,
+        "Y-position": 154,
+        "Width": 9,
+        "Height": 9
+      },
+      "after": {
+        "X-position": 44,
+        "Y-position": 154,
+        "Width": 9,
+        "Height": 9
+      }
+    },
+    {
+      "root_node_id": "954:179",
+      "kind": "query_text",
+      "node_id": "954:191",
+      "before": {
+        "X-position": 58,
+        "Y-position": 135,
+        "Width": 61,
+        "Height": 28
+      },
+      "after": {
+        "X-position": 76,
+        "Y-position": 135,
+        "Width": 61,
+        "Height": 28
+      }
+    },
+    {
+      "root_node_id": "954:179",
+      "kind": "magnifier_circle",
+      "node_id": "954:189",
+      "before": {
+        "X-position": 22,
+        "Y-position": 135,
+        "Width": 20,
+        "Height": 20
+      },
+      "after": {
+        "X-position": 26,
+        "Y-position": 135,
+        "Width": 20,
+        "Height": 20
+      }
+    },
+    {
+      "root_node_id": "954:179",
+      "kind": "magnifier_handle",
+      "node_id": "954:190",
+      "before": {
+        "X-position": 40,
+        "Y-position": 154,
+        "Width": 9,
+        "Height": 9
+      },
+      "after": {
+        "X-position": 44,
+        "Y-position": 154,
+        "Width": 9,
+        "Height": 9
+      }
+    }
+  ],
+  "flows": [
+    {
+      "name": "Reference · Asian Cuisine — observed results",
+      "start_node_id": "954:19",
+      "description": "Independent reference of the archived October3 Asian Cuisine query from Block Y: six fixed public result labels. Query text and magnifier positions aligned to the saved native sample; fonts/icons remain approximate. No functional query entry, row details, Back/caller navigation or new scrolling. This reference start does not implement the native tag journey. Full application/fidelity not_verified; editor/Present inspection is separate from native observation and human testing.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-19&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A19&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Salad — observed results",
+      "start_node_id": "954:179",
+      "description": "Independent reference of the archived October3 Salad query from Block Y: 7 fixed public result labels. Query text and magnifier positions aligned to the saved native sample; fonts/icons remain approximate. No functional query entry, row details, Back/caller navigation or new scrolling. This reference start does not implement the native tag journey or prove the complete search index. Full application/fidelity not_verified; editor/Present inspection is separate from native observation and human testing.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-179&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A179&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Taiwanese Cuisine — observed results",
+      "start_node_id": "954:119",
+      "description": "Independent reference of the archived October3 Taiwanese Cuisine query from Block Y: 1 fixed public result labels. Query text and magnifier positions aligned to the saved native sample; fonts/icons remain approximate. No functional query entry, row details, Back/caller navigation or new scrolling. This reference start does not implement the native tag journey or prove the complete search index. Full application/fidelity not_verified; editor/Present inspection is separate from native observation and human testing.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-119&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A119&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Cake / Dessert — observed results",
+      "start_node_id": "954:139",
+      "description": "Independent reference of the archived October3 Cake / Dessert query from Block Y: 6 fixed public result labels. Query text and magnifier positions aligned to the saved native sample; fonts/icons remain approximate. No functional query entry, row details, Back/caller navigation or new scrolling. This reference start does not implement the native tag journey or prove the complete search index. Full application/fidelity not_verified; editor/Present inspection is separate from native observation and human testing.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-139&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A139&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Western Cuisine — finite results scroll",
+      "start_node_id": "954:59",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-59&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A59&show-proto-sidebar=1",
+      "description": "Independent reference for the observed October3 Western Cuisine query: 11 public venue results and finite vertical scrolling. Search bar and header remain outside the results viewport. Row heights and inferred23px range are approximate; native complete scroll bounds are not verified. Back, tag caller, row detail and arbitrary search are unconfigured. This prototype replay is not native execution, complete visual fidelity or human evaluation.",
+      "existing_flow": true
+    }
+  ],
+  "source_checks": [
+    {
+      "file": "food-oct3-asian-query-aligned.svg",
+      "original_file": "food-oct3-tag-asian.svg",
+      "only_three_SearchInput_attributes_changed": true,
+      "original_bytes_unchanged": true
+    },
+    {
+      "file": "food-oct3-western-query-aligned.svg",
+      "original_file": "food-oct3-western-scroll.svg",
+      "only_three_SearchInput_attributes_changed": true,
+      "original_bytes_unchanged": true
+    },
+    {
+      "file": "food-oct3-taiwanese-query-aligned.svg",
+      "original_file": "food-oct3-tag-taiwanese.svg",
+      "only_three_SearchInput_attributes_changed": true,
+      "original_bytes_unchanged": true
+    },
+    {
+      "file": "food-oct3-cake-query-aligned.svg",
+      "original_file": "food-oct3-tag-cake.svg",
+      "only_three_SearchInput_attributes_changed": true,
+      "original_bytes_unchanged": true
+    },
+    {
+      "file": "food-oct3-salad-query-aligned.svg",
+      "original_file": "food-oct3-tag-salad.svg",
+      "only_three_SearchInput_attributes_changed": true,
+      "original_bytes_unchanged": true
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "left": "30-western-down.png",
+      "right": "31-western-down-repeat.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "29-western-present.png",
+      "right": "32-western-up.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "32-western-up.png",
+      "right": "33-western-up-repeat.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "fixed_area_comparisons": [
+    {
+      "left": "29-western-present.png",
+      "right": "30-western-down.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "29-western-present.png",
+      "right": "31-western-down-repeat.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "29-western-present.png",
+      "right": "32-western-up.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "29-western-present.png",
+      "right": "33-western-up-repeat.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "limits": [
+    "Five existing query roots received actual UI edits: query Text x58->76, circle x22->26 and handle x40->44. Query Text Inter Regular23px; each independently selected Block Y result Text Inter Regular22px. Exact native fonts/geometry remain unknown.",
+    "Four independent fixed-result reference starts added for Asian6, Taiwanese1, Cake6 and Salad7. Existing Western11 finite scroll start retained. No new navigation connections or scroll regions; starts do not implement native tag/query/result/Back/caller journeys or complete search index.",
+    "Asian initial direct reference opened at Actual size with sidebar and clipped lower viewport; sample preserved, then Fit width and height displayed all six. Other reference Present samples fitted independently.",
+    "Salad shared long-text target missed its short query; context menu had no Text. After Escape a helper found no Select layer menu; fresh screenshot and corrected in-word target selected Text Salad. Failure retained; no geometry changed until correct target confirmed.",
+    "Asian root navigation returned ERR_ABORTED after handle edit; current leaf state inspected then same known root retried once. Successful root capture preserves recovery note.",
+    "Western existing finite results viewport/content remains 576x824/540x840, inferred23px range; down/reverse/repeat samples do not establish native bounds or full fidelity.",
+    "New SVGs reflect actual UI edits, not Figma exports. Original five import SVGs and Western scroll source remain unchanged; historical mapping/runs retained.",
+    "User replied unlock, but current actual native read still returned Mac locked. No new native sessions/states/actions; no business or system setting actions.",
+    "Earlier Action dropdown URL-protocol safety refusal remains unresolved, not retried or bypassed. Independent reference starts/layout/text/scroll checks are different permitted operations.",
+    "Prototype display/replay, archived native observation and human evaluation remain separate. Full application/fidelity not_verified."
+  ]
+}

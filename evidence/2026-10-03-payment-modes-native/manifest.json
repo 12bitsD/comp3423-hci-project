@@ -1,0 +1,259 @@
+{
+  "kind": "actual_native_payment_calendar_three_mode_and_history_cycle",
+  "session_id": "SESSION-20261003-PAYMENT-MODES",
+  "images": [
+    {
+      "file": "00-fresh-wrapper-oct2.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:42:06.894Z",
+      "description": "fresh-wrapper-oct2",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible."
+    },
+    {
+      "file": "01-fresh-wrapper-filter-coordinate.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:42:08.558Z",
+      "description": "Fresh Wrapper Raise then screenshot coordinate returned noWindowsAvailable; input execution not established.",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-REOPEN",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible."
+    },
+    {
+      "file": "02-view-element-attempt.png",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:42:24.186Z",
+      "description": "view-element-attempt",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible."
+    },
+    {
+      "file": "03-events-header-menu.png",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:42:55.651Z",
+      "description": "events-history-shown",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "All history records, month/date/title/card areas half-open[0,190,576,919] masked."
+    },
+    {
+      "file": "04-events-history-filter-attempt.png",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:43:38.516Z",
+      "description": "Events filter container input returned; no opened filter established, saved history view unchanged.",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-HISTORY-FILTER",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "All history records, month/date/title/card areas half-open[0,190,576,919] masked."
+    },
+    {
+      "file": "05-month-after-history.png",
+      "sha256": "d3e929d3551f3cb94c8af9ea5d5f75d6cd28d62c35b275590d21f51cca15698b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:43:56.926Z",
+      "description": "week-after-events-history",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "action_id": "A-NATIVE-PAYMENT-HISTORY-WEEK",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Week timetable class values and positions half-open[82,197,576,919] masked; public header and time axis retained."
+    },
+    {
+      "file": "06-month-after-week-history.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:44:53.117Z",
+      "description": "month-after-week-history",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible."
+    },
+    {
+      "file": "07-events-history-retained-after-mode-cycle.png",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:44:59.659Z",
+      "description": "Reenter Events after Week/Month: Show History and No event; history flag reset in this finite cycle.",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible."
+    },
+    {
+      "file": "08-history-shown-repeat.png",
+      "sha256": "bcaf3e803940a7acde6cbfa22971d31d1509470f4a6e064fa074896e6b9e3faa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:45:27.856Z",
+      "description": "history-shown-repeat",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "All history records, month/date/title/card areas half-open[0,190,576,919] masked."
+    },
+    {
+      "file": "09-history-hidden-by-toggle.png",
+      "sha256": "85a6539b4023bf1e330dcc1939c4d05f80c98ac6c6b82987a47a979cba4347e3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:45:29.365Z",
+      "description": "history-hidden-by-toggle",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible."
+    },
+    {
+      "file": "10-week-after-hidden-events.png",
+      "sha256": "d3e929d3551f3cb94c8af9ea5d5f75d6cd28d62c35b275590d21f51cca15698b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:45:32.380Z",
+      "description": "week-after-hidden-events",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Week timetable class values and positions half-open[82,197,576,919] masked; public header and time axis retained."
+    },
+    {
+      "file": "11-month-restored-after-mode-cycle.png",
+      "sha256": "755c417104581dba7b8e138ced5276c9cda956e18d5b9297efc004d5a52bfc4a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T18:45:34.673Z",
+      "description": "month-restored-after-mode-cycle",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "redaction": "Application crop; Payment empty-state source inspected, no private record/identity/QR visible."
+    }
+  ],
+  "safe_ax_files": [
+    "00-fresh-wrapper-oct2.safe-ax.txt",
+    "01-fresh-wrapper-filter-coordinate.safe-ax.txt",
+    "02-view-element-attempt.safe-ax.txt",
+    "03-events-header-menu.safe-ax.txt",
+    "04-events-history-filter-attempt.safe-ax.txt",
+    "05-month-after-history.safe-ax.txt",
+    "06-month-after-week-history.safe-ax.txt",
+    "07-events-history-retained-after-mode-cycle.safe-ax.txt",
+    "08-history-shown-repeat.safe-ax.txt",
+    "09-history-hidden-by-toggle.safe-ax.txt",
+    "10-week-after-hidden-events.safe-ax.txt",
+    "11-month-restored-after-mode-cycle.safe-ax.txt"
+  ],
+  "crop_from_raw_xyxy": [
+    977,
+    0,
+    2047,
+    1898
+  ],
+  "normalized_size": [
+    576,
+    1024
+  ],
+  "limits": [
+    "Observed finite Month→Events→Week→Month cycle from October2 Payment. Events history resets to hidden on reentry after this cycle.",
+    "History records/dates and all Week class values/positions masked. Figma private content must be wholly synthetic DEMO.",
+    "Week shows a class timetable without Payment category header; does not establish global category rules or a bug.",
+    "Fresh discovered Wrapper and Raise did not restore coordinate input; native AX mode and history actions work.",
+    "Filter coordinate noWindowsAvailable, Events filter container unchanged; no overlay outcome or executed coordinate input established.",
+    "No payments/orders or personal data modifications performed; app version not reverified."
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 6,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual native normalized screenshot; masked private History/Week regions cannot prove private content equality"
+    },
+    {
+      "a": 0,
+      "b": 11,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual native normalized screenshot; masked private History/Week regions cannot prove private content equality"
+    },
+    {
+      "a": 2,
+      "b": 7,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual native normalized screenshot; masked private History/Week regions cannot prove private content equality"
+    },
+    {
+      "a": 2,
+      "b": 9,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual native normalized screenshot; masked private History/Week regions cannot prove private content equality"
+    },
+    {
+      "a": 3,
+      "b": 8,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual native normalized screenshot; masked private History/Week regions cannot prove private content equality"
+    },
+    {
+      "a": 5,
+      "b": 10,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Actual native normalized screenshot; masked private History/Week regions cannot prove private content equality"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "fabf70692bc603778d756daca65ae4fabe49306310213e95076ebf6d901dc5ab",
+    "dimensions": [
+      1152,
+      770
+    ],
+    "source": "Twelve inspected and masked native samples"
+  }
+}

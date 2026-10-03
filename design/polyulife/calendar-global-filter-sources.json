@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "file": "calendar-global-all-default.svg",
+      "sha256": "bda20b25b7bd5993193b3b549de3ae33a6b3dbd9c8efe380a313cfdbcb695bda",
+      "draft": "all",
+      "applied_background": "default",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-ALL"
+      ],
+      "limits": [
+        "Fixed observed drafts; other categories and Apply None unimplemented.",
+        "Synthetic private background; not a full native pixel reproduction."
+      ]
+    },
+    {
+      "file": "calendar-global-none-default.svg",
+      "sha256": "671d3d7a9e1cc6ff024ad61b5b9d0074c9f13b716111c635fda240329e5c1ddd",
+      "draft": "none",
+      "applied_background": "default",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-NONE"
+      ],
+      "limits": [
+        "Fixed observed drafts; other categories and Apply None unimplemented.",
+        "Synthetic private background; not a full native pixel reproduction."
+      ]
+    },
+    {
+      "file": "calendar-global-acad-default.svg",
+      "sha256": "bdc2bab2e2de23bdcd0c153e03b664da9873b744fad7b64033c451b9c7c3b111",
+      "draft": "acad",
+      "applied_background": "default",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-ACAD"
+      ],
+      "limits": [
+        "Fixed observed drafts; other categories and Apply None unimplemented.",
+        "Synthetic private background; not a full native pixel reproduction."
+      ]
+    },
+    {
+      "file": "calendar-global-acad-applied.svg",
+      "sha256": "2574b561696c23bf54434f67a909e7de3a4d367ca06ca6e0982072ff1241e58b",
+      "draft": "acad",
+      "applied_background": "acad",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-PERSIST"
+      ],
+      "limits": [
+        "Fixed observed drafts; other categories and Apply None unimplemented.",
+        "Synthetic private background; not a full native pixel reproduction."
+      ]
+    },
+    {
+      "file": "calendar-global-all-applied.svg",
+      "sha256": "5f23b2fd138db2daf1c521d92d435822492b960f463fb5e15dc334a14e1a52eb",
+      "draft": "all",
+      "applied_background": "acad",
+      "source_evidence_ids": [
+        "E-CALENDAR-FILTER-ALL"
+      ],
+      "limits": [
+        "Fixed observed drafts; other categories and Apply None unimplemented.",
+        "Synthetic private background; not a full native pixel reproduction."
+      ]
+    }
+  ]
+}

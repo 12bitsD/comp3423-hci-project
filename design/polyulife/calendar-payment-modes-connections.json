@@ -1,0 +1,295 @@
+{
+  "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+  "frames": [
+    {
+      "file": "calendar-payment-events-empty.svg",
+      "name": "[PAY-MODE:EVENTS] Events — Payment empty",
+      "node_id": "833:145",
+      "x": 0,
+      "y": 77400,
+      "at": "2026-10-02T18:48:29.764Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t455 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t456 stepper (settable, integer) Description: Y-position, Value: 77400",
+        "\t\t\t\t\t\t\t\t\t\t483 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t486 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-payment-events-history-demo.svg",
+      "name": "[PAY-MODE:HISTORY] Events — synthetic Payment history DEMO",
+      "node_id": "835:209",
+      "x": 700,
+      "y": 77400,
+      "at": "2026-10-02T18:48:30.912Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t615 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t616 stepper (settable, integer) Description: Y-position, Value: 77400",
+        "\t\t\t\t\t\t\t\t\t\t643 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t646 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-payment-week-demo.svg",
+      "name": "[PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment",
+      "node_id": "835:312",
+      "x": 1400,
+      "y": 77400,
+      "at": "2026-10-02T18:48:32.037Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t627 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t628 stepper (settable, integer) Description: Y-position, Value: 77400",
+        "\t\t\t\t\t\t\t\t\t\t655 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t658 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "823:21",
+      "trigger_node_id": "823:30",
+      "trigger_node_name": "ViewMode",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "833:145",
+      "configured_at": "2026-10-02T18:49:02.177Z",
+      "readback": [
+        "\t\t\t\t\t\t\t906 combo box (collapsed) Position, Value: Scroll with parent, ID: :r133:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t930 combo box (collapsed) Trigger, Value: On click, ID: :r13s:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t936 combo box (collapsed) Action, Value: Navigate to, ID: :r13v:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t943 combo box (collapsed) Destination, Value: [PAY-MODE:EVENTS] Events — Payment empty, ID: :r14e:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t948 combo box (collapsed) Animation, Value: Instant, ID: :r14r:, Secondary Actions: Expand",
+        "The focused UI element is 943 combo box (collapsed) Destination, Value: [PAY-MODE:EVENTS] Events — Payment empty, ID: :r14e:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMODE-01",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "implementation_status": "configured_observed_finite_modes_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-02",
+        "E-NATIVE-PAYMODE-02-AX",
+        "E-NATIVE-PAYMODE-07",
+        "E-NATIVE-PAYMODE-07-AX"
+      ],
+      "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+    },
+    {
+      "source_node_id": "833:145",
+      "trigger_node_id": "833:147",
+      "trigger_node_name": "HistoryToggle",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "835:209",
+      "configured_at": "2026-10-02T18:49:10.276Z",
+      "readback": [
+        "\t\t\t\t\t\t\t963 combo box (collapsed) Position, Value: Scroll with parent, ID: :r165:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t987 combo box (collapsed) Trigger, Value: On click, ID: :r16c:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t993 combo box (collapsed) Action, Value: Navigate to, ID: :r16f:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1000 combo box (collapsed) Destination, Value: [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO, ID: :r16u:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1005 combo box (collapsed) Animation, Value: Instant, ID: :r17b:, Secondary Actions: Expand",
+        "The focused UI element is 1000 combo box (collapsed) Destination, Value: [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO, ID: :r16u:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMODE-02",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "implementation_status": "configured_observed_finite_modes_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-03",
+        "E-NATIVE-PAYMODE-03-AX",
+        "E-NATIVE-PAYMODE-08",
+        "E-NATIVE-PAYMODE-08-AX"
+      ],
+      "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+    },
+    {
+      "source_node_id": "835:209",
+      "trigger_node_id": "835:211",
+      "trigger_node_name": "HistoryToggle",
+      "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "833:145",
+      "configured_at": "2026-10-02T18:50:32.995Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1097 combo box (collapsed) Position, Value: Scroll with parent, ID: :r19b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1121 combo box (collapsed) Trigger, Value: On click, ID: :r19i:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1127 combo box (collapsed) Action, Value: Navigate to, ID: :r19l:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1134 combo box (collapsed) Destination, Value: [PAY-MODE:EVENTS] Events — Payment empty, ID: :r1a4:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1139 combo box (collapsed) Animation, Value: Instant, ID: :r1ah:, Secondary Actions: Expand",
+        "The focused UI element is 1134 combo box (collapsed) Destination, Value: [PAY-MODE:EVENTS] Events — Payment empty, ID: :r1a4:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMODE-03",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "implementation_status": "configured_observed_finite_modes_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-09",
+        "E-NATIVE-PAYMODE-09-AX"
+      ],
+      "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+    },
+    {
+      "source_node_id": "835:209",
+      "trigger_node_id": "835:216",
+      "trigger_node_name": "ViewMode",
+      "action_id": "A-NATIVE-PAYMENT-HISTORY-WEEK",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "835:312",
+      "configured_at": "2026-10-02T18:50:36.304Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1097 combo box (collapsed) Position, Value: Scroll with parent, ID: :r19b:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1121 combo box (collapsed) Trigger, Value: On click, ID: :r1am:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1127 combo box (collapsed) Action, Value: Navigate to, ID: :r1ap:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1134 combo box (collapsed) Destination, Value: [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, ID: :r1b8:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1139 combo box (collapsed) Animation, Value: Instant, ID: :r1bl:, Secondary Actions: Expand",
+        "The focused UI element is 1134 combo box (collapsed) Destination, Value: [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, ID: :r1b8:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMODE-04",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "implementation_status": "configured_observed_finite_modes_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-05",
+        "E-NATIVE-PAYMODE-05-AX"
+      ],
+      "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+    },
+    {
+      "source_node_id": "833:145",
+      "trigger_node_id": "833:152",
+      "trigger_node_name": "ViewMode",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "835:312",
+      "configured_at": "2026-10-02T18:50:56.350Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1167 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1cn:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1191 combo box (collapsed) Trigger, Value: On click, ID: :r1cu:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1197 combo box (collapsed) Action, Value: Navigate to, ID: :r1d1:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1204 combo box (collapsed) Destination, Value: [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, ID: :r1dg:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1210 combo box (collapsed) Animation, Value: Instant, ID: :r1dt:, Secondary Actions: Expand",
+        "The focused UI element is 1204 combo box (collapsed) Destination, Value: [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, ID: :r1dg:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMODE-05",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "implementation_status": "configured_observed_finite_modes_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-10",
+        "E-NATIVE-PAYMODE-10-AX"
+      ],
+      "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+    },
+    {
+      "source_node_id": "835:312",
+      "trigger_node_id": "835:323",
+      "trigger_node_name": "MonthView",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "823:21",
+      "configured_at": "2026-10-02T18:52:12.333Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1611 combo box (collapsed) Position, Value: Scroll with parent, ID: :r1ni:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1792 combo box (collapsed) Trigger, Value: On click, ID: :r1q0:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1798 combo box (collapsed) Action, Value: Navigate to, ID: :r1q3:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1805 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :r1qi:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1810 combo box (collapsed) Animation, Value: Instant, ID: :r1qv:, Secondary Actions: Expand",
+        "The focused UI element is 1805 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :r1qi:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMODE-06",
+      "revision_id": "FIGMA-PAYMENT-MODES-20261003",
+      "implementation_status": "configured_observed_finite_modes_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMODE-HISTORY-CYCLE-001",
+        "PROTO-PAYMODE-HIDE-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMODE-06",
+        "E-NATIVE-PAYMODE-06-AX",
+        "E-NATIVE-PAYMODE-11",
+        "E-NATIVE-PAYMODE-11-AX"
+      ],
+      "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+    }
+  ],
+  "flow": {
+    "name": "Reference · Oct2 Calendar filters & Notice — partial",
+    "description": "Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
+    "readback": [
+      "\t\t\t\t\t2099 container Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
+      "\t\t\t\t\t\t2100 text Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
+      "The focused UI element is 2099 container Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state."
+    ],
+    "start_node_id": "791:177",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+    "tested_run_ids": [
+      "PROTO-OCT2-NONE-CANCEL-001",
+      "PROTO-OCT2-NONE-APPLY-001",
+      "PROTO-OCT2-NONE-RESTART-001",
+      "PROTO-OCT2-CLASS-NOTICE-001",
+      "PROTO-OCT2-NOTICE-RECOVERY-001",
+      "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001",
+      "PROTO-OCT3-PAYMENT-APPLY-001",
+      "PROTO-OCT3-PAYMENT-APPLY-002",
+      "PROTO-OCT3-PAYMENT-HOME-001",
+      "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+      "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003",
+      "PROTO-PAYMENT-DATES-CYCLE-001",
+      "PROTO-PAYMENT-DATES-CYCLE-002",
+      "PROTO-PAYMENT-DATES-HOME-003",
+      "PROTO-PAYNAV-HOME3-001",
+      "PROTO-PAYNAV-HOME3-002",
+      "PROTO-PAYNAV-DATES-REGRESSION-003",
+      "PROTO-PAYMODE-HISTORY-CYCLE-001",
+      "PROTO-PAYMODE-HIDE-CYCLE-002",
+      "PROTO-PAYMODE-HOME-REGRESSION-003"
+    ],
+    "scope": "28 finite frames39 controls; Payment date/Home/mode/history contexts. Other dates/callers, filter and complete application remain unverified.",
+    "updated_at": "2026-10-02T18:53:28.511056+00:00"
+  },
+  "prototype_run_ids": [
+    "PROTO-PAYMODE-HISTORY-CYCLE-001",
+    "PROTO-PAYMODE-HIDE-CYCLE-002",
+    "PROTO-PAYMODE-HOME-REGRESSION-003"
+  ],
+  "limits": [
+    "Finite October2 Payment mode/history contexts only; full date/category/caller state model unimplemented.",
+    "History records/dates and Week class count/values/positions wholly synthetic DEMO; original private records never uploaded.",
+    "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
+    "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
+  ],
+  "events": [
+    {
+      "kind": "editor_selection_guard_correction",
+      "result": "Root guard rejected a long History selection; subsequent independent AX confirmed selected root. AX ordering/selection timing contributions not isolated. Separate configuration used; no connections logged for rejected attempts."
+    },
+    {
+      "kind": "week_footer_correction",
+      "result": "970-template footer shifted54 clipped at1024. Replaced only footer with full Calendar navigation576x124 at0,900; root835:312 preserved. Generator source likewise corrected."
+    },
+    {
+      "kind": "flow_locator_correction",
+      "result": "Reference All not present in virtualized layer list; inspected rows and scrolled down to actual row before selecting. No new flow created."
+    }
+  ]
+}

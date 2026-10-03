@@ -1,0 +1,1611 @@
+{
+  "kind": "native_computer_use_calendar_resume",
+  "session_id": "SESSION-20261002-CALENDAR-RESUME",
+  "images": [
+    {
+      "file": "01-room-resumed.png",
+      "sha256": "ef25ccfad7ad62b59d30fe41d84b6ba200549b30ec3bc17d2bab6dae4510f15e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:49:13.198Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "room-resumed",
+      "state_id": "S-NATIVE-OCT2-ROOM-MIXED-DATE",
+      "redaction": {
+        "crop_xyxy": [
+          954,
+          46,
+          1998,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "raw_sha256": "a4eb0519f26fce67ce674c8872d2f21b69087fcd528f7dc511660f6227290f54"
+    },
+    {
+      "file": "02-home-after-room-back.png",
+      "sha256": "7fd2c27a53b4a551944a6fcc19747b3d6dcfbe1124d0b72568ceab9b197750e9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:49:38.137Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "home-after-room-back",
+      "state_id": "S-NATIVE-OCT2-HOME-RETAINED",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              70,
+              30,
+              510,
+              85
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              14,
+              98,
+              570,
+              620
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "raw_sha256": "5b0678763382ede8c67bacb839e6e422e11f4b551cb32c0662fe97fe5b6be6d6"
+    },
+    {
+      "file": "03-calendar-current-default.png",
+      "sha256": "61590d6e2db2ef5979b5d9788deb7b0b1c9a52d40379c4980ef399e26c847ac0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:50:26.060Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "calendar-current-default",
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              140,
+              622,
+              506,
+              707
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#FFFFFF"
+          }
+        ]
+      },
+      "raw_sha256": "f489bfd0dcf25a64723cf92c59a3707af29d0fe04721b87dd9fd3f5a2df1ce2f"
+    },
+    {
+      "file": "04-filter-all-current.png",
+      "sha256": "af5104b2855fad49addff92dcb21f21a1ee2db470f793fd8710828d3f8560205",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:51:59.684Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-all-current",
+      "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "raw_sha256": "b768b806501cfe54f14e2ff5df6171331f59961236e12cb32aa28a484ca85dd5"
+    },
+    {
+      "file": "05-filter-none-draft.png",
+      "sha256": "7e035ca7442028d1bffa9e8647d9f9049dab6bc41f64658610bb0f4271f60cc4",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:52:12.682Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-none-draft",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "raw_sha256": "c65d071cf9ea9a94a37b847d2cd5c771ede4f46bd93c27bc6e9452ee653ad3c2"
+    },
+    {
+      "file": "06-filter-x-none-dismissed.png",
+      "sha256": "04ab8753d1c97244ab273653386963740904ad20550262e1ab63cd8658d1a7c6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:52:24.300Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-x-none-dismissed",
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              140,
+              622,
+              506,
+              707
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#FFFFFF"
+          }
+        ]
+      },
+      "raw_sha256": "b1c8ec12e85a883b8952b0c477c49c6748bc097dcd9bc0c8bcde71c2d6926e89"
+    },
+    {
+      "file": "07-filter-reopen-after-x.png",
+      "sha256": "5730492c14f1ed3d7736210bf14162b0bc3b52e9323221a67468291337cbc4c3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:52:34.361Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-reopen-after-x",
+      "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "raw_sha256": "4c416041976a8305bdaaa004521e663fd75780b86769a1591547b6f050c10d9e"
+    },
+    {
+      "file": "08-filter-none-before-apply.png",
+      "sha256": "10b3616cab66c6cd43176eb8d479a3e9f65251c79cb3919755faa165cfa3fe50",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:52:46.678Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-none-before-apply",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "raw_sha256": "a2cfcba257eb8a2035d5d0c5bace606ef1a8b9c07f927adade12f26a5833533f"
+    },
+    {
+      "file": "09-calendar-none-applied.png",
+      "sha256": "0b00ebbf34abc94253dbe73c4a25026d113c021667247fe83018f6ec3d4998e0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:52:59.313Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "calendar-none-applied",
+      "state_id": "S-NATIVE-OCT2-NONE",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "raw_sha256": "788cc132bb666fa9e037beaee20620fc59c30167d2fbe0b8d629e8c02c9f6048"
+    },
+    {
+      "file": "10-filter-none-reopened.png",
+      "sha256": "85972e1e353c4342ebeb54022bdede51cfcff5c9ee0bc18fad6d238ad970ab2d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:53:42.193Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-none-reopened",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "raw_sha256": "b002733459c89c2bb14cb72c4bc5c0704998f7a856dd4ab37d68614f7a108c4d"
+    },
+    {
+      "file": "11-filter-class-only-draft.png",
+      "sha256": "5b71398f4657ebf9942ee432cb512fb88cfa06f1287cbca10c25f4a8036cd8f5",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:53:52.402Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-class-only-draft",
+      "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "raw_sha256": "9e7a79338529578e617067d3177c3312e298e8390cf2dde0728276b1b71d6768"
+    },
+    {
+      "file": "12-calendar-class-only-applied.png",
+      "sha256": "1a95bd68071b5e042d02434a2abde1a17829aaf8a39d6b93db57497805ad6ad7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:54:04.053Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "calendar-class-only-applied",
+      "state_id": "S-NATIVE-OCT2-CLASS",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              140,
+              622,
+              506,
+              707
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#FFFFFF"
+          }
+        ]
+      },
+      "raw_sha256": "8015d6c395dd08d9bb821a6755af01c553562b590d2854e864d7353f9788b15f"
+    },
+    {
+      "file": "13-class-ellipsis-detail.png",
+      "sha256": "1d70b5460acdf49bd4952b167667a7e38eb53cdc584ac5fe324122eceb852873",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:54:16.600Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "class-ellipsis-detail",
+      "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              24,
+              535,
+              90
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              30,
+              115,
+              545,
+              200
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              30,
+              249,
+              550,
+              282
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              78,
+              480,
+              495,
+              550
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "raw_sha256": "cf57f2864b89f1c5339a5adff3a01c8b48076b926c604d734f5bcff4cd358cf7"
+    },
+    {
+      "file": "14-class-notice-open.png",
+      "sha256": "1fcff9b7005d333536ea1309b49de298b7b273bce5654c0bdb8c8a04b12914a9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:54:46.022Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "class-notice-open",
+      "state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              22,
+              535,
+              77
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "raw_sha256": "5c00ed08eea11b593a05da3b1a03f54393ebe98bf6bbc21d3cab44ede28c374d"
+    },
+    {
+      "file": "15-class-notice-loaded.png",
+      "sha256": "604c6b05369dec1fc486eada8937095e431849debef18d52b69773cc6cb208fa",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:54:59.584Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "Loading mark absent; saved web body remains blank. Successful content loading is not established.",
+      "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              22,
+              535,
+              77
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "raw_sha256": "134a28aced6ba063b0d3a10b70329ec8489f3226d82f48c5bbec6f7d2eabdf07"
+    },
+    {
+      "file": "16-class-notice-more-menu.png",
+      "sha256": "0316f441d6d3eeab5ac9b82667181ead165316701317b2058e8e6dfd304b33a7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:55:22.043Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "class-notice-more-menu",
+      "state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              22,
+              535,
+              77
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "raw_sha256": "2d8b28f02a847c6d25a28ef07dc3dbb4a72eba4688b14081ec1d746f0f4327ac"
+    },
+    {
+      "file": "17-class-notice-menu-cancelled.png",
+      "sha256": "94a28adf5d3530a0272badd45b2490d01a8440e58f6d8b4d11ee1e08f55a040c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:55:46.631Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "class-notice-menu-cancelled",
+      "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              22,
+              535,
+              77
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "raw_sha256": "83b96ba5a19d194020668a6c85aafa591236221037c89a1ba2eba891c958875d"
+    },
+    {
+      "file": "18-class-notice-closed.png",
+      "sha256": "558166ec3f06fbb2f14e6860073a2be0f64d781e684a92abd78a4717e570c564",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:56:05.551Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "class-notice-closed",
+      "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              60,
+              24,
+              535,
+              90
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              30,
+              115,
+              545,
+              200
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              30,
+              249,
+              550,
+              282
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              78,
+              480,
+              495,
+              550
+            ],
+            "fill": "#242424"
+          }
+        ]
+      },
+      "raw_sha256": "3b36af492bd400f37d5ca04c42d19d539521f7e7add15c19161c7c445e06de9d"
+    },
+    {
+      "file": "19-calendar-after-class-detail-back.png",
+      "sha256": "b5cf88173c54e30cf799ab66719338a9cced0b289da8346c275c2a00c7524950",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:57:27.775Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "calendar-after-class-detail-back",
+      "state_id": "S-NATIVE-OCT2-CLASS",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              140,
+              622,
+              506,
+              707
+            ],
+            "fill": "#242424"
+          },
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#FFFFFF"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#FFFFFF"
+          }
+        ]
+      },
+      "raw_sha256": "07383a12e697d1afb27eed1a3525f526b2679b8b5d028ad6d635a5126a5ddd85"
+    },
+    {
+      "file": "20-filter-class-reopened.png",
+      "sha256": "daee3c55f45e1b603a0836c6aa0fe1ec4cb562211876f097fc4f1f83e9b0d1cf",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:58:01.307Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-class-reopened",
+      "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "raw_sha256": "e5978e3535c05e1335ce068b05b47416063bb8590dda7e8cf930b101b8f9e0d0"
+    },
+    {
+      "file": "21-filter-class-cleared.png",
+      "sha256": "86869af86002696e269f71e967483aa055d367eb7eebcd250cbf95f12f76d706",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:58:12.023Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-class-cleared",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "raw_sha256": "9ceb7bae953f6ef3c219ad510f6b6216f262e4137dfdf788432f26e538a9c073"
+    },
+    {
+      "file": "22-filter-exam-only-draft.png",
+      "sha256": "9dafa00978f6c4cabce5a2dd017736ac3678adfb24f72ce04bbf61b48e205161",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:58:22.546Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-exam-only-draft",
+      "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": [
+          {
+            "xyxy": [
+              31,
+              178,
+              546,
+              193
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              235,
+              546,
+              250
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              292,
+              546,
+              307
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              349,
+              546,
+              364
+            ],
+            "fill": "#999999"
+          },
+          {
+            "xyxy": [
+              31,
+              406,
+              546,
+              421
+            ],
+            "fill": "#999999"
+          }
+        ]
+      },
+      "raw_sha256": "7901381de97aa1d4d6b139909b798324dea995a1f238d320169dfd3d1fec3fac"
+    },
+    {
+      "file": "23-calendar-exam-only-applied.png",
+      "sha256": "3a6ddb52099c09bb19a32b464c6f37ba43ee8cc64708c54b2c029a08d1874a99",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:58:35.257Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "calendar-exam-only-applied",
+      "state_id": "S-NATIVE-OCT2-EXAM",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "raw_sha256": "1fae6a7a27b6db21d252ac532d790d6422c36d509392915c785c00d4415f2622"
+    },
+    {
+      "file": "24-filter-exam-reopened.png",
+      "sha256": "2242555f6642a8c027f62ae93db15c376dd775d7486e9fdca405096d38bc3a22",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:58:48.717Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-exam-reopened",
+      "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "raw_sha256": "78f5e58a466cf6ee78004d13f7b0508371a884c272e75aae1dcac71cb319addb"
+    },
+    {
+      "file": "25-filter-exam-cleared.png",
+      "sha256": "a89675497317cfb4a8c28f5d29e2e22cdcd58d3aebfc6ea036617c29b2d92512",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:58:58.942Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-exam-cleared",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "raw_sha256": "39d07c5a3ca194a882fafb421885d3d84b76953ccc72845c887036068a3456fb"
+    },
+    {
+      "file": "26-filter-payment-only-draft.png",
+      "sha256": "5f89ddd115c0c6488e68fecf80e6309c272a621c10fd76992b96ff473f9b93f4",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-02T15:59:09.895Z",
+      "source": "Actual native PolyULife Computer Use screenshot bytes",
+      "description": "filter-payment-only-draft",
+      "state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "redaction": {
+        "crop_xyxy": [
+          978,
+          0,
+          2046,
+          1898
+        ],
+        "resize": [
+          576,
+          1024
+        ],
+        "opaque_masks": []
+      },
+      "raw_sha256": "84767e7c315cb66320a1b811a8e1d3c0e1a5dafd638b0971446bd3f79a0279f1"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "bfd38b14e6193536264d705895441fa98b30a21bece489573b52d10b6982ad26",
+    "dimensions": [
+      1728,
+      2760
+    ],
+    "source": "Contact sheet of the redacted native captures"
+  },
+  "safe_ax": [
+    {
+      "index": 1,
+      "file": "01-safe-ax.txt",
+      "sha256": "3242fc2abf3b66bf1ae20630dd3bf3594c86d6d6a8295453e034a1c9dad198e4",
+      "state_id": "S-NATIVE-OCT2-ROOM-MIXED-DATE",
+      "captured_at": "2026-10-02T15:49:13.198Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "220e09ac52e357523ac4e368dba81dd9cc76aa5d82638fbd0b45b76f24e70f0b"
+    },
+    {
+      "index": 2,
+      "file": "02-safe-ax.txt",
+      "sha256": "4576530a17a7dff8c19f54106113a68800324f226cd4c0be00ecba9e782001fc",
+      "state_id": "S-NATIVE-OCT2-HOME-RETAINED",
+      "captured_at": "2026-10-02T15:49:38.137Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "598f62dd33fe756fa9ff2dd31f2f0c770cb4276a5eee9f4e7375d3526f2f0dac"
+    },
+    {
+      "index": 3,
+      "file": "03-safe-ax.txt",
+      "sha256": "79ad3079e108cdddde6e003fd933f30bb4a96f8c9d3c66582270080b5cb28650",
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "captured_at": "2026-10-02T15:50:26.060Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "a406eb97c6fcc43e7cb66585542256a2a59def57563b9042f9e71feddb3d33a2"
+    },
+    {
+      "index": 4,
+      "file": "04-safe-ax.txt",
+      "sha256": "a5504f2991b4efbd385cb50eface5e9e71239943fbe4d39df945d3cfdfb2b127",
+      "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "captured_at": "2026-10-02T15:51:59.684Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "f7221e2f972da1bc3baeebc54d68f71d129e3821d3bbc69563291eea561ed35e"
+    },
+    {
+      "index": 5,
+      "file": "05-safe-ax.txt",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "captured_at": "2026-10-02T15:52:12.682Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "c78feaa277488c1ce11bb48c732da17a6fef54a944dd9ade7f64498422ff8108"
+    },
+    {
+      "index": 6,
+      "file": "06-safe-ax.txt",
+      "sha256": "79ad3079e108cdddde6e003fd933f30bb4a96f8c9d3c66582270080b5cb28650",
+      "state_id": "S-NATIVE-OCT2-ALL",
+      "captured_at": "2026-10-02T15:52:24.300Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "a406eb97c6fcc43e7cb66585542256a2a59def57563b9042f9e71feddb3d33a2"
+    },
+    {
+      "index": 7,
+      "file": "07-safe-ax.txt",
+      "sha256": "a5504f2991b4efbd385cb50eface5e9e71239943fbe4d39df945d3cfdfb2b127",
+      "state_id": "S-NATIVE-OCT2-DRAFT-ALL-ALL",
+      "captured_at": "2026-10-02T15:52:34.361Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "f7221e2f972da1bc3baeebc54d68f71d129e3821d3bbc69563291eea561ed35e"
+    },
+    {
+      "index": 8,
+      "file": "08-safe-ax.txt",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-ALL",
+      "captured_at": "2026-10-02T15:52:46.678Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "c78feaa277488c1ce11bb48c732da17a6fef54a944dd9ade7f64498422ff8108"
+    },
+    {
+      "index": 9,
+      "file": "09-safe-ax.txt",
+      "sha256": "c6a55e92a362c102c19797841687c5fe1397fbb3b5bf13e7ebcaf471b02de5d2",
+      "state_id": "S-NATIVE-OCT2-NONE",
+      "captured_at": "2026-10-02T15:52:59.313Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "5f5b3a9cbfeacb344d0dfb70037796e301c6dfd75cd28debc662e90049010587"
+    },
+    {
+      "index": 10,
+      "file": "10-safe-ax.txt",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-NONE",
+      "captured_at": "2026-10-02T15:53:42.193Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "c78feaa277488c1ce11bb48c732da17a6fef54a944dd9ade7f64498422ff8108"
+    },
+    {
+      "index": 11,
+      "file": "11-safe-ax.txt",
+      "sha256": "252f855161cb569e3b08a1869bc2710307111a7aca7186b09e326b622395243f",
+      "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-NONE",
+      "captured_at": "2026-10-02T15:53:52.402Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "8cc613e2e583c875f716259fb984acd14bc652b279608a831fedd7057b7d26cb"
+    },
+    {
+      "index": 12,
+      "file": "12-safe-ax.txt",
+      "sha256": "79ad3079e108cdddde6e003fd933f30bb4a96f8c9d3c66582270080b5cb28650",
+      "state_id": "S-NATIVE-OCT2-CLASS",
+      "captured_at": "2026-10-02T15:54:04.053Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "bd832f6203a3fa21d04d1ce377f519ca0b06ee2ee4dec9a330e55f78c7bbce8a"
+    },
+    {
+      "index": 13,
+      "file": "13-safe-ax.txt",
+      "sha256": "6388fdd7d852d57714e24a303502b20acb7b21b45ead2e95906802136a2e5623",
+      "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "captured_at": "2026-10-02T15:54:16.600Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "8c1aa0f68e1a288b2ab6df78794ea5fd128f422014ad8bc15b5a0f91625b647b"
+    },
+    {
+      "index": 14,
+      "file": "14-safe-ax.txt",
+      "sha256": "3242fc2abf3b66bf1ae20630dd3bf3594c86d6d6a8295453e034a1c9dad198e4",
+      "state_id": "S-NATIVE-OCT2-NOTICE-LOADING",
+      "captured_at": "2026-10-02T15:54:46.022Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "f607aa3a7df8111e701c763cac1a6bda241cd0cf06d3686a2c99b6a24126dafc"
+    },
+    {
+      "index": 15,
+      "file": "15-safe-ax.txt",
+      "sha256": "3242fc2abf3b66bf1ae20630dd3bf3594c86d6d6a8295453e034a1c9dad198e4",
+      "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "captured_at": "2026-10-02T15:54:59.584Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "c373dbb5aa5423b16e36c98f298ddabdc1730df7483d37258af61a47d4704302"
+    },
+    {
+      "index": 16,
+      "file": "16-safe-ax.txt",
+      "sha256": "ef89ac7b3ad25b86ce12f67930d495416734d991b55c6cfffff145f698f3d3f3",
+      "state_id": "S-NATIVE-OCT2-NOTICE-MENU",
+      "captured_at": "2026-10-02T15:55:22.043Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "b1c97389d0f4f696c5431b3d8a8f6dd7ec9df912db3fc3c3333e97fd84656b21"
+    },
+    {
+      "index": 17,
+      "file": "17-safe-ax.txt",
+      "sha256": "3242fc2abf3b66bf1ae20630dd3bf3594c86d6d6a8295453e034a1c9dad198e4",
+      "state_id": "S-NATIVE-OCT2-NOTICE-BLANK",
+      "captured_at": "2026-10-02T15:55:46.631Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "331c3687ad73c78da5f3ca4e4b53dd548f3a364840ddae2b21bc2e3fe2277bd9"
+    },
+    {
+      "index": 18,
+      "file": "18-safe-ax.txt",
+      "sha256": "3242fc2abf3b66bf1ae20630dd3bf3594c86d6d6a8295453e034a1c9dad198e4",
+      "state_id": "S-NATIVE-OCT2-CLASS-DETAIL",
+      "captured_at": "2026-10-02T15:56:05.551Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "fc722c124bb159ff84c48681ddc1cea68d76d01e9aa48f6e807111dd50edbe6f"
+    },
+    {
+      "index": 19,
+      "file": "19-safe-ax.txt",
+      "sha256": "79ad3079e108cdddde6e003fd933f30bb4a96f8c9d3c66582270080b5cb28650",
+      "state_id": "S-NATIVE-OCT2-CLASS",
+      "captured_at": "2026-10-02T15:57:27.775Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "bd832f6203a3fa21d04d1ce377f519ca0b06ee2ee4dec9a330e55f78c7bbce8a"
+    },
+    {
+      "index": 20,
+      "file": "20-safe-ax.txt",
+      "sha256": "252f855161cb569e3b08a1869bc2710307111a7aca7186b09e326b622395243f",
+      "state_id": "S-NATIVE-OCT2-DRAFT-CLASS-CLASS",
+      "captured_at": "2026-10-02T15:58:01.307Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "8cc613e2e583c875f716259fb984acd14bc652b279608a831fedd7057b7d26cb"
+    },
+    {
+      "index": 21,
+      "file": "21-safe-ax.txt",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-CLASS",
+      "captured_at": "2026-10-02T15:58:12.023Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "c78feaa277488c1ce11bb48c732da17a6fef54a944dd9ade7f64498422ff8108"
+    },
+    {
+      "index": 22,
+      "file": "22-safe-ax.txt",
+      "sha256": "e330527a227d62221eb67a62f891537321a73aabc965fc2256202a0a50c24eb8",
+      "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-CLASS",
+      "captured_at": "2026-10-02T15:58:22.546Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "36efb70cc8ce4f3aa5e75ce535158659169f7b0e2f9514cb938341c1a8d3c323"
+    },
+    {
+      "index": 23,
+      "file": "23-safe-ax.txt",
+      "sha256": "010b8167f231317ce5bf931ead217dc0fa01743785aefd81a375676d5b1eb302",
+      "state_id": "S-NATIVE-OCT2-EXAM",
+      "captured_at": "2026-10-02T15:58:35.257Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "2d3d13ebceeb187defd007ab560d1c0f10caa8e8848d6a9a2907e7c655e4bf94"
+    },
+    {
+      "index": 24,
+      "file": "24-safe-ax.txt",
+      "sha256": "e330527a227d62221eb67a62f891537321a73aabc965fc2256202a0a50c24eb8",
+      "state_id": "S-NATIVE-OCT2-DRAFT-EXAM-EXAM",
+      "captured_at": "2026-10-02T15:58:48.717Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "36efb70cc8ce4f3aa5e75ce535158659169f7b0e2f9514cb938341c1a8d3c323"
+    },
+    {
+      "index": 25,
+      "file": "25-safe-ax.txt",
+      "sha256": "6f10f09c8a909b8686cdcf5a5490f4ca85f41269a725cd45eab5163c0c78adaa",
+      "state_id": "S-NATIVE-OCT2-DRAFT-NONE-EXAM",
+      "captured_at": "2026-10-02T15:58:58.942Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "c78feaa277488c1ce11bb48c732da17a6fef54a944dd9ade7f64498422ff8108"
+    },
+    {
+      "index": 26,
+      "file": "26-safe-ax.txt",
+      "sha256": "306beb4c396d4acd4dc111832055edce759956459acfb55af03df12d09e38165",
+      "state_id": "S-NATIVE-OCT2-DRAFT-PAYMENT-EXAM",
+      "captured_at": "2026-10-02T15:59:09.895Z",
+      "source": "Derived safe subset of recorded native AX; not a complete accessibility tree",
+      "raw_sha256": "1d95e22f27f0016b9c07cb9e29424669b42360dfc65e513a27d81d97455d452e"
+    }
+  ],
+  "uncertain_attempts": [
+    {
+      "control": "Payment-only Apply",
+      "method": "AX click requested on index14",
+      "input_execution_verified": false,
+      "target_state_id": null,
+      "result": "Mac locked; the combined click/capture call failed before a saved outcome. Do not infer Apply success or current app state."
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "revision_id": "FIGMA-OCT2-NONE-20261003",
+  "frames": [
+    {
+      "file": "calendar-oct2-all-demo.svg",
+      "name": "[OCT2:ALL] Calendar all — DEMO",
+      "node_id": "791:177",
+      "x": 0,
+      "y": 68500,
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t377 stepper (settable, float) Description: X-position, Value: 2.2737367544323206e-13, Details: 0",
+        "\t\t\t\t\t\t\t\t\t378 stepper (settable, integer) Description: Y-position, Value: 68500",
+        "\t\t\t\t\t\t\t\t\t\t405 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t408 text field (settable) Description: Height, Value: 1024"
+      ],
+      "superseded_unwired_node_id": "791:19",
+      "readback_after_replace_and_reload": [
+        "\t\t\t\t\t\t\t\t\t241 stepper (settable, float) Description: X-position, Value: 2.2737367544323206e-13, Details: 0",
+        "\t\t\t\t\t\t\t\t\t242 stepper (settable, integer) Description: Y-position, Value: 68500",
+        "\t\t\t\t\t\t\t\t\t\t269 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t272 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-draft-all-all.svg",
+      "name": "[OCT2:ALL-D] All draft — applied all",
+      "node_id": "791:335",
+      "x": 700,
+      "y": 68500,
+      "at": "2026-10-02T16:19:47.669Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t571 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t572 stepper (settable, integer) Description: Y-position, Value: 68500",
+        "\t\t\t\t\t\t\t\t\t\t599 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t602 text field (settable) Description: Height, Value: 1024"
+      ],
+      "transient_uri_at_import": "12:104"
+    },
+    {
+      "file": "calendar-oct2-draft-none-all.svg",
+      "name": "[OCT2:NONE-D] None draft — applied all",
+      "node_id": "791:529",
+      "x": 1400,
+      "y": 68500,
+      "at": "2026-10-02T16:19:52.232Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t735 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t736 stepper (settable, integer) Description: Y-position, Value: 68500",
+        "\t\t\t\t\t\t\t\t\t\t763 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t766 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-none.svg",
+      "name": "[OCT2:NONE] No Selected Event — applied",
+      "node_id": "791:713",
+      "x": 2100,
+      "y": 68500,
+      "at": "2026-10-02T16:20:12.516Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t767 stepper (settable, integer) Description: X-position, Value: 2100",
+        "\t\t\t\t\t\t\t\t\t768 stepper (settable, integer) Description: Y-position, Value: 68500",
+        "\t\t\t\t\t\t\t\t\t\t795 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t798 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-oct2-draft-none-none.svg",
+      "name": "[OCT2:NONE-R] None draft — applied none",
+      "node_id": "791:873",
+      "x": 2800,
+      "y": 68500,
+      "at": "2026-10-02T16:20:17.037Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t927 stepper (settable, integer) Description: X-position, Value: 2800",
+        "\t\t\t\t\t\t\t\t\t928 stepper (settable, integer) Description: Y-position, Value: 68500",
+        "\t\t\t\t\t\t\t\t\t\t955 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t958 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "791:177",
+      "trigger_node_id": "791:286",
+      "action_id": "A-NATIVE-OCT2-04",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "791:335",
+      "configured_at": "2026-10-02T16:22:43.076Z",
+      "readback": [
+        "\t\t\t\t\t\t339 combo box (collapsed) Trigger, Value: On click, ID: :r8j:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t345 combo box (collapsed) Action, Value: Navigate to, ID: :r8m:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t352 combo box (collapsed) Destination, Value: [OCT2:ALL-D] All draft — applied all, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t357 combo box (collapsed) Animation, Value: Instant, ID: :r9i:, Secondary Actions: Expand",
+        "The focused UI element is 352 combo box (collapsed) Destination, Value: [OCT2:ALL-D] All draft — applied all, ID: :r95:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-OCT2-NONE-01",
+      "revision_id": "FIGMA-OCT2-NONE-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded",
+      "prototype_run_ids": [
+        "PROTO-OCT2-NONE-CANCEL-001",
+        "PROTO-OCT2-NONE-APPLY-001",
+        "PROTO-OCT2-NONE-RESTART-001"
+      ]
+    },
+    {
+      "source_node_id": "791:335",
+      "trigger_node_id": "791:500",
+      "action_id": "A-NATIVE-OCT2-05",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "791:529",
+      "configured_at": "2026-10-02T16:24:13.101Z",
+      "readback": [
+        "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:NONE-D] None draft — applied all, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:NONE-D] None draft — applied all, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "inference": null,
+      "connection_id": "C-OCT2-NONE-02",
+      "revision_id": "FIGMA-OCT2-NONE-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded",
+      "prototype_run_ids": [
+        "PROTO-OCT2-NONE-CANCEL-001",
+        "PROTO-OCT2-NONE-APPLY-001",
+        "PROTO-OCT2-NONE-RESTART-001"
+      ]
+    },
+    {
+      "source_node_id": "791:529",
+      "trigger_node_id": "791:690",
+      "action_id": "A-NATIVE-OCT2-06",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "791:177",
+      "configured_at": "2026-10-02T16:24:38.879Z",
+      "readback": [
+        "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:ALL] Calendar all — DEMO, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:ALL] Calendar all — DEMO, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "inference": null,
+      "connection_id": "C-OCT2-NONE-03",
+      "revision_id": "FIGMA-OCT2-NONE-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded",
+      "prototype_run_ids": [
+        "PROTO-OCT2-NONE-CANCEL-001",
+        "PROTO-OCT2-NONE-APPLY-001",
+        "PROTO-OCT2-NONE-RESTART-001"
+      ]
+    },
+    {
+      "source_node_id": "791:529",
+      "trigger_node_id": "791:709",
+      "action_id": "A-CALENDAR-APPLY-NONE",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "791:713",
+      "configured_at": "2026-10-02T16:25:27.065Z",
+      "readback": [
+        "\t\t\t\t\t\t378 combo box (collapsed) Trigger, Value: On click, ID: :r95:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t384 combo box (collapsed) Action, Value: Navigate to, ID: :r98:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t391 combo box (collapsed) Destination, Value: [OCT2:NONE] No Selected Event — applied, ID: :r9n:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t396 combo box (collapsed) Animation, Value: Instant, ID: :ra4:, Secondary Actions: Expand",
+        "The focused UI element is 391 combo box (collapsed) Destination, Value: [OCT2:NONE] No Selected Event — applied, ID: :r9n:, Secondary Actions: Expand"
+      ],
+      "inference": null,
+      "connection_id": "C-OCT2-NONE-04",
+      "revision_id": "FIGMA-OCT2-NONE-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded",
+      "prototype_run_ids": [
+        "PROTO-OCT2-NONE-CANCEL-001",
+        "PROTO-OCT2-NONE-APPLY-001",
+        "PROTO-OCT2-NONE-RESTART-001"
+      ]
+    },
+    {
+      "source_node_id": "791:713",
+      "trigger_node_id": "791:822",
+      "action_id": "A-NATIVE-OCT2-10",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "791:873",
+      "configured_at": "2026-10-02T16:26:18.513Z",
+      "readback": [
+        "\t\t\t\t\t\t468 combo box (collapsed) Trigger, Value: On click, ID: :rb1:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t474 combo box (collapsed) Action, Value: Navigate to, ID: :rb4:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t481 combo box (collapsed) Destination, Value: [OCT2:NONE-R] None draft — applied none, ID: :rbj:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t486 combo box (collapsed) Animation, Value: Instant, ID: :rc0:, Secondary Actions: Expand",
+        "The focused UI element is 481 combo box (collapsed) Destination, Value: [OCT2:NONE-R] None draft — applied none, ID: :rbj:, Secondary Actions: Expand"
+      ],
+      "inference": null,
+      "connection_id": "C-OCT2-NONE-05",
+      "revision_id": "FIGMA-OCT2-NONE-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded",
+      "prototype_run_ids": [
+        "PROTO-OCT2-NONE-CANCEL-001",
+        "PROTO-OCT2-NONE-APPLY-001",
+        "PROTO-OCT2-NONE-RESTART-001"
+      ]
+    },
+    {
+      "source_node_id": "791:873",
+      "trigger_node_id": "791:1036",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "791:713",
+      "configured_at": "2026-10-02T16:26:45.104Z",
+      "readback": [
+        "\t\t\t\t\t\t672 combo box (collapsed) Trigger, Value: On click, ID: :ren:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t678 combo box (collapsed) Action, Value: Navigate to, ID: :req:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t685 combo box (collapsed) Destination, Value: [OCT2:NONE] No Selected Event — applied, ID: :rf9:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t690 combo box (collapsed) Animation, Value: Instant, ID: :rfm:, Secondary Actions: Expand",
+        "The focused UI element is 685 combo box (collapsed) Destination, Value: [OCT2:NONE] No Selected Event — applied, ID: :rf9:, Secondary Actions: Expand"
+      ],
+      "inference": "Prototype cancellation generalization: X keeps the applied none background; this exact native source was not exercised.",
+      "connection_id": "C-OCT2-NONE-06",
+      "revision_id": "FIGMA-OCT2-NONE-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded",
+      "prototype_run_ids": [
+        "PROTO-OCT2-NONE-CANCEL-001",
+        "PROTO-OCT2-NONE-APPLY-001",
+        "PROTO-OCT2-NONE-RESTART-001"
+      ]
+    },
+    {
+      "source_node_id": "791:335",
+      "trigger_node_id": "791:496",
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "791:177",
+      "configured_at": "2026-10-02T16:26:49.939Z",
+      "readback": [
+        "\t\t\t\t\t\t942 combo box (collapsed) Trigger, Value: On click, ID: :rjp:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t948 combo box (collapsed) Action, Value: Navigate to, ID: :rjs:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t955 combo box (collapsed) Destination, Value: [OCT2:ALL] Calendar all — DEMO, ID: :rkb:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t961 combo box (collapsed) Animation, Value: Instant, ID: :rko:, Secondary Actions: Expand",
+        "The focused UI element is 955 combo box (collapsed) Destination, Value: [OCT2:ALL] Calendar all — DEMO, ID: :rkb:, Secondary Actions: Expand"
+      ],
+      "inference": "Prototype unchanged-draft dismissal; native Oct2 none-draft cancellation supports the rule, but this exact source X was not exercised.",
+      "connection_id": "C-OCT2-NONE-07",
+      "revision_id": "FIGMA-OCT2-NONE-20261003",
+      "implementation_status": "configured_finite_reference_replays_recorded",
+      "prototype_run_ids": [
+        "PROTO-OCT2-NONE-CANCEL-001",
+        "PROTO-OCT2-NONE-APPLY-001",
+        "PROTO-OCT2-NONE-RESTART-001"
+      ]
+    }
+  ],
+  "flow": {
+    "name": "Reference · Oct2 None filters — partial",
+    "description": "Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
+    "readback": [
+      "\t\t\t\t\t1100 container Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
+      "\t\t\t\t\t\t1112 text Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow.",
+      "The focused UI element is 1100 container Native Oct2 fullscreen sample: Filter → all-off draft → X restores all, or Apply → No Selected Event/No event → reopen all unchecked. Course values are synthetic DEMO; private date markers omitted. Five finite frames, not complete Calendar or complete PolyULife. Two extra X exits are prototype generalizations. Home callers, Class/Exam/Payment results, dates and other controls remain outside this reference flow."
+    ],
+    "start_node_id": "791:177",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+    "tested_run_ids": [
+      "PROTO-OCT2-NONE-CANCEL-001",
+      "PROTO-OCT2-NONE-APPLY-001",
+      "PROTO-OCT2-NONE-RESTART-001"
+    ],
+    "scope": "Five dated native None-filter reference states only; complete Calendar and main callers not integrated."
+  },
+  "prototype_run_ids": [
+    "PROTO-OCT2-NONE-CANCEL-001",
+    "PROTO-OCT2-NONE-APPLY-001",
+    "PROTO-OCT2-NONE-RESTART-001"
+  ],
+  "limits": [
+    "Native Oct2 fullscreen samples; synthetic private data.",
+    "Navigate-to finite composite frames; no native architecture claim.",
+    "Main callers, Class/Exam/Payment outputs, other dates and full app incomplete."
+  ]
+}

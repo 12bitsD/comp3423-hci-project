@@ -1,0 +1,547 @@
+{
+  "steps": [
+    {
+      "file": "00-current-search.png",
+      "action": null,
+      "input": null,
+      "note": null,
+      "captured_at": "2026-10-03T06:24:18.782Z"
+    },
+    {
+      "file": "01-search-back.png",
+      "action": "search_back",
+      "input": {
+        "method": "fresh AX leaf10"
+      },
+      "note": "Saved current Search source confirmed.",
+      "captured_at": "2026-10-03T06:24:30.368Z"
+    },
+    {
+      "file": "02-home-caller.png",
+      "action": "home",
+      "input": {
+        "method": "AX Home29"
+      },
+      "note": "Raw Home may contain private fields; no public full screenshot.",
+      "captured_at": "2026-10-03T06:24:46.520Z"
+    },
+    {
+      "file": "03-food-entry.png",
+      "action": "food_entry",
+      "input": {
+        "method": "AX Food52"
+      },
+      "note": "Public Food entry visible in Home lower crop.",
+      "captured_at": "2026-10-03T06:25:00.530Z"
+    },
+    {
+      "file": "04-blocky-hours-expand.png",
+      "action": "blocky_hours_expand",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          482,
+          740
+        ]
+      },
+      "note": "First visible Block Y row; not the historical VA210 hours control.",
+      "captured_at": "2026-10-03T06:25:23.296Z"
+    },
+    {
+      "file": "05-blocky-hours-collapse.png",
+      "action": "blocky_hours_collapse",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          482,
+          740
+        ]
+      },
+      "note": "Reverse the same Block Y hours arrow; separate from historical VA210 collapse.",
+      "captured_at": "2026-10-03T06:25:37.382Z"
+    },
+    {
+      "file": "06-food-sheet-expand.png",
+      "action": "sheet_expand",
+      "input": {
+        "method": "visible drag",
+        "from": [
+          375,
+          543
+        ],
+        "to": [
+          375,
+          210
+        ]
+      },
+      "note": "Move public list handle up; no location or external handoff.",
+      "captured_at": "2026-10-03T06:25:50.218Z"
+    },
+    {
+      "file": "07-food-list-next.png",
+      "action": "list_scroll_down",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "note": "Expanded sheet; public venue list.",
+      "captured_at": "2026-10-03T06:26:03.753Z"
+    },
+    {
+      "file": "08-hcafe-hours-expand.png",
+      "action": "hcafe_open_hours_expand",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          501,
+          572
+        ]
+      },
+      "note": "Current H Café is Open Now; distinct from historical Closed sample.",
+      "captured_at": "2026-10-03T06:26:14.883Z"
+    },
+    {
+      "file": "09-hcafe-hours-collapse.png",
+      "action": "hcafe_open_hours_collapse",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          501,
+          572
+        ]
+      },
+      "note": "Reverse current Open Now H Café arrow; original closed-context gap remains separate.",
+      "captured_at": "2026-10-03T06:26:25.120Z"
+    },
+    {
+      "file": "10-food-list-middle.png",
+      "action": "list_scroll_down",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "note": "Continue with overlapping public venue rows.",
+      "captured_at": "2026-10-03T06:26:48.499Z"
+    },
+    {
+      "file": "11-food-list-middle2.png",
+      "action": "list_scroll_down",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "note": "Public list only; external order buttons not activated.",
+      "captured_at": "2026-10-03T06:26:58.058Z"
+    },
+    {
+      "file": "12-food-list-middle3.png",
+      "action": "list_scroll_down",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "note": "Continue until an observed boundary, without inferring completeness from AX offscreen rows.",
+      "captured_at": "2026-10-03T06:27:07.621Z"
+    },
+    {
+      "file": "13-food-list-va210.png",
+      "action": "list_scroll_down",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "note": "Public list continuing from Z venues.",
+      "captured_at": "2026-10-03T06:27:17.837Z"
+    },
+    {
+      "file": "14-va210-hours-expand.png",
+      "action": "va210_hours_expand",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          485,
+          884
+        ]
+      },
+      "note": "Chinese Soup/Snacks/Bottled Herbal Tea VA210 row; distinguish other same-title machines.",
+      "captured_at": "2026-10-03T06:27:30.959Z"
+    },
+    {
+      "file": "15-va210-hours-collapse.png",
+      "action": "va210_hours_collapse",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          485,
+          884
+        ]
+      },
+      "note": "Reverse same identified VA210 row; current finite collapse verified separately from other machines.",
+      "captured_at": "2026-10-03T06:27:41.681Z"
+    },
+    {
+      "file": "16-food-list-machines.png",
+      "action": "list_scroll_down",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "note": "Distinct logos/tags distinguish repeated VA210 names.",
+      "captured_at": "2026-10-03T06:27:53.897Z"
+    },
+    {
+      "file": "17-food-list-last.png",
+      "action": "list_scroll_down",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "note": "Observe last visible rows before checking additional downward movement.",
+      "captured_at": "2026-10-03T06:28:07.042Z"
+    },
+    {
+      "file": "18-food-list-bottom-check.png",
+      "action": "list_bottom_check",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "note": "Check whether last Gourmet Shop row is followed by more content.",
+      "captured_at": "2026-10-03T06:28:17.556Z"
+    },
+    {
+      "file": "19-gourmet-information-expand.png",
+      "action": "gourmet_info_expand",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          503,
+          1189
+        ]
+      },
+      "note": "Closed Gourmet Shop Further information arrow; reversible display only.",
+      "captured_at": "2026-10-03T06:28:34.531Z"
+    },
+    {
+      "file": "20-gourmet-information-collapse.png",
+      "action": "gourmet_info_collapse",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          503,
+          1189
+        ]
+      },
+      "note": "Reverse the same closed-information arrow.",
+      "captured_at": "2026-10-03T06:28:48.633Z"
+    },
+    {
+      "file": "21-food-reverse-top.png",
+      "action": "list_scroll_up",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "up",
+        "pages": 5
+      },
+      "note": "Reverse the sampled downward traversal toward the first visible row.",
+      "captured_at": "2026-10-03T06:29:01.802Z"
+    },
+    {
+      "file": "22-food-top-boundary-check.png",
+      "action": "list_top_check",
+      "input": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "up",
+        "pages": 0.65
+      },
+      "note": "Check whether first Block Y row can move further upward.",
+      "captured_at": "2026-10-03T06:29:17.182Z"
+    },
+    {
+      "file": "23-food-sheet-collapse.png",
+      "action": "sheet_collapse",
+      "input": {
+        "method": "visible drag",
+        "from": [
+          375,
+          230
+        ],
+        "to": [
+          375,
+          543
+        ]
+      },
+      "note": "Reverse list sheet expansion after returning to first row.",
+      "captured_at": "2026-10-03T06:29:36.063Z"
+    },
+    {
+      "file": "24-sheet-collapse-followup.png",
+      "action": null,
+      "input": null,
+      "note": "No new input after reverse handle drag; check delayed sheet movement.",
+      "captured_at": "2026-10-03T06:29:55.199Z"
+    },
+    {
+      "file": "25-food-back-home.png",
+      "action": "food_back",
+      "input": {
+        "method": "fresh AX Back10"
+      },
+      "note": "Raw Home may contain private fields; publish only masked/cropped caller evidence.",
+      "captured_at": "2026-10-03T06:30:09.992Z"
+    }
+  ],
+  "actual_state_ids": [
+    "S-NOTICE-SEARCH-WORKSHOP",
+    "S-NATIVE-NOTICE-LIST-READ",
+    "S-HOME",
+    "S-FOOD-OCT3-LIST",
+    "S-FOOD-OCT3-BLOCKY-HOURS",
+    "S-FOOD-OCT3-LIST",
+    "S-FOOD-OCT3-SHEET",
+    "S-FOOD-OCT3-HCAFE-OPEN",
+    "S-FOOD-OCT3-HCAFE-HOURS",
+    "S-FOOD-OCT3-HCAFE-OPEN",
+    "S-FOOD-OCT3-MID-THEATRE",
+    "S-FOOD-OCT3-MID-VA",
+    "S-FOOD-OCT3-MID-WXZ",
+    "S-FOOD-OCT3-VA210",
+    "S-FOOD-OCT3-VA210-HOURS",
+    "S-FOOD-OCT3-VA210",
+    "S-FOOD-OCT3-MACHINES",
+    "S-FOOD-OCT3-BOTTOM",
+    "S-FOOD-OCT3-BOTTOM",
+    "S-FOOD-OCT3-GOURMET-HOURS",
+    "S-FOOD-OCT3-BOTTOM",
+    "S-FOOD-OCT3-SHEET",
+    "S-FOOD-OCT3-SHEET",
+    "S-FOOD-OCT3-SHEET",
+    "S-FOOD-OCT3-SHEET",
+    "S-HOME"
+  ],
+  "actual_action_ids": [
+    null,
+    "A-NOTICE-SEARCH-BACK",
+    "A-FOOD-OCT3-NOTICE-HOME",
+    "A-FOOD-OCT3-OPEN",
+    "A-FOOD-OCT3-BLOCKY-EXPAND",
+    "A-FOOD-OCT3-BLOCKY-COLLAPSE",
+    "A-FOOD-SHEET-EXPAND",
+    "A-FOOD-OCT3-LIST-DOWN",
+    "A-FOOD-OCT3-HCAFE-EXPAND",
+    "A-FOOD-OCT3-HCAFE-COLLAPSE",
+    "A-FOOD-OCT3-LIST-DOWN",
+    "A-FOOD-OCT3-LIST-DOWN",
+    "A-FOOD-OCT3-LIST-DOWN",
+    "A-FOOD-OCT3-LIST-DOWN",
+    "A-FOOD-HOURS-EXPAND",
+    "A-FOOD-HOURS-COLLAPSE",
+    "A-FOOD-OCT3-LIST-DOWN",
+    "A-FOOD-OCT3-LIST-DOWN",
+    "A-FOOD-OCT3-BOTTOM-CHECK",
+    "A-FOOD-OCT3-GOURMET-EXPAND",
+    "A-FOOD-OCT3-GOURMET-COLLAPSE",
+    "A-FOOD-OCT3-LIST-UP",
+    "A-FOOD-OCT3-TOP-CHECK",
+    "A-FOOD-SHEET-COLLAPSE",
+    null,
+    "A-FOOD-OCT3-BACK-HOME"
+  ],
+  "pixel_comparisons": [
+    {
+      "left": "17-food-list-last.png",
+      "right": "18-food-list-bottom-check.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "interpretation": "Capture/content/cursor differences preserved; equality only supports finite sampled pixels, not global behavior."
+    },
+    {
+      "left": "13-food-list-va210.png",
+      "right": "15-va210-hours-collapse.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        408,
+        751,
+        657,
+        1092
+      ],
+      "interpretation": "Capture/content/cursor differences preserved; equality only supports finite sampled pixels, not global behavior."
+    },
+    {
+      "left": "07-food-list-next.png",
+      "right": "09-hcafe-hours-collapse.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        425,
+        447,
+        657,
+        1093
+      ],
+      "interpretation": "Capture/content/cursor differences preserved; equality only supports finite sampled pixels, not global behavior."
+    },
+    {
+      "left": "03-food-entry.png",
+      "right": "05-blocky-hours-collapse.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        408,
+        615,
+        680,
+        764
+      ],
+      "interpretation": "Capture/content/cursor differences preserved; equality only supports finite sampled pixels, not global behavior."
+    },
+    {
+      "left": "21-food-reverse-top.png",
+      "right": "22-food-top-boundary-check.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        584,
+        1017,
+        608,
+        1047
+      ],
+      "interpretation": "Capture/content/cursor differences preserved; equality only supports finite sampled pixels, not global behavior."
+    },
+    {
+      "left": "06-food-sheet-expand.png",
+      "right": "21-food-reverse-top.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        134,
+        750,
+        1249
+      ],
+      "interpretation": "Capture/content/cursor differences preserved; equality only supports finite sampled pixels, not global behavior."
+    },
+    {
+      "left": "22-food-top-boundary-check.png",
+      "right": "23-food-sheet-collapse.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        303,
+        103,
+        657,
+        1092
+      ],
+      "interpretation": "Capture/content/cursor differences preserved; equality only supports finite sampled pixels, not global behavior."
+    },
+    {
+      "left": "23-food-sheet-collapse.png",
+      "right": "24-sheet-collapse-followup.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        360,
+        159,
+        401,
+        199
+      ],
+      "interpretation": "Capture/content/cursor differences preserved; equality only supports finite sampled pixels, not global behavior."
+    }
+  ],
+  "limits": [
+    "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+    "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+    "H Café Closed-context collapse remains separate and untested.",
+    "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+    "No calls, orders, location permissions, external order destination or credentials.",
+    "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+  ]
+}

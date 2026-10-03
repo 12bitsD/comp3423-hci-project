@@ -1,0 +1,211 @@
+{
+  "audited_at_utc": "2026-10-03T09:33:57.771459+00:00",
+  "goal": "Use the skill to analyze every PolyULife interaction and reconstruct the full application in Figma",
+  "base_commit": "1b678434df2afd4927971c71fe88dde856c1e03f",
+  "coverage_path": "coverage.json",
+  "coverage_sha256": "cff70b7d64bbd87dedb4c75cb928076d08b97fff694fcb141246fd996e0bf4de",
+  "scope_completion_status": "not_verified",
+  "verdict": "incomplete_external_blockers",
+  "counts": {
+    "native_sessions": 27,
+    "native_states": 212,
+    "native_actions": 395,
+    "action_statuses": {
+      "observed": 308,
+      "not_attempted": 78,
+      "attempted_unverified": 9
+    },
+    "figma_mapped_frames": 222,
+    "configured_controls": 436,
+    "scroll_regions": 19,
+    "prototype_runs": 162
+  },
+  "requirements": [
+    {
+      "id": "R1",
+      "requirement": "Computer Use actual native discovery of every entry, control and boundary",
+      "verdict": "incomplete_currently_blocked",
+      "evidence": [
+        "coverage.json:entry_points",
+        "coverage.json:discovery_queue",
+        "coverage.json:states"
+      ],
+      "proof_needed": "Fresh native actions plus screenshots/AX resolving all open discovery branches",
+      "current_blocker": "Current and at least three preceding consecutive goal turns returned Mac locked"
+    },
+    {
+      "id": "R2",
+      "requirement": "Traceable facts, feedback, return semantics and uncertainty for every interaction",
+      "verdict": "incomplete",
+      "evidence": [
+        "coverage.json:actions",
+        "coverage.json:findings"
+      ],
+      "proof_needed": "Exhaustive discovered action inventory and actual executions resolving not_attempted/attempted_unverified",
+      "limits": "395 finite actions are not an app denominator. Observed may include unchanged or ambiguous outcomes."
+    },
+    {
+      "id": "R3",
+      "requirement": "Full Figma states and clickable business journeys",
+      "verdict": "incomplete_currently_blocked",
+      "evidence": [
+        "coverage.json:figma.state_node_mappings",
+        "coverage.json:figma.action_connection_mappings",
+        "coverage.json:figma.prototype_runs",
+        "../../design/polyulife/food-oct3-detail-plan.json"
+      ],
+      "proof_needed": "Complete caller/target/return wiring and replay including query/date/menu/modal behavior beyond fixed samples",
+      "current_blocker": "Earlier Action dropdown navigation configuration rejected for URL-protocol safety; no retry/workaround",
+      "limits": "18 mappings explicitly partial_reference_display_only. Node/control/run counts do not prove completion."
+    },
+    {
+      "id": "R4",
+      "requirement": "Reviewable evidence, separating native observation, prototype replay and human evaluation",
+      "verdict": "partial_evidence_present_full_scope_unverified",
+      "evidence": [
+        "coverage.json:evidence",
+        "README.md",
+        "../../CONTRIBUTING.md"
+      ],
+      "proof_needed": "Full-scope evidence; hash/link validators alone cannot prove app behavior",
+      "limits": "Private Home/data are synthetic DEMO. Phone/device behavior and human evaluation remain unverified."
+    }
+  ],
+  "prototype_relationship_index": {
+    "observed_actions_with_connection_id": 230,
+    "observed_actions_with_scroll_id": 12,
+    "observed_actions_with_replay_step_id": 203,
+    "observed_actions_without_any_explicit_relationship": [
+      "A-ROOM-SLOT",
+      "A-ROOM-DATE-SCROLL",
+      "A-ROOM-PREVIEW-OPEN-SYSTEM",
+      "A-ROOM-PREVIEW-SHARE",
+      "A-ROOM-PREVIEW-PREV",
+      "A-ROOM-PREVIEW-RELOAD",
+      "A-ROOM-PREVIEW-BROWSER-BACK",
+      "A-ROOM-PREVIEW-BROWSER-FORWARD",
+      "A-ROOM-MAP-DRAG",
+      "A-ROOM-PREVIEW-PDF",
+      "A-ASSISTANT-WEB-SCROLL",
+      "A-ASSISTANT-FOCUS-INPUT",
+      "A-CALENDAR-WEEK-SELECT",
+      "A-NOTIFICATION-EMPTY-CONTROL",
+      "A-SETTINGS-LOCATION",
+      "A-FOOD-HOURS-COLLAPSE",
+      "A-STUDY-SEARCH-ATTEMPT",
+      "A-MAINMAP-PAN-ATTEMPT",
+      "A-MAINMAP-SHEET-ATTEMPT",
+      "A-MAINMAP-MARKER-ATTEMPT",
+      "A-QR-USAGE-ATTEMPT",
+      "A-QR-USAGE-SCROLL",
+      "A-PROFILE-SCROLL",
+      "A-NATIVE-OCT2-02",
+      "A-NATIVE-OCT2-03",
+      "A-NATIVE-OCT2-07",
+      "A-NATIVE-OCT2-08",
+      "A-NOTICE-SEARCH-AX-VALUE",
+      "A-FOOD-OCT3-NOTICE-HOME",
+      "A-FOOD-OCT3-OPEN",
+      "A-FOOD-OCT3-BLOCKY-EXPAND",
+      "A-FOOD-OCT3-BLOCKY-COLLAPSE",
+      "A-FOOD-OCT3-HCAFE-EXPAND",
+      "A-FOOD-OCT3-HCAFE-COLLAPSE",
+      "A-FOOD-OCT3-GOURMET-EXPAND",
+      "A-FOOD-OCT3-GOURMET-COLLAPSE",
+      "A-FOOD-OCT3-BACK-HOME",
+      "A-FOOD-OCT3-MENU-OPEN",
+      "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS",
+      "A-FOOD-OCT3-MENU-IMAGE-OPEN",
+      "A-FOOD-OCT3-MENU-IMAGE-CLOSE",
+      "A-FOOD-OCT3-MENU-COFFEE",
+      "A-FOOD-OCT3-MENU-LIBCAFE-OPEN",
+      "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN",
+      "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK",
+      "A-FOOD-OCT3-MENU-LIBCAFE-BACK",
+      "A-FOOD-OCT3-MENU-COFFEE-BACK",
+      "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN",
+      "A-FOOD-OCT3-MENU-MAP-IN",
+      "A-FOOD-OCT3-MENU-MAP-OUT",
+      "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK",
+      "A-FOOD-OCT3-MENU-SANDWICH",
+      "A-FOOD-OCT3-MENU-SANDWICH-BACK",
+      "A-FOOD-OCT3-MENU-BLOCKY-BACK",
+      "A-FOOD-OCT3-TAGS-ASIAN",
+      "A-FOOD-OCT3-TAGS-ASIAN-BACK",
+      "A-FOOD-OCT3-TAGS-WESTERN",
+      "A-FOOD-OCT3-TAGS-WESTERN-BACK",
+      "A-FOOD-OCT3-TAGS-TAIWANESE",
+      "A-FOOD-OCT3-TAGS-TAIWANESE-SELF",
+      "A-FOOD-OCT3-TAGS-TAIWANESE-DETAIL-BACK",
+      "A-FOOD-OCT3-TAGS-TAIWANESE-BACK",
+      "A-FOOD-OCT3-TAGS-CAKE",
+      "A-FOOD-OCT3-TAGS-CAKE-BACK",
+      "A-FOOD-OCT3-TAGS-SALAD",
+      "A-FOOD-OCT3-TAGS-SALAD-BACK"
+    ],
+    "interpretation": "Identifier join only, not a success/coverage metric. Alternate context relationships may exist; presence does not prove complete replay."
+  },
+  "state_relationship_index": {
+    "native_state_ids_without_direct_frame_component_alias_entry": [
+      "S-PHOTO1",
+      "S-DATEDRAG",
+      "S-SUNSCROLLED",
+      "S-PREVIEW-AX-ONLY",
+      "S-PREVIEW-SYSTEM",
+      "S-NATIVE-OCT2-ROOM-MIXED-DATE",
+      "S-NATIVE-OCT2-HOME-RETAINED",
+      "S-FOOD-OCT3-LIST",
+      "S-FOOD-OCT3-HCAFE-OPEN",
+      "S-FOOD-OCT3-MID-THEATRE",
+      "S-FOOD-OCT3-MID-VA",
+      "S-FOOD-OCT3-MID-WXZ",
+      "S-FOOD-OCT3-VA210",
+      "S-FOOD-OCT3-MACHINES",
+      "S-FOOD-OCT3-BOTTOM",
+      "S-FOOD-OCT3-WESTERN-LOWER"
+    ],
+    "interpretation": "Not necessarily missing visuals: photo1/default variant and several list/date positions occur within existing scroll/component content. Context audit needed instead of duplicate frames."
+  },
+  "source_preparation": {
+    "unimported_design_sources": [],
+    "unmapped_imported_drafts": [
+      {
+        "state_id": "S-FOOD-DETAIL-LOADING",
+        "node_id": "946:19",
+        "status": "imported_unconfigured_not_replayed"
+      },
+      {
+        "state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+        "node_id": "949:128",
+        "status": "imported_unconfigured_not_replayed"
+      }
+    ],
+    "interpretation": "No pending prepared SVG imports listed.949:128 is historical and represented via949:63 scroll alias;946:19 navigation remains refused. More static reference displays cannot resolve native discovery or business wiring blockers."
+  },
+  "blocking_conditions": [
+    {
+      "kind": "native_computer_use",
+      "latest_observed_result": "The Mac is locked and automatic unlock could not unlock it.",
+      "verified_this_turn": true,
+      "recurrence": "same result at least three preceding consecutive goal turns and current turn",
+      "required_external_change": "Native Computer Use must be able to observe the unlocked app window; prior human unlock report alone insufficient"
+    },
+    {
+      "kind": "figma_navigation_safety",
+      "latest_known_result": "Action navigation dropdown rejected for URL-protocol safety",
+      "retry_or_workaround": false,
+      "required_external_change": "Supported navigation configuration available without bypassing the refusal"
+    }
+  ],
+  "resume_order": [
+    "Verify actual PolyULife window through Computer Use; preserve current state/login.",
+    "Resume current Food caller chain, hour expansion/collapse, nested Taiwanese detail/query return, settling state and Home return. Observe unknown semantics first.",
+    "When navigation is supported, connect archived caller/result/Back/hour/map edges and replay journeys; do not substitute independent reference starts.",
+    "Continue open Room/Calendar/Notification/Search/Map/Apps/Study/Courses/QR/More/drawer branches then audit whole scope again."
+  ],
+  "safety_notes": [
+    "No fabricated native observation, business submission, credential or setting change.",
+    "Full goal remains intact; this audit does not redefine completion around archived samples.",
+    "Native lock and navigation refusal prevent next essential steps; no completion claim."
+  ]
+}

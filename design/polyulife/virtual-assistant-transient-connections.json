@@ -1,0 +1,161 @@
+{
+  "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+  "connections": [
+    {
+      "source_node_id": "613:600",
+      "trigger_node_id": "613:600",
+      "target_node_id": "42:6",
+      "trigger_name": "root",
+      "trigger": "After delay",
+      "delay_ms": 800,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "action_id": "A-ASSISTANT-HERO-LOAD",
+      "configured_at": "2026-09-30T16:02:15.988Z",
+      "timing_scope": "800ms demo proxy; native latency unmeasured",
+      "connection_id": "C-VA-TRANSIENT-01",
+      "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-VA-TRANSIENT-MORE-001"
+      ],
+      "source_evidence_ids": [
+        "E-ASSISTANT-BEFORE-HERO",
+        "E-ASSISTANT-DETAIL"
+      ],
+      "prototype_evidence_ids": [
+        "E-VA-TRANSIENT-TRACE",
+        "E-VA-TRANSIENT-SCREEN-06"
+      ],
+      "deviation_ids": [
+        "D-VA-SOURCE-STATE-SAMPLING",
+        "D-VA-TRANSIENT-LIMITS"
+      ]
+    },
+    {
+      "source_node_id": "613:627",
+      "trigger_node_id": "613:627",
+      "target_node_id": "42:43",
+      "trigger_name": "root",
+      "trigger": "After delay",
+      "delay_ms": 800,
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "action_id": null,
+      "configured_at": "2026-09-30T16:03:13.469Z",
+      "source_generalization": "Observed loading-to-Disclaimer sequence; automatic prototype transition and800ms timing proxy only.",
+      "connection_id": "C-VA-TRANSIENT-02",
+      "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-VA-TRANSIENT-MORE-001"
+      ],
+      "source_evidence_ids": [
+        "E-ASSISTANT-WEB-LOADING",
+        "E-ASSISTANT-DISCLAIMER"
+      ],
+      "prototype_evidence_ids": [
+        "E-VA-TRANSIENT-TRACE",
+        "E-VA-TRANSIENT-SCREEN-07"
+      ],
+      "deviation_ids": [
+        "D-VA-SOURCE-STATE-SAMPLING",
+        "D-VA-TRANSIENT-LIMITS"
+      ]
+    },
+    {
+      "source_node_id": "12:435",
+      "trigger_node_id": "12:446",
+      "target_node_id": "613:600",
+      "previous_target_node_id": "42:6",
+      "trigger_name": "MoreAssistantCard",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "action_id": "A-MORE-ASSISTANT",
+      "configured_at": "2026-09-30T16:04:00.398Z",
+      "operation": "replace_destination",
+      "connection_id": "C-VA-TRANSIENT-03",
+      "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-VA-TRANSIENT-MORE-001"
+      ],
+      "source_evidence_ids": [
+        "E-ASSISTANT-BEFORE-HERO"
+      ],
+      "prototype_evidence_ids": [
+        "E-VA-TRANSIENT-TRACE",
+        "E-VA-TRANSIENT-SCREEN-08"
+      ],
+      "deviation_ids": [
+        "D-VA-SOURCE-STATE-SAMPLING",
+        "D-VA-TRANSIENT-LIMITS"
+      ]
+    },
+    {
+      "source_node_id": "42:6",
+      "trigger_node_id": "42:26",
+      "target_node_id": "613:627",
+      "previous_target_node_id": "42:43",
+      "trigger_name": "VirtualAssistantWebLink",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "action_id": "A-ASSISTANT-LINK",
+      "configured_at": "2026-09-30T16:04:19.224Z",
+      "operation": "replace_destination",
+      "connection_id": "C-VA-TRANSIENT-04",
+      "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-VA-TRANSIENT-MORE-001"
+      ],
+      "source_evidence_ids": [
+        "E-ASSISTANT-WEB-LOADING"
+      ],
+      "prototype_evidence_ids": [
+        "E-VA-TRANSIENT-TRACE",
+        "E-VA-TRANSIENT-SCREEN-09"
+      ],
+      "deviation_ids": [
+        "D-VA-SOURCE-STATE-SAMPLING",
+        "D-VA-TRANSIENT-LIMITS"
+      ]
+    },
+    {
+      "source_node_id": "613:662",
+      "trigger_node_id": "613:671",
+      "target_node_id": "42:6",
+      "trigger_name": "CloseWeb",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "animation": "Instant",
+      "action_id": "A-ASSISTANT-WEB-CLOSE",
+      "configured_at": "2026-09-30T16:07:29.892Z",
+      "source_fidelity": "Native close from blank confirmed by AX, no independent returned screenshot; isolated reference has no causal input edge.",
+      "connection_id": "C-VA-TRANSIENT-05",
+      "revision_id": "FIGMA-VA-TRANSIENT-20260930",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-VA-TRANSIENT-BLANK-001"
+      ],
+      "source_evidence_ids": [
+        "E-ASSISTANT-TRACE",
+        "E-ASSISTANT-WEB-BLANK"
+      ],
+      "prototype_evidence_ids": [
+        "E-VA-TRANSIENT-TRACE",
+        "E-VA-TRANSIENT-SCREEN-20"
+      ],
+      "deviation_ids": [
+        "D-VA-SOURCE-STATE-SAMPLING",
+        "D-VA-TRANSIENT-LIMITS"
+      ]
+    }
+  ],
+  "scope_completion": "not_verified",
+  "native_arrays_unchanged": true,
+  "timing": "Both800ms demo proxies; no native latency measurements.",
+  "blank_reference": "No input-to-blank edge; isolated close path only."
+}

@@ -1,0 +1,266 @@
+{
+  "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+  "frames": [
+    {
+      "file": "calendar-payment-oct3.svg",
+      "name": "[PAY-DATE:OCT3] Payment — Saturday October3",
+      "node_id": "828:19",
+      "x": 0,
+      "y": 74100,
+      "at": "2026-10-02T18:20:52.598Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t415 stepper (settable, integer) Description: X-position, Value: 0",
+        "\t\t\t\t\t\t\t\t\t416 stepper (settable, integer) Description: Y-position, Value: 74100",
+        "\t\t\t\t\t\t\t\t\t\t443 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t446 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-payment-oct4.svg",
+      "name": "[PAY-DATE:OCT4] Payment — Sunday October4",
+      "node_id": "829:178",
+      "x": 700,
+      "y": 74100,
+      "at": "2026-10-02T18:20:53.631Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t449 stepper (settable, integer) Description: X-position, Value: 700",
+        "\t\t\t\t\t\t\t\t\t450 stepper (settable, integer) Description: Y-position, Value: 74100",
+        "\t\t\t\t\t\t\t\t\t\t477 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t480 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-payment-nov1.svg",
+      "name": "[PAY-DATE:NOV1] Payment — November1 after next month",
+      "node_id": "829:337",
+      "x": 1400,
+      "y": 74100,
+      "at": "2026-10-02T18:20:54.614Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t481 stepper (settable, integer) Description: X-position, Value: 1400",
+        "\t\t\t\t\t\t\t\t\t482 stepper (settable, integer) Description: Y-position, Value: 74100",
+        "\t\t\t\t\t\t\t\t\t\t509 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t512 text field (settable) Description: Height, Value: 1024"
+      ]
+    },
+    {
+      "file": "calendar-payment-oct1.svg",
+      "name": "[PAY-DATE:OCT1] Payment — October1 after previous month",
+      "node_id": "829:510",
+      "x": 2100,
+      "y": 74100,
+      "at": "2026-10-02T18:20:55.422Z",
+      "readback": [
+        "\t\t\t\t\t\t\t\t\t513 stepper (settable, integer) Description: X-position, Value: 2100",
+        "\t\t\t\t\t\t\t\t\t514 stepper (settable, integer) Description: Y-position, Value: 74100",
+        "\t\t\t\t\t\t\t\t\t\t541 text field (settable) Description: Width, Value: 576",
+        "\t\t\t\t\t\t\t\t\t\t544 text field (settable) Description: Height, Value: 1024"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source_node_id": "823:21",
+      "trigger_node_id": "823:67",
+      "trigger_node_name": "Day3",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "828:19",
+      "configured_at": "2026-10-02T18:21:41.501Z",
+      "readback": [
+        "\t\t\t\t\t\t\t893 combo box (collapsed) Position, Value: Scroll with parent, ID: :rom:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t917 combo box (collapsed) Trigger, Value: On click, ID: :rsd:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t923 combo box (collapsed) Action, Value: Navigate to, ID: :rsg:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t930 combo box (collapsed) Destination, Value: [PAY-DATE:OCT3] Payment — Saturday October3, ID: :rsv:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t935 combo box (collapsed) Animation, Value: Instant, ID: :rtc:, Secondary Actions: Expand",
+        "The focused UI element is 930 combo box (collapsed) Destination, Value: [PAY-DATE:OCT3] Payment — Saturday October3, ID: :rsv:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMENT-DATES-01",
+      "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+      "implementation_status": "configured_finite_reference_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMENT-DATES-CYCLE-001",
+        "PROTO-PAYMENT-DATES-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-01",
+        "E-NATIVE-PAYMENT-DATES-01-AX"
+      ],
+      "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+    },
+    {
+      "source_node_id": "828:19",
+      "trigger_node_id": "828:67",
+      "trigger_node_name": "Day4",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-DAY4",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "829:178",
+      "configured_at": "2026-10-02T18:22:52.965Z",
+      "readback": [
+        "\t\t\t\t\t\t\t619 combo box (collapsed) Position, Value: Scroll with parent, ID: :r9q:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t643 combo box (collapsed) Trigger, Value: On click, ID: :rbv:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t649 combo box (collapsed) Action, Value: Navigate to, ID: :rc2:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t656 combo box (collapsed) Destination, Value: [PAY-DATE:OCT4] Payment — Sunday October4, ID: :rch:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t661 combo box (collapsed) Animation, Value: Instant, ID: :rcu:, Secondary Actions: Expand",
+        "The focused UI element is 656 combo box (collapsed) Destination, Value: [PAY-DATE:OCT4] Payment — Sunday October4, ID: :rch:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMENT-DATES-02",
+      "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+      "implementation_status": "configured_finite_reference_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMENT-DATES-CYCLE-001",
+        "PROTO-PAYMENT-DATES-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-02",
+        "E-NATIVE-PAYMENT-DATES-02-AX"
+      ],
+      "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+    },
+    {
+      "source_node_id": "829:178",
+      "trigger_node_id": "829:185",
+      "trigger_node_name": "NextMonth",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "829:337",
+      "configured_at": "2026-10-02T18:24:16.050Z",
+      "readback": [
+        "\t\t\t\t\t\t\t760 combo box (collapsed) Position, Value: Scroll with parent, ID: :rf4:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t784 combo box (collapsed) Trigger, Value: On click, ID: :rfb:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t790 combo box (collapsed) Action, Value: Navigate to, ID: :rfe:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t797 combo box (collapsed) Destination, Value: [PAY-DATE:NOV1] Payment — November1 after next month, ID: :rft:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t802 combo box (collapsed) Animation, Value: Instant, ID: :rga:, Secondary Actions: Expand",
+        "The focused UI element is 797 combo box (collapsed) Destination, Value: [PAY-DATE:NOV1] Payment — November1 after next month, ID: :rft:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMENT-DATES-03",
+      "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+      "implementation_status": "configured_finite_reference_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMENT-DATES-CYCLE-001",
+        "PROTO-PAYMENT-DATES-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-03",
+        "E-NATIVE-PAYMENT-DATES-04",
+        "E-NATIVE-PAYMENT-DATES-03-AX",
+        "E-NATIVE-PAYMENT-DATES-04-AX"
+      ],
+      "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+    },
+    {
+      "source_node_id": "829:337",
+      "trigger_node_id": "829:342",
+      "trigger_node_name": "PreviousMonth",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-PREV-MONTH",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "829:510",
+      "configured_at": "2026-10-02T18:24:25.546Z",
+      "readback": [
+        "\t\t\t\t\t\t\t934 combo box (collapsed) Position, Value: Scroll with parent, ID: :ria:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t958 combo box (collapsed) Trigger, Value: On click, ID: :rih:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t964 combo box (collapsed) Action, Value: Navigate to, ID: :rik:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t971 combo box (collapsed) Destination, Value: [PAY-DATE:OCT1] Payment — October1 after previous month, ID: :rj3:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t976 combo box (collapsed) Animation, Value: Instant, ID: :rjg:, Secondary Actions: Expand",
+        "The focused UI element is 971 combo box (collapsed) Destination, Value: [PAY-DATE:OCT1] Payment — October1 after previous month, ID: :rj3:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMENT-DATES-04",
+      "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+      "implementation_status": "configured_finite_reference_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMENT-DATES-CYCLE-001",
+        "PROTO-PAYMENT-DATES-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-05",
+        "E-NATIVE-PAYMENT-DATES-05-AX"
+      ],
+      "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+    },
+    {
+      "source_node_id": "829:510",
+      "trigger_node_id": "829:554",
+      "trigger_node_name": "Day2",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+      "trigger": "On click",
+      "behavior": "Navigate to",
+      "target_node_id": "823:21",
+      "configured_at": "2026-10-02T18:24:30.698Z",
+      "readback": [
+        "\t\t\t\t\t\t\t1252 combo box (collapsed) Position, Value: Scroll with parent, ID: :rme:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1276 combo box (collapsed) Trigger, Value: On click, ID: :rod:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t1282 combo box (collapsed) Action, Value: Navigate to, ID: :rog:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1289 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rov:, Secondary Actions: Expand",
+        "\t\t\t\t\t\t1294 combo box (collapsed) Animation, Value: Instant, ID: :rpc:, Secondary Actions: Expand",
+        "The focused UI element is 1289 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rov:, Secondary Actions: Expand"
+      ],
+      "connection_id": "C-PAYMENT-DATES-05",
+      "revision_id": "FIGMA-PAYMENT-DATES-20261003",
+      "implementation_status": "configured_finite_reference_replayed_partial",
+      "prototype_run_ids": [
+        "PROTO-PAYMENT-DATES-CYCLE-001",
+        "PROTO-PAYMENT-DATES-CYCLE-002"
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-PAYMENT-DATES-06",
+        "E-NATIVE-PAYMENT-DATES-06-AX"
+      ],
+      "source_fidelity": "Observed finite Payment date/month result; mouse hotspots represent visible day/month control. Initial unchanged upper-case AX attempt preserved separately, not simulated as a delay."
+    }
+  ],
+  "flow": {
+    "name": "Reference · Oct2 Calendar filters & Notice — partial",
+    "description": "Oct2/Oct3 native fullscreen reference, 24 finite frames: All/None → Class/detail/Notice → Exam → Payment draft/result ↔ scrolled Home DEMO. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2; repeated twice plus Oct2 Home roundtrip. Native lower-case increment/decrement succeeds, upper-case Increment initially unchanged; both recorded. Month changes select day1 and keep Payment in this context. Private course/Home/exam values are synthetic DEMO; individual date markers omitted. Notice800ms illustrative, not native latency or successful load. Geography raster, live map unverified; two old None X inferred. Payment reopen/X, arbitrary dates/modes/combinations/semester bounds, Home on new dates, other callers and full app/fidelity remain unverified. Historical black local preview disproved by normal saved pixels/hash. AX URL may lag during Present; actual saved pixels determine rendered state.",
+    "readback": [
+      "~\t\t\t\t\t286 container Oct2/Oct3 native fullscreen reference, 24 finite frames: All/None → Class/detail/Notice → Exam → Payment draft/result ↔ scrolled Home DEMO. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2; repeated twice plus Oct2 Home roundtrip. Native lower-case increment/decrement succeeds, upper-case Increment initially unchanged; both recorded. Month changes select day1 and keep Payment in this context. Private course/Home/exam values are synthetic DEMO; individual date markers omitted. Notice800ms illustrative, not native latency or successful load. Geography raster, live map unverified; two old None X inferred. Payment reopen/X, arbitrary dates/modes/combinations/semester bounds, Home on new dates, other callers and full app/fidelity remain unverified. Historical black local preview disproved by normal saved pixels/hash. AX URL may lag during Present; actual saved pixels determine rendered state.",
+      "~\t\t\t\t\t\t287 text Oct2/Oct3 native fullscreen reference, 24 finite frames: All/None → Class/detail/Notice → Exam → Payment draft/result ↔ scrolled Home DEMO. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2; repeated twice plus Oct2 Home roundtrip. Native lower-case increment/decrement succeeds, upper-case Increment initially unchanged; both recorded. Month changes select day1 and keep Payment in this context. Private course/Home/exam values are synthetic DEMO; individual date markers omitted. Notice800ms illustrative, not native latency or successful load. Geography raster, live map unverified; two old None X inferred. Payment reopen/X, arbitrary dates/modes/combinations/semester bounds, Home on new dates, other callers and full app/fidelity remain unverified. Historical black local preview disproved by normal saved pixels/hash. AX URL may lag during Present; actual saved pixels determine rendered state.",
+      "The focused UI element is 286 container Oct2/Oct3 native fullscreen reference, 24 finite frames: All/None → Class/detail/Notice → Exam → Payment draft/result ↔ scrolled Home DEMO. Payment dates: Oct2 → Oct3 → Oct4 → next month Nov1 → previous month Oct1 → Oct2; repeated twice plus Oct2 Home roundtrip. Native lower-case increment/decrement succeeds, upper-case Increment initially unchanged; both recorded. Month changes select day1 and keep Payment in this context. Private course/Home/exam values are synthetic DEMO; individual date markers omitted. Notice800ms illustrative, not native latency or successful load. Geography raster, live map unverified; two old None X inferred. Payment reopen/X, arbitrary dates/modes/combinations/semester bounds, Home on new dates, other callers and full app/fidelity remain unverified. Historical black local preview disproved by normal saved pixels/hash. AX URL may lag during Present; actual saved pixels determine rendered state."
+    ],
+    "start_node_id": "791:177",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+    "tested_run_ids": [
+      "PROTO-OCT2-NONE-CANCEL-001",
+      "PROTO-OCT2-NONE-APPLY-001",
+      "PROTO-OCT2-NONE-RESTART-001",
+      "PROTO-OCT2-CLASS-NOTICE-001",
+      "PROTO-OCT2-NOTICE-RECOVERY-001",
+      "PROTO-OCT2-EXAM-PAYMENT-DRAFT-001",
+      "PROTO-OCT3-PAYMENT-APPLY-001",
+      "PROTO-OCT3-PAYMENT-APPLY-002",
+      "PROTO-OCT3-PAYMENT-HOME-001",
+      "PROTO-OCT3-PAYMENT-HOME-CAPTURE-002",
+      "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003",
+      "PROTO-PAYMENT-DATES-CYCLE-001",
+      "PROTO-PAYMENT-DATES-CYCLE-002",
+      "PROTO-PAYMENT-DATES-HOME-003"
+    ],
+    "scope": "24 finite dated reference frames, five new Payment date/month controls and restored-Oct2 Home regression; remaining dates/modes/combination/callers/full app unverified.",
+    "updated_at": "2026-10-02T18:26:25.541487+00:00"
+  },
+  "prototype_run_ids": [
+    "PROTO-PAYMENT-DATES-CYCLE-001",
+    "PROTO-PAYMENT-DATES-CYCLE-002",
+    "PROTO-PAYMENT-DATES-HOME-003"
+  ],
+  "limits": [
+    "Five finite observed date/month transitions only; arbitrary date combinations/modes and semester bounds unimplemented.",
+    "Home regression performed after restored October2 only; Home navigation on four new dates not wired.",
+    "Payment reopen/X/other callers and full app/fidelity not_verified.",
+    "Fonts/icon geometry approximate; individual private date markers omitted.",
+    "AX URL lagged at some immediate checks; actual saved pixels inspected for destination."
+  ],
+  "events": [
+    {
+      "kind": "editor_selection_failure",
+      "result": "Destination text collided with root-name selection while interaction popup remained open; old day child zoomed instead of desired root. No new connection logged for that failed step. Corrected with scoped popup close, unique root row, scroll layer list and selected-root readback."
+    },
+    {
+      "kind": "observation_lag",
+      "result": "Some immediate AX URLs indicated source while actual screenshot rendered target; saved pixel inspection confirms date/month targets. No failed navigation or black-screen claim from URL alone."
+    }
+  ]
+}

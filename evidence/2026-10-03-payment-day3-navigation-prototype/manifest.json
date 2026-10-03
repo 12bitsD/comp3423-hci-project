@@ -1,0 +1,264 @@
+{
+  "kind": "actual_figma_payment_day3_home_roundtrips_and_month_regression",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-oct2-source.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:39.694Z",
+      "description": "oct2-source",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "01-day3-source.png",
+      "sha256": "faaecaf0aaae67ffe3be41dcc5fc21dde911e1cd4424afb7c69ca5b10b33aba5",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:39.913Z",
+      "description": "day3-source",
+      "node_id": "828:19",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "02-home-from-day3.png",
+      "sha256": "4ed91e0fd09c639c0a99fc43e1e79aa6a53c1a0adeda974c401f3d9db6a85a78",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:40.143Z",
+      "description": "home-from-day3",
+      "node_id": "832:19",
+      "state_id": "S-NATIVE-PAYNAV-HOME3",
+      "action_id": "A-NATIVE-PAYNAV-HOME3",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "03-day3-return.png",
+      "sha256": "faaecaf0aaae67ffe3be41dcc5fc21dde911e1cd4424afb7c69ca5b10b33aba5",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:44.964Z",
+      "description": "day3-return",
+      "node_id": "828:19",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "action_id": "A-NATIVE-PAYNAV-CALENDAR3",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "04-home-repeat.png",
+      "sha256": "4ed91e0fd09c639c0a99fc43e1e79aa6a53c1a0adeda974c401f3d9db6a85a78",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:45.232Z",
+      "description": "home-repeat",
+      "node_id": "832:19",
+      "state_id": "S-NATIVE-PAYNAV-HOME3",
+      "action_id": "A-NATIVE-PAYNAV-HOME3",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "05-day3-repeat-return.png",
+      "sha256": "faaecaf0aaae67ffe3be41dcc5fc21dde911e1cd4424afb7c69ca5b10b33aba5",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:45.462Z",
+      "description": "day3-repeat-return",
+      "node_id": "828:19",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+      "action_id": "A-NATIVE-PAYNAV-CALENDAR3",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "06-day4-after-home.png",
+      "sha256": "ca90dc0baa7da7dfa9bad53c523c6cd1aadc88cd3832cbd3c6fae7e6e31555a6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:54.924Z",
+      "description": "day4-after-home",
+      "node_id": "829:178",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-DAY4",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-DAY4",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "07-nov1-after-home.png",
+      "sha256": "8dc49d5e4dcbd34dbfa13d04a204d003f523afb7d151fb4372fbf81775a7b544",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:55.187Z",
+      "description": "nov1-after-home",
+      "node_id": "829:337",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-NOV",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-NEXT-MONTH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "08-oct1-after-home.png",
+      "sha256": "d23a3938b594dcd78bb1cd030b0bb8efec5aeb6ab6d3623a0c9f6057da8195d1",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:55.449Z",
+      "description": "oct1-after-home",
+      "node_id": "829:510",
+      "state_id": "S-NATIVE-OCT3-PAYMENT-OCT1",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-PREV-MONTH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "09-oct2-after-home-cycle.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-02T18:37:55.676Z",
+      "description": "oct2-after-home-cycle",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-OCT3-PAYMENT-RESTORE-DAY2",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; Home values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed"
+    },
+    {
+      "file": "editor-flow.png",
+      "sha256": "23bc0ed01291937e7f1a891781485dd94fe975d34ae5575ba27963f53a3aea1d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-02T18:38:44.573456+00:00",
+      "description": "Actual reference scope25 frames33 controls and unverified limits",
+      "source": "Actual Computer Use Figma editor screenshot",
+      "redaction": "Account header half-open[1039,0,1124,49] masked"
+    }
+  ],
+  "app_crop_xyxy": [
+    425,
+    60,
+    785,
+    700
+  ],
+  "limits": [
+    "Two finite observed date-specific Home contexts use fixed navigation; universal persistence still unimplemented.",
+    "New Home personal fields wholly synthetic DEMO; static scrolled sample, other Home controls not connected.",
+    "Filter and mode remain native targeting gaps; no fictional overlay or mode added.",
+    "Prototype repeat pixels do not prove native fidelity or human usability; complete application not_verified."
+  ],
+  "events": [
+    {
+      "kind": "editor_import_readback_correction",
+      "result": "SVG import succeeded, initial dimension check ran in Prototype tab and lacked fields. Switched to Design, verified576x1024 and reused existing832:19; no duplicate import."
+    },
+    {
+      "kind": "editor_locator_correction",
+      "result": "Row click hit layer lock; toggled back and used scoped row/name after exact text collided with sidebar target. Connections independently read back and Present replayed."
+    },
+    {
+      "kind": "flow_locator_correction",
+      "result": "Flow starting point button absent after root selection; fresh AX revealed Edit flow description, used that button."
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 1,
+      "b": 3,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype finite state; not native fidelity"
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype finite state; not native fidelity"
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype finite state; not native fidelity"
+    },
+    {
+      "a": 0,
+      "b": 9,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated prototype finite state; not native fidelity"
+    },
+    {
+      "a": 6,
+      "prior_file": "../2026-10-03-calendar-payment-dates-prototype/02-oct4-selected.png",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Existing dated prototype target after new Home path; not native fidelity"
+    },
+    {
+      "a": 7,
+      "prior_file": "../2026-10-03-calendar-payment-dates-prototype/03-nov1-after-next-month.png",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Existing dated prototype target after new Home path; not native fidelity"
+    },
+    {
+      "a": 8,
+      "prior_file": "../2026-10-03-calendar-payment-dates-prototype/04-oct1-after-previous-month.png",
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Existing dated prototype target after new Home path; not native fidelity"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "36a8ac52e443d2ab84fcafa9b767383a910baf6dd489409c54ddc7e23a3bd5ea",
+    "dimensions": [
+      1440,
+      2040
+    ],
+    "source": "Ten actual masked Present samples"
+  }
+}

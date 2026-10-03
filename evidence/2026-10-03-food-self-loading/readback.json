@@ -1,0 +1,582 @@
+{
+  "log": [
+    {
+      "file": "00-import-root.png",
+      "kind": "editor",
+      "note": "Actual new root1045:19 at2800,100000,576x1024; source historical Taiwanese self-result inline map loading, no settled map",
+      "captured_at": "2026-10-03T09:26:10.568Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-19&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"100000\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\": \"576\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "01-inline-loading-image.png",
+      "kind": "editor",
+      "note": "Actual inline loading Image independently selected; crop60x60 at258,758, no settled geography",
+      "captured_at": "2026-10-03T09:26:21.700Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-74&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"258\"",
+        "    - spinbutton \"Y-position\": \"758\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\": \"60\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\": \"60\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "02-expand-map-appearance.png",
+      "kind": "editor",
+      "note": "Actual separate expand-map Image73x69 at445,755; raster appearance, unconfigured navigation",
+      "captured_at": "2026-10-03T09:26:23.009Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-76&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"445\"",
+        "    - spinbutton \"Y-position\": \"755\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\": \"73\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\": \"69\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "03-hero-image.png",
+      "kind": "editor",
+      "note": "Actual archived hero Image278x226 at151,100; cursor/halo retained",
+      "captured_at": "2026-10-03T09:26:24.133Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-26&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"151\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\": \"278\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\": \"226\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "04-body-title.png",
+      "kind": "editor",
+      "note": "Actual independent complete body title Text; typography inspected",
+      "captured_at": "2026-10-03T09:26:25.328Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-30&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "    - spinbutton \"X-position\": \"35\"",
+        "    - spinbutton \"Y-position\": \"355\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\" [disabled]: \"445\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Bold",
+        "  - 'listbox \"Font size: 22 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 22 px\"': \"22\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "05-reference-flow.png",
+      "kind": "editor",
+      "note": "Actual independent self-loading reference start and copied link; no caller/result/Back navigation",
+      "captured_at": "2026-10-03T09:26:44.997Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-19&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3] [selected]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Edit flow title\": Reference · Block Y self result — Taiwanese caller — inline map loading",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "06-first-present.png",
+      "kind": "present",
+      "note": "Actual independent self-detail loading sample; no timed loaded state or native journey",
+      "captured_at": "2026-10-03T09:27:00.699Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=1045-19&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1045%3A19",
+      "verified_outcome": "failure_missing_three_images_in_saved_actual_Present"
+    },
+    {
+      "file": "07-prototype-image-selection.png",
+      "kind": "editor",
+      "note": "Image selected while Prototype tab remained active; Image fill button locator had no match/no input. Explicit Design selection follows",
+      "captured_at": "2026-10-03T09:27:37.436Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-26&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - toolbar \"Image\":"
+      ],
+      "verified_outcome": "no-match_fill_button_while_Prototype_active; no_input_sent"
+    },
+    {
+      "file": "08-hero-reuploaded.png",
+      "kind": "editor",
+      "note": "Same observed public hero asset reuploaded through actual Figma Image dialog after first Present lacked images",
+      "captured_at": "2026-10-03T09:27:55.252Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-26&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"151\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\": \"278\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\": \"226\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\" [active]:",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "09-loading-reuploaded.png",
+      "kind": "editor",
+      "note": "Observed60x60 loading mark reuploaded; layer geometry preserved, no automatic transition",
+      "captured_at": "2026-10-03T09:28:12.148Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-74&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"258\"",
+        "    - spinbutton \"Y-position\": \"758\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\": \"60\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\": \"60\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\" [active]:",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "10-expand-map-reuploaded.png",
+      "kind": "editor",
+      "note": "Observed73x69 expand-map appearance reuploaded; no navigation configured",
+      "captured_at": "2026-10-03T09:28:15.454Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-76&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"445\"",
+        "    - spinbutton \"Y-position\": \"755\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\": \"73\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\": \"69\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\" [active]:",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "11-repair-present.png",
+      "kind": "present",
+      "note": "Actual independent self-detail loading sample; no timed loaded state or native journey",
+      "captured_at": "2026-10-03T09:28:21.312Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=1045-19&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1045%3A19",
+      "verified_outcome": "saved_pixels_show_all_three_images_after_same_asset_reuploads"
+    },
+    {
+      "file": "12-reopen-present.png",
+      "kind": "present",
+      "note": "Actual independent self-detail loading sample; no timed loaded state or native journey",
+      "captured_at": "2026-10-03T09:28:32.419Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=1045-19&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1045%3A19",
+      "verified_outcome": "saved_pixels_show_all_three_images_on_reopen"
+    },
+    {
+      "file": "13-final-root.png",
+      "kind": "editor",
+      "note": "Actual root1045:19 remains2800,100000,576x1024 after same-asset image reuploads; no nav/scroll configured",
+      "captured_at": "2026-10-03T09:28:34.209Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=1045-19&t=VaTKZ3kYKvdYlqzy-0",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"ExpandImage\" [level=3] [selected]:",
+        "      - gridcell \"ExpandImage\":",
+        "        - generic: ExpandImage",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"100000\"",
+        "    - generic \"Width\":",
+        "      - textbox \"Width\": \"576\"",
+        "    - generic \"Height\":",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    }
+  ],
+  "flow": {
+    "name": "Reference · Block Y self result — Taiwanese caller — inline map loading",
+    "start_node_id": "1045:19",
+    "description": "Independent archived E-FOOD-TAGS-07 sample of Taiwanese query opening Block Y self-detail. Inline map area contains a loading mark and expand button appearance, not settled geography. No automatic delay, settled state or loading latency inferred. Header/body text editable; hero/loading/expand-map appearance are separate raster source crops, including observed cursor/halo. No query result/caller/Back/image/map navigation or scrolling configured.576x1024 finite reference; exact fonts/card/bounds unknown. Full app/fidelity not_verified; native evidence, Figma reference and human evaluation separate.",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=1045-19&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1045%3A19&show-proto-sidebar=1"
+  },
+  "pixel_comparisons": [
+    {
+      "left": "06-first-present.png",
+      "right": "11-repair-present.png",
+      "check": "first_failure_versus_repaired",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": false,
+      "difference_bbox": [
+        93,
+        51,
+        325,
+        517
+      ]
+    },
+    {
+      "left": "11-repair-present.png",
+      "right": "12-reopen-present.png",
+      "check": "repaired_reopen",
+      "crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "image_region_checks": [
+    {
+      "file": "06-first-present.png",
+      "regions": [
+        {
+          "name": "hero",
+          "crop_xyxy": [
+            360,
+            122,
+            531,
+            262
+          ],
+          "channel_extrema": [
+            [
+              254,
+              255
+            ],
+            [
+              254,
+              255
+            ],
+            [
+              254,
+              255
+            ]
+          ]
+        },
+        {
+          "name": "loading",
+          "crop_xyxy": [
+            426,
+            527,
+            464,
+            565
+          ],
+          "channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "name": "expand_map",
+          "crop_xyxy": [
+            541,
+            525,
+            586,
+            569
+          ],
+          "channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "11-repair-present.png",
+      "regions": [
+        {
+          "name": "hero",
+          "crop_xyxy": [
+            360,
+            122,
+            531,
+            262
+          ],
+          "channel_extrema": [
+            [
+              35,
+              255
+            ],
+            [
+              28,
+              255
+            ],
+            [
+              33,
+              255
+            ]
+          ]
+        },
+        {
+          "name": "loading",
+          "crop_xyxy": [
+            426,
+            527,
+            464,
+            565
+          ],
+          "channel_extrema": [
+            [
+              82,
+              255
+            ],
+            [
+              37,
+              255
+            ],
+            [
+              47,
+              255
+            ]
+          ]
+        },
+        {
+          "name": "expand_map",
+          "crop_xyxy": [
+            541,
+            525,
+            586,
+            569
+          ],
+          "channel_extrema": [
+            [
+              36,
+              255
+            ],
+            [
+              36,
+              255
+            ],
+            [
+              36,
+              255
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "12-reopen-present.png",
+      "regions": [
+        {
+          "name": "hero",
+          "crop_xyxy": [
+            360,
+            122,
+            531,
+            262
+          ],
+          "channel_extrema": [
+            [
+              35,
+              255
+            ],
+            [
+              28,
+              255
+            ],
+            [
+              33,
+              255
+            ]
+          ]
+        },
+        {
+          "name": "loading",
+          "crop_xyxy": [
+            426,
+            527,
+            464,
+            565
+          ],
+          "channel_extrema": [
+            [
+              82,
+              255
+            ],
+            [
+              37,
+              255
+            ],
+            [
+              47,
+              255
+            ]
+          ]
+        },
+        {
+          "name": "expand_map",
+          "crop_xyxy": [
+            541,
+            525,
+            586,
+            569
+          ],
+          "channel_extrema": [
+            [
+              36,
+              255
+            ],
+            [
+              36,
+              255
+            ],
+            [
+              36,
+              255
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "preview_conflict": {
+    "raw_signature_hex": "ffd8ffe000104a46",
+    "raw_encoding": "JPEG under.png filename",
+    "tool_preview_black": true,
+    "saved_app_crop_mean": [
+      244.7620951227764,
+      244.12323047062804,
+      242.79822023184173
+    ],
+    "saved_pixels_show_light_page_and_three_assets": true,
+    "cause": "not_isolated"
+  },
+  "limits": [
+    "Archived E-FOOD-TAGS-07 Taiwanese self-result detail shows inline map loading mark. No settled nested map sample or latency saved; no timer or automatic loaded state invented.",
+    "Actual root1045:19 at2800,100000,576x1024; title Text Inter Bold22px at35,355. Header/body/tags remain editable reconstruction; exact geometry/fonts/native bounds unverified.",
+    "Hero278x226 at151,100, loading60x60 at258,758 and expand-map73x69 at445,755 are separate public screenshot crops. Captured cursor/halo retained; raster expand button has no navigation. Card bottom radius38/bodyF7F9F6 approximate visible sample.",
+    "First actual Present06 saved pixels lack all three images, despite editor Image fills and tool preview showing hero. Same assets reuploaded through Figma image upload UI; actual saved11 and12 show all images and app crops equal. Failure and tool/file discrepancy retained; cause not isolated, future image reliability unknown.",
+    "Image fill locator initially had no match while Prototype active; no input sent. Explicit Design tab then upload recovered, failed07 selection captured.",
+    "Current native read returns Mac locked; no new native session/state/action, settings change or business submission.",
+    "Earlier Action navigation URL-protocol refusal not retried or bypassed; import/source/layout/independent reference and image upload are separate operations. Query-result/Back/caller/image/map navigation and full application/fidelity remain not_verified."
+  ]
+}

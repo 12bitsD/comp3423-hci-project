@@ -1,0 +1,322 @@
+{
+  "sources": [
+    {
+      "file": "notification-record-list-unread.svg",
+      "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-04"
+      ],
+      "sha256": "ed0018f788a2cbc8c3bedfe10581cec465316f6b3efd00ed91e065b4fe002def",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "865:19",
+      "actual_layer_name": "[NOTICE:UNREAD] Notification — unread workshop",
+      "x": 0,
+      "y": 82000,
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough",
+      "replaced_node_id": "860:19",
+      "imported_at": "2026-10-03T02:42:35.188Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-02",
+        "E-NOTICE-RECORD-PROTO-21"
+      ],
+      "historical_editor_evidence_path": "../../evidence/2026-10-03-notification-import-wip/notice-independent.png"
+    },
+    {
+      "file": "notification-record-list-read.svg",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-15"
+      ],
+      "sha256": "fa772a3647c780364a6c9c5ff223c2a9be432ef2b55cae78a12037d1b4a7d7c2",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "865:65",
+      "actual_layer_name": "[NOTICE:READ] Notification — read workshop",
+      "x": 700,
+      "y": 82000,
+      "imported_at": "2026-10-03T02:42:47.340Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-12",
+        "E-NOTICE-RECORD-PROTO-14",
+        "E-NOTICE-RECORD-PROTO-17",
+        "E-NOTICE-RECORD-PROTO-18",
+        "E-NOTICE-RECORD-PROTO-19",
+        "E-NOTICE-RECORD-PROTO-31",
+        "E-NOTICE-RECORD-PROTO-36",
+        "E-NOTICE-RECORD-PROTO-39"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
+    },
+    {
+      "file": "notification-record-detail-initial.svg",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-05"
+      ],
+      "sha256": "bc1bfb93baa577bae733d6a14f667bb020547a46732df3bd9773e2a343dc0092",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "865:109",
+      "actual_layer_name": "[NOTICE:INITIAL] Workshop detail — initial no image",
+      "x": 1400,
+      "y": 82000,
+      "imported_at": "2026-10-03T02:42:50.171Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-03"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
+    },
+    {
+      "file": "notification-record-detail-loaded.svg",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-24"
+      ],
+      "sha256": "73fcf3187fc4915ca1587a4e9af375302f0d8ecb5cd8484529e1d09d153d10eb",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "865:133",
+      "actual_layer_name": "[NOTICE:LOADED] Workshop detail — observed banner",
+      "x": 2100,
+      "y": 82000,
+      "imported_at": "2026-10-03T02:42:55.600Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-04",
+        "E-NOTICE-RECORD-PROTO-09",
+        "E-NOTICE-RECORD-PROTO-11",
+        "E-NOTICE-RECORD-PROTO-13",
+        "E-NOTICE-RECORD-PROTO-24",
+        "E-NOTICE-RECORD-PROTO-26",
+        "E-NOTICE-RECORD-PROTO-27",
+        "E-NOTICE-RECORD-PROTO-30",
+        "E-NOTICE-RECORD-PROTO-32",
+        "E-NOTICE-RECORD-PROTO-35"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
+    },
+    {
+      "file": "notification-record-image-expanded.svg",
+      "state_id": "S-NATIVE-NOTICE-IMAGE",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-13"
+      ],
+      "sha256": "e80d99fa95e2f4fb43039e22cd6ba2e924c445ee83b425e2b2d12a2bb3d31ea0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "865:163",
+      "actual_layer_name": "[NOTICE:IMAGE] Workshop banner — expanded",
+      "x": 2800,
+      "y": 82000,
+      "imported_at": "2026-10-03T02:42:58.145Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-10",
+        "E-NOTICE-RECORD-PROTO-25"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
+    },
+    {
+      "file": "notification-record-web-loading.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-21"
+      ],
+      "sha256": "3e9ee90b68f006dbfdb79bbed3838920eaa41bbf7257f08517bf453ab585023d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "865:171",
+      "actual_layer_name": "[NOTICE:LOAD] Workshop webpage — loading",
+      "x": 3500,
+      "y": 82000,
+      "imported_at": "2026-10-03T02:43:00.778Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-05",
+        "E-NOTICE-RECORD-PROTO-22",
+        "E-NOTICE-RECORD-PROTO-28",
+        "E-NOTICE-RECORD-PROTO-33"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
+    },
+    {
+      "file": "notification-record-web-blank.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-22"
+      ],
+      "sha256": "eeb22380a1710d0939bec7157b23b4100be74fb25a66b719ca151bc75dc777a3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "865:205",
+      "actual_layer_name": "[NOTICE:BLANK] Workshop webpage — observed blank",
+      "x": 4200,
+      "y": 82000,
+      "imported_at": "2026-10-03T02:43:07.043Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-06",
+        "E-NOTICE-RECORD-PROTO-08",
+        "E-NOTICE-RECORD-PROTO-23",
+        "E-NOTICE-RECORD-PROTO-29",
+        "E-NOTICE-RECORD-PROTO-34"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
+    },
+    {
+      "file": "notification-record-web-menu.svg",
+      "state_id": "S-NATIVE-NOTICE-WEB-MENU",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-08"
+      ],
+      "sha256": "a48312fed31e0d6a0c36ab51d4acea6f67c09a083087cf7d92fdb35f0fd7444f",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "node_id": "865:238",
+      "actual_layer_name": "[NOTICE:MENU] Workshop webpage — menu",
+      "x": 4900,
+      "y": 82000,
+      "imported_at": "2026-10-03T02:43:09.494Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-07"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
+    },
+    {
+      "file": "notification-record-calendar-read.svg",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-18"
+      ],
+      "sha256": "3c40fafde470e013f3a0ead69ebfc0a8b9648a32bee03ddadb79541703115dde",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_configured_replayed_partial",
+      "context_variant": "20261003-payment-after-notice-read",
+      "node_id": "865:287",
+      "actual_layer_name": "[NOTICE:CALENDAR] Payment — after notice read",
+      "x": 5600,
+      "y": 82000,
+      "imported_at": "2026-10-03T02:43:12.218Z",
+      "prototype_run_ids": [
+        "PROTO-NOTICE-RECORD-FIRST-001",
+        "PROTO-NOTICE-RECORD-EARLY-002",
+        "PROTO-NOTICE-RECORD-RECOVERY-003"
+      ],
+      "prototype_evidence_ids": [
+        "E-NOTICE-RECORD-PROTO-15",
+        "E-NOTICE-RECORD-PROTO-16",
+        "E-NOTICE-RECORD-PROTO-37",
+        "E-NOTICE-RECORD-PROTO-38"
+      ],
+      "limits": "Finite notice only; visual differences and unconfigured controls remain; see prototype walkthrough"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/notification-workshop-banner.png",
+      "sha256": "cda8abd7bf10aadc59688e9a5e853f4cab0578ce059fc6393c7037febac0dea9",
+      "source_evidence_id": "E-NATIVE-NOTICE-13",
+      "crop_xyxy": [
+        0,
+        415,
+        576,
+        609
+      ],
+      "dimensions": [
+        576,
+        194
+      ],
+      "limits": "Raster institutional illustration; editable control added separately. No private photo/identity."
+    },
+    {
+      "file": "assets/notification-web-loading-mark.png",
+      "sha256": "1792604512814d1414d929e3023ad10c82143c52da19fa2797e6c93e8af72ef8",
+      "source_evidence_id": "E-NATIVE-NOTICE-21",
+      "crop_xyxy": [
+        258,
+        532,
+        319,
+        594
+      ],
+      "dimensions": [
+        61,
+        62
+      ],
+      "limits": "Static sampled mark, not rotating native animation."
+    }
+  ],
+  "limits": [
+    "One notification and finite read-state roundtrip; no arbitrary feed or queries.",
+    "No-image to loaded detail and web loading timings are illustrative proxies.",
+    "Payment after-read clone initially has only sampled Notification return; other date/mode/home controls not copied or claimed."
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-picker-frame.png",
+      "sha256": "596c7f5dadf33724deb8f3711cba4521fa08e033b17d883f56aa202f523d81fd",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:33:52.300Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:19"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "02-wheel-frame.png",
+      "sha256": "fb199223e57c8f1128c1eb9b35718c6418067d433f1c3842e819a11ccaa7d14d",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:34:10.895Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-WHEEL-SCROLLED",
+        "node": "558:126"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "03-open-connection.png",
+      "sha256": "1dc6092e5a87a976486e9b8dde73d771f988bf932acdd4c19f868ba284206306",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:35:18.990Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:977"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "04-picker-close-connection.png",
+      "sha256": "58364c67eb8180059d17eef62dd2f7315fc394aa17d0e41b6d98c14d81d7031a",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:36:28.033Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:26"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "05-drag-connection.png",
+      "sha256": "703c8da9e34febeb629dc20f043f86536f211c98efc558fc0c9464a95f2cc0d6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:37:00.292Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:37"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "06-wheel-close-connection.png",
+      "sha256": "e24a237570d89c0fcd9aaad26e22e3b9b78e454c0735da74387d9854dafe7620",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:37:40.837Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-WHEEL-SCROLLED",
+        "node": "558:133"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "07-week-baseline.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:37:56.158Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "08-picker-open.png",
+      "sha256": "71382420051974123e7eeda54aab2699086bffc69b74e7da2b7dc2bd496c40e6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:37:56.539Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "09-week6-inert.png",
+      "sha256": "76fe2ee6cb45b56b9a775dfba4c71decd31533bc7749ea702d1faa66c6814ecd",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:06.012Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:19",
+        "note": "Visible Week 6 unconfigured; this is prototype inert behavior, not native selection proof."
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "10-wheel13-title5.png",
+      "sha256": "147f8c3fa8aa679cd8590050ef85653c7897cf4e6f9b645e5ee80bc4252b79d6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:06.351Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-WHEEL-SCROLLED",
+        "node": "558:126"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "11-collapse-week5.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:06.816Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "12-picker-reentry.png",
+      "sha256": "71382420051974123e7eeda54aab2699086bffc69b74e7da2b7dc2bd496c40e6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:28.242Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "13-early-collapse.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:28.493Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "14-home-tuesday-baseline.png",
+      "sha256": "dcc09eb0a4242d7a978f30f80f6d8fa67952179d3f22dc5456838e88009ffb62",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:52.483Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "15-home-calendar-week.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:52.832Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "16-home-picker.png",
+      "sha256": "71382420051974123e7eeda54aab2699086bffc69b74e7da2b7dc2bd496c40e6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:53.293Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-PICKER",
+        "node": "558:19"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "17-home-wheel13.png",
+      "sha256": "ac603a0ffae7d43450fc98aa07b0ed39162b103c8df824d3801632acfe0c11c6",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:53.797Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-WHEEL-SCROLLED",
+        "node": "558:126"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "18-home-week-collapse.png",
+      "sha256": "9e046fcf8b66d623e5da2c0b0b7986036acc52faa7ea91c117781237deecc8b5",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:54.180Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK",
+        "node": "70:973"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "19-home-tuesday-return.png",
+      "sha256": "6971464195bc7c4ee390e295bd4e61ce4d157e624ae686e0d537a4b70c23b3ba",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:38:54.608Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    },
+    {
+      "file": "20-wheel13-final.png",
+      "sha256": "5cb8fe7bab61ecb2c086291f5d9354b83e8876bd76762c50e8dd416b07c40198",
+      "dimensions": [
+        1218,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:39:30.646Z",
+      "description": {
+        "state": "S-CALENDAR-WEEK-WHEEL-SCROLLED",
+        "node": "558:126",
+        "note": "Final third wheel sample; no additional completeness claim."
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [977, 0, 1062, 49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "37270fb59e6b59e0324f05016dac7de22f111a55199edd3e387046c403a7e76b",
+    "dimensions": [
+      762,
+      1332
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "07-week-baseline.png",
+      "comparison": "11-collapse-week5.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity. Week6 click shows prototype interaction highlights; Home return loses bottom image."
+    },
+    {
+      "baseline": "08-picker-open.png",
+      "comparison": "09-week6-inert.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        0,
+        19,
+        367,
+        213
+      ],
+      "scope": "Prototype consistency only; not native fidelity. Week6 click shows prototype interaction highlights; Home return loses bottom image."
+    },
+    {
+      "baseline": "08-picker-open.png",
+      "comparison": "12-picker-reentry.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity. Week6 click shows prototype interaction highlights; Home return loses bottom image."
+    },
+    {
+      "baseline": "07-week-baseline.png",
+      "comparison": "13-early-collapse.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity. Week6 click shows prototype interaction highlights; Home return loses bottom image."
+    },
+    {
+      "baseline": "15-home-calendar-week.png",
+      "comparison": "18-home-week-collapse.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype consistency only; not native fidelity. Week6 click shows prototype interaction highlights; Home return loses bottom image."
+    },
+    {
+      "baseline": "14-home-tuesday-baseline.png",
+      "comparison": "19-home-tuesday-return.png",
+      "crop_xyxy": [
+        418,
+        60,
+        799,
+        700
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        22,
+        579,
+        358,
+        613
+      ],
+      "scope": "Prototype consistency only; not native fidelity. Week6 click shows prototype interaction highlights; Home return loses bottom image."
+    }
+  ],
+  "scope": "Two discrete Week5 picker states. Native scroll replaced by On drag. Week6 remains unconfigured; Home bottom image failure preserved."
+}

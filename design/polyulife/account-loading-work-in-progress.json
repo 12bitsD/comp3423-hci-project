@@ -1,0 +1,185 @@
+{
+  "status": "finite_samples_archived_full_scope_incomplete",
+  "recorded_date": "2026-10-01",
+  "frames": [
+    {
+      "state_id": "S-STUDY-LOADING",
+      "node_id": "636:107",
+      "name": "[S-STUDY-LOADING] Study — observed loading",
+      "file": "study-loading.svg",
+      "position": [
+        0,
+        61500
+      ],
+      "size": [
+        576,
+        970
+      ],
+      "clip_content": true
+    },
+    {
+      "state_id": "S-COURSES-LOADING",
+      "node_id": "636:119",
+      "name": "[S-COURSES-LOADING] Courses — observed loading",
+      "file": "courses-loading.svg",
+      "position": [
+        700,
+        61500
+      ],
+      "size": [
+        576,
+        970
+      ],
+      "clip_content": true
+    },
+    {
+      "state_id": "S-QR-LOADING",
+      "node_id": "636:75",
+      "name": "[S-QR-LOADING] Campus QR — observed loading",
+      "file": "qr-loading.svg",
+      "position": [
+        1400,
+        61500
+      ],
+      "size": [
+        576,
+        970
+      ],
+      "clip_content": true
+    }
+  ],
+  "final_property_readback_node_ids": [
+    "636:107",
+    "636:119",
+    "636:75"
+  ],
+  "superseded_node_ids": [
+    "636:19",
+    "636:31",
+    "636:43"
+  ],
+  "configured_controls": [
+    {
+      "source_node_id": "636:107",
+      "trigger_node_id": "636:107",
+      "target_node_id": "67:2",
+      "trigger": "After delay",
+      "behavior": "Swap overlay",
+      "action_id": null
+    },
+    {
+      "source_node_id": "636:119",
+      "trigger_node_id": "636:119",
+      "target_node_id": "67:271",
+      "trigger": "After delay",
+      "behavior": "Swap overlay",
+      "action_id": null
+    },
+    {
+      "source_node_id": "636:75",
+      "trigger_node_id": "636:75",
+      "target_node_id": "67:513",
+      "trigger": "After delay",
+      "behavior": "Swap overlay",
+      "action_id": null
+    },
+    {
+      "source_node_id": "67:694",
+      "trigger_node_id": "113:39",
+      "target_node_id": "636:107",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP009"
+    },
+    {
+      "source_node_id": "67:694",
+      "trigger_node_id": "113:45",
+      "target_node_id": "636:119",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP010"
+    },
+    {
+      "source_node_id": "67:569",
+      "trigger_node_id": "113:84",
+      "target_node_id": "636:107",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP009"
+    },
+    {
+      "source_node_id": "67:569",
+      "trigger_node_id": "113:90",
+      "target_node_id": "636:119",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP010"
+    },
+    {
+      "source_node_id": "67:820",
+      "trigger_node_id": "67:898",
+      "target_node_id": "636:107",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP009"
+    },
+    {
+      "source_node_id": "67:820",
+      "trigger_node_id": "67:904",
+      "target_node_id": "636:119",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP010"
+    },
+    {
+      "source_node_id": "67:820",
+      "trigger_node_id": "67:938",
+      "target_node_id": "636:75",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "action_id": "A-HOME-EP011"
+    },
+    {
+      "source_node_id": "67:513",
+      "trigger_node_id": "67:551",
+      "target_node_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "action_id": "A-QR-HOME"
+    }
+  ],
+  "prototype_run_ids": [
+    "PROTO-ACCOUNT-LOADING-TUESDAY-001",
+    "PROTO-ACCOUNT-LOADING-COURSES-REENTRY-001",
+    "PROTO-ACCOUNT-LOADING-MONDAY-001",
+    "PROTO-ACCOUNT-LOADING-LEGACY-001",
+    "PROTO-QR-HOME-PNG-RECHECK-001",
+    "PROTO-QR-OVERLAY-FIRST-001",
+    "PROTO-QR-OVERLAY-SECOND-001"
+  ],
+  "canonical_coverage_unchanged": false,
+  "scope_completion_status": "not_verified",
+  "public_manifest": "evidence/2026-10-01-account-loading-checkpoint/manifest.json",
+  "walkthrough": "docs/polyulife/account-loading-work-in-progress.md",
+  "pending": [
+    "Observe early loading Back/cancel and native duration",
+    "Complete remaining account internal/QR global controls and caller contexts",
+    "Verify complete native and Figma fidelity plus long-session image stability"
+  ],
+  "limitations": [
+    "Static raster marks; approximate editable chrome",
+    "800ms configured demo proxy; native duration/early cancel unverified",
+    "Finite caller samples only, complete account and visual fidelity not_verified",
+    "QR Navigate photo failures retained, later recovery observed; root cause and long-session stability unknown",
+    "QR overlay exit only verified for established Home caller; standalone/global callers incomplete"
+  ],
+  "current_connections": "account-loading-connections.json",
+  "current_walkthrough": "docs/polyulife/account-loading-prototype-walkthrough.md",
+  "import_checkpoint": {
+    "configured_controls": [],
+    "prototype_run_ids": [],
+    "status": "imported_not_wired_not_replayed",
+    "public_manifest": "evidence/2026-10-01-account-loading-checkpoint/manifest.json"
+  },
+  "current_public_manifest": "evidence/2026-10-01-account-loading-wired/manifest.json"
+}

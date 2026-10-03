@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "file": "calendar-oct3-payment.svg",
+      "sha256": "39bb4e477d9927098eae2b65200412d7afde20fccd1cf5002cac0a4211075e42",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source_evidence_ids": [
+        "E-NATIVE-OCT3-PAYMENT-01",
+        "E-NATIVE-OCT3-PAYMENT-01-AX"
+      ],
+      "status": "imported_finite_reference_replayed_partial",
+      "limits": [
+        "Only observed Payment category empty date; no transaction, no general calendar result.",
+        "Reopen not verified; no reopened overlay invented."
+      ],
+      "node_id": "823:21",
+      "revision_id": "FIGMA-OCT3-PAYMENT-20261003",
+      "prototype_evidence_ids": [
+        "E-OCT3-PAYMENT-PROTO-01",
+        "E-OCT3-PAYMENT-PROTO-03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "global_navigation_checkpoint",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-home-before.png",
+      "sha256": "c1518e7bd1a44e359e7f62c06382f14b367564efc1e8507ec3bf35be0174aa37",
+      "dimensions": [
+        1218,
+        767
+      ],
+      "captured_at_utc": "2026-09-30T17:43:28.421Z",
+      "description": "Loaded Present Home before navigation; network interruption means version freshness unknown.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "01-more-after-entry.png",
+      "sha256": "7280da6edb7855b874319d83de32ca612cafb662e46a8adc8731d723cd61f2ca",
+      "dimensions": [
+        1218,
+        767
+      ],
+      "captured_at_utc": "2026-09-30T17:43:28.719Z",
+      "description": "Home More click opens More in loaded Present; overlay configuration persistence/freshness not established.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "02-more-home-no-change.png",
+      "sha256": "18550dab58cc24f2cda1ee80d88d7d3c62c080b4b451ff245d32c4acadc9a18a",
+      "dimensions": [
+        1218,
+        767
+      ],
+      "captured_at_utc": "2026-09-30T17:43:48.244Z",
+      "description": "More Home click produces no destination in loaded Present; known missing app control, not native behavior.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    },
+    {
+      "file": "03-more-menu-no-change.png",
+      "sha256": "e5b0f9a9c19c6495277b6fc9d21fe78fb5635793eb1039efb95e55035d327403",
+      "dimensions": [
+        1218,
+        767
+      ],
+      "captured_at_utc": "2026-09-30T17:43:48.520Z",
+      "description": "More Menu click also leaves More in loaded Present; new connection not yet configured.",
+      "source": "Actual Computer Use Figma Present",
+      "redaction": "Account header half-open [977,0,1062,49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "efa9530cc295938f1302ac71ad0192fdc91842b6d01ba1ceb65b9c304673dce8",
+    "dimensions": [
+      1524,
+      665
+    ]
+  },
+  "app_crop_xyxy": [
+    418,
+    60,
+    799,
+    700
+  ],
+  "pixel_checks": [],
+  "scope": "Original failures preserved. Fit Mac popup is prototype adaptation, not native dimensions. No native executions/human evaluation."
+}

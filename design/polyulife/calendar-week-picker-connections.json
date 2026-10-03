@@ -1,0 +1,128 @@
+{
+  "revision_id": "FIGMA-CALENDAR-WEEK-PICKER-20260930",
+  "connections": [
+    {
+      "source_node_id": "70:973",
+      "trigger_node_id": "70:977",
+      "target_node_id": "558:19",
+      "action_id": "A-CALENDAR-WEEK-PICKER",
+      "trigger": "On click",
+      "behavior": "Open overlay",
+      "animation": "Instant",
+      "input_proxy": false,
+      "trigger_node_name": "WeekSelector",
+      "connection_id": "C-CALENDAR-WEEK-PICKER-01",
+      "revision_id": "FIGMA-CALENDAR-WEEK-PICKER-20260930",
+      "configured_at": "2026-09-30T14:35:18.990Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-WEEK-PICKER-001",
+        "PROTO-CALENDAR-WEEK-TUESDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-WEEK-PICKER-HEADER"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-WEEK-PROTO-TRACE",
+        "E-CALENDAR-WEEK-PROTO-SCREEN-03"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-WEEK-DISCRETE-PROXY"
+      ]
+    },
+    {
+      "source_node_id": "558:19",
+      "trigger_node_id": "558:26",
+      "target_node_id": null,
+      "action_id": null,
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "input_proxy": false,
+      "scope": "Generalized early collapse; native collapse observed only after wheel scroll.",
+      "trigger_node_name": "WeekSelector",
+      "tested_target_node_ids": [
+        "70:973"
+      ],
+      "connection_id": "C-CALENDAR-WEEK-PICKER-02",
+      "revision_id": "FIGMA-CALENDAR-WEEK-PICKER-20260930",
+      "configured_at": "2026-09-30T14:36:28.033Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-WEEK-PICKER-001",
+        "PROTO-CALENDAR-WEEK-TUESDAY-001"
+      ],
+      "source_evidence_ids": [],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-WEEK-PROTO-TRACE",
+        "E-CALENDAR-WEEK-PROTO-SCREEN-04"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-WEEK-DISCRETE-PROXY"
+      ]
+    },
+    {
+      "source_node_id": "558:19",
+      "trigger_node_id": "558:37",
+      "target_node_id": "558:126",
+      "action_id": "A-CALENDAR-WEEK-SCROLL-ATTEMPT",
+      "trigger": "On drag",
+      "behavior": "Swap overlay",
+      "animation": "Smart animate",
+      "duration_ms": 300,
+      "input_proxy": true,
+      "scope": "Discrete state proxy for native downward scroll; direction, continuous wheel and bounds not implemented.",
+      "trigger_node_name": "WeekWheelInputProxy",
+      "connection_id": "C-CALENDAR-WEEK-PICKER-03",
+      "revision_id": "FIGMA-CALENDAR-WEEK-PICKER-20260930",
+      "configured_at": "2026-09-30T14:37:00.292Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-WEEK-PICKER-001",
+        "PROTO-CALENDAR-WEEK-TUESDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-WEEK-WHEEL-SCROLLED"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-WEEK-PROTO-TRACE",
+        "E-CALENDAR-WEEK-PROTO-SCREEN-05"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-WEEK-DISCRETE-PROXY"
+      ]
+    },
+    {
+      "source_node_id": "558:126",
+      "trigger_node_id": "558:133",
+      "target_node_id": null,
+      "action_id": "A-CALENDAR-WEEK-COLLAPSE",
+      "trigger": "On click",
+      "behavior": "Close overlay",
+      "input_proxy": false,
+      "trigger_node_name": "WeekSelector",
+      "tested_target_node_ids": [
+        "70:973"
+      ],
+      "connection_id": "C-CALENDAR-WEEK-PICKER-04",
+      "revision_id": "FIGMA-CALENDAR-WEEK-PICKER-20260930",
+      "configured_at": "2026-09-30T14:37:40.837Z",
+      "implementation_status": "configured_and_sample_replayed_full_scope_incomplete",
+      "prototype_run_ids": [
+        "PROTO-CALENDAR-WEEK-PICKER-001",
+        "PROTO-CALENDAR-WEEK-TUESDAY-001"
+      ],
+      "source_evidence_ids": [
+        "E-CALENDAR-WEEK-COLLAPSED"
+      ],
+      "prototype_evidence_ids": [
+        "E-CALENDAR-WEEK-PROTO-TRACE",
+        "E-CALENDAR-WEEK-PROTO-SCREEN-06"
+      ],
+      "deviation_ids": [
+        "D-CALENDAR-WEEK-DISCRETE-PROXY"
+      ]
+    }
+  ],
+  "scope_completion": "not_verified",
+  "native_arrays_unchanged": true
+}

@@ -1,0 +1,593 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-tuesday-initial.png",
+      "sha256": "64a01dc8720de8725bcaa169bb82984d286b5984edf88ba8f05ec7bb3a7c4a90",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:12:05.131Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Entered from Monday; initializer142px positions selected Tuesday at right."
+    },
+    {
+      "file": "01-right-drag-partial.png",
+      "sha256": "9c909d2c68604c573467ff0fa6e6880ac7dc40bf6318835310b97822d81bff77",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:12:05.737Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Right40screenpx drag reached the left end after motion; no stable intermediate position established by this drag."
+    },
+    {
+      "file": "02-right-scroll-partial.png",
+      "sha256": "64a01dc8720de8725bcaa169bb82984d286b5984edf88ba8f05ec7bb3a7c4a90",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:12:26.647Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Horizontal scroll0.1page reached the right end; no intermediate position established."
+    },
+    {
+      "file": "03-small-left-scroll.png",
+      "sha256": "205fe1c8f652ffce80a44abf5a5845fe41062791af716a2278de9aa3de1d4060",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:12:52.714Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "0.01page left scroll produces a distinct intermediate date position; Tuesday remains selected, same root and six slots."
+    },
+    {
+      "file": "04-intermediate-stable.png",
+      "sha256": "205fe1c8f652ffce80a44abf5a5845fe41062791af716a2278de9aa3de1d4060",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:13:25.452Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "No input; intermediate position persists without navigation."
+    },
+    {
+      "file": "05-left-end.png",
+      "sha256": "2c2f8eb010293cef14c9be2a1b350e7f0a76de6466769c9848bfea8058c33d6a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:13:26.071Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Scroll reaches left end; Today visible, Tuesday selected button out of view, result remains06-Oct."
+    },
+    {
+      "file": "06-left-end-recheck.png",
+      "sha256": "2c2f8eb010293cef14c9be2a1b350e7f0a76de6466769c9848bfea8058c33d6a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:13:26.677Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Further left scroll keeps left end and Tuesday result."
+    },
+    {
+      "file": "07-left-drag-right-end.png",
+      "sha256": "f1f7ad06ee146af86230574859c6a4d3b9fb793edba6ff00f482df2fc3f55fd9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:13:27.196Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Opposite direction drag makes Tuesday visible again; result remains06-Oct. Exact right boundary not established by this capture (date region differs from initial)."
+    },
+    {
+      "file": "08-left-end-before-today.png",
+      "sha256": "2c2f8eb010293cef14c9be2a1b350e7f0a76de6466769c9848bfea8058c33d6a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:18:57.764Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "True viewport left end before clicking new Today control."
+    },
+    {
+      "file": "09-today-available.png",
+      "sha256": "4ac0d5121788c0241dddcd9cc865208e587764222e7b8872b867b122960cf54d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:03.825Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "description": "New Today control returns to30-Sep Available four slots."
+    },
+    {
+      "file": "10-today-all.png",
+      "sha256": "90cfd057a49a557e04af56bb65e2e6e22a7db805cb1733af646efbc018d6e5ec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:12.723Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "description": "Existing ALL switch after new Today return."
+    },
+    {
+      "file": "11-today-all-bottom.png",
+      "sha256": "052b5d619c50fcda16292cd13e72ba836c1a587952f200439a3a5bc77a6e3a0c",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:13.329Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "description": "Existing continuous Today list reaches complete final row after new return."
+    },
+    {
+      "file": "12-today-all-top.png",
+      "sha256": "90cfd057a49a557e04af56bb65e2e6e22a7db805cb1733af646efbc018d6e5ec",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:30.701Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:19",
+      "actual_node_id": "412:19",
+      "node_match": true,
+      "description": "Reverse Today list returns to top."
+    },
+    {
+      "file": "13-today-available-regression.png",
+      "sha256": "4ac0d5121788c0241dddcd9cc865208e587764222e7b8872b867b122960cf54d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:31.152Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "description": "Available after list reverse."
+    },
+    {
+      "file": "14-thursday-available.png",
+      "sha256": "6fde64438a0ddc92fb073934bcaddc875f92b6d34de1e6ebcd9c3735641f291e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:31.650Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:317",
+      "actual_node_id": "412:317",
+      "node_match": true,
+      "description": "Existing Today→Thursday date link."
+    },
+    {
+      "file": "15-thursday-all.png",
+      "sha256": "faf6811ad2dc31ea8c4eafd214cdc02fe42cffd72707eb7ac5c719851849c9a2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:38.687Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:400",
+      "actual_node_id": "412:400",
+      "node_match": true,
+      "description": "Thursday ALL retains selected date."
+    },
+    {
+      "file": "16-friday-all.png",
+      "sha256": "57a673b8bf8b903eaacf73a4921adbfd2e5e2e96c953c7f7c857cdab284981c8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:43.946Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:551",
+      "actual_node_id": "412:551",
+      "node_match": true,
+      "description": "Friday ALL using existing date link."
+    },
+    {
+      "file": "17-friday-available.png",
+      "sha256": "24c31979ca5eec88fddb02b38cc72d270ce6650fd031644acc5377e1a2236467",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:49.603Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:702",
+      "actual_node_id": "412:702",
+      "node_match": true,
+      "description": "Friday Available switch."
+    },
+    {
+      "file": "18-saturday-available.png",
+      "sha256": "af4733efa7a8f0f20b1176414bbe733d06b44aee8f8d9da7be10c043a15ddbea",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:19:55.268Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:827",
+      "actual_node_id": "412:827",
+      "node_match": true,
+      "description": "Saturday Available."
+    },
+    {
+      "file": "19-sunday-available.png",
+      "sha256": "bed3f0279d8a3b53c91eed4df09c470de60498d8cee1856251b88d2fd1eb50ac",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:20:00.714Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:827",
+      "node_match": false,
+      "description": "Click646,145 used preceding visible shifted layout; node remained Saturday and subsequent screenshot showed unshifted bar. Retarget from fresh Sunday position; preserved mismatch."
+    },
+    {
+      "file": "20-sunday-available-retarget.png",
+      "sha256": "256b5d8ca2ea79bf46d9e6dd6bd89796c952e8acbd3a51e10c0c64193bdb4b7d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:20:10.107Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:936",
+      "actual_node_id": "412:936",
+      "node_match": true,
+      "description": "Retarget visible Sunday730,145 from current screenshot."
+    },
+    {
+      "file": "21-monday-available.png",
+      "sha256": "5d6dae1a072920bfc38cc0b8a6e3d8cfe5a2795a074b3b5967c0157379fe296b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:20:21.617Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:936",
+      "node_match": false,
+      "description": "Click700,145 from displayed shifted bar did not navigate; next screenshot unshifted with Monday at782. Preserved mismatch; shifted display/hit region behavior unresolved."
+    },
+    {
+      "file": "22-monday-retarget.png",
+      "sha256": "f65c329dc8b2fe95c2882eb9e17bbb0358dc94042e1eea007df2ef811a515dcc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:20:30.647Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1019",
+      "actual_node_id": "412:1019",
+      "node_match": true,
+      "description": "Retarget Monday782,145 in fresh screenshot."
+    },
+    {
+      "file": "23-tuesday-reentry.png",
+      "sha256": "64a01dc8720de8725bcaa169bb82984d286b5984edf88ba8f05ec7bb3a7c4a90",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:20:36.583Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Reenter Tuesday through existing Monday link; initializer returns to142px after prior left-end exit."
+    },
+    {
+      "file": "26-reentry-intermediate.png",
+      "sha256": "205fe1c8f652ffce80a44abf5a5845fe41062791af716a2278de9aa3de1d4060",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:21:23.586Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Small horizontal wheel step after reentry yields intermediate; native observed input was drag."
+    },
+    {
+      "file": "27-second-left-end.png",
+      "sha256": "2c2f8eb010293cef14c9be2a1b350e7f0a76de6466769c9848bfea8058c33d6a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:21:35.715Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:1120",
+      "actual_node_id": "412:1120",
+      "node_match": true,
+      "description": "Second traversal reaches left end while preserving Tuesday result."
+    },
+    {
+      "file": "28-second-today-return.png",
+      "sha256": "4ac0d5121788c0241dddcd9cc865208e587764222e7b8872b867b122960cf54d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T00:21:36.056Z",
+      "source": "Actual Figma Present screenshot through Computer Use",
+      "redaction": "Mask account avatar at half-open[1017,0,1075,49]; public historical Room data only.",
+      "expected_node_id": "412:216",
+      "actual_node_id": "412:216",
+      "node_match": true,
+      "description": "Second Today return succeeds after reentry and continuous scrolling."
+    },
+    {
+      "file": "24-editor-initializer.png",
+      "sha256": "6f8d41d5593d077e3f321cf5642463b3c70ce46c57072a323902ff93045c883b",
+      "dimensions": [
+        459,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T00:20:58.381697+00:00",
+      "timestamp_basis": "Local file write time; no separate capture timestamp retained.",
+      "source": "Actual Figma editor screenshot through Computer Use",
+      "redaction": "Mask narrow editor account avatar at half-open[225,0,280,49]."
+    },
+    {
+      "file": "25-editor-viewport.png",
+      "sha256": "8d59eedfdc851dd2204b13192b788b833cf12c61b9dc5f724ccc6110d13c3267",
+      "dimensions": [
+        459,
+        728
+      ],
+      "captured_at_utc": "2026-09-30T00:21:07.215681+00:00",
+      "timestamp_basis": "Local file write time; no separate capture timestamp retained.",
+      "source": "Actual Figma editor screenshot through Computer Use",
+      "redaction": "Mask narrow editor account avatar at half-open[225,0,280,49]."
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "95a5c37a62e8ee043141cc3ffa9602b4477686f75bf3168b3ca807247cbe6d31",
+    "dimensions": [
+      1352,
+      1254
+    ]
+  },
+  "app_crop_xyxy": [
+    470,
+    60,
+    808,
+    661
+  ],
+  "result_crop_xyxy": [
+    470,
+    219,
+    808,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "00-tuesday-initial.png",
+      "comparison": "03-small-left-scroll.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "03-small-left-scroll.png",
+      "comparison": "04-intermediate-stable.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "00-tuesday-initial.png",
+      "comparison": "05-left-end.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "05-left-end.png",
+      "comparison": "06-left-end-recheck.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "00-tuesday-initial.png",
+      "comparison": "07-left-drag-right-end.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": false,
+      "difference_bbox_within_crop": [
+        18,
+        51,
+        315,
+        117
+      ],
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "00-tuesday-initial.png",
+      "comparison": "23-tuesday-reentry.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "23-tuesday-reentry.png",
+      "comparison": "26-reentry-intermediate.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "00-tuesday-initial.png",
+      "comparison": "27-second-left-end.png",
+      "crop_xyxy": [
+        470,
+        219,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "09-today-available.png",
+      "comparison": "28-second-today-return.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    },
+    {
+      "baseline": "10-today-all.png",
+      "comparison": "12-today-all-top.png",
+      "crop_xyxy": [
+        470,
+        60,
+        808,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype-to-prototype only; no native visual fidelity/human evaluation claim."
+    }
+  ],
+  "scope": "Tuesday true horizontal viewport plus Today return; fixed observed historical dates; other date contexts/callers/full application incomplete."
+}

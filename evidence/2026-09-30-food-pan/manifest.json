@@ -1,0 +1,270 @@
+{
+  "kind": "figma_prototype_sample",
+  "session_id": null,
+  "images": [
+    {
+      "file": "01-map-drag-connection.png",
+      "sha256": "1dfe870123fcffe3cd21fa6eef0fd411c2a8a0774f16077f72c594d826cd761c",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:05:01.151Z",
+      "description": {
+        "trigger_node": "50:2248",
+        "trigger": "On drag",
+        "action": "Swap overlay",
+        "target": "50:2267",
+        "animation": "Smart animate",
+        "duration": "300ms",
+        "note": "Figma On drag disables Instant; animation is prototype only"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "02-panned-back-connection.png",
+      "sha256": "9ed81769893d1d64040d8db448ac4c02a4258149db9cbae37cb715be86b39120",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:06:04.231Z",
+      "description": {
+        "trigger_node": "50:2279",
+        "trigger": "On click",
+        "action": "Close overlay",
+        "return_context": "VA210 detail 50:2013"
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    },
+    {
+      "file": "03-home-before.png",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:06:55.188Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694",
+        "sample": "Tuesday Home feature scroll"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "04-food-list-before.png",
+      "sha256": "c47afb6ccc5456899c152369c0617968738d065051d9b337e324d5028459a3c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:07:01.828Z",
+      "description": {
+        "state": "S-FOOD-LIST",
+        "node": "50:1911",
+        "visible": true
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "05-list-title-click-no-transition.png",
+      "sha256": "c47afb6ccc5456899c152369c0617968738d065051d9b337e324d5028459a3c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:07:09.027Z",
+      "description": {
+        "attempt": "click title [626,326]",
+        "outcome": "Stayed list; temporary hotspot highlights",
+        "status": "no_transition"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "06-detail-before.png",
+      "sha256": "329ef061f44b23541def149feb7f821d13977a217d22d435838f7e9c3f546e44",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:07:15.085Z",
+      "description": {
+        "state": "S-FOOD-DETAIL",
+        "node": "50:2013",
+        "hero_and_map": "visible"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "07-map-initial-before-drag.png",
+      "sha256": "f7feceec2b2882c8537779daeb5008b854dce6156b4e38b78d1478bdb9b0bd3d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:07:21.552Z",
+      "description": {
+        "state": "S-FOOD-MAP",
+        "node": "50:2246"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "08-map-panned.png",
+      "sha256": "bc1f97f1ca2d059331bf6569c8e7f93a8a54a393a2ad827e0f3242bb6726bfef",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:07:29.146Z",
+      "description": {
+        "state": "S-FOOD-MAP-PANNED",
+        "node": "50:2267",
+        "drag": [
+          627,
+          503,
+          691,
+          418
+        ],
+        "outcome": "Observed fixed panned crop visible"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "09-detail-after-pan-back.png",
+      "sha256": "329ef061f44b23541def149feb7f821d13977a217d22d435838f7e9c3f546e44",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:07:38.030Z",
+      "description": {
+        "state": "S-FOOD-DETAIL",
+        "node": "50:2013",
+        "outcome": "Detail hero and campus embedded map visible"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "10-food-list-after-detail-back.png",
+      "sha256": "c47afb6ccc5456899c152369c0617968738d065051d9b337e324d5028459a3c7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:07:47.065Z",
+      "description": {
+        "state": "S-FOOD-LIST",
+        "node": "50:1911"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "11-home-after.png",
+      "sha256": "dd288053e41b31fd2f2759ea215724b97fc893d12743b282844a53cb10a58df1",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-09-30T14:07:53.777Z",
+      "description": {
+        "state": "S-HOME-SCHEDULE-TUE",
+        "node": "67:694",
+        "outcome": "Feature scroll retained"
+      },
+      "source": "prototype",
+      "redaction": "Account/collaborator header half-open [1039, 0, 1124, 49]"
+    },
+    {
+      "file": "12-panned-frame-no-flow-start.png",
+      "sha256": "1eaf84bf9de02b707627ee9f3a3b8510a71ba0a4e5ac02938b3835c598c4a408",
+      "dimensions": [
+        854,
+        761
+      ],
+      "captured_at_utc": "2026-09-30T14:08:04.700Z",
+      "description": {
+        "node": "50:2267",
+        "flow_start": "Add flow starting point visible; no new Flow created",
+        "dimensions": [
+          576,
+          970
+        ],
+        "position": [
+          1400,
+          12000
+        ]
+      },
+      "source": "editor",
+      "redaction": "Account/collaborator header half-open [613, 0, 698, 49]"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "32a4dbfe0f21517a464b7648424098f33ff8422f3d2f4557e782ae617c044934",
+    "dimensions": [
+      1071,
+      1254
+    ]
+  },
+  "app_crop_xyxy": [
+    461,
+    60,
+    818,
+    661
+  ],
+  "pixel_checks": [
+    {
+      "baseline": "03-home-before.png",
+      "comparison": "11-home-after.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype return consistency only; no native fidelity or timing conclusion."
+    },
+    {
+      "baseline": "04-food-list-before.png",
+      "comparison": "10-food-list-after-detail-back.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype return consistency only; no native fidelity or timing conclusion."
+    },
+    {
+      "baseline": "06-detail-before.png",
+      "comparison": "09-detail-after-pan-back.png",
+      "crop_xyxy": [
+        461,
+        60,
+        818,
+        661
+      ],
+      "pixel_equal": true,
+      "difference_bbox_within_crop": null,
+      "scope": "Prototype return consistency only; no native fidelity or timing conclusion."
+    }
+  ],
+  "scope": "One fixed Food map drag and panned Back sampled from Tuesday Home. Title click no-transition retained. No new native observations, arbitrary map navigation or human evaluation."
+}

@@ -1,0 +1,350 @@
+{
+  "steps": [
+    {
+      "file": "00-entry.png",
+      "action": "Open Food",
+      "input": "AX52 Food",
+      "note": null,
+      "captured_at": "2026-10-03T06:38:42.382Z"
+    },
+    {
+      "file": "01-block-y-menu.png",
+      "action": "Block Y ellipsis",
+      "input": "click [702,699]",
+      "note": null,
+      "captured_at": "2026-10-03T06:38:52.350Z"
+    },
+    {
+      "file": "02-block-y-image.png",
+      "action": "Expand Block Y hero",
+      "input": "AX18 image expand",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:03.056Z"
+    },
+    {
+      "file": "03-image-return.png",
+      "action": "Close image",
+      "input": "AX3 close",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:10.984Z"
+    },
+    {
+      "file": "04-coffee-tag.png",
+      "action": "Select Coffee tag",
+      "input": "AX34 #Coffee",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:15.506Z"
+    },
+    {
+      "file": "05-lib-cafe-detail.png",
+      "action": "Open LibCafe from Coffee results",
+      "input": "AX19 LibCafe",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:23.140Z"
+    },
+    {
+      "file": "06-lib-cafe-map.png",
+      "action": "Expand LibCafe map",
+      "input": "AX41 map expand",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:32.172Z"
+    },
+    {
+      "file": "07-lib-map-return.png",
+      "action": "Map Back",
+      "input": "AX10 Back",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:39.756Z"
+    },
+    {
+      "file": "08-coffee-results-return.png",
+      "action": "LibCafe detail Back",
+      "input": "AX10 Back",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:44.464Z"
+    },
+    {
+      "file": "09-block-y-tag-return.png",
+      "action": "Coffee Search Back",
+      "input": "AX10 Back",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:50.232Z"
+    },
+    {
+      "file": "10-block-y-detail-lower.png",
+      "action": "Scroll Block Y detail",
+      "input": "scroll [595,1195] down0.65",
+      "note": null,
+      "captured_at": "2026-10-03T06:39:58.215Z"
+    },
+    {
+      "file": "11-block-y-map.png",
+      "action": "Expand Block Y map",
+      "input": "AX44 expand map",
+      "note": null,
+      "captured_at": "2026-10-03T06:40:06.115Z"
+    },
+    {
+      "file": "12-block-y-map-settled.png",
+      "action": null,
+      "input": null,
+      "note": "No input; followup after loading sample",
+      "captured_at": "2026-10-03T06:40:13.223Z"
+    },
+    {
+      "file": "13-block-y-map-zoom.png",
+      "action": "Map zoom in",
+      "input": "AX15 Increment",
+      "note": null,
+      "captured_at": "2026-10-03T06:40:22.691Z"
+    },
+    {
+      "file": "14-block-y-map-out.png",
+      "action": "Map zoom out",
+      "input": "AX15 Decrement",
+      "note": null,
+      "captured_at": "2026-10-03T06:40:32.973Z"
+    },
+    {
+      "file": "15-block-y-map-return.png",
+      "action": "Block Y Map Back",
+      "input": "AX10 Back",
+      "note": null,
+      "captured_at": "2026-10-03T06:40:41.773Z"
+    },
+    {
+      "file": "16-sandwich-tag.png",
+      "action": "Select Sandwich tag",
+      "input": "AX36 #Sandwich",
+      "note": null,
+      "captured_at": "2026-10-03T06:40:46.022Z"
+    },
+    {
+      "file": "17-sandwich-return.png",
+      "action": "Sandwich Search Back",
+      "input": "AX10 Back",
+      "note": null,
+      "captured_at": "2026-10-03T06:40:55.814Z"
+    },
+    {
+      "file": "18-food-list-return.png",
+      "action": "Block Y detail Back",
+      "input": "AX10 Back",
+      "note": null,
+      "captured_at": "2026-10-03T06:41:00.574Z"
+    },
+    {
+      "file": "19-block-y-repeat.png",
+      "action": "Repeat Block Y ellipsis",
+      "input": "click [702,699]",
+      "note": null,
+      "captured_at": "2026-10-03T06:41:09.814Z"
+    }
+  ],
+  "actual_state_ids": [
+    "S-FOOD-OCT3-LIST",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-BLOCKY-IMAGE",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-COFFEE",
+    "S-FOOD-OCT3-LIBCAFE-DETAIL",
+    "S-FOOD-OCT3-LIBCAFE-MAP",
+    "S-FOOD-OCT3-LIBCAFE-DETAIL",
+    "S-FOOD-OCT3-COFFEE",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-BLOCKY-LOWER",
+    "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+    "S-FOOD-OCT3-BLOCKY-MAP",
+    "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+    "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+    "S-FOOD-OCT3-BLOCKY-LOWER",
+    "S-FOOD-OCT3-SANDWICH",
+    "S-FOOD-OCT3-BLOCKY-DETAIL",
+    "S-FOOD-OCT3-LIST",
+    "S-FOOD-OCT3-BLOCKY-DETAIL"
+  ],
+  "actual_action_ids": [
+    "A-FOOD-OCT3-MENU-OPEN",
+    "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS",
+    "A-FOOD-OCT3-MENU-IMAGE-OPEN",
+    "A-FOOD-OCT3-MENU-IMAGE-CLOSE",
+    "A-FOOD-OCT3-MENU-COFFEE",
+    "A-FOOD-OCT3-MENU-LIBCAFE-OPEN",
+    "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN",
+    "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK",
+    "A-FOOD-OCT3-MENU-LIBCAFE-BACK",
+    "A-FOOD-OCT3-MENU-COFFEE-BACK",
+    "A-FOOD-OCT3-MENU-DETAIL-SCROLL",
+    "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN",
+    null,
+    "A-FOOD-OCT3-MENU-MAP-IN",
+    "A-FOOD-OCT3-MENU-MAP-OUT",
+    "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK",
+    "A-FOOD-OCT3-MENU-SANDWICH",
+    "A-FOOD-OCT3-MENU-SANDWICH-BACK",
+    "A-FOOD-OCT3-MENU-BLOCKY-BACK",
+    "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS"
+  ],
+  "pixel_comparisons": [
+    {
+      "left": "01-block-y-menu.png",
+      "right": "03-image-return.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        612,
+        119,
+        750,
+        719
+      ],
+      "limits": "Preserve cursor/tile/scroll differences; no toleranced equality or universal restoration claim."
+    },
+    {
+      "left": "04-coffee-tag.png",
+      "right": "08-coffee-results-return.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        736,
+        1031
+      ],
+      "limits": "Preserve cursor/tile/scroll differences; no toleranced equality or universal restoration claim."
+    },
+    {
+      "left": "05-lib-cafe-detail.png",
+      "right": "07-lib-map-return.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        720,
+        1048
+      ],
+      "limits": "Preserve cursor/tile/scroll differences; no toleranced equality or universal restoration claim."
+    },
+    {
+      "left": "10-block-y-detail-lower.png",
+      "right": "15-block-y-map-return.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        736,
+        1333
+      ],
+      "limits": "Preserve cursor/tile/scroll differences; no toleranced equality or universal restoration claim."
+    },
+    {
+      "left": "15-block-y-map-return.png",
+      "right": "17-sandwich-return.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        31,
+        71,
+        720,
+        1333
+      ],
+      "limits": "Preserve cursor/tile/scroll differences; no toleranced equality or universal restoration claim."
+    },
+    {
+      "left": "00-entry.png",
+      "right": "18-food-list-return.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        15,
+        750,
+        1319
+      ],
+      "limits": "Preserve cursor/tile/scroll differences; no toleranced equality or universal restoration claim."
+    },
+    {
+      "left": "01-block-y-menu.png",
+      "right": "19-block-y-repeat.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        47,
+        631,
+        728,
+        1333
+      ],
+      "limits": "Preserve cursor/tile/scroll differences; no toleranced equality or universal restoration claim."
+    },
+    {
+      "left": "12-block-y-map-settled.png",
+      "right": "14-block-y-map-out.png",
+      "raw_body_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "equal": false,
+      "difference_bbox": [
+        0,
+        118,
+        750,
+        1333
+      ],
+      "limits": "Preserve cursor/tile/scroll differences; no toleranced equality or universal restoration claim."
+    }
+  ],
+  "interrupted_attempt": {
+    "intended_control": "#Asian Cuisine from repeated BlockY detail",
+    "tool_result": "Mac locked; no screenshot/full AX was saved",
+    "native_dispatch_or_target_state": "unverified",
+    "counted_as_observed_action": false
+  },
+  "limits": [
+    "Current public October3 Food data/context only; no full app completion.",
+    "Block Y ellipsis opens detail directly; no separate menu observed.",
+    "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+    "LibCafe current detail has no hero; no inference of missing image defect.",
+    "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+    "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+    "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+    "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+  ]
+}

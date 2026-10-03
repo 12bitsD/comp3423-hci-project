@@ -1,0 +1,474 @@
+{
+  "log": [
+    {
+      "file": "00-result11-before-group.png",
+      "kind": "editor",
+      "note": "Existing imported result11 selection; original root retains all11 public rows.",
+      "input": null,
+      "captured_at": "2026-10-03T07:49:10.235Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"18\"",
+        "    - spinbutton \"Y-position\": \"977\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"540\"",
+        "      - textbox \"Height\": \"70\""
+      ]
+    },
+    {
+      "file": "01-content-group.png",
+      "kind": "editor",
+      "note": "All11 results grouped at18,207 size540x840; no row scaling.",
+      "input": null,
+      "captured_at": "2026-10-03T07:49:20.866Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"18\"",
+        "    - spinbutton \"Y-position\": \"207\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"540\"",
+        "      - textbox \"Height\": \"840\"",
+        "    - generic \"Vertical spacing\":",
+        "      - textbox \"Vertical spacing\": \"7\""
+      ]
+    },
+    {
+      "file": "02-content-left-top.png",
+      "kind": "editor",
+      "note": "Content0,0 540x840 Left/Top before parent geometry changes.",
+      "input": null,
+      "captured_at": "2026-10-03T07:49:47.784Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"540\"",
+        "      - textbox \"Height\": \"840\"",
+        "    - generic \"Vertical spacing\":",
+        "      - textbox \"Vertical spacing\": \"7\""
+      ]
+    },
+    {
+      "file": "03-fixed-viewport.png",
+      "kind": "editor",
+      "note": "Viewport0,200 576x824 Clip content enabled.",
+      "input": null,
+      "captured_at": "2026-10-03T07:50:01.524Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Frame, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"200\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"824\"",
+        "    - generic \"Vertical spacing\":",
+        "      - textbox \"Vertical spacing\": \"7\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "04-content-restored.png",
+      "kind": "editor",
+      "note": "Content18,7 540x840 unchanged; top rows restored to original absolute18,207.",
+      "input": null,
+      "captured_at": "2026-10-03T07:50:02.772Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"18\"",
+        "    - spinbutton \"Y-position\": \"7\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"540\"",
+        "      - textbox \"Height\": \"840\"",
+        "    - generic \"Vertical spacing\":",
+        "      - textbox \"Vertical spacing\": \"7\""
+      ]
+    },
+    {
+      "file": "05-vertical-overflow.png",
+      "kind": "editor",
+      "note": "WesternResultsViewport Vertical overflow actual UI configured; no navigation action.",
+      "input": null,
+      "captured_at": "2026-10-03T07:50:13.871Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\" [active]:",
+        "    - generic: Vertical"
+      ]
+    },
+    {
+      "file": "06-present-default-room.png",
+      "kind": "present",
+      "note": "Present button opened existing Room flow rather than selected independent Western root; not counted as Western replay.",
+      "input": null,
+      "captured_at": "2026-10-03T07:50:25.121Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=12-105&scaling=min-zoom&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105&show-proto-sidebar=1"
+    },
+    {
+      "file": "07-direct-link-retained-room.png",
+      "kind": "present",
+      "note": "Direct independent node link retained existing Room start; not counted as Western replay.",
+      "input": null,
+      "captured_at": "2026-10-03T07:50:38.733Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=12-105&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "08-root-visibility-failure.png",
+      "kind": "editor",
+      "note": "Editor shows empty Western root and grey children; prior Expand secondary action appears to have changed visibility. Not assumed usable.",
+      "input": null,
+      "captured_at": "2026-10-03T07:51:05.554Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "09-root-shown.png",
+      "kind": "editor",
+      "note": "Root visibility restored via explicit Show control; dimensions576x1024 X700/Y92000.",
+      "input": null,
+      "captured_at": "2026-10-03T07:51:10.812Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Frame, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"700\"",
+        "    - spinbutton \"Y-position\": \"92000\"",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "10-reference-flow.png",
+      "kind": "editor",
+      "note": "Independent reference flow named; description discloses finite scroll/unconfigured navigation.",
+      "input": null,
+      "captured_at": "2026-10-03T07:51:38.289Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "11-western-actual-size.png",
+      "kind": "present",
+      "note": "Actual Western flow visible but Actual size/sidebar clips lower results.",
+      "input": null,
+      "captured_at": "2026-10-03T07:51:50.456Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=min-zoom&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A59&show-proto-sidebar=1"
+    },
+    {
+      "file": "12-western-top.png",
+      "kind": "present",
+      "note": "Fitted top baseline;11th VA Café partially atbottom.",
+      "input": null,
+      "captured_at": "2026-10-03T07:51:55.374Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "13-western-lower.png",
+      "kind": "present",
+      "note": "Finite downward scroll;VA Café and rowhitregion fully insideviewport.",
+      "input": {
+        "direction": "down",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T07:52:07.239Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "14-western-extra-down.png",
+      "kind": "present",
+      "note": "Additional downward boundary sample;native fullbounds notverified.",
+      "input": {
+        "direction": "down",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T07:52:07.630Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "15-western-reverse-top.png",
+      "kind": "present",
+      "note": "Reverse to original top.",
+      "input": {
+        "direction": "up",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T07:52:08.269Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "16-western-extra-up.png",
+      "kind": "present",
+      "note": "Additional upward boundary sample.",
+      "input": {
+        "direction": "up",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T07:52:08.876Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "17-western-repeat-lower.png",
+      "kind": "present",
+      "note": "Repeat lower.",
+      "input": {
+        "direction": "down",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T07:52:09.495Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "18-western-repeat-top.png",
+      "kind": "present",
+      "note": "Repeat reverse top.",
+      "input": {
+        "direction": "up",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T07:52:10.208Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-59&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=954%3A59"
+    },
+    {
+      "file": "19-result-title-text.png",
+      "kind": "editor",
+      "note": "Independent H Café Text selected;Typography inspected separately.",
+      "input": null,
+      "captured_at": "2026-10-03T07:52:28.223Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"30\"",
+        "    - spinbutton \"Y-position\": \"25\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - textbox \"Width\" [disabled]: \"72\"",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "20-final-overflow.png",
+      "kind": "editor",
+      "note": "Final WesternResultsViewport Vertical readback after Text inspection.",
+      "input": null,
+      "captured_at": "2026-10-03T07:52:29.477Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":",
+        "    - generic: Vertical"
+      ]
+    }
+  ],
+  "flow": {
+    "name": "Reference · Western Cuisine — finite results scroll",
+    "start_node_id": "954:59",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-59&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A59&show-proto-sidebar=1",
+    "description": "Independent reference for the observed October3 Western Cuisine query: 11 public venue results and finite vertical scrolling. Search bar and header remain outside the results viewport. Row heights and inferred23px range are approximate; native complete scroll bounds are not verified. Back, tag caller, row detail and arbitrary search are unconfigured. This prototype replay is not native execution, complete visual fidelity or human evaluation."
+  },
+  "root_node_id": "954:59",
+  "viewport_node_id": "957:20",
+  "content_node_id": "957:19",
+  "text_check": {
+    "node_id": "954:76",
+    "public_title": "H Café",
+    "typography": "Inter Regular22px",
+    "actual_UI_readback": "Browser tab: 6, Title: \"PolyULife — Observed UI & Interaction Atlas – Figma\", URL: \"https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=954-76\n+\t\t\t\t\t\t\t\t511 heading Typography, Value: 2\n+\t\t\t\t\t\t\t\t\t512 text Typography\n+\t\t\t\t\t\t\t\t513 pop up button (collapsed) Description: Typography, Apply styles, Secondary Actions: Expand\n+\t\t\t\t\t\t\t\t514 combo box (collapsed) Description: Font family, Value: Inter, Secondary Actions: Expand\n+\t\t\t\t\t\t\t\t\t\t516 text Inter\n+\t\t\t\t\t\t\t\t518 text Font style\n+\t\t\t\t\t\t\t\t519 combo box (collapsed) Font style, Value: Regular, ID: :rkk:, Secondary Actions: Expand\n+\t\t\t\t\t\t\t\t\t520 text Regular\n+\t\t\t\t\t\t\t\t\t523 list Font size: 22 px\n+\t\t\t\t\t\t\t\t\t524 container Font size\n+\t\t\t\t\t\t\t\t\t\t525 combo box (collapsed, settable) Description: Font size: 22 px, Value: 22, Secondary Actions: Expand"
+  },
+  "pixel_comparisons": [
+    {
+      "left": "13-western-lower.png",
+      "right": "14-western-extra-down.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "12-western-top.png",
+      "right": "15-western-reverse-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "15-western-reverse-top.png",
+      "right": "16-western-extra-up.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "13-western-lower.png",
+      "right": "17-western-repeat-lower.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "12-western-top.png",
+      "right": "18-western-repeat-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "fixed_area_comparisons": [
+    {
+      "left": "12-western-top.png",
+      "right": "13-western-lower.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "12-western-top.png",
+      "right": "14-western-extra-down.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "12-western-top.png",
+      "right": "15-western-reverse-top.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "12-western-top.png",
+      "right": "16-western-extra-up.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "12-western-top.png",
+      "right": "17-western-repeat-lower.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "12-western-top.png",
+      "right": "18-western-repeat-top.png",
+      "fixed_header_search_crop_xyxy": [
+        267,
+        60,
+        623,
+        183
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "limits": [
+    "One independent fixed Western query with11 public results and continuous finite scroll. Header/search field outsideviewport; Back/caller/result navigation and arbitrary query unconfigured.",
+    "Viewport0,200 576x824; content18,7 540x840 Left/Top; bottom extent847 and inferredrange23. Rows/icons/fonts approximate; native full bounds and exact geometry not verified.",
+    "Initial root Expand secondary action was followed by a hidden root (Show checked) and grey children; it is the suspected cause, not independently isolated. Explicit Show restored visibility; failure pixels retained.",
+    "Present/default link selected existing Room while Western root was hidden; default selection cause not isolated. These samples are failures, not Western runs. Root restored; independent reference flow created; actual Western run then verified.",
+    "Creating a standalone reference start and overflow/layout edits did not retry the prior denied Action dropdown or add any navigation connection.",
+    "Only H Café independent Text Inter Regular22px checked; other child editability not individually verified. Source reflects actual UI edits, not a Figma export.",
+    "No native execution or human evaluation this batch; current data archived, full app/fidelity not_verified."
+  ]
+}

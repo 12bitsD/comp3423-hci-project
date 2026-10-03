@@ -1,0 +1,884 @@
+{
+  "log": [
+    {
+      "file": "00-import.png",
+      "kind": "editor",
+      "note": "Actual clipboard import and root geometry; clipping/image display to verify",
+      "root": {
+        "selection_link": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-223",
+        "node_id": "954:223"
+      },
+      "captured_at": "2026-10-03T07:26:34.629Z"
+    },
+    {
+      "file": "01-import-content-geometry-failure.png",
+      "kind": "editor",
+      "note": "Outer mask576x877, but imported inner group readsW2156164 H961904.63; cannot infer correct long content from visible top. No scrolling configured yet.",
+      "captured_at": "2026-10-03T07:27:57.681Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"147\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"2156164\"",
+        "      - textbox \"Height\": \"961904.63\""
+      ]
+    },
+    {
+      "file": "02-replaced-local-source.png",
+      "kind": "editor",
+      "note": "First global nested-mask source replaced through normal UI with row-local tag coordinates and no outer SVG mask; root geometry retained, content to verify.",
+      "captured_at": "2026-10-03T07:28:59.060Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Frame, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"94000\"",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "03-local-implicit-clip-geometry-failure.png",
+      "kind": "editor",
+      "note": "Row-local source still imports asW199164 H93503.69. Visible top is not proof of actual long content geometry; no scroll configured.",
+      "captured_at": "2026-10-03T07:29:36.198Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"147\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"199164\"",
+        "      - textbox \"Height\": \"93503.69\""
+      ]
+    },
+    {
+      "file": "04-explicit-clip-units-content.png",
+      "kind": "editor",
+      "note": "Explicit userSpaceOnUse clip units source replaces second failed import; verify content dimensions before configuring scroll.",
+      "captured_at": "2026-10-03T07:30:02.735Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"147\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"199164\"",
+        "      - textbox \"Height\": \"93503.69\""
+      ]
+    },
+    {
+      "file": "05-order-path-repair-content.png",
+      "kind": "editor",
+      "note": "Malformed C coordinate separators corrected; inner content geometry should now be finite. Prior failed SVGs/screenshots retained.",
+      "captured_at": "2026-10-03T07:31:44.492Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"147\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5562\""
+      ]
+    },
+    {
+      "file": "06-content-before-height-change.png",
+      "kind": "editor",
+      "note": "Content child0,0 576x5562, Left/Top constraints configured before shortening parent.",
+      "captured_at": "2026-10-03T07:32:17.658Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5562\""
+      ]
+    },
+    {
+      "file": "07-finite-viewport.png",
+      "kind": "editor",
+      "note": "Actual Frame0,147 size576x877 Clip content; child was Left/Top before size change.",
+      "captured_at": "2026-10-03T07:32:22.568Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Frame, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"147\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"877\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "08-content-after-height-change.png",
+      "kind": "editor",
+      "note": "Verify content remains576x5562 at0,0 with Left/Top after parent877; no source compression.",
+      "captured_at": "2026-10-03T07:32:37.132Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Group, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"0\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"5562\""
+      ]
+    },
+    {
+      "file": "09-vertical-overflow.png",
+      "kind": "editor",
+      "note": "Viewport actual Prototype Overflow Vertical; fixed header/map strip/handle remain outside this Frame.",
+      "captured_at": "2026-10-03T07:32:55.067Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\" [active]:",
+        "    - generic: Vertical"
+      ]
+    },
+    {
+      "file": "10-present-actual-size.png",
+      "kind": "present",
+      "note": "Initial actual-size screen clipped by viewport; old Room flow sidebar is not Food caller navigation.",
+      "input": null,
+      "captured_at": "2026-10-03T07:33:16.837Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=min-zoom&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105&show-proto-sidebar=1"
+    },
+    {
+      "file": "11-list-top.png",
+      "kind": "present",
+      "note": "Fit width and height, sidebar closed; formal scroll replay starts at first row.",
+      "input": null,
+      "captured_at": "2026-10-03T07:33:28.847Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "12-list-down-1.png",
+      "kind": "present",
+      "note": "First downward sample; verify H Café order affordance and following venues.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "captured_at": "2026-10-03T07:33:42.600Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "13-list-down-2.png",
+      "kind": "present",
+      "note": "Next continuous sample; U Garden order affordance and subsequent cafés.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 0.6
+      },
+      "captured_at": "2026-10-03T07:33:48.024Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "14-list-down-3.png",
+      "kind": "present",
+      "note": "VA Café, VA Kiosk, VA Staff Canteen, VA Student Canteen actually visible; W Kiosk not yet visible.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 0.6
+      },
+      "captured_at": "2026-10-03T07:33:55.435Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "15-list-down-4.png",
+      "kind": "present",
+      "note": "Next continuous sample; inspect W/X/Z venue sequence.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 0.6
+      },
+      "captured_at": "2026-10-03T07:34:01.844Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "16-list-down-5.png",
+      "kind": "present",
+      "note": "Inspect first duplicate VA210 identities and distinct tag/no-tag rows.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 0.55
+      },
+      "captured_at": "2026-10-03T07:34:06.623Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "17-list-down-6.png",
+      "kind": "present",
+      "note": "Inspect fifth VA210, Global Student Hub and Block R duplicate context.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 0.5
+      },
+      "captured_at": "2026-10-03T07:34:12.924Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "18-list-bottom.png",
+      "kind": "present",
+      "note": "Inspect Gourmet Shop, both Block R rows and finite bottom.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 0.6
+      },
+      "captured_at": "2026-10-03T07:34:19.339Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "19-bottom-extra-down.png",
+      "kind": "present",
+      "note": "Extra downward input at visible Gourmet bottom; compare actual app pixels.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T07:34:52.629Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "20-reverse-middle.png",
+      "kind": "present",
+      "note": "Reverse sample crosses duplicate vending rows before returning top.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "up",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T07:34:53.045Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "21-reverse-top.png",
+      "kind": "present",
+      "note": "Large reverse input returns current first row; compare with11.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "up",
+        "pages": 4
+      },
+      "captured_at": "2026-10-03T07:34:53.413Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "22-top-extra-up.png",
+      "kind": "present",
+      "note": "Extra upward input; compare top after reverse.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "up",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T07:35:06.723Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "23-repeat-bottom.png",
+      "kind": "present",
+      "note": "Second full-range sample to finite bottom; verify images/rows persist.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T07:35:07.025Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "24-repeat-bottom-extra.png",
+      "kind": "present",
+      "note": "Repeat extra downward input at finite bottom.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "down",
+        "pages": 1
+      },
+      "captured_at": "2026-10-03T07:35:07.437Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "25-repeat-top.png",
+      "kind": "present",
+      "note": "Second reverse restoration to first row; compare with11/21.",
+      "input": {
+        "target": [
+          540,
+          550
+        ],
+        "direction": "up",
+        "pages": 5
+      },
+      "captured_at": "2026-10-03T07:35:07.866Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=954-3580&scaling=scale-down&content-scaling=fixed&page-id=12%3A104&starting-point-node-id=12%3A105"
+    },
+    {
+      "file": "26-final-root.png",
+      "kind": "editor",
+      "note": "Final current root Frame576x1024 at0,94000; all retired replacements captured earlier.",
+      "captured_at": "2026-10-03T07:35:55.038Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - button \"Frame, Frame Dimension Presets\":",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"94000\"",
+        "      - radio \"Vertical\"",
+        "      - generic: Vertical",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content"
+      ]
+    },
+    {
+      "file": "27-title-text.png",
+      "kind": "editor",
+      "note": "Independent Row01 title Text selected; visible Typography confirms Bold22px, not rasterized card.",
+      "captured_at": "2026-10-03T07:36:11.321Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "    - spinbutton \"X-position\": \"119\"",
+        "    - spinbutton \"Y-position\": \"22\"",
+        "  - generic: Horizontal constraints",
+        "  - combobox \"Horizontal constraints\":",
+        "    - generic: Left",
+        "  - generic: Vertical constraints",
+        "  - combobox \"Vertical constraints\":",
+        "    - generic: Top",
+        "      - textbox \"Width\" [disabled]: \"332\"",
+        "      - textbox \"Height\" [disabled]: \"27\"",
+        "    - radiogroup \"Vertical\":",
+        "      - generic: Vertical"
+      ]
+    },
+    {
+      "file": "28-final-scroll-configuration.png",
+      "kind": "editor",
+      "note": "Final Frame Overflow Vertical. Viewport unavailable in virtualized layer row after text selection; actual canvas Select layer Frame selected instead.",
+      "captured_at": "2026-10-03T07:36:30.605Z",
+      "readback": [
+        "- region \"Left sidebar\":",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":",
+        "    - generic: Vertical"
+      ]
+    }
+  ],
+  "root_node_id": "954:3580",
+  "viewport_node_id": "954:3588",
+  "content_node_id": "954:3589",
+  "source_failures": [
+    {
+      "file": "food-oct3-full-list.svg",
+      "sha256": "5edd87fb9b3400e50eb4a1fcb96dc0e209c4899706af185a63184d419473f0f7",
+      "retired_root_node_id": "954:223",
+      "status": "replaced_after_verified_source_geometry_failure",
+      "stage": "Initial global nested masks and malformed OnlineOrder coordinates"
+    },
+    {
+      "file": "food-oct3-full-list-local-implicit-units.svg",
+      "sha256": "148fa3c2f2131c32bc103be1d3928bd36bac170407a9a06eefa54474057413da",
+      "retired_root_node_id": "954:1344",
+      "status": "replaced_after_verified_source_geometry_failure",
+      "stage": "Row-local source, malformed OnlineOrder coordinates"
+    },
+    {
+      "file": "food-oct3-full-list-local-bad-order-path.svg",
+      "sha256": "d6b9f6ca459dfb20fa1cf166f6113b592e3ca7b8a632bad341551ffc9a846161",
+      "retired_root_node_id": "954:2462",
+      "status": "replaced_after_verified_source_geometry_failure",
+      "stage": "Explicit clip units, malformed OnlineOrder coordinates"
+    }
+  ],
+  "diagnostic_rows_bad_source": [
+    {
+      "row": 2,
+      "geometry": [
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"365\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"216\""
+      ]
+    },
+    {
+      "row": 5,
+      "geometry": [
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"984\"",
+        "      - textbox \"Width\": \"199164\"",
+        "      - textbox \"Height\": \"91693.69\""
+      ]
+    },
+    {
+      "row": 10,
+      "geometry": [
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"1957\"",
+        "      - textbox \"Width\": \"199164\"",
+        "      - textbox \"Height\": \"91693.69\""
+      ]
+    },
+    {
+      "row": 24,
+      "geometry": [
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"4700\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"187\""
+      ]
+    },
+    {
+      "row": 25,
+      "geometry": [
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"4887\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"225\""
+      ]
+    },
+    {
+      "row": 27,
+      "geometry": [
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"5328\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"165\""
+      ]
+    },
+    {
+      "row": 28,
+      "geometry": [
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"5493\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"216\""
+      ]
+    }
+  ],
+  "corrected_row_selector_attempts": {
+    "readbacks": [
+      {
+        "row": 5,
+        "geometry": [
+          "    - spinbutton \"X-position\": \"0\"",
+          "    - spinbutton \"Y-position\": Mixed",
+          "      - textbox \"Width\": \"576\"",
+          "      - textbox \"Height\": Mixed"
+        ]
+      },
+      {
+        "row": 10,
+        "geometry": [
+          "    - spinbutton \"X-position\": \"0\"",
+          "    - spinbutton \"Y-position\": Mixed",
+          "      - textbox \"Width\": \"576\"",
+          "      - textbox \"Height\": Mixed"
+        ]
+      }
+    ],
+    "limits": "Mixed values after Return-selected children; not successful independent row geometry verification. Correct content size and Present order affordances verified separately."
+  },
+  "text_check": {
+    "readback": [
+      "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+      "    - spinbutton \"X-position\": \"119\"",
+      "    - spinbutton \"Y-position\": \"22\"",
+      "      - textbox \"Width\" [disabled]: \"332\"",
+      "      - textbox \"Height\" [disabled]: \"27\"",
+      "  - heading \"Typography\" [level=2]",
+      "  - button \"Typography, Apply styles\":",
+      "  - combobox \"Font family\":",
+      "    - generic: Inter",
+      "  - generic: Font style",
+      "  - combobox \"Font style\":",
+      "    - generic: Bold",
+      "  - 'listbox \"Font size: 22 px\"'",
+      "  - generic \"Font size\":",
+      "    - 'combobox \"Font size: 22 px\"': \"22\""
+    ],
+    "captured_at": "2026-10-03T07:36:11.322Z"
+  },
+  "pixel_comparisons": [
+    {
+      "left": "18-list-bottom.png",
+      "right": "19-bottom-extra-down.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw app-crop pixels only; no widened tolerance/native fidelity inference."
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "21-reverse-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw app-crop pixels only; no widened tolerance/native fidelity inference."
+    },
+    {
+      "left": "21-reverse-top.png",
+      "right": "22-top-extra-up.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw app-crop pixels only; no widened tolerance/native fidelity inference."
+    },
+    {
+      "left": "18-list-bottom.png",
+      "right": "23-repeat-bottom.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw app-crop pixels only; no widened tolerance/native fidelity inference."
+    },
+    {
+      "left": "23-repeat-bottom.png",
+      "right": "24-repeat-bottom-extra.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw app-crop pixels only; no widened tolerance/native fidelity inference."
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "25-repeat-top.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null,
+      "limits": "Exact saved raw app-crop pixels only; no widened tolerance/native fidelity inference."
+    }
+  ],
+  "fixed_area_comparisons": [
+    {
+      "left": "11-list-top.png",
+      "right": "12-list-down-1.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": false,
+      "difference_bbox": [
+        69,
+        84,
+        317,
+        91
+      ]
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "13-list-down-2.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": false,
+      "difference_bbox": [
+        4,
+        83,
+        309,
+        91
+      ]
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "14-list-down-3.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "15-list-down-4.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": false,
+      "difference_bbox": [
+        61,
+        84,
+        341,
+        91
+      ]
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "16-list-down-5.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "17-list-down-6.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": false,
+      "difference_bbox": [
+        69,
+        83,
+        341,
+        91
+      ]
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "18-list-bottom.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "19-bottom-extra-down.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "20-reverse-middle.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "21-reverse-top.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "22-top-extra-up.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "23-repeat-bottom.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "24-repeat-bottom-extra.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "11-list-top.png",
+      "right": "25-repeat-top.png",
+      "fixed_header_strip_handle_crop_xyxy": [
+        267,
+        60,
+        623,
+        151
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "limits": [
+    "Actual28-row continuous Figma list and finite forward/reverse scroll only. No Home caller, half-sheet expansion/collapse, hours, menu, row detail, tags, order or Back connections configured.",
+    "Current archived public row order/time status; not backend IDs, live venue data or complete application. Five VA210/two BlockR remain distinct research rows.",
+    "Root576x1024; viewport0,147 size576x877; child0,0 size576x5562 Left/Top; inferred range4685, not measured native full geometry.",
+    "First three imports had huge inner geometry; diagnosed malformed OnlineOrder SVG C commands without coordinate separators in rows5/10. Row-local coordinates and explicit clip units alone did not fix it. Source-generator issue, not native app/Figma defect.",
+    "Retired roots954:223,954:1344,954:2462 were replaced through UI; failure pixels and SVG snapshots retained. Only954:3580 is current.",
+    "Corrected import verified content576x5562; Left/Top child constraints set before parent height877 to avoid prior compression pattern. Header/map strip/handle outside scroll Frame.",
+    "Only Row01 title Text Inter Bold22px directly inspected. Most child editing untested; logos/map strip raster, other SVG text/vectors independent. Fonts/icons/spacing approximate.",
+    "Native tag AX contains offscreen names; only native visible prefix/clipped edge established.24 source tag rows clipped, no horizontal gestures configured.",
+    "Initial Present Actual size clipped with old Room sidebar; closed sidebar and used Fit width and height. This is independent Food frame replay, not Room/Home entry.",
+    "Prior Action browser URL-protocol safety refusal not retried/circumvented. Overflow configuration is a different permitted edit.",
+    "No native input/state/action evidence added; prototype replay is not native execution or human evaluation. Full app/fidelity not_verified."
+  ]
+}

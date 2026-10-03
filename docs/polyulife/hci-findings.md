@@ -135,6 +135,8 @@ Calendar 公共假期详情返回保留 September 26；Food 的配图 X 返回�
 
 ## Calendar 的辅助访问与状态范围待核实
 
+2026-10-03 [Payment日期补查](calendar-payment-dates-oct3-walkthrough.md)再次确认：可见October3在Sat列，选中标题是Saturday，AX却叫Today Sunday3October。当前Mac的独立重复证据支持既有 `F-CALENDAR-AX-DATE-LABEL`，没有新增重复问题，也没有iPhone VoiceOver或真人影响验证。[可见页面](../../evidence/2026-10-03-calendar-payment-dates-native/01-payment-oct3.png) / [安全AX](../../evidence/2026-10-03-calendar-payment-dates-native/01-payment-oct3.safe-ax.txt)。
+
 [Calendar 走查](calendar-notification-walkthrough.md)记录了月历日期格的 AX 名称与视觉日期文案差异：例如 September 26 日期格 AX 为 Sunday，而视觉当前日期为 Saturday；Thursday 的 AX 名称还出现 `Thursdya`。这是可复核的标签差异，可能影响依赖名称的辅助技术，但当前没有 iOS VoiceOver 或真人读屏结果，不能宣称已经确认读屏误报。
 
 只选 Acad calendar 后，月历空态保留了当前筛选标签和建议启用全部筛选的指引；Events 列表展示公共校历，周视图出现个人课表，返回月历后筛选仍保持。这可能是各视图独立范围的产品设计，也可能让用户不易判断当前过滤范围。先核实视图语义和其它组合，再比较明确视图名称/过滤范围的方案；不把正常空数据、个人课表出现或跨月默认选中1日直接写成数据错误。
@@ -158,3 +160,11 @@ Study目录搜索控件被点击并尝试输入后出现空白；输入是否被
 My Courses Open最终显示App内嵌的空Blackboard登录页，没有证据证明成功交接Chrome；QR显示已确认，但没有扫描、解码或门禁验收。私人成绩、课程、进度、日程、身份和二维码都不属于公开分析素材：共享截图仅保留通用结构或完全遮盖，原型使用明确的合成资料。本批没有新增真人测试结果，候选问题总数保持10项。
 
 后补原生Home四入口核查确认：Notification到空态、Calendar到Week5周历、Search到空搜索、Menu到抽屉，各返回均已实做。原型曾将Home Calendar连到固定月历，属于复现来源不匹配，已按实证改为带合成课表的Week5并复验往返；它不是原App的新缺陷。Home装饰图在原型返回时消失后又恢复，以及此前VA/Food缺图，都继续作为Figma视觉问题记录，不能写成人类使用问题或原App故障。
+
+## H-PAYMENT-AMOUNT-AX-LABEL：金额眼睛控件只有图标名称
+
+**观察事实。** [首次详情安全 AX](../../evidence/2026-10-03-payment-record-native/03-first-record-entry.safe-ax.txt)、[显示金额](../../evidence/2026-10-03-payment-record-native/04-amount-revealed.safe-ax.txt)和[隐藏金额](../../evidence/2026-10-03-payment-record-native/05-amount-hidden-again.safe-ax.txt)中，眼睛按钮的 Description 为私用区字形，没有描述“显示/隐藏金额”的名称。实际点击完成显示和反向隐藏。公开截图遮盖财务正文，不能用遮罩后的相等像素证明金额值或布局。
+
+**问题假设。** 依赖辅助访问名称的人可能难以预测控件作用或识别当前隐私状态；当前只确认 Mac AX 命名，未验证 iPhone VoiceOver、真人理解或错误率。
+
+**原则、建议与验证。** 操作含义和状态应可理解。先在 iPhone 和对应语言下验证读屏名称及状态播报，再比较描述性“显示/隐藏未付金额”名称与可访问状态。候选改进单独评估，忠实复现仍保留已观察行为。本批将候选总数从10更新为11，没有新增真人测试结果。

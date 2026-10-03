@@ -1,0 +1,12 @@
+{
+  "root": "949:63",
+  "viewport": "949:65",
+  "content": "949:66",
+  "final_content_readback": "  - button \"Group, Frame Dimension Presets\":\n    - spinbutton \"X-position\": \"0\"\n    - spinbutton \"Y-position\": \"0\"\n  - generic: Horizontal constraints\n  - combobox \"Horizontal constraints\":\n    - generic: Left\n  - generic: Vertical constraints\n  - combobox \"Vertical constraints\":\n    - generic: Top\n      - textbox \"Width\": \"576\"\n      - textbox \"Height\": \"992\"",
+  "viewport_readback": "Frame576x924 X0 Y100, Clip content checked, Overflow Vertical",
+  "root_readback": "Frame576x1024 X0 Y88000",
+  "text_readback": "Text layer Block Y Outlet - Grove & Tai Tai Foodtopia; Typography Bold22px; editor11 screenshot",
+  "navigation_connections_added": 0,
+  "prior_action_refusal_retried": false,
+  "final_text_readback": "  - heading \"Text\" [level=1]\n  - heading \"Typography\" [level=2]\n  - button \"Typography, Apply styles\":\n    - generic: Bold\n  - 'listbox \"Font size: 22 px\"'\n  - generic \"Font size\":\n    - 'combobox \"Font size: 22 px\"': \"22\""
+}

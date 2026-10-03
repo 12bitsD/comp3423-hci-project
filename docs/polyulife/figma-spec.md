@@ -1,5 +1,35 @@
 # Figma 复现与证据对应约定
 
+最新[Study/Courses/QR加载回放](account-loading-prototype-walkthrough.md)补3画板、3延时控件并替换7入口和QR返回；三种Home来源有限样例、QR缺图/重传/覆盖层复验已保存。当前137画板、308控件、82次运行，全应用 `not_verified`。以下旧批次统计为历史快照。
+
+最新[Food加载校徽重传](food-loading-mark-repair-walkthrough.md)保留直接重入缺图并完成相同PNG重传，两次连续直接路径有图。当前134画板、305控件、75次原型运行，全应用 `not_verified`。下方批次数值为历史快照。
+
+最新[Food加载态接入](food-loading-prototype-walkthrough.md)补2画板、新增2延时控件、替换3入口；展开营业时间/原型直接列表与嵌套地图返回已保存。当前134画板、305控件、73次原型运行，全应用 `not_verified`。下方批次数字为历史快照。
+
+最新[Terms加载接入](terms-loading-prototype-walkthrough.md)补1画板、新增1/替换2控件；保留历史栈失败并以覆盖层修复，通知与Tuesday Home返回样例通过。当前132画板、303控件、71次原型运行，全应用 `not_verified`。下方旧批次数字为历史快照。
+
+最新[筛选恢复](calendar-filter-resume-prototype-walkthrough.md)完成Monday Home恢复、Tuesday循环及Flow3清理；[Assistant中间状态接入](assistant-transient-prototype-walkthrough.md)导入三帧、替换两个入口、新增三个控件，主链路和独立Blank关闭已回放。累计131画板、302控件、68次运行，演示延时/原型推广及未验证输入保持明确，全应用 `not_verified`。以下准备阶段/批次统计为历史快照。
+
+最新[Assistant中间状态素材](assistant-transient-source-preparation.md)补齐BeforeHero/WebLoading/WebBlank三份可编辑SVG及本地渲染；尚未导入或连线。当前截图/点击反馈和原生Wrapper连接未恢复，Figma仍128画板、299控件、64次运行，全应用 `not_verified`。
+
+最新[Calendar筛选上下文检查点](calendar-filter-context-prototype-walkthrough.md)补入三个画板、八条控件，Monday选择循环、学术日历Apply和重开已回放。All/None背景为组合，三个X出口为推断；截图采集在留存30后中断，Home返回、Tuesday和Flow根检查待续。累计128画板、299控件、64次回放，全应用 `not_verified`。
+
+最新[Calendar日期上下文](calendar-date-context-prototype-walkthrough.md)新增三张日期画板、七条控件，按已观察语义连接Sep26→Oct1→Sep1→Sep28→Sep26，两种Home调用者及各三个恢复出口实际回放。十五项比较十三项相等、两个Home局部差异保留。累计125画板、291控件、63次回放，全应用仍 `not_verified`。
+
+最新[Calendar节假日详情上下文](calendar-detail-context-prototype-walkthrough.md)新增一张详情画板和两条连接，Monday/Tuesday月视图返回及后续模式循环实际回放。八项比较六项相等、两个Home底部局部差异保留。累计122画板、284控件、61次回放，全应用仍 `not_verified`。
+
+最新[Home图片填充回归](home-image-repair-prototype-walkthrough.md)重传Monday/Tuesday公开照片素材，六个保存的Calendar返回均保留照片；九项比较五项相等、四项底部局部差异，长期稳定性和完整保真仍开放。累计121画板、282控件、59次原型运行，全应用 `not_verified`。
+
+最新[Calendar模式循环](calendar-modes-prototype-walkthrough.md)接入公共月/事件/历史三个上下文和八条控件，保留Monday/Tuesday调用者。Monday底部Calendar漏接失败已修复并回放，Home缺图仍开放。累计121画板、282控件、56次运行，全应用仍 `not_verified`。以下统计为历史批次快照。
+
+最新[Calendar周选择器回放](calendar-week-picker-prototype-walkthrough.md)补入展开/滚轮13两个状态和四条控件；收起仍Week5，拖动仅代理原生滚动。Tuesday Home返回的底部缺图失败保留。累计118画板、274控件、53次运行，全应用仍 `not_verified`。以下统计为历史批次快照。
+
+最新[天气官方网页回放](weather-web-prototype-walkthrough.md)新增既有原生状态的一个网页画板和两条控件。入口与原型返回已回放，工具瞬时缺图（留存图已恢复）、原PNG重传及两轮复验保留；累计116画板、270控件、51次运行。网页关闭原生结果、Cookie/浏览器控制、完整滚动与可编辑保真仍待补。全应用为 `not_verified`；以下统计是历史批次快照。
+
+2026-09-30最新[Food地图平移与返回](food-map-pan-prototype-walkthrough.md)在既有画板50:2246/50:2267补接MapViewport拖动与平移Back；一个Tuesday来源链路已回放，累计115画板、268控件、48次运行。地理内容为截图裁片，On drag与300ms动画为离散原型，完整范围仍为 `not_verified`。以下批次数字保留为历史快照。
+
+2026-09-30最新批次见[Preview登录边界与复制反馈](room-preview-controls-prototype-walkthrough.md)：画板452:19为576×1024、位置0,43000，校徽来自公开原生截图，表单及导航未连线；Copy文字312:242为On click→Close overlay，顶部和滚动后均已回放。当前109个映射画板、245个配置控件、40次运行。完整认证/指南/调用者和实际剪贴板语义尚未完成，全应用保持 `not_verified`。本页后续较早批次数字为历史快照。
+
 本页定义从真实 PolyULife 观察到可编辑、可点击 Figma 的对应关系。实际覆盖由 [coverage.json](coverage.json) 记录。本页同时记录已经确认的文件状态和后续制作、验证方法；实际存在文件不等于节点和交互已经完成。
 
 ## 当前修正版（Room V2）
@@ -102,6 +132,8 @@ Calendar 的三个筛选面板用公共 Acad calendar / No event 画面作为背
 公开证据：[首次详情有头图](../../evidence/2026-09-28-full-audit/figma-v2-present-163028-va-detail-with-hero.png)、[图片展开](../../evidence/2026-09-28-full-audit/figma-v2-present-163047-va-hero-expanded.png)、[Disclaimer](../../evidence/2026-09-28-full-audit/figma-v2-present-163110-va-disclaimer.png)、[Welcome](../../evidence/2026-09-28-full-audit/figma-v2-present-163123-va-welcome.png)、[返回详情后头图空白](../../evidence/2026-09-28-full-audit/figma-v2-present-163143-va-return-hero-missing-renderer-unresolved.png)。这些都是 Figma 重建截图，不是新的 App 状态。
 
 头图空白时，绿色展开图标和原布局空间仍在。16:31:43、16:31:59 和 16:32:19 的缺图画面相同，公共截图复用同一份；16:32:31 重载后，16:33:06.714 截图再次出现头图，与首次有图画面的原始截图字节相同，复用该公开图。接着重新执行 `here → ACCEPT → CloseWeb`，16:33:53 又返回 `42:6` 且头图消失；16:33:54.022 截图与 16:31:43.076 缺图画面字节相同，复用失败图。因此不能只记录重载恢复而把问题关闭；`D-VA-HERO-RETURN-RENDER` 保持 open，来源图片没有被修改，后续需检查 Figma 导入图片/渲染并复验，尚未确定根因。
+
+2026-09-30后续：[图片填充修复与四轮分阶段回放](virtual-assistant-image-repair-walkthrough.md)保存本次缺图复现、头图原素材重传、随后发现并修复的四处网页校徽/头像，以及最终两轮回放。原失败运行和截图不改；两项图片偏差改为 `partially_resolved`，图片区域像素差异、来源状态与完整视觉仍开放。
 
 这条原型只采样稳定状态：More 直接到头图已加载的详情，`here` 直接到 Disclaimer，跳过真实 App 的中间加载态。另一个来源边界是：真实 App 已确认的网页 X 返回起点为输入尝试后的空白网页，当前原型 X 从 Welcome 返回同一详情；精确起点尚未在原 App 独立复验，记为 `D-VA-SOURCE-STATE-SAMPLING`。原 App 的输入定位/空白页面问题与这里的 Figma 头图消失是两件不同的观察，不相互证明。
 
@@ -381,9 +413,10 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 
 ## 从状态到节点
 
-每个 `state` 对应一个可定位的 Figma frame、overlay 或 component variant。节点命名使用 `[state_id] 实际页面/状态名`，名称来自观察记录。`state_node_mappings` 记录：
+每个 `state` 对应可定位的 Figma frame、overlay 或 component variant。同一原生状态可有不同日期、数据或聚焦上下文；额外画板使用明确的 `context_variant`，并引用与该状态对应的原生证据，不新增原生观察次数。节点命名使用 `[state_id] 实际页面/状态名`，名称来自观察记录。`state_node_mappings` 记录：
 
 - `state_id`、`node_id`、`node_url`、Figma 工作页及节点类型。
+- `context_variant`（可选）：同一原生状态的日期、数据或聚焦变体。`node_id` 必须唯一，`(state_id, context_variant)` 必须唯一；没有变体字段的历史基础画板每个状态最多一个。画板数量与原生状态数量分别统计。
 - `source_evidence_ids`：真实截图和辅助 AX 引用。
 - `viewport`：截图内容区域尺寸、缩放及 Figma frame 尺寸；窗口装饰与应用内容边界分开记录。
 - `content_policy`：真实界面中的个人字段在共享版替换为明确的示例值；保留文案长度、层级和交互作用。
@@ -415,6 +448,8 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 5. 将节点和动作映射与全应用台账逐条比对。任何尚未观察、缺截图、缺节点、缺连线、未复验或仍有阻碍的项均保持未完成；全应用完成判定见 [README](README.md#完成判定)。
 
 交付包含真实 Figma 文件及原型链接、状态/动作映射、证据索引、HCI 分析及明确的剩余缺口。Agent 对原型的走查是功能验证记录；课程真人可用性评估另按 [项目说明](../project-brief.md) 执行。
+
+[台账校验脚本](../../design/scripts/validate_polyulife_records.py)检查引用、文件哈希、PNG尺寸、SVG结构及节点/上下文唯一性；此结构检查不证明全应用完成或全部视觉保真。
 
 ## 校园地图增量
 
@@ -475,3 +510,8 @@ Home Room进入的是后续清空查询样例，区别于最初原生Home→Room
 ## Room日期与Sunday增量
 
 [实现与回放](room-sunday-prototype-walkthrough.md)新增3个Frame、7个连接，Available日期条改为水平滚动，Sunday ALL有已观察范围内连续竖向滚动。累计86个映射Frame、217个配置控件、4个垂直和1个水平滚动区域。过渡延时仅演示，三个出口及反向筛选为原型推断；完整日期、列表、地图与查询仍未完成。
+
+
+## Oct2 原生全不选分支增量
+
+[原生补查](native-calendar-resume-20261002.md)与[参考回放](calendar-none-oct2-prototype-walkthrough.md)补入5个576×1024全屏归一化样例及7个控件。草稿保留All或None对应已应用背景；Apply None后的No Selected Event/No event及重开未勾选有真实证据。两条X为原型推广，独立起点未接主导航。当前152映射画板、346配置控件、104次有限运行；完整应用与视觉保真仍未验证。

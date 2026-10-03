@@ -1,0 +1,170 @@
+{
+  "kind": "local_notification_svg_fidelity_check",
+  "images": [
+    {
+      "file": "notification-record-list-unread.png",
+      "sha256": "40917e5a5bde08bc79766be91fb0c8b4bc8a56f3a5e37b4a4fcf62aad9b886fc",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-NOTICE-LIST-UNREAD",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "ed0018f788a2cbc8c3bedfe10581cec465316f6b3efd00ed91e065b4fe002def",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-04"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    },
+    {
+      "file": "notification-record-list-read.png",
+      "sha256": "70e32b29434f9c588780501bd4421d9f76e0a324832d6144560dbba00fba266e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "fa772a3647c780364a6c9c5ff223c2a9be432ef2b55cae78a12037d1b4a7d7c2",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-15"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    },
+    {
+      "file": "notification-record-detail-initial.png",
+      "sha256": "2d50f27407155317f430c022a7cc7c0913e130d728978f53e7b1f29b7c573828",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "bc1bfb93baa577bae733d6a14f667bb020547a46732df3bd9773e2a343dc0092",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-05"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    },
+    {
+      "file": "notification-record-detail-loaded.png",
+      "sha256": "f0df8a6b2bf04724e5af104864e5758837db4e65b23ec4b671d80430866d6272",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-NOTICE-DETAIL-LOADED",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "73fcf3187fc4915ca1587a4e9af375302f0d8ecb5cd8484529e1d09d153d10eb",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-24"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    },
+    {
+      "file": "notification-record-image-expanded.png",
+      "sha256": "a3ad8d42a036e4d93ea6298e509b03b10af612b4605aadd9da1ee3b7e30b0b98",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-NOTICE-IMAGE",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "e80d99fa95e2f4fb43039e22cd6ba2e924c445ee83b425e2b2d12a2bb3d31ea0",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-13"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    },
+    {
+      "file": "notification-record-web-loading.png",
+      "sha256": "91ff054a3c98466b09fff50b73f284f47d0f8d9d6ffc7aa1c56fe46abd835003",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-NOTICE-WEB-LOADING",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "3e9ee90b68f006dbfdb79bbed3838920eaa41bbf7257f08517bf453ab585023d",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-21"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    },
+    {
+      "file": "notification-record-web-blank.png",
+      "sha256": "811dea993a22860ceb708b6fda7449ad57a397c5351cfe844b94f24930ecc11b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-NOTICE-WEB-BLANK",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "eeb22380a1710d0939bec7157b23b4100be74fb25a66b719ca151bc75dc777a3",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-22"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    },
+    {
+      "file": "notification-record-web-menu.png",
+      "sha256": "d01c2ae5f9c0df886d5648656f440bb81d4f323c99b68044fce3eaf196f0b8ef",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-NOTICE-WEB-MENU",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "a48312fed31e0d6a0c36ab51d4acea6f67c09a083087cf7d92fdb35f0fd7444f",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-08"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    },
+    {
+      "file": "notification-record-calendar-read.png",
+      "sha256": "14cb453427e5e4514df0be02558a59052ea5bb564b29cf587058312b1ff05a71",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "source": "Local sharp/librsvg render of editable source; NOT Figma or native capture",
+      "source_svg_sha256": "3c40fafde470e013f3a0ead69ebfc0a8b9648a32bee03ddadb79541703115dde",
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-18"
+      ],
+      "status": "source_check_only_not_import_acceptance"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "423ea8c77f208b392cf211030bad34ac0e94a7ee9e5fbe3177f34cda626dfde8",
+    "dimensions": [
+      1152,
+      1692
+    ],
+    "captured_at_utc": "2026-10-03T02:41:13.928172+00:00",
+    "source": "Local source contact, not Figma screenshot"
+  },
+  "renderer": "Bundled sharp / librsvg (local render)",
+  "limits": [
+    "Local render does not prove Figma import, editability, configured paths or fidelity.",
+    "Explicit fill none fixes source outlines; current imported860:19 still contains earlier source.",
+    "Raster banner/static logo; no live browser/index/map behavior."
+  ]
+}
