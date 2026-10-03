@@ -1,0 +1,673 @@
+{
+  "kind": "native_food_hours_list_boundaries_and_reverse",
+  "session_id": "SESSION-20261003-FOOD-REVERSE",
+  "images": [
+    {
+      "file": "00-current-search.png",
+      "sha256": "eb7dbc8a4220da45b81ed97813140fc1bf0e47198901dab04a715e8958d0ebd3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:24:18.782Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": null,
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "00-current-search.safe-ax.txt",
+      "safe_ax_sha256": "716893fc025c6a46928b3b7db8949aed111484b42493d560dc42cac4386f9bc0"
+    },
+    {
+      "file": "01-search-back.png",
+      "sha256": "fbbf84faa25f80edea8518acf8898e7cac5039083065b3c7cc7cdf088a760d8d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:24:30.368Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NOTICE-SEARCH-BACK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "01-search-back.safe-ax.txt",
+      "safe_ax_sha256": "e995434603ced9a55316451c6c748418fe9810be8fac962a5acd784e5429bd0e"
+    },
+    {
+      "file": "02-home-caller.png",
+      "sha256": "2fef2898a5812c2a197820e8dfcedaddba7f1b4d247ab8215284d07845037ff2",
+      "dimensions": [
+        576,
+        468
+      ],
+      "captured_at_utc": "2026-10-03T06:24:46.520Z",
+      "state_id": "S-HOME",
+      "action_id": "A-FOOD-OCT3-NOTICE-HOME",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        780,
+        750,
+        1390
+      ],
+      "redaction": "Only Home lower public navigation cropped; private upper content excluded, no full Home fidelity claim",
+      "safe_ax_file": "02-home-caller.safe-ax.txt",
+      "safe_ax_sha256": "e5063f158f155cc07991bcd6e1fd024ed41af01bdc0758bc8843912c9568a1c1"
+    },
+    {
+      "file": "03-food-entry.png",
+      "sha256": "65dfad8d0ce62adc170fa4a595158d3bda075ec8352c61fd7b1cfc01c5ed8334",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:25:00.530Z",
+      "state_id": "S-FOOD-OCT3-LIST",
+      "action_id": "A-FOOD-OCT3-OPEN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "03-food-entry.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "04-blocky-hours-expand.png",
+      "sha256": "eb9dbcd62fa67641abe6b34c9e70165c47a8236e888b0c1a289997f74718ce51",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:25:23.296Z",
+      "state_id": "S-FOOD-OCT3-BLOCKY-HOURS",
+      "action_id": "A-FOOD-OCT3-BLOCKY-EXPAND",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "04-blocky-hours-expand.safe-ax.txt",
+      "safe_ax_sha256": "ff25b8fadcdccc13bec3e79edb4832fff1804144fe1194f63bf8c4dc0bde82b9"
+    },
+    {
+      "file": "05-blocky-hours-collapse.png",
+      "sha256": "ead6bc4eb75a6efb9bf008f73bf614d8bd799bff8acc520c9f31b422cbce83a0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:25:37.382Z",
+      "state_id": "S-FOOD-OCT3-LIST",
+      "action_id": "A-FOOD-OCT3-BLOCKY-COLLAPSE",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "05-blocky-hours-collapse.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "06-food-sheet-expand.png",
+      "sha256": "3e3fd701d9727e7099686d87ce22e9b8a4a73a83cdfedab2647e0293cf2a32b6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:25:50.218Z",
+      "state_id": "S-FOOD-OCT3-SHEET",
+      "action_id": "A-FOOD-SHEET-EXPAND",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "06-food-sheet-expand.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "07-food-list-next.png",
+      "sha256": "b6b79d44e3f792ad8dacdb4d08267e6dc6b5fe935817773ab51a398c179389ca",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:26:03.753Z",
+      "state_id": "S-FOOD-OCT3-HCAFE-OPEN",
+      "action_id": "A-FOOD-OCT3-LIST-DOWN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "07-food-list-next.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "08-hcafe-hours-expand.png",
+      "sha256": "d6cf724c8c397556b6624186ee6ecb4931b1abfae3d024fdb705e9342c7485ec",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:26:14.883Z",
+      "state_id": "S-FOOD-OCT3-HCAFE-HOURS",
+      "action_id": "A-FOOD-OCT3-HCAFE-EXPAND",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "08-hcafe-hours-expand.safe-ax.txt",
+      "safe_ax_sha256": "5ba6b421d0e771f4dee7af7602825f0596459929bf9e61add61918de347c34c2"
+    },
+    {
+      "file": "09-hcafe-hours-collapse.png",
+      "sha256": "5903b858697bbac88e68577c9cdbad0091235153c6f655b479f30ed9cfd15fd6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:26:25.120Z",
+      "state_id": "S-FOOD-OCT3-HCAFE-OPEN",
+      "action_id": "A-FOOD-OCT3-HCAFE-COLLAPSE",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "09-hcafe-hours-collapse.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "10-food-list-middle.png",
+      "sha256": "159a9220d92db0eed6791d4782b079f733e6db0c73ede0a3be974444008a09bf",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:26:48.499Z",
+      "state_id": "S-FOOD-OCT3-MID-THEATRE",
+      "action_id": "A-FOOD-OCT3-LIST-DOWN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "10-food-list-middle.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "11-food-list-middle2.png",
+      "sha256": "d5ba58eb0da48ddcf32d3d148062b39ff40b36d3bb11d92b1f8e3c7a071f04ac",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:26:58.058Z",
+      "state_id": "S-FOOD-OCT3-MID-VA",
+      "action_id": "A-FOOD-OCT3-LIST-DOWN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "11-food-list-middle2.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "12-food-list-middle3.png",
+      "sha256": "eeb13e522f2e06fa72c8ef087f59560ac253b88b8bf1c6bab9cf73a2641d93f7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:27:07.621Z",
+      "state_id": "S-FOOD-OCT3-MID-WXZ",
+      "action_id": "A-FOOD-OCT3-LIST-DOWN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "12-food-list-middle3.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "13-food-list-va210.png",
+      "sha256": "b40779e5fb54f2785c21e4e9232d5080bd42842b4102c28af615dee6edc29550",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:27:17.837Z",
+      "state_id": "S-FOOD-OCT3-VA210",
+      "action_id": "A-FOOD-OCT3-LIST-DOWN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "13-food-list-va210.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "14-va210-hours-expand.png",
+      "sha256": "7f43db2dc3474c5e290f4378c712913f47ab32d9fea8831a273d80fb216bff3a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:27:30.959Z",
+      "state_id": "S-FOOD-OCT3-VA210-HOURS",
+      "action_id": "A-FOOD-HOURS-EXPAND",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "14-va210-hours-expand.safe-ax.txt",
+      "safe_ax_sha256": "7588d184774e0688f7ffb7dac4e121b1d2a84bfa86d371db3d48e65c1073d8e5"
+    },
+    {
+      "file": "15-va210-hours-collapse.png",
+      "sha256": "dfaad7c69ed5cb7728758674bcff13251ac5ed74559799c83b4fb77b92126d33",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:27:41.681Z",
+      "state_id": "S-FOOD-OCT3-VA210",
+      "action_id": "A-FOOD-HOURS-COLLAPSE",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "15-va210-hours-collapse.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "16-food-list-machines.png",
+      "sha256": "49dbbcaa2107eecab7fd026eb0cbdfb91d32f8259c4383d828a5746ebdb52909",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:27:53.897Z",
+      "state_id": "S-FOOD-OCT3-MACHINES",
+      "action_id": "A-FOOD-OCT3-LIST-DOWN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "16-food-list-machines.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "17-food-list-last.png",
+      "sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:28:07.042Z",
+      "state_id": "S-FOOD-OCT3-BOTTOM",
+      "action_id": "A-FOOD-OCT3-LIST-DOWN",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "17-food-list-last.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "18-food-list-bottom-check.png",
+      "sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:28:17.556Z",
+      "state_id": "S-FOOD-OCT3-BOTTOM",
+      "action_id": "A-FOOD-OCT3-BOTTOM-CHECK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "18-food-list-bottom-check.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "19-gourmet-information-expand.png",
+      "sha256": "288405cdca777c066bc3f7a9c06bf508c3071a2934f07f06d61823c22b949532",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:28:34.531Z",
+      "state_id": "S-FOOD-OCT3-GOURMET-HOURS",
+      "action_id": "A-FOOD-OCT3-GOURMET-EXPAND",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "19-gourmet-information-expand.safe-ax.txt",
+      "safe_ax_sha256": "46a86a087ef1029c469f8003a895a66c1ac44d8f5fc17048a364de543eaaf917"
+    },
+    {
+      "file": "20-gourmet-information-collapse.png",
+      "sha256": "6b0ff844032072d58897304480a449bb940e8174e95a33295e7c5d328d5157a3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:28:48.633Z",
+      "state_id": "S-FOOD-OCT3-BOTTOM",
+      "action_id": "A-FOOD-OCT3-GOURMET-COLLAPSE",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "20-gourmet-information-collapse.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "21-food-reverse-top.png",
+      "sha256": "fd5c5c88c1230631e7463d74c0bf3cab3d5964d77b8bdef70e2f40445d765604",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:29:01.802Z",
+      "state_id": "S-FOOD-OCT3-SHEET",
+      "action_id": "A-FOOD-OCT3-LIST-UP",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "21-food-reverse-top.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "22-food-top-boundary-check.png",
+      "sha256": "ee8192dea41ac17d2d6b08718ef4e6a8cf05c8eb4a74970fff93cd494a9a1eb4",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:29:17.182Z",
+      "state_id": "S-FOOD-OCT3-SHEET",
+      "action_id": "A-FOOD-OCT3-TOP-CHECK",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "22-food-top-boundary-check.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "23-food-sheet-collapse.png",
+      "sha256": "4ccbf6b76bb305766f30bfa71e1b108330e4332426c5177b7d6d3e7c4d63959e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:29:36.063Z",
+      "state_id": "S-FOOD-OCT3-SHEET",
+      "action_id": "A-FOOD-SHEET-COLLAPSE",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "23-food-sheet-collapse.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "24-sheet-collapse-followup.png",
+      "sha256": "31297cd105a28a51d42d7d77afa368153eac0c8bb89a0b04a0bae2017dd059ad",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T06:29:55.199Z",
+      "state_id": "S-FOOD-OCT3-SHEET",
+      "action_id": null,
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "safe_ax_file": "24-sheet-collapse-followup.safe-ax.txt",
+      "safe_ax_sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca"
+    },
+    {
+      "file": "25-food-back-home.png",
+      "sha256": "11ce653403843862a9555e4900367fa711d06cfcb98aa193cf8b717d986beff9",
+      "dimensions": [
+        576,
+        468
+      ],
+      "captured_at_utc": "2026-10-03T06:30:09.992Z",
+      "state_id": "S-HOME",
+      "action_id": "A-FOOD-OCT3-BACK-HOME",
+      "source": "Actual native Computer Use screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        780,
+        750,
+        1390
+      ],
+      "redaction": "Only Home lower public navigation cropped; private upper content excluded, no full Home fidelity claim",
+      "safe_ax_file": "25-food-back-home.safe-ax.txt",
+      "safe_ax_sha256": "e5063f158f155cc07991bcd6e1fd024ed41af01bdc0758bc8843912c9568a1c1"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "50d3df37c066e68705d6467682c462270012324c4abd18a6d941038409d9e75e",
+    "dimensions": [
+      1152,
+      3300
+    ],
+    "source": "26 public native captures; two are lower-Home crops, not full pages"
+  },
+  "limits": [
+    "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+    "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+    "H Café Closed-context collapse remains separate and untested.",
+    "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+    "No calls, orders, location permissions, external order destination or credentials.",
+    "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+  ]
+}

@@ -1091,6 +1091,85 @@
         "AX value displays workshop/VA210, not proof of arbitrary input or index correctness.",
         "No detail controls observed; action statuses retain prior verified history."
       ]
+    },
+    {
+      "id": "SESSION-20261003-FOOD-REVERSE",
+      "started_at": "2026-10-03T06:24:18.782Z",
+      "documented_through": "2026-10-03T06:30:09.992Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac via Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "login_state": "Existing login; no credential input"
+      },
+      "starting_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "evidence_ids": [
+        "E-FOOD-REV-00",
+        "E-FOOD-REV-00-AX",
+        "E-FOOD-REV-01",
+        "E-FOOD-REV-01-AX",
+        "E-FOOD-REV-02",
+        "E-FOOD-REV-02-AX",
+        "E-FOOD-REV-03",
+        "E-FOOD-REV-03-AX",
+        "E-FOOD-REV-04",
+        "E-FOOD-REV-04-AX",
+        "E-FOOD-REV-05",
+        "E-FOOD-REV-05-AX",
+        "E-FOOD-REV-06",
+        "E-FOOD-REV-06-AX",
+        "E-FOOD-REV-07",
+        "E-FOOD-REV-07-AX",
+        "E-FOOD-REV-08",
+        "E-FOOD-REV-08-AX",
+        "E-FOOD-REV-09",
+        "E-FOOD-REV-09-AX",
+        "E-FOOD-REV-10",
+        "E-FOOD-REV-10-AX",
+        "E-FOOD-REV-11",
+        "E-FOOD-REV-11-AX",
+        "E-FOOD-REV-12",
+        "E-FOOD-REV-12-AX",
+        "E-FOOD-REV-13",
+        "E-FOOD-REV-13-AX",
+        "E-FOOD-REV-14",
+        "E-FOOD-REV-14-AX",
+        "E-FOOD-REV-15",
+        "E-FOOD-REV-15-AX",
+        "E-FOOD-REV-16",
+        "E-FOOD-REV-16-AX",
+        "E-FOOD-REV-17",
+        "E-FOOD-REV-17-AX",
+        "E-FOOD-REV-18",
+        "E-FOOD-REV-18-AX",
+        "E-FOOD-REV-19",
+        "E-FOOD-REV-19-AX",
+        "E-FOOD-REV-20",
+        "E-FOOD-REV-20-AX",
+        "E-FOOD-REV-21",
+        "E-FOOD-REV-21-AX",
+        "E-FOOD-REV-22",
+        "E-FOOD-REV-22-AX",
+        "E-FOOD-REV-23",
+        "E-FOOD-REV-23-AX",
+        "E-FOOD-REV-24",
+        "E-FOOD-REV-24-AX",
+        "E-FOOD-REV-25",
+        "E-FOOD-REV-25-AX",
+        "E-FOOD-REV-CONTACT",
+        "E-FOOD-REV-TRACE",
+        "E-FOOD-REV-CATALOGUE"
+      ],
+      "limitations": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
     }
   ],
   "entry_points": [
@@ -5602,6 +5681,370 @@
       "remaining_uncertainties": [
         "Search index domains/matching mechanism, other queries, result boundaries and full caller context not verified."
       ]
+    },
+    {
+      "id": "S-FOOD-OCT3-LIST",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "Food Block Y first row, half sheet",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-03",
+        "E-FOOD-REV-05"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-03-AX",
+        "E-FOOD-REV-05-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-OPEN",
+        "A-FOOD-OCT3-BLOCKY-COLLAPSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BLOCKY-HOURS",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "Block Y hours expanded",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-04"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-04-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BLOCKY-EXPAND"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-SHEET",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "Food full sheet, first rows",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-06",
+        "E-FOOD-REV-21",
+        "E-FOOD-REV-22",
+        "E-FOOD-REV-23",
+        "E-FOOD-REV-24"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-06-AX",
+        "E-FOOD-REV-21-AX",
+        "E-FOOD-REV-22-AX",
+        "E-FOOD-REV-23-AX",
+        "E-FOOD-REV-24-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-SHEET-EXPAND",
+        "A-FOOD-OCT3-LIST-UP",
+        "A-FOOD-OCT3-TOP-CHECK",
+        "A-FOOD-SHEET-COLLAPSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-HCAFE-OPEN",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "H Café Open Now list viewport",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-07",
+        "E-FOOD-REV-09"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-07-AX",
+        "E-FOOD-REV-09-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN",
+        "A-FOOD-OCT3-HCAFE-COLLAPSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-HCAFE-HOURS",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "H Café Open Now hours expanded",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-08"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-08-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-HCAFE-EXPAND"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-MID-THEATRE",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "Theatre / Forest / U Garden viewport",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-10"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-10-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-MID-VA",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "V Café / VA venues viewport",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-11"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-11-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-MID-WXZ",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "VA Student / W / X / Z viewport",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-12"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-12-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-VA210",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "Z venues and Chinese Soup VA210 row",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-13",
+        "E-FOOD-REV-15"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-13-AX",
+        "E-FOOD-REV-15-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN",
+        "A-FOOD-HOURS-COLLAPSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-VA210-HOURS",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "Chinese Soup VA210 hours expanded",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-14"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-14-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-HOURS-EXPAND"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-MACHINES",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "VA210 machines and Hub viewport",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-16"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-16-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BOTTOM",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "Food last rows, Gourmet Shop Closed",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-17",
+        "E-FOOD-REV-18",
+        "E-FOOD-REV-20"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-17-AX",
+        "E-FOOD-REV-18-AX",
+        "E-FOOD-REV-20-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN",
+        "A-FOOD-OCT3-BOTTOM-CHECK",
+        "A-FOOD-OCT3-GOURMET-COLLAPSE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-GOURMET-HOURS",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "title": "Gourmet Shop hours expanded",
+      "description": "Current October3 public Food viewport; associated list rows, hours and map region limited to saved samples.",
+      "visible_scope": "Captured viewport only; continuous list traversal documented separately",
+      "preconditions": "Existing login; Notification Search Back -> Home -> Food; current public list and scroll context",
+      "screenshot_evidence_ids": [
+        "E-FOOD-REV-19"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-REV-19-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-GOURMET-EXPAND"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "28 current visible venue rows, finite data/time snapshot; not all venue controls tested.",
+        "Three hours/information expand-collapse pairs observed: Block Y, Open Now H Café, identified Chinese Soup VA210, plus Closed Gourmet Shop information.",
+        "H Café Closed-context collapse remains separate and untested.",
+        "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
+        "No calls, orders, location permissions, external order destination or credentials.",
+        "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
     }
   ],
   "actions": [
@@ -9506,11 +9949,37 @@
           "evidence_ids": [
             "E-FOOD-HOURS"
           ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:27:30.959Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-VA210",
+          "target_state_id": "S-FOOD-OCT3-VA210-HOURS",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              485,
+              884
+            ]
+          },
+          "observed_feedback": "Identified Chinese Soup VA210 hours expand.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-13",
+            "E-FOOD-REV-13-AX",
+            "E-FOOD-REV-14",
+            "E-FOOD-REV-14-AX"
+          ]
         }
       ],
       "target_state_id": "S-FOOD-HOURS",
       "evidence_ids": [
-        "E-FOOD-HOURS"
+        "E-FOOD-HOURS",
+        "E-FOOD-REV-13",
+        "E-FOOD-REV-13-AX",
+        "E-FOOD-REV-14",
+        "E-FOOD-REV-14-AX"
       ],
       "return_path": null,
       "authorization": "Ordinary navigation and observation in authorised HCI scope",
@@ -9726,29 +10195,94 @@
       "id": "A-FOOD-HOURS-COLLAPSE",
       "from_state_id": "S-FOOD-HOURS",
       "control": "Hours collapse",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
-      "target_state_id": null,
-      "evidence_ids": [],
+      "input_summary": {
+        "method": "visible coordinate",
+        "point": [
+          485,
+          884
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:27:41.681Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-VA210-HOURS",
+          "target_state_id": "S-FOOD-OCT3-VA210",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              485,
+              884
+            ]
+          },
+          "observed_feedback": "Identified Chinese Soup VA210 hours collapse and lower rows restore.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-14",
+            "E-FOOD-REV-14-AX",
+            "E-FOOD-REV-15",
+            "E-FOOD-REV-15-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-VA210",
+      "evidence_ids": [
+        "E-FOOD-REV-14",
+        "E-FOOD-REV-14-AX",
+        "E-FOOD-REV-15",
+        "E-FOOD-REV-15-AX"
+      ],
       "return_path": null,
       "authorization": "Determine actual action scope before calls, orders or location access",
       "blockers": [],
-      "pending_reason": "Only expansion exercised."
+      "historical_pending_reason": "Only expansion exercised.",
+      "verification_boundary": "Current identified VA210 row collapsed; other same-title machine/hour contexts not inferred."
     },
     {
       "id": "A-FOOD-LIST-BOUNDS",
       "from_state_id": "S-FOOD-LIST",
       "control": "List scrolling / sheet handle / other places",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
+      "input_summary": "Current expanded-sheet list downward traversal, extra bottom scroll, reverse up and extra top scroll; failed reverse handle drag.",
+      "status": "attempted_unverified",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:29:55.199Z",
+          "from_state_id": "S-FOOD-OCT3-LIST",
+          "target_state_id": "S-FOOD-OCT3-SHEET",
+          "observed_feedback": "Finite bounds and all28 visible titles sampled; composite other-controls scope incomplete; reverse handle drag did not collapse.",
+          "execution_status": "observed",
+          "scope_status": "partial",
+          "evidence_ids": [
+            "E-FOOD-REV-06",
+            "E-FOOD-REV-17",
+            "E-FOOD-REV-18",
+            "E-FOOD-REV-21",
+            "E-FOOD-REV-22",
+            "E-FOOD-REV-23",
+            "E-FOOD-REV-24",
+            "E-FOOD-REV-CATALOGUE"
+          ]
+        }
+      ],
       "target_state_id": null,
-      "evidence_ids": [],
+      "evidence_ids": [
+        "E-FOOD-REV-06",
+        "E-FOOD-REV-17",
+        "E-FOOD-REV-18",
+        "E-FOOD-REV-21",
+        "E-FOOD-REV-22",
+        "E-FOOD-REV-23",
+        "E-FOOD-REV-24",
+        "E-FOOD-REV-CATALOGUE"
+      ],
       "return_path": null,
       "authorization": "Determine actual action scope before calls, orders or location access",
       "blockers": [],
-      "pending_reason": "One upward sheet expansion and downward scroll to H Café are separately observed; complete list boundaries, reverse gestures, all venues and markers remain untested."
+      "pending_reason": "Current28-row list down/up limits and reverse traversal sampled; other venue controls, complete handle bounds and independent row behaviors remain unverified.",
+      "historical_pending_reason": "One upward sheet expansion and downward scroll to H Café are separately observed; complete list boundaries, reverse gestures, all venues and markers remain untested."
     },
     {
       "id": "A-FOOD-LIST-MAP",
@@ -10056,11 +10590,41 @@
             "E-FOOD-SHEET-EXPANDED"
           ],
           "from_state_id": "S-FOOD-HOURS"
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:25:50.218Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-LIST",
+          "target_state_id": "S-FOOD-OCT3-SHEET",
+          "input": {
+            "method": "visible drag",
+            "from": [
+              375,
+              543
+            ],
+            "to": [
+              375,
+              210
+            ]
+          },
+          "observed_feedback": "Food handle moves upward to expanded sheet.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-05",
+            "E-FOOD-REV-05-AX",
+            "E-FOOD-REV-06",
+            "E-FOOD-REV-06-AX"
+          ]
         }
       ],
       "target_state_id": "S-FOOD-SHEET-EXPANDED",
       "evidence_ids": [
-        "E-FOOD-SHEET-EXPANDED"
+        "E-FOOD-SHEET-EXPANDED",
+        "E-FOOD-REV-05",
+        "E-FOOD-REV-05-AX",
+        "E-FOOD-REV-06",
+        "E-FOOD-REV-06-AX"
       ],
       "return_path": "Observed navigation stack and results documented in food-walkthrough.md",
       "authorization": "Ordinary reversible native navigation/observation in authorised HCI scope; no calls or orders submitted",
@@ -10145,15 +10709,63 @@
       "id": "A-FOOD-SHEET-COLLAPSE",
       "from_state_id": "S-FOOD-SHEET-EXPANDED",
       "control": "Drag expanded Food sheet down",
-      "input_summary": null,
-      "status": "not_attempted",
-      "executions": [],
+      "input_summary": {
+        "method": "visible drag",
+        "from": [
+          375,
+          230
+        ],
+        "to": [
+          375,
+          543
+        ]
+      },
+      "status": "attempted_unverified",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:29:36.063Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-SHEET",
+          "target_state_id": "S-FOOD-OCT3-SHEET",
+          "input": {
+            "method": "visible drag",
+            "from": [
+              375,
+              230
+            ],
+            "to": [
+              375,
+              543
+            ]
+          },
+          "observed_feedback": "Downward handle drag leaves expanded sheet unchanged;24 followup also unchanged.",
+          "execution_status": "attempted_unverified",
+          "evidence_ids": [
+            "E-FOOD-REV-22",
+            "E-FOOD-REV-22-AX",
+            "E-FOOD-REV-23",
+            "E-FOOD-REV-23-AX",
+            "E-FOOD-REV-24",
+            "E-FOOD-REV-24-AX"
+          ]
+        }
+      ],
       "target_state_id": null,
-      "evidence_ids": [],
+      "evidence_ids": [
+        "E-FOOD-REV-22",
+        "E-FOOD-REV-22-AX",
+        "E-FOOD-REV-23",
+        "E-FOOD-REV-23-AX",
+        "E-FOOD-REV-24",
+        "E-FOOD-REV-24-AX"
+      ],
       "return_path": null,
       "authorization": "Determine actual action scope before external transactions; no order authorised by observation alone",
       "blockers": [],
-      "pending_reason": "Only upward expansion observed; collapse and full handle bounds untested."
+      "historical_pending_reason": "Only upward expansion observed; collapse and full handle bounds untested.",
+      "verification_boundary": "One downward handle attempt and followup did not move sheet; input or gesture cause unresolved.",
+      "pending_reason": "Current reverse drag retained expanded sheet; actual collapse and handle bounds remain unverified."
     },
     {
       "id": "A-FOOD-HCAFE-HOURS-COLLAPSE",
@@ -15335,6 +15947,24 @@
             "E-NOTICE-SEARCH-29",
             "E-NOTICE-SEARCH-29-AX"
           ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:24:30.368Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "input": {
+            "method": "fresh AX leaf10"
+          },
+          "observed_feedback": "Workshop Search Back returns read Notification.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-00",
+            "E-FOOD-REV-00-AX",
+            "E-FOOD-REV-01",
+            "E-FOOD-REV-01-AX"
+          ]
         }
       ],
       "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
@@ -15346,12 +15976,792 @@
         "E-NOTICE-SEARCH-28",
         "E-NOTICE-SEARCH-28-AX",
         "E-NOTICE-SEARCH-29",
-        "E-NOTICE-SEARCH-29-AX"
+        "E-NOTICE-SEARCH-29-AX",
+        "E-FOOD-REV-00",
+        "E-FOOD-REV-00-AX",
+        "E-FOOD-REV-01",
+        "E-FOOD-REV-01-AX"
       ],
       "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
       "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
       "blockers": [],
       "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-FOOD-OCT3-NOTICE-HOME",
+      "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "control": "NOTICE-HOME",
+      "input_summary": {
+        "method": "AX Home29"
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:24:46.520Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "target_state_id": "S-HOME",
+          "input": {
+            "method": "AX Home29"
+          },
+          "observed_feedback": "Notification Home tab opens Home navigation region; only lower public crop published.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-01",
+            "E-FOOD-REV-01-AX",
+            "E-FOOD-REV-02",
+            "E-FOOD-REV-02-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-HOME",
+      "evidence_ids": [
+        "E-FOOD-REV-01",
+        "E-FOOD-REV-01-AX",
+        "E-FOOD-REV-02",
+        "E-FOOD-REV-02-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-OPEN",
+      "from_state_id": "S-HOME",
+      "control": "OPEN",
+      "input_summary": {
+        "method": "AX Food52"
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:25:00.530Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-HOME",
+          "target_state_id": "S-FOOD-OCT3-LIST",
+          "input": {
+            "method": "AX Food52"
+          },
+          "observed_feedback": "Home Food entry opens current Block Y first-row list.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-02",
+            "E-FOOD-REV-02-AX",
+            "E-FOOD-REV-03",
+            "E-FOOD-REV-03-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-LIST",
+      "evidence_ids": [
+        "E-FOOD-REV-02",
+        "E-FOOD-REV-02-AX",
+        "E-FOOD-REV-03",
+        "E-FOOD-REV-03-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-BLOCKY-EXPAND",
+      "from_state_id": "S-FOOD-OCT3-LIST",
+      "control": "BLOCKY-EXPAND",
+      "input_summary": {
+        "method": "visible coordinate",
+        "point": [
+          482,
+          740
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:25:23.296Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-LIST",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-HOURS",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              482,
+              740
+            ]
+          },
+          "observed_feedback": "Block Y weekday/weekend hours appear.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-03",
+            "E-FOOD-REV-03-AX",
+            "E-FOOD-REV-04",
+            "E-FOOD-REV-04-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-HOURS",
+      "evidence_ids": [
+        "E-FOOD-REV-03",
+        "E-FOOD-REV-03-AX",
+        "E-FOOD-REV-04",
+        "E-FOOD-REV-04-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-BLOCKY-COLLAPSE",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-HOURS",
+      "control": "BLOCKY-COLLAPSE",
+      "input_summary": {
+        "method": "visible coordinate",
+        "point": [
+          482,
+          740
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:25:37.382Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-HOURS",
+          "target_state_id": "S-FOOD-OCT3-LIST",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              482,
+              740
+            ]
+          },
+          "observed_feedback": "Same Block Y hours collapse.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-04",
+            "E-FOOD-REV-04-AX",
+            "E-FOOD-REV-05",
+            "E-FOOD-REV-05-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-LIST",
+      "evidence_ids": [
+        "E-FOOD-REV-04",
+        "E-FOOD-REV-04-AX",
+        "E-FOOD-REV-05",
+        "E-FOOD-REV-05-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-HCAFE-EXPAND",
+      "from_state_id": "S-FOOD-OCT3-HCAFE-OPEN",
+      "control": "HCAFE-EXPAND",
+      "input_summary": {
+        "method": "visible coordinate",
+        "point": [
+          501,
+          572
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:26:14.883Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-HCAFE-OPEN",
+          "target_state_id": "S-FOOD-OCT3-HCAFE-HOURS",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              501,
+              572
+            ]
+          },
+          "observed_feedback": "Open Now H Café weekday/weekend hours appear.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-07",
+            "E-FOOD-REV-07-AX",
+            "E-FOOD-REV-08",
+            "E-FOOD-REV-08-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-HCAFE-HOURS",
+      "evidence_ids": [
+        "E-FOOD-REV-07",
+        "E-FOOD-REV-07-AX",
+        "E-FOOD-REV-08",
+        "E-FOOD-REV-08-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-HCAFE-COLLAPSE",
+      "from_state_id": "S-FOOD-OCT3-HCAFE-HOURS",
+      "control": "HCAFE-COLLAPSE",
+      "input_summary": {
+        "method": "visible coordinate",
+        "point": [
+          501,
+          572
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:26:25.120Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-HCAFE-HOURS",
+          "target_state_id": "S-FOOD-OCT3-HCAFE-OPEN",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              501,
+              572
+            ]
+          },
+          "observed_feedback": "Same Open Now H Café hours collapse.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-08",
+            "E-FOOD-REV-08-AX",
+            "E-FOOD-REV-09",
+            "E-FOOD-REV-09-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-HCAFE-OPEN",
+      "evidence_ids": [
+        "E-FOOD-REV-08",
+        "E-FOOD-REV-08-AX",
+        "E-FOOD-REV-09",
+        "E-FOOD-REV-09-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-LIST-DOWN",
+      "from_state_id": "S-FOOD-OCT3-SHEET",
+      "control": "LIST-DOWN",
+      "input_summary": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:26:03.753Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-SHEET",
+          "target_state_id": "S-FOOD-OCT3-HCAFE-OPEN",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "down",
+            "pages": 0.65
+          },
+          "observed_feedback": "List moves through sampled public rows to the last Gourmet Shop.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-06",
+            "E-FOOD-REV-06-AX",
+            "E-FOOD-REV-07",
+            "E-FOOD-REV-07-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:26:48.499Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-HCAFE-OPEN",
+          "target_state_id": "S-FOOD-OCT3-MID-THEATRE",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "down",
+            "pages": 0.65
+          },
+          "observed_feedback": "List moves through sampled public rows to the last Gourmet Shop.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-09",
+            "E-FOOD-REV-09-AX",
+            "E-FOOD-REV-10",
+            "E-FOOD-REV-10-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:26:58.058Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-MID-THEATRE",
+          "target_state_id": "S-FOOD-OCT3-MID-VA",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "down",
+            "pages": 0.65
+          },
+          "observed_feedback": "List moves through sampled public rows to the last Gourmet Shop.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-10",
+            "E-FOOD-REV-10-AX",
+            "E-FOOD-REV-11",
+            "E-FOOD-REV-11-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:27:07.621Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-MID-VA",
+          "target_state_id": "S-FOOD-OCT3-MID-WXZ",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "down",
+            "pages": 0.65
+          },
+          "observed_feedback": "List moves through sampled public rows to the last Gourmet Shop.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-11",
+            "E-FOOD-REV-11-AX",
+            "E-FOOD-REV-12",
+            "E-FOOD-REV-12-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:27:17.837Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-MID-WXZ",
+          "target_state_id": "S-FOOD-OCT3-VA210",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "down",
+            "pages": 0.65
+          },
+          "observed_feedback": "List moves through sampled public rows to the last Gourmet Shop.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-12",
+            "E-FOOD-REV-12-AX",
+            "E-FOOD-REV-13",
+            "E-FOOD-REV-13-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:27:53.897Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-VA210",
+          "target_state_id": "S-FOOD-OCT3-MACHINES",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "down",
+            "pages": 0.65
+          },
+          "observed_feedback": "List moves through sampled public rows to the last Gourmet Shop.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-15",
+            "E-FOOD-REV-15-AX",
+            "E-FOOD-REV-16",
+            "E-FOOD-REV-16-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:28:07.042Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-MACHINES",
+          "target_state_id": "S-FOOD-OCT3-BOTTOM",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "down",
+            "pages": 0.65
+          },
+          "observed_feedback": "List moves through sampled public rows to the last Gourmet Shop.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-16",
+            "E-FOOD-REV-16-AX",
+            "E-FOOD-REV-17",
+            "E-FOOD-REV-17-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BOTTOM",
+      "evidence_ids": [
+        "E-FOOD-REV-06",
+        "E-FOOD-REV-06-AX",
+        "E-FOOD-REV-07",
+        "E-FOOD-REV-07-AX",
+        "E-FOOD-REV-09",
+        "E-FOOD-REV-09-AX",
+        "E-FOOD-REV-10",
+        "E-FOOD-REV-10-AX",
+        "E-FOOD-REV-11",
+        "E-FOOD-REV-11-AX",
+        "E-FOOD-REV-12",
+        "E-FOOD-REV-12-AX",
+        "E-FOOD-REV-13",
+        "E-FOOD-REV-13-AX",
+        "E-FOOD-REV-15",
+        "E-FOOD-REV-15-AX",
+        "E-FOOD-REV-16",
+        "E-FOOD-REV-16-AX",
+        "E-FOOD-REV-17",
+        "E-FOOD-REV-17-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-BOTTOM-CHECK",
+      "from_state_id": "S-FOOD-OCT3-BOTTOM",
+      "control": "BOTTOM-CHECK",
+      "input_summary": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "down",
+        "pages": 0.65
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:28:17.556Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BOTTOM",
+          "target_state_id": "S-FOOD-OCT3-BOTTOM",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "down",
+            "pages": 0.65
+          },
+          "observed_feedback": "Extra downward scroll retained last Gourmet Shop view;17/18 pixels equal.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-17",
+            "E-FOOD-REV-17-AX",
+            "E-FOOD-REV-18",
+            "E-FOOD-REV-18-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BOTTOM",
+      "evidence_ids": [
+        "E-FOOD-REV-17",
+        "E-FOOD-REV-17-AX",
+        "E-FOOD-REV-18",
+        "E-FOOD-REV-18-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-GOURMET-EXPAND",
+      "from_state_id": "S-FOOD-OCT3-BOTTOM",
+      "control": "GOURMET-EXPAND",
+      "input_summary": {
+        "method": "visible coordinate",
+        "point": [
+          503,
+          1189
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:28:34.531Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BOTTOM",
+          "target_state_id": "S-FOOD-OCT3-GOURMET-HOURS",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              503,
+              1189
+            ]
+          },
+          "observed_feedback": "Closed Gourmet Shop Further information reveals weekday/weekend hours.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-18",
+            "E-FOOD-REV-18-AX",
+            "E-FOOD-REV-19",
+            "E-FOOD-REV-19-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-GOURMET-HOURS",
+      "evidence_ids": [
+        "E-FOOD-REV-18",
+        "E-FOOD-REV-18-AX",
+        "E-FOOD-REV-19",
+        "E-FOOD-REV-19-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-GOURMET-COLLAPSE",
+      "from_state_id": "S-FOOD-OCT3-GOURMET-HOURS",
+      "control": "GOURMET-COLLAPSE",
+      "input_summary": {
+        "method": "visible coordinate",
+        "point": [
+          503,
+          1189
+        ]
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:28:48.633Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-GOURMET-HOURS",
+          "target_state_id": "S-FOOD-OCT3-BOTTOM",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              503,
+              1189
+            ]
+          },
+          "observed_feedback": "Gourmet hours collapse.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-19",
+            "E-FOOD-REV-19-AX",
+            "E-FOOD-REV-20",
+            "E-FOOD-REV-20-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BOTTOM",
+      "evidence_ids": [
+        "E-FOOD-REV-19",
+        "E-FOOD-REV-19-AX",
+        "E-FOOD-REV-20",
+        "E-FOOD-REV-20-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-LIST-UP",
+      "from_state_id": "S-FOOD-OCT3-BOTTOM",
+      "control": "LIST-UP",
+      "input_summary": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "up",
+        "pages": 5
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:29:01.802Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BOTTOM",
+          "target_state_id": "S-FOOD-OCT3-SHEET",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "up",
+            "pages": 5
+          },
+          "observed_feedback": "Reverse scroll returns to first Block Y row.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-20",
+            "E-FOOD-REV-20-AX",
+            "E-FOOD-REV-21",
+            "E-FOOD-REV-21-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-SHEET",
+      "evidence_ids": [
+        "E-FOOD-REV-20",
+        "E-FOOD-REV-20-AX",
+        "E-FOOD-REV-21",
+        "E-FOOD-REV-21-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-TOP-CHECK",
+      "from_state_id": "S-FOOD-OCT3-SHEET",
+      "control": "TOP-CHECK",
+      "input_summary": {
+        "method": "list scroll",
+        "point": [
+          590,
+          1080
+        ],
+        "direction": "up",
+        "pages": 0.65
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:29:17.182Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-SHEET",
+          "target_state_id": "S-FOOD-OCT3-SHEET",
+          "input": {
+            "method": "list scroll",
+            "point": [
+              590,
+              1080
+            ],
+            "direction": "up",
+            "pages": 0.65
+          },
+          "observed_feedback": "Extra upward scroll retained first Block Y view; pixel differences preserved.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-21",
+            "E-FOOD-REV-21-AX",
+            "E-FOOD-REV-22",
+            "E-FOOD-REV-22-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-SHEET",
+      "evidence_ids": [
+        "E-FOOD-REV-21",
+        "E-FOOD-REV-21-AX",
+        "E-FOOD-REV-22",
+        "E-FOOD-REV-22-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-BACK-HOME",
+      "from_state_id": "S-FOOD-OCT3-SHEET",
+      "control": "BACK-HOME",
+      "input_summary": {
+        "method": "fresh AX Back10"
+      },
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-REVERSE",
+          "at": "2026-10-03T06:30:09.992Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-SHEET",
+          "target_state_id": "S-HOME",
+          "input": {
+            "method": "fresh AX Back10"
+          },
+          "observed_feedback": "Food Back returns Home navigation region; only lower public crop published.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-REV-24",
+            "E-FOOD-REV-24-AX",
+            "E-FOOD-REV-25",
+            "E-FOOD-REV-25-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-HOME",
+      "evidence_ids": [
+        "E-FOOD-REV-24",
+        "E-FOOD-REV-24-AX",
+        "E-FOOD-REV-25",
+        "E-FOOD-REV-25-AX"
+      ],
+      "return_path": "Finite October3 Food traversal; sheet-collapse attempt did not close sheet; Food Back returns Home navigation region",
+      "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
+      "blockers": [],
+      "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
     }
   ],
   "evidence": [
@@ -68420,6 +69830,998 @@
       ],
       "action_ids": [],
       "source": "Actual capture or reviewed derived artifact; not a prototype run"
+    },
+    {
+      "id": "E-FOOD-REV-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/00-current-search.png",
+      "sha256": "eb7dbc8a4220da45b81ed97813140fc1bf0e47198901dab04a715e8958d0ebd3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-FOOD-REV-00-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/00-current-search.safe-ax.txt",
+      "sha256": "716893fc025c6a46928b3b7db8949aed111484b42493d560dc42cac4386f9bc0",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-FOOD-REV-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/01-search-back.png",
+      "sha256": "fbbf84faa25f80edea8518acf8898e7cac5039083065b3c7cc7cdf088a760d8d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-01-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/01-search-back.safe-ax.txt",
+      "sha256": "e995434603ced9a55316451c6c748418fe9810be8fac962a5acd784e5429bd0e",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/02-home-caller.png",
+      "sha256": "2fef2898a5812c2a197820e8dfcedaddba7f1b4d247ab8215284d07845037ff2",
+      "dimensions": [
+        576,
+        468
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Only Home lower public navigation cropped; private upper content excluded, no full Home fidelity claim",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-NOTICE-HOME"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-02-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/02-home-caller.safe-ax.txt",
+      "sha256": "e5063f158f155cc07991bcd6e1fd024ed41af01bdc0758bc8843912c9568a1c1",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-NOTICE-HOME"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/03-food-entry.png",
+      "sha256": "65dfad8d0ce62adc170fa4a595158d3bda075ec8352c61fd7b1cfc01c5ed8334",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-OPEN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-03-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/03-food-entry.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-OPEN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/04-blocky-hours-expand.png",
+      "sha256": "eb9dbcd62fa67641abe6b34c9e70165c47a8236e888b0c1a289997f74718ce51",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-HOURS"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BLOCKY-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-04-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/04-blocky-hours-expand.safe-ax.txt",
+      "sha256": "ff25b8fadcdccc13bec3e79edb4832fff1804144fe1194f63bf8c4dc0bde82b9",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-HOURS"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BLOCKY-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/05-blocky-hours-collapse.png",
+      "sha256": "ead6bc4eb75a6efb9bf008f73bf614d8bd799bff8acc520c9f31b422cbce83a0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BLOCKY-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-05-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/05-blocky-hours-collapse.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BLOCKY-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/06-food-sheet-expand.png",
+      "sha256": "3e3fd701d9727e7099686d87ce22e9b8a4a73a83cdfedab2647e0293cf2a32b6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": [
+        "A-FOOD-SHEET-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-06-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/06-food-sheet-expand.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": [
+        "A-FOOD-SHEET-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/07-food-list-next.png",
+      "sha256": "b6b79d44e3f792ad8dacdb4d08267e6dc6b5fe935817773ab51a398c179389ca",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-HCAFE-OPEN"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-07-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/07-food-list-next.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-HCAFE-OPEN"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/08-hcafe-hours-expand.png",
+      "sha256": "d6cf724c8c397556b6624186ee6ecb4931b1abfae3d024fdb705e9342c7485ec",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-HCAFE-HOURS"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-HCAFE-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-08-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/08-hcafe-hours-expand.safe-ax.txt",
+      "sha256": "5ba6b421d0e771f4dee7af7602825f0596459929bf9e61add61918de347c34c2",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-HCAFE-HOURS"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-HCAFE-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/09-hcafe-hours-collapse.png",
+      "sha256": "5903b858697bbac88e68577c9cdbad0091235153c6f655b479f30ed9cfd15fd6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-HCAFE-OPEN"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-HCAFE-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-09-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/09-hcafe-hours-collapse.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-HCAFE-OPEN"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-HCAFE-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/10-food-list-middle.png",
+      "sha256": "159a9220d92db0eed6791d4782b079f733e6db0c73ede0a3be974444008a09bf",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-MID-THEATRE"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-10-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/10-food-list-middle.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-MID-THEATRE"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/11-food-list-middle2.png",
+      "sha256": "d5ba58eb0da48ddcf32d3d148062b39ff40b36d3bb11d92b1f8e3c7a071f04ac",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-MID-VA"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-11-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/11-food-list-middle2.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-MID-VA"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/12-food-list-middle3.png",
+      "sha256": "eeb13e522f2e06fa72c8ef087f59560ac253b88b8bf1c6bab9cf73a2641d93f7",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-MID-WXZ"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-12-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/12-food-list-middle3.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-MID-WXZ"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/13-food-list-va210.png",
+      "sha256": "b40779e5fb54f2785c21e4e9232d5080bd42842b4102c28af615dee6edc29550",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-VA210"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-13-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/13-food-list-va210.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-VA210"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/14-va210-hours-expand.png",
+      "sha256": "7f43db2dc3474c5e290f4378c712913f47ab32d9fea8831a273d80fb216bff3a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-VA210-HOURS"
+      ],
+      "action_ids": [
+        "A-FOOD-HOURS-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-14-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/14-va210-hours-expand.safe-ax.txt",
+      "sha256": "7588d184774e0688f7ffb7dac4e121b1d2a84bfa86d371db3d48e65c1073d8e5",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-VA210-HOURS"
+      ],
+      "action_ids": [
+        "A-FOOD-HOURS-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/15-va210-hours-collapse.png",
+      "sha256": "dfaad7c69ed5cb7728758674bcff13251ac5ed74559799c83b4fb77b92126d33",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-VA210"
+      ],
+      "action_ids": [
+        "A-FOOD-HOURS-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-15-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/15-va210-hours-collapse.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-VA210"
+      ],
+      "action_ids": [
+        "A-FOOD-HOURS-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/16-food-list-machines.png",
+      "sha256": "49dbbcaa2107eecab7fd026eb0cbdfb91d32f8259c4383d828a5746ebdb52909",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-MACHINES"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-16-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/16-food-list-machines.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-MACHINES"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/17-food-list-last.png",
+      "sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-BOTTOM"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-17-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/17-food-list-last.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-BOTTOM"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-DOWN"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/18-food-list-bottom-check.png",
+      "sha256": "a2572772d81015cc51dcee46b987ec223f67965e7915dd59507e224af3ae5bff",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-BOTTOM"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BOTTOM-CHECK"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-18-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/18-food-list-bottom-check.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-BOTTOM"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BOTTOM-CHECK"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/19-gourmet-information-expand.png",
+      "sha256": "288405cdca777c066bc3f7a9c06bf508c3071a2934f07f06d61823c22b949532",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-GOURMET-HOURS"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-GOURMET-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-19-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/19-gourmet-information-expand.safe-ax.txt",
+      "sha256": "46a86a087ef1029c469f8003a895a66c1ac44d8f5fc17048a364de543eaaf917",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-GOURMET-HOURS"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-GOURMET-EXPAND"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/20-gourmet-information-collapse.png",
+      "sha256": "6b0ff844032072d58897304480a449bb940e8174e95a33295e7c5d328d5157a3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-BOTTOM"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-GOURMET-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-20-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/20-gourmet-information-collapse.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-BOTTOM"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-GOURMET-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/21-food-reverse-top.png",
+      "sha256": "fd5c5c88c1230631e7463d74c0bf3cab3d5964d77b8bdef70e2f40445d765604",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-UP"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-21-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/21-food-reverse-top.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-LIST-UP"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/22-food-top-boundary-check.png",
+      "sha256": "ee8192dea41ac17d2d6b08718ef4e6a8cf05c8eb4a74970fff93cd494a9a1eb4",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-TOP-CHECK"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-22-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/22-food-top-boundary-check.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-TOP-CHECK"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/23-food-sheet-collapse.png",
+      "sha256": "4ccbf6b76bb305766f30bfa71e1b108330e4332426c5177b7d6d3e7c4d63959e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": [
+        "A-FOOD-SHEET-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-23-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/23-food-sheet-collapse.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": [
+        "A-FOOD-SHEET-COLLAPSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/24-sheet-collapse-followup.png",
+      "sha256": "31297cd105a28a51d42d7d77afa368153eac0c8bb89a0b04a0bae2017dd059ad",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Public notice/search/venue/map only; titlebar removed; cursor/halo retained",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-FOOD-REV-24-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/24-sheet-collapse-followup.safe-ax.txt",
+      "sha256": "5b361f3a0e87f488e397b8e566ef7face128cd8fbb70f3646e9fcf97781dbdca",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-FOOD-OCT3-SHEET"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-FOOD-REV-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/25-food-back-home.png",
+      "sha256": "11ce653403843862a9555e4900367fa711d06cfcb98aa193cf8b717d986beff9",
+      "dimensions": [
+        576,
+        468
+      ],
+      "source": "Actual native Computer Use screenshot bytes",
+      "redaction": "Only Home lower public navigation cropped; private upper content excluded, no full Home fidelity claim",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BACK-HOME"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-25-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/25-food-back-home.safe-ax.txt",
+      "sha256": "e5063f158f155cc07991bcd6e1fd024ed41af01bdc0758bc8843912c9568a1c1",
+      "source": "Public leaf subset of saved full native AX",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-HOME"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-BACK-HOME"
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/contact-sheet.png",
+      "sha256": "50d3df37c066e68705d6467682c462270012324c4abd18a6d941038409d9e75e",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-HOME",
+        "S-FOOD-OCT3-LIST",
+        "S-FOOD-OCT3-BLOCKY-HOURS",
+        "S-FOOD-OCT3-SHEET",
+        "S-FOOD-OCT3-HCAFE-OPEN",
+        "S-FOOD-OCT3-HCAFE-HOURS",
+        "S-FOOD-OCT3-MID-THEATRE",
+        "S-FOOD-OCT3-MID-VA",
+        "S-FOOD-OCT3-MID-WXZ",
+        "S-FOOD-OCT3-VA210",
+        "S-FOOD-OCT3-VA210-HOURS",
+        "S-FOOD-OCT3-MACHINES",
+        "S-FOOD-OCT3-BOTTOM",
+        "S-FOOD-OCT3-GOURMET-HOURS"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK",
+        "A-FOOD-OCT3-NOTICE-HOME",
+        "A-FOOD-OCT3-OPEN",
+        "A-FOOD-OCT3-BLOCKY-EXPAND",
+        "A-FOOD-OCT3-BLOCKY-COLLAPSE",
+        "A-FOOD-SHEET-EXPAND",
+        "A-FOOD-OCT3-LIST-DOWN",
+        "A-FOOD-OCT3-HCAFE-EXPAND",
+        "A-FOOD-OCT3-HCAFE-COLLAPSE",
+        "A-FOOD-HOURS-EXPAND",
+        "A-FOOD-HOURS-COLLAPSE",
+        "A-FOOD-OCT3-BOTTOM-CHECK",
+        "A-FOOD-OCT3-GOURMET-EXPAND",
+        "A-FOOD-OCT3-GOURMET-COLLAPSE",
+        "A-FOOD-OCT3-LIST-UP",
+        "A-FOOD-OCT3-TOP-CHECK",
+        "A-FOOD-SHEET-COLLAPSE",
+        "A-FOOD-OCT3-BACK-HOME"
+      ],
+      "source": "Derived from actual saved public native captures and reviewed leaves",
+      "dimensions": [
+        1152,
+        3300
+      ]
+    },
+    {
+      "id": "E-FOOD-REV-TRACE",
+      "type": "observation_trace",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/input-trace.json",
+      "sha256": "52a866d6e9a8af9456e4eb5707e55e749bb436b6df91ff428ccb2774bf192fc5",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-HOME",
+        "S-FOOD-OCT3-LIST",
+        "S-FOOD-OCT3-BLOCKY-HOURS",
+        "S-FOOD-OCT3-SHEET",
+        "S-FOOD-OCT3-HCAFE-OPEN",
+        "S-FOOD-OCT3-HCAFE-HOURS",
+        "S-FOOD-OCT3-MID-THEATRE",
+        "S-FOOD-OCT3-MID-VA",
+        "S-FOOD-OCT3-MID-WXZ",
+        "S-FOOD-OCT3-VA210",
+        "S-FOOD-OCT3-VA210-HOURS",
+        "S-FOOD-OCT3-MACHINES",
+        "S-FOOD-OCT3-BOTTOM",
+        "S-FOOD-OCT3-GOURMET-HOURS"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK",
+        "A-FOOD-OCT3-NOTICE-HOME",
+        "A-FOOD-OCT3-OPEN",
+        "A-FOOD-OCT3-BLOCKY-EXPAND",
+        "A-FOOD-OCT3-BLOCKY-COLLAPSE",
+        "A-FOOD-SHEET-EXPAND",
+        "A-FOOD-OCT3-LIST-DOWN",
+        "A-FOOD-OCT3-HCAFE-EXPAND",
+        "A-FOOD-OCT3-HCAFE-COLLAPSE",
+        "A-FOOD-HOURS-EXPAND",
+        "A-FOOD-HOURS-COLLAPSE",
+        "A-FOOD-OCT3-BOTTOM-CHECK",
+        "A-FOOD-OCT3-GOURMET-EXPAND",
+        "A-FOOD-OCT3-GOURMET-COLLAPSE",
+        "A-FOOD-OCT3-LIST-UP",
+        "A-FOOD-OCT3-TOP-CHECK",
+        "A-FOOD-SHEET-COLLAPSE",
+        "A-FOOD-OCT3-BACK-HOME"
+      ],
+      "source": "Derived from actual saved public native captures and reviewed leaves"
+    },
+    {
+      "id": "E-FOOD-REV-CATALOGUE",
+      "type": "discovery_catalogue",
+      "path": "../../evidence/2026-10-03-food-reverse-controls/venue-catalogue.json",
+      "sha256": "c13bca35bda81ae06b7a90f0ec466082efb2d0b5b5c39013c55c9e37fc4da336",
+      "session_id": "SESSION-20261003-FOOD-REVERSE",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-HOME",
+        "S-FOOD-OCT3-LIST",
+        "S-FOOD-OCT3-BLOCKY-HOURS",
+        "S-FOOD-OCT3-SHEET",
+        "S-FOOD-OCT3-HCAFE-OPEN",
+        "S-FOOD-OCT3-HCAFE-HOURS",
+        "S-FOOD-OCT3-MID-THEATRE",
+        "S-FOOD-OCT3-MID-VA",
+        "S-FOOD-OCT3-MID-WXZ",
+        "S-FOOD-OCT3-VA210",
+        "S-FOOD-OCT3-VA210-HOURS",
+        "S-FOOD-OCT3-MACHINES",
+        "S-FOOD-OCT3-BOTTOM",
+        "S-FOOD-OCT3-GOURMET-HOURS"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK",
+        "A-FOOD-OCT3-NOTICE-HOME",
+        "A-FOOD-OCT3-OPEN",
+        "A-FOOD-OCT3-BLOCKY-EXPAND",
+        "A-FOOD-OCT3-BLOCKY-COLLAPSE",
+        "A-FOOD-SHEET-EXPAND",
+        "A-FOOD-OCT3-LIST-DOWN",
+        "A-FOOD-OCT3-HCAFE-EXPAND",
+        "A-FOOD-OCT3-HCAFE-COLLAPSE",
+        "A-FOOD-HOURS-EXPAND",
+        "A-FOOD-HOURS-COLLAPSE",
+        "A-FOOD-OCT3-BOTTOM-CHECK",
+        "A-FOOD-OCT3-GOURMET-EXPAND",
+        "A-FOOD-OCT3-GOURMET-COLLAPSE",
+        "A-FOOD-OCT3-LIST-UP",
+        "A-FOOD-OCT3-TOP-CHECK",
+        "A-FOOD-SHEET-COLLAPSE",
+        "A-FOOD-OCT3-BACK-HOME"
+      ],
+      "source": "Derived from actual saved public native captures and reviewed leaves"
     }
   ],
   "findings": [
@@ -126618,13 +129020,28 @@
         "S-FOOD-SHEET-EXPANDED",
         "S-FOOD-HCAFE-LIST",
         "S-FOOD-HCAFE-HOURS",
-        "S-FOOD-ORDER-PROMPT"
+        "S-FOOD-ORDER-PROMPT",
+        "S-FOOD-OCT3-LIST",
+        "S-FOOD-OCT3-BLOCKY-HOURS",
+        "S-FOOD-OCT3-SHEET",
+        "S-FOOD-OCT3-HCAFE-OPEN",
+        "S-FOOD-OCT3-HCAFE-HOURS",
+        "S-FOOD-OCT3-MID-THEATRE",
+        "S-FOOD-OCT3-MID-VA",
+        "S-FOOD-OCT3-MID-WXZ",
+        "S-FOOD-OCT3-VA210",
+        "S-FOOD-OCT3-VA210-HOURS",
+        "S-FOOD-OCT3-MACHINES",
+        "S-FOOD-OCT3-BOTTOM",
+        "S-FOOD-OCT3-GOURMET-HOURS"
       ],
-      "reason": "Map/detail/search/list return stack, one sheet expansion, H Café scroll/hours and external-link prompt dismissal are observed. Complete list bounds, other controls and actual external ordering destination remain pending; no calls/orders/location exercised.",
+      "reason": "Historical Food paths preserved. Current28-row Food list visibly traversed down/up with sampled bounds; Block Y, Open Now H Café, identified VA210 and Closed Gourmet Shop hours reverse pairs observed. Reverse sheet collapse failed; individual venue/menu/tag/map/external boundaries and full reconstruction remain pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-FOOD-TRACE",
-        "E-FOOD-RETURN-TRACE"
+        "E-FOOD-RETURN-TRACE",
+        "E-FOOD-REV-TRACE",
+        "E-FOOD-REV-CATALOGUE"
       ]
     },
     {
@@ -126725,6 +129142,31 @@
         "E-ROOM-PREVIEW-CONTROLS-TRACE",
         "E-PREVIEW-CONTROLS-PROTO-TRACE"
       ]
+    },
+    {
+      "id": "Q-FOOD-OCT3-VENUE-CONTROLS",
+      "entry_point_id": "EP006",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST",
+        "S-FOOD-OCT3-BLOCKY-HOURS",
+        "S-FOOD-OCT3-SHEET",
+        "S-FOOD-OCT3-HCAFE-OPEN",
+        "S-FOOD-OCT3-HCAFE-HOURS",
+        "S-FOOD-OCT3-MID-THEATRE",
+        "S-FOOD-OCT3-MID-VA",
+        "S-FOOD-OCT3-MID-WXZ",
+        "S-FOOD-OCT3-VA210",
+        "S-FOOD-OCT3-VA210-HOURS",
+        "S-FOOD-OCT3-MACHINES",
+        "S-FOOD-OCT3-BOTTOM",
+        "S-FOOD-OCT3-GOURMET-HOURS"
+      ],
+      "reason": "28 visible-backed public rows, including5 VA210 and2 Block R same-title records; use source logos/tags and catalogue order to distinguish. Independent details, ellipsis menus, tags, hours for remaining venues and order handoff not verified. Existing historical data/Closed H Café not replaced.",
+      "status": "in_progress",
+      "resolution_refs": [
+        "E-FOOD-REV-CATALOGUE"
+      ],
+      "catalogue_path": "../../evidence/2026-10-03-food-reverse-controls/venue-catalogue.json"
     }
   ],
   "blockers": [
