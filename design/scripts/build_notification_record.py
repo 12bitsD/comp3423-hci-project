@@ -42,7 +42,7 @@ def detail(loaded):
  rect(r,35,225+off,506,123,'#F5FBFF');r.append(node('circle',cx=54,cy=246+off,r=9,fill='none',stroke='#9FAFB9',stroke_width=2));label(r,54,251+off,'?',13,'#9FAFB9',text_anchor='middle')
  for j,t in enumerate(['A list of workshops on IT skills for Future of','Work / Research is now ready for students\'','enrolment. Find out more details below.']):label(r,73,254+off+j*27,t,21,'#555555')
  path(r,f'M73 {333+off}H483','#DDDDDD',1)
- rm=group(r,'ReadMore');rect(rm,35,357+off,200,51,'#FFFFFF',rx=26,stroke='#DDDDDD',stroke_width=1.6);path(rm,f'M73 {379+off}L64 {387+off}Q60 {393+off}65 {395+off}Q70 {396+off}76 {389+off}M76 {387+off}L83 {380+off}Q87 {374+off}81 {374+off}Q77 {374+off}73 {379+off}','#55B4A6',3.2,stroke_linecap='round');label(rm,91,391+off,'Read more',21,'#666666');path(rm,f'M205 {378+off}H215V{388+off}M205 {388+off}L215 {378+off}','#888888',2.5)
+ rm=group(r,'ReadMore');rect(rm,35,357+off,200,51,'#FFFFFF',rx=26,stroke='#DDDDDD',stroke_width=1.6);path(rm,f'M73 {379+off}L64 {387+off}Q60 {393+off} 65 {395+off}Q70 {396+off} 76 {389+off}M76 {387+off}L83 {380+off}Q87 {374+off} 81 {374+off}Q77 {374+off} 73 {379+off}','#55B4A6',3.2,stroke_linecap='round');label(rm,91,391+off,'Read more',21,'#666666');path(rm,f'M205 {378+off}H215V{388+off}M205 {388+off}L215 {378+off}','#888888',2.5)
  return r
 
 def main():
