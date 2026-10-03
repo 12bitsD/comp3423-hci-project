@@ -1,0 +1,383 @@
+{
+  "log": [
+    {
+      "file": "00-blocky-root.png",
+      "kind": "editor",
+      "note": "Imported finite Block Y hours frame,576x1024 at0,100000; no scrolling/navigation configured",
+      "captured_at": "2026-10-03T08:12:07.767Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-19",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"100000\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "01-blocky-time-text.png",
+      "kind": "editor",
+      "note": "Actual independent Text08:00 -20:00 selected; no conversion to raster",
+      "captured_at": "2026-10-03T08:12:25.960Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-83",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"Closed\" [level=5]:",
+        "      - gridcell \"Closed\":",
+        "        - generic: Closed",
+        "    - row \"08:00 - 20:00\" [level=5] [selected]:",
+        "      - gridcell \"08:00 - 20:00\":",
+        "        - generic: 08:00 - 20:00",
+        "    - row \"Mon - Fri:\" [level=5]:",
+        "      - gridcell \"Mon - Fri:\":",
+        "        - generic: \"Mon - Fri:\"",
+        "  - heading \"Text\" [level=1]",
+        "    - spinbutton \"X-position\": \"328\"",
+        "    - spinbutton \"Y-position\": \"546\"",
+        "      - textbox \"Width\" [disabled]: \"92\"",
+        "      - textbox \"Height\" [disabled]: \"17\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "  - generic: Font style",
+        "  - combobox \"Font style\":",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 14 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 14 px\"': \"14\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "02-hcafe-root.png",
+      "kind": "editor",
+      "note": "Imported576x1024 finite hours viewport; source-backed editable rows; no navigation/scroll configured",
+      "captured_at": "2026-10-03T08:12:42.024Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-178",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"Closed\" [level=5]:",
+        "      - gridcell \"Closed\":",
+        "        - generic: Closed",
+        "    - row \"08:00 - 20:00\" [level=5]:",
+        "      - gridcell \"08:00 - 20:00\":",
+        "        - generic: 08:00 - 20:00",
+        "    - row \"Mon - Fri:\" [level=5]:",
+        "      - gridcell \"Mon - Fri:\":",
+        "        - generic: \"Mon - Fri:\"",
+        "    - spinbutton \"X-position\": \"700\"",
+        "    - spinbutton \"Y-position\": \"100000\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "03-hcafe-time-text.png",
+      "kind": "editor",
+      "note": "Actual independent Text08:00 -22:00 selected,Inter Regular14; source Online Order ellipsis centering corrected in new variant only",
+      "captured_at": "2026-10-03T08:13:00.515Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-283",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"08:00 - 18:00\" [level=5]:",
+        "      - gridcell \"08:00 - 18:00\":",
+        "        - generic: 08:00 - 18:00",
+        "    - row \"08:00 - 22:00\" [level=5] [selected]:",
+        "      - gridcell \"08:00 - 22:00\":",
+        "        - generic: 08:00 - 22:00",
+        "    - row \"Mon - Fri:\" [level=5]:",
+        "      - gridcell \"Mon - Fri:\":",
+        "        - generic: \"Mon - Fri:\"",
+        "  - heading \"Text\" [level=1]",
+        "    - spinbutton \"X-position\": \"328\"",
+        "    - spinbutton \"Y-position\": \"418\"",
+        "      - textbox \"Width\" [disabled]: \"92\"",
+        "      - textbox \"Height\" [disabled]: \"17\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "  - generic: Font style",
+        "  - combobox \"Font style\":",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 14 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 14 px\"': \"14\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "04-va210-root.png",
+      "kind": "editor",
+      "note": "Imported576x1024 finite hours viewport; source-backed editable rows; no navigation/scroll configured",
+      "captured_at": "2026-10-03T08:13:02.949Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-382",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"08:00 - 18:00\" [level=5]:",
+        "      - gridcell \"08:00 - 18:00\":",
+        "        - generic: 08:00 - 18:00",
+        "    - row \"08:00 - 22:00\" [level=5]:",
+        "      - gridcell \"08:00 - 22:00\":",
+        "        - generic: 08:00 - 22:00",
+        "    - row \"Mon - Fri:\" [level=5]:",
+        "      - gridcell \"Mon - Fri:\":",
+        "        - generic: \"Mon - Fri:\"",
+        "    - spinbutton \"X-position\": \"1400\"",
+        "    - spinbutton \"Y-position\": \"100000\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "05-va210-time-text.png",
+      "kind": "editor",
+      "note": "Actual independent Text00:00 -23:59 selected; red-logo Chinese Soup venue only, not all same-name VA210 records",
+      "captured_at": "2026-10-03T08:13:13.251Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-518",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"00:00 - 23:59\" [level=5] [selected]:",
+        "      - gridcell \"00:00 - 23:59\":",
+        "        - generic: 00:00 - 23:59",
+        "    - row \"Mon - Sun, public holiday:\" [level=5]:",
+        "      - gridcell \"Mon - Sun, public holiday:\":",
+        "        - generic: \"Mon - Sun, public holiday:\"",
+        "  - heading \"Text\" [level=1]",
+        "    - spinbutton \"X-position\": \"328\"",
+        "    - spinbutton \"Y-position\": \"657\"",
+        "      - textbox \"Width\" [disabled]: \"92\"",
+        "      - textbox \"Height\" [disabled]: \"17\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "  - generic: Font style",
+        "  - combobox \"Font style\":",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 14 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 14 px\"': \"14\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "06-gourmet-root.png",
+      "kind": "editor",
+      "note": "Imported576x1024 finite hours viewport; source-backed editable rows; no navigation/scroll configured",
+      "captured_at": "2026-10-03T08:13:15.599Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-577",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\" [expanded] [selected]:",
+        "      - gridcell \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\":",
+        "        - generic: \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\"",
+        "    - row \"00:00 - 23:59\" [level=5]:",
+        "      - gridcell \"00:00 - 23:59\":",
+        "        - generic: 00:00 - 23:59",
+        "    - row \"Mon - Sun, public holiday:\" [level=5]:",
+        "      - gridcell \"Mon - Sun, public holiday:\":",
+        "        - generic: \"Mon - Sun, public holiday:\"",
+        "    - spinbutton \"X-position\": \"2100\"",
+        "    - spinbutton \"Y-position\": \"100000\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "07-gourmet-spacing-repair.png",
+      "kind": "editor",
+      "note": "Actual Paste to replace at same2100,100000 dimensions576x1024; partial tags restored near observed lower edge; initial failed spacing screenshot/source preserved",
+      "captured_at": "2026-10-03T08:13:44.202Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-741",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\" [expanded] [selected]:",
+        "      - gridcell \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\":",
+        "        - generic: \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\"",
+        "    - row \"00:00 - 23:59\" [level=5]:",
+        "      - gridcell \"00:00 - 23:59\":",
+        "        - generic: 00:00 - 23:59",
+        "    - row \"Mon - Sun, public holiday:\" [level=5]:",
+        "      - gridcell \"Mon - Sun, public holiday:\":",
+        "        - generic: \"Mon - Sun, public holiday:\"",
+        "    - spinbutton \"X-position\": \"2100\"",
+        "    - spinbutton \"Y-position\": \"100000\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "08-gourmet-time-text.png",
+      "kind": "editor",
+      "note": "Actual independent Text08:00 -19:30 selected; Closed Further information expanded hours. Inter Regular14",
+      "captured_at": "2026-10-03T08:14:03.317Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-895",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\" [expanded]:",
+        "      - gridcell \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\":",
+        "        - generic: \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\"",
+        "    - row \"Closed\" [level=5]:",
+        "      - gridcell \"Closed\":",
+        "        - generic: Closed",
+        "    - row \"08:00 - 19:30\" [level=5] [selected]:",
+        "      - gridcell \"08:00 - 19:30\":",
+        "        - generic: 08:00 - 19:30",
+        "    - row \"Mon - Fri:\" [level=5]:",
+        "      - gridcell \"Mon - Fri:\":",
+        "        - generic: \"Mon - Fri:\"",
+        "  - heading \"Text\" [level=1]",
+        "    - spinbutton \"X-position\": \"328\"",
+        "    - spinbutton \"Y-position\": \"895\"",
+        "      - textbox \"Width\" [disabled]: \"90\"",
+        "      - textbox \"Height\" [disabled]: \"17\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "  - generic: Font style",
+        "  - combobox \"Font style\":",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 14 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 14 px\"': \"14\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "09-gourmet-menu-group.png",
+      "kind": "editor",
+      "note": "Actual independent VenueMenu28 group after spacing correction; no menu interaction attached",
+      "captured_at": "2026-10-03T08:14:11.022Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-857",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\" [expanded]:",
+        "      - gridcell \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\":",
+        "        - generic: \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\"",
+        "    - row \"Closed\" [level=5]:",
+        "      - gridcell \"Closed\":",
+        "        - generic: Closed",
+        "    - row \"08:00 - 19:30\" [level=5]:",
+        "      - gridcell \"08:00 - 19:30\":",
+        "        - generic: 08:00 - 19:30",
+        "    - row \"Mon - Fri:\" [level=5]:",
+        "      - gridcell \"Mon - Fri:\":",
+        "        - generic: \"Mon - Fri:\"",
+        "    - row \"00:00 - 23:59\" [level=5]:",
+        "      - gridcell \"00:00 - 23:59\":",
+        "        - generic: 00:00 - 23:59",
+        "    - row \"Mon - Sun, public holiday:\" [level=5]:",
+        "      - gridcell \"Mon - Sun, public holiday:\":",
+        "        - generic: \"Mon - Sun, public holiday:\"",
+        "    - spinbutton \"X-position\": \"516\"",
+        "    - spinbutton \"Y-position\": \"838.5\"",
+        "      - textbox \"Width\": \"48\"",
+        "      - textbox \"Height\": \"46\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "10-hcafe-menu-group.png",
+      "kind": "editor",
+      "note": "Actual VenueMenu05 atx516,y419.5 width48,height46; center442.5 includes30px Online Order correction plus34.5 hours expansion; native sampled dots approximately441.5, not exact pixel fidelity",
+      "captured_at": "2026-10-03T08:14:32.538Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=967-251",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\":",
+        "      - gridcell \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\":",
+        "        - generic: \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\"",
+        "    - spinbutton \"X-position\": \"516\"",
+        "    - spinbutton \"Y-position\": \"419.5\"",
+        "      - textbox \"Width\": \"48\"",
+        "      - textbox \"Height\": \"46\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    },
+    {
+      "file": "11-four-hours-overview.png",
+      "kind": "editor",
+      "note": "Actual four imported finite hours-expanded frames at0,700,1400,2100 andy100000; no new state-node mappings/interaction controls counted",
+      "captured_at": "2026-10-03T08:14:47.625Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=12-104&p=f",
+      "readback": [
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - row \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded Toggle layer locking Toggle layer visibility\" [selected]:",
+        "      - gridcell \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\":",
+        "        - generic: \"[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded\"",
+        "    - spinbutton \"X-position\": Mixed",
+        "    - spinbutton \"Y-position\": \"100000\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "    - group \"Text\":",
+        "      - button \"Text\":"
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "key": "blocky",
+      "node_id": "967:19",
+      "name": "[FOOD-OCT3:BLOCKY-HOURS] Food — Block Y hours expanded",
+      "position": [
+        0,
+        100000
+      ]
+    },
+    {
+      "key": "hcafe",
+      "node_id": "967:178",
+      "name": "[FOOD-OCT3:HCAFE-HOURS] Food — Open H Café hours expanded",
+      "position": [
+        700,
+        100000
+      ]
+    },
+    {
+      "key": "va210",
+      "node_id": "967:382",
+      "name": "[FOOD-OCT3:VA210-HOURS] Food — red VA210 hours expanded",
+      "position": [
+        1400,
+        100000
+      ]
+    },
+    {
+      "key": "gourmet",
+      "node_id": "967:741",
+      "name": "[FOOD-OCT3:GOURMET-HOURS] Food — Closed Gourmet hours expanded",
+      "position": [
+        2100,
+        100000
+      ],
+      "historical_node_id": "967:577",
+      "spacing_repair": "Expanded row additional42px rather than initial54; menu moves6px and tags12px upward. Native full extent unknown."
+    }
+  ],
+  "native_connection_check": {
+    "result": "Mac locked",
+    "new_native_execution": false
+  },
+  "limits": [
+    "Four actual finite Figma hours-expanded imports; native source is archived evidence, current native check returned Mac locked. No new native session/state/action.",
+    "Each root576x1024 atX0/700/1400/2100,Y100000. Four independent time Text selections confirmed Inter Regular14px; public logos/maps remain raster.",
+    "Only finite observed positions; no new navigation, scrolling, live status, Home/Back caller or hours-collapse wiring/Present replay. Do not count as formal mapped/control coverage.",
+    "H Café new variant menu center442.5 vs native sampled approximately441.5;30px Online Order centering correction applied in variant only. Existing full-list H Café/U Garden menus remain pending.",
+    "Gourmet initial54px expansion hid observed tag sliver and put menu too low. Replaced with42px reconstruction; source/screenshot and oldnode967:577 preserved. Currentnode967:741,menu center861.5; precise native boundary unknown.",
+    "954px content mask is finite source visibility, not established native scrolling viewport. Typography/icons/spacing remain approximate and no exact pixel fidelity asserted.",
+    "One helper parse failed on AX diff prefix without an extra UI action; one virtualized H Café root selector had no match. Direct known editor-node navigation recovered selection; no denied navigation connection was attempted.",
+    "Prior Action dropdown URL-protocol safety refusal unresolved; not retried or circumvented. Source import/layout/text inspection are different permitted operations.",
+    "Full app/fidelity not_verified. Native observation, editable-source preparation/editor inspection and human evaluation remain separate."
+  ]
+}
