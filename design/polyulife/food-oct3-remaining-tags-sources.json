@@ -59,7 +59,7 @@
         576,
         1024
       ],
-      "status": "imported_unconfigured_not_replayed",
+      "status": "original_import_source_current_scroll_reconstruction_replayed",
       "node_id": "954:59",
       "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=954-59",
       "node_name": "[FOOD-OCT3:WESTERN] Search — Western Cuisine from Block Y",
@@ -70,7 +70,26 @@
       "canvas_position": [
         700,
         92000
-      ]
+      ],
+      "scroll_reconstruction": {
+        "source_file": "food-oct3-western-scroll.svg",
+        "layout_file": "food-oct3-western-scroll-layout.json",
+        "prototype_run_ids": [
+          "PROTO-FOOD-OCT3-WESTERN-SCROLL-001"
+        ],
+        "editor_evidence_ids": [
+          "E-WESTERN-SCROLL-01",
+          "E-WESTERN-SCROLL-02",
+          "E-WESTERN-SCROLL-03",
+          "E-WESTERN-SCROLL-04",
+          "E-WESTERN-SCROLL-05",
+          "E-WESTERN-SCROLL-08",
+          "E-WESTERN-SCROLL-09",
+          "E-WESTERN-SCROLL-10",
+          "E-WESTERN-SCROLL-19",
+          "E-WESTERN-SCROLL-20"
+        ]
+      }
     },
     {
       "file": "food-oct3-tag-taiwanese.svg",
@@ -180,5 +199,6 @@
     "While inspecting children, Right moved SearchInput x12->13; explicit UI X restoration to12 completed before text selection. Earlier copy/import screenshots remain pre-move.",
     "Prior Action dropdown URL-protocol safety refusal unresolved; no retry or alternative navigation-connection surface used.",
     "Full app/fidelity not_verified. Native Computer Use and editor evidence do not replace human evaluation."
-  ]
+  ],
+  "import_limits_scope": "Historical original import batch; Western now has separate finite scroll reconstruction. Other four tag drafts remain unconfigured."
 }

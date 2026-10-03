@@ -1,0 +1,79 @@
+{
+  "file": "food-oct3-western-scroll.svg",
+  "sha256": "df9ece6542073cacdb4bc4e94d381aa5163325d7630203771b300cd87142ffcd",
+  "original_source": "food-oct3-tag-western.svg",
+  "original_source_sha256": "15826c997c28b8c0c383b040b6a67edba6d80f8d28cae1c9ab476eb2c8c2fa9c",
+  "state_id": "S-FOOD-OCT3-WESTERN",
+  "source_evidence_ids": [
+    "E-FOOD-TAGS-16",
+    "E-FOOD-TAGS-04"
+  ],
+  "dimensions": [
+    576,
+    1024
+  ],
+  "figma": {
+    "root_node_id": "954:59",
+    "viewport_node_id": "957:20",
+    "content_node_id": "957:19",
+    "root_canvas_position": [
+      700,
+      92000
+    ],
+    "viewport_position": [
+      0,
+      200
+    ],
+    "viewport_dimensions": [
+      576,
+      824
+    ],
+    "content_position": [
+      18,
+      7
+    ],
+    "content_dimensions": [
+      540,
+      840
+    ],
+    "content_extent_height": 847,
+    "inferred_scroll_range": [
+      0,
+      23
+    ],
+    "clip_content": true,
+    "overflow": "Vertical",
+    "child_constraints": {
+      "horizontal": "Left",
+      "vertical": "Top"
+    }
+  },
+  "status": "actual_scroll_replayed_navigation_unconfigured",
+  "native_full_geometry_verified": false,
+  "limits": [
+    "Original source unchanged; this XML reflects actual UI edits, not a Figma export.",
+    "Eleven observed public results, fixed query; no arbitrary search, row/caller/Back navigation.",
+    "Rows/icons/fonts approximate; finite prototype bounds do not establish native extent."
+  ],
+  "editor_evidence_ids": [
+    "E-WESTERN-SCROLL-01",
+    "E-WESTERN-SCROLL-02",
+    "E-WESTERN-SCROLL-03",
+    "E-WESTERN-SCROLL-04",
+    "E-WESTERN-SCROLL-05",
+    "E-WESTERN-SCROLL-08",
+    "E-WESTERN-SCROLL-09",
+    "E-WESTERN-SCROLL-10",
+    "E-WESTERN-SCROLL-19",
+    "E-WESTERN-SCROLL-20"
+  ],
+  "prototype_run_ids": [
+    "PROTO-FOOD-OCT3-WESTERN-SCROLL-001"
+  ],
+  "flow": {
+    "name": "Reference · Western Cuisine — finite results scroll",
+    "start_node_id": "954:59",
+    "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=954-59&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=954%3A59&show-proto-sidebar=1",
+    "description": "Independent reference for the observed October3 Western Cuisine query: 11 public venue results and finite vertical scrolling. Search bar and header remain outside the results viewport. Row heights and inferred23px range are approximate; native complete scroll bounds are not verified. Back, tag caller, row detail and arbitrary search are unconfigured. This prototype replay is not native execution, complete visual fidelity or human evaluation."
+  }
+}

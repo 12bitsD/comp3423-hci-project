@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Western Cuisine 11条结果滚动复现](food-oct3-western-scroll-walkthrough.md)将既有草稿954:59配置为独立滚动参考，搜索栏保持在结果视口外。根隐藏/显式Show恢复、错误Room起点和初始比例裁切均保留；五项应用裁片与六项固定搜索栏裁片比较全等，返回/结果导航仍未配置。当前204画板/436控件/19滚动区域/140运行，其它15个导入草稿仍未映射。原生27会话、212状态/395动作保持；2728证据、67清单含2449PNG，完整应用`not_verified`。下方为历史批次。
+
 最新[Food当前28条连续列表复现](food-oct3-full-list-walkthrough.md)在实际Figma编辑器导入公开场所列表，保留五条VA210及两条Block R的品牌/标签差异，连续回放至Gourmet Shop并反向回首项。源稿Online Order路径数字分隔符错误与前三次巨大几何失败已修正并保留证据；原生底部73px尾部补入后，四项重复/边界裁片比较全部相等。此前固定区域14项比较10等/4不等，原因未隔离。当前203画板/436控件/18滚动区域/139运行；原生27会话、212状态/395动作保持，2705证据、66清单含2427PNG。详情等导航和16个旧草稿仍未配置；完整应用`not_verified`。下方为历史批次。
 
 最新[Block Y余下五个标签与调用者](food-oct3-remaining-tags-walkthrough.md)保存24组真实原生采样，确认Asian6、Western11、Taiwanese1、Cake6、Salad7条结果及返回；Taiwanese自身结果的嵌套详情和内嵌地图加载单独保留，进入过渡后另补稳定截图。五个可编辑查询Frame已实际导入，但未连线/回放。当前27会话、212状态/395动作（308 observed、78 not_attempted、9 attempted_unverified）；2664证据，65份清单含2388PNG。正式Figma保持202画板/436控件/17滚动区域/137运行，未配置草稿16个；完整应用`not_verified`。下方为历史批次。
