@@ -1,0 +1,1100 @@
+{
+  "kind": "actual_figma_payment_record_portal_replay",
+  "session_id": null,
+  "images": [
+    {
+      "file": "00-month-start.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:45:39.722Z",
+      "description": "month-start",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=823-21&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "01-events.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:45:39.957Z",
+      "description": "events",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "02-history.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:45:40.226Z",
+      "description": "history",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "03-detail-hidden.png",
+      "sha256": "c0a0f31f1f244e7cdc89bf33611750db7e40e5f181d88b66d086dc4e9ba1d9a9",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:45:40.443Z",
+      "description": "detail-hidden",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+      "visual_failure": "illustration_missing"
+    },
+    {
+      "file": "04-detail-hidden-post-upload.png",
+      "sha256": "bb9d8e917e580a5225ccd4cddca65a4930eceb1c77034d906672ade336391d88",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:46:48.985Z",
+      "description": "detail-hidden-post-upload",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-433&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "05-amount-shown.png",
+      "sha256": "1b37248a2af953340c6337c5df54d68355c6c39abecdb94f0cfc85cea1e9cf5c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:46:55.992Z",
+      "description": "amount-shown",
+      "node_id": "837:468",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-468&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "06-amount-hidden-again.png",
+      "sha256": "bb9d8e917e580a5225ccd4cddca65a4930eceb1c77034d906672ade336391d88",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:01.612Z",
+      "description": "amount-hidden-again",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-433&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "07-history-return.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:01.846Z",
+      "description": "history-return",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-433&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "08-detail-reentry.png",
+      "sha256": "bb9d8e917e580a5225ccd4cddca65a4930eceb1c77034d906672ade336391d88",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:02.115Z",
+      "description": "detail-reentry",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=835-209&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "09-portal-loading-attempt.png",
+      "sha256": "4971f624372a4b6f80fd38ac11ff8d2492de578f6845be84ec72cbecf46285a4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:02.349Z",
+      "description": "portal-loading-attempt",
+      "node_id": "837:502",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-502&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "10-portal-blank.png",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:06.359Z",
+      "description": "portal-blank",
+      "node_id": "837:537",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "11-portal-menu.png",
+      "sha256": "d40dcc17dd04aead65576bf491186cfa55081f20f4b528f2307d08dc617292fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:06.557Z",
+      "description": "portal-menu",
+      "node_id": "837:571",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "12-portal-menu-cancel.png",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:12.565Z",
+      "description": "portal-menu-cancel",
+      "node_id": "837:537",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "13-portal-close-detail.png",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:12.830Z",
+      "description": "portal-close-detail",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "14-detail-back-history.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:13.101Z",
+      "description": "detail-back-history",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "15-history-hidden.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:13.368Z",
+      "description": "history-hidden",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "16-week.png",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:13.641Z",
+      "description": "week",
+      "node_id": "835:312",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "17-month-restored.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:13.911Z",
+      "description": "month-restored",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "18-repeat-events.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:37.958Z",
+      "description": "repeat-events",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "19-repeat-history.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:38.194Z",
+      "description": "repeat-history",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "20-repeat-detail-hidden.png",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:38.458Z",
+      "description": "repeat-detail-hidden",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "21-repeat-amount-shown.png",
+      "sha256": "7acce09a854f60136f5159cff55839f5ff273d54e3a6d3d35011b43ce638659c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:38.729Z",
+      "description": "repeat-amount-shown",
+      "node_id": "837:468",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "22-repeat-amount-hidden.png",
+      "sha256": "bb9d8e917e580a5225ccd4cddca65a4930eceb1c77034d906672ade336391d88",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:38.993Z",
+      "description": "repeat-amount-hidden",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "23-repeat-portal-loading.png",
+      "sha256": "27c879c8c4a10498aa287740dab42c396d3ad9c083016c0857615865427324a9",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:39.227Z",
+      "description": "repeat-portal-loading",
+      "node_id": "837:502",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
+      "visual_failure": "loading_mark_missing"
+    },
+    {
+      "file": "24-repeat-portal-blank.png",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:48.991Z",
+      "description": "repeat-portal-blank",
+      "node_id": "837:537",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "25-repeat-portal-menu.png",
+      "sha256": "d40dcc17dd04aead65576bf491186cfa55081f20f4b528f2307d08dc617292fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:49.225Z",
+      "description": "repeat-portal-menu",
+      "node_id": "837:571",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "26-repeat-portal-cancel.png",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:49.495Z",
+      "description": "repeat-portal-cancel",
+      "node_id": "837:537",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "27-repeat-portal-close.png",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:49.728Z",
+      "description": "repeat-portal-close",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "28-repeat-history-return.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:50.000Z",
+      "description": "repeat-history-return",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "29-repeat-history-hidden.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:50.268Z",
+      "description": "repeat-history-hidden",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "30-repeat-week.png",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:50.539Z",
+      "description": "repeat-week",
+      "node_id": "835:312",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "31-repeat-month-restored.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:47:50.804Z",
+      "description": "repeat-month-restored",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "32-logo-repair-events.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:12.407Z",
+      "description": "logo-repair-events",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "33-logo-repair-history.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:12.676Z",
+      "description": "logo-repair-history",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "34-logo-repair-detail.png",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:12.937Z",
+      "description": "logo-repair-detail",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "35-logo-repair-loading.png",
+      "sha256": "4971f624372a4b6f80fd38ac11ff8d2492de578f6845be84ec72cbecf46285a4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:13.176Z",
+      "description": "logo-repair-loading",
+      "node_id": "837:502",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=833-145&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "36-logo-repair-blank.png",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:23.790Z",
+      "description": "logo-repair-blank",
+      "node_id": "837:537",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "action_id": null,
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-537&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "37-logo-repair-menu.png",
+      "sha256": "d40dcc17dd04aead65576bf491186cfa55081f20f4b528f2307d08dc617292fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:24.030Z",
+      "description": "logo-repair-menu",
+      "node_id": "837:571",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "38-logo-repair-cancel.png",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:24.298Z",
+      "description": "logo-repair-cancel",
+      "node_id": "837:537",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "39-logo-repair-close.png",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:24.563Z",
+      "description": "logo-repair-close",
+      "node_id": "837:433",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "action_id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "40-logo-repair-history-return.png",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:24.834Z",
+      "description": "logo-repair-history-return",
+      "node_id": "835:209",
+      "state_id": "S-NATIVE-PAYMENT-HISTORY",
+      "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "41-logo-repair-history-hidden.png",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:25.069Z",
+      "description": "logo-repair-history-hidden",
+      "node_id": "833:145",
+      "state_id": "S-NATIVE-PAYMENT-EVENTS",
+      "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "42-logo-repair-week.png",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:25.335Z",
+      "description": "logo-repair-week",
+      "node_id": "835:312",
+      "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+      "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "43-logo-repair-month.png",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "captured_at_utc": "2026-10-03T01:48:25.602Z",
+      "description": "logo-repair-month",
+      "node_id": "823:21",
+      "state_id": "S-NATIVE-OCT3-PAYMENT",
+      "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO",
+      "capture_status": "saved_pixels_reviewed",
+      "visible_url_readback": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=837-571&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177"
+    },
+    {
+      "file": "editor-flow.png",
+      "sha256": "51e84c2a761e1249977ded53c3a74d0d0c71538c60f597f190bb5c1d11cd9e88",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "captured_at_utc": "2026-10-03T01:48:47.834211+00:00",
+      "description": "Actual updated33-frame48-control finite flow description",
+      "source": "Actual Figma editor screenshot",
+      "redaction": "Editor account header masked"
+    }
+  ],
+  "app_crop_xyxy": [
+    425,
+    60,
+    785,
+    700
+  ],
+  "limits": [
+    "First observed record only; finite state sample, complete app not_verified.",
+    "Private financial data wholly synthetic. No business action or login implemented.",
+    "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+    "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+    "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+    "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+    "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+    "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+  ],
+  "events": [
+    {
+      "kind": "detail_image_missing",
+      "sample": 3,
+      "result": "Present first detail lacks illustration despite editor-visible fill; both detail fills reuploaded. Samples4 onward reviewed."
+    },
+    {
+      "kind": "loading_mark_missing_on_reentry",
+      "sample": 23,
+      "result": "First loading sample9 visible; second23 lacks mark. Same public PNG reuploaded; sample35 visible."
+    },
+    {
+      "kind": "editor_locator_recovery",
+      "result": "Virtualized hidden root unavailable to scoped locator; navigated to observed node. Immediate navigation was still loading; fresh AX before coordinate retry."
+    },
+    {
+      "kind": "record_card_selection",
+      "result": "SVG paste while sidebar focused produced no confirmed new layer. Existing card Vector835:236 selected via UI, dimensions434x77 at115,235 verified, renamed FirstDemoRecordCard and wired."
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "a": 0,
+      "b": 17,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 0,
+      "b": 31,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 0,
+      "b": 43,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 1,
+      "b": 15,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 1,
+      "b": 18,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 1,
+      "b": 29,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 1,
+      "b": 32,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 1,
+      "b": 41,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 2,
+      "b": 7,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 2,
+      "b": 14,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 2,
+      "b": 19,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 2,
+      "b": 28,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 2,
+      "b": 33,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 2,
+      "b": 40,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 4,
+      "b": 8,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 4,
+      "b": 13,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        52,
+        359,
+        228
+      ],
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 4,
+      "b": 20,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        52,
+        359,
+        228
+      ],
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 4,
+      "b": 22,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 4,
+      "b": 27,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        52,
+        359,
+        228
+      ],
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 4,
+      "b": 34,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        52,
+        359,
+        228
+      ],
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 4,
+      "b": 39,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        52,
+        359,
+        228
+      ],
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 5,
+      "b": 21,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        52,
+        359,
+        228
+      ],
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 10,
+      "b": 12,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 10,
+      "b": 24,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 10,
+      "b": 26,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 10,
+      "b": 36,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 10,
+      "b": 38,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 11,
+      "b": 25,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 11,
+      "b": 37,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 16,
+      "b": 30,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 16,
+      "b": 42,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "equal": false,
+      "difference_bbox": [
+        6,
+        51,
+        359,
+        228
+      ],
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 9,
+      "b": 23,
+      "equal": false,
+      "difference_bbox": [
+        159,
+        339,
+        200,
+        373
+      ],
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    },
+    {
+      "a": 9,
+      "b": 35,
+      "equal": true,
+      "difference_bbox": null,
+      "scope": "Repeated actual prototype samples only; not native fidelity or financial-value proof"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "84990a96e7d02f18cd50f0b2f16c65f93f7b9bbcaf915724ff0205e753a66b77",
+    "dimensions": [
+      1200,
+      2800
+    ],
+    "source": "Forty-four actual masked Present samples; includes failure samples3/23"
+  }
+}

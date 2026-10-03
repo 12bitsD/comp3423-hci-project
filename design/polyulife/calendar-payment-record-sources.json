@@ -1,0 +1,207 @@
+{
+  "sources": [
+    {
+      "file": "calendar-payment-record-hidden-demo.svg",
+      "sha256": "d2867947d45b961b37ddb0da299a0fc4d80cf80ea6c73030d4a188d3e2c1ce41",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYREC-05",
+        "E-NATIVE-PAYREC-07"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_record_portal_replayed_partial",
+      "node_id": "837:433",
+      "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYREC-REPAIR-CYCLE-001",
+        "PROTO-PAYREC-REPEAT-CYCLE-002",
+        "PROTO-PAYREC-LOGO-REPAIR-003"
+      ],
+      "limits": [
+        "First observed record only; finite state sample, complete app not_verified.",
+        "Private financial data wholly synthetic. No business action or login implemented.",
+        "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+        "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+        "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+        "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+        "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+        "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+      ]
+    },
+    {
+      "file": "calendar-payment-record-shown-demo.svg",
+      "sha256": "ff657c81d26178e3d89c566a734bfa4dc71267e99d382d2bac35f249bc0ad110",
+      "state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYREC-04"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_record_portal_replayed_partial",
+      "node_id": "837:468",
+      "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYREC-REPAIR-CYCLE-001",
+        "PROTO-PAYREC-REPEAT-CYCLE-002",
+        "PROTO-PAYREC-LOGO-REPAIR-003"
+      ],
+      "limits": [
+        "First observed record only; finite state sample, complete app not_verified.",
+        "Private financial data wholly synthetic. No business action or login implemented.",
+        "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+        "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+        "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+        "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+        "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+        "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+      ]
+    },
+    {
+      "file": "calendar-payment-portal-loading.svg",
+      "sha256": "b1fb22cbe1d889c00d3ec8957b859e32fb3d2e09cc649a154605ddbbf5cb2e68",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYREC-08"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_record_portal_replayed_partial",
+      "node_id": "837:502",
+      "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYREC-REPAIR-CYCLE-001",
+        "PROTO-PAYREC-REPEAT-CYCLE-002",
+        "PROTO-PAYREC-LOGO-REPAIR-003"
+      ],
+      "limits": [
+        "First observed record only; finite state sample, complete app not_verified.",
+        "Private financial data wholly synthetic. No business action or login implemented.",
+        "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+        "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+        "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+        "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+        "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+        "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+      ]
+    },
+    {
+      "file": "calendar-payment-portal-blank.svg",
+      "sha256": "368b51d65738b6dd7ced8dacbf8b95937279cfa806db9b4147fb79176f7ea448",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYREC-09"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_record_portal_replayed_partial",
+      "node_id": "837:537",
+      "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYREC-REPAIR-CYCLE-001",
+        "PROTO-PAYREC-REPEAT-CYCLE-002",
+        "PROTO-PAYREC-LOGO-REPAIR-003"
+      ],
+      "limits": [
+        "First observed record only; finite state sample, complete app not_verified.",
+        "Private financial data wholly synthetic. No business action or login implemented.",
+        "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+        "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+        "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+        "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+        "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+        "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+      ]
+    },
+    {
+      "file": "calendar-payment-portal-menu.svg",
+      "sha256": "db0a7e37b13b363af5213461268228dd3d72c81580b0534a8d26ed65646a6984",
+      "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+      "source_evidence_ids": [
+        "E-NATIVE-PAYREC-10"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "imported_record_portal_replayed_partial",
+      "node_id": "837:571",
+      "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+      "prototype_run_ids": [
+        "PROTO-PAYREC-REPAIR-CYCLE-001",
+        "PROTO-PAYREC-REPEAT-CYCLE-002",
+        "PROTO-PAYREC-LOGO-REPAIR-003"
+      ],
+      "limits": [
+        "First observed record only; finite state sample, complete app not_verified.",
+        "Private financial data wholly synthetic. No business action or login implemented.",
+        "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+        "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+        "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+        "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+        "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+        "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/payment-record-illustration.png",
+      "sha256": "ffa6464de3bbe386473a55b4c81a6b1050b63d0399c6860463188ce8beb51a75",
+      "dimensions": [
+        536,
+        240
+      ],
+      "source_evidence_id": "E-NATIVE-PAYREC-04",
+      "source_kind": "Safe crop from ignored raw native screenshot, before whole-body public masking",
+      "normalization_crop_from_raw": [
+        977,
+        0,
+        2047,
+        1898
+      ],
+      "normalized_dimensions": [
+        576,
+        1024
+      ],
+      "crop_in_normalized_xyxy": [
+        20,
+        100,
+        556,
+        340
+      ],
+      "limits": "Generic photo only; bottom 2px deliberately excluded to avoid adjacent financial text. Raster includes native expand icon; expansion not implemented."
+    },
+    {
+      "file": "assets/payment-portal-loading-mark.png",
+      "sha256": "5c2bec14daa954767cda08407db1cdc0911c89911813beaae834f43717fea0c6",
+      "dimensions": [
+        59,
+        60
+      ],
+      "source_evidence_id": "E-NATIVE-PAYREC-08",
+      "source_sha256": "3feafcf846bb41c1b3aeebf2a562ad065e1f863b863137b83b082f23024ab3c0",
+      "crop_xyxy": [
+        260,
+        532,
+        319,
+        592
+      ],
+      "source_kind": "Crop from already redacted public native screenshot"
+    }
+  ],
+  "limits": [
+    "First observed record only; finite state sample, complete app not_verified.",
+    "Private financial data wholly synthetic. No business action or login implemented.",
+    "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+    "Actual public detail body masked; screenshot equality cannot prove body fidelity."
+  ]
+}

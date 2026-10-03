@@ -60196,6 +60196,915 @@
       ],
       "action_ids": [],
       "redaction": "Derived masked native samples"
+    },
+    {
+      "id": "E-PAYREC-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/00-month-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:45:39.722Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/01-events.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:45:39.957Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/02-history.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:45:40.226Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/03-detail-hidden.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:45:40.443Z",
+      "sha256": "c0a0f31f1f244e7cdc89bf33611750db7e40e5f181d88b66d086dc4e9ba1d9a9",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/04-detail-hidden-post-upload.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:46:48.985Z",
+      "sha256": "bb9d8e917e580a5225ccd4cddca65a4930eceb1c77034d906672ade336391d88",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/05-amount-shown.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:46:55.992Z",
+      "sha256": "1b37248a2af953340c6337c5df54d68355c6c39abecdb94f0cfc85cea1e9cf5c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-AMOUNT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/06-amount-hidden-again.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:01.612Z",
+      "sha256": "bb9d8e917e580a5225ccd4cddca65a4930eceb1c77034d906672ade336391d88",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/07-history-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:01.846Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/08-detail-reentry.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:02.115Z",
+      "sha256": "bb9d8e917e580a5225ccd4cddca65a4930eceb1c77034d906672ade336391d88",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/09-portal-loading-attempt.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:02.349Z",
+      "sha256": "4971f624372a4b6f80fd38ac11ff8d2492de578f6845be84ec72cbecf46285a4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-OPEN"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/10-portal-blank.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:06.359Z",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/11-portal-menu.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:06.557Z",
+      "sha256": "d40dcc17dd04aead65576bf491186cfa55081f20f4b528f2307d08dc617292fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MORE"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/12-portal-menu-cancel.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:12.565Z",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/13-portal-close-detail.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:12.830Z",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/14-detail-back-history.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:13.101Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/15-history-hidden.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:13.368Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/16-week.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:13.641Z",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/17-month-restored.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:13.911Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/18-repeat-events.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:37.958Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/19-repeat-history.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:38.194Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-20",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/20-repeat-detail-hidden.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:38.458Z",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-21",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/21-repeat-amount-shown.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:38.729Z",
+      "sha256": "7acce09a854f60136f5159cff55839f5ff273d54e3a6d3d35011b43ce638659c",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-AMOUNT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-22",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/22-repeat-amount-hidden.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:38.993Z",
+      "sha256": "bb9d8e917e580a5225ccd4cddca65a4930eceb1c77034d906672ade336391d88",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-23",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/23-repeat-portal-loading.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:39.227Z",
+      "sha256": "27c879c8c4a10498aa287740dab42c396d3ad9c083016c0857615865427324a9",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-OPEN"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-24",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/24-repeat-portal-blank.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:48.991Z",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-25",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/25-repeat-portal-menu.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:49.225Z",
+      "sha256": "d40dcc17dd04aead65576bf491186cfa55081f20f4b528f2307d08dc617292fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MORE"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-26",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/26-repeat-portal-cancel.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:49.495Z",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-27",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/27-repeat-portal-close.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:49.728Z",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-28",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/28-repeat-history-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:50.000Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-29",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/29-repeat-history-hidden.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:50.268Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-30",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/30-repeat-week.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:50.539Z",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-31",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/31-repeat-month-restored.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:47:50.804Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-32",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/32-logo-repair-events.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:12.407Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-33",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/33-logo-repair-history.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:12.676Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-SHOW-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-34",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/34-logo-repair-detail.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:12.937Z",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-OPEN"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-35",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/35-logo-repair-loading.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:13.176Z",
+      "sha256": "4971f624372a4b6f80fd38ac11ff8d2492de578f6845be84ec72cbecf46285a4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-LOADING"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-OPEN"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-36",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/36-logo-repair-blank.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:23.790Z",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-37",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/37-logo-repair-menu.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:24.030Z",
+      "sha256": "d40dcc17dd04aead65576bf491186cfa55081f20f4b528f2307d08dc617292fd",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-MENU"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MORE"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-38",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/38-logo-repair-cancel.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:24.298Z",
+      "sha256": "22dfab5e33bdcfd45c12fba7550855f269e62bbad7396b66122c9984362deb4d",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-PORTAL-BLANK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-39",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/39-logo-repair-close.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:24.563Z",
+      "sha256": "adacb5f6f39d0642065df22725c1d5597431bb897796d56a9ed91568a167b8b4",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-RECORD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-PORTAL-CLOSE"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-40",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/40-logo-repair-history-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:24.834Z",
+      "sha256": "af78c210080e3172b7bb02ca3422e29bc59094a5f623d68a8ea28faa9ffe8fb0",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-HISTORY"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-RECORD-BACK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-41",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/41-logo-repair-history-hidden.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:25.069Z",
+      "sha256": "2e90a9ca09d87dad6262b78011abf93bf9578438c873e379294710a225a95119",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-EVENTS"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-HIDE-HISTORY"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-42",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/42-logo-repair-week.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:25.335Z",
+      "sha256": "f856bd679d0710381dd4e2df3019def5abd8b668b90893b936bcdd4bb409c503",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-EVENTS-WEEK"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-43",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/43-logo-repair-month.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:25.602Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYMENT-WEEK-MONTH"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; all financial values synthetic DEMO"
+    },
+    {
+      "id": "E-PAYREC-PROTO-EDITOR",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/editor-flow.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:48:47.834211+00:00",
+      "sha256": "51e84c2a761e1249977ded53c3a74d0d0c71538c60f597f190bb5c1d11cd9e88",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Editor account masked"
+    },
+    {
+      "id": "E-PAYREC-PROTO-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-record-prototype/contact-sheet.png",
+      "session_id": null,
+      "sha256": "84990a96e7d02f18cd50f0b2f16c65f93f7b9bbcaf915724ff0205e753a66b77",
+      "dimensions": [
+        1200,
+        2800
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-PAYMENT-EVENTS",
+        "S-NATIVE-PAYMENT-HISTORY",
+        "S-NATIVE-PAYMENT-RECORD-DETAIL",
+        "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+        "S-NATIVE-PAYMENT-PORTAL-LOADING",
+        "S-NATIVE-PAYMENT-PORTAL-BLANK",
+        "S-NATIVE-PAYMENT-PORTAL-MENU",
+        "S-NATIVE-PAYMENT-MODE-WEEK"
+      ],
+      "action_ids": [],
+      "redaction": "Derived masked prototype samples, financial content synthetic DEMO"
     }
   ],
   "findings": [
@@ -69187,7 +70096,10 @@
           "PROTO-PAYNAV-DATES-REGRESSION-003",
           "PROTO-PAYMODE-HISTORY-CYCLE-001",
           "PROTO-PAYMODE-HIDE-CYCLE-002",
-          "PROTO-PAYMODE-HOME-REGRESSION-003"
+          "PROTO-PAYMODE-HOME-REGRESSION-003",
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
         ],
         "prototype_evidence_ids": [
           "E-OCT3-PAYMENT-PROTO-01",
@@ -69206,7 +70118,11 @@
           "E-PAYMODE-PROTO-00",
           "E-PAYMODE-PROTO-04",
           "E-PAYMODE-PROTO-09",
-          "E-PAYMODE-PROTO-11"
+          "E-PAYMODE-PROTO-11",
+          "E-PAYREC-PROTO-00",
+          "E-PAYREC-PROTO-17",
+          "E-PAYREC-PROTO-31",
+          "E-PAYREC-PROTO-43"
         ]
       },
       {
@@ -69536,12 +70452,21 @@
         "prototype_run_ids": [
           "PROTO-PAYMODE-HISTORY-CYCLE-001",
           "PROTO-PAYMODE-HIDE-CYCLE-002",
-          "PROTO-PAYMODE-HOME-REGRESSION-003"
+          "PROTO-PAYMODE-HOME-REGRESSION-003",
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
         ],
         "prototype_evidence_ids": [
           "E-PAYMODE-PROTO-01",
           "E-PAYMODE-PROTO-05",
-          "E-PAYMODE-PROTO-07"
+          "E-PAYMODE-PROTO-07",
+          "E-PAYREC-PROTO-01",
+          "E-PAYREC-PROTO-15",
+          "E-PAYREC-PROTO-18",
+          "E-PAYREC-PROTO-29",
+          "E-PAYREC-PROTO-32",
+          "E-PAYREC-PROTO-41"
         ]
       },
       {
@@ -69582,11 +70507,21 @@
         "prototype_run_ids": [
           "PROTO-PAYMODE-HISTORY-CYCLE-001",
           "PROTO-PAYMODE-HIDE-CYCLE-002",
-          "PROTO-PAYMODE-HOME-REGRESSION-003"
+          "PROTO-PAYMODE-HOME-REGRESSION-003",
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
         ],
         "prototype_evidence_ids": [
           "E-PAYMODE-PROTO-02",
-          "E-PAYMODE-PROTO-06"
+          "E-PAYMODE-PROTO-06",
+          "E-PAYREC-PROTO-02",
+          "E-PAYREC-PROTO-07",
+          "E-PAYREC-PROTO-14",
+          "E-PAYREC-PROTO-19",
+          "E-PAYREC-PROTO-28",
+          "E-PAYREC-PROTO-33",
+          "E-PAYREC-PROTO-40"
         ]
       },
       {
@@ -69627,11 +70562,266 @@
         "prototype_run_ids": [
           "PROTO-PAYMODE-HISTORY-CYCLE-001",
           "PROTO-PAYMODE-HIDE-CYCLE-002",
-          "PROTO-PAYMODE-HOME-REGRESSION-003"
+          "PROTO-PAYMODE-HOME-REGRESSION-003",
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
         ],
         "prototype_evidence_ids": [
           "E-PAYMODE-PROTO-03",
-          "E-PAYMODE-PROTO-08"
+          "E-PAYMODE-PROTO-08",
+          "E-PAYREC-PROTO-16",
+          "E-PAYREC-PROTO-30",
+          "E-PAYREC-PROTO-42"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+        "node_id": "837:433",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=837-433",
+        "node_name": "[PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-05",
+          "E-NATIVE-PAYREC-07"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-record-hidden-demo.svg",
+        "design_source_sha256": "d2867947d45b961b37ddb0da299a0fc4d80cf80ea6c73030d4a188d3e2c1ce41",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            0,
+            79000
+          ]
+        },
+        "content_policy": "Financial values/title/identifiers/dates wholly synthetic DEMO; generic photo crop excludes private text",
+        "native_editability": "Editable Frame/Text/Vector/groups; illustration and loading mark raster fills",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Actual Present targets reviewed, missing image/mark and repairs retained; geometry/fonts approximate",
+          "evidence_ids": [
+            "E-PAYREC-PROTO-03",
+            "E-PAYREC-PROTO-04",
+            "E-PAYREC-PROTO-06",
+            "E-PAYREC-PROTO-08",
+            "E-PAYREC-PROTO-13",
+            "E-PAYREC-PROTO-20",
+            "E-PAYREC-PROTO-22",
+            "E-PAYREC-PROTO-27",
+            "E-PAYREC-PROTO-34",
+            "E-PAYREC-PROTO-39"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYREC-PROTO-03",
+          "E-PAYREC-PROTO-04",
+          "E-PAYREC-PROTO-06",
+          "E-PAYREC-PROTO-08",
+          "E-PAYREC-PROTO-13",
+          "E-PAYREC-PROTO-20",
+          "E-PAYREC-PROTO-22",
+          "E-PAYREC-PROTO-27",
+          "E-PAYREC-PROTO-34",
+          "E-PAYREC-PROTO-39"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+        "node_id": "837:468",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=837-468",
+        "node_name": "[PAY-RECORD:SHOWN] Record A — synthetic DEMO amount",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-04"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-record-shown-demo.svg",
+        "design_source_sha256": "ff657c81d26178e3d89c566a734bfa4dc71267e99d382d2bac35f249bc0ad110",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            700,
+            79000
+          ]
+        },
+        "content_policy": "Financial values/title/identifiers/dates wholly synthetic DEMO; generic photo crop excludes private text",
+        "native_editability": "Editable Frame/Text/Vector/groups; illustration and loading mark raster fills",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Actual Present targets reviewed, missing image/mark and repairs retained; geometry/fonts approximate",
+          "evidence_ids": [
+            "E-PAYREC-PROTO-05",
+            "E-PAYREC-PROTO-21"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYREC-PROTO-05",
+          "E-PAYREC-PROTO-21"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+        "node_id": "837:502",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=837-502",
+        "node_name": "[PAY-PORTAL:LOAD] Student Account Portal — loading",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-08"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-portal-loading.svg",
+        "design_source_sha256": "b1fb22cbe1d889c00d3ec8957b859e32fb3d2e09cc649a154605ddbbf5cb2e68",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            1400,
+            79000
+          ]
+        },
+        "content_policy": "Financial values/title/identifiers/dates wholly synthetic DEMO; generic photo crop excludes private text",
+        "native_editability": "Editable Frame/Text/Vector/groups; illustration and loading mark raster fills",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Actual Present targets reviewed, missing image/mark and repairs retained; geometry/fonts approximate",
+          "evidence_ids": [
+            "E-PAYREC-PROTO-09",
+            "E-PAYREC-PROTO-23",
+            "E-PAYREC-PROTO-35"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYREC-PROTO-09",
+          "E-PAYREC-PROTO-23",
+          "E-PAYREC-PROTO-35"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+        "node_id": "837:537",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=837-537",
+        "node_name": "[PAY-PORTAL:BLANK] Student Account Portal — observed blank",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-09"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-portal-blank.svg",
+        "design_source_sha256": "368b51d65738b6dd7ced8dacbf8b95937279cfa806db9b4147fb79176f7ea448",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2100,
+            79000
+          ]
+        },
+        "content_policy": "Financial values/title/identifiers/dates wholly synthetic DEMO; generic photo crop excludes private text",
+        "native_editability": "Editable Frame/Text/Vector/groups; illustration and loading mark raster fills",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Actual Present targets reviewed, missing image/mark and repairs retained; geometry/fonts approximate",
+          "evidence_ids": [
+            "E-PAYREC-PROTO-10",
+            "E-PAYREC-PROTO-12",
+            "E-PAYREC-PROTO-24",
+            "E-PAYREC-PROTO-26",
+            "E-PAYREC-PROTO-36",
+            "E-PAYREC-PROTO-38"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYREC-PROTO-10",
+          "E-PAYREC-PROTO-12",
+          "E-PAYREC-PROTO-24",
+          "E-PAYREC-PROTO-26",
+          "E-PAYREC-PROTO-36",
+          "E-PAYREC-PROTO-38"
+        ]
+      },
+      {
+        "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+        "node_id": "837:571",
+        "node_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=837-571",
+        "node_name": "[PAY-PORTAL:MENU] Student Account Portal — menu",
+        "node_type": "Frame",
+        "page": "01 · Observed UI",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-10"
+        ],
+        "design_source_path": "../../design/polyulife/calendar-payment-portal-menu.svg",
+        "design_source_sha256": "db0a7e37b13b363af5213461268228dd3d72c81580b0534a8d26ed65646a6984",
+        "viewport": {
+          "frame_size": [
+            576,
+            1024
+          ],
+          "frame_size_independently_verified": true,
+          "canvas_position": [
+            2800,
+            79000
+          ]
+        },
+        "content_policy": "Financial values/title/identifiers/dates wholly synthetic DEMO; generic photo crop excludes private text",
+        "native_editability": "Editable Frame/Text/Vector/groups; illustration and loading mark raster fills",
+        "visual_review": {
+          "status": "partial",
+          "summary": "Actual Present targets reviewed, missing image/mark and repairs retained; geometry/fonts approximate",
+          "evidence_ids": [
+            "E-PAYREC-PROTO-11",
+            "E-PAYREC-PROTO-25",
+            "E-PAYREC-PROTO-37"
+          ]
+        },
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "prototype_evidence_ids": [
+          "E-PAYREC-PROTO-11",
+          "E-PAYREC-PROTO-25",
+          "E-PAYREC-PROTO-37"
         ]
       }
     ],
@@ -84308,6 +85498,295 @@
           "E-NATIVE-PAYMODE-11-AX"
         ],
         "source_fidelity": "Observed October2 Payment mode/history path only; fixed navigation models observed reset, not universal persistence"
+      },
+      {
+        "source_node_id": "837:571",
+        "trigger_node_id": "837:617",
+        "trigger_node_name": "CancelPortalMenu",
+        "action_id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "837:537",
+        "configured_at": "2026-10-03T01:43:38.473Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1004 combo box (collapsed) Position, Value: Scroll with parent, ID: :r2nk:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1028 combo box (collapsed) Trigger, Value: On click, ID: :r2nr:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1034 combo box (collapsed) Action, Value: Navigate to, ID: :r2nu:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1041 combo box (collapsed) Destination, Value: [PAY-PORTAL:BLANK] Student Account Portal — observed blank, ID: :r2od:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1046 combo box (collapsed) Animation, Value: Instant, ID: :r2oq:, Secondary Actions: Expand",
+          "The focused UI element is 1041 combo box (collapsed) Destination, Value: [PAY-PORTAL:BLANK] Student Account Portal — observed blank, ID: :r2od:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-01",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-11",
+          "E-NATIVE-PAYREC-11-AX"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "837:537",
+        "trigger_node_id": "837:553",
+        "trigger_node_name": "PortalMore",
+        "action_id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "837:571",
+        "configured_at": "2026-10-03T01:43:50.376Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1101 combo box (collapsed) Position, Value: Scroll with parent, ID: :r2pu:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1125 combo box (collapsed) Trigger, Value: On click, ID: :r2qn:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1131 combo box (collapsed) Action, Value: Navigate to, ID: :r2qq:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1138 combo box (collapsed) Destination, Value: [PAY-PORTAL:MENU] Student Account Portal — menu, ID: :r2r9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1143 combo box (collapsed) Animation, Value: Instant, ID: :r2rm:, Secondary Actions: Expand",
+          "The focused UI element is 1138 combo box (collapsed) Destination, Value: [PAY-PORTAL:MENU] Student Account Portal — menu, ID: :r2r9:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-02",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-10",
+          "E-NATIVE-PAYREC-10-AX"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "837:537",
+        "trigger_node_id": "837:550",
+        "trigger_node_name": "ClosePortal",
+        "action_id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "837:433",
+        "configured_at": "2026-10-03T01:43:58.124Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1206 combo box (collapsed) Position, Value: Scroll with parent, ID: :r2t2:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1230 combo box (collapsed) Trigger, Value: On click, ID: :r2t9:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1236 combo box (collapsed) Action, Value: Navigate to, ID: :r2tc:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1243 combo box (collapsed) Destination, Value: [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden, ID: :r2tr:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1248 combo box (collapsed) Animation, Value: Instant, ID: :r2u8:, Secondary Actions: Expand",
+          "The focused UI element is 1243 combo box (collapsed) Destination, Value: [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden, ID: :r2tr:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-03",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-12",
+          "E-NATIVE-PAYREC-12-AX"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "837:433",
+        "trigger_node_id": "837:458",
+        "trigger_node_name": "AmountEye",
+        "action_id": "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "837:468",
+        "configured_at": "2026-10-03T01:44:12.749Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1262 combo box (collapsed) Position, Value: Scroll with parent, ID: :r2vo:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1286 combo box (collapsed) Trigger, Value: On click, ID: :r2vv:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1292 combo box (collapsed) Action, Value: Navigate to, ID: :r302:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1299 combo box (collapsed) Destination, Value: [PAY-RECORD:SHOWN] Record A — synthetic DEMO amount, ID: :r30h:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1304 combo box (collapsed) Animation, Value: Instant, ID: :r30u:, Secondary Actions: Expand",
+          "The focused UI element is 1299 combo box (collapsed) Destination, Value: [PAY-RECORD:SHOWN] Record A — synthetic DEMO amount, ID: :r30h:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-04",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-04",
+          "E-NATIVE-PAYREC-04-AX"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "837:433",
+        "trigger_node_id": "837:437",
+        "trigger_node_name": "Back",
+        "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "835:209",
+        "configured_at": "2026-10-03T01:44:20.781Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1439 combo box (collapsed) Position, Value: Scroll with parent, ID: :r32q:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1463 combo box (collapsed) Trigger, Value: On click, ID: :r33j:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1469 combo box (collapsed) Action, Value: Navigate to, ID: :r33m:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1476 combo box (collapsed) Destination, Value: [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO, ID: :r345:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1481 combo box (collapsed) Animation, Value: Instant, ID: :r34i:, Secondary Actions: Expand",
+          "The focused UI element is 1476 combo box (collapsed) Destination, Value: [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO, ID: :r345:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-05",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-06",
+          "E-NATIVE-PAYREC-06-AX",
+          "E-NATIVE-PAYREC-13",
+          "E-NATIVE-PAYREC-13-AX"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "837:433",
+        "trigger_node_id": "837:463",
+        "trigger_node_name": "StudentAccountPortal",
+        "action_id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "837:502",
+        "configured_at": "2026-10-03T01:44:28.636Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1456 combo box (collapsed) Position, Value: Scroll with parent, ID: :r354:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1480 combo box (collapsed) Trigger, Value: On click, ID: :r35b:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1486 combo box (collapsed) Action, Value: Navigate to, ID: :r35e:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1493 combo box (collapsed) Destination, Value: [PAY-PORTAL:LOAD] Student Account Portal — loading, ID: :r35t:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1498 combo box (collapsed) Animation, Value: Instant, ID: :r36a:, Secondary Actions: Expand",
+          "The focused UI element is 1493 combo box (collapsed) Destination, Value: [PAY-PORTAL:LOAD] Student Account Portal — loading, ID: :r35t:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-06",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-08",
+          "E-NATIVE-PAYREC-08-AX",
+          "E-NATIVE-PAYREC-09",
+          "E-NATIVE-PAYREC-09-AX"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "837:468",
+        "trigger_node_id": "837:493",
+        "trigger_node_name": "AmountEye",
+        "action_id": "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "837:433",
+        "configured_at": "2026-10-03T01:44:36.288Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1423 combo box (collapsed) Position, Value: Scroll with parent, ID: :r37u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1447 combo box (collapsed) Trigger, Value: On click, ID: :r385:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t1453 combo box (collapsed) Action, Value: Navigate to, ID: :r388:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1460 combo box (collapsed) Destination, Value: [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden, ID: :r38n:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1465 combo box (collapsed) Animation, Value: Instant, ID: :r394:, Secondary Actions: Expand",
+          "The focused UI element is 1460 combo box (collapsed) Destination, Value: [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden, ID: :r38n:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-07",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-05",
+          "E-NATIVE-PAYREC-05-AX"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "837:502",
+        "trigger_node_id": "837:502",
+        "trigger_node_name": "PortalLoading",
+        "action_id": null,
+        "trigger": "After delay",
+        "delay_ms": 800,
+        "behavior": "Navigate to",
+        "target_node_id": "837:537",
+        "input_proxy": "Demonstration delay; native latency not measured",
+        "configured_at": "2026-10-03T01:44:59.738Z",
+        "readback": [
+          "\t\t\t\t\t\t\t1509 combo box (collapsed) Overflow, Value: No scrolling, ID: :r39p:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1536 combo box (collapsed) Trigger, Value: After delay, ID: :r3a0:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1558 container After delay timeout",
+          "\t\t\t\t\t\t\t1560 text field (settable) After delay timeout, Value: 800ms",
+          "\t\t\t\t\t\t\t1542 combo box (collapsed) Action, Value: Navigate to, ID: :r3a3:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1549 combo box (collapsed) Destination, Value: [PAY-PORTAL:BLANK] Student Account Portal — observed blank, ID: :r3ai:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t1554 combo box (collapsed) Animation, Value: Instant, ID: :r3av:, Secondary Actions: Expand",
+          "The focused UI element is 1536 combo box (collapsed) Trigger, Value: After delay, ID: :r3a0:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-08",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-08",
+          "E-NATIVE-PAYREC-09"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "835:209",
+        "trigger_node_id": "835:236",
+        "trigger_node_name": "FirstDemoRecordCard",
+        "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "837:433",
+        "configured_at": "2026-10-03T01:45:30.485Z",
+        "readback": [
+          "\t\t\t\t\t\t\t2010 combo box (collapsed) Position, Value: Scroll with parent, ID: :r3jf:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t2049 combo box (collapsed) Trigger, Value: On click, ID: :r3jm:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t2055 combo box (collapsed) Action, Value: Navigate to, ID: :r3jp:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t2062 combo box (collapsed) Destination, Value: [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden, ID: :r3k8:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t2067 combo box (collapsed) Animation, Value: Instant, ID: :r3kl:, Secondary Actions: Expand",
+          "The focused UI element is 2062 combo box (collapsed) Destination, Value: [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden, ID: :r3k8:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYREC-09",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "implementation_status": "configured_observed_finite_record_portal_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYREC-03",
+          "E-NATIVE-PAYREC-03-AX",
+          "E-NATIVE-PAYREC-07",
+          "E-NATIVE-PAYREC-07-AX"
+        ],
+        "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
       }
     ],
     "reconstruction_deviations": [
@@ -86335,6 +87814,29 @@
           "E-NATIVE-PAYMODE-07",
           "E-PAYMODE-PROTO-05",
           "E-PAYMODE-PROTO-08"
+        ]
+      },
+      {
+        "id": "D-PAYMENT-RECORD-FINITE",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "status": "open",
+        "affected_state_ids": [
+          "S-NATIVE-PAYMENT-RECORD-DETAIL",
+          "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+          "S-NATIVE-PAYMENT-PORTAL-LOADING",
+          "S-NATIVE-PAYMENT-PORTAL-BLANK",
+          "S-NATIVE-PAYMENT-PORTAL-MENU"
+        ],
+        "original_behavior": "First detail initially lacks image, later image moves financial fields; amount reversible; Portal loading then titled blank; menu/close/back observed",
+        "current_implementation": "Five static editable reference frames and nine controls; all financial values synthetic; loaded-image only; generic photo/mark raster",
+        "impact": "Initial asynchronous layout, image expansion, shown-detail exits, other records/menus/scroll and Portal service behavior not complete. Photo/mark Present failures and reuploads retained",
+        "next_step": "Observe remaining safe native record/filter/scroll branches and integrate Calendar state model; recheck image stability",
+        "evidence_ids": [
+          "E-NATIVE-PAYREC-03",
+          "E-NATIVE-PAYREC-05",
+          "E-PAYREC-PROTO-03",
+          "E-PAYREC-PROTO-23",
+          "E-PAYREC-PROTO-35"
         ]
       }
     ],
@@ -107305,6 +108807,624 @@
           "Static history and week viewport; record menus, scroll, week selector and class-detail actions not implemented in this context.",
           "Editable fonts/icons/geometry approximate; complete app/fidelity/human evaluation not_verified."
         ]
+      },
+      {
+        "id": "PROTO-PAYREC-REPAIR-CYCLE-001",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-03T01:45:39.722Z",
+        "ended_at": "2026-10-03T01:47:13.911Z",
+        "status": "partial",
+        "navigation_status": "Configured record/amount/Portal targets reached; Month returned through existing history/mode edges",
+        "visual_status": "First detail image absent at3; reuploaded and4 onward present. Full native fidelity unverified.",
+        "steps": [
+          {
+            "file": "00-month-start.png",
+            "at": "2026-10-03T01:45:39.722Z",
+            "description": "month-start",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PAYREC-PROTO-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-events.png",
+            "at": "2026-10-03T01:45:39.957Z",
+            "description": "events",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-history.png",
+            "at": "2026-10-03T01:45:40.226Z",
+            "description": "history",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-detail-hidden.png",
+            "at": "2026-10-03T01:45:40.443Z",
+            "description": "detail-hidden",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-03"
+            ],
+            "outcome": "saved_pixels_reviewed_with_failure"
+          },
+          {
+            "file": "04-detail-hidden-post-upload.png",
+            "at": "2026-10-03T01:46:48.985Z",
+            "description": "detail-hidden-post-upload",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PAYREC-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-amount-shown.png",
+            "at": "2026-10-03T01:46:55.992Z",
+            "description": "amount-shown",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+            "visible_node_id": "837:468",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-amount-hidden-again.png",
+            "at": "2026-10-03T01:47:01.612Z",
+            "description": "amount-hidden-again",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-history-return.png",
+            "at": "2026-10-03T01:47:01.846Z",
+            "description": "history-return",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-detail-reentry.png",
+            "at": "2026-10-03T01:47:02.115Z",
+            "description": "detail-reentry",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "09-portal-loading-attempt.png",
+            "at": "2026-10-03T01:47:02.349Z",
+            "description": "portal-loading-attempt",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+            "visible_node_id": "837:502",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-09"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "10-portal-blank.png",
+            "at": "2026-10-03T01:47:06.359Z",
+            "description": "portal-blank",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+            "visible_node_id": "837:537",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PAYREC-PROTO-10"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "11-portal-menu.png",
+            "at": "2026-10-03T01:47:06.557Z",
+            "description": "portal-menu",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+            "visible_node_id": "837:571",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-11"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "12-portal-menu-cancel.png",
+            "at": "2026-10-03T01:47:12.565Z",
+            "description": "portal-menu-cancel",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+            "visible_node_id": "837:537",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-12"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "13-portal-close-detail.png",
+            "at": "2026-10-03T01:47:12.830Z",
+            "description": "portal-close-detail",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-13"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "14-detail-back-history.png",
+            "at": "2026-10-03T01:47:13.101Z",
+            "description": "detail-back-history",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-14"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "15-history-hidden.png",
+            "at": "2026-10-03T01:47:13.368Z",
+            "description": "history-hidden",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-15"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "16-week.png",
+            "at": "2026-10-03T01:47:13.641Z",
+            "description": "week",
+            "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+            "visible_node_id": "835:312",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-16"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "17-month-restored.png",
+            "at": "2026-10-03T01:47:13.911Z",
+            "description": "month-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-17"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "First observed record only; finite state sample, complete app not_verified.",
+          "Private financial data wholly synthetic. No business action or login implemented.",
+          "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+          "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+          "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+          "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+          "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+          "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+        ]
+      },
+      {
+        "id": "PROTO-PAYREC-REPEAT-CYCLE-002",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-03T01:47:13.911Z",
+        "ended_at": "2026-10-03T01:47:50.804Z",
+        "status": "partial",
+        "navigation_status": "Configured record/amount/Portal targets reached; Month returned through existing history/mode edges",
+        "visual_status": "Detail illustration stable; loading mark absent at23. Full native fidelity unverified.",
+        "steps": [
+          {
+            "file": "17-month-restored.png",
+            "at": "2026-10-03T01:47:13.911Z",
+            "description": "month-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-17"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "18-repeat-events.png",
+            "at": "2026-10-03T01:47:37.958Z",
+            "description": "repeat-events",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-18"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "19-repeat-history.png",
+            "at": "2026-10-03T01:47:38.194Z",
+            "description": "repeat-history",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-19"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "20-repeat-detail-hidden.png",
+            "at": "2026-10-03T01:47:38.458Z",
+            "description": "repeat-detail-hidden",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-20"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "21-repeat-amount-shown.png",
+            "at": "2026-10-03T01:47:38.729Z",
+            "description": "repeat-amount-shown",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-AMOUNT",
+            "visible_node_id": "837:468",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-SHOW-AMOUNT",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-21"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "22-repeat-amount-hidden.png",
+            "at": "2026-10-03T01:47:38.993Z",
+            "description": "repeat-amount-hidden",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-HIDE-AMOUNT",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-22"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "23-repeat-portal-loading.png",
+            "at": "2026-10-03T01:47:39.227Z",
+            "description": "repeat-portal-loading",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+            "visible_node_id": "837:502",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-23"
+            ],
+            "outcome": "saved_pixels_reviewed_with_failure"
+          },
+          {
+            "file": "24-repeat-portal-blank.png",
+            "at": "2026-10-03T01:47:48.991Z",
+            "description": "repeat-portal-blank",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+            "visible_node_id": "837:537",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PAYREC-PROTO-24"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "25-repeat-portal-menu.png",
+            "at": "2026-10-03T01:47:49.225Z",
+            "description": "repeat-portal-menu",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+            "visible_node_id": "837:571",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-25"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "26-repeat-portal-cancel.png",
+            "at": "2026-10-03T01:47:49.495Z",
+            "description": "repeat-portal-cancel",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+            "visible_node_id": "837:537",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-26"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "27-repeat-portal-close.png",
+            "at": "2026-10-03T01:47:49.728Z",
+            "description": "repeat-portal-close",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-27"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "28-repeat-history-return.png",
+            "at": "2026-10-03T01:47:50.000Z",
+            "description": "repeat-history-return",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-28"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "29-repeat-history-hidden.png",
+            "at": "2026-10-03T01:47:50.268Z",
+            "description": "repeat-history-hidden",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-29"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "30-repeat-week.png",
+            "at": "2026-10-03T01:47:50.539Z",
+            "description": "repeat-week",
+            "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+            "visible_node_id": "835:312",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-30"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "31-repeat-month-restored.png",
+            "at": "2026-10-03T01:47:50.804Z",
+            "description": "repeat-month-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-31"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "First observed record only; finite state sample, complete app not_verified.",
+          "Private financial data wholly synthetic. No business action or login implemented.",
+          "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+          "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+          "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+          "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+          "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+          "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+        ]
+      },
+      {
+        "id": "PROTO-PAYREC-LOGO-REPAIR-003",
+        "revision_id": "FIGMA-PAYMENT-RECORD-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-03T01:47:50.804Z",
+        "ended_at": "2026-10-03T01:48:25.602Z",
+        "status": "partial",
+        "navigation_status": "Configured record/amount/Portal targets reached; Month returned through existing history/mode edges",
+        "visual_status": "After mark fill reupload, loading35 visible; downstream menu/close/returns sampled. Full native fidelity unverified.",
+        "steps": [
+          {
+            "file": "31-repeat-month-restored.png",
+            "at": "2026-10-03T01:47:50.804Z",
+            "description": "repeat-month-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-31"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "32-logo-repair-events.png",
+            "at": "2026-10-03T01:48:12.407Z",
+            "description": "logo-repair-events",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-32"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "33-logo-repair-history.png",
+            "at": "2026-10-03T01:48:12.676Z",
+            "description": "logo-repair-history",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-SHOW-HISTORY",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-33"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "34-logo-repair-detail.png",
+            "at": "2026-10-03T01:48:12.937Z",
+            "description": "logo-repair-detail",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-OPEN",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-34"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "35-logo-repair-loading.png",
+            "at": "2026-10-03T01:48:13.176Z",
+            "description": "logo-repair-loading",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-LOADING",
+            "visible_node_id": "837:502",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-OPEN",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-35"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "36-logo-repair-blank.png",
+            "at": "2026-10-03T01:48:23.790Z",
+            "description": "logo-repair-blank",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+            "visible_node_id": "837:537",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PAYREC-PROTO-36"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "37-logo-repair-menu.png",
+            "at": "2026-10-03T01:48:24.030Z",
+            "description": "logo-repair-menu",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-MENU",
+            "visible_node_id": "837:571",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-MORE",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-37"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "38-logo-repair-cancel.png",
+            "at": "2026-10-03T01:48:24.298Z",
+            "description": "logo-repair-cancel",
+            "state_id": "S-NATIVE-PAYMENT-PORTAL-BLANK",
+            "visible_node_id": "837:537",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-MENU-CANCEL",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-38"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "39-logo-repair-close.png",
+            "at": "2026-10-03T01:48:24.563Z",
+            "description": "logo-repair-close",
+            "state_id": "S-NATIVE-PAYMENT-RECORD-DETAIL",
+            "visible_node_id": "837:433",
+            "action_id": "A-NATIVE-PAYMENT-PORTAL-CLOSE",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-39"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "40-logo-repair-history-return.png",
+            "at": "2026-10-03T01:48:24.834Z",
+            "description": "logo-repair-history-return",
+            "state_id": "S-NATIVE-PAYMENT-HISTORY",
+            "visible_node_id": "835:209",
+            "action_id": "A-NATIVE-PAYMENT-RECORD-BACK",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-40"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "41-logo-repair-history-hidden.png",
+            "at": "2026-10-03T01:48:25.069Z",
+            "description": "logo-repair-history-hidden",
+            "state_id": "S-NATIVE-PAYMENT-EVENTS",
+            "visible_node_id": "833:145",
+            "action_id": "A-NATIVE-PAYMENT-HIDE-HISTORY",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-41"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "42-logo-repair-week.png",
+            "at": "2026-10-03T01:48:25.335Z",
+            "description": "logo-repair-week",
+            "state_id": "S-NATIVE-PAYMENT-MODE-WEEK",
+            "visible_node_id": "835:312",
+            "action_id": "A-NATIVE-PAYMENT-EVENTS-WEEK",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-42"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "43-logo-repair-month.png",
+            "at": "2026-10-03T01:48:25.602Z",
+            "description": "logo-repair-month",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYMENT-WEEK-MONTH",
+            "evidence_ids": [
+              "E-PAYREC-PROTO-43"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "First observed record only; finite state sample, complete app not_verified.",
+          "Private financial data wholly synthetic. No business action or login implemented.",
+          "Asynchronous initial image appearance is not modeled; loaded-image reference only.",
+          "Actual public detail body masked; screenshot equality cannot prove body fidelity.",
+          "Other records/record menus/scroll, image expansion, shown-detail exits and external/share/copy/refresh branches remain unimplemented.",
+          "Loading800ms is a demo proxy, not native measured latency or successful service loading.",
+          "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
+          "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -107384,7 +109504,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "175 mapped frames /3 internal component states /378 configured controls /16 scroll regions /121 prototype runs. Finite Payment modes/history integrated; complete app/fidelity not_verified.",
+    "verification_summary": "180 mapped frames /3 internal component states /387 configured controls /16 scroll regions /124 prototype runs. Finite Payment record/Portal integrated; complete app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -107773,7 +109893,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-PAYMENT-MODES-20261003",
+    "current_revision": "FIGMA-PAYMENT-RECORD-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -108930,11 +111050,308 @@
       },
       {
         "name": "Reference · Oct2 Calendar filters & Notice — partial",
-        "description": "Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
+        "description": "Oct2/Oct3 native fullscreen reference: 33 finite frames and48 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback.",
         "readback": [
-          "\t\t\t\t\t2099 container Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
-          "\t\t\t\t\t\t2100 text Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state.",
-          "The focused UI element is 2099 container Oct2/Oct3 native fullscreen reference, 28 finite frames and39 configured controls: All/None → Class/detail/Notice → Exam → Payment draft/result. Payment date/month cycle and separate Oct2/Oct3 Home DEMO callers connected. New observed Payment Month → Events → Week5 → Month mode loop, Show/Hide History and reset to hidden after returning via modes; actual Present sampled both paths plus existing Home regression. History financial fields/dates and all Week class data/count/positions synthetic DEMO, originals masked. Week footer repaired to full1024 viewport. Static history and week samples: no record menu/scroll/week selector/class detail implemented in this context. Native coordinate input still noWindowsAvailable after fresh Wrapper Raise; AX mode/history works, filter remains unresolved. Month/Events retain Payment while Week shows class grid without category header; no universal filter rule or app bug inferred. Other date/mode/caller combinations and full app/fidelity remain unverified. Notice800ms illustrative, geography raster, two old None X inferred; actual saved pixels, not lagging AX URL or a black local preview, determine rendered state."
+          "Browser tab: 1, Title: \"PolyULife — Observed UI & Interaction Atlas – Figma\", URL: \"https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=791-177&t=F713e97TJKNbzFM3-0\".",
+          "1 AXWebArea PolyULife — Observed UI & Interaction Atlas – Figma, URL: figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=791-177&t=F713e97TJKNbzFM3-0",
+          "\t2 container react-page",
+          "\t\t7 container",
+          "\t\t\t8 container fullscreen-root",
+          "\t\t\t\t9 container Figma Design, 1 item selected",
+          "\t\t\t10 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press ⌘K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter ⌃⇧Question mark .",
+          "\t\t\t11 container Comments on canvas",
+          "\t\t\t\t12 button Create new comment",
+          "\t\t\t13 container Left sidebar",
+          "\t\t\t\t14 toolbar Navigation Bar",
+          "\t\t\t\t\t15 pop up button (collapsed) Description: Main menu, ID: :r9:-trigger, Secondary Actions: Expand",
+          "\t\t\t\t\t\t16 image",
+          "\t\t\t\t\t17 button (expanded) Description: File, Secondary Actions: Collapse",
+          "\t\t\t\t\t\t18 image",
+          "\t\t\t\t\t\t19 text File",
+          "\t\t\t\t\t20 pop up button (collapsed) Description: Agents, Secondary Actions: Expand",
+          "\t\t\t\t\t\t21 text Agents",
+          "\t\t\t\t\t22 button (collapsed) Description: Assets, Secondary Actions: Expand",
+          "\t\t\t\t\t\t23 image",
+          "\t\t\t\t\t\t24 text Assets",
+          "\t\t\t\t\t25 button (collapsed) Description: Tools, Secondary Actions: Expand",
+          "\t\t\t\t\t\t26 image",
+          "\t\t\t\t\t\t27 text Tools",
+          "\t\t\t\t\t28 button (collapsed) Description: Variables, Secondary Actions: Expand",
+          "\t\t\t\t\t\t29 image",
+          "\t\t\t\t\t\t30 text Variables",
+          "\t\t\t\t31 container left-panel-container",
+          "\t\t\t\t\t32 container",
+          "\t\t\t\t\t\t33 button PolyULife — Observed UI & Interaction Atlas, file name",
+          "\t\t\t\t\t\t34 text File name",
+          "\t\t\t\t\t\t35 pop up button (collapsed) Description: Edit file menu, ID: :re:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t36 button Minimize UI",
+          "\t\t\t\t\t\t37 link Description: Team project, Value: figma.com/files/team/1538752801901560327/project/435341387",
+          "\t\t\t\t\t\t38 button Free",
+          "\t\t\t\t\t\t39 heading Pages Find Add new page, Value: 2",
+          "\t\t\t\t\t\t\t40 button (expanded) Pages, Secondary Actions: Collapse",
+          "\t\t\t\t\t\t\t41 button Description: Find, ID: canvas-search-icon-button",
+          "\t\t\t\t\t\t\t42 button Add new page",
+          "\t\t\t\t\t\t43 container",
+          "\t\t\t\t\t\t\t44 container",
+          "\t\t\t\t\t\t\t\t45 table",
+          "\t\t\t\t\t\t\t\t\t46 row (selectable) 00 · Archive — initial AI draft",
+          "\t\t\t\t\t\t\t\t\t\t47 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t48 button 00 · Archive — initial AI draft",
+          "\t\t\t\t\t\t\t\t\t49 row (selectable) 01 · Observed UI",
+          "\t\t\t\t\t\t\t\t\t\t50 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t51 button 01 · Observed UI",
+          "\t\t\t\t\t\t\t52 container",
+          "\t\t\t\t\t\t\t\t53 text 1 free page left.",
+          "\t\t\t\t\t\t\t\t54 link Get unlimited pages & more",
+          "\t\t\t\t\t\t\t\t\t55 text Get unlimited pages & more",
+          "\t\t\t\t\t\t\t56 slider Description: Resize handle, Value: 100",
+          "\t\t\t\t\t\t57 heading Layers, Value: 2",
+          "\t\t\t\t\t\t\t58 button (expanded) Layers, Secondary Actions: Collapse",
+          "\t\t\t\t\t\t59 table",
+          "\t\t\t\t\t\t\t60 container",
+          "\t\t\t\t\t\t\t\t61 row (selectable, collapsed) [PAY-PORTAL:MENU] Student Account Portal — menu, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t62 container",
+          "\t\t\t\t\t\t\t\t\t\t63 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t64 text [PAY-PORTAL:MENU] Student Account Portal — menu",
+          "\t\t\t\t\t\t\t\t65 row (selectable, collapsed) [PAY-PORTAL:BLANK] Student Account Portal — observed blank, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t66 container",
+          "\t\t\t\t\t\t\t\t\t\t67 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t68 text [PAY-PORTAL:BLANK] Student Account Portal — observed blank",
+          "\t\t\t\t\t\t\t\t69 row (selectable, collapsed) [PAY-PORTAL:LOAD] Student Account Portal — loading, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t70 container",
+          "\t\t\t\t\t\t\t\t\t\t71 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t72 text [PAY-PORTAL:LOAD] Student Account Portal — loading",
+          "\t\t\t\t\t\t\t\t73 row (selectable, collapsed) [PAY-RECORD:SHOWN] Record A — synthetic DEMO amount, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t74 container",
+          "\t\t\t\t\t\t\t\t\t\t75 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t76 text [PAY-RECORD:SHOWN] Record A — synthetic DEMO amount",
+          "\t\t\t\t\t\t\t\t77 row (selectable, collapsed) [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t78 container",
+          "\t\t\t\t\t\t\t\t\t\t79 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t80 text [PAY-RECORD:HIDDEN] Record A — synthetic DEMO hidden",
+          "\t\t\t\t\t\t\t\t81 row (selectable, collapsed) [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t82 container",
+          "\t\t\t\t\t\t\t\t\t\t83 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t84 text [PAY-MODE:WEEK] Week5 — synthetic DEMO from Payment",
+          "\t\t\t\t\t\t\t\t85 row (selectable, collapsed) [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t86 container",
+          "\t\t\t\t\t\t\t\t\t\t87 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t88 text [PAY-MODE:HISTORY] Events — synthetic Payment history DEMO",
+          "\t\t\t\t\t\t\t\t89 row (selectable, collapsed) [PAY-MODE:EVENTS] Events — Payment empty, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t90 container",
+          "\t\t\t\t\t\t\t\t\t\t91 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t92 text [PAY-MODE:EVENTS] Events — Payment empty",
+          "\t\t\t\t\t\t\t\t93 row (selectable, collapsed) [PAY-DATE:HOME3] Home — DEMO retained October3 Payment, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t94 container",
+          "\t\t\t\t\t\t\t\t\t\t95 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t96 text [PAY-DATE:HOME3] Home — DEMO retained October3 Payment",
+          "\t\t\t\t\t\t\t\t97 row (selectable, collapsed) [PAY-DATE:OCT1] Payment — October1 after previous month, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t98 container",
+          "\t\t\t\t\t\t\t\t\t\t99 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t100 text [PAY-DATE:OCT1] Payment — October1 after previous month",
+          "\t\t\t\t\t\t\t\t101 row (selectable, collapsed) [PAY-DATE:NOV1] Payment — November1 after next month, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t102 container",
+          "\t\t\t\t\t\t\t\t\t\t103 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t104 text [PAY-DATE:NOV1] Payment — November1 after next month",
+          "\t\t\t\t\t\t\t\t105 row (selectable, collapsed) [PAY-DATE:OCT4] Payment — Sunday October4, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t106 container",
+          "\t\t\t\t\t\t\t\t\t\t107 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t108 text [PAY-DATE:OCT4] Payment — Sunday October4",
+          "\t\t\t\t\t\t\t\t109 row (selectable, collapsed) [PAY-DATE:OCT3] Payment — Saturday October3, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t110 container",
+          "\t\t\t\t\t\t\t\t\t\t111 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t112 text [PAY-DATE:OCT3] Payment — Saturday October3",
+          "\t\t\t\t\t\t\t\t113 row (selectable, collapsed) [OCT3:HOME-P] Home — DEMO retained Payment caller, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t114 container",
+          "\t\t\t\t\t\t\t\t\t\t115 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t116 text [OCT3:HOME-P] Home — DEMO retained Payment caller",
+          "\t\t\t\t\t\t\t\t117 row (selectable, collapsed) [OCT3:PAYMENT] Payment — observed empty date, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t118 container",
+          "\t\t\t\t\t\t\t\t\t\t119 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t120 text [OCT3:PAYMENT] Payment — observed empty date",
+          "\t\t\t\t\t\t\t\t121 row (selectable, collapsed) [OCT2:PAYMENT-DE] Payment draft — applied exam, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t122 container",
+          "\t\t\t\t\t\t\t\t\t\t123 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t124 text [OCT2:PAYMENT-DE] Payment draft — applied exam",
+          "\t\t\t\t\t\t\t\t125 row (selectable, collapsed) [OCT2:NONE-DE] None draft — applied exam, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t126 container",
+          "\t\t\t\t\t\t\t\t\t\t127 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t128 text [OCT2:NONE-DE] None draft — applied exam",
+          "\t\t\t\t\t\t\t\t129 row (selectable, collapsed) [OCT2:EXAM-DE] Exam draft — applied exam, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t130 container",
+          "\t\t\t\t\t\t\t\t\t\t131 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t132 text [OCT2:EXAM-DE] Exam draft — applied exam",
+          "\t\t\t\t\t\t\t\t133 row (selectable, collapsed) [OCT2:EXAM] Exam — observed empty date, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t134 container",
+          "\t\t\t\t\t\t\t\t\t\t135 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t136 text [OCT2:EXAM] Exam — observed empty date",
+          "\t\t\t\t\t\t\t\t137 row (selectable, collapsed) [OCT2:EXAM-DC] Exam draft — applied class, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t138 container",
+          "\t\t\t\t\t\t\t\t\t\t139 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t140 text [OCT2:EXAM-DC] Exam draft — applied class",
+          "\t\t\t\t\t\t\t\t141 row (selectable, collapsed) [OCT2:NONE-DC] None draft — applied class, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t142 container",
+          "\t\t\t\t\t\t\t\t\t\t143 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t144 text [OCT2:NONE-DC] None draft — applied class",
+          "\t\t\t\t\t\t\t\t145 row (selectable, collapsed) [OCT2:CLASS-DC] Class draft — applied class, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t146 container",
+          "\t\t\t\t\t\t\t\t\t\t147 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t148 text [OCT2:CLASS-DC] Class draft — applied class",
+          "\t\t\t\t\t\t\t\t149 row (selectable, collapsed) [OCT2:NOTICE-M] Class Notice — menu, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t150 container",
+          "\t\t\t\t\t\t\t\t\t\t151 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t152 text [OCT2:NOTICE-M] Class Notice — menu",
+          "\t\t\t\t\t\t\t\t153 row (selectable, collapsed) [OCT2:NOTICE-B] Class Notice — observed blank, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t154 container",
+          "\t\t\t\t\t\t\t\t\t\t155 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t156 text [OCT2:NOTICE-B] Class Notice — observed blank",
+          "\t\t\t\t\t\t\t\t157 row (selectable, collapsed) [OCT2:NOTICE-L] Class Notice — loading, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t158 container",
+          "\t\t\t\t\t\t\t\t\t\t159 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t160 text [OCT2:NOTICE-L] Class Notice — loading",
+          "\t\t\t\t\t\t\t\t161 row (selectable, collapsed) [OCT2:DETAIL] Class detail — DEMO, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t162 container",
+          "\t\t\t\t\t\t\t\t\t\t163 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t164 text [OCT2:DETAIL] Class detail — DEMO",
+          "\t\t\t\t\t\t\t\t165 row (selectable, collapsed) [OCT2:CLASS] Class — DEMO, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t166 container",
+          "\t\t\t\t\t\t\t\t\t\t167 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t168 text [OCT2:CLASS] Class — DEMO",
+          "\t\t\t\t\t\t\t\t169 row (selectable, collapsed) [OCT2:CLASS-DN] Class draft — applied none, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t170 container",
+          "\t\t\t\t\t\t\t\t\t\t171 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t172 text [OCT2:CLASS-DN] Class draft — applied none",
+          "\t\t\t\t\t\t\t\t173 row (selectable, collapsed) [OCT2:NONE-R] None draft — applied none, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t174 container",
+          "\t\t\t\t\t\t\t\t\t\t175 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t176 text [OCT2:NONE-R] None draft — applied none",
+          "\t\t\t\t\t\t\t\t177 row (selectable, collapsed) [OCT2:NONE] No Selected Event — applied, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t178 container",
+          "\t\t\t\t\t\t\t\t\t\t179 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t180 text [OCT2:NONE] No Selected Event — applied",
+          "\t\t\t\t\t\t\t\t181 row (selectable, collapsed) [OCT2:NONE-D] None draft — applied all, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t182 container",
+          "\t\t\t\t\t\t\t\t\t\t183 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t184 text [OCT2:NONE-D] None draft — applied all",
+          "\t\t\t\t\t\t\t\t185 row (selectable, collapsed) [OCT2:ALL-D] All draft — applied all, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t186 container",
+          "\t\t\t\t\t\t\t\t\t\t187 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t188 text [OCT2:ALL-D] All draft — applied all",
+          "\t\t\t\t\t\t\t\t189 row (selected, collapsed) [OCT2:ALL] Calendar all — DEMO, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t190 container",
+          "\t\t\t\t\t\t\t\t\t\t191 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t192 text [OCT2:ALL] Calendar all — DEMO",
+          "\t\t\t\t\t\t\t\t193 row (selectable, collapsed) [CAL-GLOBAL:ALL-A] All draft — academic caller, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t\t194 container",
+          "\t\t\t\t\t\t\t\t\t\t195 cell",
+          "\t\t\t\t\t\t\t\t\t\t\t196 text [CAL-GLOBAL:ALL-A] All draft — academic caller",
+          "\t\t\t\t\t197 slider Description: Resize handle, Value: 280",
+          "\t\t\t198 container Right sidebar",
+          "\t\t\t\t199 container",
+          "\t\t\t\t\t200 container",
+          "\t\t\t\t\t\t201 pop up button (collapsed) Description: Multiplayer tools, ID: self-avatar-with-tools-container, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t202 image",
+          "\t\t\t\t\t\t203 container Prototype view",
+          "\t\t\t\t\t\t\t204 button Description: Present, ID: :r13:",
+          "\t\t\t\t\t\t\t205 pop up button (collapsed) Description: Prototype view, ID: :r12:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t206 button Share",
+          "\t\t\t\t\t\t207 tab group",
+          "\t\t\t\t\t\t\t208 tab (selectable, settable, boolean) Design, Value: 0, ID: tab:r16:-0-trigger",
+          "\t\t\t\t\t\t\t209 tab (selected, settable, boolean) Prototype, Value: 1, ID: tab:r16:-1-trigger",
+          "\t\t\t\t\t\t210 pop up button (collapsed) Description: 57%, zoom and view options, ID: :r19:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t211 text 57%",
+          "\t\t\t\t\t\t\t212 image",
+          "\t\t\t\t\t\t363 container",
+          "\t\t\t\t\t\t\t364 button Send to Figma Make",
+          "\t\t\t\t\t\t\t365 heading Flow starting point, Value: 2",
+          "\t\t\t\t\t\t\t\t366 text Flow starting point",
+          "\t\t\t\t\t\t\t367 button Copy flow link",
+          "\t\t\t\t\t\t\t368 button Remove flow starting point",
+          "\t\t\t\t\t\t\t369 button Edit flow title",
+          "\t\t\t\t\t\t\t370 text Flow starting point",
+          "\t\t\t\t\t\t\t371 combo box (collapsed) Flow starting point, Value: [OCT2:ALL] Calendar all — DEMO, ID: :r7t:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t372 text [OCT2:ALL] Calendar all — DEMO",
+          "\t\t\t\t\t\t\t\t373 image",
+          "\t\t\t\t\t\t\t374 button Edit flow description",
+          "\t\t\t\t\t\t\t375 button Interactions",
+          "\t\t\t\t\t\t\t376 button Add action",
+          "\t\t\t\t\t\t\t377 heading Scroll behavior, Value: 2",
+          "\t\t\t\t\t\t\t\t378 text Scroll behavior",
+          "\t\t\t\t\t\t\t379 text Overflow",
+          "\t\t\t\t\t\t\t380 combo box (collapsed) Overflow, Value: No scrolling, ID: :r7u:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t\t381 text No scrolling",
+          "\t\t\t\t\t\t\t\t382 image",
+          "\t\t\t\t\t\t\t383 button Show prototype settings",
+          "\t\t\t\t\t\t\t384 container delete-connection-hint",
+          "\t\t\t\t\t\t\t\t385 container",
+          "\t\t\t\t\t\t\t\t\t386 text Removing a connection",
+          "\t\t\t\t\t\t\t\t\t387 button Close",
+          "\t\t\t\t\t\t\t\t388 container",
+          "\t\t\t\t\t\t\t\t\t389 image",
+          "\t\t\t\t\t\t\t\t\t390 text To delete a connection, click and drag on either end.",
+          "\t\t\t\t\t\t\t391 container play-button-hint",
+          "\t\t\t\t\t\t\t\t392 container",
+          "\t\t\t\t\t\t\t\t\t393 text Running your prototype",
+          "\t\t\t\t\t\t\t\t\t394 button Close",
+          "\t\t\t\t\t\t\t\t395 container",
+          "\t\t\t\t\t\t\t\t\t396 image",
+          "\t\t\t\t\t\t\t\t\t397 text Use the play button in the toolbar to play your prototype. If there are no connections, the play button can be used to play a presentation of your frames.",
+          "\t\t\t\t\t330 slider Description: Resize handle, Value: 241",
+          "\t\t331 container Application toolbar",
+          "\t\t\t332 toolbar Editor",
+          "\t\t\t\t333 container Move",
+          "\t\t\t\t\t334 checkbox Description: Move, Value: 1",
+          "\t\t\t\t\t\t335 image",
+          "\t\t\t\t\t336 checkbox (collapsed) Description: Move tools, Value: 0, ID: :r67:, Secondary Actions: Expand",
+          "\t\t\t\t337 container Frame",
+          "\t\t\t\t\t338 checkbox Description: Frame, Value: 0",
+          "\t\t\t\t\t\t339 image",
+          "\t\t\t\t\t340 checkbox (collapsed) Description: Region tools, Value: 0, ID: :r6c:, Secondary Actions: Expand",
+          "\t\t\t\t341 container Rectangle",
+          "\t\t\t\t\t342 checkbox Description: Rectangle, Value: 0",
+          "\t\t\t\t\t\t343 image",
+          "\t\t\t\t\t344 checkbox (collapsed) Description: Shape tools, Value: 0, ID: :r6h:, Secondary Actions: Expand",
+          "\t\t\t\t345 container Pen",
+          "\t\t\t\t\t346 checkbox Description: Pen, Value: 0",
+          "\t\t\t\t\t\t347 image",
+          "\t\t\t\t\t348 checkbox (collapsed) Description: Creation tools, Value: 0, ID: :r6m:, Secondary Actions: Expand",
+          "\t\t\t\t349 container Text",
+          "\t\t\t\t\t350 checkbox Description: Text, Value: 0",
+          "\t\t\t\t\t\t351 image",
+          "\t\t\t\t\t352 checkbox (collapsed) Description: Type tools, Value: 0, ID: :r6r:, Secondary Actions: Expand",
+          "\t\t\t\t353 checkbox Description: Comment, Value: 0",
+          "\t\t\t\t\t354 image",
+          "\t\t\t\t355 checkbox Description: Actions, Value: 0",
+          "\t\t\t\t\t356 image",
+          "\t\t\t\t357 Toolbelt Mode",
+          "\t\t\t\t\t358 text Toolbelt Mode",
+          "\t\t\t\t\t359 radio button (settable, integer) Description: Draw, Value: 0, ID: :r3s:-illustration",
+          "\t\t\t\t\t360 radio button (settable, integer) Description: Design, Value: 1, ID: :r3s:-design",
+          "\t\t\t\t\t361 radio button (settable, integer) Description: Motion, Value: 0, ID: :r3s:-metronome",
+          "\t\t\t\t\t362 radio button (settable, integer) Description: Dev Mode, Value: 0, ID: :r3s:-handoff",
+          "\t\t3 container Help/zoom toolbar",
+          "\t\t\t4 toolbar Help/zoom toolbar",
+          "\t\t\t\t5 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand",
+          "\t\t\t\t\t6 image",
+          "\t\t398 container",
+          "\t\t\t399 container Description",
+          "\t\t\t\t400 heading Description, Value: 2, ID: :r81:",
+          "\t\t\t\t\t401 text Description",
+          "\t\t\t\t402 container",
+          "\t\t\t\t\t403 container Oct2/Oct3 native fullscreen reference: 33 finite frames and48 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback.",
+          "\t\t\t\t\t\t404 text Oct2/Oct3 native fullscreen reference: 33 finite frames and48 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback.",
+          "\t\t\t\t\t405 toolbar Description: Description, ID: :r82:",
+          "\t\t\t\t\t\t406 checkbox Description: Bold, Value: 0",
+          "\t\t\t\t\t\t\t407 image",
+          "\t\t\t\t\t\t408 checkbox Description: Bulleted list, Value: 0",
+          "\t\t\t\t\t\t\t409 image",
+          "\t\t\t\t\t\t410 checkbox Description: Ordered list, Value: 0",
+          "\t\t\t\t\t\t\t411 image",
+          "\t\t\t\t\t\t412 checkbox Description: Link, Value: 0",
+          "\t\t\t\t\t\t\t413 image",
+          "\t\t\t\t414 button Close",
+          "",
+          "The focused UI element is 403 container Oct2/Oct3 native fullscreen reference: 33 finite frames and48 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback."
         ],
         "start_node_id": "791:177",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
@@ -108958,20 +111375,23 @@
           "PROTO-PAYNAV-DATES-REGRESSION-003",
           "PROTO-PAYMODE-HISTORY-CYCLE-001",
           "PROTO-PAYMODE-HIDE-CYCLE-002",
-          "PROTO-PAYMODE-HOME-REGRESSION-003"
+          "PROTO-PAYMODE-HOME-REGRESSION-003",
+          "PROTO-PAYREC-REPAIR-CYCLE-001",
+          "PROTO-PAYREC-REPEAT-CYCLE-002",
+          "PROTO-PAYREC-LOGO-REPAIR-003"
         ],
-        "scope": "28 finite frames39 controls; Payment date/Home/mode/history contexts. Other dates/callers, filter and complete application remain unverified.",
-        "updated_at": "2026-10-02T18:53:28.511056+00:00"
+        "scope": "33 finite frames48 controls; Payment first record/amount/Portal integrated, complete app unverified",
+        "updated_at": "2026-10-03T01:48:47.834211+00:00"
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-02T18:52:38.498Z",
+    "latest_prototype_run_cutoff": "2026-10-03T01:48:25.602Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-PAYMODE-PROTO-EDITOR"
+      "E-PAYREC-PROTO-EDITOR"
     ],
-    "latest_editor_verified_at": "2026-10-02T18:53:28.511056+00:00",
+    "latest_editor_verified_at": "2026-10-03T01:48:47.834211+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
