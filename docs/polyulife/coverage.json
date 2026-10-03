@@ -61105,6 +61105,233 @@
       ],
       "action_ids": [],
       "redaction": "Derived masked prototype samples, financial content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/00-oct2-start.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:54:47.294Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/01-oct3.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:54:47.522Z",
+      "sha256": "faaecaf0aaae67ffe3be41dcc5fc21dde911e1cd4424afb7c69ca5b10b33aba5",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/02-oct3-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:54:47.734Z",
+      "sha256": "4ed91e0fd09c639c0a99fc43e1e79aa6a53c1a0adeda974c401f3d9db6a85a78",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-PAYNAV-HOME3"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYNAV-HOME3"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/03-oct3-retained.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:54:54.058Z",
+      "sha256": "faaecaf0aaae67ffe3be41dcc5fc21dde911e1cd4424afb7c69ca5b10b33aba5",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYNAV-CALENDAR3"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/04-oct2-restored.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:54:54.284Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYNAV-RESTORE2"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/05-oct2-home.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:55:02.151Z",
+      "sha256": "aa88d3706217dbb183058ffbb3856332c8c48315dc730bbd1cb79794a46ba686",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-HOME"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/06-oct2-home-return.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:55:02.400Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-HOME-CALENDAR"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/07-repeat-oct3.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:55:02.660Z",
+      "sha256": "faaecaf0aaae67ffe3be41dcc5fc21dde911e1cd4424afb7c69ca5b10b33aba5",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "action_ids": [
+        "A-NATIVE-OCT3-PAYMENT-DAY3"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-PROTO-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/08-repeat-oct2.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:55:02.924Z",
+      "sha256": "c62b628a69a203b91a8f4742083b1285387e31b152ee3dce1225fac33dcea7b6",
+      "dimensions": [
+        1211,
+        760
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [
+        "A-NATIVE-PAYNAV-RESTORE2"
+      ],
+      "source": "Actual Computer Use Figma Present screenshot bytes",
+      "redaction": "Account header half-open[950,0,1004,49] masked; personal content synthetic DEMO"
+    },
+    {
+      "id": "E-PAYRESTORE-EDITOR-CONNECTION",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/editor-connection.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:55:02.926798+00:00",
+      "sha256": "e2973b741816f9d74a059ef5fa86dcdb195d7ce2c26d515ced989c42d904d8ed",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Editor account header masked"
+    },
+    {
+      "id": "E-PAYRESTORE-EDITOR-FLOW",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/editor-flow.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T01:55:14.980061+00:00",
+      "sha256": "51dfaccb531a2d9f8e7ef06f7fff340c8e6c5942b1c49da4c3217ff244c83814",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "state_ids": [],
+      "action_ids": [],
+      "redaction": "Editor account header masked"
+    },
+    {
+      "id": "E-PAYRESTORE-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-payment-date-restore/contact-sheet.png",
+      "session_id": null,
+      "sha256": "3a2a144b7a79cdb95cb0ab3ee5b9ea6679096d0d8bd76e45b3267d1dbc948bab",
+      "dimensions": [
+        1080,
+        2010
+      ],
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT",
+        "S-NATIVE-OCT3-PAYMENT-DAY3",
+        "S-NATIVE-PAYNAV-HOME3",
+        "S-NATIVE-OCT3-HOME-CALLER"
+      ],
+      "action_ids": [],
+      "redaction": "Derived masked synthetic Home/date samples"
     }
   ],
   "findings": [
@@ -70099,7 +70326,9 @@
           "PROTO-PAYMODE-HOME-REGRESSION-003",
           "PROTO-PAYREC-REPAIR-CYCLE-001",
           "PROTO-PAYREC-REPEAT-CYCLE-002",
-          "PROTO-PAYREC-LOGO-REPAIR-003"
+          "PROTO-PAYREC-LOGO-REPAIR-003",
+          "PROTO-PAYRESTORE-HOME-CONTEXT-001",
+          "PROTO-PAYRESTORE-DIRECT-002"
         ],
         "prototype_evidence_ids": [
           "E-OCT3-PAYMENT-PROTO-01",
@@ -70122,7 +70351,11 @@
           "E-PAYREC-PROTO-00",
           "E-PAYREC-PROTO-17",
           "E-PAYREC-PROTO-31",
-          "E-PAYREC-PROTO-43"
+          "E-PAYREC-PROTO-43",
+          "E-PAYRESTORE-PROTO-00",
+          "E-PAYRESTORE-PROTO-04",
+          "E-PAYRESTORE-PROTO-06",
+          "E-PAYRESTORE-PROTO-08"
         ]
       },
       {
@@ -70168,13 +70401,16 @@
           "PROTO-OCT3-PAYMENT-HOME-RECOVERY-003",
           "PROTO-PAYMODE-HISTORY-CYCLE-001",
           "PROTO-PAYMODE-HIDE-CYCLE-002",
-          "PROTO-PAYMODE-HOME-REGRESSION-003"
+          "PROTO-PAYMODE-HOME-REGRESSION-003",
+          "PROTO-PAYRESTORE-HOME-CONTEXT-001",
+          "PROTO-PAYRESTORE-DIRECT-002"
         ],
         "prototype_evidence_ids": [
           "E-OCT3-PAYMENT-HOME-01",
           "E-OCT3-PAYMENT-HOME-03",
           "E-OCT3-PAYMENT-HOME-06",
-          "E-PAYMODE-PROTO-10"
+          "E-PAYMODE-PROTO-10",
+          "E-PAYRESTORE-PROTO-05"
         ]
       },
       {
@@ -70216,14 +70452,19 @@
           "PROTO-PAYMENT-DATES-CYCLE-002",
           "PROTO-PAYNAV-HOME3-001",
           "PROTO-PAYNAV-HOME3-002",
-          "PROTO-PAYNAV-DATES-REGRESSION-003"
+          "PROTO-PAYNAV-DATES-REGRESSION-003",
+          "PROTO-PAYRESTORE-HOME-CONTEXT-001",
+          "PROTO-PAYRESTORE-DIRECT-002"
         ],
         "prototype_evidence_ids": [
           "E-PAYMENT-DATES-PROTO-01",
           "E-PAYMENT-DATES-PROTO-06",
           "E-PAYNAV-PROTO-01",
           "E-PAYNAV-PROTO-03",
-          "E-PAYNAV-PROTO-05"
+          "E-PAYNAV-PROTO-05",
+          "E-PAYRESTORE-PROTO-01",
+          "E-PAYRESTORE-PROTO-03",
+          "E-PAYRESTORE-PROTO-07"
         ]
       },
       {
@@ -70406,11 +70647,14 @@
         "prototype_run_ids": [
           "PROTO-PAYNAV-HOME3-001",
           "PROTO-PAYNAV-HOME3-002",
-          "PROTO-PAYNAV-DATES-REGRESSION-003"
+          "PROTO-PAYNAV-DATES-REGRESSION-003",
+          "PROTO-PAYRESTORE-HOME-CONTEXT-001",
+          "PROTO-PAYRESTORE-DIRECT-002"
         ],
         "prototype_evidence_ids": [
           "E-PAYNAV-PROTO-02",
-          "E-PAYNAV-PROTO-04"
+          "E-PAYNAV-PROTO-04",
+          "E-PAYRESTORE-PROTO-02"
         ]
       },
       {
@@ -85787,6 +86031,36 @@
           "E-NATIVE-PAYREC-07-AX"
         ],
         "source_fidelity": "First observed history record and loaded-image context; fixed synthetic reference.800ms loading is demo only."
+      },
+      {
+        "source_node_id": "828:19",
+        "trigger_node_id": "828:62",
+        "trigger_node_name": "Day2",
+        "action_id": "A-NATIVE-PAYNAV-RESTORE2",
+        "trigger": "On click",
+        "behavior": "Navigate to",
+        "target_node_id": "823:21",
+        "configured_at": "2026-10-03T01:54:37.901Z",
+        "readback": [
+          "\t\t\t\t\t\t\t618 combo box (collapsed) Position, Value: Scroll with parent, ID: :r98:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t642 combo box (collapsed) Trigger, Value: On click, ID: :rc3:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t\t648 combo box (collapsed) Action, Value: Navigate to, ID: :rc6:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t655 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rcl:, Secondary Actions: Expand",
+          "\t\t\t\t\t\t661 combo box (collapsed) Animation, Value: Instant, ID: :rd2:, Secondary Actions: Expand",
+          "The focused UI element is 655 combo box (collapsed) Destination, Value: [OCT3:PAYMENT] Payment — observed empty date, ID: :rcl:, Secondary Actions: Expand"
+        ],
+        "connection_id": "C-PAYRESTORE-01",
+        "revision_id": "FIGMA-PAYMENT-DATE-RESTORE-20261003",
+        "implementation_status": "configured_observed_date_return_replayed_partial",
+        "prototype_run_ids": [
+          "PROTO-PAYRESTORE-HOME-CONTEXT-001",
+          "PROTO-PAYRESTORE-DIRECT-002"
+        ],
+        "source_evidence_ids": [
+          "E-NATIVE-PAYNAV-06",
+          "E-NATIVE-PAYNAV-06-AX"
+        ],
+        "source_fidelity": "Observed AX Day2 input from October3 Payment; finite two-day context, not arbitrary date handling"
       }
     ],
     "reconstruction_deviations": [
@@ -109425,6 +109699,162 @@
           "Photo/mark reuploaded after Present failures; short sampled stability does not establish long-term availability.",
           "Visible URL may lag actual navigation; reviewed saved pixels determine sampled states."
         ]
+      },
+      {
+        "id": "PROTO-PAYRESTORE-HOME-CONTEXT-001",
+        "revision_id": "FIGMA-PAYMENT-DATE-RESTORE-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-03T01:54:47.294Z",
+        "ended_at": "2026-10-03T01:55:02.400Z",
+        "status": "partial",
+        "navigation_status": "New Day2 return reaches October2 Payment; two dates retain distinct Home/Calendar references in sampled chain",
+        "visual_status": "Nine saved pixels reviewed and repeated date crops compared; full fidelity remains unverified",
+        "steps": [
+          {
+            "file": "00-oct2-start.png",
+            "at": "2026-10-03T01:54:47.294Z",
+            "description": "oct2-start",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": null,
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-00"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "01-oct3.png",
+            "at": "2026-10-03T01:54:47.522Z",
+            "description": "oct3",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+            "visible_node_id": "828:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-01"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "02-oct3-home.png",
+            "at": "2026-10-03T01:54:47.734Z",
+            "description": "oct3-home",
+            "state_id": "S-NATIVE-PAYNAV-HOME3",
+            "visible_node_id": "832:19",
+            "action_id": "A-NATIVE-PAYNAV-HOME3",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-02"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "03-oct3-retained.png",
+            "at": "2026-10-03T01:54:54.058Z",
+            "description": "oct3-retained",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+            "visible_node_id": "828:19",
+            "action_id": "A-NATIVE-PAYNAV-CALENDAR3",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-03"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "04-oct2-restored.png",
+            "at": "2026-10-03T01:54:54.284Z",
+            "description": "oct2-restored",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYNAV-RESTORE2",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-04"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "05-oct2-home.png",
+            "at": "2026-10-03T01:55:02.151Z",
+            "description": "oct2-home",
+            "state_id": "S-NATIVE-OCT3-HOME-CALLER",
+            "visible_node_id": "825:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-HOME",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-05"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "06-oct2-home-return.png",
+            "at": "2026-10-03T01:55:02.400Z",
+            "description": "oct2-home-return",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "One observed October3→October2 Payment context only; arbitrary dates/caller state model remains unimplemented.",
+          "Home values and personal schedules wholly synthetic DEMO; static scrolled Home reference only.",
+          "Saved pixels reviewed despite lagging URL readbacks; comparisons prove repeated prototype samples only, not native fidelity.",
+          "Native screenshot reconnection returns AppleEvent/LSOpen timeout; no new native state or action established. Application failure cause unknown."
+        ]
+      },
+      {
+        "id": "PROTO-PAYRESTORE-DIRECT-002",
+        "revision_id": "FIGMA-PAYMENT-DATE-RESTORE-20261003",
+        "start_node_id": "823:21",
+        "started_at": "2026-10-03T01:55:02.400Z",
+        "ended_at": "2026-10-03T01:55:02.924Z",
+        "status": "partial",
+        "navigation_status": "New Day2 return reaches October2 Payment; two dates retain distinct Home/Calendar references in sampled chain",
+        "visual_status": "Nine saved pixels reviewed and repeated date crops compared; full fidelity remains unverified",
+        "steps": [
+          {
+            "file": "06-oct2-home-return.png",
+            "at": "2026-10-03T01:55:02.400Z",
+            "description": "oct2-home-return",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-OCT3-HOME-CALENDAR",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-06"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "07-repeat-oct3.png",
+            "at": "2026-10-03T01:55:02.660Z",
+            "description": "repeat-oct3",
+            "state_id": "S-NATIVE-OCT3-PAYMENT-DAY3",
+            "visible_node_id": "828:19",
+            "action_id": "A-NATIVE-OCT3-PAYMENT-DAY3",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-07"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          },
+          {
+            "file": "08-repeat-oct2.png",
+            "at": "2026-10-03T01:55:02.924Z",
+            "description": "repeat-oct2",
+            "state_id": "S-NATIVE-OCT3-PAYMENT",
+            "visible_node_id": "823:21",
+            "action_id": "A-NATIVE-PAYNAV-RESTORE2",
+            "evidence_ids": [
+              "E-PAYRESTORE-PROTO-08"
+            ],
+            "outcome": "saved_pixels_reviewed"
+          }
+        ],
+        "limitations": [
+          "One observed October3→October2 Payment context only; arbitrary dates/caller state model remains unimplemented.",
+          "Home values and personal schedules wholly synthetic DEMO; static scrolled Home reference only.",
+          "Saved pixels reviewed despite lagging URL readbacks; comparisons prove repeated prototype samples only, not native fidelity.",
+          "Native screenshot reconnection returns AppleEvent/LSOpen timeout; no new native state or action established. Application failure cause unknown."
+        ]
       }
     ],
     "verification_status": "not_run",
@@ -109504,7 +109934,7 @@
       }
     ],
     "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=12-198&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A198&show-proto-sidebar=1",
-    "verification_summary": "180 mapped frames /3 internal component states /387 configured controls /16 scroll regions /124 prototype runs. Finite Payment record/Portal integrated; complete app/fidelity not_verified.",
+    "verification_summary": "180 mapped frames /3 internal component states /388 configured controls /16 scroll regions /126 prototype runs. Observed Payment3→2 date return integrated; complete app/fidelity not_verified.",
     "latest_verified_cutoff": "2026-09-28T19:12:40.541Z",
     "native_editability_checks": [
       {
@@ -109893,7 +110323,7 @@
         ]
       }
     ],
-    "current_revision": "FIGMA-PAYMENT-RECORD-20261003",
+    "current_revision": "FIGMA-PAYMENT-DATE-RESTORE-20261003",
     "current_page": "01 · Observed UI",
     "flow_name": "Room Finder · A → AG206",
     "scoped_checks": {
@@ -111050,10 +111480,10 @@
       },
       {
         "name": "Reference · Oct2 Calendar filters & Notice — partial",
-        "description": "Oct2/Oct3 native fullscreen reference: 33 finite frames and48 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback.",
+        "description": "Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence.",
         "readback": [
-          "Browser tab: 1, Title: \"PolyULife — Observed UI & Interaction Atlas – Figma\", URL: \"https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=791-177&t=F713e97TJKNbzFM3-0\".",
-          "1 AXWebArea PolyULife — Observed UI & Interaction Atlas – Figma, URL: figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=791-177&t=F713e97TJKNbzFM3-0",
+          "Browser tab: 1, Title: \"PolyULife — Observed UI & Interaction Atlas – Figma\", URL: \"https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=791-177&t=FJ8b2KMcS9V3DvQZ-0\".",
+          "1 AXWebArea PolyULife — Observed UI & Interaction Atlas – Figma, URL: figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=791-177&t=FJ8b2KMcS9V3DvQZ-0",
           "\t2 container react-page",
           "\t\t7 container",
           "\t\t\t8 container fullscreen-root",
@@ -111338,8 +111768,8 @@
           "\t\t\t\t400 heading Description, Value: 2, ID: :r81:",
           "\t\t\t\t\t401 text Description",
           "\t\t\t\t402 container",
-          "\t\t\t\t\t403 container Oct2/Oct3 native fullscreen reference: 33 finite frames and48 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback.",
-          "\t\t\t\t\t\t404 text Oct2/Oct3 native fullscreen reference: 33 finite frames and48 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback.",
+          "\t\t\t\t\t403 container Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence.",
+          "\t\t\t\t\t\t404 text Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence.",
           "\t\t\t\t\t405 toolbar Description: Description, ID: :r82:",
           "\t\t\t\t\t\t406 checkbox Description: Bold, Value: 0",
           "\t\t\t\t\t\t\t407 image",
@@ -111351,7 +111781,7 @@
           "\t\t\t\t\t\t\t413 image",
           "\t\t\t\t414 button Close",
           "",
-          "The focused UI element is 403 container Oct2/Oct3 native fullscreen reference: 33 finite frames and48 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback."
+          "The focused UI element is 403 container Oct2/Oct3 native fullscreen reference: 33 finite frames and49 configured controls. All/None → Class/detail/Notice → Exam → Payment draft/result, date/month cycles and separate Oct2/Oct3 Home DEMO callers. Payment Month → Events → Week5 → Month plus Show/Hide History and observed reset. First DEMO history card now opens loaded-image record detail, amount show/hide, Back and Student Account Portal loading → titled blank → More/Cancel/X → detail → history. Actual Present paths replayed; initial missing photo and repeated missing loading mark retained, reuploaded via image fills and sampled again. All financial titles/identifiers/dates/amounts and Week class content are synthetic DEMO. Generic illustration and logo raster, fonts/icons/geometry approximate; initial pre-image layout, image expansion, shown-detail exits, other records/menus/scroll and external/share/copy/refresh remain unimplemented. Portal blank does not establish service/login success or server failure. Notice/Portal800ms are illustrative delays. Native coordinate input was noWindowsAvailable; AX observations separate from tool failures. Other date/mode/caller combinations and complete app/fidelity remain unverified. Actual saved pixels determine rendered state despite lagging URL readback. Observed October3 → October2 date return now wired; actual Present replay includes Oct3/Home/Calendar → Oct2/Home/Calendar and direct3→2 repeat. This does not establish arbitrary day selection or general caller persistence."
         ],
         "start_node_id": "791:177",
         "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=791-177&t=khGGYaYS9AD0jTun-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=791%3A177",
@@ -111378,20 +111808,23 @@
           "PROTO-PAYMODE-HOME-REGRESSION-003",
           "PROTO-PAYREC-REPAIR-CYCLE-001",
           "PROTO-PAYREC-REPEAT-CYCLE-002",
-          "PROTO-PAYREC-LOGO-REPAIR-003"
+          "PROTO-PAYREC-LOGO-REPAIR-003",
+          "PROTO-PAYRESTORE-HOME-CONTEXT-001",
+          "PROTO-PAYRESTORE-DIRECT-002"
         ],
-        "scope": "33 finite frames48 controls; Payment first record/amount/Portal integrated, complete app unverified",
-        "updated_at": "2026-10-03T01:48:47.834211+00:00"
+        "scope": "33 finite frames49 controls; observed3→2 date return integrated with two Home contexts, complete app unverified",
+        "updated_at": "2026-10-03T01:55:14.980061+00:00"
       }
     ],
-    "latest_prototype_run_cutoff": "2026-10-03T01:48:25.602Z",
+    "latest_prototype_run_cutoff": "2026-10-03T01:55:02.924Z",
     "archive_page_name": "00 · Archive — initial AI draft",
     "archive_flow_name": "Archive · Initial AI draft — not validated",
     "archive_naming_verified_at": "2026-09-28T17:24:14.198Z",
     "latest_editor_evidence_ids": [
-      "E-PAYREC-PROTO-EDITOR"
+      "E-PAYRESTORE-EDITOR-CONNECTION",
+      "E-PAYRESTORE-EDITOR-FLOW"
     ],
-    "latest_editor_verified_at": "2026-10-03T01:48:47.834211+00:00",
+    "latest_editor_verified_at": "2026-10-03T01:55:14.980061+00:00",
     "unimported_design_sources": [],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
