@@ -14,6 +14,8 @@
 
 已建立 [PolyULife Figma 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)，正在依照实测截图制作原应用复现。文件存在不代表全应用复现完成；可编辑节点、交互连线和 Present 运行结果逐项登记于台账。
 
+2026-10-03新增 [五项Food查询参考](docs/polyulife/food-oct3-query-alignment-walkthrough.md)：Asian、Taiwanese、Cake / Dessert、Salad分别独立展示已观察结果，Western沿用有限滚动参考。搜索栏位置已修正并保存实际Figma截图；查询输入、结果详情及返回调用者仍待连接，完整应用未完成。
+
 ## Figma 原型链接
 
 - **[从首页开始体验（推荐）](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1)**：包含日期、日程及功能入口，适合演示进入功能后返回首页的流程。
