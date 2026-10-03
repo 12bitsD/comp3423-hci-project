@@ -1,0 +1,314 @@
+{
+  "sources": [
+    {
+      "file": "food-oct3-blocky-detail.svg",
+      "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-01",
+        "E-FOOD-MENU-03",
+        "E-FOOD-MENU-09",
+        "E-FOOD-MENU-17",
+        "E-FOOD-MENU-19"
+      ],
+      "sha256": "e3290bff55b39b7785ed506dcc90f76e850e1c00e0e5a43c48ff74ae98e2851e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-blocky-lower.svg",
+      "state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-10",
+        "E-FOOD-MENU-15"
+      ],
+      "sha256": "69e0e8434a83cb24e5bea8c961d80d9a518c1338e9310bbffb5a1d0af33da615",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-libcafe-detail.svg",
+      "state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-05",
+        "E-FOOD-MENU-07"
+      ],
+      "sha256": "8b4af6a83b9dc1594e10f7ac20c03557d0a5a7b317328f1be044e9dd07867096",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-blocky-image.svg",
+      "state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-02"
+      ],
+      "sha256": "1b100e28677bb87a7b0d35d42d1492d2cff38f16dc0c06f1b149523b596cf0b6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-coffee.svg",
+      "state_id": "S-FOOD-OCT3-COFFEE",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-04"
+      ],
+      "sha256": "b91c5c11c94196bca5a376b8ed8b35266c4254fd154783dbb92c1bd0efe5aff1",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-sandwich.svg",
+      "state_id": "S-FOOD-OCT3-SANDWICH",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-16"
+      ],
+      "sha256": "f159f96c6513556b6917a42791d85eba9f94424d8b6a31217993e5f4ddb1765c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-libcafe-map.svg",
+      "state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-06"
+      ],
+      "sha256": "ac7558ab23e72c9a1e9a5f6d4be170df671cbad1484dbb7c2a9f77a1994e8c7b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-blocky-map.svg",
+      "state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-12"
+      ],
+      "sha256": "978a0d400358be6010b232d6bb73708c965bb05f645e64863ee890b0ed027d09",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-blocky-map-zoom.svg",
+      "state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-13"
+      ],
+      "sha256": "bbc911cd29172c022d8fee97fd3af7d895db6cee9d992cc9f28665467ced31d8",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-blocky-map-out.svg",
+      "state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-14"
+      ],
+      "sha256": "2ae79ace9b5e014279c53f27a647c18508f7effdf15084b4743984596feb171b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    },
+    {
+      "file": "food-oct3-blocky-map-loading.svg",
+      "state_id": "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-11"
+      ],
+      "sha256": "fe37c80f034e18727ba5484a1734f0fb4e2418177b0462d851ba35ecc10fcfd6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "prepared_not_imported_not_replayed"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/food-oct3-blocky-hero.png",
+      "source_file": "01-block-y-menu.png",
+      "source_evidence_id": "E-FOOD-MENU-01",
+      "crop_xyxy": [
+        151,
+        100,
+        429,
+        326
+      ],
+      "sha256": "0057df04cdd41cdaa594f7139700cbedbb3f2a40226b2d703e4e1b6f7e0f6c56",
+      "dimensions": [
+        278,
+        226
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    },
+    {
+      "file": "assets/food-oct3-blocky-inline-map.png",
+      "source_file": "10-block-y-detail-lower.png",
+      "source_evidence_id": "E-FOOD-MENU-10",
+      "crop_xyxy": [
+        35,
+        693,
+        542,
+        1002
+      ],
+      "sha256": "564747cfdae3eab25db9a8e921b9d5669e29254e86ddd359c17d0df7ad584325",
+      "dimensions": [
+        507,
+        309
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    },
+    {
+      "file": "assets/food-oct3-libcafe-inline-map.png",
+      "source_file": "05-lib-cafe-detail.png",
+      "source_evidence_id": "E-FOOD-MENU-05",
+      "crop_xyxy": [
+        35,
+        488,
+        542,
+        795
+      ],
+      "sha256": "e83e6c9354b42c1b4b61185f1c09b4509f6171fc19a1e5cf187617d19586c0f4",
+      "dimensions": [
+        507,
+        307
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    },
+    {
+      "file": "assets/food-oct3-blocky-expanded-hero.png",
+      "source_file": "02-block-y-image.png",
+      "source_evidence_id": "E-FOOD-MENU-02",
+      "crop_xyxy": [
+        133,
+        360,
+        441,
+        621
+      ],
+      "sha256": "2118cd9045ed4ae4c5207435c9e7a1db4dbff9289149ab0b3dac8fb1fa1a29be",
+      "dimensions": [
+        308,
+        261
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    },
+    {
+      "file": "assets/food-oct3-libcafe-map.png",
+      "source_file": "06-lib-cafe-map.png",
+      "source_evidence_id": "E-FOOD-MENU-06",
+      "crop_xyxy": [
+        0,
+        100,
+        576,
+        1024
+      ],
+      "sha256": "d25d05fe06e01d4de382e7559d5494a0bb7b0b2436fa44e3d72581135f84e59e",
+      "dimensions": [
+        576,
+        924
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    },
+    {
+      "file": "assets/food-oct3-blocky-map.png",
+      "source_file": "12-block-y-map-settled.png",
+      "source_evidence_id": "E-FOOD-MENU-12",
+      "crop_xyxy": [
+        0,
+        100,
+        576,
+        1024
+      ],
+      "sha256": "b2913dcf14d65db7857c6cb30bab2f4c1501139587c8a7d3276b898882eebb64",
+      "dimensions": [
+        576,
+        924
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    },
+    {
+      "file": "assets/food-oct3-blocky-map-zoom.png",
+      "source_file": "13-block-y-map-zoom.png",
+      "source_evidence_id": "E-FOOD-MENU-13",
+      "crop_xyxy": [
+        0,
+        100,
+        576,
+        1024
+      ],
+      "sha256": "e77c53c59e9418b63d089d0e69fe97c1fb9f5737b7bd5e06ca9c72edd99a60c4",
+      "dimensions": [
+        576,
+        924
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    },
+    {
+      "file": "assets/food-oct3-blocky-map-out.png",
+      "source_file": "14-block-y-map-out.png",
+      "source_evidence_id": "E-FOOD-MENU-14",
+      "crop_xyxy": [
+        0,
+        100,
+        576,
+        1024
+      ],
+      "sha256": "f4d076de7b7d62b28253586baf905e91b670b53e07c7beaf48c37cd08a6cf52d",
+      "dimensions": [
+        576,
+        924
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    },
+    {
+      "file": "assets/food-oct3-blocky-map-loading.png",
+      "source_file": "11-block-y-map.png",
+      "source_evidence_id": "E-FOOD-MENU-11",
+      "crop_xyxy": [
+        265,
+        100,
+        315,
+        151
+      ],
+      "sha256": "0a7c87be7adf70efdc72ee2f720eb1b3305eb74289f87bac1184cf24529d5b3d",
+      "dimensions": [
+        50,
+        51
+      ],
+      "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+    }
+  ],
+  "limits": [
+    "Local sources only; no Figma mutations or mappings.",
+    "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+    "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+    "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+  ]
+}

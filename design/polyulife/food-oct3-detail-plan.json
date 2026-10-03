@@ -1,0 +1,288 @@
+{
+  "status": "prepared_unconfigured_not_replayed",
+  "sources_record": "food-oct3-detail-sources.json",
+  "edges": [
+    {
+      "action_id": "A-FOOD-OCT3-MENU-OPEN",
+      "from_state_id": "S-HOME",
+      "observed_final_state_id": "S-FOOD-OCT3-LIST",
+      "control": "Home Food",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-00",
+        "E-FOOD-MENU-00-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS",
+      "from_state_id": "S-FOOD-OCT3-LIST",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "VenueMenu1",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-00",
+        "E-FOOD-MENU-00-AX",
+        "E-FOOD-MENU-01",
+        "E-FOOD-MENU-01-AX",
+        "E-FOOD-MENU-18",
+        "E-FOOD-MENU-18-AX",
+        "E-FOOD-MENU-19",
+        "E-FOOD-MENU-19-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-IMAGE-OPEN",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+      "control": "ExpandImage",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-01",
+        "E-FOOD-MENU-01-AX",
+        "E-FOOD-MENU-02",
+        "E-FOOD-MENU-02-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-IMAGE-CLOSE",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "CloseImage",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-02",
+        "E-FOOD-MENU-02-AX",
+        "E-FOOD-MENU-03",
+        "E-FOOD-MENU-03-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-COFFEE",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-COFFEE",
+      "control": "Tag-Coffee",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-03",
+        "E-FOOD-MENU-03-AX",
+        "E-FOOD-MENU-04",
+        "E-FOOD-MENU-04-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-LIBCAFE-OPEN",
+      "from_state_id": "S-FOOD-OCT3-COFFEE",
+      "observed_final_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "control": "Result-1",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-04",
+        "E-FOOD-MENU-04-AX",
+        "E-FOOD-MENU-05",
+        "E-FOOD-MENU-05-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN",
+      "from_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+      "control": "ExpandMap",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-05",
+        "E-FOOD-MENU-05-AX",
+        "E-FOOD-MENU-06",
+        "E-FOOD-MENU-06-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK",
+      "from_state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+      "observed_final_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "control": "Back",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-06",
+        "E-FOOD-MENU-06-AX",
+        "E-FOOD-MENU-07",
+        "E-FOOD-MENU-07-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-LIBCAFE-BACK",
+      "from_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-COFFEE",
+      "control": "Back",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-07",
+        "E-FOOD-MENU-07-AX",
+        "E-FOOD-MENU-08",
+        "E-FOOD-MENU-08-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-COFFEE-BACK",
+      "from_state_id": "S-FOOD-OCT3-COFFEE",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "Back",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-08",
+        "E-FOOD-MENU-08-AX",
+        "E-FOOD-MENU-09",
+        "E-FOOD-MENU-09-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-DETAIL-SCROLL",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "control": "DetailContent vertical scroll",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-09",
+        "E-FOOD-MENU-09-AX",
+        "E-FOOD-MENU-10",
+        "E-FOOD-MENU-10-AX"
+      ],
+      "implementation_limit": "Two source viewport samples prepared; continuous scroll geometry/input and reverse boundary still to configure and verify."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+      "control": "ExpandMap",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-10",
+        "E-FOOD-MENU-10-AX",
+        "E-FOOD-MENU-11",
+        "E-FOOD-MENU-11-AX",
+        "E-FOOD-MENU-12",
+        "E-FOOD-MENU-12-AX"
+      ],
+      "planned_intermediate_state_id": "S-FOOD-OCT3-BLOCKY-MAP-LOADING"
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-MAP-IN",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+      "control": "AX Slider Increment proxy to be chosen",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-12",
+        "E-FOOD-MENU-12-AX",
+        "E-FOOD-MENU-13",
+        "E-FOOD-MENU-13-AX"
+      ],
+      "implementation_limit": "Native AX increment/decrement observed once; any chosen key proxy is not native keyboard behavior or full zoom bounds."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-MAP-OUT",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+      "control": "AX Slider Decrement proxy to be chosen",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-13",
+        "E-FOOD-MENU-13-AX",
+        "E-FOOD-MENU-14",
+        "E-FOOD-MENU-14-AX"
+      ],
+      "implementation_limit": "Native AX increment/decrement observed once; any chosen key proxy is not native keyboard behavior or full zoom bounds."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "control": "Back",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-14",
+        "E-FOOD-MENU-14-AX",
+        "E-FOOD-MENU-15",
+        "E-FOOD-MENU-15-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-SANDWICH",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "observed_final_state_id": "S-FOOD-OCT3-SANDWICH",
+      "control": "Tag-Sandwich",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-15",
+        "E-FOOD-MENU-15-AX",
+        "E-FOOD-MENU-16",
+        "E-FOOD-MENU-16-AX"
+      ]
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-SANDWICH-BACK",
+      "from_state_id": "S-FOOD-OCT3-SANDWICH",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "Back",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-16",
+        "E-FOOD-MENU-16-AX",
+        "E-FOOD-MENU-17",
+        "E-FOOD-MENU-17-AX"
+      ],
+      "implementation_limit": "Observed return to TOP detail, rather than lower initiating position."
+    },
+    {
+      "action_id": "A-FOOD-OCT3-MENU-BLOCKY-BACK",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "observed_final_state_id": "S-FOOD-OCT3-LIST",
+      "control": "Back",
+      "native_relation": "observed in finite caller context",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-17",
+        "E-FOOD-MENU-17-AX",
+        "E-FOOD-MENU-18",
+        "E-FOOD-MENU-18-AX"
+      ]
+    },
+    {
+      "action_id": null,
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+      "observed_final_state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+      "control": "After delay, duration to be chosen",
+      "native_relation": "No-input followup after same map entry observed",
+      "status": "unconfigured",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-11",
+        "E-FOOD-MENU-12"
+      ],
+      "implementation_limit": "Any800ms delay is demonstration timing; screenshot separation is not measured native loading time."
+    }
+  ],
+  "formal_figma_counts_changed": false,
+  "browser_refusal": "Prior Action dropdown safety refusal unresolved; no retry or alternate-surface workaround this batch.",
+  "remaining": [
+    "Other5 BlockY tags interrupted by Mac lock.",
+    "Other Search results and LibCafe tags not observed.",
+    "Full Food list current-data reconstruction, continuous detail scroll, map pan/zoom bounds and external boundaries pending.",
+    "All sources need actual editable import, image-fill verification, connections and Present caller replay."
+  ]
+}

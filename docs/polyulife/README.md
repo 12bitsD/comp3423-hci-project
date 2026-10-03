@@ -1,5 +1,7 @@
 # PolyULife 全应用观察与 Figma 复现
 
+最新[Food场所详情与标签调用者](food-oct3-detail-walkthrough.md)保存20次真实原生采样，确认Block Y省略号直达详情、图片关闭、Coffee/LibCafé地图往返、Sandwich返回顶部及Block Y地图加载/缩放。11份可编辑SVG和本地渲染已准备，尚未导入/连线。当前26会话、205状态/382动作（295 observed、78 not_attempted、9 attempted_unverified），2571证据、62份清单含2325PNG。正式Figma仍201画板/436控件/136运行，完整应用`not_verified`。本批末尾Mac锁定；既有浏览器Action安全拒绝未重试或绕过。下方数字保留历史批次。
+
 最新[Food营业时间与列表反向走查](food-oct3-reverse-walkthrough.md)保存26次原生采样和28条可见依据目录，确认Block Y/Open H Café/指定VA210的时间往返及Closed Gourmet Shop信息往返，补采列表上下边界与反向回首项。面板下移仍未确认；历史Closed H Café和其它条目功能不推广。当前25会话、194状态/364动作（277 observed、78 not_attempted、9 attempted_unverified），2517证据、60份清单含2292个PNG。Figma仍201画板/436控件/136次运行，本轮新数据尚未复现；完整应用`not_verified`。以下为各批历史快照。
 
 最新[Notification Search加载草稿检查点](notification-search-loading-checkpoint.md)保存6次原生入口尝试并导入1张576×1024的地图加载草稿946:19。浏览器策略拒绝Action下拉框操作，连接仍None、未回放，不计正式映射。当前24次原生会话、181状态/351动作，正式Figma仍201画板/436控件/136次运行；2462条证据、59份清单含2265个PNG。完整应用`not_verified`；下方为各批历史快照。

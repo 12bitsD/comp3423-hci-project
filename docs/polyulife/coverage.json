@@ -1170,6 +1170,74 @@
         "No calls, orders, location permissions, external order destination or credentials.",
         "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
       ]
+    },
+    {
+      "id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "started_at": "2026-10-03T06:38:42.382Z",
+      "documented_through": "2026-10-03T06:41:09.814Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac via Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "login_state": "Existing login; no credential input"
+      },
+      "starting_state_id": "S-FOOD-OCT3-LIST",
+      "evidence_ids": [
+        "E-FOOD-MENU-00",
+        "E-FOOD-MENU-00-AX",
+        "E-FOOD-MENU-01",
+        "E-FOOD-MENU-01-AX",
+        "E-FOOD-MENU-02",
+        "E-FOOD-MENU-02-AX",
+        "E-FOOD-MENU-03",
+        "E-FOOD-MENU-03-AX",
+        "E-FOOD-MENU-04",
+        "E-FOOD-MENU-04-AX",
+        "E-FOOD-MENU-05",
+        "E-FOOD-MENU-05-AX",
+        "E-FOOD-MENU-06",
+        "E-FOOD-MENU-06-AX",
+        "E-FOOD-MENU-07",
+        "E-FOOD-MENU-07-AX",
+        "E-FOOD-MENU-08",
+        "E-FOOD-MENU-08-AX",
+        "E-FOOD-MENU-09",
+        "E-FOOD-MENU-09-AX",
+        "E-FOOD-MENU-10",
+        "E-FOOD-MENU-10-AX",
+        "E-FOOD-MENU-11",
+        "E-FOOD-MENU-11-AX",
+        "E-FOOD-MENU-12",
+        "E-FOOD-MENU-12-AX",
+        "E-FOOD-MENU-13",
+        "E-FOOD-MENU-13-AX",
+        "E-FOOD-MENU-14",
+        "E-FOOD-MENU-14-AX",
+        "E-FOOD-MENU-15",
+        "E-FOOD-MENU-15-AX",
+        "E-FOOD-MENU-16",
+        "E-FOOD-MENU-16-AX",
+        "E-FOOD-MENU-17",
+        "E-FOOD-MENU-17-AX",
+        "E-FOOD-MENU-18",
+        "E-FOOD-MENU-18-AX",
+        "E-FOOD-MENU-19",
+        "E-FOOD-MENU-19-AX",
+        "E-FOOD-MENU-CONTACT",
+        "E-FOOD-MENU-TRACE"
+      ],
+      "limitations": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
     }
   ],
   "entry_points": [
@@ -6044,6 +6112,332 @@
         "Full-list boundaries and reverse traversal sampled; downward handle drag retained expanded sheet and remains unverified.",
         "No calls, orders, location permissions, external order destination or credentials.",
         "Figma unchanged; new views not reconstructed or replayed. Full app/fidelity not_verified."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food BLOCKY-DETAIL",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-01",
+        "E-FOOD-MENU-03",
+        "E-FOOD-MENU-09",
+        "E-FOOD-MENU-19",
+        "E-FOOD-MENU-17"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-01-AX",
+        "E-FOOD-MENU-03-AX",
+        "E-FOOD-MENU-09-AX",
+        "E-FOOD-MENU-19-AX",
+        "E-FOOD-MENU-17-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS",
+        "A-FOOD-OCT3-MENU-IMAGE-CLOSE",
+        "A-FOOD-OCT3-MENU-COFFEE-BACK",
+        "A-FOOD-OCT3-MENU-SANDWICH-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food BLOCKY-IMAGE",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-02"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-02-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-IMAGE-OPEN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-COFFEE",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food COFFEE",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-04",
+        "E-FOOD-MENU-08"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-04-AX",
+        "E-FOOD-MENU-08-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-COFFEE",
+        "A-FOOD-OCT3-MENU-LIBCAFE-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food LIBCAFE-DETAIL",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-05",
+        "E-FOOD-MENU-07"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-05-AX",
+        "E-FOOD-MENU-07-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-OPEN",
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-LIBCAFE-MAP",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food LIBCAFE-MAP",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-06"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-06-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food BLOCKY-LOWER",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-10",
+        "E-FOOD-MENU-15"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-10-AX",
+        "E-FOOD-MENU-15-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-DETAIL-SCROLL",
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food BLOCKY-MAP-LOADING",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-11"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-11-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BLOCKY-MAP",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food BLOCKY-MAP",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-12"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-12-AX"
+      ],
+      "action_ids": [],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food BLOCKY-MAP-ZOOM",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-13"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-13-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-MAP-IN"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food BLOCKY-MAP-OUT",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-14"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-14-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-MAP-OUT"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
+      ]
+    },
+    {
+      "id": "S-FOOD-OCT3-SANDWICH",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "title": "October3 Food SANDWICH",
+      "description": "Finite public venue/image/tag/map viewport from actual Computer Use. BlockY and LibCafe have separate caller contexts.",
+      "visible_scope": "Saved screenshot only; AX may expose offscreen content",
+      "preconditions": "Home Food current Block Y list; ellipsis to detail; tags/maps as traced",
+      "screenshot_evidence_ids": [
+        "E-FOOD-MENU-16"
+      ],
+      "ax_evidence_ids": [
+        "E-FOOD-MENU-16-AX"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-SANDWICH"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Current public October3 Food data/context only; no full app completion.",
+        "Block Y ellipsis opens detail directly; no separate menu observed.",
+        "Coffee/Sandwich searches each show8 visible results; only LibCafe result opened. Other5 BlockY tags untested.",
+        "LibCafe current detail has no hero; no inference of missing image defect.",
+        "Map loading->settled observed with no input; capture separation is not measured loading latency.",
+        "One AX Increment/Decrement pair only; no full zoom boundaries/free pan/location permission.",
+        "After20 saved pairs Mac locked; next Asian Cuisine action/capture did not yield evidence. Dispatch/result unknown; do not count as an observed action.",
+        "New design sources are local only, not imported/connected/replayed in Figma; existing Action browser refusal not bypassed."
       ]
     }
   ],
@@ -16762,6 +17156,695 @@
       "authorization": "Ordinary public navigation/display/scroll in authorised HCI scope; no calls/orders/location/private submission",
       "blockers": [],
       "verification_boundary": "Specific visible row and current list snapshot only; does not verify all same-title machines or all venue controls."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-OPEN",
+      "from_state_id": "S-HOME",
+      "control": "OPEN",
+      "input_summary": "AX52 Food",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:38:42.382Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-HOME",
+          "target_state_id": "S-FOOD-OCT3-LIST",
+          "intermediate_state_ids": [],
+          "input": "AX52 Food",
+          "observed_feedback": "Open Food -> LIST",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-00",
+            "E-FOOD-MENU-00-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-LIST",
+      "evidence_ids": [
+        "E-FOOD-MENU-00",
+        "E-FOOD-MENU-00-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS",
+      "from_state_id": "S-FOOD-OCT3-LIST",
+      "control": "BLOCKY-ELLIPSIS",
+      "input_summary": "click [702,699]",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:38:52.350Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-LIST",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "intermediate_state_ids": [],
+          "input": "click [702,699]",
+          "observed_feedback": "Block Y ellipsis -> BLOCKY-DETAIL",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-00",
+            "E-FOOD-MENU-00-AX",
+            "E-FOOD-MENU-01",
+            "E-FOOD-MENU-01-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:41:09.814Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-LIST",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "intermediate_state_ids": [],
+          "input": "click [702,699]",
+          "observed_feedback": "Repeat Block Y ellipsis -> BLOCKY-DETAIL",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-18",
+            "E-FOOD-MENU-18-AX",
+            "E-FOOD-MENU-19",
+            "E-FOOD-MENU-19-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "evidence_ids": [
+        "E-FOOD-MENU-00",
+        "E-FOOD-MENU-00-AX",
+        "E-FOOD-MENU-01",
+        "E-FOOD-MENU-01-AX",
+        "E-FOOD-MENU-18",
+        "E-FOOD-MENU-18-AX",
+        "E-FOOD-MENU-19",
+        "E-FOOD-MENU-19-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-IMAGE-OPEN",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "IMAGE-OPEN",
+      "input_summary": "AX18 image expand",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:03.056Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+          "intermediate_state_ids": [],
+          "input": "AX18 image expand",
+          "observed_feedback": "Expand Block Y hero -> BLOCKY-IMAGE",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-01",
+            "E-FOOD-MENU-01-AX",
+            "E-FOOD-MENU-02",
+            "E-FOOD-MENU-02-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+      "evidence_ids": [
+        "E-FOOD-MENU-01",
+        "E-FOOD-MENU-01-AX",
+        "E-FOOD-MENU-02",
+        "E-FOOD-MENU-02-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-IMAGE-CLOSE",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+      "control": "IMAGE-CLOSE",
+      "input_summary": "AX3 close",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:10.984Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "intermediate_state_ids": [],
+          "input": "AX3 close",
+          "observed_feedback": "Close image -> BLOCKY-DETAIL",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-02",
+            "E-FOOD-MENU-02-AX",
+            "E-FOOD-MENU-03",
+            "E-FOOD-MENU-03-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "evidence_ids": [
+        "E-FOOD-MENU-02",
+        "E-FOOD-MENU-02-AX",
+        "E-FOOD-MENU-03",
+        "E-FOOD-MENU-03-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-COFFEE",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "COFFEE",
+      "input_summary": "AX34 #Coffee",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:15.506Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "target_state_id": "S-FOOD-OCT3-COFFEE",
+          "intermediate_state_ids": [],
+          "input": "AX34 #Coffee",
+          "observed_feedback": "Select Coffee tag -> COFFEE",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-03",
+            "E-FOOD-MENU-03-AX",
+            "E-FOOD-MENU-04",
+            "E-FOOD-MENU-04-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-COFFEE",
+      "evidence_ids": [
+        "E-FOOD-MENU-03",
+        "E-FOOD-MENU-03-AX",
+        "E-FOOD-MENU-04",
+        "E-FOOD-MENU-04-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-LIBCAFE-OPEN",
+      "from_state_id": "S-FOOD-OCT3-COFFEE",
+      "control": "LIBCAFE-OPEN",
+      "input_summary": "AX19 LibCafe",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:23.140Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-COFFEE",
+          "target_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+          "intermediate_state_ids": [],
+          "input": "AX19 LibCafe",
+          "observed_feedback": "Open LibCafe from Coffee results -> LIBCAFE-DETAIL",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-04",
+            "E-FOOD-MENU-04-AX",
+            "E-FOOD-MENU-05",
+            "E-FOOD-MENU-05-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "evidence_ids": [
+        "E-FOOD-MENU-04",
+        "E-FOOD-MENU-04-AX",
+        "E-FOOD-MENU-05",
+        "E-FOOD-MENU-05-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN",
+      "from_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "control": "LIBCAFE-MAP-OPEN",
+      "input_summary": "AX41 map expand",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:32.172Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+          "target_state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+          "intermediate_state_ids": [],
+          "input": "AX41 map expand",
+          "observed_feedback": "Expand LibCafe map -> LIBCAFE-MAP",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-05",
+            "E-FOOD-MENU-05-AX",
+            "E-FOOD-MENU-06",
+            "E-FOOD-MENU-06-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+      "evidence_ids": [
+        "E-FOOD-MENU-05",
+        "E-FOOD-MENU-05-AX",
+        "E-FOOD-MENU-06",
+        "E-FOOD-MENU-06-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK",
+      "from_state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+      "control": "LIBCAFE-MAP-BACK",
+      "input_summary": "AX10 Back",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:39.756Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+          "target_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+          "intermediate_state_ids": [],
+          "input": "AX10 Back",
+          "observed_feedback": "Map Back -> LIBCAFE-DETAIL",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-06",
+            "E-FOOD-MENU-06-AX",
+            "E-FOOD-MENU-07",
+            "E-FOOD-MENU-07-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "evidence_ids": [
+        "E-FOOD-MENU-06",
+        "E-FOOD-MENU-06-AX",
+        "E-FOOD-MENU-07",
+        "E-FOOD-MENU-07-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-LIBCAFE-BACK",
+      "from_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+      "control": "LIBCAFE-BACK",
+      "input_summary": "AX10 Back",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:44.464Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+          "target_state_id": "S-FOOD-OCT3-COFFEE",
+          "intermediate_state_ids": [],
+          "input": "AX10 Back",
+          "observed_feedback": "LibCafe detail Back -> COFFEE",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-07",
+            "E-FOOD-MENU-07-AX",
+            "E-FOOD-MENU-08",
+            "E-FOOD-MENU-08-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-COFFEE",
+      "evidence_ids": [
+        "E-FOOD-MENU-07",
+        "E-FOOD-MENU-07-AX",
+        "E-FOOD-MENU-08",
+        "E-FOOD-MENU-08-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-COFFEE-BACK",
+      "from_state_id": "S-FOOD-OCT3-COFFEE",
+      "control": "COFFEE-BACK",
+      "input_summary": "AX10 Back",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:50.232Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-COFFEE",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "intermediate_state_ids": [],
+          "input": "AX10 Back",
+          "observed_feedback": "Coffee Search Back -> BLOCKY-DETAIL",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-08",
+            "E-FOOD-MENU-08-AX",
+            "E-FOOD-MENU-09",
+            "E-FOOD-MENU-09-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "evidence_ids": [
+        "E-FOOD-MENU-08",
+        "E-FOOD-MENU-08-AX",
+        "E-FOOD-MENU-09",
+        "E-FOOD-MENU-09-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-DETAIL-SCROLL",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "DETAIL-SCROLL",
+      "input_summary": "scroll [595,1195] down0.65",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:39:58.215Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+          "intermediate_state_ids": [],
+          "input": "scroll [595,1195] down0.65",
+          "observed_feedback": "Scroll Block Y detail -> BLOCKY-LOWER",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-09",
+            "E-FOOD-MENU-09-AX",
+            "E-FOOD-MENU-10",
+            "E-FOOD-MENU-10-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "evidence_ids": [
+        "E-FOOD-MENU-09",
+        "E-FOOD-MENU-09-AX",
+        "E-FOOD-MENU-10",
+        "E-FOOD-MENU-10-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "control": "BLOCKY-MAP-OPEN",
+      "input_summary": "AX44 expand map",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:40:06.115Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+          "intermediate_state_ids": [
+            "S-FOOD-OCT3-BLOCKY-MAP-LOADING"
+          ],
+          "input": "AX44 expand map",
+          "observed_feedback": "Expand Block Y map -> BLOCKY-MAP-LOADING",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-10",
+            "E-FOOD-MENU-10-AX",
+            "E-FOOD-MENU-11",
+            "E-FOOD-MENU-11-AX",
+            "E-FOOD-MENU-12",
+            "E-FOOD-MENU-12-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+      "evidence_ids": [
+        "E-FOOD-MENU-10",
+        "E-FOOD-MENU-10-AX",
+        "E-FOOD-MENU-11",
+        "E-FOOD-MENU-11-AX",
+        "E-FOOD-MENU-12",
+        "E-FOOD-MENU-12-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-MAP-IN",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+      "control": "MAP-IN",
+      "input_summary": "AX15 Increment",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:40:22.691Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+          "intermediate_state_ids": [],
+          "input": "AX15 Increment",
+          "observed_feedback": "Map zoom in -> BLOCKY-MAP-ZOOM",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-12",
+            "E-FOOD-MENU-12-AX",
+            "E-FOOD-MENU-13",
+            "E-FOOD-MENU-13-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+      "evidence_ids": [
+        "E-FOOD-MENU-12",
+        "E-FOOD-MENU-12-AX",
+        "E-FOOD-MENU-13",
+        "E-FOOD-MENU-13-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-MAP-OUT",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+      "control": "MAP-OUT",
+      "input_summary": "AX15 Decrement",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:40:32.973Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+          "intermediate_state_ids": [],
+          "input": "AX15 Decrement",
+          "observed_feedback": "Map zoom out -> BLOCKY-MAP-OUT",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-13",
+            "E-FOOD-MENU-13-AX",
+            "E-FOOD-MENU-14",
+            "E-FOOD-MENU-14-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+      "evidence_ids": [
+        "E-FOOD-MENU-13",
+        "E-FOOD-MENU-13-AX",
+        "E-FOOD-MENU-14",
+        "E-FOOD-MENU-14-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+      "control": "BLOCKY-MAP-BACK",
+      "input_summary": "AX10 Back",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:40:41.773Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+          "intermediate_state_ids": [],
+          "input": "AX10 Back",
+          "observed_feedback": "Block Y Map Back -> BLOCKY-LOWER",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-14",
+            "E-FOOD-MENU-14-AX",
+            "E-FOOD-MENU-15",
+            "E-FOOD-MENU-15-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "evidence_ids": [
+        "E-FOOD-MENU-14",
+        "E-FOOD-MENU-14-AX",
+        "E-FOOD-MENU-15",
+        "E-FOOD-MENU-15-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-SANDWICH",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+      "control": "SANDWICH",
+      "input_summary": "AX36 #Sandwich",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:40:46.022Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+          "target_state_id": "S-FOOD-OCT3-SANDWICH",
+          "intermediate_state_ids": [],
+          "input": "AX36 #Sandwich",
+          "observed_feedback": "Select Sandwich tag -> SANDWICH",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-15",
+            "E-FOOD-MENU-15-AX",
+            "E-FOOD-MENU-16",
+            "E-FOOD-MENU-16-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-SANDWICH",
+      "evidence_ids": [
+        "E-FOOD-MENU-15",
+        "E-FOOD-MENU-15-AX",
+        "E-FOOD-MENU-16",
+        "E-FOOD-MENU-16-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-SANDWICH-BACK",
+      "from_state_id": "S-FOOD-OCT3-SANDWICH",
+      "control": "SANDWICH-BACK",
+      "input_summary": "AX10 Back",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:40:55.814Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-SANDWICH",
+          "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "intermediate_state_ids": [],
+          "input": "AX10 Back",
+          "observed_feedback": "Sandwich Search Back -> BLOCKY-DETAIL top viewport; prior lower scroll position not retained in this sample",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-16",
+            "E-FOOD-MENU-16-AX",
+            "E-FOOD-MENU-17",
+            "E-FOOD-MENU-17-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "evidence_ids": [
+        "E-FOOD-MENU-16",
+        "E-FOOD-MENU-16-AX",
+        "E-FOOD-MENU-17",
+        "E-FOOD-MENU-17-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
+    },
+    {
+      "id": "A-FOOD-OCT3-MENU-BLOCKY-BACK",
+      "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+      "control": "BLOCKY-BACK",
+      "input_summary": "AX10 Back",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+          "at": "2026-10-03T06:41:00.574Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+          "target_state_id": "S-FOOD-OCT3-LIST",
+          "intermediate_state_ids": [],
+          "input": "AX10 Back",
+          "observed_feedback": "Block Y detail Back -> LIST",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-FOOD-MENU-17",
+            "E-FOOD-MENU-17-AX",
+            "E-FOOD-MENU-18",
+            "E-FOOD-MENU-18-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-OCT3-LIST",
+      "evidence_ids": [
+        "E-FOOD-MENU-17",
+        "E-FOOD-MENU-17-AX",
+        "E-FOOD-MENU-18",
+        "E-FOOD-MENU-18-AX"
+      ],
+      "return_path": "Actual finite caller chain in input trace; Coffee/Sandwich retain BlockY caller; LibCafe returns Coffee; map returns detail",
+      "authorization": "Ordinary public navigation/display/scroll; no calls/orders/location/credentials",
+      "blockers": [],
+      "verification_boundary": "Only current observed venue/tag/map context and one zoom pair; full UI not verified."
     }
   ],
   "evidence": [
@@ -70822,6 +71905,964 @@
         "A-FOOD-OCT3-BACK-HOME"
       ],
       "source": "Derived from actual saved public native captures and reviewed leaves"
+    },
+    {
+      "id": "E-FOOD-MENU-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/00-entry.png",
+      "sha256": "a218a4adbabf6482e97d0b0dda4ec02c942f0d30f9b4439fe83e7b7e446d4166",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-OPEN"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-00-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/00-entry.safe-ax.txt",
+      "sha256": "f8276fc3fb1503b82f34494db9b83d602b938ad72e18d8e76f72bfc0b74ce5e7",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-OPEN"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/01-block-y-menu.png",
+      "sha256": "cb7f63a584caa9e8c900ed2562ea7d60f69f81b2644be839cdf8e2a1e8b16e57",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-01-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/01-block-y-menu.safe-ax.txt",
+      "sha256": "bb2eae7a1812d70c86a06919088234aa92ccadf6b9bc9f6d780267427f923aa4",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/02-block-y-image.png",
+      "sha256": "1397ab9e19b09db7391b980308884582265a7914878c9e13f9163425f468abe6",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-IMAGE"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-IMAGE-OPEN"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-02-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/02-block-y-image.safe-ax.txt",
+      "sha256": "4603622902db8db72ae4eb77ec85f884fec1b79714801527a18d41c015ed214b",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-IMAGE"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-IMAGE-OPEN"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/03-image-return.png",
+      "sha256": "46f8078ba0ca1e352899b3b728129fbf8fecfbe7606de82a678d4a06441b698e",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-IMAGE-CLOSE"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-03-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/03-image-return.safe-ax.txt",
+      "sha256": "bb2eae7a1812d70c86a06919088234aa92ccadf6b9bc9f6d780267427f923aa4",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-IMAGE-CLOSE"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/04-coffee-tag.png",
+      "sha256": "7d7de82c292305e2edaed5eccb4ad7101a8e25987f79c6153b00efa127c25654",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-COFFEE"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-COFFEE"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-04-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/04-coffee-tag.safe-ax.txt",
+      "sha256": "56aeb75da0bb7f99fe892e32818f9fb660b11f724c55c5763995f419d12bd28a",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-COFFEE"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-COFFEE"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/05-lib-cafe-detail.png",
+      "sha256": "a47def0b5def8e33b168e66796d02b8ea59fa8d7426607a3f5d9b626f2bb4d4d",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIBCAFE-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-OPEN"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-05-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/05-lib-cafe-detail.safe-ax.txt",
+      "sha256": "3867feb0d28bfc9593d3a4b7a9e27403269ca6f433914d4c2b320d02e6aad09d",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIBCAFE-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-OPEN"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/06-lib-cafe-map.png",
+      "sha256": "4c5ddfad3dca2a3f3c9b6f525027c1d6136d8ef920fc952a55d60e52db64ec12",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIBCAFE-MAP"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-06-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/06-lib-cafe-map.safe-ax.txt",
+      "sha256": "96aa4b2a9e3362dc48bb7083131634878881a3725c649e26c2ac1f81aa43a17f",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIBCAFE-MAP"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/07-lib-map-return.png",
+      "sha256": "40bedd3407fd568b63df44968bdeac07e4f512df2c1bd99fcf9d0015e4985157",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIBCAFE-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-07-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/07-lib-map-return.safe-ax.txt",
+      "sha256": "3867feb0d28bfc9593d3a4b7a9e27403269ca6f433914d4c2b320d02e6aad09d",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIBCAFE-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/08-coffee-results-return.png",
+      "sha256": "8d0ac9794e04c9c0cfb437bf5afc4b14a79d4276e90b1e58b32697b2ca84e730",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-COFFEE"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-BACK"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-08-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/08-coffee-results-return.safe-ax.txt",
+      "sha256": "56aeb75da0bb7f99fe892e32818f9fb660b11f724c55c5763995f419d12bd28a",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-COFFEE"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-LIBCAFE-BACK"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/09-block-y-tag-return.png",
+      "sha256": "cd58a6259386567a07b81ce6d2a7222789d3938ad79e8e707234facdd7d75fdd",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-COFFEE-BACK"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-09-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/09-block-y-tag-return.safe-ax.txt",
+      "sha256": "bb2eae7a1812d70c86a06919088234aa92ccadf6b9bc9f6d780267427f923aa4",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-COFFEE-BACK"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/10-block-y-detail-lower.png",
+      "sha256": "a463113df283a8f566f3afe5092306bbdbe568fba5da39c34482c6ca7e609cdb",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-LOWER"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-DETAIL-SCROLL"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-10-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/10-block-y-detail-lower.safe-ax.txt",
+      "sha256": "bb2eae7a1812d70c86a06919088234aa92ccadf6b9bc9f6d780267427f923aa4",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-LOWER"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-DETAIL-SCROLL"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/11-block-y-map.png",
+      "sha256": "4b5e79eaf9aefb3ad117995a792edddb24aa0118bef807985bd04f217f659cdb",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-LOADING"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-11-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/11-block-y-map.safe-ax.txt",
+      "sha256": "39a73af16d01099276886c736090f99ba90042c681b99a60fcd12f7606826c27",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-LOADING"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-12",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/12-block-y-map-settled.png",
+      "sha256": "90e463275fc007a9a591c09016e009fc7e5a2430e4a364fc3a3e1939e297f656",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP"
+      ],
+      "action_ids": [],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-12-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/12-block-y-map-settled.safe-ax.txt",
+      "sha256": "4254d67de8db66d1429c553ee9211e89bed72c91edc5a91d93c01022e50a362e",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-FOOD-MENU-13",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/13-block-y-map-zoom.png",
+      "sha256": "3114f7ac4619bbe622bf6a50bfaa6f010beb2134994a621a3fdfd5dd74a7e6d1",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-ZOOM"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-MAP-IN"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-13-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/13-block-y-map-zoom.safe-ax.txt",
+      "sha256": "4254d67de8db66d1429c553ee9211e89bed72c91edc5a91d93c01022e50a362e",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-ZOOM"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-MAP-IN"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-14",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/14-block-y-map-out.png",
+      "sha256": "90d3145a7ca92187c27c35479a25b0575da7379156e985ead50addffe06fefff",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-OUT"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-MAP-OUT"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-14-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/14-block-y-map-out.safe-ax.txt",
+      "sha256": "4254d67de8db66d1429c553ee9211e89bed72c91edc5a91d93c01022e50a362e",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-OUT"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-MAP-OUT"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-15",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/15-block-y-map-return.png",
+      "sha256": "3505ed576b0968df6b68ad0df347115396f55b8f8835198e83682ffd803fd744",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-LOWER"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-15-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/15-block-y-map-return.safe-ax.txt",
+      "sha256": "bb2eae7a1812d70c86a06919088234aa92ccadf6b9bc9f6d780267427f923aa4",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-LOWER"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-16",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/16-sandwich-tag.png",
+      "sha256": "cf16dbf95ffeaf1d421cd3f0659523575c069602c42ed5dde1a19be9f9aa8fe2",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-SANDWICH"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-SANDWICH"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-16-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/16-sandwich-tag.safe-ax.txt",
+      "sha256": "57a39ce42ef018b97df2368908d2c3e302737b8004b3f88cfdbf1f70b9426ae3",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-SANDWICH"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-SANDWICH"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-17",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/17-sandwich-return.png",
+      "sha256": "33c87166539d758f1f5992b7fb32bf404d7afdfcee3b384e96df5c9c521ac211",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-SANDWICH-BACK"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-17-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/17-sandwich-return.safe-ax.txt",
+      "sha256": "bb2eae7a1812d70c86a06919088234aa92ccadf6b9bc9f6d780267427f923aa4",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-SANDWICH-BACK"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-18",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/18-food-list-return.png",
+      "sha256": "55815c0a76acb1be0a2537d6ea1fac66c8b5785befd68e55c19ab9ea208eded2",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-BACK"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-18-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/18-food-list-return.safe-ax.txt",
+      "sha256": "f8276fc3fb1503b82f34494db9b83d602b938ad72e18d8e76f72bfc0b74ce5e7",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-BACK"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-19",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/19-block-y-repeat.png",
+      "sha256": "2cef922f1fa589e59a984b401d5aef157e259cbe2aaaae66a2602c37393a59f5",
+      "source": "Actual native public screenshot",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS"
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "redaction": "Public venue/search/map; titlebar removed, cursor and halo retained"
+    },
+    {
+      "id": "E-FOOD-MENU-19-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-food-menu-details/19-block-y-repeat.safe-ax.txt",
+      "sha256": "bb2eae7a1812d70c86a06919088234aa92ccadf6b9bc9f6d780267427f923aa4",
+      "source": "Public leaf subset, hidden records not visible proof",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS"
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-menu-details/contact-sheet.png",
+      "sha256": "ec4bc2caf71c2022faa482cc20c5e56413c063e7691353c2a7eedffb1486ffec",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST",
+        "S-FOOD-OCT3-BLOCKY-DETAIL",
+        "S-FOOD-OCT3-BLOCKY-IMAGE",
+        "S-FOOD-OCT3-COFFEE",
+        "S-FOOD-OCT3-LIBCAFE-DETAIL",
+        "S-FOOD-OCT3-LIBCAFE-MAP",
+        "S-FOOD-OCT3-BLOCKY-LOWER",
+        "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+        "S-FOOD-OCT3-BLOCKY-MAP",
+        "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+        "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+        "S-FOOD-OCT3-SANDWICH"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-OPEN",
+        "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS",
+        "A-FOOD-OCT3-MENU-IMAGE-OPEN",
+        "A-FOOD-OCT3-MENU-IMAGE-CLOSE",
+        "A-FOOD-OCT3-MENU-COFFEE",
+        "A-FOOD-OCT3-MENU-LIBCAFE-OPEN",
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN",
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK",
+        "A-FOOD-OCT3-MENU-LIBCAFE-BACK",
+        "A-FOOD-OCT3-MENU-COFFEE-BACK",
+        "A-FOOD-OCT3-MENU-DETAIL-SCROLL",
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN",
+        "A-FOOD-OCT3-MENU-MAP-IN",
+        "A-FOOD-OCT3-MENU-MAP-OUT",
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK",
+        "A-FOOD-OCT3-MENU-SANDWICH",
+        "A-FOOD-OCT3-MENU-SANDWICH-BACK",
+        "A-FOOD-OCT3-MENU-BLOCKY-BACK"
+      ],
+      "source": "Derived from actual saved native samples",
+      "dimensions": [
+        1152,
+        2192
+      ]
+    },
+    {
+      "id": "E-FOOD-MENU-TRACE",
+      "type": "observation_trace",
+      "path": "../../evidence/2026-10-03-food-menu-details/input-trace.json",
+      "sha256": "8d5adbba8e0bb23c39d5e96695f86388c10e95ccd20b6eb51ba4052f1583e739",
+      "session_id": "SESSION-20261003-FOOD-MENU-DETAIL",
+      "state_ids": [
+        "S-FOOD-OCT3-LIST",
+        "S-FOOD-OCT3-BLOCKY-DETAIL",
+        "S-FOOD-OCT3-BLOCKY-IMAGE",
+        "S-FOOD-OCT3-COFFEE",
+        "S-FOOD-OCT3-LIBCAFE-DETAIL",
+        "S-FOOD-OCT3-LIBCAFE-MAP",
+        "S-FOOD-OCT3-BLOCKY-LOWER",
+        "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+        "S-FOOD-OCT3-BLOCKY-MAP",
+        "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+        "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+        "S-FOOD-OCT3-SANDWICH"
+      ],
+      "action_ids": [
+        "A-FOOD-OCT3-MENU-OPEN",
+        "A-FOOD-OCT3-MENU-BLOCKY-ELLIPSIS",
+        "A-FOOD-OCT3-MENU-IMAGE-OPEN",
+        "A-FOOD-OCT3-MENU-IMAGE-CLOSE",
+        "A-FOOD-OCT3-MENU-COFFEE",
+        "A-FOOD-OCT3-MENU-LIBCAFE-OPEN",
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-OPEN",
+        "A-FOOD-OCT3-MENU-LIBCAFE-MAP-BACK",
+        "A-FOOD-OCT3-MENU-LIBCAFE-BACK",
+        "A-FOOD-OCT3-MENU-COFFEE-BACK",
+        "A-FOOD-OCT3-MENU-DETAIL-SCROLL",
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-OPEN",
+        "A-FOOD-OCT3-MENU-MAP-IN",
+        "A-FOOD-OCT3-MENU-MAP-OUT",
+        "A-FOOD-OCT3-MENU-BLOCKY-MAP-BACK",
+        "A-FOOD-OCT3-MENU-SANDWICH",
+        "A-FOOD-OCT3-MENU-SANDWICH-BACK",
+        "A-FOOD-OCT3-MENU-BLOCKY-BACK"
+      ],
+      "source": "Derived from actual saved native samples"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-blocky-detail.png",
+      "sha256": "06c4f494cd32da113232f69067a268468b66ee8f5bc38c1f8ce3583d64778d02",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-blocky-lower.png",
+      "sha256": "30a013f2b65ab76fc4b0ab7a57041168fa46fbd1f7917254e380ed23137c7d96",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-LOWER"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-libcafe-detail.png",
+      "sha256": "4b2eb828fe2cbe979dfab5543fe2f17972ac56613d97a601440f4b4d4847d929",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-LIBCAFE-DETAIL"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-blocky-image.png",
+      "sha256": "1fadb315a4a81350576441258df73f35913d89b7020abb601fb53f1580320f95",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-IMAGE"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-coffee.png",
+      "sha256": "7ce8d775b0880a800f81c94c994793f557a198069eb02efad5d5396b8a036d3c",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-COFFEE"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-sandwich.png",
+      "sha256": "9bf5e4f2ad26d1194b0cbd94fe91741eb830a107c6edbeeeb7a2ce1e0b04add8",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-SANDWICH"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-06",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-libcafe-map.png",
+      "sha256": "75b7153fee62b41c00020e8594ba9bd2e190e987ef38c10885d0c797893870c6",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-LIBCAFE-MAP"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-07",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-blocky-map.png",
+      "sha256": "bc5a637a209fb6f7142832fa19d5a5577f81d3690c07b6d7dffedd4a35233ba1",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-08",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-blocky-map-zoom.png",
+      "sha256": "748b646080f82bcb4c185e317e93b2a575fc11ae4a71d66c9cf4990d28036e58",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-ZOOM"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-09",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-blocky-map-out.png",
+      "sha256": "099d1b9a05095cdcc02bbab4462fa883ed06d789eb0eab7b3694026f59804fa9",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-OUT"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-10",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/food-oct3-blocky-map-loading.png",
+      "sha256": "bac4e234da18b618270d260db2f1b055ee007b4ff9e2924fcc0f419da1510e89",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-MAP-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Local sharp rendering of editable SVG; NOT Figma or native UI screenshot",
+      "redaction": "Only public venue/map content; no private Home/account fields"
+    },
+    {
+      "id": "E-FOOD-OCT3-SOURCE-11",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-food-detail-source-renders/contact-sheet.png",
+      "sha256": "c7c21c81e7e415fb2f0d0cc6d4bd22a7b899c1879d25396d9445f2ee1238aefb",
+      "dimensions": [
+        1380,
+        1536
+      ],
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-OCT3-BLOCKY-DETAIL",
+        "S-FOOD-OCT3-BLOCKY-LOWER",
+        "S-FOOD-OCT3-LIBCAFE-DETAIL",
+        "S-FOOD-OCT3-BLOCKY-IMAGE",
+        "S-FOOD-OCT3-COFFEE",
+        "S-FOOD-OCT3-SANDWICH",
+        "S-FOOD-OCT3-LIBCAFE-MAP",
+        "S-FOOD-OCT3-BLOCKY-MAP",
+        "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+        "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+        "S-FOOD-OCT3-BLOCKY-MAP-LOADING"
+      ],
+      "action_ids": [],
+      "source": "11 local SVG renders, not Figma",
+      "redaction": "Only public venue/map content; no private Home/account fields"
     }
   ],
   "findings": [
@@ -125397,7 +127438,201 @@
       "E-NOTICE-SEARCH-EDITOR-FLOW-UPDATED"
     ],
     "latest_editor_verified_at": "2026-10-03T06:00:10.462Z",
-    "unimported_design_sources": [],
+    "unimported_design_sources": [
+      {
+        "state_id": "S-FOOD-OCT3-BLOCKY-DETAIL",
+        "design_source_path": "../../design/polyulife/food-oct3-blocky-detail.svg",
+        "design_source_sha256": "e3290bff55b39b7785ed506dcc90f76e850e1c00e0e5a43c48ff74ae98e2851e",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-01",
+          "E-FOOD-MENU-03",
+          "E-FOOD-MENU-09",
+          "E-FOOD-MENU-17",
+          "E-FOOD-MENU-19"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-00",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-BLOCKY-LOWER",
+        "design_source_path": "../../design/polyulife/food-oct3-blocky-lower.svg",
+        "design_source_sha256": "69e0e8434a83cb24e5bea8c961d80d9a518c1338e9310bbffb5a1d0af33da615",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-10",
+          "E-FOOD-MENU-15"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-01",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-LIBCAFE-DETAIL",
+        "design_source_path": "../../design/polyulife/food-oct3-libcafe-detail.svg",
+        "design_source_sha256": "8b4af6a83b9dc1594e10f7ac20c03557d0a5a7b317328f1be044e9dd07867096",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-05",
+          "E-FOOD-MENU-07"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-02",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-BLOCKY-IMAGE",
+        "design_source_path": "../../design/polyulife/food-oct3-blocky-image.svg",
+        "design_source_sha256": "1b100e28677bb87a7b0d35d42d1492d2cff38f16dc0c06f1b149523b596cf0b6",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-02"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-03",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-COFFEE",
+        "design_source_path": "../../design/polyulife/food-oct3-coffee.svg",
+        "design_source_sha256": "b91c5c11c94196bca5a376b8ed8b35266c4254fd154783dbb92c1bd0efe5aff1",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-04"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-04",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-SANDWICH",
+        "design_source_path": "../../design/polyulife/food-oct3-sandwich.svg",
+        "design_source_sha256": "f159f96c6513556b6917a42791d85eba9f94424d8b6a31217993e5f4ddb1765c",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-16"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-05",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+        "design_source_path": "../../design/polyulife/food-oct3-libcafe-map.svg",
+        "design_source_sha256": "ac7558ab23e72c9a1e9a5f6d4be170df671cbad1484dbb7c2a9f77a1994e8c7b",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-06"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-06",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+        "design_source_path": "../../design/polyulife/food-oct3-blocky-map.svg",
+        "design_source_sha256": "978a0d400358be6010b232d6bb73708c965bb05f645e64863ee890b0ed027d09",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-12"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-07",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+        "design_source_path": "../../design/polyulife/food-oct3-blocky-map-zoom.svg",
+        "design_source_sha256": "bbc911cd29172c022d8fee97fd3af7d895db6cee9d992cc9f28665467ced31d8",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-13"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-08",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+        "design_source_path": "../../design/polyulife/food-oct3-blocky-map-out.svg",
+        "design_source_sha256": "2ae79ace9b5e014279c53f27a647c18508f7effdf15084b4743984596feb171b",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-14"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-09",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      },
+      {
+        "state_id": "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+        "design_source_path": "../../design/polyulife/food-oct3-blocky-map-loading.svg",
+        "design_source_sha256": "fe37c80f034e18727ba5484a1734f0fb4e2418177b0462d851ba35ecc10fcfd6",
+        "status": "prepared_not_imported_not_connected_not_replayed",
+        "source_evidence_ids": [
+          "E-FOOD-MENU-11"
+        ],
+        "local_render_evidence_id": "E-FOOD-OCT3-SOURCE-10",
+        "preparation_context": "October3 Food venue detail/tag/map; preserve historical callers",
+        "limitations": [
+          "Local sources only; no Figma mutations or mappings.",
+          "Two detail viewports approximate finite observed positions; continuous scroll still needs configuration and replay.",
+          "Map/button graphics within geography crops are raster. Location/Google handoff unconfigured.",
+          "Tags other than Coffee/Sandwich unobserved; same-name rows not conflated."
+        ]
+      }
+    ],
     "reference_flow_naming": {
       "previous_name": "Flow 1",
       "current_name": "Room · Available slots reference",
@@ -129159,12 +131394,24 @@
         "S-FOOD-OCT3-VA210-HOURS",
         "S-FOOD-OCT3-MACHINES",
         "S-FOOD-OCT3-BOTTOM",
-        "S-FOOD-OCT3-GOURMET-HOURS"
+        "S-FOOD-OCT3-GOURMET-HOURS",
+        "S-FOOD-OCT3-BLOCKY-DETAIL",
+        "S-FOOD-OCT3-BLOCKY-IMAGE",
+        "S-FOOD-OCT3-COFFEE",
+        "S-FOOD-OCT3-LIBCAFE-DETAIL",
+        "S-FOOD-OCT3-LIBCAFE-MAP",
+        "S-FOOD-OCT3-BLOCKY-LOWER",
+        "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+        "S-FOOD-OCT3-BLOCKY-MAP",
+        "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+        "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+        "S-FOOD-OCT3-SANDWICH"
       ],
-      "reason": "28 visible-backed public rows, including5 VA210 and2 Block R same-title records; use source logos/tags and catalogue order to distinguish. Independent details, ellipsis menus, tags, hours for remaining venues and order handoff not verified. Existing historical data/Closed H Café not replaced.",
+      "reason": "28 visible-backed public rows, including5 VA210 and2 Block R same-title records; use source logos/tags and catalogue order to distinguish. Independent details, ellipsis menus, tags, hours for remaining venues and order handoff not verified. Existing historical data/Closed H Café not replaced. BlockY ellipsis/detail/image close, Coffee/Sandwich caller loops, LibCafe detail/map and BlockY map loading/zoom pair now observed. Other5 BlockY tags interrupted by lock; other27-row individual controls and new Figma reconstruction still pending.",
       "status": "in_progress",
       "resolution_refs": [
-        "E-FOOD-REV-CATALOGUE"
+        "E-FOOD-REV-CATALOGUE",
+        "E-FOOD-MENU-TRACE"
       ],
       "catalogue_path": "../../evidence/2026-10-03-food-reverse-controls/venue-catalogue.json"
     }
