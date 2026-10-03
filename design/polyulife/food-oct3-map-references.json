@@ -1,0 +1,385 @@
+{
+  "references": [
+    {
+      "state_id": "S-FOOD-OCT3-LIBCAFE-MAP",
+      "node_id": "949:308",
+      "node_name": "[FOOD-OCT3:LIBCAFE-MAP] LibCafé — map",
+      "design_source_path": "food-oct3-libcafe-map.svg",
+      "design_source_sha256": "ac7558ab23e72c9a1e9a5f6d4be170df671cbad1484dbb7c2a9f77a1994e8c7b",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-06"
+      ],
+      "canvas_position": [
+        3500,
+        88000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "actual_independent_reference_displayed_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · LibCafé — map — archived viewport",
+        "start_node_id": "949:308",
+        "description": "Independent reference of S-FOOD-OCT3-LIBCAFE-MAP, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-308&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A308&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-MAP-REF-00",
+        "E-FOOD-MAP-REF-01",
+        "E-FOOD-MAP-REF-02",
+        "E-FOOD-MAP-REF-04",
+        "E-FOOD-MAP-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-MAP-REF-LIBCAFE-MAP-001"
+      ],
+      "title_Text": {
+        "node_id": "949:317",
+        "typography": "Inter Regular27px"
+      },
+      "image_layer": {
+        "node_id": "949:311",
+        "position": [
+          0,
+          100
+        ],
+        "dimensions": [
+          576,
+          924
+        ],
+        "fill": "Image",
+        "asset": {
+          "file": "assets/food-oct3-libcafe-map.png",
+          "source_file": "06-lib-cafe-map.png",
+          "source_evidence_id": "E-FOOD-MENU-06",
+          "crop_xyxy": [
+            0,
+            100,
+            576,
+            1024
+          ],
+          "sha256": "d25d05fe06e01d4de382e7559d5494a0bb7b0b2436fa44e3d72581135f84e59e",
+          "dimensions": [
+            576,
+            924
+          ],
+          "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+        }
+      }
+    },
+    {
+      "state_id": "S-FOOD-OCT3-BLOCKY-MAP",
+      "node_id": "949:378",
+      "node_name": "[FOOD-OCT3:BLOCKY-MAP] Block Y — observed map",
+      "design_source_path": "food-oct3-blocky-map.svg",
+      "design_source_sha256": "978a0d400358be6010b232d6bb73708c965bb05f645e64863ee890b0ed027d09",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-12"
+      ],
+      "canvas_position": [
+        1400,
+        90000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "actual_independent_reference_displayed_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · Block Y — observed map — archived viewport",
+        "start_node_id": "949:378",
+        "description": "Independent reference of S-FOOD-OCT3-BLOCKY-MAP, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-378&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A378&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-MAP-REF-05",
+        "E-FOOD-MAP-REF-06",
+        "E-FOOD-MAP-REF-07",
+        "E-FOOD-MAP-REF-08",
+        "E-FOOD-MAP-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-MAP-REF-BLOCKY-MAP-001"
+      ],
+      "title_Text": {
+        "node_id": "949:387",
+        "typography": "Inter Regular27px"
+      },
+      "image_layer": {
+        "node_id": "949:381",
+        "position": [
+          0,
+          100
+        ],
+        "dimensions": [
+          576,
+          924
+        ],
+        "fill": "Image",
+        "asset": {
+          "file": "assets/food-oct3-blocky-map.png",
+          "source_file": "12-block-y-map-settled.png",
+          "source_evidence_id": "E-FOOD-MENU-12",
+          "crop_xyxy": [
+            0,
+            100,
+            576,
+            1024
+          ],
+          "sha256": "b2913dcf14d65db7857c6cb30bab2f4c1501139587c8a7d3276b898882eebb64",
+          "dimensions": [
+            576,
+            924
+          ],
+          "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+        }
+      }
+    },
+    {
+      "state_id": "S-FOOD-OCT3-BLOCKY-MAP-ZOOM",
+      "node_id": "949:389",
+      "node_name": "[FOOD-OCT3:BLOCKY-MAP-ZOOM] Block Y — observed zoom",
+      "design_source_path": "food-oct3-blocky-map-zoom.svg",
+      "design_source_sha256": "bbc911cd29172c022d8fee97fd3af7d895db6cee9d992cc9f28665467ced31d8",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-13"
+      ],
+      "canvas_position": [
+        2100,
+        90000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "actual_independent_reference_displayed_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · Block Y — observed zoom — archived viewport",
+        "start_node_id": "949:389",
+        "description": "Independent reference of S-FOOD-OCT3-BLOCKY-MAP-ZOOM, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-389&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A389&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-MAP-REF-10",
+        "E-FOOD-MAP-REF-11",
+        "E-FOOD-MAP-REF-12",
+        "E-FOOD-MAP-REF-13",
+        "E-FOOD-MAP-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-MAP-REF-BLOCKY-MAP-ZOOM-001"
+      ],
+      "title_Text": {
+        "node_id": "949:398",
+        "typography": "Inter Regular27px"
+      },
+      "image_layer": {
+        "node_id": "949:392",
+        "position": [
+          0,
+          100
+        ],
+        "dimensions": [
+          576,
+          924
+        ],
+        "fill": "Image",
+        "asset": {
+          "file": "assets/food-oct3-blocky-map-zoom.png",
+          "source_file": "13-block-y-map-zoom.png",
+          "source_evidence_id": "E-FOOD-MENU-13",
+          "crop_xyxy": [
+            0,
+            100,
+            576,
+            1024
+          ],
+          "sha256": "e77c53c59e9418b63d089d0e69fe97c1fb9f5737b7bd5e06ca9c72edd99a60c4",
+          "dimensions": [
+            576,
+            924
+          ],
+          "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+        }
+      }
+    },
+    {
+      "state_id": "S-FOOD-OCT3-BLOCKY-MAP-OUT",
+      "node_id": "949:400",
+      "node_name": "[FOOD-OCT3:BLOCKY-MAP-OUT] Block Y — observed zoom out",
+      "design_source_path": "food-oct3-blocky-map-out.svg",
+      "design_source_sha256": "2ae79ace9b5e014279c53f27a647c18508f7effdf15084b4743984596feb171b",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-14"
+      ],
+      "canvas_position": [
+        2800,
+        90000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "actual_independent_reference_displayed_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · Block Y — observed zoom out — archived viewport",
+        "start_node_id": "949:400",
+        "description": "Independent reference of S-FOOD-OCT3-BLOCKY-MAP-OUT, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-400&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A400&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-MAP-REF-15",
+        "E-FOOD-MAP-REF-16",
+        "E-FOOD-MAP-REF-17",
+        "E-FOOD-MAP-REF-18",
+        "E-FOOD-MAP-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-MAP-REF-BLOCKY-MAP-OUT-001"
+      ],
+      "title_Text": {
+        "node_id": "949:409",
+        "typography": "Inter Regular27px"
+      },
+      "image_layer": {
+        "node_id": "949:403",
+        "position": [
+          0,
+          100
+        ],
+        "dimensions": [
+          576,
+          924
+        ],
+        "fill": "Image",
+        "asset": {
+          "file": "assets/food-oct3-blocky-map-out.png",
+          "source_file": "14-block-y-map-out.png",
+          "source_evidence_id": "E-FOOD-MENU-14",
+          "crop_xyxy": [
+            0,
+            100,
+            576,
+            1024
+          ],
+          "sha256": "f4d076de7b7d62b28253586baf905e91b670b53e07c7beaf48c37cd08a6cf52d",
+          "dimensions": [
+            576,
+            924
+          ],
+          "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+        }
+      }
+    },
+    {
+      "state_id": "S-FOOD-OCT3-BLOCKY-MAP-LOADING",
+      "node_id": "949:366",
+      "node_name": "[FOOD-OCT3:BLOCKY-MAP-LOADING] Block Y — map pending",
+      "design_source_path": "food-oct3-blocky-map-loading.svg",
+      "design_source_sha256": "fe37c80f034e18727ba5484a1734f0fb4e2418177b0462d851ba35ecc10fcfd6",
+      "source_evidence_ids": [
+        "E-FOOD-MENU-11"
+      ],
+      "canvas_position": [
+        700,
+        90000
+      ],
+      "dimensions": [
+        576,
+        1024
+      ],
+      "status": "actual_independent_reference_displayed_navigation_unconfigured",
+      "flow": {
+        "name": "Reference · Block Y — map pending — archived viewport",
+        "start_node_id": "949:366",
+        "description": "Independent reference of S-FOOD-OCT3-BLOCKY-MAP-LOADING, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+        "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-366&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A366&show-proto-sidebar=1"
+      },
+      "editor_evidence_ids": [
+        "E-FOOD-MAP-REF-20",
+        "E-FOOD-MAP-REF-21",
+        "E-FOOD-MAP-REF-22",
+        "E-FOOD-MAP-REF-23",
+        "E-FOOD-MAP-REF-READBACK"
+      ],
+      "prototype_run_ids": [
+        "PROTO-FOOD-OCT3-MAP-REF-BLOCKY-MAP-LOADING-001"
+      ],
+      "title_Text": {
+        "node_id": "949:376",
+        "typography": "Inter Regular27px"
+      },
+      "image_layer": {
+        "node_id": "949:370",
+        "position": [
+          265,
+          100
+        ],
+        "dimensions": [
+          50,
+          51
+        ],
+        "fill": "Image",
+        "asset": {
+          "file": "assets/food-oct3-blocky-map-loading.png",
+          "source_file": "11-block-y-map.png",
+          "source_evidence_id": "E-FOOD-MENU-11",
+          "crop_xyxy": [
+            265,
+            100,
+            315,
+            151
+          ],
+          "sha256": "0a7c87be7adf70efdc72ee2f720eb1b3305eb74289f87bac1184cf24529d5b3d",
+          "dimensions": [
+            50,
+            51
+          ],
+          "limits": "Public logo/map crop only; raster geography/callouts/attribution retained. Cursor may remain in map crops."
+        }
+      }
+    }
+  ],
+  "revision_id": "FIGMA-FOOD-OCT3-MAP-REFERENCE-20261003",
+  "prototype_run_ids": [
+    "PROTO-FOOD-OCT3-MAP-REF-LIBCAFE-MAP-001",
+    "PROTO-FOOD-OCT3-MAP-REF-BLOCKY-MAP-001",
+    "PROTO-FOOD-OCT3-MAP-REF-BLOCKY-MAP-ZOOM-001",
+    "PROTO-FOOD-OCT3-MAP-REF-BLOCKY-MAP-OUT-001",
+    "PROTO-FOOD-OCT3-MAP-REF-BLOCKY-MAP-LOADING-001"
+  ],
+  "editor_evidence_ids": [
+    "E-FOOD-MAP-REF-00",
+    "E-FOOD-MAP-REF-01",
+    "E-FOOD-MAP-REF-02",
+    "E-FOOD-MAP-REF-04",
+    "E-FOOD-MAP-REF-05",
+    "E-FOOD-MAP-REF-06",
+    "E-FOOD-MAP-REF-07",
+    "E-FOOD-MAP-REF-08",
+    "E-FOOD-MAP-REF-10",
+    "E-FOOD-MAP-REF-11",
+    "E-FOOD-MAP-REF-12",
+    "E-FOOD-MAP-REF-13",
+    "E-FOOD-MAP-REF-15",
+    "E-FOOD-MAP-REF-16",
+    "E-FOOD-MAP-REF-17",
+    "E-FOOD-MAP-REF-18",
+    "E-FOOD-MAP-REF-20",
+    "E-FOOD-MAP-REF-21",
+    "E-FOOD-MAP-REF-22",
+    "E-FOOD-MAP-REF-23",
+    "E-FOOD-MAP-REF-READBACK"
+  ],
+  "limitations": [
+    "Five existing imported map roots independently referenced and displayed twice: LibCafe, BlockY initial, increment sample, decrement sample and map loading. Independent starts do not implement caller/Back, zoom or automatic loading journeys.",
+    "Actual five independent Header Texts Inter Regular27px selected. Four geography Image Rectangles0,100,576x924; loading mark265,100,50x51; Image fills present. Raster labels/pins/control appearance are not separate interactive controls.",
+    "Existing SVGs/assets unchanged and no image reupload needed in this finite sample. Geography/callouts/Google attribution and captured cursor artifacts retained; no live map, pan, current location, complete zoom bounds or native input proxy implemented.",
+    "Five first/reopen full-app crops compare equal. This verifies finite reference display only, not native reentry persistence, map transitions, exact fonts/geometry or future image reliability.",
+    "Last tool preview showed black; saved raw file is JPEG despite.png suffix, body center242,242,242 and appcrop mean about241; equals first loading sample. Public images converted to real RGB PNG. Encoding/preview cause not isolated, not reported as Figma black screen.",
+    "Current native Computer Use read still returned Mac locked. No new native session/state/action, business submission or settings change.",
+    "Prior Action navigation dropdown URL-protocol safety refusal unresolved; not retried or bypassed. Independent reference starts, layout/asset/title inspections and Present display are different allowed operations, not alternative wiring.",
+    "Full application/fidelity not_verified; native observation, prototype reference display and human evaluation remain separate."
+  ]
+}

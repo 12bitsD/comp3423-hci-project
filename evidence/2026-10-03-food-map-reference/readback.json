@@ -1,0 +1,691 @@
+{
+  "log": [
+    {
+      "file": "00-libcafe-before.png",
+      "kind": "editor",
+      "note": "Actual existing imported LibCafe map root, before reference configuration",
+      "input": null,
+      "captured_at": "2026-10-03T08:47:39.636Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-308",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"3500\"",
+        "    - spinbutton \"Y-position\": \"88000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "01-libcafe-title.png",
+      "kind": "editor",
+      "note": "Actual independent LibCafe map title Text selected; geometry/font readback",
+      "input": null,
+      "captured_at": "2026-10-03T08:48:21.000Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-317",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"238.5\"",
+        "    - spinbutton \"Y-position\": \"47\"",
+        "      - textbox \"Width\" [disabled]: \"99\"",
+        "      - textbox \"Height\" [disabled]: \"33\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 27 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 27 px\"': \"27\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "02-libcafe-flow.png",
+      "kind": "editor",
+      "note": "Independent archived-map reference title/description/copied URL; no navigation connection added",
+      "input": null,
+      "captured_at": "2026-10-03T08:48:47.177Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-308",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · LibCafé — map — archived viewport",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "03-libcafe-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-LIBCAFE-MAP reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:48:52.980Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-308&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A308"
+    },
+    {
+      "file": "04-libcafe-image.png",
+      "kind": "editor",
+      "note": "Actual geography Image Rectangle selected;0,100,576x924 and Image fill read back",
+      "input": null,
+      "captured_at": "2026-10-03T08:49:15.984Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-311",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"924\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "05-blocky-initial-before.png",
+      "kind": "editor",
+      "note": "Actual existing BlockY initial map root,576x1024 at1400,90000",
+      "input": null,
+      "captured_at": "2026-10-03T08:49:40.849Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-378",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"1400\"",
+        "    - spinbutton \"Y-position\": \"90000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "06-blocky-initial-title.png",
+      "kind": "editor",
+      "note": "Actual independent BlockY initial header Text;27px Inter Regular readback",
+      "input": null,
+      "captured_at": "2026-10-03T08:49:42.285Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-387",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"122\"",
+        "    - spinbutton \"Y-position\": \"47\"",
+        "      - textbox \"Width\" [disabled]: \"332\"",
+        "      - textbox \"Height\" [disabled]: \"33\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 27 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 27 px\"': \"27\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "07-blocky-initial-image.png",
+      "kind": "editor",
+      "note": "Actual initial geography image;0,100,576x924 and Image fill",
+      "input": null,
+      "captured_at": "2026-10-03T08:49:49.875Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-381",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"924\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "08-blocky-initial-flow.png",
+      "kind": "editor",
+      "note": "Independent archived-map reference title/description/copied URL; no navigation connection added",
+      "input": null,
+      "captured_at": "2026-10-03T08:49:58.667Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-378",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Block Y — observed map — archived viewport",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "09-blocky-initial-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-BLOCKY-MAP reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:50:04.215Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-378&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A378"
+    },
+    {
+      "file": "10-blocky-zoom-before.png",
+      "kind": "editor",
+      "note": "Actual existing zoom map root,576x1024 at2100,90000",
+      "input": null,
+      "captured_at": "2026-10-03T08:50:25.956Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-389",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2100\"",
+        "    - spinbutton \"Y-position\": \"90000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "11-blocky-zoom-title.png",
+      "kind": "editor",
+      "note": "Actual independent zoom header Text; Inter Regular27px",
+      "input": null,
+      "captured_at": "2026-10-03T08:50:27.419Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-398",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"122\"",
+        "    - spinbutton \"Y-position\": \"47\"",
+        "      - textbox \"Width\" [disabled]: \"332\"",
+        "      - textbox \"Height\" [disabled]: \"33\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 27 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 27 px\"': \"27\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "12-blocky-zoom-image.png",
+      "kind": "editor",
+      "note": "Actual zoom geography image;0,100,576x924 and Image fill",
+      "input": null,
+      "captured_at": "2026-10-03T08:50:34.095Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-392",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"924\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "13-blocky-zoom-flow.png",
+      "kind": "editor",
+      "note": "Independent archived-map reference title/description/copied URL; no navigation connection added",
+      "input": null,
+      "captured_at": "2026-10-03T08:50:43.179Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-389",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Block Y — observed zoom — archived viewport",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "14-blocky-zoom-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-BLOCKY-MAP-ZOOM reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:50:48.236Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-389&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A389"
+    },
+    {
+      "file": "15-blocky-out-before.png",
+      "kind": "editor",
+      "note": "Actual existing zoom-out map root,576x1024 at2800,90000",
+      "input": null,
+      "captured_at": "2026-10-03T08:51:04.495Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-400",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"2800\"",
+        "    - spinbutton \"Y-position\": \"90000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "16-blocky-out-title.png",
+      "kind": "editor",
+      "note": "Actual independent zoom-out header Text; Inter Regular27px",
+      "input": null,
+      "captured_at": "2026-10-03T08:51:05.894Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-409",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"122\"",
+        "    - spinbutton \"Y-position\": \"47\"",
+        "      - textbox \"Width\" [disabled]: \"332\"",
+        "      - textbox \"Height\" [disabled]: \"33\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 27 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 27 px\"': \"27\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "17-blocky-out-image.png",
+      "kind": "editor",
+      "note": "Actual zoom-out geography image;0,100,576x924 and Image fill",
+      "input": null,
+      "captured_at": "2026-10-03T08:51:12.935Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-403",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"0\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"924\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "18-blocky-out-flow.png",
+      "kind": "editor",
+      "note": "Independent archived-map reference title/description/copied URL; no navigation connection added",
+      "input": null,
+      "captured_at": "2026-10-03T08:51:21.934Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-400",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Block Y — observed zoom out — archived viewport",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "19-blocky-out-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-BLOCKY-MAP-OUT reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:51:27.303Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-400&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A400"
+    },
+    {
+      "file": "20-blocky-loading-before.png",
+      "kind": "editor",
+      "note": "Actual existing map-loading root,576x1024 at700,90000",
+      "input": null,
+      "captured_at": "2026-10-03T08:51:38.622Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-366",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"700\"",
+        "    - spinbutton \"Y-position\": \"90000\"",
+        "  - group \"Flow\":",
+        "    - generic: Flow",
+        "      - textbox \"Width\": \"576\"",
+        "      - textbox \"Height\": \"1024\"",
+        "  - checkbox \"Clip content\" [checked]",
+        "  - generic: Clip content",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "21-blocky-loading-title.png",
+      "kind": "editor",
+      "note": "Actual independent loading header Text; Inter Regular27px",
+      "input": null,
+      "captured_at": "2026-10-03T08:51:48.489Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-376",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "    - spinbutton \"X-position\": \"122\"",
+        "    - spinbutton \"Y-position\": \"47\"",
+        "      - textbox \"Width\" [disabled]: \"332\"",
+        "      - textbox \"Height\" [disabled]: \"33\"",
+        "  - combobox \"Font family\":",
+        "    - generic: Inter",
+        "    - generic: Regular",
+        "  - 'listbox \"Font size: 27 px\"'",
+        "  - generic \"Font size\":",
+        "    - 'combobox \"Font size: 27 px\"': \"27\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":"
+      ]
+    },
+    {
+      "file": "22-blocky-loading-image.png",
+      "kind": "editor",
+      "note": "Actual LoadingMark image;265,100,50x51 and Image fill",
+      "input": null,
+      "captured_at": "2026-10-03T08:51:55.461Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-370",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Image\" [level=1]",
+        "    - spinbutton \"X-position\": \"265\"",
+        "    - spinbutton \"Y-position\": \"100\"",
+        "      - textbox \"Width\": \"50\"",
+        "      - textbox \"Height\": \"51\"",
+        "  - heading \"Fill\" [level=2]",
+        "  - button \"Fill, Apply styles and variables\":",
+        "    - row \"Image 100 % Toggle visibility Remove\":",
+        "      - gridcell \"Image 100 %\":",
+        "        - button \"Image\":",
+        "          - generic: Image",
+        "  - toolbar \"Image\":"
+      ]
+    },
+    {
+      "file": "23-blocky-loading-flow.png",
+      "kind": "editor",
+      "note": "Independent archived-map reference title/description/copied URL; no navigation connection added",
+      "input": null,
+      "captured_at": "2026-10-03T08:52:04.366Z",
+      "visible_url": "https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%25E2%2580%2594-Observed-UI---Interaction-Atlas?node-id=949-366",
+      "readback": [
+        "    - button \"Assets\":",
+        "      - generic: Assets",
+        "  - button \"PolyULife — Observed UI & Interaction Atlas, file name\": PolyULife — Observed UI & Interaction Atlas",
+        "  - heading \"Flow starting point\" [level=2]",
+        "  - button \"Copy flow link\" [active]:",
+        "  - button \"Remove flow starting point\":",
+        "  - button \"Edit flow title\": Reference · Block Y — map pending — archived viewport",
+        "  - generic: Flow starting point",
+        "  - combobox \"Flow starting point\":",
+        "  - button \"Edit flow description\":",
+        "  - button \"Interactions\":",
+        "    - generic: Interactions",
+        "  - generic: Overflow",
+        "  - combobox \"Overflow\":"
+      ]
+    },
+    {
+      "file": "24-blocky-loading-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-BLOCKY-MAP-LOADING reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:52:09.973Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-366&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A366"
+    },
+    {
+      "file": "25-libcafe-repeat-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-LIBCAFE-MAP reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:52:26.893Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-308&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A308"
+    },
+    {
+      "file": "26-blocky-initial-repeat-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-BLOCKY-MAP reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:52:31.535Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-378&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A378"
+    },
+    {
+      "file": "27-blocky-zoom-repeat-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-BLOCKY-MAP-ZOOM reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:52:36.411Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-389&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A389"
+    },
+    {
+      "file": "28-blocky-out-repeat-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-BLOCKY-MAP-OUT reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:52:41.105Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-400&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A400"
+    },
+    {
+      "file": "29-blocky-loading-repeat-present.png",
+      "kind": "present",
+      "note": "Actual fitted independent S-FOOD-OCT3-BLOCKY-MAP-LOADING reference; static archived geography/loading",
+      "input": null,
+      "captured_at": "2026-10-03T08:52:46.504Z",
+      "visible_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI---Interaction-Atlas?node-id=949-366&scaling=scale-down&content-scaling=fixed&starting-point-node-id=949%3A366"
+    }
+  ],
+  "flows": [
+    {
+      "name": "Reference · LibCafé — map — archived viewport",
+      "start_node_id": "949:308",
+      "description": "Independent reference of S-FOOD-OCT3-LIBCAFE-MAP, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-308&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A308&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Block Y — observed map — archived viewport",
+      "start_node_id": "949:378",
+      "description": "Independent reference of S-FOOD-OCT3-BLOCKY-MAP, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-378&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A378&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Block Y — observed zoom — archived viewport",
+      "start_node_id": "949:389",
+      "description": "Independent reference of S-FOOD-OCT3-BLOCKY-MAP-ZOOM, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-389&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A389&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Block Y — observed zoom out — archived viewport",
+      "start_node_id": "949:400",
+      "description": "Independent reference of S-FOOD-OCT3-BLOCKY-MAP-OUT, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-400&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A400&show-proto-sidebar=1"
+    },
+    {
+      "name": "Reference · Block Y — map pending — archived viewport",
+      "start_node_id": "949:366",
+      "description": "Independent reference of S-FOOD-OCT3-BLOCKY-MAP-LOADING, from archived October3 native evidence. Header title is editable; geography/callouts/attribution (or loading mark) are raster crops. No live map, pan, location, zoom transition, automatic loading transition, Back/caller navigation or new scrolling configured. This independent start does not implement the native interaction journey or establish full zoom bounds/loading time. Any captured cursor remains a source artifact. Fonts/header geometry approximate; full application/fidelity not_verified. Actual Figma reference display is separate from native observation and human evaluation.",
+      "prototype_url": "https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/PolyULife-%E2%80%94-Observed-UI-and-Interaction-Atlas?node-id=949-366&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=949%3A366&show-proto-sidebar=1"
+    }
+  ],
+  "pixel_comparisons": [
+    {
+      "left": "03-libcafe-present.png",
+      "right": "25-libcafe-repeat-present.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "09-blocky-initial-present.png",
+      "right": "26-blocky-initial-repeat-present.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "14-blocky-zoom-present.png",
+      "right": "27-blocky-zoom-repeat-present.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "19-blocky-out-present.png",
+      "right": "28-blocky-out-repeat-present.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    },
+    {
+      "left": "24-blocky-loading-present.png",
+      "right": "29-blocky-loading-repeat-present.png",
+      "app_crop_xyxy": [
+        267,
+        60,
+        623,
+        691
+      ],
+      "equal": true,
+      "difference_bbox": null
+    }
+  ],
+  "preview_conflict": {
+    "sample_file": "29-blocky-loading-repeat-present.png",
+    "raw_signature_hex": "ffd8ffe000104a46",
+    "raw_encoding": "JPEG bytes under.png filename",
+    "body_center_pixel": [
+      242,
+      242,
+      242
+    ],
+    "app_crop_mean": [
+      240.94199504976942,
+      240.79383981196247,
+      240.8098523834114
+    ],
+    "saved_pixels_show_expected_light_loading_body": true,
+    "tool_preview_black_observed": true,
+    "cause": "not_isolated"
+  },
+  "limits": [
+    "Five existing imported map roots independently referenced and displayed twice: LibCafe, BlockY initial, increment sample, decrement sample and map loading. Independent starts do not implement caller/Back, zoom or automatic loading journeys.",
+    "Actual five independent Header Texts Inter Regular27px selected. Four geography Image Rectangles0,100,576x924; loading mark265,100,50x51; Image fills present. Raster labels/pins/control appearance are not separate interactive controls.",
+    "Existing SVGs/assets unchanged and no image reupload needed in this finite sample. Geography/callouts/Google attribution and captured cursor artifacts retained; no live map, pan, current location, complete zoom bounds or native input proxy implemented.",
+    "Five first/reopen full-app crops compare equal. This verifies finite reference display only, not native reentry persistence, map transitions, exact fonts/geometry or future image reliability.",
+    "Last tool preview showed black; saved raw file is JPEG despite.png suffix, body center242,242,242 and appcrop mean about241; equals first loading sample. Public images converted to real RGB PNG. Encoding/preview cause not isolated, not reported as Figma black screen.",
+    "Current native Computer Use read still returned Mac locked. No new native session/state/action, business submission or settings change.",
+    "Prior Action navigation dropdown URL-protocol safety refusal unresolved; not retried or bypassed. Independent reference starts, layout/asset/title inspections and Present display are different allowed operations, not alternative wiring.",
+    "Full application/fidelity not_verified; native observation, prototype reference display and human evaluation remain separate."
+  ]
+}
