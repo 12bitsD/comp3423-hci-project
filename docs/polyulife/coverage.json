@@ -910,6 +910,89 @@
         "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
         "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
       ]
+    },
+    {
+      "id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "started_at": "2026-10-03T02:34:42.279Z",
+      "documented_through": "2026-10-03T02:38:10.759Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac via Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "login_state": "Existing login; no credential input"
+      },
+      "starting_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-00",
+        "E-NOTICE-SEARCH-00-AX",
+        "E-NOTICE-SEARCH-01",
+        "E-NOTICE-SEARCH-01-AX",
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-02-AX",
+        "E-NOTICE-SEARCH-03",
+        "E-NOTICE-SEARCH-03-AX",
+        "E-NOTICE-SEARCH-04",
+        "E-NOTICE-SEARCH-04-AX",
+        "E-NOTICE-SEARCH-05",
+        "E-NOTICE-SEARCH-05-AX",
+        "E-NOTICE-SEARCH-06",
+        "E-NOTICE-SEARCH-06-AX",
+        "E-NOTICE-SEARCH-07",
+        "E-NOTICE-SEARCH-07-AX",
+        "E-NOTICE-SEARCH-08",
+        "E-NOTICE-SEARCH-08-AX",
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-09-AX",
+        "E-NOTICE-SEARCH-10",
+        "E-NOTICE-SEARCH-10-AX",
+        "E-NOTICE-SEARCH-11",
+        "E-NOTICE-SEARCH-11-AX",
+        "E-NOTICE-SEARCH-12",
+        "E-NOTICE-SEARCH-12-AX",
+        "E-NOTICE-SEARCH-13",
+        "E-NOTICE-SEARCH-13-AX",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-14-AX",
+        "E-NOTICE-SEARCH-15",
+        "E-NOTICE-SEARCH-15-AX",
+        "E-NOTICE-SEARCH-16",
+        "E-NOTICE-SEARCH-16-AX",
+        "E-NOTICE-SEARCH-17",
+        "E-NOTICE-SEARCH-17-AX",
+        "E-NOTICE-SEARCH-18",
+        "E-NOTICE-SEARCH-18-AX",
+        "E-NOTICE-SEARCH-19",
+        "E-NOTICE-SEARCH-19-AX",
+        "E-NOTICE-SEARCH-20",
+        "E-NOTICE-SEARCH-20-AX",
+        "E-NOTICE-SEARCH-21",
+        "E-NOTICE-SEARCH-21-AX",
+        "E-NOTICE-SEARCH-22",
+        "E-NOTICE-SEARCH-22-AX",
+        "E-NOTICE-SEARCH-23",
+        "E-NOTICE-SEARCH-23-AX",
+        "E-NOTICE-SEARCH-24",
+        "E-NOTICE-SEARCH-24-AX",
+        "E-NOTICE-SEARCH-25",
+        "E-NOTICE-SEARCH-25-AX",
+        "E-NOTICE-SEARCH-26",
+        "E-NOTICE-SEARCH-26-AX",
+        "E-NOTICE-SEARCH-27",
+        "E-NOTICE-SEARCH-27-AX",
+        "E-NOTICE-SEARCH-28",
+        "E-NOTICE-SEARCH-28-AX",
+        "E-NOTICE-SEARCH-29",
+        "E-NOTICE-SEARCH-29-AX",
+        "E-NOTICE-SEARCH-CONTACT"
+      ],
+      "limitations": [
+        "Notification-sourced global Search, three public sample queries only; search index and persistence rules incomplete.",
+        "Screenshot invalidates old AX indices; corrected result leaf click recorded.",
+        "Keyboard without confirmed focus and Return submission remain unverified.",
+        "Input/capture timestamps do not measure human search duration."
+      ]
     }
   ],
   "entry_points": [
@@ -2361,14 +2444,31 @@
       "preconditions": "Existing signed-in app; Calendar then Notification navigation",
       "screenshot_evidence_ids": [
         "E-NOTIFICATION-SEARCH-EMPTY",
-        "E-NOTIFICATION-CLEAR"
+        "E-NOTIFICATION-CLEAR",
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-06",
+        "E-NOTICE-SEARCH-07",
+        "E-NOTICE-SEARCH-16",
+        "E-NOTICE-SEARCH-19",
+        "E-NOTICE-SEARCH-27"
       ],
       "ax_evidence_ids": [
-        "E-NOTIFICATION-TRACE"
+        "E-NOTIFICATION-TRACE",
+        "E-NOTICE-SEARCH-02-AX",
+        "E-NOTICE-SEARCH-06-AX",
+        "E-NOTICE-SEARCH-07-AX",
+        "E-NOTICE-SEARCH-16-AX",
+        "E-NOTICE-SEARCH-19-AX",
+        "E-NOTICE-SEARCH-27-AX"
       ],
       "action_ids": [
         "A-NOTIFICATION-QUERY",
-        "A-NOTIFICATION-SEARCH-BACK"
+        "A-NOTIFICATION-SEARCH-BACK",
+        "A-NOTICE-SEARCH-AX-VALUE",
+        "A-NOTICE-SEARCH-KEYBOARD-UNFOCUSED",
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+        "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE",
+        "A-NOTICE-SEARCH-BACK"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -2692,9 +2792,12 @@
         "E-FOOD-IMAGE-RETURN",
         "E-FOOD-MAP-RETURN-PANNED",
         "E-FOOD-MAP-RETURN",
-        "E-FOOD-SEARCH-BACK"
+        "E-FOOD-SEARCH-BACK",
+        "E-NOTICE-SEARCH-12"
       ],
-      "ax_evidence_ids": [],
+      "ax_evidence_ids": [
+        "E-NOTICE-SEARCH-12-AX"
+      ],
       "action_ids": [
         "A-FOOD-TAG",
         "A-FOOD-IMAGE-EXPAND",
@@ -2702,7 +2805,8 @@
         "A-FOOD-DETAIL-BACK",
         "A-FOOD-CALL",
         "A-FOOD-OTHER-TAGS",
-        "A-FOOD-DETAIL-SCROLL"
+        "A-FOOD-DETAIL-SCROLL",
+        "A-NOTICE-SEARCH-DETAIL-BACK"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -5290,17 +5394,24 @@
         "E-NATIVE-NOTICE-15",
         "E-NATIVE-NOTICE-17",
         "E-NATIVE-NOTICE-19",
-        "E-NATIVE-NOTICE-25"
+        "E-NATIVE-NOTICE-25",
+        "E-NOTICE-SEARCH-00",
+        "E-NOTICE-SEARCH-25",
+        "E-NOTICE-SEARCH-29"
       ],
       "ax_evidence_ids": [
         "E-NATIVE-NOTICE-15-AX",
         "E-NATIVE-NOTICE-17-AX",
         "E-NATIVE-NOTICE-19-AX",
-        "E-NATIVE-NOTICE-25-AX"
+        "E-NATIVE-NOTICE-25-AX",
+        "E-NOTICE-SEARCH-00-AX",
+        "E-NOTICE-SEARCH-25-AX",
+        "E-NOTICE-SEARCH-29-AX"
       ],
       "action_ids": [
         "A-NATIVE-NOTICE-READ-REOPEN",
-        "A-NATIVE-NOTICE-CALENDAR-RETURN"
+        "A-NATIVE-NOTICE-CALENDAR-RETURN",
+        "A-NOTICE-SEARCH-ENTRY"
       ],
       "discovery_checked": false,
       "remaining_uncertainties": [
@@ -5310,6 +5421,88 @@
         "Coordinate input remains noWindowsAvailable; filter AX clicks unchanged. Native pane/menu/record inputs can work.",
         "Window screenshot bytes750×1390 include57px titlebar; public app crop[0,57,750,1390] resized576×1024. Native titlebar omitted.",
         "Initial detail lacks banner; later detail includes banner. Elapsed timing/load trigger not established."
+      ]
+    },
+    {
+      "id": "S-NOTICE-SEARCH-WORKSHOP",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "title": "Notification-sourced Search: workshop",
+      "description": "workshop displays VA210 Vending Machine; repeated after a no-result query.",
+      "visible_scope": "576×1024 normalized native screenshot; pointer/halo/capture artifact retained",
+      "preconditions": "Search opened from read Notification list, existing login",
+      "screenshot_evidence_ids": [
+        "E-NOTICE-SEARCH-03",
+        "E-NOTICE-SEARCH-04",
+        "E-NOTICE-SEARCH-08",
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-20",
+        "E-NOTICE-SEARCH-21"
+      ],
+      "ax_evidence_ids": [
+        "E-NOTICE-SEARCH-03-AX",
+        "E-NOTICE-SEARCH-04-AX",
+        "E-NOTICE-SEARCH-08-AX",
+        "E-NOTICE-SEARCH-09-AX",
+        "E-NOTICE-SEARCH-14-AX",
+        "E-NOTICE-SEARCH-20-AX",
+        "E-NOTICE-SEARCH-21-AX"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RETURN",
+        "A-NOTICE-SEARCH-CLEAR",
+        "A-NOTICE-SEARCH-RESULT",
+        "A-NOTICE-SEARCH-KEYBOARD-TITLE"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Search index domains/matching mechanism, other queries, result boundaries and full caller context not verified."
+      ]
+    },
+    {
+      "id": "S-NOTICE-SEARCH-NEGATIVE",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "title": "Notification-sourced Search: zzhci2026",
+      "description": "No record found for synthetic keyword.",
+      "visible_scope": "576×1024 normalized native screenshot; pointer/halo/capture artifact retained",
+      "preconditions": "Search opened from read Notification list, existing login",
+      "screenshot_evidence_ids": [
+        "E-NOTICE-SEARCH-17",
+        "E-NOTICE-SEARCH-18"
+      ],
+      "ax_evidence_ids": [
+        "E-NOTICE-SEARCH-17-AX",
+        "E-NOTICE-SEARCH-18-AX"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Search index domains/matching mechanism, other queries, result boundaries and full caller context not verified."
+      ]
+    },
+    {
+      "id": "S-NOTICE-SEARCH-TITLE-NONE",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "title": "Notification-sourced Search: Upcoming IT Workshops",
+      "description": "No record found for public notice title phrase.",
+      "visible_scope": "576×1024 normalized native screenshot; pointer/halo/capture artifact retained",
+      "preconditions": "Search opened from read Notification list, existing login",
+      "screenshot_evidence_ids": [
+        "E-NOTICE-SEARCH-22",
+        "E-NOTICE-SEARCH-23"
+      ],
+      "ax_evidence_ids": [
+        "E-NOTICE-SEARCH-22-AX",
+        "E-NOTICE-SEARCH-23-AX"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "discovery_checked": false,
+      "remaining_uncertainties": [
+        "Search index domains/matching mechanism, other queries, result boundaries and full caller context not verified."
       ]
     }
   ],
@@ -14489,6 +14682,500 @@
       "blockers": [],
       "verification_boundary": "One notice only; webpage visual content, arbitrary notices/input, native touch and complete app unverified",
       "pending_reason": "AX button/container unchanged; coordinate input noWindowsAvailable, not app-defect proof."
+    },
+    {
+      "id": "A-NOTICE-SEARCH-ENTRY",
+      "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "control": "Notification top Search / reentry",
+      "input_summary": "Notification top Search / reentry",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:34:43.504Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "input": "Notification Search leaf click",
+          "observed_feedback": "Search opens empty; title query is not retained on reentry.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-01",
+            "E-NOTICE-SEARCH-01-AX",
+            "E-NOTICE-SEARCH-02",
+            "E-NOTICE-SEARCH-02-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:37:56.390Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "input": "Notification Search reopen",
+          "observed_feedback": "Search opens empty; title query is not retained on reentry.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-26",
+            "E-NOTICE-SEARCH-26-AX",
+            "E-NOTICE-SEARCH-27",
+            "E-NOTICE-SEARCH-27-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-01",
+        "E-NOTICE-SEARCH-01-AX",
+        "E-NOTICE-SEARCH-02",
+        "E-NOTICE-SEARCH-02-AX",
+        "E-NOTICE-SEARCH-26",
+        "E-NOTICE-SEARCH-26-AX",
+        "E-NOTICE-SEARCH-27",
+        "E-NOTICE-SEARCH-27-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-NOTICE-SEARCH-AX-VALUE",
+      "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "control": "AX setValue workshop",
+      "input_summary": "AX setValue workshop",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:34:55.121Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": "AX setValue workshop",
+          "observed_feedback": "Visible workshop with VA210 row; AX input alone does not prove normal keyboard behavior.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-03",
+            "E-NOTICE-SEARCH-03-AX",
+            "E-NOTICE-SEARCH-04",
+            "E-NOTICE-SEARCH-04-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-03",
+        "E-NOTICE-SEARCH-03-AX",
+        "E-NOTICE-SEARCH-04",
+        "E-NOTICE-SEARCH-04-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-NOTICE-SEARCH-RETURN",
+      "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "control": "Return with workshop focused",
+      "input_summary": "Return with workshop focused",
+      "status": "attempted_unverified",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:35:07.787Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": "Return with workshop focused",
+          "observed_feedback": "No changed result captured; successful submission semantics unverified.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-05",
+            "E-NOTICE-SEARCH-05-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:36:48.822Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": "Return after ordinary focused keyboard query",
+          "observed_feedback": "No changed result captured; successful submission semantics unverified.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-15",
+            "E-NOTICE-SEARCH-15-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-05",
+        "E-NOTICE-SEARCH-05-AX",
+        "E-NOTICE-SEARCH-15",
+        "E-NOTICE-SEARCH-15-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established",
+      "pending_reason": "No changed result captured; successful submission semantics unverified."
+    },
+    {
+      "id": "A-NOTICE-SEARCH-CLEAR",
+      "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "control": "Query X",
+      "input_summary": "Query X",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:35:21.528Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "input": "Clear query button",
+          "observed_feedback": "Field and result clear. Includes negative query source for19.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-06",
+            "E-NOTICE-SEARCH-06-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:36:56.997Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "input": "Clear workshop after detail return",
+          "observed_feedback": "Field and result clear. Includes negative query source for19.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-16",
+            "E-NOTICE-SEARCH-16-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:37:14.202Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-NEGATIVE",
+          "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "input": "Clear negative keyword",
+          "observed_feedback": "Field and result clear. Includes negative query source for19.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-19",
+            "E-NOTICE-SEARCH-19-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-06",
+        "E-NOTICE-SEARCH-06-AX",
+        "E-NOTICE-SEARCH-16",
+        "E-NOTICE-SEARCH-16-AX",
+        "E-NOTICE-SEARCH-19",
+        "E-NOTICE-SEARCH-19-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-NOTICE-SEARCH-KEYBOARD-UNFOCUSED",
+      "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "control": "typeText after clear without confirmed focus",
+      "input_summary": "typeText after clear without confirmed focus",
+      "status": "attempted_unverified",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:35:22.380Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "input": "Keyboard typeText workshop after clear",
+          "observed_feedback": "No visible text; targeted focus correction separately captured.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-07",
+            "E-NOTICE-SEARCH-07-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-07",
+        "E-NOTICE-SEARCH-07-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established",
+      "pending_reason": "No visible text; targeted focus correction separately captured."
+    },
+    {
+      "id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+      "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "control": "Focus field, typeText workshop",
+      "input_summary": "Focus field, typeText workshop",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:35:32.853Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": "Focused search field then keyboard typeText",
+          "observed_feedback": "Regular input shows workshop and VA210 row in two attempts.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-08",
+            "E-NOTICE-SEARCH-08-AX",
+            "E-NOTICE-SEARCH-09",
+            "E-NOTICE-SEARCH-09-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:37:15.534Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": "Focused keyboard workshop after negative query",
+          "observed_feedback": "Regular input shows workshop and VA210 row in two attempts.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-20",
+            "E-NOTICE-SEARCH-20-AX",
+            "E-NOTICE-SEARCH-21",
+            "E-NOTICE-SEARCH-21-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-08",
+        "E-NOTICE-SEARCH-08-AX",
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-09-AX",
+        "E-NOTICE-SEARCH-20",
+        "E-NOTICE-SEARCH-20-AX",
+        "E-NOTICE-SEARCH-21",
+        "E-NOTICE-SEARCH-21-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-NOTICE-SEARCH-RESULT",
+      "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "control": "VA210 result leaf",
+      "input_summary": "VA210 result leaf",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:35:55.073Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": "Open captured VA210 search result",
+          "observed_feedback": "No detail captured; old index used after screenshot. Corrected with a fresh AX leaf in next execution.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-10",
+            "E-NOTICE-SEARCH-10-AX",
+            "E-NOTICE-SEARCH-11",
+            "E-NOTICE-SEARCH-11-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:36:11.154Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-FOOD-DETAIL",
+          "input": "Fresh AX VA210 leaf click after screenshot",
+          "observed_feedback": "First stale index attempt captured unchanged; fresh leaf click opens VA210 detail.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-11",
+            "E-NOTICE-SEARCH-11-AX",
+            "E-NOTICE-SEARCH-12",
+            "E-NOTICE-SEARCH-12-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-FOOD-DETAIL",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-10",
+        "E-NOTICE-SEARCH-10-AX",
+        "E-NOTICE-SEARCH-11",
+        "E-NOTICE-SEARCH-11-AX",
+        "E-NOTICE-SEARCH-12",
+        "E-NOTICE-SEARCH-12-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-NOTICE-SEARCH-DETAIL-BACK",
+      "from_state_id": "S-FOOD-DETAIL",
+      "control": "Detail Back",
+      "input_summary": "Detail Back",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:36:42.629Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-FOOD-DETAIL",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": "VA210 detail Back",
+          "observed_feedback": "Returns Search with workshop and VA210 row retained.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-13",
+            "E-NOTICE-SEARCH-13-AX",
+            "E-NOTICE-SEARCH-14",
+            "E-NOTICE-SEARCH-14-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-13",
+        "E-NOTICE-SEARCH-13-AX",
+        "E-NOTICE-SEARCH-14",
+        "E-NOTICE-SEARCH-14-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE",
+      "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "control": "Focus field, typeText zzhci2026",
+      "input_summary": "Focus field, typeText zzhci2026",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:36:58.427Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "target_state_id": "S-NOTICE-SEARCH-NEGATIVE",
+          "input": "Focused keyboard zzhci2026",
+          "observed_feedback": "No record found.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-17",
+            "E-NOTICE-SEARCH-17-AX",
+            "E-NOTICE-SEARCH-18",
+            "E-NOTICE-SEARCH-18-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTICE-SEARCH-NEGATIVE",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-17",
+        "E-NOTICE-SEARCH-17-AX",
+        "E-NOTICE-SEARCH-18",
+        "E-NOTICE-SEARCH-18-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-NOTICE-SEARCH-KEYBOARD-TITLE",
+      "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "control": "Clear then focus/type Upcoming IT Workshops",
+      "input_summary": "Clear then focus/type Upcoming IT Workshops",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:37:35.534Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+          "input": "Focused keyboard Upcoming IT Workshops",
+          "observed_feedback": "No record found; does not prove notification indexing scope.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-22",
+            "E-NOTICE-SEARCH-22-AX",
+            "E-NOTICE-SEARCH-23",
+            "E-NOTICE-SEARCH-23-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-22",
+        "E-NOTICE-SEARCH-22-AX",
+        "E-NOTICE-SEARCH-23",
+        "E-NOTICE-SEARCH-23-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
+    },
+    {
+      "id": "A-NOTICE-SEARCH-BACK",
+      "from_state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+      "control": "Search Back from title query / empty reentry",
+      "input_summary": "Search Back from title query / empty reentry",
+      "status": "observed",
+      "executions": [
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:37:42.528Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+          "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "input": "Search Back with title query",
+          "observed_feedback": "Returns existing read list, green/tab red dots still absent.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-24",
+            "E-NOTICE-SEARCH-24-AX",
+            "E-NOTICE-SEARCH-25",
+            "E-NOTICE-SEARCH-25-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+          "at": "2026-10-03T02:38:03.509Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+          "input": "Back from reentered empty Search",
+          "observed_feedback": "Returns existing read list, green/tab red dots still absent.",
+          "evidence_ids": [
+            "E-NOTICE-SEARCH-28",
+            "E-NOTICE-SEARCH-28-AX",
+            "E-NOTICE-SEARCH-29",
+            "E-NOTICE-SEARCH-29-AX"
+          ]
+        }
+      ],
+      "target_state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-24",
+        "E-NOTICE-SEARCH-24-AX",
+        "E-NOTICE-SEARCH-25",
+        "E-NOTICE-SEARCH-25-AX",
+        "E-NOTICE-SEARCH-28",
+        "E-NOTICE-SEARCH-28-AX",
+        "E-NOTICE-SEARCH-29",
+        "E-NOTICE-SEARCH-29-AX"
+      ],
+      "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
+      "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
+      "blockers": [],
+      "verification_boundary": "Three finite public queries, Mac UI only; index correctness/persistence not established"
     }
   ],
   "evidence": [
@@ -63633,6 +64320,1281 @@
       ],
       "description": "Temporary notification import checkpoint; not mapped frame, configured control or Present replay.",
       "redaction": "Sources already redacted"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-00",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/00-read-list-start.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:34:42.279Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "00-read-list-start; actual capture after None",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-00-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/00-read-list-start.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:34:42.279Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "00-read-list-start; actual capture after None"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-01",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/01-search-entry.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:34:43.504Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "sha256": "1cf89e8d2b5e28102f2dfc6669cfee2cdc4a3b93090a03c68db87d4996bc3b6d",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "01-search-entry; actual capture after Notification Search leaf click",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-01-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/01-search-entry.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:34:43.504Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "01-search-entry; actual capture after Notification Search leaf click"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-02",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/02-search-empty-stable.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:34:48.804Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [],
+      "sha256": "97e2d736cb8ea4f26ab6fef87ee22a58b727da332881a1131c3f13a5b57ba237",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "02-search-empty-stable; actual capture after Search entry followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-02-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/02-search-empty-stable.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:34:48.804Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [],
+      "sha256": "09b101d8391f9cd58fefde88fb37dee3ac161d493bc1ed8b66d5f34d8f6e4fe4",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "02-search-empty-stable; actual capture after Search entry followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-03",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/03-workshop-input.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:34:55.121Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-AX-VALUE"
+      ],
+      "sha256": "d26d02a32cde3c858053a01e6c8fb72190f715a4aa5d32db67a1d49937f0300a",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "03-workshop-input; actual capture after AX setValue workshop",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-03-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/03-workshop-input.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:34:55.121Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-AX-VALUE"
+      ],
+      "sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "03-workshop-input; actual capture after AX setValue workshop"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-04",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/04-workshop-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:01.263Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "sha256": "02af772a1a2d4de04c99ca44354da49dd31b9a6d20fa474a6825e050f9878a98",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "04-workshop-followup; actual capture after Input followup, no submit action",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-04-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/04-workshop-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:01.263Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "04-workshop-followup; actual capture after Input followup, no submit action"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-05",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/05-workshop-return.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:07.787Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RETURN"
+      ],
+      "sha256": "6cb2a530a82c7527fd684d32adadf1f6e16692dc48fdbce4e81f1704a1666382",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "05-workshop-return; actual capture after Return with workshop focused",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-05-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/05-workshop-return.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:07.787Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RETURN"
+      ],
+      "sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "05-workshop-return; actual capture after Return with workshop focused"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-06",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/06-clear-ax.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:21.528Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "sha256": "17b3ff074e915bfc5aaeb1d6bf046639978493ebab8c3ee38ec2051ef8f95e5a",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "06-clear-ax; actual capture after Clear query button",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-06-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/06-clear-ax.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:21.528Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "06-clear-ax; actual capture after Clear query button"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-07",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/07-workshop-keyboard.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:22.380Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-UNFOCUSED"
+      ],
+      "sha256": "79c6e259ba1904fd69c37e1bb3ee1e4bc0ae6a2e6c54d0b4a7d6422d66f2e807",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "07-workshop-keyboard; actual capture after Keyboard typeText workshop after clear",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-07-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/07-workshop-keyboard.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:22.380Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-UNFOCUSED"
+      ],
+      "sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "07-workshop-keyboard; actual capture after Keyboard typeText workshop after clear"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-08",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/08-workshop-keyboard-focused.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:32.853Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ],
+      "sha256": "4df623834cff536ca8eda7b5d50ab3c68eb645dfeb9eb1b775882582e37f63db",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "08-workshop-keyboard-focused; actual capture after Focused search field then keyboard typeText",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-08-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/08-workshop-keyboard-focused.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:32.853Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ],
+      "sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "08-workshop-keyboard-focused; actual capture after Focused search field then keyboard typeText"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-09",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/09-workshop-keyboard-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:48.154Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "sha256": "e58bcb9c9986a42bbd14bfb45399eb24782697f99f78cfcede744a81ea357eab",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "09-workshop-keyboard-followup; actual capture after Focused keyboard query followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-09-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/09-workshop-keyboard-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:48.154Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "09-workshop-keyboard-followup; actual capture after Focused keyboard query followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-10",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/10-va210-card-entry.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:55.073Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ],
+      "sha256": "4d9ed9d55d20deba415597de9ce75ebd49983f979e7cdab0bac628afe6d95b78",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "10-va210-card-entry; actual capture after Open captured VA210 search result",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-10-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/10-va210-card-entry.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:35:55.073Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ],
+      "sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "10-va210-card-entry; actual capture after Open captured VA210 search result"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-11",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/11-va210-card-fresh-leaf.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:11.154Z",
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ],
+      "sha256": "9a98abfe469cefa4a093432ad4ae9361c385ac0acc236c6629b3357840ba4297",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "11-va210-card-fresh-leaf; actual capture after Fresh AX VA210 leaf click after screenshot",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-11-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/11-va210-card-fresh-leaf.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:11.154Z",
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ],
+      "sha256": "91e1622dfd4df36b5d075df2e62f6a1ccc462caa6a9ce33cd38a0735265af9a1",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "11-va210-card-fresh-leaf; actual capture after Fresh AX VA210 leaf click after screenshot"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-12",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/12-va210-entry-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:16.053Z",
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "sha256": "8c0445eefe686a03ba8ba881f9283c1e7bd4a197d5c6654bc7fafa9bfeb9587e",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "12-va210-entry-followup; actual capture after Result click followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-12-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/12-va210-entry-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:16.053Z",
+      "state_ids": [
+        "S-FOOD-DETAIL"
+      ],
+      "action_ids": [],
+      "sha256": "91e1622dfd4df36b5d075df2e62f6a1ccc462caa6a9ce33cd38a0735265af9a1",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "12-va210-entry-followup; actual capture after Result click followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-13",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/13-detail-back.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:42.629Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-DETAIL-BACK"
+      ],
+      "sha256": "46df4b5cac730c543460b364f41db4f36063f3a98027dee3c1a25f2e87c5ee55",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "13-detail-back; actual capture after VA210 detail Back",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-13-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/13-detail-back.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:42.629Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-DETAIL-BACK"
+      ],
+      "sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "13-detail-back; actual capture after VA210 detail Back"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-14",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/14-detail-back-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:48.118Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "sha256": "2e97515e47680a453124f25c76fb81ce0c15ff4b1fad0a76a2241fe2668b01b3",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "14-detail-back-followup; actual capture after Detail Back followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-14-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/14-detail-back-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:48.118Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "14-detail-back-followup; actual capture after Detail Back followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-15",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/15-keyboard-query-return.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:48.822Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RETURN"
+      ],
+      "sha256": "2e97515e47680a453124f25c76fb81ce0c15ff4b1fad0a76a2241fe2668b01b3",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "15-keyboard-query-return; actual capture after Return after ordinary focused keyboard query",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-15-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/15-keyboard-query-return.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:48.822Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RETURN"
+      ],
+      "sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "15-keyboard-query-return; actual capture after Return after ordinary focused keyboard query"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-16",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/16-second-clear.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:56.997Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "sha256": "51ad506279fbedcaa71c718984d69257e7a137b345238d4012c5e6b4bc22ee5a",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "16-second-clear; actual capture after Clear workshop after detail return",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-16-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/16-second-clear.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:56.997Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "16-second-clear; actual capture after Clear workshop after detail return"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-17",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/17-negative-keyword.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:58.427Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE"
+      ],
+      "sha256": "ff9745a7fd160af851728cde55718a2fee330ed7655c4baf1bf770590380a630",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "17-negative-keyword; actual capture after Focused keyboard zzhci2026",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-17-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/17-negative-keyword.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:36:58.427Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE"
+      ],
+      "sha256": "adf44fab9c3c1f1de684294da3f7acbda30d0b06f2ffac6386c1cff712bfa0dc",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "17-negative-keyword; actual capture after Focused keyboard zzhci2026"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-18",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/18-negative-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:13.401Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [],
+      "sha256": "ff9745a7fd160af851728cde55718a2fee330ed7655c4baf1bf770590380a630",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "18-negative-followup; actual capture after Negative keyword followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-18-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/18-negative-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:13.401Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-NEGATIVE"
+      ],
+      "action_ids": [],
+      "sha256": "adf44fab9c3c1f1de684294da3f7acbda30d0b06f2ffac6386c1cff712bfa0dc",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "18-negative-followup; actual capture after Negative keyword followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-19",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/19-negative-clear.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:14.202Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "sha256": "3e548650a104f1bd5eec0017c5f30a48985a45eae7c968414d0d9a40927127d0",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "19-negative-clear; actual capture after Clear negative keyword",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-19-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/19-negative-clear.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:14.202Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-CLEAR"
+      ],
+      "sha256": "09b101d8391f9cd58fefde88fb37dee3ac161d493bc1ed8b66d5f34d8f6e4fe4",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "19-negative-clear; actual capture after Clear negative keyword"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-20",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/20-workshop-retype.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:15.534Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ],
+      "sha256": "3e0047d2d79e322a78500dd9f1e616424e68d22db633167fbb6826bc824bf019",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "20-workshop-retype; actual capture after Focused keyboard workshop after negative query",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-20-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/20-workshop-retype.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:15.534Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ],
+      "sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "20-workshop-retype; actual capture after Focused keyboard workshop after negative query"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-21",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/21-workshop-retype-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:33.260Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "sha256": "e8a895c67f6db53dbce91f136ead77e09d07580109851c1cd9278446aacf4146",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "21-workshop-retype-followup; actual capture after Repeated workshop followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-21-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/21-workshop-retype-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:33.260Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "21-workshop-retype-followup; actual capture after Repeated workshop followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-22",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/22-notice-title-query.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:35.534Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-TITLE"
+      ],
+      "sha256": "13345c5a3166c76803570befe7ca7796dfae9f944dfd3c49fdaaca916b4d3a48",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "22-notice-title-query; actual capture after Focused keyboard Upcoming IT Workshops",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-22-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/22-notice-title-query.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:35.534Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-TITLE"
+      ],
+      "sha256": "18e134138312b9ca53a5e4ed59b4228d39a1c6bcce078fd157bf309dda1d1444",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "22-notice-title-query; actual capture after Focused keyboard Upcoming IT Workshops"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-23",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/23-title-query-followup.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:41.216Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [],
+      "sha256": "13345c5a3166c76803570befe7ca7796dfae9f944dfd3c49fdaaca916b4d3a48",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "23-title-query-followup; actual capture after Notice title query followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-23-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/23-title-query-followup.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:41.216Z",
+      "state_ids": [
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [],
+      "sha256": "18e134138312b9ca53a5e4ed59b4228d39a1c6bcce078fd157bf309dda1d1444",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "23-title-query-followup; actual capture after Notice title query followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-24",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/24-search-back.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:42.528Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "24-search-back; actual capture after Search Back with title query",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-24-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/24-search-back.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:42.528Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "24-search-back; actual capture after Search Back with title query"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-25",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/25-read-list-returned.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:55.141Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "25-read-list-returned; actual capture after Search Back followup read list",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-25-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/25-read-list-returned.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:55.141Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "25-read-list-returned; actual capture after Search Back followup read list"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-26",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/26-search-reentry.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:56.390Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "sha256": "9921df794709a25daa2e71e8fca63844475b3b049b34a11305cbf4bbcdcf97ed",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "26-search-reentry; actual capture after Notification Search reopen",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-26-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/26-search-reentry.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:37:56.390Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY"
+      ],
+      "sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "26-search-reentry; actual capture after Notification Search reopen"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-27",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/27-search-reentry-stable.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:38:02.229Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [],
+      "sha256": "51ad506279fbedcaa71c718984d69257e7a137b345238d4012c5e6b4bc22ee5a",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "27-search-reentry-stable; actual capture after Search reentry followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-27-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/27-search-reentry-stable.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:38:02.229Z",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [],
+      "sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "27-search-reentry-stable; actual capture after Search reentry followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-28",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/28-empty-search-back.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:38:03.509Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "28-empty-search-back; actual capture after Back from reentered empty Search",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-28-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/28-empty-search-back.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:38:03.509Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-BACK"
+      ],
+      "sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "28-empty-search-back; actual capture after Back from reentered empty Search"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-29",
+      "kind": "screenshot",
+      "path": "../../evidence/2026-10-03-notification-search-native/29-read-list-final.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:38:10.759Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "29-read-list-final; actual capture after Final Search Back followup",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "E-NOTICE-SEARCH-29-AX",
+      "kind": "safe_ax",
+      "path": "../../evidence/2026-10-03-notification-search-native/29-read-list-final.safe-ax.txt",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:38:10.759Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b",
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "description": "29-read-list-final; actual capture after Final Search Back followup"
+    },
+    {
+      "id": "E-NOTICE-SEARCH-CONTACT",
+      "kind": "contact_sheet",
+      "path": "../../evidence/2026-10-03-notification-search-native/contact-sheet.png",
+      "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+      "captured_at": "2026-10-03T02:38:10.759Z",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-NOTIFICATION-SEARCH-EMPTY",
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-FOOD-DETAIL",
+        "S-NOTICE-SEARCH-NEGATIVE",
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [],
+      "sha256": "7b3e3b0768e9ff95ffc559195d0235b866e21ee6148444fb5bd0bf5c65d3bae5",
+      "dimensions": [
+        1152,
+        4224
+      ],
+      "redaction": "Sources are public normalized screenshots",
+      "description": "30 native frames including failed attempt and transitional followups"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-00",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-list-unread.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-UNREAD"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-04"
+      ],
+      "sha256": "40917e5a5bde08bc79766be91fb0c8b4bc8a56f3a5e37b4a4fcf62aad9b886fc",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-01",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-list-read.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-15"
+      ],
+      "sha256": "70e32b29434f9c588780501bd4421d9f76e0a324832d6144560dbba00fba266e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-02",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-detail-initial.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-NOIMAGE"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-05"
+      ],
+      "sha256": "2d50f27407155317f430c022a7cc7c0913e130d728978f53e7b1f29b7c573828",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-03",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-detail-loaded.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-DETAIL-LOADED"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-12",
+        "E-NATIVE-NOTICE-16",
+        "E-NATIVE-NOTICE-20",
+        "E-NATIVE-NOTICE-24"
+      ],
+      "sha256": "f0df8a6b2bf04724e5af104864e5758837db4e65b23ec4b671d80430866d6272",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-04",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-image-expanded.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-IMAGE"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-13"
+      ],
+      "sha256": "a3ad8d42a036e4d93ea6298e509b03b10af612b4605aadd9da1ee3b7e30b0b98",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-05",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-web-loading.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-LOADING"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-21"
+      ],
+      "sha256": "91ff054a3c98466b09fff50b73f284f47d0f8d9d6ffc7aa1c56fe46abd835003",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-06",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-web-blank.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-BLANK"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-07",
+        "E-NATIVE-NOTICE-10",
+        "E-NATIVE-NOTICE-22"
+      ],
+      "sha256": "811dea993a22860ceb708b6fda7449ad57a397c5351cfe844b94f24930ecc11b",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-07",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-web-menu.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-WEB-MENU"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-08"
+      ],
+      "sha256": "d01c2ae5f9c0df886d5648656f440bb81d4f323c99b68044fce3eaf196f0b8ef",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-08",
+      "kind": "local_svg_render",
+      "path": "../../evidence/2026-10-03-notification-source-check/notification-record-calendar-read.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "source_evidence_ids": [
+        "E-NATIVE-NOTICE-18"
+      ],
+      "sha256": "14cb453427e5e4514df0be02558a59052ea5bb564b29cf587058312b1ff05a71",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "description": "Local source render, not native observation, Figma import or Present replay",
+      "redaction": "Public institutional text/illustration; no private identity or full URL"
+    },
+    {
+      "id": "E-NOTICE-SOURCE-CHECK-CONTACT",
+      "kind": "local_svg_contact",
+      "path": "../../evidence/2026-10-03-notification-source-check/contact-sheet.png",
+      "session_id": null,
+      "captured_at": "2026-10-03T02:41:13.928172+00:00",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-UNREAD",
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-NATIVE-NOTICE-DETAIL-NOIMAGE",
+        "S-NATIVE-NOTICE-DETAIL-LOADED",
+        "S-NATIVE-NOTICE-IMAGE",
+        "S-NATIVE-NOTICE-WEB-LOADING",
+        "S-NATIVE-NOTICE-WEB-BLANK",
+        "S-NATIVE-NOTICE-WEB-MENU",
+        "S-NATIVE-OCT3-PAYMENT"
+      ],
+      "action_ids": [],
+      "sha256": "423ea8c77f208b392cf211030bad34ac0e94a7ee9e5fbe3177f34cda626dfde8",
+      "dimensions": [
+        1152,
+        1692
+      ],
+      "description": "Local9 source renders; not Figma/native/Present evidence",
+      "redaction": "Public institutional materials only"
     }
   ],
   "findings": [
@@ -63951,6 +65913,40 @@
         "iPhone VoiceOver name/state readout",
         "People interpreting eye icon and amount privacy",
         "Language/platform differences"
+      ]
+    },
+    {
+      "id": "H-NOTIFICATION-SEARCH-SCOPE",
+      "kind": "hypothesis",
+      "observed_fact": "Search entered from a nonempty Notification list has generic Search heading. Ordinary workshop typing repeatedly shows VA210 venue; public notice title phrase and synthetic keyword show No record found. Venue detail returns to retained workshop query; Search reentry is empty.",
+      "state_ids": [
+        "S-NATIVE-NOTICE-LIST-READ",
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-NOTICE-SEARCH-NEGATIVE",
+        "S-NOTICE-SEARCH-TITLE-NONE"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-ENTRY",
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+        "A-NOTICE-SEARCH-KEYBOARD-TITLE",
+        "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE"
+      ],
+      "evidence_ids": [
+        "E-NOTICE-SEARCH-00",
+        "E-NOTICE-SEARCH-09",
+        "E-NOTICE-SEARCH-18",
+        "E-NOTICE-SEARCH-21",
+        "E-NOTICE-SEARCH-23",
+        "E-NOTICE-SEARCH-27"
+      ],
+      "hypothesis": "A person entering Search from notifications may be uncertain whether notices, venues or all app content are searched. Result relevance/notice indexing cannot be concluded from these samples.",
+      "principle": "Visibility of search scope and match between system and user mental model.",
+      "suggestion": "Confirm intended index domains and evaluate explicit scope/result-type labels with people. Keep reconstruction of observed UI separate from candidate redesign.",
+      "requires_validation": [
+        "Documented intended search index",
+        "Other known notice/venue keywords and network/cache conditions",
+        "Human expectations when searching from Notification",
+        "iPhone behavior"
       ]
     }
   ],
@@ -118866,13 +120862,17 @@
       "state_ids": [
         "S-NOTIFICATION-EMPTY",
         "S-NOTIFICATION-SEARCH-EMPTY",
-        "S-NOTIFICATION-SEARCH-NONE"
+        "S-NOTIFICATION-SEARCH-NONE",
+        "S-NOTICE-SEARCH-WORKSHOP",
+        "S-NOTICE-SEARCH-NEGATIVE",
+        "S-NOTICE-SEARCH-TITLE-NONE"
       ],
-      "reason": "Verify menu/empty control and search scope. Nonempty notification/list/detail path still lacks an actual data sample. First nonempty notice now observed: no-banner/loaded detail, image expansion, Read more loading/titled blank capture/menu/cancel/close, read marker removal and Calendar retainedPayment roundtrip. Search/other notices and actual webpage rendering remain pending.",
+      "reason": "Verify menu/empty control and search scope. Nonempty notification/list/detail path still lacks an actual data sample. First nonempty notice now observed: no-banner/loaded detail, image expansion, Read more loading/titled blank capture/menu/cancel/close, read marker removal and Calendar retainedPayment roundtrip. Search/other notices and actual webpage rendering remain pending. Notification Search now sampled: clear, ordinary keyboard queries, venue result/detail/back, title no-result, reentry empty and read-list retention. Intended scope, other queries/results and menu remain pending.",
       "status": "in_progress",
       "resolution_refs": [
         "E-NOTIFICATION-TRACE",
-        "E-NATIVE-NOTICE-CONTACT"
+        "E-NATIVE-NOTICE-CONTACT",
+        "E-NOTICE-SEARCH-CONTACT"
       ]
     },
     {

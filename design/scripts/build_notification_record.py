@@ -65,9 +65,19 @@ def main():
  record_path=D/'notification-record-sources.json';old={v['file']:v for v in json.loads(record_path.read_text()).get('sources',[])} if record_path.exists() else {};records=[]
  for file,state,eids,r in specs:
   r.find(tag('title')).text='Notification first institutional notice — '+state;r.find(tag('desc')).text='Finite native notification record reconstruction from2026-10-03 Computer Use. Public institutional text retained; no identity or complete tracking URL. Fonts/icons/geometry approximate; banner and static loading mark raster. Loading and banner transition timing are demo proxies, not measured latency. Blank browser body capture is not service failure proof; AX content differs. Other notices, search/menu/device behavior and complete app not_verified.'
+  # Figma's SVG import may not retain the root's inherited fill="none".
+  # Give outlined navigation shapes their own fill, without altering solid QR marks.
+  for n in r.iter():
+   if n.get('stroke') and n.get('fill') is None:n.set('fill','none')
   E.ElementTree(r).write(D/file,encoding='unicode',xml_declaration=True);record={'file':file,'state_id':'S-NATIVE-OCT3-PAYMENT' if state=='PAYMENT-READ' else 'S-NATIVE-NOTICE-'+state,'source_evidence_ids':['E-NATIVE-NOTICE-'+e for e in eids],'sha256':sha(D/file),'dimensions':[576,1024],'status':'prepared_not_imported_not_replayed'}
   if state=='PAYMENT-READ':record['context_variant']='20261003-payment-after-notice-read'
-  if file in old and old[file]['sha256']==record['sha256']:record.update(old[file])
+  if file in old:
+   if old[file]['sha256']==record['sha256']:record.update(old[file])
+   elif old[file].get('node_id'):
+    for key in ['node_id','actual_layer_name','x','y','editor_evidence_path','limits']:
+     if key in old[file]:record[key]=old[file][key]
+    record['imported_source_sha256']=old[file].get('imported_source_sha256',old[file]['sha256'])
+    record['status']='source_updated_reimport_pending_not_configured_not_replayed'
   records.append(record)
  assets=[{'file':'assets/notification-workshop-banner.png','sha256':sha(banner),'source_evidence_id':'E-NATIVE-NOTICE-13','crop_xyxy':[0,415,576,609],'dimensions':[576,194],'limits':'Raster institutional illustration; editable control added separately. No private photo/identity.'},{'file':'assets/notification-web-loading-mark.png','sha256':sha(logo),'source_evidence_id':'E-NATIVE-NOTICE-21','crop_xyxy':[258,532,319,594],'dimensions':[61,62],'limits':'Static sampled mark, not rotating native animation.'}]
  record_path.write_text(json.dumps({'sources':records,'assets':assets,'limits':['One notification and finite read-state roundtrip; no arbitrary feed or queries.','No-image to loaded detail and web loading timings are illustrative proxies.','Payment after-read clone initially has only sampled Notification return; other date/mode/home controls not copied or claimed.']},ensure_ascii=False,indent=2)+'\n');print(json.dumps({'prepared_sources':len(records),'figma_mutations':0,'native_executions':0}))

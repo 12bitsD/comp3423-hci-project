@@ -1,0 +1,772 @@
+{
+  "kind": "native_notification_search_and_food_result",
+  "session_id": "SESSION-20261003-NOTIFICATION-SEARCH",
+  "images": [
+    {
+      "file": "00-read-list-start.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:34:42.279Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "00-read-list-start.safe-ax.txt",
+      "safe_ax_sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b"
+    },
+    {
+      "file": "01-search-entry.png",
+      "sha256": "1cf89e8d2b5e28102f2dfc6669cfee2cdc4a3b93090a03c68db87d4996bc3b6d",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:34:43.504Z",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "action_id": "A-NOTICE-SEARCH-ENTRY",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "01-search-entry.safe-ax.txt",
+      "safe_ax_sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b"
+    },
+    {
+      "file": "02-search-empty-stable.png",
+      "sha256": "97e2d736cb8ea4f26ab6fef87ee22a58b727da332881a1131c3f13a5b57ba237",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:34:48.804Z",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "02-search-empty-stable.safe-ax.txt",
+      "safe_ax_sha256": "09b101d8391f9cd58fefde88fb37dee3ac161d493bc1ed8b66d5f34d8f6e4fe4"
+    },
+    {
+      "file": "03-workshop-input.png",
+      "sha256": "d26d02a32cde3c858053a01e6c8fb72190f715a4aa5d32db67a1d49937f0300a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:34:55.121Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": "A-NOTICE-SEARCH-AX-VALUE",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "03-workshop-input.safe-ax.txt",
+      "safe_ax_sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02"
+    },
+    {
+      "file": "04-workshop-followup.png",
+      "sha256": "02af772a1a2d4de04c99ca44354da49dd31b9a6d20fa474a6825e050f9878a98",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:35:01.263Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "04-workshop-followup.safe-ax.txt",
+      "safe_ax_sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02"
+    },
+    {
+      "file": "05-workshop-return.png",
+      "sha256": "6cb2a530a82c7527fd684d32adadf1f6e16692dc48fdbce4e81f1704a1666382",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:35:07.787Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": "A-NOTICE-SEARCH-RETURN",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "05-workshop-return.safe-ax.txt",
+      "safe_ax_sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2"
+    },
+    {
+      "file": "06-clear-ax.png",
+      "sha256": "17b3ff074e915bfc5aaeb1d6bf046639978493ebab8c3ee38ec2051ef8f95e5a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:35:21.528Z",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "action_id": "A-NOTICE-SEARCH-CLEAR",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "06-clear-ax.safe-ax.txt",
+      "safe_ax_sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f"
+    },
+    {
+      "file": "07-workshop-keyboard.png",
+      "sha256": "79c6e259ba1904fd69c37e1bb3ee1e4bc0ae6a2e6c54d0b4a7d6422d66f2e807",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:35:22.380Z",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "action_id": "A-NOTICE-SEARCH-KEYBOARD-UNFOCUSED",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "07-workshop-keyboard.safe-ax.txt",
+      "safe_ax_sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f"
+    },
+    {
+      "file": "08-workshop-keyboard-focused.png",
+      "sha256": "4df623834cff536ca8eda7b5d50ab3c68eb645dfeb9eb1b775882582e37f63db",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:35:32.853Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "08-workshop-keyboard-focused.safe-ax.txt",
+      "safe_ax_sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02"
+    },
+    {
+      "file": "09-workshop-keyboard-followup.png",
+      "sha256": "e58bcb9c9986a42bbd14bfb45399eb24782697f99f78cfcede744a81ea357eab",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:35:48.154Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "09-workshop-keyboard-followup.safe-ax.txt",
+      "safe_ax_sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02"
+    },
+    {
+      "file": "10-va210-card-entry.png",
+      "sha256": "4d9ed9d55d20deba415597de9ce75ebd49983f979e7cdab0bac628afe6d95b78",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:35:55.073Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": "A-NOTICE-SEARCH-RESULT",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "10-va210-card-entry.safe-ax.txt",
+      "safe_ax_sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2"
+    },
+    {
+      "file": "11-va210-card-fresh-leaf.png",
+      "sha256": "9a98abfe469cefa4a093432ad4ae9361c385ac0acc236c6629b3357840ba4297",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:36:11.154Z",
+      "state_id": "S-FOOD-DETAIL",
+      "action_id": "A-NOTICE-SEARCH-RESULT",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "11-va210-card-fresh-leaf.safe-ax.txt",
+      "safe_ax_sha256": "91e1622dfd4df36b5d075df2e62f6a1ccc462caa6a9ce33cd38a0735265af9a1"
+    },
+    {
+      "file": "12-va210-entry-followup.png",
+      "sha256": "8c0445eefe686a03ba8ba881f9283c1e7bd4a197d5c6654bc7fafa9bfeb9587e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:36:16.053Z",
+      "state_id": "S-FOOD-DETAIL",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "12-va210-entry-followup.safe-ax.txt",
+      "safe_ax_sha256": "91e1622dfd4df36b5d075df2e62f6a1ccc462caa6a9ce33cd38a0735265af9a1"
+    },
+    {
+      "file": "13-detail-back.png",
+      "sha256": "46df4b5cac730c543460b364f41db4f36063f3a98027dee3c1a25f2e87c5ee55",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:36:42.629Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": "A-NOTICE-SEARCH-DETAIL-BACK",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "13-detail-back.safe-ax.txt",
+      "safe_ax_sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2"
+    },
+    {
+      "file": "14-detail-back-followup.png",
+      "sha256": "2e97515e47680a453124f25c76fb81ce0c15ff4b1fad0a76a2241fe2668b01b3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:36:48.118Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "14-detail-back-followup.safe-ax.txt",
+      "safe_ax_sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2"
+    },
+    {
+      "file": "15-keyboard-query-return.png",
+      "sha256": "2e97515e47680a453124f25c76fb81ce0c15ff4b1fad0a76a2241fe2668b01b3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:36:48.822Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": "A-NOTICE-SEARCH-RETURN",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "15-keyboard-query-return.safe-ax.txt",
+      "safe_ax_sha256": "83b83e63599c7022fc9dd0866c067e78fdb8e4bff64ea96098fa3b253cb4f5a2"
+    },
+    {
+      "file": "16-second-clear.png",
+      "sha256": "51ad506279fbedcaa71c718984d69257e7a137b345238d4012c5e6b4bc22ee5a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:36:56.997Z",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "action_id": "A-NOTICE-SEARCH-CLEAR",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "16-second-clear.safe-ax.txt",
+      "safe_ax_sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f"
+    },
+    {
+      "file": "17-negative-keyword.png",
+      "sha256": "ff9745a7fd160af851728cde55718a2fee330ed7655c4baf1bf770590380a630",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:36:58.427Z",
+      "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+      "action_id": "A-NOTICE-SEARCH-KEYBOARD-NEGATIVE",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "17-negative-keyword.safe-ax.txt",
+      "safe_ax_sha256": "adf44fab9c3c1f1de684294da3f7acbda30d0b06f2ffac6386c1cff712bfa0dc"
+    },
+    {
+      "file": "18-negative-followup.png",
+      "sha256": "ff9745a7fd160af851728cde55718a2fee330ed7655c4baf1bf770590380a630",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:13.401Z",
+      "state_id": "S-NOTICE-SEARCH-NEGATIVE",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "18-negative-followup.safe-ax.txt",
+      "safe_ax_sha256": "adf44fab9c3c1f1de684294da3f7acbda30d0b06f2ffac6386c1cff712bfa0dc"
+    },
+    {
+      "file": "19-negative-clear.png",
+      "sha256": "3e548650a104f1bd5eec0017c5f30a48985a45eae7c968414d0d9a40927127d0",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:14.202Z",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "action_id": "A-NOTICE-SEARCH-CLEAR",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "19-negative-clear.safe-ax.txt",
+      "safe_ax_sha256": "09b101d8391f9cd58fefde88fb37dee3ac161d493bc1ed8b66d5f34d8f6e4fe4"
+    },
+    {
+      "file": "20-workshop-retype.png",
+      "sha256": "3e0047d2d79e322a78500dd9f1e616424e68d22db633167fbb6826bc824bf019",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:15.534Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "20-workshop-retype.safe-ax.txt",
+      "safe_ax_sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02"
+    },
+    {
+      "file": "21-workshop-retype-followup.png",
+      "sha256": "e8a895c67f6db53dbce91f136ead77e09d07580109851c1cd9278446aacf4146",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:33.260Z",
+      "state_id": "S-NOTICE-SEARCH-WORKSHOP",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "21-workshop-retype-followup.safe-ax.txt",
+      "safe_ax_sha256": "aecdc1ccd19512cd1d5c6df6ae0bb8e303245c7496924866c394aada4fab2d02"
+    },
+    {
+      "file": "22-notice-title-query.png",
+      "sha256": "13345c5a3166c76803570befe7ca7796dfae9f944dfd3c49fdaaca916b4d3a48",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:35.534Z",
+      "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+      "action_id": "A-NOTICE-SEARCH-KEYBOARD-TITLE",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "22-notice-title-query.safe-ax.txt",
+      "safe_ax_sha256": "18e134138312b9ca53a5e4ed59b4228d39a1c6bcce078fd157bf309dda1d1444"
+    },
+    {
+      "file": "23-title-query-followup.png",
+      "sha256": "13345c5a3166c76803570befe7ca7796dfae9f944dfd3c49fdaaca916b4d3a48",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:41.216Z",
+      "state_id": "S-NOTICE-SEARCH-TITLE-NONE",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "23-title-query-followup.safe-ax.txt",
+      "safe_ax_sha256": "18e134138312b9ca53a5e4ed59b4228d39a1c6bcce078fd157bf309dda1d1444"
+    },
+    {
+      "file": "24-search-back.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:42.528Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NOTICE-SEARCH-BACK",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "24-search-back.safe-ax.txt",
+      "safe_ax_sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b"
+    },
+    {
+      "file": "25-read-list-returned.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:55.141Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "25-read-list-returned.safe-ax.txt",
+      "safe_ax_sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b"
+    },
+    {
+      "file": "26-search-reentry.png",
+      "sha256": "9921df794709a25daa2e71e8fca63844475b3b049b34a11305cbf4bbcdcf97ed",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:37:56.390Z",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "action_id": "A-NOTICE-SEARCH-ENTRY",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "26-search-reentry.safe-ax.txt",
+      "safe_ax_sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f"
+    },
+    {
+      "file": "27-search-reentry-stable.png",
+      "sha256": "51ad506279fbedcaa71c718984d69257e7a137b345238d4012c5e6b4bc22ee5a",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:38:02.229Z",
+      "state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "27-search-reentry-stable.safe-ax.txt",
+      "safe_ax_sha256": "01f59100cba4465e50f32363d791910509dd204aa232c09fba2cc673cd33af6f"
+    },
+    {
+      "file": "28-empty-search-back.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:38:03.509Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": "A-NOTICE-SEARCH-BACK",
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "28-empty-search-back.safe-ax.txt",
+      "safe_ax_sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b"
+    },
+    {
+      "file": "29-read-list-final.png",
+      "sha256": "5c12db1803145a1dc59e58a13a059c8f1054914e8951cdfbd557659c8824f097",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "captured_at_utc": "2026-10-03T02:38:10.759Z",
+      "state_id": "S-NATIVE-NOTICE-LIST-READ",
+      "action_id": null,
+      "source": "Actual Computer Use native screenshot bytes",
+      "source_raw_dimensions": [
+        750,
+        1390
+      ],
+      "source_crop_xyxy": [
+        0,
+        57,
+        750,
+        1390
+      ],
+      "redaction": "Titlebar excluded; public keywords, institutional notice and campus venue only; hidden identity/complete URLs excluded from AX. Cursor/halo and dark bottom capture artifact retained.",
+      "safe_ax_file": "29-read-list-final.safe-ax.txt",
+      "safe_ax_sha256": "733bcfb76be8553e4f4201950475ddc1187c49f3c8070458cdf3b579e474bd7b"
+    }
+  ],
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "sha256": "7b3e3b0768e9ff95ffc559195d0235b866e21ee6148444fb5bd0bf5c65d3bae5",
+    "dimensions": [
+      1152,
+      4224
+    ],
+    "captured_at_utc": "2026-10-03T02:38:10.759Z",
+    "source": "Contact of all30 actual native captures"
+  },
+  "limits": [
+    "Three public query samples; index scope not inferred.",
+    "Capture01/11/13/24/26/28 may be transitional; settled followups retained.",
+    "Keyword and field values do not prove full search correctness.",
+    "No call/order/private query/device gesture."
+  ]
+}
