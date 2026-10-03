@@ -1,0 +1,67 @@
+{
+  "status": "planned_not_configured",
+  "frame": {
+    "node_id": "946:19",
+    "name": "[NS:LOADING] VA210 — Search map pending",
+    "file": "notification-search-detail-loading.svg",
+    "x": 0,
+    "y": 86000,
+    "dimensions": [
+      576,
+      1024
+    ],
+    "readback": [
+      "\t\t\t\t\t\t\t\t\t315 stepper (settable, integer) Description: X-position, Value: 0",
+      "\t\t\t\t\t\t\t\t\t316 stepper (settable, integer) Description: Y-position, Value: 86000",
+      "\t\t\t\t\t\t\t\t\t\t343 text field (settable) Description: Width, Value: 576",
+      "\t\t\t\t\t\t\t\t\t\t346 text field (settable) Description: Height, Value: 1024"
+    ],
+    "configured_at": "2026-10-03T06:19:19.457Z"
+  },
+  "actual_readback": [
+    "609 row (selected) Click None Remove click interaction",
+    "611 pop up button (expanded) Click None, Secondary Actions: Collapse",
+    "648 combo box (collapsed) Trigger, Value: On click, ID: :rdn:, Secondary Actions: Expand",
+    "654 combo box (collapsed) Action, Value: None, ID: :rdq:, Secondary Actions: Expand"
+  ],
+  "rejection": {
+    "operation": "Click Figma Action combobox",
+    "reported_reason": "Browser URL protocol not allowed",
+    "subsequent_read_only_url": "HTTPS Figma design page946:19",
+    "interpretation": "Cause not resolved; refusal respected; no input workaround"
+  },
+  "proposed_connections": [
+    {
+      "source_node_id": "920:36",
+      "trigger_node_name": "VenueResult",
+      "target_node_id": "946:19",
+      "behavior": "Navigate to",
+      "status": "proposed_not_configured",
+      "limits": "Retain observed result relation; loading sample input causality unresolved."
+    },
+    {
+      "source_node_id": "946:19",
+      "target_node_id": "920:129",
+      "trigger": "After delay",
+      "delay_ms": 800,
+      "behavior": "Navigate to",
+      "status": "proposed_not_configured",
+      "limits": "Demonstrative transition; same-visit native settlement/duration not established."
+    },
+    {
+      "source_node_id": "946:19",
+      "trigger_node_name": "Back",
+      "target_node_id": "920:36",
+      "behavior": "Navigate to",
+      "status": "proposed_not_configured",
+      "limits": "Finite workshop caller; context relation from saved sample13 with input attribution uncertainty."
+    }
+  ],
+  "limits": [
+    "Native ordinary input and result leaf/chevron attempts retained; no detail opened in this batch.",
+    "AX value displays workshop/VA210, not proof of arbitrary input or index correctness.",
+    "946:19 exists as an imported draft; On click None has no destination. Browser security policy rejected the Action dropdown operation; subsequent read-only URL/state remained HTTPS Figma. No workaround or new Present run.",
+    "Loading SVG source is prior E-SEARCH-OBS-12; proposed800ms is a demo only.",
+    "Full application/fidelity not_verified."
+  ]
+}

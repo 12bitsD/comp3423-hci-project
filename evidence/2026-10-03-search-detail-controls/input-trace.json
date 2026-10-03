@@ -1,0 +1,83 @@
+{
+  "steps": [
+    {
+      "file": "00-current.png",
+      "action": null,
+      "input": null,
+      "note": null,
+      "captured_at": "2026-10-03T06:16:55.620Z"
+    },
+    {
+      "file": "01-workshop-typed.png",
+      "action": "query",
+      "input": {
+        "method": "AX focus17 + ordinary typeText",
+        "value": "workshop"
+      },
+      "note": "Input based on full saved current AX and screenshot.",
+      "captured_at": "2026-10-03T06:17:05.196Z"
+    },
+    {
+      "file": "02-workshop-ax-value.png",
+      "action": "query_ax",
+      "input": {
+        "method": "AX setValue17",
+        "value": "workshop"
+      },
+      "note": "Ordinary focus/type did not show text; distinct AX input mode.",
+      "captured_at": "2026-10-03T06:17:14.758Z"
+    },
+    {
+      "file": "03-va210-result.png",
+      "action": "result",
+      "input": {
+        "method": "AX leaf20"
+      },
+      "note": "Current saved screenshot and AX show workshop result.",
+      "captured_at": "2026-10-03T06:17:22.599Z"
+    },
+    {
+      "file": "04-va210-chevron.png",
+      "action": "result_chevron",
+      "input": {
+        "method": "visible coordinate",
+        "point": [
+          720,
+          367
+        ]
+      },
+      "note": "AX leaf retained Search; retarget visible chevron.",
+      "captured_at": "2026-10-03T06:17:32.183Z"
+    },
+    {
+      "file": "05-result-followup.png",
+      "action": null,
+      "input": null,
+      "note": "No new input; check delayed transition after chevron attempt.",
+      "captured_at": "2026-10-03T06:17:43.581Z"
+    }
+  ],
+  "actual_state_ids": [
+    "S-NOTIFICATION-SEARCH-EMPTY",
+    "S-NOTIFICATION-SEARCH-EMPTY",
+    "S-NOTICE-SEARCH-WORKSHOP",
+    "S-NOTICE-SEARCH-WORKSHOP",
+    "S-NOTICE-SEARCH-WORKSHOP",
+    "S-NOTICE-SEARCH-WORKSHOP"
+  ],
+  "outcomes": [
+    "empty Search",
+    "ordinary typing no text",
+    "AX workshop result visible",
+    "leaf retained Search",
+    "chevron retained Search",
+    "followup retained Search"
+  ],
+  "limitations": [
+    "Native ordinary input and result leaf/chevron attempts retained; no detail opened in this batch.",
+    "AX value displays workshop/VA210, not proof of arbitrary input or index correctness.",
+    "946:19 exists as an imported draft; On click None has no destination. Browser security policy rejected the Action dropdown operation; subsequent read-only URL/state remained HTTPS Figma. No workaround or new Present run.",
+    "Loading SVG source is prior E-SEARCH-OBS-12; proposed800ms is a demo only.",
+    "Full application/fidelity not_verified."
+  ]
+}

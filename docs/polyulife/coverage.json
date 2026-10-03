@@ -1057,6 +1057,40 @@
         "Saved full AX agrees with screenshots; displayed tool text/prior interpretation discrepancy not diagnosed.",
         "No changes to native action verification statuses, discovered states or Figma mappings."
       ]
+    },
+    {
+      "id": "SESSION-20261003-SEARCH-CONTROLS",
+      "started_at": "2026-10-03T06:16:55.620Z",
+      "documented_through": "2026-10-03T06:17:43.581Z",
+      "timezone": "Asia/Shanghai",
+      "environment": {
+        "platform": "macOS",
+        "runtime": "Installed iPhone App on Mac via Computer Use",
+        "app_version": "3.0.0",
+        "app_version_reverified_in_this_record": false,
+        "login_state": "Existing login; no credential input"
+      },
+      "starting_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+      "evidence_ids": [
+        "E-SEARCH-CONTROLS-00",
+        "E-SEARCH-CONTROLS-00-AX",
+        "E-SEARCH-CONTROLS-01",
+        "E-SEARCH-CONTROLS-01-AX",
+        "E-SEARCH-CONTROLS-02",
+        "E-SEARCH-CONTROLS-02-AX",
+        "E-SEARCH-CONTROLS-03",
+        "E-SEARCH-CONTROLS-03-AX",
+        "E-SEARCH-CONTROLS-04",
+        "E-SEARCH-CONTROLS-04-AX",
+        "E-SEARCH-CONTROLS-05",
+        "E-SEARCH-CONTROLS-05-AX",
+        "E-SEARCH-CONTROLS-TRACE"
+      ],
+      "limitations": [
+        "Native ordinary input and result leaf/chevron attempts retained; no detail opened in this batch.",
+        "AX value displays workshop/VA210, not proof of arbitrary input or index correctness.",
+        "No detail controls observed; action statuses retain prior verified history."
+      ]
     }
   ],
   "entry_points": [
@@ -14822,6 +14856,23 @@
             "E-NOTICE-SEARCH-04",
             "E-NOTICE-SEARCH-04-AX"
           ]
+        },
+        {
+          "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+          "at": "2026-10-03T06:17:14.758Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": {
+            "method": "AX setValue17",
+            "value": "workshop"
+          },
+          "observed_feedback": "AX value shows workshop and VA210.",
+          "execution_status": "observed",
+          "evidence_ids": [
+            "E-SEARCH-CONTROLS-02",
+            "E-SEARCH-CONTROLS-02-AX"
+          ]
         }
       ],
       "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
@@ -14829,7 +14880,9 @@
         "E-NOTICE-SEARCH-03",
         "E-NOTICE-SEARCH-03-AX",
         "E-NOTICE-SEARCH-04",
-        "E-NOTICE-SEARCH-04-AX"
+        "E-NOTICE-SEARCH-04-AX",
+        "E-SEARCH-CONTROLS-02",
+        "E-SEARCH-CONTROLS-02-AX"
       ],
       "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
       "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
@@ -15012,6 +15065,23 @@
             "E-NOTICE-SEARCH-21",
             "E-NOTICE-SEARCH-21-AX"
           ]
+        },
+        {
+          "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+          "at": "2026-10-03T06:17:05.196Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "target_state_id": "S-NOTIFICATION-SEARCH-EMPTY",
+          "input": {
+            "method": "AX focus17 + ordinary typeText",
+            "value": "workshop"
+          },
+          "observed_feedback": "Saved screenshot/AX retain Search; intended input/entry result not achieved in this attempt.",
+          "execution_status": "attempted_unverified",
+          "evidence_ids": [
+            "E-SEARCH-CONTROLS-01",
+            "E-SEARCH-CONTROLS-01-AX"
+          ]
         }
       ],
       "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
@@ -15023,7 +15093,9 @@
         "E-NOTICE-SEARCH-20",
         "E-NOTICE-SEARCH-20-AX",
         "E-NOTICE-SEARCH-21",
-        "E-NOTICE-SEARCH-21-AX"
+        "E-NOTICE-SEARCH-21-AX",
+        "E-SEARCH-CONTROLS-01",
+        "E-SEARCH-CONTROLS-01-AX"
       ],
       "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
       "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
@@ -15066,6 +15138,42 @@
             "E-NOTICE-SEARCH-12",
             "E-NOTICE-SEARCH-12-AX"
           ]
+        },
+        {
+          "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+          "at": "2026-10-03T06:17:22.599Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": {
+            "method": "AX leaf20"
+          },
+          "observed_feedback": "Saved screenshot/AX retain Search; intended input/entry result not achieved in this attempt.",
+          "execution_status": "attempted_unverified",
+          "evidence_ids": [
+            "E-SEARCH-CONTROLS-03",
+            "E-SEARCH-CONTROLS-03-AX"
+          ]
+        },
+        {
+          "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+          "at": "2026-10-03T06:17:32.183Z",
+          "timestamp_semantics": "Capture time, not exact input time",
+          "from_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "target_state_id": "S-NOTICE-SEARCH-WORKSHOP",
+          "input": {
+            "method": "visible coordinate",
+            "point": [
+              720,
+              367
+            ]
+          },
+          "observed_feedback": "Saved screenshot/AX retain Search; intended input/entry result not achieved in this attempt.",
+          "execution_status": "attempted_unverified",
+          "evidence_ids": [
+            "E-SEARCH-CONTROLS-04",
+            "E-SEARCH-CONTROLS-04-AX"
+          ]
         }
       ],
       "target_state_id": "S-FOOD-DETAIL",
@@ -15075,7 +15183,11 @@
         "E-NOTICE-SEARCH-11",
         "E-NOTICE-SEARCH-11-AX",
         "E-NOTICE-SEARCH-12",
-        "E-NOTICE-SEARCH-12-AX"
+        "E-NOTICE-SEARCH-12-AX",
+        "E-SEARCH-CONTROLS-03",
+        "E-SEARCH-CONTROLS-03-AX",
+        "E-SEARCH-CONTROLS-04",
+        "E-SEARCH-CONTROLS-04-AX"
       ],
       "return_path": "VA210→Search retains workshop; Search→read Notification; reentry Search empty",
       "authorization": "Ordinary public search/clear/result navigation; no calls/orders/sharing/private query",
@@ -68060,6 +68172,254 @@
       ],
       "action_ids": [],
       "source": "Derived review of actual saved capture records"
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-00",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-controls/00-current.png",
+      "sha256": "6eece71fd9b26a86befb0084c44fdd860d73d856151fee5160b5590138e86fa3",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot",
+      "redaction": "Titlebar excluded; public sampled query and venue only; cursor/halo and capture artifact retained",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-00-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-controls/00-current.safe-ax.txt",
+      "sha256": "9a3158602a487b4577f3a6dce2ce6c8e4018f786cb99ce37ce07d86ab3902ff3",
+      "source": "Saved full AX public leaf subset",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-01",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-controls/01-workshop-typed.png",
+      "sha256": "a2030aad9934df3a36f458081dffbd4f7f36b9463e133bbb98e8c2b565410a6e",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot",
+      "redaction": "Titlebar excluded; public sampled query and venue only; cursor/halo and capture artifact retained",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-01-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-controls/01-workshop-typed.safe-ax.txt",
+      "sha256": "9a3158602a487b4577f3a6dce2ce6c8e4018f786cb99ce37ce07d86ab3902ff3",
+      "source": "Saved full AX public leaf subset",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-KEYBOARD-WORKSHOP"
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-02",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-controls/02-workshop-ax-value.png",
+      "sha256": "9d74eff8eaac0473cfe18d24237be3554d8d4107d45732eaeb01fe8e0dbeb707",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot",
+      "redaction": "Titlebar excluded; public sampled query and venue only; cursor/halo and capture artifact retained",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-AX-VALUE"
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-02-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-controls/02-workshop-ax-value.safe-ax.txt",
+      "sha256": "f58d68bdd70ab7bf7319f65f90ca24f9cfdaaae713f34f60c32e5b59e6a023db",
+      "source": "Saved full AX public leaf subset",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-AX-VALUE"
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-03",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-controls/03-va210-result.png",
+      "sha256": "98f1e70c69b8a15848da0a38c237c9f77929e09cab68485fb336092ea94c5398",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot",
+      "redaction": "Titlebar excluded; public sampled query and venue only; cursor/halo and capture artifact retained",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-03-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-controls/03-va210-result.safe-ax.txt",
+      "sha256": "f58d68bdd70ab7bf7319f65f90ca24f9cfdaaae713f34f60c32e5b59e6a023db",
+      "source": "Saved full AX public leaf subset",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-04",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-controls/04-va210-chevron.png",
+      "sha256": "9c7adef038f99ad0717ad410cefcad79c7eee1992d2d8e38fd1229ab479758ee",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot",
+      "redaction": "Titlebar excluded; public sampled query and venue only; cursor/halo and capture artifact retained",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-04-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-controls/04-va210-chevron.safe-ax.txt",
+      "sha256": "03505ae36ec5a7d6640abdf29af99169f22b9457bdf9035faee3efe4f2cb1e54",
+      "source": "Saved full AX public leaf subset",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [
+        "A-NOTICE-SEARCH-RESULT"
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-05",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-controls/05-result-followup.png",
+      "sha256": "ba424ebf0fe463e92c8412874d283178100c7d78459b730ddf93630319362eee",
+      "dimensions": [
+        576,
+        1024
+      ],
+      "source": "Actual native Computer Use screenshot",
+      "redaction": "Titlebar excluded; public sampled query and venue only; cursor/halo and capture artifact retained",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-05-AX",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-controls/05-result-followup.safe-ax.txt",
+      "sha256": "03505ae36ec5a7d6640abdf29af99169f22b9457bdf9035faee3efe4f2cb1e54",
+      "source": "Saved full AX public leaf subset",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": []
+    },
+    {
+      "id": "E-NS-LOADING-DRAFT-EDITOR",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-controls/06-figma-loading-draft.png",
+      "sha256": "4cc269a494a6f02f8116bbf6a35e7bfeb504190ab21abd2a001a7bc1ecc04a0c",
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-DETAIL-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual capture or reviewed derived artifact; not a prototype run",
+      "dimensions": [
+        1211,
+        750
+      ]
+    },
+    {
+      "id": "E-NS-LOADING-DRAFT-READBACK",
+      "type": "ax",
+      "path": "../../evidence/2026-10-03-search-detail-controls/figma-safe-readback.txt",
+      "sha256": "ebeda72283db705644eb98886205cb286b1f1f1c7ba98f0f4a4408bfec89e242",
+      "session_id": null,
+      "state_ids": [
+        "S-FOOD-DETAIL-LOADING"
+      ],
+      "action_ids": [],
+      "source": "Actual capture or reviewed derived artifact; not a prototype run"
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-CONTACT",
+      "type": "screenshot",
+      "path": "../../evidence/2026-10-03-search-detail-controls/contact-sheet.png",
+      "sha256": "0ff912912e6beea6123328ae2883926fd416f65c48e9ac6f7925e09e3c47d101",
+      "session_id": null,
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY",
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "source": "Actual capture or reviewed derived artifact; not a prototype run",
+      "dimensions": [
+        1152,
+        1600
+      ]
+    },
+    {
+      "id": "E-SEARCH-CONTROLS-TRACE",
+      "type": "observation_trace",
+      "path": "../../evidence/2026-10-03-search-detail-controls/input-trace.json",
+      "sha256": "db915b595a94775481e08f1cecb81626e4f4f9bc359b522bbf94c57dcba40666",
+      "session_id": "SESSION-20261003-SEARCH-CONTROLS",
+      "state_ids": [
+        "S-NOTIFICATION-SEARCH-EMPTY",
+        "S-NOTICE-SEARCH-WORKSHOP"
+      ],
+      "action_ids": [],
+      "source": "Actual capture or reviewed derived artifact; not a prototype run"
     }
   ],
   "findings": [
@@ -125883,6 +126243,33 @@
         ],
         "connection_plan_path": "../../design/polyulife/calendar-oct2-class-exam-plan.json",
         "import_revision_id": "FIGMA-OCT2-CLASS-EXAM-20261003"
+      },
+      {
+        "state_id": "S-FOOD-DETAIL-LOADING",
+        "context_variant": "20261003-notification-search-detail-loading",
+        "source_evidence_ids": [
+          "E-SEARCH-OBS-12",
+          "E-SEARCH-OBS-12-AX"
+        ],
+        "design_source_path": "../../design/polyulife/notification-search-detail-loading.svg",
+        "design_source_sha256": "a384889f037e23a86cfae33e94d69fc5cc53321ce022eb48a874d6350b77803a",
+        "revision_id": "SOURCE-NS-LOADING-20261003",
+        "status": "imported_unconfigured_not_replayed",
+        "node_id": "946:19",
+        "node_name": "[NS:LOADING] VA210 — Search map pending",
+        "editor_evidence_ids": [
+          "E-NS-LOADING-DRAFT-EDITOR",
+          "E-NS-LOADING-DRAFT-READBACK"
+        ],
+        "prototype_run_ids": [],
+        "connection_plan_path": "../../design/polyulife/notification-search-loading-plan.json",
+        "limitations": [
+          "Native ordinary input and result leaf/chevron attempts retained; no detail opened in this batch.",
+          "AX value displays workshop/VA210, not proof of arbitrary input or index correctness.",
+          "946:19 exists as an imported draft; On click None has no destination. Browser security policy rejected the Action dropdown operation; subsequent read-only URL/state remained HTTPS Figma. No workaround or new Present run.",
+          "Loading SVG source is prior E-SEARCH-OBS-12; proposed800ms is a demo only.",
+          "Full application/fidelity not_verified."
+        ]
       }
     ]
   },
