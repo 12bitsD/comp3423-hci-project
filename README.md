@@ -14,6 +14,13 @@
 
 已建立 [PolyULife Figma 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)，正在依照实测截图制作原应用复现。文件存在不代表全应用复现完成；可编辑节点、交互连线和 Present 运行结果逐项登记于台账。
 
+## Food 独立改版（D，2026-11-05）
+
+- [设计文件](https://www.figma.com/design/RGbquBbhRlgHI9el7V9TgT/?node-id=4-16) · [Present 原型](https://www.figma.com/proto/RGbquBbhRlgHI9el7V9TgT/?node-id=4-16&page-id=4%3A2&starting-point-node-id=4%3A16&scaling=scale-down&content-scaling=fixed)
+- [使用、视觉规范与整合说明](docs/food-figma.md) · [Present 验证记录](evidence/2026-11-05-food-figma/walkthrough.md)
+
+独立 Fresh Campus 改版供后续合并；下方旧文件保留为原应用复现。
+
 ## Figma 原型链接
 
 - **[从首页开始体验（推荐）](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=67-569&scaling=scale-down&content-scaling=fixed&starting-point-node-id=67%3A569&show-proto-sidebar=1)**：包含日期、日程及功能入口，适合演示进入功能后返回首页的流程。
