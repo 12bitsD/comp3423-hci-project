@@ -17,7 +17,7 @@ v0.2 已由 D 本地验收通过；供团队审阅复用，不代表全组已正
 
 A 的 Apps 服务查找交互包、八个手机场景、两张报告图和 Figma 连线规格位于 [prototypes/apps-studio](prototypes/apps-studio/README.md)。英文功能小节见 [docs/report/apps.md](docs/report/apps.md)，全组真人测试计划见 [docs/evaluation/maze-plan.md](docs/evaluation/maze-plan.md)。
 
-当前已实现并走查搜索、分类、VRS 详情、加载、外部登录演示、无结果恢复及返回状态保留。**可编辑 Apps Figma 页面尚未迁移**：当前执行环境只有 Figma 公开查看权限，必须按迁移规格获得编辑权限后实际重建和验收。HTML/PNG 与 Agent 走查不替代 Figma 或真人 Maze。
+当前已实现并走查搜索、分类、VRS 详情、加载、外部登录演示、无结果恢复及返回状态保留。Chrome 中已确认 LIN HAO 账号的小组文件编辑权限，并建立 `02 · Apps Redesign` 页面和 `A04 · VRS details` 画框；其余画框与 Prototype 连线仍待导入和验收，当前不能记为 Figma 完成。HTML/PNG 与 Agent 走查不替代完整 Figma 或真人 Maze。
 
 ## 当前进展
 

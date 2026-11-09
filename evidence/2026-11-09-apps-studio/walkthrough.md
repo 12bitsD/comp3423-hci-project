@@ -39,7 +39,7 @@
 
 ## 尚未完成
 
-- 当前内置浏览器对小组 Figma 只有公开查看权限，本机无 Figma 桌面应用，故未生成可编辑 Apps Figma 页面，也未验证其查看/评论权限。迁移规格见 `prototypes/apps-studio/docs/FIGMA-HANDOFF.md`。
+- Chrome 中已确认 LIN HAO 账号的编辑权限，并建立 `02 · Apps Redesign` 和 `A04 · VRS details`。其余七张画框、Prototype 连线和 Present 验收尚未完成；Figma 查看/评论权限仍需最终复核。迁移规格见 `prototypes/apps-studio/docs/FIGMA-HANDOFF.md`。
 - 未执行至少五位真实参与者的 Maze；本文件和浏览器导出不能计入样本。
 - 其他四功能、共同首页整合、最终报告、PPT、视频和 Canvas 提交不属于本次 Apps 实现验收的已完成范围。
 
@@ -48,3 +48,11 @@
 复核本地课程 PDF 后，Apps 报告已改为课程框架为主、Nielsen 为补充：Week 7 Feedback/Constraints/FSM-STN，Visuals Part 2 Semantic Priming/CRAP/Recognition over Recall，Human Part 2 Fitts’ Law，以及 Week 5 的可测量 UI Specification。新增 `figure-03-apps-stn.png`，把 A00–A07 映射为 S0–S5 并标明返回、取消和空结果恢复。
 
 Week 6 的 Design Thinking 仅用于说明迭代过程：当前界面观察支持 Define/Prototype，不把界面检查冒充 Empathize 用户研究，Test 仍待真人 Maze。课件用于设计论证，不替代项目要求的 10–20 篇相关研究文献。此次补充没有改变 Apps 交互行为，因此不重复声称新增真人或性能验证。
+
+## Chrome Figma 迁移实测
+
+通过用户明确授权的 Chrome 会话确认当前 Figma 账号为 LIN HAO，文件显示 Add new page、Export、Share 和 Design/Prototype 等编辑能力。已把默认 Page 3 重命名为 `02 · Apps Redesign`。免费版提示每文件最多三页，当前正好三页，未升级或修改付费设置。
+
+`A04 · VRS details` 已导入画布，实测尺寸 390 × 844，图层含 Frame、Group、Vector；画面中的服务名、用途、NetID 提示、官方域名和按钮均清晰。SVG 文字成为 Vector 轮廓，因此不能声称所有文字都可直接编辑，后续报告说明需另保留文本对象。
+
+其余七张 SVG 已生成，但浏览器扩展的本机文件上传权限默认关闭，批量导入尚未完成。尝试官方 Figma MCP 后确认其需要额外授权配置，没有修改 MCP 或账号设置。当前未把单张导入记为完整 Figma 交付，也未进行 Present 主链路验收。
