@@ -26,9 +26,9 @@
 
 A01/A02/A03/A07 都使用同一列表结构；在 Figma 中用组件 variants 表示分类、查询和结果状态，避免复制后样式漂移。
 
-## 3. Prototype 连线
+## 3. Prototype 连线（Week 7 FSM / STN）
 
-将 A00 设为 starting point，Present 使用 Fit width and height。连线使用 On click → Navigate to → Instant；A05 的自动前进使用 After delay。
+将 A00 设为 starting point，Present 使用 Fit width and height。连线使用 On click → Navigate to → Instant；A05 的自动前进使用 After delay。下表同时是 Week 7 pp. 8–10 所要求的 State Transition Network：S0 Home、S1 列表、S2 详情、S3 加载、S4 官方登录演示、S5 无结果。报告图见 `../exports/figure-03-apps-stn.png`；分类和查询变化作为 S1 内部 variants，返回详情前保存、返回列表后恢复查询/分类/滚动位置。
 
 | 起点与触发器 | 目标 | 状态要求 |
 | --- | --- | --- |

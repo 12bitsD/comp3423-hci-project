@@ -25,7 +25,8 @@
 - 查询匹配服务名、描述、分类和常见任务词；结果保持可扫描的名称和用途。
 - 详情页先说明用途、NetID 可能性和官方目的地，再进入加载与外部登录演示。
 - 加载可取消，网页可关闭，返回恢复查询、分类和滚动位置；无结果提供明确恢复动作。
-- 具名原则：Visibility of system status、Recognition rather than recall、User control and freedom。设计效果必须经真人评估，不能由实现检查推出。
+- **COMP3423 课件原则为主**：Week 7 的 Feedback（筛选/计数/加载反馈）与 Constraints（明确继续、取消、关闭及安全演示限制）；Visuals Part 2 的 Semantic Priming（服务用途、NetID 和域名上下文）、Recognition over Recall（搜索与文字标签）及 CRAP（对比、重复、对齐、邻近）；Human Part 2 的 Fitts’ Law（至少 44px 且靠近相关内容的操作目标）。Week 7 的 FSM/STN 用于定义 Home、列表、详情、加载、外部页和空结果的转换。
+- Nielsen 的 Visibility of system status、Recognition rather than recall、User control and freedom 只作补充术语。设计效果必须经真人评估，不能由实现检查或原则名称推出。
 
 ## 演示内容与限制
 

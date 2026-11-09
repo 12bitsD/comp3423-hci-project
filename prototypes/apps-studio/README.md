@@ -31,8 +31,9 @@ python3 -m http.server 4187 --bind 127.0.0.1
 
 PNG 为 922 × 2000 的高分辨率导出，对应 390 × 844 逻辑画框。报告图为 1200 × 760：
 
-- `exports/figure-01-category-status.png`：当前分类可见性。
-- `exports/figure-02-external-handoff.png`：VRS 外部服务交接。
+- `exports/figure-01-category-status.png`：当前分类可见性，对应 Week 7 Feedback。
+- `exports/figure-02-external-handoff.png`：VRS 外部服务交接，对应 Semantic Priming 与 Constraints。
+- `exports/figure-03-apps-stn.png`：Week 7 FSM/STN 状态转换网络，含返回、取消与空结果恢复。
 
 `?capture=1&scenario=campus` 等地址只显示手机画框，便于复查和重新导出。
 

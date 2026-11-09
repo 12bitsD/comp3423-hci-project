@@ -42,3 +42,9 @@
 - 当前内置浏览器对小组 Figma 只有公开查看权限，本机无 Figma 桌面应用，故未生成可编辑 Apps Figma 页面，也未验证其查看/评论权限。迁移规格见 `prototypes/apps-studio/docs/FIGMA-HANDOFF.md`。
 - 未执行至少五位真实参与者的 Maze；本文件和浏览器导出不能计入样本。
 - 其他四功能、共同首页整合、最终报告、PPT、视频和 Canvas 提交不属于本次 Apps 实现验收的已完成范围。
+
+## 课件原则对齐补充
+
+复核本地课程 PDF 后，Apps 报告已改为课程框架为主、Nielsen 为补充：Week 7 Feedback/Constraints/FSM-STN，Visuals Part 2 Semantic Priming/CRAP/Recognition over Recall，Human Part 2 Fitts’ Law，以及 Week 5 的可测量 UI Specification。新增 `figure-03-apps-stn.png`，把 A00–A07 映射为 S0–S5 并标明返回、取消和空结果恢复。
+
+Week 6 的 Design Thinking 仅用于说明迭代过程：当前界面观察支持 Define/Prototype，不把界面检查冒充 Empathize 用户研究，Test 仍待真人 Maze。课件用于设计论证，不替代项目要求的 10–20 篇相关研究文献。此次补充没有改变 Apps 交互行为，因此不重复声称新增真人或性能验证。
