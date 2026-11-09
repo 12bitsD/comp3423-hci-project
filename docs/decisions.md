@@ -41,3 +41,7 @@
 用户说明小组选题为 PolyULife，其 D 分工为 Food 餐饮查询及共用视觉、报告插图、PPT 整合。本轮用户确认 Fresh Campus（米白、深蓝、明亮绿）方向，并通过完整 v0.2 本地验收，明确授权上传工作分支与 PR。材料见 [Food Studio](../prototypes/food-studio/README.md)。此记录更新上述待确认项中用户已明确的选题与 D 范围，不推定其他组员已确认整套视觉标准。
 
 包含完整浏览器交互、两张报告对比图、六页可编辑 PPT、使用规范、局部 AGENTS.md 与 Figma 迁移说明。历史截图保留来源；营业时间为演示场景；尚无真人评估结果。此验收不代表 Figma/Maze 课程交付已完成，也不授权直接合并 main。
+
+## 2026-11-05 · D 的 Food 独立 Figma
+
+按用户与小组提出的分模块交付方式，Food 改版创建独立 Figma 文件，沿用 Fresh Campus 风格；设计和 Present 链接见 [说明](food-figma.md)。已执行核心交互与返回走查。原小组文件保留，最终合并后须重新验证跨功能导航。本次不等同于真人 Maze 评估。
