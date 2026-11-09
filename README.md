@@ -4,6 +4,15 @@
 
 协作入口为公开仓库 [12bitsD/comp3423-hci-project](https://github.com/12bitsD/comp3423-hci-project)，任何人都可以读取和克隆。用 GitHub Issues 记录任务和待讨论问题，Pull Request 审阅改动，仓库文件保存研究材料与重要决策。
 
+## Food 改版与共用视觉（Fresh Campus v0.2）
+
+D 的完整 Food 浏览器原型、两张报告插图、六页可编辑 PPT 与使用规范位于 [prototypes/food-studio](prototypes/food-studio/README.md)。下载仓库后双击该目录的 `index.html` 即可离线体验。
+
+- [视觉与组件规范](prototypes/food-studio/docs/STYLE-GUIDE.md) · [局部 AGENTS.md](prototypes/food-studio/AGENTS.md)
+- [可编辑 PPT](prototypes/food-studio/exports/PolyULife-Food-Fresh-Campus-v02.pptx) · [报告插图](prototypes/food-studio/exports/)
+
+v0.2 已由 D 本地验收通过；供团队审阅复用，不代表全组已正式采用。浏览器原型不能替代课程 Figma 与真人 Maze 评估。
+
 ## 当前进展
 
 2026-09-28 已通过原生 Mac App Store 安装并运行官方 PolyULife 3.0.0，通过 **Codex Computer Use** 连接应用，取得首页可访问性控件树（AX）信息。实际路线为：
