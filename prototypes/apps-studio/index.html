@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PolyULife · Apps Design Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="studio-shell">
+    <aside class="studio-sidebar">
+      <a class="studio-brand" href="#prototype" aria-label="Apps Design Studio home">
+        <span class="brand-mark">P<span></span></span>
+        <span><strong>PolyULife</strong><small>FRESH CAMPUS</small></span>
+      </a>
+      <p class="owner">A / UX STRATEGY &amp; APPS</p>
+      <nav aria-label="Studio sections">
+        <a href="#prototype" class="active"><span>01</span> Interactive prototype</a>
+        <a href="#evidence"><span>02</span> Evidence &amp; rationale</a>
+        <a href="#handoff"><span>03</span> Figma &amp; evaluation</a>
+      </nav>
+      <div class="sidebar-status"><span></span> LOCAL REVIEW · v0.1</div>
+      <p class="sidebar-foot">COMP3423 · 2026<br>Design proposal · Not yet user-tested</p>
+    </aside>
+
+    <main class="studio-main">
+      <header class="studio-topbar"><span>COMP3423&nbsp;&nbsp; / &nbsp;&nbsp;PolyULife&nbsp;&nbsp; / &nbsp;&nbsp;Apps</span><span class="outline-label">LOCAL PROTOTYPE</span></header>
+
+      <section class="studio-section" id="prototype">
+        <div class="section-heading">
+          <p class="eyebrow">01 / INTERACTIVE PROTOTYPE</p>
+          <div class="heading-row"><h1>Find it. Know where you are.</h1><span>FRESH CAMPUS / v0.1</span></div>
+          <p>Search campus services, understand the current filter, and move to an official external service without losing your place.</p>
+        </div>
+
+        <div class="workspace">
+          <div class="preview-column">
+            <p class="preview-label">APPS · INTERACTIVE MOBILE PREVIEW</p>
+            <div class="phone-shell">
+              <div id="phone-screen" class="phone-screen" aria-label="Interactive PolyULife Apps prototype"></div>
+            </div>
+            <p class="preview-note">Click inside the prototype. No credentials or external submissions are collected.</p>
+          </div>
+          <aside class="scenario-panel" aria-label="Preview scenarios">
+            <p class="eyebrow">PREVIEW SCENARIOS</p>
+            <button data-scenario="home" class="scenario active"><span>Common home</span><b>A00 ↗</b></button>
+            <button data-scenario="all" class="scenario"><span>All services</span><b>A01 ↗</b></button>
+            <button data-scenario="campus" class="scenario"><span>Campus + VRS</span><b>A02 ↗</b></button>
+            <button data-scenario="job" class="scenario"><span>Persistent Job filter</span><b>A03 ↗</b></button>
+            <button data-scenario="detail" class="scenario"><span>VRS details</span><b>A04 ↗</b></button>
+            <button data-scenario="loading" class="scenario"><span>External loading</span><b>A05 ↗</b></button>
+            <button data-scenario="web" class="scenario"><span>Official sign-in handoff</span><b>A06 ↗</b></button>
+            <button data-scenario="empty" class="scenario"><span>No results recovery</span><b>A07 ↗</b></button>
+            <div class="scenario-help">
+              <h2>Try the core task</h2>
+              <ol>
+                <li>Open Apps from Home.</li>
+                <li>Search for the visitor registration service.</li>
+                <li>Review its details and continue to the official page.</li>
+                <li>Return and confirm your search is still there.</li>
+              </ol>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="studio-section content-section" id="evidence">
+        <p class="eyebrow">02 / EVIDENCE &amp; RATIONALE</p>
+        <h2>One observed gap, one traceable response.</h2>
+        <div class="evidence-grid">
+          <article class="evidence-card">
+            <span class="letter-badge">A</span>
+            <h3>Observed interface</h3>
+            <p>After the category bar was dragged, Job remained selected and its content stayed visible, but the selected Job label was outside the viewport.</p>
+            <img src="assets/original-apps-category-dragged.png" alt="Original PolyULife Apps screen showing Job Board content while the selected Job category is offscreen">
+            <small>Source: apps-171722-category-bar-dragged.png · 2026-09-28</small>
+          </article>
+          <article class="evidence-card response-card">
+            <span class="letter-badge">B</span>
+            <h3>Proposed response</h3>
+            <p>A persistent result summary names the active category. Wrapped category chips remain visible, while search offers a direct recognition-based route to a service.</p>
+            <ul class="principle-list">
+              <li><strong>Visibility of system status</strong><span>The result header always names the active filter.</span></li>
+              <li><strong>Recognition rather than recall</strong><span>Search accepts service names and common task words.</span></li>
+              <li><strong>User control and freedom</strong><span>Clear, reset, close, and back preserve a predictable recovery path.</span></li>
+            </ul>
+            <small>Design hypothesis · Effectiveness requires real-participant evaluation.</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="studio-section content-section" id="handoff">
+        <p class="eyebrow">03 / FIGMA &amp; EVALUATION</p>
+        <h2>Ready for migration, not presented as tested.</h2>
+        <div class="handoff-grid">
+          <article><span>01</span><h3>Eight frames</h3><p>A00–A07 use 390 × 844 frames. The handoff specifies every trigger, destination, overlay, and preserved state.</p></article>
+          <article><span>02</span><h2>Honest external handoff</h2><p>The official PolyU domain and NetID requirement are announced before the simulated web view. No login data enters this prototype.</p></article>
+          <article><span>03</span><h3>Maze next step</h3><p>The task asks participants to find the guest visitor service without revealing the path. Agent checks are not participant results.</p></article>
+        </div>
+        <div class="doc-links">
+          <a href="docs/FIGMA-HANDOFF.md">Figma frame specification ↗</a>
+          <a href="docs/EVIDENCE.md">Evidence boundaries ↗</a>
+          <a href="../../docs/evaluation/maze-plan.md">Shared Maze plan ↗</a>
+          <a href="../../docs/report/apps.md">English report subsection ↗</a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div id="live-region" class="sr-only" aria-live="polite"></div>
+  <script src="app.js?v=2"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # COMP3423 HCI Project
 
-本仓库记录 COMP3423 小组项目的研究、界面证据、设计决策与评估过程。当前**暂定 PolyULife 为研究对象，并行收集 Web 备选**；选题、具体功能和分工仍由小组讨论确认。
+本仓库记录 COMP3423 小组项目的研究、界面证据、设计决策与评估过程。小组已确定重设计 **PolyULife**，功能范围为 **Apps、Calendar、Room、Food、Map**；各成员分别负责一个功能的证据、改版、测试与报告材料，并共同完成整合。正式截止为 **2026-11-15 23:59**。
 
 协作入口为公开仓库 [12bitsD/comp3423-hci-project](https://github.com/12bitsD/comp3423-hci-project)，任何人都可以读取和克隆。用 GitHub Issues 记录任务和待讨论问题，Pull Request 审阅改动，仓库文件保存研究材料与重要决策。
 
@@ -12,6 +12,12 @@ D 的完整 Food 浏览器原型、两张报告插图、六页可编辑 PPT 与�
 - [可编辑 PPT](prototypes/food-studio/exports/PolyULife-Food-Fresh-Campus-v02.pptx) · [报告插图](prototypes/food-studio/exports/)
 
 v0.2 已由 D 本地验收通过；供团队审阅复用，不代表全组已正式采用。浏览器原型不能替代课程 Figma 与真人 Maze 评估。
+
+## Apps 改版材料（A，2026-11-09）
+
+A 的 Apps 服务查找交互包、八个手机场景、两张报告图和 Figma 连线规格位于 [prototypes/apps-studio](prototypes/apps-studio/README.md)。英文功能小节见 [docs/report/apps.md](docs/report/apps.md)，全组真人测试计划见 [docs/evaluation/maze-plan.md](docs/evaluation/maze-plan.md)。
+
+当前已实现并走查搜索、分类、VRS 详情、加载、外部登录演示、无结果恢复及返回状态保留。**可编辑 Apps Figma 页面尚未迁移**：当前执行环境只有 Figma 公开查看权限，必须按迁移规格获得编辑权限后实际重建和验收。HTML/PNG 与 Agent 走查不替代 Figma 或真人 Maze。
 
 ## 当前进展
 
@@ -80,6 +86,6 @@ v0.2 已由 D 本地验收通过；供团队审阅复用，不代表全组已正
 - 仓库只提交适合公开的材料。不要上传账号密码、令牌、原始个人截图、二维码、未经脱敏的参与者资料或会议录音；本地原始材料放在被忽略的目录中。
 - Agent 走查用于整理证据与提出设计假设。课程要求的真人参与和 Maze 评估按 [项目简述](docs/project-brief.md) 执行。
 
-当前任务：[Room 查询 Computer Use 取证 #1](https://github.com/12bitsD/comp3423-hci-project/issues/1)、[收集 Web 备选 #2](https://github.com/12bitsD/comp3423-hci-project/issues/2)。任务认领和讨论在 Issues 中进行，达成的决定更新 [决策记录](docs/decisions.md)。完整步骤见 [协作说明](CONTRIBUTING.md)。
+当前任务按五项功能与共同交付跟踪：[Apps #9](https://github.com/12bitsD/comp3423-hci-project/issues/9)、[Calendar #10](https://github.com/12bitsD/comp3423-hci-project/issues/10)、[Room #11](https://github.com/12bitsD/comp3423-hci-project/issues/11)、[Food #12](https://github.com/12bitsD/comp3423-hci-project/issues/12)、[Map #13](https://github.com/12bitsD/comp3423-hci-project/issues/13)、[Maze #14](https://github.com/12bitsD/comp3423-hci-project/issues/14) 和 [最终整合 #15](https://github.com/12bitsD/comp3423-hci-project/issues/15)。任务认领和讨论在 Issues 中进行，达成的决定更新 [决策记录](docs/decisions.md)。完整步骤见 [协作说明](CONTRIBUTING.md)。
 
 本仓库未复制课程原始文件和私人会议材料。正式要求以课程最新发布内容为准。
