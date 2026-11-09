@@ -34,4 +34,4 @@
 - 外部域名来自 VRS 观察；其他服务统一写 Official PolyU service，不猜造网址。
 - 外部登录页是安全静态演示，不可输入凭证、不会联网认证或提交访客申请。
 - 浏览器计时只是原型过渡，不是原 App 或改版的真人/网络性能数据。
-- 导出截图和 Agent 走查证明实现行为，不是真人 Maze 结果。当前尚无可编辑 Apps Figma 页面、真人结果或效果提升结论。
+- 导出截图和 Agent 走查证明实现行为，不是真人 Maze 结果。Chrome 已建立 `02 · Apps Redesign` 页面并导入 `A04 · VRS details`；SVG 文字为 Vector 轮廓，其余七张画框、Prototype 连线和 Present 验收仍未完成。当前没有真人结果或效果提升结论。
