@@ -4,6 +4,12 @@
 
 协作入口为公开仓库 [12bitsD/comp3423-hci-project](https://github.com/12bitsD/comp3423-hci-project)，任何人都可以读取和克隆。用 GitHub Issues 记录任务和待讨论问题，Pull Request 审阅改动，仓库文件保存研究材料与重要决策。
 
+## 报告与提交
+
+- 报告正文（组内协作，Google Docs）：[COMP3423 Group Project Report](https://docs.google.com/document/d/1_ioGm5Dj4ddUIqEqHfH6Fi9SwLvmo101Xq3o4zb23QU/edit?usp=sharing)
+- 展示 PPT（Canva，组内可编辑）：https://canva.link/g9251yakkrmvf4c
+- 课程 v3 要求：在 Canvas 提交 **一个 zip**（报告 Word/PDF + 展示 PPT），**每个小组只提交一次**；演示视频单独上传到 Canvas 给的链接，不放进 zip；**Figma 链接必须对 marker 可访问**，否则扣分。截止 **2026-11-15（周日）23:59**。
+
 ## Food 改版与共用视觉（Fresh Campus v0.2）
 
 D 的完整 Food 浏览器原型、两张报告插图、六页可编辑 PPT 与使用规范位于 [prototypes/food-studio](prototypes/food-studio/README.md)。下载仓库后双击该目录的 `index.html` 即可离线体验。
@@ -18,6 +24,18 @@ v0.2 已由 D 本地验收通过；供团队审阅复用，不代表全组已正
 A 的 Apps 服务查找交互包、八个手机场景、三张报告/过程图和 Figma 连线规格位于 [prototypes/apps-studio](prototypes/apps-studio/README.md)。英文功能小节见 [docs/report/apps.md](docs/report/apps.md)，全组真人测试计划见 [docs/evaluation/maze-plan.md](docs/evaluation/maze-plan.md)。
 
 当前已实现并走查搜索、分类、VRS 详情、加载、外部登录演示、无结果恢复及返回状态保留。Chrome 中已确认 LIN HAO 账号的小组文件编辑权限，并建立 `02 · Apps Redesign` 页面和 `A04 · VRS details` 画框；其余画框与 Prototype 连线仍待导入和验收，当前不能记为 Figma 完成。HTML/PNG 与 Agent 走查不替代完整 Figma 或真人 Maze。
+
+## Map 改版与 Maze 结果（E，2026-11-10）
+
+E 的 Map 功能改版（八屏 + 两个起点浮层）与 Maze 测试结果：
+
+- 报告 4.5 节英文正文：[docs/report/map.md](docs/report/map.md)
+- Maze 方法、数据与原话：[docs/evaluation/map-maze-results.md](docs/evaluation/map-maze-results.md)
+- Figma 设计文件（Map 流程从 `65:2` 开始）：[打开](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=65-2)
+
+5 名非组员完成 4 个任务：M1 100%、M2 50%、M3 100%、M4 50%（1 人 M1 后退出，后三题 n=4）。唯一实质失败是 M2——折叠面板看不出可以展开，原话 "Do not know how to open the detailed list"。据此改了 5 处：列表可发现性、起点 chip、P/F 引导、楼层灰态与移除 Clear、搜索框降权。
+
+结论的前提：原型以 Industrial Centre 为案例，因为校方只公开该楼的分层平面图；Core 楼没有公开楼层图。参与者数据按 [证据约定](evidence/README.md) 脱敏，仓库不保存可识别信息。
 
 ## 当前进展
 
