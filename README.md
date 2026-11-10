@@ -23,7 +23,7 @@ v0.2 已由 D 本地验收通过；供团队审阅复用，不代表全组已正
 
 A 的 Apps 服务查找交互包、八个手机场景、三张报告/过程图和 Figma 连线规格位于 [prototypes/apps-studio](prototypes/apps-studio/README.md)。英文功能小节见 [docs/report/apps.md](docs/report/apps.md)，全组真人测试计划见 [docs/evaluation/maze-plan.md](docs/evaluation/maze-plan.md)。
 
-当前已实现并走查搜索、分类、VRS 详情、加载、外部登录演示、无结果恢复及返回状态保留。Chrome 中已确认 LIN HAO 账号的小组文件编辑权限，并建立 `02 · Apps Redesign` 页面和 `A04 · VRS details` 画框；其余画框与 Prototype 连线仍待导入和验收，当前不能记为 Figma 完成。HTML/PNG 与 Agent 走查不替代完整 Figma 或真人 Maze。
+当前已实现并走查搜索、分类、VRS 详情、加载、外部登录演示、无结果恢复及返回状态保留。**2026-11-11 更新**：`A01 · All services`、`A04 · VRS details`、`A05 · VRS loading` 三帧已入主文件 `02 · Team Redesign` 页的 Apps Section 并完成接线（H00 首页 Apps 入口 → A01 → VRS 行 → A04 → Continue → A05，返回链完整），Present 逐步验证通过。其余五帧（A00/A02/A03/A06/A07）仍待导入。HTML/PNG 与 Agent 走查不替代完整 Figma 或真人 Maze。
 
 ## Map 改版与 Maze 结果（E，2026-11-10）
 
@@ -47,12 +47,18 @@ E 的 Map 功能改版（八屏 + 两个起点浮层）与 Maze 测试结果：
 
 已建立 [PolyULife Figma 文件](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)，正在依照实测截图制作原应用复现。文件存在不代表全应用复现完成；可编辑节点、交互连线和 Present 运行结果逐项登记于台账。
 
-## Food 独立改版（D，2026-11-05）
+## Food 改版（D，2026-11-05；2026-11-11 已并入主文件）
 
-- [设计文件](https://www.figma.com/design/RGbquBbhRlgHI9el7V9TgT/?node-id=4-16) · [Present 原型](https://www.figma.com/proto/RGbquBbhRlgHI9el7V9TgT/?node-id=4-16&page-id=4%3A2&starting-point-node-id=4%3A16&scaling=scale-down&content-scaling=fixed)
+- [主文件 Food Section](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=1108-16) · [Present 原型](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=1109-12&scaling=scale-down&content-scaling=fixed)
 - [使用、视觉规范与整合说明](docs/food-figma.md) · [Present 验证记录](evidence/2026-11-05-food-figma/walkthrough.md)
 
-独立 Fresh Campus 改版供后续合并；下方旧文件保留为原应用复现。
+21 个画框已于 2026-11-11 从独立文件并入主文件 `02 · Team Redesign` 页的 Food Section（画框清单与位置经 REST 比对 21/21 一致，472 处样式引用已重挂到主文件本地样式），内部 Prototype 连线完整。原独立文件（`RGbquBbhRlgHI9el7V9TgT`）保留为历史版本，不再更新。
+
+## 共享首页与整合状态（2026-11-11）
+
+- 共享首页 `H00 · Home (shared)`（复用 Observed UI 的 Home features 画框）：[设计](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=1119-19) · [Present](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=1119-19&scaling=scale-down&content-scaling=fixed)
+- 已接线并 Present 验证：H00 → Food → F01 → ‹ Home → H00；H00 → Apps → A01 → VRS 行 → A04 → Continue → A05 → Cancel → A04 → Back → A01；A01 ‹ Home → H00
+- 已知限制：H00 的 Map / Room / Study progress / My Courses 入口与底部 tab 栏暂无连接（跨页接线受限，待 C/E 改版画框交付到 02 页后接）；H00 为 576×970，与改版画框 390×844 混排时 Present 尺寸有跳变；Map 改版画框去向待 E 确认（见 #18）
 
 ## Figma 原型链接
 
