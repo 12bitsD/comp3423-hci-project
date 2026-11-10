@@ -7,6 +7,7 @@
 ## 报告与提交
 
 - 报告正文（组内协作，Google Docs）：[COMP3423 Group Project Report](https://docs.google.com/document/d/1_ioGm5Dj4ddUIqEqHfH6Fi9SwLvmo101Xq3o4zb23QU/edit?usp=sharing)
+- 展示 PPT（Canva，组内可编辑）：https://canva.link/g9251yakkrmvf4c
 - 课程 v3 要求：在 Canvas 提交 **一个 zip**（报告 Word/PDF + 展示 PPT），**每个小组只提交一次**；演示视频单独上传到 Canvas 给的链接，不放进 zip；**Figma 链接必须对 marker 可访问**，否则扣分。截止 **2026-11-15（周日）23:59**。
 
 ## Food 改版与共用视觉（Fresh Campus v0.2）
