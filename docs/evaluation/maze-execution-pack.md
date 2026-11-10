@@ -4,6 +4,12 @@
 
 ## 0. 流程总览
 
+> **2026-11-11 已建并发布**：研究 `PolyULife Maze 2026-11 (Food + Apps)`（Maze 项目 PolyULife COMP3423）。
+> **测试链接：https://t.maze.co/609474600** （Track responses 开、每设备限一次）
+> 已含 5 个 Mission（Food×4 + Apps×1）+ Opinion Scale + Open Question。
+> 注意：Maze 不允许同一 Figma 文件导入两个 study（报 unexpected error），Food 和 Apps 合并在同一研究。
+
+
 ```
 建 Maze 项目（本包 §1）→ 发链接给 ≥5 位真人（§5 招募文案）→ 参与者自己完成（无需主持）
 → 你在 Maze 后台收报告（§6）→ 按 §7 模板写进课程报告
@@ -102,4 +108,6 @@
 - 执行者：Agent（非真人），目的仅为验证任务可行性
 - 结果：F-T1/F-T2/F-T4 全路径 Present 走通，无阻断；F-T3 措辞已从组合筛选改为单筛选（原型只支持单筛选帧）
 - 关键确认：F01 → Cafés chip → Filter/Cafés → View details → Detail/hcafe → Map/hcafe → 返回链全部可达
+- 教训：Maze 导入链接应指向 Flow 起点；同一 Figma 文件不能导入两个 study（合并不是一个坏选择，参与者一次做完 Food+Apps 也更连贯）
+- 待人工确认：CUA 无法点击 Maze 内嵌的跨域 Figma iframe（自动化限制），正式发布后请人工点第一个任务确认原型可交互
 - Apps 任务终点从 A06 修订为 A05（A06 未建帧）
