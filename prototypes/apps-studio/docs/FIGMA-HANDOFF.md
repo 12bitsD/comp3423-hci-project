@@ -1,6 +1,6 @@
 # Apps · Figma 迁移与连线规格
 
-更新：2026-11-09。小组 Figma 已建立 `02 · Apps Redesign`，并导入 `A04 · VRS details`（390 × 844，Frame/Group/Vector）。`figma/` 保存八张 SVG 迁移源。**其余七张画框和 Prototype 连线尚未完成；以下是剩余施工规格，不是完成记录。**
+11 月 11 日：[共享 Apps 入口](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=1138-56)已有 A01、A04、A05，H00 → A01 → A04 → A05 及返回已走通。以下八屏是设计规格；待补 A00、A02、A03、A06、A07。
 
 ## 1. 画框和组件
 
@@ -28,7 +28,7 @@ A01/A02/A03/A07 都使用同一列表结构；在 Figma 中用组件 variants �
 
 ## 3. Prototype 连线（Week 7 FSM / STN）
 
-将 A00 设为 starting point，Present 使用 Fit width and height。连线使用 On click → Navigate to → Instant；A05 的自动前进使用 After delay。下表同时是 Week 7 pp. 8–10 所要求的 State Transition Network：S0 Home、S1 列表、S2 详情、S3 加载、S4 官方登录演示、S5 无结果。报告图见 `../exports/figure-03-apps-stn.png`；分类和查询变化作为 S1 内部 variants，返回详情前保存、返回列表后恢复查询/分类/滚动位置。
+独立演示规格以 A00 为 starting point，共享版从 H00 进入，Present 使用 Fit width and height。连线使用 On click → Navigate to → Instant；A05 的自动前进使用 After delay。下表同时是 Week 7 pp. 8–10 所要求的 State Transition Network：S0 Home、S1 列表、S2 详情、S3 加载、S4 官方登录演示、S5 无结果。报告图见 `../exports/figure-03-apps-stn.png`；分类和查询变化作为 S1 内部 variants，返回详情前保存、返回列表后恢复查询/分类/滚动位置。
 
 | 起点与触发器 | 目标 | 状态要求 |
 | --- | --- | --- |
@@ -54,7 +54,3 @@ A01/A02/A03/A07 都使用同一列表结构；在 Figma 中用组件 variants �
 - 检查所有按钮、返回目标、画框文字裁切、长服务名和空结果恢复；重新打开 Present 后复验。
 - 保存带日期的测试版本副本，之后再做真人反馈迭代。测试版与提交版链接分别登记。
 - Share 设置需满足课程要求的查看/评论权限；用非编辑账号实际打开链接复核。
-
-## 5. 当前阻塞与完成定义
-
-当前 Chrome 账号具备编辑权限，但 Kimi 扩展的本机文件上传权限尚未开启，剩余七张 SVG 未能批量导入。只有“八张画框全部导入、Prototype 连线实际走通、权限复核、证据登记”全部完成，才能把 Apps 标为 Figma 完成；单张画框、HTML 走查和 PNG 导出都不算替代完成。

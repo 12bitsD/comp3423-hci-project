@@ -2,18 +2,9 @@
 
 更新：2026-11-11。本包是**执行模板**，不含任何真人数据。正式提交课程的数据必须来自真人参与者（≥5 位非组员）。第 8 节的 Pilot 记录是 Agent 试跑，用于验证任务可行性，**不计入五人**。
 
-## 0. 流程总览
+## 0. 已发布研究
 
-> **2026-11-11 已建并发布**：研究 `PolyULife Maze 2026-11 (Food + Apps)`（Maze 项目 PolyULife COMP3423）。
-> **测试链接：https://t.maze.co/609474600** （Track responses 开、每设备限一次）
-> 已含 5 个 Mission（Food×4 + Apps×1）+ Opinion Scale + Open Question。
-> 注意：Maze 不允许同一 Figma 文件导入两个 study（报 unexpected error），Food 和 Apps 合并在同一研究。
-
-
-```
-建 Maze 项目（本包 §1）→ 发链接给 ≥5 位真人（§5 招募文案）→ 参与者自己完成（无需主持）
-→ 你在 Maze 后台收报告（§6）→ 按 §7 模板写进课程报告
-```
+[Food + Apps 参与者入口](https://t.maze.co/609474600)包含 Food 四题、Apps 一题、评分及开放题。招募直接使用第 5 节；第 1 节保留建置步骤，供复查配置使用。11 月 11 日建置时，把同一 Figma 文件再次导入另一研究曾报错，因此两模块合用本研究；当时已开启回应追踪、每台设备限答一次。
 
 ## 1. Maze 项目设置（step by step）
 
@@ -83,9 +74,9 @@
 
 ## 5. 参与者说明（可直接转发）
 
-> 你好！我们在做 PolyU 一门 HCI 课程的原型测试，想邀请你花约 10 分钟点一个手机原型（Food 找餐厅 / Apps 找服务，二选一或都做）。没有对错答案，点错也没关系。全程匿名，我们只记录点击和时长，不收集姓名学号。你可以随时退出。链接：[MAZE_LINK]。谢谢！
+> 你好！我们在做理大 HCI 课程的原型测试，想邀请你用约 10 分钟做五个校园餐饮和访客服务小任务，再回答两道简短问题。没有对错，可以随时退出。我们会记录点击、用时和答复，请不要填写姓名、学号或密码。测试链接：https://t.maze.co/609474600
 
-> Hi! We're testing a mobile app prototype for an HCI course. It takes about 10 minutes — just tap through the prototype and think aloud if you like. There are no wrong answers. It's anonymous (we only record taps and time). You can stop anytime. Link: [MAZE_LINK]. Thanks!
+> We're testing a PolyU student app prototype. Please allow about 10 minutes for five short food and visitor-service tasks and two follow-up questions. There are no right or wrong answers, and you can stop at any time. We record clicks, timing and responses; please leave out names, student IDs and passwords. Start here: https://t.maze.co/609474600
 
 ## 6. 结果收集清单
 

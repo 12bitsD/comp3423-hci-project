@@ -51,6 +51,6 @@
 - 截图更新后需重新构建 PPT。`exports/` 是用于报告和展示的资产；`work/` 是忽略的中间文件。
 - 再次构建时，用 `PPTX_OUTPUT_NAME` 指定新的版本文件名，避免覆盖已验收文件；相应更新页面中的下载入口。
 
-## GitHub 集成
+## Figma 与演示
 
-本轮已获明确授权，将本目录放在团队仓库的 `prototypes/food-studio/`，创建 `feat/food-design-studio` 分支，通过 PR 审阅。不覆盖仓库根 AGENTS.md。上传前检查 `docs/ACCEPTANCE.md`，本轮用户已明确授权上传 v0.2；后续版本按当次授权处理，不自动合并 main。
+[共享 Food 入口、迁移前原件与走查记录](../../docs/food-figma.md)。
