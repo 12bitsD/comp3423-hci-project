@@ -1,19 +1,10 @@
-# Food 独立 Figma · Fresh Campus
+# Food 改版 · Fresh Campus
 
-更新：2026-11-05。负责人 D / FengTaiYang。沿用已确认 Fresh Campus 风格，独立交付供小组后续整合。
+[共享文件中的 Food 区域](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=1108-16) 已包含全部 21 个画框；从共享首页进入 F01 / All，再点 Home 返回 H00。颜色样式已重挂到主文件。
 
-- [设计文件](https://www.figma.com/design/RGbquBbhRlgHI9el7V9TgT/?node-id=4-16)
-- [Present 原型（从 Home 开始）](https://www.figma.com/proto/RGbquBbhRlgHI9el7V9TgT/?node-id=4-16&page-id=4%3A2&starting-point-node-id=4%3A16&scaling=scale-down&content-scaling=fixed)
-- [实际走查记录](../evidence/2026-11-05-food-figma/walkthrough.md)
-- [此前完整视觉包与可编辑 PPT 的 PR](https://github.com/12bitsD/comp3423-hci-project/pull/7)
+**迁移前的对照材料（11 月 5 日）**：[独立设计文件](https://www.figma.com/design/RGbquBbhRlgHI9el7V9TgT/?node-id=4-16) · [独立 Present](https://www.figma.com/proto/RGbquBbhRlgHI9el7V9TgT/?node-id=4-16&starting-point-node-id=4%3A16) · [原始走查记录](../evidence/2026-11-05-food-figma/walkthrough.md)。旧版从 F00 开始，适合对照迁移前后的行为。
 
-## 使用与整合
-
-打开设计文件中的 02 · Food Redesign / Fresh Campus v0.2 页面，共 21 个 390×844 画框。包含 Home、8 个列表状态、搜索示例、5 组详情/地图及外部服务提示。文字、按钮、画框和餐碗/咖啡矢量均可编辑，商户图片和地图为位图。颜色样式位于 Fresh Campus / Food。
-
-Present 选择 Fit width and height，点击界面内按钮。长列表可滚动。搜索通过 Chinese Soup、Sushi 两个预设任务演示。详情和地图的 Back 返回来源；Home 回到独立模块首页。
-
-分享设置已确认 Anyone can view。编辑和合并由文件所有者或获得编辑权限的队友完成。整合时将该页的全部画框一起复制，保留内部连接，然后把小组首页 Food 入口接到 F01 / All，并将各列表 Home 接回小组首页。复制后必须重新检查起点、字体、图片和返回链路。
+390×844 画框包含列表、营业时间、预设搜索、商户详情、地图及外部服务提示。文字和按钮可编辑，商户图片和地图为位图。
 
 ## 视觉规范
 

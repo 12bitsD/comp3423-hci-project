@@ -1,10 +1,13 @@
 # COMP3423 · PolyULife 重设计
 
-五名组员分别负责 Apps、Calendar、Room、Food、Map。五个模块都已从共享首页接入。**截止：2026-11-15（周日）23:59。**
+**[完整 Figma 设计文件（五个模块）](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/) · [从共享首页开始演示](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=1119-19&starting-point-node-id=1119%3A19&scaling=scale-down&content-scaling=fixed)**
+
+PolyULife 是理大学生查课表、找教室和使用校园服务的移动应用。以刚入学的小林为例：课前，他先看下一节课在哪间教室，再查房间位置和楼层；午休时找还在营业的餐厅，有朋友来校时再查访客登记服务。这个示例解释了五个模块为何共用一个首页；小林是设计用的虚构人物。
+
+**提交截止：2026-11-15（周日）23:59。**
 
 ## 资源清单
 
-- **演示与编辑**：[从共享首页 H00 演示](https://www.figma.com/proto/ulBuuteCRdzdBsHAaiqyUr/?node-id=1119-19&starting-point-node-id=1119%3A19&scaling=scale-down&content-scaling=fixed) · [Figma 主文件「02 · Team Redesign」](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=1097-2)
 - **报告与展示**：[报告协作主稿（Google Docs）](https://docs.google.com/document/d/1_ioGm5Dj4ddUIqEqHfH6Fi9SwLvmo101Xq3o4zb23QU/edit?usp=sharing) · [Word 初稿快照](docs/report/COMP3423-Report-Draft.docx) · [展示 PPT（Canva）](https://canva.link/g9251yakkrmvf4c)
 - **真人测试**：[Food + Apps 参与者链接](https://t.maze.co/609474600) · [招募文案与结果记录模板](docs/evaluation/maze-execution-pack.md) · [Map 真人测试结果](docs/evaluation/map-maze-results.md)
 - **设计与证据**：[原界面观察台账](docs/polyulife/README.md) · [Apps 设计包](prototypes/apps-studio/README.md) · [Calendar 改前问题、改动与 HCI 依据](docs/evaluation/calendar-design-rationale.md) · [Food 视觉与组件规范](prototypes/food-studio/docs/STYLE-GUIDE.md) · [Map 改版说明](docs/report/map.md)

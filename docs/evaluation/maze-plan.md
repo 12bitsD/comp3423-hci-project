@@ -1,6 +1,6 @@
 # PolyULife · 全组 Maze 测试计划
 
-更新：2026-11-09。负责人 E 组织；A–E 各自提供功能任务、招募至少一位不同的真实目标用户，并分析自己的功能。当前是**计划，不是测试结果**。
+E 组织评估，各负责人解释本模块的结果。不同研究的任务、原型版本与样本量分别记录。
 
 ## 1. 目标与参与者
 
@@ -19,41 +19,14 @@
 4. 不在任务文字中泄露点击路径。参与者操作时只使用统一说明，不临场提示；协助和中止都写入备注。
 5. 保留 Maze 原始导出和 dashboard 截图，按匿名编号整理。任何阻断修复记录时间、版本及受影响结果。
 
-## 3. 五条任务
+## 3. 任务与证据（11 月 11 日）
 
-### Apps（A，可直接录入）
-
-**English task wording**
-
-> A guest will visit you on campus tomorrow. Using the PolyULife prototype, find the service that lets you request a QR code for your guest, review what is needed to continue, and open the official service page. When you are finished, return to the service list so you could choose another service.
-
-**Success and observation**
-
-- Maze 成功终点：到达 `A06 / Official sign-in`，且服务为 Visitor Registration System。
-- 返回检查：关闭外部页并回到进入前列表；查询、分类和滚动位置应保留。若 Maze 只能设一个终点，将返回行为作为后续观察/追加任务记录，不改写主任务成功数据。
-- 记录直接/间接成功、耗时、错误入口、查询词、是否误解 NetID 交接、返回是否顺利及原话。
-- 不要求输入 NetID/NetPassword，不提交真实访客申请。
-- 后续理解问题：`Which category or filter is active now?` 与 `What do you expect to happen before you can use this service?`
-
-### Calendar（B，待功能负责人确认）
-
-- English task wording：**待 B 提供**。应要求找指定日期的课程或事件并查看详情，不写出 Calendar、筛选或按钮路径。
-- Success：**待 B 提供目标 frame、正确日期/事件和返回状态。**
-
-### Room（C，待功能负责人确认）
-
-- English task wording：**待 C 提供**。应要求找指定房间/时段，并处理一次无可用或无结果恢复，不提示搜索、日期或 Available 控件。
-- Success：**待 C 提供目标 frame、正确房间/日期和恢复条件。**
-
-### Food（D，待功能负责人确认）
-
-- English task wording：**待 D 提供**。可围绕寻找餐厅、核对营业时间并返回，不把历史演示时间写成当前真实营业状态。
-- Success：**待 D 提供目标 frame、正确餐厅/信息和返回状态。**
-
-### Map（E，待功能负责人确认）
-
-- English task wording：**待 E 提供**。应要求按需求找一类校园设施并查看位置，不直接提示分类或地图按钮。
-- Success：**待 E 提供目标 frame、正确地点和返回状态。**
+| 模块 | 使用的任务和终点 | 状态 |
+| --- | --- | --- |
+| Food + Apps | [已发布任务全文及画框](maze-execution-pack.md)：Food 四题；Apps 从 A01 查访客服务，在 A05 显示交接时计成功。 | [同一个参与者链接](https://t.maze.co/609474600)；返回列表可另作观察，不算作 Maze 已测到的成功条件。 |
+| Map | 找最近的厕所、展开饮水站列表、看位置详情、跟路线到门口。 | [真人结果与迭代](map-maze-results.md)：第一题 n=5，后三题各 n=4。 |
+| Calendar | 拟测：① “Find your class on October 2 and check its details.” C01 → C04，返回 C03 单独核查。② “Find out whether you have an exam that day, then bring back your full schedule.” 检查经过 C06 后回到 C01。 | [画框与连线](calendar-design-rationale.md)；先验收 Present，再配置任务。第二题起终点相同，须核对经过空状态，不能只凭终点计成功。 |
+| Room | 拟测指定房间和时段的可用情况，并从无结果状态恢复。 | C 确认房号、日期及终点，再交 E 配置。 |
 
 ## 4. 指标与反馈
 

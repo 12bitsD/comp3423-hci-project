@@ -1,6 +1,6 @@
 # PolyULife · 最终报告整合框架
 
-目标：正文最多 20 页（参考文献与附录除外），封面按课程要求提供姓名、学号、角色、任务和组长。公开仓库只使用 A–E；正式身份信息由 A 在唯一 Word 主稿中补齐。
+组员在[报告协作主稿](https://docs.google.com/document/d/1_ioGm5Dj4ddUIqEqHfH6Fi9SwLvmo101Xq3o4zb23QU/edit?usp=sharing)合稿，正文最多 20 页，参考文献与附录另计。正式封面由 A 补齐姓名、学号、角色、任务和组长。[仓库 Word 文件](COMP3423-Report-Draft.docx)是 11 月 10 日快照；其附录 A3 的 Map 节点 65:2 属于原独立文件。定稿请使用[完整 Figma](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/)及[整合后的 Map 区域](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=1211-2)。
 
 ## 建议页数与责任
 
@@ -17,9 +17,9 @@
 
 ## 当前输入位置
 
-- Apps：`docs/report/apps.md`，英文功能草稿、两张对照图和候选文献已提供；最终 Figma 链接、真人结果与迭代待补。
-- Calendar / Room / Food / Map：由对应负责人在本目录新增 `calendar.md`、`room.md`、`food.md`、`map.md` 或提供唯一主稿位置。未入库不表示未开始，链接由 Issues #10–#13 追踪。
-- 测试统一方法和数据边界：`docs/evaluation/maze-plan.md`。结果不能由 Agent 生成。
+- Apps：[英文小节](apps.md)；Calendar：[设计理由与六屏预览说明](../evaluation/calendar-design-rationale.md)；Room：[原版查询证据](../polyulife/room-walkthrough.md)。
+- Food：[改版与视觉说明](../food-figma.md)；Map：[英文小节](map.md)与[真人测试结果](../evaluation/map-maze-results.md)。
+- [Maze 测试计划](../evaluation/maze-plan.md)区分已发布任务、已收结果和拟测内容。
 
 ## 每个功能小节统一结构
 
@@ -31,6 +31,6 @@
 
 ## 整合与提交检查
 
-A 维护唯一 Word 主稿并导出 PDF，统一标题、图号、术语和页数；实质改写由原作者确认。B 检查正文引用与参考文献一一对应，C/D/E 分别复核流程、截图版本和评估数据。
+A 从协作主稿导出提交版，统一标题、图号、术语和页数；实质改写由原作者确认。B 检查正文引用与参考文献一一对应，C/D/E 分别复核流程、截图版本和评估数据。
 
 D 以截图为主整合 PPT；视频包含开场、五功能实际 Figma 演示、测试与结论，总时长不超过十分钟。录制后如修改原型，必须同步检查报告、PPT 和视频。最终报告 Word/PDF 与 PPT 打一个 ZIP，视频另交 Canvas；A 保存回执，B 独立复核文件、链接、Figma 查看/评论权限和提交结果。

@@ -1,6 +1,6 @@
 # Figma 迁移与协作说明 / Fresh Campus v0.2
 
-本地通过后再按此结构制作课程 Figma 原型。HTML 原型不自动转换成可编辑 Figma 节点。
+本页是独立 Food Studio 的原设计规格，保留原页面与连线设想供对照。21 帧已并入共享文件；当前画框、入口和返回约定见[Food 整合记录](../../../docs/food-figma.md)。
 
 ## 页面结构
 

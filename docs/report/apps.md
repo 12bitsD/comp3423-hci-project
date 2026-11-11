@@ -1,6 +1,6 @@
 # Apps and Service Discovery — Report-ready Subsection
 
-Status: design and implementation draft, 2026-11-09. Real-participant results and the final Figma link remain to be inserted. The analysis below uses COMP3423 lecture frameworks first and treats Nielsen’s heuristics as supporting terminology. It does not claim an improvement that has not been evaluated.
+Design and implementation draft. The [shared Apps prototype](https://www.figma.com/design/ulBuuteCRdzdBsHAaiqyUr/?node-id=1138-56) contains A01, A04 and A05. Real-participant findings are still to be added.
 
 ## User task and observed problem
 
@@ -49,11 +49,11 @@ The **Finite State Machine / State Transition Network from Week 7, Part 1, pp. 8
 
 ## Prototype and evaluation plan
 
-The eight principal frames implement the states above. Interactive targets use the shared Fresh Campus typography, colour tokens, and CRAP-based organisation. The current browser implementation verifies these behaviours, but the editable Figma migration and Present walkthrough remain a separate completion requirement.
+The eight scenes in the browser prototype implement the states above. Interactive targets use the shared Fresh Campus typography, colour tokens, and CRAP-based organisation. The current browser implementation verifies these behaviours, and the shared Figma walkthrough covers the service list, VRS details, loading and return. The other five scenes still need to be integrated.
 
 This process follows **Week 6’s iterative Design Thinking model (pp. 2–3)**. Interface observation and the problem statement support Define; the two discovery routes and external handoff support Ideate; A00–A07 form the Prototype. Empathize requires the group’s user-research evidence and must not be claimed from interface inspection alone. Test will use real participants and feed any resulting changes back into the prototype.
 
-The Maze task will ask at least five real target users to find the service for requesting a guest campus QR code, review what is required, open the official service page, and return to the service list. The wording does not reveal “Apps”, “search”, “Campus”, or “VRS” as a click path. We will record direct and indirect success, completion time, wrong turns, and participant comments. Post-task questions will ask participants to identify the active filter and describe what they expect before external sign-in. These measures test the Feedback and Semantic Priming decisions; Fitts’ Law is not presented as quantitatively validated without suitable pointing measurements.
+The [published Maze task](../evaluation/maze-execution-pack.md) asks users to find the visitor QR service. Maze counts arrival at A05 (external loading) as success. Reaching an official sign-in page or returning with a preserved filter is outside that endpoint. Interpret clicks, time and participant comments against this narrower task.
 
 **Results and iteration — to be completed after real testing.** Insert the participant count, raw Maze export/dashboard reference, per-task outcomes, representative quotations, and specific design changes. Agent walkthroughs verify only implemented links and state restoration; they are not participant evidence.
 
